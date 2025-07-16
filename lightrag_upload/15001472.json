@@ -1,0 +1,33 @@
+{
+  "decision": "PENDING",
+  "application_number": "15001472",
+  "date_published": "20170720",
+  "date_produced": "20170705",
+  "title": "Method and system for call authentication and providing reliability",
+  "filing_date": "20160120",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jang",
+      "inventor_name_first": "Wha Cheol",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2042",
+    "G06Q1008",
+    "G06Q2012",
+    "H04L2906"
+  ],
+  "main_ipcr_label": "G06Q2042",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Accordingly, the present invention has been made keeping in mind the above problems occurring in the prior art, and an object of the present invention is to provide a method and system that can check the reliability of an actual user by performing authentication based on a call to a registered terminal so as to use a specific service. Another object of the present invention is to provide a user authentication method and system based on phone approval, which perform authentication using a separate terminal via communication between a server for providing service and a server for performing phone authentication (call authentication) without causing a terminal that requested the service to perform authentication, thus making it impossible to perform forgery or falsification. A further object of the present invention is to provide a user authentication method and system based on phone approval, which request a user to enter approval or rejection for the user's transaction request via one-way authentication, and process the transaction based on the entered result, thus strengthening an identification function and a non-repudiation function. Yet another object of the present invention is to provide a user authentication method and system based on phone approval, which are capable of preventing abnormal transactions in advance and which allow the system to automatically notify a user of the occurrence of a symptom such as suspected hacking, or allow the user to perceive the symptom and immediately make a report, thus preventing the occurrence of accidents related to security. In accordance with an aspect of the present invention, there is provided a method for authenticating a user and providing reliability. According to an embodiment of the present invention, there is a provided a method authenticating a user in response to a service request of a first terminal, including receiving, by a service provision server, a service provision req...",
+  "patent_number": "None",
+  "abstract": "Disclosed herein are a method and system for authenticating a user and providing reliability based on phone approval. The method includes receiving, by a service provision server, a service provision request from a first terminal; determining, by the service provision server, whether a type of requested service is service requiring verification of reliability of the user, and transmitting a phone authentication request, including the service type and authentication terminal information about a second terminal, to a phone authentication server; sending, by the phone authentication server, an authentication information request guidance message to the second terminal, acquiring authentication information, performing authentication of the user, and transmitting an authentication result to the service provision server; when the authentication results indicates a success or confirmation of approval, providing requested service to the first terminal; and cumulatively storing the authenticatio...",
+  "publication_number": "US20170206530A1-20170720",
+  "_processing_info": {
+    "original_size": 67785,
+    "optimized_size": 3592,
+    "reduction_percent": 94.7
+  }
+}

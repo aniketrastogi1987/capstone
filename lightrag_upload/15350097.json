@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15350097",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "title": "METHOD, APPARATUS, AND PROGRAM FOR JUDGING GRID QUALITY",
+  "filing_date": "20161113",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NAITO",
+      "inventor_name_first": "Satoshi",
+      "inventor_city": "Kanagawa-ken",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K900",
+    "G06K903",
+    "G06K946"
+  ],
+  "main_ipcr_label": "G06K900",
+  "summary": "<SOH> SUMMARY <EOH>In the case that the aforementioned fluctuations in grid density are present, unnecessary periodic structures which differ from the intended periodic structure of the grid will be included within the grid. In addition, there are also cases in which the influence of adhesive agents that adhesively attach the materials that constitute the grid cause unnecessary periodic structures different from the intended periodic structure of the grid to be included, in addition to the fluctuations in grid density. Further, the surface of the grid is polished during production thereof. There are cases in which streaks due to polishing are generated in directions different from the direction of the stripes of the grid, and these streaks cause unnecessary periodic structures to be included as well. The frequencies of such unnecessary periodic structures are different from the frequency of the intended periodic structures of the grid. For this reason, even if filtering processes are administered to remove frequency components of more patterns which are generated due to a grid from a radiation image which is obtained by performing imaging employing the grid, it is not possible to remove frequency components that correspond to the unnecessary periodic structures from the radiation image. Frequency components corresponding to such unnecessary periodic structures that cannot be removed become a hindrance to diagnosis employing the radiation image. Accordingly, it is preferable for a judgment to be rendered regarding whether a grid is of a utilizable quality when performing imaging utilizing a grid, and to utilize only grids having utilizable qualities. Interval defects of a grid can be detected if the technique disclosed in Japanese Unexamined Patent Publication No. S61(1986)-133848 is employed, and therefore whether a grid is of a utilizable quality can be judged. However, it is necessary to perform a plurality of imaging operations while changing the orientation of a...",
+  "patent_number": "None",
+  "abstract": "An image obtaining section obtains a radiation image that includes a periodic pattern of a grid. A frequency analyzing section performs frequency analysis on the radiation image to obtain a frequency spectrum of the radiation image. A peak determining section determines a peak within the frequency spectrum to be a target of processing. A first judging section measures the width of the peak which is the target of processing, and judges the quality of the grid based on the measured width of the peak.",
+  "publication_number": "US20170140203A1-20170518",
+  "_processing_info": {
+    "original_size": 117816,
+    "optimized_size": 3070,
+    "reduction_percent": 97.39
+  }
+}

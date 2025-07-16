@@ -1,0 +1,30 @@
+{
+  "date_produced": "20170119",
+  "publication_number": "US20170032284A1-20170202",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15222954",
+  "inventor_list": [
+    {
+      "inventor_name_last": "TSUCHIDA",
+      "inventor_name_first": "Kunio",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A machine learning apparatus, which learns a condition associated with a filter unit for filtering an analog input signal, includes a state observer for observing a state variable that includes at least one of a noise component and noise amount of an output signal from the filter unit and a responsivity to the input signal; and a learner for learning the condition associated with the filter unit in accordance with a training data set that includes the state variable.",
+  "filing_date": "20160729",
+  "patent_number": "nan",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention aims to provide a machine learning apparatus that can establish an optimal filter for removing external noise in accordance with the state of a system or a machine by machine learning and to enable the removal of the external noise without degrading responsivity, a motor drive apparatus and a motor drive system having the machine learning apparatus, and a machine learning method. A machine learning apparatus according to an embodiment of the present invention, for learning a condition associated with a filter unit for filtering an analog input signal, includes a state observer for observing a state variable that includes a noise component and noise amount of an output signal from the filter unit and a responsivity to the input signal; and a learner for learning the condition associated with the filter unit in accordance with a training data set that includes the state variable. A motor drive apparatus according to the embodiment of the present invention includes the above-described machine learning apparatus. A motor drive system according to the embodiment of the present invention includes the above-described motor drive apparatus and a machine commander for providing notification of information about the operation of a machine. A machine learning method according to the embodiment of the present invention, for learning a condition associated with a filter unit for filtering an analog input signal, includes the steps of observing a state variable that includes a noise component and noise amount of an output signal from the filter unit and a responsivity to the input signal; and learning the condition associated with the filter unit in accordance with a training data set that includes the state variable.",
+  "date_published": "20170202",
+  "title": "MACHINE LEARNING APPARATUS FOR LEARNING FILTER IN ACCORDANCE WITH MACHINE COMMAND, MOTOR DRIVE APPARATUS AND MOTOR DRIVE SYSTEM HAVING MACHINE LEARNING APPARATUS, AND MACHINE LEARNING METHOD",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 23155,
+    "optimized_size": 2938,
+    "reduction_percent": 87.31
+  }
+}

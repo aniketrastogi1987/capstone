@@ -1,0 +1,54 @@
+{
+  "patent_number": "None",
+  "application_number": "15421016",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N304",
+  "abstract": "The technology disclosed provides a so-called “pointer sentinel mixture architecture” for neural network sequence models that has the ability to either reproduce a token from a recent context or produce a token from a predefined vocabulary. In one implementation, a pointer sentinel-LSTM architecture achieves state of the art language modeling performance of 70.9 perplexity on the Penn Treebank dataset, while using far fewer parameters than a standard softmax LSTM.",
+  "publication_number": "US20180082171A1-20180322",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings, like reference characters generally refer to like parts throughout the different views. Also, the drawings are not necessarily to scale, with an emphasis instead generally being placed upon illustrating the principles of the technology disclosed. In the following description, various implementations of the technology disclosed are described with reference to the following drawings, in which: FIG. 1 illustrates aspects of a pointer sentinel mixture architecture that improves prediction of rare and out of vocabulary (OoV) tokens in neural network sequence modeling. FIG. 2 shows one implementation of operation of the pointer sentinel mixture architecture of FIG. 1 . FIG. 3 depicts one implementation of a sentinel gate vector that dictates how much weight to give to a pointer network and to a vocabulary network. FIG. 4 is a numerical example that shows one implementation of operation of the pointer sentinel mixture architecture of FIG. 1 . FIG. 5 illustrates a table that compares a pointer sentinel-LSTM to a variety of other models on a Penn Treebank dataset. FIG. 6 is a table that compares a pointer sentinel-LSTM to a variety of other models on a WikiText-2 language modeling task. FIG. 7 is a graph that depicts mean difference in log perplexity on a Penn Treebank dataset when using a pointer sentinel-LSTM compared to a LSTM model. FIG. 8A and FIG. 8B illustrate visualized qualitative analysis of how a pointer network is used by the pointer sentinel mixture architecture of FIG. 1 to predict rare and out of vocabulary (OoV) tokens. FIG. 9 is a simplified block diagram of a computer system that can be used to implement the pointer sentinel mixture architecture of FIG. 1 . detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "G06N700",
+    "G06F1727"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MERITY",
+      "inventor_name_first": "Stephen Joseph",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "XIONG",
+      "inventor_name_first": "Caiming",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BRADBURY",
+      "inventor_name_first": "James",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SOCHER",
+      "inventor_name_first": "Richard",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "POINTER SENTINEL MIXTURE ARCHITECTURE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 59727,
+    "optimized_size": 3323,
+    "reduction_percent": 94.44
+  }
+}

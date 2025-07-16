@@ -1,0 +1,37 @@
+{
+  "date_produced": "20170906",
+  "publication_number": "US20170270427A1-20170921",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15073520",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhou",
+      "inventor_name_first": "Hucheng",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Cao",
+      "inventor_name_first": "Bokai",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "In implementations of the subject matter described herein, a machine learning scheme is proposed. Features of historical inputs from a user as well as corresponding outputs presented to the user in response to the historical inputs are obtained, where the features are previously determined based on contexts of the historical inputs which indicate information related to the user. The features of the historical inputs are assigned into a plurality of groups. An association is determined on the basis of the plurality of groups of features. Specifically, an association indicating inter-group correlations of features from different ones of the groups is determined according to the obtained outputs. Therefore, in determining the association, intra-group correlations such as correlations of features within a group are excluded. In this way, the time and computation complexity for the association determination will be effectively reduced.",
+  "filing_date": "20160317",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with implementations of the subject matter described herein, a machine learning scheme is proposed. Features of historical inputs from a user as well as corresponding outputs presented to the user in response to the historical inputs are obtained, where the features are previously determined based on contexts of the historical inputs which indicate information related to the user. As used herein, the term “feature” refers to information used to characterize an aspect(s) of an input. The features of the historical inputs are assigned into a plurality of groups. An association is determined on the basis of the plurality of groups of features. Specifically, an association indicating inter-group correlations of features from different ones of the groups is determined according to the obtained outputs. Therefore, in determining the association, intra-group correlations such as correlations of features within a group are excluded. In this way, the time and computation complexity for the association determination will be effectively reduced. The determined association may be used to make predication for a further input. In accordance with implementations of the subject matter described herein, a scheme for applying an association determined from the machine learning is proposed. In response to an input from a user, features of the input are obtained based on a context of the input and then assigned into a plurality of groups. The assignment of features into the groups may be similar to what is done in the association determination. An output is generated based on the groups of features according to the determined association. This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subj...",
+  "date_published": "20170921",
+  "title": "MULTI-VIEW MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 76201,
+    "optimized_size": 3606,
+    "reduction_percent": 95.27
+  }
+}

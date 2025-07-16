@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15680963",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "filing_date": "20170818",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "A method and system providing a multi-memristive synaptic element for a cognitive computing system. The multi-memristive synaptic element comprises an array of memristive devices. The method comprises arbitrating a synaptic weight allocation, a related synaptic weight being represented by a synaptic weight variable of said multi-memristive synaptic element, updating said synaptic weight variable by a delta amount, and assigning said memristive devices to elements of a clock-like ordered circular list for selecting a particular memristor of said memristive devices requiring to be updated by a deterministic, periodic global clock that points to a different memristor at every clock tick, such that said multi-memristive synaptic element has a larger dynamic range and a more linear conductance response than a single memristor synaptic element.",
+  "publication_number": "US20180082177A1-20180322",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect, there is provided a method for providing a multi-memristive synaptic element for a cognitive computing system. The multi-memristive synaptic element may comprise an array of memristive devices. The method comprises: arbitrating, by a programmed hardware processor, a synaptic weight allocation, a related synaptic weight being represented by a synaptic weight variable of said multi-memristive synaptic element, updating, using the programmed hardware processor, the synaptic weight variable by a delta amount, and assigning, by the programmed hardware processor, the memristive devices to elements of a clock-like ordered circular list for selecting a particular memristor of the memristive devices requiring to be updated by a deterministic, periodic global clock that points to a different memristor at every clock tick, running, by the programmed hardware processor, a reset clock, operating independently of the periodic global clock, for triggering a reset operation to be performed on a memristive device; such that the multi-memristive synaptic element has a larger dynamic range and a more linear conductance response than a single memristor synaptic element; and wherein a number of the ordered list of elements in the ordered circular list and an increment rate for the ordered circular list relate to each other in such a way that during consecutive iterations of selections at least one sub-element is different. According to another aspect, there is provided a multi-memristive synaptic element for a cognitive computing system. The multi-memristive synaptic element comprises: an array of memristive devices, as well as an arbitration module for arbitrating a synaptic weight allocation, the synaptic weight being represented by a synaptic weight variable of said multi-memristive synaptic element, an updating unit adapted for updating said synaptic weight variable by a delta amount, wherein said arbitration module is also adapted for ass...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Boybat Kara",
+      "inventor_name_first": "Irem",
+      "inventor_city": "ZURICH",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Le Gallo",
+      "inventor_name_first": "Manuel",
+      "inventor_city": "ZURICH",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Sebastian",
+      "inventor_name_first": "Abu",
+      "inventor_city": "ADLISWIL",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Tuma",
+      "inventor_name_first": "Tomas",
+      "inventor_city": "ADLISWIL",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "title": "MULTI-MEMRISTIVE SYNAPSE WITH CLOCK-ARBITRATED WEIGHT UPDATE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 82286,
+    "optimized_size": 3850,
+    "reduction_percent": 95.32
+  }
+}

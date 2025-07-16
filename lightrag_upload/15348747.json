@@ -1,0 +1,44 @@
+{
+  "date_produced": "20180425",
+  "publication_number": "US20180129971A1-20180510",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15348747",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Vlassis",
+      "inventor_name_first": "Nikolaos",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Theocharous",
+      "inventor_name_first": "Georgios",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Haines",
+      "inventor_name_first": "Mandana Hamidi",
+      "inventor_city": "Corvallis",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Certain embodiments involve learning user preferences and predicting user behavior based on sequential user behavior data. For example, a system obtains data about a sequence of prior actions taken by multiple users. The system determines a similarity between a prior action taken by the various users and groups the various users into groups or clusters based at least in part on the similarity. The system trains a machine-learning algorithm such that the machine-learning algorithm can be used to predict a subsequent action of a user among the various users based on the various clusters. The system further obtains data about a current action of a new user and determines which of the clusters to associate with the new user based on the new user's current action. The system determines an action to be recommended to the new user based on the cluster associated with the new user. The action can include a series or sequence of actions to be taken by the new user. The system further provides t...",
+  "filing_date": "20161110",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure provide systems and methods for learning user preferences and predicting user behavior based on sequential user behavior data, which can be used to improve the recommendation of various actions to a user in various applications. In one example, a method for learning user preferences for accurately predicting user behavior based on sequential user behavior data includes obtaining, by a processor, a data set. The data set can indicate a sequence of prior actions taken by a plurality of users. The method further includes grouping, by the processor, the plurality of users to form a plurality of user clusters based at least in part on a similarity between a prior action taken by the plurality of users. The method further includes using, by the processor, the plurality of user clusters to train a machine-learning algorithm, the machine-learning algorithm usable to predict a subsequent action of a user of the plurality of users. The method also includes obtaining, by the processor, user data indicating a current action of a subsequent user. The method also includes determining, by the processor, a user cluster of the plurality of user clusters to associate with the subsequent user based on the current action using the machine-learning algorithm. The method further includes determining, by the processor, a recommended sequence of actions to be provided to the subsequent user based on the user cluster and the current action using the machine-learning algorithm. Additional features and advantages of exemplary embodiments of the present disclosure will be set forth in the description which follows, and in part will be obvious from the description, or will be learned by the practice of such exemplary embodiments. The foregoing summary is not an extensive overview, and it is not intended to identify key elements or indicate a scope. Rather the foregoing summary identifies aspects of embodiments as a prelude to the ...",
+  "date_published": "20180510",
+  "title": "LEARNING USER PREFERENCES USING SEQUENTIAL USER BEHAVIOR DATA TO PREDICT USER BEHAVIOR AND PROVIDE RECOMMENDATIONS",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 100242,
+    "optimized_size": 3918,
+    "reduction_percent": 96.09
+  }
+}

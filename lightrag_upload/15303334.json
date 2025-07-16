@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15303334",
+  "date_published": "20170209",
+  "date_produced": "20170125",
+  "title": "IDENTIFICATION AND ANALYSIS OF COPIED AND PASTED PASSAGES IN MEDICAL DOCUMENTS",
+  "filing_date": "20161011",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Stankiewicz",
+      "inventor_name_first": "Brian J.",
+      "inventor_city": "Mahtomedi",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Peterson",
+      "inventor_name_first": "Kelly S.",
+      "inventor_city": "Salt Lake City",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Garrison",
+      "inventor_name_first": "Garri L.",
+      "inventor_city": "Leitchfield",
+      "inventor_state": "KY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1900",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1900",
+  "summary": "<SOH> SUMMARY <EOH>In general, this disclosure describes systems and techniques for identifying and analyzing copied and pasted passages (e.g., text) of a medical document. For example, systems described herein may identify one or more passages (e.g., text) of a new (or more recent) medical document that have been copied and pasted from one or more other medical documents. These copy-paste passages may include text relevant to the respective other medical documents from which the text was copied, but the text of the copy-paste passages may be inaccurate for the medical document to which the text has been pasted. The system may also analyze any identified copy-paste passages for risk of potential error. The system may determine a risk level for each of the copy-paste passages of the medical document. The risk level may be determined based on general context, such as whether the copy-paste passage was copied from or pasted into a restricted region of a medical document, or specific context, such as typical patient-specific text of copy-paste passages or a portion of the copy-paste passage incompatible with other passages within the new medical document. The system may output, for display, indications of any copy-paste passages or only those copy-paste passages having a risk level exceeding a risk threshold. In addition, the system may remove an indication of a copy-paste passage if user input is received that confirms or modifies at least a portion of the copy-paste passage. In one example, this disclosure describes a computer-implemented method for managing medical information, the method including receiving, by a computing device, a second medical document related to a patient encounter, determining, by the computing device, that a passage of the second medical document has been copied from a first medical document, determining, by the computing device, a risk level for the passage, the risk level indicating a likelihood that the passage includes inaccurate informat...",
+  "patent_number": "None",
+  "abstract": "This disclosure describes systems, devices, and techniques for identifying and analyzing copied and pasted passages of medical documents. In one example, a computer-implemented method includes receiving, by a computing device, a second medical document related to a patient encounter and determining, by the computing device, that a passage of the second medical document has been copied from a first medical document. The method may also include determining, by the computing device, a risk level for the passage, the risk level indicating a likelihood that the passage includes inaccurate information regarding the patient encounter, determining, by the computing device, that the risk level exceeds a risk threshold, and outputting, by the computing device, an indication of the passage for which the risk level exceeds the risk threshold.",
+  "publication_number": "US20170039326A1-20170209",
+  "_processing_info": {
+    "original_size": 133284,
+    "optimized_size": 3739,
+    "reduction_percent": 97.19
+  }
+}

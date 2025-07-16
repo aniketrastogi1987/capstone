@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170329",
+  "publication_number": "US20170103317A1-20170413",
+  "main_ipcr_label": "G06N308",
+  "decision": "ACCEPTED",
+  "application_number": "15389345",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Young",
+      "inventor_name_first": "Reginald Clifford",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for generating a respective neural network output for each of a plurality of inputs, the method comprising, for each of the neural network layers: receiving a plurality of inputs to be processed at the neural network layer; forming one or more batches of inputs from the plurality of inputs, each batch having a number of inputs up to the respective batch size for the neural network layer; selecting a number of the one or more batches of inputs to process, where a count of the inputs in the number of the one or more batches is greater than or equal to the respective associated batch size of a subsequent layer in the sequence; and processing the number of the one or more batches of inputs to generate the respective neural network layer output.",
+  "filing_date": "20161222",
+  "patent_number": "9842293",
+  "summary": "<SOH> SUMMARY <EOH>In general, this specification describes a special-purpose hardware circuit that computes neural network inferences. In general, one innovative aspect of the subject matter described in this specification can be embodied in methods that include the actions of generating a respective neural network output for each of a plurality of inputs, wherein the generating comprises processing each input through each of a plurality of neural network layers to generate the respective neural network output for the input, wherein the neural network layers are arranged in a sequence, and wherein each neural network layer has a respective batch size, the method comprising, for each of the neural network layers: receiving a plurality of inputs to be processed at the neural network layer; forming one or more batches of inputs from the plurality of inputs, each batch having a number of inputs up to the respective batch size for the neural network layer; selecting a number of the one or more batches of inputs to process, where a count of the inputs in the number of the one or more batches is greater than or equal to the respective associated batch size of a subsequent layer in the sequence; and processing the number of the one or more batches of inputs to generate the respective neural network layer output. Implementations can include one or more of the following features. The respective batch size is based at least on a weight reuse value, the weight reuse value representing a number of times that weight inputs need to be reused for a compute time of output values using the weight inputs at a matrix computation unit to be longer than a load time of the weight inputs from memory. Where the weight reuse value is based at least on a clock rate of the memory storing the weight inputs. Each batch size is based at least on the weight reuse value divided by a number of times that weight inputs for the respective layer are reused. The plurality of neural network layers is pr...",
+  "date_published": "20170413",
+  "title": "BATCH PROCESSING IN A NEURAL NETWORK PROCESSOR",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 58956,
+    "optimized_size": 3406,
+    "reduction_percent": 94.22
+  }
+}

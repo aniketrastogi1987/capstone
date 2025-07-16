@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170301",
+  "publication_number": "US20170076203A1-20170316",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15345471",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Knight",
+      "inventor_name_first": "William C.",
+      "inventor_city": "Bainbridge Island",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McNee",
+      "inventor_name_first": "Sean M.",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computer-implemented system and method for generating document training sets is provided. Unclassified documents are provided to two or more classifiers. A classification code assigned to each unclassified document is received. A determination is made as to whether a disagreement exists between classification codes assigned to a common unclassified document via different classifiers. The common unclassified document with a disagreement in classification codes are provided for further review. Results of the further review include one of a new classification code and confirmation of one of the assigned classification codes. The unclassified documents for which a disagreement exists are grouped as a training set.",
+  "filing_date": "20161107",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram showing a system for generating a reference set for use during document review, in accordance with one embodiment. FIG. 2 is a flow diagram showing a method for generating a reference set for use during document review, in accordance with one embodiment. FIG. 3 is a data flow diagram showing examples of the selection criteria of FIG. 2 . FIG. 4 is a flow diagram showing, by way of example, a method for generating a reference set via hierarchical clustering. FIG. 5 is a flow diagram showing, by way of example, a method for generating a reference set via iterative clustering. FIG. 6 is a flow diagram showing, by way of example, a method for generating a reference set via document seeding. FIG. 7 is a flow diagram showing, by way of example, a method for generating a reference set via random sampling. FIG. 8 is a flow diagram showing, by way of example, a method for generating a reference set via user assisted means. FIG. 9 is a flow diagram showing, by way of example, a method for generating a reference set via active learning. FIG. 10 is a flow diagram showing, by way of example, a method for generating a training set. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170316",
+  "title": "COMPUTER-IMPLEMENTED SYSTEM AND METHOD FOR GENERATING DOCUMENT TRAINING SETS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 68553,
+    "optimized_size": 2730,
+    "reduction_percent": 96.02
+  }
+}

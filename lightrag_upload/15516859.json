@@ -1,0 +1,30 @@
+{
+  "patent_number": "None",
+  "application_number": "15516859",
+  "date_published": "20171019",
+  "date_produced": "20171004",
+  "filing_date": "20170404",
+  "main_ipcr_label": "G06N300",
+  "abstract": "A method implemented on a computer comprises the steps of receiving an input value to be evaluated; queuing the input value in a queue; selecting, in the queue, a queued input value; determining an output value by evaluating, by inference of the rules base, the queued input value selected. Developments describe the broadcasting of one or more output values, the scheduling in time and/or in space of the evaluations of the queued input values (notably in terms of computation resources), the selective evaluation of input values, the use of a dependency graph, parameters of expiration of parts of rules in time, the use of inference according to fuzzy logic. System aspects, notably component and software aspects, are described.",
+  "publication_number": "US20170300804A1-20171019",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A method is disclosed that is implemented on a computer comprising the steps consisting in receiving an input value to be evaluated; queuing the input value in a queue; selecting, in the queue, a queued input value; determining an output value by evaluating, by inference by means of the rules base, the queued input value selected. Developments describe the broadcasting of one or more output values, the scheduling in time and/or in space of the evaluations of the queued input values (notably in terms of computation resources), the selective evaluation of input values, the use of a dependency graph, parameters of expiration of parts of rules in time, the use of inference according to fuzzy logic. System aspects, notably component and software aspects, are described. According to a general aspect of the invention, a software architecture is disclosed that makes it possible to obtain optimized performance levels, aiming to identify the different output data as a function of the rules and of the input data. More specifically, according to one embodiment of the invention, a fuzzy expert system is disclosed that is capable of managing a stream (continuous or regular or discontinuous or irregular or periodic or aperiodic or intermittent) of inputs and of progressively returning (e.g. “with the stream”) the values of the corresponding outputs. The different embodiments of the invention are advantageously used in technical fields such as home automation or industrial regulation. Generally, the invention will be applicable for monitoring a system or a given object by means of several sensors which measure different phenomena continuously (or at possibly different frequencies, intermittently or periodically). Methods and systems according to the invention can make it possible to implement a home-automation regulation system. For example, a fuzzy expert system according to the invention can measure over time (discretely or continuously) the va...",
+  "ipcr_labels": [
+    "G06N300"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "POLI",
+      "inventor_name_first": "Jean-Philippe",
+      "inventor_city": "PARIS",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "title": "SOFTWARE ARCHITECTURE FOR EXPERT SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 73462,
+    "optimized_size": 3269,
+    "reduction_percent": 95.55
+  }
+}

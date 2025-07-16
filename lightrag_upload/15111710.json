@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15111710",
+  "date_published": "20161117",
+  "date_produced": "20161102",
+  "title": "Method and Device for Storing Data, Method and Device for Decoding Stored Data, and Computer Program Corresponding Thereto",
+  "filing_date": "20160714",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jule",
+      "inventor_name_first": "Alan",
+      "inventor_city": "La Garenne-Colombes",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1110",
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F1110",
+  "summary": "<SOH> 3. SUMMARY OF THE INVENTION <EOH>The invention proposes a novel solution that does not have all these drawbacks of the prior art in the form of a method for storing data, the method implementing an error-correction code defining a set of variables linked by constraints, each variable being associated with source data and/or redundancy data. According to the invention, such a method implements the following steps: determining variables forming at least one stopping set of the code, determining a scheme for allocating the variables, allocating a distinct storage carrier to each variable forming a stopping set, distributing variables, or data associated with the variables, to the storage carriers according to the allocation scheme. By distributing the variables forming a stopping set (or values/data carried by these variables) among different storage carriers, it is possible to use an iterative decoder to recover the source data even in the event of loss or failure of at least one of the storage carriers. Thus, the decoding complexity is reduced. More specifically, determining the variables that form a stopping set makes it possible to identify the variables that must not be erased simultaneously to enable recovery of the source data. The distribution of the variables that form a stopping set amongst distinct storage carriers therefore prevents the blocking of the decoder that could occur if all the variables forming a stopping set were to be erased simultaneously in the event of failure of a storage carrier. The notion of a stopping set is well known to those skilled in the art and is recalled especially in Richardson and Urbanke, “Modern Coding Theory”. By definition, such a stopping set is a sub-set of the set of variables such that all the constraint nodes (also called parity nodes) that are connected to the variables forming the stopping set, in the representation in the form of a Tanner graph, are connected at least twice to the variables forming the stoppi...",
+  "patent_number": "None",
+  "abstract": "A method is provided for storing data. The method implements an error-correction code defining a set of variables linked by constraints, each variable being associated with source data and/or redundancy data. The method implements the following steps: determining variables forming at least one stopping set of said code, determining a scheme for allocating said variables, allocating a distinct storage carrier to each variable forming a stopping set, distributing said variables, or data associated with said variables, to said storage carriers according to said allocation scheme.",
+  "publication_number": "US20160335155A1-20161117",
+  "_processing_info": {
+    "original_size": 87500,
+    "optimized_size": 3221,
+    "reduction_percent": 96.32
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15788641",
+  "date_published": "20180426",
+  "date_produced": "20180411",
+  "filing_date": "20171019",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Disclosed is perceptual system for facilitating a stream of data required for data analytics is disclosed. The perceptual system comprises a data ingestion governance module, a data input ports module, a data ingestion module, and an opportunity input packager module. The data ingestion governance module receives an input instruction, from a data analytics system, associated to data required for data analytics. The data ingestion governance module further determines a data source, amongst a plurality of data sources, generating a stream of data. The data input ports module establishes a network connection with the data source in order to extract the stream of data. The data ingestion module transforms the stream of data into a stream of transformed data based on the input instruction. The opportunity input packager module generates a stream of input packets upon including metadata in the stream of transformed data and thereby transmitting the stream of input packets to the data analyti...",
+  "publication_number": "US20180114130A1-20180426",
+  "summary": "<SOH> SUMMARY <EOH>Before the present systems and methods, are described, it is to be understood that this application is not limited to the particular systems, and methodologies described, as there can be multiple possible embodiments which are not expressly illustrated in the present disclosure. It is also to be understood that the terminology used in the description is for the purpose of describing the particular versions or embodiments only, and is not intended to limit the scope of the present application. This summary is provided to introduce concepts related to systems and methods for facilitating a stream of data, upon pre-processing, to a data analytics system and the concepts are further described below in the detailed description. This summary is not intended to identify essential features of the claimed subject matter nor is it intended for use in determining or limiting the scope of the claimed subject matter. In one implementation, a perceptual system for facilitating a stream of data required for data analytics is disclosed. The perceptual system comprises a processor and a memory coupled to the processor. The processor is capable of executing a plurality of modules stored in the memory. The perceptual system comprises a data ingestion governance module, a data input ports module, a data ingestion module, and an opportunity input packager module. The data ingestion governance module may receive an input instruction, from a data analytics system, associated to data required for data analytics. The data ingestion governance module may further determine a data source, amongst a plurality of data sources, generating a stream of data. In one aspect, the data source may be determined based on a predefined mapping of a type of the data analytics, to be performed, with one or more data sources of the plurality of data sources. The data input ports module may establish a network connection with the data source in order to extract the stream of data. The data i...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "H04L1224"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "RANA",
+      "inventor_name_first": "Satyendra Pal",
+      "inventor_city": "Northville",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KEERTHY",
+      "inventor_name_first": "Chandra Puttanna",
+      "inventor_city": "Northville",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KALLAKURI",
+      "inventor_name_first": "Krishna Prakash",
+      "inventor_city": "Northville",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Method And System For Pre-Processing Data Received From Data Sources To Deduce Meaningful Information",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 47893,
+    "optimized_size": 3942,
+    "reduction_percent": 91.77
+  }
+}

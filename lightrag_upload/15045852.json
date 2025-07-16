@@ -1,0 +1,44 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15045852",
+  "date_published": "20160609",
+  "date_produced": "20160525",
+  "title": "REDUNDANT ERROR DETECTION IN A CLINICAL DIAGNOSTIC ANALYZER",
+  "filing_date": "20160217",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Dambra",
+      "inventor_name_first": "Joseph J.",
+      "inventor_city": "Rochester",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hurpeau",
+      "inventor_name_first": "Jean-Christophe",
+      "inventor_city": "Saint-Amou!t-en-Yve!ines",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Reed",
+      "inventor_name_first": "Mark D.",
+      "inventor_city": "Honeoye Falls",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1900"
+  ],
+  "main_ipcr_label": "G06F1900",
+  "summary": "<SOH> SUMMARY <EOH>A preferred embodiment provides a system and method for detecting or predicting errors to prevent release of questionable laboratory test results. Briefly, the preferred embodiment employs a redundant error detection capability to further examine the message traffic for possible errors or questionable results by comparing the actual parameters against an expected fingerprint generated for each assay using an assay database and a configuration file or specification. This testing does not rely on inputs from the software module being tested, and hence is an independent test. For instance, if the scheduler software performs in unexpected ways, it is desirable to have an independent method to flag such errors before any results affected by such errors or issues are released. Further, a testing mechanism is provided to test the Redundant Error Detection (“RED”) capability itself. The fingerprint is generated, preferably dynamically, from (i) an assay database capable of providing protocol information for each assay, and (ii) hard-coded information in the form of a configuration file for the assay, replicate or device of interest. The fingerprint is a set of expected events required for successful completion of the test in question. At the same time, the number of events in a fingerprint typically is less than the exhaustive listing of events that are actually executed for the test. The reduction in the number of events in the protocol database to generate the fingerprint is guided by the configuration specification. Preferably, the configuration specification is merged with information from the assay database to generate the expected fingerprint. With a generated fingerprint, RED reviews the message traffic and identifies discrepancies in the form of events required by the fingerprint that are absent from the message traffic to flag questionable results. RED can also review emulator files or data logging files to gain access to the message data and ide...",
+  "patent_number": "10002678",
+  "abstract": "Disclosed is a clinical diagnostic analyzer employing a redundant error detection capability to further examine the internal message traffic for possible errors or questionable results by comparing the actual parameters against a fingerprint generated for each assay using an assay database and a configuration file. This testing does not rely on inputs from the software module being tested, and hence is an independent test. Further, a testing mechanism is provided to test the Redundant Error Detection (“RED”) capability itself.",
+  "publication_number": "US20160162653A1-20160609",
+  "_processing_info": {
+    "original_size": 70485,
+    "optimized_size": 3430,
+    "reduction_percent": 95.13
+  }
+}

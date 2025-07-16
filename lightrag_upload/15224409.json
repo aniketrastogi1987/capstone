@@ -1,0 +1,32 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032905A1-20180201",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15224409",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Abercrombie",
+      "inventor_name_first": "Nathan",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one aspect, a machine learning system for performing anomaly grouping is disclosed. The machine learning system includes a processor; a memory; and one or more modules stored in the memory and executable by a processor to perform operations including: receive stack traces associated with corresponding anomaly events; automatically generate initial rules for grouping the anomaly events responsive to the received stack traces; apply the generated initial rules to the anomaly events; receive additional stack traces, user input, or both; update the initial rules based on the received additional stack traces, user input, or both; organize the anomaly events corresponding to the received stack traces and additional stack traces into one or more groups of anomaly events using the updated rules; and provide a user interface to display the one or more groups of anomaly events.",
+  "filing_date": "20160729",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Examples of implementations of dynamic query chunking and streaming of results of the chunked queries are disclosed. In one aspect, a machine learning system for performing crash grouping is disclosed. The machine learning system includes a processor; a memory; and one or more modules stored in the memory and executable by a processor to perform operations including: receive stack traces associated with corresponding anomaly events; automatically generate initial rules for grouping the anomaly events responsive to the received stack traces; apply the generated initial rules to the anomaly events; receive additional stack traces, user input, or both; update the initial rules based on the received additional stack traces, user input, or both; organize the anomaly events corresponding to the received stack traces and additional stack traces into one or more groups of anomaly events using the updated rules; and provide a user interface to display the one or more groups of anomaly events. The system can be implemented in various ways to include one or more of the following features. For example, the one or more modules can be executable by a processor to generate the initial rules including apply weights to properties of the received stack traces. The one or more modules can be executable by a processor to update the initial rules including adjust the weights of the properties of the received stack traces based on the user input. The one or more modules can be executable by a processor to update the initial rules including adjust the weights of the properties of the received stack traces based on the new stack traces. The one or more modules can be executable by a processor to identify new properties based on the new stack traces and apply weights to the new properties. The one or more modules can be executable by a processor to enable users to share the generated initial rules or adjusted rules with each other. The one or more modules can be executabl...",
+  "date_published": "20180201",
+  "title": "Adaptive Anomaly Grouping",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 76500,
+    "optimized_size": 3425,
+    "reduction_percent": 95.52
+  }
+}

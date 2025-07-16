@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15806249",
+  "date_published": "20180524",
+  "date_produced": "20180509",
+  "filing_date": "20171107",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Audio sensors collaborate for geo-location and tracking of health conditions for multiple users. Different users can be independently geo-located and tracked within the AI environment. Location is determined from two or more AI clients of known locations that detect an event such as a human voice command to connect a call with a specific user. Responsive to classification of a health event of concern, in view of the estimated location, a command for an AI action, such as contacting a hospital server or adapting to monitor a suspected health condition, is received for a response to the health event at the AI clients that detected the health event, or others.",
+  "publication_number": "US20180144255A1-20180524",
+  "summary": "<SOH> SUMMARY <EOH>To meet the above-described needs, methods, computer program products, and systems for monitoring health conditions for users with a collaboration of audio sensors for geo-location and tracking of multiple users in a device-independent artificial intelligence (AI) environment (e.g., home, office, outdoor area, or business). In one embodiment, location information is stored for each of the plurality of geographically-dispersed AI clients. Each of the AI clients can include an audio sensor, a network controller, and a feedback mechanism (e.g., a speaker or an LED) within a common enclosure. Responsive to detection of a health event (e.g., coughing, sneezing, snoring, walking), or other type of event (e.g., involving a human, machine, or ambient condition) at two or more of the plurality of geographically-dispersed AI clients, audio event data is centrally received from audio sensors of the two or more of the plurality of geographically-dispersed AI sensors. An audio event is classified as a health audio event, in one embodiment, by comparing the audio event data (or series of audio event data) against parameters of one or more specific health concerns associated with the user. Each health concern can be expressed as a mathematical model with parameters. Health concerns can be diagnosed or monitored through AI clients of a home automation system. Different users can be independently geo-located and tracked within the AI environment. Identification data can be applied to events to distinguish one user from another, including voice prints, habits, walking patters, and the like. As users move around an AI environment, new events are detected at new AI clients, which are processed to update location. A location of users involved in a call is estimated based on the location information and the audio event data (e.g., triangulation). Responsive to classification of the event in view of the estimated location, a command for an AI action, such as connecting ...",
+  "ipcr_labels": [
+    "G06N502",
+    "G10L1704",
+    "G10L1706"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shams",
+      "inventor_name_first": "Nima Lahijani",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Maheshaiah",
+      "inventor_name_first": "Suhas",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wahdan",
+      "inventor_name_first": "Laila",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "COLLABORATION OF AUDIO SENSORS FOR GEO-LOCATION AND CONTINUOUS TRACKING OF HEALTH CONDITIONS FOR USERS IN A DEVICE-INDEPENDENT ARTIFICIAL INTELLIGENCE (AI) ENVIRONMENT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 60996,
+    "optimized_size": 3644,
+    "reduction_percent": 94.03
+  }
+}

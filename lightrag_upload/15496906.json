@@ -1,0 +1,63 @@
+{
+  "patent_number": "None",
+  "application_number": "15496906",
+  "date_published": "20171026",
+  "date_produced": "20171011",
+  "filing_date": "20170425",
+  "main_ipcr_label": "G06N502",
+  "abstract": "In one aspect there is provided a method. The method may include collecting one or more functions that implement the decision logic of a solution. A snapshot of the one or more functions can be generated. The snapshot can executable code associated with the one or more functions. The solution can be deployed by at least storing the snapshot of the one or more functions to a repository Systems and articles of manufacture, including computer program products, are also provided.",
+  "publication_number": "US20170308793A1-20171026",
+  "summary": "<SOH> SUMMARY <EOH>Systems, methods, and articles of manufacture, including computer program products, are provided for deploying self-contained decision logic. In some example embodiments, there is provided a method. The method can include: collecting one or more functions that implement a decision logic of a solution; generating a snapshot of the one or more functions, the snapshot comprising executable code associated with the one or more functions; and deploying the solution by at least storing the snapshot of the one or more functions to a repository. The stored snapshot can be deployed into multiple independent execution environment such as, for example, Spark™, Amazon® Web Services (AWS) Lambda, mobile devices, Internet of Things (IoT) devices, and/or embedded devices. In some variations, one or more features disclosed herein including the following features can optionally be included in any feasible combination. The one or more functions can implement a knowledge model that is part of the decision logic of the solution. The knowledge model can include one or more predictive models, optimization algorithms, business and operational rules, decision trees, decisions tables, scorecards, and/or decision graphs. The one or more functions can further implement an input data object and/or a data transformation object. In some variations, the snapshot can be stored at a specific location within the repository. The specific location can be a bucket that is specifically provisioned for storing the snapshot. The solution can be deployed as a batch job configured to apply the decision logic to a batch of input values. A scheduler of the batch job can be configured to perform the batch job with the snapshot stored at the specific location within the repository as a definition for the batch job. The solution can also be deployed as a web service by at least rendering the snapshot stored at the specific location within the repository available over one or more networks. The...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1114",
+    "G06F1722",
+    "G06F1116",
+    "G06F1730",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Prismon",
+      "inventor_name_first": "Joshua",
+      "inventor_city": "Lafayette",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Palskoi",
+      "inventor_name_first": "Andrei",
+      "inventor_city": "Parkland",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Holland",
+      "inventor_name_first": "Andrew K.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Donati Jorge",
+      "inventor_name_first": "Fernando Felipe Campos",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wells",
+      "inventor_name_first": "Stuart Clarkson",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DEPLOYMENT OF SELF-CONTAINED DECISION LOGIC",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 69792,
+    "optimized_size": 3702,
+    "reduction_percent": 94.7
+  }
+}

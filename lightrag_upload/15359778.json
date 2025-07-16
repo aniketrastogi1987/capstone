@@ -1,0 +1,39 @@
+{
+  "date_produced": "20171004",
+  "publication_number": "US20170300825A1-20171019",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15359778",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Como",
+      "inventor_name_first": "Joanne K.",
+      "inventor_city": "Chichester",
+      "inventor_state": "NH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Egnor",
+      "inventor_name_first": "Dianne E.",
+      "inventor_city": "Catonsville",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Jammer behavior modeling utilizes two-layer hidden Markov models (HMMs) for identifying an interferer's plurality of modes and accumulating statistics on transitions between the interferer's plurality of modes for use in improved jammer characterization. The two-layer hidden Markov model characterizes jammer behavior by estimating time-varying but repetitive (mode-cycling) jammer behavior, providing estimates of future states for use by a strategy optimizer. Steps include receiving input data from an interferer; determining if models exist for describing the interferer's behavior; determining if a new model is needed; building a first layer HMM for each state of the interferer; building a second layer HMM using an output from the first layer HMM; and outputting the results from the first and second layer HMMs to a strategy optimizer to identify an interferer's plurality of modes and accumulate statistics on transitions between the interferer's plurality of modes for use in jammer mode ...",
+  "filing_date": "20161123",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An embodiment provides a two-layer hidden Markov model (HMM) method of predicting jammer behavior comprising receiving input data from an interferer; determining if any models exist for describing an interferer's behavior; determining if a new model is needed; building a first layer HMM for each state of the interferer; building a second layer HMM using an output from the first layer HMM; and outputting results from the first layer HMM and the second layer HMM to a strategy optimizer which identifies an interferer's plurality of modes and accumulates statistics on transitions between the interferer's plurality of modes for use in jammer behavior prediction, wherein the predictions are made by the strategy optimizer to select from a library of mitigation strategies the optimal strategy to be used against a next predicted mode of the jammer. In embodiments the input data comprises higher order statistics; a binary detection map; a likelihood vector for current observation features; a statefile; and a timestamp. In other embodiments, the two-layer hidden Markov models are built by an interference recognizer. In subsequent embodiments the two-layer hidden Markov models are built by an interference recognizer with one hidden Markov model per emitter. For additional embodiments, upon HMM startup, a model is created for a first mode using a first data window; and subsequent windows are split into frames, each of which is compared to existing models using a two-stage forward HMM. In another embodiment, jammer modes are not previously known, and a number of required states is estimated by calculating an average silhouette of k-means clustering. For a following embodiment k-means clustering is performed on data with increasing number of clusters. In subsequent embodiments, for each k-means result, an average silhouette value is calculated and compared to prior values. In additional embodiments the models are built in an unsupervised fashion, whereby no prio...",
+  "date_published": "20171019",
+  "title": "HIDDEN MARKOV MODEL FOR JAMMER BEHAVIOR PREDICTION",
+  "ipcr_labels": [
+    "G06N700",
+    "H04K300",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 40306,
+    "optimized_size": 3718,
+    "reduction_percent": 90.78
+  }
+}

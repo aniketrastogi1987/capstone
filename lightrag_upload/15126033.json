@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15126033",
+  "date_published": "20180621",
+  "date_produced": "20180608",
+  "title": "Display Device and Display Signal Input System and Display Signal Input Method Thereof",
+  "filing_date": "20160914",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NAKAI",
+      "inventor_name_first": "Tadashi",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F3147",
+    "G06T340",
+    "G06F3048"
+  ],
+  "main_ipcr_label": "G06F3147",
+  "summary": "<SOH> SUMMARY <EOH>An embodiment of the present disclosure provides a display signal input method, comprising: a first step: receiving at least four sub-images formed by dividing an original image; a second step: grouping the received sub-images into a plurality of sub-image groups of a base level, the sub-image group of the base level including at least two sub-image units, and each sub-image unit including at least one sub-image; a third step: judging information of edge matching between every two adjacent sub-image units in each sub-image group of a current level, wherein: if edge matching between the sub-image units in at least one sub-image group of the current level is not correct, respective sub-pixel units are grouped again in a grouping manner different from a grouping manner of the sub-image groups of the current level, and then the third step is repeated; or if edge matching between the respective sub-image units in each sub-image group of the current level is correct, a fourth step is performed; the fourth step: grouping respective sub-image groups of the current level judged in the third step as sub-image units so as to form sub-image groups of a new level, performing the third step with the formed the sub-image groups of the new level as the sub-image groups of the current level till edge matching between any two adjacent sub-images in an image formed by splicing the respective sub-images is correct, and performing a fifth step; and the fifth step: outputting information of the respective sub-images arranged in sequence to a display device, so that the display device can display an image same as the original image. In the above display signal input method, after respective sub-images formed by dividing an original image are received, the plurality of received sub-images are grouped into a plurality of sub-image groups of a base level, in a case edge matching between every two adjacent sub-image units in all the sub-image groups of the base level is cor...",
+  "patent_number": "None",
+  "abstract": "A display device and a display signal input system and a display signal input method thereof are provided. The display signal input method includes: receiving sub-images; grouping the sub-images into a plurality of sub-image groups of a base level; judging information of edge matching between sub-image units in each sub-image group of a current level; if edge matching between the sub-image units in each sub-image group of the current level is correct, grouping respective sub-image groups of the current level as sub-image units to form sub-image groups of a new level, and performing judgment again till edge matching between any two adjacent sub-images in an image formed by splicing the sub-images is correct; and outputting information of the respective sub-images arranged in sequence to the display device.",
+  "publication_number": "US20180173482A1-20180621",
+  "_processing_info": {
+    "original_size": 43428,
+    "optimized_size": 3412,
+    "reduction_percent": 92.14
+  }
+}

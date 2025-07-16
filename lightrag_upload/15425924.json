@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15425924",
+  "date_published": "20170525",
+  "date_produced": "20170510",
+  "filing_date": "20170206",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method of inverse reinforcement learning for estimating reward and value functions of behaviors of a subject includes: acquiring data representing changes in state variables that define the behaviors of the subject; applying a modified Bellman equation given by Eq. (1) to the acquired data: r  ( x ) + γ   V  ( y ) - V  ( x ) =  ln   π  ( y | x ) b  ( y | x ) ,  ( 1 ) =  ln   π  ( x , y ) b  ( x , y ) - ln   π  ( x ) b  ( x ) ,  ( 2 ) where r(x) and V(x) denote a reward function and a value function, respectively, at state x, and γ represents a discount factor, and b(y|x) and π(y|x) denote state transition probabilities before and after learning, respectively; estimating a logarithm of the density ratio π(x)/b(x) in Eq. (2); estimating r(x) and V(x) in Eq. (2) from the result of estimating a log of the density ratio π(x,y)/b(x,y); and outputting the estimated r(x) and V(x).",
+  "publication_number": "US20170147949A1-20170525",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06F1718"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "UCHIBE",
+      "inventor_name_first": "Eiji",
+      "inventor_city": "Okinawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "DOYA",
+      "inventor_name_first": "Kenji",
+      "inventor_city": "Okinawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "DIRECT INVERSE REINFORCEMENT LEARNING WITH DENSITY RATIO ESTIMATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 81029,
+    "optimized_size": 1797,
+    "reduction_percent": 97.78
+  }
+}

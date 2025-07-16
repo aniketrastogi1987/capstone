@@ -1,0 +1,81 @@
+{
+  "date_produced": "20160525",
+  "publication_number": "US20160162783A1-20160609",
+  "main_ipcr_label": "G06N312",
+  "decision": "PENDING",
+  "application_number": "14988359",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tan",
+      "inventor_name_first": "Yongxi",
+      "inventor_city": "Hillsborough",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Jin",
+      "inventor_city": "Bridgewater",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gopalakrishnan",
+      "inventor_name_first": "Nandu",
+      "inventor_city": "Chatham",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xin",
+      "inventor_name_first": "Yan",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mathew",
+      "inventor_name_first": "James",
+      "inventor_city": "Bellemead",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dushyanthan",
+      "inventor_name_first": "Kamalaharan",
+      "inventor_city": "Metuchen",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Alfalujah",
+      "inventor_name_first": "Iyad",
+      "inventor_city": "Bedminster",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fu",
+      "inventor_name_first": "Yanjie",
+      "inventor_city": "Harrison",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Convergence times associated with simulated annealing based (SA-based) optimization in wireless networks can be reduced by introducing an additional local or cell-level evaluation step into the evaluation of global solutions. In particular, new local solutions may be evaluated based on local performance criteria when the new solutions are in a global solution deemed to have satisfied a global performance criteria. New local solutions that satisfy their corresponding local performance criteria remain in the new global solution. New local solutions that do not satisfy their corresponding local performance criteria are replaced with a corresponding current local solution from a current global solution, thereby modifying the new global solution. The resulting modified global solution includes both new local solutions and current local solutions prior to being accepted as the current global solution for the next iteration.",
+  "filing_date": "20160105",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Technical advantages are generally achieved, by embodiments of this disclosure which describe techniques for autonomous, closed-loop and adaptive simulated annealing based machine learning approach for intelligent analytics-assisted Self-Organizing-Networks (SONs). In accordance with an embodiment, a method for adjusting communication parameters in a multi-cell wireless network is provided. In this example, the method iteratively generates and evaluates global solutions for a wireless network over a sequence of iterations. Each of the global solutions includes multiple local solutions that specify wireless configuration parameters for local coverage areas in the wireless network. Each of the global solutions is evaluated using a simulated annealing based (SA-based) optimization algorithm. At least some of the local solutions are evaluated separately from their corresponding global solution. The method further includes selecting one of the global solutions when an output condition is reached, and sending local solutions in the selected global solution to access points (APs) in the wireless network. In one example, iteratively generating and evaluating the global solutions comprises evaluating each of the global solutions during a corresponding iteration using the SA-based optimization algorithm, and evaluating local solutions in corresponding global solutions that satisfy a global performance criteria. In such an example, evaluation of the local solutions may include determining whether the local solutions satisfy a local performance criteria, and replacing, in the corresponding global solutions, local solutions that fail to satisfy the local performance criteria with previous local solutions. The local solutions may satisfy a local performance criteria when a cost of the local solution is less than a threshold or when a function of a cost of the local solution and a local temperature parameter of the SA-based optimization algorith...",
+  "date_published": "20160609",
+  "title": "Autonomous, Closed-Loop and Adaptive Simulated Annealing Based Machine Learning Approach for Intelligent Analytics-Assisted Self-Organizing-Networks (SONs)",
+  "ipcr_labels": [
+    "G06N312",
+    "G06N700",
+    "H04W8418"
+  ],
+  "_processing_info": {
+    "original_size": 208028,
+    "optimized_size": 4628,
+    "reduction_percent": 97.78
+  }
+}

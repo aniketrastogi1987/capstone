@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364799A1-20171221",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15182616",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Chun-Chen",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hao",
+      "inventor_name_first": "Kangli",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Liu",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An apparatus for deciding a simplification policy for a neural network is provided. The deciding apparatus has a plurality of artificial neurons, a receiving circuit, a memory, and a simplifying module. The plurality of artificial neurons are configured to form an original neural network. The receiving circuit receives a set of sample for training the original neural network. The memory is used for recording a plurality of learnable parameters for the original neural network. After the original neural network has been trained with the set of sample, the simplifying module abandons a part of neuron connections in the original neural network based on the learnable parameters recorded by the memory. The simplifying module accordingly decides the structure of a simplified neural network and a plurality of learnable parameters for the simplified neural network.",
+  "filing_date": "20160615",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>To solve the aforementioned problem, simplifying apparatuses and simplifying methods for a neural network are provided. One embodiment according to the invention is a simplifying apparatus for a neural network. The simplifying apparatus includes a plurality of artificial neurons, a receiving circuit, a memory, and a simplifying module. The plurality of artificial neurons are configured to form an original neural network. The receiving circuit is coupled to the plurality of artificial neurons and receives a set of sample for training the original neural network. The memory records a plurality of learnable parameters of the original neural network. After the original neural network has been trained with the set of sample, the simplifying module abandons a part of neuron connections in the original neural network based on the plurality of learnable parameters recorded in the memory. The simplifying module accordingly decides the structure of a simplified neural network. Another embodiment according to the invention is a method for simplifying a neural network. First, an original neural network formed by a plurality of neurons is trained with a set of sample, so as to decide a plurality of learnable parameters of the original neural network. Then, based on the decided learnable parameters, a part of neuron connections in the original neural network is abandoned, so as to decide the structure of a simplified neural network. Another embodiment according to the invention is a non-transitory computer-readable storage medium encoded with a computer program for simplifying a neural network. The computer program includes instructions that when executed by one or more computers cause the one or more computers to perform operations including: (a) training an original neural network formed by a plurality of neurons with a set of sample, so as to decide a plurality of learnable parameters of the original neural network; and (b) based on the plur...",
+  "date_published": "20171221",
+  "title": "SIMPLIFYING APPARATUS AND SIMPLIFYING METHOD FOR NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 54672,
+    "optimized_size": 3716,
+    "reduction_percent": 93.2
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "decision": "PENDING",
+  "application_number": "15188963",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "title": "MANAGEMENT OF STORAGE REPLICATION CONSISTENCY GROUPS USING AUTOMATIC REPLICATION GROUP IDENTIFIERS",
+  "filing_date": "20160621",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Piduri",
+      "inventor_name_first": "Sudarsana R.",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Uluski",
+      "inventor_name_first": "Derek",
+      "inventor_city": "Weymouth",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G06F1730",
+    "G06F9455"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram of a distributed computer system in accordance with an embodiment of the invention. FIG. 2 illustrates virtual volumes of virtual machines running in the distributed computer system that are being replicated in different storage replication consistency groups in accordance with an embodiment of the invention. FIG. 3 illustrates virtual volumes of virtual machines running in the distributed computer system that are being replicated in a single storage replication consistency group in accordance with an embodiment of the invention. FIG. 4 is a swim lane diagram for creating virtual volumes in a storage replication consistency group in accordance with an embodiment of the invention. FIG. 5 is a block diagram of a distributed computer system in accordance with another embodiment of the invention. FIG. 6 is a flow diagram of a method for managing storage replication consistency groups for storage objects of processing entities in a distributed computer system in accordance with an embodiment of the invention. detailed-description description=\"Detailed Description\" end=\"lead\"? Throughout the description, similar reference numbers may be used to identify similar elements.",
+  "patent_number": "None",
+  "abstract": "System and method for managing storage replication consistency groups for storage objects of processing entities uses a replication group identifier for a storage replication consistency group received from a storage interface manager of a storage system with multiple computer data storage devices. The replication group identifier is received when a creation request for a new logical storage unit for a processing entity is transmitted from a host computer to the storage interface manager. The replication group identifier can then be used to request additional logical storage units that will be assigned to the same storage replication consistency group.",
+  "publication_number": "US20170364285A1-20171221",
+  "_processing_info": {
+    "original_size": 55727,
+    "optimized_size": 2679,
+    "reduction_percent": 95.19
+  }
+}

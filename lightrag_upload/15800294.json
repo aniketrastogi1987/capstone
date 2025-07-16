@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15800294",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20171101",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A method for convolution in a convolutional neural network (CNN) is provided that includes accessing a coefficient value of a filter corresponding to an input feature map of a convolution layer of the CNN, and performing a block multiply accumulation operation on a block of data elements of the input feature map, the block of data elements corresponding to the coefficient value, wherein, for each data element of the block of data elements, a value of the data element is multiplied by the coefficient value and a result of the multiply is added to a corresponding data element in a corresponding output block of data elements comprised in an output feature map.",
+  "publication_number": "US20180181857A1-20180628",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure relate to reducing the complexity of convolutions in convolutional neural networks (CNNs). In one aspect, a method for convolution in a convolutional neural network (CNN) is provided that includes accessing a coefficient value of a filter corresponding to an input feature map of a convolution layer of the CNN, and performing a block multiply accumulation operation on a block of data elements of the input feature map, the block of data elements corresponding to the coefficient value, wherein, for each data element of the block of data elements, a value of the data element is multiplied by the coefficient value and a result of the multiply is added to a corresponding data element in a corresponding output block of data elements comprised in an output feature map. In one aspect, an apparatus is provided that includes a processor, and a memory storing software instructions that, when executed by the processor, cause convolution of an input feature map of a convolution layer of a convolutional neural network (CNN) to be performed wherein a coefficient value of a filter corresponding to the input feature map is accessed, and a block multiply accumulation operation is performed on a block of data elements of the input feature map, the block of data elements corresponding to the coefficient value, wherein, for each data element of the block of data elements, a value of the data element is multiplied by the coefficient value and a result of the multiply is added to a corresponding data element in a corresponding output block of data elements comprised in an output feature map. In one aspect, a method for convolution of an input feature map of a convolution layer in a convolutional neural network (CNN) that includes accessing a nonzero coefficient value of a filter corresponding to the input feature map from a first plurality of nonzero coefficients of the filter, accessing a pointer to a block of data elements of the i...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mathew",
+      "inventor_name_first": "Manu",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Desappan",
+      "inventor_name_first": "Kumar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Swami",
+      "inventor_name_first": "Pramod Kumar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "Reduced Complexity Convolution for Convolutional Neural Networks",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 60242,
+    "optimized_size": 3521,
+    "reduction_percent": 94.16
+  }
+}

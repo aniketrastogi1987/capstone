@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180222",
+  "publication_number": "US20180068221A1-20180308",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15258287",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Brennan",
+      "inventor_name_first": "Paul E.",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Carrier",
+      "inventor_name_first": "Scott R.",
+      "inventor_city": "Apex",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stickler",
+      "inventor_name_first": "Michael L.",
+      "inventor_city": "Columbus",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method, system and a computer program product are provided for verifying ground truth data by iteratively clustering machine-annotated training set examples with validation set examples to identify and display one or more prioritized review candidate training set examples grouped with validation set examples meeting a predetermined misclassification criteria in order to solicit verification or correction feedback from a human subject matter expert for inclusion in an accepted training set.",
+  "filing_date": "20160907",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Broadly speaking, selected embodiments of the present disclosure provide a ground truth verification system, method, and apparatus for generating ground truth for a machine-learning process by machine-annotating a ground truth training set and validation set to identify entities and relationships characterized with a relatively high entropy measure which are assigned or grouped into clusters using a rule-based probabilistic algorithm so that training examples that are clustered with validation examples and that meet one or more selection criteria may be identified and highlighted as training example review candidates for a human annotator or SME to verify, either individually or in bulk. In selected embodiments, the selection criteria may be that the training sets fall with a neighborhood of clusters that are ranked by size. In other embodiments, the selection criteria may be that the training set falls with a neighborhood of clustered validation examples having different annotation sources. In selected embodiments, the ground truth verification system may be implemented with a browser-based ground truth verification interface which provides a cluster view of entity and/or relationship mentions from the training and validations sets, where each entity/relationship mention may include an annotation source indication (e.g., true positive, false positive, true negative) or an indication that the mention is a candidate for SME review. In addition or in the alternative, the browser-based ground truth verification interface may be configured to make verification suggestions to a user, such as a subject matter expert, by identifying training examples most likely to be misclassified or mislabeled, grouped by cluster. By presenting clustered verification suggestions, the user can quickly and efficiently identify training examples that are very likely false positives or negatives. The browser-based ground truth verification interface may also be configured ...",
+  "date_published": "20180308",
+  "title": "System and Method of Advising Human Verification of Machine-Annotated Ground Truth - High Entropy Focus",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 80379,
+    "optimized_size": 3394,
+    "reduction_percent": 95.78
+  }
+}

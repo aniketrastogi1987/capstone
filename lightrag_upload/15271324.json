@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180308",
+  "publication_number": "US20180082167A1-20180322",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15271324",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kurata",
+      "inventor_name_first": "Gakuto",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Suzuki",
+      "inventor_name_first": "Masayuki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A method and system are provided. The method includes obtaining, by a hardware processor, candidate data representing a plurality of candidates. The method further includes calculating, by the hardware processor, for each of the candidates, a temporal next state of a Recurrent Neural Network (RNN) by inputting a corresponding one of the candidates to the RNN at a current state. The method also includes merging, by the hardware processor, the temporal next state for each of the candidates to obtain the temporal next state of the RNN.",
+  "filing_date": "20160921",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the present invention, a method is provided for processing a Recurrent Neural Network (RNN). The method includes obtaining, by a hardware processor, candidate data representing a plurality of candidate data. The method further includes calculating, by the hardware processor, for each of the candidate's data, a temporal next state of a Recurrent Neural Network (RNN) by inputting a corresponding one of the candidates to the RNN at a current state. The method also includes merging the temporal next state for each of the candidate's data to obtain the temporal next state of the RNN. According to another embodiment of the present invention, an apparatus and a computer program product are provided for implementing the above method. These and other features and advantages will become apparent from the following detailed description of illustrative embodiments thereof, which is to be read in connection with the accompanying drawings.",
+  "date_published": "20180322",
+  "title": "RECURRENT NEURAL NETWORK PROCESSING POOLING OPERATION",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 57668,
+    "optimized_size": 2213,
+    "reduction_percent": 96.16
+  }
+}

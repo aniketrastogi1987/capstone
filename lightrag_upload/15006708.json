@@ -1,0 +1,59 @@
+{
+  "decision": "PENDING",
+  "application_number": "15006708",
+  "date_published": "20170720",
+  "date_produced": "20170705",
+  "title": "METHOD FOR MANAGING VIOLATION INCIDENT INFORMATION AND VIOLATION INCIDENT MANAGEMENT SYSTEM AND COMPUTER-READABLE RECORDING MEDIUM",
+  "filing_date": "20160126",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cho",
+      "inventor_name_first": "Hyei Sun",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "Seul Gi",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Nak Hyun",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Byung Ik",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "Tai Jin",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q5026",
+    "H04L2906"
+  ],
+  "main_ipcr_label": "G06Q5026",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Embodiments relate to the provision of a method, violation incident management system, and a computer-readable recording medium for analyzing, classifying, and managing a relationship between pieces of violation incident information based on a violation incident shared channel sharing violation incident information. In accordance with an embodiment, a method for managing violation abuse information in order to systematically manage violation incident information collected through a violation incident management system installed in a business and an organization network and required to analyze a violation incident includes collecting violation abuse resources and attached violation association information associated with the respective violation abuse resources from at least one violation sharing channel and generating violation information recursively classified from the collected violation association information; storing the collected violation abuse resources, the violation association information, and the violation information in a database; and assigning at least one index (ID) to the violation abuse resources, the violation association information, and the violation information by taking into consideration organic relationships between the violation abuse resource, the violation association information, and the violation information when collecting or querying the violation abuse resources, the violation association information, and the violation information and storing the at least one index in the database. Assigning the at least one index and storing the at least one index in the database may include assigning a first index to each type when collecting the violation abuse resources for each type and assigning a second index, that is, a query task unit, when querying the violation association information matched up with each type of the violation abuse resource to which the first index has been assigned. Assigning the at l...",
+  "patent_number": "None",
+  "abstract": "Provided is a mechanism capable of assigning at least one index (ID) to violation abuse resources, violation association information, and violation information by taking into consideration organic relationships between the violation abuse resources, the violation association information, and the violation information when the generated violation abuse resources, the violation association information, and the violation information are collected through an external violation sharing channel or when they are collected or queried and of managing the generated violation abuse resources, the violation association information, and the violation information.",
+  "publication_number": "US20170206619A1-20170720",
+  "_processing_info": {
+    "original_size": 82504,
+    "optimized_size": 3842,
+    "reduction_percent": 95.34
+  }
+}

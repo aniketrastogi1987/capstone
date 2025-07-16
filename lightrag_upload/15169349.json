@@ -1,0 +1,32 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344903A1-20171130",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15169349",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hackett",
+      "inventor_name_first": "Charles E.",
+      "inventor_city": "Greenlawn",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and computer-readable media for building ensemble members of a Support Vector Machine (SVM) ensemble in parallel and executing processing in parallel on data allocated to each ensemble member are disclosed. The parallel construction and processing of data of each ensemble member allows a single large SVM calculation to be replaced with many smaller SVM calculations performed in parallel, and thus, may reduce the computational resources required to classify datasets.",
+  "filing_date": "20160531",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one or more example embodiments of the disclosure, a method for scheduling execution of parallel or distributed applications is disclosed that includes determining a subset of data in a training dataset to allocate to an ensemble member of the SVM ensemble; and building the ensemble member. Building the ensemble member includes partitioning a first portion of the subset of data into a first classification and a second portion of the subset of data into a second classification; determining a first plurality of data clusters among the first portion of the subset of data partitioned into the first classification and a second plurality of data clusters among the second portion of the subset of data partitioned into the second classification; identifying a first cross-classification cluster matchup, wherein the first cross-classification cluster matchup comprises a first data cluster of the first plurality of data clusters and a second data cluster of the second plurality of data clusters; identifying a second cross-classification cluster matchup, wherein the second cross-classification cluster matchup comprises a third data cluster of the first plurality of data clusters and a fourth data cluster of the second plurality of data clusters; and determining a first SVM for the first cross-classification cluster matchup and a second SVM for the second cross-classification cluster matchup, wherein the first SVM and the second SVM are determined at least partially in parallel. In one or more other example embodiments of the disclosure, a system for scheduling execution of parallel or distributed application is disclosed that includes at least one memory storing computer-executable instructions; and at least one processor configured to access the at least one memory and execute the computer-executable instructions to: determine a subset of data in a training dataset to allocate to an ensemble member of the SVM ensemble; and build the ensemble member. Build...",
+  "date_published": "20171130",
+  "title": "Parallel Ensemble of Support Vector Machines",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 88956,
+    "optimized_size": 3050,
+    "reduction_percent": 96.57
+  }
+}

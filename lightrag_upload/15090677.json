@@ -1,0 +1,65 @@
+{
+  "decision": "PENDING",
+  "application_number": "15090677",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "title": "SYNCHRONIZING DATA MODIFICATIONS BASED ON TIME ZONES",
+  "filing_date": "20160405",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BAZARSKY",
+      "inventor_name_first": "VLADIMIR",
+      "inventor_city": "REDWOOD CITY",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MAZHAVANCHERY",
+      "inventor_name_first": "MURALI",
+      "inventor_city": "SAN FRANCISCO",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BRIMBLE",
+      "inventor_name_first": "PAUL",
+      "inventor_city": "YELVERTON",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "AYYAGARI",
+      "inventor_name_first": "SIRISHA",
+      "inventor_city": "FOSTER CITY",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ROSSI",
+      "inventor_name_first": "MICHAEL",
+      "inventor_city": "LADERA RANCH",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ANANTAPALLI",
+      "inventor_name_first": "AYYAPPA",
+      "inventor_city": "SAN RAMON",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>In some implementations, methods and apparatus, including computer program products, are provided for synchronizing data modifications based on time zones. In one aspect, a data modification model is executed to determine one or more modifications of data in a first table associated with a first time zone. The data modification model is further executed to determine one or more tables for propagating the one or more modifications of the data. The one or more tables are associated with one or more second time zones. Based on the first time zone and the one or more second time zones, a time offset model is executed to calculate one or more time offset values. Based on the calculated one or more time offset values, a data synchronization model is executed to synchronize the one or more modifications of the data in the one or more tables. The above methods, apparatus, and computer program products may, in some implementations, further include one or more of the following features. One or more first time offset values can be calculated based on the first time zone and the one or more second time zones. One or more second time offset values can be calculated based on a time standard and the calculated one or more first time offset values. Executing the time offset model can further include determining an effective date to execute the data synchronization model for synchronizing the one or more modifications of the data in the one or more tables. Executing the data synchronization model can further include filtering, based on the determined effective date, one or more datasets from the one or more tables for propagating the one or more modifications of the data. When execution of the data synchronization model is successful, consistency of propagation in the one or more modifications of the data in the one or more tables can be determined. Upon determining that the execution of data synchronization model is unsuccessful, a resynchronization model can be ...",
+  "patent_number": "None",
+  "abstract": "Methods and system are disclosed that synchronize data modifications. In one aspect, a data modification model may determine modifications of data in a table (e.g., first table) associated with a time zone (e.g., first time zone). The data modification model may determine other tables (e.g., second table, third table, etc.) to which the modifications of the data may be propagated. The other tables may be associated with one or more time zones (e.g., second time zone, third time zone, etc.). A time offset model may be executed to calculate time offset values between the time zones and a time standard. Based on the calculated time offset values, an effective date to execute a data synchronization model may be determined. The data synchronization model may be executed on the determined effective date to propagate or synchronize the modifications of data between the tables.",
+  "publication_number": "US20170286519A1-20171005",
+  "_processing_info": {
+    "original_size": 51902,
+    "optimized_size": 4189,
+    "reduction_percent": 91.93
+  }
+}

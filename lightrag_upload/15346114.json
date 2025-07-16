@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15346114",
+  "date_published": "20170223",
+  "date_produced": "20170208",
+  "title": "Input/Output (IO) Request Processing Method and File Server",
+  "filing_date": "20161108",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Qi",
+      "inventor_name_first": "Kai",
+      "inventor_city": "Hangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Hangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Keping",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06F948"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure provide an IO request processing method and a file server in order to resolve a problem in the prior art that different service level requirements for IO requests of users cannot be met. To achieve the foregoing objective, the following technical solutions are used in the embodiments of the present disclosure. According to a first aspect, an embodiment of the present disclosure provides an IO request processing method, where the method is applied to a file system, the file system includes a virtual file system layer, a block IO layer, and a device driver layer, the file system further includes a service level information base, and the service level information base includes a first correspondence between a service level of a user and a cache queue at the virtual file system layer, a second correspondence among the service level of the user, a cache queue at the block IO layer, and a scheduling algorithm for scheduling an IO request of the user in the cache queue at the block IO layer, and a third correspondence between the service level of the user and a cache queue at the device driver layer, and the method includes receiving, by the virtual file system layer, an IO request of a first user, where the IO request of the first user carries a service level of the first user, querying for the first correspondence in the service level information base according to the service level of the first user, to determine a cache queue at the virtual file system layer corresponding to the service level of the first user, and adding the IO request of the first user to the determined cache queue at the virtual file system layer, receiving, by the block IO layer, the IO request of the first user from the determined cache queue at the virtual file system layer, querying for the second correspondence in the service level information base according to the service level of the first user, to determine a cache queue at the block IO...",
+  "patent_number": "None",
+  "abstract": "An input/output (IO) request processing method and a file server, where the method includes adding, according to different service levels carried in IO requests of users, the IO requests of the users to corresponding cache queues for processing at a virtual file system layer, a block IO layer and a device driver layer separately, thereby meeting different service level requirements for the IO requests of the users.",
+  "publication_number": "US20170052979A1-20170223",
+  "_processing_info": {
+    "original_size": 90825,
+    "optimized_size": 3250,
+    "reduction_percent": 96.42
+  }
+}

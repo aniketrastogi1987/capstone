@@ -1,0 +1,41 @@
+{
+  "patent_number": "None",
+  "application_number": "15682698",
+  "date_published": "20180222",
+  "date_produced": "20180207",
+  "filing_date": "20170822",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Disclosed is a method of predicting crime occurrence in a prediction target region using big data, the method including: collecting crime prediction data of the prediction target region from a plurality of data domains; collecting crime occurrence data of crime that occurred in the prediction target region during a preset period of time from a crime occurrence record domain; analyzing the crime prediction data and the crime occurrence data of each of the data domains according to a statistical analysis, and extracting meaningful data of the crime prediction data as available data by each of the data domains; and predicting crime occurrence by applying the available data to a pre-registered deep learning algorithm, wherein the available data is classified into a plurality of data groups according to a data type, and the deep learning algorithm includes: a first deep neural network; a second deep neural network; and an output.",
+  "publication_number": "US20180053110A1-20180222",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Accordingly, the present invention has been made keeping in mind the above problems occurring in the related art, and the present invention is intended to propose a method of predicting crime occurrence in a prediction target region using big data, whereby the method can accurately predict crime occurrence in a prediction target region by using big data collected from a plurality of data domains and by considering features of the data collected from the plurality of data domains. In order to achieve the above object, according to one aspect of the present invention, there is provided a method of predicting crime occurrence in a prediction target region using big data, the method including: step a of collecting crime prediction data of the prediction target region from a plurality of data domains; step b of collecting crime occurrence data of crime that occurred in the prediction target region during a preset period of time from a crime occurrence record domain; step c of analyzing the crime prediction data and the crime occurrence data of each of the data domains according to a statistical analysis, and extracting meaningful data of the crime prediction data as available data by each of the data domains; and step d of predicting crime occurrence by applying the available data to a pre-registered deep learning algorithm, wherein the available data is classified into a plurality of data groups according to a data type, and the deep learning algorithm includes: a first deep neural network configured with a plurality of feature representation layers provided corresponding to each of the data groups, and in which feature representation learning is executed by receiving the available data of corresponding data groups as an input; a second deep neural network including a joint feature representation layer fusing data in a feature level by receiving outputs of the respective feature representation layers as an input; and an output functio...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06Q5026",
+    "G06Q1004",
+    "G08B2918",
+    "H04W402"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KANG",
+      "inventor_name_first": "Hang-Bong",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KANG",
+      "inventor_name_first": "Hyeon-Woo",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "METHOD OF PREDICTING CRIME OCCURRENCE IN PREDICTION TARGET REGION USING BIG DATA",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 37120,
+    "optimized_size": 3691,
+    "reduction_percent": 90.06
+  }
+}

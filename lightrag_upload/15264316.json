@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180228",
+  "publication_number": "US20180075345A1-20180315",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15264316",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gottfried",
+      "inventor_name_first": "Frank",
+      "inventor_city": "Walldorf",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Deiseroth",
+      "inventor_name_first": "Bjoem",
+      "inventor_city": "Darmstadt",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Neidecker-Lutz",
+      "inventor_name_first": "Burkhard",
+      "inventor_city": "Walldorf",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "Technologies are provided for implementing temporal and spatio-temporal spiking neural networks (SNNs) using neuromorphic hardware devices. Temporal synapse circuits, with associated weight values, can be used to control spike times of connected neuron circuits. The controlled spike times of multiple neuron circuits can be used to temporally encode information in a neural network in neuromorphic hardware. Neuron circuits in a state space detection layer can be organized into multiple subsets. Neuron circuits in different subsets can be connected to output neuron circuits in an output layer by separate temporal synapse circuits. Spiking signals sent from the neuron circuits in the state space detection layer via separate temporal synapse circuits can cause associated output neuron circuits to generate output spiking signals at different times. The various spike times of the output neuron circuits can be aggregated to produce an output signal for the network.",
+  "filing_date": "20160913",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. In one embodiment, a system comprises a spiking neural network in neuromorphic hardware. The spiking neural network comprises a state space detection layer comprising multiple neuron circuits configured to transmit spiking signals to connected synapse circuits; the synapse circuits comprising stored weight values and configured to: apply the stored weights to the spiking signals, transmit the weighted spiking signals to connected output neuron circuits, and dynamically adjust the stored weights when a connected state space detection layer neuron circuit transmits a spiking signal or when a connected output neuron circuit transmits an output spiking signal; an output layer comprising the output neuron circuits, wherein the output neuron circuits comprise membrane potentials and are configured to: accumulate the received weighted spiking signals from the synapse circuits at the membrane potentials, and transmit output spiking signals when the values of the membrane potentials are greater than specified thresholds; and an output spiking signal accumulator configured to: receive the output spiking signals, determine times at which the output spiking signals are received, and generate a network output signal based on the times at which the output spiking signals are transmitted by the output neuron circuits. In another embodiment, a method for temporal encoding of information using a spiking neural network in neuromorphic hardware comprises: transmitting multiple spiking signals from multiple neuron circuits to multiple output neuron circuits over multiple temporal synapse circuits; adjusting the multiple spiking signals using...",
+  "date_published": "20180315",
+  "title": "SPATIO-TEMPORAL SPIKING NEURAL NETWORKS IN NEUROMORPHIC HARDWARE SYSTEMS",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 94517,
+    "optimized_size": 3845,
+    "reduction_percent": 95.93
+  }
+}

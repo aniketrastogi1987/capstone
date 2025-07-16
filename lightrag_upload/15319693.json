@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15319693",
+  "date_published": "20170511",
+  "date_produced": "20170427",
+  "title": "CACHE COHERENCY FOR DIRECT MEMORY ACCESS OPERATIONS",
+  "filing_date": "20161216",
+  "inventor_list": [
+    {
+      "inventor_name_last": "RAMAKRISHNAN",
+      "inventor_name_first": "Senthil Kumar",
+      "inventor_city": "Boise",
+      "inventor_state": "ID",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "COHEN",
+      "inventor_name_first": "Eugene",
+      "inventor_city": "Eagle",
+      "inventor_state": "ID",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F120831",
+    "G06F1324",
+    "G06F1328",
+    "G06F120804"
+  ],
+  "main_ipcr_label": "G06F120831",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram of an example processor platform including an example cache coherency manager implemented in accordance with the teachings of this disclosure. FIG. 2A illustrates an example software layer diagram representative of software layers of a processor of the processor platform of FIG. 1 including the cache coherency manager in a driver software layer of the processor. FIG. 2B illustrates another example software layer diagram representative of software layers of another processor of the processor platform of FIG. 1 including the cache coherency manager in a firmware layer of the processor. FIG. 3 is a block diagram of an example cache coherency manager constructed in accordance with the teachings of this disclosure. FIG. 4 illustrates a flow diagram of example events and example messages in the processor platform of FIG. 1 to handle a direct memory access operation requested by an application/driver module in accordance with the teachings of this disclosure. FIG. 5 illustrates a flow diagram of example events and example messages in the processor platform of FIG. 1 to handle a direct memory access operation identified by a direct memory access controller in accordance with the teachings of this disclosure. FIG. 6 is a flowchart representative of example machine readable instructions that may be executed to implement the cache coherency manager of FIG. 1 . FIG. 7 is a flowchart representative of example machine readable instructions that may be executed to implement a portion of the example machine readable instructions of FIG. 6 to implement the cache coherency manager of FIG. 1 . FIG. 8 is a flowchart representative of an example process and/or machine readable instructions executed by a direct memory access controller associated with the cache coherency manager of FIG. 1 . detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "Methods, apparatus, systems and articles of manufacture are disclosed to maintain cache coherency. Examples disclosed herein involve, in response to receiving, from a direct memory access controller, an interrupt associated with a direct memory access operation, handling the interrupt based on a parameter of the direct memory access operation, wherein the direct memory access controller is to execute the direct memory access operation.",
+  "publication_number": "US20170132130A1-20170511",
+  "_processing_info": {
+    "original_size": 47767,
+    "optimized_size": 3113,
+    "reduction_percent": 93.48
+  }
+}

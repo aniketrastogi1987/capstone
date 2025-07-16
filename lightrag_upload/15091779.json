@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170927",
+  "publication_number": "US20170293835A1-20171012",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15091779",
+  "inventor_list": [
+    {
+      "inventor_name_last": "AlAjmi",
+      "inventor_name_first": "Mohammed D.",
+      "inventor_city": "AlKhobar",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    },
+    {
+      "inventor_name_last": "AlArifi",
+      "inventor_name_first": "Sulaiman A.",
+      "inventor_city": "Dammam",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    }
+  ],
+  "abstract": "A data base is updated that contains oil production rate test data. The oil production rate test data are collected, uploaded, and divided into subsets by a downstream-to-upstream pressure ratio. For each subset, the data is split by an oil flow rate. For each resulted subset, the data is split randomly into training data sets and testing data sets. A feed-forward back propagation neural network is built for each subset in the third step. The simulation model is calibrated utilizing actual production history from the training data set. The model performance is tested utilizing actual production history from the testing data set. If the error is within an acceptable and practicable tolerance, the resulting model is used to simulate future multiphase choke performance. Steps are repeated within a specific frequency depending on the production data flow into the data base.",
+  "filing_date": "20160406",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure describes methods and systems, including computer-implemented methods, computer program products, and computer systems, for building a data-driven choke simulation model. For example, the model can be used in the oil industry, such as to predict oil production rates through surface chokes utilizing data-driven modeling techniques. Particular implementations of described methods and systems can include corresponding computer systems, apparatuses, or computer programs (or a combination of computer systems, apparatuses, and computer program) recorded on one or more computer storage devices, each configured to perform the actions of the methods. A system of one or more computers can be configured to perform particular operations or actions by virtue of having software, firmware, hardware, or a combination of software, firmware, or hardware installed on the system that, in operation, causes the system to perform the actions. One or more computer programs can be configured to perform particular operations or actions by virtue of including instructions that, when executed by data processing apparatus, cause the apparatus to perform the actions. For example, in a first implementation of a computer-implemented method, the first implementation includes: updating a data base that contains oil production rate test data; collecting and uploading the oil production rate test data, and dividing the oil production rate test data into subsets by a downstream-to-upstream pressure ratio; for each subset, splitting the data into subset-splits by an oil flow rate; for each subset-splitting, split the data randomly into training data sets and testing data sets; building a feed-forward back propagation neural network; calibrating the simulation model utilizing actual production history from the training data set; testing the model performance utilizing actual production history from the testing data set; if the error is within an acceptable and pr...",
+  "date_published": "20171012",
+  "title": "DATA-DRIVEN SIMULATION METHOD OF MULTIPHASE CHOKE PERFORMANCE",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1730",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 75917,
+    "optimized_size": 3605,
+    "reduction_percent": 95.25
+  }
+}

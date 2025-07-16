@@ -1,0 +1,30 @@
+{
+  "decision": "PENDING",
+  "application_number": "15010234",
+  "date_published": "20160811",
+  "date_produced": "20160727",
+  "title": "Database Code-Module Performance and Reliability Metrics Instrumentation",
+  "filing_date": "20160129",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sherman",
+      "inventor_name_first": "Roby",
+      "inventor_city": "Denver",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Certain embodiments provide for instrumenting code-module execution within a database (or within a plurality of databases). In one aspect, various embodiments can instrument (e.g., measure and/or monitor) database applications, jobs, or other coded modules, execution steps, and/or any other type of executable code within (or even outside) of a database to accurately track execution and call lineage, timings, and/or errors within database code modules, long-running SQL statements, or other large database calls/callouts initiating from within one or more databases, across one or more platforms (e.g., Oracle, SQL Server, etc.). In another aspect, certain embodiments can perform such instrumentation through a variety of interfaces (intra-database calls, database links, linked servers, external application code, etc.). In a further aspect of certain embodiments, the framework can integrate with a larger application tracking framework, such as that disclosed in the '228 application, to name one example. As such, certain embodiments can accomplish database instrumentation (including, without limitation, as part of instrumenting an entire application execution chain) with a few simple database calls to an application programming interface that can interface with an instrumentation database and/or an application server. This can minimize overhead in the monitored databases and/or applications and the amount of coding required to implement the framework. Thus, in some cases, the framework provides for the passing of database traceability data in protocol-specific headers of existing inter-application (and/or intra-application) communication protocols, allowing the framework to be implemented without affecting application components that cannot accommodate the framework. The tools provided by various embodiments include, without limitation, methods, systems, and/or software products. Merely by way of example, a method might comprise one or more procedu...",
+  "patent_number": "None",
+  "abstract": "Novel tools and techniques for instrumenting code-module execution within a database (or within a plurality of databases). In one aspect, various embodiments can instrument (e.g., measure and/or monitor) database applications, jobs, or other coded modules, execution steps, and/or any other type of executable code within (or even outside) of a database to accurately track execution and call lineage, timings, and/or errors within database code modules, long-running SQL statements, or other large database calls/callouts initiating from within one or more databases, across one or more platforms (e.g., Oracle, SQL Server, etc.). In another aspect, certain embodiments can perform such instrumentation through a variety of interfaces (intra-database calls, database links, linked servers, external application code, etc.).",
+  "publication_number": "US20160232200A1-20160811",
+  "_processing_info": {
+    "original_size": 128809,
+    "optimized_size": 3383,
+    "reduction_percent": 97.37
+  }
+}

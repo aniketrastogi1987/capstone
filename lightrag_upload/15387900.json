@@ -1,0 +1,60 @@
+{
+  "date_produced": "20170607",
+  "publication_number": "US20170178016A1-20170622",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15387900",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chaudhary",
+      "inventor_name_first": "Harsh",
+      "inventor_city": "Briarcliff Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Younghun",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kumar",
+      "inventor_name_first": "Tarun",
+      "inventor_city": "Mohegan Lake",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Raman",
+      "inventor_name_first": "Abhishek",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Rui",
+      "inventor_city": "Ossining",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Technical solutions are described for forecasting leaks in a pipeline network. An example method includes identifying a subsystem in the pipeline network that includes a first station. The method also includes accessing historical temporal sensor measurements of the stations. The method also includes generating a prediction model for the first station that predicts a pressure measurement at the first station based on the historical temporal sensor measurements at each station in the subsystem. The method also includes predicting a series of pressure measurements at the first station based on the historical temporal sensor measurements. The method also includes determining a series of deviations between the series of pressure measurements and historical pressure measurements of the first station and identifying a threshold value from the series of deviations, where a pressure measurement at the first station above or below the threshold value is indicative of a leak in the subsystem.",
+  "filing_date": "20161222",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment, a computer implemented method for forecasting leaks in a pipeline network includes identifying a subsystem in the pipeline network, the subsystem including a plurality of stations that are topologically connected, the plurality of stations including a first station. The computer implemented method also includes accessing historical temporal sensor measurements of the stations in the subsystem, the historical temporal sensor measurements including pressure measurements captured at corresponding timestamps over a predetermined time-span. The computer implemented method also includes generating a prediction model for the first station that predicts a pressure measurement at the first station based on the historical temporal sensor measurements at each station in the subsystem. The computer implemented method also includes predicting, according to the prediction model, a series of pressure measurements at the first station based on the historical temporal sensor measurements at each station in the subsystem, where the series of pressure measurements is for a series of timestamps in the historical temporal sensor measurements. The computer implemented method also includes determining a series of deviations between the series of pressure measurements and historical pressure measurements of the first station. The computer implemented method also includes identifying a threshold value from the series of deviations, where a pressure measurement at the first station above or below the threshold value is indicative of a leak in the subsystem. According to another embodiment, a system for forecasting leaks in a pipeline network includes a memory and a processor. The processor identifies a subsystem in the pipeline network, the subsystem including a plurality of stations that are topologically connected, the plurality of stations including a first station. The processor also accesses historical temporal sensor measurements of the st...",
+  "date_published": "20170622",
+  "title": "FORECASTING LEAKS IN PIPELINE NETWORK",
+  "ipcr_labels": [
+    "G06N700",
+    "G01M328",
+    "G06F1718"
+  ],
+  "_processing_info": {
+    "original_size": 100779,
+    "optimized_size": 4144,
+    "reduction_percent": 95.89
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15417626",
+  "date_published": "20170727",
+  "date_produced": "20170713",
+  "filing_date": "20170127",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Example embodiments for efficient neuromorphic population coding are described. In one case, individual instances of input stimuli are evaluated using a set of feature encoding units to generate a population of encoded feature values. The population of encoded values for each of the individual input stimuli are arranged into a population code matrix. The population code matrix is factorized into a basis element matrix and a contribution coefficient matrix based on a number of basis vectors, where the number of basis vectors is selected to balance sparseness in the basis element matrix and reconstruction error of the population code matrix from the basis element matrix and the contribution coefficient matrix. The embodiments are compatible with neuromorphic hardware and can achieve compact representation of high-dimensional data, infer latent variables in the data, and defer processing to an off-line training phase to save time during real-time data capture and evaluation.",
+  "publication_number": "US20170213134A1-20170727",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>For a more complete understanding of the embodiments and the advantages thereof, reference is now made to the following description, in conjunction with the accompanying figures briefly described as follows: FIG. 1 illustrates an example system for sparse and efficient population coding according to various examples described herein. FIG. 2 illustrates representative flow fields according to various examples described herein. FIG. 3 illustrates a representative example of components in the computing environment shown in FIG. 1 according to various examples described herein. FIG. 4 illustrates a representative example of factorization used for sparse and efficient population coding according to various examples described herein. FIG. 5 illustrates balancing factors for the selection of a number of basis vectors used for factorization according to various examples described herein. FIG. 6 illustrates an example of a sparse and efficient neuromorphic population coding process according to various examples described herein. detailed-description description=\"Detailed Description\" end=\"lead\"? The drawings illustrate only example embodiments and are therefore not to be considered limiting of the scope of the embodiments described herein, as other embodiments are within the scope of the disclosure.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Beyeler",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dutt",
+      "inventor_name_first": "Nikil D.",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Krichmar",
+      "inventor_name_first": "Jeffrey L.",
+      "inventor_city": "Cardiff By The Sea",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SPARSE AND EFFICIENT NEUROMORPHIC POPULATION CODING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 52927,
+    "optimized_size": 3201,
+    "reduction_percent": 93.95
+  }
+}

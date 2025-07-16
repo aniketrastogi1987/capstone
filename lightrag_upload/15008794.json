@@ -1,0 +1,54 @@
+{
+  "date_produced": "20160803",
+  "publication_number": "US20160239739A1-20160818",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15008794",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Das",
+      "inventor_name_first": "Dipanjan",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ganchev",
+      "inventor_name_first": "Kuzman",
+      "inventor_city": "Forest Hills",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Weston",
+      "inventor_name_first": "Jason",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hermann",
+      "inventor_name_first": "Karl Moritz",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computer-implemented technique can include receiving, at a server, labeled training data including a plurality of groups of words, each group of words having a predicate word, each word having generic word embeddings. The technique can include extracting, at the server, the plurality of groups of words in a syntactic context of their predicate words. The technique can include concatenating, at the server, the generic word embeddings to create a high dimensional vector space representing features for each word. The technique can include obtaining, at the server, a model having a learned mapping from the high dimensional vector space to a low dimensional vector space and learned embeddings for each possible semantic frame in the low dimensional vector space. The technique can also include outputting, by the server, the model for storage, the model being configured to identify a specific semantic frame for an input.",
+  "filing_date": "20160128",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A computer-implemented technique is presented. The technique can include receiving, at a server having one or more processors, labeled training data including a plurality of groups of words, each group of words having a predicate word, each word having generic word embeddings. The technique can include extracting, at the server, the plurality of groups of words in a syntactic context of their predicate words. The technique can include concatenating, at the server, the generic word embeddings to create a high dimensional vector space representing features for each word. The technique can include obtaining, at the server, a model having a learned mapping from the high dimensional vector space to a low dimensional vector space and learned embeddings for each possible semantic frame in the low dimensional vector space. The technique can also include outputting, by the server, the model for storage, the model being configured to identify a specific semantic frame for an input. In some embodiments, obtaining the model includes training, at the server, the model based on the learned mapping and the learned embeddings. In other embodiments, the labeled training data includes (i) frames for verbs and (ii) possible semantic roles for each frame, and modifier roles in the labeled training data are shared across different frames. In some embodiments, the learned mapping and the learned embeddings are determined by the server using a linear transformation algorithm. In other embodiments, determining the learned mapping and the learned embeddings includes using the linear transformation algorithm with a weighted approximate-rank pairwise loss learned with a stochastic gradient. In some embodiments, the features include at least one of (i) direct dependents from a dependency parse tree for a specific predicate word and (ii) dependency paths from the dependency parse tree for each word. In other embodiments, the technique further includes learning, at the server,...",
+  "date_published": "20160818",
+  "title": "SEMANTIC FRAME IDENTIFICATION WITH DISTRIBUTED WORD REPRESENTATIONS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1722",
+    "G06F1728",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 59675,
+    "optimized_size": 3969,
+    "reduction_percent": 93.35
+  }
+}

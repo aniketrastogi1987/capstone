@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170316",
+  "publication_number": "US20170091674A1-20170330",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15280805",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SUGIMOTO",
+      "inventor_name_first": "Yasunori",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A machine learning apparatus includes a state observing unit for observing a state variable comprised of at least one of an actual dimension value, a resistance actual value, etc., and at least one of a dimension command value, a resistance command value, etc., and an execution time command value for a program, and a learning unit for performing a learning operation by linking at least one of an actual dimension value, a resistance actual value, etc., to at least one of a dimension command value, a resistance command value, etc., observed by the state observing unit, and an execution time command value for the program.",
+  "filing_date": "20160929",
+  "patent_number": "10019674",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>However, in conventional coil producing apparatuses, an operator must manually set detailed operating conditions through trial and error, which is labor intensive and requires many man-hours. The present invention was made in light of the circumstances described above and has an object to provide a machine learning apparatus which can optimally wind a coil without the necessity to manually set detailed operating conditions, and a coil producing apparatus provided with such a machine learning apparatus. To achieve the above object, according to a first aspect of the invention, there is provided a machine learning apparatus which can communicate with a winding machine and which learns an operation for forming a coil by the winding machine. The machine learning apparatus includes a state observing unit and a learning unit. The state observing unit observes a state variable comprised of at least one of a actual dimension value, a resistance actual value, and a wire rod used amount of a coil formed by the winding machine, and a program execution time actual value, and at least one of a dimension command value, a resistance command value, a turn number command value, a winding speed command value, and a tension command value for the coil, which are instructed by a program for the winding machine, and an execution time command value for the program. The learning unit performs a learning operation by linking at least one of a actual dimension value, a resistance actual value, and a wire rod used amount of the coil observed by the state observing unit, and a program execution time actual value to at least one of a dimension command value, a resistance command value, a turn number command value, a winding speed command value, and a tension command value of the coil observed by the state observing unit, and an execution time command value for the program. According to a second aspect of the invention, in the machine learning apparatus accord...",
+  "date_published": "20170330",
+  "title": "MACHINE LEARNING APPARATUS AND COIL PRODUCING APPARATUS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 51464,
+    "optimized_size": 3190,
+    "reduction_percent": 93.8
+  }
+}

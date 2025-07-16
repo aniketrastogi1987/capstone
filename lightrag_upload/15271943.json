@@ -1,0 +1,46 @@
+{
+  "decision": "PENDING",
+  "application_number": "15271943",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "title": "CREDENTIAL MODIFICATION NOTIFICATIONS",
+  "filing_date": "20160921",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hurley",
+      "inventor_name_first": "Timothy S.",
+      "inventor_city": "Los Gatos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brudnicki",
+      "inventor_name_first": "David E.",
+      "inventor_city": "Duvall",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Thulaseedharan Pillai",
+      "inventor_name_first": "Manoj K.",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F1730",
+    "H04W1206"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>In some embodiments, a system for providing an alert is provided. The system includes one or more data processors. The system can also include a non-transitory computer readable storage medium containing instructions which, when executed by the one or more data processors, can cause the one or more data processors to perform actions. The actions can include receiving, from a requesting system, a first communication identifying a credential associated with a task. The first communication can include a request to monitor a status of the credential. The actions can also include updating a device-listening data store to associate the credential with an identifier associated with the requesting system. The actions can further include monitoring for an event indicating that the credential has been modified or cancelled. The actions can still further include transmitting, upon detecting the event indicating that the credential has been modified or cancelled, an alert to the requesting system, using the identifier associated with the requesting system. In some embodiments, a computer-implemented method for generating an alert is provided. A request to monitor a credential associated with an extended-duration task can be received from a requesting system. A device-listening data store can be updated to associate the credential with an identifier corresponding to the requesting system. An event indicating that the credential has been altered can be detected. An alert can be transmitted to a destination associated with the requesting system. In some embodiments, a computer-program product tangibly embodied in a non-transitory machine-readable storage medium is provided. The computer-program product can include instructions configured to cause one or more data processors to perform some or all actions from one or more methods disclosed therein. The following detailed description together with the accompanying drawings will provide a better understanding of th...",
+  "patent_number": "None",
+  "abstract": "Disclosed are systems and methods for providing protection against alteration of data, such as a credential, associated with a transaction. A first communication is received from a requesting system. The first communication includes a credential and corresponds to an indication that an extended-duration task is being initiated and a request to listen to a status of the credential. A device-listening data store is updated to associate the credential with an identifier associated with the requesting system. When an event is detected that indicates that the credential has been modified or cancelled, the device-listening data store is queried based on the credential. In response to the query, the identifier associated with the requesting device is received. A second communication is generated that corresponds to an alert that identifies a status of the credential as having been modified or cancelled. The second communication is transmitted to the requesting system.",
+  "publication_number": "US20180083986A1-20180322",
+  "_processing_info": {
+    "original_size": 96480,
+    "optimized_size": 3844,
+    "reduction_percent": 96.02
+  }
+}

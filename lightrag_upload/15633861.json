@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15633861",
+  "date_published": "20180201",
+  "date_produced": "20180117",
+  "filing_date": "20170627",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "The parallel information processing apparatus includes a plurality of nodes each including a first processor and a second processor. The first processor is configured to execute a computation process using a coefficient for a target data, computing a coefficient variation based on a result of the computation process, transferring the computed coefficient variation to the second processor and requesting the second processor to execute a transfer/receipt process. The second processor is configured to transmit the coefficient variation transferred from the first processor to another node and receive the coefficient variation computed by another node and integrate the coefficient variation transferred from the first processor and the coefficient variation computed by another node. At least one of the first processor and the second processor updates the coefficient to be used for the computation process from next time onward based on the integrated coefficient variation.",
+  "publication_number": "US20180032911A1-20180201",
+  "summary": "<SOH> SUMMARY <EOH>An aspect of an embodiment is illustrated by a parallel information processing apparatus. The parallel information processing apparatus includes a plurality of nodes each including a first processor and a second processor. The first processor of each node is configured to execute a computation process using a coefficient for a processing target data, computing a coefficient variation based on a result of the computation process, transferring the computed coefficient variation to the second processor and requesting the second processor to execute a transfer/receipt process of transferring the coefficient variation to another node of the parallel information processing apparatus and receiving a coefficient variation computed by another node from another node. The second processor of each node is configured to execute a communication process of transmitting the coefficient variation transferred from the first processor to another node and receiving the coefficient variation computed by another node and an aggregation process of integrating the coefficient variation transferred from the first processor and the coefficient variation computed by another node. At least one of the first processor and the second processor updates the coefficient to be used for the computation process from next time onward based on the integrated coefficient variation. The object and advantage of the embodiment will be realized and attained by means of the elements and combinations particularly pointed out in the appended claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory only and are not restrictive of the invention, as claimed.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F954"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yamazaki",
+      "inventor_name_first": "Masafumi",
+      "inventor_city": "Tachikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TABARU",
+      "inventor_name_first": "Tsuguchika",
+      "inventor_city": "Machida",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Kasagi",
+      "inventor_name_first": "Akihiko",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "PARALLEL INFORMATION PROCESSING APPARATUS, INFORMATION PROCESSING METHOD AND NON-TRANSITORY RECORDING MEDIUM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 110550,
+    "optimized_size": 3623,
+    "reduction_percent": 96.72
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15397530",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "filing_date": "20170103",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Disclosed is an online system that infers interests of unresolved users for whom the interests are not known. The online system determines certain features about the unresolved users, but does not have certain information about the users themselves (e.g., their interests), so instead infers these attributes based on the features of the user. The online system provides the features as input to a classifier trained to predict a particular interest, and the classifier outputs a prediction of whether the user has the corresponding interest. In one embodiment, the online system trains a classifier for various interest values by forming training sets for the interests using the features for users who are logged into the online system and hence have known interests.",
+  "publication_number": "US20180189676A1-20180705",
+  "summary": "<SOH> SUMMARY <EOH>An online system uses machine-learning based prediction of attributes of “unresolved” users of the online system to determine the most appropriate content to distribute to such “unresolved” users. An “unresolved” user for an online system is a user that the online system cannot at that moment associate with an account on the online system (e.g., the user is not logged in, or possibly does not have account at all). When a user is unresolved, the online system has limited information so it is difficult to determine in which audiences for content the user should be included by the online system. As one example, a content provider might define an audience for the content provider's content as all females between 18-20. But if a new user becomes available to receive content at a site or application outside of the online system while the user is not logged into the online system, the online system may not have enough data about the user's interests to determine if the user meets the defined audience for the content. The online system predicts the interests of “unresolved” users of an online system in a series of steps based on information available about those users. The online system receives from content providers a set of content items associated with an audience defining interests of users to whom the content items are to be presented. In a first embodiment using averaged feature sets, in order to form a model for predicting a given interest (e.g., whether the user has an interest in football), the online system forms a training set of users known to have the interest (e.g., some or all users whose profiles on the online system indicate that they are interested in football). For each user in the training set, the online system derives a set of features corresponding to a set of variables selected to be predictive of user interests. For example, in one embodiment, the set of features is a feature vector, each entry of which represents to whether the ...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Predovic",
+      "inventor_name_first": "Goran",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cai",
+      "inventor_name_first": "Chaochao",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "INTEREST PREDICTION FOR UNRESOLVED USERS IN AN ONLINE SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 66248,
+    "optimized_size": 3515,
+    "reduction_percent": 94.69
+  }
+}

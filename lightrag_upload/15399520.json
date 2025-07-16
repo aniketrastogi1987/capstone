@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15399520",
+  "date_published": "20170706",
+  "date_produced": "20170621",
+  "filing_date": "20170105",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Roughly described, the technology disclosed provides a so-called machine-learned conversion optimization (MLCO) system that uses artificial neural networks and evolutionary computations to efficiently identify most successful webpage designs in a search space without testing all possible webpage designs in the search space. The search space is defined based on webpage designs provided by marketers. Neural networks are represented as genomes. Neural networks map user attributes from live user traffic to different dimensions and dimension values of output funnels that are presented to the users in real time. The genomes are subjected to evolutionary operations like initialization, testing, competition, and procreation to identify parent genomes that perform well and offspring genomes that are likely to perform well.",
+  "publication_number": "US20170193366A1-20170706",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings, like reference characters generally refer to like parts throughout the different views. Also, the drawings are not necessarily to scale, with an emphasis instead generally being placed upon illustrating the principles of the technology disclosed. In the following description, various implementations of the technology disclosed are described with reference to the following drawings, in which: FIG. 1 illustrates aspects of a machine-learned conversion optimization (MLCO) system for promoting target online user behavior. FIG. 2 illustrates one implementation of a genome that represents a neural network. FIG. 3 shows a workflow of the disclosed machine-learned conversion optimization (MLCO). FIG. 4 illustrates a funnel with multiple webinterfaces that is used to initialze an output layer of a neural network represented by a genome. FIG. 5 depicts a webinterface layout of a funnel that is used to initialze an output layer of a neural network represented by a genome. FIG. 6 shows a webinterface of a funnel with its dimensions and dimension values that is used to initialze an output layer of a neural network represented by a genome. FIG. 7 is a symbolic drawing of one implementation of transforming an editor design representation of a starter funnel into a runtime design representation. FIG. 8 depicts a symbolic drawing of one implementation of encoding an output layer of a neural network represented by a genome. FIGS. 9 and 10 aspects of the frontend presentation module of FIG. 1 . FIG. 11 is one implementation of a machine-learned user device (MLUD). FIG. 12 illustrates one implementation of a machine-learned content delivery network (MLCDN). FIG. 13 is a simplified block diagram of a computer system that can be used to implement the technology disclosed. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F944",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MIIKKULAINEN",
+      "inventor_name_first": "Risto",
+      "inventor_city": "Stanford",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ISCOE",
+      "inventor_name_first": "Neil",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "WEBINTERFACE GENERATION AND TESTING USING ARTIFICIAL NEURAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 92904,
+    "optimized_size": 3460,
+    "reduction_percent": 96.28
+  }
+}

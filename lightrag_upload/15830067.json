@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15830067",
+  "date_published": "20180607",
+  "date_produced": "20180523",
+  "filing_date": "20171204",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method for training a computerized mechanical device, comprising: receiving data documenting actions of an actuator performing a task in a plurality of iterations; calculating using the data a neural network dataset and used for performing the task; gathering in a plurality of reward iterations a plurality of scores given by an instructor to a plurality of states, each comprising at least one sensor value, while a robotic actuator performs the task according to the neural network; calculating using the plurality of scores a reward dataset used for computing a reward function; updating at least some of the neural network's plurality of parameters by receiving in each of a plurality of policy iterations a reward value computed by applying the reward function to another state comprising at least one sensor value, while the robotic actuator performs the task according to the neural network; and outputting the updated neural network.",
+  "publication_number": "US20180157973A1-20180607",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is an object of the present invention to provide a system and method for training and using a computerized mechanical device to perform at least one complex human task. The foregoing and other objects are achieved by the features of the independent claims. Further implementation forms are apparent from the dependent claims, the description and the figures. According to a first aspect of the invention, a method for training a computerized mechanical device's neural network dataset comprises: receiving data documenting a plurality of actions of an actuator performing a target task in a plurality of initial iterations; calculating using the data a neural network dataset having a plurality of neural network parameters and used for performing the target task; gathering in a plurality of reward training iterations a plurality of scores given by an instructor to a plurality of world states, each world state comprising at least one sensor output value, while a robotic actuator performs the target task according to the neural network dataset; calculating using the plurality of scores a reward neural network dataset having a second plurality of neural network parameters and used for computing a reward function; updating at least some of the plurality of neural network parameters by receiving in each of a plurality of policy training iterations a reward value computed by applying the reward function to another world state comprising at least one sensor output value, while the robotic actuator performs the target task according to the neural network dataset; and outputting the updated neural network dataset. According to a second aspect of the invention, a system for training a computerized mechanical device's neural network dataset comprises: at least one hardware processor, executing at least one neural network comprising a plurality of convolutional layers; at least one sensor electrically connected to an input of the at least one hardw...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "B25J916"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "EL-YANIV",
+      "inventor_name_first": "Ran",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "HILLELI",
+      "inventor_name_first": "Bar",
+      "inventor_city": "Holon",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "title": "METHOD AND DEVICE FOR A COMPUTERIZED MECHANICAL DEVICE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 86952,
+    "optimized_size": 3641,
+    "reduction_percent": 95.81
+  }
+}

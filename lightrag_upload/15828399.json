@@ -1,0 +1,68 @@
+{
+  "patent_number": "None",
+  "application_number": "15828399",
+  "date_published": "20180607",
+  "date_produced": "20180523",
+  "filing_date": "20171130",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A system includes a neural network organized into layers corresponding to stages of inferences. The neural network includes a common portion, a first portion, and a second portion. The first portion includes a first set of layers dedicated to performing a first inference task on an input data. The second portion includes a second set of layers dedicated to performing a second inference task on the same input data. The common portion includes a third set of layers, which may include an input layer to the neural network, that are used in the performance of both the first and second inference tasks. The system may receive an input data and perform both inference tasks on the input data in a single pass. During training, a training sample with annotations for both inference tasks may be used to train the neural network in a single pass.",
+  "publication_number": "US20180157972A1-20180607",
+  "summary": "<SOH> SUMMARY OF EMBODIMENTS <EOH>Described herein are methods, systems and/or techniques for building and using a multitask neural network that may be used to perform multiple inference tasks based on an input data. For example, for a neural network that perform image analysis, one inference task may be to recognize a feature in the image (e.g., a person), and a second inference task may be to convert the image into a pixel map which partitions the image into sections (e.g., ground and sky). The neurons or nodes in the multitask neural network may be organized into layers, which correspond to different stages of the inferences process. The neural network may include a common portion of a set of common layers, whose generated output, or intermediate results, are used by all of the inference tasks. The neuron network may also include other portions that are dedicated to only one task, or only to a subset of the tasks that the neural network is configured to perform. When an input data is received, the neural network may pass the input data through its layers, generating outputs for each of the multiple inference tasks in a single pass. In some applications, the ability to efficiently make multiple inferences from a single sample of input data is extremely important. As one example, a neural network may be used by an autonomous vehicle to analyze images of the road, generating multiple outputs that are used by the vehicle's navigation system to drive the vehicle. The output of the neural network may indicate for example a drivable region in the image; other objects on the road such as other cars or pedestrians; and traffic objects such as traffic lights, signs, and lane markings. Such output may need to be generated in real time and at a high frequency, as images of the road are being generated continuously from the vehicle's onboard camera. Using multiple independent neural networks in such a setting is not efficient or scalable. The multitask neural network describe...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N504",
+    "G06T100",
+    "G06K900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hu",
+      "inventor_name_first": "Rui",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Garg",
+      "inventor_name_first": "Kshitiz",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Goh",
+      "inventor_name_first": "Hanlin",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Salakhutdinov",
+      "inventor_name_first": "Ruslan",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Srivastava",
+      "inventor_name_first": "Nitish",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tang",
+      "inventor_name_first": "YiChuan",
+      "inventor_city": "Mississauga",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "PARTIALLY SHARED NEURAL NETWORKS FOR MULTIPLE TASKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 68429,
+    "optimized_size": 4160,
+    "reduction_percent": 93.92
+  }
+}

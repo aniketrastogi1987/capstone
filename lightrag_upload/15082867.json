@@ -1,0 +1,33 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15082867",
+  "date_published": "20160721",
+  "date_produced": "20160706",
+  "title": "REGISTER FILE SEGMENTS FOR SUPPORTING CODE BLOCK EXECUTION BY USING VIRTUAL CORES INSTANTIATED BY PARTITIONABLE ENGINES",
+  "filing_date": "20160328",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ABDALLAH",
+      "inventor_name_first": "Mohammad",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F950",
+    "G06F1208",
+    "G06F930",
+    "G06F1316"
+  ],
+  "main_ipcr_label": "G06F950",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In one embodiment, the present invention is implemented as a system for executing instructions using a plurality of memory fragments for a processor. The system includes a global front end scheduler for receiving an incoming instruction sequence, wherein the global front end scheduler partitions the incoming instruction sequence into a plurality of code blocks of instructions and generates a plurality of inheritance vectors describing interdependencies between instructions of the code blocks. The system further includes a plurality of virtual cores of the processor coupled to receive code blocks allocated by the global front end scheduler, wherein each virtual core comprises a respective subset of resources of a plurality of partitionable engines, wherein the code blocks are executed by using the partitionable engines in accordance with a virtual core mode and in accordance with the respective inheritance vectors. A plurality memory fragments are coupled to the partitionable engines for providing data storage. Other embodiments of the present invention utilize a common scheduler, a common register file and a common memory subsystem to implement fragmented address spaces for multiple partitionable engines of processor. The partitionable engines can be used to implement a plurality of virtual cores. Fragmentation enables the scaling of microprocessor performance by allowing additional virtual cores to cooperatively execute instruction sequences. The fragmentation hierarchy can be the same across each cache hierarchy (e.g., L1 cache, L2 cache, and the common register file). The fragmentation hierarchy can divide the address space into fragments using address bits, where the address bits are used such that the fragments are above cache line boundaries and below page boundaries. Each fragment can be configured to utilize a multiport bank structure for storage. The foregoing is a summary and thus contains, by necessity, simplifications,...",
+  "patent_number": "9934072",
+  "abstract": "A system for executing instructions using a plurality of register file segments for a processor. The system includes a global front end scheduler for receiving an incoming instruction sequence, wherein the global front end scheduler partitions the incoming instruction sequence into a plurality of code blocks of instructions and generates a plurality of inheritance vectors describing interdependencies between instructions of the code blocks. The system further includes a plurality of virtual cores of the processor coupled to receive code blocks allocated by the global front end scheduler, wherein each virtual core comprises a respective subset of resources of a plurality of partitionable engines, wherein the code blocks are executed by using the partitionable engines in accordance with a virtual core mode and in accordance with the respective inheritance vectors. A plurality register file segments are coupled to the partitionable engines for providing data storage.",
+  "publication_number": "US20160210176A1-20160721",
+  "_processing_info": {
+    "original_size": 79080,
+    "optimized_size": 3628,
+    "reduction_percent": 95.41
+  }
+}

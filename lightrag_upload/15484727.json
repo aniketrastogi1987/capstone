@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15484727",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "filing_date": "20170411",
+  "main_ipcr_label": "G06N504",
+  "abstract": "In at least one embodiment, a method and a system for determining a set of plans that best match a set of preferences. The method may include receiving into a goal specification interface at least one goal to be accomplished by the set of plans; receiving into a preference engine a pattern that includes preferences; generating a planning problem by using the preference engine; generating a set of plans by at least one planner; and providing the set of plans for selection of one plan to deploy. In a further embodiment, the preferences may be an occurrence or non-occurrence of at least one component, an occurrence of one component over another component, an ordering between at least two components, an existence or non-existence of at least one tag in a final stream, an existence of one tag over another tag in the final stream.",
+  "publication_number": "US20170220941A1-20170803",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The invention in at least one embodiment includes a method for operation of a system for determining a set of plans that best match a set of preferences including: receiving into a goal specification interface at least one goal to be accomplished by the set of plans; receiving into a preference engine a pattern that includes preferences from at least one user; generating a planning problem based on the received at least one goal and the received pattern by using the preference engine; generating a set of plans by using at least one planner; and providing the set of plans for selection of one plan to deploy. In a further embodiment, the preferences include at least one of the following: an occurrence of at least one component, a non-occurrence of at least one component, an occurrence of at least one component over at least one other component, an ordering between at least two components, an existence of at least one tag in a final stream, an existence of at least one tag over at least one other tag in the final stream, and a non-existence of at least one tag in the final stream. In a further embodiment to the first embodiment, each preference is at least one of: an occurrence of at least one component within a flow, a non-occurrence of at least one component, an occurrence of one component over at least one other component, a temporal relation between at least two components, a temporal relation over tags, a temporal relation ranking of components, a temporal relation ranking of tags, and an existence of a tag or a preference over tags. In a further embodiment to any of the previous embodiments, generating the planning problem includes providing the planning problem to at least one planner. In a further embodiment to any of the above embodiments, the set of plans includes the top-k plans. Further to the previous embodiment, k is a predetermined constant. In a further embodiment to either of the previous two embodiments, generating ...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F7523",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Riabov",
+      "inventor_name_first": "Anton V.",
+      "inventor_city": "Ann Arbor",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sohrabi Araghi",
+      "inventor_name_first": "Shirin",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Udrea",
+      "inventor_name_first": "Octavian",
+      "inventor_city": "Ossining",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Goal-Driven Composition with Preferences Method and System",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 96701,
+    "optimized_size": 3714,
+    "reduction_percent": 96.16
+  }
+}

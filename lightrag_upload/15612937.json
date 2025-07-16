@@ -1,0 +1,54 @@
+{
+  "patent_number": "None",
+  "application_number": "15612937",
+  "date_published": "20171207",
+  "date_produced": "20171121",
+  "filing_date": "20170602",
+  "main_ipcr_label": "G06N504",
+  "abstract": "According to one embodiment, there is provided herein a system and method for producing a well lifecycle lift plan that includes considerations of multiple types of lift, multiple lift configurations associated with each lift type, and can be used to provide a prediction of when or if it would be desirable to change the lift plan at some time in the future. Another embodiment utilizes a heuristic database with rules that might be used to limit the solution space in some instances by restricting the solution to feasible configurations. A further embodiment teaches how multiple individual well optimization results might be combined with a reservoir model to obtain an optimized lift schedule for an entire field.",
+  "publication_number": "US20170351959A1-20171207",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to one embodiment, there is provided herein a system and method for producing a well lifecycle lift plan that includes considerations of multiple types of lift, multiple lift configurations associated with each lift type, and can be used to provide a prediction of when or if it would be desirable to change the lift plan at some time in the future. In one variation, a method of providing lift type recommendations, including time points when it would be economically advantageous to change same, over a period of time which might include the life time of a well. In this variation, an operating period (e.g., five years) and a calculation interval (e.g., one month) are specified, a plurality of lift types are selected, performance-based models are run at each successive calculation interval/operating point within the operating period for each lift type to identify feasible equipment configurations, optimization is performed across all feasible equipment configurations for all lift types to identify optimum changeover time(s) and equipment, and, an actionable lift changeover plan is generated, preferably with technical and financial details. The actionable lift plan consists of the specific lift equipment configurations and the appropriate changeover times from one lift equipment configuration to another. As part of the generation of the lift plans, financial information such as the net present value, total equipment cost and detailed income statements are produced. The technical details produced along with the lift plan would include parameters such as total fluid, oil, water and/or gas production, the deferred production, the down time, a quantitative risk or technical feasibility score. Further with respect to the previous example, the optimization is performed using an adaptation of the Bellman (or Bellman—Ford) algorithm which is a linear/dynamic programming scheme that can be used to calculate the minimum distance from a ...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1711",
+    "G06F1750",
+    "G06Q1006"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rasheed",
+      "inventor_name_first": "Adam",
+      "inventor_city": "Glenville",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shalaby",
+      "inventor_name_first": "Mohammed Mounir",
+      "inventor_city": "Niskayuna",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sivaramakrishnan",
+      "inventor_name_first": "Shyam",
+      "inventor_city": "Schenectady",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tyber",
+      "inventor_name_first": "Steven Jay",
+      "inventor_city": "Rexford",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR WELL ARTIFICIAL LIFT LIFECYCLE PLANNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 69878,
+    "optimized_size": 3771,
+    "reduction_percent": 94.6
+  }
+}

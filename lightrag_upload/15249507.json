@@ -1,0 +1,37 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060719A1-20180301",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15249507",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kisilev",
+      "inventor_name_first": "Pavel",
+      "inventor_city": "Maalot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Sason",
+      "inventor_name_first": "Eliyahu",
+      "inventor_city": "Kiryat Ata",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "Embodiments may provide methods by which fusion of information may be applied to uncertainty reduction in the results of classifier-based data analysis. For example, a method for data analysis may comprise generating a plurality of sets of data samples, each set of data samples representing a portion of input data at plurality of scales, each data sample in a set may represent the portion of the input data at a different scale and location, generating a feature map from each data sample of at least one set of data samples by learning and aggregating features using a first multi-layer convolutional processing, each data sample may be processed with multi-layer convolutional processing separately from other data samples, and generating a feature map by combining the feature maps from the data samples of each set of data samples by performing multiple-scale-multiple-location label fusion using a second multi-layer convolutional processing.",
+  "filing_date": "20160829",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention may provide techniques by which error or uncertainty in the results of classifier-based data analysis techniques may be reduced, so as to provide better quality results from such techniques. For example, in an embodiment, fusion of information techniques may be applied to uncertainty reduction in the results of classifier-based data analysis techniques. Each of individual data analysis technique produces some errors, even if the input information is not corrupted or incomplete. However, different technique being applied to different data should produce different errors, and assuming that each individual technique performs well, the combination of such multiple techniques should reduce overall classification error and uncertainty and result in higher-quality results. For example, in an embodiment of the present invention, a computer-implemented method for data analysis may comprise receiving input data, generating a plurality of sets of data samples, each set of data samples representing a portion of the received input data at plurality of scales, wherein each data sample in a set represents the portion of the received input data at a different scale, generating a feature map from each data sample of at least one set of data samples by learning and aggregating features using a first multi-layer convolutional processing, wherein each data sample may be processed with multi-layer convolutional processing separately from other data samples, and generating a feature map for the at least one set of data samples by combining the feature maps from the data samples of each set of data samples by performing multiple-scale-multiple-location label fusion using a second multi-layer convolutional processing. In an embodiment, the data samples in each set of data samples may be overlapping data samples, or the data samples in each set of data samples may be non-overlapping data samples. Each layer of convolutional processing ...",
+  "date_published": "20180301",
+  "title": "SCALE-SPACE LABEL FUSION USING TWO-STAGE DEEP NEURAL NET",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 47787,
+    "optimized_size": 3636,
+    "reduction_percent": 92.39
+  }
+}

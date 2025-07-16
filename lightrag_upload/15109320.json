@@ -1,0 +1,44 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15109320",
+  "date_published": "20161103",
+  "date_produced": "20161019",
+  "title": "COMPUTER AND GRAPH DATA GENERATION METHOD",
+  "filing_date": "20160630",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MIYAMOTO",
+      "inventor_name_first": "Atsushi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KUDO",
+      "inventor_name_first": "Yasuyuki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MIYAKOSHI",
+      "inventor_name_first": "Junichi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1715"
+  ],
+  "main_ipcr_label": "G06F1715",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The method disclosed the in the U.S. Unexamined Patent Application Publication No. 2001/0011958 A regards compressing the sample number of the original data to n as the main theme for reducing the storing data and the cost of communication, which does not fully take the limitation on the hardware resources responsible for implementing the analysis process into consideration. Even more, the method disclosed in the U.S. Unexamined Patent Application Publication No. 2001/0011958 A is required to, when executing the correlation analysis and the principal component analysis, reconfigure the compressed data columns, convert data to the original format before calculating the correlation matrix, and then execute the analysis process. Because of this, the method disclosed in the U.S. Unexamined Patent Application Publication No. 2001/0011958 A requires the number of indicators (m) to be, as a prerequisite, sufficiently small with respect to the number of samples (n). If the data has increased with the passage of time When the m-by-n correlation matrix becomes too large to be stored in the memory with increasing the number of indicators (m), it can be problematic in that the data analysis such as the correlation analysis and the principal component analysis cannot be executed. Since an analysis of social infrastructure can include more than 1 million indicators for explaining the matter, it is imperative that analysis be efficient as the number of indicators increases. The present invention is intended to resolve the above stated problems, and the aim thereof is to, when analyzing the correlation matrix that includes a large number of indicators, compress the amount of data to reduce the amount of data and to make the process more efficient. The present invention can be appreciated by the description which follows in conjunction with the following figures, wherein: a computer comprises a processor and a memory coupled to the processor, conf...",
+  "patent_number": "9846679",
+  "abstract": "A computer utilizes correlation matrix data including a value indicating correlation between indicators and comprises a graph process unit that includes a control factor calculation unit configured to calculate a control factor for generating compressed graph data based on a constraint condition on a process; and a graph generation unit configured to generate graph data from the correlation matrix data by using the control factor. The control factor calculation unit obtains a target process time as the constraint condition; calculates a maximum of a number of edges to be included in the graph data; calculates a threshold for extracting the elements converted from the correlation matrix data to the graph data based on the maximum of the number of edges; and outputs the threshold as the control factor. The graph generation unit extracts the elements from the correlation matrix data based on the threshold, and generates the graph data.",
+  "publication_number": "US20160321213A1-20161103",
+  "_processing_info": {
+    "original_size": 77990,
+    "optimized_size": 3765,
+    "reduction_percent": 95.17
+  }
+}

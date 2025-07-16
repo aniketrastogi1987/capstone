@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15641063",
+  "date_published": "20180125",
+  "date_produced": "20180109",
+  "filing_date": "20170703",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A learning apparatus includes at least one memory and at least one circuit. The circuit (a) obtains a first neural network that has learned by using source learning data and obtains target learning data, the target learning data including a plurality of first data items each of which is given a first label and a plurality of second data items each of which is given a second label, (b) obtains a plurality of first output vectors by inputting the plurality of first data items to a second neural network and obtains a plurality of second output vectors by inputting the plurality of second data items to the second neural network, and (c) generates a first relation vector corresponding to the first label by using the plurality of first output vectors and generates a second relation vector corresponding to the second label by using the plurality of second output vectors.",
+  "publication_number": "US20180025271A1-20180125",
+  "summary": "<SOH> SUMMARY <EOH>The inventors found several issues that may undermine learning effects, such as overfitting or a decrease in identification accuracy, regarding the transfer learning disclosed in the foregoing document. One non-limiting and exemplary embodiment provides a learning apparatus that is at least capable of suppressing a decrease in identification accuracy. In one general aspect, the techniques disclosed here feature a learning apparatus including at least one memory and at least one circuit. The circuit (a) obtains a first neural network that has learned by using source learning data which is learning data with answer labels in a source domain and obtains target learning data which is learning data with answer labels in a target domain, the target learning data including a plurality of first data items each of which is given a first label and a plurality of second data items each of which is given a second label, (b) obtains a plurality of first output vectors by inputting the plurality of first data items to a second neural network and obtains a plurality of second output vectors by inputting the plurality of second data items to the second neural network, the first neural network and the second neural network having identical weighting values, identical numbers of hidden layers, identical numbers of neurons in each of the hidden layers, identical numbers of neurons in an input layer, and identical numbers of neurons in an output layer, and (c) generates a first relation vector corresponding to the first label by using the plurality of first output vectors and generates a second relation vector corresponding to the second label by using the plurality of second output vectors. It should be noted that general or specific embodiments may be implemented as a system, a method, an integrated circuit, a computer program, a computer-readable recording medium, or any selective combination thereof. The computer-readable recording medium includes a compact disc-...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1716",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SAWADA",
+      "inventor_name_first": "YOSHIHIDE",
+      "inventor_city": "Kyoto",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NAKADA",
+      "inventor_name_first": "TORU",
+      "inventor_city": "Kyoto",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SATO",
+      "inventor_name_first": "YOSHIKUNI",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "LEARNING APPARATUS, IDENTIFYING APPARATUS, LEARNING AND IDENTIFYING SYSTEM, AND RECORDING MEDIUM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 133951,
+    "optimized_size": 3762,
+    "reduction_percent": 97.19
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15404052",
+  "date_published": "20170504",
+  "date_produced": "20170419",
+  "filing_date": "20170111",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "In accordance with disclosed embodiments, there are provided systems, methods, and apparatuses for implementing predictive engine evaluation and replay of engine performance. An exemplary system may include, for example: means selecting a first set of one or more algorithms for a machine learning model; tuning a first group of predictive engine parameters for the machine learning model; training the machine learning model with one or more sources of data using the selected first set of one or more algorithms and the first group of tuned predictive engine parameters to generate a first predictive engine variant from the trained machine learning model; selecting a second set of one or more algorithms for a machine learning model which are different than the first set; tuning a second group of predictive engine parameters for the machine learning model which are different than the first group; training the machine learning model with the one or more sources of data using the selected seco...",
+  "publication_number": "US20170124486A1-20170504",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>The inventors of the present invention have created methods and systems for tracking the deployment of predictive engines for machine learning applications, and for replaying the performances of such predictive engines. More specifically, in one aspect, one embodiment of the present invention is a method for tracking the deployment of a predictive engine, the method including steps to deploy an engine variant of the predictive engine based on an engine parameter set, wherein the engine parameter set identifies at least one data source and at least one algorithm; the deployed engine variant listens to and receives one or more queries from one or more end-user devices. In response to the received queries, the deployed engine variant generates one or more predicted results. The method further includes steps to receive one or more actual results corresponding to the predicted results, and to associate the queries, the predicted results, and the actual results with a replay tag, and recording them with the corresponding deployed engine variant. In some embodiments of the present invention, the method further includes steps to receive a replay request specified by one or more replay tags, and in response to the replay request, replay at least one of the queries, the predicted results, and the actual results associated with the one or more replay tags. In some embodiments of the present invention, the engine parameter set is generated manually by an operator. In other embodiments, the engine parameter set is determined automatically by the system using one or more heuristics, rules, or other procedures. In yet other embodiments, the engine parameter set may be determined automatically, and later edited or modified by the operator before the engine variant is deployed. In some embodiments, the actual results comprise a sequence of user responses to the predicted results. In some embodiments, the actual results are collected over a d...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chan",
+      "inventor_name_first": "Ka Hou",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chan",
+      "inventor_name_first": "Simon",
+      "inventor_city": "Belmont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Szeto",
+      "inventor_name_first": "Kit Pang",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yip",
+      "inventor_name_first": "Yue Kwen Justin",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHODS AND SYSTEMS FOR PREDICTIVE ENGINE EVALUATION AND REPLAY OF ENGINE PERFORMANCE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 139790,
+    "optimized_size": 4031,
+    "reduction_percent": 97.12
+  }
+}

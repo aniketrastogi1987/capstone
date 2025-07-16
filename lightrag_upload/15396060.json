@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15396060",
+  "date_published": "20170420",
+  "date_produced": "20170405",
+  "title": "Selective Downloading of Shared Content Items in a Constrained Synchronization System",
+  "filing_date": "20161230",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Newhouse",
+      "inventor_name_first": "Benjamin Zeis",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "H04L2908"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIGS. 1A and 1B are concept diagrams that illustrate one embodiment of constrained synchronization. FIG. 2 illustrates a system environment for a content management system that synchronizes content items between client devices. FIG. 3 illustrates the software architecture of a client device. FIG. 4 is an interaction diagram of constrained synchronization for accessing an existing content item in the local content directory. FIG. 5 is an interaction diagram of constrained synchronization for creating a new content item to be stored in the local content directory. FIG. 6 illustrates a system environment for host based constrained synchronization. FIG. 7 is an interaction diagram of constrained synchronization managed by a host device. FIG. 8 is an illustration of a user interface for a local content directory with icons representing remote and local content items. FIG. 9 is a concept diagram illustrating constrained synchronization using predicted content item importance. FIG. 10 illustrates a system environment for a content management system using predicted content item importance for constrained synchronization. FIG. 11 illustrates a software architecture of a client device using idle state triggered content management. FIG. 12 illustrates a system environment for a content management system using idle state triggered content management. FIG. 13 is a flow diagram illustrating a process used in idle state triggered content management. FIG. 14 illustrates a software architecture of a client device using selective downloading for a content management system utilizing constrained synchronization. FIG. 15 is a flow diagram illustrating an example process used to approve content items for download if the corresponding shadow item is requested. FIG. 16 illustrates a number of hidden honeypot files in one embodiment of selective downloading for a content management system. FIG. 17 is a flow diagram illustrating a process for cat...",
+  "patent_number": "None",
+  "abstract": "A content management system synchronizes content items across client computing systems connected by a network. If a storage allocation for shared content items on a client device is exceeded by the request to add or edit a content item such that it is enlarged, a client application or the host of content management system selects content items to remove from residence on the client device but keep remotely on content management system. Upon removal of the selected content items, the client application creates shadow items, representing the content item but only containing the metadata of the content item. This creates sufficient space while maintaining user access to all synchronized shared content items. When a shadow item is requested by an application running on the client device the client application may approve or deny the request based on process or application access date collected from honeypots saved on the client device.",
+  "publication_number": "US20170109370A1-20170420",
+  "_processing_info": {
+    "original_size": 137846,
+    "optimized_size": 3546,
+    "reduction_percent": 97.43
+  }
+}

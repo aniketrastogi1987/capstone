@@ -1,0 +1,61 @@
+{
+  "patent_number": "None",
+  "application_number": "15793455",
+  "date_published": "20180426",
+  "date_produced": "20180411",
+  "filing_date": "20171025",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Techniques of generating input for a kernel-based machine learning system that uses a kernel to perform classification operations on data involve generating unbiased estimators for gaussian kernels according to a new framework called Structured Orthogonal Random Features (SORF). The unbiased estimator KSORF to the kernel involves a linear transformation matrix WSORF computed using products of a set of pairs of matrices, each pair including an orthogonal matrix and respective diagonal matrix whose elements are real numbers following a specified probability distribution. Typically, the orthogonal matrix is a Walsh-Hadamard matrix, the specified probability distribution is a Rademacher distribution, and there are at least two, usually three, pairs of matrices multiplied together to form the linear transformation matrix WSORF.",
+  "publication_number": "US20180114145A1-20180426",
+  "summary": "<SOH> SUMMARY <EOH>Implementations provide a kernel approximation method that is compact, fast, and accurate for gaussian kernels. The implementations generate unbiased estimators for gaussian kernels according to a new framework called Structured Orthogonal Random Features (SORF). The unbiased estimator K SORF to the kernel involves a linear transformation matrix W SORF computed using products of a set of pairs of matrices, each pair including an orthogonal matrix and respective diagonal matrix whose elements are real numbers following a specified probability distribution. Typically, the orthogonal matrix is a Walsh-Hadamard matrix, the specified probability distribution is a Rademacher distribution, and there are at least two, usually three, pairs of matrices multiplied together to form the linear transformation matrix W SORF . According to one aspect, a method of generating input for a kernel-based machine learning system that uses a kernel to perform classification operations on data can include generating, by processing circuitry of the kernel-based machine learning system, a set of diagonal matrices, each of the set of diagonal matrices having non-diagonal elements that are zero and diagonal elements that have values distributed according to a specified probability distribution function. The method can also include producing, by the processing circuitry, a set of orthogonal matrices, each of the set of orthogonal matrices having mutually orthogonal rows. The method can further include, for each of the set of diagonal matrices, forming, by the processing circuitry, a set of matrix pairs, each of the set of matrix pairs including (i) that diagonal matrix, and (ii) a respective orthogonal matrix of the set of orthogonal matrices. The method can further include generating, by the processing circuitry, a product of each of the set of matrix pairs to produce a linear transformation matrix, the linear transformation matrix being an unbiased estimator of the kernel us...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716",
+    "G06F1714",
+    "G06F1717"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "HOLTMANN-RICE",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KUMAR",
+      "inventor_name_first": "Sanjiv",
+      "inventor_city": "Jericho",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "YU",
+      "inventor_name_first": "Xinnan",
+      "inventor_city": "Forest Hills",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHOROMANSKI",
+      "inventor_name_first": "Krzysztof Marcin",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SURESH",
+      "inventor_name_first": "Ananda Theertha",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "STRUCTURED ORTHOGONAL RANDOM FEATURES FOR KERNEL-BASED MACHINE LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 49124,
+    "optimized_size": 4044,
+    "reduction_percent": 91.77
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15052552",
+  "date_published": "20170824",
+  "date_produced": "20170809",
+  "title": "Appearance Transfer Techniques",
+  "filing_date": "20160224",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jamriska",
+      "inventor_name_first": "Ondrej",
+      "inventor_city": "Prague",
+      "inventor_state": "",
+      "inventor_country": "CZ"
+    },
+    {
+      "inventor_name_last": "Fiser",
+      "inventor_name_first": "Jakub",
+      "inventor_city": "Praha",
+      "inventor_state": "",
+      "inventor_country": "CZ"
+    },
+    {
+      "inventor_name_last": "Asente",
+      "inventor_name_first": "Paul J.",
+      "inventor_city": "Redwood City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lu",
+      "inventor_name_first": "Jingwan",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shechtman",
+      "inventor_name_first": "Elya",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sýkora",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Prague",
+      "inventor_state": "",
+      "inventor_country": "CZ"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T1380",
+    "G06T1100",
+    "G06T1160"
+  ],
+  "main_ipcr_label": "G06T1380",
+  "summary": "<SOH> SUMMARY <EOH>Appearance transfer techniques are described in the following. These techniques are usable to generate realistic looking target images from image exemplar, including fluid animations, by transferring an appearance of the image exemplar to the target image. In one example, a search and vote process is configured to select patches from the image exemplar and then search for a location in the target image that is a best fit for the patches, which is the opposite order of conventional techniques. As part of this selection, a patch usage counter may also be employed in an example to ensure that selection of each of the patches from the image exemplar does not vary by more than one, one to another. Through use of the patch usage counter, selection is ensured of dynamic patches and thus maintains a dynamic appearance of the animation. In another example, transfer of an appearance of a boundary from the image exemplar to a target image is preserved. This is achieved by differentiating between boundary and interior portions of the image exemplar and boundary and interior portions of the target image. In this way, boundary portions such as an edge of a flame are maintained to provide a realistic looking appearance. In yet another example, temporal coherence is preserved between frames in a target video in a manner that avoids the jerking and pulsing of conventional techniques caused by noticeable differences in successive frames in the conventional techniques. In order to do so, a previous frame of a target video is warped that occurs in the sequence of the target video before a particular frame being synthesized to define motion, e.g., using a motion field output of a fluid simulator to give an appearance of motion. Color of the particular frame is transferred from an appearance of a corresponding frame of a video exemplar. In this way, smooth changes may be observed between successive frames while maintaining a dynamic appearance within the frames. In a f...",
+  "patent_number": "9870638",
+  "abstract": "Appearance transfer techniques are described in the following. In one example, a search and vote process is configured to select patches from the image exemplar and then search for a location in the target image that is a best fit for the patches. As part of this selection, a patch usage counter may also be employed in an example to ensure that selection of each of the patches from the image exemplar does not vary by more than one, one to another. In another example, transfer of an appearance of a boundary and interiors regions from the image exemplar to a target image is preserved.",
+  "publication_number": "US20170243388A1-20170824",
+  "_processing_info": {
+    "original_size": 71507,
+    "optimized_size": 3864,
+    "reduction_percent": 94.6
+  }
+}

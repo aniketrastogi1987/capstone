@@ -1,0 +1,46 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15100228",
+  "date_published": "20170112",
+  "date_produced": "20161228",
+  "title": "APPARATUS AND METHOD FOR ESTIMATING GAZE FROM UN-CALIBRATED EYE MEASUREMENT POINTS",
+  "filing_date": "20160527",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ALNAJAR",
+      "inventor_name_first": "Fares",
+      "inventor_city": "Amsterdam",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "VALENTI",
+      "inventor_name_first": "Roberto",
+      "inventor_city": "Amsterdam",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "GEVERS",
+      "inventor_name_first": "Theo",
+      "inventor_city": "Amsterdam",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    }
+  ],
+  "ipcr_labels": [
+    "A61B3113",
+    "G06F1718",
+    "G06F301"
+  ],
+  "main_ipcr_label": "A61B3113",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>One of the objects of the invention is to obtain a system or method which enables the gaze of a user viewing a scene to be more accurately estimated. The following aspects of the invention are based on the insight that gaze patterns between different users are similar for a same scene. Here, the term ‘gaze pattern’ refers to the spatial distribution of gaze points with respect to the scene. As such, the eye measurement points of a user viewing a scene can be calibrated to the eye measurement points of another user viewing, or having viewed, the same scene. Hence, users do not need to actively participate in the calibration procedure. A first aspect of the invention provides a system for enabling estimating gaze of different users with respect to a scene from eye measurement points which represent un-calibrated eye measurements of the users viewing the scene, the system comprising: an input for obtaining at least a first set of eye measurement points of a first user viewing the scene and a second set of eye measurement points of a second user viewing the scene, the first set of eye measurement points being obtained as coordinates in a first coordinate system, the second set of eye measurement points being obtained as coordinates in a second coordinate system, the first coordinate system and the second coordinate system having an unknown geometric relation; a processing subsystem configured for: i) mutually calibrating the first set of eye measurement points and the second set of eye measurement points by mapping said points to a common coordinate system, thereby obtaining a set of mapped eye measurement points, said mapping comprising establishing a coordinate transformation which provides similar coordinates in the common coordinate system for geometrically similar topologies of both sets of eye measurement points; and ii) calculating a scene transformation for mapping the common coordinate system to a coordinate system associated...",
+  "patent_number": "9924865",
+  "abstract": "Some embodiments are directed to a system and a method for estimating gaze from a set of eye measurement points that are indicative of a gaze pattern of a user viewing a scene. Some other embodiments are directed to obtaining sets of eye measurement points from different users viewing the same scene. In another embodiment, the different sets of eye measurement points are mapped to a common coordinate system for reciprocal calibration. In yet another embodiment, a scene transformation for mapping the common coordinate system to a coordinate system associated with the scene can be calculated by matching eye measurement points from the common coordinate system to interest points of the scene. The scene transformation is thereby calculated more accurately than individually calculated scene transformations, thereby providing a more accurate estimate of the gaze points.",
+  "publication_number": "US20170007118A1-20170112",
+  "_processing_info": {
+    "original_size": 81351,
+    "optimized_size": 3774,
+    "reduction_percent": 95.36
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15142237",
+  "date_published": "20170608",
+  "date_produced": "20170524",
+  "title": "COMPUTER SYSTEM AND OPERATING METHOD THEREFOR",
+  "filing_date": "20160429",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LI",
+      "inventor_name_first": "Kai",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SHEN",
+      "inventor_name_first": "Yun",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2133",
+    "H04L930",
+    "G06F944",
+    "G06F2157"
+  ],
+  "main_ipcr_label": "G06F2133",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>A computer system in accordance with an exemplary embodiment of the disclosure has a central processing unit and a non-volatile memory. The central processing unit operates in accordance with microcode and includes an authenticated code execution area (ACEA). The non-volatile memory stores a start-up authenticated code module (start-up ACM). After being powered on, the central processing unit executes the microcode to load the start-up authenticated code module from the non-volatile memory to the authenticated code execution area to authenticate the start-up authenticated code module. When the start-up authenticated code module passes authentication, the central processing unit executes the start-up authenticated code module to connect to a server and receive a code upgrade file for a computer component of the computer system from the server. An operating method for a computer system includes the following steps: allocating an authenticated code execution area within a central processing unit of a computer system, wherein the central processing unit operates in accordance with microcode; using a non-volatile memory to store a start-up authenticated code module; executing the microcode to load the start-up authenticated code module from the non-volatile memory to the authenticated code execution area to authenticate the start-up authenticated code module; and executing the start-up authenticated code module that passes authentication to connect to a server and receive a code upgrade file for a computer component of the computer system from the server. Because the authenticated code execution area within the central processing unit is prohibited from being accessed by devices other than the central processing unit, the security of the execution of the start-up authenticated code module is guaranteed. In comparison with conventional techniques which get the code upgrade file via the basic input and output system (BIOS) or the o...",
+  "patent_number": "None",
+  "abstract": "Code upgrades for computer components. After being powered on, a central processing unit (CPU) of a computer system loads a start-up authenticated code module (start-up ACM) to an authenticated code execution area (ACEA) within the CPU to be authenticated. When the start-up ACM passes authentication, the CPU executes the start-up ACM to connect to a server and receive a code upgrade file for a computer component of the computer system from the server.",
+  "publication_number": "US20170161483A1-20170608",
+  "_processing_info": {
+    "original_size": 29380,
+    "optimized_size": 3152,
+    "reduction_percent": 89.27
+  }
+}

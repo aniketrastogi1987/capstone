@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15652281",
+  "date_published": "20171116",
+  "date_produced": "20171103",
+  "filing_date": "20170718",
+  "main_ipcr_label": "G06N312",
+  "abstract": "The various embodiments herein provide a method and system for automated model building, validation and selection of best performing models. The method comprises of selecting a dataset available for modeling from one or more external data sources, dividing the dataset into at least three parts, selecting one or more modeling methods along with associated parameters ranges based on the model to be built, identifying one or more fitness functions against which the models need to be evaluated, generating a plurality of model building experiment variation that can be run utilizing a first part of the dataset, obtaining values of the fitness function for the different modeling method experiments on the first part of the dataset, obtaining a second fitness value by re-evaluating the generated models from the different experiments on a second part of the dataset to evaluate the model performance on unseen data during training, selecting, one or more best performing models by comparing the fir...",
+  "publication_number": "US20170330078A1-20171116",
+  "summary": "<SOH> SUMMARY <EOH>The primary objective of the embodiments herein is to provide a method and system for automated model building, validation and selection of best performing models. Another objective of the embodiments herein is to provide a method and system using which a user can select the data for training and testing, along with a set of usable modeling methods that can be used to build multiple models and let the method run a search to identify the best possible model and its related parameters that provide the best generalization and hence a much closer approximation to global optima. Another objective of the embodiments herein is to provide a method and system that validates the generated models against data not utilized in training and testing of the models and generate a ranking of models based on performance metrics to enable easier best performing model selection. According to an embodiment herein, the method for automated model building, validation and selection of best performing models is described herein. The method comprises steps of selecting a dataset available for modeling from one or more external data sources, and dividing the dataset into at least three parts, wherein the dataset is obtained by merging data from one or more external data sources using a database connector module. Further, the method comprises of selecting one or more algorithms/modeling methods along with associated parameters ranges based on the model to be built. Further, the method comprises step of generating a plurality of model building experiment variation that can be run utilizing a first part of the dataset. Further, the method comprises of obtaining a value of a fitness function for the models by running different modeling method experiments on the first part of the dataset and evaluating their final performance for each of the runs. Further, the method comprises of obtaining the value of a second, same or different fitness function by running the generated models o...",
+  "ipcr_labels": [
+    "G06N312",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KODURU",
+      "inventor_name_first": "PRAVEEN",
+      "inventor_city": "THE WOODLANDS",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR AUTOMATED MODEL BUILDING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 65412,
+    "optimized_size": 3555,
+    "reduction_percent": 94.57
+  }
+}

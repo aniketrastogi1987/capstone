@@ -1,0 +1,79 @@
+{
+  "decision": "PENDING",
+  "application_number": "15057992",
+  "date_published": "20170907",
+  "date_produced": "20170823",
+  "title": "METHOD FOR DYNAMICALLY MATCHING IMAGES WITH CONTENT ITEMS BASED ON KEYWORDS IN RESPONSE TO SEARCH QUERIES",
+  "filing_date": "20160301",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kong",
+      "inventor_name_first": "Qi",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhu",
+      "inventor_name_first": "Fan",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Dong",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jiang",
+      "inventor_name_first": "Yifei",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wu",
+      "inventor_name_first": "Shuang",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zou",
+      "inventor_name_first": "Youling",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Guang",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Jingao",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Embodiments of the invention are illustrated by way of example and not limitation in the figures of the accompanying drawings in which like references indicate similar elements. FIGS. 1A and 1B are block diagram illustrating an example of system configuration for matching images with content items according to some embodiments of the invention. FIG. 2 is a block diagram illustrating a system for matching images with content items according to one embodiment of the invention. FIGS. 3A-3B are examples of query-image matching tables according to certain embodiments of the invention. FIG. 4 is a flow diagram illustrating a process for matching images with content according to one embodiment of the invention. FIG. 5 is a block diagram illustrating an example of a system for matching images with content according to one embodiment of the invention. FIG. 6 is a processing flow for generating query-image mapping rules according to one embodiment of the invention. FIGS. 7A-7B are diagrams illustrating examples of mapping data structures according to certain embodiments of the invention. FIG. 8 is a flow diagram illustrating a process for generating query-image mapping rules according to one embodiment of the invention. FIG. 9 is a block diagram illustrating an example of a query-image matching system according to another embodiment of the invention. FIG. 10 is a process flow diagram illustrating a process for matching images with content in response to a search query according to one embodiment of the invention. FIG. 11 is a diagram illustrating an example of a process of ranking images in response to a search query according to one embodiment of the invention. FIG. 12 is a flow diagram illustrating a process for matching images with content items based on keywords according to one embodiment of the invention. FIG. 13 is a block diagram illustrating an example of a query-image matching system according to another embodiment of the...",
+  "patent_number": "None",
+  "abstract": "According to one embodiment, in response to a search query received from a client device for searching content, one or more first keywords are determined from the search query. A lookup operation is performed in an image-to-keyword (image/keyword) mapping table based on the first keywords. The image/keyword mapping table includes a plurality of entries, each entry mapping an image identifier (ID) identifying an image to one or more second keywords. For each of images identified in the image/keyword mapping table, a matching degree is determined between the first keywords and the second keywords. A ranking process is performed based on matching degrees on a plurality of images identified in the image/keyword mapping table whose second keywords match at least a portion of the first keywords.",
+  "publication_number": "US20170255652A1-20170907",
+  "_processing_info": {
+    "original_size": 99356,
+    "optimized_size": 4394,
+    "reduction_percent": 95.58
+  }
+}

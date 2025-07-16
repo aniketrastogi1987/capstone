@@ -1,0 +1,73 @@
+{
+  "date_produced": "20170110",
+  "publication_number": "US20170024645A1-20170126",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15221532",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Socher",
+      "inventor_name_first": "Richard",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kumar",
+      "inventor_name_first": "Ankit",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Irsoy",
+      "inventor_name_first": "Ozan",
+      "inventor_city": "Ithaca",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Iyyer",
+      "inventor_name_first": "Mohit",
+      "inventor_city": "Burke",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xiong",
+      "inventor_name_first": "Caiming",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Merity",
+      "inventor_name_first": "Stephen",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Paulus",
+      "inventor_name_first": "Romain",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A novel unified neural network framework, the dynamic memory network, is disclosed. This unified framework reduces every task in natural language processing to a question answering problem over an input sequence. Inputs and questions are used to create and connect deep memory sequences. Answers are then generated based on dynamically retrieved memories.",
+  "filing_date": "20160727",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE FIGURES <EOH>The present invention is illustrated by way of example, and not by way of limitation, in the figures of the accompanying drawings and in which like reference numerals refer to similar elements and in which: FIG. 1 is a block diagram of one embodiment of a Dynamic Memory Network. FIG. 2A is an exemplary stream of information, questions, and answers, in accordance with one embodiment of the present invention. FIG. 2B is an exemplary stream of information, questions, and answers, in accordance with one embodiment of the present invention. FIG. 3 is a flowchart of a DMN operation 300 in accordance with one embodiment the present invention. FIG. 4 is a block diagram of one embodiment of a simple two-layer neural network. FIG. 5 is another exemplary stream of information, questions, and answers, in accordance with one embodiment of the present invention. FIG. 6 is a schematic of a long-term short term memory system in accordance with one embodiment of the present invention. FIG. 7 is a functional block diagram of an episodic memory in accordance with the present invention. FIG. 8 is a block diagram illustrating an exemplary gating mechanism for use with an episodic memory in accordance with the present invention. FIG. 9 is a block diagram illustrating an exemplary attention focusing mechanism for use with an episodic memory in accordance with the present invention. FIG. 10 is a block diagram illustrating an exemplary episodic memory using an attention focusing mechanism in accordance with the present invention. FIG. 11 is a block diagram illustrating an exemplary GRU using an attention focusing mechanism in accordance with the present invention. FIG. 12 is a block diagram illustrating an exemplary input fusion layer for use in a dynamic memory network in accordance with the present invention. FIG. 13 is a block diagram of a computer system on which the present invention may be implemented. FIG. 14 illustrates attention weights f...",
+  "date_published": "20170126",
+  "title": "Dynamic Memory Network",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 105922,
+    "optimized_size": 3753,
+    "reduction_percent": 96.46
+  }
+}

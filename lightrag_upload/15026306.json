@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15026306",
+  "date_published": "20160728",
+  "date_produced": "20160713",
+  "title": "METHOD, SYSTEM, COMPUTER PROGRAM AND COMPUTER PROGRAM PRODUCT FOR MONITORING DATA PACKET FLOWS BETWEEN VIRTUAL MACHINES, VMS, WITHIN A DATA CENTRE",
+  "filing_date": "20160331",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SEFIDCON",
+      "inventor_name_first": "Azimeh",
+      "inventor_city": "Sollentuna",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "YADHAV",
+      "inventor_name_first": "Vinay",
+      "inventor_city": "Upplands Väsby",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F9455",
+    "H04L12931"
+  ],
+  "main_ipcr_label": "G06F9455",
+  "summary": "<SOH> SUMMARY <EOH>One object of the following disclosure is to provide a solution of the problem of inefficient network traffic flows between VMs inside a data center. Inefficient network flows between the VMs can lead to network traffic flowing inside the data center occupying resources on physical network resources like switches and routers and also leads to increased latency between the communicating VMs. According to one aspect of the provided solution, said solution relates to a method, and different embodiments thereof, for monitoring data packet flows between Virtual Machines, VMs, within a data centre. The method comprises collecting flow data for data packet flows between VMs in the data centre, and mapping the flow data of data packet flows between VMs onto data centre topology to establish flow costs for said data packet flows. The method further comprises calculating an aggregated flow cost for all the flows associated with a VM for each VM within the data centre, and determining whether to reschedule any VM, or not, based on the aggregated flow cost. According to another aspect of the provided solution, said solution relates to a flow monitoring system, and different aspects thereof, which monitors data packet flows between Virtual Machines, VMs, within a data centre. The flow monitoring system comprises a processor and a memory, said memory comprising instructions executable by said processor, whereby the flow monitoring system is operative to collect traffic data for data packet flows between VMs in the data centre, to map traffic data of data packet flows between VMs onto data centre topology to establish flow costs for said data packet flows, to calculate an aggregated flow cost for all the flows associated with a VM for each VM within the data centre, and to determine whether to reschedule any VM, or not, based on the aggregated flow cost. According to another aspect of the provided solution, said solution relates to a computer program comprising ...",
+  "patent_number": "None",
+  "abstract": "The following invention relates to methods, systems, computer programs and computer program products for supporting said method, and different embodiments thereof, for monitoring data packet flows between Virtual Machines, VMs, within a data centre. The method comprises collecting flow data for data packet flows between VMs in the data centre, and mapping the flow data of data packet flows between VMs onto data centre topology to establish flow costs for said data packet flows. The method further comprises calculating an aggregated flow cost for all the flows associated with a VM for each VM within the data centre, and determining whether to reschedule any VM, or not, based on the aggregated flow cost.",
+  "publication_number": "US20160216994A1-20160728",
+  "_processing_info": {
+    "original_size": 52336,
+    "optimized_size": 3516,
+    "reduction_percent": 93.28
+  }
+}

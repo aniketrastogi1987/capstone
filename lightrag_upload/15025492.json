@@ -1,0 +1,44 @@
+{
+  "date_produced": "20160713",
+  "publication_number": "US20160217373A1-20160728",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15025492",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YE",
+      "inventor_name_first": "Mao",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "TANG",
+      "inventor_name_first": "Zhi",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "XU",
+      "inventor_name_first": "Jianbo",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present invention provides a method and system of measuring knowledge point relationship strength, the method comprising calculating explicit relationship strength for all knowledge points and generating a knowledge point relationship strength matrix M; constructing a weighted and directed graph G according to the knowledge point relationship strength matrix of all knowledge points; calculating knowledge point implicit relationship strength values according to the weighted and directed graph and generating a knowledge point implicit relationship strength matrix I; traversing the knowledge point implicit relationship strength matrix I and updating the knowledge point relationship strength matrix M. The above technical solution may effectively avoid the problem of lack of an absolute measurable value for the determination of relationship strength, incorrect measurement of relationship strength, or unable to discover some stronger relationship strength in the prior art.",
+  "filing_date": "20160328",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A technical problem to be solved in this invention is at least one of lack of an absolute measurable value for the determination of relationship strength, incorrect measurement of relationship strength, and unable to discover some stronger relationship strength in the prior art. In order to measure relationship strength from a perspective of the whole knowledge system, adopting an absolute measurable value for the determination of relationship strength, a method and system for measuring knowledge point relationship strength is provided. In order to solve the above technical problem, this disclosure provides the following technical solutions. A method for measuring knowledge point relationship strength, comprising the following steps: calculating explicit relationship strength values for ail knowledge points and generating a knowledge point relationship strength matrix M; constructing a weighted and directed graph G according to the knowledge point relationship strength matrix of all knowledge points; calculating knowledge point implicit relationship strength values according to the weighted and directed graph and generating a knowledge point implicit relationship strength matrix I; traversing the knowledge point implicit relationship strength matrix and updating the knowledge point relationship strength matrix M. Optionally, calculating explicit relationship strength values for all knowledge points and generating a knowledge point relationship strength matrix M comprises the following steps: calculating knowledge point forward explicit relationship strength values; calculating knowledge point backward explicit relationship strength values; calculating knowledge point explicit relationship strength values according to the knowledge point forward explicit relationship strength values and the knowledge point backward explicit relationship strength values; according to the knowledge point explicit relationship strength values, generat...",
+  "date_published": "20160728",
+  "title": "METHOD AND SYSTEM FOR MEASUREMENT OF KNOWLEDGE POINT RELATIONSHIP STRENGTH",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 84199,
+    "optimized_size": 3814,
+    "reduction_percent": 95.47
+  }
+}

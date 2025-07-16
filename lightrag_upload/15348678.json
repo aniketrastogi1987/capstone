@@ -1,0 +1,59 @@
+{
+  "date_produced": "20180425",
+  "publication_number": "US20180129970A1-20180510",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15348678",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gottschlich",
+      "inventor_name_first": "Justin E.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Metsch",
+      "inventor_name_first": "Thijs",
+      "inventor_city": "Koln",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "Truong",
+      "inventor_name_first": "Leonard",
+      "inventor_city": "Redwood City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shpeisman",
+      "inventor_name_first": "Tatiana",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Baghsorkhi",
+      "inventor_name_first": "Sara S.",
+      "inventor_city": "Los Gatos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A machine-learning decision system includes an online decision system and an offline decision system. The online decision system produces a first time slice-specific decision output corresponding to a first time slice based on one or more situational inputs received in the first time slice. The offline decision system produces a second Lime slice-specific decision output corresponding to the first time slice based on one or more situational inputs received in the first time slice and in a plurality of subsequent time slices occurring after the first time slice. The system further includes an online training system that conducts negative-reinforcement training of the online decision system in response to a nonconvergence between the first and the second time slice-specific decision outputs.",
+  "filing_date": "20161110",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings, which are not necessarily drawn to scale, like numerals may describe similar components in different views. Like numerals having different letter suffixes may represent different instances of similar components. Some embodiments are illustrated by way of example, and not limitation, in the figures of the accompanying drawings. FIG. 1 is a high-level diagram illustrating a machine-learning decision system (MLDS) according to some embodiments. FIGS. 2A and 2B are timeline diagrams illustrating real-time decision-making operation and forward-looking decision operation performed by the MLDS system of FIG. 1 according to some embodiments. FIGS. 3A and 3B are block diagrams illustrating an example architecture of a discrete-time-series data preprocessor engine according to some embodiments. FIG. 4 is a block diagram illustrating an exemplary system architecture of a processor-based computing device according to an embodiment. FIG. 5 is a diagram illustrating an exemplary hardware and software architecture of a computing device such as the one depicted in FIG. 4 , in which various interfaces between hardware components and software components are shown. FIG. 6 is a block diagram illustrating examples of processing devices that may be implemented on a computer system, such as the computer system described with reference to FIGS. 4-5 , according to some embodiments. FIG. 7 is a block diagram illustrating example components of a CPU as one of the processing devices depicted in FIG. 6 , according to various embodiments. FIG. 8 is a flow diagram illustrating example operation of the discrete-time-series data preprocessor engine and an MLDS according to an embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180510",
+  "title": "FORWARD-LOOKING MACHINE LEARNING FOR DECISION SYSTEMS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 70004,
+    "optimized_size": 3770,
+    "reduction_percent": 94.61
+  }
+}

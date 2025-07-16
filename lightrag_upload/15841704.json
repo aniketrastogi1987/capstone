@@ -1,0 +1,60 @@
+{
+  "patent_number": "None",
+  "application_number": "15841704",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "filing_date": "20171214",
+  "main_ipcr_label": "G06N502",
+  "abstract": "The present disclosure relates to an artificial intelligence (AI) system that utilizes a machine learning algorithm such as deep learning and the like, and an application thereof. In particular, an electronic apparatus, a guide providing method thereof, and a non-transitory computer-readable recording medium are provided. An electronic apparatus includes an input interface configured to receive a user input, a display configured to display a guide, and a processor configured to determine whether a task corresponding to the received user input is performable by the electronic apparatus, in response to determining that the task is performable, perform the task corresponding to the received user input, and in response to determining that the task is not performable, determine a candidate task related to the received user input and control the display to provide a guide for guiding the determined candidate task.",
+  "publication_number": "US20180165581A1-20180614",
+  "summary": "<SOH> SUMMARY <EOH>Exemplary embodiments provide an electronic apparatus for determining a candidate task which can be performed based on a user input and providing a user input method for performing the determined candidate task when a user input is not performed in an operable form, a method of providing a guide thereof and a non-transitory computer readable recording medium. According to an aspect of an exemplary embodiment, there is provided an electronic apparatus including an input interface configured to receive a user input; a display configured to display a guide; and a processor configured to: determine whether a task corresponding to the received user input is performable by the electronic apparatus; in response to determining that the task is performable, perform the task corresponding to the received user input; and in response to determining that the task is not performable, determine a candidate task related to the received user input and control the display to provide a guide for guiding the determined candidate task. The processor may be further configured to obtain at least one from among an intention and a parameter by analyzing the received user input and determine whether there is a task that is performable based on the obtained at least one from among the intention and the parameter. The processor may be further configured to determine whether the task is performable according to whether a word corresponding to a task execution command is included by analyzing the received user input. The processor may be further configured to obtain at least one from among an intention and a parameter by analyzing the received user input, determine an entity corresponding to the obtained at least one from among the intention and the parameter, and search an information ontology for a candidate task based on the determined entity, wherein the information ontology may be a network representing a relationship between a task and an entity. The processor may be fur...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N308",
+    "G06F1727"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "HWANG",
+      "inventor_name_first": "In-chul",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Jae-deok",
+      "inventor_city": "Ansan-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "SHIN",
+      "inventor_name_first": "Young-bin",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "SEOL",
+      "inventor_name_first": "Jeong-su",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "JUNG",
+      "inventor_name_first": "Jin-he",
+      "inventor_city": "Hwaseong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "ELECTRONIC APPARATUS, METHOD OF PROVIDING GUIDE AND NON-TRANSITORY COMPUTER READABLE RECORDING MEDIUM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 88008,
+    "optimized_size": 4102,
+    "reduction_percent": 95.34
+  }
+}

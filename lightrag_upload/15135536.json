@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15135536",
+  "date_published": "20161027",
+  "date_produced": "20161012",
+  "title": "3D IDENTIFICATION SYSTEM WITH FACIAL FORECAST",
+  "filing_date": "20160421",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Su",
+      "inventor_name_first": "Sungwook",
+      "inventor_city": "Torrance",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T1700",
+    "G06T740",
+    "H04N5247",
+    "G06T1530",
+    "G06T760",
+    "G06F30484",
+    "G06T700",
+    "G06T1920"
+  ],
+  "main_ipcr_label": "G06T1700",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Embodiments described herein provide a method of reconstructing an object from scanned data. In reconstructing, the method of some embodiments captures a visual representation and a volumetric representation. The visual representation is captured to reconstruct the object, while the volumetric representation is captured to identify the object from a group of other objects. In some embodiments, the object is a human being, and the visual and volumetric representations are used for a full facial dimension (FFD) identification system (FFDIS). In capturing a visual representation from the scanned data, the method of some embodiments receives captured data of a scene that includes the object. The method then analyzes the data to detect the object in the scene. From a number of different types of 3D base models, the method selects a particular type of base model in accord with the detected object. The base model of some embodiments is a template with pre-assigned values relating to a specific type of object. After selecting the base model, the method deforms the base model to produce a visual representation of the object. Instead of using a base model, the method of some embodiments produces a new 3D model. In some embodiments, the method captures a visual representation that is portable. By portable, the visual representation is optimized to be transferred over a network, such as the Internet. In some embodiments, the method processes many polygons to generate a 3D model having fewer polygons. For instance, the method may process an abundance of point data (e.g., thousands or even millions of point data) to produce a 3D model that has a uniform set of point data. In some embodiments, the method provides a set of tools to modify a 3D model of an object. The method of some embodiments provides tools to forecast or predict how a person may appear at a give age. For instance, the method may be used to make a person appear younger or older. This can b...",
+  "patent_number": "None",
+  "abstract": "Some embodiments provide a system for reconstructing an object from scanned data. In reconstructing, the system captures a visual representation and a volumetric representation. The visual representation is captured to reconstruct the object, while the volumetric representation is captured to identify the object from a group of other objects. In some embodiments, the object is a human being, and the visual and volumetric representations are used for a full facial dimension (FFD) identification system (FFDIS).",
+  "publication_number": "US20160314616A1-20161027",
+  "_processing_info": {
+    "original_size": 84533,
+    "optimized_size": 3129,
+    "reduction_percent": 96.3
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "patent_number": "None",
+  "application_number": "15706471",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "filing_date": "20170915",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Techniques are described for training and evaluating a proximal factorization machine engine. In one or more embodiments, the engine receives a set of training data that identifies a set of actions taken by a plurality of users with respect to a plurality of items. The engine generates, for a prediction model, (a) a first set of model parameters representing relationships between features of the plurality of users and the set of actions, and (b) a second set of model parameters representing interactions between different features of the plurality of users and the plurality of items. For each respective item in a plurality of items, the engine computes a probabilistic score based on the model parameters. The engine selects and presents a subset of items based on the probabilistic scores.",
+  "publication_number": "US20180082191A1-20180322",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments are illustrated by way of example and not by way of limitation in the figures of the accompanying drawings. It should be noted that references to “an” or “one” embodiment in this disclosure are not necessarily to the same embodiment, and they mean at least one. In the drawings: FIG. 1 illustrates an example system including an interface engine for optimizing system behavior based on machine-learning models, in accordance with one or more embodiments; FIG. 2 illustrates an example set of operations for training a predictive model, in accordance with one or more embodiments; FIG. 3 illustrates an example set of operations for performing batch updates of model parameters, in accordance with one or more embodiments; FIG. 4 illustrates an example set of operations for computing predictive scores, as a function of feature vectors and model parameters, to select and present interface items, in accordance with one or more embodiments; FIG. 5 illustrates an example set of interface items for which predictive scores are computed as a function of feature vectors and model parameters, in accordance with one or more embodiment; FIG. 6 illustrates an example interface that may be generated and presented by a proximal factorization machine interface engine, in accordance with one or more embodiment; FIG. 7 illustrates an example system upon which one or more embodiments may be implemented. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700",
+    "G06N9900",
+    "G06F1730",
+    "G06K962"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Pearmain",
+      "inventor_name_first": "Michael Edward",
+      "inventor_city": "Redwood Shores",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Barnes",
+      "inventor_name_first": "Janet",
+      "inventor_city": "Redwood Shores",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dewsnip",
+      "inventor_name_first": "David John",
+      "inventor_city": "Hampshire",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Zengguang",
+      "inventor_city": "Foster City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "PROXIMAL FACTORIZATION MACHINE INTERFACE ENGINE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 73339,
+    "optimized_size": 3392,
+    "reduction_percent": 95.37
+  }
+}

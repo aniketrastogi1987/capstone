@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170208",
+  "publication_number": "US20170053202A1-20170223",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15237104",
+  "inventor_list": [
+    {
+      "inventor_name_last": "VIANELLO",
+      "inventor_name_first": "Elisa",
+      "inventor_city": "GRENOBLE",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "BICHLER",
+      "inventor_name_first": "Olivier",
+      "inventor_city": "MASSY",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "A programming method for an artificial neuron network having synapses, each including a single resistive random-access memory having first and second electrodes on either side of an active zone, the method including determining a number N of conductance intervals, where N≧3; for each memory: choosing a conductance interval from amongst the N intervals; a step i) for application of a voltage pulse of a first type between the first and second electrodes, and for reading the conductance value of the memory; if the conductance value does not belong to the previously chosen conductance interval, a sub-step ii) for application of a voltage pulse of a second type between the first and second electrodes, and for reading the conductance value; if the conductance value does not belong to the chosen conductance interval, a step according to which step i) is reiterated, with steps i) and ii) being repeated until the conductance value belongs to the interval.",
+  "filing_date": "20160815",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The invention offers a solution to the above mentioned problems, by proposing a method for programming an artificial neuron network, wherein a single resistive random-access memory is used per artificial synapse, whilst using at most only two types of electrical programming pulses. One aspect of the invention relates to a method for programming an artificial neuron network which has a plurality of artificial synapses, each artificial synapse being a single resistive random-access memory, such as a OxRAM or CBRAM memory, in series with means of current limitation, with the resistive random-access memory comprising an active zone and first and second electrodes on either side of the active zone, the programming method comprising the following steps: a step for determining the number N of conductance intervals, where N is a non-negative integer equal to or greater than three; for each resistive random-access memory: a step for choosing a conductance interval from amongst the N previously determined conductance intervals; a step i) comprising: a first sub-step for application of a voltage pulse of a first type between the first and second electrodes of said resistive random-access memory, the voltage pulse of the first type having a first duration and a first amplitude, and a second sub-step for reading a conductance value of said resistive random-access memory; if said conductance value does not belong to the previously chosen conductance interval, a step ii), comprising; a first sub-step for application of a voltage pulse of a second type between the first and second electrodes of said resistive random-access memory, the voltage pulse of the second type having a second duration and a second amplitude, and a second sub-step for reading a conductance value of said resistive random-access memory; if said conductance value does not belong to the chosen conductance interval, a step according to which step i) is reiterated, steps i) and i...",
+  "date_published": "20170223",
+  "title": "METHOD OF PROGRAMMING AN ARTIFICIAL NEURON NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N3063"
+  ],
+  "_processing_info": {
+    "original_size": 46797,
+    "optimized_size": 3657,
+    "reduction_percent": 92.19
+  }
+}

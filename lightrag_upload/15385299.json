@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174023A1-20180621",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15385299",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Imam",
+      "inventor_name_first": "Nabil",
+      "inventor_city": "Sam Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Srinivasa",
+      "inventor_name_first": "Narayan",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A spike timing dependent plasticity (STDP) rule is applied in a spiking neural network (SNN) that includes artificial synapses bi-directionally connecting artificial neurons in the SNN to model locations within a physical environment. A first neuron is activated to cause a spike wave to propagate from the first neuron to other neurons in the SNN. Propagation of the spike wave causes synaptic weights of a subset of the synapses to be increased based on the STDP rule. A second neuron is activated after propagation of the spike wave to cause a spike chain to propagate along a path from the second neuron to the first neuron, based on the changes to the synaptic weights. A physical path is determined from the second to the first neuron based on the spike chain, and a signal may be sent to a controller of an autonomous device to cause the autonomous to navigate the physical path.",
+  "filing_date": "20161220",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 illustrates an embodiment of a system including a neuromorphic computing systems. FIG. 2A illustrates a simplified block diagram of an example neuromorphic computing device utilizing a network of hardware-implemented neuromorphic cores. FIG. 2B illustrates a simplified block diagram illustrating a portion of a network of neuromorphic cores interconnected by one or more routers. FIG. 2C illustrates a simplified block diagram of an example one of the number of neuromorphic cores implemented in an example neuromorphic computing device. FIGS. 3A-3B are simplified block diagrams of portions of example neural networks capable of being implemented using an example neuromorphic computing device. FIGS. 4A-4B are simplified block diagrams illustrating spike propagation and spike timing dependent plasticity (STDP) in portions of example spiking neural networks (SNN). FIGS. 5A-5H are block diagrams illustrating use of an example SNN to determine paths within a network. FIGS. 6A-6B are simplified block diagrams illustrating example implementations of systems including neuromorphic computing devices. FIG. 7 is a simplified block diagram illustrating modeling physical path planning using an example SNN. FIGS. 8A-8B are block diagrams illustrating effects of an example spike wave within an example SNN. FIGS. 9A-9B are block diagrams illustrating effects of an example spike wave initiated by two or more destination neurons in an example SNN. FIGS. 10A-10C are block diagrams illustrating effects of differential rewards of multiple destination neurons in spike waves initiated by the multiple destination neurons in an example SNN. FIGS. 11A-11F are block diagrams illustrating definition and effect of hazard neurons within an example SNN. FIG. 12 is a simplified block diagram illustrating example control of an autonomous agent using an example SNN modeling a physical environment. FIGS. 13A-13C are flowcharts illustrating example techni...",
+  "date_published": "20180621",
+  "title": "AUTONOMOUS NAVIGATION USING SPIKING NEUROMORPHIC COMPUTERS",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "G06N3063"
+  ],
+  "_processing_info": {
+    "original_size": 191234,
+    "optimized_size": 3602,
+    "reduction_percent": 98.12
+  }
+}

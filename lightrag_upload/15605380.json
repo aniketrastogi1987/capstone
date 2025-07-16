@@ -1,0 +1,61 @@
+{
+  "patent_number": "None",
+  "application_number": "15605380",
+  "date_published": "20170914",
+  "date_produced": "20170830",
+  "filing_date": "20170525",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A method, system and computer program product are disclosed for predicting influence in a social network. In one embodiment, the method comprises identifying a set of users of the social network, and identifying a subset of the users as influential users based on defined criteria. A multitude of measures are identified as predictors of which ones of the set of users are the influential users. These measures are aggregated, and a composite predictor model is formed based on this aggregation. This composite predictor model is used to predict which ones of the set of users will have a specified influence in the social network in the future. In one embodiment, the specified influence is based on messages sent from the users, and for example, may be based on the number of the messages sent from each user that are re-sent by other users.",
+  "publication_number": "US20170262759A1-20170914",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Embodiments of the invention provide a method, system and computer program product for predicting influence in a social network. In one embodiment, the invention provides a method comprising identifying a set of users of the social network, and identifying a subset of the users as influential users based on defined criteria. A multitude of measures are identified as predictors of which ones of the set of users are the influential users. These measures are aggregated, and a composite predictor model is formed based on this aggregation. This composite predictor model is used to predict which ones of the set of users will have a specified influence in the social network in the future. In one embodiment, messages are sent by and among the set of users of the network, and the specified influence is based on the messages sent from the users; and, for example, in an embodiment, the specified influence may be based on the number of messages sent from each user that are re-sent by other users. In an embodiment, a training set of data is used to determine, for each of the measures, an effectiveness of the measure as predicting which ones of the set of users sent the messages that were most re-sent by other users. In this embodiment, the measures are aggregated based on the determined effectiveness of each of the measures. In one embodiment, all of the multitude of measures are used to form the composite predictor model. In an embodiment, only some of the multitude of measures are used to form the composite predictor model. In one embodiment, the composite predictor model is formed by combining all of said measures through logistic regression. In one embodiment, the set of users is separated into different classes according to degrees of influence of the users based on said defined criteria, and the composite predictor model is used to predict how often users in these different classes will have the specified effect in the social network in the future....",
+  "ipcr_labels": [
+    "G06N504",
+    "G06Q5000",
+    "G06N9900",
+    "G06Q3002"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lawrence",
+      "inventor_name_first": "Richard D.",
+      "inventor_city": "Ridgefield",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Meliksetian",
+      "inventor_name_first": "Estepan",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Melville",
+      "inventor_name_first": "Prem",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Perlich",
+      "inventor_name_first": "Claudia",
+      "inventor_city": "Mount Kisco",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Subbian",
+      "inventor_name_first": "Karthik",
+      "inventor_city": "Karnataka",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "PREDICTING INFLUENCE IN SOCIAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 67127,
+    "optimized_size": 4022,
+    "reduction_percent": 94.01
+  }
+}

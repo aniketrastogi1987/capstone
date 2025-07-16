@@ -1,0 +1,67 @@
+{
+  "decision": "PENDING",
+  "application_number": "15184106",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "title": "TECHNIQUES FOR IMPLEMENTING STORE INSTRUCTIONS IN A MULTI-SLICE PROCESSOR ARCHITECTURE",
+  "filing_date": "20160616",
+  "inventor_list": [
+    {
+      "inventor_name_last": "AYUB",
+      "inventor_name_first": "SALMA",
+      "inventor_city": "AUSTIN",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BOERSMA",
+      "inventor_name_first": "MAARTEN J.",
+      "inventor_city": "BOEBLINGEN",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "CHADHA",
+      "inventor_name_first": "SUNDEEP",
+      "inventor_city": "AUSTIN",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HRUSECKY",
+      "inventor_name_first": "DAVID A.",
+      "inventor_city": "CEDAR PARK",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MOLNAR",
+      "inventor_name_first": "JENNIFER L.",
+      "inventor_city": "CEDAR PARK",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "NGUYEN",
+      "inventor_name_first": "DUNG Q.",
+      "inventor_city": "AUSTIN",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F930",
+    "G06F120855",
+    "G06F120875"
+  ],
+  "main_ipcr_label": "G06F930",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A technique for operating a processor includes receiving, at an issue queue, a store instruction that has an associated address generation (AGN) operation and an associated data operation. The AGN operation is issued to AGN logic associated with a pipeline slice in response to all source operands for the AGN operation being ready. The AGN logic is configured to generate an address for the store instruction. Confirmation, for the AGN operation is received. The confirmation includes an indication of the pipeline slice that performed the AGN operation. In response to receiving the confirmation and a source operand for the data operation being ready, the issue queue issues the data operation to data logic associated with the pipeline slice indicated by the confirmation. The data logic is configured to format data for the store instruction. The above summary contains simplifications, generalizations and omissions of detail and is not intended as a comprehensive description of the claimed subject matter but, rather, is intended to provide a brief overview of some of the functionality associated therewith. Other systems, methods, functionality, features and advantages of the claimed subject matter will be or will become apparent to one with skill in the art upon examination of the following figures and detailed written description. The above as well as additional objectives, features, and advantages of the present invention will become apparent in the following detailed written description.",
+  "patent_number": "None",
+  "abstract": "A technique for operating a processor includes receiving, at an issue queue, a store instruction that has an associated address generation (AGN) operation and an associated data operation. The AGN operation is issued to AGN logic associated with a pipeline slice in response to all source operands for the AGN operation being ready. The AGN logic is configured to generate an address for the store instruction. Confirmation, for the AGN operation is received. The confirmation includes an indication of the pipeline slice that performed the AGN operation. In response to receiving the confirmation and a source operand for the data operation being ready, the issue queue issues the data operation to data logic associated with the pipeline slice indicated by the confirmation. The data logic is configured to format data for the store instruction.",
+  "publication_number": "US20170364356A1-20171221",
+  "_processing_info": {
+    "original_size": 63405,
+    "optimized_size": 3720,
+    "reduction_percent": 94.13
+  }
+}

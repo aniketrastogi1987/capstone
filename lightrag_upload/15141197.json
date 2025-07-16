@@ -1,0 +1,45 @@
+{
+  "date_produced": "20161102",
+  "publication_number": "US20160335548A1-20161117",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15141197",
+  "inventor_list": [
+    {
+      "inventor_name_last": "GOH",
+      "inventor_name_first": "Chi-Keong",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "PIN",
+      "inventor_name_first": "Lim",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "KAY CHEN",
+      "inventor_name_first": "Tan",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    }
+  ],
+  "abstract": "A method for predicting fault occurrence in a mechanical system and an electrical system. The method comprises: receiving a first dataset of mechanical system condition data, the first dataset being imbalanced by having more data points in a first category than in a second category; generating a plurality of chromosomes from the second category data points in the first dataset; the plurality of chromosomes including information to enable the creation of new datasets; generating a second dataset using the plurality of chromosomes and an evolutionary algorithm, the second dataset being less imbalanced than the first dataset; and predicting fault occurrence in the mechanical system using the second dataset and a machine learning algorithm.",
+  "filing_date": "20160428",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>According to various, but not necessarily all, embodiments there is provided a method of predicting fault occurrence in a mechanical system, the method comprising: receiving a first dataset of mechanical system condition data, the first dataset being imbalanced by having more data points in a first category than in a second category; generating a plurality of chromosomes from the second category data points in the first dataset; the plurality of chromosomes including information to enable the creation of new datasets; generating a second dataset using the plurality of chromosomes and an evolutionary algorithm, the second dataset being less imbalanced than the first dataset; and predicting fault occurrence in the mechanical system using the second dataset and a machine learning algorithm. According to various, but not necessarily all, embodiments there is provided a method of balancing a dataset, the method comprising: receiving a first dataset, the first dataset being imbalanced by having more data points in a first category than in a second category; generating a plurality of chromosomes from the second category data points in the first dataset; the plurality of chromosomes including information to enable the creation of new datasets; generating a second dataset using the plurality of chromosomes and an evolutionary algorithm, the second dataset being less imbalanced than the first dataset. Generating the second dataset may include: iteratively generating a plurality of datasets using the evolutionary algorithm and the plurality of generated chromosomes; and selecting the second dataset from the plurality of iteratively generated datasets. The method may further comprise: generating a plurality of second datasets from a subset of the plurality of chromosomes; training a plurality of classifiers using the plurality of second datasets; combining the plurality of classifiers to form an ensemble; and wherein predicting fault occurrence in the m...",
+  "date_published": "20161117",
+  "title": "METHODS AND APPARATUS FOR PREDICTING FAULT OCCURRENCE IN MECHANICAL SYSTEMS AND ELECTRICAL SYSTEMS",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N312"
+  ],
+  "_processing_info": {
+    "original_size": 71316,
+    "optimized_size": 3625,
+    "reduction_percent": 94.92
+  }
+}

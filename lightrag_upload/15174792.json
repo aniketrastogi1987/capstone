@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171121",
+  "publication_number": "US20170351969A1-20171207",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15174792",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Parmar",
+      "inventor_name_first": "Jignesh Rasiklal",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Goswami",
+      "inventor_name_first": "Abhishek",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shah",
+      "inventor_name_first": "Sarthak",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Machine learning on a heterogeneous event data stream using an exploit-explore model. The heterogeneous event data stream may include any number of different data types. The system featurizes at least part of the incoming event data stream in accordance with a common feature dimension space. The resulting stream of featurized event data is then split into an exploration portion and an exploitation portion. The exploration portion is used to performed machine learning to thereby advance machine knowledge. The exploitation portion is used exploit current machine knowledge. Thus, an automated balance is struck between exploitation and exploration of an incoming event data stream. The automated balancing may even be performed as a cloud computing service.",
+  "filing_date": "20160606",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>At least some embodiments described herein relate to machine learning on a heterogeneous event data stream using an exploit-explore model. The heterogeneous event data stream may include any number of different data types. The system featurizes at least part of the incoming event data stream in accordance with a common feature dimension space. Thus, regardless of the fact that different data types are received within the event data stream, that data is converted into a data structure (such as a feature vector) that has the same feature dimension space. The resulting stream of featurized event data is then split into an exploration portion and an exploitation portion. The exploration portion is used to perform machine learning to thereby advance machine knowledge. The exploitation portion is used to exploit current machine knowledge. Thus, an automated balance is struck between exploitation and exploration of an incoming event data stream. The automated balancing may even be performed as a cloud computing service. Thus, an exploit-explore service may be offered to multiple client applications allowing each client application to have an improved and potentially real-time analysis of proper balance of an incoming data stream to optimize current exploitation versus learning (exploration) for future exploitation. In some embodiments, the split may be dynamically altered. Furthermore, the exploitation and/or exploration may be performed by components and may be switched out for other components. Accordingly, there is a high degree of customization and/or dynamic alterations of the exploit-explore model that may be performed. This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the clai...",
+  "date_published": "20171207",
+  "title": "EXPLOIT-EXPLORE ON HETEROGENEOUS DATA STREAMS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F954"
+  ],
+  "_processing_info": {
+    "original_size": 46083,
+    "optimized_size": 3614,
+    "reduction_percent": 92.16
+  }
+}

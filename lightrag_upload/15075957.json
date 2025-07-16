@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160628",
+  "publication_number": "US20160203411A1-20160714",
+  "main_ipcr_label": "G06N700",
+  "decision": "ACCEPTED",
+  "application_number": "15075957",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sadikov",
+      "inventor_name_first": "Eldar",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Madhavan",
+      "inventor_name_first": "Jayant",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Halevy",
+      "inventor_name_first": "Alon Yitzchak",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for clustering query refinements. One method includes building a representation of a graph for a first query, wherein the graph has a node for the first query, a node for each of a plurality of refinements for the first query, and a node for each document in the document sets of the refinements, and wherein the graph has edges from the first query node to each of the refinement nodes, edges from the first query to each document in the respective document set of the first query, edges from each refinement to each document in the respective document set of the refinement, and edges from each refinement to each co-occurring query of the refinement. The method further includes clustering the refinements into refinement clusters by partitioning the refinement nodes in the graph into proper subsets.",
+  "filing_date": "20160321",
+  "patent_number": "9582766",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies relating to clustering of query refinements of a user search query. One of the goals of the technologies described in this specification is to group refinements of a search query into clusters that are likely to represent distinct information needs. The clusters computed by the presently proposed algorithm in this specification can be used to improve the selection and placement of the query suggestions presently proposed by a search engine, and can also serve to summarize the different aspects of information relevant to the original user query. In one aspect, the problem of clustering query refinements is defined as a graph clustering problem. The graph captures the users' behavior with transitions between pairs of queries and queries to documents. The graph effectively incorporates both content based similarity as well as session co-occurrence similarity mined from the query logs. The graph has a natural probabilistic interpretation as a Markov model. The presently proposed algorithm clusters refinements based on their likely underlying user intents by combining document click and session co-occurrence information. Principally, the presently proposed algorithm operates by performing multiple random walks on a Markov graph that approximates user search behavior. The random walks lead to a set of most likely visited documents for each query and the algorithm then clusters queries based on this information. In one implementation, the presently proposed algorithm relies on complete-link clustering, but the presently proposed model and algorithm are generally flexible to utilize many different types of clustering techniques. In general, one innovative aspect of the subject matter described in this specification can be embodied in methods including the actions of: A computer-implemented method, comprising: identifying a plurality of refinements of a first search query, each refinement being a search query that ...",
+  "date_published": "20160714",
+  "title": "CLUSTERING QUERY REFINEMENTS BY INFERRED USER INTENT",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 99895,
+    "optimized_size": 3765,
+    "reduction_percent": 96.23
+  }
+}

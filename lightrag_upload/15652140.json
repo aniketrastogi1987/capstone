@@ -1,0 +1,62 @@
+{
+  "patent_number": "None",
+  "application_number": "15652140",
+  "date_published": "20171102",
+  "date_produced": "20171018",
+  "filing_date": "20170717",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Crowdsourcing systems with machine learning are described. Specifically, item-label inference methods and systems are presented, for example, to provide aggregated answers to a crowdsourced task in a manner achieving good accuracy even where observed data about past behavior of crowd members is sparse. In various examples, an item-label inference system infers variables describing characteristics of both individual crowd workers and communities of the workers. In various examples, an item-label inference system provides aggregated labels while considering the inferred worker characteristics and the inferred characteristics of the worker communities. In examples the item-label inference system provides uncertainty information associated with the inference results for selecting workers and generating future tasks.",
+  "publication_number": "US20170316347A1-20171102",
+  "summary": "<SOH> SUMMARY <EOH>The following presents a simplified summary of the disclosure in order to provide a basic understanding to the reader. This summary is not an extensive overview of the disclosure and it does not identify key/critical elements or delineate the scope of the specification. Its sole purpose is to present a selection of concepts disclosed herein in a simplified form as a prelude to the more detailed description that is presented later. Crowdsourcing systems with machine learning are described, for example, to aggregate answers to a crowdsourced task in a manner achieving good accuracy even where observed data about past behavior of crowd members is sparse. In various examples a machine learning system jointly learns variables describing characteristics of both individual crowd workers and communities of the workers. In various examples, the machine learning system learns aggregated labels. In examples learnt variables describing characteristics of an individual crowd worker are related, by addition of noise, to learnt variables describing characteristics of a community of which the individual is a member. In examples the crowdsourcing system uses the learnt aggregated labels and/or the learnt variables describing characteristics of individual workers and of communities of workers for any one or more of: active learning, targeted training of workers, targeted issuance of tasks, calculating and issuing rewards. In examples the machine learning system comprises a probabilistic graphical model comprising a plurality of sub-models whereby a message passing schedule is facilitated for fast, efficient training with web-scale data. Many of the attendant features will be more readily appreciated as the same becomes better understood by reference to the following detailed description considered in connection with the accompanying drawings.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06Q1006",
+    "G06N504",
+    "H04L1258"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Venanzi",
+      "inventor_name_first": "Matteo",
+      "inventor_city": "Southampton",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Guiver",
+      "inventor_name_first": "John Philip",
+      "inventor_city": "Saffron Walden",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Kazai",
+      "inventor_name_first": "Gabriella",
+      "inventor_city": "Bishops Stortford",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Kohli",
+      "inventor_name_first": "Pushmeet",
+      "inventor_city": "Cambridge",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Shokouhi",
+      "inventor_name_first": "Milad",
+      "inventor_city": "Cambridge",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "Crowdsourcing System with Community Learning",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 61710,
+    "optimized_size": 3879,
+    "reduction_percent": 93.71
+  }
+}

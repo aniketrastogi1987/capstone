@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15629082",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "filing_date": "20170621",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Methods and systems of using machine learning to create a trusted model that improves the operation of a computer system controller are provided herein. In some embodiments, a machine learning method includes training a model using input data, extracting the model, and determining whether the model satisfies the trust-related constraints. If the model does not satisfy the trust-related constraint, modifying at least one of: the model using one or more model repair algorithms, the input data using one or more data repair algorithms, or a reward function of the model using one or more reward repair algorithms, and re-training the model using at least one of the modified model, the modified input data, or the modified reward function. If the model satisfies the trust-related constraints, providing the model as a trusted model that enables a computer system controller to perform system actions within predetermined guarantees.",
+  "publication_number": "US20170364831A1-20171221",
+  "summary": "<SOH> SUMMARY <EOH>Machine learning methods and systems for improving the reliability of a computer system operation through the use of machine learning that provides certain guarantees of operation through a trusted model are provided herein. In some embodiments, methods and systems for improving the operation of a computer system controller through the use of machine learning are provided herein. In some embodiments, a machine learning method includes determining at least one trust-related constraint related to at least one system action that could be performed by the computer system controller, training a model of a computer system controller using an initial set of input data, extracting the model, determining whether the model satisfies the at least one trust-related constraint, when it is determined that the model does not satisfy the at least one trust-related constraint, modifying at least one of: the model using one or more model repair algorithms, the input data using one or more data repair algorithms, or a reward function of the model using one or more reward repair algorithms, and re-training the model using at least one of the modified model, the modified input data, or the modified reward function, and when it is determined that the model satisfies the at least one trust-related constraint, providing the model as a trusted model that improves the operation of the computer system controller by enabling the computer system controller to perform the at least one system action within predetermined guarantees. In some embodiments, determining whether the output data extracted from the model satisfies the at least one trust-related constraint includes determining a trust score of the model indicating of how well the model satisfies the at least one trust-related constraint, wherein the model is determined to satisfy the at least one trust-related constraint when the trust score is greater than a predefined trust threshold, and wherein the model is determine...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1728"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ghosh",
+      "inventor_name_first": "Shalini",
+      "inventor_city": "Redwood City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lincoln",
+      "inventor_name_first": "Patrick D.",
+      "inventor_city": "Woodside",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ramamurthy",
+      "inventor_name_first": "Bhaskar S.",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR MACHINE LEARNING USING A TRUSTED MODEL",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 97614,
+    "optimized_size": 3809,
+    "reduction_percent": 96.1
+  }
+}

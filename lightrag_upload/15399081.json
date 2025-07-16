@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15399081",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "filing_date": "20170105",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "In one embodiment, a device in a network generates a feature vector based on traffic flow data regarding one or more traffic flows in the network. The device makes a determination as to whether the generated feature vector is already represented in a training dataset dictionary by one or more feature vectors in the dictionary. The device updates the training dataset dictionary based on the determination by one of: adding the generated feature vector to the dictionary when the generated feature vector is not already represented by one or more feature vectors in the dictionary, or incrementing a count associated with a particular feature vector in the dictionary when the generated feature vector is already represented by the particular feature vector in the dictionary. The device generates a training dataset based on the training dataset dictionary for training a machine learning-based traffic flow analyzer.",
+  "publication_number": "US20180189677A1-20180705",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments herein may be better understood by referring to the following description in conjunction with the accompanying drawings in which like reference numerals indicate identically or functionally similar elements, of which: FIGS. 1A-1B illustrate an example communication network; FIG. 2 illustrates an example network device/node; FIG. 3 illustrates an example of the capture of traffic flow data; FIG. 4 illustrates an example architecture for generating a training dataset for a traffic flow analyzer; and FIG. 5 illustrates an example simplified procedure for generating a training dataset for a traffic flow analyzer. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2906"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Anderson",
+      "inventor_name_first": "Blake Harrell",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McGrew",
+      "inventor_name_first": "David",
+      "inventor_city": "Poolesville",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "TRAINING A MACHINE LEARNING-BASED TRAFFIC ANALYZER USING A PROTOTYPE DATASET",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 59433,
+    "optimized_size": 2400,
+    "reduction_percent": 95.96
+  }
+}

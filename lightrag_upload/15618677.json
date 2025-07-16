@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15618677",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "filing_date": "20170609",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "On the basis of a difference between first distribution regarding target task learning data as a plurality of learning data which belongs to a first category of a first task as a target task and second distribution regarding a plurality of learning data which belongs to the first category of source task learning data as learning data which belongs to the first category of a second task different from the first task, a transformation parameter for transforming the source task learning data is adjusted, the source task learning data is transformed based on the adjusted transformation parameter, and a classifier regarding the first task is generated based on the transformed source task learning data and the target task learning data.",
+  "publication_number": "US20170364826A1-20171221",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to an aspect of the present invention, there is provided an information processing apparatus comprising: a first obtaining unit configured to obtain, in a first task as a target task, a plurality of learning data, as target task learning data, which belongs to a first category; a second obtaining unit configured to obtain, in a second task different from the first task, a plurality of learning data, as source task learning data, including the learning data which belongs to the first category and learning data which belongs to a second category different from the first category; an adjusting unit configured to adjust a transformation parameter for transforming the source task learning data on the basis of a difference between first distribution regarding the plurality of learning data which belongs to the first category of the target task learning data and second distribution regarding the plurality of learning data which belongs to the first category of the source task learning data; a transforming unit configured to transform the source task learning data on the basis of the transformation parameter adjusted by the adjusting unit; and a generating unit configured to generate a classifier regarding the first task on the basis of the source task learning data transformed by the transforming unit and the target task learning data. According to the aspect of the present invention, the classifier which can classify at a higher precision by using a transposition learning can be generated. Further features of the present invention will become apparent from the following description of exemplary embodiments with reference to the attached drawings.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mitarai",
+      "inventor_name_first": "Yusuke",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION PROCESSING APPARATUS, INFORMATION PROCESSING METHOD, AND STORAGE MEDIUM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 108291,
+    "optimized_size": 3032,
+    "reduction_percent": 97.2
+  }
+}

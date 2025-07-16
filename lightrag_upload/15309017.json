@@ -1,0 +1,35 @@
+{
+  "decision": "PENDING",
+  "application_number": "15309017",
+  "date_published": "20170316",
+  "date_produced": "20170301",
+  "title": "METHOD FOR GENERATING SYNTHETIC ELECTRON DENSITY INFORMATION FOR DOSE CALCULATIONS BASED ON MRI",
+  "filing_date": "20161104",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Siversson",
+      "inventor_name_first": "Carl",
+      "inventor_city": "Råå",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    }
+  ],
+  "ipcr_labels": [
+    "A61N510",
+    "G06T700",
+    "A61B600",
+    "G01R3348",
+    "A61B5055",
+    "A61B603"
+  ],
+  "main_ipcr_label": "A61N510",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>With the above description in mind, then, an aspect of some embodiments of the present invention is to provide a method for generating synthetic CT image stacks for use in radiation treatment planning, which seeks to mitigate, alleviate or eliminate one or more of the above-identified deficiencies in the art and disadvantages singly or in any combination. According to a first aspect of the invention, there is provided a method for generating synthetic electron density information based on an acquired magnetic resonance, MR, image stack, said method comprising: analyzing the acquired MR image stack in order to automatically segment the acquired MR image stack such that structure information defining locations and/or geometry of structures in the acquired MR image stack is determined; generating warp information for a template dataset, said template dataset comprising at least one template electron density information map and at least one template structure information, said generating comprising utilizing said structure information and said template structure information representing locations and/or geometry of template structures in order to determine transformations bringing the template structures in spatial correspondence with the structures in the acquired MR image stack, wherein said generated warp information describes at least one transformation bringing the at least one template electron density information map in spatial correspondence with the acquired MR image stack; and forming synthetic electron density information corresponding to the acquired MR image stack based on at least part of the at least one template electron density information map, wherein the at least part of the at least one template electron density information map is warped using the generated warp information. According to the method, segmentations defining information about structures in image stacks are used for relating a template to the acquired ...",
+  "patent_number": "None",
+  "abstract": "A method for generating synthetic electron density information based on an acquired magnetic resonance, MR, image stack is disclosed. The method comprises: analyzing the acquired MR image stack to automatically segment the acquired MR image stack; generating warp information for a template dataset comprising at least one template electron density information map and at least one template structure information, said generating comprising utilizing structure information of the acquired MR image stack and said template structure information in order to determine transformations bringing the template structures in spatial correspondence with the structures in the acquired MR image stack, wherein said generated warp information describes at least one transformation bringing the at least one template electron density information map in spatial correspondence with the acquired MR image stack; and forming synthetic electron density information corresponding to the acquired MR image stack based...",
+  "publication_number": "US20170072222A1-20170316",
+  "_processing_info": {
+    "original_size": 107794,
+    "optimized_size": 3647,
+    "reduction_percent": 96.62
+  }
+}

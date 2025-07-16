@@ -1,0 +1,51 @@
+{
+  "patent_number": "None",
+  "application_number": "15406916",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "filing_date": "20170116",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method and system for classifying input data arrived one by one in time, is provided including: a) respectively training a group of classifiers with a predetermined number with recent or previous input data whose real classes are obtained as learning samples, wherein a number of the recent input data are increased progressively in reverse chronological order; b) selecting the classifier having the highest accuracy on the recent input data from the group of classifiers based on recent classifying results of the group of classifiers; and c) classifying current input data using the selected classifier.",
+  "publication_number": "US20170236070A1-20170817",
+  "summary": "<SOH> SUMMARY <EOH>Additional aspects and/or advantages will be set forth in part in the description which follows and, in part, will be apparent from the description, or may be learned by practice of the embodiments. A brief summary of the embodiments is given below to provide a basic understanding of some aspects of the embodiments. It should be understood that the summary is not exhaustive; it does not intend to define a key or important part of the embodiments, nor does it intend to limit the scope of the embodiments. The object of the summary is only to briefly present some concepts, which serves as a preamble of the detailed description that follows. To solve the above problems, the embodiments provide a method and system for classifying input data arrived one by one in time. According to one aspect, there is provided a method for classifying input data arrived one by one in time, comprising: a) respectively training a group of classifiers with a predetermined number with recent input data whose real classes are obtained as learning samples, wherein a number of the recent input data are increased progressively in reverse chronological order; b) selecting the classifier having the highest accuracy on the recent input data from the group of classifiers based on recent classifying results of the group of classifiers; and c) classifying current input data using the selected classifier. According to another aspect, there is provided a system for classifying input data arrived one by one in time, comprising: a training means respectively training a group of classifiers with a predetermined number with recent input data whose real classes are obtained as learning samples, wherein a number of the recent input data are increased progressively in reverse chronological order; a selecting means selecting the classifier having the highest accuracy on the recent input data from the group of classifiers based on recent classifying results of the group of classifiers; and a c...",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "XU",
+      "inventor_name_first": "Zhuoran",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "HOU",
+      "inventor_name_first": "Cuiqin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "XIA",
+      "inventor_name_first": "Yingju",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SUN",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR CLASSIFYING INPUT DATA ARRIVED ONE BY ONE IN TIME",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 51803,
+    "optimized_size": 3580,
+    "reduction_percent": 93.09
+  }
+}

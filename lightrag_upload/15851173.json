@@ -1,0 +1,52 @@
+{
+  "patent_number": "nan",
+  "application_number": "15851173",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20171221",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Methods and apparatus, including computer program products, implementing and using techniques for configuring an artificial neural network to a particular surveillance situation. A number of object classes characteristic for the surveillance situation are selected. The object classes form a subset of the total number of object classes for which the artificial neural network is trained. A database is accessed that includes activation frequency values for the neurons within the artificial neural network. The activation frequency values are a function of the object class. Those neurons having activation frequency values lower than a threshold value for the subset of selected object classes are removed from the artificial neural network.",
+  "publication_number": "US20180181867A1-20180628",
+  "summary": "<SOH> SUMMARY <EOH>The present teachings wholly or partly eliminate the above problems by a method according to claim 1 , a computer program product according to claim 9 , a storage medium according to claim 15 . According to a first aspect, the method, in a computer system, configures an artificial neural network to a particular surveillance situation. The method is characterized by the steps of: electing a number of object classes characteristic for the surveillance situation, wherein the object classes form a subset of the total number of object classes for which the artificial neural network is trained; accessing a database including activation frequency values for neurons within the artificial neural network wherein the activation frequency values are a function of the object class; and removing from the artificial neural network those neurons having activation frequency values lower than a threshold value for the subset of selected object classes. This provides a way of creating an artificial neural network that is lightweight and therefore suitable for embedded devices, such as cameras or mobile devices. In particular, by knowing that only a few classes (i.e., a subset of all possible classes) may be expected and pruning the artificial neural network to those classes based on the frequency of neuron usage, it is possible to adapt a large artificial neural network to different preconditions as needed and without having to retrain the artificial neural network, as is conventionally done. Retraining an artificial neural network typically both requires a significant amount of time, and new data for retraining, while pruning the artificial neural network to a certain set of classes is a much faster operation. Further, this method can be used in combination with other conventional methods (e.g., using thresholding or regularizing weights to zero) to possibly remove an even larger number of neurons and even further lower the computational performance for deploying a...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06K962"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Seibold",
+      "inventor_name_first": "Robin",
+      "inventor_city": "Lund",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Jiandan",
+      "inventor_city": "Lund",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "Björgvinsdóttir",
+      "inventor_name_first": "Hanna",
+      "inventor_city": "Lund",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "Ljungqvist",
+      "inventor_name_first": "Martin",
+      "inventor_city": "Lund",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    }
+  ],
+  "title": "ARTIFICIAL NEURAL NETWORK CLASS-BASED PRUNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 42819,
+    "optimized_size": 3721,
+    "reduction_percent": 91.31
+  }
+}

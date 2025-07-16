@@ -1,0 +1,60 @@
+{
+  "decision": "PENDING",
+  "application_number": "15379196",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "title": "Container-based Operating System and Method",
+  "filing_date": "20161214",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Brady",
+      "inventor_name_first": "Simon J.",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Bryllert",
+      "inventor_name_first": "Jonas E.",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Delaney",
+      "inventor_name_first": "John V.",
+      "inventor_city": "Meath",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Hollywood",
+      "inventor_name_first": "Barry",
+      "inventor_city": "Meath",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Zolotow",
+      "inventor_name_first": "Clea A.",
+      "inventor_city": "Key West",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L932",
+    "H04L2908",
+    "G06F9445"
+  ],
+  "main_ipcr_label": "H04L932",
+  "summary": "<SOH> BRIEF SUMMARY OF THE DISCLOSURE <EOH>The present disclosure provides a blockchain implementation of cloud-based services that is designed to deal with legal compliance issues, such as geographic restrictions and rights management. According to an aspect of the disclosure, there is provided a distributed network hosting a shared pool of configurable computing resources suitable for hosting one or more system instances of a blockchain having a public ledger that records transactions in the blockchain, the distributed network comprising at least one such system instance, wherein each system instance comprises a virtual machine and a set of containers, wherein the containers are operable to run on the virtual machine and each comprise a blockchain subsystem operable to run the blockchain on the container, wherein the blockchain is defined such that the containers of the set are the members of the blockchain in that the public ledger records encrypted copies of at least selected parts of each container of the set, so that each container of the set can with reference to the public ledger determine whether another container in the distributed network also belongs to the set, thereby creating a system boundary for the set of containers which acts as a barrier to prevent undesired interaction with other containers that are not in the set. The instant blockchain system can provide the flexibility to create new containers within the blockchain. Namely, in certain embodiments, one container is designated in each system instance to have the role of system instance controller. The system instance controller has the sole right to create new containers for the set, the system instance controller being operable to create such new containers. The new container creation is thus handled as a blockchain transaction. The role of system instance controller is preferably rotated over time among different ones of the containers. A further area where flexibility can be provided is to h...",
+  "patent_number": "None",
+  "abstract": "In a distributed network hosting a shared pool of configurable computing resources there is provided one or more system instances of a blockchain. Each system instance comprises a virtual machine and a set of containers. The containers are members of the blockchain in that the blockchain's public ledger records encrypted copies of at least selected directories of each container. Each container that is in the set can thus verify whether any other container also belongs to the same set with reference to the public ledger, since the transactions recorded on the public ledger are encrypted copies of the set's containers. The use of a blockchain thus allows a system boundary to be defined around a set of containers by the initial specification of the blockchain. The system boundary can be defined to ensure that the set of containers comply with legal requirements, such as a geographic restriction.",
+  "publication_number": "US20180167217A1-20180614",
+  "_processing_info": {
+    "original_size": 81999,
+    "optimized_size": 4037,
+    "reduction_percent": 95.08
+  }
+}

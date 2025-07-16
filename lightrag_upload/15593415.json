@@ -1,0 +1,37 @@
+{
+  "patent_number": "None",
+  "application_number": "15593415",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "filing_date": "20170512",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "An evaluation platform receives a data set and a description of an outcome, such as predicting results of trends, recognizing patterns, and evaluating options according to specified criteria. The description is evaluated to select candidate evaluators that may be capable of achieving the outcome, and to translate the outcome into a goal for each selected candidate evaluator. The evaluator candidate set is trained using a training data set, and an initial evaluator is selected that exhibits the highest performance to achieve the outcome over the data set. The initial evaluator is applied to achieve the requested outcome over the data set. Optionally, the performance of the initial evaluator may be monitored to detect performance drift. In this event, the evaluator candidate set is reevaluated to identify a substitute evaluator exhibiting higher performance than the initial evaluator, which replaces the initial evaluator in the continued evaluation of the data set.",
+  "publication_number": "US20180018585A1-20180118",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key factors or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. While the application of a trained evaluator to a data set may provide various advantages, several difficulties may arise in the configuration thereof. As a first such example, the number, types, capabilities, and complexities of evaluators that are applicable to a particular data set and goal may be extensive, and new and improved evaluators are being developed at a rapid pace. It may be difficult to evaluate all of the possible evaluators that may be applied in a particular scenario, and to choose the evaluator that produces the strongest results. It may also be difficult to translate the outcome that the user wishes to achieve into a goal state for each of the evaluators, as distinctions in the techniques provided by different evaluators may involve a different characterization of the goal according to the particular parameters of each evaluator. As a second such example, the configuration, training, and testing of the evaluators may be a lengthy and delicate process, wherein various design choices in the formulation and training of the evaluators (e.g., the selection and interconnection of layers and neurons in an artificial neural network) may produce significantly different results. This process may impose a significant toll on the development of an evaluation technique for a particular data set. Moreover, the design of the training process may represent a tradeoff between producing a less efficient evaluator faster, and exhaustive training and testing that produces potentially sophisticated evaluators but through an inefficient and protracted process. As a third such example, a trained evaluator may initially test t...",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Marin",
+      "inventor_name_first": "Adrian Marius",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pillai",
+      "inventor_name_first": "Jayadev",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DATA EVALUATION AS A SERVICE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 108084,
+    "optimized_size": 3648,
+    "reduction_percent": 96.62
+  }
+}

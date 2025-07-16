@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15210441",
+  "date_published": "20170119",
+  "date_produced": "20170104",
+  "title": "METHOD AND SYSTEM FOR GENERATING MAP DATA",
+  "filing_date": "20160714",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Venugopalan",
+      "inventor_name_first": "Vijin",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "Sharma",
+      "inventor_name_first": "Prashant",
+      "inventor_city": "Madison",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hayes",
+      "inventor_name_first": "Joseph",
+      "inventor_city": "Montclair",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06Q5010"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>According to a first aspect of the present invention, there is provided a method of generating map data, the method comprising the steps of: receiving transaction data from a merchant over a communications network, the transaction data including merchant identification data and a time-stamp of the transaction; determining a physical address of the merchant from the merchant identification data; mapping the physical address of the merchant to corresponding geographical coordinates using a geolocation database; associating the geographical coordinates with the merchant's identity from the merchant identification data; and storing, in a merchant map database, the geographical coordinates, merchant's identity and time-stamp as elements of map data. The step of determining a physical address of the merchant from the merchant identification data may comprise extracting the physical address from a respective field in the merchant identification data. The step of determining a physical address of the merchant from the merchant identification data may comprise identifying a merchant ID from the merchant identification data and querying a merchant address database containing a plurality of merchant IDs and associated addresses using the merchant ID. The step of storing the geographical coordinates, merchant's identity and time-stamp as elements of map data may comprise storing a elements of map data if the geographical coordinates are changed. The step of mapping the physical address of the merchant to corresponding geographical coordinates may comprise referencing a first map database containing a plurality of physical addresses and corresponding geographical coordinates using a merchant mapping engine. The step of storing the geographical coordinates, merchant's identity and time-stamp as elements of map data may comprise making the map data accessible by an application programming interface (API). According to a second aspect of the present invention the...",
+  "patent_number": "None",
+  "abstract": "A method of generating map data, a system for generating map data and a method of creating a merchant map based on the generated map data are disclosed. The method of generating map data includes receiving transaction data from a merchant over a communications network, the transaction data including merchant identification data and a time-stamp of the transaction, determining a physical address of the merchant from the merchant identification data, mapping the physical address of the merchant to corresponding geographical coordinates using a geolocation database. The method further includes associating the geographical coordinates with the merchant's identity from the merchant identification data and storing the geographical coordinates, merchant's identity and time-stamp as elements of map data.",
+  "publication_number": "US20170017699A1-20170119",
+  "_processing_info": {
+    "original_size": 52492,
+    "optimized_size": 3646,
+    "reduction_percent": 93.05
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15458799",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "filing_date": "20170314",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "A method, computer program product, and system perform computations using a sparse convolutional neural network accelerator. A first vector comprising only non-zero weight values and first associated positions of the non-zero weight values within a 3D space is received. A second vector comprising only non-zero input activation values and second associated positions of the non-zero input activation values within a 2D space is received. The non-zero weight values are multiplied with the non-zero input activation values, within a multiplier array, to produce a third vector of products. The first associated positions are combined with the second associated positions to produce a fourth vector of positions, where each position in the fourth vector is associated with a respective product in the third vector. The products in the third vector are transmitted to adders in an accumulator array, based on the position associated with each one of the products.",
+  "publication_number": "US20180046906A1-20180215",
+  "summary": "<SOH> SUMMARY <EOH>A method, computer program product, and system perform computations using a sparse convolutional neural network accelerator. A first vector comprising only non-zero weight values and first associated positions of the non-zero weight values within a three-dimensional space is received. A second vector comprising only non-zero input activation values and second associated positions of the non-zero input activation values within a two-dimensional space is received. The non-zero weight values are multiplied with the non-zero input activation values, within a multiplier array, to produce a third vector of products. The first associated positions are combined with the second associated positions to produce a fourth vector of positions, where each position in the fourth vector is associated with a respective product in the third vector. The third vector is transmitted an accumulator array, where each one of the products in the third vector is transmitted to an adder in the accumulator array that is configured to generate an output activation value at the position associated with the product.",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Dally",
+      "inventor_name_first": "William J.",
+      "inventor_city": "Los Altos Hills",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Parashar",
+      "inventor_name_first": "Angshuman",
+      "inventor_city": "Northborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Emer",
+      "inventor_name_first": "Joel Springer",
+      "inventor_city": "Acton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Keckler",
+      "inventor_name_first": "Stephen William",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dennison",
+      "inventor_name_first": "Larry Robert",
+      "inventor_city": "Mendon",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SPARSE CONVOLUTIONAL NEURAL NETWORK ACCELERATOR",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 117487,
+    "optimized_size": 3245,
+    "reduction_percent": 97.24
+  }
+}

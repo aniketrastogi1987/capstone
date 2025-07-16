@@ -1,0 +1,44 @@
+{
+  "date_produced": "20170329",
+  "publication_number": "US20170103341A1-20170413",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15290409",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PARTHASARATHY",
+      "inventor_name_first": "KANNAN",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KATHALAGIRI SOMASHEKARIAH",
+      "inventor_name_first": "GIRISH",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ARACKAPARAMBIL",
+      "inventor_name_first": "JOHN FRANCIS",
+      "inventor_city": "Foster City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An approach for continual learning in slowly-varying environments is provided. The approach receives one or more action requests from a decision agent. The approach deploys a first model to a decision engine. The approach initiates an observation period. The approach builds a second model, in which the second model comprises collected transaction data from the observation period. The approach initiates a test period. The approach determines a performance score for the first model and a performance score for the second model. The approach selects the model providing an optimized action.",
+  "filing_date": "20161011",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In some exemplary embodiments, an apparatus configured to continually learn includes: at least one memory operable to store program instructions; at least one processor operable to read the stored program instructions; and according to the stored program instructions, the at least one processor is configured to be operated as: a decision engine configured to receive one or more action requests from a decision agent, and to select a model providing an optimized action; an orchestrator configured to deploy a first model to a decision engine, to initiate an observation period, and to initiate a test period; a model builder configured to build a second model, wherein the second model comprises collected transaction data from the observation period; and an evaluator configured to determine a performance score for the first model and a performance score for the second model. In other exemplary embodiments, a continual learning method, implemented by one or more processors, includes: receiving one or more action requests from a decision agent; deploying a first model to a decision engine; initiating an observation period; building a second model, in which the second model comprises collected transaction data from the observation period; initiating a test period; determining a performance score for the first model and a performance score for the second model; and selecting the model providing an optimized action. In yet other exemplary embodiments, a non-transitory computer readable storage medium, implemented by one or more processors, storing a continual learning system for causing a computer to function as: a decision engine configured to receive one or more action requests from a decision agent, and to select a model providing an optimized action; an orchestrator configured to deploy a first model to a decision engine, to initiate an observation period, and to initiate a test period; a model builder configured to build a second model, wherein the seco...",
+  "date_published": "20170413",
+  "title": "CONTINUAL LEARNING IN SLOWLY-VARYING ENVIRONMENTS",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 42328,
+    "optimized_size": 3470,
+    "reduction_percent": 91.8
+  }
+}

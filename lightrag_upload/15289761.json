@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15289761",
+  "date_published": "20170126",
+  "date_produced": "20170110",
+  "title": "Systems and methods for detecting return-oriented programming (ROP) exploits",
+  "filing_date": "20161010",
+  "inventor_list": [
+    {
+      "inventor_name_last": "TOSA",
+      "inventor_name_first": "Raul V.",
+      "inventor_city": "Cluj-Napoca",
+      "inventor_state": "",
+      "inventor_country": "RO"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2152",
+    "G06F2155"
+  ],
+  "main_ipcr_label": "G06F2152",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect, a host system comprises at least one hardware processor configured to identify a target area of a call stack of a target process executing on the host system. The at least one hardware processor is further configured to identify a set of gadget references within the target area, each identified gadget reference pointing to a section of memory hosting a return-oriented programming (ROP) gadget. The at least one hardware processor is further configured, in response to identifying the target area and the set of gadget references, to determine whether the target process is malicious according to a proportion of the target area occupied by the set of gadget references. According to another aspect, a method comprises employing at least one hardware processor of a host system to identify a target area of a call stack of a target process executing on the host system. The method further comprises employing the at least one hardware processor to identify a set of gadget references within the target area, each identified gadget reference pointing to a section of memory hosting a return-oriented programming (ROP) gadget. The method further comprises, in response to identifying the target area and the set of gadget references, employing the at least one hardware processor to determine whether the target process is malicious according to a proportion of the target area occupied by the set of gadget references. According to another aspect, a non-transitory computer-readable medium stores instructions which, when executed by at least one hardware processor of a host system, cause the host system to identify a target area of a call stack of a target process executing on the host system. The instructions further cause the host system to identify a set of gadget references within the target area, each identified gadget reference pointing to a section of memory hosting a return-oriented programming (ROP) gadget. The instructions further cause...",
+  "patent_number": "None",
+  "abstract": "Described systems and methods allow protecting a computer system from malware, such as return-oriented programming (ROP) exploits. In some embodiments, a set of references are identified within a call stack used by a thread of a target process, each reference pointing into the memory space of an executable module loaded by the target process. Each such reference is analyzed to determine whether it points to a ROP gadget, and whether the respective reference was pushed on the stack by a legitimate function call. In some embodiments, a ROP score is indicative of whether the target process is subject to a ROP attack, the score determined according to a count of references to a loaded module, according to a stack footprint of the respective module, and further according to a count of ROP gadgets identified within the respective module.",
+  "publication_number": "US20170024558A1-20170126",
+  "_processing_info": {
+    "original_size": 53012,
+    "optimized_size": 3421,
+    "reduction_percent": 93.55
+  }
+}

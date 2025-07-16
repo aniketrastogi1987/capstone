@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15219119",
+  "date_published": "20161117",
+  "date_produced": "20161102",
+  "title": "METHOD AND APPARATUS TO AVOID DEADLOCK DURING INSTRUCTION SCHEDULING USING DYNAMIC PORT REMAPPING",
+  "filing_date": "20160725",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHAN",
+      "inventor_name_first": "Nelson N.",
+      "inventor_city": "Folsom",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F938",
+    "G06F930"
+  ],
+  "main_ipcr_label": "G06F938",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>Accordingly, a need exists for a method and apparatus that can avoid deadlock during instruction scheduling by utilizing a dynamic port mapping scheme. Further, a need exists for a method and apparatus that can balance loads equally between units of a distributed physical register file through a dynamic port mapping scheme. In one embodiment, to solve the deadlock and load imbalance issues, a virtual port and port renaming technique is introduced in the scheduler of an OOO processor. The select ports in a scheduler are tied to virtual execution ports rather than a physical execution port. In the event that a particular register file corresponding to an execution unit is full, the select ports advantageously can be remapped to different virtual execution ports that route the instructions to an execution unit corresponding to a physical register unit that is not full. A method for performing dynamic port remapping during instruction scheduling in an out of order microprocessor is disclosed. The method comprises selecting and dispatching a plurality of instructions from a plurality of select ports in a scheduler module in first clock cycle. Next, it comprises determining if a first physical register file unit has capacity to support instructions dispatched in the first clock cycle. Further, it comprises supplying a response back to logic circuitry coupled between the plurality of select ports and a plurality of execution ports, wherein the logic circuitry is operable to re-map select ports in the scheduler module to execution ports based on the response. Finally, responsive to a determination that the first physical register file unit is full, the method comprises re-mapping at least one select port connecting with an execution unit in the first physical register file unit to a second physical register file unit. In a different embodiment, an out of order processor configured to perform a method for performing dynamic port rema...",
+  "patent_number": "None",
+  "abstract": "A method for performing dynamic port remapping during instruction scheduling in an out of order microprocessor is disclosed. The method comprises selecting and dispatching a plurality of instructions from a plurality of select ports in a scheduler module in first clock cycle. Next, it comprises determining if a first physical register file unit has capacity to support instructions dispatched in the first clock cycle. Further, it comprises supplying a response back to logic circuitry between the plurality of select ports and a plurality of execution ports, wherein the logic circuitry is operable to re-map select ports in the scheduler module to execution ports based on the response. Finally, responsive to a determination that the first physical register file unit is full, the method comprises re-mapping at least one select port connecting with an execution unit in the first physical register file unit to a second physical register file unit.",
+  "publication_number": "US20160335091A1-20161117",
+  "_processing_info": {
+    "original_size": 70023,
+    "optimized_size": 3549,
+    "reduction_percent": 94.93
+  }
+}

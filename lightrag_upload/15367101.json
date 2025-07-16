@@ -1,0 +1,44 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032857A1-20180201",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15367101",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lele",
+      "inventor_name_first": "Meghan",
+      "inventor_city": "Toronto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Capalija",
+      "inventor_name_first": "Davor",
+      "inventor_city": "Etobicoke",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Ling",
+      "inventor_name_first": "Andrew Chaang",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "A method for implementing a convolutional neural network (CNN) accelerator on a target includes utilizing one or more processing elements to perform convolution. A configuration of the CNN accelerator is modified to change filters implemented by the CNN accelerator and to change formatting of output data. The one or more processing elements are utilized to perform one of deconvolution and backpropagation convolution in response to the change in the filters and formatting of the output data.",
+  "filing_date": "20161201",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the present disclosure, a methodology for designing and implementing a convolutional neural network (CNN) accelerator is disclosed. The methodology utilizes an electronic design automation (EDA) tool that generates a design for the CNN accelerator in response to features of a CNN accelerator which may include characteristics and parameters of the CNN accelerator specified by a user, and available resources on a target selected by the user. The target may include one or more target devices of one or more types. The EDA tool assigns resources on the target to implement the CNN accelerator to achieve high performance. For example, resources on the target are assigned to implement appropriately sized buffers to handle the types and sizes of images to be processed by the CNN accelerator. Resources on the target are also assigned to implement the appropriate types and number of computation units, such as processing elements, to support the type of filters and layers applied by the CNN accelerator. The EDA tool also generates a sequencer unit that is programmed to coordinate the transmission of data to appropriate computation units in order to time multiplex computations on the computation units. According to an embodiment of the present disclosure, a range of characteristics may be specified by the user to allow the CNN accelerator to execute a plurality of CNN algorithms. In this embodiment, one or more configurable status registers (CSRs) are implemented to allow a user to configure the target to support specified characteristics required for executing one of the plurality of CNN algorithms at runtime, after the CNN accelerator is programmed on the target. When implemented on an field programmable gate array (FPGA), the CSRs effectively allow runtime configuration of the CNN accelerator. This facilitates an FPGA overlay targeted at CNN applications. According to an embodiment of the present disclosure, a method for implem...",
+  "date_published": "20180201",
+  "title": "Method and Apparatus for Performing Different Types of Convolution Operations with the Same Processing Elements",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 96157,
+    "optimized_size": 3385,
+    "reduction_percent": 96.48
+  }
+}

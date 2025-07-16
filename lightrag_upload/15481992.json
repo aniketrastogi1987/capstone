@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15481992",
+  "date_published": "20171012",
+  "date_produced": "20170927",
+  "filing_date": "20170407",
+  "main_ipcr_label": "G06N504",
+  "abstract": "In many environments, rules are trained on historical data to predict an outcome likely to be associated with new data. Described is a ruleset which predicts the probability of a particular outcome. Roughly described, an individual identifies a ruleset, where each of the rules has a plurality of conditions and also indicates a rule-level probability of a predetermined classification. The conditions indicate a relationship (e.g. ‘<’ or ‘!<’) between an input feature and a corresponding value. The rules are evaluated against input data to derive a certainty for each condition, and aggregated to a rule-level certainty. The rule probabilities are combined using the rule-level certainty values to derive a probability output for the ruleset, which can be used to provide a basis for decisions. In an embodiment, the per-condition certainty values are fuzzy values aggregated by fuzzy logic. A novel genetic algorithm can be used to derive the ruleset.",
+  "publication_number": "US20170293849A1-20171012",
+  "summary": "<SOH> SUMMARY <EOH>The approach described herein includes probabilistic extensions to rule-based logic. Fuzzy logic may be used to determine an indication of how close the input data is to satisfying the conditions rather than using a binary determination that the all the conditions are completely satisfied or none at all. In a probabilistic ruleset the consequences of rules are used to update a conditional probability statement. The probability output by the ruleset may be, for example, an answer to the question, “What's the probability of A occurring” where knowing the probability of A occurring (or the probability that A is the correct classification for the data) informs a decision about whether to take action in response to the predicted probability for A. For example, if A is that a patient has a particular disease, a probabilistic rule might be, “IF condition B is present THEN the probability of the patient having the particular disease is Z.” If Z is a high probability, then a decision to treat the disease may be made. However, if the patient doesn't have the disease, then treating the disease may introduce unnecessary, possibly expensive treatment that may even be harmful to the patient. If Z is a low probability, then the decision may be made to not treat the patient for the disease. Providing a probability of the classification providers more accurate information that can be used by a human to make a decision based on the output of the ruleset. The approach is illustrated using an example of a blood pressure prediction application, where the goal is to decide whether or not the patient will experience a blood pressure-related event in the near future. However, many different kinds of applications may benefit from this approach, such as other medical diagnoses or interventions, predicting/anticipating weather conditions, or predicting/anticipating an impending occurrence of a natural disaster. For example, a computer executed ruleset may be used to automat...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hodjat",
+      "inventor_name_first": "Babak",
+      "inventor_city": "Dublin",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shahrzad",
+      "inventor_name_first": "Hormoz",
+      "inventor_city": "Dublin",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DISTRIBUTED RULE-BASED PROBABILISTIC TIME-SERIES CLASSIFIER",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 96190,
+    "optimized_size": 3708,
+    "reduction_percent": 96.15
+  }
+}

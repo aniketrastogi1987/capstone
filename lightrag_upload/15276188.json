@@ -1,0 +1,47 @@
+{
+  "date_produced": "20180315",
+  "publication_number": "US20180089558A1-20180329",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15276188",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wittenberg",
+      "inventor_name_first": "Peter S.",
+      "inventor_city": "Creve Coeur",
+      "inventor_state": "MO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Petre",
+      "inventor_name_first": "Peter",
+      "inventor_city": "Oak Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rao",
+      "inventor_name_first": "Shankar R.",
+      "inventor_city": "Agoura Hills",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for removing an extracted RF signal to examine a spectrum of at least one other RF signal includes receiving a mixture signal by an ADC. The mixture signal includes a plurality of separate signals from different signal sources. The mixture signal is digitized by the ADC. A first digitized signal and a second digitized signal are generated that are the same. The first digitized signal is delayed a predetermined time delay and the second digitized signal is processed in a neuromorphic signal processor to extract an extracted signal. The predetermined time delay corresponds to a delay embedding in the neuromorphic signal processor. A phase delay and amplitude of the extracted signal is adjusted based on a phase delay and amplitude of the first digitized signal. An adjusted extracted signal is cancelled from the first digitized signal to provide an input examination signal for examination.",
+  "filing_date": "20160926",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with an embodiment, a method for removing an extracted radio frequency (RF) signal to examine a spectrum of at least one other RF signal includes receiving a mixture signal by an analog-to-digital converter (ADC). The mixture signal includes a plurality of separate source signals from different signal sources. The method also includes digitizing the mixture signal by the ADC and generating a first digitized signal and a second digitized signal. The first digitized signal is the same or identical to the second digitized signal. The method additionally includes delaying the first digitized signal by a predetermined time delay and processing the second digitized signal in a neuromorphic signal processor to extract an extracted signal from the second digitized signal. The predetermined time delay of the first digitized signal corresponds to a delay embedding in the neuromorphic signal processor. The method also includes adjusting a phase delay and amplitude of the extracted signal based on a phase delay and amplitude of the first digitized signal. The method further includes cancelling an adjusted extracted signal from the first digitized signal to provide an input examination signal. In accordance with a another embodiment, a system for removing an extracted radio frequency (RF) signal to examine a spectrum of at least one other RF signal includes an analog-to-digital converter (ADC) for receiving a mixture signal. The mixture signal includes a plurality of separate source signals from different signal sources. The ADC digitizes the mixture signal and generates a first digitized signal and a second digitized signal. The first digitized signal is the same or identical to the second digitized signal. The system also includes a delay circuit for delaying the first digitized signal by a predetermined time delay. The system also includes a neuromorphic signal processor for processing the second digitized signal to extract an extracted signal...",
+  "date_published": "20180329",
+  "title": "SIGNAL REMOVAL TO EXAMINE A SPECTRUM OF ANOTHER SIGNAL",
+  "ipcr_labels": [
+    "G06N3063",
+    "H03F319",
+    "H03H1702",
+    "G06F1716"
+  ],
+  "_processing_info": {
+    "original_size": 81838,
+    "optimized_size": 3790,
+    "reduction_percent": 95.37
+  }
+}

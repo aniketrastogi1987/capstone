@@ -1,0 +1,52 @@
+{
+  "date_produced": "20171213",
+  "publication_number": "US20170372203A1-20171228",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15194707",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bharti",
+      "inventor_name_first": "Harish",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Choudhury",
+      "inventor_name_first": "Sanjib",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Raval",
+      "inventor_name_first": "Kshitij K.",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Saxena",
+      "inventor_name_first": "Rajesh K.",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "Machine logic based automated story writing technology that: respectively represents content data sources for potential use in an automated story as nodes in a graph; includes emotion metadata in each given node of the graph, with the emotion metadata relating to “emotions” (“sentiments”) that are likely to be caused in story consumers and/or story characters if the content corresponding to the given node is used in an automated story; use the emotion metadata to help select a sub-set of nodes whose respectively associated content is to be used in an automated story; and use the emotion metadata to help select the order of the use of the content nodes in an automated story. The selection of the nodes based on emotion metadata and/or the ordering of the nodes based on emotion metadata may be further based on seed information (for example, story seed information supplied by a human co-author).",
+  "filing_date": "20160628",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the present invention, there is a method for writing an automated story that performs the following operations (not necessarily in the following order): (i) receiving, by an automated story writing engine, a story data graph data set including data structured as a graph that includes a plurality of nodes and a plurality of connections among and between the nodes, with each given node including content data corresponding to content that can potentially be used as subject matter for the automated story and emotion value data relating to emotions related to the content of the given node; (ii) receiving, by the automated story writing engine, a selected emotions data set corresponding to emotions that are desired to be used in the automated story; (iii) selecting, by the automated story writing engine, a subset of recommended candidate nodes from the plurality of nodes, based, at least in part, upon the selected emotions data set and the emotion value data of the nodes of the story data graph; and (iv) outputting data corresponding to an identity of the recommended candidate nodes. According to a further aspect of the present invention, there is a computer program product for writing an automated story that performs the following operations (not necessarily in the following order): (i) receiving, by an automated story writing engine, a story data graph data set including data structured as a graph that includes a plurality of nodes and a plurality of connections among and between the nodes, with each given node including content data corresponding to content that can potentially be used as subject matter for the automated story and emotion value data relating to emotions related to the content of the given node; (ii) receiving, by the automated story writing engine, a selected emotions data set corresponding to emotions that are desired to be used in the automated story; (iii) selecting, by the automated story writing engine,...",
+  "date_published": "20171228",
+  "title": "AUTOMATED FILTERING OF STORY CONTENT BASED ON EMOTIONS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06Q1010"
+  ],
+  "_processing_info": {
+    "original_size": 96125,
+    "optimized_size": 3901,
+    "reduction_percent": 95.94
+  }
+}

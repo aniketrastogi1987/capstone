@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15172906",
+  "date_published": "20171207",
+  "date_produced": "20171121",
+  "title": "MODULIZATION OF CACHE STRUCTURE IN MICROPROCESSOR",
+  "filing_date": "20160603",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tran",
+      "inventor_name_first": "Thang",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F120815",
+    "G06F12084",
+    "G06F120875"
+  ],
+  "main_ipcr_label": "G06F120815",
+  "summary": "<SOH> SUMMARY <EOH>Certain embodiments of the present disclosure support implementation of a Level-1 (L1) cache in a microprocessor based on data arrays and tag arrays that are independently accessed. No stall pipeline mechanism is required for L1 cache implementations presented herein since stall of instructions is avoided when there is a memory conflict. Example embodiments of the present disclosure include configurations that may include structures and processes within a microprocessor. For example, a configuration may include a data array in a cache of the microprocessor interfaced with one or more data index queues, a tag array, and circuitry coupled to the data array and the tag array. The one or more data index queues can store, upon occurrence of a conflict between at least one instruction requesting access to the data array and at least one other instruction that accessed the data array, at least one data index for accessing the data array associated with the at least one instruction. The tag array in the cache is coupled with a tag queue that stores one or more tag entries associated with one or more data outputs read from the data array based on accessing the data array. The circuitry in the cache coupled to the data array and the tag array is configured for independent access of the data array and the tag array. Example embodiments of the present disclosure include configurations that may include structures and processes within a microprocessor. For example, a configuration may include issuing one or more instructions per clock cycle for accessing a data array in a cache of the microprocessor interfaced with one or more data index queues, keeping, in the one or more data index queues upon occurrence of a conflict between at least one instruction requesting access to the data array and at least one other instruction that accessed the data array, at least one data index for accessing the data array associated with the at least one instruction, accessing, f...",
+  "patent_number": "None",
+  "abstract": "Embodiments of the present disclosure support implementation of a Level-1 (L1) cache in a microprocessor based on independently accessed data and tag arrays. Presented implementations of L1 cache do not require any stall pipeline mechanism for stalling execution of instructions, leading to improved microprocessor performance. A data array in the cache is interfaced with one or more data index queues that comprise, upon occurrence of a conflict between at least one instruction requesting access to the data array and at least one other instruction that accessed the data array, at least one data index for accessing the data array associated with the at least one instruction. A tag array in the cache is interfaced with a tag queue that stores one or more tag entries associated with one or more data outputs read from the data array based on accessing the data array.",
+  "publication_number": "US20170351610A1-20171207",
+  "_processing_info": {
+    "original_size": 43907,
+    "optimized_size": 3440,
+    "reduction_percent": 92.17
+  }
+}

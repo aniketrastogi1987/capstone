@@ -1,0 +1,46 @@
+{
+  "date_produced": "20171227",
+  "publication_number": "US20180012137A1-20180111",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15359122",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wright",
+      "inventor_name_first": "Robert",
+      "inventor_city": "Sherrill",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Lei",
+      "inventor_city": "Vestal",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Loscalzo",
+      "inventor_name_first": "Steven",
+      "inventor_city": "Vienna",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A control system and method for controlling a system, which employs a data set representing a plurality of states and associated trajectories of an environment of the system; and which iteratively determines an estimate of an optimal control policy for the system. The iterative process performs the substeps, until convergence, of estimating a long term value for operation at a respective state of the environment over a series of predicted future environmental states; using a complex return of the data set to determine a bound to improve the estimated long term value; and producing an updated estimate of an optimal control policy dependent on the improved estimate of the long term value. The control system may produce an output signal to control the system directly, or output the optimized control policy. The system preferably is a reinforcement learning system which continually improves.",
+  "filing_date": "20161122",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In on-policy learning settings, where the behavior policy follows the target policy, the idea of n-step returns has been exploited to great effect by the TD(λ) family of algorithms, which utilize complex returns (weighted average of all n-step returns) in order to reduce variance and produce a more accurate value estimate than the 1-step return [Sutton 1998]. In off-policy learning settings where the behavior policy is different from the target policy, importance sampling has been employed to correct the off-policy bias in the n-step returns, and shown some successes in enabling effectiveness use of n-step returns for policy iteration methods. Notwithstanding, there has been little progress in exploiting the n-step returns in value iteration methods. The main reason for this lies in the fact that in the value iteration framework, the target policy is always the optimal policy, and it is a challenging issue to deal with the off-policy bias of the n-step returns. The importance sampling method suitable for the policy iteration framework does not apply here, since it requires the prior knowledge of both the target policy and the behavior policy in order to decide the importance weight of the n-step returns, but such information is not available in the value iteration framework. A bounding method is provided herein which uses a negatively biased, but relatively low variance complex return estimator to provide a lower bound on the value of the sample label obtained from the traditional one-step return. The method is motivated by a statistical observation that a biased estimator with relatively small variance can sometimes provide an effective bound on the value of another estimator to produce a better estimator than both. The present technology exploits the off-policy bias down the trajectories, instead of trying to correct it as the importance sampling approach does. In addition, a new Bounded-FQI algorithm is provided, which efficien...",
+  "date_published": "20180111",
+  "title": "APPROXIMATE VALUE ITERATION WITH COMPLEX RETURNS BY BOUNDING",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900",
+    "G05B1502"
+  ],
+  "_processing_info": {
+    "original_size": 276499,
+    "optimized_size": 3760,
+    "reduction_percent": 98.64
+  }
+}

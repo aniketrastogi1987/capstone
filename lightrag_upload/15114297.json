@@ -1,0 +1,32 @@
+{
+  "date_produced": "20161228",
+  "publication_number": "US20170011304A1-20170112",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15114297",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SHIMIZU",
+      "inventor_name_first": "Noriyoshi",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "An appliance inference device includes a receiver, a first storage, an analyzer, an inference module and a second storage. The first storage stores pieces of power information in each of which a value of electric power received by the receiver is correlated with a time. When a piece of power information stored in the first storage satisfies a prescribed condition, the analyzer classifies the piece of power information as a group corresponding to the condition. The inference module checks the piece of power information classified as the group by the analyzer with appliance information stored in the second storage, thereby inferring the name of an electrical appliance corresponding to the group. The second storage stores the appliance information, with the information correlated with the name of the electrical appliance.",
+  "filing_date": "20160726",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>It is an object of the present invention to provide an appliance inference device that allows information required for inferring a kind of appliance to be registered easily. It is further an object of the present invention to provide a program for allowing a computer to function as the appliance inference device. An appliance inference device according to an aspect of the present invention includes a receiver, a first storage, an analyzer, a second storage and an inference module. The receiver is configured to receive, from a measuring device, values of electric power conducted in an electrical circuit that an electrically-powered appliance is connected to. The first storage is configured to store pieces of power information in each of which a value of electric power received by the receiver is correlated with a time. The analyzer is configured, when a piece of power information stored in the first storage satisfies a prescribed condition, to classify the piece of power information as a group corresponding to the condition. The second storage is configured to store appliance information that contains a range of values of electric power to be consumed by the appliance, and an operable time period of the appliance, and that is correlated with a name of the appliance. The inference module is configured to check the piece of power information classified as the group by the analyzer with the appliance information stored in the second storage, thereby inferring the name of the appliance corresponding to the group. A program according to an aspect of the present invention is a program for allowing a computer to function as the appliance inference device. The program may be provided by a computer-readable storage medium.",
+  "date_published": "20170112",
+  "title": "APPLIANCE INFERENCE DEVICE AND PROGRAM",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900",
+    "H02J1300"
+  ],
+  "_processing_info": {
+    "original_size": 84387,
+    "optimized_size": 3150,
+    "reduction_percent": 96.27
+  }
+}

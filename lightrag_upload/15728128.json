@@ -1,0 +1,66 @@
+{
+  "patent_number": "None",
+  "application_number": "15728128",
+  "date_published": "20180201",
+  "date_produced": "20180117",
+  "filing_date": "20171009",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Aspects of the disclosure provide an information processing apparatus that includes interface circuitry and processing circuitry. The interface circuitry is configured to obtain a text authored by a person. The processing circuitry is configured to analyze the text to obtain measurements of language features of the person, input the measurements of the language features into an evaluation model that is trained to predict a score as a function of the language features, determine a specific score for the person based on the evaluation model and output the specific score of the person for predicting a behavior of the person.",
+  "publication_number": "US20180032870A1-20180201",
+  "summary": "<SOH> SUMMARY <EOH>In view of this, embodiments of the present disclosure provide a credit risk evaluation method and apparatus based on text analysis, and a storage medium to resolve at least one problem in the existing technology, so as to evaluate a credit risk of a borrower, thereby providing important decision basis for an investor during investment. Technical solutions of the embodiments of the present disclosure are implemented as follows. Aspects of the disclosure provide an information processing apparatus that includes interface circuitry and processing circuitry. The interface circuitry is configured to obtain a text authored by a person. The processing circuitry is configured to analyze the text to obtain measurements of language features of the person, input the measurements of the language features of the person into an evaluation model that is trained to predict a score as a function of the language features, determine a specific score for the person based on the evaluation model and output the specific score of the person for predicting a behavior of the person. In an embodiment, the processing circuitry is configured to obtain training data via the interface circuitry, analyze the training data to obtain training measurements of the language features from the training data, use the training measurements of the language features as parameters to establish classifiers corresponding to abstract text features by machine learning, and fuse the classifiers into a decision tree to form the evaluation model. In an example, the processing circuitry is configured to input the training measurements of the language features into a classifier corresponding to an abstract text feature according to mapping relationships between the language features and the abstract text features. Further, in an example, the processing circuitry is configured to segment the training data according to punctuations, and collect statistics on the segmented training data to obtain sta...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06Q4002"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "LIU",
+      "inventor_name_first": "Hongzhi",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "JIANG",
+      "inventor_name_first": "Jie",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Juhong",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "GUAN",
+      "inventor_name_first": "Gang",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WU",
+      "inventor_name_first": "Zhonghai",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Xing",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "EVALUATION METHOD AND APPARATUS BASED ON TEXT ANALYSIS, AND STORAGE MEDIUM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 107624,
+    "optimized_size": 3904,
+    "reduction_percent": 96.37
+  }
+}

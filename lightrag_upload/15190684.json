@@ -1,0 +1,53 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15190684",
+  "date_published": "20170126",
+  "date_produced": "20170110",
+  "title": "METHOD OF AND SYSTEM FOR PARAMETER-FREE DISCOVERY AND RECOMMENDATION OF AREAS-OF-INTEREST",
+  "filing_date": "20160623",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LAPTEV",
+      "inventor_name_first": "Dmitry Anatolievich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "SERDYUKOV",
+      "inventor_name_first": "Pavel Viktorovich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "TIKHONOV",
+      "inventor_name_first": "Aleksey Viktorovich",
+      "inventor_city": "Vladimir",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "GUSEV",
+      "inventor_name_first": "Gleb Gennadievich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06K946",
+    "G06F30484"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>It is an object of the present technology to ameliorate at least some of the inconveniences present in the prior art. According to one aspect of the present technology, there is provided a method of processing a user request for a recommended area of interest, the method being executable at a server. The method comprises receiving the user request, the user request comprising an indication of an electronic device geo-location and a user defined search constraint; receiving data associated with photographs, the photographs associated with geo-objects, the data comprising geo-location coordinates of the photographs, the geo-location coordinates of the photographs being in proximity with the electronic device geo-location; determining the optimal region representation based on the user defined search constraint; and displaying to the user the recommended area of interest that corresponds to the potential area of interest of the optimal region representation. In some implementations of the method, the unique photograph density calculation parameter is indicative of size and number of potential areas of interest within each region representation. In some implementations of the method, each potential area of interest is associated with a density parameter, the density parameter being based on a number of the geo-location coordinates of the photographs having been mapped within the potential area of interest. In some implementations of the method, wherein the optimal region representation comprises multiple potential areas of interest, the method further comprises, prior to the displaying, ranking the multiple potential areas of interest of the optimal region representation based on values of the density parameter of the potential areas of interest of the optimal region representation. In some implementations of the method, the user defined search constraint comprises an additional indication, the additional indication being at least one of a current tim...",
+  "patent_number": "9971775",
+  "abstract": "A method and system for processing a user request for a recommended area of interest includes the steps of receiving the request including an indication of an electronic device geo-location and a user defined search constraint; receiving data associated with photographs associated with geo-objects, the data comprising geo-location coordinates of the photographs, the geo-location coordinates of the photographs being in proximity with the device geo-location; computing a plurality of region representations based on the geo-location coordinates of the photographs, each region representation being associated with a unique photograph density calculation parameter, the computing comprises determining a potential area of interest in each region representation, each region representation being a candidate for an optimal region representation; determining the optimal region representation based on the user defined search constraint; and displaying to the user the recommended area of interest th...",
+  "publication_number": "US20170024397A1-20170126",
+  "_processing_info": {
+    "original_size": 92848,
+    "optimized_size": 4086,
+    "reduction_percent": 95.6
+  }
+}

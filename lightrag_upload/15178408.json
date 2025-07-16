@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15178408",
+  "date_published": "20171214",
+  "date_produced": "20171129",
+  "title": "SYSTEMS AND METHODS FOR GENERATING A REPORT FROM STREAM DATA",
+  "filing_date": "20160609",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kirk",
+      "inventor_name_first": "Stephen Christopher",
+      "inventor_city": "O'Fallon",
+      "inventor_state": "MO",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1724",
+    "G06Q1010",
+    "G06F1727"
+  ],
+  "main_ipcr_label": "G06F1724",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DISCLOSURE <EOH>In one aspect, a processor for generating data reports from a data stream is provided. The processor may include an analyzer configured to identify a data record by detecting an event indicator, wherein the event indicator includes at least one of a start record event indicator and an end record event indicator within the data stream, the start and end record event indicators representing a start and an end of the respective data record; an extractor that may extract data of the identified data record from the data stream based on the start record event indicator and the end record event indicator, and a generator configured to generate, based on the event indicator, one or more events, wherein an event handler handles the one or more events to process the data record for inclusion into the data report. In another aspect, a method for processing a data stream to generate a data report is provided. The method may be performed by a processing device. The method may include receiving a data stream, identifying a data record by detecting an event indicator, wherein the event indicator includes at least one of a start record event indicator and an end record event indicator within the data stream, the start and end record event indicators representing a start and an end of the respective data record, extracting data of the identified data record from the data stream based on the start record event indicator and the end record event indicator, and generating, based on the event indicator, one or more events, wherein an event handler handles the one or more events to process the data record for inclusion into the data report. In another aspect, an event-processing computing device for generating a data report is provided. The event processing computing device may include a data provider component configured to receive a data stream corresponding to the data report, detect an event indicator from the data stream, and determine ...",
+  "patent_number": "None",
+  "abstract": "A processing device and method for generating data reports from a data stream are provided. The processing device may include an analyzer that may identify a data record by detecting a start record event indicator and an end record event indicator within the data stream, the start and end record event indicators representing a start and an end of the respective data record, an extractor that may extract data of the identified data record from the data stream based on the start record event indicator and the end record event indicator, and a generator configured to generate, based on the event indicator, one or more events, wherein an event handler handles the one or more events to process the data record for inclusion into the data report.",
+  "publication_number": "US20170357629A1-20171214",
+  "_processing_info": {
+    "original_size": 62382,
+    "optimized_size": 3334,
+    "reduction_percent": 94.66
+  }
+}

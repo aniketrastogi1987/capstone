@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15677069",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "filing_date": "20170815",
+  "main_ipcr_label": "G06N304",
+  "abstract": "According to an embodiment, a pattern recognition apparatus includes an RNN layer, as a middle layer, that includes an input converting unit and an RNN processor. The input converting unit performs conversion, for each step, on an input vector and a recurrent input vector, and calculates and outputs a converted vector of which the number of dimensions is smaller than the sum of the numbers of dimensions of respective the input vector and the recurrent input vector. The input vector is formed of a feature vector output from an input layer or an output of the RNN processor included in a lower RNN layer. The recurrent input vector is formed of an output of a previous step of the RNN processor. The RNN processor calculates an RNN output vector from the converted vector calculated in the input converting unit and outputs the RNN output vector, for each step.",
+  "publication_number": "US20180137410A1-20180517",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram illustrating a functional configuration example of a pattern recognition apparatus according to a first embodiment; FIG. 2 is a block diagram illustrating a configuration example of a case including a plurality of RNN layers; FIG. 3 is a block diagram illustrating a functional configuration example of a pattern recognition apparatus according to a second embodiment; FIG. 4 is a block diagram illustrating a configuration example of a case including a plurality of long short-term memory (LSTM) layers; and FIG. 5 is a block diagram illustrating a hardware configuration example of a pattern recognition apparatus according to an embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Masuko",
+      "inventor_name_first": "Takashi",
+      "inventor_city": "Kawasaki Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "PATTERN RECOGNITION APPARATUS, PATTERN RECOGNITION METHOD, AND COMPUTER PROGRAM PRODUCT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 64794,
+    "optimized_size": 2243,
+    "reduction_percent": 96.54
+  }
+}

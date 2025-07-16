@@ -1,0 +1,38 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "14994383",
+  "date_published": "20160505",
+  "date_produced": "20160420",
+  "title": "METHOD AND SYSTEM FOR VPN ISOLATION USING NETWORK NAMESPACES",
+  "filing_date": "20160113",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fainkichen",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "Southborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Newell",
+      "inventor_name_first": "Craig",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F9455"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment of the present invention provides a system for providing exclusive access to a virtual private network (VPN) connection to an authorized application. During operation, the system creates a unique network namespace that is different from a default network namespace of a host system. The system then places a pseudo network interface associated with the VPN connection into the unique network namespace. Furthermore, the system places at least one socket for an authorized application into the unique network namespace. The system also precludes unauthorized applications on the host from accessing the unique network namespace, thereby facilitating exclusive access to the VPN connection by the authorized application. In a variation on this embodiment, the authorized application is a virtual machine. In a further variation, the system intercepts a socket-creation request from an application on the virtual machine, and creates the socket on the host system on behalf of the virtual machine. In a variation on this embodiment, the system establishes the VPN connection by a VPN client which resides in the default network namespace of the host system. In a variation on this embodiment, the system receives a set of network parameters by a VPN client and passes the network parameters to a connectivity service on the host system. In a variation on this embodiment, the system applies a set of network parameters received via the VPN connection to the pseudo network interface. In a variation on this embodiment, the host system is a mobile device.",
+  "patent_number": "9769120",
+  "abstract": "One embodiment of the present invention provides a system for providing exclusive access to a virtual private network (VPN) connection to an authorized application. During operation, the system creates a unique network namespace that is different from a default network namespace of a host system. The system then places a pseudo network interface associated with the VPN connection into the unique network namespace. Furthermore, the system places at least one socket for an authorized application into the unique network namespace. The system also precludes unauthorized applications on the host from accessing the unique network namespace, thereby facilitating exclusive access to the VPN connection by the authorized application.",
+  "publication_number": "US20160127321A1-20160505",
+  "_processing_info": {
+    "original_size": 51490,
+    "optimized_size": 3038,
+    "reduction_percent": 94.1
+  }
+}

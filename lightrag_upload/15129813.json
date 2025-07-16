@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170510",
+  "publication_number": "US20170147920A1-20170525",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15129813",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Huo",
+      "inventor_name_first": "Qiang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Yan",
+      "inventor_name_first": "Zhi-Jie",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Kai",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The use of the alternating direction method of multipliers (ADMM) algorithm to train a classifier may reduce the amount of classifier training time with little degradation in classifier accuracy. The training involves partitioning the training data for training the classifier into multiple data blocks. The partitions may preserve the joint distribution of input features and an output class of the training data. The training may further include performing an ADMM iteration on the multiple data blocks in an initial order using multiple worker nodes. Subsequently, the training of the classifier is determined to be completed if a stop criterion is satisfied following the ADMM iteration. Otherwise, if the stop criterion is determined to be unsatisfied following the ADMM iteration, one or more additional ADMM iterations may be performed on different orders of the multiple data blocks until the stop criterion is satisfied.",
+  "filing_date": "20160927",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Described herein are techniques for training deep neural networks (DNNs) using an alternating direction method of multipliers (ADMM) algorithm. The DNNs may be trained to perform tasks such as speech recognition, image recognition, handwriting analysis, and object classification. The use of the ADMM algorithm may enable the training of the DNNs to be parallelized across multiple computing nodes. In other words, the training of the DNNs may be distributed across the multiple computing nodes to speed up the training process. Each of the computing nodes may be a central processing unit (CPU) or a graphics processing unit (GPU) that resides in a computing device. The application of the ADMM algorithm to train the DNNs may include a training data partition phase and a distributed ADMM iteration phase. In the training data partition phase, the training data may be partitioned into multiple non-overlapping data blocks that preserve a joint distribution of the input features and the output class of the data blocks. In the distributed ADMM iteration phases, the non-overlapping data blocks may be iteratively processed by the multiple computing nodes to train the DNNs until a predetermined stop criterion is satisfied. The trained DNNs may be used by a data analysis engine to classify input data. The input data may be speech, images, objects, and other data. In turn, the data analysis engine may respectively provide text that corresponds to the speech, classification of the images, recognition of objects based on their visual characteristics, etc. This Summary is provided to introduce a selection of concepts in a simplified form that is further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter.",
+  "date_published": "20170525",
+  "title": "DEEP LEARNING USING ALTERNATING DIRECTION METHOD OF MULTIPLIERS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F7523",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 50154,
+    "optimized_size": 3684,
+    "reduction_percent": 92.65
+  }
+}

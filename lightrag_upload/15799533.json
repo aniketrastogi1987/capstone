@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15799533",
+  "date_published": "20180607",
+  "date_produced": "20180523",
+  "filing_date": "20171031",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A device for determining a CNN model for a database according to the present disclosure includes: a selecting unit configured to select at least two CNN models from multiple CNN models whose classification capacity is known; a fitting unit configured to fit, based on the classification capacity and first parameters of the at least two CNN models, a curve taking classification capacity and a first parameter as variables; a predicting unit configured to predict, based on the curve, a first parameter of other CNN models; and a determining unit configured to determine a CNN model applicable to the database from the multiple CNN models. With the device and the method according to the present disclosure, there is no need to train all the CNN models, thereby greatly reducing the amount of computation and simplifying the process of designing the CNN model.",
+  "publication_number": "US20180157965A1-20180607",
+  "summary": "<SOH> SUMMARY <EOH>This summary part provides a general summary of the present disclosure, rather than discloses a full scope or all features thereof. An object of the present disclosure is to provide a device and a method for determining a CNN model for a database, thereby simplifying the process of determining the CNN model and reducing the amount of computation for selecting the CNN model, so that the CNN model can be easily determined by an ordinary people as a user. According to an aspect of the present disclosure, a device for determining a convolutional neural network (CNN) model for a database is provided, which includes: a selecting unit configured to select at least two CNN models from multiple CNN models whose classification capacity is known; a fitting unit configured to fit, based on the classification capacity and first parameters of the at least two CNN models, a curve taking classification capacity and the first parameter as variables, the first parameter being used for characterizing performance of the CNN model; a predicting unit configured to predict, based on the curve, a first parameter of a CNN model of the multiple CNN models other than the at least two CNN models; and a determining unit configured to determine a CNN model applicable to the database from the multiple CNN models based on the first parameter of each of the multiple CNN models. According to another aspect of the present disclosure, a method for determining a convolution neural network (CNN) model for a database is provided, which includes: selecting at least two CNN models from multiple CNN models whose classification capacity is known; fitting, based on the classification capacity and first parameters of the at least two CNN models, a curve taking classification capacity and the first parameter as variables, the first parameter being used for characterizing performance of the CNN model; predicting, based on the curve, a first parameter of a CNN model in the multiple CNN models o...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SUN",
+      "inventor_name_first": "Li",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Song",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "FAN",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SUN",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "DEVICE AND METHOD FOR DETERMINING CONVOLUTIONAL NEURAL NETWORK MODEL FOR DATABASE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 57936,
+    "optimized_size": 3843,
+    "reduction_percent": 93.37
+  }
+}

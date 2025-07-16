@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15606118",
+  "date_published": "20171214",
+  "date_produced": "20171129",
+  "filing_date": "20170526",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "A system for bit-serial computation in a neural network is described. The system may be embodied on an integrated circuit and include one or more bit-serial tiles for performing bit-serial computations in which each bit-serial tile receives input neurons and synapses, and communicates output neurons. Also included is an activation memory for storing the neurons and a dispatcher and a reducer. The dispatcher reads neurons and synapses from memory and communicates either the neurons or the synapses bit-serially to the one or more bit-serial tiles. The other of the neurons or the synapses are communicated bit-parallelly to the one or more bit-serial tiles, or according to a further embodiment, may also be communicated bit-serially to the one or more bit-serial tiles. The reducer receives the output neurons from the one or more tiles, and communicates the output neurons to the activation memory.",
+  "publication_number": "US20170357891A1-20171214",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In accordance with an aspect of the invention, there is provided a bit-serial neural network accelerator. According to an embodiment of the invention, there is provided a system for bit-serial computation in a neural network, comprising: one or more bit-serial tiles for performing bit-serial computations in a neural network, each bit-serial tile receiving input neurons and synapses, and generating output neurons; an activation memory for storing neurons and in communication with the one or more bit-serial tiles via a dispatcher and a reducer, wherein the dispatcher reads neurons from the activation memory and communicates the neurons to the one or more bit-serial tiles via a first interface, and wherein the dispatcher reads synapses from a memory and communicates the synapses to the one or more bit-serial tiles via a second interface, and wherein the reducer receives the output neurons from the one or more bit-serial tiles, and communicates the output neurons to the activation memory via a third interface; and wherein one of the first interface and the second interface communicates the neurons or the synapses to the one or more bit-serial tiles bit-serially and the other of the first interface and the second interface communicates the neurons or the synapses to the one or more bit-serial tiles bit-parallelly. According to a further embodiment of the invention, there is provided a system for bit-serial computation in a neural network, comprising: one or more bit-serial tiles for performing bit-serial computations in a neural network, each bit-serial tile receiving input neurons and synapses, and communicating output neurons; an activation memory for storing neurons and in communication with the one or more bit-serial tiles via a dispatcher and a reducer, wherein the dispatcher reads neurons from the activation memory and communicates the neurons to the one or more bit-serial tiles via a first interface, and wherein the dispatcher r...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Judd",
+      "inventor_name_first": "Patrick",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Albericio",
+      "inventor_name_first": "Jorge",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Delmas Lascorz",
+      "inventor_name_first": "Alberto",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Moshovos",
+      "inventor_name_first": "Andreas",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Sharify",
+      "inventor_name_first": "Sayeh",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "ACCELERATOR FOR DEEP NEURAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 108068,
+    "optimized_size": 4026,
+    "reduction_percent": 96.27
+  }
+}

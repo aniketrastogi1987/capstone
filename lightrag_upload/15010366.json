@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170719",
+  "publication_number": "US20170220936A1-20170803",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15010366",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gruhl",
+      "inventor_name_first": "Daniel F.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kaufmann",
+      "inventor_name_first": "Joseph M.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kozhaya",
+      "inventor_name_first": "Joseph N.",
+      "inventor_city": "Morrisville",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mendes",
+      "inventor_name_first": "Pablo N.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sudarsan",
+      "inventor_name_first": "Sridhar",
+      "inventor_city": "Round Rock",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments of the invention relate to identification of material that contains linguistically related content. Key phrases are filtered through a content store to ascertain the linguistically related content and to move the identified content to a target corpus. At least two iterations of the filtering process are employed. Each subsequent iteration of the filtering process identifies at least one new key phrase within the filtered material. In addition, each subsequent iteration takes place with a union of each previously employed key phrase and each new key phrase. As new content is identified, the content is populated to the target corpus.",
+  "filing_date": "20160129",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The embodiments include a method, computer program product, and system for identification of linguistically related material in a computing environment. The method, computer program product, and system pertain to linguistically related content, and more specifically to identification of the content. A target corpus is initialized to receive content, and a domain corpus is provided in communication with the target corpus. At least one initial key phrase is extracted from the domain corpus. The extracted key phrase(s) is stored in a master list at a first memory location. A user interface is employed to facilitate a structured process for populating the target corpus with linguistically related documents. More specifically, the user interface is employed as a platform to: review the key phrase(s), select one or more documents from a source corpus for potential inclusion in the target corpus, filter a list of the selected documents, populate the target corpus with one or more documents from the filter list, and examine the target corpus. The act of populating the target corpus may take place in multiple iterations of key phrase review and document filtering. As new documents are identified for inclusion in the target corpus, new key phrases associated with the new documents are added to the master list. Extraction of a second set of related documents for populating to the target corpus entails the use of a union of new key phrases and prior key phrases as a filter. These and other features and advantages will become apparent from the following detailed description of the presently preferred embodiment(s), taken in conjunction with the accompanying drawings.",
+  "date_published": "20170803",
+  "title": "Identifying Linguistically Related Content for Corpus Expansion Management",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 73536,
+    "optimized_size": 3526,
+    "reduction_percent": 95.21
+  }
+}

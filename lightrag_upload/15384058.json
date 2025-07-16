@@ -1,0 +1,72 @@
+{
+  "date_produced": "20170607",
+  "publication_number": "US20170177997A1-20170622",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15384058",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KARLINSKY",
+      "inventor_name_first": "Leonid",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "COHEN",
+      "inventor_name_first": "Boaz",
+      "inventor_city": "Lehavim",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "KAIZERMAN",
+      "inventor_name_first": "Idan",
+      "inventor_city": "Meitar",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "ROSENMAN",
+      "inventor_name_first": "Efrat",
+      "inventor_city": "Aseret",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "BATIKOFF",
+      "inventor_name_first": "Amit",
+      "inventor_city": "Petach Tikva",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "RAVID",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Herzeliya",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "ROSENWEIG",
+      "inventor_name_first": "Moshe",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "There are provided system and method of examining a semiconductor specimen. The method comprises: upon obtaining a Deep Neural Network (DNN) trained for a given examination-related application within a semiconductor fabrication process, processing together one or more fabrication process (FP) images using the obtained trained DNN, wherein the DNN is trained using a training set comprising ground truth data specific for the given application; and obtaining examination-related data specific for the given application and characterizing at least one of the processed one or more FP images. The examination-related application can be, for example, classifying at least one defect presented by at least one FP image, segmenting the at least one FP image, detecting defects in the specimen presented by the at least one FP image, registering between at least two FP images, regression application enabling reconstructing the at least one FP image in correspondence with different examination modality,...",
+  "filing_date": "20161219",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In order to understand the disclosure and to see how it may be carried out in practice, embodiments will now be described, by way of non-limiting example only, with reference to the accompanying drawings, in which: FIG. 1 illustrates a functional block diagram of an examination system in accordance with certain embodiments of the presently disclosed subject matter; FIG. 2 illustrates a generalized model of an exemplified deep neural network usable in accordance with certain embodiments of the presently disclosed subject matter; FIG. 3 illustrates a generalized flow-chart of automatically determining examination-related data using fabrication process (FP) images in accordance with certain embodiments of the presently disclosed subject matter; FIG. 4 illustrates a generalized flow-chart of training a deep neural network (DNN) in accordance with certain embodiments of the presently disclosed subject matter; FIG. 5 a and FIG. 5 b illustrate generalized flow-charts of classifying defects in accordance with certain embodiments of the presently disclosed subject matter; FIG. 6 illustrates a generalized flow-chart of segmentation of examination-related images in accordance with certain embodiments of the presently disclosed subject matter; FIG. 7 illustrates a generalized flow-chart of defect detection in accordance with certain embodiments of the presently disclosed subject matter; FIG. 8 illustrates a generalized flow-chart of registration examination-related images in accordance with certain embodiments of the presently disclosed subject matter; and FIG. 9 illustrates a generalized flow-chart of cross-modality regression in accordance with certain embodiments of the presently disclosed subject matter. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170622",
+  "title": "METHOD OF DEEP LEARINING-BASED EXAMINATION OF A SEMICONDUCTOR SPECIMEN AND SYSTEM THEREOF",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 81125,
+    "optimized_size": 4282,
+    "reduction_percent": 94.72
+  }
+}

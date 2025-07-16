@@ -1,0 +1,63 @@
+{
+  "decision": "PENDING",
+  "application_number": "14909849",
+  "date_published": "20161208",
+  "date_produced": "20161122",
+  "title": "KEY PROTECTING METHOD AND APPARATUS",
+  "filing_date": "20160203",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LIN",
+      "inventor_name_first": "Jingqiang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "GUAN",
+      "inventor_name_first": "Le",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Qiongxiao",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Jing",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "JING",
+      "inventor_name_first": "Jiwu",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L908",
+    "H04L932",
+    "G06F120806",
+    "G06F946",
+    "H04L930",
+    "H04L914"
+  ],
+  "main_ipcr_label": "H04L908",
+  "summary": "<SOH> SUMMARY <EOH>As for the above problems in the prior art, embodiments of the present disclosure provide a key protection method and device to resist system intrusions and physical attacks on the memory to ensure security of the implementation of public-key cryptographic algorithm in the computer system and enhance efficiency of the processor. In order to achieve the above objectives, an embodiment of the present disclosure provides a key protection method, including: step A, setting a symmetric master key in one or multiple cores of a multi-core processor; step B, taking any core of the multi-core processor configured with the symmetric master key as an operation core, performing a decryption operation to obtain a plaintext private key using the symmetric master key, performing a public-key cryptographic operation using the plaintext private key; the plaintext private key and intermediate variables used in the public-key cryptographic operation being stored in a cache occupied by the operation core; and step C, clearing up the plaintext private key and the intermediate variable used in the public-key cryptographic operation in the cache occupied by the operation core. Embodiments of the present disclosure further provide a key protection device for implementing the above methods. The key protection method provided by embodiments of the present disclosure may resist physical attacks and system intrusions. Via setting that each core of the multi-core processor may have one symmetric master key, dynamically obtaining the plaintext private key of the asymmetric algorithm via a decryption operation and using the Intel TSX, it may be ensured that the private key and the intermediate variables used in the computation process may be stored in the cache occupied by the operation core only in terms of the hardware level, which may prevent the attackers from stealing the private key from the physical memory and ensure the security of the implementation of public-key crypt...",
+  "patent_number": "None",
+  "abstract": "An embodiment of the present disclosure provide a key protection method, via setting that each core of the multi-core process may have one symmetric master key, dynamically obtaining the plaintext private key of the asymmetric algorithm via a decryption operation and using the Intel TSX, it may be ensured that the private key and the intermediate variables used in the computation process may be stored in the cache occupied by the operation core only in terms of the hardware level, which may prevent the attackers from stealing the private key from the physical memory and ensure the security of the implementation of the public-key cryptographic algorithm in the computer system.",
+  "publication_number": "US20160359621A1-20161208",
+  "_processing_info": {
+    "original_size": 54874,
+    "optimized_size": 3821,
+    "reduction_percent": 93.04
+  }
+}

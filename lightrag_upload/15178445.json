@@ -1,0 +1,73 @@
+{
+  "date_produced": "20170719",
+  "publication_number": "US20170220939A1-20170803",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15178445",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bansal",
+      "inventor_name_first": "Gagan",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gajewar",
+      "inventor_name_first": "Amita Surendra",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "GuhaThakurta",
+      "inventor_name_first": "Debraj",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Golyaev",
+      "inventor_name_first": "Konstantin",
+      "inventor_city": "Lake Forest Park",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shrivastava",
+      "inventor_name_first": "Mayank",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Narayanan",
+      "inventor_name_first": "Vijay Krishna",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sun",
+      "inventor_name_first": "Walter",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A multi-horizon predictor system that predicts a future parameter value for multiple horizons based on time-series data of the parameter, external data, and machine-learning. For a given time horizon, a time series data splitter splits the time into training data corresponding to a training time period, and a validation time period corresponding to a validation time period between the training time period and the given horizon. A model tuner tunes the prediction model of the given horizon fitting an initial prediction model to the parameter using the training data thereby using machine learning. The model tuner also tunes the initial prediction model by adjusting an effect of the external data on the prediction to generate a final prediction model for the given horizon using the validation data. A multi-horizon predictor causes the time series data splitter and the model tuner to operate for each of multiple horizons.",
+  "filing_date": "20160609",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>At least some embodiments described herein relate a multi-horizon predictor system that predicts a future value of a parameter for multiple horizons based on time-series data of the parameter, external data, and machine-learning. For a given time horizon, a time series data splitter splits time series data of a parameter into training data corresponding to a training time period prior to the given horizon, and a validation time period corresponding to a validation time period between the training time period and the given horizon. A model tuner tunes the prediction model of the given horizon fitting an initial prediction model to the parameter using the training data thereby using machine learning. The model tuner also tunes the initial prediction model by adjusting an effect of the external data on the prediction to generate a final prediction model for the given horizon using the validation data. A multi-horizon predictor causes the time series data splitter and the model tuner to operate for each of multiple horizons. Accordingly, there may be a different tuning and thus a different final prediction model used for each of at least some of the multiple time horizons. Thus, effect of external data may be different depending on the time horizon. As an example, the external data may be data that is more relevant for shorter term time horizons, and much less relevant to long term time horizons. The predictor may operate frequently to constantly update the multi-horizon prediction as external data changes. For instance, the external data may be processed web data that changes regularly. An event indicating that the web data has changed could result a rerunning of the multi-horizon prediction system. Thus, more accurate multi-horizon predictions may be obtained for multiple horizons, with such predictions adjusting as circumstances (i.e., the parameter values) change. This summary is provided to introduce a selection of concepts in a simplified ...",
+  "date_published": "20170803",
+  "title": "PREDICTIVE MODELING ACROSS MULTIPLE HORIZONS COMBINING TIME SERIES & EXTERNAL DATA",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 45529,
+    "optimized_size": 4435,
+    "reduction_percent": 90.26
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180308",
+  "publication_number": "US20180082198A1-20180322",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15268840",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Thompson",
+      "inventor_name_first": "Timothy Guy",
+      "inventor_city": "Purcellville",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ferringer",
+      "inventor_name_first": "Matthew Phillip",
+      "inventor_city": "Round Hill",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods are provided for providing an optimized solution to a multi-objective problem. Potential solutions may be generated from parent solutions to be evaluated according to multiple objectives of the multi-objective problem. If the potential solutions are infeasible, the potential solutions may be perturbed according to a perturbation model to bring the potential solution to feasibility, or at least a reduced level of constraints. The perturbation models may include a weight vector that indicates the amount of perturbation, such as in a forward and/or reverse direction, of decision variables of the potential solutions. In some cases, the perturbation models may be predetermined. In other cases, the perturbation models may be learned, such as based on training constraint data. Additionally, potential solutions may be generated in a secondary optimization where a constraint based optimization may be performed to drive to generating a feasible solution for further evaluation...",
+  "filing_date": "20160919",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Reference will now be made to the accompanying drawings, which are not necessarily drawn to scale, and wherein: FIG. 1 is a schematic diagram that illustrates an example optimizing system with input parameters and optimized solutions based on one or more objective models and/or constraint models of a multi-objective optimization algorithm (MOOA) system with decision variable perturbation, in accordance with example embodiments of the disclosure. FIG. 2 is a schematic diagram that illustrates an example environment with the MOOA system of FIG. 1 receiving and/or providing decision variable perturbation models, in accordance with example embodiments of the disclosure. FIG. 3 is a block diagram that illustrates the example MOOA system of FIG. 1 with a perturbation model operation for cascading modifications to genes of chromosomes, in accordance with example embodiments of the disclosure. FIGS. 4A and 4B are charts illustrating an example pareto-optimized solution to a multi-objective problem, in accordance with example embodiments of the disclosure. FIG. 5 is a block diagram that illustrates the example MOOA system of FIG. 1 with a secondary optimization for finding feasible chromosomes, in accordance with example embodiments of the disclosure. FIG. 6 is a flow diagram that illustrates an example method of generating a feasible chromosome in a secondary optimization process, in accordance with example embodiments of the disclosure. FIG. 7 is a schematic diagram that illustrates an example line of flight with linkages therebetween, in accordance with example embodiments of the disclosure. FIG. 8 is a schematic diagram that illustrates an example set of perturbation models for decision variables with interlinkages, in accordance with example embodiments of the disclosure. FIGS. 9A-D are schematic diagrams that illustrate example cascading perturbations of a series of linked genes within a chromosome in response to a value set...",
+  "date_published": "20180322",
+  "title": "Systems and Methods for Multi-Objective Optimizations with Decision Variable Perturbations",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N312",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 119867,
+    "optimized_size": 3775,
+    "reduction_percent": 96.85
+  }
+}

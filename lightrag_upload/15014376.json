@@ -1,0 +1,32 @@
+{
+  "date_produced": "20170719",
+  "publication_number": "US20170220947A1-20170803",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15014376",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tariq",
+      "inventor_name_first": "Mir",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, system, and apparatus for pre-computing data metrics. A method can include receiving, by one or more computers, (i) data from a user including a plurality of data metrics, and (ii) historical data associated with the user; generating, by the one or more computers and based at least on the historical data associated with the user, a forecast for the user using an artificial neural network, the forecast indicating a prediction of future user behaviors; determining, by the one or more computers and based at least on the forecast for the user, a subset of data metrics, from among the plurality of data metrics, that are likely to be used by the user; performing, by the one or more computers, one or more automatic data operations on the subset of data metrics; and providing, by the one or more computers, the processed subset of data metrics for output.",
+  "filing_date": "20160203",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Modern database systems often exhibit problems with computational efficiency due to significantly large data volumes received from distributed data sources. For instance, raw data from data sources often need to be gathered, organized, and additionally processed in order to generate aggregate data metrics that are used for predictive analytics. Although raw data can be reorganized into data structures in computer memory that optimize data aggregation, these techniques are often unable to selectively perform data operations on specific data metrics that are predicted to useful to a user. Accordingly, one innovative aspect of the subject matter described in this specification can be embodied in methods that utilize statistical machine learning techniques using an artificial neural network to predict a set of data metrics that are likely to be used by a user, and pre-compute aggregate values for only such metrics to conserve computation resources during data operations for the user. For instance, historical data of the user can be used to initially determine a forecast of user behavior for the user, and then use pattern recognition to predict data metrics associated with the forecast for the user. In some aspects, the subject matter described in this specification may be embodied in methods that may include: receiving, by one or more computers, (i) data from a user including a plurality of data metrics, and (ii) historical data associated with the user; generating, by the one or more computers and based at least on the historical data associated with the user, a forecast for the user indicating a prediction of future user behaviors using an artificial neural network, the artificial neural network including a input layer, a hidden layer, and an output layer; determining, by the artificial neural network and based at least on the forecast for the user, a subset of data metrics, from among the plurality of data metrics, that are likely to be used by the...",
+  "date_published": "20170803",
+  "title": "PRE-COMPUTING DATA METRICS USING NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N308",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 63631,
+    "optimized_size": 3422,
+    "reduction_percent": 94.62
+  }
+}

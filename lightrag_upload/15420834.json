@@ -1,0 +1,30 @@
+{
+  "patent_number": "None",
+  "application_number": "15420834",
+  "date_published": "20170921",
+  "date_produced": "20170906",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N502",
+  "abstract": "According to one embodiment, a learning apparatus includes a first rule generator, a feature value calculator, a related word extractor, a second rule generator, and a learning unit. The first rule generator generates a first rule to label the event candidate, the first rule including a keyword of the event candidate. The feature value calculator calculates feature values of other words included in the text other than the event candidate. The related word extractor extracts a related word relating to the keyword from the other words using the feature values. The second rule generator generates a second rule to label the event candidate, the second rule being different from the first rule and including the related word. The learning unit generates learning data associating the keyword, the related word, and labeled event candidate with each other.",
+  "publication_number": "US20170270412A1-20170921",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a diagram illustrating a learning apparatus according to a first embodiment; FIG. 2 is a flowchart illustrating operations of the learning apparatus of FIG. 1 ; FIG. 3 is a diagram illustrating data stored in a corpus storage of FIG. 1 ; FIG. 4 is a diagram illustrating data stored in an event case data storage of FIG. 1 ; FIG. 5 is a diagram illustrating extraction results of an event candidate extractor of FIG. 1 ; FIG. 6 is a diagram illustrating an interface of a manual rule generator of FIG. 1 ; FIG. 7 is a diagram illustrating manual rule information; FIG. 8 is a flowchart illustrating operations of a related word automatic extractor of FIG. 1 ; FIG. 9 is a diagram illustrating extraction results of related words; FIG. 10 is a diagram illustrating related word information; FIG. 11 is a diagram illustrating automatic rule information; FIG. 12 is a diagram illustrating labelled event candidates; FIG. 13 is a diagram illustrating conversion of event candidates into learning data; FIG. 14 is a diagram illustrating a learning apparatus according to a second embodiment; FIG. 15 is a flowchart illustrating operations of a related word automatic extractor of FIG. 14 ; FIG. 16 is a diagram illustrating extraction results of related words; FIG. 17 is diagram illustrating related word information; and FIG. 18 is a diagram illustrating automatic rule information. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nakata",
+      "inventor_name_first": "Kouta",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "LEARNING APPARATUS, LEARNING METHOD, AND LEARNING PROGRAM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 41797,
+    "optimized_size": 2900,
+    "reduction_percent": 93.06
+  }
+}

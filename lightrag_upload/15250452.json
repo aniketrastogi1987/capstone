@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060753A1-20180301",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15250452",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Liang",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cai",
+      "inventor_name_first": "Chaochao",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Predovic",
+      "inventor_name_first": "Goran",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An online system obtains a set of resolved impressions based on historical data about multiple publishers. A set of features is then extracted, for each resolved impression, based on a comparison of historical data about the first publisher and the second publisher. The online system performs training of a machine-learned model based on the set of features. Data about a plurality of new impressions are input into the trained machine-learned model to obtain an output of the trained machine-learned model. A reach overlap metric and unique reach metric can be computed based on the output of the trained machine-learned model.",
+  "filing_date": "20160829",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An online system, such as a social networking system, computes various metrics for delivery of content items across multiple publishers, such as unique reach and reach overlap. Unique reach indicates an estimated number of online system users who saw a content item one or more times via only one publisher. Reach overlap indicates an estimated number of online system users who saw a content item one or more times via two different publishers, i.e., an audience overlap between two publishers. The online system uses a reach prediction (estimation) model that predicts reach of each publisher and a combined reach on both publishers to compute the reach overlap between two publishers. Unique reach and reach overlap can be also estimated based on a machine-learned model that can directly estimate unique reach metric for a given publisher. The machine-learned model for estimation of the unique reach can be trained based on training data related to a set of impressions obtained from historical data using publishers' identity information and users' identity information maintained by the online system. The identity information related to the set of impressions can be tracked using, for example, logged-in cookies for the online system. The trained machine-learned model estimates the unique reach metric for a given publisher based on inputting into the trained machine-learned model data related to a plurality of impressions.",
+  "date_published": "20180301",
+  "title": "ESTIMATION OF REACH OVERLAP AND UNIQUE REACH FOR DELIVERY OF CONTENT ITEMS",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 76507,
+    "optimized_size": 2942,
+    "reduction_percent": 96.15
+  }
+}

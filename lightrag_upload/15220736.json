@@ -1,0 +1,52 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15220736",
+  "date_published": "20170622",
+  "date_produced": "20170607",
+  "title": "TRANSPARENT SECURE INTERCEPTION HANDLING",
+  "filing_date": "20160727",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bacher",
+      "inventor_name_first": "Utz",
+      "inventor_city": "Dettenhausen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Borntraeger",
+      "inventor_name_first": "Christian",
+      "inventor_city": "Stuttgart",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Buendgen",
+      "inventor_name_first": "Reinhard T.",
+      "inventor_city": "Tuebingen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Dingel",
+      "inventor_name_first": "Dominik",
+      "inventor_city": "Boeblingen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F9455",
+    "G06F9445"
+  ],
+  "main_ipcr_label": "G06F9455",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments provide a method for transparent secure interception handling, firmware, hypervisor, computer program product, and computer system as described by the subject matter of the independent claims. Advantageous embodiments are described in the dependent claims. Embodiments of the present invention can be freely combined with each other if they are not mutually exclusive. In one aspect, the invention relates to a computer implemented method for transparent secure interception handling. The method comprises: deploying a virtual machine, VM, in an environment, the environment comprising a hypervisor running on a hardware and a firmware which manages the hardware and which manages states of the virtual machine, the virtual machine being configured to access a corresponding VM memory of the environment upon deploying the virtual machine providing buffers by the hypervisor to the firmware; executing VM instructions of the virtual machine; intercepting by the firmware a VM instruction of the VM instructions which requires access to instruction data, the instruction data comprising at least one of: VM data that is stored in the VM memory and at least part of the state of the virtual machine, VM state upon the intercepting of the VM instruction copying by the firmware the VM state into a shadow VM state buffer owned by the firmware; copying by the firmware the instruction data to the buffers; executing by the hypervisor the intercepted VM instruction using the buffers; before resuming execution of the VM instructions following the intercepted VM instruction updating at least one of the shadow VM state buffer and the VM data in VM memory using result data in the buffers in case the executing of the intercepted VM instruction results in the result data; and resuming execution of the VM instructions following the intercepted VM instruction based on the state stored in the shadow VM state buffer. In another aspect, the invention relates to a com...",
+  "patent_number": "9841987",
+  "abstract": "A method and system for transparent secure interception handling is provided. The method and system include deploying a virtual machine (VM) in an environment comprising a hypervisor and a firmware. The method and system include providing buffers in response to deploying the VM, and include executing VM instructions. The method and system include intercepting VM instructions which require access to instruction data and copying the VM state into a shadow VM state. Furthermore, the instruction data is copied to buffers, and the intercepted VM instruction is executed using the buffer. The method and system also include updating the shadow VM state buffer and the VM data in the VM memory using result data in the buffer in response to the executing of the intercepted VM instruction results. Furthermore execution of the VM instructions is resumed based on a state stored in the shadow VM state buffer.",
+  "publication_number": "US20170177398A1-20170622",
+  "_processing_info": {
+    "original_size": 72671,
+    "optimized_size": 3904,
+    "reduction_percent": 94.63
+  }
+}

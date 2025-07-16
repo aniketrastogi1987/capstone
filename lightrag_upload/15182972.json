@@ -1,0 +1,59 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364804A1-20171221",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15182972",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Beller",
+      "inventor_name_first": "Charles E.",
+      "inventor_city": "Baltimore",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chase, JR.",
+      "inventor_name_first": "Paul J.",
+      "inventor_city": "Fairfax",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Darden",
+      "inventor_name_first": "Richard L.",
+      "inventor_city": "Leesburg",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Drzewucki",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Woodbridge",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Katz",
+      "inventor_name_first": "Edward G.",
+      "inventor_city": "Washington",
+      "inventor_state": "DC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A mechanism is provided in a computing device configured with instructions executing on a processor of the computing device to implement a question answering system, for answer scoring based on a combined informativity and specificity score. The question answering system, executing on the processor of the computing device and configured with a question answering machine learning model, generates a set of candidate answers for a user-generated input question. For each given candidate answer in the set of candidate answers, an informativity and specificity scorer of the question answering system determines a specificity value of each term in the given candidate answer based on a position of the term in a taxonomy data structure and determining a specificity score of the given candidate answer based on the specificity value of the terms in the given candidate answer. For each given candidate answer in the set of candidate answers, the informativity and specificity scorer determines an inf...",
+  "filing_date": "20160615",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described herein in the Detailed Description. This Summary is not intended to identify key factors or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. In one illustrative embodiment, a method is provided in a computing device configured with instructions executing on a processor of the computing device to implement a question answering system, for answer scoring based on a combined informativity and specificity score. The method comprises generating, by the question answering system executing on the processor of the computing device and configured with a question answering machine learning model, a set of candidate answers for a user-generated input question. The method further comprises, for each given candidate answer in the set of candidate answers, determining, by an informativity and specificity scorer of the question answering system, a specificity value of each term in the given candidate answer based on a position of the term in a taxonomy data structure and determining a specificity score of the given candidate answer based on the specificity value of the terms in the given candidate answer. The method further comprises, for each given candidate answer in the set of candidate answers, determining, by the informativity and specificity scorer, an informativity value of each term in the given candidate answer using corpus statistics and determining an informativity score of the given candidate answer based on the informativity value of the terms in the given candidate answer. The method further comprises determining, by the question answering system, a confidence score for each candidate answer within the set of candidate answers based on its specificity value and informativity value. The method further comprises ranking, by the question answering system, the set ...",
+  "date_published": "20171221",
+  "title": "Answer Scoring Based on a Combination of Specificity and Informativity Metrics",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 89138,
+    "optimized_size": 4187,
+    "reduction_percent": 95.3
+  }
+}

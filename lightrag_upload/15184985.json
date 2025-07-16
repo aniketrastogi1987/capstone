@@ -1,0 +1,52 @@
+{
+  "date_produced": "20161220",
+  "publication_number": "US20170004404A1-20170105",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15184985",
+  "inventor_list": [
+    {
+      "inventor_name_last": "FUJIMURA",
+      "inventor_name_first": "RYOTA",
+      "inventor_city": "Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "OHAMA",
+      "inventor_name_first": "IKU",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "UMETANI",
+      "inventor_name_first": "HIDEO",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SHODA",
+      "inventor_name_first": "YUKIE",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A demand prediction method using a computer includes calculating an error between a prediction value of an amount of a past demand and a measurement value of the amount of the past demand, the prediction value of the amount of the past demand being calculated by inputting a measurement value of a past explanatory variable to a prediction model that is constructed in accordance with a measurement value of an amount of a demand at a predetermined location and an explanatory variable that serves as an external factor that affects an increase or a decrease in the amount of the demand at the predetermined location, determining whether the calculated error is an abnormal value, acquiring a new explanatory variable if the error is determined to be the abnormal value, updating the prediction model in accordance with the acquired new explanatory variable, and newly predicting an amount of a future demand using the updated prediction model.",
+  "filing_date": "20160616",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one general aspect, the techniques disclosed here feature a demand prediction method using a computer. The demand prediction method includes calculating an error between a prediction value of an amount of a past demand and a measurement value of the amount of the past demand, the prediction value of the amount of the past demand being calculated by inputting a measurement value of a past explanatory variable to a prediction model that is constructed in accordance with a measurement value of an amount of a demand at a predetermined location and an explanatory variable that serves as an external factor that affects an increase or a decrease in the amount of the demand at the predetermined location, determining whether the calculated error is an abnormal value, acquiring a new explanatory variable if the error is determined to be the abnormal value, updating the prediction model in accordance with the acquired new explanatory variable, and newly predicting an amount of a future demand using the updated prediction model. At least one of the calculating, the determining, the acquiring, the updating and the newly predicting is performed by a processor included in the demand prediction apparatus. In accordance with the disclosure, the number of input operations by a user is reduced, time to acquire an explanatory variable is reduced, and the prediction accuracy of the amount of the demand is increased. It should be noted that general or specific embodiments may be implemented as a system, a method, an integrated circuit, a computer program, a storage medium, or any selective combination thereof. Additional benefits and advantages of the disclosed embodiments will become apparent from the specification and drawings. The benefits and/or advantages may be individually obtained by the various embodiments and features of the specification and drawings, which need not all be provided in order to obtain one or more of such benefits and/or advantages.",
+  "date_published": "20170105",
+  "title": "DEMAND PREDICTION METHOD, DEMAND PREDICTION APPARATUS, AND NON-TRANSITORY COMPUTER-READABLE RECORDING MEDIUM",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 87543,
+    "optimized_size": 3956,
+    "reduction_percent": 95.48
+  }
+}

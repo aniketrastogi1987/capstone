@@ -1,0 +1,58 @@
+{
+  "decision": "PENDING",
+  "application_number": "15091748",
+  "date_published": "20171012",
+  "date_produced": "20170927",
+  "title": "METHOD FOR OPTIMAL VM SELECTION FOR MULTI DATA CENTER VIRTUAL NETWORK FUNCTION DEPLOYMENT",
+  "filing_date": "20160406",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Molina",
+      "inventor_name_first": "Carlos",
+      "inventor_city": "Plano",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nickell",
+      "inventor_name_first": "Kenton Perry",
+      "inventor_city": "Frisco",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Qian",
+      "inventor_name_first": "Haibo",
+      "inventor_city": "Frisco",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rink",
+      "inventor_name_first": "Fred",
+      "inventor_city": "Fairview",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brown",
+      "inventor_name_first": "Michael Anthony",
+      "inventor_city": "McKinney",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F9455"
+  ],
+  "main_ipcr_label": "G06F9455",
+  "summary": "<SOH> SUMMARY <EOH>In example implementations, inter VM latency is added to the algorithm for selecting VMs to process a transaction, or for placing a session or for anchoring a peer network function. By adding delay as additional criteria to the selection of a VM, the VNF is able to reduce inter VM communication latency even under distributed deployments across multiple data centers. In example implementations, the systems thereby learn and determine the VM to use based on the delay algorithm, thereby eliminating the need for a manual and static configuration provided by an operator. Furthermore, the inter VM latency information can be acquired via an algorithm allowing the VNF to learn the inter VM delay from real time data collected from the deployment environment. Self-optimizing algorithms can be utilized in example implementations when deployed on a multi-region data center environment. Aspects of the present disclosure may include a system, which can involve a memory configured to store routing table information indicative of a plurality of interconnections between a plurality of virtual machines (VMs) managed by the system; and a processor, configured to calculate latency for each of the plurality of interconnections of the plurality of VMs; select ones of interconnections from the plurality of interconnections for each of the plurality of VMs to utilize an interconnection based on a ranking of the latency; and configure each of the plurality of VMs to utilize the selected ones of the plurality of interconnections. Aspects of the present disclosure may include a method, which can include managing routing table information indicative of a plurality of interconnections between a plurality of virtual machines (VMs) managed by a system; calculating latency for each of the plurality of interconnections of the plurality of VMs; selecting ones of interconnections from the plurality of interconnections for each of the plurality of VMs to utilize an interconnection b...",
+  "patent_number": "None",
+  "abstract": "Example implementations involve a mechanism based on inter virtual machine (VM) communication to detect latency between VMs (Latency Detection Protocol) and peer nodes. The mechanism is used to optimize inter VM communication, by selecting a VM closest to the source; and also it is used to anchor an external connection to a VM which is closer to the external peer network function.",
+  "publication_number": "US20170293500A1-20171012",
+  "_processing_info": {
+    "original_size": 50457,
+    "optimized_size": 3547,
+    "reduction_percent": 92.97
+  }
+}

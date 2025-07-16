@@ -1,0 +1,53 @@
+{
+  "date_produced": "20170329",
+  "publication_number": "US20170103344A1-20170413",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15388158",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cooper",
+      "inventor_name_first": "Phillip A.J.",
+      "inventor_city": "Southport",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "Hill",
+      "inventor_name_first": "Jevon J.C.",
+      "inventor_city": "Southport",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "Lam",
+      "inventor_name_first": "Fiona L.",
+      "inventor_city": "Pacific Pines",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "Singh",
+      "inventor_name_first": "Kalvinder P.",
+      "inventor_city": "Miami",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "abstract": "An approach for two stage log normalization is provided. The approach retrieves a message format and a plurality of parameters from one or more log files. The approach determines a classification for one or more first sequence files, wherein the one or more first sequence files includes the message format from the one or more log files. The approach determines a classification of error for the one or more first sequence files. The approach determines whether there is a high confidence in the classification of error for the one or more first sequence files. The approach determines whether there is an improvement in confidence in the classification of error from one or more second sequence files, wherein the one or more second sequence files includes the message format and the plurality of parameters from the one or more log files.",
+  "filing_date": "20161222",
+  "patent_number": "9747150",
+  "summary": "<SOH> SUMMARY <EOH>Aspects of an embodiment of the present invention disclose a computer system for two stage log normalization for automatic noise removal and improved machine learning, in accordance with an embodiment of the present invention. The computer system includes program instructions to retrieve a message format and a plurality of parameters from one or more log files. The computer system includes program instructions to determine a classification for one or more first sequence files, wherein the one or more first sequence files includes the message format from the one or more log files, wherein determining includes creating the one or more first sequence files, wherein creating includes retrieving a corresponding unique message identifier (ID) for each of the one or more log files, and utilizing conventional machine learning processes to train data for the classification of the one or more first sequence files. The computer system includes program instructions to determine a classification of error for the one or more first sequence files by determining one or more similarities between the one or more first sequence files and a plurality of existing trained data. The computer system includes program instructions to determine whether there is a high confidence in the classification of error for the one or more first sequence files by determining a level of similarity between the classification of error for the one or more first sequence files and the plurality of existing trained data. Responsive to a determination that the level of similarity between the classification of error for the one or more first sequence files and the plurality of existing trained data is high, the computer system includes program instructions to determine that there is a high confidence in the classification of error. Responsive to a determination that the level of similarity between the classification of error for the one or more first sequence files and the plurality of existi...",
+  "date_published": "20170413",
+  "title": "Two Stage Log Normalization",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06F1136"
+  ],
+  "_processing_info": {
+    "original_size": 49935,
+    "optimized_size": 3832,
+    "reduction_percent": 92.33
+  }
+}

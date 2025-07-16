@@ -1,0 +1,53 @@
+{
+  "date_produced": "20161214",
+  "publication_number": "US20160379124A1-20161229",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15192929",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Brunet",
+      "inventor_name_first": "Jeffrey",
+      "inventor_city": "Aurora",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Chowdhary",
+      "inventor_name_first": "Yousuf",
+      "inventor_city": "Maple",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Collins",
+      "inventor_name_first": "Ian",
+      "inventor_city": "Markham",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Chan",
+      "inventor_name_first": "Karen",
+      "inventor_city": "Richmond Hill",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "A method is provided for creating pattern-problem pairs for proactive diagnosis of device issues. A plurality of problem reports are received from problem devices, each having parameters associated with a device profile. The problem reports are parsed to standardize and normalize terms. The parsed problem reports are analyzed to identify common problems in a set of such problem devices where there is a common set of parameters in a pattern. If the frequency of the problems in the set of devices exceeds a threshold, the parsed problem is associated with the pattern for future proactive diagnosis of a target device having the pattern, even without a problem report from the target device. A method of proactively diagnosing a potential problem on a device using such pattern-problem pairs is also provided.",
+  "filing_date": "20160624",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Broadly speaking, the present invention provides a method and a system of proactive self-care wherein solutions/remedies regarding device issues are sent directly to consumers even before an issue is experienced, thus proactively reducing the number of calls to the customer service department. If a pattern-problem pair exists in an electronic device (such as a mobile device or smartphone), and a device profile exhibits the pattern from the pattern-problem pair, then the system can assume that the device will also experience the problem associated with the pattern-problem pair. In order to diagnose, a device profile is acquired from a mobile device. There may be an app that enables the acquisition of device profile data from the device by querying its settings. The device parameters information may be gathered from the device in real time, or the information may have been cached earlier. The device profile is analyzed and related data is gathered from the device. A rules engine may be used for analyzing the device profile. The rules engine may be hosted on a remote server and the device may connect to the remote server over a network e.g. over internet. The device profile may be compared with a database of pattern-problem pairs (combinations). The pattern-problem pairs (combinations) may be derived by analyzing a large set of device profiles and the problems originating from and associated with these devices. If the device profile exhibits at least one pattern (for example has the same make, model, version with a given set of settings and a given set of apps installed) then there may be a strong chance that this device will also experience the problem associated with the pattern. A remedy/solution/resolution may then be proactively sent to the mobile device to overcome the problem associated with the matched pattern. In the context of the present disclosure, a pattern is a set of similar device profile elements exhibited by a large enough set of mu...",
+  "date_published": "20161229",
+  "title": "SYSTEM AND METHOD OF PROACTIVE SELF-CARE FOR ELECTRONIC DEVICES",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1727",
+    "G06Q3000"
+  ],
+  "_processing_info": {
+    "original_size": 51784,
+    "optimized_size": 3815,
+    "reduction_percent": 92.63
+  }
+}

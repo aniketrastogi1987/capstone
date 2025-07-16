@@ -1,0 +1,53 @@
+{
+  "date_produced": "20161026",
+  "publication_number": "US20160328661A1-20161110",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15147519",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Reese",
+      "inventor_name_first": "David John",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Taberner-Miller",
+      "inventor_name_first": "Annette M.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Acharya",
+      "inventor_name_first": "Sankalp",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Adam",
+      "inventor_name_first": "Lipphei",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Provided is a process, including: obtaining a set of historical geolocations; segmenting the historical geolocations into a plurality of temporal bins; determining pairwise transition probabilities between a set of geographic places based on the historical geolocations; configuring a compute cluster by assigning subsets of the transition probabilities to computing devices in the compute cluster; receiving a geolocation stream indicative of current geolocations of individuals; selecting a computing device in the compute cluster in response to determining that the computing device contain transition probabilities for the received respective geolocation; selecting transition probabilities applicable to the received respective geolocation from among the subset of transition probabilities assigned to the selected computing device; predicting a subsequent geographic place based on the selected transition probabilities.",
+  "filing_date": "20160505",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The following is a non-exhaustive listing of some aspects of the present techniques. These and other aspects are described in the following disclosure. Some aspects include a process, including: obtaining a set of historical geolocations; segmenting the historical geolocations into a plurality of temporal bins; determining pairwise transition probabilities between a set of geographic places based on the historical geolocations; configuring a compute cluster by assigning subsets of the transition probabilities to computing devices in the compute cluster; receiving a geolocation stream indicative of current geolocations of individuals; selecting a computing device in the compute cluster in response to determining that the computing device contain transition probabilities for the received respective geolocation; selecting transition probabilities applicable to the received respective geolocation from among the subset of transition probabilities assigned to the selected computing device; predicting a subsequent geographic place based on the selected transition probabilities. Some aspects include a tangible, non-transitory, machine-readable medium storing instructions that when executed by a data processing apparatus cause the data processing apparatus to perform operations including the above-mentioned process. Some aspects include a system, including: one or more processors; and memory storing instructions that when executed by the processors cause the processors to effectuate operations of the above-mentioned process.",
+  "date_published": "20161110",
+  "title": "SCALABLE COMPLEX EVENT PROCESSING WITH PROBABILISTIC MACHINE LEARNING MODELS TO PREDICT SUBSEQUENT GEOLOCATIONS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 111605,
+    "optimized_size": 3554,
+    "reduction_percent": 96.82
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364812A1-20171221",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15184577",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Thompson",
+      "inventor_name_first": "Timothy Guy",
+      "inventor_city": "Purcellville",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Clifton",
+      "inventor_name_first": "Ronald Scott",
+      "inventor_city": "Leesburg",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods are provided for performing multi-objective optimizations with a relatively large number of objectives to which optimization is to be performed. The objectives of the optimization problem may be partitioned to two or more subsets (e.g., overlapping or non-overlapping subsets) of objectives, and partial optimization(s) may be performed using a subset or combination of subsets of the objectives. One or more of the partial optimizations may use one or more pareto-optimized chromosomes from a prior partial optimization. A final full optimization may be performed according to all of the objectives of the optimization problem and may use one or more chromosomes of any preceding partial optimization as a starting point for finding a final solution to the optimization problem. Any variety of processes may be employed to mitigate archive explosion that may be associated with relatively large objective sets.",
+  "filing_date": "20160616",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Reference will now be made to the accompanying drawings, which are not necessarily drawn to scale, and wherein: FIG. 1 is a schematic diagram that illustrates an example optimizing system in the form of a multi-objective evolutionary algorithm (MOEA) system with objective refinement and with input parameters and outputs of optimized solutions based on one or more objective models and/or constraint models, in accordance with example embodiments of the disclosure. FIG. 2 is a schematic diagram that illustrates an example mechanism by which the optimization system of FIG. 1 partitions a collection of objectives into subset of objectives and performing more than one optimizations using various subsets of the objectives for each of the optimizations, in accordance with example embodiments of the disclosure. FIG. 3 is a schematic diagram illustrating a build-up of objectives in subsequent heuristic multi-objective optimizations, such as optimizations performed by the MOEA system of FIG. 1 , in accordance with example embodiments of the disclosure. FIG. 4 is a flow diagram illustrating an example method for applying a variable set of objectives to solve a multi-objective problem with a relatively large number of objectives, in accordance with example embodiments of the disclosure. FIG. 5 is a schematic diagram illustrating a mechanism having series of sub-optimizations, where each of the sub-optimizations are performed with a different set of objectives prior to performing an optimization using all of the objectives of each of the sub-optimizations, in accordance with example embodiments of the disclosure. FIG. 6 is a schematic diagram that illustrates an example progression of performing sub-optimizations on a set of objectives prior to performing an optimization using all of the objectives, in accordance with example embodiments of the disclosure. FIG. 7 is a schematic diagram that illustrates another example progression of pe...",
+  "date_published": "20171221",
+  "title": "Progressive Objective Addition in Multi-objective Heuristic Systems and Methods",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N312",
+    "G06F1711"
+  ],
+  "_processing_info": {
+    "original_size": 189482,
+    "optimized_size": 3685,
+    "reduction_percent": 98.06
+  }
+}

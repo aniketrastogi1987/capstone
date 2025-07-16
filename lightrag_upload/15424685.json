@@ -1,0 +1,88 @@
+{
+  "patent_number": "None",
+  "application_number": "15424685",
+  "date_published": "20170810",
+  "date_produced": "20170726",
+  "filing_date": "20170203",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for augmenting neural networks with an external memory. One of the systems includes a sparse memory access subsystem that is configured to perform operations comprising generating a sparse set of reading weights that includes a respective reading weight for each of the plurality of locations in the external memory using the read key, reading data from the plurality of locations in the external memory in accordance with the sparse set of reading weights, generating a set of writing weights that includes a respective writing weight for each of the plurality of locations in the external memory, and writing the write vector to the plurality of locations in the external memory in accordance with the writing weights.",
+  "publication_number": "US20170228638A1-20170810",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to augmented neural network systems, i.e., neural network systems that are augmented with an external memory. A memory-augmented neural network system includes a neural network configured to receive a neural network input and generate a neural network output, an external memory, i.e., a memory that is external to the controller neural network, that stores values derived from portions of the neural network output, and a subsystem that is configured to receive portions of the neural network output and erase, write, and read from the external memory using the received portions. In particular, to read from the external memory, the subsystem is configured to generate a sparse set of reading weights that includes a respective reading weight for each of the locations in the external memory using the neural network output and to read data from the locations in the external memory in accordance with the reading weights. To write to the external memory, the subsystem is configured to generate a set of writing weights that includes a respective writing weight for each of the locations in the external memory and write a write vector to the locations in the external memory in accordance with the writing weights. In some implementations, the set of writing weights is also a sparse set of weights. Generally, a sparse set of weights is a set of weights that includes only a small number, e.g., four, five, eight, or nine, non-zero weights and a large number of weights that are zero. For example, the external memory can have anywhere from on the order of two hundred locations, on the order of fifty thousand locations, to on the order of a million locations, with the reading weight only being non-zero for a small number, e.g., four, five, eight, or nine of those locations at any given time. In some cases, by distributing the memory across multiple computers, the memory may be able to include on the order of a bill...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Danihelka",
+      "inventor_name_first": "Ivo",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Wayne",
+      "inventor_name_first": "Gregory Duncan",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Fu-min",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Grefenstette",
+      "inventor_name_first": "Edward Thomas",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Rae",
+      "inventor_name_first": "Jack William",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Graves",
+      "inventor_name_first": "Alexander Benjamin",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Lillicrap",
+      "inventor_name_first": "Timothy Paul",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Harley",
+      "inventor_name_first": "Timothy James Alexander",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Hunt",
+      "inventor_name_first": "Jonathan James",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "AUGMENTING NEURAL NETWORKS WITH SPARSELY-ACCESSED EXTERNAL MEMORY",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 61479,
+    "optimized_size": 4590,
+    "reduction_percent": 92.53
+  }
+}

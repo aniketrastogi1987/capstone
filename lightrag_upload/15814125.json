@@ -1,0 +1,41 @@
+{
+  "patent_number": "None",
+  "application_number": "15814125",
+  "date_published": "20180621",
+  "date_produced": "20180608",
+  "filing_date": "20171115",
+  "main_ipcr_label": "G06N308",
+  "abstract": "This application provides a target detection method and device based on a neural network and training method and device of a neural network for target detection. The target detection method comprises: acquiring a to-be-detected image that contains a target;acquiring first feature information of the to-be-detected image by use of a first neural network, acquiring second feature information of the to-be-detected image by use of a second neural network;combining the first feature information and the second feature information to acquire combined feature information; and acquiring a target detection result by use of the second neural network and based on the combined feature information, wherein the number of layers of the second neural network is larger than the number of layers of the first neural network, the first feature information is heatmap feature information, and the second feature information is picture feature information.",
+  "publication_number": "US20180174046A1-20180621",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure is provided in view of the above problems. The present disclosure provides target detection method and device based on a neural network and training method and device of a neural network for target detection. By using the first neural network training that uses position information to assist in generating a heatmap and the subsequent second neural network training that uses the heatmap to assist in generating a target position, and further iterating the first neural network training and the second neural network training until trained neural networks are obtained, the trained neural networks perform heatmap and target position detection on a to-be-detected image, in order to achieve higher detection accuracy. According to an embodiment of the present disclosure, there is provided a target detection method, comprising: acquiring a to-be-detected image that contains a target;acquiring first feature information of the to-be-detected image by use of a first neural network that has been trained in advance, acquiring second feature information of the to-be-detected image by use of a second neural network that has been trained in advance;combining the first feature information and the second feature information to acquire combined feature information; and acquiring a target detection result by use of the second neural network and based on the combined feature information, wherein the number of layers of the second neural network is larger than the number of layers of the first neural network, the first feature information is heatmap feature information, and the second feature information is picture feature information In addition, the target detection method according to an embodiment of the present disclosure further comprises training the first neural network and the second neural network. In addition, in the target detection method according to an embodiment of the present disclosure, training the first neural network and the se...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06K932",
+    "G06N304",
+    "G06K946",
+    "G06K962"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "XIAO",
+      "inventor_name_first": "Tete",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "MAO",
+      "inventor_name_first": "Jiayuan",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "TARGET DETECTION METHOD AND DEVICE, NEURAL NETWORK TRAINING METHOD AND DEVICE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 124362,
+    "optimized_size": 3687,
+    "reduction_percent": 97.04
+  }
+}

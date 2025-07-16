@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15277205",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "title": "SECONDARY READ CACHE OPTIMIZATION IN DATA REPLICATION ENVIRONMENTS",
+  "filing_date": "20160927",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhou",
+      "inventor_name_first": "Xue Qiang",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G06F120875",
+    "G06F120811"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>The invention has been developed in response to the present state of the art and, in particular, in response to the problems and needs in the art that have not yet been fully solved by currently available systems and methods. Accordingly, the invention has been developed to provide systems and methods to optimize primary and secondary read cache in a data replication environment. The features and advantages of the invention will become more fully apparent from the following description and appended claims, or may be learned by practice of the invention as set forth hereinafter. Consistent with the foregoing, a method to optimize primary and secondary read cache in a data replication environment is disclosed. In one embodiment, such a method includes determining contents of a primary read cache at a primary site. The method updates a primary cache map describing the contents and transmits the primary cache map from the primary site to a secondary site. At the secondary site, the method uses the primary cache map to substantially synchronize a secondary read cache with the primary read cache. The method further monitors for updates to the primary read cache and updates the primary cache map accordingly. When a difference between a current primary cache map and a previously transmitted primary cache map reaches a threshold, the method transmits the current primary cache map from the primary site to the secondary site. A corresponding system and computer program product are also disclosed and claimed herein.",
+  "patent_number": "None",
+  "abstract": "A method to optimize primary and secondary read cache in a data replication environment includes determining contents of a primary read cache at a primary site. The method updates a primary cache map describing the contents and transmits the primary cache map from the primary site to a secondary site. At the secondary site, the method uses the primary cache map to substantially synchronize a secondary read cache with the primary read cache. The method further monitors for updates to the primary read cache and updates the primary cache map accordingly. When a difference between a current primary cache map and a previously transmitted primary cache map reaches a threshold, the method transmits the current primary cache map from the primary site to the secondary site. A corresponding system and computer program product are also disclosed.",
+  "publication_number": "US20180088837A1-20180329",
+  "_processing_info": {
+    "original_size": 41616,
+    "optimized_size": 2973,
+    "reduction_percent": 92.86
+  }
+}

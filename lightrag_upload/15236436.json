@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15236436",
+  "date_published": "20161208",
+  "date_produced": "20161122",
+  "title": "DETECTION AND PREVENTION FOR MALICIOUS THREATS",
+  "filing_date": "20160814",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PORAT",
+      "inventor_name_first": "Ron",
+      "inventor_city": "RaAnana",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "BAYORA",
+      "inventor_name_first": "Andrey",
+      "inventor_city": "Nahariya",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "FARAGE",
+      "inventor_name_first": "Oren",
+      "inventor_city": "Ramat-Gan",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "BLAYER-GAT",
+      "inventor_name_first": "Alon",
+      "inventor_city": "Ramat-HaSharon",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2156",
+    "G06F2155"
+  ],
+  "main_ipcr_label": "G06F2156",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to some embodiments of the present invention there is provided a method of identifying one or more malicious threats in a computing device. The method comprises monitoring a plurality of events occurring on a computing device in run time, a plurality of processes executed on the computing device in run time, and a plurality of host activities of the computing device in run time, identifying a compliance of at least some of the plurality of events, the plurality of processes, and the plurality of host activities with a plurality of rules, generating a rule compliance status dataset generated according to the compliance, identifying a match between the rule compliance status dataset and at least one of a plurality of reference profiles each indicative of a computing device operation under a malicious threat activity, and detecting a malicious threat according to the match. Optionally, the monitoring comprises identifying the plurality of processes by correlating among the plurality of events. Optionally, method further comprises identifying the plurality of host activities by correlating among the plurality of processes. Optionally, the method further comprises scoring at least some of the plurality of events, at least some of the plurality of processes, and at least some of the plurality of host activities and detecting the malware according to a combination of an outcome of the scoring and the match. Optionally, the monitoring comprises normalizing the plurality of events. Optionally, the monitoring comprises filtering a group of unmalicious events from the plurality of events according to unmalicious event dataset comprising a plurality of event profiles generated according to a statistical analysis of a plurality of event logs recorded in a plurality of computing devices. Optionally, the identifying a compliance comprises identifying an event compliance of the plurality of events with a plurality of event level rules, ...",
+  "patent_number": "None",
+  "abstract": "A method of identifying one or more malicious threats in a computing device. The device comprises monitoring a plurality of events occurring on a computing device in run time, a plurality of processes executed on the computing device in run time, and a plurality of host activities of the computing device in run time, identifying a compliance of at least some of the plurality of events, the plurality of processes, and the plurality of host activities with a plurality of rules, generating a rule compliance status dataset generated according to the compliance, identifying a match between the rule compliance status dataset and at least one of a plurality of reference profiles each indicative of a computing device operation under a malicious threat activity, and detecting a malicious threat according to the match.",
+  "publication_number": "US20160357966A1-20161208",
+  "_processing_info": {
+    "original_size": 85295,
+    "optimized_size": 3800,
+    "reduction_percent": 95.54
+  }
+}

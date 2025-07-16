@@ -1,0 +1,47 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15166416",
+  "date_published": "20161201",
+  "date_produced": "20161116",
+  "title": "MOTOR DRIVING APPARATUS",
+  "filing_date": "20160527",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MISHIMA",
+      "inventor_name_first": "Tomofumi",
+      "inventor_city": "Ukyo-Ku",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NAKAMURA",
+      "inventor_name_first": "Masahiro",
+      "inventor_city": "Ukyo-Ku",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NOIE",
+      "inventor_name_first": "Joji",
+      "inventor_city": "Ukyo-Ku",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "H02P2708",
+    "G06F120",
+    "F04D2508",
+    "H02P616"
+  ],
+  "main_ipcr_label": "H02P2708",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>An embodiment of the present invention has been made in order to solve the problem 1. Accordingly, it is an exemplary purpose of the present invention to provide a motor driving apparatus having improved linearity of the rotational speed with respect to the control input. Also, another embodiment of the present invention has been made in order to solve the problem 2. Accordingly, it is another exemplary purpose of the present invention to provide a motor driving apparatus that sets the optimum correction characteristics for a situation in which the motor driving apparatus is employed, so as to provide improved linearity of the rotational speed with respect to a rotational speed control signal. 1. An embodiment of the present invention relates to a PWM motor driving apparatus that drives a fan motor. The motor driving apparatus comprises: a rotational speed control terminal coupled to receive an analog control voltage that indicates a rotational speed; a first oscillator terminal arranged such that, in a first platform, a capacitor and a discharging resistor are connected in parallel between the first oscillator terminal and a ground; a charging resistor and a first switch arranged in series between the first oscillator terminal and a reference voltage line via which a stabilized voltage is supplied; a switching circuit that turns off the first switch when an oscillator voltage that occurs at the first oscillator terminal reaches an upper-side threshold value, and that turns on the first switch when the oscillator voltage falls to a lower-side threshold value; a PWM comparator that compares a voltage at the rotational speed control terminal with the oscillator voltage so as to generate a control pulse; and an output circuit that drives the fan motor according to at least the control pulse. The slope of the oscillator voltage is not configured as a straight line, but rather is configured as a slope having a curvature that is changed...",
+  "patent_number": "9954476",
+  "abstract": "A TH terminal receives an analog control voltage VTH which indicates a rotational speed. With a first platform, a capacitor and a discharging resistor are connected in parallel between an OSC terminal and the ground. A charging resistor and a first switch are arranged in series between the OSC terminal and a reference voltage line via which a stabilized voltage is supplied. When an oscillator voltage VOSC that occurs at the OSC terminal reaches an upper-side threshold VH, a switching circuit turns off the first switch. When the oscillator voltage VOSC falls to a lower-side threshold value VL, the switching circuit turns on the first switch. The oscillator voltage VOSC is compared with the voltage at the TH terminal, so as to generate a pulse-modulated control pulse S3.",
+  "publication_number": "US20160352279A1-20161201",
+  "_processing_info": {
+    "original_size": 113180,
+    "optimized_size": 3616,
+    "reduction_percent": 96.81
+  }
+}

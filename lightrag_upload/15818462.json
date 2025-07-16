@@ -1,0 +1,68 @@
+{
+  "patent_number": "None",
+  "application_number": "15818462",
+  "date_published": "20180524",
+  "date_produced": "20180509",
+  "filing_date": "20171120",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Techniques are provided for predicting DNA accessibility. DNase-seq data files and RNA-seq data files for a plurality of cell types are paired by assigning DNase-seq data files to RNA-seq data files that are at least within a same biotype. A neural network is configured to be trained using batches of the paired data files, where configuring the neural network comprises configuring convolutional layers to process a first input comprising DNA sequence data from a paired data file to generate a convolved output, and fully connected layers following the convolutional layers to concatenate the convolved output with a second input comprising gene expression levels derived from RNA-seq data from the paired data file and process the concatenation to generate a DNA accessibility prediction output. The trained neural network is used to predict DNA accessibility in a genomic sample input comprising RNA-seq data and whole genome sequencing for a new cell type.",
+  "publication_number": "US20180144261A1-20180524",
+  "summary": "<SOH> SUMMARY <EOH>Systems, methods, and articles of manufacture related to using a neural network to predict DNA accessibility in a genomic sample are described herein. The various embodiments are based on the utility of RNA-seq data as a signal for cell type clustering and classification. Given paired RNA-seq and DNase-seq input data, a neural network is configured to learn to appropriately modulate its prediction to eliminate the need for a distinct trained model or unique output per cell type. As such, for the first time, accurate DNA accessibility predictions can be made for previously unseen cell types whose gene expressions are similar but unique from samples in the training data. In one embodiment, genomic sample data including DNase-seq data files and RNA-seq data files for a plurality of cell types is obtained. Paired data files are generated from the genomic sample data by assigning DNase-seq data files to RNA-seq data files that are at least within a same biotype. A neural network is configured to be trained to predict DNA accessibility based on RNA-seq data using a plurality of batches of the paired data files, where configuring the neural network comprises configuring convolutional layers of the neural network to process a first input comprising DNA sequence data from one of the paired data files to generate a convolved output, and fully connected layers of the neural network following the convolutional layers to concatenate the convolved output with a second input comprising gene expression levels derived from RNA-seq data from the one of the paired data files and process the concatenation to generate a DNA accessibility prediction output. The first input may comprise a 600-base pair segment of DNA, and the gene expression levels may correspond to a selected subset of genes. The DNA accessibility prediction output may be a single prediction. The neural network is trained using the plurality of batches of the paired data files, and a computing device i...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N308",
+    "G06N304",
+    "G06F1924"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wnuk",
+      "inventor_name_first": "Kamil",
+      "inventor_city": "Playa del Rey",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sudol",
+      "inventor_name_first": "Jeremi",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rabizadeh",
+      "inventor_name_first": "Shahrooz",
+      "inventor_city": "Agoura Hills",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Soon-Shiong",
+      "inventor_name_first": "Patrick",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Szeto",
+      "inventor_name_first": "Christopher",
+      "inventor_city": "Scotts Valley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vaske",
+      "inventor_name_first": "Charles",
+      "inventor_city": "San Cruz",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHODS AND SYSTEMS FOR PREDICTING DNA ACCESSIBILITY IN THE PAN-CANCER GENOME",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 89206,
+    "optimized_size": 4322,
+    "reduction_percent": 95.16
+  }
+}

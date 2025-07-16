@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170906",
+  "publication_number": "US20170270424A1-20170921",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15070466",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sankaralingam",
+      "inventor_name_first": "Karthikeyan",
+      "inventor_city": "Madison",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ardalani",
+      "inventor_name_first": "Newsha",
+      "inventor_city": "Madison",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Thakker",
+      "inventor_name_first": "Urmish",
+      "inventor_city": "Madison",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The amount of speed-up that can be obtained by optimizing the program to run on a different architecture is determined by static measurements of the program. Multiple such static measurements are processed by a machine learning system after being discretized to alter their accuracy vs precision. Static analysis requires less analysis overhead and permits analysis of program portions to optimize allocation of porting resources on a large program.",
+  "filing_date": "20160315",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention provides a method of estimating the amount of speed-up that will be obtained in porting a target program between two different computer architectures using static rather than dynamic measurements of the target program. The ability to use static measurements eliminates the overhead of making dynamic measurements, greatly simplifying the assessment process. In addition, the present invention, combined with minimal dynamic analysis, permits separate portions of the program to be individually ranked with respect on their estimated speed-up. In this way, limited resources available for porting a program can be efficiently allocated to portions of the program that will yield the most benefit. Underlying this invention is the present inventor's recognition that static measurements can provide sufficient insights into dynamic properties for reliable speed-up predictions despite the absence of some foundational dynamic information such as branch probability information and loop trip count for loops. The present invention provides a way of managing the inevitable inaccuracy in using static measurements to obtain dynamic information when those inaccurate static measures are applied to accuracy-sensitive machine learning models. Specifically then, in one embodiment, the invention provides an electronic computer executing a program stored in non-transitive medium to: (a) perform a static analysis of a target computer program prepared to execute on a first computer architecture to determine static properties of the target computer program selected from a set of static program properties relating to how the target computer program would dynamically execute on a second computer architecture having a different architecture than the first computer architecture. The static properties are then applied to a machine learning model, the machine learning model trained using a training set of programs each having a first optimization...",
+  "date_published": "20170921",
+  "title": "Method of Estimating Program Speed-Up in Highly Parallel Architectures Using Static Analysis",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F930"
+  ],
+  "_processing_info": {
+    "original_size": 68415,
+    "optimized_size": 3346,
+    "reduction_percent": 95.11
+  }
+}

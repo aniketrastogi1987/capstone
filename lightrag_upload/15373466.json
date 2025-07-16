@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15373466",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "title": "FPGA-BASED SYSTEM POWER ESTIMATION APPARATUS AND METHOD",
+  "filing_date": "20161209",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Yung-Chieh",
+      "inventor_city": "Hsinchu County",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Shih-Che",
+      "inventor_city": "Hsinchu City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Chao-Hong",
+      "inventor_city": "Tainan City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Cheng",
+      "inventor_name_first": "Liang-Chia",
+      "inventor_city": "Tainan City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F132"
+  ],
+  "main_ipcr_label": "G06F132",
+  "summary": "<SOH> SUMMARY <EOH>A field programmable gate array (FPGA)-based system power estimation apparatus and a method are introduced herein by the disclosure, and the FPGA-based system power estimation apparatus and the method are used to improve running efficiency of system power estimation. An exemplary embodiment of the disclosure provides a FPGA-based system power estimation apparatus configured to estimate power of a target intellectual property (IP) circuit. The system power estimation apparatus includes a FPGA and a power analysis circuit. The FPGA is configured to accommodate the target IP circuit. The power analysis circuit is disposed into the FPGA. The power analysis circuit retrieves an internal operation-state signal of the target IP circuit. The power analysis circuit examines the internal operation-state signal to determine an operation state of the target IP circuit and converts the operation state of the target IP circuit into at least one power value by using a power model. An exemplary embodiment of the disclosure provides a FPGA-based system power estimation method for estimating power of a target IP circuit. The system power estimation method includes: providing a FPGA to accommodate the target IP circuit, disposing a power estimation circuit into the FPGA, retrieving an internal operation-state signal of the target IP circuit by the power estimation circuit, examining the internal operation-state signal to determine an operation state of the target IP circuit, and converting the operation state of the target IP circuit into at least one power value by using a power model. In view of the foregoing, according to the FPGA-based system power estimation apparatus and method in exemplary embodiments of the disclosure, the target IP circuit and the power analysis circuit may be disposed into the FPGA. The power analysis circuit examines the internal operation-state signal of the target IP circuit to determine the operation state of the target IP circuit. The...",
+  "patent_number": "None",
+  "abstract": "A FPGA-based system power estimation apparatus and a method for estimating the power of a target intellectual property (IP) circuit are provided. The system power estimation apparatus includes a FPGA and a power analysis circuit. The FPGA is configured to accommodate the target IP circuit. The power analysis circuit is disposed into the FPGA. The power analysis circuit retrieves an internal operation-state signal of the target IP circuit. The power analysis circuit examines the internal operation-state signal to determine an operation state of the target IP circuit and uses a power model to convert the operation state of the target IP circuit into at least one power value.",
+  "publication_number": "US20180120916A1-20180503",
+  "_processing_info": {
+    "original_size": 64992,
+    "optimized_size": 3674,
+    "reduction_percent": 94.35
+  }
+}

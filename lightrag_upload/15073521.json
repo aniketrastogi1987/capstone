@@ -1,0 +1,81 @@
+{
+  "decision": "PENDING",
+  "application_number": "15073521",
+  "date_published": "20160721",
+  "date_produced": "20160706",
+  "title": "METHODS AND APPARATUSES FOR OPERATING A DATA PROCESSING SYSTEM",
+  "filing_date": "20160317",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Culbert",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Monte Sereno",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cox",
+      "inventor_name_first": "Keith Alan",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Howard",
+      "inventor_name_first": "Brian",
+      "inventor_city": "Portola Valley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "de Cesare",
+      "inventor_name_first": "Josh",
+      "inventor_city": "Campbell",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Williams",
+      "inventor_name_first": "Richard Charles",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Falkenburg",
+      "inventor_name_first": "Dave Robbins",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Daisie Iris",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Radcliffe",
+      "inventor_name_first": "David",
+      "inventor_city": "Hood River",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F120",
+    "G06F110",
+    "G06F132"
+  ],
+  "main_ipcr_label": "G06F120",
+  "summary": "<SOH> SUMMARY OF THE DESCRIPTION <EOH>Methods and apparatuses to manage working states of a data processing system are described here. Some of the embodiments of the present invention are summarized in this section. At least one embodiment of the present invention includes a data processing system with one or more sensors (e.g., physical sensors such as tachometer and thermistors, and logical sensors such as CPU load) for fine grain control of one or more components (e.g., processor, fan, hard drive, optical drive) of the system for working conditions that balance various goals (e.g., user preferences, performance, power consumption, thermal constraints, acoustic noise). In one example, the clock frequency and the core voltage for a processor are actively managed to balance performance and power consumption (heat generation) without a significant latency. In one example, the speed of a cooling fan is actively managed to balance cooling effort and noise (and/or power consumption). Thermal managers according to embodiments of the present invention monitor the system temperature based on a number of sensors and conditions (e.g., sensed temperatures, lid position, battery charging status, current computation tasks and user preferences) to provide the best of mixture of cooling (e.g., by controlling one or more cooling fans) and reduced heat generation (e.g., by adjusting the working states of the heat generating devices, such as CPU, GPU, hard drives, optical drives, memory chips, core logic chips and others) to provide the best performance for the current task. In one aspect of the present invention, a method to operate a data processing system includes: determining a control level for a first component of the data processing system based on information obtained from a plurality of sensors (e.g., a temperature sensor determining a temperature in the data processing system, such as a particular component's local temperature which is one of many components in the system)...",
+  "patent_number": "None",
+  "abstract": "Methods and apparatuses to manage working states of a data processing system. At least one embodiment of the present invention includes a data processing system with one or more sensors (e.g., physical sensors such as tachometer and thermistors, and logical sensors such as CPU load) for fine grain control of one or more components (e.g., processor, fan, hard drive, optical drive) of the system for working conditions that balance various goals (e.g., user preferences, performance, power consumption, thermal constraints, acoustic noise). In one example, the clock frequency and core voltage for a processor are actively managed to balance performance and power consumption (heat generation) without a significant latency. In one example, the speed of a cooling fan is actively managed to balance cooling effort and noise (and/or power consumption).",
+  "publication_number": "US20160209895A1-20160721",
+  "_processing_info": {
+    "original_size": 125604,
+    "optimized_size": 4488,
+    "reduction_percent": 96.43
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060755A1-20180301",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15254939",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Green",
+      "inventor_name_first": "Bradley Ray",
+      "inventor_city": "Snohomish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brewer",
+      "inventor_name_first": "Jason Eric",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and non-transitory computer-readable media can generate layered training data for determining embeddings for entities that are accessible through the social networking system, wherein the layered training data includes layers of data that are organized by a hierarchy, and wherein each layer of data corresponds to entities of a same type. A respective embedding for each entity in a set of entities can be determined, wherein the embeddings are trained iteratively using each layer of data in the layered training data. One or more candidate entities that are related to a first entity can be determined based at least in part on the respective embeddings for the candidate entities and the first entity. At least a first candidate entity from the one or more candidate entities can be provided as a recommendation to a user that formed a connection with the first entity.",
+  "filing_date": "20160901",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure can include systems, methods, and non-transitory computer readable media configured to generate layered training data for determining embeddings for entities that are accessible through the social networking system, wherein the layered training data includes layers of data that are organized by a hierarchy, and wherein each layer of data corresponds to entities of a same type. A respective embedding for each entity in a set of entities can be determined, wherein the embeddings are trained iteratively using each layer of data in the layered training data, and wherein an embedding for an entity is a numerical representation of the entity. One or more candidate entities that are related to a first entity can be determined based at least in part on the respective embeddings for the candidate entities and the first entity. At least a first candidate entity from the one or more candidate entities can be provided as a recommendation to a user that formed a connection with the first entity. In an embodiment, the systems, methods, and non-transitory computer readable media are configured to generate a first layer of training data based at least in part on sequences of connections formed between users and entities of a first type and generate a second layer of training data based at least in part on traces of nodes in a graph that each correspond to entities of a second type. In an embodiment, the systems, methods, and non-transitory computer readable media are configured to determine session training data based at least in part on sequences of connections formed between users and entities of a first type, determine synthetic training data based at least in part on traces of nodes in a graph that each correspond to entities of the first type, and generate a first layer of training data based at least in part on a union of the session training data and the synthetic training data. In an embodiment, the systems, m...",
+  "date_published": "20180301",
+  "title": "SYSTEMS AND METHODS FOR RECOMMENDING PAGES",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 94957,
+    "optimized_size": 3590,
+    "reduction_percent": 96.22
+  }
+}

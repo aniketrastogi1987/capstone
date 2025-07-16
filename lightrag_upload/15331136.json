@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170412",
+  "publication_number": "US20170116533A1-20170427",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15331136",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jehan",
+      "inventor_name_first": "Tristan",
+      "inventor_city": "Brooklyn",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Montecchio",
+      "inventor_name_first": "Nicola",
+      "inventor_city": "Brooklyn",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system, method and computer product for predicting a content attribute are provided by collecting labeled media objects labeled with one or more attributes, constructing a feature vector of content-derived values for each of the labeled media objects, generating a model based on the feature vector and the one or more attributes, and applying the model to one or more unlabeled media objects to generate one or more attribute labels.",
+  "filing_date": "20161021",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION <EOH>The example embodiments described herein provide methods, systems and computer products for predicting a content attribute by collecting one or more labeled media objects (e.g., song recordings), wherein the labeled media objects are labeled with one or more attributes; constructing a feature vector of one or more content-derived values for each of the labeled media objects, and generating a model based on the feature vector and the attributes. In one example aspect the model is applied to the unlabeled media objects to generate one or more attribute labels. In another example aspect, the labeled media objects are labeled based on a user input. The labeled media objects can also be labeled based on a title of the labeled media objects or on a text description of the labeled media objects. In another example aspect, the attributes are a classification of the media objects into one or more classes. In yet another example aspect, at least one of the attributes is a ranking of the labeled media objects. In one example aspect, at least one of the content-derived values is normalized and scaled according to a distribution of the content-derived values in the labeled media objects. In yet another example aspect, the step of constructing the feature vector further includes steps of sampling a segment of the labeled media objects; identifying one or more local content features in the segment; clustering the local content features into one or more clusters; normalizing and scaling the clusters according to a distribution in the labeled media objects; and concatenating the clusters into the feature vector. In one example aspect, the model is calculated using a supervised learning model. The supervised learning model can be based on, for example, any one of (i) a logistic regression, (ii) support vector machines (SVM, or (iii) artificial neural networks (AAN). The step of applying the model to the unlabeled media objects can further include steps of...",
+  "date_published": "20170427",
+  "title": "AUTOMATIC PREDICTION OF ACOUSTIC ATTRIBUTES FROM AN AUDIO SIGNAL",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 42764,
+    "optimized_size": 3150,
+    "reduction_percent": 92.63
+  }
+}

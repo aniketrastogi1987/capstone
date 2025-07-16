@@ -1,0 +1,30 @@
+{
+  "patent_number": "None",
+  "application_number": "15418859",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "filing_date": "20170130",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A method, procedure and algorithm are provided for efficient resource provisioning in Hadoop MapReduce. The crux of the method, procedure and algorithm is not tied to any specific system, and can be applied to many processes and devices. It provides a general approach and techniques based on an algorithm with mathematical formulas to find the Best Trade-off Point on an elbow curve, non-inverted or inverted, of performance vs. resources. It is applicable to any systems relying on a trade-off elbow curve for making good decision.",
+  "publication_number": "US20170220944A1-20170803",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>From the foregoing, it is seen that it is a problem in the art to provide a device, system, or process meeting the above requirements. According to the present invention, a system and process is provided which meets the aforementioned requirements and needs in the prior art. Specifically, the device according to the present invention provides a system and process for calculating an exact optimal number of tasks for a job that provides the best trade-off point between performance and energy efficiency vs. task resources on a runtime elbow curve fitted from sampled executions of the target cluster. In one aspect, the invention provides a method for finding an exact optimal number of tasks for a workload as the best trade-off point between runtime performance and energy efficiency vs. task resources on a runtime elbow curve fitted from sampled executions of the target cluster. In addition to Hadoop MapReduce, the techniques could be used in any systems and applications which utilize a trade-off curve as a powerful tool for making good decisions. There are many potential commercial applications in computing, network data routing, cluster microarchitecture, payload of aircraft, vehicle and rocket, lean manufacturing, and cost vs. quality control, just to name a few, which can directly benefit from intelligent optimal resource provisioning to get the most efficient performance. Following is the outline of sequential steps that a computer system would perform to implement an embodiment of the invention. 1. Complete the configuration and fine tuning of the architecture, software and hardware of the production computer system targeted for calibration. 2. Collect necessary preview job performance data from historical runtime performances or sampled executions on the same target production system, configured exactly as in step 1, as reference points for each workload. For example, in one embodiment, the preview job performance data includes ...",
+  "ipcr_labels": [
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nghiem",
+      "inventor_name_first": "Peter P.",
+      "inventor_city": "Union City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "BEST TRADE-OFF POINT ON AN ELBOW CURVE FOR OPTIMAL RESOURCE PROVISIONING AND PERFORMANCE EFFICIENCY",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 103699,
+    "optimized_size": 3124,
+    "reduction_percent": 96.99
+  }
+}

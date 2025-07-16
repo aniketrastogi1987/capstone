@@ -1,0 +1,59 @@
+{
+  "date_produced": "20180322",
+  "publication_number": "US20180096254A1-20180405",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15370194",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KANG",
+      "inventor_name_first": "Jong Seok",
+      "inventor_city": "Goyang-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "HONG",
+      "inventor_name_first": "Sung Wha",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Hyuck Jai",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHUNG",
+      "inventor_name_first": "Hyun Sang",
+      "inventor_city": "Busan",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "SHIM",
+      "inventor_name_first": "We",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A patent dispute forecast apparatus and method. The patent dispute forecast apparatus includes a keyword extraction unit configured to extract keywords from the claims and backgrounds of a first patent document and a second patent document, a similarity calculation unit configured to calculate claim similarity and background art similarity between the first patent document and the second patent document using the extracted keywords, and a cooperative similarity calculation unit configured to calculate cooperative similarity by calculating the claim similarity and the background art similarity and to set the calculated cooperative similarity as an infringer identification probability value.",
+  "filing_date": "20161206",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Accordingly, the present invention has been made keeping in mind the above problems occurring in the prior art, and an object of the present invention is to provide a patent dispute forecast apparatus and method for extracting elements of patent document and forecasting a patent dispute possibility. Technical objects of the present invention are not limited to the aforementioned object, and those skilled in the art will clearly understand other technological objects not described above from the following description. In accordance with an aspect of the present invention, there is provided a patent dispute forecast apparatus, including a keyword extraction unit configured to extract keywords from the claims and backgrounds of a first patent document and a second patent document, a similarity calculation unit configured to calculate claim similarity and background art similarity between the first patent document and the second patent document using the extracted keywords, and a cooperative similarity calculation unit configured to calculate cooperative similarity by calculating the claim similarity and the background art similarity and to set the calculated cooperative similarity as an infringer identification probability value. The similarity calculation unit may calculate the claim similarity between the elements of the claims of the first patent document and the elements of the claims of the second patent document based on All Element Rule. Furthermore, the similarity calculation unit may calculate the background art similarity between the elements of the background art of the first patent document and the elements of the background art of the second patent document based on Doctrine of Equivalents. The cooperative similarity calculation unit may calculate the cooperative similarity S h using an equation below. in-line-formulae description=\"In-line Formulae\" end=\"lead\"? S h =1−√{square root over ((1− S claim ) 2 +(1− S background...",
+  "date_published": "20180405",
+  "title": "PATENT DISPUTE FORECAST APPARATUS AND METHOD",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 33652,
+    "optimized_size": 3825,
+    "reduction_percent": 88.63
+  }
+}

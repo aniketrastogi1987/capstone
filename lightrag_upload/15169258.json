@@ -1,0 +1,37 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15169258",
+  "date_published": "20160922",
+  "date_produced": "20160908",
+  "title": "System and Method for Running a Validation Process for an Information Handling System During a Factory Process",
+  "filing_date": "20160531",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ziegler",
+      "inventor_name_first": "Jeremy R.",
+      "inventor_city": "Pflugerville",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Talbott",
+      "inventor_name_first": "Erika",
+      "inventor_city": "Cedar Park",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1136"
+  ],
+  "main_ipcr_label": "G06F1136",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>It will be appreciated that for simplicity and clarity of illustration, elements illustrated in the Figures are not necessarily drawn to scale. For example, the dimensions of some elements may be exaggerated relative to other elements. Embodiments incorporating teachings of the present disclosure are shown and described with respect to the drawings herein, in which: FIG. 1 is a block diagram of a system during a factory process for an information handling system; FIG. 2 is a flow diagram of a method for generating a script portion of a validation process; FIG. 3 is a flow diagram of a method for executing a validation process during a factory process of the information handling system; and FIG. 4 is a block diagram illustrating an information handling system according, to an embodiment of the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"? The use of the same reference symbols in different drawings indicates similar or identical items.",
+  "patent_number": "9665464",
+  "abstract": "An information handling system includes a memory and a processor. The memory to store a script and an exemption list for a validation process, and the script and the exemption list are received from a server. The processor is in communication with the memory, and configured to send a validation process pass indicator in response to a validation process error file being empty; in response to the validation process error file not being empty: to read a line of the validation process error file, to determine whether an error on the line of the validation process error file is found in an exemption list, and to add the error to an error log in response the error not being found in the exemption list; and to send the validation process pass indication in response to the error log being empty, otherwise sending a validation process fail indication.",
+  "publication_number": "US20160274993A1-20160922",
+  "_processing_info": {
+    "original_size": 44830,
+    "optimized_size": 2649,
+    "reduction_percent": 94.09
+  }
+}

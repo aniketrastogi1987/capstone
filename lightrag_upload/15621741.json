@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15621741",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "filing_date": "20170613",
+  "main_ipcr_label": "G06N304",
+  "abstract": "In one configuration, a visual object tracking apparatus is provided that receives a position of an object in a first frame of a video, and determines a current position of the object in subsequent frames of the video using a Siamese neural network To facilitate determining the current position of the object, the apparatus may adjust a spatial resolution of an image, adjust a size of a probe region, and/or adjust a scale of a plurality of sampled images. In one configuration, a visual object tracking using a Siamese neural network is provided. The apparatus feeds outputs from a plurality of subnetworks of the Siamese neural network to a comparison layer. In addition, the apparatus compares, at the comparison layer, inputs from the plurality of subnetworks to generate a comparison result. Further, the apparatus combines comparison results based on weights to obtain a final comparison result.",
+  "publication_number": "US20180129934A1-20180510",
+  "summary": "<SOH> SUMMARY <EOH>The following presents a simplified summary of one or more aspects in order to provide a basic understanding of such aspects. This summary is not an extensive overview of all contemplated aspects, and is intended to neither identify key or critical elements of all aspects nor delineate the scope of any or all aspects. Its sole purpose is to present some concepts of one or more aspects in a simplified form as a prelude to the more detailed description that is presented later. In an aspect of the disclosure, a method, a computer-readable medium, and an apparatus for visual object tracking are provided. The apparatus may receive a position of an object in a first/starting frame of a video. The apparatus may determine a current position of the object in subsequent frames of the video using a Siamese neural network. To determine the current position of the object in the current frame under processing, the apparatus may adjust the spatial resolution of a first image from the first/starting frame of the video and a second image sampled from the current frame under processing. The first image and the second image may be inputs to the Siamese neural network. To determine the current position of the object in the current frame under processing, the apparatus may adjust the size of the probe region on the current frame under processing based on a metric of movement of the object from one frame to another. To determine the current position of the object in the current frame under processing, the apparatus may adjust the scale of a plurality of images sampled from the current frame under processing. The plurality of images may be inputs to the Siamese neural network. In another aspect of the disclosure, a method, a computer-readable medium, and an apparatus for visual object tracking using a Siamese neural network are provided. The apparatus may feed outputs from a plurality of layers of a first subnetwork of the Siamese neural network and a second subnetwork ...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "TAO",
+      "inventor_name_first": "Ran",
+      "inventor_city": "Amsterdam",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "GAVVES",
+      "inventor_name_first": "Efstratios",
+      "inventor_city": "Amsterdam",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "SMEULDERS",
+      "inventor_name_first": "Arnold Wilhelmus Maria",
+      "inventor_city": "Amsterdam",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    }
+  ],
+  "title": "ENHANCED SIAMESE TRACKERS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 75682,
+    "optimized_size": 3733,
+    "reduction_percent": 95.07
+  }
+}

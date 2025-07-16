@@ -1,0 +1,54 @@
+{
+  "date_produced": "20170705",
+  "publication_number": "US20170206465A1-20170720",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "14996959",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jin",
+      "inventor_name_first": "Hailin",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ren",
+      "inventor_name_first": "Zhou",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Zhe",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fang",
+      "inventor_name_first": "Chen",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Modeling semantic concepts in an embedding space as distributions is described. In the embedding space, both images and text labels are represented. The text labels describe semantic concepts that are exhibited in image content. In the embedding space, the semantic concepts described by the text labels are modeled as distributions. By using distributions, each semantic concept is modeled as a continuous cluster which can overlap other clusters that model other semantic concepts. For example, a distribution for the semantic concept “apple” can overlap distributions for the semantic concepts “fruit” and “tree” since can refer to both a fruit and a tree. In contrast to using distributions, conventionally configured visual-semantic embedding spaces represent a semantic concept as a single point. Thus, unlike these conventionally configured embedding spaces, the embedding spaces described herein are generated to model semantic concepts as distributions, such as Gaussian distributions, Gauss...",
+  "filing_date": "20160115",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Modeling semantic concepts in an embedding space as distributions is described. In the embedding space, both images and text labels are represented. The text labels describe semantic concepts that are exhibited in image content. In the embedding space, the semantic concepts described by the text labels are modeled as distributions. By using distributions, each semantic concept is modeled in the embedding space as a continuous cluster which can overlap other clusters that model other semantic concepts. For example, a distribution for the semantic concept “apple” can overlap distributions for the semantic concepts “fruit” and “tree” since apple can refer to both a fruit and a tree. In contrast to using distributions, conventionally configured visual-semantic embedding spaces represent a semantic concept as a single point. Thus, unlike these conventionally configured embedding spaces, the embedding spaces described herein are generated to model semantic concepts as distributions (e.g., Gaussian distributions, Gaussian mixtures, etc.), resulting in a more accurate representation of semantic concepts, a greater ability to annotate images with text labels that more accurately describe their depicted content, and so on. Once an embedding space is trained, the embedding space can be used to discover text labels to describe content of an image. To use a trained embedding space to discover text labels that describe content of an image, multiple semantically meaningful regions of the image can be determined, and corresponding text labels can be discovered in the trained embedding space for each of the regions. The text labels discovered for the multiple regions of the image can then be associated with the image, e.g., used to annotate the image. This Summary introduces a selection of concepts in a simplified form that are further described below in the Detailed Description. As such, this Summary is not intended to identify essential features of the claimed s...",
+  "date_published": "20170720",
+  "title": "Modeling Semantic Concepts in an Embedding Space as Distributions",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N308",
+    "G06F1728",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 94360,
+    "optimized_size": 4078,
+    "reduction_percent": 95.68
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "patent_number": "None",
+  "application_number": "15489560",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "filing_date": "20170417",
+  "main_ipcr_label": "G06N502",
+  "abstract": "The present disclosure relates to a method for performing automated discovery of new topics from unlimited documents related to any subject domain, employing a multi-component extension of Latent Dirichlet Allocation (MC-LDA) topic models, to discover related topics in a corpus. The resulting data may contain millions of term vectors from any subject domain identifying the most distinguished co-occurring topics that users may be interested in, for periodically building new topic ID models using new content, which may be employed to compare one by one with existing model to measure the significance of changes, using term vectors differences with no correlation with a Periodic New Model, for periodic updates of automated discovery of new topics, which may be used to build a new topic ID model in-memory database to allow query-time linking on massive data-set for automated discovery of new topics.",
+  "publication_number": "US20170286837A1-20171005",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure provide a method for performing automated discovery of new topics from unlimited documents related to any subject domain, employing a multi-component extension of Latent Dirichlet Allocation (MC-LDA) topic models, to discover related topics in a corpus. The resulting data may contain millions of term vectors from any subject domain identifying the most distinguished co-occurring topics that users may be interested in, which may be employed to create a Master Topic Model. In accordance with one aspect of the present disclosure, the method for automated discovery of new topics may include multiple topic identification models with different number of term vectors and other parameters. For example a topic identification model with 64 term vectors may provide a broader topic scope, while models with 256, 1024, or 16K term vectors may provide more specific fine-grained topics. According to another embodiment, a new data may contain a large number of entities/topics in a database, which may be used periodically to parse and extract data from topics that users may be interested in. This method may identify term vectors to change detection using term vector differences with no correlation in the Master Topic Model to compare and measure the significance of these changes, based on established thresholds to identify the similarity of the topics found by comparing one by one with topics from Periodic New model. The present disclosure may provide a method for automated discovery of new topics in a corpus, using new content and comparing it to the existing model for periodically building new topic ID model database compressed into the smallest memory footprint possible, for providing fuzzy indexing to allow query-time linking on massive data sets, providing reliability and fault-tolerance through data, which may prevent software and hardware redundancy. In one embodiment, a method comprises automatically extracting, by a da...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900",
+    "G06F1730",
+    "G06N504",
+    "G06F1720",
+    "G06F1727"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "LIGHTNER",
+      "inventor_name_first": "Scott",
+      "inventor_city": "Leesburg",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WECKESSER",
+      "inventor_name_first": "Franz",
+      "inventor_city": "Spring Valley",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BODDHU",
+      "inventor_name_first": "Sanjay",
+      "inventor_city": "Dayton",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FLAGG",
+      "inventor_name_first": "Robert",
+      "inventor_city": "Portland",
+      "inventor_state": "ME",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHOD OF AUTOMATED DISCOVERY OF NEW TOPICS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 44263,
+    "optimized_size": 3940,
+    "reduction_percent": 91.1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15334155",
+  "date_published": "20180426",
+  "date_produced": "20180411",
+  "title": "RECONSTRUCTION OF OBJECT SURFACES FROM A POINT CLOUD BY EMPLOYING REGIONAL LEVEL SETS",
+  "filing_date": "20161025",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Vallespi",
+      "inventor_name_first": "Jose Ignacio Echevarria",
+      "inventor_city": "Zaragoza",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Byungmoon",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T1710"
+  ],
+  "main_ipcr_label": "G06T1710",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention are directed towards generating scanning data of a scanned object and reconstructing surfaces of a scanned object based on the scanning data. Reconstruction of the surfaces includes employing the scanning data to generate data structures that correspond to a subset of the locations of the object's surfaces. For instance, the data structures may include points of a point cloud. An object model is generated based on the data structures. The surfaces are reconstructed via the object model. The object model includes a Regional Level Set (RLS). In at least one embodiment, the object model is the RLS. An RLS segments a space, which includes the data structures, into a plurality of regions. The space may be discretized, e.g. a grid is imposed on the space such that the space includes a plurality of nodes. For each of the nodes, the object model can include a region identification (ID) that corresponds to exactly one of the segmented regions. That is, each node is assigned to one of the segmented regions of the space. The region ID for a node indicates to which region a node is assigned. Furthermore, the object model can include an indicator value for each of the nodes. The indicator value corresponds to a value of an indicator function of the RLS. The indicator value associated with the node may be the value of the indicator function at the node. The indicator function of the RLS is a solution to an equation constrained by the data structures. In some embodiments, the indicator function is an explicit model for each of the plurality of segmented regions. Thus, the indicator value for each of the nodes is based on the region ID and the data structures. In some embodiments, each of the indicator values is of the same signed value, that is, either all of the indicator values are non-negative or all of the indicator values of the model are non-positive. In some embodiments, both of the indicator values and the region IDs ...",
+  "patent_number": "None",
+  "abstract": "Methods and systems for reconstructing surfaces of an object using regional level sets (RLS) are disclosed. A scanning system scans an object and generates a point cloud. An RLS is iteratively determined as solution to a differential equation constrained by the point cloud. The RLS is a 2-tuple, where the first component corresponds to a region identification and the second component corresponds to the solution of the differential equation. The space around the point cloud is iteratively segmented into a plurality of regions. A single solution to the differential equation is applied, encompassing all the regions. The solution in regions of the space corresponding to the finer structures within the point cloud are modeled similar to the coarser regions. The solution in a particular region is iteratively based on the solution in the neighboring regions. An RLS is enabled to reconstruct thinner or smaller structures or surfaces of the object.",
+  "publication_number": "US20180114362A1-20180426",
+  "_processing_info": {
+    "original_size": 78601,
+    "optimized_size": 3692,
+    "reduction_percent": 95.3
+  }
+}

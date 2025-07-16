@@ -1,0 +1,87 @@
+{
+  "patent_number": "None",
+  "application_number": "15487295",
+  "date_published": "20171019",
+  "date_produced": "20171004",
+  "filing_date": "20170413",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Generate an automorphism of the problem graph, determine an embedding of the automorphism to the hardware graph and modify the embedding of the problem graph into the hardware graph to correspond to the embedding of the automorphism to the hardware graph. Determine an upper-bound on the required chain strength. Calibrate and record properties of the component of a quantum processor with a digital processor, query the digital processor for a range of properties. Generate a bit mask and change the sign of the bias of individual qubits according to the bit mask before submitting a problem to a quantum processor, apply the same bit mask to the bit result. Generate a second set of parameters of a quantum processor from a first set of parameters via a genetic algorithm.",
+  "publication_number": "US20170300817A1-20171019",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>An aspect of the present disclosure provides methods for use in embedding a problem into an analog processor. The problem is represented as a problem graph having a number of decision variables and the analog processor is represented as a hardware graph having a number of vertices coupleable via a number of edges. The problem graph is mapped into the hardware graph via a first embedding and the embedding contains at least one chain having a first chain strength. The method includes generating a first automorphism of the problem graph, determining an embedding of the first automorphism to the hardware graph and modifying the first embedding of the problem graph into the hardware graph to generate a first modified embedding such that the modified first embedding corresponds to the composition of the first embedding and the embedding of the first automorphism of the problem graph to the hardware graph. The method may include determining whether the at least one chain is not broken in a ground state of the embedded problem corresponding to the first modified embedding. The at least one chain has a first modified chain strength which may represent a lower chain strength than the first chain strength. The method may include generating a second automorphism of the problem graph and modifying the first modified embedding of the problem graph to the hardware graph to generate a second modified embedding such that the second modified embedding corresponds to a composition of the first embedding and an embedding of the second automorphism of the problem graph to the hardware graph. The method may include determining whether the at least one chain is not broken in a ground state of the embedded problem corresponding to the second modified embedding. The at least one chain strength has a second modified chain strength which may represent a lower chain strength than the first modified chain strength. The method may include determining whether the at least...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "King",
+      "inventor_name_first": "Andrew D.",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Israel",
+      "inventor_name_first": "Robert B.",
+      "inventor_city": "Richmond",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Bunyk",
+      "inventor_name_first": "Paul I.",
+      "inventor_city": "New Westminster",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Boothby",
+      "inventor_name_first": "Tomas J.",
+      "inventor_city": "Coquitlam",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Reinhardt",
+      "inventor_name_first": "Steven P.",
+      "inventor_city": "Eagen",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Roy",
+      "inventor_name_first": "Aidan P.",
+      "inventor_city": "Surrey",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "King",
+      "inventor_name_first": "James A.",
+      "inventor_city": "Victoria",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Lanting",
+      "inventor_name_first": "Trevor M.",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Evert",
+      "inventor_name_first": "Abraham J.",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR EMBEDDING PROBLEMS INTO AN ANALOG PROCESSOR",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 130202,
+    "optimized_size": 4518,
+    "reduction_percent": 96.53
+  }
+}

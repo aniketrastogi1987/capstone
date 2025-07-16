@@ -1,0 +1,46 @@
+{
+  "patent_number": "nan",
+  "application_number": "15854923",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20171227",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A neural array may include an array unit, a first processing unit, and a second processing unit. The array unit may include synaptic devices. The first processing unit may input a row input signal to the array unit, and receive a row output signal from the array unit. The second processing unit may input a column input signal to the array unit, and receive a column output signal from the array unit. The array unit may have a first array value and a second array value. When the first processing unit or the second processing unit receives an output signal based on the first array value from the array unit which has selected the first array value and then the array unit selects the second array value, it may input a signal generated based on the output signal to the array unit which has selected the second array value.",
+  "publication_number": "US20180121790A1-20180503",
+  "summary": "<SOH> SUMMARY <EOH>In an exemplary embodiment, a neural array for forming a deep neural network is generally described. The exemplary neural array may include an array unit, a first processing unit, and a second processing unit. The array unit may include one or more synaptic devices arranged in one or more rows and columns. The first processing unit may be configured to input a row input signal to the array unit and receive a row output signal from the array unit. The second processing unit may be configured to input a column input signal to the array unit and receive a column output signal from the array unit. The array unit may have multiple selectable array values. For example, the array unit may include a first array value and a second array value. In an exemplary embodiment, the array unit may select the first array value. The array unit may generate an output signal based on an input signal and the first array value. The first processing unit or the second processing unit may receive the output signal from the array unit and generate a new input signal based on the received output signal. Then, the array unit may select the second array value. When the array unit selects the second array value, the first processing unit or the second processing unit may input the newly generated input signal to the array unit that selects the second array value. In an additional example, each of the one or more synaptic devices of the array unit may be configured to form a NAND flash structure. The one or more synaptic devices may include a Floating Gate Metal Oxide Silicon Field Effect Transistor (FG MOSFET). In an additional example, the array unit may be configured to operate in a time-division multiplexing mode. For example, the array unit may be configured to use the first array value in a first time section and the second array value in a second time section after the first time section. In an additional example, the neural array may be configured to implement a RBM. Si...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N3063",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Jaeha",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Yunju",
+      "inventor_city": "Incheon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "BAEK",
+      "inventor_name_first": "Seungheon",
+      "inventor_city": "Gwacheon Si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "Neural Array Having Multiple Layers Stacked Therein For Deep Belief Network And Method For Operating Neural Array",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 60091,
+    "optimized_size": 3729,
+    "reduction_percent": 93.79
+  }
+}

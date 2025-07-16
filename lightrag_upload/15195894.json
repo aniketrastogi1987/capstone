@@ -1,0 +1,80 @@
+{
+  "date_produced": "20170427",
+  "publication_number": "US20170132528A1-20170511",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15195894",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Aslan",
+      "inventor_name_first": "Ozlem",
+      "inventor_city": "Edmonton",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Caruana",
+      "inventor_name_first": "Rich",
+      "inventor_city": "Woodinville",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Richardson",
+      "inventor_name_first": "Matthew R.",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mohamed",
+      "inventor_name_first": "Abdelrahman",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Philipose",
+      "inventor_name_first": "Matthai",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Geras",
+      "inventor_name_first": "Krzysztof",
+      "inventor_city": "Edinburgh",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Urban",
+      "inventor_name_first": "Gregor",
+      "inventor_city": "Munich",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Shengjie",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Multiple machine learning models can be jointly trained in parallel. An example process for jointly training multiple machine learning models includes providing a set of machine learning models that are to learn a respective task, the set of machine learning models including a first machine learning model and a second machine learning model. The process can initiate training of the first machine learning model to learn a task using training data. During the training of the first machine learning model, information can be passed between the first machine learning model and the second machine learning model. Such passing of information (or “transfer of knowledge”) between the machine learning models can be accomplished via the formulation, and optimization, of an objective function that comprises model parameters that are based on the multiple machine learning models in the set.",
+  "filing_date": "20160628",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Described herein are techniques and systems for jointly training multiple machine learning models. The joint training techniques described herein can be used to “transform” a machine learning model from a first type to a second type that mimics the first type of machine learning model. In one illustrative example application, this can allow for model compression, where the second type of machine learning model that mimics the first type can, at the completion of the joint training, have a reduced size (in terms of storage footprint), allowing for more flexible use of the second type of machine learning model in implementations where storage space and/or computational power is at a premium without significant loss in accuracy of the second model's output. The notion of “joint” training is used herein to describe techniques for training two or more machine learning models in parallel, wherein at least one of the machine learning models influences the training of the other machine learning model. Such “parallel” training of multiple machine learning models can be contrasted with “sequential” training of multiple machine learning models. In sequential training, a first machine learning model is fully trained prior to initiating the training of a second machine learning model. In sequential training, the second machine learning cannot influence the training of the first machine learning model. By contrast, the joint training techniques described herein allow at least one of the machine learning models to influence the training of another machine learning model as the multiple models are being trained. Temporally speaking, in “parallel” training, a first machine learning model is trained while a second machine learning model is training and/or before the second machine learning model completes its training. In some implementations, a process for jointly training multiple machine learning models includes providing a set of machine learning models that ar...",
+  "date_published": "20170511",
+  "title": "JOINT MODEL TRAINING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 118273,
+    "optimized_size": 4501,
+    "reduction_percent": 96.19
+  }
+}

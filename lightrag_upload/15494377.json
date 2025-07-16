@@ -1,0 +1,55 @@
+{
+  "patent_number": "None",
+  "application_number": "15494377",
+  "date_published": "20171026",
+  "date_produced": "20171011",
+  "filing_date": "20170421",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A text analytics system may predict whether a policy will be adopted. The system may include at least one processor configured to access information scraped from the Internet to identify text data associated with comments expressed by a plurality of individuals about a proposed policy. The at least one processor may be further configured to analyze the text data in order to determine a sentiment of each comment; apply an influence filter to each comment to determine an influence metric associated with each comment; weight each comment using the influence metric; determine based on an aggregate of the weighted comments, an indicator associated with adoption of the policy; and transmit the indicator to a system user.",
+  "publication_number": "US20170308798A1-20171026",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments consistent with the present disclosure provide systems and methods that incorporate machine-learning and data aggregation techniques to provide policymaking analyses and predictions. The policymaking analyses and predictions may encompass a wide range of policymaking processes (e.g., legislative, regulatory, and judicial processes) and may provide more accurate and targeted predictions. There are many possible applications for such capabilities. For example, organizations that cannot afford analysts, government relations experts, or traditional lobbyists and organizations that engage in in-house lobbying may benefit from the disclosed systems and methods. In addition, the disclosed systems and methods may eliminate redundancies when analyzing data across governmental levels and units. According to an aspect of the present disclosure, a hybrid prediction system is disclosed for aggregating electronic data from at least one Internet server and proprietary data, to identify and initially predict an outcome of a future event and to subsequently update the initial prediction. The system may comprise at least one processor configured to execute instructions and a memory storing the instructions. The instructions may comprise instructions to access data scraped from the Internet. The data may be associated with at least one future event. The instructions may further comprise instructions to store the scraped data and determine, from the scraped data, an initial prediction of the outcome of the at least one future event. The instructions may further comprise instructions to generate, from the scraped data, an initial likelihood indication associated with the initial prediction and transmit the initial prediction and the initial likelihood indication to a device. The device may be associated with one or more users. The instructions may further comprise instructions to receive proprietary information, store the proprietary information, and deter...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730",
+    "G06F1727",
+    "G06Q5026",
+    "G06F1727"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Grom",
+      "inventor_name_first": "Brian",
+      "inventor_city": "Lake Worth",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Eidelman",
+      "inventor_name_first": "Vladimir",
+      "inventor_city": "Chevy Chase",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Argyle",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Alexandria",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pinto",
+      "inventor_name_first": "Jervis",
+      "inventor_city": "Silver Spring",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "Systems and Methods for Predicting Policy Adoption",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 339463,
+    "optimized_size": 3758,
+    "reduction_percent": 98.89
+  }
+}

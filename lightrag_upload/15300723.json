@@ -1,0 +1,47 @@
+{
+  "decision": "PENDING",
+  "application_number": "15300723",
+  "date_published": "20170622",
+  "date_produced": "20170607",
+  "title": "METHOD AND APPARATUS FOR UPDATING A SHADER PROGRAM BASED ON CURRENT STATE",
+  "filing_date": "20160929",
+  "inventor_list": [
+    {
+      "inventor_name_last": "DRABINSKI",
+      "inventor_name_first": "Radoslaw",
+      "inventor_city": "Gdansk",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    },
+    {
+      "inventor_name_last": "Gasinski",
+      "inventor_name_first": "Karol B.",
+      "inventor_city": "Gdansk",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    },
+    {
+      "inventor_name_last": "FUSZARA",
+      "inventor_name_first": "Marcin",
+      "inventor_city": "Rumia",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T120",
+    "G06F9445",
+    "G06F932",
+    "G06T160"
+  ],
+  "main_ipcr_label": "G06T120",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>A better understanding of the present invention can be obtained from the following detailed description in conjunction with the following drawings, in which: FIG. 1 is a block diagram of an embodiment of a computer system with a processor having one or more processor cores and graphics processors; FIG. 2 is a block diagram of one embodiment of a processor having one or more processor cores, an integrated memory controller, and an integrated graphics processor; FIG. 3 is a block diagram of one embodiment of a graphics processor which may be a discreet graphics processing unit, or may be graphics processor integrated with a plurality of processing cores; FIG. 4 is a block diagram of an embodiment of a graphics-processing engine for a graphics processor; FIG. 5 is a block diagram of another embodiment of a graphics processor; FIG. 6 is a block diagram of thread execution logic including an array of processing elements; FIG. 7 illustrates a graphics processor execution unit instruction format according to an embodiment; FIG. 8 is a block diagram of another embodiment of a graphics processor which includes a graphics pipeline, a media pipeline, a display engine, thread execution logic, and a render output pipeline; FIG. 9A is a block diagram illustrating a graphics processor command format according to an embodiment; FIG. 9B is a block diagram illustrating a graphics processor command sequence according to an embodiment; FIG. 10 illustrates exemplary graphics software architecture for a data processing system according to an embodiment; FIG. 11 illustrates one embodiment of an architecture for updating a shader program based on a current state; FIG. 12 illustrates additional details for an architecture for updating a shader program based on current state; and FIG. 13 illustrates one embodiment of a method for updating a shader program based on a current state. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "An apparatus and method for updating a shader program based on a current state. For example, one embodiment of a method comprises: identifying a first plurality of instructions which are dependent on a non-orthogonal state (NOS); marking the each of the first plurality of instructions which are dependent on the NOS; detecting a current NOS; and dynamically patching the marked instructions for the current NOS.",
+  "publication_number": "US20170178278A1-20170622",
+  "_processing_info": {
+    "original_size": 77913,
+    "optimized_size": 3297,
+    "reduction_percent": 95.77
+  }
+}

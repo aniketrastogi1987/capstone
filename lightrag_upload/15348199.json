@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180425",
+  "publication_number": "US20180129936A1-20180510",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15348199",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Young",
+      "inventor_name_first": "Reginald Clifford",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gulland",
+      "inventor_name_first": "William John",
+      "inventor_city": "Novato",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods for receiving a request to process, on a hardware circuit, a neural network comprising a first convolutional neural network layer having a stride greater than one, and in response, generating instructions that cause the hardware circuit to, during processing of an input tensor, generate a layer output tensor equivalent to an output of the first convolutional neural network layer by processing the input tensor using a second convolutional neural network layer having a stride equal to one but that is otherwise equivalent to the first convolutional neural network layer to generate a first tensor, zeroing out elements of the first tensor that would not have been generated if the second convolutional neural network layer had the stride of the first convolutional neural network layer to generate a second tensor, and performing max pooling on the second tensor to generate the layer output tensor.",
+  "filing_date": "20161110",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, this specification describes a special-purpose hardware circuit that computes neural network inferences. In general, one innovative aspect of the subject matter described in this specification can be embodied in methods and systems for receiving a request to process a neural network on a hardware circuit, the neural network comprising a first convolutional neural network layer having a stride that is greater than one, and in response, generating instructions that when executed by the hardware circuit cause the hardware circuit to, during processing of an input tensor by the neural network, generate a layer output tensor that is equivalent to an output of the first convolutional neural network layer by performing operations comprising, processing the input tensor to the first convolutional neural network layer using a second convolutional neural network layer that has a stride that is equal to one but is otherwise equivalent to the first convolutional neural network layer to generate a first tensor, zeroing out elements of the first tensor that would not have been generated if the second convolutional neural network layer had the stride of the first convolutional neural network layer to generate a second tensor, and performing max pooling on the second tensor to generate the layer output tensor. Implementations can include one or more of the following features. In some implementations, zeroing out elements of the first tensor comprises multiplying a subset of elements of the first tensor by zero, and multiplying the elements of the first tensor that are not included in the subset by one. Zeroing out elements of the first tensor comprises performing element-wise multiplication of a masking tensor and the first tensor to generate the second tensor, wherein the masking tensor comprises (i) zeros at each element position of the masking tensor that corresponds to an element of the first tensor that would not have been generated if the second...",
+  "date_published": "20180510",
+  "title": "PERFORMING KERNEL STRIDING IN HARDWARE",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 83337,
+    "optimized_size": 3609,
+    "reduction_percent": 95.67
+  }
+}

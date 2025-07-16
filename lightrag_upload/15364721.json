@@ -1,0 +1,34 @@
+{
+  "date_produced": "20180516",
+  "publication_number": "US20180150739A1-20180531",
+  "main_ipcr_label": "G06N300",
+  "decision": "PENDING",
+  "application_number": "15364721",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wu",
+      "inventor_name_first": "Xianchao",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Systems and methods for automatically interviewing a technical candidate are provided. The systems and method determine emotional states of the candidate and relevance scores for one or more provided answers from the candidates. The systems and methods utilized the emotional states and relevance scores to determine the next type of question and the appropriate difficulty level for the next question to ask the candidate during an automated interview. Additionally, systems and method may generate technical question-answer pairs for the interview utilizing a search of world knowledge.",
+  "filing_date": "20161130",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In summary, the disclosure generally relates to systems and methods for automatically interviewing a technical candidate. More specifically, the systems and methods disclosed herein may prepare and update technical question-answer pairs by searching world knowledge. Further, the system and methods as disclosed herein are capable of evaluating a received candidate answer to determine an emotional state of the candidate for the answer and to determine a relevance score for the answer. The system and methods as disclosed herein are capable of determining whether the next automated reply should be in the chat domain or the technical question domain based on the determined emotional state and/or a relevance score for the answer. Additionally, the systems and methods as disclosed herein are capable of changing the level of difficulty provided in the next technical question based on a relevance score and/or the emotional state. Further, systems and methods as disclosed herein are capable of analyzing each candidate's interview as a whole and providing a summary recommendation for the candidate and/or a comparison of the summary recommendation for the candidate to other candidates that have been previously interviewed. One aspect of the disclosure is directed to a system for automated interviewing of software engineers. The system includes at least one processor and a memory. The memory encodes computer executable instruction that, when executed by the at least one processor, are operative to: receive a first answer to a first question given to a candidate, wherein the first question is a first technical question; analyze the first answer to determine a time and space complexity of the first answer; compare the time and space complexity of the first answer to a time and space complexity of a reference answer for the first question; determine a relevance score of the first answer based on the comparison of the time and space complexity of the first answer ...",
+  "date_published": "20180531",
+  "title": "SYSTEMS AND METHODS FOR PERFORMING AUTOMATED INTERVIEWS",
+  "ipcr_labels": [
+    "G06N300",
+    "G10L1522",
+    "G10L2563",
+    "G06F1727",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 128295,
+    "optimized_size": 3172,
+    "reduction_percent": 97.53
+  }
+}

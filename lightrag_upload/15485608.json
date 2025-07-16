@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15485608",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "filing_date": "20170412",
+  "main_ipcr_label": "G06N502",
+  "abstract": "An input time-series is decomposed into a set of constituent frequencies. For each constituent frequency in a subset of the set of constituent frequencies, a corresponding forecasting model is selected in a subset from a set of forecasting models. From a set of component forecasts produced by the subset of forecasting models, a subset of component forecasts is selected. A component forecast in the subset of component forecasts is selected according to a component forecast selection condition. The subset of component forecasts is output to revise the forecast selection condition. A revised forecast selection condition increases a relevance of a future subset of component forecasts.",
+  "publication_number": "US20170220932A1-20170803",
+  "summary": "<SOH> SUMMARY <EOH>The illustrative embodiments provide a method, system, and computer program product for relevance-weighted forecasting based on time-series decomposition. An embodiment includes a method for forecasting based on time-series decomposition. The embodiment decomposes, using a processor and a memory, an input time-series into a set of constituent frequencies. The embodiment selects, for each constituent frequency in a subset of the set of constituent frequencies, a corresponding forecasting model in a subset from a set of forecasting models. The embodiment selects, from a set of component forecasts produced by the subset of forecasting models, a subset of component forecasts, wherein a component forecast in the subset of component forecasts is selected according to a component forecast selection condition. The embodiment outputs the subset of component forecasts to revise the forecast selection condition, wherein a revised forecast selection condition increases a relevance of a future subset of component forecasts. Another embodiment further receives from an application a relevance weight, wherein the relevance weight is the component forecast selection condition. In another embodiment, a user revises a previous relevance weight to form the relevance weight. Another embodiment further receives from an application an accuracy weight, wherein the accuracy weight is the component forecast selection condition. In another embodiment, a user revises a previous accuracy weight to form the accuracy weight. Another embodiment further receives from an application a relevance weight and an accuracy weight, wherein the component forecast selection condition is a function of the relevance weight and the accuracy weight. Another embodiment further produces, by providing a constituent frequency from the subset of constituent frequencies as an input to a corresponding forecasting model in the subset of forecasting models, a component forecast in the set of component ...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Baughman",
+      "inventor_name_first": "Aaron K.",
+      "inventor_city": "Silver Spring",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "RELEVANCE-WEIGHTED FORECASTING BASED ON TIME-SERIES DECOMPOSITION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 76879,
+    "optimized_size": 3263,
+    "reduction_percent": 95.76
+  }
+}

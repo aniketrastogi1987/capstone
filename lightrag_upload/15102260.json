@@ -1,0 +1,32 @@
+{
+  "date_produced": "20161019",
+  "publication_number": "US20160321538A1-20161103",
+  "main_ipcr_label": "G06N306",
+  "decision": "PENDING",
+  "application_number": "15102260",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Geiger",
+      "inventor_name_first": "Hans",
+      "inventor_city": "Wessobrunn",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "A pattern recognition system having a plurality of sensors, a plurality of first activation cells wherein ones of the first activation cells are connected to one or more of the sensors, a plurality of second activation cells, wherein overlapping subsets of the first activation cells are connected to ones of the second activation cells, and an output for summing at least outputs from a subset of the plurality of second activation cells to produce a result.",
+  "filing_date": "20160606",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The principal of the method and apparatus of recognition of the pattern as described in this disclosure is based upon a so-called biologically-inspired neural network (BNN). The activity of any one of the neurons in the BNN is simulated as a bio-physical process. The basic neural property of the neuron is a “membrane voltage”, which in (wet) biology is influenced by ion channels in the membrane. The action potential of the neuron is generated dependent on this membrane voltage, but also includes a stochastic (random) component, in which only the probability of the action potential is computed. The action potential itself is generated in a random manner. The membrane has in biology some additional electro-chemical property affects, such as absolute and relative refractory periods, adaptation and sensitization, that are automatically included in the BNN of this disclosure. The basic information transferred from one of the neurons to another one of the neurons is not merely the action potential (or firing rate, as will be described later), but also a time dependent pattern of the action potentials. This time-dependent pattern of action potentials is described as a single spike model (SSM). This means that the interaction between an input from any two of the neurons is more complex than a simple linear summation of the activities. The connections between the neurons (synapses) may have different types. The synapses are not nearly just excitatory or inhabitatory (as is the case with an ANN), but may have other properties. For example, the topology of a dendritic tree connecting the individual neurons can also be taken into account. The relative location of the synapses from the two of the input neurons on a dendrite in the dendritic tree may also have a large influence on the direction between the two neurons. The method and apparatus of this disclosure can be used in the determination of dermatological disorders and skin conditions.",
+  "date_published": "20161103",
+  "title": "Pattern Recognition System and Method",
+  "ipcr_labels": [
+    "G06N306",
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 37026,
+    "optimized_size": 3009,
+    "reduction_percent": 91.87
+  }
+}

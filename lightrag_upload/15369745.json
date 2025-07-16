@@ -1,0 +1,40 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15369745",
+  "date_published": "20170608",
+  "date_produced": "20170524",
+  "title": "METHOD AND APPARATUS FOR CONTROL OF SAILING AND MOTOR VESSELS",
+  "filing_date": "20161205",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Michaelis",
+      "inventor_name_first": "Oliver",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Speaks, JR.",
+      "inventor_name_first": "Howard W.",
+      "inventor_city": "Belvedere",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "B63J9900",
+    "G06K900",
+    "G06K962",
+    "B63H2504"
+  ],
+  "main_ipcr_label": "B63J9900",
+  "summary": "<SOH> SUMMARY <EOH>Sailing and motor boats or yachts typically have multiple control elements that provide guidance and control of the vessel, such as throttle controls, gear selection devices, electric or hydraulic thrusters, and electric or hydraulic winches, to name some common examples. The control elements used today comprise mechanisms such as push-buttons, D-pads, levers, switches, touch screen controls, wheels, and multi-directional levers such as joysticks. Even mid-sized vessels often have more than one set of such control elements, and hence pose a risk of unintentional actuation of a control element when the operator is working from a secondary or tertiary station on the vessel. With increased vessel size and the increased skill set required to maneuver such vessels safely, restricting the operation of vessel control elements to personnel qualified is a highly desirable function, which so far is commonly solved by simply limiting physical access. This is not always a practical solution and also does not provide a reasonable level of security given the value of such vessels. Vessels with multiple control stations also require a mechanism to select an active control station, which may change during a particular maneuver. For example, as a vessel enters a harbor, the main operator may steer from the main bridge to have full view of traffic around the vessel, and as the vessel approaches its docking space the operator may switch to a secondary control station on either side of the vessel to align properly against the dock. Such handoff is commonly implemented by requiring all unused control stations to have input controls in a neutral position, or explicit activation via e.g. a dedicated control button. The concept introduced herein vastly simplifies the selection of the active control station as the determination of an intentional operation also inherently defines that location as the active control station. Embodiments of the present invention also prevent...",
+  "patent_number": "9969480",
+  "abstract": "Various embodiments for measuring and interpreting a vessel operator's intent and control inputs are disclosed. Various stations on a vessel comprise user control devices to receive vessel control commands from a vessel operator in conjunction with associated transducer information capturing physical conditions or attributes of the operator at, or proximate to, one of the user control devices. A processor determines whether the vessel control command was deliberate, based on the physical condition or the attribute captured by the transducer. Upon determination of a valid user control input, the processor optionally performs transformation of the user vessel control command based on an operator identity and vessel environmental factors, and then sends a corresponding control command to one or more vessel physical control devices, such as a rudder or an engine.",
+  "publication_number": "US20170158303A1-20170608",
+  "_processing_info": {
+    "original_size": 82964,
+    "optimized_size": 3619,
+    "reduction_percent": 95.64
+  }
+}

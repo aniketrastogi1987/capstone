@@ -1,0 +1,33 @@
+{
+  "patent_number": "None",
+  "application_number": "15478840",
+  "date_published": "20171012",
+  "date_produced": "20170927",
+  "filing_date": "20170404",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A system and method are provided for deep high-order exemplar learning of a data set. Feature vectors and class labels are received. Each of the feature vectors represents a respective one of a plurality of high-dimensional data points of the data set. The class labels represent classes for the high-dimensional data points. Each of the feature vectors are processed, using a deep high-order convolutional neural network, to obtain respective low-dimensional embedding vectors within each class. A minimization operation is performed on high-order embedding parameters of the high-dimensional data points to output a set of synthetic exemplars. A binarizing operation is performed on the low-dimensional embedding vectors and the set of synthetic exemplars to output hash codes representing the data set. The hash codes are utilized as a search key to increase the efficiency of a processor-based machine searching the data set.",
+  "publication_number": "US20170293838A1-20171012",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the present principles, a computer-implemented method is provided for deep high-order exemplar learning of a data set. The method includes receiving, by a processor, feature vectors and class labels, each of the feature vectors being representative of a respective one of a plurality of high-dimensional data points of the data set, the class labels representing classes for the high-dimensional data points. The method further includes processing, by the processor using a deep high-order convolutional neural network, each of the feature vectors to obtain respective low-dimensional embedding vectors. The method also includes performing, by the processor, a minimization operation on high-order embedding parameters of the high-dimensional data points to output a set of synthetic exemplars within each class that have (i) high-order feature interactions representative of the class labels and (ii) data separation properties in low-dimensional space. The method additionally includes performing, by the processor, a binarizing operation on the low-dimensional embedding vectors and the set of synthetic exemplars to output hash codes representing the data set. The method also includes utilizing, by the processor, the hash codes as a search key to increase the efficiency of a processor-based machine when retrieving one or more images or one or more documents from the data set. According to another aspect of the present principles, a computer program product is provided for deep high-order exemplar learning of a data set. The computer program product includes a non-transitory computer readable storage medium having program instructions embodied therewith. The program instructions are executable by a computer to cause the computer to perform a method. The method includes receiving, by a processor, feature vectors and class labels, each of the feature vectors being representative of a respective one of a plurality of high-dimensional data ...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N504",
+    "G06F1730",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Min",
+      "inventor_name_first": "Renqiang",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DEEP HIGH-ORDER EXEMPLAR LEARNING FOR HASHING AND FAST INFORMATION RETRIEVAL",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 57863,
+    "optimized_size": 3527,
+    "reduction_percent": 93.9
+  }
+}

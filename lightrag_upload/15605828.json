@@ -1,0 +1,66 @@
+{
+  "patent_number": "None",
+  "application_number": "15605828",
+  "date_published": "20171130",
+  "date_produced": "20171115",
+  "filing_date": "20170525",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method of configuring a System-on-Chip (SoC) to execute a Convolutional Neural Network (CNN) by (i) receiving scheduling schemes each specifying a sequence of operations executable by Processing Units (PUs) of the SoC; (ii) selecting, a scheduling scheme for a current layer of the CNN; (iii) determining a current state of memory for a storage location in the SoC allocated for storing feature map data from the CNN; (iv) selecting, from the plurality of scheduling schemes and dependent upon the scheduling scheme for the current layer of the CNN, a set of candidate scheduling schemes for a next layer of the CNN; and (v) selecting, from the set of candidate scheduling schemes dependent upon the determined current state of memory, a scheduling scheme for the next layer of the CNN.",
+  "publication_number": "US20170344882A1-20171130",
+  "summary": "<SOH> SUMMARY <EOH>It is an object of the present invention to substantially overcome, or at least ameliorate, one or more disadvantages of existing arrangements. Disclosed are arrangements, referred to as Layer Dependency Based Scheduling (LDBS) arrangements in this description, which seek to address the above problems by assigning scheduling schemes to System-On-Chip SoC accelerators based upon dependencies between scheduling schemes and opportunity costs of particular mappings. Neighbouring layers of the CNN algorithm are processed together. Accordingly one layer of CNN algorithm is received as an input mapped on PUs for execution which will then produce the next layer of CNN algorithm as output. The produced layer is then used as an input to generate the subsequent layer of CNN algorithm. According to a first aspect of the present invention, there is provided a method of configuring a multi-accelerator System-on-Chip (SoC) to execute a Convolutional Neural Network (CNN), the method comprising the steps of: (i) receiving a plurality of scheduling schemes each specifying a sequence of operations executable by Processing Units (PUs) of the SoC; (ii) selecting, from the plurality of scheduling schemes, a scheduling scheme for a current layer of the CNN; (iii) determining, for the current layer of the CNN, a current state of memory for a storage location allocated to the PUs of the SoC for storing feature map data from the CNN; selecting, from the plurality of scheduling schemes and dependent upon the scheduling scheme for the current layer of the CNN, a set of candidate scheduling schemes for a next layer of the CNN; and (v) selecting, from the candidate scheduling schemes dependent upon the determined current state of memory in the SoC for the current layer of the CNN, a scheduling scheme for the next layer of the CNN; wherein the determination of the scheduling scheme for the current layer of the CNN and the determination of the scheduling scheme for the next laye...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F306"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "AMBROSE",
+      "inventor_name_first": "JUDE ANGELO",
+      "inventor_city": "BLACKTOWN",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "AHMED",
+      "inventor_name_first": "IFTEKHAR",
+      "inventor_city": "LANE COVE NORTH",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "YACHIDE",
+      "inventor_name_first": "YUSUKE",
+      "inventor_city": "Bunkyo-ku",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "BOKHARI",
+      "inventor_name_first": "HASEEB",
+      "inventor_city": "KINGSFORD",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "PEDDERSEN",
+      "inventor_name_first": "JORGEN",
+      "inventor_city": "KENSINGTON",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "PARAMESWARAN",
+      "inventor_name_first": "SRIDEVAN",
+      "inventor_city": "KENSINGTON",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "title": "Layer-based operations scheduling to optimise memory for CNN applications",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 126876,
+    "optimized_size": 4112,
+    "reduction_percent": 96.76
+  }
+}

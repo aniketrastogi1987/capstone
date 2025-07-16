@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15478097",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "filing_date": "20170403",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Systems and methods of selecting machine learning models/algorithms for a candidate dataset are disclosed. A computer system may access historical data of a set of algorithms applied to a set of benchmark datasets; select a first algorithm of the set of algorithms; apply the first algorithm to an input dataset to create a model of the input dataset; evaluate and store results of the applying; and add the first algorithm to a set of tried algorithms. The computer system may select a next algorithm of the algorithm set via submodular optimization based on the historical data and the set of tried algorithms; apply the next algorithm to the input dataset; capture a next result based on the applying; add the next result to update the set of tried algorithms; and repeat the submodular optimization. The procedure may continue until a termination condition is reached.",
+  "publication_number": "US20170286839A1-20171005",
+  "summary": "",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Parker",
+      "inventor_name_first": "Charles",
+      "inventor_city": "Corvallis",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SELECTION OF MACHINE LEARNING ALGORITHMS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 65894,
+    "optimized_size": 1423,
+    "reduction_percent": 97.84
+  }
+}

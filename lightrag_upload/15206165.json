@@ -1,0 +1,32 @@
+{
+  "date_produced": "20171227",
+  "publication_number": "US20180012132A1-20180111",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15206165",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MEADOW",
+      "inventor_name_first": "Curtis",
+      "inventor_city": "Newport",
+      "inventor_state": "ME",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method using a fast algorithm automated analysis of time series sensor data that can find an optimal clustering value k for k-means analysis by using statistical analysis of the results of clustering for a stated maximal upper value of k.",
+  "filing_date": "20160708",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention overcomes the difficulty of analyzing large volumes of data by incorporating k-means clustering and finding an optimal clustering that corresponds to operating states of the equipment. Raw data is initially clustered using a standard, computationally-intensive algorithm and then the resulting clusters are used as proxies for the actual data points in finding a global optimal solution. K-means clustering is an NP-hard problem, meaning that it cannot be solved except by applying the brute force approach of trying every possible clustering for the number of clusters K. Heuristic algorithms such as Lloyd's Algorithm and k-means++ work well but they are nevertheless computationally expensive. There is considerable disagreement as to the upper complexity bound of heuristic k-means algorithms but there is general agreement that it is superpolynomial. Given the likely presence of exponential terms, it is clear there is an enormous difference in running time for values of n between around n of 50,000 and around n of 100. Regardless of the optimality metric used, any algorithm to find an optimal clustering with K or fewer clusters for a set of n elements, for example, requires K−1 times the computational time required to create the initial clustering. If n is large, this is very expensive. However, by using the centroids from an initial, expensive clustering as proxies for the data points, an approximation of an optimal clustering can be determined that may be processed in a fraction of the time of the initial clustering. This is because the problem size is reduced by several orders of magnitude. The algorithms used assume that centroids are standard normal distributions, and known facts about the number of data points and the variance within each cluster are used to achieve the reclustering. The usage can be extended to clusters with other probability distribution types provided that the distribution type has certain ...",
+  "date_published": "20180111",
+  "title": "METHOD FOR PERFORMING AUTOMATED ANALYSIS OF SENSOR DATA TIME SERIES",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 40129,
+    "optimized_size": 2822,
+    "reduction_percent": 92.97
+  }
+}

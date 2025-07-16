@@ -1,0 +1,60 @@
+{
+  "patent_number": "None",
+  "application_number": "15458837",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "filing_date": "20170314",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method, computer program product, and system perform computations using a sparse convolutional neural network accelerator. Compressed-sparse data is received for input to a processing element, wherein the compressed-sparse data encodes non-zero elements and corresponding multi-dimensional positions. The non-zero elements are processed in parallel by the processing element to produce a plurality of result values. The corresponding multi-dimensional positions are processed in parallel by the processing element to produce destination addresses for each result value in the plurality of result values. Each result value is transmitted to a destination accumulator associated with the destination address for the result value.",
+  "publication_number": "US20180046916A1-20180215",
+  "summary": "<SOH> SUMMARY <EOH>A method, computer program product, and system perform computations using a sparse convolutional neural network accelerator. Compressed-sparse data is received for input to a processing element, wherein the compressed-sparse data encodes non-zero elements and corresponding multi-dimensional positions. The non-zero elements are processed in parallel by the processing element to produce a plurality of result values. The corresponding multi-dimensional positions are processed in parallel by the processing element to produce destination addresses for each result value in the plurality of result values. Each result value is transmitted to a destination accumulator associated with the destination address for the result value.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F7523",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Dally",
+      "inventor_name_first": "William J.",
+      "inventor_city": "Los Altos Hills",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Parashar",
+      "inventor_name_first": "Angshuman",
+      "inventor_city": "Northborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Emer",
+      "inventor_name_first": "Joel Springer",
+      "inventor_city": "Acton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Keckler",
+      "inventor_name_first": "Stephen William",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dennison",
+      "inventor_name_first": "Larry Robert",
+      "inventor_city": "Medon",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SPARSE CONVOLUTIONAL NEURAL NETWORK ACCELERATOR",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 113446,
+    "optimized_size": 2650,
+    "reduction_percent": 97.66
+  }
+}

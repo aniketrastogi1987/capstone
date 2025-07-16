@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15281644",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "title": "PROCESSOR WITH IMPROVED ALIAS QUEUE AND STORE COLLISION DETECTION TO REDUCE MEMORY VIOLATIONS AND LOAD REPLAYS",
+  "filing_date": "20160930",
+  "inventor_list": [
+    {
+      "inventor_name_last": "FEI",
+      "inventor_name_first": "XIAOLONG",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F930",
+    "G06F938"
+  ],
+  "main_ipcr_label": "G06F930",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A register alias table for a processor according to one embodiment includes an alias queue, load and store comparators, and dependency logic. Each entry of the alias queue stores instruction pointers of a pair of colliding load and store instructions that caused a memory violation and a valid value. The store comparator compares the instruction pointer of a subsequent store instruction with those stored in the alias queue, and when a match is detected, sets true the valid value in the corresponding alias queue entry. The load comparator determines whether the instruction pointer of a subsequent load instruction matches an instruction pointer stored in the alias queue. If so, dependency logic provides a store index of the subsequent store instruction, if indicated as valid by the valid value, as dependency information for the subsequent load instruction. The register alias table may include a local memory that stores ROB indexes of the pair of load and store instructions that previously collided with each other causing the memory violation. The register alias table may further include RAT logic that compares a subsequent store index of a retiring store instruction with the store index stored in the local memory, and that retrieves and stores the store instruction pointer in the event of a match. The RAT logic may further compare a subsequent load index of a load instruction being replayed with the load index stored in the local memory, and in the event of a match, retrieves the load instruction pointer, allocates an entry in the alias queue, and stores the load and store instruction pointers into the allocated entry of the alias queue. A processor according to one embodiment includes a reorder buffer and a register alias table. The reorder buffer includes a ROB queue with multiple entries in which each entry stores an instruction pointer of a corresponding instruction issued for execution. The register alias table includes an alias...",
+  "patent_number": "None",
+  "abstract": "A register alias table for a processor including an alias queue, load and store comparators, and dependency logic. Each entry of the alias queue stores instruction pointers of a pair of colliding load and store instructions that caused a memory violation and a valid value. The store comparator compares the instruction pointer of a subsequent store instruction with those stored in the alias queue, and if a match occurs, indicates that a store index of the subsequent store instruction is valid. The load comparator determines whether the instruction pointer of a subsequent load instruction matches an instruction pointer stored in the alias queue. If so, dependency logic provides a store index, if valid, as dependency information for the subsequent load instruction.",
+  "publication_number": "US20180081688A1-20180322",
+  "_processing_info": {
+    "original_size": 77162,
+    "optimized_size": 3377,
+    "reduction_percent": 95.62
+  }
+}

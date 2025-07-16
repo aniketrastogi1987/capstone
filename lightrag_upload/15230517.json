@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170726",
+  "publication_number": "US20170228660A1-20170810",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15230517",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kutzkov",
+      "inventor_name_first": "Konstantin",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Niepert",
+      "inventor_name_first": "Mathias",
+      "inventor_city": "Heidelberg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Mohamed",
+      "inventor_name_first": "Ahmed",
+      "inventor_city": "Heidelberg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "A method detects an event or anomaly in real-time and triggers an action based thereon. A stream of data is received from data sources. The data includes at least two categorical features and a real-value measurement. Sketching is performed on the features using min-wise hashing to create sketches of the data. A regression tree is learnt on the sketches so as to estimate a mean squared error. It is determined whether an event or anomaly exists based on the mean squared error. An action is triggered based on at least one of a type, location or magnitude of the determined event or anomaly.",
+  "filing_date": "20160808",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In an embodiment the present invention provides a method for detecting an event or anomaly in real-time and triggering an action based thereon. A stream of data is received from data sources. The data includes at least two categorical features and a real-value measurement. Sketching is performed on the features using min-wise hashing to create sketches of the data. A regression tree is learnt on the sketches so as to estimate a mean squared error. It is determined whether an event or anomaly exists based on the mean squared error. An action is triggered based on at least one of a type, location or magnitude of the determined event or anomaly.",
+  "date_published": "20170810",
+  "title": "SCALABLE SYSTEM AND METHOD FOR REAL-TIME PREDICTIONS AND ANOMALY DETECTION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q3002"
+  ],
+  "_processing_info": {
+    "original_size": 69600,
+    "optimized_size": 2131,
+    "reduction_percent": 96.94
+  }
+}

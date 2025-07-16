@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180222",
+  "publication_number": "US20180068222A1-20180308",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15258298",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Brennan",
+      "inventor_name_first": "Paul E.",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Carrier",
+      "inventor_name_first": "Scott R.",
+      "inventor_city": "Apex",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stickler",
+      "inventor_name_first": "Michael L.",
+      "inventor_city": "Columbus",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method, system and a computer program product are provided for verifying ground truth data by iteratively assigning machine-annotated training set examples to clusters which are prioritized based on verification scores to identify and display one or more prioritized review candidate training set examples grouped in a prioritized cluster in order to solicit verification or correction feedback from a human subject matter expert for inclusion in an accepted training set.",
+  "filing_date": "20160907",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Broadly speaking, selected embodiments of the present disclosure provide a ground truth verification system, method, and apparatus for generating ground truth for a machine-learning process by machine-annotating a ground truth training set and validation set to identify annotation instances (e.g., entities and relationships) characterized with a relatively low entropy measure, assigning such annotation instances to groups or clusters based on feature similarity, and generating a verification score for each annotation cluster of how likely the annotations in a given cluster are to be true-positives or otherwise meriting SME review for verification or correction. By computing the cluster verification scores from predetermined scoring criteria inputs collected from one or more human annotators on the SME team, the annotation clusters may be prioritized in real time for human annotator or SME verification, either individually or in bulk, thereby further honing ground truth accuracy. In selected embodiments, the verification scores may be based on a probability or confidence metric which quantifies the likelihood that annotations in a cluster are “true positives” based on the training model for the feature set of a given annotation cluster, with lower confidence metric scores being weighted to produce a higher verification score ranking indicating a need for human verification. In other embodiments, the verification score may be based on an SME consistency (or inconsistency) metric which quantities and compares the verification performance of the reviewing subject matter expert (SME) and other SMEs who have verified annotation instances within the same cluster, such as by using inter annotator agreement (IAA) scores for the entity/relations behind a given annotation cluster. In other embodiments, the verification score may be based on a comparative measure of the cluster sizes, with larger clusters being weighted more heavily for higher ranking. In oth...",
+  "date_published": "20180308",
+  "title": "System and Method of Advising Human Verification of Machine-Annotated Ground Truth - Low Entropy Focus",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 84076,
+    "optimized_size": 3381,
+    "reduction_percent": 95.98
+  }
+}

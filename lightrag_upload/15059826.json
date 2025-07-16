@@ -1,0 +1,30 @@
+{
+  "decision": "PENDING",
+  "application_number": "15059826",
+  "date_published": "20161124",
+  "date_produced": "20161109",
+  "title": "PERSONALIZATION OF WEB SEARCH RESULTS USING TERM, CATEGORY, AND LINK-BASED USER PROFILES",
+  "filing_date": "20160303",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LAWRENCE",
+      "inventor_name_first": "Stephen R.",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>A search engine utilizes user profiles to customize search results. A user profile comprises multiple items that characterize a user's search preference. These items are extracted from various information sources, including previous search queries submitted by the user, links from or to the documents identified by the previous queries, sampled content from the identified documents as well as personal information implicitly or explicitly provided by the user. When the search engine receives a search query from a user, it first identifies a set of documents that match the search query. Each document is associated with a generic rank based on the document's page rank, the text associated with the document, and the search query. The search engine also identifies the user's profile and correlates the user profile with each of the identified documents. The correlation between a document and the user profile produces a profile rank for the document, indicating the relevance of the document to the user. The search engine then combines the document's generic rank and profile rank into a personalized rank. Finally, the documents are ordered according to their personalized ranks. In one embodiment, a user profile may comprise a plurality of sub-profiles, each sub-profile characterizing the user's interest from a different perspective. A term-based profile comprises a plurality of terms, each term carrying a weight indicative of its importance relative to other terms. A category-based profile comprises multiple categories, optionally organized into a hierarchical map. The user's search preferences may be associated with at least a subset of the multiple categories, each category having an associated weight indicating the user's interest in the documents falling into this category. There may be multiple category-based profiles for a user. In some embodiments, the sub-profiles include a link-based profile, which includes a plurality of links that are, directly ...",
+  "patent_number": "None",
+  "abstract": "A system and method for creating a user profile and for using the user profile to order search results returned by a search engine. The user profile is based on search queries submitted by a user, the user's specific interaction with the documents identified by the search engine and personal information provided by the user. Terms for the user profile may be selected from the documents accessed by the user by performing paragraph sampling or context analysis. Generic scores associated with the search results are modulated by the user profile to measure their relevance to a user's preference and interest. The search results are re-ordered accordingly so that the most relevant results appear on the top of the list. User profiles can be created and/or stored on the client side or server side of a client-server network environment.",
+  "publication_number": "US20160342695A1-20161124",
+  "_processing_info": {
+    "original_size": 75994,
+    "optimized_size": 3428,
+    "reduction_percent": 95.49
+  }
+}

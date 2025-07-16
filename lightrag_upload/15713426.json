@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15713426",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "filing_date": "20170922",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Disclosed systems, methods, and computer readable media can detect an association between semantic entities and generate semantic information between entities. For example, semantic entities and associated semantic collections present in knowledge bases can be identified. A time period can be determined and divided into time slices. For each time slice, word embeddings for the identified semantic entities can be generated; a first semantic association strength between a first semantic entity input and a second semantic entity input can be determined; and a second semantic association strength between the first semantic entity input and semantic entities associated with a semantic collection that is associated with the second semantic entity can be determined. An output can be provided based on the first and second semantic association strengths.",
+  "publication_number": "US20180082197A1-20180322",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with the disclosed subject matter, systems, methods, and computer readable media, are provided for the visualization of semantic information and inference of temporal signals indicating salient associations between life science entities. Before explaining example embodiments consistent with the present disclosure in detail, it is to be understood that the disclosure is not limited in its application to the details of constructions and to the arrangements set forth in the following description or illustrated in the drawings. The disclosure is capable of embodiments in addition to those described and is capable of being practiced and carried out in various ways. Also, it is to be understood that the phraseology and terminology employed herein, as well as in the abstract, are for the purpose of description and should not be regarded as limiting. Furthermore, while the discussion in this disclosure focuses on the field of life science, applications of disclosed systems and methods are not limited to this field. A method of detecting an association between semantic entities according to one embodiment of the present disclosure can include identifying semantic entities and associated semantic collections present in one or more knowledge bases, wherein the semantic entities include one or more of single words or multi-word phrases, and the semantic entities of a semantic collection share an entity type: determining a tune period for analysis; dividing the time period into one or more time slices; generating, for each time slice, a set of word embeddings for the identified semantic entities based on one or more corpora; determining, for each time slice, a first semantic association strength between a first semantic entity input and a second semantic entity input; determining, for each time slice, a second semantic association strength between the first semantic entity input and a plurality of semantic entities in a semantic collection that i...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1727"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "ARAVAMUDAN",
+      "inventor_name_first": "Murali",
+      "inventor_city": "Andover",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SOUNDARARAJAN",
+      "inventor_name_first": "Venkataramanan",
+      "inventor_city": "Windham",
+      "inventor_state": "NH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "RAJASEKHARAN",
+      "inventor_name_first": "Ajit",
+      "inventor_city": "West Windsor",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "GIBSON",
+      "inventor_name_first": "William",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS, METHODS, AND COMPUTER READABLE MEDIA FOR VISUALIZATION OF SEMANTIC INFORMATION AND INFERENCE OF TEMPORAL SIGNALS INDICATING SALIENT ASSOCIATIONS BETWEEN LIFE SCIENCE ENTITIES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 252123,
+    "optimized_size": 4002,
+    "reduction_percent": 98.41
+  }
+}

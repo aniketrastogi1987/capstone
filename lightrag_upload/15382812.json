@@ -1,0 +1,37 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174057A1-20180621",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15382812",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Citriniti",
+      "inventor_name_first": "Thomas Dominic",
+      "inventor_city": "Niskayuna",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vecchione",
+      "inventor_name_first": "Kevin Edward",
+      "inventor_city": "Latham",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Some aspects are directed to systems for providing access to data. An example includes a computer system implementing a data access framework for providing data to one or more predictive models. The system is configured to receive at least one asset definition comprising an asset identifier for at least one asset associated with at least one data source, receive at least one data lens definition comprising a data lens identifier and a logical model identifier, the logical model identifier identifying at least one portion of a logical system model, access a first datastore to retrieve asset information extracted from the at least one data source, determine, using the logical model identifier, a portion of the logical system model associated with the retrieved asset information, format the retrieved asset information for storage in a second datastore corresponding to the logical system model, and store the formatted retrieved asset information in the second datastore.",
+  "filing_date": "20161219",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Some embodiments generally relate to methods and systems for providing improved access to datastores for analytics. Embodiments include computing hardware and software that implements data access layers that decouple analytics from underlying assets, providing direct improvements in computing performance and efficiency, while also simplifying the process of associating analytics to a particular asset or assets. An embodiment provides a computer system implementing a data access framework for providing data to one or more predictive models. The system is configured to receive at least one asset definition comprising an asset identifier for at least one asset associated with at least one data source, receive at least one data lens definition comprising a data lens identifier and a logical model identifier, the logical model identifier identifying at least one portion of a logical system model, access a first datastore to retrieve asset information extracted from the at least one asset, determine, using the logical model identifier, a portion of the logical system model associated with the retrieved asset information, format the retrieved asset information for storage in a second datastore corresponding to the logical system model, and enable access to the formatted retrieved asset information via the second datastore. The at least one asset definition may include an asset type, wherein the at least one data lens definition is a plurality of data lens definitions, and wherein one of the plurality of data lens definitions is selected for association with the at least one asset definition based at least in part on the asset type. The asset definition may include at least one address within the first datastore indicating the location of the asset information extracted from the at least one asset. The computer system may be further configured to initialize an extractor in response to receiving the at least one asset definition, wherein the extractor is c...",
+  "date_published": "20180621",
+  "title": "METHODS AND SYSTEMS FOR PROVIDING IMPROVED DATA ACCESS FRAMEWORK",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 83824,
+    "optimized_size": 3697,
+    "reduction_percent": 95.59
+  }
+}

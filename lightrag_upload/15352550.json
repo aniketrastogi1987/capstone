@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15352550",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "title": "SQL INTERCEPTOR FOR USE WITH THIRD PARTY DATA ANALYTICS PACKAGES",
+  "filing_date": "20161115",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Adamut",
+      "inventor_name_first": "Marius",
+      "inventor_city": "Hazlet",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "H04L2908",
+    "H04L2906"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>A Structured Query Language (SQL) interceptor is introduced that is inserted as a proxy between a database client and the corresponding database server to intercept an encoded SQL query from the database client, decode the SQL query to determine which module creates the data request, to which data source the data request will be directed, and the parameters to be used by the module to construct the data request to the data source. The format of the data request and the way the request is created may differ depending on the data source. The original SQL query is typed in by a user through an interface in a business intelligence tool and is written in a special way to encode the module, data source, and the parameter names and values. If the table name specified in the query matches a reserved table name, then a particular module is invoked. One such module can be used to generate a Web Service request, another module can be used to generate a new SQL query to run against the database. Yet another module can be used to invoke a specific function within the interceptor. The executable module uses the extracted parameter values to create a new data request. If the table name specified in the original query matches the reserved table name for requesting an SQL query, then the interceptor invokes a module that creates another SQL query that is binary-encoded before being sent to the database server instead of the intercepted encoded SQL query. If the table name specified in the original query matches the reserved table name for requesting a call to a web service, the interceptor invokes a module that generates a request to be sent to the specified web service, and the web service may be unrelated to the database client that encoded the intercepted SQL query. In this case, the executable module composes a web service request and sends the request to the web service provider over a web-services protocol. Upon receiving a response fr...",
+  "patent_number": "None",
+  "abstract": "An SQL interceptor inserted as a proxy between a database client and the corresponding database server intercepts a constrained application-generated SQL query and composes a new data request. Parameter values in the SQL query determine whether the new data request is sent to a database server or a web service provider. A reserved table name specified in the SQL query triggers a rewrite of the data request. Parameter values in the query are used to select among a plurality of executable modules to use for rewriting the data request. Special data encoding and formats need to be used based on the source of data that will receive and respond to the rewritten data request. For example, communication between a database client and server may use a vendor-specific, non-standard binary encoding, and XML and JSON response data must be reformatted as an SQL response for processing by the database client.",
+  "publication_number": "US20180137184A1-20180517",
+  "_processing_info": {
+    "original_size": 52903,
+    "optimized_size": 3483,
+    "reduction_percent": 93.42
+  }
+}

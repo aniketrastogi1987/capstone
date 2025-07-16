@@ -1,0 +1,66 @@
+{
+  "date_produced": "20160706",
+  "publication_number": "US20160210553A1-20160721",
+  "main_ipcr_label": "G06N502",
+  "decision": "ACCEPTED",
+  "application_number": "15085759",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bolton",
+      "inventor_name_first": "Stephen P.",
+      "inventor_city": "Fleet",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Collins",
+      "inventor_name_first": "Ann E.",
+      "inventor_city": "Salisbury",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Curwen",
+      "inventor_name_first": "Gillian",
+      "inventor_city": "Winchester",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Moxey",
+      "inventor_name_first": "Catherine M.",
+      "inventor_city": "Highclere",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Papageorgiou",
+      "inventor_name_first": "Anthony P.",
+      "inventor_city": "Southampton",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Wharmby",
+      "inventor_name_first": "Andrew D.",
+      "inventor_city": "Romsey",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "A search facility is used to predict the impact of change on events detected in application logic, where the change may involve a computing resource used by or referenced by the application logic and/or by event detection logic. The search may be performed prior to making a change, in order to judge potential impact of the change, or after the change has been made. The search makes the prediction by evaluating semantics of conditions that specify when and/or and how an event will be detected at run-time.",
+  "filing_date": "20160330",
+  "patent_number": "9679245",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>The present invention is directed to predicting impact of change on event detection. In one aspect, this comprises: obtaining search input describing a changed computing resource; and programmatically evaluating each of at least one event detection specification to predict whether the changed computing resource will impact event detection, by the event detection specification, at run time. The changed computing resource may comprise, by way of example, an application program, a data object used by an application program, an interface used by an application program, or a command invocation syntax used for run-time invocation of a command. The search input describing the changed computing resource preferably comprises name of the changed computing resource (such as a file name of a changed file, a name of a changed command, or a name of a changed application program). The search input may further comprise, by way of example, information associated with a format of an interface used by an application program; field(s) or parameters(s); and/or a context or source to be searched for event detection specifications to be used by the programmatic evaluation. The programmatic evaluation may comprise comparing the search input to each of at least one condition specified in an event detection specification until determining whether a prediction can be made that the changed computing resource will match the condition at run time. A report may be generated that documents each evaluated detection specification for which the programmatic evaluation predicts that the changed computing resource will impact event detection, by the event detection specification, at run time. Embodiments of these and other aspects of the present invention may be provided as methods, systems, and/or computer program products. It should be noted that the foregoing is a summary and thus contains, by necessity, simplifications, generalizations, and omissions of detail; consequently...",
+  "date_published": "20160721",
+  "title": "Predicting the Impact of Change on Events Detected in Application Logic",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 75260,
+    "optimized_size": 3829,
+    "reduction_percent": 94.91
+  }
+}

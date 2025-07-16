@@ -1,0 +1,69 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15207557",
+  "date_published": "20170330",
+  "date_produced": "20170316",
+  "title": "BUFFERED MULTI-RANK MEMORY MODULES CONFIGURED TO SELECTIVELY LINK RANK CONTROL SIGNALS AND METHODS OF OPERATING THE SAME",
+  "filing_date": "20160712",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Tae-Hyung",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Shin",
+      "inventor_name_first": "Huichong",
+      "inventor_city": "Seongnam-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Seokil",
+      "inventor_city": "Hwaseong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Yun",
+      "inventor_name_first": "Young",
+      "inventor_city": "Yongin-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Lim",
+      "inventor_name_first": "Jonghyoung",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Han",
+      "inventor_name_first": "Youkeun",
+      "inventor_city": "Yongin-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G11C2934",
+    "G06F121009",
+    "G06F306",
+    "G11C114093",
+    "G11C114076"
+  ],
+  "main_ipcr_label": "G11C2934",
+  "summary": "<SOH> SUMMARY <EOH>In some embodiments, a memory module can include a plurality of semiconductor memory devices on a substrate to provide a dual in-line memory module (DIMM) organized into at least two ranks and a memory buffer, where when a parallel bit test operation is started with respect to the plurality of semiconductor memory devices, the memory buffer changes a rank control signal received from a memory controller from inactive to active based on a mapping table defined according to a mode register set signal to perform the parallel bit test operation simultaneously to all the ranks. In some embodiments, a memory module can include a plurality of semiconductor memory devices on a substrate to provide a DIMM organized into at least two ranks and a memory buffer configured to change states of input signals received for each rank based on a mapping table defined according to a mode register set signal and configured to control the plurality of semiconductor memory devices for each rank. In some embodiments, a method of operating a memory module including a plurality of semiconductor memory devices organized into a multi-rank memory on a DIMM and a memory buffer included on the DIMM, operatively coupled to the multi-rank memory, can be provided by mapping an access to the DIMM from a memory controller to semiconductor memory devices included in more than one rank within the multi-rank memory based on a mode register set signal and selectively linking rank control signals during a parallel bit test operation to the more than one rank within the multi-rank memory plurality of semiconductor memory devices.",
+  "patent_number": "9812220",
+  "abstract": "A method of operating a memory module including a plurality of semiconductor memory devices organized into a multi-rank memory on a DIMM and a memory buffer included on the DIMM, operatively coupled to the multi-rank memory, can be provided by mapping an access to the DIMM from a memory controller to semiconductor memory devices included in more than one rank within the multi-rank memory based on a mode register set signal and selectively linking rank control signals during a parallel bit test operation to the more than one rank within the multi-rank memory plurality of semiconductor memory devices.",
+  "publication_number": "US20170092379A1-20170330",
+  "_processing_info": {
+    "original_size": 56332,
+    "optimized_size": 3616,
+    "reduction_percent": 93.58
+  }
+}

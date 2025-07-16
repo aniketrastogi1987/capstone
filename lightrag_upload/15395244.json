@@ -1,0 +1,30 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193402A1-20170706",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15395244",
+  "inventor_list": [
+    {
+      "inventor_name_last": "GREHANT",
+      "inventor_name_first": "Xavier M.",
+      "inventor_city": "Colombes",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "The invention notably relates to a computer-implemented method for updating a model of a machine learning system. The method comprises providing a first set of observations of similar events, each observation being associated with one or more variables, each variable being associated with a value, and with a target value; indexing each observation of the first set with its corresponding one or more variables and target value; receiving, on the index, a query allowing a selection of a subset of the first set of observations; returning, as a result of the query, a subset of the first set of observations; providing a second model; training the provided second model with the returned subset of the first set of observations; and loading the trained second model.",
+  "filing_date": "20161230",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is therefore provided a computer-implemented method for updating a model of a machine learning system. The method comprises: providing a first set of observations of similar events, each observation being associated with a target value and with one or more variables, each variable being associated with a value corresponding to the observation; indexing each observation of the first set with its corresponding one or more variables and target value; receiving, on the index, a query allowing a selection of a subset of the first set of observations; returning, as a result of the query, a subset of the first set of observations; providing a second model; training the provided second model with the returned subset of the first set of observations; and loading the trained second model. The method may comprise one or more of the following: providing a first model; training the first model with the first set of observations; storing the trained first model. before receiving a query on the index: collecting a second set of observations of current events; and wherein receiving a query on the index further comprises receiving, on the index, a query allowing a selection of a subset of the first set of observations, the query being performed with one or more variables of the second set of observations; before receiving a query on the index: identifying one or more variables of the second set of observations; and wherein receiving a query on the index further comprises receiving, on the index, a query allowing a selection of a subset of the first set of observations, the query being performed with the identified one or more variables of the second set of observations. identifying one or more variables of the second set of observations comprises identifying (S 210 ) slow moving variables and/or identifying fast moving variables; identifying one or more unknown variables among the variables of the second set of observations; and indexing each o...",
+  "date_published": "20170706",
+  "title": "UPDATE OF A MACHINE LEARNING SYSTEM",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 75629,
+    "optimized_size": 3294,
+    "reduction_percent": 95.64
+  }
+}

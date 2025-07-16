@@ -1,0 +1,80 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193373A1-20170706",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15039780",
+  "inventor_list": [
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Bo",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "QU",
+      "inventor_name_first": "Xianping",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "HE",
+      "inventor_name_first": "Jia",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "TAO",
+      "inventor_name_first": "Shimin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZANG",
+      "inventor_name_first": "Zhi",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "MIAO",
+      "inventor_name_first": "Beibei",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Yu",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SU",
+      "inventor_name_first": "Hui",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Embodiments of the present disclosure provide a disk capacity predicting method, apparatus, equipment and non-volatile computer storage medium. On the one hand, the change data of the disk capacity is obtained according to the historical capacity data of the disk; then the target inflection point in the historical capacity data is obtained according to the change data of the disk capacity; and then the linear relationship between the time and disk capacity is obtained according to the historical capacity data after the target inflection point. Therefore, technical solutions provided by embodiments of the present disclosure may achieve improvement of accuracy of prediction of disk capacity trend and reduce the cost needed in disk capacity prediction.",
+  "filing_date": "20160526",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSURE <EOH>In view of the above, embodiments of the present disclosure provide a disk capacity predicting method, apparatus, equipment and non-volatile computer storage medium, which achieves improvement of accuracy of prediction of disk capacity trend, and reduces the cost needed in disk capacity prediction. According to an aspect of embodiments of the present disclosure, there is provided a disk capacity predicting method, comprising: obtaining change data of a disk capacity according to historical capacity data of the disk; obtaining a target inflection point in the historical capacity data according to the change data of the disk capacity; obtaining a linear relationship between time and the disk capacity according to the historical capacity data after the target inflection point. The aforesaid aspect and any possible implementation mode may further provide an implementation mode: before obtaining change data of a disk capacity according to historical capacity data of the disk, the method further comprises: performing data smoothing processing for the historical capacity data of the disk. The aforesaid aspect and any possible implementation mode may further provide an implementation mode :the historical capacity data comprise at least one sampling moment and a disk capacity at each sampling moment; the obtaining the change data of a disk capacity according to historical capacity data of the disk comprises: obtaining a disk capacity speed at each sampling moment in said at least on sampling moment according to the disk capacity at said at least one sampling moment, as the change data of the disk capacity; or obtaining a disk capacity acceleration at each sampling moment in said at least on sampling moment according to the disk capacity at said at least one sampling moment, as the change data of the disk capacity. The aforesaid aspect and any possible implementation mode may further provide an implementation mode: the obtaining a target i...",
+  "date_published": "20170706",
+  "title": "DISK CAPACITY PREDICTING METHOD, APPARATUS, EQUIPMENT AND NON-VOLATILE COMPUTER STORAGE MEDIUM",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F306"
+  ],
+  "_processing_info": {
+    "original_size": 58568,
+    "optimized_size": 4312,
+    "reduction_percent": 92.64
+  }
+}

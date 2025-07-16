@@ -1,0 +1,51 @@
+{
+  "date_produced": "20170705",
+  "publication_number": "US20170206458A1-20170720",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15378184",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sakamoto",
+      "inventor_name_first": "Yoshinori",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Matsubara",
+      "inventor_name_first": "Masazumi",
+      "inventor_city": "Machida",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KOBAYASHI",
+      "inventor_name_first": "Kenji",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KOYANAGI",
+      "inventor_name_first": "Yusuke",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A non-transitory computer-readable recording medium stores a program that causes a computer to execute a process including: performing a first conversion processing to convert a value indicating each event, and to convert, based on conversion information that indicates a group of the value and an identification value that corresponds to values belonging to the group; constructing information with occurrence probabilities by connecting identification values; performing second conversion processing to convert a value indicating each event included in event data, and to convert values that belong to a group indicated in the conversion information into an identical identification value corresponding to the group based on the conversion information; and detecting an anomaly based on a result of comparison between the constructed information and the identification value.",
+  "filing_date": "20161214",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of an embodiment, a non-transitory computer-readable recording medium stores therein a detection program that causes a computer to execute a process including: performing a first conversion processing to convert a value indicating each event that is included in history log into an identification value corresponding to the value, and to convert, based on conversion information that indicates a group of the value and an identification value that corresponds to values belonging to the group, values that belong to a group indicated in the conversion information into an identical identification value that corresponds to the group; constructing information with occurrence probabilities by connecting identification values that are obtained by conversion by the first conversion processing in order of occurrence of the event sequentially from a root, and by assigning an occurrence probability of an event that corresponds to the identification value per identification value; performing second conversion processing to convert a value indicating each event included in event data that is input according to an event has occurred into an identification value corresponding to the value, and to convert values that belong to a group indicated in the conversion information into an identical identification value corresponding to the group based on the conversion information; and detecting an anomaly based on a result of comparison between the constructed information with occurrence probabilities and the identification value that is obtained by conversion by the second conversion processing. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the invention, as claimed.",
+  "date_published": "20170720",
+  "title": "COMPUTER-READABLE RECORDING MEDIUM, DETECTION METHOD, AND DETECTION APPARATUS",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 61033,
+    "optimized_size": 3866,
+    "reduction_percent": 93.67
+  }
+}

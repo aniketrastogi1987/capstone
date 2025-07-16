@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189628A1-20180705",
+  "main_ipcr_label": "G06N300",
+  "decision": "PENDING",
+  "application_number": "15394869",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kaufmann",
+      "inventor_name_first": "Tobias",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Kannan",
+      "inventor_name_first": "Anjuli",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods and apparatus related to determining a semantically diverse subset of candidate responses to provide for initial presentation to a user as suggestions for inclusion in a reply to an electronic communication. Some of those implementations determine the semantically diverse subset of candidate responses based on generating, over a neural network response encoder model, embeddings that are each based on one of the plurality of the candidate responses. The embedding based on a given candidate response may be compared to embedding(s) of candidate response(s) already selected for the subset, and the given candidate response added to the subset only if the comparing indicates a difference criterion is satisfied.",
+  "filing_date": "20161230",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In some situations it may be desirable to suggest one or more responses to a user for inclusion in a reply electronic communication that is a reply to an electronic communication transmitted to the user. For example, if a chat message of “Are you interested in grabbing lunch?” is transmitted to a client device of a user, it may be desirable to provide the user with responses that can be selected by the user, via the client device, (e.g., with a single-tap or other single-selection input) for inclusion in a reply chat message that is responsive to the received chat message. For instance, responses such as “Sure, what time?”, “Thanks, but I'm busy”, and “I'll get back to you” may be provided as suggestions based on their contextual relevance to the received chat message of “Are you interested in grabbing lunch?”. Selection of one of the provided responses by the user will reduce the number of user inputs that a user must make to formulate the reply, which may reduce the usage of various client device computational resources and/or be of particular benefit to users that have low dexterity (or who otherwise have difficulties making user inputs to a client device). However, some techniques for generating suggested responses may generate a large quantity of candidate responses that may potentially be provided as suggestions. Due to user interface constraints and/or other considerations, it may be undesirable and/or impossible to provide all such candidate responses for initial presentation to the user as suggestions. Accordingly, a subset of those candidate responses may be selected for initial presentation to the user as suggestions. Implementations disclosed herein seek to select such a subset in a manner that promotes semantic diversity among the responses of the subset. In view of these and other considerations, some implementations of this specification are directed generally to methods and apparatus related to determining a semantically diverse su...",
+  "date_published": "20180705",
+  "title": "DETERMINING SEMANTICALLY DIVERSE RESPONSES FOR PROVIDING AS SUGGESTIONS FOR INCLUSION IN ELECTRONIC COMMUNICATIONS",
+  "ipcr_labels": [
+    "G06N300",
+    "H04L1258",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 89967,
+    "optimized_size": 3541,
+    "reduction_percent": 96.06
+  }
+}

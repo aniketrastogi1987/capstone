@@ -1,0 +1,44 @@
+{
+  "date_produced": "20160713",
+  "publication_number": "US20160217395A1-20160728",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15090425",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tatonetti",
+      "inventor_name_first": "Nicholas",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Altman",
+      "inventor_name_first": "Russ B.",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fernald",
+      "inventor_name_first": "Guy Haskin",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An algorithm according to an embodiment of the present invention provides for latent signal detection of adverse events. Embodiments infer the presence of adverse drug events from large observational databases housed by the FDA, WHO, and other governmental organizations. The disclosed algorithms do not require the adverse event to be reported explicitly. Instead, the algorithms infer the presence of adverse events through more common secondary effects. In an embodiment, machine learning techniques are used for this purpose.",
+  "filing_date": "20160404",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The databases maintained by the FDA and other organizations present an opportunity to study the full range of drug effects. In embodiments of the present invention, data-driven methods are implemented that correct for drug effects. Embodiments of the present invention provide significantly improved performance in at least two benchmark settings: associating drugs to their known side-effects using the FDA drug labels, and predicting future adverse event reporting patterns in two spontaneous reporting systems. An algorithm according to an embodiment of the present invention provides for latent signal detection. Among other things, this algorithm infers the presence of adverse drug events from large observational databases housed by the FDA, WHO, and other governmental organizations. This algorithm does not require the adverse event to be reported explicitly. Instead, this algorithm infers its presence through more common secondary effects. In an embodiment, machine learning techniques are used for this purpose. Another algorithm according to an embodiment of the present invention provides for statistical correction of uncharacterized bias. The same large database housed by governmental organizations can be biased, which makes analysis difficult and inference more difficult. Further, these biases are “uncorrectable” in that the covariates that may explain them may not be collected in the databases. These issues have severely limited the utility of traditional statistical methods when applied to these data. A method according to an embodiment of the invention, however, uses covariances in drug co-prescription and co-morbidities to approximate these biases. Statistical methods are disclosed according to an embodiment of the present invention that outperform the traditional methods. It has been shown that a method according to an embodiment of the present invention can implicitly correct for the effect of a covariate that is not actuall...",
+  "date_published": "20160728",
+  "title": "Signal Detection Algorithms to Identify Drug Effects and Drug Interactions",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 65476,
+    "optimized_size": 3413,
+    "reduction_percent": 94.79
+  }
+}

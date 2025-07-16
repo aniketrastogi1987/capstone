@@ -1,0 +1,40 @@
+{
+  "date_produced": "20160713",
+  "publication_number": "US20160217385A1-20160728",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15001453",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Seungjin",
+      "inventor_city": "Gyeongsangbuk-do",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Yong-Deok",
+      "inventor_city": "Jeollabuk-do",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "Disclosed are MNAR data analysis methods and apparatuses for analyzing user preference data on products. Also, a product recommendation system using the same is disclosed. A data analysis method based on a binomial mixture model comprises defining a binomial mixture model based data generation model for analyzing user preference data on products; defining a missing data mechanism model for explaining observation and missing of user preference data on the products; learning the data generation model and the missing data mechanism model based on observed user preference data on the products; and determining final preferences on products whose preferences are missing based on the learned data generation model and the learned missing data mechanism model.",
+  "filing_date": "20160120",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Accordingly, exemplary embodiments of the present invention are provided to substantially obviate one or more problems due to limitations and disadvantages of the related art. Exemplary embodiments according to the present disclosure provide methods and apparatuses of analyzing data following MNAR mechanism as technologies of analyzing data of user preference rating on products. Exemplary embodiments according to the present disclosure also provide a product recommendation system using the above-described data analysis methods and apparatuses. In order to achieve the objectives of the present invention, an aspect of a MNAR data analysis method based on a binomial mixture model may comprise defining a binomial mixture model based data generation model for analyzing user preference data on products; defining a missing data mechanism model for explaining observation and missing of user preference data on the products; learning the data generation model and the missing data mechanism model based on observed user preference data on the products; and determining final preferences on products whose preferences are missing based on the learned data generation model and the learned missing data mechanism model. Here, the binomial mixture model based data generation model may be defined based on assumption that users are grouped into a plurality of groups having similar preferences, assumption that user preferences on products follow a binomial distribution model, and assumption that users belonging to a same group share parameters of the binomial distribution model. Here, the missing data mechanism model may be based on three factors including user activities, popularities of products, and rating value based selection effects, and the three factors are represented as binary variables. Also, whether a specific user's preference on a specific product is observed or missing may be determined through a Boolean OR operation on the three factors. Here, the learn...",
+  "date_published": "20160728",
+  "title": "METHOD AND APPARATUS FOR ANALYZING MISSING NOT AT RANDOM DATA AND RECOMMENDATION SYSTEM USING THE SAME",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N504",
+    "G06Q3006",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 75924,
+    "optimized_size": 3540,
+    "reduction_percent": 95.34
+  }
+}

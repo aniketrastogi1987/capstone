@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170517",
+  "publication_number": "US20170154277A1-20170601",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15321178",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Tangxi",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "A method and an apparatus for detecting changed data are provided. The method includes: recording change status information of each data field in a data table during a version change; obtaining a probability of a second data field being changed simultaneously when a first data field is changed, the probability being a confidence probability of the second data field being changed in the first data field being changed; determining, when confidence probabilities of at least two second data fields being changed in the same first data field being changed are greater than a confidence probability threshold of the data table, that the second data fields corresponding to the confidence probabilities greater than the confidence probability threshold are a combined field; determining whether a combination of the changed data fields matches a combined field template during the current version change, and prompting a location of the unmatched changed data field.",
+  "filing_date": "20161221",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure provides a method and an apparatus for detecting changed data, so as to solve a problem of slow speed and low efficiency for detecting a large amount of changed data manually in the existing technology. A method for detecting changed data includes: recording change status information of each data field in a data table during a version change; obtaining, according to the change status information, a probability of a second data field being changed at the same time when a first data field is changed, the probability being a confidence probability of the second data field being changed in the first data field being changed; determining, when confidence probabilities of at least two second data fields being changed in the same first data field being changed are greater than a confidence probability threshold of the data table, that the second data fields corresponding to the confidence probabilities greater than the confidence probability threshold are a combined field; determining whether a combination of the changed data fields matches a combined field template during the current version change, and prompting a location of the unmatched changed data field if the combination of the changed data fields does not match the combined field template during the current version change, the combined field template being any combined field or a combination of at least two of the combined fields excluding same data fields. An apparatus for detecting changed data includes: a recording unit, configured to record change status information of each data field in a data table during a version change; an obtaining unit, configured to obtain, according to all the change status information, a probability of a second data field being changed at the same time when a first data field is changed, the probability being a confidence probability of the second data field being changed in the first data field being changed; a determining unit, configured t...",
+  "date_published": "20170601",
+  "title": "METHOD AND APPARATUS FOR DETECTING CHANGED DATA",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 74567,
+    "optimized_size": 3507,
+    "reduction_percent": 95.3
+  }
+}

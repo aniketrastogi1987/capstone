@@ -1,0 +1,41 @@
+{
+  "date_produced": "20170412",
+  "publication_number": "US20170116521A1-20170427",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15273551",
+  "inventor_list": [
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Jiang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "HUANG",
+      "inventor_name_first": "Chang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present invention provides a tag processing method and device. In the embodiments of the present invention, through obtaining semantic characteristic data of a resource and then obtaining posterior probabilities of at least one tag sequence of the resource according to the semantic characteristic data of the resource, it is possible to select, based on the posterior probabilities, a tag sequence as a tag set for the resource, and thus realize the purpose of obtaining a plurality of tags for the resource.",
+  "filing_date": "20160922",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Aspects of the present invention provide a tag processing method and device to obtain a plurality of tags for a resource. One aspect of the present invention provides a tag processing method, comprising: obtaining semantic characteristic data of a resource; obtaining posterior probabilities of at least one tag sequence of the resource according to the semantic characteristic data of the resource; selecting, based on the posterior probabilities, one tag sequence as a tag set for the resource. As the aspect described above and in any possible way of implementation, one way of implementation is further provided, in which the step of obtaining semantic characteristic data of a resource comprises: using a pre-built convolutional neural network to process the resource to obtain the semantic characteristic data of the resource. As the aspect described above and in any possible way of implementation, one way of implementation is further provided, in which the method further comprises: sorting at least one tag contained in each first training sample in a first training sample set based on the occurrences of tags in the first training sample set, so as to obtain a sample sequence of each first training sample; constructing the convolutional neural network based on the sample sequence of each first training sample. As the aspect described above and in any possible way of implementation, one way of implementation is further provided, in which step of obtaining posterior probabilities of at least one tag sequence of the resource according to the semantic characteristic data of the resource comprises: obtaining posterior probabilities of at least one tag sequence of the resource according to the semantic characteristic data of the resource using a pre-built recurrent neural network. As the aspect described above and in any possible way of implementation, one way of implementation is further provided, in which the method further comprises: sorting at least one t...",
+  "date_published": "20170427",
+  "title": "TAG PROCESSING METHOD AND DEVICE",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1730",
+    "G06F708",
+    "G06N304",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 53550,
+    "optimized_size": 3213,
+    "reduction_percent": 94.0
+  }
+}

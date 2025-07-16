@@ -1,0 +1,60 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364794A1-20171221",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15187685",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MAHKONEN",
+      "inventor_name_first": "Heikki",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MANGHIRMALANI",
+      "inventor_name_first": "Ravi",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MUNOZ DE LA TORRE ALONSO",
+      "inventor_name_first": "Miguel Angel",
+      "inventor_city": "Madrid",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    },
+    {
+      "inventor_name_last": "SANCHEZ VEGA",
+      "inventor_name_first": "Veronica",
+      "inventor_city": "Madrid",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    },
+    {
+      "inventor_name_last": "SHIRAZIPOUR",
+      "inventor_name_first": "Meral",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method is implemented by a network device to classify encrypted data traffic. The method identifies characteristics of the encrypted data traffic that have been modeled where network anomalies have been injected into the encrypted data traffic to provide additional traffic characteristics that enable categorization. The method receives the encrypted data traffic, applies an encrypted traffic categorization model to the received encrypted data traffic to determine a first categorization identification, injects an anomaly into the encrypted data traffic where the first categorization identification is not within a precision threshold, applies the encrypted traffic categorization model to monitored encrypted traffic after injection of the anomaly to determine a second categorization identification, and applies the second categorization identification where the second categorization identification is within the precision threshold.",
+  "filing_date": "20160620",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The embodiments include a method implemented by a network device to classify encrypted data traffic. The method identifies characteristics of the encrypted data traffic that have been modeled where network anomalies have been injected into the encrypted data traffic to provide additional traffic characteristics that enable categorization. The method includes receiving the encrypted data traffic, applying an encrypted traffic categorization model to the received encrypted traffic to determine a first categorization identification, and injecting an anomaly into the encrypted data traffic where the first categorization identification is not within a precision threshold. The method then applies the encrypted traffic categorization model to monitored encrypted traffic after injection of the anomaly to determine a second categorization identification, and applies the second categorization identification where the second categorization identification is within the precision threshold. In a further embodiment a network device is configured to execute the method to classify encrypted data traffic. The network device includes a non-transitory computer-readable storage medium having stored therein an encrypted traffic categorizer, and a processor coupled to the non-transitory computer-readable storage medium. The processor is configured to execute the encrypted traffic categorizer. The encrypted traffic categorizer receives the encrypted data traffic, applies an encrypted traffic categorization model to the received encrypted traffic to determine a first categorization identification, injects an anomaly into the encrypted data traffic where the first categorization identification is not within a precision threshold, applies the encrypted traffic categorization model to monitored encrypted traffic after injection of the anomaly to determine a second categorization identification, and applies the second categorization identification where the second categoriza...",
+  "date_published": "20171221",
+  "title": "METHOD FOR CLASSIFYING THE PAYLOAD OF ENCRYPTED TRAFFIC FLOWS",
+  "ipcr_labels": [
+    "G06N308",
+    "H04L1226",
+    "H04L2906"
+  ],
+  "_processing_info": {
+    "original_size": 105524,
+    "optimized_size": 4134,
+    "reduction_percent": 96.08
+  }
+}

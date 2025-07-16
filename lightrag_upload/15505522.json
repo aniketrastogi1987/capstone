@@ -1,0 +1,85 @@
+{
+  "patent_number": "9881256",
+  "application_number": "15505522",
+  "date_published": "20170907",
+  "date_produced": "20170823",
+  "filing_date": "20170221",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Computational systems implement problem solving using heuristic solvers or optimizers. Such may iteratively evaluate a result of processing, and modify the problem or representation thereof before repeating processing on the modified problem, until a termination condition is reached. Heuristic solvers or optimizers may execute on one or more digital processors and/or one or more quantum processors. The system may autonomously select between types of hardware devices and/or types of heuristic optimization algorithms. Such may coordinate or at least partially overlap post-processing operations with processing operations, for instance performing post-processing on an ith batch of samples while generating an (i+1)th batch of samples, e.g., so post-processing operation on the ith batch of samples does not extend in time beyond the generation of the (i+1)th batch of samples. Heuristic optimizers selection is based on pre-processing assessment of the problem, e.g., based on features extracted...",
+  "publication_number": "US20170255872A1-20170907",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>There exists a need to be able to generate solutions or possible solutions to a large variety of problems, and to do so in a time efficient and computational cost efficient manner. Selecting an appropriate solver for a particular problem or class of problems can be difficult and time intensive, as can be selecting the most appropriate hardware. Automated approaches which provide access to a variety of solvers and hardware are desirable. Computational systems are described which, at least in some implementations, may be used to provide services, accessed remotely via a simple interface (e.g., application programming interface (API) or Web-based user interface) for problem solving using a variety of solvers implemented via a variety of algorithms executing on a variety of hardware (e.g., processors). The interface takes as input, for example, any of the following: any QUBO matrix Q, a flag specifying whether optimization or Boltzmann sampling is desired, and a set of parameters for expert users. The interface may also take as input a problem formulated as a satisfiability (SAT) problem, a graphical model (GM) or a quadratic assignment problem (QAP). The interface returns as output a best solution. The computational systems may include a large variety of algorithms for solving optimization and sampling over QUBOs. The computational systems may run or execute the various algorithms, for example in parallel, and use the best answers returned from two or more solver algorithms. The computational systems may include both superconducting or quantum hardware as well as classical, non-superconducting or non-quantum hardware. The computational systems typically pre-process problems, and post-process the results of the processing of the problems by the solvers. This approach may provide quality solutions in a cost efficient manner. The computational systems, devices, articles and/or methods described herein are a hybrid solution, leveraging various tech...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F902",
+    "G06F1710",
+    "G06F1576",
+    "G06F932",
+    "G06N312",
+    "G06F1518"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hamze",
+      "inventor_name_first": "Firas",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "King",
+      "inventor_name_first": "Andrew Douglas",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Raymond",
+      "inventor_name_first": "Jack",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Roy",
+      "inventor_name_first": "Aidan Patrick",
+      "inventor_city": "Surrey",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Israel",
+      "inventor_name_first": "Robert",
+      "inventor_city": "Richmond",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Andriyash",
+      "inventor_name_first": "Evgeny",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "McGeoch",
+      "inventor_name_first": "Catherine",
+      "inventor_city": "Amherst",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ranjbar",
+      "inventor_name_first": "Mani",
+      "inventor_city": "Burnaby",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR PROBLEM SOLVING, USEFUL FOR EXAMPLE IN QUANTUM COMPUTING",
+  "decision": "ACCEPTED",
+  "_processing_info": {
+    "original_size": 272328,
+    "optimized_size": 4667,
+    "reduction_percent": 98.29
+  }
+}

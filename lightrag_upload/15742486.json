@@ -1,0 +1,37 @@
+{
+  "filing_date": "20180105",
+  "publication_number": "US20180204120A1-20180719",
+  "decision": "PENDING",
+  "summary": "<SOH> SUMMARY <EOH>A first aspect of the invention provides an electronic device comprising a processor, at least one input interface, and an artificial neural network. The artificial neural network comprises an input layer, an output layer and at least first and second hidden layers. The number of units of the second hidden layer is equal to the number of units of the input layer. The processor is configured to generate one or more predicted next items in a sequence of items based on an input sequence item received at the at least one input interface by retrieving a context vector corresponding to the input sequence item using stored data; processing the context vector with the artificial neural network; retrieving an output vector at the output layer of the artificial neural network by transforming the output of the second hidden layer of the artificial neural network using at least some of the stored data, wherein the output vector corresponds to one or more predicted next items; and outputting the output vector. Preferably, the processor is configured to process the context vector with the artificial neural network by providing the context vector to the input layer of the artificial neural network; multiplying the contents of the input layer with a first weight matrix W 0 and providing the result to the first hidden layer of the artificial neural network; processing the input to the first hidden layer with the nodes of the first hidden layer to produce an output of the first hidden layer; multiplying the output of the first hidden layer with a second weight matrix W 1 and providing the result to the second hidden layer of the artificial neural network; and processing the input to the second hidden layer with the nodes of the second hidden layer to produce an output of the second hidden layer; Additionally, the artificial neural network may further comprise a recurrent hidden vector. The recurrent hidden vector comprises data indicative of a previous state of the...",
+  "title": "IMPROVED ARTIFICIAL NEURAL NETWORK FOR LANGUAGE MODELLING AND PREDICTION",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "abstract": "The present invention relates to an improved artificial neural network for predicting one or more next items in a sequence of items based on an input sequence item. The improved artificial neural network has greatly reduced memory requirements, making it suitable for use on electronic devices such as mobile phones and tablets. The invention includes an electronic device on which the improved artificial neural network operates, and methods of predicting the one or more next items in the sequence using the improved artificial neural network.",
+  "patent_number": "nan",
+  "application_number": "15742486",
+  "date_published": "20180719",
+  "main_ipcr_label": "G06N308",
+  "date_produced": "20180705",
+  "inventor_list": [
+    {
+      "inventor_name_last": "REI",
+      "inventor_name_first": "Marek",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "WILLSON",
+      "inventor_name_first": "Matthew James",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "_processing_info": {
+    "original_size": 102058,
+    "optimized_size": 3246,
+    "reduction_percent": 96.82
+  }
+}

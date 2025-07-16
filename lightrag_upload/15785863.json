@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15785863",
+  "date_published": "20180208",
+  "date_produced": "20180124",
+  "filing_date": "20171017",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method and system for providing an enriched root cause of an incident using machine-generated textual data. The method includes extracting, from a dataset including machine-generated textual data for a monitored environment, a plurality of features related to a root cause of an incident in the monitored environment; generating a suitability score for each of a plurality of insights with respect to the incident based on the extracted features and a suitability model, wherein the suitability model is created based on a training set including a plurality of training inputs and a plurality of training outputs, wherein each training output corresponds to at least one of the plurality of training inputs; and selecting at least one suitable insight based on the generated suitability scores.",
+  "publication_number": "US20180039914A1-20180208",
+  "summary": "<SOH> SUMMARY <EOH>A summary of several example embodiments of the disclosure follows. This summary is provided for the convenience of the reader to provide a basic understanding of such embodiments and does not wholly define the breadth of the disclosure. This summary is not an extensive overview of all contemplated embodiments, and is intended to neither identify key or critical elements of all embodiments nor to delineate the scope of any or all aspects. Its sole purpose is to present some concepts of one or more embodiments in a simplified form as a prelude to the more detailed description that is presented later. For convenience, the term “some embodiments” or “certain embodiments” may be used herein to refer to a single embodiment or multiple embodiments of the disclosure. Some embodiments disclosed herein include a method for providing an enriched root cause of an incident using machine-generated textual data. The method comprises: extracting, from a dataset including machine-generated textual data for a monitored environment, a plurality of features related to a root cause of an incident in the monitored environment; generating a suitability score for each of a plurality of insights with respect to the incident based on the extracted features and a suitability model, wherein the suitability model is created based on a training set including a plurality of training inputs and a plurality of training outputs, wherein each training output corresponds to at least one of the plurality of training inputs; and selecting at least one suitable insight based on the generated suitability scores. Some embodiments disclosed herein also include a non-transitory computer readable medium having stored thereon instructions for causing a processing circuitry to execute a process for providing an enriched root cause of an incident using machine-generated textual data, the process comprising extracting, from a dataset including machine-generated textual data for a monitored env...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MENAHEM",
+      "inventor_name_first": "Gabby",
+      "inventor_city": "Petach Tikva",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "MANN",
+      "inventor_name_first": "Dror",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "LEHMANN",
+      "inventor_name_first": "Yaron",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "title": "MACHINE LEARNING TECHNIQUES FOR PROVIDING ENRICHED ROOT CAUSES BASED ON MACHINE-GENERATED DATA",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 72867,
+    "optimized_size": 3697,
+    "reduction_percent": 94.93
+  }
+}

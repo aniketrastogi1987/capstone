@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180509",
+  "publication_number": "US20180144264A1-20180524",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15356494",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ranzato",
+      "inventor_name_first": "Marc Aurelio",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chopra",
+      "inventor_name_first": "Sumit",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Auli",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zaremba",
+      "inventor_name_first": "Wojciech",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system for training a model to predict a sequence (e.g. a sequence of words) given a context is disclosed. A model can be trained to make these predictions using a combination of individual predictions compared to base truth and sequences of predictions based on previous predictions, where the resulting sequence is compared to the base truth sequence. In particular, the model can initially use the individual predictions to train the model. The model can then be further trained over the training data in multiple iterations, where each iteration includes two processes for each training element. In the first process, an initial part of the sequence is predicted, and the model and model parameters are updated after each prediction. In the second process, the entire remaining amount of the sequence is predicted and compared to the corresponding training sequence to adjust model parameters to encourage or discourage each prediction.",
+  "filing_date": "20161118",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram illustrating an overview of devices on which some implementations can operate. FIG. 2 is a block diagram illustrating an overview of an environment in which some implementations can operate. FIG. 3 is a block diagram illustrating components which, in some implementations, can be used in a system employing the disclosed technology. FIG. 4 is a flow diagram illustrating a process used in some implementations for training a sequence NLP engine. FIG. 5 is a flow diagram illustrating a process used in some implementations for partially training a sequence NLP engine using individual base truth comparisons. FIG. 6 is a flow diagram illustrating a process used in some implementations for partially training a sequence NLP engine using predictions to evolve training elements and difference-based back propagation. FIG. 7 is an example illustrating an iteration of training a sequence NLP engine using a combination of individual base truth comparisons and predictions to evolve the training element. detailed-description description=\"Detailed Description\" end=\"lead\"? The techniques introduced here may be better understood by referring to the following Detailed Description in conjunction with the accompanying drawings, in which like reference numerals indicate identical or functionally similar elements.",
+  "date_published": "20180524",
+  "title": "TRAINING SEQUENCE NATURAL LANGUAGE PROCESSING ENGINES",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1727"
+  ],
+  "_processing_info": {
+    "original_size": 78221,
+    "optimized_size": 3332,
+    "reduction_percent": 95.74
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "filing_date": "20180110",
+  "publication_number": "US20180189670A1-20180705",
+  "decision": "PENDING",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. Provided are computer implemented methods and systems for predicting network activity associated with a given network site. Using the methods or systems described herein, a service provider or an enterprise can selectively investigate and/or monitor a network site based on a probability that the network site will be involved in a specific network activity in the future. The service provider or enterprise can send a request to the system for predicting a network activity with a network site. The system for predicting network activity can retrieve historical data related to the activity of the network site and analyze the historical data for signs of past network activities. Based on the analysis, a probability of future network site participation in the network activity can be determined. In some embodiments, the probability is further determined based on certain environmental parameters (for example, a name of a domain associated with the network site, a malware risk associated with the network site, a general speed of network traffic, related network sites, and so forth). To confirm the probability, activities of the network site can be monitored during a specific time period. If the monitoring results in evidence of the network activity, the network activity is confirmed. Furthermore, the calculated probability can be reevaluated and refreshed based on the received evidence. If the probability of a network activity occurring exceeds a predefined threshold, actions ranging from notifying the service provider or enterprise to blocking, redirecting or providing interstitial activities relating to the networ...",
+  "title": "PREDICTING NETWORK ACTIVITIES ASSOCIATED WITH A GIVEN SITE",
+  "ipcr_labels": [
+    "G06N700",
+    "H04L1224"
+  ],
+  "abstract": "A method predicting a network activity associated with a given network site is provided. The method can include receiving a request to predict a probability of network activity associated with the network site, analyzing historical data associated with the network site, and, based on the analysis, determining the probability of the network activity in future. The method can further include monitoring the network site, ascertaining evidence associated with the network activity, and, based on the evidence, adjusting treatment of the network site. Additionally, the method can include comparing the probability to a predetermined threshold probability and, based on the comparison, selectively taking an action concerning the network site.",
+  "patent_number": "nan",
+  "application_number": "15866790",
+  "date_published": "20180705",
+  "main_ipcr_label": "G06N700",
+  "date_produced": "20180620",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wu",
+      "inventor_name_first": "Erik",
+      "inventor_city": "Marietta",
+      "inventor_state": "GA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wisowaty",
+      "inventor_name_first": "Peter",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brown",
+      "inventor_name_first": "Edward",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "_processing_info": {
+    "original_size": 40580,
+    "optimized_size": 3591,
+    "reduction_percent": 91.15
+  }
+}

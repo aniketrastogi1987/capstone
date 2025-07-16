@@ -1,0 +1,53 @@
+{
+  "date_produced": "20160824",
+  "publication_number": "US20160260015A1-20160908",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15156039",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LUCEY",
+      "inventor_name_first": "Patrick J.",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SHA",
+      "inventor_name_first": "Long",
+      "inventor_city": "Queensland",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "CARR",
+      "inventor_name_first": "G. Peter K.",
+      "inventor_city": "Allison Park",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MATTHEWS",
+      "inventor_name_first": "Iain A.",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Approaches are described for formation retrieval. Embodiments receive positional data, across an interval window, including a respective agent trajectory for each agent and an object trajectory for one or more objects. The interval window is partitioned into frames and, at each frame, embodiments calculate a cost of assigning a role to each agent based on one or more exemplar formations. A formation is determined by assigning a role to each agent based on the calculated cost. Each frame of the formation is compared to a corresponding frame of a stored formation, by calculating a distance between a position of each assigned role in the frame and a position of a corresponding role in the stored formation and by comparing the object trajectory for the one or more objects with a corresponding object trajectory in the stored formation. Based on the comparisons, a list of stored formations is generated.",
+  "filing_date": "20160516",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>One embodiment of the present invention sets forth a method for assigning roles to agents in a first group of agents engaging in an activity. The method includes receiving a first set of detections, wherein each detection in the first set of detections comprises a physical location. The method further includes defining an exemplar formation comprising an arrangement of each role in a set of roles. The method further includes calculating a first cost function between at least one detection in the first set of detections and at least one role in the set of roles. The method further includes generating a first set of permutations based on the first cost function. The method further includes assigning a first role in the set of roles to a first detection in the first set of detections based on the first set of permutations. In another embodiment, a method for sports formation retrieval is disclosed herein. The method includes receiving positional data for a formation, across an interval window, comprising a respective agent trajectory for each of a plurality of agents during the interval window. The method further includes partitioning the interval window into a plurality of frames. The method further includes at each of the plurality of frames, calculating a cost of assigning a role to each agent based on one or more exemplar formations at each of the plurality of frames. The method further includes assigning a role to each agent based on the calculated cost. The method further includes comparing each frame of the plurality of frames of the interval window to a corresponding frame of a stored formation, by calculating a distance between a position of each assigned role in the frame and a position of a corresponding role in the stored formation. The method further includes generating a list of similar formations based on the comparisons. Other embodiments include, without limitation, a computer-readable medium that includes instructio...",
+  "date_published": "20160908",
+  "title": "SPORTS FORMATION RETRIEVAL",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F30481",
+    "G06F30484"
+  ],
+  "_processing_info": {
+    "original_size": 128608,
+    "optimized_size": 3897,
+    "reduction_percent": 96.97
+  }
+}

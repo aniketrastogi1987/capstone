@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180207",
+  "publication_number": "US20180053098A1-20180222",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15238172",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BELLER",
+      "inventor_name_first": "Charles E.",
+      "inventor_city": "Baltimore",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SUMMERS",
+      "inventor_name_first": "Kristen M.",
+      "inventor_city": "Takoma Park",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system includes a knowledge canvassing system executed by a computer, a processor, and a memory coupled to the processor. The memory is encoded with instructions that when executed cause the processor to provide a training system configured to generate benchmark data, each benchmark datum including a set of one or more benchmark input entities and a set of one or more benchmark output entities associated with the one or more benchmark input entities, query the knowledge canvassing system with each set of benchmark input entities, receive, for each set of benchmark input entities queried, an output result from the knowledge canvassing system that includes a set of zero or more knowledge canvassing system output entities, and generate an evaluation score for each set of knowledge canvassing system output entities based on a comparison of the knowledge canvassing system output entities with the set of benchmark output entities.",
+  "filing_date": "20160816",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment, a method includes generating benchmark data. Each benchmark datum includes a set of one or more benchmark input entities and a set of one or more benchmark output entities associated with the one or more benchmark input entities. The method also includes querying, by a training system executing on a computer, a knowledge canvassing system with each set of benchmark input entities. The method also includes receiving, by the training system, for each set of benchmark input entities queried, an output result from the knowledge canvassing system. The output result includes a set of zero or more knowledge canvassing system output entities. The method also includes generating, by the training system, an evaluation score for each set of knowledge canvassing system output entities based on a comparison of the knowledge system output entities with the set of benchmark output entities. The comparison, in an embodiment of the method, may include matching a knowledge canvassing system output entity from one set of knowledge canvassing system output entities to a benchmark output entity from one set of benchmark output entities. In an embodiment of the method, the evaluation score may further be based on an estimation of a degree to which an unmatched knowledge canvassing system in one set of knowledge canvassing system output entities relates to any benchmark output entity from a set of benchmark output entities, in some embodiments, based on proximity in a knowledge graph. In an embodiment of the method, the evaluation score includes a summary coverage score and a maximum coverage score. The maximum coverage score may be based on the size of one set of benchmark output entities. The summary coverage score may be related to a percentage of benchmark output entities matched by one set of knowledge canvassing system output entities. An embodiment of the method may also include assigning weights to each benchmark output entity to gene...",
+  "date_published": "20180222",
+  "title": "AUTOMATIC EVALUATION OF A KNOWLEDGE CANVASSING APPLICATION",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730",
+    "G06F1718"
+  ],
+  "_processing_info": {
+    "original_size": 70268,
+    "optimized_size": 3669,
+    "reduction_percent": 94.78
+  }
+}

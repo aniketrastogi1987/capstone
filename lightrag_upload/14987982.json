@@ -1,0 +1,59 @@
+{
+  "date_produced": "20160803",
+  "publication_number": "US20160239749A1-20160818",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "14987982",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Peredriy",
+      "inventor_name_first": "Sergiy",
+      "inventor_city": "Chapel Hill",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chien",
+      "inventor_name_first": "Yung-Hsin",
+      "inventor_city": "Apex",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chaudhuri",
+      "inventor_name_first": "Arin",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McGuirk",
+      "inventor_name_first": "Ann Mary",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xiao",
+      "inventor_name_first": "Yongqiao",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Computer-implemented systems and methods are provided for predicting outputs. Global output fractions associated with an object are approximated. Outputs for a group are predicted based upon a cyclical aspect component and a movement prediction. An output prediction is calculated based upon the predicted outputs for a related object group and the approximated global output fraction for a particular object.",
+  "filing_date": "20160105",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with the teachings described herein, systems and methods are provided for using hierarchical data for predictions, such as data that are organized with respect to a spatial hierarchy and a category hierarchy. As an illustration, a computer-implemented system and method are provided herein for making output predictions based on the hierarchies. Fractions of a global output associated with a particular object may be approximated. Outputs for different groups may be predicted based upon a cyclical aspect component and a movement prediction. An object output prediction may be calculated based upon the predicted output for a group and the approximated fraction of the total output for that particular group. As another illustration, past data may be received from a computer-readable data store. A cyclical aspect component may be approximated based upon aggregated data from a first level of the spatial hierarchy and a first level of the object hierarchy. A movement prediction may be predicted based upon aggregated data from a second level of the spatial hierarchy and a second level of the object hierarchy. The second level of the spatial hierarchy may be at an equal or more detailed level in the spatial hierarchy than the first level of the spatial hierarchy, or the second level of the object hierarchy may be at an equal or more detailed level in the object hierarchy than the first level of the object hierarchy. For an object within a related object group, a fraction of the global output may be approximated that is associated with the object with respect to other objects in the related object group. Predictions for a related object group may be based upon the cyclical aspect component and the movement prediction, where a related object group is a collection of related objects. For the object within a related object group, a prediction may be calculated based upon the prediction for a related object group and the approximated object fraction ...",
+  "date_published": "20160818",
+  "title": "USE OF OBJECT GROUP MODELS AND HIERARCHIES FOR OUTPUT PREDICTIONS",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 127182,
+    "optimized_size": 3559,
+    "reduction_percent": 97.2
+  }
+}

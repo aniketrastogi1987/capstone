@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15587333",
+  "date_published": "20171214",
+  "date_produced": "20171129",
+  "filing_date": "20170504",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A quantum circuit and method for Schur transform includes: a first quantum register including n quantum systems initialized to an initial state of “0”, where n is an integer and represents a number of quantum systems; a second quantum register including m quantum systems initialized to the initial state of “0”, where m is an integer and represents a required workspace; a first quantum circuit that operates on only the first register and performs a block diagonalization of the n quantum systems into permutation modules; a second quantum circuit that operates on both registers and block diagonalizes each of the permutation modules using a QFTPermMod operation; and one or more quantum output registers coupled to the second quantum circuit for holding a basis for the Schur transform.",
+  "publication_number": "US20170357907A1-20171214",
+  "summary": "<SOH> SUMMARY <EOH>In some embodiments, the disclosed invention is a quantum circuit for Schur transform. The quantum circuit includes: a first quantum register including n quantum systems initialized to an initial state of “0”, where n is an integer and represents a number of quantum systems; a second quantum register including m quantum systems initialized to the initial state of “0”, where m is an integer and represents a required workspace; a first quantum circuit that operates on only the first register and performs a block diagonalization of the n quantum systems into permutation modules; a second quantum circuit that operates on both registers and block diagonalizes each of the permutation modules using a QFTPermMod operation; and one or more quantum output registers coupled to the second quantum circuit for holding a basis for the Schur transform. In some embodiments, the disclosed invention is a quantum method for performing Schur transform. The method includes: providing a first quantum register including n quantum systems initialized to an initial state of “0”, where n is an integer and represents a number of quantum systems; providing a second quantum register including m quantum systems initialized to the initial state of “0”, where m is an integer and represents a required workspace; performing a block diagonalization on the first register into permutation modules; performing block diagonalizing on each of the permutation modules using a QFTPermMod operation; and holding outputs of the block diagonalization of each of the permutation modules as a basis for the Schur transform. In some embodiments, m is equal to n. In some embodiments, the QFTPermMod operation comprises: providing a first quantum register including a computational basis given by elements of the transversal of G 0 in S n , where G 0 is a Young subgroup, and S n is a subgroup tower; providing a second quantum register that is an ancilla register of log |G 0 | qubits and is initialized to ...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1714"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Krovi",
+      "inventor_name_first": "Hari K.",
+      "inventor_city": "Lexington",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "QUANTUM CIRCUIT FOR HIGH DIMENSIONAL SCHUR TRANSFORM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 44744,
+    "optimized_size": 3405,
+    "reduction_percent": 92.39
+  }
+}

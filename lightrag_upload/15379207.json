@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15379207",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "title": "METHODS AND APPARATUS FOR PROVIDING AN FFT ENGINE USING A RECONFIGURABLE SINGLE DELAY FEEDBACK ARCHITECTURE",
+  "filing_date": "20161214",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nekuii",
+      "inventor_name_first": "Mehran",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Hong Jik",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1714",
+    "H04J1100"
+  ],
+  "main_ipcr_label": "G06F1714",
+  "summary": "<SOH> SUMMARY <EOH>In various exemplary embodiments, a methods and apparatus are provided for efficiently computing FFTs using a reconfigurable single-delay feedback (SDI) architecture. In an exemplary embodiment, a radix factorization is determined to allow an N-point FFT to be computed. A SDF engine is designed to compute one of the radix factors. For example, SDF engines are designed to compute radix-2, radix-3 and radix-4 computations. In an exemplary embodiment, the SDF engines are combined into an overall reconfigurable architecture that includes a plurality of inputs allowing FFT computations all LTE bandwidths to be computed. For example, in an exemplary embodiment, the SDF architecture supports all LTE bandwidths, which include FFT point sizes of 128, 256, 512, 1024, 1536, 2048, 3072 and 4096. In one embodiment, an apparatus is disclosed that performs FFTs using radix-2 and radix-3 SDF engines. For example, the apparatus is suitable to supports all LTE bandwidths, which include FFT sizes of 128, 256, 512, 1024, 1536, 2048, 3072 and 4096. The apparatus comprises a first two radix-2 (“R2̂2”) engine that is coupled to a first buffer having a capacity of storing 2048 samples, a second R2̂2 engine is coupled to a second buffer with a capacity of storing 1024 samples, and a the third R2̂2 engine coupled to a third buffer having a capacity of storing 512 samples. The apparatus also comprises a fourth R2̂2 engine coupled to a fourth buffer having a capacity of storing 256 samples, a fifth R2̂2 engine coupled to a fifth buffer with a capacity of storing 128 samples, and a sixth R2̂2 engine coupled to a sixth buffer having a capacity of storing 64 samples. The apparatus includes a plurality of input ports where each input port is designed to receive an input sample sequence for a particular FFT size. In an alternative aspect, an apparatus includes a set of radix-2 SDF engines and at most one radix-3 SDF engine that correspond to factors in a radix factorization. The ...",
+  "patent_number": "None",
+  "abstract": "Methods and apparatus for providing an FFT engine using a reconfigurable single delay feedback architecture. In one aspect, an apparatus includes a radix-2 (R2) single delay feedback (SDF) stage that generates a radix-2 output and a radix-3 (R3) SDF stage that generates a radix-3 output. The apparatus also includes one or more radix-2 squared (R2̂2) SDF stages that generate a radix-4 output. The apparatus further includes a controller that configures a sequence of radix stages selected from the R2, R3, and R2̂2 stages based on an FFT point size to form an FFT engine. The FFT engine receives input samples at a first stage of the sequence and generate an FFT output result that is output from a last stage of the sequence. The sequence includes no more than one R3 stage.",
+  "publication_number": "US20170220523A1-20170803",
+  "_processing_info": {
+    "original_size": 72808,
+    "optimized_size": 3581,
+    "reduction_percent": 95.08
+  }
+}

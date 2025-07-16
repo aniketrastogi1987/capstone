@@ -1,0 +1,73 @@
+{
+  "date_produced": "20171213",
+  "publication_number": "US20170372199A1-20171228",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15228990",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hakkani-Tur",
+      "inventor_name_first": "Dilek Z",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Celikyilmaz",
+      "inventor_name_first": "Asli",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Yun-Nung",
+      "inventor_city": "New Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Deng",
+      "inventor_name_first": "Li",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gao",
+      "inventor_name_first": "Jianfeng",
+      "inventor_city": "Woodinville",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tur",
+      "inventor_name_first": "Gokhan",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Ye-Yi",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A processing unit can train a model as a joint multi-domain recurrent neural network (JRNN), such as a bi-directional recurrent neural network (bRNN) and/or a recurrent neural network with long-short term memory (RNN-LSTM) for spoken language understanding (SLU). The processing unit can use the trained model to, e.g., jointly model slot filling, intent determination, and domain classification. The joint multi-domain model described herein can estimate a complete semantic frame per query, and the joint multi-domain model enables multi-task deep learning leveraging the data from multiple domains. The joint multi-domain recurrent neural network (JRNN) can leverage semantic intents (such as, finding or identifying, e.g., a domain specific goal) and slots (such as, dates, times, locations, subjects, etc.) across multiple domains.",
+  "filing_date": "20160804",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This disclosure describes systems, methods, and computer-executable instructions on computer-readable media for training a model as a joint multi-domain recurrent neural network (JRNN), such as a bi-directional recurrent neural network (bRNN) and/or a recurrent neural network with long-short term memory (RNN-LSTM) for spoken language understanding (SLU), and for using the trained model to, e.g., jointly model slot filling, intent determination, and domain classification. The joint multi-domain model described herein can estimate a complete semantic frame per query, and the joint multi-domain model enables multi-task deep learning where the data from multiple domains reinforce each other. In various examples, a computing device operates a joint multi-domain recurrent neural network (JRNN) leveraging semantic intents (such as, finding or identifying, e.g., a domain specific goal) and slots (such as, dates, times, locations, subjects, etc.) across multiple domains. This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key and/or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. The term “techniques,” for instance, can refer to system(s), method(s), computer-readable instructions, module(s), algorithms, hardware logic, and/or operation(s) as permitted by the context described above and throughout the document.",
+  "date_published": "20171228",
+  "title": "MULTI-DOMAIN JOINT SEMANTIC FRAME PARSING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 92406,
+    "optimized_size": 3835,
+    "reduction_percent": 95.85
+  }
+}

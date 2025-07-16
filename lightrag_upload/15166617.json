@@ -1,0 +1,38 @@
+{
+  "date_produced": "20160908",
+  "publication_number": "US20160275418A1-20160922",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15166617",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Welinder",
+      "inventor_name_first": "Peter",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Perona",
+      "inventor_name_first": "Pietro",
+      "inventor_city": "Altadena",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods for determining annotator performance in the distributed annotation of source data in accordance embodiments of the invention are disclosed. In one embodiment of the invention, a method for clustering annotators includes obtaining a set of source data, determining a training data set representative of the set of source data, obtaining sets of annotations from a set of annotators for a portion of the training data set, for each annotator determining annotator recall metadata based on the set of annotations provided by the annotator for the training data set and determining annotator precision metadata based on the set of annotations provided by the annotator for the training data set, and grouping the annotators into annotator groups based on the annotator recall metadata and the annotator precision metadata.",
+  "filing_date": "20160527",
+  "patent_number": "9898701",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Systems and methods for determining annotator performance in the distributed annotation of source data in accordance embodiments of the invention are disclosed. In one embodiment of the invention, a method for clustering annotators via a distributed data annotation process includes obtaining a set of source data using a distributed data annotation server system, where a piece of source data in the set of source data includes at least one identifying feature, determining a training data set representative of the set of source data using the distributed data annotation server system, where each piece of source data in the training data set includes source data metadata describing the ground truth for the piece of source data, where the ground truth for a piece of source data describes the features contained in the piece of source data and a correct label associated with each feature, obtaining sets of annotations from a set of annotators for a portion of the training data set using the distributed data annotation server system, where an annotation identifies one or more features within a piece of source data in the training data set, for each annotator determining annotator recall metadata based on the set of annotations provided by the annotator for the training data set using the distributed data annotation server system, where the annotator recall metadata includes a measure of the number of features within a piece of source data identified with a label in the set of annotations by the annotator and determining annotator precision metadata based on the set of annotations provided by the annotator for the training data set using the distributed data annotation server system, where the annotator precision metadata includes a measure of the number of correct annotations associated with each piece of source data based on the ground truth for each piece of source data, and grouping the annotators into annotator groups based on the ann...",
+  "date_published": "20160922",
+  "title": "Systems and Methods for the Determining Annotator Performance in the Distributed Annotation of Source Data",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 74309,
+    "optimized_size": 3599,
+    "reduction_percent": 95.16
+  }
+}

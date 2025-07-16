@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15630428",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170622",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Methods and systems of predicting the growth rate of hydrogen-induced cracking (HIC) in a physical asset (e.g., a pipeline, storage tank, etc.) are provided. The methodology receives a plurality of inputs regarding physical characteristics of the asset and performs parametric simulations to generate a simulated database of observations of the asset. The database is then used to train, test, and validate one or more expert systems that can then predict the growth rate and other characteristics of the asset over time. The systems herein can also generate alerts as to predicted dangerous conditions and modify inspection schedules based on such growth rate predictions.",
+  "publication_number": "US20170372196A1-20171228",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to a broad aspect of the systems and methods described herein, a method is provided for carrying out fitness-for-service assessments for a region of an asset having a growth rate of hydrogen induced damage in an asset by simulating the growth rate based on one or more data inputs. In a correspondingly broad aspect, such systems and methods can take one or more actions in relation to the assessments. In accordance with one or more implementations described herein, the method includes inputting one or more first data inputs stored in a database to a mechanistic model. For example, the one or more inputs can be crack geometry data, crack location data, material properties data, hydrogen charging conditions data, or a combination thereof. The one or more data inputs are then processed in one or more parametric simulations by a processor executing the mechanistic model, to output one or more growth characteristics. For example, the processing of the one or more data inputs includes selecting, by the processor, one of the one or more data inputs to vary within a range and selecting, by the processor, each of the remaining one or more data inputs to be held constant. In another example, the processing of the one or more data inputs includes performing a design-of-experiment to identify the one or more data inputs to be held constant. Further, the method builds a simulated observation database that stores the output one or more growth characteristics. For example, the one or more growth characteristics can include a time to initiation (τ), a crack growth rate (CGR), or a combination thereof. Next, an expert system is trained and tested by the simulated observation database. In one or more implementations, the expert system is trained and tested by splitting the expert system into a plurality of expert sub-systems, in which a first expert sub-system predicts crack growth having a conditional output, and in which a second expert s...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1750",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Traidia",
+      "inventor_name_first": "Abderrazak",
+      "inventor_city": "Abqaiq",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    },
+    {
+      "inventor_name_last": "Sherik",
+      "inventor_name_first": "Abdelmounam",
+      "inventor_city": "Dhahran",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR RAPID PREDICTION OF HYDROGEN-INDUCED CRACKING (HIC) IN PIPELINES, PRESSURE VESSELS, AND PIPING SYSTEMS AND FOR TAKING ACTION IN RELATION THERETO",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 103246,
+    "optimized_size": 3506,
+    "reduction_percent": 96.6
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15668379",
+  "date_published": "20180405",
+  "date_produced": "20180322",
+  "filing_date": "20170803",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "An example method for facilitating the generation of a control field for a quantum system is provided. The example method may include receiving quantum system experiment input parameters and generating a set of coefficients defining a plurality of controls. The plurality of controls may be provided as a weighted sum of basis functions that include discrete prolate spheroidal sequences. The example method may further include applying a gradient based optimization, synthesizing the plurality of controls, and configuring a waveform generator with the plurality of controls to enable the waveform generator to generate the control field.",
+  "publication_number": "US20180096257A1-20180405",
+  "summary": "<SOH> BRIEF SUMMARY OF SOME EXAMPLES <EOH>According to some example embodiments, an example apparatus for generating a control field for a quantum system is provided. The example apparatus may comprise digital processing circuitry and a waveform generator configured to generate the control field for a quantum system based on a plurality of controls determined by the digital processing circuitry. In this regard, the digital processing circuitry may be configured to receive quantum system experiment input parameters including a quantum processor model representing the quantum system, and generate a set of coefficients defining a plurality of controls based on the quantum processor model. The plurality of controls may be provided as a weighted sum of basis functions and the basis functions may comprise discrete prolate spheroidal sequences. The processing circuitry may be further configured to apply a gradient based optimization. The gradient may be computed with respect to the coefficients defining the plurality of controls. The processing circuitry may be further configured to synthesize the plurality of controls for provision to the waveform generator to generate the control field for the quantum system. According to some example embodiments, another apparatus is provided. The example apparatus may comprise digital processing circuitry, and a waveform generator configured to generate a control field for a quantum system. The processing circuitry may be configured to control the waveform generator to generate the control field by supplying a plurality of controls to the waveform generator. The plurality of controls may have been synthesized by applying a gradient based optimization on coeffiecients of a set of basis functions. The basis functions may comprise discrete prolate spheroidal sequences and a complexity of the gradient determination may be based on a bandwidth of a control field of the quantum system. An example method is also provided according to some exa...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G05B194155"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lucarelli",
+      "inventor_name_first": "Dennis G.",
+      "inventor_city": "Takoma Park",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Apparatus and Method for Synthesizing Quantum Controls",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 67380,
+    "optimized_size": 3206,
+    "reduction_percent": 95.24
+  }
+}

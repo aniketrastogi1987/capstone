@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15609767",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "filing_date": "20170531",
+  "main_ipcr_label": "G06N308",
+  "abstract": "An individual ising device connected to common buses includes neuron circuits, a memory, and a router. The memory holds connection destination information per neuron circuit. An individual item of connection destination information includes first address information identifying one of a plurality of connection destination neuron circuits of a neuron circuit and second address information identifying a first ising device including at least one of the connection destination neuron circuits, the first and second address information being correlated. The router supplies, when an output signal of a connection destination neuron circuit changes and when the router receives the first address information identifying this connection destination neuron circuit via a bus, an update signal based on the changed output signal to one of the neuron circuits in accordance with the received first address information, the previously specified second address information identifying the first ising device,...",
+  "publication_number": "US20180018563A1-20180118",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect, there is provided an information processing apparatus including: a plurality of ising devices connected to common buses; and a control device, wherein each of the plurality of ising devices includes: a plurality of neuron circuits, each of which calculates a first value based on a sum of values, each of which is obtained by multiplying an output signal of one of a plurality of connection destination neuron circuits by one of a plurality of weight values that indicate connection strength with the respective connection destination neuron circuits, outputs 0 or 1 in accordance with a result of comparison between a second value obtained by adding a noise value to the first value and a threshold, and updates, upon receiving an update signal when one of the output signals changes, the first value in accordance with the update signal, a memory that holds items of connection destination information for each of the plurality of neuron circuits, each of the items of connection destination information including an item of first address information identifying one of the plurality of connection destination neuron circuits and an item of second address information identifying, among the plurality of ising devices, a first ising device including at least one of the plurality of connection destination neuron circuits, the first and second address information being associated with each other, and a router that supplies, when a first output signal of a first connection destination neuron circuit among the plurality of connection destination neuron circuits that is included in the first ising device changes and when the router receives the first address information identifying the first connection destination neuron circuit via one of the buses, the update signal based on a value of the changed first output signal transmitted via one of the buses to one of the plurality of neuron circuits in accordance with the received first address inform...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F7523"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tsukamoto",
+      "inventor_name_first": "Sanroku",
+      "inventor_city": "Setagaya",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TAMURA",
+      "inventor_name_first": "Hirotaka",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MATSUBARA",
+      "inventor_name_first": "SATOSHI",
+      "inventor_city": "Machida",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION PROCESSING APPARATUS, ISING DEVICE, AND CONTROL METHOD FOR INFORMATION PROCESSING APPARATUS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 83174,
+    "optimized_size": 3912,
+    "reduction_percent": 95.3
+  }
+}

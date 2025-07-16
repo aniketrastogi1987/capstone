@@ -1,0 +1,68 @@
+{
+  "patent_number": "None",
+  "application_number": "15549668",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "filing_date": "20170809",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A whole-life-cycle power output classification prediction system for photovoltaic systems. The power output classification prediction system comprises a basic information storage module, a database module, a prediction model judgment module, a prediction data pre-processing module and a prediction modeling module. The system selects different prediction models to carry out training and predication according to acquired data types and operation time of the photovoltaic system, is a modularized and multi-type photovoltaic system output power prediction system, can be suitable for output power prediction requirements of a majority of photovoltaic systems at present, can carry out customization according to the scale of the photovoltaic system, user requirements, etc., can both meet economic requirements and reliability requirements, and has good adaptability and transportability. The prediction method can update automatically. The prediction system can carry out automatic operation manage...",
+  "publication_number": "US20180046924A1-20180215",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>An object of the present invention is to provide a photovoltaic power prediction system with various combinations of model input and various prediction steps, which is suitable for the whole life cycle of a photovoltaic system. The photovoltaic power prediction system has the advantages such as easy operation, flexible extensibility of the input data types, abundant prediction methods, and high applicability. Thus the system is applicable to various types of photovoltaic systems in providing basic information to planning and energy management systems of the photovoltaic systems. It can improve the accuracy of photovoltaic power prediction and reduce the development cost for redesigning the photovoltaic power prediction systems due to the changes of systems. In order to achieve the above object, the present invention adopts the following technical solutions. Provided is a whole-life-cycle power output classification prediction system for photovoltaic systems, comprising: a basic information storage module, configured to store basic information of the photovoltaic system including geographical location, historical meteorological information, installation information and inverter information; a database module, configured to classify and store data required by a prediction modeling, including photovoltaic system operation data, environmental monitoring data, weather forecasting data and numerical weather predictions, and further configured to store the basic information in the basic information storage module; a prediction model judgment module, configured to determine a prediction model, based on types of the data stored in the database module and how long the photovoltaic system has been put into operation; a prediction data pre-processing module, configured to perform an averaging treatment on the data in the database module to obtain input-output model training samples and prediction input samples; and a prediction modeling modul...",
+  "ipcr_labels": [
+    "G06N504",
+    "H02J338",
+    "G01W110",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "HUANG",
+      "inventor_name_first": "Lei",
+      "inventor_city": "Guangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SHU",
+      "inventor_name_first": "Jie",
+      "inventor_city": "Guangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "JIANG",
+      "inventor_name_first": "Guixiu",
+      "inventor_city": "Guangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WU",
+      "inventor_name_first": "Zhifeng",
+      "inventor_city": "Guangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CUI",
+      "inventor_name_first": "Qiong",
+      "inventor_city": "Guangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Hao",
+      "inventor_city": "Guangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "WHOLE-LIFE-CYCLE POWER OUTPUT CLASSIFICATION PREDICTION SYSTEM FOR PHOTOVOLTAIC SYSTEMS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 72253,
+    "optimized_size": 4313,
+    "reduction_percent": 94.03
+  }
+}

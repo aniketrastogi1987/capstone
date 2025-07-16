@@ -1,0 +1,47 @@
+{
+  "date_produced": "20170323",
+  "publication_number": "US20170098165A1-20170406",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15383759",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Qiang",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Zhen",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Hong Kong",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Dai",
+      "inventor_name_first": "Wenyuan",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "A method and an apparatus for establishing and using a user recommendation model in a social network. The method includes obtaining training data from the social network, performing heterogeneous data transfer learning on the training data to learn a semanteme of the training data, establishing an association between a user and the image data by using the text data as a medium, establishing a semantic association relationship between the image data and the user according to the semanteme of the training data and the association between the user and the image data, and establishing a user recommendation model according to the semantic association relationship, where the user recommendation model includes the semantic association relationship between the image data and the user.",
+  "filing_date": "20161219",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure provide a method and an apparatus for establishing and using a user recommendation model in a social network, which can recommend a user based on heterogeneous data so as to resolve a technical problem in the prior art that a current user recommendation requirement is hard to be satisfied. A first aspect of the present disclosure provides a method for establishing a user recommendation model in a social network, including obtaining training data from the social network, where the training data includes text data, image data, and user-related data, performing heterogeneous data transfer learning on the training data to learn a semanteme of the training data, establishing an association between a user and the image data by using the text data as a medium, establishing a semantic association relationship between the image data and the user according to the semanteme of the training data and the association between the user and the image data, and establishing a user recommendation model according to the semantic association relationship, where the user recommendation model includes the semantic association relationship between the image data and the user. In a first possible implementation manner, establishing an association between a user and the image data by using the text data as a medium includes establishing an association between the image data and the text data according to the training data and establishing an association between the user and the text data according to the user-related data. With reference to the first aspect or the first possible implementation manner of the first aspect, in a second possible implementation manner, performing heterogeneous data transfer learning on the training data to learn a semanteme of the training data includes performing heterogeneous data transfer learning on the training data by using covariance shift, multi-task learning, a sample TrAdaboost transfer learning m...",
+  "date_published": "20170406",
+  "title": "Method and Apparatus for Establishing and Using User Recommendation Model in Social Network",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "H04L2908",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 54099,
+    "optimized_size": 3677,
+    "reduction_percent": 93.2
+  }
+}

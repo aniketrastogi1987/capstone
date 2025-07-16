@@ -1,0 +1,66 @@
+{
+  "date_produced": "20170809",
+  "publication_number": "US20170243132A1-20170824",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15050785",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SAINANI",
+      "inventor_name_first": "Manish",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SLEPIAN",
+      "inventor_name_first": "Sergey",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "MAKAREMI",
+      "inventor_name_first": "Iman",
+      "inventor_city": "North Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "OLINER",
+      "inventor_name_first": "Adam Jamison",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LEVERICH",
+      "inventor_name_first": "Jacob",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LU",
+      "inventor_name_first": "Di",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "Disclosed herein is a computer-implemented tool that facilitates data analysis by use of machine learning (ML) techniques. The tool cooperates with a data intake and query system and provides a graphical user interface (GUI) that enables a user to train and apply a variety of different ML models on user-selected datasets of stored machine data. The tool can provide active guidance to the user, to help the user choose data analysis paths that are likely to produce useful results and to avoid data analysis paths that are less likely to produce useful results.",
+  "filing_date": "20160223",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>One or more embodiments of the present disclosure are illustrated by way of example and not limitation in the figures of the accompanying drawings, in which like references indicate similar elements. FIG. 1 illustrates a networked computer environment in which an embodiment may be implemented. FIG. 2 illustrates a block diagram of an example data intake and query system in which an embodiment may be implemented. FIG. 3 is a flow diagram that illustrates how indexers process, index, and store data received from forwarders in accordance with the disclosed embodiments. FIG. 4 is a flow diagram that illustrates how a search head and indexers perform a search query in accordance with the disclosed embodiments. FIG. 5 is a block diagram showing an example of the functional elements of the machine learning (ML) data analytics tool (“the tool”). FIG. 6 shows an example of an overall process performed by the tool. FIG. 7 is an example of an initial screen that the tool can display to the user upon activation. FIG. 8 shows an example of a graphical user interface (GUI) screen from which a user can train or apply an ML model. FIG. 9 shows a GUI screen related to the screen in FIG. 8 , but as shown after the user has input certain data. FIG. 10 shows an example process that the tool can perform to provide user guidance. FIG. 11 shows an example of a GUI screen of the tool, including images and associated labels indicating different types of analyses that can be invoked. FIGS. 12A and 12B collectively show a table including examples of query templates and corresponding final queries, for various types of analyses that the user can invoke. FIG. 13 shows an example of process that the tool can execute to suggest various types of analyses to the user. FIG. 14 shows an example of a GUI screen of the tool, including a pull-down menu for selection of an ML model type. FIG. 15 shows an example of a GUI screen of the tool, from which the user...",
+  "date_published": "20170824",
+  "title": "Machine-Learning Data Analysis Tool",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L1224"
+  ],
+  "_processing_info": {
+    "original_size": 101040,
+    "optimized_size": 3854,
+    "reduction_percent": 96.19
+  }
+}

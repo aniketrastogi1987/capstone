@@ -1,0 +1,60 @@
+{
+  "patent_number": "None",
+  "application_number": "15795691",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20171027",
+  "main_ipcr_label": "G06N308",
+  "abstract": "According to one embodiment of the present disclosure, provided is a learning system that updates a parameter for a neural network, the learning system including: a plurality of differential value calculators; and a parameter update module.",
+  "publication_number": "US20180181863A1-20180628",
+  "summary": "<SOH> BACKGROUND AND SUMMARY <EOH>In the field of image recognition, there is a problem called general object recognition. This is a problem in estimating the types (classes) of objects such as a bird and a vehicle in images. In recent years, there have been remarkable improvements in recognition performance to solve the general object recognition problem. This is largely owing to convolution neural networks (hereinafter referred to as CNN; see Non-patent literature 1, for example) each having a large number of layers. In the field of image recognition, various recognition algorithms have been suggested in the past. However, as the amounts of learning data (sets of input data and correct solutions) have become enormous, the recognition performance of a CNN tends to be higher than that of the other algorithms. As pointed out before, a CNN has great ability to express a model, but has a problem called “over-training”, specializing excessively in the features of learning data. However, the amounts of learning data are now reaching such a level as to be capable of avoiding the problem of over-training.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F1710"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SATO",
+      "inventor_name_first": "Ikuro",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "FUJISAKI",
+      "inventor_name_first": "Ryo",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NOMURA",
+      "inventor_name_first": "Akihiro",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "OYAMA",
+      "inventor_name_first": "Yosuke",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MATSUOKA",
+      "inventor_name_first": "Satoshi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "LEARNING SYSTEM AND LEARNING METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 54195,
+    "optimized_size": 2466,
+    "reduction_percent": 95.45
+  }
+}

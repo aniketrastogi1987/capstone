@@ -1,0 +1,67 @@
+{
+  "date_produced": "20170823",
+  "publication_number": "US20170255874A1-20170907",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15059594",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chafle",
+      "inventor_name_first": "Girish B.",
+      "inventor_city": "New Delhi",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Peng Fei",
+      "inventor_city": "BEIJING",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Meng",
+      "inventor_name_first": "Fan Jing",
+      "inventor_city": "BEIJING",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Wu",
+      "inventor_name_first": "Hai Shan",
+      "inventor_city": "BEIJING",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Jing Min",
+      "inventor_city": "BEIJING",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Lin",
+      "inventor_city": "BEIJING",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Embodiments are directed to a computer implemented method for generating a drift detector. The method includes generating, using a processor system, drift cases based at least in part on known drift set data of a computer system. The method further includes injecting, using the processor system, the drift cases into the computer system to generate a first data set. The method further includes applying, using the processor system, cleaning rules to the first data set to reduce a size of the first data set and generate a cleaned data set. The method further includes extracting one or more features of the cleaned data set. The method further includes normalizing the extracted one or more features of the cleaned data set. The method further includes training a machine learning system using the extracted and normalized one or more features of the cleaned data, wherein an output of the machine learning system comprises the drift detector.",
+  "filing_date": "20160303",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments are directed to a computer implemented method for generating a drift detector. The method includes generating, using a processor system, drift cases based at least in part on known drift set data of a computer system. The method further includes injecting, using the processor system, the drift cases into the computer system to generate a first data set. The method further includes applying, using the processor system, cleaning rules to the first data set to reduce a size of the first data set and generate a cleaned data set. The method further includes extracting one or more features of the cleaned data set. The method further includes normalizing the extracted one or more features of the cleaned data set. The method further includes training a machine learning system using the extracted and normalized one or more features of the cleaned data, wherein an output of the machine learning system comprises the drift detector. Embodiments are further directed to a computer system for generating a drift detector. The system includes a memory and a processor system communicatively coupled to the memory, wherein the processor system is configured to perform a method. The method includes generating drift cases based at least in part on known drift set data of a computer system. The method further includes injecting the drift cases into the computer system to generate a first data set. The method further includes applying cleaning rules to the first data set to reduce a size of the first data set and generate a cleaned data set. The method further includes extracting one or more features of the cleaned data set. The method further includes normalizing the extracted one or more features of the cleaned data set. The method further includes training a machine learning system using the extracted and normalized one or more features of the cleaned data, wherein an output of the machine learning system comprises the drift detector. Embodiments are furth...",
+  "date_published": "20170907",
+  "title": "LEARNING-BASED DRIFT DETECTION TOOL",
+  "ipcr_labels": [
+    "G06N9900",
+    "G01M9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 60430,
+    "optimized_size": 4202,
+    "reduction_percent": 93.05
+  }
+}

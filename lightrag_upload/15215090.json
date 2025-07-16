@@ -1,0 +1,58 @@
+{
+  "decision": "PENDING",
+  "application_number": "15215090",
+  "date_published": "20180125",
+  "date_produced": "20180109",
+  "title": "DEVICE IDENTIFICATION FOR MULTIPLE DEVICE IDS",
+  "filing_date": "20160720",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Malkin",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Jinhui",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Jerry",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kecskemeti",
+      "inventor_name_first": "Csaba",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Baker",
+      "inventor_name_first": "Wendell",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The systems and methods may be better understood with reference to the following drawings and description. Non-limiting and non-exhaustive examples are described with reference to the following drawings. The components in the drawings are not necessarily to scale; emphasis instead is being placed upon illustrating the principles of the system. In the drawings, like referenced numerals designate corresponding parts throughout the different views. FIG. 1 is a block diagram of an example electronic system that may utilize a device linking system that identifies two device IDs as identifying the same user device. FIG. 2 illustrates displayed content items (which includes ad items) of example screens rendered by client-side applications. FIG. 3 is a block diagram of components of the electronic system involved in transmitting and collecting device IDs. FIG. 4 is a block diagram of components of the device linking system of FIG. 1 coupled to a device ID database and a device ID group database. FIG. 5 is a block diagram of components of the electronic system of FIG. 1 involved in managing user profiles based on linking performed by the device linking system and selecting and transmitting advertisements based on the user profiles. FIG. 6 is block diagram of a system that counts visitors based on the device ID group database. FIG. 7 is a flow chart of an example method of assessing whether a first-type device ID and a second-type device ID identify a same user device. FIG. 8 is a flow chart of an example method of managing user profiles. FIG. 9 is a flow chart of another example method of managing user profiles. FIG. 10 is a flow chart of an example method of transmitting advertisements for display on a user device. FIG. 11 is a flow chart of an example method of counting a total number of different visitors to a network location. FIG. 12 is a flow chart of an example method of counting a number of times a visitor has visited a ne...",
+  "patent_number": "None",
+  "abstract": "An electronic system may be configured to determine if a first-type device ID and a second-type device ID both identify a same device. To do so, the electronic system may preliminarily group a particular first-type ID with a particular second-type ID based on matching time slots and network addresses. Individual scores for each of the preliminary groups may be determined based on cardinalities associated with the time slots. Combined scores may then be determined for groups having the same first-type device ID and second-type device ID. A final analysis may be performed to confirm, with a sufficient level of confidence, whether first-type device IDs and second-type device IDs included in the preliminary groups identify the same device.",
+  "publication_number": "US20180025086A1-20180125",
+  "_processing_info": {
+    "original_size": 98557,
+    "optimized_size": 3869,
+    "reduction_percent": 96.07
+  }
+}

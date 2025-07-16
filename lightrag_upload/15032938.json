@@ -1,0 +1,39 @@
+{
+  "decision": "PENDING",
+  "application_number": "15032938",
+  "date_published": "20160901",
+  "date_produced": "20160817",
+  "title": "SYSTEM AND METHOD FOR MODEL-BASED RECONSTRUCTION OF QUANTITATIVE IMAGES",
+  "filing_date": "20160428",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Trzasko",
+      "inventor_name_first": "Joshua D.",
+      "inventor_city": "Rochester",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Manduca",
+      "inventor_name_first": "Armando",
+      "inventor_city": "Rochester",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T1100",
+    "A61B500",
+    "G06T700"
+  ],
+  "main_ipcr_label": "G06T1100",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure overcomes the aforementioned drawbacks by providing systems and methods for estimating a physiological parameter from data acquired with a medical imaging system, such as a magnetic resonance imaging (“MRI”) system. Data is acquired with the medical imaging system, from which a physiological parameter is estimated using an iterative estimation in which a model of the medical imaging system is decoupled from a physics-based model of the acquired data. The model of the medical imaging system may be, for example, a large-scale system operator that describes the acquisition of data using the medical imaging system. In the context of MRI, this model may include a Fourier transform. In the context of MRI, the physics-based model of the acquired data may include a magnetic resonance signal model. In accordance with one aspect of the disclosure, a system for generating medical images is disclosed that includes a communications connection configured to receive image data acquired from a subject using a medical imaging system. The system also includes a processor configured to receive the image data. The processor is further configured to estimate a physiological parameter from the image data using a model of the medical imaging system is decoupled from a physics-based model of the image data and iteratively minimize a cost function that includes the model of the medical imaging system and the physics-based model of the acquired data to quantify the physiological parameter of the subject from the image data. The processor is also configured to reconstruct a set of medical images of the subject from the image data at least including the physiological parameter of the subject. In accordance with another aspect of the disclosure, a method is provided for estimating a physiological parameter from data acquired with a medical imaging system. The method includes acquiring data with the medical imaging system and estimating a physiological p...",
+  "patent_number": "None",
+  "abstract": "A system and method for estimating a physiological parameter from data acquired with a medical imaging system includes acquiring data with the medical imaging system. A physiological parameter is estimated from the acquired data using an iterative estimation in which a model of the medical imaging system is decoupled from a physics-based model of the acquired data.",
+  "publication_number": "US20160253825A1-20160901",
+  "_processing_info": {
+    "original_size": 44033,
+    "optimized_size": 3114,
+    "reduction_percent": 92.93
+  }
+}

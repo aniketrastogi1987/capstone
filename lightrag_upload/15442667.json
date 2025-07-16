@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15442667",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "filing_date": "20170225",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A system and method for automatically optimizing states of communications and operations in a contact center, using a reinforcement learning module comprising a reinforcement learning server and an optimization server introduced to existing infrastructure of the contact center, that, through use of a model set up a fully observable Markov decision process within a known time period, a resulting hyper-policy is computed through backwards induction to provide an optimal action policy to use in each state of a contact center, thereby ultimately optimizing states of communications and operations for an overall return over the time period considered.",
+  "publication_number": "US20180082213A1-20180322",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Accordingly, the inventor has conceived and reduced to practice, in a preferred embodiment of the invention a system for optimizing communication operations in a contact center, using a reinforcement learning module comprising a reinforcement learning server comprising at least a plurality of programming instructions stored in a memory and operating on a processor of a network-connected computing device and configured to observe and analyze historical and current data using a retrain and design server; develop a training set for use in a fully observable Markov chain model; assign desired rewards to specific states for use in a fully observable Markov decision process model; specify states, add time-labeled states, and create clusters within a set of hidden states added to the fully observable Markov decision process model; design and train the fully observable Markov decision process model using a retrain and design server to achieve a desired outcome; form the fully observable Markov decision process model by fitting the fully observable Markov chain model with a Baum-Welch algorithm to infer parameters based on observations; engage with an optimization server to apply and manage the fully observable Markov decision process model; record results of optimal actions carried out by the optimization server to a learning database; observe and analyze results of the optimal actions stored in the learning database; and repeat these steps iteratively; and an optimization server comprising at least a plurality of programming instructions stored in a memory and operating on a processor of a network-connected computing device and configured to apply optimal actions to states as assigned by the reinforcement learning server; manage and maintain a current revision of the fully observable Markov decision process model; assign an optimal action to each state to be executed by an action handler through interfaces with the contact center; initia...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "McCord",
+      "inventor_name_first": "Alan",
+      "inventor_city": "Frisco",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR OPTIMIZING COMMUNICATION OPERATIONS USING REINFORCEMENT LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 114627,
+    "optimized_size": 3236,
+    "reduction_percent": 97.18
+  }
+}

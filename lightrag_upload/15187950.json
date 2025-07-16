@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15187950",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "title": "SYSTEMS AND METHODS FOR EFFICIENT ACCESS CONTROL",
+  "filing_date": "20160621",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gallagher",
+      "inventor_name_first": "Adam",
+      "inventor_city": "Roseville",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2162",
+    "G06F1730",
+    "G06F9455"
+  ],
+  "main_ipcr_label": "G06F2162",
+  "summary": "<SOH> SUMMARY <EOH>The instant disclosure relates generally to database management. More specifically, this disclosure relates to embodiments of apparatuses, systems, and methods that accelerates access control decision making. According to one embodiment, a method includes steps of: receiving, at a processor, a statement requesting access for a user to data files stored in a non-transitory memory medium; parsing, by the processor, the statement into one or more arguments, wherein each argument ends with a logical operator; computing, by the processor, a skip count for each of the arguments; evaluating, by the processor, the statement using the skip counts to determine whether the access should be granted to the user; retrieving, by the processor, the data files from the non-transitory memory medium; and sending, by the processor, the data files to the user, if the access is granted. According to one embodiment, a computer program product includes a non-transitory computer-readable medium comprising instructions which, when executed by a processor of a computing system, cause the processor to perform steps. The steps include receiving a statement requesting access for a user to data files stored in a non-transitory memory medium; parsing the statement into one or more arguments, wherein each argument ends with a logical operator; computing a skip count for each of the arguments; evaluating the statement using the skip counts to determine whether the access should be granted to the user; retrieving the data files from the non-transitory memory medium; and sending the data files to the user, if the access is granted. According to one embodiment, an apparatus includes a memory and a processor coupled to the memory, wherein the processor is configured to execute steps. The steps include receiving a statement requesting access for a user to data files stored in a non-transitory memory medium; parsing the statement into one or more arguments, wherein each argument ends wi...",
+  "patent_number": "None",
+  "abstract": "An apparatus configured for database access control. The apparatus includes a memory and a processor coupled to the memory, wherein the processor is configured to execute instructions. The instructions include receiving a statement requesting access for a user to data files stored in a non-transitory memory medium; parsing the statement into one or more arguments, wherein each argument ends with a logical operator; computing a skip count for each of the arguments; evaluating the statement using the skip counts to determine whether the access should be granted to the user; retrieving the data files from the non-transitory memory medium; and sending the data files to the user, if the access is granted.",
+  "publication_number": "US20170364693A1-20171221",
+  "_processing_info": {
+    "original_size": 49265,
+    "optimized_size": 3273,
+    "reduction_percent": 93.36
+  }
+}

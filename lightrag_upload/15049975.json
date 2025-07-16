@@ -1,0 +1,39 @@
+{
+  "date_produced": "20160601",
+  "publication_number": "US20160171391A1-20160616",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15049975",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Guo",
+      "inventor_name_first": "Zhen",
+      "inventor_city": "Warrington",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Mark",
+      "inventor_city": "Vestal",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In a corpus of scientific articles such as a digital library, documents are connected by citations and one document plays two different roles in the corpus: document itself and a citation of other documents. A Bernoulli Process Topic (BPT) model is provided which models the corpus at two levels: document level and citation level. In the BPT model, each document has two different representations in the latent topic space associated with its roles. Moreover, the multi-level hierarchical structure of the citation network is captured by a generative process involving a Bernoulli process. The distribution parameters of the BPT model are estimated by a variational approximation approach.",
+  "filing_date": "20160222",
+  "patent_number": "9892367",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to an embodiment of the technology, a generative model is provided for modeling the documents linked by the citations, called the Bernoulli Process Topic (“BPT”) model, which explicitly exploits the above two properties of the citation network. In this model, the content of each document is a mixture of two sources: (1) the content of the given document, and (2) the content of other documents related to the given document through the multi-level citation structure. This perspective actually reflects the process of writing a scientific article: the authors first learn the knowledge from the literature and then combine their own creative ideas with what they learnt from the literature to form the content of their article. Consequently, the literature from which they learnt knowledge forms the citations of their article. Furthermore, the multi-level structure of the citation network is captured by a Bernoulli process which generates the related documents, where the related documents are not necessarily directly cited by the given document. In addition, due to a Bayesian treatment of parameter estimation, BPT can generate a new corpus unavailable in the training stage. Comprehensive evaluations were conducted to investigate the performance of the BPT model. The experimental results on the document modeling task demonstrated that the BPT model achieves a significant improvement over state-of-the-art methods on the generalization performance. Moreover, the BPT model was applied to the well-known Cora corpus to discover the latent topics. The comparisons against state-of-the-art methods demonstrate the promising knowledge discovery capability of the BPT model. See, Zhen Guo, Zhongfei (Mark) Zhang, Shenghuo Zhu, Yun Chi, Yihong Gong, “Knowledge Discovery from Citation Networks”, ICDM '09, Ninth IEEE International Conference on Data Mining, Miami Fla., pp. 800-805 (2009); Zhen Guo, Shenghuo Zhu, Zhongfei (Mark) Zhang, Yun Chi, Yi...",
+  "date_published": "20160616",
+  "title": "KNOWLEDGE DISCOVERY FROM CITATION NETWORKS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 190516,
+    "optimized_size": 3407,
+    "reduction_percent": 98.21
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "date_produced": "20171004",
+  "publication_number": "US20170300828A1-20171019",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15098415",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Feng",
+      "inventor_name_first": "Andrew",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ordentlich",
+      "inventor_name_first": "Erik",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Lee",
+      "inventor_city": "Campbell",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cnudde",
+      "inventor_name_first": "Peter",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The present teaching relates to estimating one or more parameters on a system including a plurality of nodes. In one example, the system comprises: one or more learner nodes, each of which is configured for generating information related to a group of words for estimating the one or more parameters associated with a machine learning model; and a plurality of server nodes, each of which is configured for obtaining a plurality of sub-vectors each of which is a portion of a vector that represents a word in the group of words, updating the sub-vectors based at least partially on the information to generate a plurality of updated sub-vectors, and estimating at least one of the one or more parameters associated with the machine learning model based on the plurality of updated sub-vectors.",
+  "filing_date": "20160414",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present teaching relates to methods, systems, and programming for distributed computing. Particularly, the present teaching is directed to methods, systems, and programming for distributed machine learning on a cluster. In one example, a system including a plurality of nodes, each of which has at least one processor, storage, and a communication platform connected to a network for estimating one or more parameters on the plurality of nodes, is disclosed. The system comprises: one or more learner nodes, each of which is configured for generating information related to a group of words for estimating the one or more parameters associated with a machine learning model; and a plurality of server nodes, each of which is configured for obtaining a plurality of sub-vectors each of which is a portion of a vector that represents a word in the group of words, updating the sub-vectors based at least partially on the information to generate a plurality of updated sub-vectors, and estimating at least one of the one or more parameters associated with the machine learning model based on the plurality of updated sub-vectors. In another example, a method, implemented on a machine having at least one processor, storage, and a communication platform capable of connecting to a network for estimating one or more parameters on a node in a cluster of distributed nodes, is disclosed. Information related to a group of words is received at the node for estimating the one or more parameters associated with a machine learning model. A plurality of sub-vectors is obtained at the node. Each of the plurality of sub-vectors is a portion of a vector that represents a word in the group of words. The vector includes one or more additional sub-vectors each of which is allocated to one of other nodes in the cluster. The plurality of sub-vectors is updated at the node based at least partially on the information to generate a plurality of updated sub-vectors. At least one of the on...",
+  "date_published": "20171019",
+  "title": "METHOD AND SYSTEM FOR DISTRIBUTED MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504",
+    "G06N700",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 93639,
+    "optimized_size": 3801,
+    "reduction_percent": 95.94
+  }
+}

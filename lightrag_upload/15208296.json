@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170104",
+  "publication_number": "US20170017883A1-20170119",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15208296",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ZHOU",
+      "inventor_name_first": "Yong",
+      "inventor_city": "Houston",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BOUCHARD",
+      "inventor_name_first": "Andre J.",
+      "inventor_city": "Houston",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LUDOLPH",
+      "inventor_name_first": "Brian S.",
+      "inventor_city": "Houston",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for accelerating the decision making process for reservoir risk management is described. In particular, an ensemble based decisions and filter are used to quickly compare different information scenarios to determine the best strategy for developing a hydrocarbon-containing reservoir.",
+  "filing_date": "20160712",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSURE <EOH>This disclosure presents a value of information (VOI) modeling method that uses an ensemble based model and model filter to accelerate a decision making process. In particular, the modeling combines multiple data types into a single ensemble model that has a large number of uncertainty parameters. A system performance variable and uncertainty band can then be calculated from the ensemble model's predictions. If additional information needs to be collected to reduce the uncertainty band, then an ensemble-based filter can be used to decrease computational time by picking the most valuable and economical information needed to improve the decision-making. The methods presented herein are applicable to various disciplines; however, they will be exemplified using a hydrocarbon reservoir appraisal workflow. In more detail, an ensemble model is built using a number of realizations, i.e., 100 realizations, from existing data of the same data type or from a mixture of multi-disciplinary data. This ensemble model (E0) defines an input uncertainty band and has a utility function. The decision-making is based on maximizing this utility function and reducing the uncertainty band. An ensemble prediction of some system performance output variable is calculated from the ensemble model (E0) and a decision (D0) from one or more target percentiles, i.e. P10/P50/P90 is defined. If the uncertainty bands are large, then additional information may need to be collected to decrease the risk in making a decision based on the ensemble model. In one aspect of the present method, the ensemble model is updated using possible or expected data for a given scenario. This temporary ensemble model should have a small uncertainty band. If more than one scenario is possible, then a temporary model will be created for each scenario. The ensemble prediction for each temporary model is used to find a decision Dn. The value of the scenario and its information on the deci...",
+  "date_published": "20170119",
+  "title": "ENSEMBLE BASED DECISION MAKING",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 57574,
+    "optimized_size": 3114,
+    "reduction_percent": 94.59
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "date_produced": "20161102",
+  "publication_number": "US20160335534A1-20161117",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15154394",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nere",
+      "inventor_name_first": "Andrew",
+      "inventor_city": "Madison",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hashmi",
+      "inventor_name_first": "Atif",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Eyal",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Madison",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lipasti",
+      "inventor_name_first": "Mikko H.",
+      "inventor_city": "Lake Mills",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wakerly",
+      "inventor_name_first": "John F.",
+      "inventor_city": "Glenview",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods for a sensor hub system that accurately and efficiently performs sensory analysis across a broad range of users and sensors and is capable of recognizing a broad set of sensor-based events of interest using flexible and modifiable neural networks are disclosed. The disclosed solution consumes orders of magnitude less power than typical application processors. In one embodiment, a scalable sensor hub system for detecting sensory events of interest comprises a neural network and one or more sensors. The neural network comprises one or more dedicated low-power processors and memory storing one or more neural network programs for execution by the one or more processors. The output of the one or more sensors is converted into a spike signal, and the neural network takes the spike signal as input and determines whether a sensory event of interest has occurred.",
+  "filing_date": "20160513",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Modern smart devices such as smartphones, tablets, Internet of Things (IoT) devices, and smartwatches contain an ever-growing number of sensors, which can be leveraged for improved user interfaces and device control, human activity and exercise monitoring, and environmental and context-aware applications. While many of these sensors themselves are considered low power, the typical application processors interfaced to these sensors are quite power hungry. To enable a more continuous, or “always on”, sensory processing capability, many device manufacturers have opted to include a dedicated coprocessor, or a sensor hub processor, in their designs. The primary advantage of these sensor hub systems is that they use orders of magnitude less power than typical application processors, such as the system described in article “Littlerock: Enabling energy-efficient continuous sensing on mobile phones” by Bodhi Priyantha, Dimitrios Lymberopoulos and Jie Liu or the ones described in U.S. Pat. No. 8,706,172 “Energy efficient continuous sensing for communications devices” issued to Nissanka Arachchige Bodhi Priyantha, Jie Liu and Dimitrios Lymperopoulos. However, to achieve this benefit, there obviously are tradeoffs with the sensor hub coprocessor design: primarily that these designs are significantly limited in terms of their compute capability, as well as other resources such as memory and specialized functional units, such as floating-point Arithmetic Logic Units (ALUs). Typical sensor hub systems include between 8 KB and 128 KB of RAM, and between 32 KB and 512 KB of flash memory, with peak operating frequencies of 100 MHz or less. Such performance and resources are clearly limited when compared to those of a typical application processor, which operates at frequencies above 1 GHz and utilizes several gigabytes of memory. This trend will likely continue for the foreseeable future; sensor hub microprocessors will have at least one order of m...",
+  "date_published": "20161117",
+  "title": "NEURAL SENSOR HUB SYSTEM",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 62392,
+    "optimized_size": 4022,
+    "reduction_percent": 93.55
+  }
+}

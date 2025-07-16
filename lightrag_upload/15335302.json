@@ -1,0 +1,60 @@
+{
+  "decision": "PENDING",
+  "application_number": "15335302",
+  "date_published": "20170420",
+  "date_produced": "20170405",
+  "title": "PUBLISH-SUBSCRIBE PLATFORM FOR CLOUD FILE DISTRIBUTION",
+  "filing_date": "20161026",
+  "inventor_list": [
+    {
+      "inventor_name_last": "FENG",
+      "inventor_name_first": "Andrew An",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHANDRA",
+      "inventor_name_first": "Rohit",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SURYANARAYANAN",
+      "inventor_name_first": "Lakshmanan",
+      "inventor_city": "Valencia",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CROWDER",
+      "inventor_name_first": "Timothy R.",
+      "inventor_city": "Altadena",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LAM",
+      "inventor_name_first": "Victor J.",
+      "inventor_city": "Pasadena",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06F1110",
+    "H04L2908"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Apparatus and methods for distributing files in a cloud network environment are disclosed. In general, a file distribution system utilizes a publish-subscribe model of notification, where publishers and consumers do not communicate directly with each other. Publishers publish new datasets, and consumers subscribe to and receive new datasets. However, publishers and subscribers do not need to know about each other. The file distribution system also incorporates a self-serve model, where the simple act of publishing makes a dataset available to any consumer, while the act of subscribing delivers data to the consumer. Thus, this arrangement does not require a system-level setup to support a new dataset between a new set of publishers and consumers. In a specific implementation, a computer implemented method of managing file distribution between publishing and subscribing devices is disclosed. At a transporter system, a publish request for publishing a version of a dataset is received from a publisher device, wherein the publish request has a predefined format that includes an identity of the dataset, an identity of the version of the dataset, and an identity of a location for the version of the dataset. The transporter system updates a registry to associate the dataset with the identity of the dataset, version, and location, and the transporter system automatically publishes the version of the dataset to any subscribers devices that have previously sent subscribe requests for such dataset to the transporter system. In a specific implementation, the publisher device has no knowledge of any subscriber devices to the dataset, and any subscriber devices to such dataset have no knowledge of the publisher device. In a further aspect, the transporter system generates a checksum for the dataset. The transporter system updates the registry to associate the generated checksum with the dataset, and the checksum is used to validate the version o...",
+  "patent_number": "None",
+  "abstract": "Methods and apparatus for managing file distribution between publishing and subscribing devices are provided. At a transporter system, a publish request for publishing a version of the dataset is received from a publisher device, wherein the publish request has a predefined format that includes an identity of the dataset, an identity of the version of the dataset, and an identity of a location for the version of the dataset. The transporter system updates a registry to associate the dataset with the identity of the dataset, version, and location, and the transporter system automatically publishes the dataset to any subscribers devices that have previously sent subscribe requests for such dataset to the transporter system.",
+  "publication_number": "US20170109369A1-20170420",
+  "_processing_info": {
+    "original_size": 85286,
+    "optimized_size": 3903,
+    "reduction_percent": 95.42
+  }
+}

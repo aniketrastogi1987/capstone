@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15291886",
+  "date_published": "20180412",
+  "date_produced": "20180328",
+  "title": "PROVIDING A SECURE COMMUNICATION CHANNEL DURING ACTIVE DIRECTORY DISASTER RECOVERY",
+  "filing_date": "20161012",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kalitin",
+      "inventor_name_first": "Sergey Alexandrovich",
+      "inventor_city": "St. Petersburg",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "Vartanov",
+      "inventor_name_first": "Sergey Romanovich",
+      "inventor_city": "St. Petersburg",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F1114"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>The present invention extends to methods, systems, and computer program products for providing a secure communication channel during Active Directory disaster recovery. The techniques of the present invention can allow a recovery console and a recovery agent on a domain controller to establish a secure channel without employing the Kerberos or NTLM authentication protocols. Therefore, the recovery console and recovery agent will be able to establish a secure channel even when the domain controller is in DSRM and NTLM is disabled. A secure channel can be established between the recovery console and the recovery agent based on the Microsoft Secure Channel (Schannel) SSP. RPC over Schannel does not provide a way for authenticating a client, but instead only performs authentication of the server. To address this issue, the present invention can modify the RPC over Schannel implementation in a manner that allows the client to be authenticated within the Schannel architecture. The present invention can also provide a way to store the recovery console's certificate in a collection certificate store on a domain controller even when the uploading of certificates is blocked for security reasons. In one embodiment, the present invention can be implemented by a recovery agent as a method for establishing a secure connection between a recovery console and the recovery agent. The recovery agent can receive a console certificate from the recovery console and store it. The recovery agent can also install a hook on a function that is called by a security support provider to accept a certificate context received from a client. Then, the recovery agent can intercept a call to this function and verify a certificate context obtained from the intercepted call against the console certificate. When the certificate context is verified, the recovery agent can allow the call to complete, whereas when the certificate context is not verified, the recovery agent can caus...",
+  "patent_number": "None",
+  "abstract": "A secure communication channel can be established between a recovery console and a recovery agent during an Active Directory disaster recovery. This secure channel can be established without employing the Kerberos or NTLM authentication protocols. Therefore, the recovery console and recovery agent will be able to establish a secure channel even when the domain controller is in DSRM and NTLM is disabled. A secure channel can be established between the recovery console and the recovery agent based on the Microsoft Secure Channel SSP. The Schannel implementation can be modified in a manner that allows the client to be authenticated within the Schannel architecture.",
+  "publication_number": "US20180103033A1-20180412",
+  "_processing_info": {
+    "original_size": 52967,
+    "optimized_size": 3436,
+    "reduction_percent": 93.51
+  }
+}

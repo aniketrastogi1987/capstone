@@ -1,0 +1,39 @@
+{
+  "date_produced": "20171103",
+  "publication_number": "US20170330077A1-20171116",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15154017",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Williams",
+      "inventor_name_first": "Jason",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zweig",
+      "inventor_name_first": "Geoffrey",
+      "inventor_city": "Sammamish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments include methods and systems for using, creating and maintaining goal-oriented, dialog systems (i.e., transactional bots) that provide interfaces to application functionality. The methods and systems of the embodiments provide a bot that may learn in supervised learning and reinforcement learning from conversational examples provided by domain experts and from interaction with users. Conversational bots may be created to interact using both text and/or application programming interface (API) calls. A developer may configure a bot that interfaces with an application back-end where behavior of the bot may be controlled by use of masking actions. A specification for the bot may be flexibly designed to specify how developer code may be organized, for example, as masking operations on the possible actions the bot may execute. Additionally, the methods and systems may automatically infer the best state representation during a dialog so a state variable need not be predefined.",
+  "filing_date": "20160513",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This summary is not intended to exclusively identify key features or essential features of the claimed subject matter, nor is it intended as an aid in determining the scope of the claimed subject matter. The embodiments of the disclosure include methods and systems for using, creating and maintaining goal-oriented, dialog systems (i.e., “transactional bots” or “bots”) that provide interfaces to application functionality such as, for example, interfaces to application functionality for ordering a taxi, controlling devices in the home, banking, or shopping. The methods and systems of the embodiments provide a bot that may learn in supervised learning and reinforcement learning from conversational examples provided by domain experts and from interaction with users. The embodiments provide conversational bots that may be created to interact using both text and/or application programming interface (API) calls. Use of the embodiments allows a developer to configure a bot that interfaces with an application back-end and allows the behavior of the bot to be configured by use of masking actions. Use of the embodiments also allows flexible design of a specification for the bot that specifies how developer code may be organized, for example, as masking operations on the possible actions the bot may execute. Additionally, the methods and systems may automatically infer the best state representation during a dialog so a state variable need not be predefined. In an embodiment the methods and systems may be implemented as a bot using a Long Short-Term memory (LSTM) recurrent neural network model. The LSTM recurrent neural network may be optimized with supervised learning and/or using reinforcement learning via a specialized policy gradient method. In the implementation bot behavior may be specified with example dialogs....",
+  "date_published": "20171116",
+  "title": "DEEP LEARNING OF BOTS THROUGH EXAMPLES AND EXPERIENCE",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F1727"
+  ],
+  "_processing_info": {
+    "original_size": 71581,
+    "optimized_size": 3727,
+    "reduction_percent": 94.79
+  }
+}

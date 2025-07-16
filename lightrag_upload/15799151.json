@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15799151",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "filing_date": "20171031",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A device and a method for improving a processing speed of a neural network and applications thereof in the neural network where the device includes a processor configured to perform: determining, according to a predetermined processing speed improvement target, a dimension reduction amount of each of one or more parameter matrixes in the neural network obtained through training; preprocessing each parameter matrix based on the dimension reduction amount of the parameter matrix; and retraining the neural network based on a result of the preprocessing to obtain one or more dimension reduced parameter matrixes so as to ensure performance of the neural network meets a predetermined requirement. According to the embodiments of the present disclosure, it is possible to significantly improve the processing speed of the neural network while ensuring the performance of the neural network meets the predetermined requirement.",
+  "publication_number": "US20180189650A1-20180705",
+  "summary": "<SOH> SUMMARY <EOH>A brief summary of the disclosure will be given below to provide basic understanding of some aspects of the disclosure. However, it shall be appreciated that this summary is neither exhaustively descriptive of the disclosure nor intended to define essential or important components or the scope of the disclosure but is merely for the purpose of presenting some concepts of the disclosure in a simplified form and hereby acts as a preamble of more detailed descriptions which will be presented later. Generally, an inference process of a neural network involves matrix multiplication. As the scale and the depth of the neural network increase, the scale of the matrix is also increasing, resulting in exponential increase of computational amount in the matrix multiplication related to the inference process, thereby greatly reducing the processing speed of the neural network. Taking the Convolutional Neural Network (CNN) as an example, about 99% of processing time of the neural network is spent on a convolution layer and a fully connection layer, and these layers are mainly realized by matrix multiplication. Therefore, if the computational amount in the matrix multiplication can be reduced, then the inference process of the neural network can be greatly accelerated, hence to significantly improving the processing speed of the neural network. In view of the above, an object of the present disclosure is to provide a device and method for improving a processing speed of a neural network and applications of the device and the method in the neural network, which may reduce the computational amount in matrix multiplication by reducing the dimensions of a matrix while ensuring performance of the neural network meets a predetermined requirement, thereby improving the processing speed of the neural network. According to an aspect of the present disclosure, a device for improving a processing speed of a neural network is provided. The device includes a processor confi...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Liuan",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "FAN",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SUN",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "DEVICE AND METHOD FOR IMPROVING PROCESSING SPEED OF NEURAL NETWORK AND APPLICATION THEREOF",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 79385,
+    "optimized_size": 3785,
+    "reduction_percent": 95.23
+  }
+}

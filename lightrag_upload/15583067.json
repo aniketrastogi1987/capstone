@@ -1,0 +1,45 @@
+{
+  "patent_number": "9990592",
+  "application_number": "15583067",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "filing_date": "20170501",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A computing device determines a kernel parameter value for a support vector data description for outlier identification. A first candidate optimal kernel parameter value is computed by computing a first optimal value of a first objective function that includes a kernel function for each of a plurality of kernel parameter values from a starting kernel parameter value to an ending kernel parameter value using an incremental kernel parameter value. The first objective function is defined for a SVDD model using observation vectors to define support vectors. A number of the observation vectors is a predefined sample size. The predefined sample size is incremented by adding a sample size increment. A next candidate optimal kernel parameter value is computed with an incremented number of vectors until a computed difference value is less than or equal to a predefined convergence value.",
+  "publication_number": "US20170236074A1-20170817",
+  "summary": "<SOH> SUMMARY <EOH>In an example embodiment, a non-transitory computer-readable medium is provided having stored thereon computer-readable instructions that, when executed by a computing device, cause the computing device to determine a kernel parameter value for a support vector data description for outlier identification. A first candidate optimal kernel parameter value is computed by computing a first optimal value of a first objective function that includes a kernel function for each of a plurality of kernel parameter values from a starting kernel parameter value to an ending kernel parameter value using an incremental kernel parameter value. The first objective function is defined for a support vector data description (SVDD) model using a first set of observation vectors to define a first set of support vectors. A number of the first set of observation vectors is a predefined sample size. The first set of support vectors define a first data description for a training dataset that includes the first set of observation vectors. (a) The predefined sample size is incremented by adding a predefined sample size increment to the predefined sample size. (b) A second candidate optimal kernel parameter value is computed by computing a second optimal value of a second objective function that includes the kernel function for each of the plurality of kernel parameter values. The second objective function is defined for the SVDD model using a second set of observation vectors to define a second set of support vectors. A number of the second set of observation vectors is the incremented, predefined sample size. The second set of support vectors define a second data description for the training dataset that includes the second set of observation vectors. (c) A difference value is computed between the computed second candidate optimal value and the computed first candidate optimal value. (a)-(c) are repeated with the computed first candidate optimal value as the computed second...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Peredriy",
+      "inventor_name_first": "Sergiy",
+      "inventor_city": "Auburndale",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kakde",
+      "inventor_name_first": "Deovrat Vijay",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chaudhuri",
+      "inventor_name_first": "Arin",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "KERNEL PARAMETER SELECTION IN SUPPORT VECTOR DATA DESCRIPTION FOR OUTLIER IDENTIFICATION",
+  "decision": "ACCEPTED",
+  "_processing_info": {
+    "original_size": 108607,
+    "optimized_size": 3782,
+    "reduction_percent": 96.52
+  }
+}

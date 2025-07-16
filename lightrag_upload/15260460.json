@@ -1,0 +1,31 @@
+{
+  "date_produced": "20161214",
+  "publication_number": "US20160379113A1-20161229",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15260460",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gruenstein",
+      "inventor_name_first": "Alexander H.",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for training a deep neural network. One of the methods includes generating a plurality of feature vectors that each model a different portion of an audio waveform, generating a first posterior probability vector for a first feature vector using a first neural network, determining whether one of the scores in the first posterior probability vector satisfies a first threshold value, generating a second posterior probability vector for each subsequent feature vector using a second neural network, wherein the second neural network is trained to identify the same key words and key phrases and includes more inner layer nodes than the first neural network, and determining whether one of the scores in the second posterior probability vector satisfies a second threshold value.",
+  "filing_date": "20160909",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in methods that include the actions of receiving a digital representation of speech, generating a plurality of feature vectors that each model a different portion of an audio waveform from the digital representation of speech during a different period of time, the plurality of feature vectors including a first feature vector and subsequent feature vectors, generating a first posterior probability vector for the first feature vector using a first neural network, the first posterior probability vector including one score for each key word or key phrase which the first neural network is trained to identify, determining whether one of the scores in the first posterior probability vector satisfies a first threshold value using a first posterior handling module, and in response to determining that one of the scores in the first posterior probability vector satisfies the first threshold value and for each of the feature vectors generating a second posterior probability vector for the respective feature vector using a second neural network, wherein the second neural network is trained to identify the same key words and key phrases as the first neural network, and includes more inner layer nodes than the first neural network, and the second posterior probability vector includes one score for each key word or key phrase which the second neural network is trained to identify, and determining whether one of the scores in the second posterior probability vector satisfies a second threshold value using a second posterior handling module, the second threshold value being more restrictive than the first threshold value. Other embodiments of this aspect include corresponding computer systems, apparatus, and computer programs recorded on one or more computer storage devices, each configured to perform the actions of the methods. A system of one or more computers ...",
+  "date_published": "20161229",
+  "title": "TRAINING MULTIPLE NEURAL NETWORKS WITH DIFFERENT ACCURACY",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 105034,
+    "optimized_size": 3445,
+    "reduction_percent": 96.72
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15460933",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170316",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A method and device for partitioning packet classification rules are provided. According to an example of the method, one or more group are obtained by initially grouping bits included in a rule set on the network device. A local optimum combination of bits is determined for each group according to a correlation analysis on the group. A global optimum combination of bits having a minimum correlation coefficient and comprising fewest bits is determined from all the local optimum combinations of bits. The rule set is partitioned according to the global optimum combination of bits.",
+  "publication_number": "US20170372208A1-20171228",
+  "summary": "<SOH> SUMMARY <EOH>For this reason, the present disclosure provides a method and device for partitioning multi-domain packet classification rules to improve the efficiency of rule set partitioning, and make the storage space of rule subsets after partitioning as small as possible. According to a first aspect of examples of the present disclosure, a method for partitioning packet classification rules is provided, and the method includes the following blocks that: obtaining, by a network device, one or more group by initially grouping bits included in a rule set on the network device, wherein each rule in the rule set includes m bits, and m is an integer greater than or equal to 2; determining, by the network device, a local optimum combination of bits for each group according to a correlation analysis on the group; determining, by the network device, a global optimum combination of bits having a minimum correlation coefficient and including fewest bits from all the local optimum combinations of bits; and partitioning, by the network device, the rule set according to the global optimum combination of bits. According to a second aspect of examples of the present disclosure, a device for partitioning packet classification rules is provided, and the device includes: a processor and a machine-readable storage medium, wherein machine-executable instructions corresponding to a control logic for partitioning packet classification rule may be stored in the machine-readable storage medium, the control logic for partitioning packet classification rule includes a rule set, and by reading and executing the machine-executable instructions, the processor executes the following operations: obtaining one or more group by initially grouping bits included in the rule set, wherein each rule in the rule set includes m bits, and m is an integer greater than or equal to 2; determining a local optimum combination of bits for each group according to a correlation analysis on the group; deter...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "H04L12851"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Zhongliang",
+      "inventor_city": "Zhejiang",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "PARTITIONING OF PACKET CLASSIFICATION RULES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 64549,
+    "optimized_size": 3141,
+    "reduction_percent": 95.13
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15461928",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "filing_date": "20170317",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A convolution operation method includes the following steps of: decomposing a large convolution operation region to multiple small convolution operation regions; the small convolution operation regions perform convolution operations so as to generate partial results, respectively; and summing the partial results as a convolution operation result of the large convolution operation region. A convolution operation device capable of supporting the convolution operation method is also disclosed.",
+  "publication_number": "US20180137414A1-20180517",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In view of the foregoing, an objective of the present disclosure is to provide a convolution operation device and a convolution operation method that can obtain the convolution operation results of large convolution operation region with reducing the limitation of specific scale of convolution operation region and without the additional hardware resource. To achieve the above objective, the present invention discloses a convolution operation method, which includes the following steps of: decomposing a large convolution operation region to multiple small convolution operation regions; performing convolution operations by the small convolution operation regions so as to generate partial results, respectively; and summing the partial results as a convolution operation result of the large convolution operation region. In one embodiment, the small convolution operation regions have the same scale. In one embodiment, the convolution operation method further includes a step of: assigning 0 to the small convolution operation regions, which are exceeding the large convolution operation region. In one embodiment, in the step of performing the convolution operations, the small convolution operation regions utilize at least a convolution unit to perform the convolution operations so as to generate the partial results, and a scale of the small convolution operation region is equal to a maximum convolution scale capable of being supported by the convolution unit. In one embodiment, in the step of performing the convolution operations, the small convolution operation regions utilize convolution units of corresponding numbers to perform the convolution operations in parallel so as to generate the partial results. In one embodiment, the large convolution operation region includes a plurality of filter coefficients, and the filter coefficients are assigned to the small convolution operation regions according to an order of the filter coefficients a...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "DU",
+      "inventor_name_first": "Li",
+      "inventor_city": "La Jolla",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DU",
+      "inventor_name_first": "Yuan",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LI",
+      "inventor_name_first": "Yi-Lei",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KUAN",
+      "inventor_name_first": "Yen-Cheng",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LIU",
+      "inventor_name_first": "Chun-Chen",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "CONVOLUTION OPERATION DEVICE AND CONVOLUTION OPERATION METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 55762,
+    "optimized_size": 3628,
+    "reduction_percent": 93.49
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15693235",
+  "date_published": "20180111",
+  "date_produced": "20171227",
+  "filing_date": "20170831",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A social networking system infers a sentiment polarity of a user toward content of a page. The sentiment polarity of the user is inferred based on received information about an interaction between the user and the page (e.g., like, report, etc.), and may be based on analysis of a topic extracted from text on the page. The system infers a positive or negative sentiment polarity of the user toward the content of the page, and that sentiment polarity then may be associated with any second or subsequent interaction from the user related to the page content. The system may identify a set of trusted users with strong sentiment polarities toward the content of a page or topic, and may use the trusted user data as training data for a machine learning model, which can be used to more accurately infer sentiment polarity of users as new data is received.",
+  "publication_number": "US20180012146A1-20180111",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the invention provide the ability to infer a sentiment polarity of a user of the social networking system toward a page or topic in the social networking system based on the user's interactions with the page or topic. In one embodiment, content of a page in the social networking system is identified. For instance, the content of the page may include text, pictures, video clips, audio clips, etc. In response to identifying text content on a page, a topic may be extracted from the text content of the page. For instance, a topic may be football, a recent event in the news, a particular food, or any other suitable topic, which may cover content spanning more than a single page. Information about an interaction between a user of the social networking system and the page or topic is received. For example, the interaction may indicate that the user likes the page, crosses out the page, shares the page, hides the page, reports the page, comments on the page, etc. The system then infers a sentiment polarity of the user based on the received information about the interaction, e.g., a positive sentiment of the user toward the content for a “like.” The system then also associates the inferred sentiment polarity with any second or subsequent interaction from the user that is related to the content of the page or the topic. For example, the user makes a comment on a page he has previously liked, and therefore the system associates the inferred sentiment polarity (positive sentiment polarity associated with the like) with the comment as well. The social networking system may infer the sentiment polarity of a user using a sentiment engine in conjunction with a machine learning module. In one embodiment, the system identifies a set of trusted users associated with the content of the page. A trusted user is one who possesses a strong sentiment polarity (negative or positive) toward the content of the page. The system determines a data set associated ...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q5000",
+    "G06Q1010"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Arpat",
+      "inventor_name_first": "Guven Burc",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shah",
+      "inventor_name_first": "Saiyad",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ayyar",
+      "inventor_name_first": "Srikant Ramakrishna",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SENTIMENT POLARITY FOR USERS OF A SOCIAL NETWORKING SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 89582,
+    "optimized_size": 3744,
+    "reduction_percent": 95.82
+  }
+}

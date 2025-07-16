@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060721A1-20180301",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15343987",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "JaeYoung",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Jungwon",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "EL-KHAMY",
+      "inventor_name_first": "Mostafa",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An apparatus and a method. The apparatus includes a plurality of long short term memory (LSTM) networks, wherein each of the plurality of LSTM networks is at a different network layer, wherein each of the plurality of LSTM networks is configured to determine a residual function, wherein each of the plurality of LSTM networks includes an output gate to control what is provided to a subsequent LSTM network, and wherein each of the plurality of LSTM networks includes at least one highway connection to compensate for the residual function of a previous LSTM network.",
+  "filing_date": "20161104",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to one embodiment, an apparatus includes a plurality of long short term memory (LSTM) networks, wherein each of the plurality of LSTM networks is at a different network layer, wherein each of the plurality of LSTM networks is configured to determine a residual function, wherein each of the plurality of LSTM networks includes an output gate to control what is provided to a subsequent LSTM network, and wherein each of the plurality of LSTM networks includes at least one highway connection to compensate for the residual function of a previous LSTM network. According to one embodiment, a method includes configuring a plurality of long short term memory (LSTM) networks, wherein each of the plurality of LSTM networks is at a different network layer; determining a residual function for each of the plurality of LSTM networks; controlling, by an output gate of each of the plurality of LSTM networks, what is provided to a subsequent LSTM network, and compensating, by at least one highway connection of each of the plurality of LSTM networks, for the residual function of a previous LSTM network. According to one embodiment, a method of manufacturing a residual long short time memory (LSTM) network including forming the residual LSTM network on a wafer or a package with at least one other residual LSTM network, wherein the residual network is configured to determine by a first function block f t L+1 =sigm(W xf L+1 x t L+1 +W hf L+1 h t−1 L+1 +W cf L+1 ⊙c t−1 L+1 +b f L+1 ); determine by a second function block i t L+1 =sigm(W xi L+1 x t L+1 +W hi L+1 h t−1 L+1 +W ci L+1 ⊙c t−1 L+1 +b i L+1 ); determine a third function block j t L+1 =tan h(W xc L+1 x t L+1 +W hc L+1 h t−1 L+1 +b j L+1 ); determine by a fourth function block o t L+1 =sigm(W xo L+1 x t L+1 +W ho L+1 h t−1 L+1 +W co L+1 c t L+1 +b o L+1 ); determine by a fifth function block c t L+1 =f t L+1 ⊙c t−1 L+1 +i t L+1 ⊙j t L+1 ; and determine by a sixth function block h t L+1 as a function of ...",
+  "date_published": "20180301",
+  "title": "SYSTEM AND METHOD FOR RESIDUAL LONG SHORT TERM MEMORIES (LSTM) NETWORK",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 73327,
+    "optimized_size": 3487,
+    "reduction_percent": 95.24
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170427",
+  "publication_number": "US20170132523A1-20170511",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15340255",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Hui",
+      "inventor_city": "Princeton Junction",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Haifeng",
+      "inventor_city": "Old Bridge",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Jianwu",
+      "inventor_city": "Lawrenceville",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yoshihira",
+      "inventor_name_first": "Kenji",
+      "inventor_city": "Princeton Junction",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jiang",
+      "inventor_name_first": "Guofei",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods are disclosed for detecting periodic event behaviors from machine generated logging by: capturing heterogeneous log messages, each log message including a time stamp and text content with one or more fields; recognizing log formats from log messages; transforming the text content into a set of time series data, one time series for each log format; during a training phase, analyzing the set of time series data and building a category model for each periodic event type in heterogeneous logs; and during live operation, applying the category model to a stream of time series data from live heterogeneous log messages and generating a flag on a time series data point violating the category model and generating an alarm report for the corresponding log message.",
+  "filing_date": "20161101",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Systems and methods are disclosed for detecting periodic event behaviors from machine generated logging by: capturing heterogeneous log messages, each log message including a time stamp and text content with one or more fields; transforming the text content into a set of time series data; during a training phase, analyzing the set of time series data and building a category model for each periodic event type in heterogeneous logs; and during live operation, applying the category model to a stream of time series data from live heterogeneous log messages and generating a flag on a time series data point violating the category model and generating corresponding log messages. In another aspect, a system includes a mechanical actuator; a digitizer coupled to the actuator to log data; a module for detecting periodic event behaviors from machine generated logging, including code for: capturing heterogeneous log messages, each log message including a time stamp and text content with one or more fields; transforming the text content into a set of time series data; during a training phase, analyzing the set of time series data and building a category model for each periodic event type in heterogeneous logs; and during live operation, applying the category model to a stream of time series data from live heterogeneous log messages and generating a flag on a time series data point violating the category model and generating corresponding log messages. In implementations, the actuator can be a motor or an engine that generates periodic event behaviors that need monitoring for performance, reliability, or maintenance purposes, for example. Advantages of the system may include one or more of the following. Instead of treating the input data as a single time series, the invention transforms heterogeneous logs into multiple time series, and provides a fast and robust mechanism to discover potentially multiple periods existing in each time series. The periodicity di...",
+  "date_published": "20170511",
+  "title": "Periodicity Analysis on Heterogeneous Logs",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 33139,
+    "optimized_size": 3929,
+    "reduction_percent": 88.14
+  }
+}

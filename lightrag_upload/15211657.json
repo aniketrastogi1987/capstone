@@ -1,0 +1,39 @@
+{
+  "decision": "PENDING",
+  "application_number": "15211657",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "title": "PROCESSING A TRANSACTION USING ELECTRONIC TOKENS",
+  "filing_date": "20160715",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gomes",
+      "inventor_name_first": "Dinesh Agnello",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Prabhu",
+      "inventor_name_first": "Nitin",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2038",
+    "H04L2906",
+    "G06Q2034"
+  ],
+  "main_ipcr_label": "G06Q2038",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE FIGURES <EOH>FIG. 1 is an example page that is displayed on a display of a user device by a merchant application. FIGS. 2A, 2B, and 2C is an example process flow for binding a user's information to the user's payment service provider account. FIG. 3 is a flowchart illustrating an example method of binding the user's information to the user's payment service provider account. FIGS. 4A, 4B, 4C, and 4D is an example process flow for charging an underlying funding instrument associated with a user's request to pay with her account with the payment service provider. FIG. 5 is a flowchart illustrating an example method of charging a funding instrument associated with a payment token. FIGS. 6A, 6B, 6C, 6D, and 6E is an example process flow for providing supplemental transaction data to a user in relation to charging an underlying funding instrument to complete a transaction. FIG. 7 is an example screenshot of supplemental transaction data displayed on a user device. FIG. 8 is an embodiment of a network-based system for implementing one or more processes. FIG. 9 is a schematic view illustrating an embodiment of a networked system. FIG. 10 is a perspective view illustrating an embodiment of a user device. FIG. 11 is a schematic view illustrating an embodiment of a computer system. detailed-description description=\"Detailed Description\" end=\"lead\"? Embodiments of the present disclosure and their advantages are best understood by referring to the detailed description that follows. It should be appreciated that like reference numerals are used to identify like elements illustrated in one or more of the figures, wherein showings therein are for purposes of illustrating embodiments of the present disclosure and not for purposes of limiting the same.",
+  "patent_number": "None",
+  "abstract": "In some embodiments, a method for binding a user's information to a user's account with a payment service provider includes receiving a request to pay for a transaction using the user's account with the payment service provider. The request to pay specifies a funding instrument. Additionally, the payment service provider is a source of the funding instrument, and the transaction is between the user and a merchant application. The method also includes generating a common identifier (ID) corresponding to the funding instrument, and generating a payment token corresponding to the common ID and the funding instrument. The common ID is a non-transactable token associated with the merchant application and the user, and the payment token is a non-transactable token that corresponds to the common ID. The method further includes binding the user's payment service provider account to the payment token and the common ID.",
+  "publication_number": "US20180018660A1-20180118",
+  "_processing_info": {
+    "original_size": 120117,
+    "optimized_size": 3434,
+    "reduction_percent": 97.14
+  }
+}

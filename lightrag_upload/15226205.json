@@ -1,0 +1,54 @@
+{
+  "date_produced": "20170607",
+  "publication_number": "US20170178028A1-20170622",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15226205",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cardonha",
+      "inventor_name_first": "Carlos H.",
+      "inventor_city": "Sao Paulo",
+      "inventor_state": "",
+      "inventor_country": "BR"
+    },
+    {
+      "inventor_name_last": "Mazon",
+      "inventor_name_first": "Stefany",
+      "inventor_city": "Sao Paulo",
+      "inventor_state": "",
+      "inventor_country": "BR"
+    },
+    {
+      "inventor_name_last": "Nascimento Ciriaco Pereira",
+      "inventor_name_first": "Debora L.",
+      "inventor_city": "Sao Paulo",
+      "inventor_state": "",
+      "inventor_country": "BR"
+    },
+    {
+      "inventor_name_last": "Sultanum",
+      "inventor_name_first": "Nicole B.",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "Contextual adaptation of documents automatically replaces words for synonyms that appear within context or topic whey they are being used. A machine learned topic modeling, trained by a set of documents representative of a target user is executed to determine topics of an input document, and to determine words in the document to replace based on determining the relevance of the words to the topics in the documents. An output document is generated based on the input document with the replaced words.",
+  "filing_date": "20160802",
+  "patent_number": "9672476",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A computer-implemented method and method for contextual text adaptation may be provided. The method in one aspect may include receiving a corpus of documents in context of a target user. The method may also include receiving a dictionary of words. The method may further include receiving a dictionary of synonyms. The method may also include generating a topic model algorithm based on the corpus of documents and the dictionary of words by machine learning, the topic model algorithm comprising a first function that predicts probability distribution of a plurality of topics in a given document, and a second function that predicts probability of a given word occurring in a document associated with a given topic. The method may also include storing the first function and the second function of the topic model algorithm in a storage device. The method may also include receiving an input document. The method may further include determining input document topics associated with the input document and a normalized weight associated with each of the input document topics by executing the first function. The method may also include determining an aggregate probability indicating relevance of an input document word to the input document topics based on executing the second function. The method may also include determining a synonym of the input document word based on the dictionary of synonyms. The method may also include determining an aggregate probability for the synonym based on executing the second function. The method may also include comparing the aggregate probability for the synonym and the aggregate probability for the input document word. The method may also include, responsive to determining that the aggregate probability for the synonym is greater than the aggregate probability for the input document word, replacing the input document word with the synonym. The method may further include generating an output document comprising content of t...",
+  "date_published": "20170622",
+  "title": "CONTEXTUAL TEXT ADAPTATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06F1730",
+    "G06F1727"
+  ],
+  "_processing_info": {
+    "original_size": 53454,
+    "optimized_size": 3523,
+    "reduction_percent": 93.41
+  }
+}

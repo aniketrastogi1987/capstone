@@ -1,0 +1,80 @@
+{
+  "patent_number": "None",
+  "application_number": "15488429",
+  "date_published": "20170824",
+  "date_produced": "20170809",
+  "filing_date": "20170414",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "In a crowd sourcing approach, responses to customer service inquiries are provided by routing a subset of the inquiries to an independent group of experts. The customer service inquiries are optionally routed to specific experts based on matches between identified subject matter of the inquiries and expertise of the experts. Embodiments include methods of classifying customer service inquiries, training a machine learning system, and/or processing customer service requests.",
+  "publication_number": "US20170243137A1-20170824",
+  "summary": "<SOH> SUMMARY <EOH>Some embodiments of the current invention include systems and methods of providing improved customer service. These improved services are achieved by processing and potentially resolving customer service inquiries prior to or after these inquiries have been routed to a contact center. The processing includes presenting the customer service inquiries to one or more “experts.” These experts may be independent persons having experience or qualifications in the subject of the customer service inquiry. Optionally, customer service inquiries that are not resolved by an expert are eventually forwarded to agents in an enterprise contact center. Experts are managed by computing systems configured to determine which expert should receive a particular customer service inquiry, to determine which experts are currently available, to manage rewards, and/or to generate expert scores. Customer service inquiries are routed by the computing systems to establish communication channels between the expert and source of the service inquiry. These computing systems are thus configured via specific computing instructions to produce a specific purpose computing system. Various embodiments include an expert management system configured to manage customer service inquiries, the system comprising a request I/O configured to receive a customer service inquiry; an inquiry parser configured to determine one or more topic characteristics of the inquiry; status logic configured to monitor statuses of a plurality of experts; expert data storage configured to store data characterizing one or more specialty characteristics of each of the plurality of experts; routing data storage configured to store logs of inquiry routing; matching logic configured to match the inquiry to a first human expert of the plurality of human experts, the matching being based on the one or more expert score of the first human expert and a correlation between the topic characteristics of the inquiry and the...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q3000"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mandel",
+      "inventor_name_first": "Eugene",
+      "inventor_city": "Sebastopol",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Georgescu",
+      "inventor_name_first": "Vlad",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Patterson",
+      "inventor_name_first": "Jeff",
+      "inventor_city": "Pleasant Hill",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brydon",
+      "inventor_name_first": "Antony Fenwick",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fama",
+      "inventor_name_first": "Jason",
+      "inventor_city": "San Carlos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Golubock",
+      "inventor_name_first": "Scott",
+      "inventor_city": "Morgan Hill",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tessier",
+      "inventor_name_first": "Jean",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hsu",
+      "inventor_name_first": "Stephen",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Methods of AI Based CRM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 136843,
+    "optimized_size": 4063,
+    "reduction_percent": 97.03
+  }
+}

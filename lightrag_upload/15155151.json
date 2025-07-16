@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160824",
+  "publication_number": "US20160260030A1-20160908",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15155151",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HE",
+      "inventor_name_first": "Dan",
+      "inventor_city": "Ossining",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "PARIDA",
+      "inventor_name_first": "Laxmi P.",
+      "inventor_city": "Mohegan Lake",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "RISH",
+      "inventor_name_first": "Irina",
+      "inventor_city": "Rye Brook",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Various embodiments select features from a feature space. In one embodiment, a set of training samples and a set of test samples are received. A first centered Gram matrix of a given dimension is determined for each of a set of feature vectors that include at least one of the set of training samples and at least one of the set of test samples. A second centered Gram matrix of the given dimension is determined for a target value vector that includes target values from the set of training samples. A set of columns and rows associated with the at least one of the test samples in the second centered Gram matrix is set to 0. A subset of features is selected from a set of features based on the first and second centered Gram matrices.",
+  "filing_date": "20160516",
+  "patent_number": "9704105",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In one embodiment, a computer implemented method for selecting features from a feature space is disclosed. The method includes receiving, by a processor, a set of training samples and a set of test samples. Each of the set of training samples includes a set of features and a target value. The set of test samples includes the set of features absent the class value. A first centered Gram matrix of a given dimension is determined for each of a set of feature vectors that include at least one of the set of training samples and at least one of the set of test samples. A second centered Gram matrix of the given dimension is determined for a target value vector that includes the target values from the set of training samples. A set of columns and rows associated with the at least one of the test samples in the second centered Gram matrix is set to 0. A subset of features is selected from the set of features based on the first and second centered Gram matrices. In another embodiment, an information processing system for selecting features from a feature space is disclosed. The information processing system includes a memory and a processor that is communicatively coupled to the memory. A feature selection module is communicatively coupled to the memory and the processor. The feature selection module is configured to perform a method. The method includes receiving a set of training samples and a set of test samples. Each of the set of training samples includes a set of features and a target value. The set of test samples includes the set of features absent the class value. A first centered Gram matrix of a given dimension is determined for each of a set of feature vectors that include at least one of the set of training samples and at least one of the set of test samples. A second centered Gram matrix of the given dimension is determined for a target value vector that includes the target values from the set of training samples. A set of columns and r...",
+  "date_published": "20160908",
+  "title": "TRANSDUCTIVE LASSO FOR HIGH-DIMENSIONAL DATA REGRESSION PROBLEMS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 49869,
+    "optimized_size": 3596,
+    "reduction_percent": 92.79
+  }
+}

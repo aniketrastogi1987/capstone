@@ -1,0 +1,54 @@
+{
+  "decision": "PENDING",
+  "application_number": "15203797",
+  "date_published": "20170504",
+  "date_produced": "20170419",
+  "title": "DIFFERENTIALLY PRIVATE PROCESSING AND DATABASE STORAGE",
+  "filing_date": "20160707",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nerurkar",
+      "inventor_name_first": "Ishaan",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hockenbrocht",
+      "inventor_name_first": "Christopher",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shaughnessy",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Napa",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chatav",
+      "inventor_name_first": "Eitan",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F1730",
+    "G06N9900",
+    "G06F2162"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>A hardware database privacy device is communicatively coupled to a private database system. The hardware database privacy device receives a request from a client device to perform a query of the private database system and identifies a level of differential privacy corresponding to the request. The identified level of differential privacy includes a privacy parameter ∈ indicating the degree of information released about data in the private database system. The differentially private hardware database privacy device identifies a set of data stored in the private database system and a set of operations to be performed on the set of data that corresponds to the requested query. After the set of data is accessed, the set of operations is modified based on the identified level of differential privacy such that a performance of the modified set of operations produces a result set that is differentially private. The modified set of operations is performed on the accessed set of data to produce the differentially private result set. The differentially private result set is provided to the client device for display on a hardware display of the client device.",
+  "patent_number": "None",
+  "abstract": "A hardware database privacy device is communicatively coupled to a private database system. The hardware database privacy device receives a request from a client device to perform a query of the private database system and identifies a level of differential privacy corresponding to the request. The identified level of differential privacy includes privacy parameters (∈,δ) indicating the degree of information released about the private database system. The hardware database privacy device identifies a set of operations to be performed on the set of data that corresponds to the requested query. After the set of data is accessed, the set of operations is modified based on the identified level of differential privacy such that a performance of the modified set of operations produces a result set that is (∈,δ)-differentially private.",
+  "publication_number": "US20170126694A1-20170504",
+  "_processing_info": {
+    "original_size": 84796,
+    "optimized_size": 3080,
+    "reduction_percent": 96.37
+  }
+}

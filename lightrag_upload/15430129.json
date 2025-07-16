@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15430129",
+  "date_published": "20170615",
+  "date_produced": "20170603",
+  "filing_date": "20170210",
+  "main_ipcr_label": "G06N700",
+  "abstract": "The invention relates to inferring the state of a system of interest having a plurality of indicator values and possibly being heterogeneous in nature. A number of indicator values from a control state and from a comparison state are gathered. From these indicator values, classification power between the control and comparison states (measure of goodness) is computed. Difference values are computed for the indicator values from the system of interest based on the difference to the indicator values from control and comparison states. From a number of these indicators, composite indicators are formed, and composite measures of goodness and composite difference values are computed. A plurality of composite indicators may be formed at different levels. These indicators may be represented as a tree and grouped according to content, and at the same time they may be arranged according to the measure of goodness or some other value. The indicators, measures of goodness, and difference values m...",
+  "publication_number": "US20170169352A1-20170615",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Now there has been invented an improved method and technical equipment implementing the method, by which the above problems are alleviated. Various aspects of the invention include a method, an apparatus, a server, a client and a computer readable medium comprising a computer program stored therein, which are characterized by what is stated in the independent claims. Various embodiments of the invention are disclosed in the dependent claims. According to a first aspect of the invention, there is provided a method, comprising defining a first indicator and a second indicator in a system, the values of the first indicator and the second indicator being indicative of the state of the system of interest, forming a measure of goodness for said first indicator and for said second indicator by using values of said first indicator and values of said second indicator, respectively, of a control state and a comparison state, forming a difference value for said first indicator and for said second indicator in a system of interest with reference to said first and second indicators in said control and comparison states, defining a composite indicator of said first indicator and said second indicator, forming a measure of goodness for the composite indicator by using information indicative of said measure of goodness of said first indicator and said second indicator, forming a difference value for the composite indicator in a system of interest, and arranging said composite indicator to be used in inferring the state of the system of interest. According to an embodiment, the method further comprises forming said difference values for said first and second indicators to be indicative of whether the system of interest is in a control state or a comparison state or in a state between the control state and the comparison state, and displaying difference values arranged according to their respective measures of goodness for inferring the state of the system of...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F724",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Loetjoenen",
+      "inventor_name_first": "Jyrki",
+      "inventor_city": "Tampere",
+      "inventor_state": "",
+      "inventor_country": "FI"
+    },
+    {
+      "inventor_name_last": "Koikkalainen",
+      "inventor_name_first": "Juha",
+      "inventor_city": "Tampere",
+      "inventor_state": "",
+      "inventor_country": "FI"
+    },
+    {
+      "inventor_name_last": "Mattila",
+      "inventor_name_first": "Jussi",
+      "inventor_city": "Tampere",
+      "inventor_state": "",
+      "inventor_country": "FI"
+    }
+  ],
+  "title": "STATE INFERENCE IN A HETEROGENEOUS SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 112282,
+    "optimized_size": 3845,
+    "reduction_percent": 96.58
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170316",
+  "publication_number": "US20170091619A1-20170330",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15081780",
+  "inventor_list": [
+    {
+      "inventor_name_last": "TOWAL",
+      "inventor_name_first": "Regan Blythe",
+      "inventor_city": "La Jolla",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "JULIAN",
+      "inventor_name_first": "David Jonathan",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The balance of training data between classes for a machine learning model is modified. Adjustments are made at the gradient stage where selective backpropagation is utilized to modify a cost function to adjust or selectively apply the gradient based on the class example frequency in the data sets. The factor for modifying the gradient may be determined based on a ratio of the number of examples of the class with a fewest members to the number of examples of a present class. The gradient associated with the present class is modified based on the above determined factor.",
+  "filing_date": "20160325",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, a method of modifying a balance of training data between classes for a machine learning model is disclosed. The method includes modifying gradients of a backpropagation process while training the model, based on a ratio of a number of examples of a class with a fewest members to a number of examples of a present class. Another aspect discloses an apparatus for modifying a balance of training data between classes for a machine learning model. The apparatus includes means for determining a factor for modifying a gradient based on a ratio of a number of examples of a class with a fewest members to a number of examples of a present class. The apparatus also includes means for modifying the gradient associated with the present class based on the determined factor. Another aspect discloses wireless communication having a memory and at least one processor coupled to the memory. The processor(s) is configured to modify gradients of a backpropagation process while training the model, based on a ratio of a number of examples of a class with a fewest members to a number of examples of a present class. Another aspect discloses a non-transitory computer-readable medium having non-transitory program code recorded thereon which, when executed by the processor(s), causes the processor(s) to perform operations of modifying gradients of a backpropagation process while training the model, based at least in part on a ratio of a number of examples of a class with a fewest members to a number of examples of a present class. Additional features and advantages of the disclosure will be described below. It should be appreciated by those skilled in the art that this disclosure may be readily utilized as a basis for modifying or designing other structures for carrying out the same purposes of the present disclosure. It should also be realized by those skilled in the art that such equivalent constructions do not depart from the teachings of the disclosure as s...",
+  "date_published": "20170330",
+  "title": "SELECTIVE BACKPROPAGATION",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 67513,
+    "optimized_size": 3259,
+    "reduction_percent": 95.17
+  }
+}

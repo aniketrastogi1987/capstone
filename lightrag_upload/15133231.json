@@ -1,0 +1,31 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15133231",
+  "date_published": "20161117",
+  "date_produced": "20161102",
+  "title": "OBJECT PICK-UP SYSTEM AND METHOD FOR PICKING UP STACKED OBJECTS",
+  "filing_date": "20160420",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SUZUKI",
+      "inventor_name_first": "Tadanori",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "B25J916",
+    "G06K900"
+  ],
+  "main_ipcr_label": "B25J916",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>In an aspect of the invention, an object pick-up system for picking up stacked objects comprises a robot hand able to grip an object, a manipulator which moves the robot hand, a vision sensor able to detect a position and posture of the object, and an arrangement determination part which determines a position and posture of the robot hand when the robot hand grips the object based on the position and posture of the object detected by the vision sensor. Further, the object pick-up system comprises a manipulator controller which controls the manipulator so as to arrange the robot hand at the position and posture of the robot hand determined by the arrangement determination part, and a robot hand controller which controls the robot hand so as to grip the object. The manipulator controller controls the manipulator so as to arrange the robot hand at a position and posture in which a moment is generated at the object when the robot hand gripping the object lifts up that object. The robot hand controller controls the robot hand so as to allow the object to rotate relative to the robot hand by the action of gravity while preventing the object from dropping from the robot hand, when the robot hand is arranged at the position and posture in which the moment is generated at the object. The object may be formed with a through hole at a position separated from a center of gravity of the object. The robot hand may include a plurality of claws and a claw driver which moves the plurality of claws in directions approaching and separating away from each other. The arrangement determination part may determine the position and posture of the robot hand in which the plurality of claws can be arranged inside of the through hole. The robot hand controller may control the claw driver so as to move the plurality of claws in directions separating away from each other to press the plurality of claws against a wall surface which defines the through hole, thereby...",
+  "patent_number": "9868215",
+  "abstract": "An object pick-up system able to use a simpler configuration to place picked up objects at a predetermined location with the directions of the picked up objects aligned. The object pick-up system is provided with a robot hand, manipulator, vision sensor, arrangement determination part setting the position and posture of the robot hand when gripping an object, manipulator controller controlling the manipulator, and robot hand controller controlling the robot hand. The manipulator controller places the robot hand at a position and posture giving rise to a moment in the object. The robot hand controller prevents an object from dropping from the robot hand while the object is rotated by the action of gravity.",
+  "publication_number": "US20160332299A1-20161117",
+  "_processing_info": {
+    "original_size": 50040,
+    "optimized_size": 3281,
+    "reduction_percent": 93.44
+  }
+}

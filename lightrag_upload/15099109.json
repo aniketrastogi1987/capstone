@@ -1,0 +1,39 @@
+{
+  "date_produced": "20161122",
+  "publication_number": "US20160358069A1-20161208",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15099109",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Brothers",
+      "inventor_name_first": "John W.",
+      "inventor_city": "Calistoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "Joohoon",
+      "inventor_city": "East Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Implementing a neural network includes determining whether to process a combination of a first region of an input feature map and a first region of a convolution kernel and, responsive to determining to process the combination, performing a convolution operation on the first region of the input feature map using the first region of the convolution kernel to generate at least a portion of an output feature map.",
+  "filing_date": "20160414",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment may include a method of implementing a neural network. The method includes determining whether to process a combination of a first region of an input feature map and a first region of a convolution kernel and, responsive to determining to process the combination, performing a convolution operation on the first region of the input feature map using the first region of the convolution kernel to generate at least a portion of an output feature map. Another embodiment may include an apparatus for implementing a neural network. The apparatus includes a fetch circuit configured to retrieve regions of input feature maps from a memory under control of a control circuit and a mask generation and weight application control circuit configured to determine whether to process a combination of a first region of an input feature map and a first region of a convolution kernel. The apparatus further includes a convolution circuit configured to perform a convolution operation on the combination responsive to the determination by the mask generation and weight application control circuit to process the combination. Another embodiment may include an apparatus for implementing a neural network. The apparatus includes a weight processing circuit configured to determine whether weights to be applied to regions of input feature maps are zero and a data staging circuit configured to determine whether the regions of the input feature maps are zero. The apparatus also includes a multiply-accumulate circuit configured to apply only non-zero weights to the regions of the input feature maps that are non-zero. This Summary section is provided merely to introduce certain concepts and not to identify any key or essential features of the claimed subject matter. Many other features and embodiments of the invention will be apparent from the accompanying drawings and from the following detailed description.",
+  "date_published": "20161208",
+  "title": "NEURAL NETWORK SUPPRESSION",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F776",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 114621,
+    "optimized_size": 3037,
+    "reduction_percent": 97.35
+  }
+}

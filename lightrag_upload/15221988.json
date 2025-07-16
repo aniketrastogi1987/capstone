@@ -1,0 +1,53 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032876A1-20180201",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15221988",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ALTSHULLER",
+      "inventor_name_first": "MARC S.",
+      "inventor_city": "TORONTO",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "CHU",
+      "inventor_name_first": "YEA JANE",
+      "inventor_city": "CHICAGO",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SHYR",
+      "inventor_name_first": "JING-YUN",
+      "inventor_city": "NAPERVILLE",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WOODS",
+      "inventor_name_first": "MICHAEL D.",
+      "inventor_city": "CHICAGO",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method, system, and/or computer program product analyses event transactional related data to generate insights and predictions, which are pre-created to efficiently respond to requests for prediction/forecasting information, in order to improve the operation of the prediction-generating computer. One or more processors receive a series of structured data, where each entry (Ei) from the series of structured data has one or more time fields Tk and one or more attributes Aj. In response to determining that the series of structured data is transactional, one or more processors select a time field Tkr that meets an aggregation criterion, and then aggregate the transactional data from the time field Tkr into a time series data format. One or more processors consolidate results from a time series analysis and a regression analysis of the transformed transactional data to create a consolidated result, which is used to respond to a request for prediction/forecasting information.",
+  "filing_date": "20160728",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one or more embodiments of the present invention, a method, system, and/or computer program product analyses event transactional related data to generate insights and predictions, which are pre-created to efficiently respond to requests for prediction/forecasting information, in order to improve the operation of the prediction-generating computer. One or more processors receive a series of structured data, where each entry (E i ) from the series of structured data has one or more time fields T k (T i1 , T i2 , . . . , T iK ) and one or more attributes A j (A i1 , A i2 , . . . , A iJ ). One or more processors analyze the series of structured data to determine if the series of structured data is transactional data that describes an operational event. One or more processors, in response to determining that the series of structured data is transactional data that describes an operational event, identify transactional data from the series of structured data. One or more processors select a time field T kr that meets an aggregation criterion, and then aggregate the continuous attributes and/or generate a new “count” field in the transactional data based on the time field T kr into a time series data format. One or more processors analyze the time series data by a time series analysis to create a forecast for a target series/field, where the forecast generates time-dependent forecasts, and where the time-dependent forecasts are generated for sequential occurrences of future values. One or more processors derive time related fields from the particular time field T kr with the one or more (continuous) attributes A j into a cross-sectional data format. One or more processors analyze the cross-sectional data by a regression analysis to create results used in a prediction of the future values, where the predictions of the future values are generated for sequential occurrences of future values. One or more processors transform the series of structured data ...",
+  "date_published": "20180201",
+  "title": "TRANSFORMING A TRANSACTIONAL DATA SET TO GENERATE FORECASTING AND PREDICTION INSIGHTS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F708",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 71812,
+    "optimized_size": 4034,
+    "reduction_percent": 94.38
+  }
+}

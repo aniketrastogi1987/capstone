@@ -1,0 +1,46 @@
+{
+  "date_produced": "20180411",
+  "publication_number": "US20180114117A1-20180426",
+  "main_ipcr_label": "G06N310",
+  "decision": "PENDING",
+  "application_number": "15299626",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Yonghua",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Tang",
+      "inventor_name_first": "Jianbin",
+      "inventor_city": "Doncaster East",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Junsong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "A method, system and computer program product for accelerating a deep neural network (DNN) in a field-programmable gate array (FPGA) are disclosed. The method includes receiving a DNN net file and weights, converting the received DNN net file to one or more source files, generating an executable FPGA bit file using the one or more source files, and downloading the executable FPGA bit file from the DNN conversion platform to the FPGA. Converting of the received DNN net file and the weights to the one or more source files can further include analyzing the DNN net file to identify a plurality of neural layers, decomposing one or more neural layers of the plurality of neural layers to one or more operation blocks, instantiating the one or more source files, based on the one or more operation blocks.",
+  "filing_date": "20161021",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In an aspect of the present invention, a computer-implemented method for accelerating a deep neural network (DNN) in a field-programmable gate array (FPGA) is provided. The method comprises receiving a DNN net file of the DNN, converting the DNN net file to one or more source files by: analyzing the DNN net file to identify a plurality of neural layers; decomposing one or more neural layers of the plurality of neural layers to one or more operation blocks; and instantiating the one or more source files, based on the one or more operation blocks, generating an executable FPGA bit file using the one or more source files, and downloading the executable FPGA bit file to the FPGA. In an aspect of the present invention, a computer-implemented method for accelerating a DNN in an FPGA is provided. The method comprises receiving a DNN net file of the DNN, analyzing the DNN net file to obtain a network structure including a plurality of neural layers, generating one or more hardware description language source files, each of which corresponds to one of the neural layers, generating an executable FPGA bit file using the hardware description language source files, and downloading the executable FPGA bit file to the FPGA. In an aspect of the present invention, a system for accelerating a DNN in an FPGA is provided. The system comprises at least one processor and memory communicatively coupled to the at least one processor. The memory stores processor readable program instructions that, when executed by the at least one processor, cause the at least one processor to receive a DNN net file, convert the DNN net file to one or more source files by: analyzing the DNN net file to identify a plurality of neural layers; decomposing one or more neural layers of the plurality of neural layers to one or more operation blocks; and instantiating the one or more source files, based on the one or more operation blocks, generate an executable FPGA bit file using the one...",
+  "date_published": "20180426",
+  "title": "ACCELERATE DEEP NEURAL NETWORK IN AN FPGA",
+  "ipcr_labels": [
+    "G06N310",
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 62451,
+    "optimized_size": 3643,
+    "reduction_percent": 94.17
+  }
+}

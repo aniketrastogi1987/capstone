@@ -1,0 +1,47 @@
+{
+  "decision": "PENDING",
+  "application_number": "14997540",
+  "date_published": "20160512",
+  "date_produced": "20160427",
+  "title": "CASE DISPLAY APPARATUS, CASE DISPLAYING METHOD, AND STORAGE MEDIUM",
+  "filing_date": "20160117",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KOZUKA",
+      "inventor_name_first": "KAZUKI",
+      "inventor_city": "OSAKA",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KONDO",
+      "inventor_name_first": "KENJI",
+      "inventor_city": "FUKUI",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TAKATA",
+      "inventor_name_first": "KAZUTOYO",
+      "inventor_city": "FUKUI",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "A61B9000",
+    "G06T700",
+    "G06F1900",
+    "G06F30484"
+  ],
+  "main_ipcr_label": "A61B9000",
+  "summary": "<SOH> SUMMARY <EOH>One non-limiting and exemplary embodiment provides a case display apparatus capable of efficiently executing comparative reading. In one general aspect, the techniques disclosed here feature that a case display apparatus includes a display information generator that generates display information displayed on a display device, a user input obtainer that, when the display information includes a first tomographic image, receives an image movement instruction including identification information and a displacement amount, the identification information specifying a slice position shift or an image capture time shift to be performed, a slice position selector that, when the identification information specifies that the slice position shift is to be performed, determines a second tomographic image at a destination of the slice position shift from a first tomographic image set including the first tomographic image, based on a position movement amount corresponding to the displacement amount, the first tomographic image set being a first plurality of tomographic images, an image capture time selector that, when the identification information specifies that the image capture time shift is to be performed, selects a third tomographic image from a second tomographic image set, the second tomographic image set being a second plurality of tomographic images, a target person of the first tomographic image and target persons of the second tomographic image set being identical, an examination portion captured in the first tomographic image and examination portions captured in the second tomographic image set being identical, a modality for the first tomographic image and modalities for the second tomographic image set being identical, and image capture times of the first tomographic image set and image capture times of the second tomographic image set being different, an image capture time of the third tomographic image being shifted from the image capture time o...",
+  "patent_number": "None",
+  "abstract": "A user input obtainer receives an image movement instruction including identification information specifying a position shift or an image capture time shift to be performed and also including a displacement amount. When the identification information specifies the position shift, a slice position selector determines a tomographic image at a destination of the position shift based on the displacement amount from a set of tomographic images captured at the same time. On the other hand, when the identification information specifies the image capture time shift, the image capture time selector determines a tomographic image at a destination of the shift based on the displacement amount from sets of tomographic images that are identical to each other in terms of a patient, an examination portion, and a modality. A displaying image obtainer reads out the determined tomographic image from an image storage device and gives it to a display information generator.",
+  "publication_number": "US20160128795A1-20160512",
+  "_processing_info": {
+    "original_size": 120830,
+    "optimized_size": 3836,
+    "reduction_percent": 96.83
+  }
+}

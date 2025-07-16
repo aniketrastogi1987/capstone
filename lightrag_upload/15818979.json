@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15818979",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "filing_date": "20171121",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Embodiments of the present invention provide a method and an apparatus for improving positioning performance of an artificial neural network. The method includes: establishing an initial ANN; optimizing the initial ANN by using a PSO algorithm, to obtain an optimized initial ANN; training the optimized initial ANN to obtain a trained ANN. According to a positioning method and apparatus provided in the embodiments of the present invention, when an ANN is used for positioning, positioning performance is improved by using a PSO algorithm to optimize a weight and an offset of each neural element in the ANN.",
+  "publication_number": "US20180089566A1-20180329",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention provide a method and an apparatus for improving positioning performance of an artificial neural network, so as to use a PSO algorithm to optimize a weight and an offset of each neural element in an ANN, and improve positioning performance when the ANN is used for positioning. According to a first aspect, a method for improving positioning performance of an artificial neural network is provided, including: obtaining geographical location information and fingerprint information of at least one test point; randomly selecting an initial weight and an initial offset of each neural element at an input layer, an output layer, or a hidden layer by using the fingerprint information of the at least one test point as an input layer neural element and using the geographical location information of the at least one test point as an output layer neural element, so as to establish an initial ANN; optimizing the initial weight and the initial offset of each neural element of the initial ANN by using a PSO algorithm, to obtain an optimized initial ANN; and training the optimized initial ANN to obtain a trained ANN. With reference to the first aspect, in a first possible implementation of the first aspect, the optimizing the initial weight and the initial offset of each neural element of the initial ANN by using a PSO algorithm, to obtain an optimized initial ANN includes: using the initial weight and the initial offset of each neural element of the initial ANN as a particle initial location of the PSO algorithm and randomly selecting an initial speed of each particle, so as to establish a swarm of the PSO algorithm; in each iteration of an iteration process of the PSO algorithm, sequentially computing fitness of each particle in the PSO algorithm, updating an optimal particle in the swarm of the PSO algorithm, and updating a location and a speed of each particle in the swarm of the PSO algorithm, until iteration times of the PS...",
+  "ipcr_labels": [
+    "G06N308",
+    "H04W6400"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Anjian",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Cui",
+      "inventor_name_first": "Jie",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Han",
+      "inventor_name_first": "Jing",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Hong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR POSITIONING OF ARTIFICIAL NEURAL NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 76613,
+    "optimized_size": 3581,
+    "reduction_percent": 95.33
+  }
+}

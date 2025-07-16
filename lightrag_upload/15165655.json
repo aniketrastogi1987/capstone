@@ -1,0 +1,38 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344898A1-20171130",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15165655",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KARIMI",
+      "inventor_name_first": "Sahar",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "RONAGH",
+      "inventor_name_first": "Pooya",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "Described herein are methods, systems, and media for setting a system of superconducting qubits having a Hamiltonian representative of a polynomial on a bounded integer domain via bounded-coefficient encoding. The method comprises: obtaining the polynomial on the bounded integer domain and integer encoding parameters; computing bounded-coefficient encoding using the integer encoding parameters; recasting each integer variable as a linear function of binary variables using the bounded-coefficient encoding, and providing additional constraints on the attained binary variables to avoid degeneracy in the encoding; substituting each integer variable with an equivalent binary representation, and computing the coefficients of the equivalent binary representation of the polynomial on the bounded integer domain; performing a degree reduction on the obtained equivalent binary representation of the polynomial to provide an equivalent polynomial of degree at most two in binary variables; using whi...",
+  "filing_date": "20160526",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Current implementations of quantum devices have limited numbers of superconducting qubits and are furthermore prone to various sources of noise. In practice, this restricts the usage of the quantum device to a limited number of qubits and a limited range of applicable ferromagnetic biases and couplings. Therefore there is need for methods of efficient encoding of data on the qubits of a quantum device. Disclosed invention herein relates to quantum information processing. This application pertains to a method for storing integers on superconducting qubits and setting a system of such superconducting qubits having a Hamiltonian representative of a polynomial on a bounded integer domain. The method disclosed herein can be used as a preprocessing step for solving a mixed integer polynomially constrained polynomial programming problem with a solver for binary polynomially constrained polynomial programming problems. One way to achieve the mentioned conversion is to cast each integer variable x as a linear function of binary variables, y i for i=1, . . . , d: in-line-formulae description=\"In-line Formulae\" end=\"lead\"? x=Σ i=1 d c i y i in-line-formulae description=\"In-line Formulae\" end=\"tail\"? The tuple (c 1 , . . . , c d ) is what's referred to as an integer encoding. A few well-known integer encodings are: Binary Encoding, in which c i =2 i−1 . Unary Encoding, in which c i =1. Sequential Encoding, in which c i =i. Current implementations of quantum devices have limited numbers of superconducting qubits and are furthermore prone to various sources of noise, including thermal and decoherence effects of the environment and the system [arXiv:1505.01545v2]. In practice, this restricts the usage of the quantum device to a limited number of qubits and a limited range of applicable ferromagnetic biases and couplings. Consequently the integer encodings formulated above, become incompetent for representing polynomial in several integer variables as the Hamilto...",
+  "date_published": "20171130",
+  "title": "METHODS AND SYSTEMS FOR SETTING A SYSTEM OF SUPER CONDUCTING QUBITS HAVING A HAMILTONIAN REPRESENTATIVE OF A POLYNOMIAL ON A BOUNDED INTEGER DOMAIN",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1578"
+  ],
+  "_processing_info": {
+    "original_size": 132090,
+    "optimized_size": 3812,
+    "reduction_percent": 97.11
+  }
+}

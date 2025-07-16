@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170830",
+  "publication_number": "US20170262764A1-20170914",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15086369",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KARUPPASAMY",
+      "inventor_name_first": "Selvakuberan",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "This disclosure relates to predicting and managing supply chain network risks. In one embodiment, a processor-implemented method obtains identifiers for supply chain contributors and parameters; and a query. The method performs a natural language processing algorithm on the query to extract text components, which it analyzes to identify supply chain component clusters and risk identifiers. It also includes executing a machine learning technique for learning of the risk identifiers and generating co-occurrence rules between the risk identifiers, as well as associated rule support and rule confidence parameters. It further includes sorting the co-occurrence rules to generate a prioritized rules list, and generating a risk prediction model for the supply chain using the prioritized rules list, using a classifier algorithm. The method further includes training the risk prediction model using a machine learning techniques for incremental learning, and generating a supply chain element modif...",
+  "filing_date": "20160331",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure present technological improvements as solutions to one or more of the above-mentioned technical problems recognized by the inventors in conventional systems. For example, in one embodiment, a machine learning prediction system is disclosed, comprising a hardware processor, and a memory storing instructions executable by the hardware processor to perform a method. The method may include obtaining, via the hardware processor, for a supply chain, identifiers for one or more supply chain contributors, one or more supply chain parameters including a supply chain type and an identification of a supply chain process flow; and one or more user parameters including a user query. The method may also include performing, via the hardware processor, a natural language processing algorithm on the user query to extract one or more text components including: one or more keywords, one or more names, one or more nouns, and one or more named entities. The method may comprise analyzing, via the hardware processor, the extracted text components to identify one or more supply chain component clusters, and identifying, via the hardware processor, one or more risk identifiers by comparing the extracted text components to risk identifiers included in the one or more supply chain component clusters. Further, the method may include executing a machine learning technique for learning of the one or more identified risk identifiers, and generating, via the hardware processor, one or more co-occurrence rules between the identified risk identifiers, as well as associated rule support and rule confidence parameters. Also, the method may include sorting, via the hardware processor, the one or more co-occurrence rules to generate a prioritized rules list, and generating, via the hardware processor, a risk prediction model for the supply chain using the prioritized rules list, using a classifier algorithm. Further, the method may include trainin...",
+  "date_published": "20170914",
+  "title": "SYSTEM AND METHOD FOR PREDICTING AND MANAGING THE RISKS IN A SUPPLY CHAIN NETWORK",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 65892,
+    "optimized_size": 3592,
+    "reduction_percent": 94.55
+  }
+}

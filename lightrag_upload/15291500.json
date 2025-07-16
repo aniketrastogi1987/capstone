@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170329",
+  "publication_number": "US20170103342A1-20170413",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15291500",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rajani",
+      "inventor_name_first": "Purshotam",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nukala",
+      "inventor_name_first": "Gaurav R.",
+      "inventor_city": "Milpitas",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kannan",
+      "inventor_name_first": "Gokulnath Coimbatore",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Essy",
+      "inventor_name_first": "Blair R.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A multi-modal meter of a vehicle obtains information from multiple sources to determine the most accurate values of motion parameters of the vehicle. The multi-modal meter obtains data describing motion of a vehicle from various sources including an on-board diagnostics (OBD) and global positioning system (GPS.) The dynamically evaluates the signal sources for their accuracy as the vehicle travels. The multi-modal meter selects different signal sources for different portions of a ride and uses the data from the selected signal sources to determine the most accurate motion parameters. The multi-modal meter use machine learning techniques to generate metadata used by an engine configured to determine the most accurate values of motion parameters of the vehicle.",
+  "filing_date": "20161012",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a high-level block diagram of the overall system environment for accurately determining motion parameters of a vehicle using a multi-modal meter, according to an embodiment. FIG. 2 is a high-level block diagram illustrating an example of a computer for use in the environment shown in FIG. 1 according to one embodiment of the present disclosure. FIG. 3A is a high-level block diagram illustrating the various software modules of a multi-modal meter, according to one embodiment. FIG. 3B shows the architecture of a machine learning module for predicting accuracy thresholds for signal sources used for determining motion parameters of a vehicle, according to an embodiment. FIG. 4 shows a flowchart that illustrates the overall process for determining fare of a ride according to an embodiment. FIG. 5 is a flow diagram illustrating a first example scenario for determining fare according to an embodiment. FIG. 6 is a flow diagram illustrating a second example scenario for determining fare according to an embodiment. FIG. 7 is a flow diagram illustrating a third example scenario for determining fare according to an embodiment. FIG. 8 is a flow diagram illustrating a fourth example scenario for determining fare according to an embodiment. FIG. 9 illustrates the interaction between an external system for training a machine learning model and a multi-modal meter receiving and executing the machine learning model, according to an embodiment. FIG. 10 illustrates the process and interaction of various modules for training a machine learning model for determining metadata for use by a rule engine of a multi-modal meter, according to an embodiment. FIG. 11 illustrates the process and interaction of various modules that execute a machine learning model for determining metadata for use by a rule engine of a multi-modal meter, according to an embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170413",
+  "title": "MACHINE LEARNING BASED DETERMINATION OF ACCURATE MOTION PARAMETERS OF A VEHICLE",
+  "ipcr_labels": [
+    "G06N9900",
+    "G07C508"
+  ],
+  "_processing_info": {
+    "original_size": 59497,
+    "optimized_size": 3805,
+    "reduction_percent": 93.6
+  }
+}

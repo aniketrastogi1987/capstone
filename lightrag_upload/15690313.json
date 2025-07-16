@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15690313",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "filing_date": "20170830",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Each energy value calculation circuit calculates an energy value, based on a sum total of values obtained by multiplying state values of a plurality of second neurons coupled with a first neuron by corresponding weighting values indicating coupling strengths, and updates the energy value, based on identification information of an updated neuron whose state is updated among the plurality of second neurons and a state value of the updated neuron. Each state transition determination circuit outputs, based on a second energy value and a noise value, a determination signal indicating a determination result of whether a change in a state value of the first neuron is possible. An updated neuron selection circuit selects, based on received determination signals, a first neuron a change in whose state value is possible and outputs identification information of the selected first neuron as identification information of the updated neuron.",
+  "publication_number": "US20180075342A1-20180315",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect, there is provided an information processing apparatus including a plurality of Ising units each including: a calculation circuit which calculates a second energy value obtained by updating, based on a piece of first identification information of an updated neuron whose state is updated among a plurality of second neurons coupled with a first neuron of a plurality of neurons and a second state value indicative of a state of the updated neuron, a first energy value calculated based on a sum total of values obtained by multiplying a plurality of first state values indicative of states of the plurality of second neurons by weighting values corresponding to the plurality of second neurons among a plurality of weighting values each indicative of a coupling strength between the first neuron and one of the plurality of second neurons; and a state transition determination circuit which outputs a determination signal indicative of a determination result of determining, based on the second energy value or a change amount of an energy function of a neural network at the time of a change in a state of the first neuron and a first noise value, whether a change in a third state value indicative of a state of the first neuron is possible, the plurality of Ising units outputting determination signals regarding different first neurons; and an updated neuron selection circuit which selects a first neuron of the plurality of neurons, for which the change in the third state value is determined to be possible, based on the determination signals outputted by the plurality of Ising units and which outputs a piece of second identification information of the selected first neuron as the piece of first identification information. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description an...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N3063"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "TAMURA",
+      "inventor_name_first": "Hirotaka",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MATSUBARA",
+      "inventor_name_first": "SATOSHI",
+      "inventor_city": "Machida",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION PROCESSING APPARATUS, ISING UNIT, AND INFORMATION PROCESSING APPARATUS CONTROL METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 94424,
+    "optimized_size": 3686,
+    "reduction_percent": 96.1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "patent_number": "None",
+  "application_number": "15719619",
+  "date_published": "20180524",
+  "date_produced": "20180509",
+  "filing_date": "20170929",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for a cognitive robotics analyzer are disclosed. In one aspect, a method includes the actions of receiving, for each user characteristic of a plurality of user characteristics, first data that identifies one or more first actions that perform a first process and second data that identifies one or more second actions that perform a second process that is labeled as similar to the first process. The actions further include training a predictive model. The actions further include receiving data that identifies actions performed by a user. The actions further include applying the predictive model to one or more of the actions. The actions further include classifying a process performed by the one or more actions as similar to a particular process. The actions further include associating the user with the particular user characteristic.",
+  "publication_number": "US20180144254A1-20180524",
+  "summary": "<SOH> SUMMARY <EOH>Grouping users according to different characteristics has traditionally relied upon characteristics provided by the users themselves or on characteristics provided by another party such as an employer. To group a user according to a characteristic, a system analyzes user actions from training data and generates a predictive model using machine learning, data clustering, and deep learning. The predictive model is configured to identify processes that the user performs and to correlate the processes with other processes that correspond to known characteristics. In other words, the predictive model first identifies the process that a user performs. The predictive model then identifies characteristics of the user based on the actions of the process. The action may not be enough for the predictive model to identify a characteristic. For example, a user located in the United Kingdom may be more likely to visit a website that includes the spelling “colour” in the text of the website. In this instance, visiting the website is the process and viewing the text “colour” is the action. It may not be as likely that a user reading an email with the spelling “colour” is located in the United Kingdom because the user may be in the United States and reading an email sent from a user in the United Kingdom. In this instance, reading the email is the process and viewing the text “colour” is the action. Therefore, the system uses the predictive model to identify processes and then assign characteristics to users based on the actions of similar processes. The system may also use predictive models to identify variables in a group of user actions where each group of actions performs the same process. The system receives training data that identifies actions that each perform at least one process. Using that training data the system generates predictive models that are configured to identify processes based on receiving the actions that a user performs. The user may click...",
+  "ipcr_labels": [
+    "G06N502",
+    "H04L1226",
+    "H04L2908",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bataller",
+      "inventor_name_first": "Cyrille",
+      "inventor_city": "Mougins",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Schiopu",
+      "inventor_name_first": "Vitalie",
+      "inventor_city": "Bertrange",
+      "inventor_state": "",
+      "inventor_country": "LU"
+    },
+    {
+      "inventor_name_last": "Jacquot",
+      "inventor_name_first": "Adrien",
+      "inventor_city": "Antibes Juan-les-Pins",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Torres",
+      "inventor_name_first": "Sergio Raúl Duarte",
+      "inventor_city": "Den Haag",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "Hall",
+      "inventor_name_first": "Simon",
+      "inventor_city": "Amsterdam",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    }
+  ],
+  "title": "COGNITIVE ROBOTICS ANALYZER",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 104527,
+    "optimized_size": 4141,
+    "reduction_percent": 96.04
+  }
+}

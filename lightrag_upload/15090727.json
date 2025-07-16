@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170329",
+  "publication_number": "US20170103304A1-20170413",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15090727",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HENRY",
+      "inventor_name_first": "G. GLENN",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "PARKS",
+      "inventor_name_first": "TERRY",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A neural network unit includes a register programmable with a control value, a plurality of neural processing units (NPU), and a plurality of activation function units (AFU). Each NPU includes an arithmetic logic unit (ALU) that performs arithmetic and logical operations on a sequence of operands to generate a sequence of results and an accumulator into which the ALU accumulates the sequence of results as an accumulated value. Each AFU includes a first module that performs a first function on the accumulated value to generate a first output, a second module that performs a second function on the accumulated value to generate a second output, the first function is distinct from the second function, and a multiplexer that receives the first and second outputs and selects one of the two outputs based on the control value programmed into the register.",
+  "filing_date": "20160405",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram illustrating a processor that includes a neural network unit (NNU). FIG. 2 is a block diagram illustrating a NPU of FIG. 1 . FIG. 3 is a block diagram illustrating an embodiment of the arrangement of the N mux-regs of the N NPUs of the NNU of FIG. 1 to illustrate their operation as an N-word rotater, or circular shifter, for a row of data words received from the data RAM of FIG. 1 . FIG. 4 is a table illustrating a program for storage in the program memory of and execution by the NNU of FIG. 1 . FIG. 5 is a timing diagram illustrating the execution of the program of FIG. 4 by the NNU. FIG. 6A is a block diagram illustrating the NNU of FIG. 1 to execute the program of FIG. 4 . FIG. 6B is a flowchart illustrating operation of the processor of FIG. 1 to perform an architectural program that uses the NNU to perform multiply-accumulate-activation function computations classically associated with neurons of hidden layers of an artificial neural network such as performed by the program of FIG. 4 . FIG. 7 is a block diagram illustrating a NPU of FIG. 1 according to an alternate embodiment. FIG. 8 is a block diagram illustrating a NPU of FIG. 1 according to an alternate embodiment. FIG. 9 is a table illustrating a program for storage in the program memory of and execution by the NNU of FIG. 1 . FIG. 10 is a timing diagram illustrating the execution of the program of FIG. 9 by the NNU. FIG. 11 is a block diagram illustrating an embodiment of the NNU of FIG. 1 is shown. In the embodiment of FIG. 11 , a neuron is split into two portions, the activation function unit portion and the ALU portion (which also includes the shift register portion), and each activation function unit portion is shared by multiple ALU portions. FIG. 12 is a timing diagram illustrating the execution of the program of FIG. 4 by the NNU of FIG. 11 . FIG. 13 is a timing diagram illustrating the execution of the program of FIG. 4 by the N...",
+  "date_published": "20170413",
+  "title": "NEURAL NETWORK UNIT WITH PLURALITY OF SELECTABLE OUTPUT FUNCTIONS",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 249703,
+    "optimized_size": 3566,
+    "reduction_percent": 98.57
+  }
+}

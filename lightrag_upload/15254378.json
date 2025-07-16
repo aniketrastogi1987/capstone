@@ -1,0 +1,32 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060729A1-20180301",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15254378",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Osogami",
+      "inventor_name_first": "Takayuki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A learning apparatus and method for learning a model corresponding to time-series input data, comprising: acquire the time-series input data; supply a plurality of input nodes of the model with a plurality of input values corresponding to input data at one time point in the time-series input data; store values of hidden nodes; compute a conditional probability of each input value at the one time point on a condition that an input data sequence has occurred, based on the input data sequence before the one time point in the time-series input data, on the stored values of hidden nodes, and on weight parameters; and perform a learning process that further increases a conditional probability of input data occurring at the one time point on the condition that the input data sequence has occurred, by adjusting the weight parameters.",
+  "filing_date": "20160901",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to a first aspect of the present invention, provided is a learning apparatus for learning a model corresponding to time-series input data, comprising a processor and one or more computer readable mediums collectively including instructions that, when executed by the processor, cause the processor to: acquire the time-series input data; supply a plurality of input nodes of the model with a plurality of input values corresponding to input data at one time point in the time-series input data; store values of hidden nodes; compute a conditional probability of each input value at the one time point on a condition that an input data sequence has occurred, based on the input data sequence before the one time point in the time-series input data, on the stored values of hidden nodes, and on weight parameters between (i) a plurality of hidden nodes and a plurality of input values corresponding to input data at each time point before the one time point in the input data sequence and (ii) the plurality of input nodes and corresponding hidden nodes at the one time point; and perform a learning process that further increases a conditional probability of input data occurring at the one time point on the condition that the input data sequence has occurred, by adjusting the weight parameters. The summary clause does not necessarily describe all necessary features of the embodiments of the present invention. The present invention may also be a sub-combination of the features described above.",
+  "date_published": "20180301",
+  "title": "APPARATUS AND METHOD FOR LEARNING A MODEL CORRESPONDING TO TIME-SERIES INPUT DATA",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N700",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 94579,
+    "optimized_size": 2950,
+    "reduction_percent": 96.88
+  }
+}

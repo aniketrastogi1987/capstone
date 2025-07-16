@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160914",
+  "publication_number": "US20160283857A1-20160929",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15034596",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Babbush",
+      "inventor_name_first": "Ryan",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Love",
+      "inventor_name_first": "Peter",
+      "inventor_city": "Somerville",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Aspuru-Guzik",
+      "inventor_name_first": "Alan",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Generating a computing specification to be executed by a quantum processor includes: accepting a problem specification that corresponds to a second-quantized representation of a fermionic Hamiltonian, and transforming the fermionic Hamiltonian into a first qubit Hamiltonian including a first set of qubits that encode a fermionic state specified by occupancy of spin orbitals. An occupancy of any spin orbital is encoded in a number of qubits that is logarithmic in the number of spin orbitals, and a parity for a transition between any two spin orbitals is encoded in a number of qubits that is logarithmic in the number of spin orbitals. An eigenspectrum of a second qubit Hamiltonian, including the first set of qubits and a second set of qubit, includes a low-energy subspace and a high-energy subspace, and an eigenspectrum of the first qubit Hamiltonian is approximated by a set of low-energy eigenvalues of the low-energy subspace.",
+  "filing_date": "20160505",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, in general, a specification compiler (e.g., software including instructions for causing a computer to perform a transformation procedure to transform a problem specification) is used to configure a programmable computer, which then implements the transformation procedure from a problem specification to a computing specification suitable for execution on a quantum computer. The quantum computer can be implemented as a certain type of controllable quantum system on which a quantum annealing approach can be used to solve the specified problem. As will be described in more detail below, approaches described in this application address technical problems stemming from one or both of: (1) requirements for expressing certain types of problem specifications (e.g., molecular electronic structure problems) as suitable computing specifications, and (2) limitations on the form of computing specification that may be executed by such quantum computers. Approaches described herein address these technical problems by transforming an initial problem specification according to technical considerations regarding how certain aspects of the problem specification can be physically realized using the available types of interactions between hardware elements of the quantum computer that represent qubits. These technical considerations are incorporated into the compilation procedure used by the compiler for the quantum computer. In another aspect, in general, a method, for use in transforming a problem specification into a computing specification to be executed by a quantum processor that has limited types of couplings between hardware elements representing quantum bits (qubits), includes: (1) accepting a problem specification that corresponds to a second-quantized representation of a fermionic Hamiltonian associated with a model of a molecular system including one or more fermions and a particular number of spin orbitals associated with the one or more fer...",
+  "date_published": "20160929",
+  "title": "EMBEDDING ELECTRONIC STRUCTURE IN CONTROLLABLE QUANTUM SYSTEMS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1582"
+  ],
+  "_processing_info": {
+    "original_size": 85500,
+    "optimized_size": 3799,
+    "reduction_percent": 95.56
+  }
+}

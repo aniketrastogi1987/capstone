@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170524",
+  "publication_number": "US20170161631A1-20170608",
+  "main_ipcr_label": "G06N702",
+  "decision": "PENDING",
+  "application_number": "15369735",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rogers",
+      "inventor_name_first": "John",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ito",
+      "inventor_name_first": "Keith",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jones",
+      "inventor_name_first": "Marshall",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kantor",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zeiler",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In certain implementations, a user request to add a new concept may be received. A set of media item recommendations may be caused to be loaded on a user interface for presentation to a user responsive to the user request to add the new concept. The media item recommendation set may include a set of recommendations loaded on an on-screen portion of the user interface and a set of recommendations loaded on an off-screen portion of the user interface. The on-screen user interface portion is visible to the user at a first time. The off-screen user interface portion is not being visible to the user at the first time. A user selection of one or more recommendations of the on-screen recommendation set is received. The off-screen recommendation set may be caused to be updated on the user interface during the presentation of the media item recommendation set based on the user recommendation selection.",
+  "filing_date": "20161205",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One aspect of the disclosure relates to a system configured for providing a user interface that facilitates learning user preferences via real-time recommendations of media items based on positive examples identified by user selections and negative examples identified by lack of user selections. In some implementations, preferences of a user may be learned through some interaction (e.g., user selection, lack of user selection) with displayed media items (or representations thereof) in order to predict new media items to show. The new media items may or may not currently appear on the screen. If the new media items appear on the screen, they can re-sort the order of the displayed media items. If the new media items appear off the current screen, the user may not see the re-sorting of the media items, but when the user scrolls, paginates, or otherwise manipulates the user interface to the next view of media items, the on-screen media items will appear more relevant to the initial selected items. Some implementations may not rely on other users. This may be achieved by heavily relying on machine learning to quickly learn over items that have feedback associated with them and then predict over the remaining items that the user has not interacted with. Some implementations may utilize neural networks for such learning, while some may not be dependent on neural networks. In some implementations, the system may be configured to quickly learn the user's preferences in order to teach the system about the user's interests, perspectives, personal life, and/or other information relevant to the user. By way of non-limiting example, learning the user's preferences may teach the system about the user's friends and family, or it may teach the system about new concepts the system does not already understand. This may be achieved by clicking on positive examples of images that contain the concept as well as skipping over (e.g., not clicking) the ones that do not co...",
+  "date_published": "20170608",
+  "title": "SYSTEMS AND METHODS FOR UPDATING RECOMMENDATIONS ON A USER INTERFACE IN REAL-TIME BASED ON USER SELECTION OF RECOMMENDATIONS PROVIDED VIA THE USER INTERFACE",
+  "ipcr_labels": [
+    "G06N702",
+    "G06F30484"
+  ],
+  "_processing_info": {
+    "original_size": 73179,
+    "optimized_size": 4143,
+    "reduction_percent": 94.34
+  }
+}

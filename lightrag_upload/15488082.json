@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15488082",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "filing_date": "20170414",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A platform for providing a task is provided based on a deep learning neural network. A method implemented by a computer includes extracting conversation information from at least one message application installed in an electronic device, extracting task information from the conversation information by using a convolutional neural network (CNN) learning model for natural language processing and a recurrent neutral network (RNN) learning model for creating a sentence, and providing the task information through a task providing application installed in the electronic device.",
+  "publication_number": "US20180018562A1-20180118",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the inventive concept provide a task providing platform capable of extracting a task from conversation content, which is sent and received by a user, based on a deep neural network (DNN) and providing the task. Embodiments of the inventive concept provide a task providing platform capable of extracting a task through natural language processing based on a DNN. Embodiments of the inventive concept provide a leaning algorithm capable of exactly and effectively distinguishing between a task-related word and a task-unrelated word in conversation content. Embodiments of the inventive concept provide a method of visualizing a task, capable of visualizing tasks extracted from conversation content, which is sent and received by a user, in a form that may be recognized by the user. One aspect of embodiments of the inventive concept is directed to a method implemented by a computer. The method includes extracting conversation information from at least one message application installed in an electronic device, extracting task information from the conversation information by using a convolutional neural network (CNN) learning model for natural language processing and a recurrent neutral network (RNN) learning model for creating a sentence, and providing the task information through a task providing application installed in the electronic device. According to an embodiment, the extracting of the task information may include extracting a core word corresponding to a task-related word from a sentence included in the conversation information through the CNN learning model in which the task-related word is learned, and creating a task sentence by using the core word through the RNN learning model. According to an embodiment, the extracting of the task information may include analyzing a positive expression and a negative expression in a sentence included in the conversation information through the RNN learning model including a learning model specia...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1730",
+    "G06F1727"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "JUNG",
+      "inventor_name_first": "Jinyeon",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "PLATFORM FOR PROVIDING TASK BASED ON DEEP LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 62201,
+    "optimized_size": 3134,
+    "reduction_percent": 94.96
+  }
+}

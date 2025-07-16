@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15001167",
+  "date_published": "20170720",
+  "date_produced": "20170705",
+  "title": "METHOD AND APPARATUS FOR DATA DEDUPLICATION IN CLOUD BASED STORAGE SYSTEM",
+  "filing_date": "20160119",
+  "inventor_list": [
+    {
+      "inventor_name_last": "JAI",
+      "inventor_name_first": "BEN-CHIAO",
+      "inventor_city": "Neihu dist. Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "CHIANG",
+      "inventor_name_first": "CHUNG-HUNG",
+      "inventor_city": "Neihu dist. Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "WU",
+      "inventor_name_first": "JIA-HONG",
+      "inventor_city": "Neihu dist. Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "PANG",
+      "inventor_name_first": "CHING-TE",
+      "inventor_city": "Neihu dist. Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "H04L2908"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Aspects of the present disclosure are best understood from the following detailed description when read with the accompanying figures. It is noted that, in accordance with the standard practice in the industry, various features are not drawn to scale. In fact, the dimensions of the various features may be arbitrarily increased or reduced for clarity of discussion. FIG. 1 illustrates an exemplary cloud storage system in accordance with some embodiments of the present disclosure. FIG. 2 is a schematic diagram illustrating an exemplary operating system associated with a client device and a cloud storage cluster of cloud storage system. FIG. 3 is a schematic diagram illustrating an exemplary operating system of the client device 100 in accordance with some embodiments of the illustration in FIG. 2 . FIG. 4 is a schematic diagram illustrating exemplary network architecture of the cloud storage system in accordance with some embodiments of the present disclosure. FIG. 5A is a functional block diagram illustrating an exemplary client device. FIG. 5B is a schematic diagram illustrating an exemplary client device as a peripheral device to another computing device. FIG. 6 illustrates a data arrangement in a cloud storage system in accordance with some embodiments of the present disclosure. FIGS. 7A, 7B and 7C are flow charts illustrating exemplary configuring processes of a client device in accordance with some embodiments of the present disclosure. FIGS. 8A and 8B are flow charts illustrating exemplary data storing processes of a client device in accordance with some embodiments of the present disclosure. FIGS. 8C and 8D are flow charts illustrating an exemplary data storing process with data deduplication of a client device in accordance with some embodiments of the present disclosure. FIGS. 8E and 8F are flow charts illustrating an exemplary data storing process with data deduplication of a deduplication server in accordance wit...",
+  "patent_number": "None",
+  "abstract": "A hybrid cloud file system enabling a cloud storage volume with a cache storage utilizing local storage media is provided. Files in the hybrid cloud file system are substantially uploaded and stored into a cloud storage server and presented as no difference as storing in a local storage volume. Portion of the local storage media may be allocated as a cache storage storing files to be accessed locally for accelerate data fetching and processing. Besides uploading, fetching and deleting, deduplication mechanism before uploading and prefetch mechanism during/before data fetch are also provided in the present disclosure.",
+  "publication_number": "US20170206218A1-20170720",
+  "_processing_info": {
+    "original_size": 119933,
+    "optimized_size": 3691,
+    "reduction_percent": 96.92
+  }
+}

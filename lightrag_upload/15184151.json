@@ -1,0 +1,52 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15184151",
+  "date_published": "20161229",
+  "date_produced": "20161214",
+  "title": "PUNCHING APPARATUS CAPABLE OF UPDATING MAINTENANCE INFORMATION AND PUNCHING SYSTEM",
+  "filing_date": "20160616",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nishikata",
+      "inventor_name_first": "Akinobu",
+      "inventor_city": "Abiko-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Ando",
+      "inventor_name_first": "Yutaka",
+      "inventor_city": "Toride-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Arai",
+      "inventor_name_first": "Akihiro",
+      "inventor_city": "Toride-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Maenishi",
+      "inventor_name_first": "Hiromasa",
+      "inventor_city": "Matsudo-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q1000",
+    "B26F100"
+  ],
+  "main_ipcr_label": "G06Q1000",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention provides a punching apparatus which makes it possible to perform update work for updating maintenance information of a punch die, irrespective of whether or not the punch die is currently mounted, and a punching system. In a first aspect of the invention, there is provided a punching apparatus comprising a punching unit configured to perform punching on a sheet using a punch die which is exchangeable and is provided with a memory for storing maintenance information which is information concerning maintenance of a punch die, a detection unit configured to detect mounting of a punch die in the punching unit, a reception unit configured to receive an update request requesting update of the maintenance information stored in the memory of a designated punch die, and an update unit configured to, in a case where an update request requesting update of the maintenance information of the designated punch die is received by the reception unit, if mounting of the designated punch die has been detected by the detection unit, update the maintenance information of the designated punch die, based on the update request, and if mounting of the designated punch die has not been detected by the detection unit, update the maintenance information of the designated punch die, when mounting of the designated punch die is detected by the detection unit. In a second aspect of the invention, there is provided a punching system that performs punching using a punch die which is exchangeable, comprising an image forming section configured to perform image formation on a sheet, a punching unit configured to perform punching on a sheet using a punch die which is exchangeable and provided with a memory for storing maintenance information which is information concerning maintenance of the punch die, a detection unit configured to detect mounting of a punch die in the punching unit, a reception unit configured to receive maintenance execution...",
+  "patent_number": "10032138",
+  "abstract": "A punching apparatus capable of performing update work for updating maintenance information, irrespective of whether or not a punch die is mounted. A puncher includes a punching unit that punches a sheet using an exchangeable punch die provided with a die memory, and a CPU that detects mounting of a punch die in the punching unit. The CPU receives an update request requesting update of maintenance information stored in the die memory of the punch die. If mounting of the punch die is detected, when the update request designating the punch die is received, the CPU updates the maintenance information of the punch die based on the update request. If mounting of the punch die is not detected, the CPU updates the maintenance information of the punch die when mounting of the punch die is detected.",
+  "publication_number": "US20160379177A1-20161229",
+  "_processing_info": {
+    "original_size": 76613,
+    "optimized_size": 3832,
+    "reduction_percent": 95.0
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15382074",
+  "date_published": "20180621",
+  "date_produced": "20180608",
+  "title": "System and Method for Computing a Probability that an Object Comprises a Target",
+  "filing_date": "20161216",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Henning",
+      "inventor_name_first": "Alex",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ferguson",
+      "inventor_name_first": "Michael",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wise",
+      "inventor_name_first": "Melonee",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "B25J916",
+    "G06N700"
+  ],
+  "main_ipcr_label": "B25J916",
+  "summary": "<SOH> SUMMARY <EOH>This invention relates in general to a system and method for computing a probability that an object comprises a target. A method for computing a probability that an object comprises a target includes: performing a scan of an area, generating points; creating a segment corresponding to the object using the points as segment points, the segment extending from a first segment point to a last segment point; and applying a metric, computing the probability that the segment comprises the target. A method for computing a probability that an object comprises a target includes: performing a scan of an area, generating points; creating a segment corresponding to the object using the points as segment points, the segment extending from a first segment point to a last segment point, the segment comprising a plurality of the segment points; adding the segment to a candidate set of lines; for at least one segment point, computing a point-segment distance from the point to the segment; determining that the point-segment distance is not less than a threshold distance; finding a farthest point that comprises the point that is farthest from the segment; and updating a metric usable to compute the probability that the object comprises the target. A method for computing a probability that an object comprises a target includes: performing a scan of an area, generating points; creating a segment corresponding to the object using the points as segment points, the segment extending from a first segment point to a last segment point, the segment comprising a plurality of the segment points; adding the segment to a candidate set of lines; for at least one segment point, computing a point-segment distance from the point to the segment; determining that the point-segment distance is less than a threshold distance; and updating a metric usable to compute the probability that the object comprises the target. A method for computing a probability that an object comprises a targe...",
+  "patent_number": "None",
+  "abstract": "A method for computing a probability that an object comprises a target includes: performing a scan of an area comprising the object, generating points; creating a segment corresponding to the object using the points as segment points, the segment extending from a first segment point to a last segment point, the segment comprising a plurality of the segment points; and applying a metric, computing the probability that the object comprises the target.",
+  "publication_number": "US20180169857A1-20180621",
+  "_processing_info": {
+    "original_size": 71172,
+    "optimized_size": 3324,
+    "reduction_percent": 95.33
+  }
+}

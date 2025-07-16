@@ -1,0 +1,59 @@
+{
+  "date_produced": "20171213",
+  "publication_number": "US20170372200A1-20171228",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15229039",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Yun-Nung",
+      "inventor_city": "New Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Hakkani-Tur",
+      "inventor_name_first": "Dilek Z.",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tur",
+      "inventor_name_first": "Gokhan",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Deng",
+      "inventor_name_first": "Li",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gao",
+      "inventor_name_first": "Jianfeng",
+      "inventor_city": "Woodinville",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A processing unit can extract salient semantics to model knowledge carryover, from one turn to the next, in multi-turn conversations. Architecture described herein can use the end-to-end memory networks to encode inputs, e.g., utterances, with intents and slots, which can be stored as embeddings in memory, and in decoding the architecture can exploit latent contextual information from memory, e.g., demographic context, visual context, semantic context, etc. e.g., via an attention model, to leverage previously stored semantics for semantic parsing, e.g., for joint intent prediction and slot tagging. In examples, architecture is configured to build an end-to-end memory network model for contextual, e.g., multi-turn, language understanding, to apply the end-to-end memory network model to multiple turns of conversational input; and to fill slots for output of contextual, e.g., multi-turn, language understanding of the conversational input. The neural network can be learned using backpropag...",
+  "filing_date": "20160804",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This disclosure describes systems, methods, and computer-executable instructions on computer-readable media for extracting salient semantics for modeling knowledge carryover in multi-turn conversations. The architecture described herein can use end-to-end memory networks to model knowledge carryover in multi-turn conversations, where inputs encoded with intents and slots can be stored as embeddings in memory and decoding can exploit latent contextual information from memory, e.g., demographic context, visual context, semantic context, etc. In various examples, the architecture described herein can use end-to-end memory networks to model knowledge carryover in multi-turn conversations, where utterance inputs encoded with intents and slots can be stored as embeddings in memory and decoding can apply latent contextual information, e.g., an attention model, to leverage previously stored semantics for semantic parsing, e.g., for joint intent prediction and slot tagging. This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key and/or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. The term “techniques,” for instance, can refer to system(s), method(s), computer-readable instructions, module(s), algorithms, hardware logic, and/or operation(s) as permitted by the context described above and throughout the document.",
+  "date_published": "20171228",
+  "title": "END-TO-END MEMORY NETWORKS FOR CONTEXTUAL LANGUAGE UNDERSTANDING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 108685,
+    "optimized_size": 3738,
+    "reduction_percent": 96.56
+  }
+}

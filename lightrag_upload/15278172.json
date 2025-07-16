@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180315",
+  "publication_number": "US20180089569A1-20180329",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15278172",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CROUTWATER",
+      "inventor_name_first": "KYLE L.",
+      "inventor_city": "CHAPEL HILL",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "VERMA",
+      "inventor_name_first": "VIKRANT",
+      "inventor_city": "CARY",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "LE",
+      "inventor_city": "DURHAM",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "ZHE",
+      "inventor_city": "CARY",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computer-implemented method generates a temporal candidate answer to a question. One or more processors tag terms found in multiple text passages with a part of speech (POS) tag, and then parse POS tagged terms found in the multiple text passages to generate passage triples for multiple parts of each of the multiple text passages. The processor(s) filter each sub-passage from the multiple text passages, which removes passages from each of the multiple text passages that are not associated with said each sub-passage. The processor(s) temporally align each sub-passage triple with a particular time range, and then extract text within each sub-passage from the multiple text passages to create a temporal candidate answer identified by the associated sub-passage triple. Upon receipt of a question related to a sub-passage that is related to the particular time range, the processor(s) return the temporal candidate answer that is temporally aligned with the question.",
+  "filing_date": "20160928",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A computer-implemented method generates a temporal candidate answer to a question. One or more processors tag terms found in multiple text passages with a part of speech (POS) tag. One or more processors parse POS tagged terms found in the multiple text passages to generate passage triples for multiple parts of each of the multiple text passages. Each passage triple includes a sub-passage entity, a sub-passage action, and a sub-passage date within each of the multiple text passages, where each sub-passage entity identifies an entity in each sub-passage, each sub-passage action describes an action being performed by the entity in each sub-passage, and each sub-passage date defines a time range during which an action was performed by the entity in each sub-passage. The sub-passage entity, the sub-passage action, and the sub-passage date together make up a sub-passage triple. One or more processors filter each sub-passage from the multiple text passages, which removes passages from each of the multiple text passages that are not associated with said each sub-passage. One or more processors temporally align each sub-passage triple with a particular time range. One or more processors extract text within each sub-passage from the multiple text passages to create a temporal candidate answer identified by the associated sub-passage triple. One or more processors receive a question related to a sub-passage that is related to the particular time range, and then return the temporal candidate answer that is temporally aligned with the question. The invention may also be implemented in a computer program product and/or a computer system.",
+  "date_published": "20180329",
+  "title": "GENERATING A TEMPORAL ANSWER TO A QUESTION",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 65518,
+    "optimized_size": 3611,
+    "reduction_percent": 94.49
+  }
+}

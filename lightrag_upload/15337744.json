@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170419",
+  "publication_number": "US20170124452A1-20170504",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15337744",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tucker",
+      "inventor_name_first": "Paul A.",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dean",
+      "inventor_name_first": "Jeffrey Adgate",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ghemawat",
+      "inventor_name_first": "Sanjay",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Yuan",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for receiving a request from a client to process a computational graph; obtaining data representing the computational graph, the computational graph comprising a plurality of nodes and directed edges, wherein each node represents a respective operation, wherein each directed edge connects a respective first node to a respective second node that represents an operation that receives, as input, an output of an operation represented by the respective first node; identifying a plurality of available devices for performing the requested operation; partitioning the computational graph into a plurality of subgraphs, each subgraph comprising one or more nodes in the computational graph; and assigning, for each subgraph, the operations represented by the one or more nodes in the subgraph to a respective available device in the plurality of available devices for operation.",
+  "filing_date": "20161028",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, this specification describes a system for processing computational graphs representing neural networks. In general, one innovative aspect of the subject matter described in this specification can be embodied in methods that include the actions of receiving a request from a client to process a computational graph; obtaining data representing the computational graph, the computational graph comprising a plurality of nodes and directed edges, wherein each node represents a respective operation, wherein each directed edge connects a respective first node to a respective second node that represents an operation that receives, as input, an output of an operation represented by the respective first node; identifying a plurality of available devices for performing the requested operation; partitioning the computational graph into a plurality of subgraphs, each subgraph comprising one or more nodes in the computational graph; and assigning, for each subgraph, the operations represented by the one or more nodes in the subgraph to a respective available device in the plurality of available devices for operation. Implementations can include one or more of the following features. The request specifies one or more particular outputs from one or more respective nodes, further comprising: receiving, from a device to which the one or more respective nodes are assigned, the one or more particular outputs; and providing the one or more particular outputs to the client. The operations represented by one or more nodes in the computational graph are inference or training operations for a neural network. The request comprises labels partitioning the computational graph into a plurality of predetermined subgraphs, and wherein partitioning the computational graph comprises partitioning the computational graph into the plurality of predetermined subgraphs. Each device is a hardware resource that performs operations independent of other devices in the plurality ...",
+  "date_published": "20170504",
+  "title": "PROCESSING COMPUTATIONAL GRAPHS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 60859,
+    "optimized_size": 3950,
+    "reduction_percent": 93.51
+  }
+}

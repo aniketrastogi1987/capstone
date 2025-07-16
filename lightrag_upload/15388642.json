@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15388642",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "title": "MONTGOMERY MULTIPLICATION PROCESSORS, METHODS, SYSTEMS, AND INSTRUCTIONS",
+  "filing_date": "20161222",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gopal",
+      "inventor_name_first": "Vinodh",
+      "inventor_city": "Westborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F930",
+    "G06F935"
+  ],
+  "main_ipcr_label": "G06F930",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The invention may best be understood by referring to the following description and accompanying drawings that are used to illustrate embodiments. In the drawings: FIG. 1 is a block diagram of an embodiment of an electronic device coupled with an embodiment of a machine-readable storage medium. FIG. 2 is a block diagram of an embodiment of a processor that is operative to perform an embodiment of a Montgomery multiplication instruction. FIG. 3 is a block diagram of an example embodiment of an execution unit to perform an example embodiment of a Montgomery multiplication operation in response to an example embodiment of a Montgomery multiplication instruction. FIG. 4 is a block diagram of an example embodiment of a processor that is operative to perform an example embodiment of a Montgomery multiplication instruction. FIG. 5 is a block diagram of an embodiment of a processor that is operative to perform an embodiment of a Montgomery multiplication accumulate partial product instruction. FIG. 6 is a block diagram of a detailed example embodiment of a processor that is suitable for implementing embodiments of the invention. FIG. 7 is a block diagram of a detailed illustrative example embodiment of a computer system that includes a detailed illustrative example embodiment of a system on chip (SoC) that includes one or more cores that have an instruction set that includes an instruction to support Montgomery multiplication. FIG. 8 is a block diagram of an example embodiment of a cryptographic processor to offload performance of an instruction to support Montgomery multiplication from one or more cores. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A processor of an aspect includes a plurality of registers, and a decode unit to decode an instruction. The instruction is to indicate at least one storage location that is to store a first integer, a second integer, and a modulus. An execution unit is coupled with the decode unit, and coupled with the plurality of registers. The execution unit, in response to the instruction, is to store a Montgomery multiplication product corresponding to the first integer, the second integer, and the modulus, in a destination storage location. Other processors, methods, systems, and instructions are disclosed.",
+  "publication_number": "US20180181391A1-20180628",
+  "_processing_info": {
+    "original_size": 119017,
+    "optimized_size": 2913,
+    "reduction_percent": 97.55
+  }
+}

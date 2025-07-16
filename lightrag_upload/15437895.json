@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15437895",
+  "date_published": "20180222",
+  "date_produced": "20180207",
+  "filing_date": "20170221",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A technique relates to reducing qubits required on a quantum computer. A Fermionic system is characterized in terms of a Hamiltonian. The Fermionic system includes Fermions and Fermionic modes with a total number of 2M Fermionic modes. The Hamiltonian has a parity symmetry encoded by spin up and spin down parity operators. Fermionic modes are sorted such that the first half of 2M modes corresponds to spin up and the second half of 2M modes corresponds to spin down. The Hamiltonian and the parity operators are transformed utilizing a Fermion to qubit mapping that transforms parity operators to a first single qubit Pauli operator on a qubit M and a second single qubit Pauli operator on a qubit 2M. The qubit M having been operated on by the first single qubit Pauli operator and the qubit 2M having been operated on by the second single qubit Pauli operator are removed.",
+  "publication_number": "US20180053112A1-20180222",
+  "summary": "<SOH> SUMMARY <EOH>According to one or more embodiments, a computer-implemented method of reducing a number of qubits required on a quantum computer is provided. The method includes characterizing a Fermionic system in terms of a Hamiltonian. The Fermionic system includes Fermions and Fermionic modes with a total number of 2M Fermionic modes. The Hamiltonian has a parity symmetry encoded by spin up and spin down parity operators. The method includes sorting the Fermionic modes on the Hamiltonian, such that the first half of the 2M modes corresponds to spin up and the second half of the 2M modes corresponds to spin down, and transforming the Hamiltonian and the parity operators utilizing a Fermion to qubit mapping, where the Fermion to qubit mapping transforms the parity operators to a first single qubit Pauli operator on a qubit M and a second single qubit Pauli operator on a qubit 2M. Further, the method includes removing the qubit M having been operated on by the first single qubit Pauli operator and the qubit 2M having been operated on by the second single qubit Pauli operator. According to one or more embodiments, a computer-implemented method of reducing a number of qubits required on a quantum computer is provided. The method includes characterizing a Fermionic system in terms of a Hamiltonian. The Fermionic system includes Fermions and Fermionic modes. The method includes transforming the Hamiltonian utilizing a Fermion to qubit mapping, finding Pauli symmetry operators of the Hamiltonian, transforming the Pauli symmetry operators into single qubit Pauli operators, and removing every qubit that the single qubit Pauli operators are acting upon. According to one or more embodiments, a computer-implemented method of reducing a number of qubits required on a quantum computer is provided. The method includes characterizing a Fermionic system in terms of a Hamiltonian. The Fermionic system includes Fermions and Fermionic modes with a total number of M Fermionic mod...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716",
+    "G06F1750"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bravyi",
+      "inventor_name_first": "Sergey",
+      "inventor_city": "Pleasantville",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gambetta",
+      "inventor_name_first": "Jay M.",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mezzacapo",
+      "inventor_name_first": "Antonio",
+      "inventor_city": "Tarrytown",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Temme",
+      "inventor_name_first": "Paul Kristan",
+      "inventor_city": "Ossining",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "EFFICIENT REDUCTION OF RESOURCES FOR THE SIMULATION OF FERMIONIC HAMILTONIANS ON QUANTUM HARDWARE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 109805,
+    "optimized_size": 3951,
+    "reduction_percent": 96.4
+  }
+}

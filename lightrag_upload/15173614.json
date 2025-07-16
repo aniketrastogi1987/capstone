@@ -1,0 +1,38 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15173614",
+  "date_published": "20161208",
+  "date_produced": "20161122",
+  "title": "AGRICULTURAL MONITORING SYSTEM USING IMAGE ANALYSIS",
+  "filing_date": "20160603",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Temby",
+      "inventor_name_first": "Kelton",
+      "inventor_city": "Santa Barbara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Simpson",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "Foothill Ranch",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "A01K4706",
+    "G06K900"
+  ],
+  "main_ipcr_label": "A01K4706",
+  "summary": "<SOH> SUMMARY <EOH>Previous beehive monitoring systems have included infrared gates mounted to the opening of the beehive. The infrared gates include a number of tunnels having a diameter large enough for individual bees to pass through. To enter or exit the hive, the bees must pass through these tunnels. The tunnels are flanked by infrared emitters and detectors. When the bees pass through the tunnels, the infrared beams are interrupted and these interruptions are tallied over time as a measure of hive activity. Similar systems have used capacitance-based sensors in place of infrared detectors. Drawbacks of these systems include the fact that the hive must be modified to include the tunnels themselves and that the tunnels must be cleaned regularly and/or may obstruct bee movement. Cameras and computer vision techniques have also been employed in attempts to provide non-contact beehive monitoring. The approach in these systems is to capture video of the opening of the hive and use image analysis on the captured video to count the number of bees around the opening of the hive. This approach typically involves classifying objects in each frame as bees using shape detection algorithms and then tracking the movement of the classified objects among several frames using Kalman filters or other motion approximation and prediction algorithms. A drawback of this approach is that the classification and motion approximation algorithms are computationally expensive and require hardware that is both more expensive and less energy efficient. As a result, these systems are costly to scale and have not achieved commercial adoption. Additionally, these approaches may not work well where the background of the video is complex or dynamic. In some systems, the camera must be fixed to the hive and/or the hive must be modified to include a plain, light-colored surface to serve as the background of the camera's field of view. Finally, these approaches do little more than simply count the ...",
+  "patent_number": "9992977",
+  "abstract": "Aspects of this disclosure include a system for providing non-contact, computer-vision based monitoring of the health and pollination activity of a beehive. The system may include camera positioned proximate to a beehive. The camera may include an onboard processor that analyzes video of the beehive captured by the camera and calculates an activity value that estimates a number of bees moving about the beehive. The video calculated activity values may be uploaded to a server where they can be accessed via a user device. The user device may allow the user to display interactive plots of the activity values over a variety of time bases. The disclosed beehive monitoring system relies on relatively lost-cost hardware and requires neither modification to the hive nor special constraints on the placement of the camera.",
+  "publication_number": "US20160353715A1-20161208",
+  "_processing_info": {
+    "original_size": 69017,
+    "optimized_size": 3539,
+    "reduction_percent": 94.87
+  }
+}

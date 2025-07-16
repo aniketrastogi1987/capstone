@@ -1,0 +1,30 @@
+{
+  "patent_number": "None",
+  "application_number": "15512319",
+  "date_published": "20170928",
+  "date_produced": "20170915",
+  "filing_date": "20170317",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A computer implemented method to determine whether a verification is to be performed of the satisfaction of one or more mapping conditions mapping a first state in a first pattern matching automaton to a second state in the first automaton, the verification being based on patterns matched by a second pattern matching automaton having states corresponding to wildcard symbols in the first automaton, the method comprising: associating, with the first state, a minimum number of patterns required to be matched by the second automaton to satisfy a mapping condition of the state; providing a pattern match counter in association with the second automaton, the counter being arranged to count a number of patterns matched by the second automaton; providing a verifier in association with the first automaton, the verifier being arranged to perform the verification, the verifier being responsive to the counter.",
+  "publication_number": "US20170278001A1-20170928",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure accordingly provides, in a first aspect, a computer implemented method to determine whether a verification is to be performed of the satisfaction of one or more mapping conditions mapping a first state in a first pattern matching automaton to a second state in the first automaton, the verification being based on patterns matched by a second pattern matching automaton having states corresponding to wildcard symbols in the first automaton, the method comprising: associating, with the first state, a minimum number of patterns required to be matched by the second automaton to satisfy a mapping condition of the state; providing a pattern match counter in association with the second automaton, the counter being arranged to count a number of patterns matched by the second automaton; providing a verifier in association with the first automaton, the verifier being arranged to perform the verification, the verifier being responsive to the counter. In one embodiment, the first automaton has states and directed transitions between states, the directed transitions corresponding to symbols in a plurality of symbol patterns. In one embodiment, the mapping conditions define when the first automaton should generate an output associated with a mapped state without transitioning to the mapped state. In one embodiment, the mapping conditions define one or more failure states when the first automaton fails to transition via a directed transition based on an input symbol received by the first automaton. In one embodiment, the first state represents a sequence of symbols including one or more wildcard symbols and the second state represents a proper suffix of the sequence of symbols of the first state, wherein the conditional mappings include conditions based on input symbols to be received, by the first automaton in use, to constitute the wildcard symbols. In one embodiment, in execution, the first and second automata are jointly associated with ...",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MISTRY",
+      "inventor_name_first": "James",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "IMPROVED PATTERN MATCHING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 217226,
+    "optimized_size": 3418,
+    "reduction_percent": 98.43
+  }
+}

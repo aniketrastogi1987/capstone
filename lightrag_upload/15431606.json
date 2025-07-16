@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15431606",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "filing_date": "20170213",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Embodiments of the present invention provide an artificial neural network system for feature pattern extraction and output labeling. The system comprises a first spiking neural network and a second spiking neural network. The first spiking neural network is configured to autonomously learn complex, temporally overlapping features arising in an input pattern stream. Competitive learning is implemented as spike timing dependent plasticity with lateral inhibition in the first spiking neural network. The second spiking neural network is connected with the first spiking neural network through dynamic synapses, and is trained to interpret and label the output data of the first spiking neural network. Additionally, the labeled output of the second spiking neural network is transmitted to a computing device, such as a central processing unit for post processing.",
+  "publication_number": "US20170236051A1-20170817",
+  "summary": "<SOH> SUMMARY <EOH>In a first aspect of the invention, a system for autonomous feature extraction is provided. The system comprising: an arrangement of a first artificial neural network and a second artificial neural network, said first artificial neural network autonomously learns to recognize a repeating pattern in an input stream and the second artificial neural network is trained to interpret and label the repeating pattern recognized by the first artificial neural network. The first artificial neural network autonomously learns any repeating pattern within 3 to 7 repetitions through spike timing dependent plasticity (STDP) and lateral inhibition. Under the STDP learning, the characteristics of the synapses are modified, depending on the timing of neural input spikes to neural output spikes. For an instance, if an input spike to a neuron tends, on average, to occur immediately before that neuron's output spike, then that particular input is made somewhat stronger. If an input spike tends, on average, to occur immediately after an output spike, then that particular input is made somewhat weaker. Lateral inhibition refers to the capacity of excited neurons to diminish the activity of their neighbors. In other words, lateral inhibition occurs when the activity of one cell suppresses the activity of a nearby cell. Accordingly, only the neurons, which are most stimulated and least inhibited, respond. The first artificial neural network and the second artificial neural network are single layered or multilayered spiking neural networks. The labeling of the repeating pattern by the second artificial neural network is carried out by mapping learned features into output labels within a predetermined knowledge domain. The system further comprises an optional input unit having a network of artificial sensory neurons connected to the first artificial neural network, said input unit converts the data captured in the form of an image, characters or values by a sensor array int...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "van der Made",
+      "inventor_name_first": "Peter AJ",
+      "inventor_city": "Aliso Viejo",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Elkhatib",
+      "inventor_name_first": "Mouna",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Oros",
+      "inventor_name_first": "Nicolas Yvan",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Intelligent Autonomous Feature Extraction System Using Two Hardware Spiking Neutral Networks with Spike Timing Dependent Plasticity",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 49968,
+    "optimized_size": 3800,
+    "reduction_percent": 92.4
+  }
+}

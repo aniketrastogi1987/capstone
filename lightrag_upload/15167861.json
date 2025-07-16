@@ -1,0 +1,72 @@
+{
+  "date_produced": "20170823",
+  "publication_number": "US20170255877A1-20170907",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15167861",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHO",
+      "inventor_name_first": "Hyunwoo",
+      "inventor_city": "Sejong",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Do Hyung",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "RYU",
+      "inventor_name_first": "Cheol",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "YOON",
+      "inventor_name_first": "Seok Jin",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Jae Ho",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Hyung-Seok",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Kyung Hee",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "There is provided a heterogeneous computing method. A heterogeneous computing method includes performing offline learning on an algorithm using compilations and runtimes of application programs, executing a first application program in a mobile device, distributing a workload to a central processing unit (CPU) and a graphic processing unit (GPU) in the first application program, using the algorithm, performing online learning to reset the workload distributed to the CPU and GPU in the first application program, and resetting the workload distributed to the CPU and GPU in the first application program, corresponding to a result of the online learning.",
+  "filing_date": "20160527",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments provide a heterogeneous computing method capable of effectively distributing a workload through offline and online learning. According to an aspect of the present disclosure, there is provided a heterogeneous computing method including: performing offline learning on an algorithm using compilations and runtimes of application programs; executing a first application program in a mobile device; distributing a workload to a central processing unit (CPU) and a graphic processing unit (GPU) in the first application program, using the algorithm; performing online learning to reset the workload distributed to the CPU and GPU in the first application program; and resetting the workload distributed to the CPU and GPU in the first application program, corresponding to a result of the online learning. The application programs and the first application program may be written with a web computing language (WebCL). The heterogeneous computing method may further include: after the online learning is ended, ending a current routine of the first application program and returning a state value; setting a start point of the first application program using the ended current routine and the state value; distributing a workload to the CPU and GPU, corresponding to the online learning; and executing the first application program from the start point. The online learning may be performed at a background. The performing of the offline learning may include: extracting a feature value from each of the compilations of the application programs; analyzing the runtimes of the application programs while changing a workload ratio of the CPU and GPU; and performing learning of the algorithm, corresponding to the extracted feature value and a result obtained by analyzing the runtimes. The feature value may include at least one of a number of times of memory access, a number of floating point operations, a number of times of data transition between the CPU and GPU, and a...",
+  "date_published": "20170907",
+  "title": "HETEROGENEOUS COMPUTING METHOD",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 36093,
+    "optimized_size": 4023,
+    "reduction_percent": 88.85
+  }
+}

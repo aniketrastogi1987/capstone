@@ -1,0 +1,60 @@
+{
+  "patent_number": "None",
+  "application_number": "15680831",
+  "date_published": "20180222",
+  "date_produced": "20180207",
+  "filing_date": "20170818",
+  "main_ipcr_label": "G06N708",
+  "abstract": "Methods and systems for detecting anomalies include determining a predictive model for each pair of a set of time series, each time series being associated with a component of a system. New values of each pair of time series are compared to values predicted by the respective predictive model to determine if the respective predictive model is broken. A number of broken predictive models is determined. An anomaly alert is generated if the number of broken predictive models exceeds a threshold.",
+  "publication_number": "US20180053111A1-20180222",
+  "summary": "<SOH> SUMMARY <EOH>A method for detecting anomalies includes determining a predictive model for each pair of a set of time series, each time series being associated with a component of a system. New values of each pair of time series are compared to values predicted by the respective predictive model to determine if the respective predictive model is broken. A number of broken predictive models is determined. An anomaly alert is generated if the number of broken predictive models exceeds a threshold. A method for detecting anomalies includes determining a predictive model for each pair of a set of time series, each time series being associated with a component of a system, by determining a periodic relationship between the time series and a non-periodic relationship between the time series. New values of pairs of time series having predictive models that have a fitness score higher than a threshold are compared to values predicted by the respective predictive model to determine if the respective predictive model is broken. A number of broken predictive models is determined. An anomaly alert is generated if the number of broken predictive models exceeds a threshold. A system for detecting anomalies includes a fitting module configured to determine a predictive model for each pair of a set of time series, each time series being associated with a component of a system. An anomaly detection module is configured to compare new values of each pair of time series to values predicted by the respective predictive model to determine if the respective predictive model is broken and to determine a number of broken predictive models. An alert module is configured to generate an anomaly alert if the number of broken predictive models exceeds a threshold. These and other features and advantages will become apparent from the following detailed description of illustrative embodiments thereof, which is to be read in connection with the accompanying drawings.",
+  "ipcr_labels": [
+    "G06N708",
+    "G06F1714",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yan",
+      "inventor_name_first": "Tan",
+      "inventor_city": "Skillman",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Song",
+      "inventor_name_first": "Dongjin",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Haifeng",
+      "inventor_city": "West Windsor",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jiang",
+      "inventor_name_first": "Guofei",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Tingyang",
+      "inventor_city": "Willimantic",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Anomaly Detection for Complex Physical System via Nonlinear Relationship Modeling",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 37943,
+    "optimized_size": 3642,
+    "reduction_percent": 90.4
+  }
+}

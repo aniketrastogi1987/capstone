@@ -1,0 +1,30 @@
+{
+  "patent_number": "None",
+  "application_number": "15504725",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "filing_date": "20170217",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Predicting a malfunction of a component of a unit includes providing a transition matrix of a parameter of the component, wherein the transition matrix includes for a number of discrete value states of the parameter probabilities to switch from one discrete value state to another within a certain time period; providing the conditional probability distribution for the malfunction given the discrete value states; providing a current discrete value state of the parameter; determining a conditional probability distribution of the discrete value states given the current discrete value state for a future point in time based on the current discrete value state and on the transition matrix by use of a Markov chain; and determining a probability for the malfunction for the future point in time based on the conditional probability distribution of the discrete value states for the future point in time and the conditional probability distribution for the malfunction.",
+  "publication_number": "US20170236065A1-20170817",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>One aim of the invention is to find a method for predicting a malfunction of a technical entity, where the method is independent of component types and can compute the probability of this malfunction for any future point in time. Another aim of the invention is to find a computationally-efficient method for predicting a malfunction of a component and/or unit. Another aim of the invention is to find a method that reduces the model creation and configuration effort required to predict a component malfunction. Another aim of the invention is to find a method to configure such a method/apparatus for predicting a malfunction of a component/unit of a technical entity. Another aim of the invention is to find a method for predicting a malfunction of a component based on the component's available condition and process parameters. The invention achieves these aims through a method, computer program or apparatus for predicting component malfunctions comprised of the following steps: determining a conditional probability distribution for a parameter of the component for a future point in time given the current value of the parameter based on the current value of the parameter, which is preferably a discrete value; determining a conditional probability for a malfunction at the future point in time given the current value of the parameter based on the conditional probability distribution of the parameter for the future point in time given the current value of the parameter and on a conditional probability distribution for the malfunction given the parameter. In other words, this problem is solved by determining a conditional probability distribution P t0+Δt (a|a(t 0 )) for a parameter a of the component for a future point in time t 0 +Δt given the current value a(t 0 ) of the parameter based on the current value of the parameter a(t 0 ); and by determining a conditional probability P t0+Δt (M|a(t 0 )) for a malfunction M at the future poi...",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kirschnick",
+      "inventor_name_first": "Frank",
+      "inventor_city": "Adliswil",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "title": "MALFUNCTION PREDICTION FOR COMPONENTS AND UNITS OF TECHNICAL ENTITIES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 96691,
+    "optimized_size": 3542,
+    "reduction_percent": 96.34
+  }
+}

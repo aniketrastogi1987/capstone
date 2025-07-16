@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15248004",
+  "date_published": "20180301",
+  "date_produced": "20180213",
+  "title": "RANK QUERY RESULTS FOR RELEVANCE UTILIZING EXTERNAL CONTEXT",
+  "filing_date": "20160826",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Taylor",
+      "inventor_name_first": "Mike",
+      "inventor_city": "Cambridge",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Helvik",
+      "inventor_name_first": "Torbjorn",
+      "inventor_city": "Oslo",
+      "inventor_state": "",
+      "inventor_country": "NO"
+    },
+    {
+      "inventor_name_last": "Fledsberg",
+      "inventor_name_first": "Oystein",
+      "inventor_city": "Trondheim",
+      "inventor_state": "",
+      "inventor_country": "NO"
+    },
+    {
+      "inventor_name_last": "Hagen",
+      "inventor_name_first": "Lars",
+      "inventor_city": "Oslo",
+      "inventor_state": "",
+      "inventor_country": "NO"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This summary is not intended to exclusively identify key features or essential features of the claimed subject matter, nor is it intended as an aid in determining the scope of the claimed subject matter. Embodiments are directed to relevance ranking of query results based on external context. For example, a search service may receive a query and an external context list, determine a relevance value for each entry in the external context list, and perform the query, where a search index comprising items may be returned in response to performance of the query. The search service may then match entries in the external context list against associated properties of the items, compute a score for the items based on the matching, and rank results of the query based on the score computed for the items. These and other features and advantages will be apparent from a reading of the following detailed description and a review of the associated drawings. It is to be understood that both the foregoing general description and the following detailed description are explanatory and do not restrict aspects as claimed.",
+  "patent_number": "None",
+  "abstract": "Users are most likely to search for documents “around” them, such as documents which are created, read, or modified by other users they work closely or collaborate with, documents on sites the user frequents, and/or documents trending around them, in addition to documents they've created or interacted with themselves. Therefore, embodiments are directed to relevance ranking of query results based on external context. A search service may receive a query and an external context list, determine a relevance value for each entry in the external context list, and perform the query, where a search index comprising items may be returned in response to performance of the query. The search service may then match entries in the external context list against associated properties of the items, compute a score for the items based on the matching, and rank results of the query based on the score computed for the items.",
+  "publication_number": "US20180060325A1-20180301",
+  "_processing_info": {
+    "original_size": 72094,
+    "optimized_size": 3182,
+    "reduction_percent": 95.59
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170915",
+  "publication_number": "US20170278000A1-20170928",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15186474",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kohlhepp",
+      "inventor_name_first": "Christoph Adam",
+      "inventor_city": "Mount Riverview",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "abstract": "A computer-implemented method for automating manufacturing supply chain planning, comprising: (a) providing a computer processor for processing data; (b) providing at least one input device; (c) providing at least one output device; (d) providing a computer readable storage device; (e) providing a first ontology for defining a product in terms of the method of manufacture of said product or for defining a plurality of products in terms of the method of manufacture of said products; (f) providing a second ontology for defining the capabilities of a plurality of manufacturing facilities; and g) providing a knowledge representation and reasoning system executed on said computer processor.",
+  "filing_date": "20160619",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>The described technology concerns one or more methods and systems to enable artificial intelligence supported product design in an automated manufacturing setting employing the use of robots. The use cases supported by the described technology are as described. Given a population of robots and a systematic product description, the described technology will be able to do the following: a) Answer the question as to whether a product can be built: a feasibility analysis b) Detail the exact operations required to build a product end-to-end c) Formulate a manufacturing plan describing the robots required to build a product d) Apply optimization constraints to feasibility analyses and manufacturing plans In various embodiments, the described technology combines a robotic capability model with a manufacturing ontology in an artificial intelligence reasoning system that supports classification of robotic capabilities and formulation of product descriptions in terms of the manufacturing steps utilizing these robotic capabilities and which are needed to produce the various products. The output of the system is a sequence of steps required to produce the product in question, which satisfy and optimize given specifications. The method is designed to formulate manufacturing plans for bespoke products. This enables intelligent product design by consumers, application software, and manufacturers alike with a view towards supply chain automation, in particular with a view towards a pull supply-chain model. In support of the above use-cases, we present a robotic capability ontology and a manufacturing ontology unified in a knowledge representation and reasoning system. The knowledge representation and reasoning system allows the application of constraints and statistical prediction models through a rule based deduction engine with a view towards optimizing the automated manufacture of products by robotic facilities. We further integrate dedu...",
+  "date_published": "20170928",
+  "title": "Robotic Capability Model for Artificial Intelligence Assisted Manufacturing Supply Chain Planning",
+  "ipcr_labels": [
+    "G06N502",
+    "G05B19418"
+  ],
+  "_processing_info": {
+    "original_size": 77441,
+    "optimized_size": 3307,
+    "reduction_percent": 95.73
+  }
+}

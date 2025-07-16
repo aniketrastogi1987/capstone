@@ -1,0 +1,31 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364819A1-20171221",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15186346",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Kai",
+      "inventor_city": "Bridgewater",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The disclosure relates to technology for determining a root cause of anomalous behaviors in networks. First indicators (KQIs) are categorized into first groups (states) and second indicators (KPIs) are categorized into second groups. A conditional probability is estimated by calculating a probability that the second indicators will result in degradation of the first indicators based on historical data using association rule learning. The second indicators having the conditional probability associated with degradation of the first indicators are mapped to a corresponding one of the first groups in a probabilistic network structure based on a detected degradation of the first indicators in the historical data. Then it is determined whether the second indicators mapped to the corresponding first groups satisfy a threshold when degradation of the first indicators is detected, and each of the second indicators resulting in degradation of the first indicator are ranked according to a corresp...",
+  "filing_date": "20160617",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In one embodiment, there is a method for determining a root cause of anomalous behaviors in a network, comprising categorizing each of one or more first indicators into a corresponding one of a plurality of first groups and each of one or more second indicators into a corresponding one of a plurality of second groups; estimating a conditional probability by calculating a probability that the one or more second indicators will result in a degradation of one of the first indicators based on historical data of the one or more first and second indicators using association rule learning; mapping the one or more second indicators having the conditional probability associated with degradation of the one of the first indicators to a corresponding one of the plurality of first groups (in a probabilistic network structure based on a detected degradation of the one of the first indicators in the historical data; and determining whether the one or more second indicators mapped to the corresponding one of the plurality of first groups satisfies a threshold when degradation of the one of the first indicators is detected, and ranking each of the one or more second indicators that results in the degradation of the one of the first indicators according to a corresponding conditional probability. In another embodiment, there is a non-transitory computer-readable medium storing computer instructions for determining a root cause of anomalous behavior in a network, that when executed by one or more processors, perform the steps of: categorizing each of one or more first indicators into a corresponding one of a plurality of first groups (states) and each of one or more second indicators into a corresponding one of a plurality of second groups; estimating a conditional probability by calculating a probability that the one or more second indicators will result in a degradation of one of the first indicators based on historical data of the one or more first and seco...",
+  "date_published": "20171221",
+  "title": "ROOT CAUSE ANALYSIS IN A COMMUNICATION NETWORK VIA PROBABILISTIC NETWORK STRUCTURE",
+  "ipcr_labels": [
+    "G06N700",
+    "H04L1224"
+  ],
+  "_processing_info": {
+    "original_size": 84343,
+    "optimized_size": 3583,
+    "reduction_percent": 95.75
+  }
+}

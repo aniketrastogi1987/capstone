@@ -1,0 +1,38 @@
+{
+  "date_produced": "20160908",
+  "publication_number": "US20160275394A1-20160922",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15070898",
+  "inventor_list": [
+    {
+      "inventor_name_last": "FUJIMURA",
+      "inventor_name_first": "Hiroshi",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MASUKO",
+      "inventor_name_first": "Takashi",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "According to an embodiment, an arithmetic operation apparatus for a neural network includes an input layer calculator, a correction unit calculator, a hidden layer calculator, and an output layer calculator. The input layer calculator is configured to convert an input pattern into features as outputs of an input layer. The correction unit calculator is configured to perform calculation on N unit groups corresponding respectively to N classes of the input pattern and including correction units that each multiply a value based on inputs by a weight determined for the corresponding class. The hidden layer calculator is configured to perform calculation in a hidden layer based on the outputs of the input layer, another hidden layer, or the correction unit calculator. The output layer calculator is configured to perform calculation in an output layer based on the calculation for the hidden layer or the outputs of the correction unit calculator.",
+  "filing_date": "20160315",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram illustrating an arithmetic operation apparatus according to a first embodiment; FIG. 2 is a flowchart of arithmetic operation processing in the first embodiment; FIG. 3 is a schematic diagram illustrating an example of a neural network in the first embodiment; FIG. 4 is a schematic diagram illustrating another example of the neural network in the first embodiment; FIG. 5 is a schematic diagram illustrating still another example of the neural network in the first embodiment; FIG. 6 is a block diagram illustrating an arithmetic operation apparatus according to a second embodiment; FIG. 7 is a flowchart of the arithmetic operation processing in the second embodiment; and FIG. 8 is a hardware structure diagram of the arithmetic operation apparatuses in the first and the second embodiments. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20160922",
+  "title": "ARITHMETIC OPERATION APPARATUS, ARITHMETIC OPERATION METHOD, AND COMPUTER PROGRAM PRODUCT",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 41233,
+    "optimized_size": 2623,
+    "reduction_percent": 93.64
+  }
+}

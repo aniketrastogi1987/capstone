@@ -1,0 +1,34 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "14906250",
+  "date_published": "20170615",
+  "date_produced": "20170603",
+  "title": "PROGRAMMABLE GAMMA VOLTAGE OUTPUT DEVICES AND DISPLAY DEVICES",
+  "filing_date": "20160119",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Xianming",
+      "inventor_city": "Shenzhen, Guangdong",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G09G502",
+    "G11C722",
+    "G11C716",
+    "G11C710"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The technical issue that the embodiment of the present disclosure solves is to provide a programmable Gamma voltage output device and a display device to avoid abnormal Gamma voltage so as to enhance the display performance. In one aspect, a programmable Gamma voltage output device includes: a non-volatile memory (NVM), a controller, a digital signal generation module, a digital to analog converter (DAC), and output verification module, the NVM connects with the controller, the controller connects with the digital signal generation module, the digital signal generation module connects with the DAC, the DAC connects with the output verification module, and the output verification module connects with the controller, wherein: the NVM is configured for duplicating a copy of a corresponding voltage data code when programming the voltage data code; the controller is configured for sending control signals to the digital signal generation module in accordance with the voltage data code, or is configured for sending the control signals to the digital signal generation module in accordance with the copy of the code when the output verification module sends an error feedback; the digital signal generation module is configured for outputting digital signals to the DAC in accordance with the control signals; the DAC is configured for converting the digital signals to a Gamma voltage; and the output verification module is configured for verifying whether the Gamma voltage is within a predetermined voltage range, and for sending the error feedback when the Gamma voltage is not within a predetermined voltage range. Wherein the NVM includes a predetermined backup area for storing the copy of the code. Wherein the output verification module includes a plurality of comparators and an AND component, non-inverting input ends of each of the comparators respectively connect to output ends of different DACs, inverting input ends of each of the comparato...",
+  "patent_number": "9886205",
+  "abstract": "The present disclosure discloses a programmable Gamma voltage output device having a non-volatile memory (NVM), a controller, a digital signal generation module, a digital to analog converter (DAC), and output verification module. The NVM is configured for duplicating a copy of a corresponding voltage data code when programming the voltage data code. The controller is configured for sending control signals to the digital signal generation module in accordance with the voltage data code. The digital signal generation module is configured for outputting digital signals to the DAC in accordance with the control signals. The DAC is configured for converting the digital signals to a Gamma voltage. The output verification module is configured for verifying whether the Gamma voltage is within a predetermined voltage range. In addition, a display device is also disclosed.",
+  "publication_number": "US20170168734A1-20170615",
+  "_processing_info": {
+    "original_size": 30924,
+    "optimized_size": 3483,
+    "reduction_percent": 88.74
+  }
+}

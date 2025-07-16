@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046915A1-20180215",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15390660",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SUN",
+      "inventor_name_first": "Shijie",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Song",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "LI",
+      "inventor_name_first": "Xin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SHAN",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present invention relates to artificial neural networks, for example, deep neural networks. In particular, the present invention relates to a compression method for deep neural networks with proper use of mask and the device thereof. More specifically, the present invention relates to how to compress dense neural networks into sparse neural networks while maintaining or even improving the accuracy of the neural networks after compression.",
+  "filing_date": "20161226",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect of the invention, a method for compressing a neural network with a mask matrix is proposed, wherein the neural network is characterized by a plurality of matrices. The method comprises: mask matrix obtaining step of obtaining a mask matrix M, wherein the mask matrix records the distribution of non-zero elements in a plurality of sparse matrices of the neural network; first pruning step of pruning the neural network nnet 0 using the mask matrix M to obtain a pruned neural network nnet i 1 ; first retraining step of retraining the pruned neural network nnet i 1 without a mask, wherein the pruned neural network nnet i 1 is retrained without using the mask matrix M to obtain a dense neural network nnet o 1 ; second pruning step of pruning the dense neural network nnet o 1 using the mask matrix M to obtain a sparse neural network nnet i 2 ; second retraining step of retraining the sparse neural network nnet i 2 using the mask matrix M to obtain a final neural network nnet o 2 . According to another aspect of the invention, a device for compressing a neural network with a mask matrix is proposed, wherein the neural network is characterized by a plurality of matrix. The device comprises: a mask matrix obtaining unit, configured for obtaining a mask matrix M, wherein the mask matrix M records the distribution of non-zero elements in a plurality of sparse matrices of the neural network; a first pruning unit, configured for pruning the neural network nnet 0 using the mask matrix M to obtain a pruned neural network nnet i 1 ; a first retraining unit, configured for retraining the pruned neural network nnet i 1 obtained from the first pruning unit without using said mask matrix M to obtain a dense neural network nnet o 1 ; a second pruning unit, configured for pruning the dense neural network nnet o 1 using the mask matrix M to obtain a sparse neural network nnet i 2 ; a second retraining unit, configured for retraining the sparse neur...",
+  "date_published": "20180215",
+  "title": "COMPRESSION OF DEEP NEURAL NETWORKS WITH PROPER USE OF MASK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 76369,
+    "optimized_size": 3409,
+    "reduction_percent": 95.54
+  }
+}

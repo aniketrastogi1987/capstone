@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15149586",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "title": "COMPUTER AIDED BUG REPORTING SYSTEM FOR GUI APPLICATIONS",
+  "filing_date": "20160509",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Moran",
+      "inventor_name_first": "Kevin P.",
+      "inventor_city": "Williamsburg",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Linares Vasquez",
+      "inventor_name_first": "Mario",
+      "inventor_city": "Williamsburg",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bernal-Cardenas",
+      "inventor_name_first": "Carlos E.",
+      "inventor_city": "Williamsburg",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Poshyvanyk",
+      "inventor_name_first": "Denys",
+      "inventor_city": "Williamsburg",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1136"
+  ],
+  "main_ipcr_label": "G06F1136",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>Accordingly, it is an object of the present invention to provide a method and system that improves the reporting of bugs in GUI-based software applications. In accordance with the present invention, a computer aided bug reporting system for GUI-based applications includes a processor configured to extract first data indicative of GUI components and attributes of the GUI components from source code for a GUI-based application having execution paths that generate a plurality of screen displays according to user interactions during run-time execution of the source code. Each screen display uses the GUI components defined by the source code. The first data is stored in a database. The source code is executed in a run-time environment through its execution paths according to automatically-generated user inputs. Each execution path is defined by execution steps wherein each execution step generates a run-time screen display using at least one of the GUI components. Second data indicative of each run-time screen display is also stored in the database. Using the first data and second data, a sequence of prompts is generated on a bug reporter's display device. The prompts are ordered in accordance with one of the execution paths associated with an encountered bug wherein each of the prompts is associated with one of the execution steps. Each prompt presents the GUI components and attributes of the GUI components associated with the one of the execution steps wherein selected ones of the GUI components and selected ones of the attributes of the GUI components are defined. The selected ones of the GUI components and the selected ones of the attributes of the GUI components for the execution steps associated with the one of the execution paths are displayed on an electronic image for review by a software developer.",
+  "patent_number": "None",
+  "abstract": "A computer aided bug reporting system for GUI-based apps extracts and stores static and dynamic data from an app's source code. Using the extracted/stored data, a sequence of prompts is generated on a bug reporter's display device. The prompts are ordered in accordance with one of the app's execution paths associated with an encountered bug wherein each of the prompts is associated with one of the path's execution steps. Each prompt presents the GUI components and attributes of the GUI components associated with the one of the execution steps wherein selected ones of the GUI components and selected ones of the attributes of the GUI components are defined. The selected ones of the GUI components and the selected ones of the attributes of the GUI components for the execution steps associated with the one of the execution paths are presented for review by a software developer.",
+  "publication_number": "US20170322866A1-20171109",
+  "_processing_info": {
+    "original_size": 49227,
+    "optimized_size": 3783,
+    "reduction_percent": 92.32
+  }
+}

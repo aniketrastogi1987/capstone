@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160831",
+  "publication_number": "US20160267394A1-20160915",
+  "main_ipcr_label": "G06N708",
+  "decision": "PENDING",
+  "application_number": "15028759",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ETO",
+      "inventor_name_first": "RIKI",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "FUJIMAKI",
+      "inventor_name_first": "RYOHEI",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TAMANO",
+      "inventor_name_first": "HIROSHI",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A model estimation device 100 includes a hidden variable variational probability calculation processing unit 104 for acquiring parameters of a hidden variable model and calculating a constrained hidden variable variational probability as a hidden variable posterior probability close to a previously-given distribution by use of the parameters, a model parameter optimization processing unit 105 for optimizing the parameters of the hidden variable model by use of the constrained hidden variable variational probability, and an optimality determination processing unit 106 for determining whether a marginalized log likelihood function using the optimized parameters is converged, wherein when it is determined that the marginalized log likelihood function is converged, the constrained hidden variable variational probability and the parameters used for the marginalized log likelihood function are output.",
+  "filing_date": "20160412",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>",
+  "date_published": "20160915",
+  "title": "MODEL ESTIMATION DEVICE, MODEL ESTIMATION METHOD, AND MODEL ESTIMATION PROGRAM",
+  "ipcr_labels": [
+    "G06N708",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 83584,
+    "optimized_size": 1789,
+    "reduction_percent": 97.86
+  }
+}

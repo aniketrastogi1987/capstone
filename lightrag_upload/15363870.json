@@ -1,0 +1,54 @@
+{
+  "decision": "PENDING",
+  "application_number": "15363870",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "title": "MULTI-BLOCK MEMORY READS FOR IMAGE DE-WARPING",
+  "filing_date": "20161129",
+  "inventor_list": [
+    {
+      "inventor_name_last": "GUR",
+      "inventor_name_first": "Amit",
+      "inventor_city": "Ein-Vered",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "KOL",
+      "inventor_name_first": "Rakefet",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "VAN DALEN",
+      "inventor_name_first": "Edwin",
+      "inventor_city": "Eindhoven",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "KLEIN",
+      "inventor_name_first": "Tamir",
+      "inventor_city": "Petach Tikva",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T500",
+    "G06T300",
+    "G06T1160",
+    "G06K946"
+  ],
+  "main_ipcr_label": "G06T500",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The material described herein is illustrated by way of example and not by way of limitation in the accompanying figures. For simplicity and clarity of illustration, elements illustrated in the figures are not necessarily drawn to scale. For example, the dimensions of some elements may be exaggerated relative to other elements for clarity. Further, where considered appropriate, reference labels have been repeated among the figures to indicate corresponding or analogous elements. In the figures: FIG. 1 is an illustration of an example sparse grid for image or frame de-warping over an example input image; FIG. 2 is an illustration of an example interpolation from tetragons of an input image to rectangles of an output image; FIG. 3 is an illustration of an example de-warping including filter support; FIG. 4 illustrates an example memory storing pixel values of an input image; FIG. 5 illustrates an example image modification region including a grouping of regions of interest; FIG. 6 illustrates example memory commands for attaining input image pixel values for de-warping an image modification region; FIG. 7 is an example system for image de-warping; FIG. 8 is a flow diagram illustrating an example process for image de-warping; FIG. 9 illustrates an example process for determining a grouping factor or region of interest group size; FIG. 10 illustrates an example process for determining an order for external direct memory access commands; FIG. 11 is a flow diagram illustrating an example process for attaining pixel data for image de-warping; FIG. 12 is an illustrative diagram of an example system for attaining pixel data for image de-warping; FIG. 13 is an illustrative diagram of an example system; and FIG. 14 illustrates an example device, all arranged in accordance with at least some implementations of the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "Techniques related to multi-block memory reads for image de-warping are discussed. Such techniques may include copying pixel data corresponding to overlapping regions of memory between adjacent image modification regions from a local buffer and retrieving pixel data corresponding to non-overlapping regions from external memory.",
+  "publication_number": "US20180150943A1-20180531",
+  "_processing_info": {
+    "original_size": 123783,
+    "optimized_size": 3288,
+    "reduction_percent": 97.34
+  }
+}

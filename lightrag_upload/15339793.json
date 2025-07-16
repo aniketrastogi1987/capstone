@@ -1,0 +1,30 @@
+{
+  "date_produced": "20180418",
+  "publication_number": "US20180121819A1-20180503",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15339793",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MANASSE",
+      "inventor_name_first": "Mark",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The disclosed systems and methods include pre-calculation, per object, of object feature bin values, for identifying close matches between objects, such as text documents, that have numerous weighted features, such as specific-length word sequences. Predetermined feature weights get scaled with two or more selected adjacent scaling factors, and randomly rounded. The expanded set of weighted features of an object gets min-hashed into a predetermined number of feature bins. For each feature that qualifies to be inserted by min-hashing into a particular feature bin, and across successive feature bins, the expanded set of weighted features get min-hashed and circularly smeared into the predetermined number of feature bins. Completed pre-calculated sets of feature bin values for each scaling of the object, together with the scaling factor, are stored for use in comparing sampled features of the object with sampled features of other objects by calculating an estimated Jaccard similarity inde...",
+  "filing_date": "20161031",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A simplified summary is provided herein to help enable a basic or general understanding of various aspects of exemplary, non-limiting implementations that follow in the more detailed description and the accompanying drawings. This summary is not intended as an extensive or exhaustive overview. Instead, the sole purpose of this summary is to present concepts related to some exemplary non-limiting implementations, in a simplified form, as a prelude to the more detailed description of the various implementations that follow. The disclosed technology includes systems and methods of pre-calculation per input object of a (typically short compared to the length of an object) set of feature values sorted into different bins for identifying likely close matches between objects, such as text documents, that have numerous weighted features, such as specific-length word sequences. Stored objects, weighted features of the objects, and values in bins are used to identify instances of the objects and to test similarity among the objects. For initial weighted features of an object, and a predetermined number of feature bins used to min-hash the object features, as part of calculating an estimated Jaccard similarity index among objects, the method includes scaling initial weights to produce scaled weighted features, using scaling factors automatically selected based on a sum of the initial weights divided by a number of features in a feature set, applying two or more selected scaling factors to scale the initial weights; expanding the scaled weighted features into an expanded set of weighted features of the object that includes one to eight times as many weighted features in the expanded set as the predetermined number of feature bins. During min-hashing of the expanded set of weighted features into the feature bins, the disclosed method includes circularly smearing a feature that qualifies to be inserted by min-hashing into a particular feature bin, including tre...",
+  "date_published": "20180503",
+  "title": "JACCARD SIMILARITY ESTIMATION OF WEIGHTED SAMPLES: CIRCULAR SMEARING WITH SCALING AND RANDOMIZED ROUNDING SAMPLE SELECTION",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 93472,
+    "optimized_size": 3617,
+    "reduction_percent": 96.13
+  }
+}

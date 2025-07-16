@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170119",
+  "publication_number": "US20170032242A1-20170202",
+  "main_ipcr_label": "G06N304",
+  "decision": "ACCEPTED",
+  "application_number": "15150091",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Corrado",
+      "inventor_name_first": "Gregory Sean",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sutskever",
+      "inventor_name_first": "Ilya",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dean",
+      "inventor_name_first": "Jeffrey Adgate",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for predicting likelihoods of conditions being satisfied using recurrent neural networks. One of the systems is configured to process a temporal sequence comprising a respective input at each of a plurality of time steps and comprises: one or more recurrent neural network layers; one or more logistic regression nodes, wherein each of the logistic regression nodes corresponds to a respective condition from a predetermined set of conditions, and wherein each of the logistic regression nodes is configured to, for each of the plurality of time steps: receive the network internal state for the time step; and process the network internal state for the time step in accordance with current values of a set of parameters of the logistic regression node to generate a future condition score for the corresponding condition for the time step.",
+  "filing_date": "20160509",
+  "patent_number": "9646244",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in methods for processing a temporal sequence comprising a respective input at each of a plurality of time steps using a recurrent neural network system comprising one or more recurrent neural network layers and one or more logistic regression nodes, the methods comprising the actions of, for each of the plurality of time steps: receiving the input at the time step; processing the input at the time step through the one or more recurrent neural network layers to generate a network internal state for the time step; and processing the network internal state using each of the one or more logistic regression nodes, wherein each of the logistic regression nodes corresponds to a respective condition from a predetermined set of conditions, and wherein processing the network internal state using each of the one or more logistic regression nodes comprises: processing the network internal state for the time step using the logistic regression node in accordance with current values of a set of parameters of the logistic regression node to generate a future condition score for the corresponding condition for the time step, wherein the future condition score for the corresponding condition represents a likelihood that the corresponding condition will be satisfied within a specified time period of the input at the time step. Other embodiments of this aspect include corresponding computer systems, apparatus, and computer programs recorded on one or more computer storage devices, each configured to perform the actions of the methods. A system of one or more computers can be configured to perform particular operations or actions by virtue of having software, firmware, hardware, or a combination of them installed on the system that in operation causes or cause the system to perform the actions. One or more computer programs can be configured to perform particular o...",
+  "date_published": "20170202",
+  "title": "PREDICTING LIKELIHOODS OF CONDITIONS BEING SATISFIED USING RECURRENT NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N3063"
+  ],
+  "_processing_info": {
+    "original_size": 82239,
+    "optimized_size": 3841,
+    "reduction_percent": 95.33
+  }
+}

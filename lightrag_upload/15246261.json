@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193386A1-20170706",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15246261",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Qin",
+      "inventor_name_first": "Duohao",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present application discloses a website address identification method and apparatus. A specific embodiment of the method includes: obtaining a website address to be identified; segmenting the to-be-identified website address into a plurality of website address parts according to a preset rule, and converting each of the segmented website address parts into a type identifier corresponding to a content type of the each of the segmented website address parts; determining a probability value of the to-be-identified website address as a non-spam website address according to a type identifier sequence corresponding to the to-be-identified website address; and generating website address identification information according to the probability value. According to the embodiment, the website address identification range is expanded.",
+  "filing_date": "20160824",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The object of the present application is to provide an improved website address identification method and apparatus, in order to solve the technical problems mentioned in the background. In a first aspect, the present application provides a website address identification method, including: obtaining a website address to be identified; segmenting the to-be-identified website address into a plurality of website address parts according to a preset rule, and converting each of the segmented website address parts into a type identifier corresponding to a content type of the each of the segmented website address parts; determining a probability value of the to-be-identified website address as a non-spam website address according to a type identifier sequence corresponding to the to-be-identified website address; and generating website address identification information according to the probability value. In some embodiments, determining a probability value of the to-be-identified website address as a non-spam website address according to a type identifier sequence corresponding to the to-be-identified website address comprises: using the type identifier sequence as an observation sequence of a hidden Markov model, and calculating a probability value corresponding to the observation sequence according to a forward algorithm and a pre-trained hidden Markov model parameter; and using the calculated probability value as the probability value of the to-be-identified website address as the non-spam website address. In some embodiments, before obtaining a website address to be identified, the method further includes: obtaining a non-spam website address set from a log server; segmenting each website address in the non-spam website address set according to the preset rule, and converting the segmented website address parts of each website address into type identifiers corresponding to the content types of the website address parts to generate a type identifier ...",
+  "date_published": "20170706",
+  "title": "WEBSITE ADDRESS IDENTIFICATION METHOD AND APPARATUS",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 64136,
+    "optimized_size": 3382,
+    "reduction_percent": 94.73
+  }
+}

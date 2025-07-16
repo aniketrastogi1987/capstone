@@ -1,0 +1,116 @@
+{
+  "patent_number": "nan",
+  "application_number": "15841984",
+  "date_published": "20180621",
+  "date_produced": "20180608",
+  "filing_date": "20171214",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Systems, methods, non-transitory computer readable media can be configured to access a plurality of sensor logs corresponding to a first machine, each sensor log spanning at least a first period; access first computer readable logs corresponding to the first machine, each computer readable log spanning at least the first period, the computer readable logs comprising a maintenance log comprising a plurality of maintenance task objects, each maintenance task object comprising a time and a maintenance task type; determine a set of statistical metrics derived from the sensor logs; determine a set of log metrics derived from the computer readable logs; and determine, using a risk model that receives the statistical metrics and log metrics as inputs, fault probabilities or risk scores indicative of one or more fault types occurring in the first machine within a second period.",
+  "publication_number": "US20180174067A1-20180621",
+  "summary": "<SOH> SUMMARY <EOH>According to some embodiments of this specification, there is provided a method of determining a fault probability for a first machine. The method is performed using one or more processors or special-purpose computing hardware. The method includes accessing a plurality of sensor logs corresponding to a first machine, each sensor log spanning at least a first period. The method also includes accessing first computer readable logs corresponding to the first machine, each computer readable log spanning at least the first period. The computer readable logs include a maintenance log including a plurality of maintenance task objects, each maintenance task object including a time and a maintenance task type. The method also includes determining a set of statistical metrics derived from the sensor logs. The method also includes determining a set of log metrics derived from the computer readable logs. The method also includes determining, using a risk model that receives the statistical metrics and log metrics as inputs, fault probabilities or risk scores indicative of one or more fault types occurring in the first machine within a second period. The computer readable logs for each machine may also include a message log which includes a plurality of message objects, each message object including a time and a message type. The computer readable logs for each machine may also include a fault log which includes a plurality of fault objects, each fault object including a time, a duration and a fault type. The risk model may be a machine learning model configured to receive the statistical metrics and log metrics as inputs, and to output fault probabilities corresponding to one or more fault types occurring in the first machine within a second period. The machine learning model may be a random forest model. The machine learning model may be a kernel random forest. The machine learning model may be an artificial neural network. The machine learning model may be ...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900",
+    "G06F1750"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Spiro",
+      "inventor_name_first": "Ezra",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Menck",
+      "inventor_name_first": "Andre Frederico Cavalheiro",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Prasad",
+      "inventor_name_first": "Anshuman",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Thouzeau",
+      "inventor_name_first": "Arthur",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Henry",
+      "inventor_name_first": "Caroline",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Shepherd",
+      "inventor_name_first": "Charles",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Peller",
+      "inventor_name_first": "Joanna",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Yip",
+      "inventor_name_first": "Jennifer",
+      "inventor_city": "Wembley",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Diciolla",
+      "inventor_name_first": "Marco",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Todd",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Maag",
+      "inventor_name_first": "Peter",
+      "inventor_city": "Brooklyn",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tank",
+      "inventor_name_first": "Spencer",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Powell",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "MACHINE FAULT MODELLING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 212933,
+    "optimized_size": 5157,
+    "reduction_percent": 97.58
+  }
+}

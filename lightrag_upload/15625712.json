@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15625712",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "filing_date": "20170616",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Quantum neural nets, which utilize quantum effects to model complex data sets, represent a major focus of quantum machine learning and quantum computing in general. In this application, example methods of training a quantum Boltzmann machine are described. Also, examples for using quantum Boltzmann machines to enable a form of quantum state tomography that provides both a description and a generative model for the input quantum state are described. Classical Boltzmann machines are incapable of this. Finally, small non-stoquastic quantum Boltzmann machines are compared to traditional Boltzmann machines for generative tasks, and evidence presented that quantum models outperform their classical counterparts for classical data sets.",
+  "publication_number": "US20180165601A1-20180614",
+  "summary": "<SOH> SUMMARY <EOH>Quantum neural nets, which utilize quantum effects to model complex data sets, represent a major focus of quantum machine learning and quantum computing in general. In this application, example methods of training a quantum Boltzmann machine are described. Also, examples for using quantum Boltzmann machines to enable a form of quantum state tomography that provides both a description and a generative model for the input quantum state are described. Classical Boltzmann machines are incapable of this. Finally, small non-stoquastic quantum Boltzmann machines are compared to traditional Boltzmann machines for generative tasks, and evidence presented that quantum models outperform their classical counterparts for classical data sets. In particular examples disclosed herein, both quantum and classical terms in the Hamiltonian are learned in a quantum computer implementing a quantum Boltzmann machine through either a POVM-based Golden-Thompson training approach or by training according to the relative entropy. Further, the latter approach enables a form of tomography, which (in concert with a quantum simulator) allows for Hamiltonian models to be learned for complex quantum states that cannot be probed using conventional tomographic approaches. More specifically, methods, systems, and apparatus for: (a) the training of non-stoquastic quantum Boltzmann machines using quantum computers; (b) training quantum Boltzmann machines using measurement records that result from using measurement operators that do not just project onto the computational oasis; (c) training quantum Boltzmann machines using commutator expansions of the derivative of the average log-likelihood; (d) training Boltzmann machines based on the relative entropy between an input state and the state output by the Boltzmann machine; (e) using quantum Boltzmann machines to perform tomographic reconstructions of quantum or classical data; and/or (f) training quantum Boltzmann machines that are bui...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F7523",
+    "G06F1711"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wiebe",
+      "inventor_name_first": "Nathan O.",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kieferova",
+      "inventor_name_first": "Maria",
+      "inventor_city": "Waterloo",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "TOMOGRAPHY AND GENERATIVE DATA MODELING VIA QUANTUM BOLTZMANN TRAINING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 101552,
+    "optimized_size": 3469,
+    "reduction_percent": 96.58
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170329",
+  "publication_number": "US20170103314A1-20170413",
+  "main_ipcr_label": "G06N308",
+  "decision": "ACCEPTED",
+  "application_number": "15389273",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ross",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A circuit for performing neural network computations for a neural network, the circuit comprising: a systolic array comprising a plurality of cells; a weight fetcher unit configured to, for each of the plurality of neural network layers: send, for the neural network layer, a plurality of weight inputs to cells along a first dimension of the systolic array; and a plurality of weight sequencer units, each weight sequencer unit coupled to a distinct cell along the first dimension of the systolic array, the plurality of weight sequencer units configured to, for each of the plurality of neural network layers: shift, for the neural network layer, the plurality of weight inputs to cells along the second dimension of the systolic array over a plurality of clock cycles and where each cell is configured to compute a product of an activation input and a respective weight input using multiplication circuitry.",
+  "filing_date": "20161222",
+  "patent_number": "9805304",
+  "summary": "<SOH> SUMMARY <EOH>In general, this specification describes a special-purpose hardware circuit that computes neural network inferences. In general, one innovative aspect of the subject matter described in this specification can be embodied in a circuit for performing neural network computations for a neural network comprising a plurality of layers, the circuit comprising: a systolic array comprising a plurality of cells; a weight fetcher unit configured to, for each of the plurality of neural network layers: send, for the neural network layer, a plurality of weight inputs to cells along a first dimension of the systolic array; and a plurality of weight sequencer units, each weight sequencer unit coupled to a distinct cell along the first dimension of the systolic array, the plurality of weight sequencer units configured to, for each of the plurality of neural network layers: shift, for the neural network layer, the plurality of weight inputs to cells along the second dimension of the systolic array over a plurality of clock cycles, where each weight input is stored inside a respective cell along the second dimension, and where each cell is configured to compute a product of an activation input and a respective weight input using multiplication circuitry. Implementations can include one or more of the following. A value sequencer unit configured to, for each of the plurality of neural network layers, send a plurality of activation inputs to cells along the second dimension of the systolic array for the neural network layer. The first dimension of the systolic array corresponds to rows of the systolic array, and where the second dimension of the systolic array corresponds to columns of the systolic array. Each cell is configured to pass a weight control signal to an adjacent cell, the weight control signal causing circuitry in the adjacent cell to shift or load a weight input for the adjacent cell. A weight path register configured to store the weight input shifted to...",
+  "date_published": "20170413",
+  "title": "PREFETCHING WEIGHTS FOR USE IN A NEURAL NETWORK PROCESSOR",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 65184,
+    "optimized_size": 3475,
+    "reduction_percent": 94.67
+  }
+}

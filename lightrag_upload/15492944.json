@@ -1,0 +1,40 @@
+{
+  "patent_number": "None",
+  "application_number": "15492944",
+  "date_published": "20171116",
+  "date_produced": "20171103",
+  "filing_date": "20170420",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Devices, systems, and methods obtain data in a first modality; propagate the data in the first modality through a neural network, thereby generating network outputs, wherein the neural network includes a first-stage neural network and a second-stage neural network, wherein the first-stage neural network includes two or more layers, wherein each layer of the two or more layers of the first-stage neural network includes a plurality of respective nodes, wherein the second-stage neural network includes two or more layers, one of which is an input layer and one of which is an output layer, and wherein each node in each layer of the first-stage neural network is connected to the input layer of the second-stage neural network; calculate a gradient of a loss function based on the network outputs; backpropagate the gradient through the neural network; and update the neural network based on the backpropagation of the gradient.",
+  "publication_number": "US20170330068A1-20171116",
+  "summary": "<SOH> SUMMARY <EOH>Some embodiments of a device comprise one or more computer-readable media and one or more processors that are coupled to the one or more computer-readable media. The one or more processors are configured to cause the device to obtain data in a first modality; propagate the data in the first modality through a first neural network, thereby generating first network outputs; calculate a gradient of a loss function based on the first network outputs and on the loss function; backpropagate the gradient of the loss function through the first neural network; and update the first neural network based on the backpropagation of the gradient. Additionally, the first neural network includes a first-stage neural network and a second-stage neural network; the first-stage neural network includes two or more layers; each layer of the two or more layers of the first-stage neural network includes a plurality of respective nodes; the second-stage neural network includes two or more layers, one of which is an input layer and one of which is an output layer; each node in each layer of the first-stage neural network is connected to the input layer of the second-stage neural network; and the output layer of the second-stage neural network produces the first network outputs. Some embodiments of one or more computer-readable storage media store computer-executable instructions that, when executed by one or more computing devices, cause the one or more computing devices to perform operations that comprise obtaining data in a first modality; propagating the data in the first modality through a first neural network, thereby generating first network outputs; calculating a gradient of a loss function based on the first network outputs and on the loss function; backpropagating the gradient of the loss function through the first neural network; and updating the first neural network based on the backpropagation of the gradient. Also, the first neural network includes a first-stag...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06K962",
+    "G06K962",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Jie",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Imai",
+      "inventor_name_first": "Francisco",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DEVICES, SYSTEMS, AND METHODS FOR FEATURE ENCODING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 53928,
+    "optimized_size": 3644,
+    "reduction_percent": 93.24
+  }
+}

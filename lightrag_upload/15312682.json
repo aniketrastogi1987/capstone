@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170614",
+  "publication_number": "US20170185893A1-20170629",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15312682",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wetta",
+      "inventor_name_first": "Andrew C.",
+      "inventor_city": "Chevy Chase",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system including a confidence assessment module that implements a neural network to assess the likelihood that codes associated with a patient's encounter with a healthcare organization are accurate. The confidence assessment module may also be incrementally trained.",
+  "filing_date": "20161121",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A confidence assessment module that evaluates coded encounters (comprising documentation associated with a patient's encounter with a healthcare organization, and associated codes) and calculates a confidence value indicative of the likelihood that the associated codes would be the ones chosen by a human coder, given the documentation. The confidence assessment module is implemented as a binary node-based neural network. In embodiments described herein, it is capable of incremental learning, meaning once it has been trained, it is possible to further refine the neural network model to properly evaluate new types of coded encounter correctly, based on a limited and specific corpus of training documents. In one embodiment, a computer-implemented method of incrementally training a confidence assessment module that calculates a confidence value indicative of the extent to which a code associated with a patient's encounter with a healthcare organization is proper, the computer-implemented method is described, the method comprising assessing, with the confidence assessment module, a training corpus comprised of a plurality of coded encounters, to produce resultant confidence values associated with each encounter; comparing the resultant confidence values to a target confidence value; and, adjusting variables within the confidence assessment module to produce resultant confidence values closer to the target confidence value. In another embodiment, an incremental learning confidence assessment system is described. The system evaluates coded encounters between a patient and a healthcare organization and computes a confidence value indicative of the likelihood that codes associated with the coded encounters are proper. The system comprises a confidence assessment module operative to receive coded encounters, the coded encounters comprising both (1) documentation associated with a patient's encounter with a healthcare organization, and (2) codes associated w...",
+  "date_published": "20170629",
+  "title": "NEURAL NETWORK-BASED CONFIDENCE ASSESSMENT MODULE FOR HEALTHCARE CODING APPLICATIONS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1900"
+  ],
+  "_processing_info": {
+    "original_size": 53399,
+    "optimized_size": 2858,
+    "reduction_percent": 94.65
+  }
+}

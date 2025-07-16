@@ -1,0 +1,40 @@
+{
+  "date_produced": "20170119",
+  "publication_number": "US20170032262A1-20170202",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15221007",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gerken",
+      "inventor_name_first": "Mark",
+      "inventor_city": "Colorado Springs",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pavlik",
+      "inventor_name_first": "Rick",
+      "inventor_city": "Colorado Springs",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Enterprise Hypothesis Orchestration provides users an intuitive system for building an inquiry model that thereafter creates and evaluates each of a plurality of hypotheses as it continuously searches for evidence to formulate, score, and resolve each hypothesis. The Enterprise Hypothesis Orchestration system moreover continuously deals with the uncertainty caused by noisy, missing, inaccurate, and/or contradictory data. The present invention uses abductive reasoning to infer the best explanation or hypothesis for a set of observations. Given an inquiry the Hypothesis Orchestration System identifies relevant data from which to form a plurality of hypotheses. It thereafter collects evidence in support of each hypothesis and crafts a degree of confidence that the hypothesis is true. If a hypothesis is found to lack support an analysis of any missing evidence is conducted to identify and seek which evidence would offer the highest benefit to resolving one or more of the plurality of hypot...",
+  "filing_date": "20160727",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention combines probabilistic complex event processing, activity recognition, and predictive analysis. While each of these tools are descriptive of the present invention, what sets the current concept apart from the prior art is how it augments and emulates human problem solving and reasoning by generating, updating, scoring, and reasoning over a collection of hypotheses to effectively support a wide variety of use cases including predictive analysis, forensic reasoning causal reasoning, association discovery, and hypothetical “what-if” analysis. One or more embodiments of the present invention augments a form of human problem solving called “abduction” with state-of-the-art analytics to form an enterprise level, general purpose Hypothesis Orchestration System. One embodiment of this Hypothesis Orchestration System is a method involving receiving an inquiry or set of inquiries (“inquiry” for convenience), and performing an initial search of a data repository (or repositories—again, “repository”, for convenience) to identify evidence relevant to that inquiry. With this initial-search evidence, a plurality of hypotheses is formed based on observation data and information derived from observation data identified as relevant to the inquiry—each hypothesis is a proposed solution to the inquiry. Based on these newly-generated hypotheses, observation data and information derived from observation data relevant to one or more of these hypotheses are formed into a set of collected pieces of evidence. Each hypothesis is then evaluated based on the set of collected pieces of evidence to determine a confidence value for the respective hypothesis. For each hypothesis failing to exceed a predefined, threshold confidence value, one or more missing pieces of evidence is identified, and common missing pieces of evidence are isolated from missing pieces of evidence relevant to only a single hypothesis. A weighted value—a so-called Val...",
+  "date_published": "20170202",
+  "title": "ENTERPRISE HYPOTHESIS ORCHESTRATION",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N502",
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 125747,
+    "optimized_size": 3774,
+    "reduction_percent": 97.0
+  }
+}

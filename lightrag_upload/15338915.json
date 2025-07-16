@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170607",
+  "publication_number": "US20170178017A1-20170622",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15338915",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Roy",
+      "inventor_name_first": "Aidan Patrick",
+      "inventor_city": "Surrey",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Macready",
+      "inventor_name_first": "William G.",
+      "inventor_city": "West Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "Systems and methods allow formulation of embeddings of problems via targeted hardware (e.g., particular quantum processor). In a first stage, sets of connected subgraphs are successively generated, each set including a respective subgraph for each decision variable in the problem graph, adjacent decisions variables in the problem graph mapped to respective vertices in the hardware graph, the respective vertices which are connected by at least one respective edge in the hardware graph. In a second stage, the connected subgraphs are refined such that no vertex represents more than a single decision variable.",
+  "filing_date": "20161031",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Methods of formulating a problem to facilitate determining a solution via a quantum processor are described. Systems that perform the methods are also described. A method for use in embedding a problem in a target processor, the problem represented as a problem graph having a number of decision variables and the target processor represented as a hardware graph having a plurality of vertices coupleable via a number of edges may be summarized as including in a first stage, successively generating a number of sets of connected subgraphs, each set including a respective subgraph for each decision variable in the problem graph, where adjacent decisions variables in the problem graph are mapped to respective vertices in the hardware graph, the respective vertices which are connected by at least one respective edge in the hardware graph; and in a second stage, following the first stage, refining the connected subgraphs created in the first stage such that no vertex represents more than a single decision variable. Successively generating a number of sets of connected subgraphs may include using only unused vertices in the hardware graph to represent the decision variables if an unused vertex in the hardware graph is available. Successively generating a number of sets of connected subgraphs may include using used vertices in the hardware graph to represent the decision variables if no unused vertex in the hardware graph is available. Successively generating a number of sets of connected subgraphs may include using a weighted shortest path determination to find a shortest path that uses only unused vertices of the hardware graph. Using a weighted shortest path determination may include, for each of at least some of the hardware vertices, exponentially increasing a weight associated with the respective hardware vertex as a function of a total number of decision variables represented by the respective hardware vertex. Using a weighted shortest path dete...",
+  "date_published": "20170622",
+  "title": "SYSTEMS AND METHODS THAT FORMULATE EMBEDDINGS OF PROBLEMS FOR SOLVING BY A QUANTUM PROCESSOR",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N500"
+  ],
+  "_processing_info": {
+    "original_size": 117529,
+    "optimized_size": 3362,
+    "reduction_percent": 97.14
+  }
+}

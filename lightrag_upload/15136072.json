@@ -1,0 +1,59 @@
+{
+  "date_produced": "20171011",
+  "publication_number": "US20170308792A1-20171026",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15136072",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Liang",
+      "inventor_name_first": "Tao",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mehta",
+      "inventor_name_first": "Sanjay",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Guntur",
+      "inventor_name_first": "Ravindra",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Munnangi",
+      "inventor_name_first": "Krusheel",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Priyadarshini",
+      "inventor_name_first": "Sindhu",
+      "inventor_city": "Mysore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "Knowledge automation techniques may include generating, for each user of a plurality of users, a user vector associated with the user, and grouping the generated user vectors into clusters based on a clustering distance metric between the user vectors. For each cluster, the techniques may include determining a centroid of the cluster, and associating with the cluster at least some of the knowledge elements that the users associated with the cluster has interacted with. The techniques may further include comparing a target user vector of a target user with the centroids of the clusters to determine a matching cluster for the target user, and providing one or more recommendations of the knowledge elements that are associated with the matching cluster to the target user.",
+  "filing_date": "20160422",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>The present disclosure generally relates to knowledge automation. More particularly, knowledge automation techniques are disclosed for mapping knowledge to users within a knowledge automation system. In some embodiments, the techniques can be performed by a data processing system implementing a knowledge automation system, and may include generating, for each user of a plurality of users, a user vector associated with the user. The user vector may include one or more of seeded profile information of the user, interaction data of user interactions with knowledge elements of the data processing system, and/or knowledge element metadata of the knowledge elements that the user interacted with. The techniques may also include grouping the generated user vectors into clusters based on a clustering distance metric between the user vectors. For each cluster, the techniques may include determining a centroid of the cluster, and associating with the cluster at least some of the knowledge elements that the users associated with the cluster has interacted with. The techniques may further include comparing a target user vector of a target user with the centroids of the clusters to determine a matching cluster for the target user, and providing one or more recommendations of the knowledge elements that are associated with the matching cluster to the target user. In some embodiments, the seeded profile information, the interaction data, and the knowledge element metadata are maskable when grouping the generated user vectors into the clusters. In some embodiments, techniques for providing the one or more recommendations may include filtering out knowledge elements that the target user has consumed, knowledge elements that are stale, and/or knowledge elements that have low ratings. In some embodiments, the seeded profile information of the user may include one or more of a job junction of the user, a role of the user, an expertise of the user, an age of the ...",
+  "date_published": "20171026",
+  "title": "Knowledge To User Mapping in Knowledge Automation System",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 167887,
+    "optimized_size": 3915,
+    "reduction_percent": 97.67
+  }
+}

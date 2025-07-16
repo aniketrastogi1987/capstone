@@ -1,0 +1,38 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15041000",
+  "date_published": "20160609",
+  "date_produced": "20160525",
+  "title": "Touch Sensing Device and Method for Driving the Same",
+  "filing_date": "20160210",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Sungchul",
+      "inventor_city": "Paju-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Junghan",
+      "inventor_city": "Paju-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F3041",
+    "G06F3044"
+  ],
+  "main_ipcr_label": "G06F3041",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Embodiments of the invention provide a touch sensing device and a method for driving the same capable of reducing a noise of a touch screen. In one aspect, there is a touch sensing device including a touch screen coupled with a display panel including data lines, gate lines crossing the data lines, and pixels arranged in a matrix form, and a touch sensing circuit configured to supply a driving signal to lines of the touch screen and sense a touch input. The touch sensing circuit detects an optimum sensing time, in which a voltage change of the gate lines are maintained within a previously determined allowable range, in a touch screen drive period in which data is not written to the pixels of the display panel. The touch sensing circuit supplies the driving signal to the lines of the touch screen only in the optimum sensing time of the touch screen drive period. The touch sensing device further includes a controller configured to time-divide one frame period into a display panel drive period and the touch screen drive period and control a display panel driving circuit and the touch sensing circuit. The display panel driving circuit writes data to the pixels of the display panel during the display panel drive period. The touch sensing circuit counts sync signals received from the controller and detects the optimum sensing time based on a count value. Alternatively, the touch sensing circuit detects the voltage of the gate lines and detects the optimum sensing time based on changes in the detected voltage. The optimum sensing time ranges from a time, at which a first transition period has passed from a start time point of the touch screen drive period, to a time which is advanced from an end time point of the touch screen drive period by a second transition period. A ripple of a voltage measured in the gate lines during the optimum sensing time is less than a ripple of a voltage measured in the gate lines during the first and second ...",
+  "patent_number": "9563310",
+  "abstract": "A touch sensing device includes a touch screen coupled with a display panel including data lines, gate lines crossing the data lines, and pixels arranged in a matrix form, and a touch sensing circuit which supplies a driving signal to lines of the touch screen and senses a touch input. The touch sensing circuit detects an optimum sensing time, in which changes in a voltage change of the gate lines are maintained within a previously determined allowable range, in a touch screen drive period in which data is not written to the pixels of the display panel. The touch sensing circuit supplies the driving signal to the lines of the touch screen only in the optimum sensing time of the touch screen drive period.",
+  "publication_number": "US20160162110A1-20160609",
+  "_processing_info": {
+    "original_size": 59808,
+    "optimized_size": 3408,
+    "reduction_percent": 94.3
+  }
+}

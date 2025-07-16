@@ -1,0 +1,38 @@
+{
+  "date_produced": "20171219",
+  "publication_number": "US20180005115A1-20180104",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15196350",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gokmen",
+      "inventor_name_first": "Tayfun",
+      "inventor_city": "Briarcliff Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vlasov",
+      "inventor_name_first": "Yurii A.",
+      "inventor_city": "Katonah",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A neural network system comprises a plurality of neurons, comprising a layer of input neurons, one or more layers of hidden neurons, and a layer of output neurons. The system further comprises a plurality of arrays of weights, each array of weights being configured to receive a plurality of discrete data points from a first layer of neurons and to produce a corresponding discrete data point to a second layer of neurons during a feed forward operation, each array of weights comprising a plurality of resistive processing units (RPU) having respective settable resistances. The system includes a neuron control system configured to control an operation mode of each of the plurality of neurons, wherein the operation mode comprises: a feed forward mode, a back propagation mode, and a weight update mode.",
+  "filing_date": "20160629",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the present invention, a neural network system comprises a plurality of neurons, comprising a layer of input neurons, one or more layers of hidden neurons, and a layer of output neurons. The system further comprises a plurality of arrays of weights, each array of weights being configured to receive a plurality of discrete data points from a first layer of neurons and to produce a corresponding discrete data point to a second layer of neurons during a feed forward operation, each array of weights comprising a plurality of resistive processing units (RPU) having respective settable resistances. The system includes a neuron control system configured to control an operation mode of each of the plurality of neurons, wherein the operation mode comprises: a feed forward mode, a back propagation mode, and a weight update mode. According to another embodiment of the present invention, a method of performing neural network training comprises initializing a neural network hardware having a plurality of neurons, a plurality of arrays of weights, and a neuron control system, wherein the plurality of neurons comprises a layer of input neurons, one or more layers of hidden neurons, and a layer of output neurons, and each array of weights being configured to receive a plurality of discrete data points from a first layer of neurons and to produce a corresponding discrete data point to a second layer of neurons during a feed forward operation, each array of weights comprising a plurality of resistive processing units (RPU) having respective settable resistances. At each of the plurality of neurons, a sequence of discrete data points is received. One discrete data point is received during each of a plurality of operation cycles, wherein the discrete data point comprises an input current from an input of the neuron, and an output voltage pulse at an output of the neuron. The neuron control system sends a control signal to each of the plu...",
+  "date_published": "20180104",
+  "title": "ACCELERATED NEURAL NETWORK TRAINING USING A PIPELINED RESISTIVE PROCESSING UNIT ARCHITECTURE",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 66540,
+    "optimized_size": 3553,
+    "reduction_percent": 94.66
+  }
+}

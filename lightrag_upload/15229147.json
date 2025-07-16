@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15229147",
+  "date_published": "20170302",
+  "date_produced": "20170214",
+  "title": "CONTROL APPARATUS, METHOD OF CONTROLLING IMAGE SENSING DEVICE, AND NON-TRANSITORY COMPUTER-READABLE STORAGE MEDIUM",
+  "filing_date": "20160805",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kitagawa",
+      "inventor_name_first": "Eiichiro",
+      "inventor_city": "Kawasaki-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "H04N5232",
+    "G06K900"
+  ],
+  "main_ipcr_label": "H04N5232",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention was conceived in view of these kinds of problems, and provides a technique for reducing a problem of not being able to detect a tracking target and ceasing to able to track it due to the size of the tracking target on a sensed video becoming too small. According to the first aspect of the present invention, there is provided a control apparatus that controls an image sensing device for tracking and sensing a tracking target, the apparatus comprising: a recording unit configured to record a size of a tracking target that appears in a sensed video that is sensed by the image sensing device; and a search unit configured to, when from a state in which the tracking target can be detected from the sensed video, a state in which the tracking target cannot be detected is entered, obtain a predicted size of the tracking target in the sensed video based on the size recorded by the recording unit for a case of zooming out at a predetermined scaling factor, and if the predicted size is larger than a predetermined size, zoom out by the predetermined scaling factor, and then search for the tracking target in the sensed video after the zoom out. According to the second aspect of the present invention, there is provided a method of controlling an image sensing device for tracking and sensing a tracking target, the method comprising: recording a size of a tracking target that appears in a sensed video that is sensed by the image sensing device; when from a state in which the tracking target can be detected from the sensed video, a state in which the tracking target cannot be detected is entered, obtaining a predicted size of the tracking target in the sensed video based on the recorded size for a case of zooming out at a predetermined scaling factor, and if the predicted size is larger than a predetermined size, zooming out by the predetermined scaling factor, and then searching for the tracking target in the sensed video aft...",
+  "patent_number": "None",
+  "abstract": "A recording unit records a size of a tracking target that appears in a sensed video that is sensed by the image sensing device. A search unit, when from a state in which the tracking target can be detected from the sensed video, a state in which it cannot be detected is entered, obtains a predicted size of the tracking target in the sensed video based on the size recorded by the recording unit for a case of zooming out at a predetermined scaling factor. Then if the predicted size is larger than a predetermined size, the search unit zooms out by the predetermined scaling factor, and then searches for the tracking target in the sensed video after the zoom out.",
+  "publication_number": "US20170064180A1-20170302",
+  "_processing_info": {
+    "original_size": 60286,
+    "optimized_size": 3287,
+    "reduction_percent": 94.55
+  }
+}

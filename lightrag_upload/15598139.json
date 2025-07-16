@@ -1,0 +1,60 @@
+{
+  "patent_number": "None",
+  "application_number": "15598139",
+  "date_published": "20171123",
+  "date_produced": "20171108",
+  "filing_date": "20170517",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Described herein are systems and methods for providing a natural language comprehension system that employs a two-stage process for machine comprehension of text. The first stage indicates words in one or more text passages that potentially answer a question. The first stage outputs a set of candidate answers for the question, along with a first probability of correctness for each candidate answer. The second stage forms one or more hypotheses by inserting each candidate answer into the question and determines whether a sematic relationship exists between each hypothesis and each sentence in the text. The second processing circuitry generates a second probability of correctness for each candidate answer and combines the first probability with the second probability to produce a score that is used to rank the candidate answers. The candidate answer with the highest score is selected as a predicted answer.",
+  "publication_number": "US20170337479A1-20171123",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments disclosed herein provide a natural language comprehension system that employs cascaded first and second processing circuitries. The first processing circuitry analyzes the text and indicates one or more entities that potentially answer a question. The first processing circuitry outputs a set of candidate answers for the question, along with a first probability of correctness for each candidate answer. The second processing circuitry forms one or more hypotheses by inserting each candidate answer into the question and determines whether a sematic relationship exists between each hypothesis and each sentence in the text. The semantic comparisons implemented by the second processing circuitry can be based on the concept of recognizing textual entailment, also known as natural language interference. Based on the comparisons, the second processing circuitry generates a second or revised probability of correctness for each candidate answer and combines the first probability with the second probability to produce a score that is used to rank the candidate answers. The candidate answer with the highest score is selected as a predicted answer. In one aspect, a system includes a first processing circuitry, a second processing circuitry, and one or more storage devices that store computer executable instructions that when executed by the first and the second processing circuitries, perform a method. The method includes processing, by the first processing circuitry, a text and a question relating to the text to produce a set of candidate answers to the question. Each candidate answer in the set of candidate answers is included in the text. The method further includes processing, by the second processing circuitry, the text and a set of hypotheses by forming a hypothesis by inserting each candidate answer into the question, where each hypothesis is included in the set of hypotheses, and determining a similarity between the text and each hypothesis....",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N304",
+    "G06F1727"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Trischler",
+      "inventor_name_first": "Adam",
+      "inventor_city": "Montreal",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Bachman",
+      "inventor_name_first": "Philip",
+      "inventor_city": "Montreal",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Yuan",
+      "inventor_name_first": "Xingdi",
+      "inventor_city": "Westmount",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Sordoni",
+      "inventor_name_first": "Alessandro",
+      "inventor_city": "Montreal",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Ye",
+      "inventor_name_first": "Zheng",
+      "inventor_city": "North York",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "MACHINE COMPREHENSION OF UNSTRUCTURED TEXT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 57612,
+    "optimized_size": 4047,
+    "reduction_percent": 92.98
+  }
+}

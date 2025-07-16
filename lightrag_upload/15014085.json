@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170719",
+  "publication_number": "US20170220952A1-20170803",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15014085",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Baughman",
+      "inventor_name_first": "Aaron K.",
+      "inventor_city": "Silver Spring",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Diamanti",
+      "inventor_name_first": "Gary F.",
+      "inventor_city": "Wake Forest",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Marzorati",
+      "inventor_name_first": "Mauro",
+      "inventor_city": "Lutz",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method and systems for intelligent selection and classification of oracles used to train a predictive cognitive system. A computerized oracle-selection system identifies candidate “oracle” experts in a field of endeavor known as a domain. The system retrieves contemporaneous natural-language “artifact” documents that each refer to or were produced by an oracle, and contains information from which may be predicted a future event related to the domain. The system assigns each oracle a confidence factor that identifies the accuracy of that oracle's predictions, and ranks the artifacts by how closely each matches the domain and by the confidence factors of its associated oracles. The artifacts are merged into the corpus, where the rankings indicate which artifacts may most reliably be used by the cognitive system to formulate predictive responses to user queries. This procedure is repeated each time the system receives user feedback or an updated set of artifacts.",
+  "filing_date": "20160203",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A first embodiment of the present invention provides an oracle-selection system comprising a processor, a memory coupled to the processor, and a computer-readable hardware storage device coupled to the processor, the storage device containing program code configured to be run by the processor via the memory to implement a method for intelligent selection and classification of oracles, the method comprising: the selection system identifying a set of candidate oracles, where each oracle of the set of candidate oracles is a human or computerized expert in a field of endeavor identified by a domain of a corpus of a cognitive system; the selection system retrieving a set of artifacts from remote sources, where each artifact of the set of artifacts is associated with an oracle of the set of oracles, and where the retrieving is performed by a set of concurrent procedures that retrieve artifacts at a substantially similar time; the selection system associating a subset of the retrieved artifacts with the domain, where the domain identifies a topic of each artifact of the subset; the selection system assigning a confidence factor of a set of confidence factors to each oracle of the set of oracles, where a higher confidence factor assigned to a first oracle identifies a greater presumed degree of reliability of one or more predictions made by the first oracle within the field of endeavor; the selection system ranking the subset of artifacts, where a higher-ranking artifact of the subset is deemed to have more significance to the cognitive system than does a lower-ranking artifact of the subset; and the selection system merging the artifacts into the corpus. A second embodiment of the present invention provides a method for intelligent selection and classification of oracles, the method comprising: a computerized oracle-selection system identifying a set of candidate oracles, where each oracle of the set of candidate oracles is a human or computerized ...",
+  "date_published": "20170803",
+  "title": "INTELLIGENT SELECTION AND CLASSIFICATION OF ORACLES FOR TRAINING A CORPUS OF A PREDICTIVE COGNITIVE SYSTEM",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 78639,
+    "optimized_size": 3909,
+    "reduction_percent": 95.03
+  }
+}

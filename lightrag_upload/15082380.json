@@ -1,0 +1,52 @@
+{
+  "date_produced": "20160706",
+  "publication_number": "US20160210557A1-20160721",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15082380",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nelson",
+      "inventor_name_first": "Daniel J.",
+      "inventor_city": "Tampa",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mello",
+      "inventor_name_first": "Brian Scott",
+      "inventor_city": "Oldsmar",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zio",
+      "inventor_name_first": "Luc",
+      "inventor_city": "New Port Richey",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Croy",
+      "inventor_name_first": "David James",
+      "inventor_city": "Palm Harbor",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods and apparatus for determining whether a media presentation device is in an on state or an off state are disclosed. A disclosed example method comprises determining contribution values from at least one of a signal measured from a sensing device or an output signal accessed from the presentation device, wherein the contribution values are indicative of a state of a presentation device. Summing, via a logic circuit, a first plurality of the contribution values corresponding to a first measurement cycle to generate a first intermediate fuzzy score for the first measurement cycle. Storing the first intermediate fuzzy score in a buffer including a plurality of intermediate fuzzy scores corresponding to respective measurement cycles. Combining, via the logic circuit, the intermediate fuzzy scores corresponding to a first time period to form a final fuzzy score. When the final fuzzy score satisfies a threshold, setting the state of the presentation device as on and enabling crediting ...",
+  "filing_date": "20160328",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram of an example media monitoring system to detect an on state or an off state of a media presentation device. FIG. 2 is a block diagram of an example on/off identifier implemented in an example back office as illustrated in FIG. 1 . FIG. 3 is a more detailed illustration of the example on/off identifier of FIGS. 1 and 2 . FIG. 4A is a detailed illustration of an example fuzzy logic engine that may be used to implement the example on/off identifier of FIG. 3 FIG. 4B is a representation of data flow through an example buffer during operation of an example fuzzy contribution analyzer implemented in the example fuzzy logic engine of FIG. 4A . FIG. 5 is a flow diagram representative of example machine readable instructions that may be executed to implement the example on/off identifier of FIGS. 1-3 and/or 4 . FIG. 6 is a flow diagram representative of example machine readable instructions that may be executed to implement an example standard deviation determiner for inclusion in the example on/off identifier of FIG. 3 . FIG. 7 is a flow diagram representative of example machine readable instructions that may be executed to implement an example integrated magnitude determiner for inclusion in the example on/off identifier of FIG. 3 . FIG. 8 is a flow diagram representative of example machine readable instructions that may be executed to implement an example gain evaluator for inclusion in the example fuzzy logic engine of FIG. 4A . FIG. 9 is a flow diagram representative of example machine readable instructions that may be executed to implement an example remote control hint evaluator for inclusion in the example fuzzy logic engine of FIG. 4A . FIG. 10 is a flow diagram representative of example machine readable instructions that may be executed to implement an example magnitude standard deviation evaluator for inclusion in the example fuzzy logic engine of FIG. 4A . FIG. 11 is a flow diagram representat...",
+  "date_published": "20160721",
+  "title": "Methods and Apparatus for Determining Whether a Media Presentation Device is in an On State or an Off State",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F702"
+  ],
+  "_processing_info": {
+    "original_size": 135392,
+    "optimized_size": 4057,
+    "reduction_percent": 97.0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15045556",
+  "date_published": "20160609",
+  "date_produced": "20160525",
+  "title": "MICROSCOPE SLIDE COORDINATE SYSTEM REGISTRATION",
+  "filing_date": "20160217",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zahniser",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Jamaica Plain",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zahniser",
+      "inventor_name_first": "Russell",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K900",
+    "G06T700"
+  ],
+  "main_ipcr_label": "G06K900",
+  "summary": "<SOH> SUMMARY <EOH>Systems, methods and computer program products are described that use cells of a biological sample deposited on a substrate to determine a coordinate transformation between stage coordinates of two or more imaging stations. A slide is loaded onto a first imaging station. The first imaging station acquires images of cells and selects certain images to use as reference images. A computer stores the reference images along with the stage coordinates at which the first imaging station acquired the reference images. The slide is then loaded onto a second imaging station that can acquire images at a higher magnification than the first imaging station. The second imaging station acquires a second image at the stage coordinates where the first imaging station acquired the reference image. Thus, if the stages of the two imaging stations were perfectly matched, the second image would be centered around the same cells that were centered in the reference image. More typically, there is a slight mismatch in the coordinate systems of the two stages, and the second image is centered around cells that are found somewhere off-center in the reference image. Because the magnification of the reference image is known, the stage coordinates of those cells on the first station can be determined. Thus, the stage coordinates of those cells on the second system are matched to their stage coordinates on the first system. This process is repeated for each of the reference images. The pairs of corresponding coordinates determined in this way may be used to calculate a mathematical transformation that will convert any locations on the first station—the locations of cells of interest, for example—into the correct locations on the second station. Methods are also presented for selecting the reference images from a larger set of possible candidates in order to minimize certain error sources. This includes identifying reference images that do not have large patches devoid of cellul...",
+  "patent_number": "None",
+  "abstract": "Systems, methods and computer program products for mapping coordinates of various imaging stations are described. In some implementations, cells (e.g., red blood cells) in a biological specimen can be used for determining the mapping information between the imaging stations. The use of cells allows a target image (e.g., an image of a sub-region of cells in the biological specimen) taken by one imaging station to be pattern-matched to a reference image (e.g., an image showing a larger region of cells in the biological specimen that also includes the sub-region) taken by another imaging station. Once the target image is matched to the reference image, point by point correspondence (and therefore coordinates) between the target image and the reference image can be established for computing the coordinate transformation to map the imaging stations.",
+  "publication_number": "US20160162726A1-20160609",
+  "_processing_info": {
+    "original_size": 77596,
+    "optimized_size": 3567,
+    "reduction_percent": 95.4
+  }
+}

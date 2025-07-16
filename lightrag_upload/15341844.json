@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15341844",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "title": "SYSTEMS AND METHODS FOR PROVIDING FORECASTS INCORPORATING SEASONALITY",
+  "filing_date": "20161102",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Taylor",
+      "inventor_name_first": "Sean Jude",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Letham",
+      "inventor_name_first": "Thomas Benjamin",
+      "inventor_city": "Redwood City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Park",
+      "inventor_name_first": "Sanghyeon",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DeLucia",
+      "inventor_name_first": "Stephen M.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1750",
+    "G06N9900"
+  ],
+  "main_ipcr_label": "G06F1750",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure can include systems, methods, and non-transitory computer readable media configured to obtain a plurality of change points that are each indicative of a potential change in a curve relating to a metric associated with a system. A prediction model for providing forecasts relating to the metric can be generated. A seasonality model for predicting seasonality associated with the metric can be generated. A combined forecast model can be generated based on the prediction model and the seasonality model. In some embodiments, the plurality of change points are provided as dates. In certain embodiments, the plurality of change points are determined based on a machine learning model. In an embodiment, the prediction model is a machine learning model, and the machine learning model is trained based on training data relating to the metric. In some embodiments, the plurality of change points indicate one or more segments in the training data for training the machine learning model. In certain embodiments, the seasonality model is a machine learning model, and the machine learning model is trained based on training data relating to seasonality associated with the metric. In an embodiment, a plurality of holidays and events that are each indicative of a potential change in the curve relating to the metric are obtained. In some embodiments, the growth model and the seasonality model are iteratively fit based on historical data to generate the combined forecast model. In certain embodiments, capacity data relating to one or more components included in the prediction model is obtained, wherein the forecasts relating to the metric are determined based on the one or more components. In an embodiment, the metric relates to a growth rate associated with growth of users of the system, and the system is a social networking system. It should be appreciated that many other features, applications, embodiments, and/or variations...",
+  "patent_number": "None",
+  "abstract": "Systems, methods, and non-transitory computer readable media can obtain a plurality of change points that are each indicative of a potential change in a curve relating to a metric associated with a system. A prediction model for providing forecasts relating to the metric can be generated. A seasonality model for predicting seasonality associated with the metric can be generated. A combined forecast model can be generated based on the prediction model and the seasonality model.",
+  "publication_number": "US20180121577A1-20180503",
+  "_processing_info": {
+    "original_size": 88456,
+    "optimized_size": 3521,
+    "reduction_percent": 96.02
+  }
+}

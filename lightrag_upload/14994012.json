@@ -1,0 +1,68 @@
+{
+  "decision": "PENDING",
+  "application_number": "14994012",
+  "date_published": "20160728",
+  "date_produced": "20160713",
+  "title": "COMMAND INPUT METHOD AND DISPLAY SYSTEM",
+  "filing_date": "20160112",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MOON",
+      "inventor_name_first": "Gyeong-ub",
+      "inventor_city": "Cheonan-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Ga-na",
+      "inventor_city": "Icheon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "PARK",
+      "inventor_name_first": "Sangho",
+      "inventor_city": "Seongnam-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "JEONG",
+      "inventor_name_first": "Jae-won",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "JEONG",
+      "inventor_name_first": "Ji-woong",
+      "inventor_city": "Yongin-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Kyung-uk",
+      "inventor_city": "Gunpo-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G09G500",
+    "G09G502",
+    "G06T120",
+    "G09G536"
+  ],
+  "main_ipcr_label": "G09G500",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure provides a display system having a less number of transmission lines and a content protection function and a command input scheme of a display device. Embodiments of the present disclosure provide a command input scheme including: converting an original pixel data into command embedded pixel data based on a command to control a device, the command being embedded in the command embedded pixel data; transmitting the command embedded pixel data from a host to the device; extracting the command from the command embedded pixel data; and controlling the device according to the extracted command. In some embodiments, the converting of the original pixel data into the command embedded pixel data may include generating short pixel data and long pixel data of the command embedded pixel data based on the command. In other embodiments, the short pixel data may correspond to one of binary numbers 0 and 1 of the command, and the long pixel data may correspond to the other one of the binary numbers 0 and 1 of the command. In still other embodiments, the short pixel data may be configured with a first number of red, green, and blue sub pixel data and an interval; the long pixel data may be configured with a second number of red, green, and blue sub pixel data and the interval; and the first number is a natural number, and the second number is a natural number greater than the first number. In even other embodiments, the short and long pixel data comprises short and log sub pixel data, respectively; and a first period of each of the long sub pixel data is longer than a second period of each of the short sub pixel data. In yet other embodiments, the short pixel data may include a first interval; the long pixel data may include a second interval; and the second interval longer than the first interval. In further embodiments, the converting of the original pixel data into the command embedded pixel data may include: selecting sub seeds correspo...",
+  "patent_number": "None",
+  "abstract": "A command input method includes: converting an original pixel data into command embedded pixel data based on a command to control a device, the command being embedded in the command embedded pixel data; transmitting the command embedded pixel data from a host to the device; extracting the command from the command embedded pixel data; and controlling the device according to the extracted command.",
+  "publication_number": "US20160217762A1-20160728",
+  "_processing_info": {
+    "original_size": 56802,
+    "optimized_size": 3676,
+    "reduction_percent": 93.53
+  }
+}

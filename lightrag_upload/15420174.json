@@ -1,0 +1,38 @@
+{
+  "patent_number": "9928468",
+  "application_number": "15420174",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Various embodiments train a prediction model for predicting a label to be allocated to a prediction target explanatory variable set. In one embodiment, one or more sets of training data are acquired. Each of the one or more sets of training data includes at least one set of explanatory variables and a label allocated to the at least one explanatory variable set. A plurality of explanatory variable subsets is extracted from the at least one set of explanatory variables. A prediction model is trained utilizing the training data. The plurality of explanatory variable subsets is reflected on a label predicted by the prediction model to be allocated to a prediction target explanatory variable set with each of the plurality of explanatory variable subsets weighted respectively.",
+  "publication_number": "US20170140303A1-20170518",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>One or more embodiments provide a prediction model capable of more accurately predicting, from a data set of, for example, each of sections such as moving images of a road recorded by a drive recorder, a label such as an MCI corresponding to the data set. In one embodiment, a method for training a prediction model for predicting a label to be allocated to a prediction target explanatory variable set is disclosed. The method comprises acquiring one or more sets of training data. Each of the one or more sets of training data comprises at least one set of explanatory variables and a label allocated to the at least one explanatory variable set. A plurality of explanatory variable subsets is extracted from the at least one set of explanatory variables. A prediction model is trained utilizing the training data, where the plurality of explanatory variable subsets is reflected on a label predicted by the prediction model to be allocated to a prediction target explanatory variable set with each of the plurality of explanatory variable subsets weighted respectively. In another embodiment, an information processing apparatus for training a prediction model for predicting a label to be allocated to a prediction target explanatory variable set is disclosed. The information processing apparatus comprises a memory and a processor communicatively coupled to the memory. The information processing apparatus further comprises an acquiring unit, an extracting unit, and a training processing unit. The acquiring unit is to acquire one or more sets of training data. Each of the one or more sets of training data comprises at least one set of explanatory variables and a label allocated to the at least one explanatory variable set. The extracting unit is to extract a plurality of explanatory variable subsets from the at least one set of explanatory variables. A training processing unit is to train a prediction model, where the prediction model is trained utilizing th...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Katsuki",
+      "inventor_name_first": "Takayuki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Shinohara",
+      "inventor_name_first": "Yuma",
+      "inventor_city": "Sagamihara",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION PROCESSING APPARATUS, PROGRAM, AND INFORMATION PROCESSING METHOD",
+  "decision": "ACCEPTED",
+  "_processing_info": {
+    "original_size": 61409,
+    "optimized_size": 3508,
+    "reduction_percent": 94.29
+  }
+}

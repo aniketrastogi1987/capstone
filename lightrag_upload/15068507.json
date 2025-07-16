@@ -1,0 +1,32 @@
+{
+  "date_produced": "20160831",
+  "publication_number": "US20160267397A1-20160915",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15068507",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Carlsson",
+      "inventor_name_first": "Gunnar",
+      "inventor_city": "Stanford",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method comprises receiving a network of a plurality of nodes and a plurality of edges, each of the nodes comprising members representative of at least one subset of training data points, each of the edges connecting nodes that share at least one data point, grouping the data points into a plurality of groups, each data point being a member of at least one group, creating a first transformation data set, the first transformation data set including the training data set as well as a plurality of feature subsets associated with at least one group, values of a particular data point for a particular feature subset for a particular group being based on values of the particular data point if the particular data point is a member of the particular group, and applying a machine learning model to the first transformation data set to generate a prediction model.",
+  "filing_date": "20160311",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION(S) <EOH>Systems and methods for predicting outcomes using a prediction learning model is described herein. In one example, a non-transitory computer readable medium includes executable instructions. The instructions are executable by a processor to perform a method. The method comprises receiving a network of a plurality of nodes and a plurality of edges, each of the nodes of the plurality of nodes comprising members representative of at least one subset of training data points, each of the edges of the plurality of edges connecting nodes that share at least one data point of the training data points, the training data set including rows and columns, each row defining a data point of the training data set and each column defining a feature, the training data set including an initial number of columns, each column including values associated with a feature of a plurality of features, grouping the data points of the training data set into a plurality of groups, each group of the plurality of groups including a different subset of data points of the training data set, each data point of the training data set being a member of at least one group of the plurality of groups, creating a first transformation data set, the first transformation data set including the training data set as well as a plurality of feature subsets, each of the plurality of feature subsets being associated with at least one group of the plurality of groups, values of a particular data point for a particular feature subset for a particular group being based on values of the particular data point in the training data set if the particular data point is a member of the particular group, and applying a machine learning model to the first transformation data set to generate a prediction model. The method may further comprise receiving an analysis data set, grouping data points of the analysis data set into one or more groups of the plurality of groups, creating a second tr...",
+  "date_published": "20160915",
+  "title": "SYSTEMS AND METHODS FOR PREDICTING OUTCOMES USING A PREDICTION LEARNING MODEL",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 263364,
+    "optimized_size": 3457,
+    "reduction_percent": 98.69
+  }
+}

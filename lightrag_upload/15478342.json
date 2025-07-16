@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15478342",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "filing_date": "20170404",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Provided are an apparatus and method for compressing a deep neural network (DNN). The DNN compression method includes receiving a matrix of a hidden layer or an output layer of a DNN, calculating a matrix representing a nonlinear structure of the hidden layer or the output layer, and decomposing the matrix of the hidden layer or the output layer using a constraint imposed by the matrix representing the nonlinear structure.",
+  "publication_number": "US20180165578A1-20180614",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention is directed to providing an apparatus and method for compressing a deep neural network (DNN) which make it possible to reduce the amount of calculation while maintaining a nonlinear structure of the DNN for speech recognition. The present invention is not limited to the aforementioned object, and other objects not mentioned above may be clearly understood by those of ordinary skill in the art from the following descriptions. According to an aspect of the present invention, there is provided a DNN compression method, the method including: receiving a matrix of a hidden layer or an output layer of a DNN; calculating a matrix representing a nonlinear structure of the hidden layer or the output layer; and decomposing the matrix of the hidden layer or the output layer using a constraint imposed by the matrix representing the nonlinear structure. According to another aspect of the present invention, there is provided a DNN compression apparatus, the apparatus including: an input portion configured to receive a matrix of a hidden layer or an output layer of a DNN; a calculator configured to calculate a matrix representing a nonlinear structure of the hidden layer or the output layer; and a decomposer configured to decompose the matrix of the hidden layer or the output layer using a constraint imposed by the matrix representing the nonlinear structure.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1716",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHUNG",
+      "inventor_name_first": "Hoon",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "PARK",
+      "inventor_name_first": "Jeon Gue",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Sung Joo",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Yun Keun",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "DEEP NEURAL NETWORK COMPRESSION APPARATUS AND METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 25556,
+    "optimized_size": 2831,
+    "reduction_percent": 88.92
+  }
+}

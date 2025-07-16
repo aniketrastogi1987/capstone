@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180509",
+  "publication_number": "US20180144266A1-20180524",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15358947",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Osogami",
+      "inventor_name_first": "Takayuki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "An apparatus, a computer readable medium, and a learning method for learning a model corresponding to time-series input data, including acquiring the time-series input data, which is a time series of input data including a plurality of input values, propagating, to a plurality of nodes in a model, each of a plurality of propagation values obtained by weighting each input value at a plurality of time points before one time point according to passage of time points, in association with the plurality of input values at the one time point, calculating a node value of a first node among the plurality of nodes by using each propagated value propagated to the first node, and updating a weight parameter used to calculate each propagation value propagated to the first node, by using a corresponding input value and a calculated error of the node value at the one time point.",
+  "filing_date": "20161122",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the present invention, a learning method for learning a model corresponding to time-series input data is provided, the method comprising acquiring the time-series input data, which is a time series of input data including a plurality of input values, propagating, to a plurality of nodes in a model, each of a plurality of propagation values obtained by weighting each input value at a plurality of time points before one time point according to passage of time points, in association with the plurality of input values at the one time point, calculating a node value of a first node among the plurality of nodes by using each propagated value propagated to the first node, and updating a weight parameter used to calculate each propagation value propagated to the first node, by using a corresponding input value and a calculated error of the node value at the one time point. Also provided are an apparatus and a computer readable storage medium. According to another embodiment of the present invention, a learning method using a learned model corresponding to time-series input data of a learning target is provided, the method comprising acquiring time-series input data of an investigation target, which is a time series of input data including a plurality of input values, propagating, to a plurality of nodes in the model, each of a plurality of propagation values obtained by weighting each input value at a plurality of time points before one time point according to passage of time points, in association with the plurality of input values at the one time point; calculating a node value of a first node among the plurality of nodes by using each propagated value propagated to the first node, and detecting peculiarity of an input value corresponding to the first node and input at the one time point, by using the node value of the first node and a variance parameter for indicating a variance in a probability distribution of input value...",
+  "date_published": "20180524",
+  "title": "LEARNING APPARATUS AND METHOD FOR LEARNING A MODEL CORRESPONDING TO REAL NUMBER TIME-SERIES INPUT DATA",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 117065,
+    "optimized_size": 3477,
+    "reduction_percent": 97.03
+  }
+}

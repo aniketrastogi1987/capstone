@@ -1,0 +1,54 @@
+{
+  "date_produced": "20161019",
+  "publication_number": "US20160321564A1-20161103",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15211422",
+  "inventor_list": [
+    {
+      "inventor_name_last": "IMAHARA",
+      "inventor_name_first": "Shuichiro",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "YANO",
+      "inventor_name_first": "Toru",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TAKEUCHI",
+      "inventor_name_first": "Ryosuke",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SAKAMOTO",
+      "inventor_name_first": "Yoshiyuki",
+      "inventor_city": "Toda",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "An operational parameter value learning device according to one embodiment learns an operational parameter value of a device for each of users. A calculator is configured to calculate a duration time during which the device is estimated to have operated at each operational parameter value for each of the users based on history information including at least one of: behavior states of the users, an environmental state, and an operational state of the device. A selector is configured to calculate a continuation probability feature amount according to which the device continues an operation at each operational parameter value in each duration time for each of the users on a basis of the duration time calculated by calculator and selects the operational parameter value based on the calculated continuation probability feature amount.",
+  "filing_date": "20160715",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram showing an example of a functional configuration of an operational parameter learning device; FIGS. 2A to 2C are diagrams showing an example of history information according to an embodiment; FIG. 3 is a diagram showing an example of applied conditions according to the embodiment; FIG. 4 is a diagram showing an example of a processing-target operational parameter value according to the embodiment; FIG. 5 is a diagram explaining a start determination according to the embodiment; FIG. 6 is a diagram explaining the start determination according to the embodiment; FIG. 7 is a diagram showing an example of end conditions according to the embodiment; FIG. 8 is a diagram showing an example of duration time information according to the embodiment; FIG. 9 is a diagram showing an example of a continuation probability feature amount according to the embodiment; FIG. 10 is a diagram showing an example of select conditions according to the embodiment; FIG. 11 is a diagram showing an example of configuration of an operational parameter value learning device according to the embodiment; FIG. 12 is a flowchart showing a learning process of an operational parameter value learning device according to the embodiment; FIG. 13 is a block diagram showing an example of functional configuration of an operational parameter value learning device in FIG. 1 , comprising an operational parameter value notifier; FIG. 14 is a block diagram showing an example of a functional configuration of a learning-type device controller; FIG. 15 is a diagram showing an example of a control rule according to the embodiment; FIG. 16 is a flowchart showing a learning process executed by the learning-type device controller according to the embodiment; and FIG. 17 is a flowchart showing a control process executed by the learning-type device controller according to the embodiment. detailed-description description=\"Detailed Description\" end=\"lead...",
+  "date_published": "20161103",
+  "title": "OPERATIONAL PARAMETER VALUE LEARNING DEVICE, OPERATIONAL PARAMETER VALUE LEARNING METHOD, AND CONTROLLER FOR LEARNING DEVICE",
+  "ipcr_labels": [
+    "G06N9900",
+    "G05B1302",
+    "F24F1100",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 69702,
+    "optimized_size": 3920,
+    "reduction_percent": 94.38
+  }
+}

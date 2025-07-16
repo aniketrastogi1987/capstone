@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15460850",
+  "date_published": "20170921",
+  "date_produced": "20170906",
+  "filing_date": "20170316",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A machine learning apparatus that learns laser machining condition data of a laser machining system includes: a state amount observation unit that observes a state amount of the laser machining system; an operation result acquisition unit that acquires a machined result of the laser machining system; a learning unit that receives an output from the state amount observation unit and an output from the operation result acquisition unit, and learns the laser machining condition data in association with the state amount and the machined result of the laser machining system; and a decision-making unit that outputs laser machining condition data by referring to the laser machining condition data learned by the learning unit.",
+  "publication_number": "US20170270434A1-20170921",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Machining conditions in laser machining include such oscillation conditions as an optical output, a mode, a waveform and a wavelength, and such emission conditions as a condensing optical system, a power density, a power density distribution, and assist gas. As other machining conditions, there are many parameters such as a machining speed and a machining atmosphere. In addition, even in the case of a state amount of a laser machining system that may affect a machined result of laser machining, there are a temperature of a laser oscillator, an optical system, a structural component that supports a workpiece, or the like, and a state of a cooling system that cools the laser oscillator or the like. When the workpiece is regarded as a component of the laser machining system in a broad sense, the state amount of the laser machining system includes a temperature, a surface state or the like of the workpiece changed depending on laser machining. It is therefore very difficult to determine laser machining condition data optimal for obtaining a high-quality and highly accurate machined result at a high speed with consideration given to the state amount of the laser machining system in addition to the machining conditions. Further, in the aforementioned conventional technology, the machined result is not associated with a state amount of a machining apparatus. As a result, the conventional technology has a problem that an optimal machining condition is not set when the state amount of the machining apparatus changes. In addition, for example, bead-like deposits (dross) are formed on front and rear surfaces near a cut portion of the workpiece cut by the laser machining. It is not easy to quantitatively evaluate a machined result including an amount of dross or the like. Thus, even when the machined result is fed back, it is difficult to know the optimal laser machining condition data. As described above, the laser machining conditions inclu...",
+  "ipcr_labels": [
+    "G06N9900",
+    "B23K2670",
+    "B23K2603"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Takigawa",
+      "inventor_name_first": "Hiroshi",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Ohyama",
+      "inventor_name_first": "Akinori",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "MACHINE LEARNING APPARATUS, LASER MACHINING SYSTEM AND MACHINE LEARNING METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 128850,
+    "optimized_size": 3468,
+    "reduction_percent": 97.31
+  }
+}

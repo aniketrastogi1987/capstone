@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170726",
+  "publication_number": "US20170228639A1-20170810",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15017248",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hara",
+      "inventor_name_first": "Satoshi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Katsuki",
+      "inventor_name_first": "Takayuki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Morimura",
+      "inventor_name_first": "Tetsuro",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Yamada",
+      "inventor_name_first": "Yasunori",
+      "inventor_city": "Saitama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Optimized learning settings of neural networks are efficiently determined by an apparatus including a processor and one or more computer readable mediums collectively including instructions that, when executed by the processor, cause the processor to train a first neural network with a learning setting; extract tentative weight data from the first neural network with the learning setting; calculate an evaluation value of the first neural network with the learning setting; and generate a predictive model for predicting an evaluation value of a second neural network with a new setting based on tentative weight data of the second neural network by using a relationship between the tentative weight data of the first neural network and the evaluation value of the first neural network.",
+  "filing_date": "20160205",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Therefore, it is an object of an aspect of the innovations herein to provide an apparatus capable of overcoming the above drawbacks accompanying the related art. The above and other objects can be achieved by the combinations recited in the claims According to a first aspect of the innovations herein, an apparatus includes a processor and one or more computer readable mediums collectively including instructions that, when executed by the processor, cause the processor to, train a first neural network with a learning setting; extract tentative weight data from the first neural network with the learning setting; calculate an evaluation value of the first neural network with the learning setting; and generate a predictive model for predicting an evaluation value of a second neural network with a new setting based on tentative weight data of the second neural network by using a relationship between the tentative weight data of the first neural network and the evaluation value of the first neural network. According to the first aspect of innovation, the apparatus may improve prediction accuracy of the predictive model while reducing the amount of processing, and thus may efficiently determine an optimized setting of the neural network. In addition, it is a second aspect of the innovations herein to provide the apparatus of the first aspect, wherein the calculating the evaluation value calculates the evaluation value of the first neural network with the learning setting and weight data further trained from the tentative weight data. According to the second aspect, the apparatus may improve prediction accuracy of performance of the completely trained neural network by the predictive model based on further trained first neural networks. In addition, it is a third aspect of the innovations herein to provide the apparatus of the second aspect, wherein the instructions further cause the processor to: train the second neural network with the new setting; and ...",
+  "date_published": "20170810",
+  "title": "EFFICIENT DETERMINATION OF OPTIMIZED LEARNING SETTINGS OF NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 77692,
+    "optimized_size": 3788,
+    "reduction_percent": 95.12
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15449187",
+  "date_published": "20170907",
+  "date_produced": "20170823",
+  "filing_date": "20170303",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A system for determination of a current consumer operational state operates on two sets of data respective of the current consumer. The first set of data is historical data of current consumption measured periodically. A training module of the system determines a plurality of distinct operational states of the current consumer based on the historical data. The training includes the selection of a model and then determines state parameters based on the model. Once sufficient training takes place, the system uses its classification module to classify, based on the extracted state parameters, a newly received current measurement or measurements, to a distinct operational mode of the current consumer from the plurality of distinct operational states. The training phase may be repeated periodically adding newer data to historical data, and furthermore, dropping older data as newer data is made available, and updates the states and the associated parameters.",
+  "publication_number": "US20170255864A1-20170907",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The subject matter disclosed herein is particularly pointed out and distinctly claimed in the claims at the conclusion of the specification. The foregoing and other objects, features, and advantages of the disclosed embodiments will be apparent from the following detailed description taken in conjunction with the accompanying drawings. FIG. 1 —is a time chart of current consumption versus time of a lighting circuit; FIG. 2 —is a time chart of current consumption versus time of a conveyor belt circuit; FIG. 3 —is a time chart of current consumption versus time of an air conditioning roof-top unit circuit; FIG. 4 —is a schematic diagram of a system for training and classifying operational states according to an embodiment; FIG. 5 —is a diagram of a probability density of a conveyor belt energy data; FIG. 6 —is a chart displaying time-based presentation operational states of a plurality of power consuming devices according to an embodiment; FIG. 7 —is a flowchart of the operation of a monitoring device according to an embodiment; and FIG. 8 —is a flowchart of the operation of a classification module included in the monitoring device according to an embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shamir",
+      "inventor_name_first": "Adi",
+      "inventor_city": "Kidron",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Iaroslavitz",
+      "inventor_name_first": "Gev Decktor",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Flatau",
+      "inventor_name_first": "Theodor",
+      "inventor_city": "Ein Vered",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "title": "Systems and Methods Thereof for Determination of a Device State Based on Current Consumption Monitoring and Machine Learning Thereof",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 67295,
+    "optimized_size": 3220,
+    "reduction_percent": 95.22
+  }
+}

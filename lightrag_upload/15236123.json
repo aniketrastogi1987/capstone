@@ -1,0 +1,74 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15236123",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "title": "Method and system for providing diagnostic filter lists",
+  "filing_date": "20160812",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lewis",
+      "inventor_name_first": "Bradley R.",
+      "inventor_city": "Gilroy",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Merg",
+      "inventor_name_first": "Patrick S.",
+      "inventor_city": "Hollister",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brozovich",
+      "inventor_name_first": "Roy S.",
+      "inventor_city": "Campbell",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Foreman",
+      "inventor_name_first": "Jacob G.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Covington",
+      "inventor_name_first": "Joshua C.",
+      "inventor_city": "San Juan Bautista",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kelley",
+      "inventor_name_first": "Brett A.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Miskovic",
+      "inventor_name_first": "Steven E.",
+      "inventor_city": "Gilberts",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G07C508",
+    "G07C500",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G07C508",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Example embodiments are described herein with reference to the drawings. FIG. 1 is a diagram showing an example operating environment in which the example embodiments can operate. FIG. 2 is a communication flow diagram. FIG. 3 is another workflow diagram. FIG. 4 is another workflow diagram. FIG. 5 is a diagram of a vehicle showing example placement of a display device. FIG. 6 is a block diagram of an example server. FIG. 7 is a diagram showing example mapping data in accordance with the example embodiments. FIG. 8 is a diagram showing example indices in accordance with the example embodiments. FIG. 9 is a diagram showing example mapping data in accordance with the example embodiments. FIG. 10 is a diagram showing example symptom-to-component mapping data in accordance with the example embodiments. FIG. 11 is a diagram showing example mapping data in accordance with the example embodiments. FIG. 12 shows an example PID index. FIG. 13 shows an example component test index. FIG. 14 shows an example functional test index. FIG. 15 shows an example reset procedure index. FIG. 16 shows an example repair order. FIG. 17 is a flowchart depicting a set of functions that can be carried out in accordance with the example embodiments. FIG. 18 and FIG. 19 is a flowchart depicting a set of functions that can be carried out in accordance with the example embodiments. FIG. 20 is a flowchart depicting a set of functions that can be carried out in accordance with the example embodiments. FIG. 21 is a flowchart depicting a set of functions that can be carried out in accordance with the example embodiments. FIG. 22 is a diagram showing example PIDs and PID values communicated by vehicles. FIG. 23 is a block diagram of an example display device. FIG. 24 shows an example display interface of a display device. FIG. 25 shows an example display interface with code-specific diagnostic lists. FIG. 26 shows an example display interface with a code-spe...",
+  "patent_number": "9934624",
+  "abstract": "An example method for outputting a PID filter list (PFL) includes: receiving RO data from one or more ROs that indicate particular vehicle identifying information (PVII), at least one symptom identifier, and a particular vehicle component; determining, symptom-to-parameter-identifier (PID) mapping data (MD) based on the received RO data and component-to-PID MD; determining, based on the set of available PIDs for the SOV and the symptom-to-PID MD, a PFL, wherein the PFL is associated with the PVII and the at least one symptom identifier, and wherein the PFL indicates a symptom-based subset of PIDs from the set of available PIDs for the SOV; receiving, a request sent over a communication network from a display device, wherein the request comprises the PVII and the at least one symptom identifier; and transmitting, over the communication network to the display device, a response to the request, the response comprising the PFL.",
+  "publication_number": "US20180047223A1-20180215",
+  "_processing_info": {
+    "original_size": 312541,
+    "optimized_size": 4415,
+    "reduction_percent": 98.59
+  }
+}

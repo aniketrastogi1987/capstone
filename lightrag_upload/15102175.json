@@ -1,0 +1,31 @@
+{
+  "date_produced": "20161214",
+  "publication_number": "US20160379122A1-20161229",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15102175",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHENG",
+      "inventor_name_first": "Zhangmin",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Obtaining statistical effectiveness data of each recommendation algorithm; obtaining traffic distribution probability of each recommendation algorithm according to weight of the effectiveness data of each recommendation algorithm in recommendation algorithms; and distributing traffic request for each recommendation algorithm according to the traffic distribution probability.",
+  "filing_date": "20160606",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In order to solve problems of manually allocating traffic for recommendation algorithms and long optimization period during the process of optimization in the prior art, embodiments of the present disclosure provide a recommendation algorithm optimization method, device and system. The technical solutions are as follows. In a first aspect, a recommendation algorithm optimization method is provided and includes: obtaining statistical effectiveness data of each recommendation algorithm, wherein the effectiveness data is to reflect a recommendation success rate of each recommendation algorithm within an identical statistical time window; obtaining a traffic distribution probability of each recommendation algorithm, according to weight of the effectiveness data of each recommendation algorithm in the effectiveness data of recommendation algorithms; and, distributing traffic requests for each recommendation algorithm according to the traffic distribution probability. In a second aspect, a recommendation algorithm optimization device is provided and includes an obtaining module, a calculation module and a distribution module, in which the obtaining module obtains statistical effectiveness data of each recommendation algorithm, wherein the effectiveness data is to reflect a recommendation success rate of each recommendation algorithm within an identical statistical time window; the calculation module obtains a traffic distribution probability of each recommendation algorithm, according to weight of the effectiveness data of each recommendation algorithm obtained by the obtaining module in the effectiveness data of recommendation algorithms; and the distribution module distributes traffic requests for each recommendation algorithm, according to the traffic distribution probability obtained by the calculation module through calculating. In a third aspect, a recommendation algorithm optimization device is provided and includes a processor, ...",
+  "date_published": "20161229",
+  "title": "RECOMMENDATION ALGORITHM OPTIMIZATION METHOD, DEVICE AND SYSTEM",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 81009,
+    "optimized_size": 2938,
+    "reduction_percent": 96.37
+  }
+}

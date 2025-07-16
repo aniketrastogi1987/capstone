@@ -1,0 +1,67 @@
+{
+  "date_produced": "20170603",
+  "publication_number": "US20170169339A1-20170615",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "14992100",
+  "inventor_list": [
+    {
+      "inventor_name_last": "DALMIA",
+      "inventor_name_first": "Anurag",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KRISHNAMURTHI",
+      "inventor_name_first": "Ganesh",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "SURESH KUMAR KOORELLA",
+      "inventor_name_first": "fnu",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "AGRAWAL",
+      "inventor_name_first": "Himanshu",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DALVI",
+      "inventor_name_first": "Vivek",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "JAIN",
+      "inventor_name_first": "Alok",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Optimized execution order results (e.g., from a Rete algorithm graph) are correlated with a production ordering selected by a user, thereby more accurately modeling the user's understanding of how productions relate to one another during execution in a rule system. An execution report shows in the user-selected order for each of the rules, whether the rule was executed, the inputs matched to partial conditions of the rule, and partial condition evaluation results. User rule management experience is also enhanced in other ways. For example, a graphical user interface permits user selection of a schema xpath, bulk selection of XML schema nodes to define vocabulary used in rules, if-then-else rules, rules with embedded SQL, marking rules as active or not, receiving multiple kinds of input from a single text input box, locally executing rules, importing rules authored elsewhere, iterating over a collection of objects, and validating rules against vocabulary data types.",
+  "filing_date": "20160111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Some embodiments are directed to the technical activity of blending optimized execution in a production rule engine with production ordering selected by a user, thereby more accurately modeling the user's understanding of how productions relate to one another during execution. Some embodiments are directed to the related technical activity of providing particular technical behaviors through a user interface of a cloud-based production rule system as part of a user experience. Other technical activities pertinent to teachings herein will also become apparent to those of skill in the art. Some embodiments provide rule engine execution reporting. A set of rules is obtained in a listing order selected by the user. Each rule includes at least one partial condition and at least one action. A rule engine builds an execution structure, e.g., a Rete algorithm network of nodes, which effectively imposes an execution order on the partial conditions. Typically, the execution order is different from the listing order. During an execution of the rules according to the execution structure, information such as the following is logged in an execution log: inputs matched to partial conditions, results of evaluating partial conditions according to matched inputs, and which rule was executing when partial conditions were evaluated. An execution report derived from the rule set and the execution log correlates the optimized execution order with the user-defined listing order. For example, the execution report may show, in the listing order and for each of the rules, whether the rule was executed and also may show for each executed rule the one or more inputs matched to the one or more partial conditions of the executed rule and also may show the results of evaluating the one or more partial conditions according to the one or more matched inputs. The correlation may be accomplished with a correlation algorithm taught herein. In some cases, one or more of the following ...",
+  "date_published": "20170615",
+  "title": "OPTIMIZED EXECUTION ORDER CORRELATION WITH PRODUCTION LISTING ORDER",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F30484",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 135678,
+    "optimized_size": 4301,
+    "reduction_percent": 96.83
+  }
+}

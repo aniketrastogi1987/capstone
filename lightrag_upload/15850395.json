@@ -1,0 +1,46 @@
+{
+  "patent_number": "nan",
+  "application_number": "15850395",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "filing_date": "20171221",
+  "main_ipcr_label": "G06N304",
+  "abstract": "An example embodiment may involve a machine learning model representing relationships between a dependent variable and a plurality of n independent variables. The dependent variable may be a function of the n independent variables, where the n independent variables are measurable characteristics of computing devices, and where the dependent variable is a predicted behavior of the computing devices. The embodiment may also involve obtaining a target value of the dependent variable, and separating the n independent variables into n−1 independent variables with fixed values and a particular independent variable with an unfixed value. The embodiment may also involve performing a partial inversion of the function to produce a value of the particular independent variable such that, when the function is applied to the value of the particular independent variable and the n−1 independent variables with fixed values, the dependent variable is within a pre-defined range of the target value.",
+  "publication_number": "US20180137411A1-20180517",
+  "summary": "<SOH> SUMMARY <EOH>A machine learning model can be used to represent relationships between input values and output values of a system. With a large enough data set that maps sets of input values to particular output values, appropriate output values can be predicted for new combinations of input values. In enterprise networking or software application hosting environments, machine learning can be used to determine relationships between the measured states of devices on a network and the likelihood that a particular event (desired or undesired) is going to occur. For instance, suppose that a web server device receives requests from client devices, and queries a separate database device to fulfill these requests. The database device may contain, as an example, certain pieces of information contained in web pages provided by the server, where the information to query is determined at least in part by the requests. Once the information is obtained by the web server device, it may construct an appropriate web page incorporating the information and transmit this web page to the client device. In order to monitor the health of the service, various key performance indicators (KPIs) related to the web server device and the database device may be measured. For sake of simplicity, two of these KPIs may be relevant in this example: requests per second received at the web server device, and processor utilization at the database device. These two KPIs may be queried periodically or from time to time—for instance, once per minute. After some number of queries have taken place (e.g., a few hundred or a few thousand), this data may be correlated with reported outages of the web service. A supervised machine learning model may be constructed that represents the relationship between requests per second at the web server device, processor utilization at the database device, and the likelihood of an outage at the web service. As an example, it may be determined that this likelihood for ...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1710",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jayaraman",
+      "inventor_name_first": "Baskar",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Thakur",
+      "inventor_name_first": "Aniruddha",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Govindarajan",
+      "inventor_name_first": "Kannan",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Machine Learning with Partial Inversion",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 110568,
+    "optimized_size": 3862,
+    "reduction_percent": 96.51
+  }
+}

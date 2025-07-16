@@ -1,0 +1,32 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15180283",
+  "date_published": "20161006",
+  "date_produced": "20160921",
+  "title": "DYNAMIC SECURE PACKET BLOCK SIZING",
+  "filing_date": "20160613",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bergman",
+      "inventor_name_first": "Artur",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "H04L2908",
+    "G06F2110"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The following description and associated figures teach the best mode of the invention. For the purpose of teaching inventive principles, some conventional aspects of the best mode can be simplified or omitted. The following claims specify the scope of the invention. Note that some aspects of the best mode cannot fall within the scope of the invention as specified by the claims. Thus, those skilled in the art will appreciate variations from the best mode that fall within the scope of the invention. Those skilled in the art will appreciate that the features described below can be combined in various ways to form multiple variations of the invention. As a result, the invention is not limited to the specific examples described below, but only by the claims and their equivalents, FIG. 1 is a block diagram illustrating a content delivery node. FIG. 2 is a flow diagram illustrating a method of operation of a content delivery node. FIG. 3 is a system diagram illustrating a communication system. FIG. 4 includes sequence diagrams illustrating data transfer. FIG. 5 is a block diagram illustrating a secure data transfer between a content server and an end user device. FIG. 6 is a sequence diagram illustrating data transfer between a content server and an end user device. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "9774629",
+  "abstract": "Disclosed herein are methods, systems, and software for handling secure transport of data between end users and content serving devices. In one example, a method of operating a content server includes identifying a content request from an end user device. The method further includes, responsive to the user request, determining a transmission control protocol window size and a secure layer protocol block size. The method also provides scaling the secure layer protocol block size to match the transmission control protocol window size, and transferring secure layer protocol packets to the end user device using the scaled secure layer protocol block size.",
+  "publication_number": "US20160294868A1-20161006",
+  "_processing_info": {
+    "original_size": 37962,
+    "optimized_size": 2609,
+    "reduction_percent": 93.13
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "decision": "PENDING",
+  "application_number": "15370071",
+  "date_published": "20170622",
+  "date_produced": "20170607",
+  "title": "AUTOMATIC SELECTION OF CALENDAR-BASED, MULTIPLE USER OPTIONS",
+  "filing_date": "20161206",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Goldstein",
+      "inventor_name_first": "Adam Julian",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q5014",
+    "G06Q5012",
+    "G06Q1002",
+    "G06F944",
+    "G06Q1010"
+  ],
+  "main_ipcr_label": "G06Q5014",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments are illustrated by way of example and not limitation in the figures of the accompanying drawings. FIG. 1 is a network diagram illustrating a network environment suitable for automatic selection of calendar-based multiple user options for presentation, according to some example embodiments. FIG. 2 is a block diagram illustrating components of a suggestion server, according to some example embodiments. FIG. 3 is a block diagram illustrating calendar data accessed by the suggestion server, according to some example embodiments. FIG. 4 is a flowchart illustrating operations of a method for automatic selection and presentation of calendar-based multiple user options, according to some example embodiments. FIG. 5 is a flowchart illustrating operations of a method for managing a charter flight option, according to some example embodiments. FIG. 6 is a block diagram illustrating components of a machine, according to some example embodiments, able to read instructions from a machine-readable medium and perform any one or more of the methodologies discussed herein. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "Systems and methods for automatically selecting calendar-based, multiple user options are provided. The system accesses calendar data that describes events a plurality of users are scheduled to attend, and extracts data for each event including location data and time data. The system groups a subset of the plurality of users into a travel group based on the location data for each user in the travel group indicating locations within a predetermined distance threshold of each other and based on the time data for each user in the travel group indicating times within a predetermined time threshold of each other. The system automatically generates an application program interface (APT) requests using the extracted data for the travel group, and transmits the API request to a service provider. The system receives and presents results which includes a group travel option indicating a block of inventory selected for the travel group.",
+  "publication_number": "US20170178259A1-20170622",
+  "_processing_info": {
+    "original_size": 94043,
+    "optimized_size": 2751,
+    "reduction_percent": 97.07
+  }
+}

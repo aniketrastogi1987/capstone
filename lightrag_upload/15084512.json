@@ -1,0 +1,33 @@
+{
+  "date_produced": "20160706",
+  "publication_number": "US20160210562A1-20160721",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15084512",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hu",
+      "inventor_name_first": "Kun",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present invention discloses a method and a system for building a human fall detection model. The method can include: collecting the speed information of one and more human fall samples in the human fall process; the speed information includes resultant acceleration, speed and time; analyzing the characteristics of the speed information, calculating and extracting low acceleration threshold value a0, resultant acceleration series within fixed time I0, high acceleration threshold value a1, curve area threshold value ΔS and low acceleration time threshold value ΔT, and building the fall detection mechanism. The system of the present invention fully takes into account the characteristics of human body's movement behaviors, so as to increase the detection rate and reduce the misjudgment rate.",
+  "filing_date": "20160330",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The main purpose of the present invention is to provide a method for building a human fall detection model, which can improve the accuracy of judgment on fall. The present invention provides a method for building a human fall detection model, which includes: collecting the speed information of one and more human fall samples in the human fall process; the speed information includes resultant acceleration, speed and time; analyzing the characteristics of the speed information, calculating and extracting low acceleration threshold value a 0 , resultant acceleration series within fixed time I 0 , high acceleration threshold value a1, curve area threshold value ΔS and low acceleration time threshold value ΔT, and building the fall detection mechanism. Preferably, the step of analyzing the characteristics of the speed information, calculating and extracting low acceleration threshold value a 0 , resultant acceleration series within fixed time I 0 , high acceleration threshold value a1, curve area threshold value ΔS and low acceleration time threshold value ΔT also includes: associating the calculated and extracted low acceleration threshold value a 0 , resultant acceleration series within fixed time I 0 , high acceleration threshold value a 1 , curve area threshold value ΔS and low acceleration time threshold value ΔT with the corresponding human body state information to the sample; the human body state information includes height, weight and/or state of movement. Preferably, after the step of building the fall detection mechanism, the following is also included: receiving the setup of human body state information, and adjusting a 0 , ΔS and/or ΔT according to the human body state information. preferably, after the method, the following is also included: incorporating the self-detected human fall samples in the fall detection mechanism, and associating the speed information of the samples with the human body state information. The pre...",
+  "date_published": "20160721",
+  "title": "METHOD AND SYSTEM FOR BUILDING A HUMAN FALL DETECTION MODEL",
+  "ipcr_labels": [
+    "G06N9900",
+    "G01P1516",
+    "G06N504",
+    "G08B2104"
+  ],
+  "_processing_info": {
+    "original_size": 55001,
+    "optimized_size": 3427,
+    "reduction_percent": 93.77
+  }
+}

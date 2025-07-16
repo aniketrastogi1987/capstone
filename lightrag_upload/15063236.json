@@ -1,0 +1,37 @@
+{
+  "date_produced": "20160908",
+  "publication_number": "US20160275416A1-20160922",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15063236",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Min",
+      "inventor_name_first": "Renqiang",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Song",
+      "inventor_name_first": "Dongjin",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods are disclosed for operating a machine, by receiving training data from one or more sensors; training a machine learning module with the training data by: partitioning a data matrix into smaller submatrices to process in parallel and optimized for each processing node; for each submatrix, performing a greedy search for rank-one solutions; using alternating direction method of multipliers (ADMM) to ensure consistency over different data blocks; and controlling one or more actuators using live data and the learned module during operation.",
+  "filing_date": "20160307",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, systems and methods are disclosed for operating a machine, by receiving training data from one or more sensors; training a machine learning module with the training data by: partitioning a data matrix into smaller submatrices to process in parallel and optimized for each processing node; for each submatrix, performing a greedy search for rank-one solutions; using alternating direction method of multipliers (ADMM) to ensure consistency over different data blocks; and controlling one or more actuators using live data and the learned module during operation. In another aspect, an efficient greedy and distributed process for nonnegative matrix factorization and completion (GD-NMFC) is disclosed. The system first partitions a large-scale data matrix into smaller submatrices in appropriate manners (e.g., random, rank-one SVD, and rank-one ADMM). Next, for each submatrix, the system searches for rank-one solutions of NMFC based upon ADMM in a greedy manner and concatenate them to form the low rank matrix factors. Finally, the solutions of each subproblem are concatenated to form the final solution and we show both the convergence of the algorithm and its error bound. Advantages of the system may include one or more of the following. The matrix inverse problem is eliminated and the engine load is only linearly proportional to the matrix rank, and the system is much faster than other methods for NMFC. The system can use a warm start technique for dividing large-scale datasets and perform distributed optimization in parallel. Therefore, it is scalable for big data analytics.",
+  "date_published": "20160922",
+  "title": "Fast Distributed Nonnegative Matrix Factorization and Completion for Big Data Analytics",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 32271,
+    "optimized_size": 2906,
+    "reduction_percent": 91.0
+  }
+}

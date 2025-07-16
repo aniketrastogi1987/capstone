@@ -1,0 +1,55 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15059467",
+  "date_published": "20170302",
+  "date_produced": "20170214",
+  "title": "MEMORY SYSTEM AND METHOD OF CONTROLLING NONVOLATILE MEMORY",
+  "filing_date": "20160303",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HARA",
+      "inventor_name_first": "Tokumasa",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TACHI",
+      "inventor_name_first": "Kiichi",
+      "inventor_city": "Kamakura",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TAMON",
+      "inventor_name_first": "Susumu",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "IRIEDA",
+      "inventor_name_first": "Shigefumi",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G11C1156",
+    "G11C1626",
+    "G11C1610",
+    "G11C1604"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a functional block diagram that illustrates the internal configuration of a memory system according to an embodiment; FIG. 2 is a diagram that illustrates an example of the configuration of a block of a memory cell array having a two-dimensional structure; FIG. 3 is a diagram that illustrates an example of a threshold voltage distribution and data coding of memory cells that are 2-bit/cell; FIG. 4 is a diagram that illustrates an E to A phenomenon; FIG. 5 is a diagram that illustrates an arrangement pattern of a threshold voltage distribution of adjacent cells for which the E to A phenomenon is degraded most; FIG. 6 is a diagram that illustrates an example of a data conversion on a lower page and an upper page; FIG. 7 is a diagram that illustrates a threshold voltage distribution before a data conversion and a threshold voltage distribution after the conversion in case of 2-bit/cell; FIG. 8 is a flowchart that illustrates an example of a data conversion process according to a first embodiment; FIG. 9 is a diagram that illustrates another example of data coding of a 2-bit/cell and an example of a data conversion on a lower page and an upper page; FIG. 10 is a diagram that illustrates an example of a threshold voltage distribution and data coding of memory cells that are 3-bit/cell; FIG. 11 is a diagram that illustrates an example of a data conversion on a lower page, a middle page, and an upper page; FIG. 12 is a diagram that illustrates a threshold voltage distribution before a data conversion and a threshold voltage distribution after the conversion in case of 3-bit/cell; FIG. 13 is a flowchart that illustrates an example of a data conversion process according to a second embodiment; FIG. 14 is a diagram that illustrates an example a threshold voltage distribution and data coding of memory cells that are 4-bit/cell; FIG. 15 is a diagram that illustrates an example of a data conversion or a lower page, an upper ...",
+  "patent_number": "9865338",
+  "abstract": "According to one embodiment, a controller executes a first data conversion for write data to be written into a first page. The first data conversion includes increasing a ratio of a number of a first value to a total number of pieces of data. The controller executes a second data conversion for write data to be written into a second page. The second data conversion includes increasing a ratio the number of the second value to the total number of pieces of data",
+  "publication_number": "US20170060482A1-20170302",
+  "_processing_info": {
+    "original_size": 75897,
+    "optimized_size": 3493,
+    "reduction_percent": 95.4
+  }
+}

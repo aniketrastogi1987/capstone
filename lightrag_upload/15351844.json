@@ -1,0 +1,32 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15351844",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "title": "INFORMATION PROCESSING APPARATUS, INFORMATION PROCESSING METHOD, AND OUTPUT SYSTEM",
+  "filing_date": "20161115",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MORI",
+      "inventor_name_first": "Shinya",
+      "inventor_city": "Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "H04N132",
+    "G06K900",
+    "H04N100"
+  ],
+  "main_ipcr_label": "H04N132",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to one aspect of the present invention, an information processing apparatus is connected to a plurality of output devices and includes a receiver, a selector, an output destination determiner, and an output data distributor. The receiver is configured to receive a request for outputting output data. The selector is configured to refer to correspondence information in which a condition that determines output device as an output destination of the output data and a validity period indicating a period during which the condition is available are associated for each of the output devices, and to select the condition whose validity period includes an output time point at which the output request is received, of the output data. The output destination determiner is configured to determine the output device as the output destination of the output data based on the selected condition and the output data. The output data distributor is configured to distribute the output data to the determined output device.",
+  "patent_number": "9986125",
+  "abstract": "An information processing apparatus is connected to output devices and includes a receiver, a selector, an output destination determiner, and an output data distributor. The receiver is configured to receive a request for outputting output data. The selector is configured to refer to correspondence information in which a condition that determines output device as an output destination of the output data and a validity period indicating a period during which the condition is available are associated for each of the output devices, and to select the condition whose validity period includes an output time point at which the output request is received, of the output data. The output destination determiner is configured to determine the output device as the output destination of the output data based on the selected condition and the output data. The output data distributor is configured to distribute the output data to the determined output device.",
+  "publication_number": "US20170142284A1-20170518",
+  "_processing_info": {
+    "original_size": 48331,
+    "optimized_size": 2606,
+    "reduction_percent": 94.61
+  }
+}

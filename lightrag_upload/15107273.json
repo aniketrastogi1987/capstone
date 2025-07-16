@@ -1,0 +1,31 @@
+{
+  "date_produced": "20161208",
+  "publication_number": "US20160371594A1-20161222",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15107273",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MISTRY",
+      "inventor_name_first": "James",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "A method for generating a pattern matching machine for identifying matches of a symbol pattern in a sequence of in put symbols, the received symbol pattern including an indicator that one or more symbols in the symbol pattern repeat as repeated symbols, the method comprising: generating a plurality of symbol patterns for the received symbol pattern, each generated symbol pattern being equivalent to the symbol pattern for a different number of repetitions of the repeated symbols, wherein the plurality of generated symbol patterns comprise all possible symbol patterns equivalent to the received symbol pattern up to a predetermined maximum length of a generated symbol pattern.",
+  "filing_date": "20160622",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention accordingly provides, in a first aspect, a method for generating a pattern matching machine for identifying matches of a symbol pattern in a sequence of input symbols, the received symbol pattern including an indicator that one or more symbols in the symbol pattern repeat as repeated symbols, the method comprising: generating a plurality of symbol patterns for the received symbol pattern, each generated symbol pattern being equivalent to the symbol pattern for a different number of repetitions of the repeated symbols, wherein the plurality of generated symbol patterns comprise all possible symbol patterns equivalent to the received symbol pattern up to a predetermined maximum length of a generated symbol pattern. Thus embodiments of the present invention provide for an efficient approach to single-pass matching of symbol patterns where the patterns include one or more indications that one or more symbols repeat, such as iteration metacharacters. By generating a plurality of all possible equivalent symbol patterns having lengths up to a predetermined maximum length, the indeterminate nature of the iterative metacharacter is converted to a set of symbol patterns of determined length and form. Accordingly, the Aho-Corasick approach to single-pass symbol pattern matching can be applied to the one or more equivalent symbol patterns in order that the symbol pattern containing iterative symbols can be accomodated by a pattern matching machine. Further, embodiments of the present invention additionally provide for an efficient approach to single-pass matching of multiple symbol patterns, where the patterns include one or more wildcard metacharacters, by providing a mapping for states to appropriate new states based on input symbols received to constitute the wildcard metacharacters. Using embodiments of the present invention it is possible to match multiple symbol patterns, one or more of which contain one or more wi...",
+  "date_published": "20161222",
+  "title": "IMPROVED PATTERN MATCHING MACHINE FOR REPEATING SYMBOLS",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 159744,
+    "optimized_size": 3232,
+    "reduction_percent": 97.98
+  }
+}

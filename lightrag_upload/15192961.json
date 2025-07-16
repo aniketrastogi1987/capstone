@@ -1,0 +1,37 @@
+{
+  "date_produced": "20170726",
+  "publication_number": "US20170228649A1-20170810",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15192961",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chatterjee",
+      "inventor_name_first": "Raja",
+      "inventor_city": "Nashua",
+      "inventor_state": "NH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gor",
+      "inventor_name_first": "Ashishkumar",
+      "inventor_city": "Nashua",
+      "inventor_state": "NH",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Techniques are for rule-based continuous drift and consistency management for target systems. In one embodiment, a set of rules is stored in volatile or non-volatile store. The set of rules may include one or more drift rules and/or one or more consistency rules. A rule may be applied to one or more associated targets to detect drift or inconsistency. A drift rule identifies a set of one or more attributes and a source and may be applied by comparing a first configuration of the set of one or more attributes on an associated target with a second configuration of the set of one or more attributes on the source. A consistency rule may be applied to a composite target by comparing member targets that are grouped by target type. Notification data may be output if target drift or inconsistency is detected to alert a user.",
+  "filing_date": "20160624",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Various embodiments are illustrated by way of example, and not by way of limitation, in the figures of the accompanying drawings and in which like reference numerals refer to similar elements and in which: FIG. 1 illustrates an example system for managing drift and consistency within complex systems. FIG. 2 illustrates updates to an end state definition and corresponding gold image as patches are released over time. FIG. 3 illustrates targets that subscribe to an image and follow the updates to the latest versions available. FIG. 4 illustrates an example process for continuous monitoring of drift and consistency in a system comprising a plurality of targets. FIG. 5 illustrates an example process for generating drift rules. FIG. 6 is a block diagram that illustrates a computer system upon which an embodiment may be implemented. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170810",
+  "title": "RULE BASED CONSISTENCY MANAGEMENT FOR COMPLEX SYSTEMS",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 80452,
+    "optimized_size": 2467,
+    "reduction_percent": 96.93
+  }
+}

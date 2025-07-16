@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15482405",
+  "date_published": "20171012",
+  "date_produced": "20170927",
+  "filing_date": "20170407",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Systems and methods of artificial intelligence based recommendation are disclosed herein. The system can include: a user device including: a network interface; and an I/O subsystem. The system can include an artificial intelligence engine that can provide a remediation dialogue. The system can include a content management server that can: receive a user identification identifying a user from the user device; retrieve user information from a memory; identify and deliver a question to the user device based on the retrieved user information; receive a response to the delivered question from the user device; determine that the received response is incorrect; trigger the launch of the artificial intelligence engine; receive an indication of completion of the dialogue; and provide a second question after receipt of the indication of completion of the dialogue.",
+  "publication_number": "US20170293845A1-20171012",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In one aspect, the present disclosure relates an artificial intelligence based recommendation system. The system includes a user device having: a network interface that can exchange data via the communication network; and an I/O subsystem that can convert electrical signals to user interpretable outputs via a user interface. The system includes an artificial intelligence engine that can receive inputs from at least the user device and that can: launch a dialogue based on the received inputs; identify remediation dialogue based on received user inputs; and terminate the dialogue based on at least one halting criterion. In some embodiments, terminating the dialogue can be based on a user performance metric indicative of a user skill level. In some embodiments, the dialogue is determined for termination when the user performance metric identifies a sufficient user skill level. The system includes a content management server. The content management server can: receive a user identification identifying a user from the user device; receive data indicative of a user pattern of interaction; generate a trigger value characterizing the user pattern of interaction; trigger the launch of the artificial intelligence engine; receive an indication of completion of the dialogue; and provide second content after receipt of the indication of completion of the dialogue. In some embodiments, the content management server can be configured to: retrieve user information from a memory, which user information identifies progress by the user through a content progression; identify and deliver a question to the user device based on the retrieved user information; receive a response to the delivered question from the user device; and determine that the received response is incorrect. In some embodiments, the content management server can receive an indication of an updated user skill level with the indication of completion of the dialogue. In some embodiments, the con...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "McAllister",
+      "inventor_name_first": "Angie",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Moriarty",
+      "inventor_name_first": "Brian",
+      "inventor_city": "Fort Lee",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McFall",
+      "inventor_name_first": "Greg",
+      "inventor_city": "Poolesville",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR ARTIFICIAL INTELLIGENCE BASED CONTENT RECOMMENDATION AND PROVISIONING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 226213,
+    "optimized_size": 3754,
+    "reduction_percent": 98.34
+  }
+}

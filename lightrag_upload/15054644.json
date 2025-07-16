@@ -1,0 +1,32 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15054644",
+  "date_published": "20160721",
+  "date_produced": "20160706",
+  "title": "CACHE MEMORY APPARATUS",
+  "filing_date": "20160226",
+  "inventor_list": [
+    {
+      "inventor_name_last": "O'Sullivan",
+      "inventor_name_first": "Daniel Shane",
+      "inventor_city": "Morley",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F938",
+    "G06F1208",
+    "G06F930"
+  ],
+  "main_ipcr_label": "G06F938",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In accordance with non-limiting, present, inventive aspects of the disclosure, problems of increased power requirements, heat generation, design complexity and resulting reduced processing efficiency in processors are overcome. The increased clock rate of microprocessor architectures in the prior art causes many serious problems such as deepened pipelines, increased power requirements, which result in elevated heat in the chip, all of which making the already complex circuitry even more complicated. Further, as the designs have evolved, it has been necessary to maintain compatibility with earlier products. This results in a large number of hardware features being incorporated that are not used in new application software because the new software tends to comply with existing hardware features. This represents a waste of hardware capacity that could be better employed. The above-identified problems are solved and a technical advance is achieved in the art of a processor with a synchronicity independent, power and instruction optimizing, and resource delegating processor of the present invention. An exemplary processor of the present invention includes: an integer processing unit adapted to execute instructions of a program; a mathematical processing unit adapted to receive a request from the integer processing unit; and a router that interfaces between the integer processing unit and the mathematical processing unit, wherein the router is adapted to route a request from the integer processing unit to the mathematical processing unit. In accordance with another, non-limiting, present, inventive aspect of the disclosure, there is provided an architecture of a processor for executing instructions of a program. An exemplary processor of the present invention includes: a plurality of processing units each capable of executing instructions of a program independently, and a cache unit configured to receive access requests from the plurali...",
+  "patent_number": "9715391",
+  "abstract": "A cache memory apparatus includes an L1 cache memory, an L2 cache memory coupled to the L1 cache memory, an arithmetic logic unit (ALU) within the L2 cache memory, the combined ALU and L2 cache memory being configured to perform therewithin at least one of: an arithmetic operation, a logical bit mask operation; the cache memory apparatus being further configured to interact with at least one processor such that atomic memory operations bypass the L1 cache memory and go directly to the L2 cache memory.",
+  "publication_number": "US20160210155A1-20160721",
+  "_processing_info": {
+    "original_size": 140995,
+    "optimized_size": 3049,
+    "reduction_percent": 97.84
+  }
+}

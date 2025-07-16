@@ -1,0 +1,40 @@
+{
+  "date_produced": "20180124",
+  "publication_number": "US20180039900A1-20180208",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15228220",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hoeink",
+      "inventor_name_first": "Tobias",
+      "inventor_city": "Houston",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Van Der Zee",
+      "inventor_name_first": "Wouter E.",
+      "inventor_city": "Voorburg",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    }
+  ],
+  "abstract": "An embodiment of a method for evaluating a schedule for removing a core sample includes generating a model of the core by applying a value of each of the input parameters, one or more of the input parameter values associated with an uncertainty range, and defining a proposed tripping schedule, and performing an evaluation including applying the proposed tripping schedule and a set of expected input parameter values to the model, estimating a core parameter and determining whether the tripping schedule is predicted to be successful by comparing the core parameter to selected core damage criteria. The method also includes iteratively repeating the evaluation, each evaluation being performed using a different combination of input parameter values than any other evaluation, and calculating a probability of success (POS) of the proposed tripping schedule based on a number of evaluations that result in the tripping schedule being predicted to be successful.",
+  "filing_date": "20160804",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An embodiment of a method for evaluating a schedule for removing a core sample from a borehole includes taking the core sample within the borehole with a sampling tool, generating a model of the core sample based on a plurality of input parameters, the generating including applying a value of each of the input parameters, wherein one or more of the input parameter values is associated with an uncertainty range, and defining a proposed tripping schedule, and performing, by a processor, an evaluation of the proposed tripping schedule, the evaluation including applying the proposed tripping schedule and a set of expected input parameter values to the model, estimating a core parameter and determining whether the tripping schedule is predicted to be successful by comparing the core parameter to selected core damage criteria. The method also includes iteratively repeating the evaluation by applying the proposed tripping schedule and a different set of input parameter values to the model, estimating the core parameter and determining whether the tripping schedule is predicted to be successful by comparing the core parameter to the selected core damage criteria, the different set of input parameter values including a value of at least one parameter that is different than a value of the at least one parameter in a previous evaluation and within the uncertainty associated with the at least one parameter, each evaluation being performed using a different combination of input parameter values than any other evaluation, calculating a probability of success (POS) of the proposed tripping schedule based on a number of evaluations that result in the tripping schedule being predicted to be successful, and selecting the proposed tripping schedule based on the POS having an acceptable value. An embodiment of a system for evaluating a schedule for removing a core sample from a borehole includes a carrier configured to transport the core sample through at least part ...",
+  "date_published": "20180208",
+  "title": "ESTIMATION OF OPTIMUM TRIPPING SCHEDULES",
+  "ipcr_labels": [
+    "G06N700",
+    "E21B1002",
+    "E21B4900",
+    "E21B2500"
+  ],
+  "_processing_info": {
+    "original_size": 75271,
+    "optimized_size": 3680,
+    "reduction_percent": 95.11
+  }
+}

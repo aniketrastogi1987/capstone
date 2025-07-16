@@ -1,0 +1,40 @@
+{
+  "patent_number": "None",
+  "application_number": "15470886",
+  "date_published": "20171102",
+  "date_produced": "20171018",
+  "filing_date": "20170327",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Ontology-based reasoning apparatus and method using knowledge of an expert are disclosed. The ontology-based reasoning apparatus includes an input unit through which a plurality of the knowledge of the expert including a condition and a result are inputted, a conversion unit configured to convert the inputted knowledge to ontology-based rules, and a reasoning performing unit configured to reason a conclusion by using the converted rules and generate an explanation of a rule corresponding to cause of the conclusion. Here, the rule includes a condition node corresponding to the condition, a result node corresponding to the result and an edge for connecting the condition node to the result node, the edge includes an edge direction and an edge value, and the edge value corresponds to an explanation about relation between the condition node and the result node.",
+  "publication_number": "US20170316315A1-20171102",
+  "summary": "<SOH> SUMMARY <EOH>Accordingly, the invention is provided to substantially obviate one or more problems due to limitations and disadvantages of the related art. One embodiment of the invention provides reasoning apparatus and method of obtaining and managing knowledge of an expert through interaction with the expert, reasoning the obtained knowledge based on ontology, and providing logical explanation about the knowledge of the expert. Other features of the invention may be thought by a person in an art through following embodiments. In one embodiment, the invention provides an ontology-based reasoning apparatus using knowledge of an expert comprising: an input unit through which a plurality of the knowledge of the expert including a condition and a result are inputted; a conversion unit configured to convert the inputted knowledge to ontology-based rules; and a reasoning performing unit configured to reason a conclusion by using the converted rules and generate an explanation of a rule corresponding to cause of the conclusion. Here, the rule includes a condition node corresponding to the condition, a result node corresponding to the result and an edge for connecting the condition node to the result node, the edge includes an edge direction and an edge value, and the edge value corresponds to an explanation about relation between the condition node and the result node. The input unit transmits an UI (user interface) for obtaining the knowledge to a terminal of the expert. Here, the UI includes an information display window for displaying needed information when inputting the condition and the result, a condition input window for receiving the condition and a result input window for receiving the result. Each of the condition node and the result node includes a node name and a node value, and the edge direction may be set from the condition node to the result node. The edge value includes a Definition for determining a node value of the condition node to a node value...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730",
+    "G06N504",
+    "G06F30481"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "PARK",
+      "inventor_name_first": "Young Tack",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "PARK",
+      "inventor_name_first": "Hyun Kyu",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "ONTOLOGY-BASED REASONING APPARATUS AND METHOD USING KNOWLEDGE OF AN EXPERT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 36293,
+    "optimized_size": 3604,
+    "reduction_percent": 90.07
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046913A1-20180215",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15247956",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YU",
+      "inventor_name_first": "Jincheng",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "YAO",
+      "inventor_name_first": "Song",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present invention relates to artificial neural network (ANN), for example, convolutional neural network (CNN). In particular, the present invention relates to how to implement and optimize a convolutional neural network based on an embedded FPGA. Specifically, it proposes a CPU+FPGA heterogeneous architecture to accelerate ANNs.",
+  "filing_date": "20160826",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>On the basis of the above mentioned paper, the inventor proposes further improvements in the present application. It gives a more efficient and detailed hardware design for implementing CNN, which combines both general processing unit and a special neural network processing unit. According to one aspect of the invention, it proposes a deep processing unit (DPU) for implementing an Artificial Neural Network (ANN), comprising: a CPU, configured for scheduling a programmable logic module and a direct memory access (DMA); a direct memory access (DMA), connected to the CPU, an external memory and a programmable logic module, used for communication between the external memory and the programmable logic module; an external memory, coupled to the CPU and the DMA, configured for storing instructions of the ANN and data to be processed by said ANN; a programmable logic module (PL), comprising: a controller, configured for getting instructions and scheduling operations of a computing complex on the basis of the instructions, a computing complex, including a plurality of processing elements (PEs), configured for performing operations on the basis of the instructions and data; a buffer, configured for preparing the data and instructions for the computing complex; wherein the CPU is configured to control the DMA to transmit data and instructions between the external memory and the programmable logic module. In addition, the DMA is configured to transmit data between the external memory and the programmable logic module via FIFO. In addition, DMA is configured to transmit instructions between the external memory and the programmable logic module via FIFO. According to another aspect of the invention, it proposes a deep processing unit (DPU) for implementing an Artificial Neural Network (ANN), comprising: a CPU, configured for scheduling a programmable logic module and a direct memory access (DMA); a direct memory access (DMA), connected to the CPU, an external m...",
+  "date_published": "20180215",
+  "title": "COMBINING CPU AND SPECIAL ACCELERATOR FOR IMPLEMENTING AN ARTIFICIAL NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1310",
+    "G06F1328"
+  ],
+  "_processing_info": {
+    "original_size": 53392,
+    "optimized_size": 3062,
+    "reduction_percent": 94.27
+  }
+}

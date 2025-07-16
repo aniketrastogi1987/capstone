@@ -1,0 +1,52 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364811A1-20171221",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15182766",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Malecki",
+      "inventor_name_first": "Bartlomiej T.",
+      "inventor_city": "Slomniki",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    },
+    {
+      "inventor_name_last": "Padkowski",
+      "inventor_name_first": "Piotr",
+      "inventor_city": "Lodz",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    },
+    {
+      "inventor_name_last": "Peszt",
+      "inventor_name_first": "Marek",
+      "inventor_city": "Krakow",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    },
+    {
+      "inventor_name_last": "Walczak",
+      "inventor_name_first": "Piotr J.",
+      "inventor_city": "Krakow",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    }
+  ],
+  "abstract": "A method for detecting a bottleneck in a system includes receiving a graph, wherein a node represents a software module and an edge represents a communication channel between software modules, monitoring selected resources for each software module in comparison to available resources, monitoring a ratio of a bandwidth consumed on a communication channel versus available bandwidth, traversing the graph for identifying a source software module whose produced amount of output is below the amount of output needed by the software module that is in idle mode, and analyzing a resource consumption of the identified source software module to identify a lacking amount of resource for the identified source software module. A computer system and computer program product corresponding to the above method are also disclosed herein.",
+  "filing_date": "20160615",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>As disclosed herein, a method, executed by a computer, for detecting a bottleneck in a system includes receiving a graph, wherein a node represents a software module and an edge represents a communication channel between software modules, monitoring selected resources for each software module in comparison to available resources, monitoring a ratio of a bandwidth consumed on a communication channel versus available bandwidth, traversing the graph for identifying a source software module whose produced amount of output is below the amount of output needed by the software module that is in idle mode, and analyzing a resource consumption of the identified source software module to identify a lacking amount of resource for the identified source software module. A computer system and computer program product corresponding to the above method are also disclosed herein.",
+  "date_published": "20171221",
+  "title": "DETECTING AND PREDICTING BOTTLENECKS IN COMPLEX SYSTEMS",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F950"
+  ],
+  "_processing_info": {
+    "original_size": 55596,
+    "optimized_size": 2707,
+    "reduction_percent": 95.13
+  }
+}

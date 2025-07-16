@@ -1,0 +1,53 @@
+{
+  "date_produced": "20180516",
+  "publication_number": "US20180150758A1-20180531",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15365353",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NIININEN",
+      "inventor_name_first": "Mauri",
+      "inventor_city": "Lexington",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ABRAHAMS",
+      "inventor_name_first": "David",
+      "inventor_city": "Needham",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "THOENNES",
+      "inventor_name_first": "James",
+      "inventor_city": "Centreville",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHAKRAPANI",
+      "inventor_name_first": "Anandbabu",
+      "inventor_city": "Potomac Falls",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An approach is provided for providing predictive classification of actionable network alerts. The approach includes receiving the plurality of alerts. Each alert of the plurality of alerts indicates an alarm condition occurring at a monitored network system, and is a data record comprising one or more data fields describing the alarm condition. The approach also includes classifying said each alert using a predictive machine learning model. The predictive machine learning model is trained to classify said each alert as actionable or non-actionable using the one or more data fields of said each alert as one or more respective classification features, and to calculate a respective probability that said each alert is actionable or non-actionable. The approach further includes presenting the plurality of alerts in a network monitoring user interface based on the respective probability of said each alert.",
+  "filing_date": "20161130",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments of the invention are illustrated by way of example, and not by way of limitation, in the figures of the accompanying drawings: FIG. 1 is a diagram of a system capable of providing predictive classification of actionable network alerts, according to one embodiment; FIG. 2 is a diagram of components of an alert classifier, according to one embodiment; FIG. 3 is a diagram of an example process for pre-processing formatted training data for the alert classifier, according to one embodiment; FIG. 4 is a diagram of a process for training a predictive classification model of the alert of classifier in an example development environment, according to one embodiment; FIGS. 5A and 5B are charts illustrating a process for optimizing the alert classifier, according to one embodiment; FIG. 6 is a flowchart of a process for classifying alerts as actionable or non-actionable using predictive classification, according to one embodiment; FIG. 7 is a flowchart of a process for training an alert classifier to classify alerts as actionable or non-actionable, according to one embodiment; FIG. 8 is a diagram illustrating an example user interface for presenting alerts based on predictive classification, according to one embodiment; FIG. 9 is a diagram of hardware that can be used to implement an embodiment of the invention; FIG. 10 is a diagram of a chip set that can be used to implement an embodiment of the invention; and FIG. 11 is a diagram of a terminal that can be used to implement an embodiment of the invention. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180531",
+  "title": "METHOD AND APPARATUS FOR PREDICTIVE CLASSIFICATION OF ACTIONABLE NETWORK ALERTS",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900",
+    "H04L1226"
+  ],
+  "_processing_info": {
+    "original_size": 102469,
+    "optimized_size": 3611,
+    "reduction_percent": 96.48
+  }
+}

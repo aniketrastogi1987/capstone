@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060727A1-20180301",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15251938",
+  "inventor_list": [
+    {
+      "inventor_name_last": "RAINWATER",
+      "inventor_name_first": "Blake",
+      "inventor_city": "Roswell",
+      "inventor_state": "GA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An encoder and decoder for translating sequential data into a fixed dimensional vector are created by applying an encoding-trainer input vector set as input to an encoding neural network to generate an encoding-trainer output vector set. One vector of the encoding-trainer output vector set is selected and a decoding-trainer input vector set is generated from it. A decoding neural network is trained by applying the generated decoding-trainer input vector set to the decoding neural network. The encoder and decoder can be used in implementations processing sequential data.",
+  "filing_date": "20160830",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, a method for translating between a first context and a second context, that is different from the first context, includes encoding source data of the first context using an encoding neural network to create an encoded input fixed dimensional vector representation of the source data. The encoded input fixed dimensional vector is applied as input to a translator neural network trained to generate an output encoded fixed dimensional vector representation of target data of the second context. The output encoded fixed dimensional vector representation is decoded using a decoding neural network to recreate the target data. Various implementations of this aspect may include one or more of the following features. In some implementations, the encoding neural network is trained by applying a plurality of sequences of training input vectors from a first data corpus of the first context as input to the encoding neural network. Encoding the source data can include generating a sequence of input vectors corresponding to the source data, applying the sequence of input vectors to the encoding network, and selecting one vector from the output of the encoding neural network. In some implementations, generating a sequence of input vectors corresponding to the source data includes generating sequential indices for the source data and mapping the sequential indices to vectors in an embedding layer. In some implementations, the decoding neural network is trained by applying a plurality of encoded fixed dimensional vectors representing sequential data encoded from a second data corpus of the second context as input to the decoding neural network, which can include creating training vector sets for each of the plurality of encoded fixed dimensional vectors. The training vector sets for each of the plurality of encoded fixed dimensional vectors can be created by concatenating each of the plurality of encoded fixed dimensional vectors with a beginning of seq...",
+  "date_published": "20180301",
+  "title": "RECURRENT ENCODER AND DECODER",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 112280,
+    "optimized_size": 3105,
+    "reduction_percent": 97.23
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "patent_number": "None",
+  "application_number": "15420121",
+  "date_published": "20180607",
+  "date_produced": "20180523",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A method for identifying and projecting recurrent event patterns in an Information Technology (IT) infrastructure is disclosed. The method includes deriving at least one time period based on historical events data; grouping the historical events data comprising a plurality of events based on the at least one time period to create a plurality of data points sets; creating an event corpus comprising each of the plurality of events arranged based on frequency of occurrence across the plurality of data points sets; identifying one or more events that have highest frequency of occurrence within the event corpus; determining one or more data points sets from the plurality of data points sets in which the one or more events have occurred; and computing a projected frequency of occurrence of the one or more events in future time periods.",
+  "publication_number": "US20180157983A1-20180607",
+  "summary": "<SOH> SUMMARY <EOH>In one embodiment, a method for identifying and projecting recurrent event patterns in an Information Technology (IT) infrastructure is disclosed. The method includes deriving, by a network device, at least one time period based on historical events data of the IT infrastructure, wherein the at least one time period is derived based on discontinuity periods in the historical events data; grouping, by the network device, the historical events data comprising a plurality of events captured for the IT infrastructure, based on the at least one time period to create a plurality of data points sets, wherein each data points set is associated with one of the at least one time period and comprises at least one event from the plurality of events; creating, by the network device, an event corpus comprising each of the plurality of events arranged based on frequency of occurrence across the plurality of data points sets; identifying, by the network device, one or more events that have highest frequency of occurrence within the event corpus; determining, by the network device, one or more data points sets from the plurality of data points sets in which the one or more events have occurred; and computing, by the network device, a projected frequency of occurrence of the one or more events in future time periods corresponding to the one or more data points sets based on frequency of occurrence of the one or more events in the one or more data points sets. In another embodiment, a network device for identifying and projecting recurrent event patterns in an IT infrastructure is disclosed. The network device includes at least one processor; and a memory communicatively coupled to the at least one processor, wherein the memory stores processor instructions, which, on execution, causes the processor to derive at least one time period based on historical events data of the IT infrastructure, wherein the at least one time period is derived based on discontinuity perio...",
+  "ipcr_labels": [
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "GURUSWAMAPPA",
+      "inventor_name_first": "Shivamurthy Harave",
+      "inventor_city": "Chamarajanagar",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "BALASUBRAMANIAN",
+      "inventor_name_first": "Ramkumar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "RYALI",
+      "inventor_name_first": "Premchand",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "METHODS AND SYSTEMS FOR IDENTIFYING AND PROJECTING RECURRENT EVENT PATTERNS IN INFORMATION TECHNOLOGY INFRASTRUCTURE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 66032,
+    "optimized_size": 3770,
+    "reduction_percent": 94.29
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15151362",
+  "date_published": "20171116",
+  "date_produced": "20171103",
+  "title": "FREQUENCY BASED AUDIO ANALYSIS USING NEURAL NETWORKS",
+  "filing_date": "20160510",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Roblek",
+      "inventor_name_first": "Dominik",
+      "inventor_city": "Meilen",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Sharifi",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Kilchberg",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "ipcr_labels": [
+    "G10L2530",
+    "G06F1107",
+    "G06F1107",
+    "G06N308"
+  ],
+  "main_ipcr_label": "G10L2530",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in methods for training a neural network that includes a plurality of neural network layers on training data, wherein the neural network is configured to receive frequency domain features of an audio sample and to process the frequency domain features to generate a neural network output for the audio sample, wherein the neural network comprises (i) a convolutional layer that is configured to map frequency domain features to logarithmic scaled frequency domain features, wherein the convolutional layer comprises one or more convolutional layer filters, and (ii) one or more other neural network layers having respective layer parameters that are configured to process the logarithmic scaled frequency domain features to generate the neural network output, wherein the method includes the actions of: obtaining training data comprising, for each of a plurality of training audio samples, frequency domain features of the training audio sample and a known output for the training audio sample; and training the neural network on the training data to adjust the values of the parameters of the other neural network layers and to adjust the one or more convolutional layer filters to determine an optimal logarithmic convolutional mapping of frequency domain features to logarithmic-scaled frequency domain features. Other embodiments of this aspect include corresponding computer systems, apparatus, and computer programs recorded on one or more computer storage devices, each configured to perform the actions of the methods. A system of one or more computers can be configured to perform particular operations or actions by virtue of software, firmware, hardware, or any combination thereof installed on the system that in operation may cause the system to perform the actions. One or more computer programs can be configured to perform particular operations or actions by v...",
+  "patent_number": "None",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for frequency based audio analysis using neural networks. One of the methods includes training a neural network that includes a plurality of neural network layers on training data, wherein the neural network is configured to receive frequency domain features of an audio sample and to process the frequency domain features to generate a neural network output for the audio sample, wherein the neural network comprises (i) a convolutional layer that is configured to map frequency domain features to logarithmic scaled frequency domain features, wherein the convolutional layer comprises one or more convolutional layer filters, and (ii) one or more other neural network layers having respective layer parameters that are configured to process the logarithmic scaled frequency domain features to generate the neural network output.",
+  "publication_number": "US20170330586A1-20171116",
+  "_processing_info": {
+    "original_size": 101527,
+    "optimized_size": 3647,
+    "reduction_percent": 96.41
+  }
+}

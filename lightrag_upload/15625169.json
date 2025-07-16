@@ -1,0 +1,67 @@
+{
+  "patent_number": "None",
+  "application_number": "15625169",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "filing_date": "20170616",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Various systems and methods are provided that identify prior art patent references for a subject patent application. For example, the system preprocesses a corpus of patent references to identify keywords that are present in each of the patent references, n-grams present in the corpus, and a weighting associated with the identified n-grams. To identify prior art patent references, the system requests a user to provide a patent application. The system extracts n-grams found in the provided patent application and orders the n-grams based on the assigned n-gram weights. The system compares the top Y-rated n-grams with the identified keywords and retrieves patent references that include a keyword that matches one of the top Y-rated n-grams. The system re-ranks the retrieved patent references using, for example, artificial intelligence. The top Z-ranked retrieved patent references are transmitted to a user device for display in a user interface.",
+  "publication_number": "US20180018564A1-20180118",
+  "summary": "<SOH> SUMMARY <EOH>The systems, methods, and devices described herein each have several aspects, no single one of which is solely responsible for its desirable attributes. Without limiting the scope of this disclosure, several non-limiting features will now be discussed briefly. Disclosed herein is a system that identifies prior art patent references for a subject patent application by identifying similarities between a corpus of patent references and the subject patent application and ranking the patent references in the corpus based on the identified similarities. For example, the system first performs preprocessing operations before identifying prior art patent references. The system preprocesses a corpus of patent references to identify keywords that are present in each of the patent references. The system also preprocesses the corpus of patent references to identify n-grams present in the corpus and statistics associated with the identified n-grams (e.g., a number of occurrences of a particular n-gram). As used herein, an n-gram refers to a contiguous sequence of n phonemes, syllables, letters, words, and/or base pairs (e.g., a unigram is a contiguous sequence of phonemes, syllables, letters, words, and/or base pairs, a bigram is a contiguous sequence of two phonemes, syllables, letters, words, and/or base pairs, a tri-gram is a contiguous sequence of three phonemes, syllables, letters, words, and/or base pairs, etc.). Using the statistics, the system can assign weights to each of the n-grams. To identify prior art patent references, the system requests a user to provide a patent application or portion(s) of a patent application for analysis. The system can extract n-grams found within a particular section of the provided patent application (e.g., the claims section) and order the n-grams based on the weights assigned to n-grams during the preprocessing operations. The system may then compare the top Y-rated n-grams with the identified keywords and retrieve pat...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N300",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Erenrich",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mukherjee",
+      "inventor_name_first": "Anirvan",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Elkherj",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kesin",
+      "inventor_name_first": "Maxim",
+      "inventor_city": "Woodmere",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Eltoukhy",
+      "inventor_name_first": "Adam",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "Jason",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "ARTIFICIAL INTELLIGENCE-BASED PRIOR ART DOCUMENT IDENTIFICATION SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 83076,
+    "optimized_size": 4280,
+    "reduction_percent": 94.85
+  }
+}

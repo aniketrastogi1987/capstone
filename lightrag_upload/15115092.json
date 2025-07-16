@@ -1,0 +1,33 @@
+{
+  "decision": "PENDING",
+  "application_number": "15115092",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "title": "Method and Apparatus for Displaying 2D Application Interface in Virtual Reality Device",
+  "filing_date": "20160728",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Ligang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T1504",
+    "G06F301",
+    "G06F30481",
+    "G06T1920"
+  ],
+  "main_ipcr_label": "G06T1504",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Pertaining to aforementioned problems, this disclosure provides a method and apparatus for displaying 2D application interface in virtual reality devices that overcomes the aforementioned problems or at least partially addresses the aforementioned problems. According to one aspect of the disclosure, it provides a method of displaying a 2D application interface in a virtual reality device, including: obtaining a texture of one or more 2D application interfaces to be displayed; determining a virtual reality scene to be displayed, and writing the virtual reality scene into a frame buffer of the Android system in a left-right screen splitting mode using an OpenGL function; sketching contents in the frame buffer of the Android system onto the left and right screens of the virtual reality device respectively to form a virtual screen in the virtual reality scene; sketching the obtained texture of the one or more 2D application interfaces to be displayed onto the virtual screen in the virtual reality scene of the left and right screens, respectively. Alternatively, obtaining the texture of the one or more 2D application interfaces to be displayed includes: applying for the corresponding layers for the one or more 2D application interfaces to be displayed, respectively; calling a SurfaceFlinger module in the Android system that is responsible for display and synthesis, labelling the synthesis mode as a GLES synthesis mode in the setUp HWComposer( ) function of the SurfaceFlinger module, and synthesizing the layers using the GLES synthesis mode. Alternatively, synthesizing the layers using the GLES synthesis mode comprises: determining display relations of the layers; creating a texture object bound to GL_TEXTURE_2D and a frame buffer object bound to GL_FRAMBUFFER function using the OpenGL function, and correlating the frame buffer object with the texture object; and according to the display relations of the layers, sketching the 2D applica...",
+  "patent_number": "None",
+  "abstract": "The present method comprises: obtaining a texture of one or more 2D application interfaces to be displayed; determining a virtual reality scene to be displayed, and writing the virtual reality scene into a frame buffer of an Android system in a left-right screen splitting mode using an OpenGL function; sketching contents in the frame buffer of the Android system onto left and right screens of the virtual reality device respectively to form a virtual screen in the virtual reality scene; sketching the obtained texture of the one or more 2D application interfaces to be displayed onto the virtual screen in the virtual reality scene of the left and right screens, respectively. The method renders the 2D application interface as images in left and right eyes simultaneously, with a three-dimensional sense, and facilitates the use of a large number of existing Android applications in the virtual reality system.",
+  "publication_number": "US20180018806A1-20180118",
+  "_processing_info": {
+    "original_size": 44048,
+    "optimized_size": 3520,
+    "reduction_percent": 92.01
+  }
+}

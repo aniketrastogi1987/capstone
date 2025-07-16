@@ -1,0 +1,53 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15112491",
+  "date_published": "20161208",
+  "date_produced": "20161122",
+  "title": "Method and Apparatus for Classifying Object Based on Social Networking Service, and Storage Medium",
+  "filing_date": "20160719",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Jianxing",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Yi",
+      "inventor_name_first": "Lingling",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "He",
+      "inventor_name_first": "Peng",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Chuan",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06F1718",
+    "G06F1716"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention provide a method and an apparatus for classifying an object based on a social networking service. The technical solutions are as follows. A method for classifying an object based on a social networking service is provided, the method being run in a computing device, and the computing device including a storage apparatus, one or more processors, and a program instruction stored in the storage apparatus and executed by the one or more processors, the method including: acquiring feature information of an object, the feature information including multiple segmented words; computing a semantic vector of the feature information, the semantic vector being used to reflect a relevancy feature when the segmented words exist in the feature information simultaneously; and inputting the semantic vector of the feature information of the object to a predetermined classifier, to obtain an initial category of the object after the object is classified. An apparatus for classifying an object based on a social networking service is provided, and includes: a storage apparatus, one or more processors, one or more program modules stored in the storage apparatus and executed by the one or more processors, and the one or more program modules including: a first acquisition module, configured to acquire feature information of an object, the feature information including multiple segmented words; a logical operation module, configured to compute a semantic vector of the feature information, the semantic vector is used to reflect a relevancy feature when the segmented words exist in the feature information simultaneously; and a classifying module, configured to input the semantic vector of the feature information of the object to a predetermined classifier, to obtain an initial category of the object after the object is classified. A non-transitory computer readable storage medium is provided, storing program instructions executable by a c...",
+  "patent_number": "9875294",
+  "abstract": "Described are a method and an apparatus for classifying an object based on a social networking service. Feature information of an object may be acquired; a semantic vector of the feature information may be computed, the semantic vector being used to reflect a relevancy feature when segmented words exist in the feature information simultaneously; and the semantic vector of the feature information of the object may be input to a predetermined classifier, to obtain an initial category of the object after the object is classified.",
+  "publication_number": "US20160357845A1-20161208",
+  "_processing_info": {
+    "original_size": 58607,
+    "optimized_size": 3565,
+    "reduction_percent": 93.92
+  }
+}

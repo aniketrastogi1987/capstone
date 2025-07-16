@@ -1,0 +1,67 @@
+{
+  "decision": "PENDING",
+  "application_number": "15368380",
+  "date_published": "20180607",
+  "date_produced": "20180523",
+  "title": "JOINT LANGUAGE UNDERSTANDING AND DIALOGUE MANAGEMENT",
+  "filing_date": "20161202",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Xiujun",
+      "inventor_city": "Tianjin",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Crook",
+      "inventor_name_first": "Paul Anthony",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Deng",
+      "inventor_name_first": "Li",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gao",
+      "inventor_name_first": "Jianfeng",
+      "inventor_city": "Woodinville",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Yun-Nung",
+      "inventor_city": "Taipei",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Xuesong",
+      "inventor_city": "Urbana",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1727",
+    "G10L2530",
+    "G06N308"
+  ],
+  "main_ipcr_label": "G06F1727",
+  "summary": "<SOH> SUMMARY <EOH>This disclosure describes systems, methods, and computer-executable instructions on computer-readable media for an end-to-end recurrent neural network (RNN) with limited contextual dialogue memory that can be jointly trained by supervised signals—user slot tagging, intent prediction and/or system action prediction (SAP). The end-to-end RNN model described herein has shown advantages over existing separate models for natural language understanding and dialogue management. The joint model described herein can capture highly expressive feature representations beyond conventional aggregation of slot tags and intents, such that the effects of noisy output from NLU can be mitigated. The joint model described herein can apply a supervised signal from SAP to refine the NLU model component. By back-propagating errors associated with SAP to the NLU component, the end-to-end RNN uses machine learning to predict user intent, and perform slot tagging, and make system action predictions based on an input of users, including typed and/or spoken utterances across a wide swath of domains without requiring the hand-crafted features, large number of annotated conversations, or human interactions of previous systems. In various examples, the end-to-end RNN described herein can improve accuracy and processing speed important for conversation understanding systems like digital personal assistants. This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key and/or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. The term “techniques,” for instance, can refer to system(s), method(s), computer-readable instructions, module(s), algorithms, hardware logic, and/or operation(s) as permitted by the context described above and throughout the document.",
+  "patent_number": "None",
+  "abstract": "A processing unit can operate an end-to-end recurrent neural network (RNN) with limited contextual dialogue memory that can be jointly trained by supervised signals—user slot tagging, intent prediction and/or system action prediction. The end-to-end RNN, or joint model has shown advantages over separate models for natural language understanding (NLU) and dialogue management and can capture expressive feature representations beyond conventional aggregation of slot tags and intents, to mitigate effects of noisy output from NLU. The joint model can apply a supervised signal from system actions to refine the NLU model. By back-propagating errors associated with system action prediction to the NLU model, the joint model can use machine learning to predict user intent, and perform slot tagging, and make system action predictions based on user input, e.g., utterances across a number of domains.",
+  "publication_number": "US20180157638A1-20180607",
+  "_processing_info": {
+    "original_size": 108057,
+    "optimized_size": 4194,
+    "reduction_percent": 96.12
+  }
+}

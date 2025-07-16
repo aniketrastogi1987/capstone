@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15653138",
+  "date_published": "20171102",
+  "date_produced": "20171018",
+  "filing_date": "20170718",
+  "main_ipcr_label": "G06N700",
+  "abstract": "A system and method for predicting search term popularity is disclosed herein. A database system may comprise a first database cluster H and a second database cluster L. A machine learning algorithm is trained to create a predictive model. Thereafter, for each record in a database system, the predictive model is used to calculate a probability of the record being accessed. If the calculated probability of the record being accessed is greater than a threshold value, then the record in the first database cluster H; otherwise, the record is placed in the second database cluster L. Training the machine learning algorithm comprises inputting a training feature vector associated with the record into the machine learning algorithm, inputting a cost vector into the machine learning algorithm, and iteratively operating the machine learning algorithm on each record in the set of records to create a predictive model. Other embodiments are also disclosed herein.",
+  "publication_number": "US20170316334A1-20171102",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>To facilitate further description of the embodiments, the following drawings are provided in which: FIG. 1 illustrates a front elevation view of a computer system that is suitable for implementing an embodiment of the system disclosed in FIG. 3 ; FIG. 2 illustrates a representative block diagram of an example of the elements included in the circuit boards inside a chassis of the computer system of FIG. 1 ; FIG. 3 illustrates a block diagram of an exemplary online retail system, portions of which can be used to create a prioritized product list for e-commerce, according to an embodiment; FIG. 4 illustrates a flowchart for an exemplary method of performing a search request, according to an embodiment; FIG. 5 illustrates a flowchart for an exemplary method of placing records in databases according to various criteria, according to an embodiment. FIG. 6 illustrates a block diagram of an exemplary order system, according to an embodiment; FIG. 7 illustrates a flowchart for using a machine learning module to predict the likelihood of an item being the result of a search, according to an embodiment; FIG. 8 illustrates a flowchart for an exemplary method of training a machine learning algorithm, according to an embodiment; FIG. 9 illustrates a block diagram of a database administration module, according to an embodiment; FIG. 10 illustrates a flowchart for an exemplary method of using a white-list database to group records into a first database cluster and a second database cluster; FIG. 11 illustrates a flowchart for an exemplary method of placing records into a hot database cluster using a random number generator; FIG. 12 illustrates a flowchart for an exemplary method of using seasonality to aid in the placing of records into either a hot database cluster or a cold database cluster; FIG. 13 illustrates a flowchart for a method for using seasonality to aid in the production of a feature vector; FIG. 14 illustrates a flowchart f...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Srivastava",
+      "inventor_name_first": "Varun",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ruan",
+      "inventor_name_first": "Yiye",
+      "inventor_city": "Columbus",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zheng",
+      "inventor_name_first": "Yan",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR CALCULATING SEARCH TERM PROBABILITY",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 179081,
+    "optimized_size": 3809,
+    "reduction_percent": 97.87
+  }
+}

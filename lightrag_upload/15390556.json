@@ -1,0 +1,51 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046914A1-20180215",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15390556",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LI",
+      "inventor_name_first": "Xin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Song",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "LU",
+      "inventor_name_first": "Zhilin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SHAN",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present invention relates to artificial neural networks, for example, deep neural networks. In particular, the present invention relates to a compression method considering load balance for deep neural networks and the device thereof. More specifically, the present invention relates to how to compress dense neural networks into sparse neural networks in an efficient way so as to improve utilization of resources of the hardware platform.",
+  "filing_date": "20161226",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect of the present disclosure, a method for compressing a neural network is proposed, wherein the connection relations between the neurons of the neural network are characterized by a plurality of matrices. The method comprises: dividing step, for dividing at least one of said plurality of matrices into a plurality of submatrices; compression step, for compressing the submatrices into sparse submatrices; and encoding step, for encoding the compressed sparse submatrices. According to another aspect of the present disclosure, another method for compressing a neural network is proposed, wherein the connection relations between the neurons of the neural network are characterized by a plurality of matrices. The method comprises: dividing step, for dividing at least one of said plurality of matrices in to a plurality of submatrices; sensitivity analysis step, for analyzing the sensitivity of each of said plurality of matrices, so as to determine an initial compression ratio for each of said plurality of matrices; compression step, for compressing the plurality of submatrices of respective matrix according to its corresponding initial compression ratio, so as to obtain a compressed neural network; fine-tuning step, for fine-tuning said compressed neural network, so as to obtain a final neural network. According to another aspect of the present disclosure, another method for compressing a neural network is proposed, wherein the weights between the neurons of the neural network are characterized by a plurality of matrices. The method comprises: sensitivity analysis step, for analyzing the sensitivity of each of said plurality of matrices, and determining an initial compression ratio for each of said plurality of matrices; compression step, for compressing each of said plurality of matrices based on the initial compression ratio, so as to obtain a compressed neural network, including dividing step for dividing each of said plurality of m...",
+  "date_published": "20180215",
+  "title": "COMPRESSION METHOD FOR DEEP NEURAL NETWORKS WITH LOAD BALANCE",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 78097,
+    "optimized_size": 3397,
+    "reduction_percent": 95.65
+  }
+}

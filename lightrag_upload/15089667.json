@@ -1,0 +1,59 @@
+{
+  "date_produced": "20160928",
+  "publication_number": "US20160300157A1-20161013",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15089667",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sankaradas",
+      "inventor_name_first": "Murugan",
+      "inventor_city": "Dayton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Coviello",
+      "inventor_name_first": "Giuseppe",
+      "inventor_city": "Plainsboro",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chakradhar",
+      "inventor_name_first": "Srimat",
+      "inventor_city": "Manalapan",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gianfico",
+      "inventor_name_first": "Marco",
+      "inventor_city": "Sant'Antimo (NA)",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "Di Nardo",
+      "inventor_name_first": "Emanuel",
+      "inventor_city": "Mondragone (CE)",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    }
+  ],
+  "abstract": "A big data processing system includes a memory management engine having stream buffers, realtime views and models, and batch views and models, the stream buffers coupleable to one or more stream processing frameworks to process stream data, the batch models coupleable to one or more batch processing frameworks; one or more processing engines including Join, Group, Filter, Aggregate, Project functional units and classifiers; and a client layer engine communicating with one or more big data applications, the client layer engine handling an output layer, an API layer, and an unified query layer.",
+  "filing_date": "20160404",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, a big data processing system includes a memory management engine having stream buffers, real-time views and models, and batch views and models, the stream buffers coupleable to one or more stream processing frameworks to process stream data, eh batch models coupleable to one or more batch processing frameworks; one or more processing engines including Join, Group, Filter, Aggregate, Project functional units and classifiers; and a client layer engine communicating with one or more big data applications, the client layer engine handling an output layer, an API layer, and an unified query layer. Advantages of the system may include one or more of the following. The system makes it easier to write real-time streaming big data applications. It is a reusable library component which performs various complex functions like memory management, extendible processing units and unified client layer. It makes the big data applications portable across various big data platforms. It aids big data application developers to create fault tolerant, low latency and high throughput applications quickly. The system makes the big data applications portable to any big data framework. The system works with different stream processing and batch processing frameworks under the hood. Users need not write the application targeting a particular big data platform. Applications don't have to worry about intricacies of big data framework. They interact with the big data systems using simple APIs provided by unified API layer of the system. Storage of input data, views and models are automatically managed by memory management unit of the system. User has to provide under which mode the system has to operate and the size required. The system automatically takes care of storage management. Access to big data systems using standard query functions like SQL, CQL and Graph, is enabled by unified query Abstraction layer of the system for Lambda type big data applications. ...",
+  "date_published": "20161013",
+  "title": "LambdaLib: In-Memory View Management and Query Processing Library for Realizing Portable, Real-Time Big Data Applications",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 28092,
+    "optimized_size": 3835,
+    "reduction_percent": 86.35
+  }
+}

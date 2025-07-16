@@ -1,0 +1,53 @@
+{
+  "date_produced": "20161026",
+  "publication_number": "US20160328651A1-20161110",
+  "main_ipcr_label": "G06N504",
+  "decision": "ACCEPTED",
+  "application_number": "15217420",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Micali",
+      "inventor_name_first": "Christopher M.",
+      "inventor_city": "Concord",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Phillips",
+      "inventor_name_first": "Michael S.",
+      "inventor_city": "Belmont",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MacAulay",
+      "inventor_name_first": "Vanessa Lee",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Houlette",
+      "inventor_name_first": "Ryan T.",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Electrical usage of devices in a building may be monitored to assist a user in labeling devices. In some implementations, a user may provide information about a first device, and this information may be used to obtain a plurality of mathematical models that each correspond to a device or a class of devices. The mathematical models may be used to process an electrical signal, and a score may be generated for each mathematical model. A mathematical model may be selected from the plurality of mathematical models using the scores, such as selecting a mathematical model with a highest score. The first device may be associated with the selected mathematical model.",
+  "filing_date": "20160722",
+  "patent_number": "9691030",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE FIGURES <EOH>The invention and the following detailed description of certain embodiments thereof may be understood by reference to the following figures: FIG. 1 illustrates one example of a system for performing disaggregation of electrical signals and providing information a user. FIG. 2 illustrates components of one implementation of a power monitor. FIG. 3 illustrates a timeline of computing features for an electrical event and a data structure for storing the features. FIG. 4 illustrates an example of a device model that may be used with a power monitor. FIG. 5 illustrates an example of a search graph that may be used for determining information about devices. FIG. 6 illustrates an example of an architecture for providing information about devices from a power monitor to a user. FIGS. 7A-7H illustrate example displays for providing information to a user about devices in the home. FIG. 8 illustrates components of one implementation of a server for discovering devices in a home and updating models for devices in a home. FIG. 9 illustrates an electrical signal with electrical events from two devices. FIG. 10 illustrates an example of a discovery graph that may be used for discovering new devices. FIG. 11 is a flowchart showing an example implementation for providing historical and real-time information about devices. FIG. 12 is a flowchart showing an example implementation of presenting historical and real-time information about devices to a user. FIG. 13 is a flowchart showing an example implementation of a network architecture for providing real-time information about devices. FIG. 14 is a flowchart showing an example implementation of determining information about device events. FIG. 15 is a flowchart showing an example implementation of discovering devices in a building. FIG. 16 is a flowchart showing an example implementation of determining house-specific models for determining information about devices. FIG. 17 is a flowchart sh...",
+  "date_published": "20161110",
+  "title": "ASSISTED LABELING OF DEVICES WITH DISAGGREGATION",
+  "ipcr_labels": [
+    "G06N504",
+    "G01R21133",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 235872,
+    "optimized_size": 3693,
+    "reduction_percent": 98.43
+  }
+}

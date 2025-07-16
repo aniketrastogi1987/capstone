@@ -1,0 +1,58 @@
+{
+  "patent_number": "None",
+  "application_number": "15629422",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "filing_date": "20170621",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Systems and methods for automated evaluation system routing are described herein. The system can include a memory, which can include a model database and a correlation database. The system can include a first user device and a second user device. The system can include at least one server. The at least one server can: receive a response communication from the user device; generate an initial evaluation value according to an AI model; determine a correlation between the initial evaluation value and evaluation range data; accept the initial evaluation value when the correlation exceeds a threshold value; and route the response communication to the second user device for generation of an elevated evaluation value when the correlation does not exceed the threshold value.",
+  "publication_number": "US20170364832A1-20171221",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>One aspect of the present disclosure relates to a system for automated evaluation system routing. The system can include a memory. The memory includes: a model database including a model for generating an evaluation value based on at least one computer-generated parameter of a response; and a correlation database including data identifying an evaluation protocol based on an evaluation value range. The system can include a first user device including: a network interface that can exchange data via the communication network; and an I/O subsystem that can convert electrical signals to user interpretable outputs via a user interface. The system can include a second user device; and at least one server. The at least one server can: receive a response communication from the user device; generate an initial evaluation value according to an AI model; determine a correlation between the initial evaluation value and evaluation range data; accept the initial evaluation value when the correlation exceeds a threshold value; and route the response communication to the second user device for generation of an elevated evaluation value when the correlation does not exceed the threshold value. In some embodiments, the AI model includes a machine learning model. In some embodiments, the machine learning model includes at least one of: a decision tree model; a neural network; and a Bayesian network. In some embodiments, generating an initial evaluation value according to the AI model includes: identifying features in the received response communication; generating at least one parameter from the identified features; and inputting the generated parameters into the AI model. In some embodiments, the features include at least one of: a spelling error; or a grammatical error. In some embodiments, the at least one parameter includes at least one of: a count of spelling errors; a count of grammatical errors; an organization value; a content value; or a mechanics valu...",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Habermehl",
+      "inventor_name_first": "Kyle",
+      "inventor_city": "Niwot",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lochbaum",
+      "inventor_name_first": "Karen",
+      "inventor_city": "Broomfield",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sanders",
+      "inventor_name_first": "Robert",
+      "inventor_city": "Marion",
+      "inventor_state": "IA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Way",
+      "inventor_name_first": "Walter Denny",
+      "inventor_city": "Pinehurst",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Calme",
+      "inventor_name_first": "Ryan",
+      "inventor_city": "Boulder",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR REAL-TIME MACHINE LEARNING MODEL TRAINING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 181187,
+    "optimized_size": 3916,
+    "reduction_percent": 97.84
+  }
+}

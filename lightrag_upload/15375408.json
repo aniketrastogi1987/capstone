@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286826A1-20171005",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15375408",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Min",
+      "inventor_name_first": "Renqiang",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Song",
+      "inventor_name_first": "Dongjin",
+      "inventor_city": "Plainsboro",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computer-implemented method and a system are provided for, in turn, providing driver assistance for a vehicle. The method includes forming, by a processor, a deep High-Order Long Short-Term Memory (HOLSTM)-based model by applying, to a HOLSTM, high-order interactions captured between global pattern distribution probabilities and local feature representations of an input sensor signal vector at each of a plurality of time steps. The input sensor signal vector is formed from multiple time series. Each of the multiple time series corresponds to a different one of a plurality of driving related sensors. The method further includes generating, by the processor, one or more predictions of impending dangerous conditions related to driving the vehicle based on the deep HOLSTM-based model. The method also includes informing, by an operator-perceptable warning device, an operator of the vehicle of the one or more predictions of impending dangerous conditions.",
+  "filing_date": "20161212",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the present invention, a computer-implemented method is provided for, in turn, providing driver assistance for a vehicle. The method includes forming, by a processor, a deep High-Order Long Short-Term Memory (HOLSTM)-based model by applying, to a HOLSTM, high-order interactions captured between global pattern distribution probabilities and local feature representations of an input sensor signal vector at each of a plurality of time steps. The input sensor signal vector is formed from multiple time series. Each of the multiple time series corresponds to a different one of a plurality of driving related sensors. The method further includes generating, by the processor, one or more predictions of impending dangerous conditions related to driving the vehicle based on the deep HOLSTM-based model. The method also includes informing, by an operator-perceptable warning device, an operator of the vehicle of the one or more predictions of impending dangerous conditions. According to another aspect of the present invention, a computer program product is provided for, in turn, providing driver assistance for a vehicle. The computer program product includes a non-transitory computer readable storage medium having program instructions embodied therewith. The program instructions are executable by a computer to cause the computer to perform a method. The method includes forming, by a processor, a deep High-Order Long Short-Term Memory (HOLSTM)-based model by applying, to a HOLSTM, high-order interactions captured between global pattern distribution probabilities and local feature representations of an input sensor signal vector at each of a plurality of time steps. The input sensor signal vector is formed from multiple time series. Each of the multiple time series corresponds to a different one of a plurality of driving related sensors. The method further includes generating, by the processor, one or more predictions of impending danger...",
+  "date_published": "20171005",
+  "title": "REAL-TIME DEEP LEARNING FOR DANGER PREDICTION USING HETEROGENEOUS TIME-SERIES SENSOR DATA",
+  "ipcr_labels": [
+    "G06N304",
+    "G05D100",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 40333,
+    "optimized_size": 3711,
+    "reduction_percent": 90.8
+  }
+}

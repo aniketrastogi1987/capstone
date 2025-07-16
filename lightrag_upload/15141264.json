@@ -1,0 +1,32 @@
+{
+  "date_produced": "20171018",
+  "publication_number": "US20170316306A1-20171102",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15141264",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Katayama",
+      "inventor_name_first": "Yasunao",
+      "inventor_city": "TOKYO",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A neural network processing system includes one source node having a source memory and a source core, and one destination node having a destination memory and a destination core, the source core and the destination core being von-Neumann cores, the destination memory including weight data storage areas for storing weight data corresponding to each node, an accumulation memory for accumulating the weight data, and an event address memory, the destination core identifying the weight data storage area and accumulating the weight data to store the accumulated weight data in the accumulation memory, the source memory including a data set having first information for identifying the destination node and second information for identifying the weight data storage area, and the source core reading the data set and sending the second information in the data set to the destination node to conduct remote memory write.",
+  "filing_date": "20160428",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment, a neural network processing system including a plurality of nodes having at least one source node and at least one destination node is provided. The source node includes a source memory and a source core. The destination node includes a destination memory and a destination core. The source core and the destination core are von-Neumann cores. The destination memory includes one or more weight data storage areas for storing weight data corresponding to each node accessing the destination memory, an accumulation memory for storing an accumulated weight data, and an event address memory. The destination core identifies the weight data storage area corresponding to the source node based on information written to the event address memory, and accumulates the weight data to store the accumulated weight data in the accumulation memory. The source memory includes a data set having first information for identifying the destination node and second information for identifying the weight data storage area corresponding to the source node. If a predetermined event occurs, the source core reads the data set from the source memory and sends the second information in the data set to the destination node to conduct noncoherent remote memory write to the event address memory in the destination memory. According to another embodiment, a neural network processing system including a plurality of nodes is provided. Each node includes a von-Neumann core and a memory. The memory includes one or more weight data storage areas for storing weight data corresponding to each node accessing the memory, an accumulation memory for storing an accumulated weight data, an event address memory, and a written data storage area for storing a data set having first information for identifying one of the plurality of nodes and second information for identifying the weight data storage area corresponding to the own node. The core identifies the weight data stora...",
+  "date_published": "20171102",
+  "title": "NEURAL NETWORK PROCESSING",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "G06N3063"
+  ],
+  "_processing_info": {
+    "original_size": 40365,
+    "optimized_size": 3453,
+    "reduction_percent": 91.45
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170627",
+  "publication_number": "US20170200088A1-20170713",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "14991685",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Kai",
+      "inventor_city": "Bridgewater",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Sijia",
+      "inventor_city": "Syracuse",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The disclosure relates to technology for identifying a root cause of anomalous behavior in a communications network. A key quality indicator (KQI) indicative of a performance level associated with a source is received in the communication network. The KQI includes a performance measurement value to identify a performance level of the source having the anomalous behavior. An improved KQI indicative of a level of degradation is calculated based on the anomalous behavior at the source by recovering the KQI to a historical value. Sources of the anomalous behavior are clustered into subsets according to the level of degradation based on the calculated KQI improvement. A global or partial degradation type of the root cause source in the subset having a severe level of degradation is determined using hypothesis testing, and a confidence value is provided for the accepted degradation type.",
+  "filing_date": "20160108",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In one embodiment, there is a method for identifying a root cause of anomalous behavior in a communications network, including receiving a key quality indicator (KQI) indicative of a performance level associated with a source in the communication network, the KQI including a performance measurement value identifying the performance level of the source having the anomalous behavior; calculating an improved KQI indicative of a level of degradation resulting from the anomalous behavior at the source by recovering a current performance measurement value at the source to a baseline performance measurement value at the source; grouping the source into at least one of a first subset of sources and a second subset of sources according to the level of degradation at the source based on the calculated improved KQI; and determining a degradation type for the source grouped in the second subset based on execution of a statistical hypothesis test and computing a confidence value indicative of a confidence level in accepting the determined degradation type as a result of the statistical hypothesis test. In another embodiment, there is an apparatus for identifying a root cause of anomalous behavior in a communications network, including a receiver receiving a key quality indicator (KQI) indicative of a performance level associated with a source in the communication network, the KQI including a performance measurement value identifying the performance level of the source having the anomalous behavior; and a processor configured to calculate an improved KQI indicative of a level of degradation resulting from the anomalous behavior at the source by recovering a current performance measurement value at the source to a baseline performance measurement value at the source; group the source into at least one of a first subset of sources and a second subset of sources according to the level of degradation at the source based on the calculated improved KQI; and det...",
+  "date_published": "20170713",
+  "title": "SYSTEM AND METHOD FOR ANALYZING A ROOT CAUSE OF ANOMALOUS BEHAVIOR USING HYPOTHESIS TESTING",
+  "ipcr_labels": [
+    "G06N700",
+    "H04W2410"
+  ],
+  "_processing_info": {
+    "original_size": 65655,
+    "optimized_size": 3625,
+    "reduction_percent": 94.48
+  }
+}

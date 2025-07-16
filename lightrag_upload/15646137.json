@@ -1,0 +1,51 @@
+{
+  "patent_number": "None",
+  "application_number": "15646137",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "filing_date": "20170711",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method of training a Machine Learning Algorithm, the method comprising: generating a training set for training the MLA, the training set comprising a plurality of feature vectors and respectively associated estimation errors, the generating comprises: generating the plurality of feature vectors based on history data associated with an industrial process; identifying a respective value of a target process feature within each feature vector; computing a regression function; determining an estimated outcome value for each respective value of the target process feature based on the regression function; and computing the estimation error for each feature vector based on the respectively associated outcome value and the respectively associated estimated outcome value. The method also comprises training the MLA based on the training set for predicting the respective estimation error for each feature vector, the training the MLA comprises inputting each feature vector and the respectively as...",
+  "publication_number": "US20180075371A1-20180315",
+  "summary": "<SOH> SUMMARY <EOH>It is an object of the present technology to ameliorate at least some of the inconveniences present in the prior art. Embodiments of the present technology have been developed based on inventors' appreciation of the need to reduce the amount of inputs for a given industrial process in order to reduce a cost per unit time of process operation while controlling the output quality of the given industrial process. Without wishing to be bound to any specific theory, the present technology, in at least some embodiments thereof, may allow selecting process parameters in a way that effects the predictability of outcome results of the industrial process via a trained Machine Learning Algorithm. In at least some embodiments, the present technology may allow predicting the outcome results of the industrial process by correcting errors associated with at least some uncontrollable parameters of the industrial process. In some implementations of the present technology, there is provided a method of training a Machine Learning Algorithm (MLA). The method is executable at a server which implements the MLA. The method comprises generating, by the server, a training set for training the MLA where the training set comprises a plurality of feature vectors and respectively associated estimation errors. In order to generate the training set, the method comprises generating, by the server, the plurality of feature vectors based on history data associated with an industrial process where each feature vector is representative of a plurality of identified process features of the industrial process in the history data. In order to generate the training set, the method also comprises retrieving, by the server, a plurality of outcome values from the history data where each outcome value in the plurality of outcome values is representative of a respective past result of the industrial process and is respectively associated with each feature vector in the plurality of feature v...",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "LOBACHEV",
+      "inventor_name_first": "Viktor Anatolievich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "NEKLIUDOV",
+      "inventor_name_first": "Kirill Olegovich",
+      "inventor_city": "Moskovskaya obl",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "YASHKOV",
+      "inventor_name_first": "Daniil Dmitrievich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "SHATERNIKOV",
+      "inventor_name_first": "Aleksei Nikolaevich",
+      "inventor_city": "St. Petersburg",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR TRAINING A MACHINE LEARNING ALGORITHM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 182861,
+    "optimized_size": 4050,
+    "reduction_percent": 97.79
+  }
+}

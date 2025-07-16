@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170915",
+  "publication_number": "US20170278007A1-20170928",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15375291",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Anchuri",
+      "inventor_name_first": "Pranay",
+      "inventor_city": "Plainsboro",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Hui",
+      "inventor_city": "Princeton Junction",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jiang",
+      "inventor_name_first": "Guofei",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computer-implemented method provides an early warning of an impending failure in a monitored system. The method includes performing, by a processor, an offline model learning process that generates a model of expected log rates in the monitored system from historical log data. The model represents a normal behavior of the monitored system. The method further includes performing an online detection process that detects the impending failure in the monitored system prior to an actual occurrence thereof based on (i) the model of expected log rates and (ii) observed log rates. The method also includes displaying, by a display device based on (i) the model of expected log rates and (ii) observed log rates in the monitored system, information relating to the impending failure prior to the actual occurrence of the impending failure. The online detection process identifies short term and long term failures and long term failures.",
+  "filing_date": "20161212",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to another aspect of the present invention, a computer-implemented method is provided for, in turn, providing an early warning of an impending failure in a monitored system. The method includes performing, by a processor, an offline model learning process that generates a model of expected log rates in the monitored system from historical log data. The expected log rates of the model represent a normal behavior of the monitored system. The method further includes performing, by the processor, an online detection process that detects the impending failure in the monitored system prior to an actual occurrence of the impending failure based on (i) the model of expected log rates and (ii) observed log rates in the monitored system. The method also includes displaying, by a display device based on (i) the model of expected log rates and (ii) observed log rates in the monitored system, information relating to the impending failure prior to the actual occurrence of the impending failure. The online detection process identifies short term failures and long term failures in the monitored system. According to another aspect of the present invention, a computer program product is provided for, in turn, providing an early warning of an impending failure in a monitored system. The computer program product includes a non-transitory computer readable storage medium having program instructions embodied therewith. The program instructions are executable by a computer to cause the computer to perform a method. The method includes performing, by a processor, an offline model learning process that generates a model of expected log rates in the monitored system from historical log data. The expected log rates of the model represent a normal behavior of the monitored system. The method further includes performing, by the processor, an online detection process that detects the impending failure in the monitored system prior to an actual occurrence of the impen...",
+  "date_published": "20170928",
+  "title": "Early Warning Prediction System",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 45095,
+    "optimized_size": 3769,
+    "reduction_percent": 91.64
+  }
+}

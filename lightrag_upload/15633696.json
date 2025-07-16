@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15633696",
+  "date_published": "20171012",
+  "date_produced": "20170927",
+  "filing_date": "20170626",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A network-based enterprise or other system that makes items available for selection to users may implement real-time updates to item recommendation models based on matrix factorization. An item recommendation model may be maintained that is generated from a singular value decomposition of a matrix indicating selections of items by users. A user-specific update to the item recommendation model may be calculated in real-time for a particular user such that the calculation may be performed without performing another singular value decomposition to generate an updated version of the item recommendation model. Item recommendations may then be made based on the user-specific update and the item recommendation model. In various embodiments, the item recommendations may be made in response to an indication or request for item recommendations for the particular user.",
+  "publication_number": "US20170293865A1-20171012",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram illustrating a real-time item recommendation engine implementing real-time updates to an item recommendation model based on matrix factorization, according to some embodiments. FIG. 2A is a block diagram illustrating an item recommendation model based on matrix factorization, according to some embodiments. FIG. 2B is a scatter plot diagram comparing common item recommendations between a real-time update for an item recommendation model for users and an item recommendation model that is not updated in real-time for the same users, according to some embodiments. FIG. 2C is a scatter plot diagram comparing user parameter vector differences between a real-time update for an item recommendation model for users and an item recommendation model that is not updated in real-time for the same users, according to some embodiments. FIG. 3A is a block diagram illustrating a network-based enterprise implementing real-time updates to an item recommendation model based on matrix factorization, according to some embodiments. FIG. 3B is a block diagram illustrating a customer device implementing real-time updates to an item recommendation model based on matrix factorization, according to some embodiments. FIG. 4 is a sequence diagram illustrating determining item recommendations for a particular user based on a real-time update to an item recommendation model in response to an item recommendation request for the particular user, according to some embodiments. FIG. 5 is a high-level flowchart illustrating methods and techniques for implementing real-time updates to an item recommendation model based on matrix factorization, according to some embodiments. FIG. 6 is a high-level flowchart illustrating methods and techniques for calculating a user-specific update for an item recommendation model for a particular user, according to some embodiments. FIG. 7 is high-level flowchart illustrating methods and techniques for...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SANDLER",
+      "inventor_name_first": "SAMUEL THEODORE",
+      "inventor_city": "SEATTLE",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "REAL-TIME UPDATES TO ITEM RECOMMENDATION MODELS BASED ON MATRIX FACTORIZATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 90471,
+    "optimized_size": 3457,
+    "reduction_percent": 96.18
+  }
+}

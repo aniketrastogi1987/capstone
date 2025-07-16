@@ -1,0 +1,52 @@
+{
+  "date_produced": "20160803",
+  "publication_number": "US20160239763A1-20160818",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15137973",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Krause",
+      "inventor_name_first": "Lee S.",
+      "inventor_city": "Indialantic",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hagan",
+      "inventor_name_first": "Craig T.",
+      "inventor_city": "Melbourne Beach",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McQueary",
+      "inventor_name_first": "Bruce R.",
+      "inventor_city": "Indialantic",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Schneider",
+      "inventor_name_first": "James B.",
+      "inventor_city": "Melbourne",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods and systems for motif recognition in graph sets. Distribution scores comparing the canonical representations of a compressed graph in the set of graphs versus the canonical representations of a compressed graph in a reference graph are used to determine the significance of the compressed graph.",
+  "filing_date": "20160425",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description section. This summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. The present invention represents a practical solution to SNA link detection. One object of the present invention is to discover implicit and explicit networks in social media and discern meaning. In one embodiment, the present invention is a combination of semantic processing, term recommendation, data acquisition, noise reduction, and link detection algorithms employed within a computing framework. One embodiment of the present invention uses the Linear Sub-Modular Bandits Greedy algorithm (LSB) combined with multi-dimensional feature analysis. That feature analysis may consider values for singular value decomposition, modified Katz index, and side information such as user metadata associated with each person or network node. In one aspect, the present invention concerns a method for network analysis. At least one search term is received through an interface in, e.g., a query or document. A recommendation engine is queried to retrieve at least one additional term related to the at least one search term. The at least one additional term is provided through the network interface. A data store is queried to retrieve information relating to the at least one search term and the at least one additional term. The retrieved information is provided through the network interface. Feedback on the relevance of the retrieved information is received through the network interface. The processor identifies influential nodes and links therebetween in the retrieved information using the received feedback. In one embodiment, the recommendation engine comprises information concerning third party usag...",
+  "date_published": "20160818",
+  "title": "Motif recognition",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 40601,
+    "optimized_size": 3284,
+    "reduction_percent": 91.91
+  }
+}

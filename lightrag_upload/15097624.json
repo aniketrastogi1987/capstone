@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15097624",
+  "date_published": "20171019",
+  "date_produced": "20171004",
+  "title": "SYSTEMS AND METHODS FOR REDUCING FRAUD RISK FOR A PRIMARY TRANSACTION ACCOUNT",
+  "filing_date": "20160413",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bernstein",
+      "inventor_name_first": "Kathi L.",
+      "inventor_city": "Murray",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Park",
+      "inventor_name_first": "Youngjoon",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2040"
+  ],
+  "main_ipcr_label": "G06Q2040",
+  "summary": "<SOH> SUMMARY <EOH>In various embodiments, an authorization system may receive an authorization request including a payment account first identifier. In response, the authorization system may construct a query having a search condition, wherein the search condition may be the payment account first identifier. The query is run against a database by the authorization system. In response to the payment account information including the search condition, the authorization system may retrieve payment account information from the database. In response to the payment account first identifier and a primary account identifier from the payment account information being the same, the authorization system may send a decline response. In various embodiments, the request may be a payment authorization request or a settlement request. Also, the payment account first identifier and/or the payment account second identifier may be an account token. The authorization system may parse the authorization request to identify the payment account first identifier. The database may comprise a relational database management system and/or a data file. In various embodiments, the decline response may be sent to a source of the authorization request. The authorization system may send an authorization response in response to the payment account first identifier and a primary account identifier from the payment account information not being the same. The response may not be sent in response to the payment account information not including a transaction block indicator. In various embodiments, a merchant system may transmit an authorization request including a payment account first identifier to an authorization system, wherein the authorization system may construct and run a query having a search condition comprising the payment account first identifier. The authorization system may retrieve payment account information from a database in response to the payment account information including the se...",
+  "patent_number": "None",
+  "abstract": "The system protects an account through the use of tokens, thereby eliminating the need to expose the primary account identifier during a transaction. If a primary account identifier is compromised, any use of the primary account identifier to facilitate a fraudulent purchase or settlement transaction may be blocked by the system. The system is configured to receive a payment authorization request including a payment account first identifier. The payment account first identifier serves as a search condition for a query, which is executed against a database to retrieve payment account information, if the payment account information exists. The system sends a decline response in response to the payment account first identifier and a primary account identifier from the payment account information being the same, indicating that a primary account is being used.",
+  "publication_number": "US20170300918A1-20171019",
+  "_processing_info": {
+    "original_size": 103000,
+    "optimized_size": 3585,
+    "reduction_percent": 96.52
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364823A1-20171221",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15185581",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ilic",
+      "inventor_name_first": "Aleksandar",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Evnine",
+      "inventor_name_first": "Ariel Benjamin",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Murthy",
+      "inventor_name_first": "Ashwin",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Yiyu",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kolomoyskyy",
+      "inventor_name_first": "Konstantine Oleksiyovich",
+      "inventor_city": "Moraga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ratiu",
+      "inventor_name_first": "Florin",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one embodiment, a method includes sending, through a communications network, several volumes of notifications corresponding to a first notification type to multiple users and several volumes of notifications corresponding to a second notification type to multiple users. The method further determines visitation impacts of the volumes of notifications of the first and second notification types and trains a machine-learning model based on the visitation impacts. The machine-learning model generates an assessment of a likelihood of interaction by a recipient user with each of the notifications.",
+  "filing_date": "20160617",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF PARTICULAR EMBODIMENTS <EOH>In particular embodiments, a notification system may deliver notifications to users based on a value model of the notifications and user types. The notification system may send various types of notifications based on social-networking activity, such as, as an example and not by way of limitation, new post notifications, new photo notifications, event notifications, etc. In particular embodiments, the notification system may analyze the impact of sending particular types of notifications at various volumes. The impact of notifications may include the rate of success of the notifications in causing the user to perform some final action that is the ultimate goal of delivering the notifications. The impact of the sent notifications may be used to train a machine-learning model that determines and assigns values to particular types of notifications. The notification-type values may be used to determine a volume of notifications to send for each particular type. As an example and not by way of limitation, if the notification system determines that a social network post notification has a higher value than an event notification, the notification system may send a higher volume of new post notifications to users. The machine-learning model may also analyze the impacts to determine and assign a value to notification types with respect to particular characteristics of users. As an example and not by way of limitation, the machine-learning model may determine that users over 40 years of age and who have not logged into the social network in more than 30 days are more likely to respond to SMS notifications, and therefore assign a higher value to SMS notifications with respect to users 40 years and older who have not logged in 30 or more days. In this manner, the notification system may be able to obtain a higher benefit from sending notifications while reducing the volume of notifications sent. The embodiments disclosed above are onl...",
+  "date_published": "20171221",
+  "title": "VALUE MODEL FOR SENDING NOTIFICATIONS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q5000",
+    "H04L1258",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 107371,
+    "optimized_size": 3928,
+    "reduction_percent": 96.34
+  }
+}

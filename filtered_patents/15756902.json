@@ -1,0 +1,38 @@
+{
+  "inventor_list": [
+    {
+      "inventor_name_last": "Forman",
+      "inventor_name_first": "George",
+      "inventor_city": "Port Orchard",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nachlieli",
+      "inventor_name_first": "Hila",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "filing_date": "20180301",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06K962"
+  ],
+  "main_ipcr_label": "G06N9900",
+  "date_published": "20180830",
+  "date_produced": "20180815",
+  "publication_number": "US20180247226A1-20180830",
+  "title": "CLASSIFIER",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a schematic illustration of an example schematic illustration of an example system for training and optimizing a balking classifier model with a training dataset that does not train on all classes of a corresponding target dataset in accordance with an implementation of the present disclosure. FIG. 2 illustrates a flowchart showing an example of a method for training and optimizing a balking classifier model with a training dataset that does not train on all classes of a corresponding target dataset in accordance with an implementation of the present disclosure. FIGS. 3 and 4 illustrate a flowchart showing an example of a method for training, testing, and determining a performance measurement of a classifier model in accordance with an implementation of the present disclosure. FIG. 5 is an example training dataset used to train and test a classifier model in accordance with an implementation of the present disclosure. FIG. 6 is an example block diagram illustrating a computer-readable medium in accordance with an implementation of the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "application_number": "15756902",
+  "abstract": "An example method is provided in according with one implementation of the present disclosure. The method comprises receiving a training dataset of cases, where each of a plurality of classes is associated with a set of labeled cases in the training dataset. The method also comprises defining a proper subset of classes in the training dataset, and training a first classifier model on the proper subset of classes in the training dataset. The method further comprises testing the first classifier model on at least one class in the training dataset that was excluded from the proper subset, and determining a performance measurement of the first classifier model.",
+  "decision": "PENDING",
+  "patent_number": "nan",
+  "_processing_info": {
+    "original_size": 47055,
+    "optimized_size": 2514,
+    "reduction_percent": 94.66
+  }
+}

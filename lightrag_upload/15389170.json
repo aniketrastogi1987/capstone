@@ -1,0 +1,66 @@
+{
+  "date_produced": "20170614",
+  "publication_number": "US20170185904A1-20170629",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15389170",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PADMANABHAN",
+      "inventor_name_first": "Dhanesh",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "RAJAGOPALAN",
+      "inventor_name_first": "Ravishankar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "ABBENA",
+      "inventor_name_first": "Aravind Kumar Yadav",
+      "inventor_city": "Hyderabad",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "DANISH",
+      "inventor_name_first": "Mohd Suaib",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "VISWANATHAN",
+      "inventor_name_first": "Aditi",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "RAYCHAUDHURI",
+      "inventor_name_first": "Samik",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "A computer-implemented method and an apparatus facilitate on-demand building of predictive models. Data corresponding to a plurality of customers is retrieved from data sources and a training data sample and a testing data sample are generated from the retrieved data. Variables for developing the predictive model are identified from the retrieved data and are subjected to any of structured categorical variable binning, unstructured categorical variable binning, and numeric variable binning to generate transformed variables. The transformed variables and the training data sample are used to develop predictive models. The developed predictive models are tested using the testing data sample and scores are generated corresponding to the developed predictive models. A predictive model is selected from among the developed predictive models based on the scores. The selected predictive model is published on a prediction platform to facilitate prediction of outcomes related to customers of the ...",
+  "filing_date": "20161222",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An embodiment of the invention provides a computer-implemented method for facilitating on-demand building of predictive models. The method receives, by a processor, from a user at least one specification for developing at least one predictive model, and an input identifying one or more data sources that store data related to a plurality of customers of an enterprise. The method retrieves, by the processor, the data related to the plurality of customers from the one or more data sources. The method generates, by the processor, a training data sample and a testing data sample from the retrieved data. The method performs, by the processor, at least one of structured categorical variable binning, unstructured categorical variable binning, and numeric variable binning to generate transformed variables from variables identified for developing the at least one predictive model. The method develops, by the processor, one or more predictive models based, at least in part, on the transformed variables and the training data sample. The method generates, by the processor, at least one score corresponding to each predictive model from among the one or more predictive models based, at least in part, on the testing data sample. The method publishes, by the processor, a predictive model on a prediction platform to facilitate prediction of outcomes related to customers of the enterprise. The predictive model is selected from among the one or more predictive models based on the at least one score associated with each predictive model. In another embodiment of the invention, an apparatus for facilitating on-demand building of predictive models includes an input/output (I/O) module and a communication interface communicably coupled with the I/O module. The I/O module is configured to receive from a user at least one specification for developing at least one predictive model, and an input identifying one or more data sources storing data related to a plurality of cust...",
+  "date_published": "20170629",
+  "title": "METHOD AND APPARATUS FOR FACILITATING ON-DEMAND BUILDING OF PREDICTIVE MODELS",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 110073,
+    "optimized_size": 4346,
+    "reduction_percent": 96.05
+  }
+}

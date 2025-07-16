@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170726",
+  "publication_number": "US20170228643A1-20170810",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15396000",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kurach",
+      "inventor_name_first": "Karol Piotr",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Andrychowicz",
+      "inventor_name_first": "Marcin",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Systems, methods, devices, and other techniques are disclosed for using an augmented neural network system to generate a sequence of outputs from a sequence of inputs. An augmented neural network system can include a controller neural network, a hierarchical external memory, and a memory access subsystem. The controller neural network receives a neural network input at each of a series of time steps processes the neural network input to generate a memory key for the time step. The external memory includes a set of memory nodes arranged as a binary tree. To provide an interface between the controller neural network and the external memory, the system includes a memory access subsystem that is configured to, for each of the series of time steps, perform one or more operations to generate a respective output for the time step. The capacity of the neural network system to account for long-range dependencies in input sequences may be extended. Also, memory access efficiency may be increased...",
+  "filing_date": "20161230",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes systems, methods, devices, and other techniques for processing input sequences with a controller neural network that has been augmented with a hierarchical external memory. Some implementations of the subject matter described herein include an augmented neural network system for processing a sequence of system inputs to generate a sequence of system outputs. The system can include a controller neural network, a hierarchical external memory, and a memory access subsystem. The controller neural network may be a feedforward neural network or a recurrent neural network. In general, the controller neural network is configured to receive a neural network input at each of a series of time steps and to process the neural network input to generate a neural network output for the time step. The neural network output can include a memory key and, optionally, other data (e.g., a system output portion). The hierarchical external memory is distinct from the controller neural network and includes a set of memory nodes arranged as a binary tree. To provide an interface between the controller neural network and the external memory, the system includes a memory access subsystem that is configured to, for each of the series of time steps, perform one or more operations to generate a respective system output for the time step. These and other implementations can optionally include one or more of the following features. The operations that the memory access subsystem is configured to perform at each of the series of time steps can include traversing the binary tree to generate a path from a root memory node in the binary tree to a particular leaf memory node in the binary tree using the memory key, reading the data stored in the particular leaf memory node, and updating the data stored in the particular leaf memory node using the memory key. Updating the data stored in the particular leaf memory node can include processing the data stored ...",
+  "date_published": "20170810",
+  "title": "Augmenting Neural Networks With Hierarchical External Memory",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F306"
+  ],
+  "_processing_info": {
+    "original_size": 79419,
+    "optimized_size": 3711,
+    "reduction_percent": 95.33
+  }
+}

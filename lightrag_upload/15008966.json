@@ -1,0 +1,66 @@
+{
+  "date_produced": "20160803",
+  "publication_number": "US20160239748A1-20160818",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15008966",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Dong-Su",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Byung-Kwon",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "NAM",
+      "inventor_name_first": "Jae-Hyun",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "JAMSHED",
+      "inventor_name_first": "Muhammad",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "PARK",
+      "inventor_name_first": "Kyoung-Soo",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHAE",
+      "inventor_name_first": "Jong-Wook",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A multi-pattern matching algorithm may be provided that includes: a moving step of moving a moving window from the start of a string one byte by one byte; a DF1 checking step of converting the string on a current position of the moving window into an integer value, and of checking whether or not a bit of a related position in a first direct filter DF1 for patterns having lengths larger than 2 bytes is set to 1; a DF moving step of checking one or more direct filters DF when the bit is set to 1 according to the DF1 checking step; a re-moving step of moving the moving window by one byte again when the bit of a related position in the direct filter DF, which has been checked lastly, is 0; and a terminating step of checking whether the moving window is located at the end of the string or not, and of terminating the algorithm when the moving window is positioned at the end of the string.",
+  "filing_date": "20160128",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment is a multi-pattern matching algorithm is provided that includes: a moving step of moving a moving window from the start of a string one byte by one byte; a DF 1 checking step of converting the string on a current position of the moving window into an integer value, and of checking whether or not a bit of a related position in a first direct filter DF 1 for patterns having lengths larger than 2 bytes is set to 1; a DF moving step of checking one or more direct filters DF when the bit is set to 1 according to the DF 1 checking step; a re-moving step of moving the moving window by one byte again when the bit of a related position in the direct filter DF, which has been checked lastly, is 0; and a terminating step of checking whether the moving window is located at the end of the string or not, and of terminating the algorithm when the moving window is positioned at the end of the string. Here, the multi-pattern matching algorithm may further include, after the DF moving step, a DF 4 checking step of checking whether or not a bit of a related position in a fourth direct filter DF 4 for patterns having lengths larger than 2 bytes and less than 4 bytes is set to 1. Here, the multi-pattern matching algorithm may further include, after the DF 4 checking step, a PID recording step of, when the bit of a related position in the fourth direct filter DF 4 is set to 1, recording a pattern ID (PID) corresponding to the string in which the moving window is located, with reference to a first compact table CT 1 storing PIDs of the patterns having lengths larger than 2 bytes and less than 4 bytes. Here, the multi-pattern matching algorithm may further include, after the DF moving step, a DF 2 checking step of moving the moving window by two bytes from the current position, of converting the string of a length as much as 2 bytes on the moved position into an integer value, and of checking whether or not a bit of a related position in a second direct fi...",
+  "date_published": "20160818",
+  "title": "MULTI-PATTERN MATCHING ALGORITHM AND PROCESSING APPARATUS USING THE SAME",
+  "ipcr_labels": [
+    "G06N504",
+    "H04L2906"
+  ],
+  "_processing_info": {
+    "original_size": 54390,
+    "optimized_size": 4184,
+    "reduction_percent": 92.31
+  }
+}

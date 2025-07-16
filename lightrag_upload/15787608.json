@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15787608",
+  "date_published": "20180426",
+  "date_produced": "20180411",
+  "filing_date": "20171018",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A system for self-learning archival of electronic data may be provided. A binary classifier may identify a text segment of an electronic dataset in response to text of the electronic dataset being associated with indicators of a word model. A first multiclass classifier may generate a first classification set comprising respective statistical metrics for the datafield that each predefined identifier in a group of predefined identifiers is representative of the datafield. A second multiclass classifier may receive a context of the electronic dataset and generate a second classification set. A combination classifier may apply weight values to the first classification set and the second classification set and form a weighted classification set and select a predefined identifier as being representative of the datafield based on the weighted classification set. The processor may store, in a memory, a data record comprising an association between the predefined identifier and the datafield.",
+  "publication_number": "US20180114144A1-20180426",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments may be better understood with reference to the following drawings and description. The components in the figures are not necessarily to scale. Moreover, in the figures, like-referenced numerals designate corresponding parts throughout the different views. FIG. 1 illustrates an example of a system to archive an electronic dataset. FIG. 2 Illustrates an example of a binary classifier. FIG. 3 illustrates an example of multiclass classifiers. FIG. 4 illustrates an example of a combination classifier FIG. 5 illustrates a flow logic of a system to archive an electronic dataset. FIG. 6 illustrates an example of a system that includes a memory and a processor. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Miranda",
+      "inventor_name_first": "Abhilash Alexander",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "O'Malley",
+      "inventor_name_first": "Laura",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Sacristan",
+      "inventor_name_first": "Pedro L.",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Bhowan",
+      "inventor_name_first": "Urvesh",
+      "inventor_city": "Bray Wicklow",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Corcoran",
+      "inventor_name_first": "Medb",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "title": "STATISTICAL SELF LEARNING ARCHIVAL SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 104757,
+    "optimized_size": 2920,
+    "reduction_percent": 97.21
+  }
+}

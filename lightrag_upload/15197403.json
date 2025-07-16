@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15197403",
+  "date_published": "20180104",
+  "date_produced": "20171219",
+  "title": "INTEGRATED CIRCUITS WITH HYBRID FIXED/CONFIGURABLE CLOCK NETWORKS",
+  "filing_date": "20160629",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Duong",
+      "inventor_name_first": "Kenneth",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ko",
+      "inventor_name_first": "Jung",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H03K19177",
+    "H03K19173",
+    "G06F110",
+    "G06F108"
+  ],
+  "main_ipcr_label": "H03K19177",
+  "summary": "<SOH> SUMMARY <EOH>An integrated circuit with a hybrid fixed-routed clock network is provided. In accordance with an embodiment, the hybrid clock network may include a configurable clock routing portion that routes clock signals from a clock source to a clock tree root and a fixed clock routing portion that routes the clock signals from the clock tree root to corresponding clock tree leaf nodes (e.g., to registers, counters, etc.). Arranged in this way, the configurable clock routing portion provides a common path for the clock signals, whereas the fixed clock routing portion provides divergent paths branching off from the clock tree root. The configurable and fixed clock routing portions may be implemented using an array of logic regions (sometimes referred to as “sectors”). Each logic region may include a clock switching block, a horizontal routing segment, a vertical routing segment, and associated programmable logic circuitry. The clock switching block may include four 4:1 multiplexers that receive the same clock signals. The horizontal/vertical routing segments that are used to implement the configurable routing portion may include bidirectional tristate buffers. On the other hand, horizontal/vertical routing segments that are used to implement the fixed routing portion may include simple inverters that exhibit less latency than the tristate buffers. The fixed clock routing portion may also be arranged in an H-tree mesh. A hybrid clock network formed in this way can be used to provide coverage for any suitable region on an integrated circuit. Further features of the invention, its nature and various advantages will be more apparent from the accompanying drawings and following detailed description.",
+  "patent_number": "None",
+  "abstract": "An integrated circuit with a clock distribution network is provided. The clock distribution network may include configurable clock routing paths linking a clock source to one or more clock tree roots and may also include fixed clock routing paths linking the clock tree roots to corresponding leaf nodes. Both the configurable clock routing paths and the fixed clock routing paths can be implemented using an array of logic regions, where each logic region includes a clock switching box, a horizontal routing segment, a vertical routing segment, and associated logic circuitry. The configurable routing paths may include horizontal/vertical routing segments with bidirectional tristate buffers. The fixed routing paths may include horizontal/vertical routing segments with unidirectional inverters that are configured to form an H-tree.",
+  "publication_number": "US20180006653A1-20180104",
+  "_processing_info": {
+    "original_size": 38196,
+    "optimized_size": 3310,
+    "reduction_percent": 91.33
+  }
+}

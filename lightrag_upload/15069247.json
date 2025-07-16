@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170830",
+  "publication_number": "US20170262761A1-20170914",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15069247",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YAN",
+      "inventor_name_first": "RUI",
+      "inventor_city": "OAKVILLE",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "YUAN",
+      "inventor_name_first": "SHUTAO",
+      "inventor_city": "AURORA",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "A computer-implemented method is disclosed that operates in conjunction with machine learning binary classification of an event. The method generates a rule relating to whether or not the event will occur. In one embodiment, the method includes obtaining foreground sequences corresponding to the event happening and background sequences corresponding to the event not happening. For each foreground sequence of a number of foreground sequences, the computer computes a plurality of difference values. The rule may be determined based on a largest difference value for one of the plurality of foreground sequences. A corresponding system is also disclosed.",
+  "filing_date": "20160314",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method and corresponding system are disclosed that operate in conjunction with machine learning binary classification of an event. The method may generate one or more rules that relate to whether or not the event will occur. The one or more rules may be more understandable to a human compared to the actual decision process used in the machine learning binary classification. In one embodiment, there is provided a computer-implemented method that may operate in conjunction with machine learning binary classification of an event. The method may generate a rule relating to whether or not the event will occur. The method may include the computer obtaining from memory a set of data having background sequences corresponding to instances of the event not occurring and foreground sequences corresponding to instances of the event occurring, each sequence position of each of the background sequences and the foreground sequences having a respective feature value. The method may further include for each foreground sequence of a plurality of the foreground sequences, the computer computing a plurality of difference values by, for each difference value: obtaining a respective subsequence pattern comprising feature values in a respective set of positions of the selected foreground sequence; and computing a value representing a comparison of: (i) occurrence of the respective subsequence pattern in the other foreground sequences and (ii) occurrence of the respective subsequence pattern in the background sequences, to obtain the difference value. The method may further include determining the rule based on a largest difference value for one of the plurality of foreground sequences. In some embodiments, the method may further include computing the value representing the comparison by: computing a first probability that the respective subsequence pattern is present in the other foreground sequences; computing a second probability that the respective subsequence patt...",
+  "date_published": "20170914",
+  "title": "SYSTEM AND METHOD FOR RULE GENERATION USING DATA PROCESSED BY A BINARY CLASSIFIER",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 94218,
+    "optimized_size": 3380,
+    "reduction_percent": 96.41
+  }
+}

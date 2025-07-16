@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15726633",
+  "date_published": "20180412",
+  "date_produced": "20180328",
+  "filing_date": "20171006",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A method for providing input data for a layer of a convolutional neural network “CNN”, the method comprising: receiving input data comprising input data values to be processed in a layer of the CNN; determining addresses in banked memory of a buffer in which the received data values are to be stored based upon format data indicating a format parameter of the input data in the layer and indicating a format parameter of a filter which is to be used to process the input data in the layer; and storing the received input data values at the determined addresses in the buffer for retrieval for processing in the layer.",
+  "publication_number": "US20180101763A1-20180412",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. Hardware logic, such as a hardware accelerator, may be configured to be able to implement one or more convolutional neural networks (CNNs). In order to maximise input data throughput into the computational portions of hardware for implementing the CNN, it is desirable to buffer input data read from a memory before it is processed. In order to improve data throughout, data may be stored evenly across the banks of memory based on the manner in which it is to be retrieved. Described herein are addressing schemes that allocate input data to an input data buffer in a manner that evenly spreads the input data across multiple data banks based upon format parameters relating to the format of input data and filters used in processing the input data. As a result, data is retrieved from the banked memory at a high throughput. More specifically, input buffer performance can be critical when a number of filters used for each pass is small—for example, where a large filter size needs to be processed one at a time (due to coefficient buffer constraints). In this way, the transfer of data into the computational portions might, for some layers, take longer than the processing performed in the convolution engines. The loading of input data into the convolution engines might therefore be a limiting factor on performance of the hardware for implementing the CNN. There is provided a method for receiving input data for a layer of a convolutional neural network “CNN” for processing, the method comprising: receiving input data as comprising input data values to be processed in a layer of the CNN; determining addresses in banked memory of a buffe...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1206"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Barnard",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Berkhamsted",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Gibson",
+      "inventor_name_first": "Clifford",
+      "inventor_city": "St. Albans",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "McQuillan",
+      "inventor_name_first": "Colin",
+      "inventor_city": "Watford",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "Buffer Addressing for a Convolutional Neural Network",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 98340,
+    "optimized_size": 3490,
+    "reduction_percent": 96.45
+  }
+}

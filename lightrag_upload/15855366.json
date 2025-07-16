@@ -1,0 +1,69 @@
+{
+  "patent_number": "nan",
+  "application_number": "15855366",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20171227",
+  "main_ipcr_label": "G06N700",
+  "abstract": "A method includes performing contextual association of entities using multi-source data. For each context the method performs co-clustering to identify distinct expert-skill associations; constructing single-entity unipartite graph representations and performing a random walk within each single-entity unipartite graph; for each single-entity unipartite graph, obtaining steady state distributions using the random walks to obtain clusters of experts and skills; performing a weighted two-way random walk across entity graphs (graph edges), giving preference to traversal within members of the same co-cluster; and performing link prediction for each context by dynamically adding edges, and obtaining overall skills predictions, analyses and inferences by merging the contexts and weighting the links of each context. The method can also use the context-specific weights obtained from the co-association information in a matrix completion procedure, and finally merge the context-specific outputs t...",
+  "publication_number": "US20180121823A1-20180503",
+  "summary": "<SOH> SUMMARY <EOH>In a first aspect thereof the embodiments of this invention provide a method implemented at least partially using a computer. The method comprises performing contextual association of entities using multi-source data and for each context performing co-clustering to identify distinct expert-skill associations; constructing single-entity unipartite graph representations and performing a random walk within each single-entity unipartite graph; for each single-entity unipartite graph, obtaining steady state distributions using the random walks to obtain clusters of experts and skills; performing a weighted two-way random walk across entity graphs (graph edges), giving preference to traversal within members of the same co-cluster; and performing link prediction for each context by dynamically adding edges, and obtaining overall skills predictions, analyses and inferences by merging the contexts and weighting the links of each context. In another aspect thereof the embodiments of this invention provide a computer program product comprised of software instructions on a computer-readable medium. Execution of the software instructions using a computer results in performing operations that comprise performing contextual association of entities using multi-source data and for each context performing co-clustering to identify distinct expert-skill associations; constructing single-entity unipartite graph representations and performing a random walk within each single-entity unipartite graph; for each single-entity unipartite graph, obtaining steady state distributions using the random walks to obtain clusters of experts and skills; performing a weighted two-way random walk across entity graphs (graph edges), giving preference to traversal within members of the same co-cluster; and performing link prediction for each context by dynamically adding edges, and obtaining overall skills predictions, analyses and inferences by merging the contexts and weighting the l...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06Q1010",
+    "G06F1730",
+    "G06N502",
+    "G06Q1006"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bauer",
+      "inventor_name_first": "John H.",
+      "inventor_city": "Woodstock",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fang",
+      "inventor_name_first": "Dongping",
+      "inventor_city": "Naperville",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mojsilovic",
+      "inventor_name_first": "Aleksandra",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ramamurthy",
+      "inventor_name_first": "Karthikeyan N.",
+      "inventor_city": "Ossining",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Varshney",
+      "inventor_name_first": "Kush R.",
+      "inventor_city": "Ossining",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Jun",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Method, System and Computer Program Product for Automating Expertise Management Using Social and Enterprise Data",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 57562,
+    "optimized_size": 4404,
+    "reduction_percent": 92.35
+  }
+}

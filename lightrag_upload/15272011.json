@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15272011",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "title": "COMPUTING WORKLOAD DISTRIBUTION PLANNING TOOL",
+  "filing_date": "20160921",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ginis",
+      "inventor_name_first": "Boris",
+      "inventor_city": "Brighton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Northup",
+      "inventor_name_first": "William",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DiStauro",
+      "inventor_name_first": "Anthony",
+      "inventor_city": "Milford",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fernandes",
+      "inventor_name_first": "Kevin",
+      "inventor_city": "Acton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F950",
+    "G06F1750"
+  ],
+  "main_ipcr_label": "G06F950",
+  "summary": "<SOH> SUMMARY <EOH>A system for monitoring, analyzing, and modeling use of data center resources by a computing workload (e.g., a customer's computing workload) includes instructions stored on a non-transitory computer readable storage medium and executable by at least one processor. The data center resources and the computing workload may be distributed across several individual data centers, for example, in an arrangement of multiple data centers (“multiplex of data centers”) in a region or country. In an aspect, the system includes, for each individual data center of the multiplex data center, a collector component configured collect performance metrics of a computing workload running in the individual data center and a local data repository configured to store the collected performance metrics. In another aspect, the system includes, for each individual data center, a model building component configured to build a respective individual model of data center resource use for each individual central processor complex (“individual CPC”) in the individual data center using the stored performance metrics. In a further aspect, the system includes a model merging component configured to receive and combine the individual CPC models, created by the model building components for the individual data centers of the multiplex of data centers, into a single combined model applicable to the computing workload across the multiplex of data centers. In an example implementation, the system may include a reporting process component configured to make the single combined model available to users in user-selectable versions (e.g., a “multiplex-data-centers” version of the single combined model or an “individual-data-centers” version of the single combined model). The details of one or more implementations are set forth in the accompanying drawings and the description below. Other features will be apparent from the description and drawings, and from the claims.",
+  "patent_number": "None",
+  "abstract": "A system includes, for each individual data center of a multiplex data center, a collector component, a local data repository, and a model building component. The collector component collects performance metrics of a computing workload running in the each individual data center of the multiplex data center and stores the collected performance metrics in the local data repository. The model building component builds a respective individual model of data center resource use for each individual CPC in the individual data center using the stored performance metrics. The system further includes a model merging component configured to receive and combine the individual CPC models created by the model building components for the individual data centers into a single multiplex data center model applicable to the computing workload across the multiplex data center.",
+  "publication_number": "US20180081726A1-20180322",
+  "_processing_info": {
+    "original_size": 61556,
+    "optimized_size": 3866,
+    "reduction_percent": 93.72
+  }
+}

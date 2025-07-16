@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170419",
+  "publication_number": "US20170124454A1-20170504",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15338225",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Vasudevan",
+      "inventor_name_first": "Vijay",
+      "inventor_city": "Los Altos Hills",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dean",
+      "inventor_name_first": "Jeffrey Adgate",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ghemawat",
+      "inventor_name_first": "Sanjay",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for modifying a computational graph to include send and receive nodes. Communication between unique devices performing operations of different subgraphs of the computational graph can be handled efficiently by inserting send and receive nodes into each subgraph. When executed, the operations that these send and receive nodes represent may enable pairs of unique devices to conduct communication with each other in a self-sufficient manner. This shifts the burden of coordinating communication away from the backend, which affords the system that processes this computational graph representation the opportunity to perform one or more other processes while devices are executing subgraphs.",
+  "filing_date": "20161028",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, this specification describes a system for processing computational graphs representing neural networks and other machine learning models. Particular embodiments of the subject matter described in this specification can be implemented so as to realize one or more of the following advantages. Operations of a neural network, e.g., operations to generate an inference from an input or to train the neural network, can be represented as a computational graph of nodes and directed edges. A system processes this computational graph representation to efficiently perform the operations of the neural network. By way of illustration, subgraphs of the computational graph can be assigned to unique devices, each of which performs operations in the respective subgraph, to reduce an overall time required to perform operations of the neural network. Communication between unique devices performing operations of different subgraphs of the computational graph can be handled efficiently by inserting send and receive nodes into each subgraph. When executed, the operations that these send and receive nodes represent may enable pairs of unique devices to conduct communication with each other in a self-sufficient manner. This shifts the burden of coordinating communication away from the backend, which affords the system that processes this computational graph representation the opportunity to perform one or more other processes while devices are executing subgraphs. Send and receive nodes serve to compartmentalize subgraphs in a manner that allows for a neural network or a portion of a neural network represented by such subgraphs to be trained on one device, and later on allocated to another device. For at least these reasons, modifying computational graphs to include pairs of send and receive nodes may help reduce time costs and the amount of network communication required to process a computational graph in a distributed fashion. In some aspects, the subject m...",
+  "date_published": "20170504",
+  "title": "MODIFYING COMPUTATIONAL GRAPHS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1716",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 85208,
+    "optimized_size": 3643,
+    "reduction_percent": 95.72
+  }
+}

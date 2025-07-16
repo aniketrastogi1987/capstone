@@ -1,0 +1,30 @@
+{
+  "date_produced": "20170125",
+  "publication_number": "US20170039485A1-20170209",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15208526",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kadav",
+      "inventor_name_first": "Asim",
+      "inventor_city": "Plainsboro",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A machine learning method includes installing a plurality of model replicas for training on a plurality of computer learning nodes; receiving training data at a each model replica and updating parameters for the model replica after trailing; sending the parameters to other model replicas with a communication batch size; evaluating received parameters from other model replicas; and dynamically adjusting the communication batch size to balance computation and communication overhead and ensuring convergence even with a mismatch in processing abilities on different computer learning nodes.",
+  "filing_date": "20160712",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, a machine learning method includes installing a plurality of model replicas for training on a plurality of computer learning nodes; receiving training data at a each model replica and updating parameters for the model replica after trailing; sending the parameters to other model replicas with a communication batch size; evaluating received parameters from other model replicas; and dynamically adjusting the communication batch size to balance computation and communication overhead and ensuring convergence even with a mismatch in processing abilities on different computer learning nodes. In another aspect, a machine learning method includes installing a plurality of model replicas for training on a plurality of computation nodes; receiving training data at a each model replica and updating parameters for the model replica after training; sending the parameters to all other model replicas with a starting communication batch size; evaluating received parameters from other model replicas; and adjusting the communication batch size during training to balance computation and communication overhead and ensuring convergence even with a mismatch in processing abilities on different computation nodes. In another aspect, training data is received by a model replica, which computes the new model parameters W. The new model is sent after a predetermined N iterations to all other replicas. The system then reads and counts the number of receiving replicas. Next, the system merges the received models and increases a communication batch size (cb_size) if the number of received models are below a predetermined threshold, and decreases the cb_size if the number of received models exceed another threshold called iteration counts. cb size represents a communication batch size with the number of samples trained before the updated model is sent out iter_count represents the iteration count (of data) being processed at each node. Implementations of the abov...",
+  "date_published": "20170209",
+  "title": "System and Method for Balancing Computation with Communication in Parallel Learning",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 26478,
+    "optimized_size": 3164,
+    "reduction_percent": 88.05
+  }
+}

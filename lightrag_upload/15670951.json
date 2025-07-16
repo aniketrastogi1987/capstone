@@ -1,0 +1,54 @@
+{
+  "patent_number": "None",
+  "application_number": "15670951",
+  "date_published": "20180208",
+  "date_produced": "20180124",
+  "filing_date": "20170807",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method of updating a classifier on-the-fly is provided. The method includes providing a base classifier. The base classifier is a neural network. The method further includes receiving a class and a set of images associated with the class. The method further includes splitting the set of images into an evaluation set and a training set. The method further includes updating the base classifier on-the-fly to provide an updated classifier. Updating the base classifier includes (1) extracting features for each image from the training set from the base classifier; (2) training the updated classifier using the extracted features; and (3) scoring the evaluation set with the updated classifier.",
+  "publication_number": "US20180039887A1-20180208",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In accordance with some embodiments of the present invention, training a new classifier on-the-fly can happen with even as little as 10 to 50 instances of a class. In some embodiments, the training happens in near real-time (e.g., less than 10 seconds for 10 images). A user or a program can interact with the on-the-fly trainer to ensure the quality of the trained classifier. In some embodiments, the new classifier will only be integrated to the search process once certain checks are made. An existing visual classifiers can be enhanced (i.e., trained with better precision and recall) or adapted to a different use cases very fast. In some embodiments, a classifier is learned with images only, and can therefore be adapted easily based on a user's needs. According to a first aspect, a method of updating a classifier on-the-fly is provided. The method includes providing a base classifier. The base classifier is a neural network. The method further includes receiving a class and a set of images associated with the class and splitting the set of images into an evaluation set and a training set. The method further includes updating the base classifier on-the-fly to provide an updated classifier. Updating the base classifier includes (1) extracting features for each image from the training set from the base classifier; (2) training the updated classifier using the extracted features; and (3) scoring the evaluation set with the updated classifier. According to a second aspect, a device for updating a classifier on-the-fly is provided. The device includes a processor; a memory coupled to the processor; and a network interface coupled to the processor. The processor is configured to provide a base classifier. The base classifier is a neural network. The processor is further configured to receive a class and a set of images associated with the class and split the set of images into an evaluation set and a training set. The processor is further...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06K900",
+    "G06F3048",
+    "G06K962"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SHAJI",
+      "inventor_name_first": "Appu",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "RIZK",
+      "inventor_name_first": "Ramzi",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "SANDHAWALIA",
+      "inventor_name_first": "Harsimrat S.",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "SCHMIDT-HACKENBERG",
+      "inventor_name_first": "Ludwig G.W.",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "SYSTEMS, METHODS, AND COMPUTER PROGRAM PRODUCTS FOR EXTENDING, AUGMENTING AND ENHANCING SEARCHING AND SORTING CAPABILITIES BY LEARNING AND ADDING CONCEPTS ON THE FLY",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 53461,
+    "optimized_size": 3827,
+    "reduction_percent": 92.84
+  }
+}

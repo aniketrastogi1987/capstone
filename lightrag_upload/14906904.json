@@ -1,0 +1,31 @@
+{
+  "date_produced": "20160615",
+  "publication_number": "US20160189058A1-20160630",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "14906904",
+  "inventor_list": [
+    {
+      "inventor_name_last": "OZKAN",
+      "inventor_name_first": "Hüseyin",
+      "inventor_city": "Ankara",
+      "inventor_state": "",
+      "inventor_country": "TR"
+    }
+  ],
+  "abstract": "The present invention relates to a method for incremental learning of a classification model, where pre-defined weak incremental learners are distributed over the distinct regions in a set of partitionings of the input domain. The partitionings and regions are organized via a binary tree and they are allowed to vary in a data-driven way, i.e., in a way to minimize the classification error rate. Moreover, to test a given data point, a mixture of decisions is obtained through the models learned in the regions that this point falls in. Hence, naturally, in the cold start phase of the data stream, the simpler models belonging to the larger regions are favored and as more data get available, the invention automatically puts more weights on the more complex models.",
+  "filing_date": "20160122",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Our invention is capable of processing billions of data (such as feature vectors extracted from video frames) continuously, i.e., with no interrupt, and with incremental updates of a very low memory requirement and very high speed. The three main blocks of our invention (learning of the regions classifiers, learning the combinations and learning the space partitionings) are all data-driven and directly target at minimizing of the empirical classification error rate. The computational complexity of these updates is independent with the size of data to be processed; hence the method is highly scalable with the data size. The method also incrementally learns the space partitioning to distribute the local classifiers, which removes the necessity to list the all possible partitioning for a “good enough” classification. As a result, the method is highly scalable with the data dimensionality. The non-linear class separations are approximated via piece-wise linear boundaries incrementally, hence the method has high fitting capability. The proposed method is robust to over-fitting, since the local classifiers are linear classifiers, which are of finite “VC” dimensionality. The changes in the data source statistics are adaptively learnt and registered. Moreover, our method is robust to the noise in data, since the weighted combination of perceptions provides a soft classification decision.",
+  "date_published": "20160630",
+  "title": "INCREMENTAL LEARNER VIA AN ADAPTIVE MIXTURE OF WEAK LEARNERS DISTRIBUTED ON A NON-RIGID BINARY TREE",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 29259,
+    "optimized_size": 2825,
+    "reduction_percent": 90.34
+  }
+}

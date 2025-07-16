@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15658993",
+  "date_published": "20180201",
+  "date_produced": "20180117",
+  "filing_date": "20170725",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A data processing method, includes: mapping each of a plurality of data, for which classes the data belong to are known, to one point on an N-dimensional feature space using at least two feature amounts; dividing a set of points corresponding to the plurality of data mapped on the feature space into a plurality of N-dimensional simplexes having each point as an apex; classifying a set of points that constitute a hyperplane of each simplex obtained by the division into a subset including points that belong to the same class as elements; and reducing the elements of the subsets for each of the classified subsets. The dividing includes dividing the set of points into the plurality of simplexes so a hypersphere circumscribed on each simplex does not include a point that constitutes another simplex.",
+  "publication_number": "US20180032912A1-20180201",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to an aspect of the present invention, there is provided a data processing method executed by a processor, comprising mapping each of a plurality of data, for which the classes the data belong to are known, to one point on an N-dimensional (N is an integer of not less than 2 or infinity) feature space using at least two feature amounts, dividing a set of points corresponding to the plurality of data mapped on the feature space into a plurality of N-dimensional simplexes having each point as an apex, classifying a set of points that constitute a hyperplane of each simplex obtained by the division into a subset including points that belong to the same class as elements, and reducing the elements of the subsets for each of the classified subsets, wherein the dividing comprises dividing the set of points into the plurality of simplexes so a hypersphere circumscribed on each simplex does not include a point that constitutes another simplex. Further features of the present invention will become apparent from the following description of exemplary embodiments with reference to the attached drawings.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06K962"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Matsumoto",
+      "inventor_name_first": "Kazunori",
+      "inventor_city": "Fujimino-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Hoashi",
+      "inventor_name_first": "Keiichiro",
+      "inventor_city": "Fujimino-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "DATA PROCESSING METHOD, AND DATA PROCESSING APPARATUS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 34844,
+    "optimized_size": 2669,
+    "reduction_percent": 92.34
+  }
+}

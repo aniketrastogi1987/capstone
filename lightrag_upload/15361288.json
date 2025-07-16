@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15361288",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "title": "DETECTION OF SECURITY INCIDENTS THROUGH SIMULATIONS",
+  "filing_date": "20161125",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Adrian",
+      "inventor_name_first": "Maximilian",
+      "inventor_city": "Bad Schoenborn",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Gerashchenko",
+      "inventor_name_first": "Maxym",
+      "inventor_city": "Heidelberg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Frommer",
+      "inventor_name_first": "Juri",
+      "inventor_city": "Darmstadt",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Brencher",
+      "inventor_name_first": "Bjoern",
+      "inventor_city": "Walldorf",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2157"
+  ],
+  "main_ipcr_label": "G06F2157",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The claims set forth the embodiments with particularity. The embodiments are illustrated by way of examples and not by way of limitation in the figures of the accompanying drawings in which like references indicate similar elements. The embodiments, together with its advantages, may be best understood from the following detailed description taken in conjunction with the accompanying drawings. FIG. 1 is a block diagram illustrating a system for refining security protection mechanisms for detecting security incidents in monitored systems from IT environment, according to one embodiment. FIG. 2 is a flow diagram illustrating a process for detection of security incidents through a virtual testing environment, according to one embodiment. FIG. 3 is a flow diagram illustrating a process for measuring an efficiency rate of a security monitoring system through simulations in a virtual testing environment, according to one embodiment. FIG. 4 is a flow diagram illustrating a process for improving detection of security incidents through simulations in a virtual testing environment, according to one embodiment. FIG. 5 is a block diagram illustrating an exemplary distribution of system protection levels with regards to different criticality values associated with measured systems, according to one embodiment. FIG. 6 is a block diagram illustrating an embodiment of a computing environment in which the techniques described for detection of security incidents can be implemented. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A virtual testing environment VTE is instantiated for automated measurement of performance of a security monitoring system (SMS). Predefined attacks are executed against a cloned version of a monitored system in the VTE. The predefined attacks are defined at an attack catalog. Based on an execution result of the predefined attacks, a detection rate of the SMS at the VTE and a protection level of the cloned version of the monitored system are measured. Based on the detection rate and the protection level, an action for improving SMS and the protection of the monitored system is determined. Based on the determined action, logic modifications related to SMS and improvement on protection measures for the monitored system are performed.",
+  "publication_number": "US20180150638A1-20180531",
+  "_processing_info": {
+    "original_size": 60867,
+    "optimized_size": 3332,
+    "reduction_percent": 94.53
+  }
+}

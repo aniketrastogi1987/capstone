@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180308",
+  "publication_number": "US20180082209A1-20180322",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15267528",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Thompson",
+      "inventor_name_first": "Timothy Guy",
+      "inventor_city": "Purcellville",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods are provided for operating to an initial optimized baseline solution to a multi-objective problem. As the initial optimized baseline solution is determined, some regions, such as local or global maxima, minima, and/or saddle points in the objective space may be mapped. The mapping may be performed by storing mesh chromosomes corresponding to some of the features (e.g., extrema, saddle points, etc.) in the objective space along with the location of those chromosomes within the objective space (e.g., objective values corresponding to each of the objectives). The mesh chromosome may be used in subsequent re-optimization problems, such as with reformulation. Although in a re-optimization the objectives, decision variables, and or objective/constraint models may change, the mesh chromosomes may still provide information and direction for more quickly and/or with reduced resources converge on a re-optimized solution.",
+  "filing_date": "20160916",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Reference will now be made to the accompanying drawings, which are not necessarily drawn to scale, and wherein: FIG. 1 is a schematic diagram that illustrates an example optimizing system with input parameters and optimized solutions based on one or more objective models and/or constraint models of a multi-objective evolutionary algorithm (MOEA) system with an objective refinement system, in accordance with example embodiments of the disclosure. FIG. 2 is a schematic diagram that illustrates an example environment with the MOEA system and the objective refinement system of FIG. 1 , in accordance with example embodiments of the disclosure. FIG. 3 is a block diagram that illustrates the example MOEA system with meshing of an objective space of FIG. 1 , in accordance with example embodiments of the disclosure. FIGS. 4A and 4B are charts illustrating an example pareto-optimized solution to a multi-objective problem, in accordance with example embodiments of the disclosure. FIG. 5 is a block diagram that illustrates the example objective refinement system of FIGS. 1 and 2 , in accordance with example embodiments of the disclosure. FIG. 6 is a flow diagram that illustrates an example method of generating an objective space mapping, in accordance with example embodiments of the disclosure. FIG. 7 is a schematic diagram that illustrates an example objective space with features that may be meshed for subsequent reference in a reformulated optimization, in accordance with example embodiments of the disclosure. FIG. 8 is a flow diagram that illustrates an example method for directing a re-optimization based at least in part on a mesh-mapping of an objective space, in accordance with example embodiments of the disclosure. FIG. 9 is a flow diagram that illustrates an example method for driving to locations in an objective space to generate a mapping of the objective space, in accordance with example embodiments of the disclosure. deta...",
+  "date_published": "20180322",
+  "title": "Systems and Methods for Multi-Objective Optimizations with Objective Space Mapping",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N500"
+  ],
+  "_processing_info": {
+    "original_size": 153042,
+    "optimized_size": 3538,
+    "reduction_percent": 97.69
+  }
+}

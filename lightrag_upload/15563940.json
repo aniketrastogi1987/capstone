@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15563940",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "filing_date": "20171002",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Certain ensembles of metapletic anyons allow for topologically protected encoding and processing of quantum information. Such processing is done by sequences of gates (circuits) drawn from a certain basis of unitary metaplectic gates. A subject unitary operator required for the desired processing can be approximated to any desired precision by a circuit that has to be effectively and efficiently synthesized on a classical computer. Synthesis methods use unitary reflection operators that can be represented either exactly or by ancilla-assisted approximation over the basis of metaplectic gates based on cost-optimizing determinations made by the synthesis algorithm.",
+  "publication_number": "US20180129965A1-20180510",
+  "summary": "<SOH> SUMMARY <EOH>Computer-implemented methods permit efficient and effective synthesis of quantum circuits over a metaplectic basis. In some cases, qutrit states are estimated based on coefficients that are Eisenstein integers, and, depending on a required precision, circuit synthesis methods with ancillas or without ancillas are selected. A selected unitary is synthesized to include a series of one or more SUM, SWAP, Flip, Hadamard, Q, and axial reflection gates, wherein the SUM gate is defined as SUM|j, k>=|j,(j+k) mod 3> and is described by the following matrix: SUM = ( 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 ) The SWAP gate is defined as SWAP |j, k>=|k, j>, the Flip gate is defined as Flip=|0><0|+|1|−|2><2|, and the Q gate is one of: Q 0 = ( ω 0 0 0 1 0 0 0 1 ) , Q 1 = ( 1 0 0 0 ω 0 0 0 1 ) , Q 2 = ( 1 0 0 0 1 0 0 0 ω ) . The foregoing and other objects, features, and advantages will become more apparent from the following detailed description, which proceeds with reference to the accompanying figures.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1714",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bocharov",
+      "inventor_name_first": "Alexei",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Zhenghan",
+      "inventor_city": "Goleta",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cui",
+      "inventor_name_first": "Xingshan",
+      "inventor_city": "Goleta",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kliuchnikov",
+      "inventor_name_first": "Vadym",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "EFFICIENT TOPOLOGICAL COMPILATION FOR METAPLECTIC ANYON MODEL",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 46547,
+    "optimized_size": 2845,
+    "reduction_percent": 93.89
+  }
+}

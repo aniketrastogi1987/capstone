@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193387A1-20170706",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15291325",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lavallee",
+      "inventor_name_first": "Jean-Francois",
+      "inventor_city": "Montreal",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "Aspects of the disclosure are directed to natural language processing or natural language understanding and may include a determination of a probabilistic or probability-based ranking of potential results. For example, natural language input may be received such as speech or text. Natural language processing may be performed to determine one or more potential results for the input. A pairwise classifier may be used to determine a score for element pairs in the potential results. Based on the scores, probabilities for the element pairs may be determined. Based on the probabilities for the element pairs, further probabilities may be determined such as by estimating the probability that a current result is the top rank or best choice. Based on the estimated probabilities that the current result is the top rank or best choice, a ranking may be determined, which may form the basis for natural language understanding output.",
+  "filing_date": "20161012",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The following presents a simplified summary of various aspects described herein. This summary is not an extensive overview, and is not intended to identify key or critical elements or to delineate the scope of the claims. The following summary merely presents some concepts in a simplified form as an introductory prelude to the more detailed description provided below. To overcome the challenges discussed above, and to overcome other challenges that will be apparent upon reading and understanding the present specification, aspects described herein advantageously overcome shortcomings of commonly used techniques to score and rank potential results of a natural language understanding system. Advantages provided by the techniques described herein include, for example, the ability to determine, based on scores determined from a pairwise classifier, more useful listwise probabilistic scores that include additional information about the relationships between the various elements of the potential results; the ability to use the probabilistic values in a way that is amendable to being used by other ranking processes or for simple heuristics; and the ability to minimize many of the drawbacks commonly seen in pairwise-based processes by, for example, determining a quality measurement of a prediction or by, for example, removing the impact of the comparison order. According to some aspects, the quality measurement may be based on a probability of a cycle. Some aspects described herein include embodiments or arrangements that receive natural language input; determine a list of potential results based on the natural language input; determine, using a pairwise classifier, scores for element pairs determined from the list of potential results; determine, based on the scores for the element pairs, one or more pairwise probabilities for the elements pairs; determine, based on the one or more pairwise probabilities for the element pairs, an approximation of a probab...",
+  "date_published": "20170706",
+  "title": "Probabilistic Ranking for Natural Language Understanding",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1728"
+  ],
+  "_processing_info": {
+    "original_size": 99790,
+    "optimized_size": 3494,
+    "reduction_percent": 96.5
+  }
+}

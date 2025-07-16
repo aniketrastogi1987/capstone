@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15788198",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20171019",
+  "main_ipcr_label": "G06N700",
+  "abstract": "In one embodiment, the method includes determining one or more nodes associated with a treatment of a query; generating one or more stimuli associated with the treatment of the query wherein the or each stimulus are likely to perturb one or more resources within a system; measuring data at the or each node relating to the resources to determine the effect of the or each stimuli at the or each node; identifying one or more pairs of nodes which have a correlation in the measured data; transforming the correlation into a causal relationships where the cause is a measuring device measuring the response and the consequences are the other correlated measuring devices; generating a list of causal relationships; and combining different causal relationships into a causal model so that a chain of causal propagations can be built",
+  "publication_number": "US20180121822A1-20180503",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to one aspect of the present invention there is provided a method of determining system problems within a defined controlled environment having a least part of the environment linked with a virtual infrastructure, the system problems being associated with the treatment of a query instigated, in use, by a user, the method comprising: determining one or more nodes associated with the treatment of the query; generating one or more stimuli associated with the treatment of the query wherein the or each stimulus are likely to perturb one or more resources within the system; measuring data at the or each node relating to the resources to determine the effect of the or each stimuli at the or each node; identifying one or more pairs of nodes which have a correlation in the measured data; transforming the correlation into a causal relationships where the cause is a measuring device measuring the perturbed resource and the consequences are the other correlated measuring devices; generating a list of causal relationships; and combining different causal relationships into a causal model so that a chain of causal propagations can be built. According to a second aspect of the present invention there is provided an automated sandbox deployed in a controlled cloud environment having a least part of the environment linked with a virtual infrastructure, the sandbox for monitoring problems associated with the treatment of a query instigated, in use, by a user, the sandbox comprising: a determination module for determining one or more nodes associated with the treatment of the query; a stimulus generating module for generating one or more stimuli associated with the treatment of the query wherein the or each stimulus are likely to perturb one or more resources within the system; a measurement device for measuring data at the or each node relating to the resources to determine the effect of the or each stimuli at the or each node; a correlati...",
+  "ipcr_labels": [
+    "G06N700",
+    "H04L1224",
+    "H04L2908"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "AGHASARYAN",
+      "inventor_name_first": "Armen",
+      "inventor_city": "Nozay",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "BOUZID",
+      "inventor_name_first": "Makram",
+      "inventor_city": "Nozay",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "KOSTADINOV",
+      "inventor_name_first": "Dimitre Davidov",
+      "inventor_city": "Nozay",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Woo",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Essex",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DETERMINING PERFORMANCE IN A DISTRIBUTED APPLICATION OR SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 47782,
+    "optimized_size": 3837,
+    "reduction_percent": 91.97
+  }
+}

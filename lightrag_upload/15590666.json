@@ -1,0 +1,55 @@
+{
+  "patent_number": "None",
+  "application_number": "15590666",
+  "date_published": "20171123",
+  "date_produced": "20171108",
+  "filing_date": "20170509",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Security systems and methods for detecting intrusion events include one or more sensors configured to monitor an environment. A pruned convolutional neural network (CNN) is configured process information from the one or more sensors to classify events in the monitored environment. CNN filters having the smallest summed weights have been pruned from the pruned CNN. An alert module is configured to detect an intrusion event in the monitored environment based on event classifications. A control module is configured to perform a security action based on the detection of an intrusion event.",
+  "publication_number": "US20170337467A1-20171123",
+  "summary": "<SOH> SUMMARY <EOH>A security system includes one or more sensors configured to monitor an environment. A pruned convolutional neural network (CNN) is configured process information from the one or more sensors to classify events in the monitored environment. CNN filters having the smallest summed weights have been pruned from the pruned CNN. An alert module is configured to detect an intrusion event in the monitored environment based on event classifications. A control module is configured to perform a security action based on the detection of an intrusion event. A method of detecting intrusion events includes monitoring an environment using one or more sensors. Events in the monitored environment are classified based on information from the one or more sensors using a pruned CNN. CNN filters having the smallest summed weights have been pruned from the pruned CNN. An intrusion event is detected in the monitored environment based on event classification. A security action is performed based on the detection of an intrusion event. These and other features and advantages will become apparent from the following detailed description of illustrative embodiments thereof, which is to be read in connection with the accompanying drawings.",
+  "ipcr_labels": [
+    "G06N304",
+    "G06K962",
+    "G06F1717",
+    "G06K966",
+    "G06F1715"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kadav",
+      "inventor_name_first": "Asim",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Durdanovic",
+      "inventor_name_first": "Igor",
+      "inventor_city": "Lawrenceville",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Graf",
+      "inventor_name_first": "Hans Peter",
+      "inventor_city": "Lincroft",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Hao",
+      "inventor_city": "Silver Spring",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SECURITY SYSTEM USING A CONVOLUTIONAL NEURAL NETWORK WITH PRUNED FILTERS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 27349,
+    "optimized_size": 2889,
+    "reduction_percent": 89.44
+  }
+}

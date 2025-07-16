@@ -1,0 +1,73 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032863A1-20180201",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15280711",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Graepel",
+      "inventor_name_first": "Thore Kurt Hartwig",
+      "inventor_city": "Cambridge",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Shih-Chieh",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Silver",
+      "inventor_name_first": "David",
+      "inventor_city": "Hitchin",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Guez",
+      "inventor_name_first": "Arthur Clement",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Sifre",
+      "inventor_name_first": "Laurent",
+      "inventor_city": "Paris",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Sutskever",
+      "inventor_name_first": "Ilya",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Maddison",
+      "inventor_name_first": "Christopher",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "Methods, systems and apparatus, including computer programs encoded on computer storage media, for training a value neural network that is configured to receive an observation characterizing a state of an environment being interacted with by an agent and to process the observation in accordance with parameters of the value neural network to generate a value score. One of the systems performs operations that include training a supervised learning policy neural network; initializing initial values of parameters of a reinforcement learning policy neural network having a same architecture as the supervised learning policy network to the trained values of the parameters of the supervised learning policy neural network; training the reinforcement learning policy neural network on second training data; and training the value neural network to generate a value score for the state of the environment that represents a predicted long-term reward resulting from the environment being in the state.",
+  "filing_date": "20160929",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to reinforcement learning. The subject matter described in this specification can be implemented in particular embodiments so as to realize one or more of the following advantages. Actions to be performed by an agent interacting with an environment that has a very large state space can be effectively selected to maximize the rewards resulting from the performance of the action. In particular, actions can effectively be selected even when the environment has a state tree that is too large to be exhaustively searched. By using neural networks in searching the state tree, the amount of computing resources and the time required to effectively select an action to be performed by the agent can be reduced. Additionally, neural networks can be used to reduce the effective breadth and depth of the state tree during the search, reducing the computing resources required to search the tree and to select an action. By employing a training pipeline for training the neural networks as described in this specification, various kinds of training data can be effectively utilized in the training, resulting in trained neural networks with better performance. The details of one or more embodiments of the subject matter of this specification are set forth in the accompanying drawings and the description below. Other features, aspects, and advantages of the subject matter will become apparent from the description, the drawings, and the claims.",
+  "date_published": "20180201",
+  "title": "TRAINING A POLICY NEURAL NETWORK AND A VALUE NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 65433,
+    "optimized_size": 3960,
+    "reduction_percent": 93.95
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "decision": "PENDING",
+  "application_number": "15384159",
+  "date_published": "20170720",
+  "date_produced": "20170705",
+  "title": "Distributed Consistent Database Implementation Within An Object Store",
+  "filing_date": "20161219",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Regni",
+      "inventor_name_first": "Giorgio",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rancurel",
+      "inventor_name_first": "Vianney",
+      "inventor_city": "La Frette s/ Seine",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Gimenez",
+      "inventor_name_first": "Guillaume",
+      "inventor_city": "Joinville le Pont",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Saffroy",
+      "inventor_name_first": "Jean-Marc",
+      "inventor_city": "Paris",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Pineau",
+      "inventor_name_first": "David",
+      "inventor_city": "Sartouville",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Artuso",
+      "inventor_name_first": "Benoit",
+      "inventor_city": "Chanteloupe les Vignes",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "",
+  "patent_number": "None",
+  "abstract": "A storage system is described. The storage system includes an object store having a plurality of objects to implement a quota policy or a part of a relational database. The plurality of objects include a first plurality of immutable objects, a second plurality of immutable objects and a head object. The first plurality of immutable objects contain information kept within the database. The second plurality of immutable objects contain a hierarchy of pages for accessing the first plurality of immutable objects. The plurality of objects also include a mutable object that contains a mapping table that maps identifiers of the pages to identifiers of objects of the second plurality of immutable objects. The information is one of: quota policy information; information within a table of a relational database; a stripe of a thin provisioned file.",
+  "publication_number": "US20170206265A1-20170720",
+  "_processing_info": {
+    "original_size": 93285,
+    "optimized_size": 2167,
+    "reduction_percent": 97.68
+  }
+}

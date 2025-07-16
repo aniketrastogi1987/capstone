@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170301",
+  "publication_number": "US20170076214A1-20170316",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15218370",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Spisic",
+      "inventor_name_first": "Damir",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Jing",
+      "inventor_city": "Xi'an",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Mechanisms are provided for detecting interesting decision rules from a set of decision rules in a tree ensemble. Each tree in the tree ensemble is traversed in order to assign each individual data record from a set of data records to an identified leaf node in each tree. Predicted values are determined for the tree ensemble based on predictions provided by each leaf node to which each individual data record is assigned. Interesting sub-indices for decision rules from the set of decision rules are determined and, for each decision rule corresponding to the leaf nodes in the tree ensemble, the sub-indices are combined into interestingness index It. The decision rules are ranked corresponding to the leaf nodes in the tree ensemble according to the associated value of the interestingness index It and a subset of the decision rules corresponding to the leaf nodes in the tree ensemble are reported.",
+  "filing_date": "20160725",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one illustrative embodiment, a method, in a data processing system, is provided for detecting interesting decision rules from a set of decision rules in a tree ensemble. The illustrative embodiment traverses each tree in the tree ensemble in order to assign each individual data record from a set of data records in an evaluation data set to an identified leaf node in a set of leaf nodes in each tree. The illustrative embodiment determines predicted values defined by the tree ensemble based on predictions provided by each leaf node to which each individual data record is assigned. The illustrative embodiment determines interesting sub-indices for decision rules from the set of decision rules corresponding to the leaf nodes in the tree ensemble. For each decision rule corresponding to the leaf nodes in the tree ensemble, the illustrative embodiment combines the sub-indices into interestingness index I t . The illustrative embodiment ranks the decision rules corresponding to the leaf nodes in the tree ensemble according to the associated value of the interestingness index I t . The illustrative embodiment reports a subset of the decision rules corresponding to the leaf nodes in the tree ensemble in order to provide a notification of the interesting decision rules in the tree ensemble. Thus, the illustrative embodiments provide for detecting interesting decision rules in tree ensembles that conform to the ensemble predictions, where ensemble predictions are accurate. Interestingness is considered to be high prediction accuracy for categorical targets and high difference from the overall average for continuous targets. Candidate decision rules are based on the leaf nodes of generated trees in the ensemble and novel metrics are provided that combine interestingness and conformance with ensemble predictions. The top decision rules ranked by the computed metrics are the most interesting rules that are consistent with the ensemble predictions. Thus, in t...",
+  "date_published": "20170316",
+  "title": "Detecting Interesting Decision Rules in Tree Ensembles",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 84142,
+    "optimized_size": 3593,
+    "reduction_percent": 95.73
+  }
+}

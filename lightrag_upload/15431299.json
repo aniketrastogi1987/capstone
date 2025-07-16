@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15431299",
+  "date_published": "20170601",
+  "date_produced": "20170517",
+  "filing_date": "20170213",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A method for conversation branching may include storing a plurality of messages communicated in an online conversation and generating a fingerprint for each message. The fingerprint for each message may be stored in a lookup table. The method may also include detecting a new message from one of the users and processing the new message to generate an artifact that correlates to the new message. The lookup table may be queried using the artifact to determine a similarity between the new message and each of the stored messages. One or more proposed reply messages to the new message may be generated for branching the online conversation to a new conversation point that corresponds to a selected one of the one or more proposed reply messages. The one or more proposed reply messages are based on one of the stored messages that has a closest similarity to the new message.",
+  "publication_number": "US20170154274A1-20170601",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>According to one aspect of the present invention, a method for conversation branching may include storing, by a processor, a plurality of messages communicated in an online conversation between at least two users and generating, by the processor, a fingerprint for each message of the online conversation. The method may also include storing, by the processor, the fingerprint for each message of the online conversation in a lookup table. The method may additionally include detecting, by the processor, a new message from one of the users and processing, by the processor, the new message to generate an artifact that correlates to the new message. The method may also include querying, by the processor, the lookup table using the artifact to determine a similarity between the new message and each of the stored messages. The method may further include generating, by the processor, one or more proposed reply messages to the new message for branching the online conversation to a new conversation point that corresponds to a selected one of the one or more proposed reply messages. The one or more proposed reply messages may be based on one of the stored messages that has a closest similarity to the new message. According to another aspect of the present invention, a system for conversation branching may include a processor and a conversation branching module operating on the processor. The conversation branching module may be configured to perform a set of functions that may include storing a plurality of messages communicated in an online conversation between at least two users and generating a fingerprint for each message of the online conversation. The method may also include storing the fingerprint for each message of the online conversation in a lookup table. The method may also include detecting a new message from one of the users and processing the new message to generate an artifact that correlates to the new message. The method may additionall...",
+  "ipcr_labels": [
+    "G06N504",
+    "H04L1258",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bastide",
+      "inventor_name_first": "Paul R.",
+      "inventor_city": "Boxford",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bhogal",
+      "inventor_name_first": "Kulvir S.",
+      "inventor_city": "Fort Worth",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hoy",
+      "inventor_name_first": "Jeffrey R.",
+      "inventor_city": "Southem Pines",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Silva",
+      "inventor_name_first": "Asima",
+      "inventor_city": "Holden",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "CONVERSATION BRANCHING FOR MORE EFFICIENT RESOLUTION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 52644,
+    "optimized_size": 3887,
+    "reduction_percent": 92.62
+  }
+}

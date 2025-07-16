@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046938A1-20180215",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15234767",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ALLEN",
+      "inventor_name_first": "Corville O.",
+      "inventor_city": "Morrisville",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FREED",
+      "inventor_name_first": "Andrew R.",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KOZHAYA",
+      "inventor_name_first": "Joseph N.",
+      "inventor_city": "Morrisville",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MANSJUR",
+      "inventor_name_first": "Dwi Sianto",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for ground truth generation includes providing training questions to a machine learning system executing on a computer. The machine learning system generates candidate answers to each of the training questions. The method also includes providing the candidate answers to a plurality of subject matter experts for evaluation with respect to the training questions, wherein the evaluation comprises assignment of an SME relevance score to each of the candidate answers. The method further includes analyzing each of the candidate answers with respect to a plurality of scoring features, wherein each of the scoring features is indicative of quality of the candidate answer. The method yet further includes generating a ground truth metric value that indicates a measure of agreement between the subject matter experts relative to a measure of agreement between results of the analyzing.",
+  "filing_date": "20160811",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the present invention, a method includes providing training questions to a machine learning system executing on a computer. The machine learning system generates candidate answers to each of the training questions. The method also includes providing the candidate answers to a plurality of subject matter experts for evaluation with respect to the training questions, wherein the evaluation comprises assignment of an SME relevance score to each of the candidate answers. The method further includes analyzing each of the candidate answers with respect to a plurality of scoring features, wherein each of the scoring features is indicative of quality of the candidate answer. The method yet further includes generating a ground truth metric value that indicates a measure of agreement between the subject matter experts relative to a measure of agreement between results of the analyzing. An embodiment of a method may also include providing the ground truth metric to the subject matter experts, wherein the ground truth metric guides the subject matter experts as to quality of the evaluation of the candidate answers. In an embodiment of the method, the analyzing includes, for each of the scoring features, generating a vector indicative of value of each of the scoring features in determining the quality of the candidate answer. In an embodiment of the method, the analyzing includes determining a distance between each two of the vectors. In an embodiment of the method, the generating includes producing the ground truth metric as a ratio of average difference of subject matter expert vectors to average difference of subject matter expert vectors and candidate answer vectors. An embodiment of the method may include excluding from the generating of the ground truth metric each subject matter expert vector that differ from a candidate answer vector by less than a predetermined amount. An embodiment of the method includes normalizing the ...",
+  "date_published": "20180215",
+  "title": "SYSTEM AND METHOD FOR GROUND TRUTH EVALUATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 86209,
+    "optimized_size": 3891,
+    "reduction_percent": 95.49
+  }
+}

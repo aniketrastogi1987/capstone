@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15576673",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "filing_date": "20171122",
+  "main_ipcr_label": "G06N304",
+  "abstract": "The present disclosure describes systems and methods for operating an event-driven spiking neural network. The neural network is based on a pipelined comparator tree used to find the next neuron to fire (as per the event-driven simulation strategy), with each neuron having a firing time associated therewith. The neuron's discharge is then processed by updating the post-synaptic neurons affected by the firing event. The architecture can be duplicated or otherwise scaled to increase the performance of the system.",
+  "publication_number": "US20180137408A1-20180517",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure describes systems and methods for operating an event-driven spiking neural network. The neural network is based on a pipelined comparator tree used to find the next neuron to fire (as per the event-driven simulation strategy), with each neuron having a firing time associated therewith. The neuron's discharge is then processed by updating the post-synaptic neurons affected by the firing event. The architecture can be duplicated or otherwise scaled to increase the performance of the system. In accordance with a first broad aspect, there is provided a method for operating an event-driven neural network comprising a plurality of neurons. The method comprises: (i) setting an initial state of the network and (ii) determining a next event in the network as a time to a next neuron firing. Step (ii) comprises: (a) populating entries of a top level of at least one multi-level comparator with values representative of neuron firing times; (b) comparing pairs of entries and selecting from each pair an entry having a closest neuron firing time; (c) propagating the selected ones from each pair to a next level of the comparator and updating the entries of the top level with one or more new values; (d) repeating steps (b) and (c) until all top level entries are updated and no new values are written to any level of the comparator; and (e) determining the time to a next neuron firing based on the neuron firing time of the value in the final level. The method further comprises (iii) setting a subsequent time of simulation to the next neuron firing time and (iv) simulating the network at the subsequent time of simulation. In some embodiments, steps (b) and (c) are performed over one clock cycle. In some embodiments, the method further comprises repeating steps (ii) to (iv) iteratively during operation of the network. In some embodiments, selecting from each pair an entry comprises promoting a random one of the entries of a pair when the associat...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "G06N310"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MAILHOT",
+      "inventor_name_first": "Frederic",
+      "inventor_city": "Sherbrooke",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "SEGUIN-GODIN",
+      "inventor_name_first": "Guillaume",
+      "inventor_city": "Sherbrooke",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "ROUAT",
+      "inventor_name_first": "Jean",
+      "inventor_city": "Quebec",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR EVENT-BASED NEURAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 74234,
+    "optimized_size": 3372,
+    "reduction_percent": 95.46
+  }
+}

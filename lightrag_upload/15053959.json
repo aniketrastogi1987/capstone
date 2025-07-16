@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170627",
+  "publication_number": "US20170200090A1-20170713",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15053959",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hershey",
+      "inventor_name_first": "Paul C.",
+      "inventor_city": "Ashburn",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Radcliffe",
+      "inventor_name_first": "Richard",
+      "inventor_city": "Chantilly",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hoppes",
+      "inventor_name_first": "Brianne R.",
+      "inventor_city": "Westminster",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system and method improves the probability of correctly detecting an object from a collection of source data and reduces the processing load. A plurality of algorithms for a given data type are selected and ordered based on a cumulative trained probability of correctness (Pc) that each of the algorithms, which are processed in a chain and conditioned upon the result of the preceding algorithms, produce a correct result and a processing. The algorithms cull the source data to pass forward a reduced subset of source data in which the conditional probability of detecting the object is higher than the a priori probability of the algorithm detecting that same object. The Pc and its confidence interval is suitably computed and displayed for each algorithm and the chain and the final object detection.",
+  "filing_date": "20160225",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The following is a summary of the invention in order to provide a basic understanding of some aspects of the invention. This summary is not intended to identify key or critical elements of the invention or to delineate the scope of the invention. Its sole purpose is to present some concepts of the invention in a simplified form as a prelude to the more detailed description and the defining claims that are presented later. In an embodiment, a computer-implemented method or system selects a subset of algorithms based, at least in part, on a cumulative trained probability of correctness (Pc) that each of the algorithms, which are processed in a chain on source data of a particular data type (images, audio, text, human intelligence, signals, etc.) and conditioned upon the result of the preceding algorithms, produce a correct result. The algorithms cull (selectively reduce) the source data to pass forward a reduced subset of source data in which the conditional probability of detecting the object is higher than the a priori probability of the algorithm detecting that same object. The computer-implemented method orders the algorithms based on algorithm metadata (e.g. mission relevance, processing resources and image culling percentage) to reduce an expected processing load. At least one result of the algorithmic processing indicates whether the object is detected in one or more of the source data output from the last algorithm in the chain. A cumulative object Pc and an associated confidence level are computed for the object. In certain embodiments, a cumulative algorithm Pc and confidence level is reported for each algorithm or level in the chain. In an embodiment, the steps of selecting and ordering the subset of algorithms are separated into “training” and “operational” phases, which may, for example, both be implemented on a client-server architecture or the training may be implemented on a client-server architecture while the opera...",
+  "date_published": "20170713",
+  "title": "SYSTEM AND METHOD OF CHAINING ALGORITHMS FOR GLOBAL OBJECT RECOGNITION TO IMPROVE PROBABILITY OF CORRECTNESS AND REDUCE PROCESSING LOAD",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 123884,
+    "optimized_size": 3767,
+    "reduction_percent": 96.96
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date_produced": "20160928",
+  "publication_number": "US20160300148A1-20161013",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15093225",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KELLY",
+      "inventor_name_first": "Anthony",
+      "inventor_city": "Old Kildimo",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "abstract": "An electronic system, e.g. a power supply, includes elements, and the elements include devices that limit reliability of the electronic system. A system that can monitor parameters that affect electronic system reliability such as temperature, and parameters that can predict power supply failure such as bulk capacitor ESR, includes a monitoring system measuring and monitoring at least one reliability limiting parameter of at least one of the devices connected to the monitoring system. A method for estimating and predicting a failure of the electronic system includes: measuring parameters affecting or associating the reliability of the device by sensors, collecting the measured sensor data and/or other data by a communications unit, and communicating the data to a computing device for processing and predicting a failure of the device and alerting to the failure.",
+  "filing_date": "20160407",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>The disclosed invention describes an electronic system where at least one of the devices is connected to a monitoring system measuring and monitoring at least one reliability limiting parameter. An electronic system comprises elements and the elements comprise devices that limit the reliability pf the electronic system, therefore, the functionality of at least that device which limits the reliability of the electronic system most is monitored by a monitoring system. In the disclosed invention the electronic system can be a power supply comprising elements like an AC-DC converter, a power factor correction, a bus converter and a point of load regulation and the device to be monitored is at least a device of one of these elements. The monitoring system comprises functional units such as sensors for measuring device parameters, a communications unit communicating with the sensors, a computing unit connected to the communications unit, and a storage means associated with the computing unit. This system can monitor the parameters that affect power supply reliability such as temperature, and parameters that can predict power supply failure such as bulk capacitor ESR. Therefore, different sensors are used to measure relevant parameters. Those parameters are reported to a communications unit that is connected with a computing unit whereas the computing unit may be integrated into a computer system. The communications unit may optionally pre-process the parameters to convert them to a more suitable form or may perform other suitable processing. The computing unit is running a machine learning program in order to predict the failure and lifetime of devices of the power supply. Such a system would have advantages in preventative maintenance by alerting the maintainer to an impending failure. The identification of a faulty product batch that is more prone to failure is another possible advantage. By running machine learning algorithms t...",
+  "date_published": "20161013",
+  "title": "ELECTRONIC SYSTEM AND METHOD FOR ESTIMATING AND PREDICTING A FAILURE OF THAT ELECTRONIC SYSTEM",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 36826,
+    "optimized_size": 3468,
+    "reduction_percent": 90.58
+  }
+}

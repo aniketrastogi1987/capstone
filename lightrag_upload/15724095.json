@@ -1,0 +1,66 @@
+{
+  "patent_number": "None",
+  "application_number": "15724095",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20171003",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method of predicting compensation data includes obtaining compensation data, associated with a job category, with at least one datum being associated with each of a plurality of characteristics associated with the job category, determining values of factors, associated with respective ones of the characteristics, and a base value that when used as operands of a function yield estimates of the obtained data such that relationships between the estimates and corresponding obtained compensation data satisfy at least one criterion, and using a portion of the values of factors and the base value by a computer to automatically obtain estimates of compensation data.",
+  "publication_number": "US20180181882A1-20180628",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In general, in an aspect, the invention provides a method of predicting compensation data, the method including obtaining compensation data, associated with a job category, with at least one datum being associated with each of a plurality of characteristics associated with the job category, determining values of factors, associated with respective ones of the characteristics, and a base value that when used as operands of a function yield estimates of the obtained data such that relationships between the estimates and corresponding obtained compensation data satisfy at least one criterion, and using a portion of the values of factors and the base value by a computer to automatically obtain estimates of compensation data. Implementations of the invention may include one or more of the following features. Using the portion of the values of factors and the base value includes using each combination of values of factors for which values are determined. The method further includes deriving reference data using the obtained compensation data and the values of factors, and aggregating the reference data to determine the base value. The aggregating comprises averaging the reference data. The method further includes comparing estimated compensation data with obtained compensation data of the same job and having the same associated characteristics as the estimated compensation data, adjusting the values of the factors as appropriate depending upon results of comparing the estimated and obtained compensation data, and repeating the deriving, aggregating, using, comparing, and adjusting until comparing the estimated and obtained compensation data satisfy the at least one criterion. Implementations of the invention may also include one or more of the following features. The characteristics are scope criteria associated with jobs. The characteristics include at least one of geographic region, size of organization, industry, and seniority. The m...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q1010",
+    "G06Q1006",
+    "G06Q9000",
+    "G06Q5022",
+    "G06Q4008",
+    "G06Q4004",
+    "G06Q3002",
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Coleman",
+      "inventor_name_first": "William H.",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Plunkett",
+      "inventor_name_first": "Gregory K.",
+      "inventor_city": "Wellesley Hills",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Linn",
+      "inventor_name_first": "Andrew I.",
+      "inventor_city": "Waltham",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fortier",
+      "inventor_name_first": "Keith E.",
+      "inventor_city": "Walpole",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Yong",
+      "inventor_city": "Needham",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "COMPENSATION DATA PREDICTION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 57521,
+    "optimized_size": 3879,
+    "reduction_percent": 93.26
+  }
+}

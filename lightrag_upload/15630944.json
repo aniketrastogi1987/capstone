@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15630944",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170622",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A deep neural network may be trained on the data of one or more entities, also know as Alices. An outside computing entity, also known as a Bob, may assist in these computations, without receiving access to Alices' data. Data privacy may be preserved by employing a “split” neural network. The network may comprise an Alice part and a Bob part. The Alice part may comprise at least three neural layers, and the Bob part may comprise at least two neural layers. When training on data of an Alice, that Alice may input her data into the Alice part, perform forward propagation though the Alice part, and then pass output activations for the final layer of the Alice part to Bob. Bob may then forward propagate through the Bob part. Similarly, backpropagation may proceed backwards through the Bob part, and then through the Alice part of the network.",
+  "publication_number": "US20170372201A1-20171228",
+  "summary": "<SOH> SUMMARY <EOH>In many situations, it is desirable to train a deep neural network with data of one or more parties who need to keep their data private from each other, and from an outside computing resource that is performing the training. For example, in many situations: (a) a computing resource (“Bob”) has a deep neural network (“DNN”); (b) one or more data entities (each, an “Alice”) have data, which the parties want to use to train the DNN; (c) each Alice wants to ensure that its data is not shared with Bob and is not shared with any of the other Alices; and (b) Bob wants to ensure that certain hyperparameters of the DNN and a portion of the topology of the DNN are not shared with any of the Alices. This creates a technical challenge: how can Bob train a DNN on data of many Alices—without Bob seeing their data? And without the Alices discovering key information about the DNN, which may be a proprietary network that Bob has created? Specifically, the following technological problem arises: how to securely train a multi-party DNN. As used herein, to “securely train a multi-party DNN” means to train a DNN on the data of one or more Alices in such a manner that: (1) the DNN is performed at least in part by Bob; (2) the data of each Alice is not shared with Bob and is not shared with any of the other Alices; and (3) certain hyperparameters of the DNN and a portion of the topology of the DNN are set by Bob and are not shared with any of the Alices. A variety of conventional solutions to this technological problem exist. For example, conventional methods of securely training a multi-party DNN may have one or more of the following features: (1) homomorphic encryption (in which Alice's data is homomorphically encrypted before being sent to Bob and remains homomorphically encrypted while Bob trains the DNN); (2) random perturbation of data, such as by the addition of random noise to Alice's data; (3) sharing only shallow representations of Alice's data, such as HOG (h...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gupta",
+      "inventor_name_first": "Otkrist",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Raskar",
+      "inventor_name_first": "Ramesh",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Secure Training of Multi-Party Deep Neural Network",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 134529,
+    "optimized_size": 3612,
+    "reduction_percent": 97.32
+  }
+}

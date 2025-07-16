@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180315",
+  "publication_number": "US20180089579A1-20180329",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15277150",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ROMANO",
+      "inventor_name_first": "BRAD E.",
+      "inventor_city": "FURLONG",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SAMPSON",
+      "inventor_name_first": "JOHN R.",
+      "inventor_city": "MINT HILL",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "THANIKELLA",
+      "inventor_name_first": "SHASHI",
+      "inventor_city": "NORTH BRUNSWICK",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An adaptive machine learning system for predicting file controls includes a memory, an interface, and a processor. The memory stores a plurality of controls for incoming files and the interface receives a first file and a second file. The first file has a first property and the second file has a second property. The processor determines a type for each of the first property and the second property, wherein the type of each property is related to a first file control. The processor also determines that the first property and the second property each satisfy the first file control. If the value of the first property and the second property are above a first threshold, the processor changes a value of the first control for incoming files.",
+  "filing_date": "20160927",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In some embodiments, an adaptive machine learning system for predicting file controls comprises a memory, an interface, and a processor. The memory stores a plurality of controls for incoming files and the interface is operable to receive a first file and a second file. The first file has a first property and the second file has a second property. Further, the processor is operable to determine a type for each of the first property and the second property, wherein the type of each property is related to a first file control. The processor also determines that the first property of the first incoming file satisfies the first file control and determines that the second property of the second set of incoming files satisfies the first control of incoming files. Additionally, the processor determines that the value of the first property and the second property is above a first threshold. The processor then changes, in response to determining that the value of the first property and the second property is above a first threshold, a value of the first control for incoming files. The present embodiment presents several technical advantages. For example, in the present embodiment, a predictive file control system flags or otherwise rejects files that do not satisfy certain file controls. Further, one embodiment of the present system learns from past data and changes file controls automatically in response to the past data. This keeps the file control system from rejecting files that should have been accepted by the file control. The present system also executes this predictive system for both incoming and outgoing files. The present embodiment also results in improvements to the computer system itself. For instance, the present embodiment improves processor functionality by preempting foreseeable errors freeing up processing resources for other tasks such as processing files. Further, the present embodiment improves memory functionality by...",
+  "date_published": "20180329",
+  "title": "MACHINE LEARNING METHOD AND SYSTEM FOR PREDICTING FILE CONTROLS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 38562,
+    "optimized_size": 3616,
+    "reduction_percent": 90.62
+  }
+}

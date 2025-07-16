@@ -1,0 +1,60 @@
+{
+  "decision": "PENDING",
+  "application_number": "15124274",
+  "date_published": "20170119",
+  "date_produced": "20170104",
+  "title": "METHOD FOR MEMORY MANAGEMENT IN VIRTUAL MACHINES, AND CORRESPONDING SYSTEM AND COMPUTER PROGRAM PRODUCT",
+  "filing_date": "20160907",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PAPUZZO",
+      "inventor_name_first": "Giuseppe",
+      "inventor_city": "Rende (CS)",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "GIORDANELLI",
+      "inventor_name_first": "Raffaele",
+      "inventor_city": "Rende (CS)",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "LUPI",
+      "inventor_name_first": "Giovanni",
+      "inventor_city": "Rende (CS)",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "MASTROIANNI",
+      "inventor_name_first": "Carlo",
+      "inventor_city": "Rende (CS)",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "FORESTIERO",
+      "inventor_name_first": "Agostino",
+      "inventor_city": "Rende (CS)",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F9455",
+    "G06F1202",
+    "G06F950"
+  ],
+  "main_ipcr_label": "G06F9455",
+  "summary": "<SOH> OBJECT AND SUMMARY <EOH>The object of the embodiments described herein is to improve the methods and systems according to the known art, as discussed previously. Various embodiments achieve the above object thanks to a method having the characteristics recalled in the ensuing claims. Various embodiments may also refer to corresponding processing systems, as well as to a computer program product that can be loaded in the memory of at least one computer (e.g., a terminal in a network) and comprises portions of software code that are able to implement the steps of the method when the program is run on at least one computer. As used herein, the aforesaid computer program product is understood as being equivalent to a computer-readable means containing instructions for controlling the computer system so as to co-ordinate implementation of the method according to the invention. Reference to “at least one computer” is understood as emphasizing the possibility of the present invention being implemented in a modular and/or distributed form. The claims form an integral part of the technical teachings provided herein in relation to the invention.",
+  "patent_number": "None",
+  "abstract": "A method for memory management includes in a virtual-machine monitor of a virtualization platform allocating in a guest operating system of the virtual machines guest balloon memory modules of variable memory size. Memory parameters of a given virtual machine are read. A value of a configured limit, set in the virtual-machine monitor, for the consumed memory is read. The value represents a threshold beyond which allocation of memory to the guest balloon memory module is to be performed. The threshold value is shifted from the configured limit to a lower value. A start of ballooning operations is waited for by the virtual-machine monitor. It is checked when said ballooning operations terminate. The threshold is set beyond which allocation of memory is to be performed back to the configured limit value.",
+  "publication_number": "US20170017511A1-20170119",
+  "_processing_info": {
+    "original_size": 57605,
+    "optimized_size": 3198,
+    "reduction_percent": 94.45
+  }
+}

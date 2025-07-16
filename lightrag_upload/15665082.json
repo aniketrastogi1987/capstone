@@ -1,0 +1,73 @@
+{
+  "patent_number": "None",
+  "application_number": "15665082",
+  "date_published": "20171116",
+  "date_produced": "20171103",
+  "filing_date": "20170731",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Systems and methods for assaying a test entity for a property, without measuring the property, are provided. Exemplary test entities include proteins, protein mixtures, and protein fragments. Measurements of first features in a respective subset of an N-dimensional space and of second features in a respective subset of an M-dimensional space, is obtained as training data for each reference in a plurality of reference entities. One or more of the second features is a metric for the target property. A subset of first features, or combinations thereof, is identified using feature selection. A model is trained on the subset of first features using the training data. Measurement values for the subset of first features for the test entity are applied to thereby obtaining a model value that is compared to model values obtained using measured values of the subset of first features from reference entities exhibiting the property.",
+  "publication_number": "US20170330097A1-20171116",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure addresses the need in the art for surveying the vast space of entities obtained from plants and selecting desired entities from such sources for food applications. The present disclosure makes uses of unique supervised regression models, supervised classification models and/or unsupervised models to identify features of entities that are informative of the presence, absence, or extent of a target property exhibited by an entity. A training set comprising a plurality of reference entities is trained using feature measurement data measured from the reference entities of the training set. This training set is limited in size and thus a number of molecular assays and more complex functional assays can be run on each reference entity in the training set in order to obtain values for a number of molecular features and functional features of the reference entities of the training set. The measured values for the molecular features do not directly inform whether a reference entity in the training set has a target property or the extent to which the reference entity of the training set has the target property. On the other hand, the measured values for the functional features provide a basis for determining whether the particular reference entity of the training set has the target property. For instance, in some embodiments, measured values for a functional feature across the reference entities of the training set correlate with presence, absence and/or the extent to which a member of the test population has the target property. The measured molecular and functional measurement data from each reference entity in the training set is used to train a model, using either supervised or unsupervised techniques, to thereby advantageously derive a model that identifies a relationship between at least a subset of the measured molecular features and presence, absence and/or extent to which a reference entity in the training population has the ...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chae",
+      "inventor_name_first": "Lee",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tetrick",
+      "inventor_name_first": "Josh Stephen",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Meng",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Schultz",
+      "inventor_name_first": "Matthew D.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Chuan",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tilmans",
+      "inventor_name_first": "Nicolas",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brzustowicz",
+      "inventor_name_first": "Michael",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DISCOVERY SYSTEMS FOR IDENTIFYING ENTITIES THAT HAVE A TARGET PROPERTY",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 254116,
+    "optimized_size": 4421,
+    "reduction_percent": 98.26
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "date_produced": "20171219",
+  "publication_number": "US20180005134A1-20180104",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15199942",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kish",
+      "inventor_name_first": "William S",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Huayan",
+      "inventor_city": "Milpitas",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Patel",
+      "inventor_name_first": "Sandip C.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An electronic device may determine whether a machine-learning model is operating within predefined limits. In particular, the electronic device may receive, from another electronic device, instructions for the machine-learning model, a reference input and a predetermined output of the machine-learning model for the reference input. Note that the instructions may include an architecture of the machine-learning model, weights associated with the machine-learning model and/or a set of pre-processing transformations for use when executing the machine-learning model on images. In response, the electronic device may configure the machine-learning model based on the instructions. Then, the electronic device may calculate an output of the machine-learning model for the reference input. Next, the electronic device may determine whether the machine-learning model is operating within predefined limits based on the output and the predetermined output.",
+  "filing_date": "20160630",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The described embodiments relate to an electronic device that determines whether a machine-learning model is operating within predefined limits. In particular, the electronic device optionally includes an imaging sensor that captures images, and an interface circuit that communicates, via a network, with another electronic device. The electronic device may include a processor, and memory that stores a program module. During operation, the processor executing the program module may receive, from the other electronic device, instructions for a machine-learning model, a reference input and a predetermined output of the machine-learning model for the reference input, where the instructions include an architecture of the machine-learning model, weights associated with the machine-learning model and/or a set of pre-processing transformations for use when executing the machine-learning model on the images. In response, the processor may configure the machine-learning model based on the instructions. Then, the processor may calculate an output of the machine-learning model for the reference input. Next, the processor may determine whether the machine-learning model is operating within the predefined limits based on the output and the predetermined output. Note that the machine-learning model may include a neural network. Moreover, the instructions for the machine-learning model may be based on training performed in a different computing environment than that of the electronic device (such as in a computer system). Furthermore, when the machine-learning model is operating within the predefined limits, the processor may analyze the images using the machine-learning model. Additionally, prior to the analysis, the processor may map the images to a set of input images having associated formats that are compatible with the machine-learning model using one or more of the set of pre-processing transformations. For example, a given pre-processing transformation ma...",
+  "date_published": "20180104",
+  "title": "Operating Machine-Learning Models on Different Platforms",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 76199,
+    "optimized_size": 3792,
+    "reduction_percent": 95.02
+  }
+}

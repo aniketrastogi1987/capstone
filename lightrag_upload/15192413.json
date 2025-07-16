@@ -1,0 +1,39 @@
+{
+  "date_produced": "20171213",
+  "publication_number": "US20170372222A1-20171228",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15192413",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kollia",
+      "inventor_name_first": "Varvara",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nagisetty",
+      "inventor_name_first": "Ramune",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Technologies for detecting minority events are disclosed. By performing a guided hierarchical classification algorithm with a decision tree structure and grouping the minority class(es) in with some of the majority classes, large majority classes may be separated from a minority class without requiring good detection of the minority events by themselves. The decision tree structure may be used only for the purpose of identifying if the data sample in question is a member of a minority class. If it is determined that it is not, a primary classification algorithm may be used. With this approach, the guided hierarchical classification algorithm need not perform as well as the primary classification algorithm for the majority events, but may provide improved detection for minority events.",
+  "filing_date": "20160624",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The concepts described herein are illustrated by way of example and not by way of limitation in the accompanying figures. For simplicity and clarity of illustration, elements illustrated in the figures are not necessarily drawn to scale. Where considered appropriate, reference labels have been repeated among the figures to indicate corresponding or analogous elements. FIG. 1 is a simplified block diagram of at least one embodiment of a compute device that may be used for detecting a minority event; FIG. 2 is a block diagram of at least one embodiment of an environment that may be established by the compute device of FIG. 1 ; FIGS. 3 & 4 are a simplified flow diagram of at least one embodiment of a method for training a classification algorithm that may be executed by the compute device of FIG. 1 ; FIG. 5 is a simplified flow diagram of at least one embodiment of a method for performing a classification algorithm that may be executed by the compute device of FIG. 1 ; and FIGS. 6A & 6B are simplified depictions of decision tree structures that may be generated as part of executing the method of FIGS. 3 & 4 . detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20171228",
+  "title": "TECHNOLOGIES FOR DETECTION OF MINORITY EVENTS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 72727,
+    "optimized_size": 2743,
+    "reduction_percent": 96.23
+  }
+}

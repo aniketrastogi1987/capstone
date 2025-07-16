@@ -1,0 +1,39 @@
+{
+  "decision": "PENDING",
+  "application_number": "15352803",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "title": "PARALLEL RESERVOIR SIMULATION WITH ACCELERATED AQUIFER CALCULATION",
+  "filing_date": "20161116",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fung",
+      "inventor_name_first": "Larry Siu-Kuen",
+      "inventor_city": "Dhahran",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    },
+    {
+      "inventor_name_last": "Du",
+      "inventor_name_first": "Shouhong",
+      "inventor_city": "Dhahran",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1750",
+    "E21B4100",
+    "E21B4316"
+  ],
+  "main_ipcr_label": "G06F1750",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Briefly, the present invention provides a new and improved machine to simulate reservoir simulation measures of a subsurface reservoir having a hydrocarbon regions and a peripheral aquifer region, the reservoir being defined by a plurality of grid cells designated organized as hydrocarbon grid cells for the hydrocarbon region of the reservoir and aquifer grid cells for the peripheral aquifer region, the plurality of grids cells being partitioned into a plurality of processing sub-domains, each processing sub-domain containing at least a portion of the plurality of grid cells. The machine takes the form of a plurality of processor nodes having one or more processors, with the plurality of processor nodes being assigned to processing sub-domains. The processing sub-domains into which the processor nodes are organized include a parallel input processing grid sub-domain, with the processor nodes in the parallel input processing domain organizing the grid cells of the reservoir into input blocks of cell data for processing. The processing sub-domains also include an unstructured graph and connection factor sub-domain, with the processor nodes in the unstructured graph and connection factor sub-domain forming cell geometries for amalgamating aquifer grid cells and defining active grid cells composed of the hydrocarbon grid cells, forming a load-balanced processing network. The processing subdomains also include a simulation processing sub-domain for performing reservoir simulation of the active grid cells. The present invention also provides a new and improved computer implemented method of simulating reservoir simulation measures in the cells of a reservoir in a computerized reservoir simulation of a subsurface reservoir. The reservoir has a hydrocarbon region and an aquifer region peripheral to the hydrocarbon region. The computerized reservoir simulation is performed in a processor having plurality of computer nodes, each comprising ...",
+  "patent_number": "None",
+  "abstract": "Reservoir simulation for simulation models which include a large edge aquifer region is provided with a speed up in processing reducing computer processing time. Connected aquifer grid cells in a vertical column are amalgamated to reduce the total number of active cells in the solution phase. The fine grid property data is maintained for computing distributed 3D graph, and connection factors (transmissibilities), as well as pore volume and compressibility calculation of coarsened aquifer cells during nonlinear solution phase. Since the work load in the solution phase is proportional to the total number of active cells, a significant speedup in simulation time is provided. The aquifer fine grid pressures are computed using vertical equilibrium treatment of hydraulic potential inside an amalgamated aquifer coarse cell.",
+  "publication_number": "US20180137223A1-20180517",
+  "_processing_info": {
+    "original_size": 69435,
+    "optimized_size": 3552,
+    "reduction_percent": 94.88
+  }
+}

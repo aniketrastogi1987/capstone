@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15196642",
+  "date_published": "20161020",
+  "date_produced": "20161005",
+  "title": "Negotiation Between Multiple Processing Units for Switch Mitigation",
+  "filing_date": "20160629",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bjegovic",
+      "inventor_name_first": "Nebojsa",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Heppolette",
+      "inventor_name_first": "Vanessa Cristina",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F13362",
+    "G06F1340"
+  ],
+  "main_ipcr_label": "G06F13362",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment of the present invention takes the form of a method for changing a state of a display data channel (“DDC”) clock output. A counting cycle of a counter may be initiated at a predetermined event based on the clock output and an initial value of the DDC clock output may be maintained while the counter executes the counting cycle. Additionally, the DDC clock output may be set to a first value approximately when the counting cycle of the counter reaches a preset value. The first value of the DDC clock output also may be set to a value equivalent to zero. Also, a device may be saturated when the counter reaches a preset value and in one embodiment, the device may be a field effect transistor. In another embodiment, the present invention may take the form of a method for controlling the state of a switch. A graphical processing unit may receive a request for a bus in an electronics system. The electronics system may be a video system which may employ any number of protocols, including, but not limited to a high definition multimedia interface, a digital video interface, a displayport interface and so on. The graphical processing unit may grant the request when a microcontroller completes a transaction on the bus. Additionally, the graphical processing unit may request the switch and the microcontroller may grant the switch to the graphical processing unit. The state of the switch may be modified by applying a value sufficient to close the switch. In yet another embodiment, the present invention may take the form of an apparatus for mitigating a clock error. The apparatus may include at least a DDC bus, a graphical processing unit which may be connected to the bus, a microcontroller which may be connected to the bus and a switch which may be connected to the graphical processing unit and the microcontroller. Additionally, the apparatus may include a first output which may be controlled by at least one of the graphical processing unit and mi...",
+  "patent_number": "None",
+  "abstract": "A method for maintaining data and clock line synchronization, which may include a clock line that may be driven high after a clock line falling edge to mitigate a clock error. Additionally, the clock error may be mitigated by maintaining a saturated state of a device. Furthermore, a register may be connected to a microcontroller and/or a graphical processing unit to negotiate control of a switch and a bus.",
+  "publication_number": "US20160306760A1-20161020",
+  "_processing_info": {
+    "original_size": 49574,
+    "optimized_size": 3157,
+    "reduction_percent": 93.63
+  }
+}

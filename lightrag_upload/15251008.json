@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170214",
+  "publication_number": "US20170061330A1-20170302",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15251008",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KURATA",
+      "inventor_name_first": "GAKUTO",
+      "inventor_city": "TOKYO",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Method, system and computer program product for learning classification model. The present invention provides a computer-implemented method for learning a classification model using one or more training data each having a training input and one or more correct labels assigned to the training input, the classification model having a plurality of hidden units and a plurality of output units is provided. The method includes: obtaining a combination of co-occurring labels expected to be appeared together for an input to the classification model; initializing the classification model with preparing a dedicated unit for the combination from among the plurality of the hidden units so as to activate together related output units connected to the dedicated unit among the plurality of the output units, each related output unit corresponding to each co-occurring label in the combination; and training the classification model using the one or more training data.",
+  "filing_date": "20160830",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to an embodiment of the present invention, a computer-implemented method for learning a classification model using one or more training data each having a training input and one or more correct labels assigned to the training input, the classification model having a plurality of hidden units and a plurality of output units is provided. The method includes: obtaining a combination of co-occurring labels expected to be appeared together for an input to the classification model; initializing the classification model with preparing a dedicated unit for the combination from among the plurality of the hidden units so as to activate together related output units connected to the dedicated unit among the plurality of the output units, each related output unit corresponding to each co-occurring label in the combination; and training the classification model using the one or more training data. According to another embodiment of the present invention, a computer-implemented method for learning a classification model using one or more training data each having a training input and one or more correct labels assigned to the training input, the classification model having a plurality of hidden units and a plurality of output units is provided. The method includes: listing a combination of co-occurring labels appeared together in the one or more training data; initializing the classification model with preparing a dedicated unit for the combination, the dedicated unit having connections with related output units each corresponding to each co-occurring label in the combination, each connection being initialized with a value stronger than other connections with remaining output units and between at least part of remaining hidden units among the plurality of the hidden units and the plurality of the output units including the related output units; and training the classification model using the one or more training data. Furthermore, the...",
+  "date_published": "20170302",
+  "title": "METHOD, SYSTEM AND COMPUTER PROGRAM PRODUCT FOR LEARNING CLASSIFICATION MODEL",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 102221,
+    "optimized_size": 3538,
+    "reduction_percent": 96.54
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "patent_number": "None",
+  "application_number": "15563305",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20170929",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A computer-implemented method for profiling a population of examples includes a computer system creating a rule collection comprising a plurality of rules, wherein each rule describes a respective corresponding sub-population of the examples according to a conjunction of a plurality of feature-value pairs. The computer system generates a precisely descriptive profile by performing a search process on the rule collection to identify a rule that either maximizes or minimizes the value of a user-specified target feature in the respective corresponding sub-population.",
+  "publication_number": "US20180121811A1-20180503",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention address and overcome one or more of the above shortcomings and drawbacks, by providing methods, systems, and apparatuses related to profiling a population of examples in a precisely descriptive or tendency-based manner. Each example is a collection of features and values and may include, without limitation, a person (e.g., a customer, a patient, etc.), a record, and/or a device. Two types of profiles are described herein: precisely descriptive profiles and tendency-based profiles. The former comprise a set of model-driven rules that precisely describe the upper or lower cohorts in the data with respect to a target or goal feature, while the latter comprise a set of statistical tendencies of similar highly-performing or poorly performing cohorts. Precisely descriptive profiles provide a set of conjunctive conditions maximizing (or minimizing) a goal. Briefly, a precisely descriptive profile may be formed by first adding conditions (feature-value pairs) successively to each rule in a collection of such. Next, the collection is iteratively filtered for maximal utility, where utility is measured either by statistical significance or by goal value given a minimum population constraint. The iterative filtering is performed until no improvement can be found or a predetermined maximal number of conditions have been exceeded. Then, the best such rule that meets all the relevant constraints is returned. This process may then be repeated on the remaining population of examples that do not meet the set of conjunctive conditions in this rule. According to some embodiments, a computer-implemented method for profiling a population of examples includes a computer system creating a rule collection comprising a plurality of rules, wherein each rule describes a respective corresponding sub-population of the examples according to a conjunction of a plurality of feature-value pairs. The number of feature-value pairs in the rules ma...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06Q3002",
+    "G06N500",
+    "G06F1518",
+    "G06F702"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Caplan",
+      "inventor_name_first": "Ryan T.",
+      "inventor_city": "Huntingdon Valley",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Katz",
+      "inventor_name_first": "Bruce F.",
+      "inventor_city": "Philadelphia",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pizonka",
+      "inventor_name_first": "Joseph John",
+      "inventor_city": "Pottstown",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "PROFILING A POPULATION OF EXAMPLES IN A PRECISELY DESCRIPTIVE OR TENDENCY-BASED MANNER",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 84074,
+    "optimized_size": 3503,
+    "reduction_percent": 95.83
+  }
+}

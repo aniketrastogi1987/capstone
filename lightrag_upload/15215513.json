@@ -1,0 +1,66 @@
+{
+  "date_produced": "20180109",
+  "publication_number": "US20180025282A1-20180125",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15215513",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Xie",
+      "inventor_name_first": "Yusheng",
+      "inventor_city": "Campbell",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Du",
+      "inventor_name_first": "Nan",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhai",
+      "inventor_name_first": "Jing",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhu",
+      "inventor_name_first": "Weicheng",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhou",
+      "inventor_name_first": "Dawen",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fan",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods are disclosed for question generation to infer the most probable cause from the observable outcome and known Noisy-OR causal relations. In embodiments, the outcomes are sorted by indices according to an order including but not limited to the outcomes' natural frequency order, expert-labeled order, machine-learning derived order, etc. According to their assigned indices, in embodiments, observed outcomes with lower indices are assigned for exact inference while observed outcomes with higher indices are assigned for variational inference. In embodiments, results of exact inference and variational inference are combined to predict the most probable cause. The unique combination of exact inference and variational inference according to outcome indices makes the probable cause inferring process faster.",
+  "filing_date": "20160720",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>References will be made to embodiments of the invention, examples of which may be illustrated in the accompanying figures. These figures are intended to be illustrative, not limiting. Although the invention is generally described in the context of these embodiments, it should be understood that it is not intended to limit the scope of the invention to these particular embodiments. Items in the figures are not to scale. FIG. (“FIG.”) 1 shows a Noisy-OR model with outcome ordering indexes according to embodiments of the present disclosure. FIG. 2 illustrates a general flow diagram for inferring the most probable cause from observable outcomes according to embodiments of the present disclosure. FIG. 3 illustrates an exemplary flow diagram for inferring the most probable cause using factorized probabilities function according to embodiments of the present disclosure. FIG. 4 depicts a simplified block diagram of a computing device/information handling system, in accordance with embodiments of the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180125",
+  "title": "SYSTEMS AND METHODS OF DETERMINING SUFFICENT CAUSES FROM MULTIPLE OUTCOMES",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 46748,
+    "optimized_size": 3266,
+    "reduction_percent": 93.01
+  }
+}

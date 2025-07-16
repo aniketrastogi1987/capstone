@@ -1,0 +1,30 @@
+{
+  "date_produced": "20170802",
+  "publication_number": "US20170236059A1-20170817",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15235997",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "So Young",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "An apparatus for generating the weight estimation model includes a training data collection unit that collects training data, the training data including skin spectrum information and weight information of a plurality of objects, and a model generation unit that generates the weight estimation model, used for a spectrum-based weight estimation, through machine learning based on the collected training data.",
+  "filing_date": "20160812",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One or more exemplary embodiments provide an apparatus and a method for generating a weight estimation model which are used in estimating a weight based on a skin spectrum, and an apparatus and a method for estimating a weight based on a skin spectrum. In one general aspect, there is provided an apparatus for generating a weight estimation model including: a training data collection unit that collects training data, the training data comprising skin spectrum information and weight information of a plurality of objects; and a model generation unit that generates the weight estimation model, used for spectrum-based weight estimation, through machine learning based on the collected training data. Here, the model generation unit may generate the weight estimation model through the machine learning, in which the skin spectrum information is used as an input and the weight information is used as an output. Also, the training data may further contain at least one of age information, height information, gender information, and bio impedance information of an object. Also, the model generation unit may generate the weight estimation model through the machine learning, in which the skin spectrum information and the at least one of the age information, the height information, the gender information, and the bio impedance information are used as inputs and the weight information is used as an output. Also, an algorithm used to perform the machine learning may include at least one of partial least squares regression, linear regression, neural network, decision tree, genetic algorithm, genetic programming, K-nearest neighbor, radial basis function network, random forest, support vector machine, and deep-learning. In another general aspect, there is provided a method for generating a weight estimation model including: collecting training data, the training data comprising skin spectrum information and weight information of a plurality of objects; and generating ...",
+  "date_published": "20170817",
+  "title": "APPARATUS AND METHOD FOR GENERATING WEIGHT ESTIMATION MODEL, AND APPARATUS AND METHOD FOR ESTIMATING WEIGHT",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 49948,
+    "optimized_size": 3000,
+    "reduction_percent": 93.99
+  }
+}

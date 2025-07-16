@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170323",
+  "publication_number": "US20170098173A1-20170406",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15381253",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KAPUR",
+      "inventor_name_first": "Amit R.",
+      "inventor_city": "Venice",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "PEARMAN",
+      "inventor_name_first": "Steven F.",
+      "inventor_city": "Redondo Beach",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BENEDETTO",
+      "inventor_name_first": "James R.",
+      "inventor_city": "Hermosa Beach",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for building a factual database of concepts and entities that are related to the concepts through a learning process. Training content (e.g., news articles, books) and a set of entities (e.g., Bill Clinton and Barack Obama) that are related to a concept (e.g., Presidents) is received. Groups of words that co-occur frequently in the textual content in conjunction with the entities are identified as templates. Templates may also be identified by analyzing parts-of-speech patterns of the templates. Entities that co-occur frequently in the textual content in conjunction with the templates are identified as additional related entities (e.g., Ronald Reagan and Richard Nixon). To eliminate erroneous results, the identified entities may be presented to a user who removes any false positives. The entities are then stored in association with the concept.",
+  "filing_date": "20161216",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF DRAWINGS <EOH>The disclosed embodiments have other advantages and features which will be more readily apparent from the detailed description, the appended claims, and the accompanying figures (or drawings). A brief introduction of the figures is below. FIG. 1 illustrates components of an example machine able to read instructions from a machine-readable medium and execute them in a processor or controller according to one embodiment. FIG. 2 illustrates a high-level block diagram of the entity analysis system according to one embodiment. FIG. 3A illustrates a flow chart of a method for training the entity analysis system according to one embodiment. FIG. 3B illustrates a more detailed view of the step of learning additional related entities from FIG. 3A according to one embodiment. FIG. 4 illustrates a method for analyzing additional content according to one embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170406",
+  "title": "ENTITY ANALYSIS SYSTEM",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 63657,
+    "optimized_size": 2673,
+    "reduction_percent": 95.8
+  }
+}

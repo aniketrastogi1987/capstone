@@ -1,0 +1,45 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15054717",
+  "date_published": "20170831",
+  "date_produced": "20170816",
+  "title": "SINGLE PASS BOUNDING VOLUME HIERARCHY RASTERIZATION",
+  "filing_date": "20160226",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Obert",
+      "inventor_name_first": "Juraj",
+      "inventor_city": "Orlando",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Tao",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Goel",
+      "inventor_name_first": "Vineet",
+      "inventor_city": "La Jolla",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T1500",
+    "G06T1506"
+  ],
+  "main_ipcr_label": "G06T1500",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, the disclosure is directed to a method for graphics processing. The method includes receiving, by at least one processor, a source pixel value to be written to a pixel location in a render target, wherein the source pixel value is associated with a source node in a hierarchical structure. The method further includes receiving, by the at least one processor, a destination pixel value of the pixel location in the render target, wherein the destination pixel value is associated with a destination node in the hierarchical structure. The method further includes determining, by the at least one processor, a lowest common ancestor node of the source node and the destination node in the hierarchical structure. The method further includes outputting, by the at least one processor, a resulting pixel value associated with the lowest common ancestor node of the source node and the destination node to the pixel location in the render target. In another aspect, the disclosure is directed to an apparatus for processing graphics data. The apparatus includes a memory configured to store a render target. The apparatus further includes at least one processor configured to: receive a source pixel value to be written to a pixel location in the render target, wherein the source pixel value is associated with a source node in a hierarchical structure; receive a destination pixel value of the pixel location in the render target, wherein the destination pixel value is associated with a destination node in the hierarchical structure; determine a lowest common ancestor node of the source node and the destination node in the hierarchical structure; and output a resulting pixel value associated with the lowest common ancestor node of the source node and the destination node to the pixel location in the render target. In another aspect, the disclosure is directed to an apparatus. The apparatus includes means for receiving a source pixel value to be written to a ...",
+  "patent_number": "9805495",
+  "abstract": "A render output unit running on at least one processor may receive a source pixel value to be written to a pixel location in a render target, wherein the source pixel value is associated with a source node in a hierarchical structure. The render output unit may receive a destination pixel value of the pixel location in the render target, wherein the destination pixel value is associated with a destination node in the hierarchical structure. The render output unit may determine a lowest common ancestor node of the source node and the destination node in the hierarchical structure. The render output unit may output a resulting pixel value associated with the lowest common ancestor node of the source node and the destination node to the pixel location in the render target.",
+  "publication_number": "US20170249771A1-20170831",
+  "_processing_info": {
+    "original_size": 129231,
+    "optimized_size": 3620,
+    "reduction_percent": 97.2
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "patent_number": "None",
+  "application_number": "15801623",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "filing_date": "20171102",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A convolution operation device includes a convolution calculation module, a memory and a buffer device. The convolution calculation module has a plurality of convolution units, and each convolution unit performs a convolution operation according to a filter and a plurality of current data, and remains a part of the current data after the convolution operation. The buffer device is coupled to the memory and the convolution calculation module for retrieving a plurality of new data from the memory and inputting the new data to each of the convolution units. The new data are not duplicated with the current data. A convolution operation method is also disclosed.",
+  "publication_number": "US20180137407A1-20180517",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In view of the foregoing, an objective of the present invention is to provide a convolution operation device and method capable of processing data streams. The present invention discloses a convolution operation device, which includes a convolution calculation module, a memory and a buffer device. The convolution calculation module has a plurality of convolution units, and each of the convolution units performs a convolution operation according to a filter and a plurality of current data, and remains a part of the current data after the convolution operation. The buffer device is coupled to the memory and the convolution calculation module. The buffer device retrieves a plurality of new data from the memory and inputs the new data to the convolution units, and the new data are not duplicated with the current data. In one embodiment, the convolution units performs a next convolution operation according to the filter, the remained part of the current data, and the new data. In one embodiment, a stride for moving the filter is smaller than a shortest width of the filter. In one embodiment, the convolution operation device further includes an interleaving sum unit coupled to the convolution operation module. The interleaving sum unit generates a characteristics output result according to a result of the convolution operation. In one embodiment, the convolution operation device includes a plurality of the convolution operation modules, and the convolution units and the interleaving sum unit are operated in a low-scale convolution mode or a high-scale convolution mode. In the low-scale convolution mode, the interleaving sum unit is configured to sum results of the convolution operations of the convolution operation modules by interleaving so as to output sum results. In the high-scale convolution mode, the interleaving sum unit is configured to sum the results of the convolution operations of the convolution units as outputs. In one emb...",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "DU",
+      "inventor_name_first": "Li",
+      "inventor_city": "La Jolla",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DU",
+      "inventor_name_first": "Yuan",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LIU",
+      "inventor_name_first": "Chun-Chen",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "CONVOLUTION OPERATION DEVICE AND CONVOLUTION OPERATION METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 47525,
+    "optimized_size": 3496,
+    "reduction_percent": 92.64
+  }
+}

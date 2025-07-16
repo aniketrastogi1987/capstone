@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15574255",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "filing_date": "20171115",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A method is provided for predicting the future realization of at least one state that can be adopted by an object, based on a source database, storing for the past occurrences of the at least one state, values for the variables relating to the object, the method including the following steps: generating at least two classifiers according to two different data classification algorithms, for each of the classifiers, machine learning, and selecting the best classifier from the classifiers; the method also including a phase, called detection phase, including: updating the source database over time, and at least one prediction step by the best classifier, based on the updated source database.",
+  "publication_number": "US20180129947A1-20180510",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>At least one of these aims is achieved by a method for predicting the realization of at least one state that can be adopted by an object, before said state is realized, based on a database, called source database, storing for a least one, in particular several past occurrence(s) of said at least one state, values for at least one, in particular several, variable(s) relating to said object, determined before said, or each one of said, occurrence(s) of said state, said method comprising the following steps: generating at least two classifiers according to two different data classification algorithms, for each of said classifiers, machine learning on a first part of said source database, selecting, from said classifiers, one classifier, called best classifier, providing the best prediction performance on a second part of said source database, by comparing the results supplied by each classifier; said method also comprising a phase, called detection phase, comprising: updating said source database over time, with at least one new value for said variable, at least one step of predicting a state, by said best classifier, based on said updated source database. Thus, in order to detect the future realization of a state of an object, the prediction method according to the invention makes it possible to generate and to test several prediction classifiers based on data relating to said object, and in particular on the past occurrences of said state, and to choose the classifier supplying the best prediction result. As a result, the method according to the invention is more flexible, as it makes it possible to adapt to any type of object for the detection of any state the past occurrences of which are known, by proposing training each classifier directly as a function of the data relating to the object. The method according to the invention can also be used for all types of objects, with few modifications, as it makes it possible to select, i...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CAMBOT",
+      "inventor_name_first": "Jean-Michel",
+      "inventor_city": "Castelnau-le-Lez",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "COLETTA",
+      "inventor_name_first": "Rémi",
+      "inventor_city": "Gignac",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "LINAIS",
+      "inventor_name_first": "Loic",
+      "inventor_city": "Gignac",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "CASTANIER",
+      "inventor_name_first": "Emmanuel",
+      "inventor_city": "Jacou",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR PREDICTING THE REALIZATION OF A PREDETERMINED STATE OF AN OBJECT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 56466,
+    "optimized_size": 3725,
+    "reduction_percent": 93.4
+  }
+}

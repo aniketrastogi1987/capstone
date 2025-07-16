@@ -1,0 +1,41 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "14907553",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "title": "METHOD FOR CONTROLLING MESSAGE SIGNAL WITHIN TIMING CONTROLLER INTEGRATED CIRCUIT, TIMING CONTROLLER INTEGRATED CIRCUIT AND DISPLAY PANEL",
+  "filing_date": "20160125",
+  "inventor_list": [
+    {
+      "inventor_name_last": "WU",
+      "inventor_name_first": "Jingjing",
+      "inventor_city": "Shenzhen, Guangdong",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "XIONG",
+      "inventor_name_first": "Zhi",
+      "inventor_city": "Shenzhen, Guangdong",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G09G336",
+    "H04Q914",
+    "H04J326",
+    "G06F1316",
+    "H04Q1104"
+  ],
+  "main_ipcr_label": "G09G336",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A method for controlling a message signal within a timing controller integrated circuit is provide. The method for controlling the message signal within the timing controller integrated circuit controls the timing of the start signal (STV), such that the start timing of the STV is before the timing of the input RGB signal. Therefore, it does not need delaying for the input RGB data, thereby saving the line buffer and decreasing the cost. A first aspect provides a method for controlling a message signal within a timing controller integrated circuit, and the method includes the following steps: receiving a low voltage differential signaling signal; decoding the low voltage differential signaling signal to obtain a transistor-transistor logic RGB data signal and a control signal, wherein the control signal includes: a start signal, a horizontal synchronization and a vertical synchronization; processing the transistor-transistor logic RGB data signal to obtain an input RGB data; controlling a timing of the start signal before a timing of the input RGB data; and processing the input RGB data to obtain a mini-low voltage differential signaling data. Combined with the method for controlling the message signal within the timing controller integrated circuit provided by the first aspect, in a first optional scheme of the first aspect, before the step of controlling the timing of the start signal before a timing of the mini-low voltage differential signal data includes: delaying a first set time t 1 for the timing of the start signal based on a timing tVsync of the vertical synchronization, wherein tVsync+t 1 <tm, and tm is the timing of the input RGB data. Combined with the method for controlling the message signal within the timing controller integrated circuit provided by the first aspect, in a second optional scheme of the first aspect, before the step of controlling the timing of the start signal before the timing of the input RGB data...",
+  "patent_number": "9898993",
+  "abstract": "The present disclosure provides method for controlling a message signal within a timing controller integrated circuit, the timing controller integrated circuit and a display panel. The method includes: receiving a low voltage differential signaling signal; decoding the low voltage differential signaling signal to obtain a transistor-transistor logic RGB data signal and a control signal, wherein the control signal comprises: a start signal, a horizontal synchronization and a vertical synchronization; processing the transistor-transistor logic RGB data signal to obtain an input RGB data; controlling a timing of the start signal before a timing of the input RGB data; and processing the input RGB data to obtain a mini-low voltage differential signaling data. Therefore, the technical scheme provided by the present disclosure has an advantage of the low cost.",
+  "publication_number": "US20170287415A1-20171005",
+  "_processing_info": {
+    "original_size": 46541,
+    "optimized_size": 3698,
+    "reduction_percent": 92.05
+  }
+}

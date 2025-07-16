@@ -1,0 +1,66 @@
+{
+  "patent_number": "None",
+  "application_number": "15588530",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "filing_date": "20170505",
+  "main_ipcr_label": "G06N504",
+  "abstract": "In one or more embodiments, one or more methods, processes, and/or systems may receive data associated with effective completion of tasks by agents and determine a positive correlation within the data between first particular feature values of feature vectors associated with the tasks and second particular feature values of feature vectors associated with the agents. A first agent associated with a feature vector that matches, within a first threshold, the second particular feature values may be selected, and a probability that the first agent will effectively complete a first task based on a feature vector associated with the first task matching, within a second threshold, the first particular feature values may be determined.",
+  "publication_number": "US20170323212A1-20171109",
+  "summary": "<SOH> SUMMARY <EOH>In one or more embodiments, machine learning methods may combine multiple “weak” independent classifiers into a single, more accurate, predictor. Often, these methods are referred to as Weak Classifier Aggregation (WCA) methods. For example, the Independent Bayesian Classifier Combination (IBCC) method is a WCA method that combines the predictions of independent classifiers, or multiple “weak” learners, for a given event into a single prediction. Those of ordinary skill in the art will appreciate that particular implementations of WCA methods referenced herein are merely cited as non-limiting examples and are not limited to the particular implementations disclosed. For example, one non-limiting implementation of WCA for answer, result, or output confidence estimation (ACE) uses IBCC. Another non-limiting implementation of WCA includes Transfer-Learning IBCC (TLIBCC) as described in more detail below. Nevertheless, the teachings of the present disclosure are not limited to any specific implementation of WCA. In particular embodiments, any method that combines weak predictors, classifiers, or methods to produce stronger methods may be utilized. In one or more embodiments, one or more methods, processes, and/or systems may receive data associated with effective completion of tasks by agents and determine a positive correlation within the data between first particular feature values of feature vectors associated with the tasks and second particular feature values of feature vectors associated with the agents. A first agent associated with a feature vector that matches, within a first threshold, the second particular feature values may be selected, and a probability that the first agent will effectively complete a first task based on a feature vector associated with the first task matching, within a second threshold, the first particular feature values may be determined. In one or more embodiments, determining the positive correlation may include asses...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Volkov",
+      "inventor_name_first": "Andrii",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yankelevich",
+      "inventor_name_first": "Maxim",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Abramchik",
+      "inventor_name_first": "Mikhail",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Levenberg",
+      "inventor_name_first": "Abby",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Simpson",
+      "inventor_name_first": "Edwin D.",
+      "inventor_city": "Oxford",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Reece",
+      "inventor_name_first": "Steven",
+      "inventor_city": "Oxford",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "AGENT APTITUDE PREDICTION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 98847,
+    "optimized_size": 4015,
+    "reduction_percent": 95.94
+  }
+}

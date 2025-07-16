@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15371230",
+  "date_published": "20170323",
+  "date_produced": "20170309",
+  "title": "IMAGE PROCESSING SYSTEM AND COMPUTER-READABLE RECORDING MEDIUM",
+  "filing_date": "20161207",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HIGASHI",
+      "inventor_name_first": "Masafumi",
+      "inventor_city": "Ishikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NAKAMAE",
+      "inventor_name_first": "Takashi",
+      "inventor_city": "Ishikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "AOKI",
+      "inventor_name_first": "Reo",
+      "inventor_city": "Ishikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T500",
+    "G06T700"
+  ],
+  "main_ipcr_label": "G06T500",
+  "summary": "<SOH> SUMMARY <EOH>According to a first aspect of the present invention, an image processing system is provided. The image processing system may include a luminance evaluation value deriving unit that derives a luminance evaluation value of an at least partial region of an image. The image processing system may include a saturation evaluation value deriving unit that derives a saturation evaluation value of the at least partial region of the image. The image processing system may include a contrast evaluation value deriving unit that derives a contrast evaluation value of the at least partial region of the image. The image processing system may include a haze depth estimating unit that derives a haze depth estimate value of the image based on the luminance evaluation value, the saturation evaluation value, and the contrast evaluation value. The image processing system may include a first pixel extracting unit that extracts a non-flat, non-edgy pixel from the image, wherein the haze depth estimating unit may derive the haze depth estimate value based on a luminance evaluation value, a saturation evaluation value and a contrast evaluation value of the non-flat, non-edgy pixels extracted by the first pixel extracting unit. According to a second aspect of the present invention, an image processing system is provided. The image processing system may include a first pixel extracting unit that extracts a non-flat, non-edgy pixel from an image. Also, the image processing system may include a haze depth estimating unit that derives a haze depth estimate value of the image based on at least two among a luminance evaluation value, a saturation evaluation value and a contrast evaluation value of the non-flat, non-edgy pixels extracted by the first pixel extracting unit. The luminance evaluation value may be an average luminance value of the region. The saturation evaluation value may be an average saturation value of the region. The contrast evaluation value may be a contrast v...",
+  "patent_number": "None",
+  "abstract": "A technique to remove fog from an image more appropriately has been called for. An image processing system is provided, including: a luminance evaluation value deriving unit that derives a luminance evaluation value of an at least partial region of an image; a saturation evaluation value deriving unit that derives a saturation evaluation value of the at least partial region of the image; a contrast evaluation value deriving unit that derives a contrast evaluation value of the at least partial region of the image; and a haze depth estimating unit that derives a haze depth estimate value of the image based on the luminance evaluation value, the saturation evaluation value, and the contrast evaluation value.",
+  "publication_number": "US20170084009A1-20170323",
+  "_processing_info": {
+    "original_size": 87087,
+    "optimized_size": 3561,
+    "reduction_percent": 95.91
+  }
+}

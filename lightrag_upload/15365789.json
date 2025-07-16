@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15365789",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "title": "Embedding-based Parsing of Search Queries on Online Social Networks",
+  "filing_date": "20161130",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Haixun",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zeng",
+      "inventor_name_first": "Bo",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY OF PARTICULAR EMBODIMENTS <EOH>In particular embodiments, the social-networking system may analyze a search query comprising a plurality of n-grams to determine intended word senses for the n-grams (i.e., word-sense disambiguation). Each n-gram may have multiple related word senses. A word sense of a first n-gram may refer to a second n-gram representing a concept or a meaning of the first n-gram. Word senses may be determined for each n-gram of the query. Each word sense of an n-gram may have an initial relatedness-score, which may be based on how often the word sense is the intended word sense for the n-gram generally. The relatedness-score may be adjusted based on a context-score for the word sense. A context-score for a context may be calculated as a sum of similarity metrics of the embedding of the word sense and the embeddings of each other word sense corresponding to each other n-grams in the query. For each n-gram, the word sense with the highest relatedness-score may be selected, which may represent the most likely intended word sense of the n-gram. The selected word senses may be used to return relevant search results to the query. One technical problem for search engine systems of online social networks may be returning search results that are relevant to a query when there are hundreds of millions, or possibly billions, of objects to search through. When search results that are less relevant to the query are returned to the user, the user may have to execute further queries in an attempt to find more relevant results, burdening the search engine with additional requests, thereby consuming additional computing resources. Embodiments described herein may provide the technical advantage of providing more relevant results based on the intended word senses of the n-grams of the query, which may, for example, allow fewer search results to be returned, reduce the amount of content that must be delivered, and reduce the time a querying user must sp...",
+  "patent_number": "None",
+  "abstract": "In one embodiment, a method includes receiving a query including multiple n-grams; parsing the query to identify a subset of n-grams; generating, for each identified n-gram, an embedding of the n-gram; determining, for each identified n-gram, one or more word senses; calculating, for each word sense for each identified n-gram, a relatedness-score for the word sense based similarity metrics of the embedding of the word sense and the embeddings of each of the other word senses corresponding to the other identified n-grams; selecting, for each identified n-gram, one of the word senses determined for the identified n-gram having a highest relatedness-score; identifying objects matching at least a portion of the query; ranking each identified object based on a quality of matching of the object to selected word senses; and sending search results corresponding to one or more of the identified objects and having a rank greater than a threshold rank.",
+  "publication_number": "US20180150551A1-20180531",
+  "_processing_info": {
+    "original_size": 159096,
+    "optimized_size": 3650,
+    "reduction_percent": 97.71
+  }
+}

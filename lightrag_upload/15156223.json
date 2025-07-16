@@ -1,0 +1,60 @@
+{
+  "decision": "PENDING",
+  "application_number": "15156223",
+  "date_published": "20160908",
+  "date_produced": "20160824",
+  "title": "IDENTIFYING IMPLICIT ASSUMPTIONS ASSOCIATED WITH A SOFTWARE PRODUCT",
+  "filing_date": "20160516",
+  "inventor_list": [
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Rui",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHOU",
+      "inventor_name_first": "Yuchen",
+      "inventor_city": "Charlottesville",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Shuo",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "QADEER",
+      "inventor_name_first": "Shaz",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "GUREVICH",
+      "inventor_name_first": "Yuri",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1136",
+    "H04L2906",
+    "G06F2155"
+  ],
+  "main_ipcr_label": "G06F1136",
+  "summary": "<SOH> SUMMARY <EOH>A software development environment is described herein which includes an analysis module and a test suite production module. The analysis module analyzes a software product (e.g., an SDK) in conjunction with documentation (e.g., a dev guide) that describes a recommended use of the software product. This analysis can be used to identify at least one implicit assumption associated with the software product and the documentation. An implicit assumption corresponds to information that: (a) would be useful to the application developer in building an application that satisfies a stated objective; and (b) is not explicitly stated in the documentation. In one case, the stated objective is a security-related objective associated with a software product that performs an authentication and/or authorization operation. The test suit production module produces a test suite that is made up of one or more vulnerability patterns. Each vulnerability pattern corresponds to an implied assumption identified by the analysis module. The application developer can test his or her application against each vulnerability pattern. This will reveal whether the application suffers from a vulnerability that is associated with the vulnerability pattern. The application developer can then modify the application in an appropriate manner to remove the vulnerability, if deemed appropriate. Overall, the functionality described herein provides a reasoned and structured way of identifying useful information that is missing from a dev guide and/or an SDK's implementation. This facilitates the design process and yields more robust applications. The above approach can be manifested in various types of systems, components, methods, computer readable storage media, data structures, articles of manufacture, and so on. This Summary is provided to introduce a selection of concepts in a simplified form; these concepts are further described below in the Detailed Description. This Summary is not i...",
+  "patent_number": "None",
+  "abstract": "A framework is described herein for identifying implicit assumptions associated with an SDK and its accompanying documentation (e.g., dev guide). An implicit assumption is information that is not expressly stated in the documentation, but which would be useful in assisting an application developer in building an application. The framework also describes a systematic approach for identifying one or more vulnerability patterns based on the identified implicit assumptions. An application developer may run a test on an application that is being developed to ensure that it does not have any deficiency which matches a vulnerability pattern.",
+  "publication_number": "US20160259718A1-20160908",
+  "_processing_info": {
+    "original_size": 66546,
+    "optimized_size": 3798,
+    "reduction_percent": 94.29
+  }
+}

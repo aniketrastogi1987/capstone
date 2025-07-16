@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15815171",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "filing_date": "20171116",
+  "main_ipcr_label": "G06N308",
+  "abstract": "The disclosed system incorporates a new learning module, the Learning Kernel Activation Module (LKAM), at least serving the purpose of enforcing the utilization of less convolutional kernels by learning kernel activation rules and by actually controlling the engagement of various computing elements: The exemplary module activates/deactivates a sub-set of filtering kernels, groups of kernels, or groups of full connected neurons, during the inference phase, on-the-fly for every input image depending on the input image content and the learned activation rules.",
+  "publication_number": "US20180137417A1-20180517",
+  "summary": "<SOH> BRIEF SUMMARY OF THE DRAWINGS <EOH>A system and a method is disclosed herein which at least provides a systematic way for implementing CNN variants that are parsimonious in computations. To this end, the disclosed approach allows training a CNN at least in order to: i) Use as few computing resources as possible. The devised procedure results in an optimal pruning of a CNN architecture, guided by the complexity of the task and the nature of the input data. ii) Change size and form on-the-fly during inference, depending on the input data: The fact that the network changes size and structure for every input datum is what is meant by “on-the-fly.” This property enables one to perform inference using less effort for “easier” instances of data than others. iii) Optimize for the above objectives via regular back-propagation (or other regular training method such as reinforced learning) simultaneously with the primary task objective of the model. This way we avoid the prune-fine-tune iterative procedure, which is usually followed in order to reduce the size of a model. The disclosed system incorporates a new learning module, the Learning Kernel Activation Module (LKAM), serving the purpose of enforcing the utilization of less convolutional kernels by learning kernel activation rules and by actually controlling the engagement of various computing elements: The module activates/deactivates a sub-set of filtering kernels, groups of kernels, or groups of full connected neurons, during the inference phase, on-the-fly for every input image depending on the input image content and the learned activation rules. Using this module, the CNN essentially learns how to reduce its initial size on-the-fly (e.g. for every input image or datum), through an optimization process which guides the network to learn which kernel need to be engaged for a specific input datum. This results in the selective engagement of a subset of computing elements for every specific input datum, in contrast...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "THEODORAKOPOULOS",
+      "inventor_name_first": "Ilias",
+      "inventor_city": "Aigio",
+      "inventor_state": "",
+      "inventor_country": "GR"
+    },
+    {
+      "inventor_name_last": "POTHOS",
+      "inventor_name_first": "Vassileios",
+      "inventor_city": "Patras",
+      "inventor_state": "",
+      "inventor_country": "GR"
+    },
+    {
+      "inventor_name_last": "KASTANIOTIS",
+      "inventor_name_first": "Dimitris",
+      "inventor_city": "Athens",
+      "inventor_state": "",
+      "inventor_country": "GR"
+    },
+    {
+      "inventor_name_last": "FRAGOULIS",
+      "inventor_name_first": "Nikos",
+      "inventor_city": "Patras",
+      "inventor_state": "",
+      "inventor_country": "GR"
+    }
+  ],
+  "title": "PARSIMONIOUS INFERENCE ON CONVOLUTIONAL NEURAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 55708,
+    "optimized_size": 3580,
+    "reduction_percent": 93.57
+  }
+}

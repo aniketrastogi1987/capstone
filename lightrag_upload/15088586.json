@@ -1,0 +1,63 @@
+{
+  "decision": "PENDING",
+  "application_number": "15088586",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "title": "ANALYSIS AND LINKING OF A SET OF IMAGES",
+  "filing_date": "20160401",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chellam",
+      "inventor_name_first": "Nithya",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Kyamaji",
+      "inventor_name_first": "Rahul",
+      "inventor_city": "Bengaluru",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Madapoosi Ravi",
+      "inventor_name_first": "Sruthi",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Sairam",
+      "inventor_name_first": "Krithika",
+      "inventor_city": "Coimbatore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Jha",
+      "inventor_name_first": "Pranav Shekhar",
+      "inventor_city": "Kadugodi",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1722",
+    "G06Q3006",
+    "G06F30484",
+    "G06F30485",
+    "G06K962",
+    "G06F30482"
+  ],
+  "main_ipcr_label": "G06F1722",
+  "summary": "<SOH> BRIEF DESCRIPTION OF DRAWINGS <EOH>Various ones of the appended drawings merely illustrate example embodiments of the present invention and cannot be considered as limiting its scope. FIG. 1 is a block diagram illustrating an example embodiment of a network architecture of a system for publishing a set of interrelated electronic images. FIG. 2 is a block diagram illustrating multiple components that, in one embodiment, are provided within a publication system. FIG. 3 is a block diagram illustrating multiple components that, in one embodiment, are provided within an image processing module. FIG. 4 is a flow diagram of an example high-level method for publishing a set of interrelated electronic images. FIG. 5 is a flow diagram of an example high-level method for publishing a set of interrelated electronic images. FIG. 6 is a flow diagram of an example high-level method for publishing a set of interrelated electronic images. FIG. 7 is a flow diagram of an example high-level method for publishing a set of interrelated electronic images. FIG. 8 is an example set of electronic images for publishing by determining interrelationships between the images. FIG. 9A is an example set of electronic images for publishing by determining interrelationships between the images. FIG. 9B is an example set of electronic images for publishing by determining interrelationships between the images. FIG. 10 is a block diagram illustrating an example of a software architecture that may be installed on a machine, according to some example embodiments. FIG. 11 illustrates a diagrammatic representation of a machine in the form of a computer system within which a set of instructions may be executed for causing the machine to perform any one or more of the methodologies discussed herein, according to an example embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"? The headings provided herein are merely for convenience and do not necessarily affect the scope or meani...",
+  "patent_number": "None",
+  "abstract": "A set of images is accessed from a server. The set is analyzed to identify objects in each image using object recognition algorithms. A primary image that includes more of the identified objects than any of the other images of the set is determined. For each of the identified objects in the primary image, a secondary image that includes the identified object and has a higher magnification than the primary image is determined. Links are inserted into the primary image at locations including an identified object that is also in a secondary image. The primary image is displayed and, upon receiving a selection of one of the links, the secondary image that includes the identified object at the location of the selected link is displayed. The set of images is ordered based on relative positons of the identified objects in each image and then linked together based on the ordering.",
+  "publication_number": "US20170286372A1-20171005",
+  "_processing_info": {
+    "original_size": 105318,
+    "optimized_size": 4073,
+    "reduction_percent": 96.13
+  }
+}

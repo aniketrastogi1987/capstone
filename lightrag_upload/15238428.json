@@ -1,0 +1,59 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15238428",
+  "date_published": "20161208",
+  "date_produced": "20161122",
+  "title": "COOPERATIVE THREAD ARRAY REDUCTION AND SCAN OPERATIONS",
+  "filing_date": "20160816",
+  "inventor_list": [
+    {
+      "inventor_name_last": "FAHS",
+      "inventor_name_first": "Brian",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SIU",
+      "inventor_name_first": "Ming Y.",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Coon",
+      "inventor_name_first": "Brett W.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "NICKOLLS",
+      "inventor_name_first": "John R.",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "NYLAND",
+      "inventor_name_first": "Lars",
+      "inventor_city": "Carrboro",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F930",
+    "G06F938"
+  ],
+  "main_ipcr_label": "G06F930",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A system and method for performing a scan or reduction operation across multiple threads executing independently using a barrier aggregation instruction to synchronize multiple threads and perform an aggregation operation across the threads, e.g., reduction or scan. When a thread executes the barrier aggregation instruction the thread contributes to a scan or reduction result and then waits until after all of the threads have executed the barrier aggregation instruction to execute any more instructions. A reduction result is communicated to each thread after all of the threads have executed the barrier aggregation instruction and a scan result is communicated to a thread as the barrier aggregation instruction is executed by the thread. Various embodiments of a method of the invention for performing an aggregation operation across multiple threads include receiving a barrier aggregation instruction that specifies the aggregation operation for execution by a first thread of the multiple threads and combining a value associated with the first thread with an aggregation result for the multiple threads. The aggregation result is communicated to each thread of the multiple threads. The thread waits until all of the multiple threads have received the barrier aggregation instruction before executing any more instructions. Various embodiments of a system of the invention perform an aggregation operation across multiple threads. The system includes a barrier instruction execution unit that is configured to receive a barrier aggregation instruction that specifies the aggregation operation for execution by a first thread of the multiple threads and combine a value associated with the first thread with an aggregation result for the multiple threads. The aggregation result is communicated to each thread of the multiple threads. The thread waits until all of the multiple threads have received the barrier aggregation instruction before executing ...",
+  "patent_number": "9830197",
+  "abstract": "One embodiment of the present invention sets forth a technique for performing aggregation operations across multiple threads that execute independently. Aggregation is specified as part of a barrier synchronization or barrier arrival instruction, where in addition to performing the barrier synchronization or arrival, the instruction aggregates (using reduction or scan operations) values supplied by each thread. When a thread executes the barrier aggregation instruction the thread contributes to a scan or reduction result, and waits to execute any more instructions until after all of the threads have executed the barrier aggregation instruction. A reduction result is communicated to each thread after all of the threads have executed the barrier aggregation instruction and a scan result is communicated to each thread as the barrier aggregation instruction is executed by the thread.",
+  "publication_number": "US20160357560A1-20161208",
+  "_processing_info": {
+    "original_size": 88609,
+    "optimized_size": 4034,
+    "reduction_percent": 95.45
+  }
+}

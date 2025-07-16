@@ -1,0 +1,67 @@
+{
+  "decision": "PENDING",
+  "application_number": "15047300",
+  "date_published": "20160609",
+  "date_produced": "20160525",
+  "title": "Methods and Systems for Protecting Data in USB Systems",
+  "filing_date": "20160218",
+  "inventor_list": [
+    {
+      "inventor_name_last": "England",
+      "inventor_name_first": "Paul",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Slick",
+      "inventor_name_first": "Glen",
+      "inventor_city": "Bothell",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dunn",
+      "inventor_name_first": "John C.",
+      "inventor_city": "Issaquah",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ray",
+      "inventor_name_first": "Kenneth D.",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Peinado",
+      "inventor_name_first": "Marcus",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Willman",
+      "inventor_name_first": "Bryan",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1214",
+    "G06F1342",
+    "G06F13362"
+  ],
+  "main_ipcr_label": "G06F1214",
+  "summary": "<SOH> SUMMARY <EOH>The various embodiments described below are directed to providing authenticated and confidential messaging from software executing on a host (e.g. a secure software application or security kernel) to and from I/O devices operating on a USB bus. The embodiments can protect against attacks that are levied by software executing on a host computer. In various described embodiments, data can be protected via various processes that seize USB device addresses and devices. To seize a device address means that any data traffic to and from the given USB address below a seizing entity must come from or only go to, respectively, trusted software. Below the seizing entity traffic directed to a seized address must be validated as coming from trusted software, and above the seizing entity, any data originating from a seized address must be readable only by the trusted software. Seizing the device itself, thereby making the device solely controllable and readable with trusted software, merely requires appropriate use of seizing USB address. In one embodiment, a secure functional component or module is provided and can be incorporated into a host controller, a hub, a USB-inline device, or function to effect seizure. The secure module can provide protection against observation and manipulation of all data “upstream” (i.e. closer to the PC) of the USB device. All “downstream” data is, therefore, in the clear. USB systems that have been secured in accordance with this embodiment can allow an encrypted tunnel to be established, between trusted software and an unmodified device, through an unmodified USB tree, and, for the most part, an unmodified USB device-driver stack. The tunneling can happen in both directions, e.g. a secure application can send data to a USB output device without risk of observation or meaningful interference and vice versa. In other embodiments, USB data can be protected through techniques that do not utilized (or are not required to utilize) en...",
+  "patent_number": "None",
+  "abstract": "The various embodiments described below are directed to providing authenticated and confidential messaging from software executing on a host (e.g. a secure software application or security kernel) to and from I/O devices operating on a USB bus. The embodiments can protect against attacks that are levied by software executing on a host computer. In some embodiments, a secure functional component or module is provided and can use encryption techniques to provide protection against observation and manipulation of USB data. In other embodiments, USB data can be protected through techniques that do not utilized (or are not required to utilize) encryption techniques. In accordance with these embodiments, USB devices can be designated as “secure” and, hence, data sent over the USB to and from such designated devices can be provided into protected memory. Memory indirection techniques can be utilized to ensure that data to and from secure devices is protected.",
+  "publication_number": "US20160162419A1-20160609",
+  "_processing_info": {
+    "original_size": 69430,
+    "optimized_size": 4290,
+    "reduction_percent": 93.82
+  }
+}

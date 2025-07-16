@@ -1,0 +1,53 @@
+{
+  "date_produced": "20170110",
+  "publication_number": "US20170024648A1-20170126",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15287387",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Feng",
+      "inventor_name_first": "Junlan",
+      "inventor_city": "Basking Ridge",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gilbert",
+      "inventor_name_first": "Mazin",
+      "inventor_city": "Warren",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hakkani-Tur",
+      "inventor_name_first": "Dilek",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tur",
+      "inventor_name_first": "Gokhan",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Disclosed is a method and apparatus for responding to an inquiry from a client via a network. The method and apparatus receive the inquiry from a client via a network. Based on the inquiry, question-answer pairs retrieved from the network are analyzed to determine a response to the inquiry. The QA pairs are not predefined. As a result, the QA pairs have to be analyzed in order to determine whether they are responsive to a particular inquiry. Questions of the QA pairs may be repetitive and similar to one another even for very different subjects, and without additional contextual and meta-level information, are not useful in determining whether their corresponding answer responds to an inquiry.",
+  "filing_date": "20161006",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>The present invention provides an improved method and apparatus for responding to an inquiry from a client via a network. Based on the inquiry, question-answer pairs (e.g., FAQs, or QA pairs) retrieved from the network are analyzed to determine a response to the inquiry. The QA pairs are unstructured, which means that they are retrieved from the network and are not predefined. As a result and as described in more detail below, the QA pairs have to be analyzed in order to determine whether they are responsive to a particular inquiry. Questions of the QA pairs may be repetitive and, without more information, will not be useful in determining whether their corresponding answer responds to an inquiry. The QA pairs are stored in a database. In one embodiment, the analyzing of the QA pairs includes determining meta-level features of the QA pairs. The meta-level features further include one or more of text, location of the QA pair, relation of one QA pair to one or more other QA pairs, resolution of some pronominal anaphora using preceding QA pairs, and relevant named entities such as a company's name. In one embodiment, the analysis further includes performing follow-up procedures to determine the response. The follow-up procedures further include displaying multiple responses to the inquiry, enabling a rating of the multiple responses, asking follow-up questions to the inquiry, and/or arriving at the response based on answers (from the client) to multiple responses. These and other advantages of the invention will be apparent to those of ordinary skill in the art by reference to the following detailed description and the accompanying drawings.",
+  "date_published": "20170126",
+  "title": "Method and Apparatus for Responding to an Inquiry",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730",
+    "G06F1722"
+  ],
+  "_processing_info": {
+    "original_size": 33893,
+    "optimized_size": 3409,
+    "reduction_percent": 89.94
+  }
+}

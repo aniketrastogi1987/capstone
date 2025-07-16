@@ -1,0 +1,54 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15131719",
+  "date_published": "20160811",
+  "date_produced": "20160727",
+  "title": "PARTIAL PAGE MEMORY OPERATIONS",
+  "filing_date": "20160418",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Abraham",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Ada",
+      "inventor_state": "ID",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tanaka",
+      "inventor_name_first": "Tomoharu",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Kawai",
+      "inventor_name_first": "Koichi",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Einaga",
+      "inventor_name_first": "Yuichi",
+      "inventor_city": "Kouhokuku",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G11C1610",
+    "G06F1202",
+    "G11C1614",
+    "G11C1604"
+  ],
+  "main_ipcr_label": "G11C1610",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 shows a block diagram of a memory device having a memory array with memory cells, according to various embodiments. FIG. 2 shows a schematic diagram of the memory array of FIG. 1 in the form of a 3D NAND memory device, according to various embodiments. FIG. 3 shows a cross sectional view of the 3D NAND memory device of FIG. 2 in an X-X′ direction, according to various embodiments. FIG. 4 shows a cross sectional view of the 3D NAND memory device of FIG. 2 in a Y-Y′ direction, according to various embodiments. FIG. 5 shows a top view of the 3D NAND memory device of FIG. 2 , according to various embodiments. FIG. 6 shows an example circuit for mapping between column addresses and partial pages in the form of tile groups, according to various embodiments. FIG. 7 shows example schemes for mapping between column addresses and partial pages in the form of a tile group gather, according to various embodiments. FIG. 8 shows a flow diagram illustrating methods of performing a program operation on a page, according to various embodiments. FIG. 9 shows a flow diagram illustrating methods of performing a memory operation on a page, according to various embodiments. FIG. 10 shows a flow diagram illustrating methods of performing a memory operation on a page, according to various embodiments detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "9653171",
+  "abstract": "Apparatuses may include a memory block with strings of memory cells formed in a plurality of tiers. The apparatus may further comprise access lines and data lines shared by the strings, with the access lines coupled to the memory cells corresponding to a respective tier of the plurality of tiers. The memory cells corresponding to at least a portion of the respective tier may comprise a respective page of a plurality of pages. Subsets of the data lines may be mapped into a respective partial page of a plurality of partial pages of the respective page. Each partial page may be independently selectable from other partial pages. Additional apparatuses and methods are disclosed.",
+  "publication_number": "US20160232979A1-20160811",
+  "_processing_info": {
+    "original_size": 71541,
+    "optimized_size": 3101,
+    "reduction_percent": 95.67
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15157873",
+  "date_published": "20171123",
+  "date_produced": "20171108",
+  "title": "COLLECTING TEST RESULTS IN DIFFERENT FORMATS FOR STORAGE",
+  "filing_date": "20160518",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shuster",
+      "inventor_name_first": "Boaz",
+      "inventor_city": "Ra'anana",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "H04L2908"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Methods, systems, and techniques for storing a log file associated with the execution of a job in a test execution server are provided. An example method of storing test results includes receiving a notification that a job has completed execution in a test execution server. The notification includes an identifier and a name of the job. The notification is sent from the test execution server. The method also includes retrieving a log file from the test execution server, the log file including a plurality of files storing a set of test results based on the execution of the job. The method further includes determining a format of the log file. The method also includes extracting, based on the format of the log file, the plurality of files from the log file. The method further includes storing one or more files of the plurality of files into a searchable repository that provides a full-text search engine. An example system for storing test results includes a test execution server that executes a job and stores a test result of the job into a log file. The system also includes a listener that receives a notification that a job has completed execution in the test execution server. The notification is sent from the test execution server and includes an identifier and a name of the job. The system further includes an extraction module that retrieves a log file from the test execution server, determines a format of the log file, and extracts, based on the format of the log file, a plurality of files from the log file. The log file includes the plurality of files storing a set of test results based on the execution of the job. The system also includes a logger that stores one or more files of the plurality of files into a search server that provides a full-text search engine. An example non-transitory machine-readable medium includes a plurality of machine-readable instructions that when executed by one or more processors are adapted to cause the one ...",
+  "patent_number": "None",
+  "abstract": "Systems and methods are provided for storing test results. An example method includes receiving a notification that a job has completed execution in a test execution server. The notification includes an identifier and a name of the job, and is sent from the test execution server. The method also includes retrieving a log file from the test execution server and determining a format of the log file. The log file includes a plurality of files storing a set of test results based on the execution of the job. The method further includes extracting, based on the format of the log file, the plurality of files from the log file. The method also includes storing one or more files of the plurality of files into a searchable repository that provides a full-text search engine.",
+  "publication_number": "US20170337208A1-20171123",
+  "_processing_info": {
+    "original_size": 50910,
+    "optimized_size": 3329,
+    "reduction_percent": 93.46
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170309",
+  "publication_number": "US20170083823A1-20170323",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15272432",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shen",
+      "inventor_name_first": "Samuel S.P.",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The invention is directed to computer implemented methods, systems, and devices for improving a reconstruction model, e.g. historical precipitation reconstruction model for a given region, by applying a standard multivariate regression analysis to the reconstruction model to obtain a truncated sampling error variance from sampling the first set of empirical orthogonal functions, wherein the reconstruction model is improved when the reconstruction is combined with the quantified minimum sampling error.",
+  "filing_date": "20160922",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Accordingly, in order to address such needs, we have provided a method of improving a reconstruction, comprising the steps of: (i) expanding a field of observed historical gridded data into a finite series of empirical orthogonal functions (EOFs); (ii) using a multivariate regression algorithm to determine the optimal coefficients of EOFs; (iii) screening each EOF and eliminating any EOF not supported by the observed historical data; (iv) generating a reconstruction model from the screened, weighted empirical orthogonal functions; and (v) applying multivariate regression error analysis and statistical inference tools to obtain a truncated sampling error variance from sampling the first N, say 20, EOFs, wherein the reconstruction accuracy is improved and the corresponding sampling error variance is to quantify the uncertainties in reconstruction and observations. In preferred embodiments, the method is used to provide models for predicting global precipitation changes on an annual basis. In alternate preferred embodiments, the method is used to provide meteorological models for forecasting weather; a radiological imaging models for improving medical imaging; a weather history time machine that animates the past climate back to 1851; a virtual reality climate model of a gaming environment to make gaming milieu more realistic; a seismic signal reconstruction model for oil recovery processes; a calibration model for satellite remote sensing signals; a model of chemical processes for producing industrial chemicals; a model of bioreactor processes for producing biologics; a model for analyzing telecommunications signals for planning networks; a model for tracking social media data for advertising and marketing purposes; a microclimate model for controlling an HVAC (heating, ventilating, and air conditioning) system; a model of environmental pollution assessment using limited monitoring stations; a model of image reconstruction for historical pictures an...",
+  "date_published": "20170323",
+  "title": "Spectral Optimal Gridding: An Improved Multivariate Regression Analyses and Sampling Error Estimation",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 58198,
+    "optimized_size": 3110,
+    "reduction_percent": 94.66
+  }
+}

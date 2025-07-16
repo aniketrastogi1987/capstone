@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170329",
+  "publication_number": "US20170103328A1-20170413",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15388382",
+  "inventor_list": [
+    {
+      "inventor_name_last": "DANG",
+      "inventor_name_first": "Derek",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MITBANDER",
+      "inventor_name_first": "Bharat",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A management system for determining causal relationships among system entities may include a causal relationship detector configured to receive events from a computing environment having a plurality of entities, and detect causal relationships among the plurality of entities, during runtime of the computing environment, based on the events, and a rules converter configured to convert one or more of the causal relationships into at least one behavioral rule. The at least one behavioral rule may indicate a causal relationship between at least two entities of the plurality of entities.",
+  "filing_date": "20161222",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The embodiments provide a mechanism to automatically determine causal relationships in a dynamic environment where existing relationship models may not be available or may be inadequate to reflect the full extent of the inter dependencies or to adapt with the changing complexity of the runtime dynamics. For example, the embodiments may provide a management system for determining causal relationships among system entities. The management system may include at least one processor, and a non-transitory computer-readable storage medium including instructions executable by the at least one processor. The instructions are configured to implement a causal relationship detector, and a rules converter. The causal relationship detector is configured to receive events from a computing environment having a plurality of entities, and configured to detect causal relationships among the plurality of entities, during runtime of the computing environment, based on the events. The rules converter is configured to convert one or more of the causal relationships into at least one behavioral rule, where the at least one behavioral rule indicates a causal relationship between at least two entities of the plurality of entities. The causal relationship detector may include a graph generator configured to generate one or more graphs based on the events. Each graph may include vertices and arcs connecting temporally adjacent vertices. Each vertex may represent an event instance of one or more events, and each arc may represent a level of causal connectivity between at least two vertices. The causal relationship detector may be configured to detect the causal relationships based on the one or more graphs, where at least two connected vertices may represent the causal relationship between a set of entities. The event instance may include a creation of the one or more events, a closure of the one or more events, or an absence of the one or more events where a pattern of appea...",
+  "date_published": "20170413",
+  "title": "BEHAVIORAL RULES DISCOVERY FOR INTELLIGENT COMPUTING ENVIRONMENT ADMINISTRATION",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 95346,
+    "optimized_size": 3311,
+    "reduction_percent": 96.53
+  }
+}

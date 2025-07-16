@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15727949",
+  "date_published": "20180201",
+  "date_produced": "20180117",
+  "filing_date": "20171009",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Data for a plurality of entities that can be offered a plurality of products can be obtained. The data can include categorical data and numeric data. Based on business constraints, some of all of the data can be selected. The selected data can be converted to another set of numeric data, wherein the categorical values are converted to numeric values. Dimensions of the converted data can be reduced to generate another set of data. Based on this another set of data, clusters of entities can be formed. The products can be grouped by assigning a unique product identifier of each product to a corresponding cluster. This grouping of products can be used by a predictive model to predict a likelihood of an entity to purchase a particular product in a future time period. Related methods, apparatus, systems, techniques and articles are also described.",
+  "publication_number": "US20180032916A1-20180201",
+  "summary": "<SOH> SUMMARY <EOH>The current subject matter describes generating groupings of products that can be used by a predictive model. Data for a plurality of entities that can be offered a plurality of products can be obtained. The data can include categorical data and numeric data. The data can be converted to another set of numeric data, wherein the categorical values are converted to numeric values. Dimensions of the converted data can be reduced to generate another set of data. Based on this another set of data, clusters of entities can be formed. The products can be grouped by assigning a unique product identifier of each product to a corresponding cluster. This grouping of products can be used by a predictive model to predict a likelihood of an entity to purchase a particular product in a future time period. Related methods, apparatus, systems, techniques and articles are also described. In one aspect, data for a plurality of entities that are offered a plurality of products can be obtained. The data can include a first set of categorical data and a first set of numeric data. The data can be converted to a first set of data. The first set of data can include a second set of numeric data. From variables associated with the first set of data, one or more variables can be selected. Based on the selected one of more variables, dimensions of the first set of data can be reduced to generate a second set of data. Based on the second set of data, clusters associated with corresponding entities can be generated. A unique product identifier of each product can be assigned to a corresponding cluster to generate groupings of products. Using the groupings of products and for one or more entities, a likelihood of an entity to purchase a particular product in a time period in future can be predicted. In some variations, one or more of the following can optionally be included. The first set of categorical data can include categorical values for categorical attributes including at ...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q3002"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sowani",
+      "inventor_name_first": "Amit Kiran",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Malhotra",
+      "inventor_name_first": "Eeshan",
+      "inventor_city": "New Delhi",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Rahman",
+      "inventor_name_first": "Shafi Ur",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "Data-Driven Product Grouping",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 65549,
+    "optimized_size": 3680,
+    "reduction_percent": 94.39
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180503",
+  "publication_number": "US20180137427A1-20180517",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15392377",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hsieh",
+      "inventor_name_first": "Hsin-Lung",
+      "inventor_city": "Kaohsiung City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Chueh",
+      "inventor_name_first": "Chuang-Hua",
+      "inventor_city": "Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "abstract": "The disclosure is directed to an ensemble learning prediction apparatus. The apparatus includes a loss module, a diversity module, a sample weight module, and an integrating weight module. The loss module, the diversity module and the sample weight module calculate a loss, a diversity and a sample weight, respectively. An ensemble weight is learned by an object function built by the loss, diversity and the sample weight. The integrating weight module calculates an adaptive ensemble weight by integrating the ensemble weight and previous ensemble weights at a plurality of previous time points.",
+  "filing_date": "20161228",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The disclosure is directed to an ensemble learning prediction apparatus and method, and a non-transitory computer-readable storage medium. According to one embodiment, an ensemble learning prediction apparatus is provided. The apparatus comprises a loss module receiving a sample data and calculating a loss according to a first prediction result of the sample data and an actual result; a diversity module receiving the sample data and calculating a diversity between at least one hypothesis according to a second prediction result of the sample data under the at least one hypothesis; a sample weighting module calculating a correctable value of the sample data according to the first prediction result and the actual result and assigning a sample weight according to the correctable value; and an integrating weighting module, interconnected with the loss module, the diversity module and the sample weighting module, creating an object function according to the loss, the diversity and the sample weight, and training an ensemble weight by use of the object function. An adaptive ensemble weight is calculated by integrating the ensemble weight and the ensemble weights obtained at previous time points. According to another embodiment, an ensemble learning method is provided. The method includes following steps: calculating a loss according to a first prediction result and an actual result of a sample data; calculating a diversity between at least one hypothesis according to a second prediction result of the sample data under the at least one hypothesis; calculating a correctable value of the sample data according to the first prediction result and the actual result, and assigning a sample weight according to the correctable value; and creating an object function according to the loss, the diversity and the sample weight, and training an ensemble weight by use of the object function. An adaptive ensemble weight is calculated by integrating the ensemble weight an...",
+  "date_published": "20180517",
+  "title": "ENSEMBLE LEARNING PREDICTION APPARATUS AND METHOD, AND NON-TRANSITORY COMPUTER-READABLE STORAGE MEDIUM",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 34655,
+    "optimized_size": 3367,
+    "reduction_percent": 90.28
+  }
+}

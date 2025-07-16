@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032897A1-20180201",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15219401",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cao",
+      "inventor_name_first": "Feng",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Boliang",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Zheng",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Embedding representation for a document is generated based on clustering words in the document. Representative clusters are selected and weighted sum of the embeddings of the words in the selected clusters is determined as a document embedding. Documents are labeled based on document embeddings. A machine learning algorithm is trained using the documents. The machine learning algorithm predicts a label of a given document based on the given document's document embedding.",
+  "filing_date": "20160726",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A method and system of training a machine to learn to predict a label for data are disclosed. The method, in one aspect, may include receiving a document. The method may also include creating clusters of words in the document based on cosine similarity of word embeddings of words in the document. The method may further include, responsive to determining that the document has a title, ranking the clusters based on cosine similarity of word embeddings of words in a cluster and word embeddings of words in the title. The method may also include, responsive to determining that the document has no title, ranking the clusters based on compactness of a cluster indicating how closely related the words in the cluster are and a semantic distance of the cluster from other clusters. The method may further include selecting a top-k number of the ranked clusters. The method may also include determining a document embedding as a weighted sum of word embeddings of words in the top-k number of ranked clusters, wherein the receiving, the creating, the ranking, the selecting, and the determining of the document embedding are performed for multiple documents. The method may further include labeling each of the multiple documents. The method may also include training a machine learning algorithm based on the multiple documents that are labeled, wherein the training comprises separating the multiple documents as a training set and a test set, and generating a machine learning model that predicts a label for a given document based on the training set and the test set. A system of training a machine to learn to predict a label for data, in one aspect, may include a storage device and a hardware processor coupled to the storage device. The hardware processor may be operable to receive a document. The hardware processor may be further operable to create clusters of words in the document based on cosine similarity of word embeddings of words in the document. The hardwa...",
+  "date_published": "20180201",
+  "title": "EVENT CLUSTERING AND CLASSIFICATION WITH DOCUMENT EMBEDDING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 54853,
+    "optimized_size": 3311,
+    "reduction_percent": 93.96
+  }
+}

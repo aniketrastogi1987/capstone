@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170119",
+  "publication_number": "US20170032285A1-20170202",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15302866",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SHARMA",
+      "inventor_name_first": "ASHLESH",
+      "inventor_city": "KIRKLAND",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SUBRAMANIAN",
+      "inventor_name_first": "LAKSHMINARAYANAN",
+      "inventor_city": "NEW YORK",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SRINIVASAN",
+      "inventor_name_first": "YIDUTH",
+      "inventor_city": "BROOKLYN",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for classifying a microscopic image includes receiving a training dataset (306) including at least one microscopic image (305) from a physical object (303) and an associated class definition (304) for the image that is based on a product specification. Machine learning classifiers are trained to classify the image into classes (308). The microscopic image (305) is used as a test input for the classifiers to classify the image into one or more classes based on the product specification. The product specification includes a name of a brand, a product line, or other details on a label of the physical object.",
+  "filing_date": "20161007",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An exemplary system for authenticating at least one portion of a first physical object includes receiving at least one first microscopic image of at least one portion of the first physical object. Labeled data including at least one microscopic image of at least one portion of at least one second physical object associated with a class optionally based on a manufacturing process or specification, is received. A machine learning technique including a mathematical function is trained to recognize classes of objects using the labeled data as training or comparison input, and the first microscopic image is used as test input to the machine learning technique to determine the class of the first physical object. The exemplary authentication system may use an n-stage convolutional neural network based classifier, with convolution layers, and sub-sampling layers that capture low, mid and high-level microscopic variations and features. The exemplary authentication system may uses a support vector machine based classifier, including feature extraction, keypoint descriptor generation by histogram of oriented gradients, and bag of visual words based classifier. The system may also use an anomaly detection system which classifies the object based on the density estimation of clusters. The microscopic image may include curves, blobs, and other features that are integral to the identity of the physical object. The physical object may be any one of handbag, shoes, apparel, belt, watch, wine bottle, artist signature, sporting goods, golf club, jersey, cosmetics, medicine pill, electronics, electronic part, electronic chip, electronic circuitry, battery, phone, auto part, toy, auto part, air-bag, airline part, fastener, currency, bank check, money order, or any other item that may be counterfeited. The exemplary system also may use a combination of support vector machine, neural networks, and anomaly detection techniques to authenticate physical objects. According ...",
+  "date_published": "20170202",
+  "title": "AUTHENTICATING PHYSICAL OBJECTS USING MACHINE LEARNING FROM MICROSCOPIC VARIATIONS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 88082,
+    "optimized_size": 3516,
+    "reduction_percent": 96.01
+  }
+}

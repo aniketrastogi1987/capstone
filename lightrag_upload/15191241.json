@@ -1,0 +1,75 @@
+{
+  "decision": "PENDING",
+  "application_number": "15191241",
+  "date_published": "20170105",
+  "date_produced": "20161220",
+  "title": "IMAGE PROCESSING APPARATUS",
+  "filing_date": "20160623",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tanaka",
+      "inventor_name_first": "Wakako",
+      "inventor_city": "Inagi-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Ikeda",
+      "inventor_name_first": "Tohru",
+      "inventor_city": "Yokohama-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Hori",
+      "inventor_name_first": "Shinjiro",
+      "inventor_city": "Yokohama-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Suwa",
+      "inventor_name_first": "Tetsuya",
+      "inventor_city": "Yokohama-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Kagawa",
+      "inventor_name_first": "Hidetsugu",
+      "inventor_city": "Kawasaki-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Yanai",
+      "inventor_name_first": "Yumi",
+      "inventor_city": "Yokohama-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Ishikawa",
+      "inventor_name_first": "Tomokazu",
+      "inventor_city": "Yokohama-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K900",
+    "G06T700",
+    "H04N100",
+    "G06K946"
+  ],
+  "main_ipcr_label": "G06K900",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention provides an image processing apparatus that is able to efficiently and certainly determine a unique portion in a print image by setting parameters in accordance with the features of the unique portion appearing in the print image. In the first aspect of the present invention, there is provided an image processing apparatus comprising: a data acquiring means configured to acquire image data resulting from reading a print image; a processing means configured to perform predetermined processes on the image data, the predetermined processes including averaging processes of multiple divided images and an addition process of results of the averaging processes of the multiple divided images, the averaging processes and the addition process being performed in accordance with parameters of (a) a division size of a division area for dividing the image and (b) a shift amount for shifting a setting position of the division area; and an extracting means configured to extract a unique portion in the print image from the image data on which the predetermined processes have been performed, wherein the processing means performs (i) the averaging process on the image data in accordance with the parameters preliminarily set thereby to generate multiple pieces of candidate image data and (ii) the addition process on pieces of image data selected from the multiple pieces of candidate image data, the image processing apparatus further comprising: an information acquiring means configured to acquire information about a form of appearance of the unique portion on the basis of printing conditions of the print image; and a selecting means configured to select the pieces of image data for the addition processes from the multiple pieces of candidate image data in accordance with the form of appearance indicated by the information. In the second aspect of the present invention, there is provided an image processing apparatus comprising: ...",
+  "patent_number": "None",
+  "abstract": "Parameters are set according to features of a unique portion appearing in a print image, ensuring that the unique portion can be efficiently determined in the print image. In order to do so, information about a form of appearance of the unique portion in the print image is acquired, and the parameters are set in accordance with the form of the appearance.",
+  "publication_number": "US20170004360A1-20170105",
+  "_processing_info": {
+    "original_size": 128706,
+    "optimized_size": 3792,
+    "reduction_percent": 97.05
+  }
+}

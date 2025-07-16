@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15617390",
+  "date_published": "20171214",
+  "date_produced": "20171129",
+  "filing_date": "20170608",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Determining a location of a user on a social network platform is difficult due to incorrect information or lack of information associated with the user. A system and method are provided to compute contextual similarity. This includes, for example, computing content similarity between seed users and followers/friends, as well as computing an engagement score between seed users and followers/friends. The system also computes geo-social-spatial similarity. The similarity scores are used in any inference computation to infer the geo-locations of the followers of the seed users, and subject users who share common friends with the seed users. The user geo-location inference database is updated using the result. Other seed users are selected, and the process is repeated.",
+  "publication_number": "US20170357903A1-20171214",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Embodiments will now be described by way of example only with reference to the appended drawings wherein: FIG. 1 is an example of a social network graph comprising nodes and edges. FIG. 2 is a system diagram including a server system in communication with other computing devices. FIG. 3 is a schematic diagram showing another example embodiment of the server system of FIG. 2 , but in isolation. FIG. 4 is an example embodiment of a server system architecture, also showing the flow of information amongst databases and modules. FIG. 5 is a flow diagram showing example executable instructions for inferring location based on geo-spatial similarity. FIG. 6 is a flow diagram showing example executable instructions for inferring location based on geo-spatial similarity and contextual similarity. FIG. 7 is a flow diagram showing example executable instructions for determining seed users and predicting the locations of interest of their followers. FIG. 8 is a flow diagram showing example executable instructions for generating data comprising seeds with locations known with a high probability. FIG. 9 is a flow diagram showing example executable instructions for using seeds to determine probable locations associated with followers of the seeds. FIG. 10 is a table illustrating inference results from an example experiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N504",
+    "G06Q5000"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "PAL",
+      "inventor_name_first": "Koushik",
+      "inventor_city": "Etobicoke",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "DIA",
+      "inventor_name_first": "Ousmane Amadou",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "PADMANABHAN",
+      "inventor_name_first": "Kanchana",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "Prediction System for Geographical Locations of Users Based on Social and Spatial Proximity, and Related Method",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 63121,
+    "optimized_size": 3134,
+    "reduction_percent": 95.03
+  }
+}

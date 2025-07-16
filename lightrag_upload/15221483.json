@@ -1,0 +1,53 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032902A1-20180201",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15221483",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Krishnan",
+      "inventor_name_first": "Lakshmi",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Han",
+      "inventor_name_first": "Kyu Jeong",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Charette",
+      "inventor_name_first": "Francois",
+      "inventor_city": "Tracy",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Puskorius",
+      "inventor_name_first": "Gintaras Vincent",
+      "inventor_city": "Novi",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Training tuples including text and a question and answer corresponding to the text are input to a machine learning algorithm, such as a deep neural network. A Q&A model is obtained that outputs questions and answers given an input text. The training tuples may be obtained from standardized test such that the text is a question prompt and the questions and answers are based on the prompt. Raw text is input to the Q&A model to obtain second training tuples including a question and an answer. An NLU model is trained according to the second training tuples. The NLU model may then be installed on a consumer device, which will then use the model to respond to conversational queries and provide an appropriate response.",
+  "filing_date": "20160727",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In order that the advantages of the invention will be readily understood, a more particular description of the invention briefly described above will be rendered by reference to specific embodiments illustrated in the appended drawings. Understanding that these drawings depict only typical embodiments of the invention and are not therefore to be considered limiting of its scope, the invention will be described and explained with additional specificity and detail through use of the accompanying drawings, in which: FIG. 1 is a schematic block diagram of an environment in which to implement systems and methods in accordance with an embodiment of the present invention; FIG. 2 is a schematic block diagram of an example computing device suitable for implementing methods in accordance with embodiments of the invention; FIG. 3 is a schematic block diagram of components for generating training data for an NLU system in accordance with an embodiment of the present invention; and FIG. 4 is a process flow diagram of a method for generating and using training data for an NLU system in accordance with an embodiment of the present invention. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180201",
+  "title": "Generating Training Data For A Conversational Query Response System",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N308",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 34240,
+    "optimized_size": 3014,
+    "reduction_percent": 91.2
+  }
+}

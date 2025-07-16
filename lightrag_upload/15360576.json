@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180509",
+  "publication_number": "US20180144253A1-20180524",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15360576",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Merhav",
+      "inventor_name_first": "Uri",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Jing",
+      "inventor_name_first": "How",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Jaewon",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shacham",
+      "inventor_name_first": "Dan",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In an example embodiment, for each of a plurality of different titles in a social network structure, the title is mapped into a first vector having n coordinates, while kills are mapped into a second vector having n coordinates. The first and second vectors are stored in a deep representation data structure. One or more objective functions are applied to at least one combination of two or more of the vectors in the deep representation data structure. Then, an optimization test on each of the at least one combination is performed using a corresponding objective function output for each of the at least one combination of two or more of the vectors, and, for any combination that did not pass the optimization test, one or more coordinates for the vectors in the combination are altered so that the vectors in the combination become closer together within an n-dimensional space.",
+  "filing_date": "20161123",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments of the technology are illustrated, by way of example and not limitation, in the figures of the accompanying drawings. FIG. 1 is a block diagram illustrating a client-server system, in accordance with an example embodiment. FIG. 2 is a block diagram showing the functional components of a social networking service, including a data processing module referred to herein as a. search engine, for use in generating and providing search results for a search query, consistent with some embodiments of the present disclosure. FIG. 3 is a block diagram illustrating the application server module of FIG. 2 in more detail. FIG. 4 is a block diagram illustrating a machine learning module in more detail, in accordance with an example embodiment. FIG. 5 is a flow diagram illustrating a method for creating a deep embedded representation of social network entities in accordance with an example embodiment. FIG. 6 is a diagram illustrating an example of a deep representation of titles and skills in accordance with an example embodiment. FIG. 7 is a diagram illustrating the example of the deep representation from FIG. 6 at a deeper lever (i.e., zoomed in). FIG. 8 is a flow diagram illustrating a method for creating a deep representation of entities specifically for relating titles and skills. FIG. 9 is a flow diagram illustrating a method for creating a deep representation of entities specifically for skill-set-based title prediction. FIG. 10 is a block diagram illustrating a representative software architecture, which may be used in conjunction with various hardware architectures herein described. FIG. 11 is a block diagram illustrating components of a machine, according to some example embodiments, able to read instructions from a machine-readable medium (e.g., a machine-readable storage medium) and perform any one or more of the methodologies discussed herein. detailed-description description=\"Detailed Description\" end=\"lead...",
+  "date_published": "20180524",
+  "title": "SKILL-BASED TITLE PREDICTION MODEL",
+  "ipcr_labels": [
+    "G06N502",
+    "G06Q5000"
+  ],
+  "_processing_info": {
+    "original_size": 83545,
+    "optimized_size": 3847,
+    "reduction_percent": 95.4
+  }
+}

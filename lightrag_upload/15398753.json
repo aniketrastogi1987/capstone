@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15398753",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "filing_date": "20170105",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "The present disclosure provides an emoji recommendation method and device, The emoji recommendation method may include: acquiring training sentences corresponding to emojis; clustering the training sentences to categories; according to a number of training sentences in each category, calculating a first probability corresponding to each category; according, to correspondences between the training sentences and the emojis determining emojis included ifs each category, and calculating a second probability corresponding to each emoji in each category; according to occurrences of each word in each category, calculating a third probability corresponding to each word in each category; according to the first probability and the third probability, calculating a fourth probability of a target sentence belonging to each category; according to the fourth probabilities corresponding to the categories, determining a target category for the target sentence; and according to the second probability co...",
+  "publication_number": "US20180107945A1-20180419",
+  "summary": "<SOH> BRIEF SUMMARY OF THE DISCLOSURE <EOH>The present disclosure provides an emoji recommendation method and device thereof, thus solving the issue of low input efficiency in existing emoji input methods. Directed to solving the above technical issues, the present disclosure discloses technical solutions as follows. One aspect of the present disclosure provides an emoji recommendation method. The emoji recommendation method may include: acquiring training sentences corresponding to emojis and, in particular, each training sentence includes one or more words; clustering the training sentences to obtain a plurality of interpretive categories; according to a total number of one or more training sentences included in each interpretive category, calculating a first probability corresponding to each interpretive category; according to correspondence relationships between the training sentences and the emojis, determining one or more emojis included in each interpretive category, and calculating a second probability corresponding to each emoji in each interpretive category; according to the number of occurrence of each word in each interpretive category, calculating a third probability corresponding to each word in each interpretive category; according to the first probability and the third probability, utilizing the Bayes formula to calculate a fourth probability of a target sentence inputted by the user belonging to each of the interpretive categories and, in particular, the target sentence includes one or more target words; according to the fourth probabilities corresponding to the interpretive categories, determining a target interpretive category corresponding to the target sentence; and according to the second probability corresponding to each emoji included in the target interpretive category, recommending at least one emoji. Optionally, according to the total number of the training sentences included in each interpretive category, calculating the first probability...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "GAO",
+      "inventor_name_first": "Xin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZHOU",
+      "inventor_name_first": "Li",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "HU",
+      "inventor_name_first": "Xinyong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "EMOJI RECOMMENDATION METHOD AND DEVICE THEREOF",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 89929,
+    "optimized_size": 3818,
+    "reduction_percent": 95.75
+  }
+}

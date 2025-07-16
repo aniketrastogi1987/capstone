@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "14905240",
+  "date_published": "20160602",
+  "date_produced": "20160518",
+  "title": "SYSTEMS AND METHODS FOR DATA INTEGRATION",
+  "filing_date": "20160114",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Papotti",
+      "inventor_name_first": "Paolo",
+      "inventor_city": "Doha",
+      "inventor_state": "",
+      "inventor_country": "QA"
+    },
+    {
+      "inventor_name_last": "Naumann",
+      "inventor_name_first": "Felix",
+      "inventor_city": "Doha",
+      "inventor_state": "",
+      "inventor_country": "QA"
+    },
+    {
+      "inventor_name_last": "Kruse",
+      "inventor_name_first": "Sebastian",
+      "inventor_city": "Doha",
+      "inventor_state": "",
+      "inventor_country": "QA"
+    },
+    {
+      "inventor_name_last": "Rezig",
+      "inventor_name_first": "EI Kindi",
+      "inventor_city": "Doha",
+      "inventor_state": "",
+      "inventor_country": "QA"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>When embarking on a data integration and cleansing project it can be useful and important to estimate in advance the effort and cost of the project. Such estimations help deciding whether to pursue the project in the first place, planning and scheduling the project using estimates about the duration of integration steps, budgeting in terms of cost or manpower, and finally monitoring the progress of the project. Cost estimates also help integration service providers, IT consultants, and IT tool vendors to generate better price quotes for integration customers. Further, automatically generated knowledge of how well and how easy a data source fits into a given data ecosystem improves source selection. According to one aspect of the present disclosure, there is provided a computer implemented method for integrating data into a target database, the method comprising: providing a plurality of source databases which each comprise a relational schema and data for integration into the target database; generating at least one complexity model based on the relational schema and data of each source database, each complexity model indicating at least one inconsistency between two or more of the data sources which must be resolved to integrate the data from the data sources into the target database; generating an effort model comprising an effort value for each inconsistency indicated by each complexity model, each effort value indicating at least one of a time period and a financial cost required to resolve the inconsistency to integrate data from the data sources into the target database; and integrating data from at least one of the source databases into the target database. According to one or more embodiments described herein, the method further comprises optimising the integration of data into the target database by comparing the effort values for a plurality of data sources and selecting at least one data source that produce a minimum effort value for in...",
+  "patent_number": "None",
+  "abstract": "A computer implemented method for integrating data into a target database may include: providing a plurality of source databases which each may include a relational schema and data for integration into the target database; generating at least one complexity model based on the relational schema and data of each source database, each complexity model indicating at least one inconsistency between two or more of the data sources which may be require to be resolved to integrate the data from the data sources into the target database; and generating an effort model that may include an effort value for each inconsistency indicated by each complexity model, each effort value indicating at least one of a time period and a financial cost to resolve the inconsistency to integrate data from the data sources into the target database.",
+  "publication_number": "US20160154830A1-20160602",
+  "_processing_info": {
+    "original_size": 56035,
+    "optimized_size": 3779,
+    "reduction_percent": 93.26
+  }
+}

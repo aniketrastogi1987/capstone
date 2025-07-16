@@ -1,0 +1,67 @@
+{
+  "patent_number": "None",
+  "application_number": "15806111",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "filing_date": "20171107",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "Provided is a convolutional neural network system including a data selector configured to output an input value corresponding to a position of a sparse weight from among input values of input data on a basis of a sparse index indicating the position of a nonzero value in a sparse weight kernel, and a multiply-accumulate (MAC) computator configured to perform a convolution computation on the input value output from the data selector by using the sparse weight kernel.",
+  "publication_number": "US20180129935A1-20180510",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure provides a convolutional neural network system and an operation method thereof capable of reducing convolution computations on the basis of sparse weights generated according to neural network compression in the convolutional neural network. The present disclosure also provides an effective computation method and device for a convolutional neural network system using sparse weights and thus improves an overall performance by reducing a computation performance time according thereto. An embodiment of the inventive concept provides convolutional neural network system including: a data selector configured to output an input value corresponding to a position of a sparse weight from among input values of input data on a basis of a sparse index indicating the position of a nonzero value in a sparse weight kernel; and a multiply-accumulate (MAC) computator configured to perform a convolution computation on the input value output from the data selector by using the sparse weight kernel, wherein the sparse weight kernel includes at least one weight value of ‘0’. In an embodiment, the data selector may be configured not to output, from among the input values, an input value corresponding to a position of ‘0’ in the sparse weight kernel. In an embodiment, the convolutional neural network system may further include: an input buffer device configured to store, from an external memory, an input tile that is a part of the input data; and an output buffer device configured to store a result value of the convolution computation from the MAC computator and to provide the stored result value to the external memory. In an embodiment, the convolutional neural network system may further include a weight kernel buffer device configured to receive the sparse weight kernel from an external memory, provide the received sparse weight kernel to the MAC computator, and provide the sparse index of the sparse weight kernel to the data selector. In an embo...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304",
+    "G06F7544"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Jin Kyu",
+      "inventor_city": "Sejong",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Byung Jo",
+      "inventor_city": "Sejong",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Seong Min",
+      "inventor_city": "Sejong",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Ju-Yeob",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Mi Young",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Joo Hyun",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "CONVOLUTIONAL NEURAL NETWORK SYSTEM AND OPERATION METHOD THEREOF",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 83500,
+    "optimized_size": 3769,
+    "reduction_percent": 95.49
+  }
+}

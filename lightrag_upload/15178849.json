@@ -1,0 +1,46 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15178849",
+  "date_published": "20160929",
+  "date_produced": "20160914",
+  "title": "Access Control System and Method for Use by an Access Device",
+  "filing_date": "20160610",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Outwater",
+      "inventor_name_first": "Chris",
+      "inventor_city": "Carpinteria",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Redmann",
+      "inventor_name_first": "William Gibbens",
+      "inventor_city": "Glendale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G07C900",
+    "H04L2906",
+    "G06Q1002",
+    "B60L1118",
+    "G06Q2032",
+    "G06Q2038",
+    "G07F1500",
+    "G06Q5006",
+    "H04L932",
+    "H04M1725"
+  ],
+  "main_ipcr_label": "G07C900",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention relates to the use of a web site and a cellular telephone, preferably a smart phone, to reserve and activate an electric vehicle charger or to activate and allow access to any access device such as a hotel room lock or the like. The web site can be general access or restricted access and can allow a user using a browser from a computer, laptop, web-capable cellular telephone, smart phone or any electronic processing device to place a reservation for a particular charger at a particular time window. A server or server computer not hosting a website can also interface directly with a telephone application. The server, or another server, can then transfer a digital token or certificate, which may be wholly or partially encrypted, to the cellular telephone. This certificate may comprise a unique ID and/or a date/time stamp. The certificate generally has an ID referring to the final access device (for example, a charger), or is encoded in such a way that only the final access device can read and/or verify the message (e.g., the certificate may be encrypted with or signed with a public key for the final access device); whereby the final access device can recognize that the certificate is intended for it. The certificate generally has a start time and duration (or end time), describing the interval during which the final access device has been reserved. Additional options may also be included. The certificate can also contain a digital authorization (for example, a digital signature) so that the final access device can verify that the certificate is genuine. Each charger or other access device in a particular system may have a unique ID, which can be changed for security. The certificate can also contain this charger or device ID as well as other information such as approximate time when charging should begin (the reservation time), and the charging parameters. If a wireless device, such as a laptop or smart phone, ...",
+  "patent_number": "9911258",
+  "abstract": "Systems and methods are provided to allow a smart phone or any terminal to activate a door lock using a web site or server computer system. An access control system is provided that includes a server and an access device. The access device includes a processor and a communication module. The process has control of a door lock and is able to receive a reservation certificate presented by a portable terminal through the communication module. The processor activates the door lock when a current reservation certificate has been presented.",
+  "publication_number": "US20160284143A1-20160929",
+  "_processing_info": {
+    "original_size": 42530,
+    "optimized_size": 3359,
+    "reduction_percent": 92.1
+  }
+}

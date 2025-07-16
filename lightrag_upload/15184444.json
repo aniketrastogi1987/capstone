@@ -1,0 +1,47 @@
+{
+  "decision": "PENDING",
+  "application_number": "15184444",
+  "date_published": "20161222",
+  "date_produced": "20161208",
+  "title": "COMPUTER IMPLEMENTED SYSTEM AND METHOD FOR RECOGNIZING AND COUNTING PRODUCTS WITHIN IMAGES",
+  "filing_date": "20160616",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KUMAR",
+      "inventor_name_first": "Swagat",
+      "inventor_city": "Noida",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "KEJRIWAL",
+      "inventor_name_first": "Nishant",
+      "inventor_city": "Noida",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "GARG",
+      "inventor_name_first": "Sourav",
+      "inventor_city": "Noida",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q1008",
+    "G06T700",
+    "G06K962",
+    "G06K900"
+  ],
+  "main_ipcr_label": "G06Q1008",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure relates to a computer implemented system and method for recognizing and counting stock within a defined environment. This environment comprises an area of shelves and aisles between shelves which are adapted to removably hold stock comprising clusters of products. In an embodiment, the system may comprise an intransient repository that stores a set of rules for (i) creating a k-d tree having descriptors from a plurality of pre-determined product templates, (ii) identifying descriptors in captured images, (iii) comparing the descriptors in the k-d tree with the identified descriptors and (iv) comparing number of descriptors with a first threshold value and a second threshold value. This intransient repository may also store a look-up table containing the plurality of pre-determined product templates corresponding to the products having pre-determined descriptors, the first threshold value and the second threshold value. The system may also include a processor that uses the stored set of rules to generate a set of commands based on the rules. The system may also include a k-d tree creator configured to cooperate with the processor to use the set of commands to create the k-d tree containing descriptors and to store the created k-d tree in the intransient repository. The system may also comprise at least one monitoring device adapted to move between the aisles. This monitoring device may be associated with an image capturing device which is configured to capture a plurality of images of the clusters of products. A descriptor identifier is present in the system that cooperates with the processor to receive the set of commands and to receive the captured images from the monitoring device and it uses the received set of commands to identify descriptors in the captured images. A transient repository is present in the system to store these identified descriptors. The system then compares the number of the identified descriptors in t...",
+  "patent_number": "None",
+  "abstract": "The system and method for recognizing and counting products within images is disclosed. The products are recognized by carrying out a nearest-neighbor search in the template feature space using a k-d tree and the product count is then obtained by using a maximum feature repeatability index for each identified feature. The system also obtains product arrangement by fitting bounding boxes around each identified product. The count of boxes thus obtained may also provide the exact number of discrete products visible in an image. A second stage of grid-based search is also carried out in the neighborhood of each detected product to detect new products that might have been missed out in the previous step. This detection is based on a confidence measure including information like histogram matching and spatial location of products. This system is also useful in verifying planogram compliance for a given product.",
+  "publication_number": "US20160371634A1-20161222",
+  "_processing_info": {
+    "original_size": 54325,
+    "optimized_size": 3808,
+    "reduction_percent": 92.99
+  }
+}

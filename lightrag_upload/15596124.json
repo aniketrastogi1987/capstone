@@ -1,0 +1,60 @@
+{
+  "patent_number": "None",
+  "application_number": "15596124",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170516",
+  "main_ipcr_label": "G06N302",
+  "abstract": "For correction of an image from an imaging system, a deep-learnt generative model is used as a regularlizer in an inverse solution with a physics model of the degradation behavior of the imaging system. The prior model is based on the generative model, allowing for correction of an image without application specific balancing. The generative model is trained from good images, so difficulty gathering problem-specific training data may be avoided or reduced.",
+  "publication_number": "US20170372193A1-20171228",
+  "summary": "<SOH> SUMMARY <EOH>By way of introduction, the preferred embodiments described below include methods, systems, instructions, and non-transitory computer readable media for correction of an image from an imaging system. A deep-learnt generative model is used as a regularlizer in an inverse solution with a physics model of the degradation behavior of the imaging system. The prior model is based on the generative model, allowing for correction of an image without application specific balancing. The generative model is trained from good images, so difficulty gathering problem-specific training data may be avoided or reduced. In a first aspect, a method is provided for correction of an image from a medical scanner. The medical scanner acquires the image representing a patient. The image has a level of artifact due to the acquisition process by the medical scanner. A machine determines a probability of artifact abnormality for the image with a deep generative machine-learnt model. The machine minimizes the level of the artifact in the image. The minimization is a function of a physics model of the artifacts and the prior probability of the image. The physics model includes a characteristic specific to the medical scanner. The image output from the minimizing is transmitted. The image is of the patient and from the medical scanner with the level of the artifact minimized. In a second aspect, a method is provided for reducing distortion in an image from an imaging system. The image of an object is optimized to have less of the distortion. The optimization is with a gradient-based optimization including a regularizer from a log-likelihood output by a machine-learnt generative model. The image as optimized is output. In a third aspect, a method is provided for correction of a first image from an imaging system. The imaging system acquires the first image having a distortion due to the acquisition by the imaging system. A machine determines a likelihood of the first image havi...",
+  "ipcr_labels": [
+    "G06N302",
+    "G06T500",
+    "G06T700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mailhe",
+      "inventor_name_first": "Boris",
+      "inventor_city": "Plainsboro",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cetingul",
+      "inventor_name_first": "Hasan Ertan",
+      "inventor_city": "Fulton",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Odry",
+      "inventor_name_first": "Benjamin L.",
+      "inventor_city": "West New York",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Xiao",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nadar",
+      "inventor_name_first": "Mariappan S.",
+      "inventor_city": "Plainsboro",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Image Correction Using A Deep Generative Machine-Learning Model",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 57190,
+    "optimized_size": 3635,
+    "reduction_percent": 93.64
+  }
+}

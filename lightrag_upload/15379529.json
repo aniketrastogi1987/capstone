@@ -1,0 +1,46 @@
+{
+  "decision": "PENDING",
+  "application_number": "15379529",
+  "date_published": "20180621",
+  "date_produced": "20180608",
+  "title": "FRAME DIFFERENCE GENERATION HARDWARE IN A GRAPHICS SYSTEM",
+  "filing_date": "20161215",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Ying-Chieh",
+      "inventor_city": "Kaohsiung",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Shih-Chin",
+      "inventor_city": "Hsinchu",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Chang",
+      "inventor_name_first": "Chih-Yu",
+      "inventor_city": "Hsinchu",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T1720",
+    "G06T1500",
+    "G06T160"
+  ],
+  "main_ipcr_label": "G06T1720",
+  "summary": "<SOH> SUMMARY <EOH>In one embodiment, a method is provided for a frame difference generator hardware in a graphics system for dynamically adjusting a frame rate. The method comprises: receiving graphics data of a tile of a current frame from a GPU in the graphics system, in parallel with a frame buffer receiving the graphics data; computing a difference value between a first value computed from the graphics data and a second value representing a corresponding tile of a previous frame; accumulating difference values computed from multiple tiles of the current frame and the previous frame to obtain an accumulated value; and reporting the accumulated value to software executed by the graphics system for determination of an adjustment to the frame rate. In another embodiment, a graphics system is provided for dynamically adjusting a frame rate. The graphics system comprises: a GPU; and frame difference generator hardware coupled to the GPU. The frame difference generator is operative to: receive graphics data of a tile of a current frame from the GPU, in parallel with a frame buffer receiving the graphics data; compute a difference value between a first value computed from the graphics data and a second value representing a corresponding tile of a previous frame; accumulate difference values computed from multiple tiles of the current frame and the previous frame to obtain an accumulated value; and report the accumulated value to software executed by the graphics system for determination of an adjustment to the frame rate. The embodiments of the invention enable a graphics system to dynamically adjust its frame rate to thereby achieve a significant amount of power saving.",
+  "patent_number": "None",
+  "abstract": "A graphics system provides frame difference generator hardware for dynamically adjusting a frame rate. The graphics system includes a graphics processing unit (GPU), which generates frames containing tiles of graphics data. The frame difference generator hardware receives the graphics data of a tile of a current frame from the GPU, in parallel with a frame buffer that also receives the graphics data. The frame difference generator hardware computes a difference value between a first value computed from the graphics data and a second value representing a corresponding tile of a previous frame, and accumulates difference values computed from multiple tiles of the current frame and the previous frame to obtain an accumulated value. The accumulated value is reported to software executed by the graphics system for determination of an adjustment to the frame rate.",
+  "publication_number": "US20180174359A1-20180621",
+  "_processing_info": {
+    "original_size": 34871,
+    "optimized_size": 3420,
+    "reduction_percent": 90.19
+  }
+}

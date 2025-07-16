@@ -1,0 +1,58 @@
+{
+  "date_produced": "20170412",
+  "publication_number": "US20170116519A1-20170427",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15260538",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Johnson",
+      "inventor_name_first": "Jeffrey A.",
+      "inventor_city": "Frisco",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Habib",
+      "inventor_name_first": "Md Ahsan",
+      "inventor_city": "The Colony",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Burgess",
+      "inventor_name_first": "Chandler L.",
+      "inventor_city": "Dallas",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Saha",
+      "inventor_name_first": "Tanay Kumar",
+      "inventor_city": "Indianapolis",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hasan",
+      "inventor_name_first": "Mohammad Al",
+      "inventor_city": "Fishers",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The present disclosure relates to the electronic document review field and, more particularly, to various apparatuses and methods of implementing batch-mode active learning for technology-assisted review (TAR) of documents (e.g., legal documents).",
+  "filing_date": "20160909",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various apparatuses and methods for addressing at least the aforementioned needs are described in the independent claims. Advantageous embodiments of the various apparatuses and methods are further described in the dependent claims. In one aspect, the present disclosure provides an apparatus configured to implement batch-mode active learning for technology-assisted review (TAR) of documents. The apparatus comprises a processor and a memory that stores processor-executable instructions, wherein the processor interfaces with the memory to execute the processor-executable instructions, whereby the apparatus is operable to: (a) obtain an unlabeled set of documents D; (b) obtain a batch size k; (c) construct a first batch of k documents D; (d) obtain labels for the first batch of k documents D, wherein the labeled first batch of k documents D are referred to as training data documents; (e) construct a hyperplane h c (x) using the labeled first batch of k documents D; (f) perform an iteration of active learning using a support vector machine (SVM), wherein the perform operation comprises: (i) select a new batch of unlabeled instances (documents) B c using a current version of the hyperplane h c (x), an unlabeled set of available documents D, and the batch size k; (ii) obtain labels for the new batch of unlabeled instances B c ; (iii) add the labeled new batch of instances B c to a current version of the training data documents referred to as extended training data documents D c ; (g) construct an updated hyperplane h(x) using the extended training data documents D c ; (h) determine whether a stopping criteria has been met; (i) based on the determination that the stopping criteria has not been met, repeat the perform operation, the third construct operation, and the determine operation; and, (j) based on the determination that the stopping criteria has been met, return the updated hyperplane h(x) (technique 1). In one example, the apparatus can be operab...",
+  "date_published": "20170427",
+  "title": "Apparatus and Method of Implementing Enhanced Batch-Mode Active Learning for Technology-Assisted Review of Documents",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 152804,
+    "optimized_size": 3455,
+    "reduction_percent": 97.74
+  }
+}

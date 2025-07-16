@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046894A1-20180215",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15242622",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YAO",
+      "inventor_name_first": "Song",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present invention relates to artificial neural network, for example, convolutional neural network. In particular, the present invention relates to how to implement and optimize a convolutional neural network based on an embedded FPGA. Specifically, it proposes an overall design process of compressing, fix-point quantization and compiling the neural network model.",
+  "filing_date": "20160822",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In the present invention, we propose a solution to implement a complete CNN in a FPGA embedded accelerator. First, after an in-depth analysis of state-of-the-art CNN models for large-scale image classification, we find that state-of-the-art CNN models are extremely complex, CONV layers are computational-centric, and FC layers are memory-centric. According to one aspect of the invention, we present an automatic flow for dynamic-precision data quantization and explore various data quantization configurations. Results show that only a 0.4% accuracy loss is introduced with VGG16 model under 8/4 bit dynamic-precision quantization. It proposes a method for optimizing an Artificial Neural Network (ANN), said ANN at least comprises convolutional layers CONV 1, CONV 2, . . . CONV n, and fully connected layers FC 1, FC 2, . . . , FC m, wherein n and m are positive integers, said ANN can receive a data set as input and process said data set by said CONV 1, . . . CONV n, FC 1, . . . FC m in sequence and provide a corresponding feature map set as each layer's output, said method comprising: compressing step for compressing weights of said convolutional layers CONV 1, CONV 2, . . . CONV n, and fully connected layers FC 1, FC 2, . . . FC m of said ANN; fix-point quantization step for converting floating-point numbers into fixed-point numbers, including: weight quantization step, for converting weights of said convolutional layers CONV 1, CONV 2, . . . CONV n, and fully connected layers FC 1, FC 2, . . . , FC m of the compressed ANN from floating-point numbers into fixed-point numbers, wherein the numerical range of quantization is dynamically chosen for different layers while remains static in one layer; data quantization step, for converting data of feature map sets j from floating-point numbers into fixed-point numbers, wherein the numerical range of quantization is dynamically chosen for different feature map sets while remains static in one feature map set, ...",
+  "date_published": "20180215",
+  "title": "METHOD FOR OPTIMIZING AN ARTIFICIAL NEURAL NETWORK (ANN)",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F7483"
+  ],
+  "_processing_info": {
+    "original_size": 71316,
+    "optimized_size": 2917,
+    "reduction_percent": 95.91
+  }
+}

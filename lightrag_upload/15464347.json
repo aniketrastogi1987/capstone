@@ -1,0 +1,30 @@
+{
+  "patent_number": "None",
+  "application_number": "15464347",
+  "date_published": "20170921",
+  "date_produced": "20170906",
+  "filing_date": "20170321",
+  "main_ipcr_label": "G06N304",
+  "abstract": "The present invention discloses an integrated neuro-processor comprising at least a three-dimensional memory (3D-M) array. The 3D-M array stores the synaptic weights, while the neuro-processing circuit performs neural processing. The 3-D integration between the 3D-M array and the neuro-processing circuit not only improves the computational power per die area, but also greatly increases the storage capacity per die area.",
+  "publication_number": "US20170270403A1-20170921",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention discloses an integrated neuro-processor comprising at least a three-dimensional memory (3D-M) array. It not only performs neural processing, but also stores the synaptic weights used thereby. The integrated neuro-processor comprises a plurality of neural storage-processing units (NSPU), with each NSPU comprising a neuro-processing circuit and at least a 3D-M array. The neuro-processing circuit performs neural processing, while the 3D-M array stores the synaptic weights. The 3D-M array is vertically stacked above the neuro-processing circuit. This integration between the 3D-M array and the neuro-processing circuit is referred to as 3-D integration. The 3D-M array is communicatively coupled with the neuro-processing circuit through a plurality of contact vias. These coupling contact vias are collectively referred to as inter-storage-processor (ISP)-connections. The 3-D integration has a profound effect on the computational power per die area. Because the 3D-M array is vertically stacked above the neuro-processing circuit, the footprint of an NSPU is roughly equal to that of the neuro-processing circuit. This is significantly smaller than prior art. For the 2-D integration used by prior art, the footprint of the tile 70 (equivalent to the NSPU) is roughly equal to the sum of those of the eDRAM 40 (equivalent to the 3D-M array) and the NPU 50 (equivalent to the neuro-processing circuit). Recalling that the NPU 50 occupies less than 10% of the tile area and the eDRAM 40 occupies ˜80% of the tile area, it can be concluded that, after moving the memory array storing the synaptic weights from aside to above, the NSPU could be ˜10× smaller than the tile 70 of prior art. Accordingly, the integrated neuro-processor could contain ˜10× more NSPUs per die area than prior art and therefore, is ˜10× more computationally powerful. The integrated neuro-processor supports more massive parallelism. The 3-D integration also has a...",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Guobiao",
+      "inventor_city": "Corvallis",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Integrated Neuro-Processor Comprising Three-Dimensional Memory Array",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 52795,
+    "optimized_size": 3015,
+    "reduction_percent": 94.29
+  }
+}

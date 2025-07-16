@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180530",
+  "publication_number": "US20180165590A1-20180614",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15373849",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Vlassis",
+      "inventor_name_first": "Nikolaos",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Theocharous",
+      "inventor_name_first": "Georgios",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Certain embodiments involve generating personalized recommendations for users by inferring a propensity of each individual user to accept a recommendation. For example, a system generates a personalized user model based on a historical transition matrix that provides state transition probabilities from a general population of users. The probabilities are adjusted based on the propensity for a user to accept a recommendation. The system determines a recommended action for the user to transition between predefined states based on the user model. Once the user has performed an activity that transitions from a current state, the system adjusts a probability distribution for an estimate of the propensity based on whether the activity is the recommended action.",
+  "filing_date": "20161209",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure provide systems and methods for generating recommendations for users, such as point-of-interest recommendations, using an automated approach that is personalized by inferring the propensity of each individual user to listen to recommendations. In one example, a method receives a first location of a user. The first location is proximate to a location included in a collection of predefined locations. A personalized user model is generated based on a historical transition matrix that provides location transition probabilities from a general population of users. The probabilities are adjusted in the user model based on a propensity for the user to accept a recommendation. The method further determines a first recommended location for the user from among the predefined locations by using a recommendation engine configured with the user model. The first recommended location to the user is presented to the user. Once it has been determined that the user has moved to a second location, the method further adjusts a probability distribution for an estimate of the propensity for the user to accept a recommendation based on whether the second location is the first recommended location. The method further determines a second recommended location for the user by using the recommendation engine configured with the user model and the adjusted estimate of the propensity for the user to accept a recommendation. Additional features and advantages of exemplary embodiments of the present disclosure will be set forth in the description which follows, and in part will be obvious from the description, or will be learned by the practice of such exemplary embodiments. The foregoing summary is not an extensive overview, and it is not intended to identify key elements or indicate a scope. Rather the foregoing summary identifies aspects of embodiments as a prelude to the detailed description presented below.",
+  "date_published": "20180614",
+  "title": "TECHNIQUES FOR PROVIDING SEQUENTIAL RECOMMENDATIONS TO USERS",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 82408,
+    "optimized_size": 3467,
+    "reduction_percent": 95.79
+  }
+}

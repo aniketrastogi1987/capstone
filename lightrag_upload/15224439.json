@@ -1,0 +1,59 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032908A1-20180201",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15224439",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nagaraju",
+      "inventor_name_first": "Pradeep B.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Oliner",
+      "inventor_name_first": "Adam Jamison",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gilmore",
+      "inventor_name_first": "Brian Matthew",
+      "inventor_city": "Alameda",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dean",
+      "inventor_name_first": "Erick Anthony",
+      "inventor_city": "Piedmont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Jiahan",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Disclosed is a technique that can be performed by an electronic device. The technique can include generating raw data based on inputs to the electronic device, and sending the raw data or data items over a network to a server computer system. The sent raw data or the data items can include training data. The technique can further include receiving global model data from the server computer system over the network. The global model data may have been derived from the training data in accordance with a machine learning process. The technique can further include generating an updated local model by updating a local model associated with the electronic device based on the received global model data, and processing local data based on the updated local model to generate output data. The local data can include raw data or data items generated based on inputs to the electronic device.",
+  "filing_date": "20160729",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>One or more embodiments of the present disclosure are illustrated by way of example and not limitation in the figures of the accompanying drawings, in which like references indicate similar elements. FIG. 1 is a system diagram illustrating a networked computer system. FIG. 2 is a block diagram illustrating a series of events, including raw edge data. FIG. 3 is a block diagram illustrating components of a data intake and query system. FIG. 4 is a flow diagram illustrating a process performed by a data intake and query system. FIG. 5 is a flow diagram illustrating a process performed by a search head and indexers to perform a search query. FIG. 6 is a block diagram illustrating components of an edge device connected to a server computer system. FIG. 7 is a block diagram illustrating an operation of an embodiment of the system to improve analytics for edge devices, including a server computer system connected to edge devices collectively implementing machine learning. FIG. 8 is a block diagram illustrating an operation of an embodiment of the system to improve analytics for edge devices similar to FIG. 7 , but which can implement the binding of schemas at the edge devices or the server computer system. FIG. 9 is a block diagram illustrating an operation of an embodiment of the system to improve analytics for edge devices similar to FIG. 7 , but which can implement machine learning locally at the edge devices. FIG. 10 is an operation flow diagram illustrating an example of an operation flow of an edge device according to an embodiment. FIG. 11 is an operation flow diagram illustrating an example of an operation flow of a server computer system according to an embodiment. FIG. 12 is a block diagram illustrating a high-level example of a hardware architecture of a computing system that can be used to implement any one or more of the functional components described herein. detailed-description description=\"Detailed Description\" ...",
+  "date_published": "20180201",
+  "title": "Machine Learning in Edge Analytics",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 103567,
+    "optimized_size": 4049,
+    "reduction_percent": 96.09
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364815A1-20171221",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15186066",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yoldemir",
+      "inventor_name_first": "Burak",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "MacAulay",
+      "inventor_name_first": "Alex",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "Embodiments associate a relevant semantic data type (e.g., date) with incoming raw data (e.g., a column of digits) which lacks metadata. Assignment of semantic data type is inferred from a plurality of features. A first step determines a first feature comprising success rate in converting the raw data into various semantic data types. Then, alignment between observed/reference distributions of other features (e.g., data first digit, data length) is determined per-semantic data type. Total scores for each semantic data type are calculated from the combined features, and used as a basis for ranking the semantic data types. The total scores may reflect a weighting of the various features. In a second step, top-ranked semantic data types may be further differentiated from one another by applying additional features. User feedback regarding accuracy of semantic data type assignment, may be incorporated into training data used to modify the feature reference distributions.",
+  "filing_date": "20160617",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments associate a relevant semantic data type (e.g., date) with incoming raw data (e.g., a column of digits) lacking metadata. Assignment of semantic data type is inferred from a plurality of features. A first step determines a first feature comprising success rate in converting the raw data into various semantic data types. Then, alignment between observed/reference distributions of other features (e.g., data first digit, data length) is determined per-semantic data type. Total scores for each semantic data type are calculated from the combined features, and used as a basis for ranking the semantic data types. The total scores may reflect a weighting of the various features. In a second step, top-ranked semantic data types may be further differentiated from one another by applying additional features. User feedback regarding accuracy of semantic data type assignment, may be incorporated into training data used to modify the feature reference distributions. An embodiment of a computer-implemented method comprises receiving a plurality of data points lacking associated metadata, and determining a first score of a first feature comprising a success rate converting the plurality of data points to a semantic data type. A second score is determined from alignment between an observed distribution of a second feature in the plurality of data points, and a reference distribution of the second feature in the semantic data type. A third score is determined from alignment between an observed distribution of a third feature in the plurality of data points, and a reference distribution of the third feature in the semantic data type. A total score for the semantic data type is calculated from the first, second, and third scores. An initial ranking of the total score is determined in comparison with another total score reflecting the first, second, and third features in another semantic data type. A fourth feature is identified that differentiates between ...",
+  "date_published": "20171221",
+  "title": "Inference-Based Assignment of Data Type to Data",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 70287,
+    "optimized_size": 3685,
+    "reduction_percent": 94.76
+  }
+}

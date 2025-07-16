@@ -1,0 +1,47 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032901A1-20180201",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15220902",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chowdhury",
+      "inventor_name_first": "Md Faisal M.",
+      "inventor_city": "Corona",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dash",
+      "inventor_name_first": "Sarthak",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gliozzo",
+      "inventor_name_first": "Alfio M.",
+      "inventor_city": "Brooklyn",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method, system and computer-usable medium are disclosed for reducing user interaction when training an active learning system. Source input containing unlabeled instances and an input category are received. A Latent Semantic Analysis (LSA) similarity score, and a search engine score, are generated for each unlabeled instance, which in turn are used with the input category to rank the unlabeled instances. If a first threshold for negative instances has been met, a first unlabeled instance, having the highest ranking, is selected for annotation from the ranked collection of unlabeled instances and provided to a user for annotation with a positive label. If a second threshold for positive instances has been met, then second unlabeled instance, having the lowest ranking, is selected for annotation from the ranked collection of unannotated instances and automatically annotated with a negative label. The annotated instances are then used to train an active learning system.",
+  "filing_date": "20160727",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A method, system and computer-usable medium are disclosed for reducing user interaction when training an active learning system for a Natural Language Processing (NLP) task. In certain embodiments, the disclosure relates to a computer-implemented method for receiving source input comprised of unlabeled instances; receiving an input category; using a distributional semantics model to generate a similarity score for each unlabeled instance; using a search engine to generate a search engine score for each unlabeled instance; and using the similarity scores, the search engine scores, and the input category to rank the unlabeled instances. In certain embodiments, the disclosure relates to a system comprising: a processor; a data bus coupled to the processor; and a computer-usable medium embodying computer program code, the computer-usable medium being coupled to the data bus, the computer program code used for active machine learning and comprising instructions executable by the processor and configured for: receiving source input comprised of unlabeled instances; receiving an input category; using a distributional semantics model to generate a similarity score for each unlabeled instance; using a search engine to generate a search engine score for each unlabeled instance; and using the similarity scores, the search engine scores, and the input category to rank the unlabeled instances. In certain embodiments, the disclosure relates to a non-transitory, computer-readable storage medium embodying computer program code, the computer program code comprising computer executable instructions configured for: receiving source input comprised of unlabeled instances; receiving an input category; using a distributional semantics model to generate a similarity score for each unlabeled instance; using a search engine to generate a search engine score for each unlabeled instance; and using the similarity scores, the search engine scores, and the inp...",
+  "date_published": "20180201",
+  "title": "Greedy Active Learning for Reducing User Interaction",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1727",
+    "G06F1724",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 98371,
+    "optimized_size": 3865,
+    "reduction_percent": 96.07
+  }
+}

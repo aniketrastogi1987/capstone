@@ -1,0 +1,55 @@
+{
+  "patent_number": "None",
+  "application_number": "15545008",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170720",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Method, systems, and computer-readable storage devices for updating a prediction model are described. In one aspect, a statistical analysis group assignment may be received. The statistical analysis group assignment may group partition-level worker node and a first set of partition-level worker nodes as a statistical analysis group. A statistical analysis phase may then be executed where a group-level decision tree is generated from statistical data and other statistical data received from the first set of partition-level worker nodes. A decision tree analysis phase may then be executed, where a step decision tree may be generated based on a selection from the group-level tree and other group-level trees received from other statistical analysis groups. The prediction model may be caused to be updated using the step decision tree.",
+  "publication_number": "US20170372214A1-20171228",
+  "summary": "<SOH> BRIEF DESCRIPTION OF DRAWINGS <EOH>Examples are described in detail in the following description with reference to implementations shown in the following figures: FIG. 1 is a block diagram illustrating a hybrid learning system, according to an example; FIGS. 2A-C are block diagrams illustrating various computer systems, according to examples; and FIG. 3 is a flowchart showing a method for updating a prediction model, according to an example. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N700",
+    "G06K962",
+    "G06N9900",
+    "G06F1718",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Peng",
+      "inventor_name_first": "Hao",
+      "inventor_city": "West Lafayette",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Marwah",
+      "inventor_name_first": "Manish",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Viswanathan",
+      "inventor_name_first": "Krishnamurthy",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Roy",
+      "inventor_name_first": "Indrajit",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "UPDATES TO A PREDICTION MODEL USING STATISTICAL ANALYSIS GROUPS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 40342,
+    "optimized_size": 2411,
+    "reduction_percent": 94.02
+  }
+}

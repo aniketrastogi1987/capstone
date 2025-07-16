@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15343603",
+  "date_published": "20170316",
+  "date_produced": "20170301",
+  "title": "SELF-DRIVING CAR SCHEDULING METHOD, CAR SCHEDULING SERVER, AND SELF-DRIVING CAR",
+  "filing_date": "20161104",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Huimin",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G05D102",
+    "G06Q1010",
+    "G08G1127"
+  ],
+  "main_ipcr_label": "G05D102",
+  "summary": "<SOH> SUMMARY <EOH>To resolve the problem in the prior art, embodiments of the present invention provide a self-driving car scheduling method, a car scheduling server, and a self-driving car. The technical solutions are as follows: According to a first aspect, a self-driving car scheduling method is provided, including: receiving a ride request, where the ride request includes at least a ride starting location, a ride destination, and an expected destination arrival time; determining, according to the ride request and driving information of self-driving cars within a management range, at least one first candidate car from the multiple self-driving cars; calculating, according to current location information, current road status information, and planned route information of each first candidate car, a first time required by each first candidate car to arrive at the ride destination; determining a final candidate car from the at least one first candidate car according to the first time corresponding to each first candidate car, where the final candidate car at least meets the expected destination arrival time; and delivering the ride request to the final candidate car, so that the final candidate car responds to the ride request. In a first possible implementation manner of the first aspect, before the determining, according to the ride request and driving information of self-driving cars within a management range, at least one first candidate car from the multiple self-driving cars, the method further includes: acquiring the driving information of the self-driving cars within the management range, where the driving information includes at least current location information, current road status information, planned route information, and a planned destination arrival time; and the determining, according to the ride request and driving information of self-driving cars within a management range, at least one first candidate car from the multiple self-driving cars includ...",
+  "patent_number": "None",
+  "abstract": "The present invention belongs to the field of computer technologies, and discloses a self-driving car scheduling method, a car scheduling server, and a self-driving car. The method includes: receiving a ride request; determining, according to the ride request and driving information of self-driving cars within a management range, at least one first candidate car from the multiple self-driving cars; calculating a first time required by each first candidate car to arrive at a ride destination according to current location information, current road status information, and planned route information of each first candidate car; determining a final candidate car from the at least one first candidate car according to the first time corresponding to each first candidate car, where the final candidate car at least meets an expected destination arrival time; and delivering the ride request to the final candidate car.",
+  "publication_number": "US20170075358A1-20170316",
+  "_processing_info": {
+    "original_size": 122901,
+    "optimized_size": 3508,
+    "reduction_percent": 97.15
+  }
+}

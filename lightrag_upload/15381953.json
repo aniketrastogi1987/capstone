@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170607",
+  "publication_number": "US20170178015A1-20170622",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15381953",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sato",
+      "inventor_name_first": "Shuji",
+      "inventor_city": "Minamitsuru-gun",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Kubo",
+      "inventor_name_first": "Mamoru",
+      "inventor_city": "Minamitsuru-gun",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Murata",
+      "inventor_name_first": "Koichi",
+      "inventor_city": "Minamitsuru-gun",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A data collecting processing part of a machine tool collects data indicating a state of a component at any time and sends the data. A maintenance timing prediction device has a collection data storing part that stores the data, a component replacement history storing part that stores a replacement history of the component, and a component lifetime prediction processing part that predicts a lifetime as the next replacement timing of the component. The component lifetime prediction processing part extracts data indicating a similar trend at the past replacement date of the component by referring to the component replacement history storing part and the collection data storing part, and predicts a threshold as data at the next replacement timing based on the latest replacement date of the component and the trend according to the extracted data, and predicts the lifetime based on the threshold.",
+  "filing_date": "20161216",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>An object of the present invention is, in order to solve the problem described above, to provide a maintenance timing prediction system and a maintenance timing prediction device capable of automatically predicting maintenance timing without determining data to be monitored, a threshold used in prediction or the like in advance. A maintenance timing prediction system according to an embodiment of the present invention includes: a maintenance timing prediction device; and a plurality of machine tools, wherein the machine tool includes a data collecting processing part that collects data indicating a state of a component in the machine tool at any time and sends the data to the maintenance timing prediction device, the maintenance timing prediction device includes: a collection data storing part that stores the data; a component replacement history storing part that stores a replacement history of the component; and a component lifetime prediction processing part that predicts a lifetime as the next replacement timing of the component, the component lifetime prediction processing part extracts data indicating a similar trend at the past replacement date of the component by referring to the component replacement history storing part and the collection data storing part, the component lifetime prediction processing part predicts a threshold as data at the next replacement timing based on the latest replacement date of the component according to the extracted data and the trend, and the component lifetime prediction processing part predicts the lifetime based on the threshold. In the maintenance timing prediction system according to another embodiment, the component lifetime prediction processing part calculates a warning lifetime value as a predicted value of the data at predetermined days before the lifetime, and the maintenance timing prediction system includes a display part that shows a warning when the data received from the data...",
+  "date_published": "20170622",
+  "title": "MAINTENANCE TIMING PREDICTION SYSTEM AND MAINTENANCE TIMING PREDICTION DEVICE",
+  "ipcr_labels": [
+    "G06N700",
+    "G05B194065"
+  ],
+  "_processing_info": {
+    "original_size": 38538,
+    "optimized_size": 3784,
+    "reduction_percent": 90.18
+  }
+}

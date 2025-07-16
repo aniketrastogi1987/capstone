@@ -1,0 +1,37 @@
+{
+  "date_produced": "20160810",
+  "publication_number": "US20160247065A1-20160825",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15090657",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nasle",
+      "inventor_name_first": "Adib",
+      "inventor_city": "Poway",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nasle",
+      "inventor_name_first": "Ali",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods for making real-time predictions about the health, reliability, and performance of a monitored system are disclosed. A data acquisition component acquires real-time data output from the monitored system. A power analytics server comprises a virtual system modeling engine, an analytics engine, and an adaptive prediction engine. The virtual system modeling engine is operable to generate predicted data output for the monitored system utilizing a virtual system model of the monitored system. An analytics engine is operable to update the virtual system model when a difference between the real-time data output and the predicted data output exceeds a threshold. The adaptive prediction engine is operable to forecast an aspect of the monitored system based on an adaptive neural network algorithm and automatically minimize a measure of error between the real-time data output and a corresponding forecasted data output by the adaptive prediction engine.",
+  "filing_date": "20160405",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Systems and methods for utilizing a neural network to make real-time predictions about the health, reliability, and performance of a monitored system are disclosed. In one aspect, a system for utilizing a neural network algorithm utilized to make real-time predictions about the health, reliability, and performance of a monitored system is disclosed. The system includes a data acquisition component, a power analytics server, and a client terminal. The data acquisition component is communicatively connected to a sensor configured to acquire real-time data output from the electrical system. The power analytics server is communicatively connected to the data acquisition component and is comprised of a virtual system modeling engine, an analytics engine, an adaptive prediction engine. The virtual system modeling engine is configured to generate predicted data output for the electrical system utilizing a virtual system model of the electrical system. The analytics engine is configured to monitor the real-time data output and the predicted data output of the electrical system initiating a calibration and synchronization operation to update the virtual system model when a difference between the real-time data output and the predicted data output exceeds a threshold. The adaptive prediction engine can be configured to forecast an aspect of the monitored system using a neural network algorithm. The adaptive prediction engine is further configured to process the real-time data output and automatically optimize the neural network algorithm by minimizing a measure of error between the real-time data output and an estimated data output predicted by the neural network algorithm. The client terminal is communicatively connected to the power analytics server and configured to display the forecasted aspect. In another aspect, a method for utilizing a neural network algorithm utilized to make real-time predictions about the health, reliability, and performance of a ...",
+  "date_published": "20160825",
+  "title": "Systems and Methods for Real-Time Forecasting and Predicting of Electrical Peaks and Managing the Energy, Health, Reliability, and Performance of Electrical Power Systems Based on an Artificial Adaptive Neural Network",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 148791,
+    "optimized_size": 3817,
+    "reduction_percent": 97.43
+  }
+}

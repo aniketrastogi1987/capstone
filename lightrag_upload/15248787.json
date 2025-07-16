@@ -1,0 +1,47 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060725A1-20180301",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15248787",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Groh",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "Detroit",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kunes",
+      "inventor_name_first": "Kay",
+      "inventor_city": "Maranz",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Houts",
+      "inventor_name_first": "Sarah",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A machine learning module may generate a probability distribution from training data including labeled modeling data correlated with reflection data. Modeling data may include data from a LIDAR system, camera, and/or a GPS for a target environment/object. Reflection data may be collected from the same environment/object by a radar and/or an ultrasonic system. The probability distribution may assign reflection coefficients for radar and/or ultrasonic systems conditioned on values for modeling data. A mapping module may create a reflection model to overlay a virtual environment assembled from a second set of modeling data by applying the second set to the probability distribution to assign reflection values to surfaces within the virtual environment. Additionally, a test bench may evaluate an algorithm, for processing reflection data to generate control signals to an autonomous vehicle, with simulated reflection data from a virtual sensor engaging reflection values assigned within the vi...",
+  "filing_date": "20160826",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In order that the advantages of the disclosures will be readily understood, a more particular description will be rendered by reference to specific embodiments illustrated in the appended drawings, under the understanding that these drawings depict only typical examples and are not to be considered limiting in scope: FIG. 1 is a depiction of various datasets, which may be collected and used to generate high-resolution, three-dimensional models of driving environments, in accordance with examples; FIG. 2 is a depiction of an automobile equipped with sensors used in assisted and/or autonomous driving, in accordance with examples; FIG. 3 is a schematic block diagram of training data that may be used to train a mapping from three-dimensional modeling data to reflection values by machine learning, in accordance with examples; FIG. 4 is a schematic block diagram of a machine learning module used to train the mapping from three-dimensional modeling data to reflection values with the training data, in accordance with examples; FIG. 5 is a schematic block diagram of a non-limiting example of machine learning constituting a neural network and Convolution Neural Network (CNN), in accordance with examples; FIG. 6 is a block diagram of elements providing a simulation environment for developing, testing, and/or evaluating reflection algorithms, in accordance with examples; FIG. 7 is a depiction of a context in which a mapping module enhances a simulation environment by assigning reflection values to surfaces and objects therein, in accordance with examples; and FIG. 8 is a flowchart for developing a simulation environment in which an algorithm, responsive to sensor data from radar systems and/or ultrasonic systems, may be developed, in accordance with examples. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180301",
+  "title": "Physics Modeling for Radar and Ultrasonic Sensors",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1750",
+    "G06N304",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 67722,
+    "optimized_size": 3754,
+    "reduction_percent": 94.46
+  }
+}

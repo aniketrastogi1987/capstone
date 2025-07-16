@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170830",
+  "publication_number": "US20170262756A1-20170914",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15064878",
+  "inventor_list": [
+    {
+      "inventor_name_last": "McElhinney",
+      "inventor_name_first": "Adam",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Boueri",
+      "inventor_name_first": "John",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stacey",
+      "inventor_name_first": "Timothy",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Disclosed herein is a computer architecture and software that is configured to modify handling of predictive models by an asset-monitoring system based on a location of an asset. In accordance with example embodiments, the asset-monitoring system may maintain data indicative of a location of interest that represents a location in which operating data from assets should be disregarded. The asset-monitoring system may determine whether an asset is within the location of interest. If so, the asset-monitoring system may disregard operating data for the asset when handling a predictive model related to the operation of the asset.",
+  "filing_date": "20160309",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 depicts an example network configuration in which example embodiments may be implemented. FIG. 2 depicts a simplified block diagram of an example asset. FIG. 3 depicts a conceptual illustration of example abnormal-condition indicators and triggering criteria. FIG. 4 depicts a simplified block diagram of an example analytics platform. FIG. 5 depicts an example flow diagram of a definition phase that may be used for defining a predictive model. FIG. 6 depicts an example flow diagram of a modeling phase that may be used for defining a predictive model that outputs a health metric. FIG. 7 depicts a conceptual illustration of data utilized to define a model. FIG. 8 depicts a flow diagram representing example operations that may be used for disregarding asset-operating data. FIG. 9A depicts a conceptual illustration of historical asset-position data at a first point in time. FIG. 9B depicts a conceptual illustration of historical asset-position data at a second point in time. FIG. 9C depicts a conceptual illustration of historical asset-position data at a third point in time. FIG. 10 depicts a conceptual illustration of aggregated asset-position data for use in defining a location of interest. FIG. 11 depicts a conceptual illustration of aggregated asset-position data and a defined location of interest. FIG. 12A depicts a conceptual illustration of a defined location of interest and asset-position data at a fourth point in time. FIG. 12B depicts a conceptual illustration of a defined location of interest and asset-position data at a fifth point in time. FIG. 12C depicts a conceptual illustration of a defined location of interest and asset-position data at a sixth point in time. FIG. 13 depicts a flow diagram of an example method for handling operating data for an asset based on position data of the asset. FIG. 14 depicts a flow diagram of another example method for handling operating data for an asset based on position d...",
+  "date_published": "20170914",
+  "title": "Handling of Predictive Models Based on Asset Location",
+  "ipcr_labels": [
+    "G06N502",
+    "G08G900",
+    "G01M9900"
+  ],
+  "_processing_info": {
+    "original_size": 162013,
+    "optimized_size": 3486,
+    "reduction_percent": 97.85
+  }
+}

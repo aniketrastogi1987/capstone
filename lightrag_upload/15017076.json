@@ -1,0 +1,45 @@
+{
+  "date_produced": "20161109",
+  "publication_number": "US20160342901A1-20161124",
+  "main_ipcr_label": "G06N504",
+  "decision": "REJECTED",
+  "application_number": "15017076",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Kyung Whan",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Keun",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Gee Yoen",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A method of state transition prediction and state improvement of liveware including providing to a patient a GQM for diagnosing an arbitrary handicap symptom related to the liveware among human factors in xSHEL model, judging the state about the handicap symptom having occurred to the patient from response of the patient about the GQM, presenting a state transition where the state proceeds to next state to STG, transforming into a table by presenting each node of the STG as a spatial coordinate and STO data measuring a resilience level of the patient by using STG, designing a disturbance customized to liveware of the patient, applying this disturbance to the patient, estimating a resilience rate that the patient adapts to the disturbance, identifying an early alarm signal representing a threshold situation, and providing a training program for treating the progress of the state transition and recovery for individual cognitive availability.",
+  "filing_date": "20160205",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSURE <EOH>To solve the problems described above, an object of the present invention is to provide a method which can predict a state transition and occurrence of handicap and improve the current handicap state by tracing the state transition of the handicap observed on a subject, and an apparatus for embodying the method. An apparatus for embodying state transition prediction and state improvement of liveware according to the present invention to accomplish the object described above comprises: an STTD construction and DB connection function section 1100 for providing to a patient a GQM (Goal Questionaire Metrics) for diagnosing an arbitrary handicap symptom related to the liveware among human elements in xSHEL model, for deriving keyword related to the handicap symptom having occurred to the patient from response of the patient about the GQM, for judging the state about the handicap symptom having occurred to the patient by the keyword, for presenting a state transition where the state proceeds to next state to a state transition graph (STG) having a plurality of nodes (each node corresponds to the state about the handicap symptom), for transforming into a table by presenting each node of the STG as a spatial coordinate and STO data which is an attribute with which the state transition proceeds, and for interfacing the spatial coordinate and the STO data with a DB device; a resilience level measurement section 1200 for measuring a resilience level of the patient by using the STO data; a disturbance design/introduction and resilience rate estimation function section 1300 for designing a disturbance customized to the liveware of the patient, for applying the designed disturbance to the patient, and for estimating a resilience rate with which the patient adapts to the disturbance; and an early alarm signal identification and training program providing function section 1400 for identifying an early alarm signal representing a threshold situat...",
+  "date_published": "20161124",
+  "title": "METHOD OF STATE TRANSITION PREDICTION AND STATE IMPROVEMENT OF LIVEWARE, AND AN IMPLEMENTATION DEVICE OF THE METHOD",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 107195,
+    "optimized_size": 3841,
+    "reduction_percent": 96.42
+  }
+}

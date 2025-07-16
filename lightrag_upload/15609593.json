@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15609593",
+  "date_published": "20171207",
+  "date_produced": "20171121",
+  "filing_date": "20170531",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Disclosed is an apparatus for generating an artificial-neural-network-based prediction model. The apparatus includes an input data conversion unit configured to convert input data of an L-dimensional array (L is a natural number) into normalized vector data and input the normalized vector data, a modeling unit configured to model an artificial-neural-network-based prediction model for learning the input vector data and output a value predicted through the modeling, and an adjustment unit configured to compare the value predicted by the modeling unit with an actually measured value to calculate an error value and adjust learning parameters of an artificial neural network using the error value and a back-propagation algorithm.",
+  "publication_number": "US20170351948A1-20171207",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the detailed description. This summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. The following description relates to an apparatus and method for implementing a prediction model, such as collaborative filtering, using an artificial neural network to ensure excellent performance. The following description also relates to an apparatus and method for normalizing input data to compensate for the form imbalance of data input through an artificial neural network. The following description also relates to an apparatus and method for solving an overfitting problem of a model that uses an artificial neural network, which is an algorithm used to generate a collaborative filtering model. The following description also relates to an apparatus and method suitable for processing data in real time by simply performing rating prediction using a pre-learned model. In one general aspect, an apparatus for generating an artificial-neural-network-based prediction model includes an input data conversion unit configured to convert input data of an L-dimensional array (a tensor) (L is a natural number) into normalized vector data and input the normalized vector data, a modeling unit configured to model an artificial-neural-network-based prediction model for learning the input vector data and output a value predicted through the modeling, and an adjustment unit configured to compare the value predicted by the modeling unit with an actually measured value to calculate an error value and adjust learning parameters of an artificial neural network using the error value and a back-propagation algorithm. The input data conversion unit may include an input data normalization unit configured to normalize L vectors cor...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Jung Woo",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Hyeung Ill",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "APPARATUS AND METHOD FOR GENERATING PREDICTION MODEL BASED ON ARTIFICIAL NEURAL NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 64532,
+    "optimized_size": 3456,
+    "reduction_percent": 94.64
+  }
+}

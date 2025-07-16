@@ -1,0 +1,32 @@
+{
+  "date_produced": "20180308",
+  "publication_number": "US20180082201A1-20180322",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15269530",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cantwell",
+      "inventor_name_first": "Dermot",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods and systems for time-series transient analysis of data are disclosed herein. A method includes receiving time-series data, generating a training data set including randomized data points, generating randomized data point combinations using a set of the randomized data points that are within a time window, computing distance values based on the randomized data point combinations, generating a classifier based on a plurality of computed distance values, and determining, using the classifier, a probability that new time-series data generated during a new execution of the process matches the time-series data. A system for performing the method is also disclosed.",
+  "filing_date": "20160919",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The present disclosure is illustrated by way of example, and not by way of limitation, in the figures of the accompanying drawings. FIG. 1 illustrates one embodiment of a network architecture. FIG. 2 illustrates one embodiment of a method for time-series transition analysis. FIG. 3 illustrates another embodiment of a method for time-series transition analysis. FIG. 4 illustrates time-series data for time-series transition analysis. FIG. 5A illustrates randomized data point combinations and time window for time-series transition analysis. FIG. 5B illustrates distances between randomized data points for time-series transition analysis. FIG. 6 illustrates distance from training set for time-series transition analysis. FIGS. 7A-7B illustrate distance from training set for time-series transition analysis. FIG. 8 illustrates logistic regression for time-series transition analysis. FIG. 9 illustrates effect of theta on logistic regression for time-series transition analysis. FIGS. 10A-10B illustrate probability of matching the time-series data for time-series transition analysis. FIGS. 11A-11D illustrate probability of matching the time-series data for time-series transition analysis. FIG. 12A illustrates time-series data for time-series transition analysis. FIG. 12B illustrates distance from training set for time-series transition analysis. FIG. 12C illustrates logistic regression for time-series transition analysis. FIGS. 13A-13D illustrate probability of matching the time-series data for time-series transition analysis. FIG. 14 illustrates time-series data for multiple inputs for time-series transition analysis. FIGS. 15A-15D illustrate probability of matching the time-series data for multiple inputs for time-series transition analysis. FIG. 16 illustrates an exemplary computer system. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180322",
+  "title": "TIME-SERIES FAULT DETECTION, FAULT CLASSIFICATION, AND TRANSITION ANALYSIS USING A K-NEAREST-NEIGHBOR AND LOGISTIC REGRESSION APPROACH",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900",
+    "G06F1107"
+  ],
+  "_processing_info": {
+    "original_size": 57997,
+    "optimized_size": 3249,
+    "reduction_percent": 94.4
+  }
+}

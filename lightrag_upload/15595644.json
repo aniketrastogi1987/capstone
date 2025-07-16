@@ -1,0 +1,42 @@
+{
+  "patent_number": "None",
+  "application_number": "15595644",
+  "date_published": "20171102",
+  "date_produced": "20171018",
+  "filing_date": "20170515",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for using recurrent neural networks to analyze health events. One of the methods includes: processing each of a plurality of initial temporal sequences of health events to generate, for each of the initial temporal sequences, a respective network internal state of a recurrent neural network for each time step in the initial temporal sequence; storing, for each of the initial temporal sequences, one or more of the network internal states for the time steps in the temporal sequence in a repository; obtaining a first temporal sequence; processing the first temporal sequence using the recurrent neural network to generate a sequence internal state for the first temporal sequence; and selecting one or more initial temporal sequences that are likely to include health events that are predictive of future health events in the first temporal sequence.",
+  "publication_number": "US20170316313A1-20171102",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in methods that include the actions of obtaining a plurality of initial temporal sequences of health events, wherein each of the initial temporal sequences comprises respective health-related data at each of a plurality of time steps; processing each of the plurality of initial temporal sequences of health events using a recurrent neural network to generate, for each of the initial temporal sequences, a respective network internal state of the recurrent neural network for each time step in the initial temporal sequence, wherein the recurrent neural network has been trained to receive input temporal sequences and, for each time step in each input temporal sequence, generate a network internal state for the time step and predict future events occurring after the health event identified at the time step from the network internal state for the time step; storing, for each of the plurality of initial temporal sequences, one or more of the network internal states for the time steps in the temporal sequence in an internal state repository; obtaining a first temporal sequence of health events; processing the first temporal sequence of health events using the recurrent neural network to generate a sequence internal state for the first temporal sequence; and selecting one or more initial temporal sequences from the plurality of initial temporal sequences that are likely to include health events that are predictive of future health events in the first temporal sequence using the sequence internal state for the first temporal sequence and the network internal states in the internal state repository. Other embodiments of this aspect include corresponding computer systems, apparatus, and computer programs recorded on one or more computer storage devices, each configured to perform the actions of the methods. A system of one or more computers can be configured...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F1900",
+    "G06N302",
+    "G06N310",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Corrado",
+      "inventor_name_first": "Gregory Sean",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dean",
+      "inventor_name_first": "Jeffrey Adgate",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "ANALYZING HEALTH EVENTS USING RECURRENT NEURAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 84972,
+    "optimized_size": 3713,
+    "reduction_percent": 95.63
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15342383",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "title": "SYSTEM USING NFC-ENABLED MEDICINE PACKAGING TO ESTABLISH A NO-LOGIN, AUTHENTICATED AND CONTEXTUALIZED TWO-WAYS DATA FLOW BETWEEN A PATIENT AND A PHARMACEUTICAL MANUFACTURER",
+  "filing_date": "20161103",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rozier",
+      "inventor_name_first": "David",
+      "inventor_city": "Bernin",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Guerin",
+      "inventor_name_first": "Nicolas",
+      "inventor_city": "Notre Dame de Mesage",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1900"
+  ],
+  "main_ipcr_label": "G06F1900",
+  "summary": "<SOH> BRIEF DESCRIPTION <EOH>In one embodiment of this disclosure, described is a near-field communication (NFC)-enabled medication packaging system. The system includes a server that comprises a processor in communication with memory, a near-field communications transceiver in data communication with the processor and memory, and a data storage in communication with the processor, the data storage storing a public key and a private key. The memory of the server stores instructions which are executed by the processor to initialize a tag of a medicine package with medication data corresponding to a medication contained therein, and sign the tag using the private key to establish authentication of the medication contained in the medicine package. The instructions also direct the processor to receive encrypted data from a user device via a secure communications link over a computer network, the encrypted data including at least one of prescription data and patient data, decrypt the received data to retrieve the at least one of the prescription data and the patient data, and generate personalized guidance specific to the patient in accordance with at least one of the prescription data and the patient data. In addition, the instructions direct the processor to communicate, via the secure communications link over the computer network, the personalized guidance specific to the patient to the user device. In another embodiment of this disclosure, described is a near-field communication (NFC)-enabled medication packaging method. The method includes initializing, with a processor of a server, a tag of a medicine package with medication data corresponding to a medication contained in the package, and signing the tag, by the server, using a private key to establish authentication of the medication contained in the medicine package. The method further includes receiving data encrypted with a public key associated with the private key from a user device via a secure communication...",
+  "patent_number": "None",
+  "abstract": "A system and method to establish a no-login authenticated and contextualized two-ways data flow between a medicine user and the pharmaceutical manufacturer. Near Field Communication (NFC) technology, enabling short-range communication between two compatible devices is utilized via a writeable NFC tag carried by a medication package. The writeable NFC tag includes medication information, anti-counterfeiting information, as well as data about the patient and the prescription. The NFC tag may be read by a user device associated with the patient, enabling the user device to merge this data with the patient's feedback, send this rich flow in a secure way to the manufacturer, who in turn is now able to provide rich contextual guidance to the patient.",
+  "publication_number": "US20180121615A1-20180503",
+  "_processing_info": {
+    "original_size": 108965,
+    "optimized_size": 3568,
+    "reduction_percent": 96.73
+  }
+}

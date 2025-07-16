@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160824",
+  "publication_number": "US20160260029A1-20160908",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15062151",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gelfenbeyn",
+      "inventor_name_first": "Ilya Gennadyevich",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Goncharuk",
+      "inventor_name_first": "Artem",
+      "inventor_city": "Arlington",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sirotin",
+      "inventor_name_first": "Pavel Aleksandrovich",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for example-driven machine learning is disclosed herein. The method comprises maintaining a plurality of dialog system rules and a knowledge database including a plurality of intent objects and a plurality of entity objects. The plurality of intent objects and the plurality of entity objects are associated with at least one dialog system rule. An exemplary phrase is received and one or more linguistic elements are retrieved from the exemplary phrase. It is determined that at least one of the linguistic elements is directed to at least one of the plurality of intent objects of the plurality of entity objects and the at least one of the linguistic elements in association with the at least one dialog system rule is added to the knowledge database.",
+  "filing_date": "20160306",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. In general, the present technology provides for an example-driven machine learning scheme for creating custom dialog system engines and one or more knowledge databases associated therewith. According to some example aspects of present disclosure, there is provided a system and a method for example-driven machine learning. The method may commence with maintaining a plurality of dialog system rules within a dialog system engine. The dialog system rules can stipulate instructions for response of the system to particular user requests received from the dialog system interface. The method can continue with maintaining a knowledge database that includes one or more context expressions associated with at least one dialog system rule. Context expressions may relate to terms, keywords, phrases, variables, and/or speech expressions associated with at least one “entity” and/or at least one “intent” of a particular dialog system rule. The method can further include receiving an exemplary phrase and retrieving certain linguistic elements from the exemplary phrase. It can be determined that one of the linguistic elements is directed to at least one of a plurality of intent objects or a plurality of entity objects of certain dialog system rules. The linguistic element in association with the at least one dialog system rule may be added to the knowledge database. Thus, machine learning using exemplary phrases can occur. Further, user requests acquired by the dialog system interface can be received. User requests can optionally be pre-processed by the dialog system interface. For example, the dialog system interface can re...",
+  "date_published": "20160908",
+  "title": "EXAMPLE-DRIVEN MACHINE LEARNING SCHEME FOR DIALOG SYSTEM ENGINES",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 93026,
+    "optimized_size": 3675,
+    "reduction_percent": 96.05
+  }
+}

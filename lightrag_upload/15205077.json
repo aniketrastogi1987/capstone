@@ -1,0 +1,66 @@
+{
+  "date_produced": "20180109",
+  "publication_number": "US20180025274A1-20180125",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15205077",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Beller",
+      "inventor_name_first": "Charles E.",
+      "inventor_city": "Baltimore",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chase, JR.",
+      "inventor_name_first": "Paul J.",
+      "inventor_city": "Fairfax",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Darden",
+      "inventor_name_first": "Richard L.",
+      "inventor_city": "Leesburg",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Drzewucki",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Woodbridge",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Katz",
+      "inventor_name_first": "Edward G.",
+      "inventor_city": "Washington",
+      "inventor_state": "DC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Phipps",
+      "inventor_name_first": "Christopher",
+      "inventor_city": "Arlington",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments are directed to a watched questions threshold filtering system that functions to determine and deliver to a user relevant and significant data changes with respect to a user's goals, as defined by a notification threshold value provided by the user. The user is provided with an option to flag one or more queries for automatic re-querying. Confidence scores are processed on new data (i.e., data ingested after the original question was asked) by utilizing a confidence threshold for indicating if the new data warrants alerting a user.",
+  "filing_date": "20160708",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments are directed to a computer-implemented method, a computer program product, and a system for identifying new informative responses to answer a question based on new data and user input in a system capable of answering questions. In an embodiment, the computer-implemented method is implemented in a system capable of answering questions, the system comprising a processor and a memory comprising instructions executed by the processor. In an embodiment, the computer program product comprises a computer readable storage medium having program instructions embodied therewith, the program instructions executable by a processor. In an embodiment, the system comprises a processor and a memory, which comprises instructions executed by the processor. In an embodiment, the processor executes the steps of: receiving as inputs: a watched question for monitoring; a notification threshold from a user; a first set of responses on a first date with a first confidence level resulting from the watched question; and a time stamp indicating the first date when the first set of responses were returned; querying ingested data sources after the first date for answers to the watched question to determine a second set of responses and a second confidence level; comparing the second confidence level to a dynamic threshold to determine responses from the second set of responses that meet the notification threshold; and responsive to determining the responses from the second set of responses that meet the notification threshold, providing a notification to the user. Additional features and advantages are apparent from the following detailed description that proceeds with reference to the accompanying drawings.",
+  "date_published": "20180125",
+  "title": "DYNAMIC THRESHOLD FILTERING FOR WATCHED QUESTIONS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 67551,
+    "optimized_size": 3591,
+    "reduction_percent": 94.68
+  }
+}

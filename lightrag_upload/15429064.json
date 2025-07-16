@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15429064",
+  "date_published": "20170824",
+  "date_produced": "20170809",
+  "filing_date": "20170209",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A machine learning device, which performs a task using a plurality of industrial machines and learns task sharing for the plurality of industrial machines, includes a state variable observation unit which observes state variables of the plurality of industrial machines; and a learning unit which learns task sharing for the plurality of industrial machines, on the basis of the state variables observed by the state variable observation unit.",
+  "publication_number": "US20170243135A1-20170824",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>According to a first aspect of the present invention, there is provided a machine learning device which performs a task using a plurality of industrial machines and learns task sharing for the plurality of industrial machines, the device including a state variable observation unit which observes state variables of the plurality of industrial machines; and a learning unit which learns task sharing for the plurality of industrial machines, on the basis of the state variables observed by the state variable observation unit. The machine learning device may further include a decision unit which decides and issues, as a command, a sharing detail of the task for the plurality of industrial machines by referring to the task sharing learned by the learning unit. The machine learning device may be connected to each of the plurality of industrial machines via a network, the state variable observation unit may obtain the state variables of the plurality of industrial machines via the network, and the decision unit may send the sharing detail of the task to the plurality of industrial machines via the network. The state variable observation unit may observe at least one of a task time from start to end of a series of tasks repeatedly performed by the plurality of industrial machines, and a task load on each of the plurality of industrial machines in an interval from the start to the end of the tasks, or may observe at least one of an achievement level of the tasks performed by the plurality of industrial machines and a difference in task volume in each of the plurality of industrial machines. The state variable observation unit may further obtain at least one of a change in production volume in an upstream process, and a change in production volume upon stop of the industrial machine for maintenance performed periodically. The learning unit may learn task sharing for maintaining a volume of production by the plurality of industrial machines, avera...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G05B19418"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "OOBA",
+      "inventor_name_first": "Masafumi",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TSUDA",
+      "inventor_name_first": "Taketsugu",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "OYA",
+      "inventor_name_first": "Tomoki",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "MACHINE LEARNING DEVICE, INDUSTRIAL MACHINE CELL, MANUFACTURING SYSTEM, AND MACHINE LEARNING METHOD FOR LEARNING TASK SHARING AMONG PLURALITY OF INDUSTRIAL MACHINES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 60569,
+    "optimized_size": 3398,
+    "reduction_percent": 94.39
+  }
+}

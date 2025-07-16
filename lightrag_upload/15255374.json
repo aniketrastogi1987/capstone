@@ -1,0 +1,32 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15255374",
+  "date_published": "20161222",
+  "date_produced": "20161208",
+  "title": "Security Policy Deployment and Enforcement System for the Detection and Control of Polymorphic and Targeted Malware",
+  "filing_date": "20160902",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kraemer",
+      "inventor_name_first": "Jeffrey Albin",
+      "inventor_city": "Wellesley",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F2155",
+    "G06F2156"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>One problem with current anti-malware software is that the software is not able to detect new malware threats (often referred to as zero-day or day-zero malware) because hashes for these new threats do not exist in any databases of known malware. Additionally, in some cases, the new malware is able to evade signature based anti-malware software for weeks or even months. Additionally, as malware evolves, the complexity and purpose of the malware evolves as well. For example, two recent trends in the creation of malware are making existing anti-malware software less effective. The first trend is that a large percentage of new malware is polymorphic. That is, when the malware replicates, it also mutates to change the contents of the file containing the virus and possibly the behavior of the malware. Thus, each mutation creates a new version of the malware with a new and unique hash. The polymorphic nature of the malware renders traditional signature based solutions ineffective because the newly created hashes do not exist in any databases of known malware. The second trend is the emergence of advanced persistent threats, which are often implemented by organized crime groups or state-sponsored by foreign entities. The advanced persistent threats are uniquely customized attacks that target individuals or specific companies. The goal of the attack is often the undetected theft of sensitive data, financial information of individuals or companies, or incapacitation of a victim's computer or network. Because the advanced persistent threats are customized to the victims and are designed to be undetected, the signatures of the advanced persistent threats are rarely added to the databases of known malware. Currently, there are no solutions that adequately address day-zero malware or advanced persistent threat problems in addition to more traditional malware versions. The present invention concerns a method and system that can detect new or po...",
+  "patent_number": "9917864",
+  "abstract": "The present system and method pertain to the detection of malicious software and processes such as malware. A cloud security policy system receives hashes and behavioral information about applications and/or processes executing on user devices. The cloud security policy system records this information and then evaluates the trustworthiness of the hashes based on the information received from the user devices to provide a security policy for the applications and/or processes. The security policy is sent from the cloud security policy system to user devices to be applied by the user devices.",
+  "publication_number": "US20160373486A1-20161222",
+  "_processing_info": {
+    "original_size": 76011,
+    "optimized_size": 3238,
+    "reduction_percent": 95.74
+  }
+}

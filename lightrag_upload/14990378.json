@@ -1,0 +1,38 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "14990378",
+  "date_published": "20170713",
+  "date_produced": "20170627",
+  "title": "LOCATING LANE FAULT IN MULTIPLE-LANE BUS",
+  "filing_date": "20160107",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kangas",
+      "inventor_name_first": "Paul Daniel",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Patterson",
+      "inventor_name_first": "Dustin",
+      "inventor_city": "Durham",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1107",
+    "G06F1100"
+  ],
+  "main_ipcr_label": "G06F1107",
+  "summary": "<SOH> SUMMARY <EOH>An example method is for locating a lane fault in a physical bus of a computing device. The physical bus has a number of physical lanes including a first physical lane and a last physical lane. The method includes setting, by the computing device, a starting logical lane of a logical bus corresponding to the physical bus to one of the first and last physical lanes. The method includes setting, by the computing device, a width of the logical bus to the number of physical lanes of the physical bus. The method includes repeatingly, by the computing device, dividing the width of the logical bus by two and determining whether the lane fault is present in the logical bus, until the width of the logical bus is equal to one lane or the lane fault is not present in the logical bus. The method includes, when the lane fault is not present in the logical bus and the width of the logical bus is greater than one lane, outputting, by the computing device, that the lane fault is present in present within a range of the physical lanes encompassing a contiguous number of the physical lanes and the first or last physical lane. An example non-transitory computer-readable data storage medium stores computer-executable code executable by a computing device to perform a method for locating a lane fault in a physical bus of a computing device. The physical bus has a number of physical lanes including a first physical lane and a last physical lane. The method includes setting a starting logical lane of a logical bus corresponding to the physical bus to one of the first and last physical lanes. The method includes setting a width of the logical bus to half of the number of physical lanes of the physical bus. The method includes determining whether the lane fault is present in the logical bus. The method includes, in response to determining that the lane fault is not present in the logical bus, setting the starting logical lane to the other of the first and last physical la...",
+  "patent_number": "9703620",
+  "abstract": "A starting logical lane of a logical bus is set to the first or last physical lane of a physical bus. A width of a logical bus is set to half the number of physical lanes. If a fault is absent in the logical bus, the starting logical lane is set to the other of the first and last physical lanes. The width is repeatingly divided by two until it is equal to one lane or the fault is not present in the logical bus. When the fault is absent in the logical bus and the width is greater than one lane, the fault is present within a range of the physical lanes encompassing a contiguous number of the physical lanes and the first or last physical lane.",
+  "publication_number": "US20170199779A1-20170713",
+  "_processing_info": {
+    "original_size": 51648,
+    "optimized_size": 3345,
+    "reduction_percent": 93.52
+  }
+}

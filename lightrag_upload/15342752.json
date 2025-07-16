@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170208",
+  "publication_number": "US20170053204A1-20170223",
+  "main_ipcr_label": "G06N312",
+  "decision": "PENDING",
+  "application_number": "15342752",
+  "inventor_list": [
+    {
+      "inventor_name_last": "OKAMOTO",
+      "inventor_name_first": "Hiroaki",
+      "inventor_city": "Atsugi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NAGATO",
+      "inventor_name_first": "Tsuyoshi",
+      "inventor_city": "lsehara",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KOEZUKA",
+      "inventor_name_first": "Tetsuo",
+      "inventor_city": "Hachioji",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Each time evolution processing is performed, an information recording unit records increase-decrease information indicating a type of partial program changed in number between pre- and post-evolution individuals and difference between fitness levels calculated from the pre- and post-evolution individuals in a storage unit. A probability setting unit determines, per partial program, a contribution level indicating how much a partial program contributes to increasing a fitness level, based on the information stored in the storage unit within a predetermined period and sets a selection probability per partial program in such a manner that a partial program having a higher contribution level is given a higher selection probability. When the evolution processing is performed, a generation processing unit selects a partial program to be included in the post-evolution individual in mutation processing according to the set selection probabilities.",
+  "filing_date": "20161103",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, there is provided a program generation apparatus including: a memory; and a processor configured to perform a procedure including: generating an image processing program by determining, based on genetic programming, a combination of partial programs to be included in the image processing program from a plurality of partial programs, the generating including evolution processing for evolving an individual formed by a combination of partial programs selected from the plurality of partial programs; recording, in the memory, information indicating a type of partial program that has been changed in number between pre- and post-evolution individuals and indicating difference between fitness levels calculated based on the pre- and post-evolution individuals, respectively, each time the evolution processing is performed; and determining, for each of the plurality of partial programs, a contribution level indicating how much an individual partial program contributes to increasing a fitness level, based on information accumulated in the memory within a predetermined time period and setting a selection probability for each of the plurality of partial programs in such a manner that a first partial program having a higher contribution level than a second partial program is given a higher setting value as a selection probability of the first partial program than the second partial program, wherein the evolution processing performed after the setting of the selection probability for each of the plurality of partial programs includes selecting a partial program to be included in a post-evolution individual in mutation processing from the plurality of partial programs according to selection probabilities set for respective ones of the plurality of partial programs. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both...",
+  "date_published": "20170223",
+  "title": "PROGRAM GENERATION APPARATUS AND PROGRAM GENERATION METHOD",
+  "ipcr_labels": [
+    "G06N312",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 121443,
+    "optimized_size": 3798,
+    "reduction_percent": 96.87
+  }
+}

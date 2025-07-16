@@ -1,0 +1,32 @@
+{
+  "date_produced": "20170316",
+  "publication_number": "US20170091675A1-20170330",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15281032",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SASAKI",
+      "inventor_name_first": "Taku",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Production equipment according to an embodiment of the present invention includes a machine learning system and an assembly and test unit. The assembly and test unit chooses components from component groups having different characteristic values, assembles the chosen components into a product, and tests the assembled product. The machine learning system includes a state observer for observing a test result of the product and the inventory amounts of the components grouped based on the characteristic values of the components; a reward calculator for calculating a reward based on the test result and the inventory amounts; an artificial intelligence for determining an action value based on an observation result by the state observer and the reward calculated by the reward calculator; and a decision maker for choosing components to be used in the next product assembly from the component groups based on a determination result by the artificial intelligence.",
+  "filing_date": "20160929",
+  "patent_number": "9934470",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention aims at providing production equipment that produces products having less variation in their circuit characteristics without requiring man-hours. Production equipment according to an embodiment of the present invention includes a machine learning system and an assembly and test unit. The assembly and test unit chooses a plurality of components from a plurality of component groups having different characteristic values, assembles the chosen plurality of components into a product, and tests the assembled product. The machine learning system includes a state observer for observing a test result of the product and the inventory amounts of the plurality of components grouped based on the characteristic values of the components; a reward calculator for calculating a reward based on the test result and the inventory amounts; an artificial intelligence for determining an action value based on an observation result by the state observer and the reward calculated by the reward calculator; and a decision maker for choosing a plurality of components to be used in the next product assembly from the plurality of component groups based on a determination result by the artificial intelligence.",
+  "date_published": "20170330",
+  "title": "PRODUCTION EQUIPMENT INCLUDING MACHINE LEARNING SYSTEM AND ASSEMBLY AND TEST UNIT",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 34585,
+    "optimized_size": 2812,
+    "reduction_percent": 91.87
+  }
+}

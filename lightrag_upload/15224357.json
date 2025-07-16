@@ -1,0 +1,46 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032874A1-20180201",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15224357",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sánchez Charles",
+      "inventor_name_first": "David",
+      "inventor_city": "Barcelona",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    },
+    {
+      "inventor_name_last": "Ferrarons Llagostera",
+      "inventor_name_first": "Jaume",
+      "inventor_city": "Barcelona",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    },
+    {
+      "inventor_name_last": "Muntés Mulero",
+      "inventor_name_first": "Victor",
+      "inventor_city": "Barcelona",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    }
+  ],
+  "abstract": "A method includes performing, by a processor: receiving a first document, the first document comprising a first plurality of sub-documents that are related to one another in a first time sequence; converting the first plurality of sub-documents to a vector format to generate a vectorized document that encodes a probability distribution of words in the document and transition probabilities between words; detecting a plurality of topics within the vectorized document, the plurality of topics being related to one another in the first time sequence; applying a process discovery algorithm to the plurality of topics to generate a model that is representative of relationships between the plurality of topics; receiving a second document containing subject matter related to a course of action, the second document comprising a second plurality of sub-documents that are related to one another in a second time sequence; using the model to generate a classification for the second document; and adju...",
+  "filing_date": "20160729",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In some embodiments of the inventive subject matter, a method comprises performing, performing by a processor: receiving a first document, the first document comprising a first plurality of sub-documents that are related to one another in a first time sequence; converting the first plurality of sub-documents to a vector format to generate a vectorized document that encodes a probability distribution of words in the document and transition probabilities between words; detecting a plurality of topics within the vectorized document, the plurality of topics being related to one another in the first time sequence; applying a process discovery algorithm to the plurality of topics to generate a model that is representative of relationships between the plurality of topics; receiving a second document containing subject matter related to a course of action, the second document comprising a second plurality of sub-documents that are related to one another in a second time sequence; using the model to generate a classification for the second document; and adjusting the course of action based on the classification for the second document. In other embodiments of the inventive subject matter, a system comprises a processor and a memory coupled to the processor and comprising computer readable program code embodied in the memory that is executable by the processor to perform: receiving a first document containing subject matter related to a course of action, the first document comprising a plurality of sub-documents that are related to one another in a time sequence; using a model comprising a topic sequence derived from a second document to generate a classification for the first document; and adjusting the course of action based on the classification for the first document. In further embodiments of the inventive subject matter, a computer program product comprises a tangible computer readable storage medium comprising computer readable program code embodied ...",
+  "date_published": "20180201",
+  "title": "DOCUMENT ANALYSIS SYSTEM THAT USES PROCESS MINING TECHNIQUES TO CLASSIFY CONVERSATIONS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1728",
+    "G06F950"
+  ],
+  "_processing_info": {
+    "original_size": 64692,
+    "optimized_size": 3927,
+    "reduction_percent": 93.93
+  }
+}

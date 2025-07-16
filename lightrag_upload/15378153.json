@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170419",
+  "publication_number": "US20170124485A1-20170504",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15378153",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Arunkumar",
+      "inventor_name_first": "Saritha",
+      "inventor_city": "Basingstoke",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Su",
+      "inventor_city": "Canterbury",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Application of inter-class and intra-class filtering, based on aggregate point-to-point distances, to vector data for purposes of filtering the vector data for purposes of pattern recognition. In some embodiments: (i) the inter-class filtering is based on Euclidean distance, in all dimensions, between vector data points in vector space; and/or (ii) the intra-class filtering is based on a distance, in all dimensions, between vector data points in vector space.",
+  "filing_date": "20161214",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the present invention, there is a method, computer program product, and/or system that performs the following operations (not necessarily in the following order): (i) receiving, by machine logic of a computer, a set of vector data, wherein the set of vector data includes a plurality of vector values from each class of a plurality of classes; (ii) applying, by machine logic of the computer, an inter-class filtering to the set of vector data, wherein the inter-class filtering is based, at least in part, on an inter-class distance; and (iii) applying, by machine logic of the computer, an intra-class filtering to the set of vector data, wherein the intra-class filtering is based, at least in part, on an intra-class distance. The inter-class distance is based on a sum of distances between: (i) a subject vector value; and (ii) at least some of the vector values of at least some of the other class(es) of the plurality of classes. The first intra-class distance is based on a sum of distances between: (i) a subject vector value; and (ii) at least some of the vector values in the same class as the subject vector value.",
+  "date_published": "20170504",
+  "title": "FEATURE SELECTION ALGORITHM UNDER CONDITIONS OF NOISY DATA AND LIMITED RECORDING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 78502,
+    "optimized_size": 2357,
+    "reduction_percent": 97.0
+  }
+}

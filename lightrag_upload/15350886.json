@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15350886",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "title": "FOREIGN OBJECT DEBRIS TRENDING CONCEPT AND DESIGN",
+  "filing_date": "20161114",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Khibnik",
+      "inventor_name_first": "Alexander I.",
+      "inventor_city": "Glastonbury",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hagen",
+      "inventor_name_first": "Gregory S.",
+      "inventor_city": "Glastonbury",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "F01D2100",
+    "G01M1514",
+    "G06N700",
+    "G05B2302"
+  ],
+  "main_ipcr_label": "F01D2100",
+  "summary": "<SOH> SUMMARY <EOH>Systems and methods for detecting foreign object debris damage in a gas turbine engine are disclosed. In various embodiments, a method for foreign object debris detection in a gas turbine engine may comprise receiving, by a controller, a first time-series data from a database, wherein the first time-series data comprises a feature, pre-processing, by the controller, the first time-series data to generate a second time-series data, generating a third time-series data via an anomaly detector model, sending, by the controller, the third time-series data to a foreign object debris (FOD) damage model, and determining, by the controller, that a FOD event has occurred based on data received from the FOD damage model. In various embodiments, the method may further comprise generating, by the controller, a health report (HR). The third time-series data may comprise an anomaly detection signal, the anomaly detection signal being generated based on a pre-determined feature. The pre-processing may cause the controller to calculate a derived parameter, wherein the derived parameter is calculated using the first time-series data. The pre-processing may cause the controller to evaluate an integrity of the first time-series data. The pre-processing may cause the controller to evaluate a health of the debris monitoring sensor. The pre-processing may cause the controller to clean the first time-series data. The pre-processing may cause the controller to align the first time-series data with respect to time. The pre-processing may cause the controller to define a filter for the first time-series data. The pre-processing may cause the controller to define a point of interest of the first time-series data. The generating the third time-series data may include calculating, by the controller, an anomaly detector, wherein the anomaly detector is based upon the second time-series data. The calculating the anomaly detector may include analyzing the second time-series data ...",
+  "patent_number": "None",
+  "abstract": "A system and method for detecting foreign object debris damage is disclosed. A method for foreign object debris detection in a gas turbine engine may include receiving, by a controller, a first time-series data from a database, wherein the first time-series data comprises a feature, pre-processing, by the controller, the first time-series data to generate a second time-series data, generating a third time-series data via an anomaly detector model, sending, by the controller, the third time-series data to a foreign object debris (FOD) damage model, and determining, by the controller, that a FOD event has occurred based on data received from the FOD damage model. In various embodiments, the method may further comprise generating, by the controller, a health report (HR).",
+  "publication_number": "US20180135455A1-20180517",
+  "_processing_info": {
+    "original_size": 62043,
+    "optimized_size": 3514,
+    "reduction_percent": 94.34
+  }
+}

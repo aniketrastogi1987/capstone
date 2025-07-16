@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15450933",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20170306",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Embodiments employ an inference method for neural networks that enforces deterministic constraints on outputs without performing post-processing or expensive discrete search over the feasible space. Instead, for each input, the continuous weights are nudged until the network's unconstrained inference procedure generates an output that satisfies the constraints. This is achieved by expressing the hard constraints as an optimization problem over the continuous weights and employing backpropagation to change the weights of the network. Embodiments optimize over the energy of the violating outputs; since the weights directly determine the output through the energy, embodiments are able to manipulate the unconstrained inference procedure to produce outputs that conform to global constraints.",
+  "publication_number": "US20180121807A1-20180503",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings: FIG. 1 depicts a flowchart for enforcing hard constraints on the output of a neural network. FIG. 2 is a block diagram that depicts an example system arrangement for enforcing hard constraints on the output of a neural network. FIG. 3 is a block diagram of a computer system on which embodiments may be implemented. FIG. 4 is a block diagram of a basic software system that may be employed for controlling the operation of computer system. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wick",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Medford",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tristan",
+      "inventor_name_first": "Jean-Baptiste",
+      "inventor_city": "Lexington",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "Jay Yoon",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "WHEN OUTPUT UNITS MUST OBEY HARD CONSTRAINTS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 82064,
+    "optimized_size": 2210,
+    "reduction_percent": 97.31
+  }
+}

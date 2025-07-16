@@ -1,0 +1,41 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15225099",
+  "date_published": "20161124",
+  "date_produced": "20161109",
+  "title": "METHOD AND APPARATUS TO MODEL AND TRANSFER THE PROSODY OF TAGS ACROSS LANGUAGES",
+  "filing_date": "20160801",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YASSA",
+      "inventor_name_first": "Fathy",
+      "inventor_city": "Soquel",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HENTON",
+      "inventor_name_first": "Caroline",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G10L1518",
+    "G06F1727",
+    "G06F1728",
+    "G10L2503",
+    "G10L2590"
+  ],
+  "main_ipcr_label": "G10L1518",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure relate to the linguistic viability of mapping the prosodic contours of tag questions in a first language (L1) to the prosodic contours of tag questions as the prosodic contours are realized grammatically in a second language (L2). Embodiments of the present disclosure improve the naturalness of the prosody of tags in synthetic speech produced as result of translating from spoken input of the first language to spoken (synthetic) output in the second language. According to an aspect of an embodiment of the present disclosure, there is provided a method of mapping prosodic contours, the method including a person speaks in a first language, speech in the first language is recognized (by ASR, or manual), searching the speech for a known tag, such as tag questions at the end, embedded, attributive tags in the middle, etc., searching for pieces of text that have common consistent or idiomatic intonation patterns (e.g. items in a list), translating the text into a second language, examining the second language string to find the portions of the translated text that correspond to the tag(s), examining the speech signal of the original first language, to find the segments that correspond to the tag, extracting the fundamental frequency (pitch) from those segments, and fitting a smooth contour such as a cubic spline to the segments to smooth over the segmental perturbations, voiceless regions, and extraction errors, mapping a stylized smooth contour into the corresponding part of the pitch range of the intended second language synthesized speech, stretching or contracting a stylized smooth contour over time because the duration of the translation will be different, and aligning the contour with the corresponding second language segments and impose the contour on the synthesized second language speech. Aspects of the embodiments of the present disclosure overcome the above disadvantages and other disadvantages not describ...",
+  "patent_number": "9959270",
+  "abstract": "A method for determining the prosody of a tag question in human speech and preserving said prosody as the human speech is translated into a different language.",
+  "publication_number": "US20160343368A1-20161124",
+  "_processing_info": {
+    "original_size": 35286,
+    "optimized_size": 2924,
+    "reduction_percent": 91.71
+  }
+}

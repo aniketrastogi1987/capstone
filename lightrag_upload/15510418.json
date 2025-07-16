@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15510418",
+  "date_published": "20170831",
+  "date_produced": "20170816",
+  "filing_date": "20170310",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Information representing physical parameters associated with the entity or process is sensed. The sensed information is collected into a current pattern or into a current sequence of patterns. The current pattern or current sequence of patterns is compared to historical data in order to obtain a population of best matches. A plurality of kernel regression models is created based upon the population of best matches. At least one distribution of estimate values is generated for a sensor of interest using the plurality of kernel regression models. The at least one distribution of the estimate values is analyzed for a sensor of interest to obtain a measure of the center of the at least one estimate distribution and a measure of the width of the at least one estimate distribution.",
+  "publication_number": "US20170249559A1-20170831",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE INVENTION <EOH>The present approaches create an ensemble (family) of kernel regression models for each observation vector of sensor data received from an object or process being monitored. The models in the ensemble are created from data that are similar to the current conditions, but are independent of one another. Each of the models generates an estimate vector for each of the model variables. Statistics are calculated from the distribution of estimates generated for each variable. In one aspect, the mean of the estimate distribution is calculated and this provides a more robust estimate of the current conditions than that produced by any single model. In another aspect, the median of the distribution is calculated. Since the population of independent models is correlated with sensor and process error, measures of the width of the estimate distribution (for instance, standard deviation) provide an indication of the uncertainty of model estimates for the current observation vector. In many of these embodiments, information representing physical parameters associated with the entity or process is sensed. The sensed information is collected into a current pattern or into a current sequence of patterns. The current pattern or current sequence of patterns is compared to historical data in order to obtain a population of best matches. A plurality of kernel regression models is created based upon the population of best matches. At least one distribution of estimate values is generated for at least one sensor of interest using the plurality of kernel regression models. The distribution of the estimate values is analyzed for one or more sensors of interest to obtain a measure of the center of the estimate distribution and a measure of the width of the estimate distribution, for each of the sensors of interest. In some aspects, the creating comprises creating the plurality of kernel regression models at a single and current point in time. In o...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "HERZOG",
+      "inventor_name_first": "James P.",
+      "inventor_city": "Lisle",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "APPARATUS AND METHOD FOR ENSEMBLES OF KERNEL REGRESSION MODELS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 45178,
+    "optimized_size": 3346,
+    "reduction_percent": 92.59
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180308",
+  "publication_number": "US20180082187A1-20180322",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15267553",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Katz",
+      "inventor_name_first": "Edward G.",
+      "inventor_city": "Washington",
+      "inventor_state": "DC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Summers",
+      "inventor_name_first": "Kristen M.",
+      "inventor_city": "Takoma Park",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method, system and a computer program product are provided for scoring candidate answers for geographic relevance analyzing an input question to identify one or more first geographic foci of the input question based on geographical contextual information associated with the input question, identifying one or more second geographic foci for a candidate answer generated in response to the input question, and then comparing the first and second geographic foci to generate a geographic relevance score for the candidate answer to the input question.",
+  "filing_date": "20160916",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Broadly speaking, selected embodiments of the present disclosure provide a system, method, and apparatus for evaluating the geographic relevance of an answer candidate to an input question containing geographic information based on the relationship between the geographic focus of the question and the geographic focus of the answer candidate. In selected embodiments, the system, method, and apparatus are embodied in a Question Answering (QA) system which receives and analyzes an input natural language question to identify a geographic focus of the input natural language question. The geographic focus for the question may be derived by identifying and resolving all definite locative expressions in the question with respect to any identified contextual location for the question, such as the location of the user submitting the question or the location of primary interest in the user's profile. In addition, the QA system processes a corpus of documents based on the input natural language question to generate candidate answers to the input natural language question from one or more corpus documents and to evaluate each candidate answer to identify at least one geographic focus associated with the candidate answer. As will be appreciated, a candidate answer may be generated from any document in any corpus so that multiple candidate answers may be generated from any document in any corpus, and as identical candidate answers are merged, the final representation of a candidate answer that gets scored may have come from multiple corpus documents. In selected embodiments, a candidate answer may be scored for its geographic relevance by computing a geographic focus based on specified document location data characterizing a document that is the basis for a candidate answer. One type of specified document location data is the document context location, such as a publication location of the document, a known focus of the location for the source of the document, t...",
+  "date_published": "20180322",
+  "title": "System and Method for Scoring the Geographic Relevance of Answers in a Deep Question Answering System Based on Geographic Context of an Input Question",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 143141,
+    "optimized_size": 3359,
+    "reduction_percent": 97.65
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140269A1-20170518",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15349894",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Schaul",
+      "inventor_name_first": "Tom",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Quan",
+      "inventor_name_first": "John",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Silver",
+      "inventor_name_first": "David",
+      "inventor_city": "Hitchin",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for training a neural network used to select actions performed by a reinforcement learning agent interacting with an environment. In one aspect, a method includes maintaining a replay memory, where the replay memory stores pieces of experience data generated as a result of the reinforcement learning agent interacting with the environment. Each piece of experience data is associated with a respective expected learning progress measure that is a measure of an expected amount of progress made in the training of the neural network if the neural network is trained on the piece of experience data. The method further includes selecting a piece of experience data from the replay memory by prioritizing for selection pieces of experience data having relatively higher expected learning progress measures and training the neural network on the selected piece of experience data.",
+  "filing_date": "20161111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in methods for training a neural network used to select actions performed by a reinforcement learning agent interacting with an environment by performing actions that cause the environment to transition states, where the methods include the actions of maintaining a replay memory storing pieces of experience data generated as a result of the reinforcement learning agent interacting with the environment, wherein the pieces of experience data each have a respective expected learning progress measure that is a measure of an expected amount of progress made in the training of the neural network if the neural network is trained on the piece of experience data; selecting a piece of experience data from the replay memory by prioritizing for selection pieces of experience data having relatively higher expected learning progress measures; and training the neural network on the selected piece of experience data. Other embodiments of this aspect include corresponding computer systems, apparatus, and computer programs recorded on one or more computer storage devices, each configured to perform the actions of the methods. A system of one or more computers can be configured to perform particular operations or actions by virtue of software, firmware, hardware, or any combination thereof installed on the system that in operation may cause the system to perform the actions. One or more computer programs can be configured to perform particular operations or actions by virtue of including instructions that, when executed by data processing apparatus, cause the apparatus to perform the actions. Implementations can include one or more of the following features. In some implementations, selecting the piece of experience data includes: (i) determining a respective probability for each piece of experience data such that pieces of experience data having higher expected l...",
+  "date_published": "20170518",
+  "title": "TRAINING NEURAL NETWORKS USING A PRIORITIZED EXPERIENCE MEMORY",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 54912,
+    "optimized_size": 3799,
+    "reduction_percent": 93.08
+  }
+}

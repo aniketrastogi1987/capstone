@@ -1,0 +1,39 @@
+{
+  "date_produced": "20171108",
+  "publication_number": "US20170337469A1-20171123",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15156526",
+  "inventor_list": [
+    {
+      "inventor_name_last": "DEBES",
+      "inventor_name_first": "Christian",
+      "inventor_city": "Darmstadt",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "DEISEROTH",
+      "inventor_name_first": "Bjorn",
+      "inventor_city": "Darmstadt",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "A method, system and computer program product, for identifying anomalies in a monitored scene, the method comprising: receiving into a spiking neural network sensor readings from a capture device monitoring a scene; and outputting an indication to a change in the scene, wherein the spiking neural network comprises a multiplicity of layers, each of the multiplicity of layers comprising a neuron per substantially each pixel in a sensor capturing the monitored scene, and wherein one or more of the layers comprises a memory-like unit for comparing states occurring at a time difference.",
+  "filing_date": "20160517",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In order to understand the invention and to see how it can be carried out in practice, embodiments will be described, by way of non-limiting examples, with reference to the accompanying drawings, in which: FIG. 1 illustrates input signals going over a neuron and the resulting neuron state in a neural network; FIG. 2 illustrates a generalized block diagram of a system for detecting changes in a monitored scene using a spiking neural network, in accordance with certain embodiments of the presently disclosed subject matter; FIG. 3A illustrates a schematic diagram of a spiking neural network for detecting changes in a monitored scene, in accordance with certain embodiments of the presently disclosed subject matter; FIG. 3B shows an exemplary input frame and the resulting frame after being processed by method associated with the spiking neural, in accordance with certain embodiments of the presently disclosed subject matter; FIG. 4A shows a schematic diagram of a hillclimb mechanism implemented within a spiking neural network, in accordance with certain embodiments of the presently disclosed subject matter; FIG. 4B illustrates schematic graphs of inhibiting and exciting input and the output of a hill neuron, in accordance with certain embodiments of the presently disclosed subject matter; FIG. 4C illustrates a schematic diagram of a memory-like unit implemented using elements of spiking neural network, in accordance with certain embodiments of the presently disclosed subject matter; FIG. 4D shows exemplary experimental graphs of weights and spiking times of a pre-post mechanism, in accordance with certain embodiments of the presently disclosed subject matter; and FIG. 5 illustrates a generalized flow-chart of a method for detecting changes in a monitored scene using a spiking neural network, in accordance with certain embodiments of the presently disclosed subject matter. detailed-description description=\"Detailed Description\"...",
+  "date_published": "20171123",
+  "title": "ANOMALY DETECTION USING SPIKING NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06K900",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 74208,
+    "optimized_size": 3295,
+    "reduction_percent": 95.56
+  }
+}

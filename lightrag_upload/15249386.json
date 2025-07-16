@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170214",
+  "publication_number": "US20170061286A1-20170302",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15249386",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kumar",
+      "inventor_name_first": "Nitesh",
+      "inventor_city": "Milpitas",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ozakin",
+      "inventor_name_first": "Arkadas",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gray",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Aditya",
+      "inventor_name_first": "Abhimanyu",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system and method for generating a recommendation system based on supervised learning includes generating a master dataset, selecting a subset of features and a subset of rows in the master dataset, selecting a supervised learning method, building a first model based on a first dataset and the supervised learning method, the first dataset being restricted to the subset of features and the subset of rows in the master dataset, determining a set of candidate items, identifying a first user, generating a prediction of a user response of the first user to the set of candidate items based on the first model, and generating a recommendation of a first candidate item based on the prediction.",
+  "filing_date": "20160827",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure overcomes the deficiencies of the prior art by providing a system and method for generating a recommendation system using supervised learning. In general, another innovative aspect of the present disclosure described in this disclosure may be embodied in a method for generating a master dataset including user data, item data, and user-item interaction data of a plurality of users, selecting a subset of features and a subset of rows in the master dataset, the subset of rows corresponding to a first set of users sharing a similar attribute in the master dataset, selecting a supervised learning method, building a first model based on a first dataset and the supervised learning method, the first dataset being restricted to the subset of features and the subset of rows in the master dataset, identifying a first user from the first set of users, determining a set of candidate items, generating a prediction of a user response of the first user to the set of candidate items based on the first model, generating a recommendation of a first candidate item based on the prediction, and transmitting the recommendation to a client device for display to the first user. Other aspects include corresponding methods, systems, apparatus, and computer program products for these and other innovative aspects. These and other implementations may each optionally include one or more of the following features. For instance, the operations further include retrieving user data of the plurality of users, retrieving item data of a plurality of items, retrieving positive user-item interaction data for the plurality of users and the plurality of items, determining whether negative user-item interaction data for the plurality of users and the plurality of items is retrievable, responsive to determining that the negative user-item interaction data is non-retrievable, artificially creating the negative user-item interaction data, and combining the user data, th...",
+  "date_published": "20170302",
+  "title": "Supervised Learning Based Recommendation System",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 142274,
+    "optimized_size": 3687,
+    "reduction_percent": 97.41
+  }
+}

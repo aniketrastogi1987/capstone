@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15368695",
+  "date_published": "20180607",
+  "date_produced": "20180523",
+  "title": "COMMAND TRANSFORMATION METHOD AND SYSTEM",
+  "filing_date": "20161205",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YANG",
+      "inventor_name_first": "Ping-Che",
+      "inventor_city": "Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "LIN",
+      "inventor_name_first": "Hsiang-Lun",
+      "inventor_city": "Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "KU",
+      "inventor_name_first": "Tsun",
+      "inventor_city": "Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1728",
+    "G06F1724"
+  ],
+  "main_ipcr_label": "G06F1728",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment of the present disclosure is related to a command transformation method. The command transformation method is configured to transform a natural language sentence into a machine readable command. The command transformation method includes the steps: receiving the natural language sentence associated with a first language by a processor; transforming the natural language sentence into an original text command by the processor; determining whether the original text command comprises an unknown word or not by the processor; transforming the unknown word into International Phonetic Alphabet (IPA) by the processor when the original text command comprises the unknown word, to generate at least one candidate word; searching a database according to the candidate word by the processor, to search out a first word corresponding to the unknown word and associated with the first language; and replacing the unknown word with the first word by the processor, to generate a first machine readable command. The first machine readable command is configured to be executed by an electronic device to implement a corresponding operation. Another embodiment of the present disclosure is related to a command transformation system. The command transformation system is configured to transform a natural language sentence into a machine readable command. The command transformation system includes a database and a processor. The processor is coupled to the database. The processor is configured to receive the natural language sentence associated with a first language and to transform the natural language sentence into an original text command. The processor is further configured to determine whether the original text command comprises an unknown word or not, the processor is further configured to transform the unknown word into International Phonetic Alphabet (IPA) when the original text command comprises the unknown word to generate at least one candidate word. The...",
+  "patent_number": "None",
+  "abstract": "A command transformation method includes: receiving a natural language sentence associated with a first language; transforming the natural language sentence into an original text command; determining whether the original text command comprises an unknown word or not; transforming the unknown word into International Phonetic Alphabet (IPA) when the original text command comprises the unknown word, to generate at least one candidate word; searching a database according to the candidate word, to search out a first word corresponding to the unknown word and associated with the first language; replacing the unknown word with the first word, to generate a first machine readable command. The first machine readable command is configured to be executed by an electronic device to implement a corresponding operation.",
+  "publication_number": "US20180157646A1-20180607",
+  "_processing_info": {
+    "original_size": 35359,
+    "optimized_size": 3649,
+    "reduction_percent": 89.68
+  }
+}

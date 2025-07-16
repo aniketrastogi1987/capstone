@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15461794",
+  "date_published": "20170706",
+  "date_produced": "20170621",
+  "filing_date": "20170317",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Presented are rapid and robust techniques for estimating the uncertainty in product attributes (performance, cost, etc.) during the multi-disciplinary design and analysis phase of the product life-cycle. The techniques leverage the capabilities of a preexisting constraint management system that may be used to calculate performance and cost metrics of an engineering system as a function of the design structure and operational scenarios. The techniques are particularly useful when the constraint management system is used to automate the reverse computation required when the analyst specifies cost, schedule, or performance targets using approaches such as cost as independent variable. Disclosed techniques may also be applied to constraint management systems that include compound-valued variables.",
+  "publication_number": "US20170193377A1-20170706",
+  "summary": "<SOH> SUMMARY <EOH>According to various embodiments, a method of estimating uncertainty for a data dependent constraint network is presented. The method includes accessing an electronically stored bipartite graph representing the data dependent constraint network, the bipartite graph including variable nodes representing a plurality of variables, relation nodes representing a plurality of relations, and arcs interconnecting at least some of the variable nodes and the relation nodes, the plurality of variables including a set S of variables that have uncorrelated errors, a set I of variables having user specifiable values, and a set V of variables having user specifiable uncertainties, where at least one of the following occurs: the set S is not equal to the set V, the set V is not equal to the set I, or the set S is not equal to the set I; obtaining a user selection electronically, the user selection including at least one of: values for the variables in the set I or uncertainties for the variables in the set V; propagating electronically at least one gradient related to the user selection through the data dependent constraint network configured with a flow state in which nodes for the variables in the set S have only outgoing arcs; recording electronically variables that are touched by the propagating electronically at least one gradient related to the user selection; propagating electronically, through the data dependent constraint network configured in a flow state in which the nodes for the variables in the set S have only outgoing arcs, at least one uncertainty for the variables that are touched by the propagating electronically at least one gradient related to the user selection; and outputting electronically at least one outputted uncertainty for at least one variable not in the set V, such that setting an uncertainty for the at least one variable not in the set V to the at least one outputted uncertainty for the at least one variable not in the set V causes ...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "FERTIG",
+      "inventor_name_first": "Kenneth W.",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "REDDY",
+      "inventor_name_first": "Sudhakar Y.",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR RAPID AND ROBUST UNCERTAINTY MANAGEMENT DURING MULTIDISCIPLINARY ANALYSIS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 175463,
+    "optimized_size": 3568,
+    "reduction_percent": 97.97
+  }
+}

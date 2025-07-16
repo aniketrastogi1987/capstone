@@ -1,0 +1,51 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15016476",
+  "date_published": "20170810",
+  "date_produced": "20170726",
+  "title": "LAYOUT OF INTERCONNECT LINES IN INTEGRATED CIRCUITS",
+  "filing_date": "20160205",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hellner",
+      "inventor_name_first": "Gerhard",
+      "inventor_city": "Schoenaich",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Leefken",
+      "inventor_name_first": "Iris M.",
+      "inventor_city": "Dettenhausen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Penth",
+      "inventor_name_first": "Silke",
+      "inventor_city": "Holzgerlingen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Werner",
+      "inventor_name_first": "Tobias",
+      "inventor_city": "Weil im Schoenbuch",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1750"
+  ],
+  "main_ipcr_label": "G06F1750",
+  "summary": "<SOH> SUMMARY <EOH>Shortcomings of the prior art are overcome and additional advantages are provided through the provision of a computer-implemented method of generating layouts of nets connecting connection terminals of cells in an integrated circuit. The method includes receiving cell layouts of the cells with parameterized locations of the connection terminals, a connection specification of nets specifying electrical connections between the connection terminals, and design rules for laying out the nets; generating a placed layout with the cell layouts placed adjacent to each other in a row, wherein the cell layouts are placed in the row enabling minimization of a function of the following arguments: a sum of projections of distances between the connection terminals to be connected by nets on a reference straight line and a sum of lengths of overlapping fragments of the projections, wherein the function increases based on an increase in an argument; and laying out, according to the design rules, the nets as straight interconnects being parallel to the reference straight line using the parameterized locations of the connection terminals in the cell layouts, the laying out comprising varying locations of the parameterized locations of the connection terminals. Computer program products and systems relating to one or more aspects are also described and claimed herein. Additional features and advantages are realized through the techniques described herein. Other embodiments and aspects are described in detail herein and are considered a part of the claimed aspects.",
+  "patent_number": "9898571",
+  "abstract": "Generating layouts of nets connecting connection terminals of cells in an integrated circuit. Cell layouts of the cells with parameterized locations of the connection terminals, a connection specification of nets specifying electrical connections between the connection terminals, and design rules for the laying out of the nets, are received. A placed layout is generated with the cell layouts placed adjacent to each other in a row. The cell layouts are placed in the row enabling minimization of a selected function. According to the design rules, the nets are laid out as straight interconnects being parallel to a reference straight line using the parameterized locations of the connection terminals in the cell layouts. The laying out includes varying locations of the parameterized locations of the interconnection terminals.",
+  "publication_number": "US20170228489A1-20170810",
+  "_processing_info": {
+    "original_size": 71886,
+    "optimized_size": 3416,
+    "reduction_percent": 95.25
+  }
+}

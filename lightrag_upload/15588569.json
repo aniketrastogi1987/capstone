@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15588569",
+  "date_published": "20171123",
+  "date_produced": "20171108",
+  "filing_date": "20170505",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "Neural network specific hardware acceleration optimizations are disclosed, including an optimized multicast network and an optimized DRAM transfer unit to perform in constant or linear time. The multicast network is a set of switch nodes organized into layers and configured to operate as a Bene{hacek over (s)} network. Configuration data may be accessed by all switch nodes in the network. Each layer is configured to perform a Bene{hacek over (s)} network transformation of the -previous layer within a computer instruction. Since the computer instructions are pipelined, the entire network of switch nodes may be configured in constant or linear time. Similarly a DRAM transfer unit configured to access memory in strides organizes memory into banks indexed by prime or relatively prime number amounts. The index value is selected as not to cause memory address collisions. Upon receiving a memory specification, the DRAM transfer unit may calculate out strides thereby accessing an entire tile o...",
+  "publication_number": "US20170337468A1-20171123",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The Detailed Description is set forth with reference to the accompanying figures. FIG. 1 is a context diagram of a system environment for machine learning hardware acceleration. FIG. 2 is a block diagram for machine learning hardware acceleration. FIG. 3 is a block diagram for multicast network optimizations for machine learning hardware acceleration. FIG. 4 is a flow chart for multicast network optimizations for machine learning hardware acceleration. FIG. 5 is a context diagram for accessing strides of contiguous banked computer memory. FIG. 6 is a block diagram for a permutaton used in DRAM transfer optimizations for machine learning hardware acceleration. FIG. 7 is a block diagram for DRAM transfer optimizations for machine learning hardware acceleration. FIG. 8 is a flow chart for DRAM transfer optimizations for machine learning hardware acceleration. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bruestle",
+      "inventor_name_first": "Jeremy",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ng",
+      "inventor_name_first": "Choong",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "MULTICAST NETWORK AND MEMORY TRANSFER OPTIMIZATIONS FOR NEURAL NETWORK HARDWARE ACCELERATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 44844,
+    "optimized_size": 2720,
+    "reduction_percent": 93.93
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15202647",
+  "date_published": "20170112",
+  "date_produced": "20161228",
+  "title": "METHOD AND SYSTEM FOR CUSTOMIZABLE FEEDBACK BASED ON DOMINANT MOVEMENT",
+  "filing_date": "20160706",
+  "inventor_list": [
+    {
+      "inventor_name_last": "FREEDMAN",
+      "inventor_name_first": "Chase",
+      "inventor_city": "Georgetown",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FREEDMAN",
+      "inventor_name_first": "Charles",
+      "inventor_city": "Georgetown",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F30487",
+    "G06F301"
+  ],
+  "main_ipcr_label": "G06F30487",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>Disclosed herein is a method for customizable feedback based on dominant movement and a corresponding system and a computer readable medium as specified in the independent claims. Embodiments of the present invention are given in the dependent claims. Embodiments of the present invention can be freely combined with each other if they are not mutually exclusive. According to one embodiment of the present invention, a method for customizable feedback based on dominant movement of a device, implemented by a computer system, synchronizes a device and an application implemented by the computer system, where a plurality of movement thresholds is associated with the application. The application receives user action data from the device, where the user action data indicates one or more user actions performed with or on the device. The application determines a dominant movement based on the user action data and the plurality of movement thresholds. The application determines a feedback associated with the dominant movement, where the feedback comprises one or more sensory activities to be performed by the device in response to a given user action. The application then either sends a feedback command to the device to perform the associated feedback or the feedback is executed by the computer system. In one aspect of the present invention, the application determines that the user action data indicates one or more button presses. In response, the feedback associated with the one or more buttons is determined, and the feedback command is sent to the device to perform the feedback associated with the one or more button presses. In one aspect of the present invention, when the user action data does not indicate any button presses, the application determines the dominant movement based on movement data in the user action data, the movement data indicating movement through space in one or more directions or gestures by the device.",
+  "patent_number": "None",
+  "abstract": "In a method for customizable feedback based on dominant movement of a device, an application receives user action data from the device, determines a dominant movement based on the user action data and the plurality of movement thresholds, and determines a feedback associated with the dominant movement. The associated feedback is then performed. When the application determines that the user action data indicates one or more button presses, the feedback associated with the one or more buttons is determined, and the feedback associated with the one or more button presses is performed. When the user action data does not indicate any button presses, the application determines the dominant movement based on movement data in the user action data, the movement data indicating movement through space in one or more directions by the device.",
+  "publication_number": "US20170010779A1-20170112",
+  "_processing_info": {
+    "original_size": 43774,
+    "optimized_size": 3555,
+    "reduction_percent": 91.88
+  }
+}

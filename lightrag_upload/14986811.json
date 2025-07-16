@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193382A1-20170706",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "14986811",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Villa",
+      "inventor_name_first": "Natalee",
+      "inventor_city": "Salt Lake City",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pead",
+      "inventor_name_first": "Scott",
+      "inventor_city": "Mapleton",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nyland",
+      "inventor_name_first": "James",
+      "inventor_city": "Highland",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mathis",
+      "inventor_name_first": "Craig",
+      "inventor_city": "American Fork",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods disclosed herein compactly store representations of segment-specific interaction data from a real time data stream of data interactions by multiple entities to facilitate segment-specific analytics for particular time periods. Segment rules defining characteristics of entities within a segment are received. A first probabilistic data structure is created representing unique entity IDs included in instances of interaction data in the real time data stream during a first time period. A second probabilistic data structure representing unique entity IDs included in instances of interaction data in the real time data stream during a second time period different from the first time period. The first probabilistic data structure represents only entity IDs of entities within the segment and the second probabilistic data structure represents only entity IDs of entities within the segment. The first and second probabilistic data structures are indexed and stored.",
+  "filing_date": "20160104",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Systems and methods disclosed herein generate probabilistic data structures during multiple time periods representing unique entity IDs within a defined segment. The segment can be defined by segment rules defining characteristics of entities within the segment. Entity IDs associated with a segment are identified from a real time data stream of interactions associated with entity IDs. Probabilistic data structures are created representing the unique entity IDs associated with a segment. The real time data stream can be augmented to include additional information associated with entity IDs. Multiple probabilistic data structures for multiple segments can be created in parallel during a time period. The probabilistic data structures are indexed and stored to facilitate counting unique entity IDs within a segment during time periods. These illustrative embodiments are mentioned not to limit or define the disclosure, but to provide examples to aid understanding thereof. Additional embodiments are discussed in the Detailed Description, and further description is provided there.",
+  "date_published": "20170706",
+  "title": "SYSTEMS AND METHODS FOR DETERMINING REAL-TIME VISITOR SEGMENTS",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 51830,
+    "optimized_size": 3098,
+    "reduction_percent": 94.02
+  }
+}

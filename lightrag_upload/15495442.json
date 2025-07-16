@@ -1,0 +1,66 @@
+{
+  "patent_number": "None",
+  "application_number": "15495442",
+  "date_published": "20180208",
+  "date_produced": "20180124",
+  "filing_date": "20170424",
+  "main_ipcr_label": "G06N504",
+  "abstract": "The present disclosure provides a data predicting method and apparatus. The method comprises: acquiring at least one time factor of a prediction moment; predicting a desired value of data of the prediction moment according to a preset data model and said at least one time factor of the prediction moment. As compared with a method of predicting the desired value on a year-on-year basis or a month-on-month basis in the prior art, the above technical solution of the present disclosure may effectively improve the prediction accuracy of the desired value of the data of the prediction moment and thereby improve a monitoring effect of monitoring abnormality according to the desired value of the predicted data.",
+  "publication_number": "US20180039895A1-20180208",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSURE <EOH>The present disclosure provides a data predicting method and apparatus to improve accuracy of a predicted desired value and thereby improve an abnormality controlling effect. The present disclosure provides a data predicting method, the method comprising: acquiring at least one time factor of a prediction moment; predicting a desired value of data of the prediction moment according to a preset data model and said at least one time factor of the prediction moment. Further optionally, in the aforesaid method, before predicting a desired value of data of the prediction moment according to a preset data model and said at least one time factor of the prediction moment, the method further comprises: acquiring historical valid data; acquiring at least one time factor of each data point of the historical valid data; determining the preset data model according to the historical valid data and the at least one time factor of corresponding each data point. Further optionally, in the aforesaid method, acquiring at least one time factor of each data point of the historical valid data specifically comprises: acquiring a timestamp of each data point of the historical valid data; extracting at least one time factor of the corresponding data point from the timestamp of each data point of the historical valid data. Further optionally, in the aforesaid method, the at least one time factor comprises: which second of the current day the moment corresponding to the data point is, whether a date including the moment corresponding to the data point is a weekday, which day of a current week the date including the moment corresponding to the data point is, which day of a current month the date including the moment corresponding to the data point is, whether the date including the moment corresponding to the data point is a holiday or festival, and if the date including the moment corresponding to the data point is a holiday or festival, at least one of wh...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Bo",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "MIAO",
+      "inventor_name_first": "Beibei",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Dong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Yun",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "GUO",
+      "inventor_name_first": "Xuanyou",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "QU",
+      "inventor_name_first": "Xianping",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "DATA PREDICTING METHOD AND APPARATUS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 49157,
+    "optimized_size": 3939,
+    "reduction_percent": 91.99
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "date_produced": "20170110",
+  "publication_number": "US20170024643A1-20170126",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15217758",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lillicrap",
+      "inventor_name_first": "Timothy Paul",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Hunt",
+      "inventor_name_first": "Jonathan James",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Pritzel",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Heess",
+      "inventor_name_first": "Nicolas Manfred Otto",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Erez",
+      "inventor_name_first": "Tom",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Tassa",
+      "inventor_name_first": "Yuval",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Silver",
+      "inventor_name_first": "David",
+      "inventor_city": "Hitchin",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Wierstra",
+      "inventor_name_first": "Daniel Pieter",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for training an actor neural network used to select actions to be performed by an agent interacting with an environment. One of the methods includes obtaining a minibatch of experience tuples; and updating current values of the parameters of the actor neural network, comprising: for each experience tuple in the minibatch: processing the training observation and the training action in the experience tuple using a critic neural network to determine a neural network output for the experience tuple, and determining a target neural network output for the experience tuple; updating current values of the parameters of the critic neural network using errors between the target neural network outputs and the neural network outputs; and updating the current values of the parameters of the actor neural network using the critic neural network.",
+  "filing_date": "20160722",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to reinforcement learning. The subject matter described in this specification can be implemented in particular embodiments so as to realize one or more of the following advantages. A reinforcement learning system can effectively and directly learn an effective action selection policy for an agent in high-dimensional, continuous action spaces, i.e., by training an actor neural network as described in this specification. In particular, by training the actor neural network as described in this specification, the reinforcement learning system can effectively learn an effective action selection policy even for tasks that require fine control of actions and when the action space is intractable for discretizing and then exploring effectively. Additionally, the reinforcement learning system can learn an effective policy both from observations that are low-dimensional observations and from observations that are high-dimensional pixel inputs. The details of one or more embodiments of the subject matter of this specification are set forth in the accompanying drawings and the description below. Other features, aspects, and advantages of the subject matter will become apparent from the description, the drawings, and the claims.",
+  "date_published": "20170126",
+  "title": "CONTINUOUS CONTROL WITH DEEP REINFORCEMENT LEARNING",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 52527,
+    "optimized_size": 3805,
+    "reduction_percent": 92.76
+  }
+}

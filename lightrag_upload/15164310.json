@@ -1,0 +1,52 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344884A1-20171130",
+  "main_ipcr_label": "G06N308",
+  "decision": "ACCEPTED",
+  "application_number": "15164310",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Zhe",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shen",
+      "inventor_name_first": "Xiaohui",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brandt",
+      "inventor_name_first": "Jonathan W.",
+      "inventor_city": "Santa Cruz",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Jianming",
+      "inventor_city": "Newton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Semantic class localization techniques and systems are described. In one or more implementation, a technique is employed to back communicate relevancies of aggregations back through layers of a neural network. Through use of these relevancies, activation relevancy maps are created that describe relevancy of portions of the image to the classification of the image as corresponding to a semantic class. In this way, the semantic class is localized to portions of the image. This may be performed through communication of positive and not negative relevancies, use of contrastive attention maps to different between semantic classes and even within a same semantic class through use of a self-contrastive technique.",
+  "filing_date": "20160525",
+  "patent_number": "9846840",
+  "summary": "<SOH> SUMMARY <EOH>Semantic class localization techniques and systems are described. In one or more implementations, machine learning techniques are employed to both classify an image as including an object and also where the object is located within the image, i.e., localization. To do so, the machine learning techniques learn patterns of neurons by progressing through layers of a neural network. The patterns of the neurons are used to identify existence of a semantic class within an image, such as an object, feeling, and so on as described previously. As part of this, relevancies of the neurons to the semantic class are also communicated back through layers of a neural network. Through use of these relevancies, activation relevancy maps are created that describe relevancy of portions of the image associated with neurons of the neural network to the semantic class. In this way, the semantic class is localized to portions of the image. To do so, positive and not negative relevancies are communicated through the neural network. For example, communication of positive relevancies describes portions of the image that are relevant to the semantic class, whereas negative relevancies do not. Accordingly, this may be used to increase efficiency in the neural network to localize the semantic class. Contrastive attention maps may also be employed to differentiate between semantic classes. For example, contrastive attention maps may be used to differentiate between different objects within an image to localize the objects. In this way, the contrastive attention maps may help to differentiate portions of the image that are relevant to the semantic class from portions that are relevant to other semantic classes. Contrastive attention maps may also be used within a same semantic class through use of a self-contrastive technique, such as to differentiate between parts of the image that include an object and parts that do not include the object. This Summary introduces a selection ...",
+  "date_published": "20171130",
+  "title": "SEMANTIC CLASS LOCALIZATION IN IMAGES",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 75202,
+    "optimized_size": 3692,
+    "reduction_percent": 95.09
+  }
+}

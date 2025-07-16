@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15835265",
+  "date_published": "20180607",
+  "date_produced": "20180523",
+  "filing_date": "20171207",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Machine learning is performed on input data representing a dynamical statistical system of entities having plural primary variables that vary time. A distribution function over time of the density of entities in a phase space, whose dimensions are the primary variables and secondary variables dependent on the rate of change of the primary variables, is derived and encoded as a sum of contour functions over time describing the contour in phase space of plural phaseons which are entities of a model of the dynamical statistical system that are localised in the phase space. Machine learning is performed on the encoded distribution function and/or at least one field in the effective configuration space whose dimensions are the primary variables, derived from the encoded distribution function. The encoding of the distribution function provides a representation which improves the performance of the machine learning techniques by simplifying hyperparameter optimisation.",
+  "publication_number": "US20180157994A1-20180607",
+  "summary": "<SOH> SUMMARY <EOH>According to the present invention, there is provided a method of performing machine learning on a data set representing a dynamical statistical system of entities having plural primary variables that vary with time, the entities comprising one or more species, the method treating the primary variables as dimensions in an effective configuration space, and treating secondary variables that are dependent on the rate of change of each of the primary variables as variables in an effective momentum space, and treating the effective configuration space and the effective momentum space together as a phase space, the method comprising, in respect of the or each species of entities: deriving a distribution function over time of the density of entities in the phase space; encoding the distribution function as a sum of contour functions over time describing the contour in phase space of plural phaseons which are entities of a model that are localised in the phase space; and performing machine learning on the encoded distribution function and/or at least one field in the effective configuration space derived from the encoded distribution function, in respect of the or each species of entities. The present invention provides a non-linear improvement in machine learning technology for characterising complex dynamical statistical systems, enabling robust and systematic identification, categorization, and compression of significant processes involved in those dynamical statistical systems. The improvement is in part based on use of a single, unified efficient representation of data sets of many different types and formats. The method involves treating the primary variables as dimensions in an effective configuration space, and treating secondary variables that are dependent on the rate of change of each of the primary variables as variables, so that the effective configuration space and the effective momentum space together form a phase space within which the pr...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1750"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Levy",
+      "inventor_name_first": "Matthew Chase",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "CHARACTERISATION OF DYNAMICAL STATISTICAL SYSTEMS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 91223,
+    "optimized_size": 3537,
+    "reduction_percent": 96.12
+  }
+}

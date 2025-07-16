@@ -1,0 +1,69 @@
+{
+  "patent_number": "None",
+  "application_number": "15325184",
+  "date_published": "20170615",
+  "date_produced": "20170603",
+  "filing_date": "20170110",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A method for measuring user behavior consistency degree based on a complex correspondence system, which is applied to internet payment platform security. An entire solution is divided into three stages: at a first stage, analyzing complex correspondence relation characteristics according to an existing user behavior model; at a second stage, establishing a behavior profile according to user behavior characteristics and establishing user behavior relation matrixes; and at a third stage, completing user behavior matrix decomposition according to the complex correspondence characteristics of a user, calculating a user behavior consistency degree and detecting a degree of consistency between user behaviors and expected behaviors. The internal behavior relation of the user is more elaborately analyzed, the user behavior relation profile is established, the complex correspondence relations are distinguished and classified, and user behavior consistency measurement and analysis architecture b...",
+  "publication_number": "US20170169350A1-20170615",
+  "summary": "<SOH> SUMMARY OF THE PRESENT INVENTION <EOH>The purpose of the present invention is to overcome the defects of the prior art, so as to measure behavior consistency between a user behavior model and an expected model, perform specific classified analysis to complex correspondence behavior relations and determine behavior correspondence characteristics of all complex classes; and solve the problem of measurement of behavior consistency containing cross repetitive correspondence, calculate behavior consistency of models by using knowledge related to matrixes and measure a compliance degree of behavior consistency containing complex correspondence relations. For this purpose, the following technical solution is adopted: A method for measuring user behavior consistency degree based on a complex correspondence system is characterized in that an entire solution is divided into three stages: a first stage comprising the following specific implementation steps: step 1-1: subdividing cross order relations based on an existing workflow net, and refining behavior profile relations; step 1-2: analyzing complex correspondence relations, classifying the complex correspondence relations and determining behavior characteristics of each class; and step 1-3: simultaneously analyzing transitive dependency relations between user activities according to indirect relations between users, wherein steps 1-1, 1-2 and 1-3 are performed in parallel; a second stage comprising the following specific implementation steps: step 2-1: determining correlations between five classes of correspondence relations according to the classification of the complex correspondence relations completed in step 1-2 and the behavior characteristics of each class; step 2-2: establishing user extended behavior profile relations according to the behavior profile relations refined in step 1-1; step 2-3: converting user behavior relations into matrix elements based on step 2-2 in combination with step 1-3 according to a ...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06N9900",
+    "G06F1730",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "JIANG",
+      "inventor_name_first": "CHANGJUN",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "HONGZHONG",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "YAN",
+      "inventor_name_first": "CHUNGANG",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "DING",
+      "inventor_name_first": "ZHIJUN",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "MIMI",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZHAO",
+      "inventor_name_first": "PEIHAI",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "METHOD FOR MEASURING USER BEHAVIOR CONSISTENCY DEGREE BASED ON COMPLEX CORRESPONDENCE SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 34515,
+    "optimized_size": 4341,
+    "reduction_percent": 87.42
+  }
+}

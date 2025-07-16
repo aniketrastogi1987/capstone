@@ -1,0 +1,55 @@
+{
+  "patent_number": "None",
+  "application_number": "15724495",
+  "date_published": "20180405",
+  "date_produced": "20180322",
+  "filing_date": "20171004",
+  "main_ipcr_label": "G06N700",
+  "abstract": "The invention is ontology-based architecture for performing semantic data mining for insights. The major components of the architecture are illustrated using Network Ontology (NO), an ontology generated for the network domain for delivering improved network management. In addition, algorithms for summarizing performance profiles in the form of rank tables and for extracting insight rules (concrete action plan) from the rank tables are presented. By using this approach, an actionable plan for assisting decision maker can be obtained, as domain knowledge is incorporated in the system. Experimental results on a network dataset show that this model provides an optimal action plan for a network to improve its performance by encoding data-driven rules into the ontology and suggesting changes to its current network configuration.",
+  "publication_number": "US20180096255A1-20180405",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Aiming at exploiting the advantages of ontology-based approach and techniques for delivering insights of data, an ontology-based architecture for providing insights in domain is developed. The extraction of Network Ontology (“NO”) is modeled by manually extracting semantics from the domain data represented as a relational database and domain expert. State-of-the-art data mining algorithms (Rank Table Generation and Rule Generation algorithms) were adapted to process the NO (RDF triples), thereby extracting constraint-based, optimally performing network configuration. The extraction of constraint-based, optimal patterns is made possible by the rules embedded into the ontology. These rules serve as a base for suggesting an action plan (i.e., new network configurations), so as to improve the performance of the network. In the above described ontology-based approaches, ontologies are used as the medium to represent domain knowledge and behavior (rules). Also, because of the structural representation of knowledge (data) using ontologies, the suggestions or results delivered by ontology-based systems to the end user are more accurate. In this current disclosure, ontology is used to represent domain knowledge and provide better recommendations to the decision maker. However, the unique aspect in this invention is that the decision making process of a decision maker is aided by extracting insights from analyzing the data. Extracting insights from the data is a new technology that will better aid the decision maker. In order to validate the proposed approach, Insight rules are extracted from analyzing the data and Insight rules are encoded in a network ontology. These types of insights serve as the basis for suggesting a concrete action plan to the decision maker to improve the performance of a network. More specifically, this invention discloses an ontology-based architecture for providing insights in the network domain.",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F30484",
+    "G06F1730",
+    "G06N500",
+    "H04L2908"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Duggimpudi",
+      "inventor_name_first": "Maria Bala",
+      "inventor_city": "Lafayette",
+      "inventor_state": "LA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Moursy",
+      "inventor_name_first": "Abdelhamid",
+      "inventor_city": "Spring",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ali",
+      "inventor_name_first": "Elshaimaa",
+      "inventor_city": "Spring",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Raghavan",
+      "inventor_name_first": "Vijay V.",
+      "inventor_city": "Lafayette",
+      "inventor_state": "LA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "ARCHITECTURE AND METHOD FOR PROVIDING INSIGHTS IN NETWORKS DOMAIN",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 66068,
+    "optimized_size": 3876,
+    "reduction_percent": 94.13
+  }
+}

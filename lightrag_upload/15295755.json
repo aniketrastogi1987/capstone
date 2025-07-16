@@ -1,0 +1,40 @@
+{
+  "date_produced": "20170119",
+  "publication_number": "US20170032271A1-20170202",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15295755",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Hang",
+      "inventor_city": "Hong Kong",
+      "inventor_state": "",
+      "inventor_country": "HK"
+    }
+  ],
+  "abstract": "A method and an apparatus for recommending a message. The method for recommending a message in the present disclosure includes separately parsing a first message published by a first user on a network and a second message published by a second user on the network, obtaining interest description information of the first message and topic description information of the second message, where the second user is another user except the first user, comparing the topic description information with the interest description information, and calculating a similarity of the topic description information and the interest description information; and if the similarity is greater than or equal to a predetermined value, pushing the second message published by the second user to the first user. A user can conveniently and flexibly obtain a message in which the user is interested in the embodiments of the present disclosure.",
+  "filing_date": "20161017",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure provide a method and an apparatus for recommending a message, so that a user can conveniently and flexibly obtain a message in which the user is interested. According to a first aspect, an embodiment of the present disclosure provides a method for recommending a message, including separately parsing a first message published by a first user on a network and a second message published by a second user on the network, and obtaining interest description information of the first message and topic description information of the second message, where the second user is another user except the first user; comparing the topic description information with the interest description information, and calculating a similarity of the topic description information and the interest description information; and pushing, if the similarity is greater than or equal to a predetermined value, the second message published by the second user to the first user. With reference to the first aspect, in a first possible implementation manner of the first aspect, the interest description information includes probability distribution information of the first message published by the first user on K topics, and the topic description information includes probability distribution information of the second message published by the second user on the K topics, where K is an integer that is greater than 0; and correspondingly, the comparing the topic description information with the interest description information, and calculating a similarity of the topic description information and the interest description information includes comparing the probability distribution information of the second message on the K topics with the probability distribution information of the first message on the K topics, and calculating a similarity of the probability distribution information of the second message on the K topics and the probability distribution inform...",
+  "date_published": "20170202",
+  "title": "Method and Apparatus for Recommending Message",
+  "ipcr_labels": [
+    "G06N700",
+    "H04L1258",
+    "G06F1730",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 79818,
+    "optimized_size": 3620,
+    "reduction_percent": 95.46
+  }
+}

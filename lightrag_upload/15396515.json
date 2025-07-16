@@ -1,0 +1,59 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189675A1-20180705",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15396515",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NURVITADHI",
+      "inventor_name_first": "Eriko",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "VENKATESH",
+      "inventor_name_first": "Ganesh",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KRISHNAN",
+      "inventor_name_first": "Srivatsan",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SUBHASCHANDRA",
+      "inventor_name_first": "Suchit",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MARR",
+      "inventor_name_first": "Deborah",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Hardware accelerator architectures for clustering are described. A hardware accelerator includes sparse tiles and very/hyper sparse tiles. The sparse tile(s) execute operations for a clustering task involving a matrix. Each sparse tile includes a first plurality of processing units to operate upon a first plurality of blocks of the matrix that have been streamed to one or more random access memories of the sparse tiles over a high bandwidth interface from a first memory unit. Each of the very/hyper sparse tiles are to execute operations for the clustering task involving the matrix. Each of the very/hyper sparse tiles includes a second plurality of processing units to operate upon a second plurality of blocks of the matrix that have been randomly accessed over a low-latency interface from a second memory unit.",
+  "filing_date": "20161231",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The invention may best be understood by referring to the following description and accompanying drawings that are used to illustrate some embodiments. In the drawings: FIG. 1 is a block diagram illustrating a hardware accelerator architecture for web-scale k-means clustering according to some embodiments. FIG. 2 is a block diagram illustrating data and exemplary clusters identified within the data according to some embodiments. FIG. 3 is a block diagram illustrating an exemplary algorithm for mini-batch k-means clustering that can be implemented according to some embodiments. FIG. 4 is a block diagram illustrating an exemplary sparse matrix, very-sparse matrix, and hyper-sparse matrix. FIG. 5 is a block diagram illustrating additional components of a hardware accelerator to perform web-scale k-means clustering according to some embodiments. FIG. 6 is a flow diagram illustrating a flow for initiating web-scale k-means clustering utilizing a hardware accelerator architecture according to some embodiments. FIG. 7 is a flow diagram illustrating another flow for performing web-scale k-means clustering utilizing a hardware accelerator architecture according to some embodiments. FIG. 8 illustrates an exemplary implementation in which an accelerator is communicatively coupled to a plurality of cores through a cache coherent interface according to some embodiments. FIG. 9 illustrates another view of an accelerator according to some embodiments. FIG. 10 illustrates an exemplary set of operations performed by the processing elements according to some embodiments. FIG. 11 a depicts an example of a multiplication between a sparse matrix A against a vector x to produce a vector y according to some embodiments. FIG. 11 b illustrates the CSR representation of matrix A in which each value is stored as a (value, row index) pair according to some embodiments. FIG. 11 c illustrates a CSC representation of matrix A which uses a (value, column...",
+  "date_published": "20180705",
+  "title": "HARDWARE ACCELERATOR ARCHITECTURE AND TEMPLATE FOR WEB-SCALE K-MEANS CLUSTERING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 207232,
+    "optimized_size": 4004,
+    "reduction_percent": 98.07
+  }
+}

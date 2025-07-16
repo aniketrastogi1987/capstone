@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15360134",
+  "date_published": "20170601",
+  "date_produced": "20170517",
+  "title": "ACCESS METHODS OF MEMORY DEVICE USING RELATIVE ADDRESSING",
+  "filing_date": "20161123",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cho",
+      "inventor_name_first": "Youngjin",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Jinwoo",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Park",
+      "inventor_name_first": "Jaegeun",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G11C722"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>A method for accessing a random-accessible nonvolatile RAM according to example embodiments of inventive concepts may include externally receiving a base address, receiving a relative address corresponding to an increasing or decreasing size from the base address, and reading data stored in a memory area of the nonvolatile RAM or writing externally provided data into the nonvolatile RAM with reference to the base address and the relative address. A method for accessing a random-accessible nonvolatile RAM according to example embodiments of inventive concepts may include receiving an access request for access to the nonvolatile RAM, determining whether a stream ID corresponding to the access request is in a relative address table, generating a base address and a relative address corresponding to an increase or decrease in size from the base address with reference to a last sending address corresponding to the stream ID when the stream ID exists in the relative address table, and sending the base address and the relative address to the nonvolatile RAM. Some embodiments of the inventive concept include a method for accessing a random-accessible nonvolatile RAM. The method may include receiving a set command indicating an operation for accessing the nonvolatile RAM, receiving a base address in the same clock cycle as the receiving the set command, receiving, a relative address indicating an offset from the base address, and accessing an access location in the nonvolatile RAM based on the base address and relative address. In some embodiments, the method may include receiving a stream ID in the same clock cycle as the receiving the set command and the receiving the base address. The stream ID may correspond to characteristics a read/write command. A base address table may be used to decode the access location in the nonvolatile RAM based on the base address, the relative address, and the stream ID. In some embodiments, the read/write command may includ...",
+  "patent_number": "None",
+  "abstract": "A method for accessing a random-accessible nonvolatile RAM includes externally receiving a base address, receiving a relative address corresponding to an increasing or decreasing size from the base address, and reading data stored in a memory area of the nonvolatile RAM or writing externally provided data into the nonvolatile RAM with reference to the base address and the relative address.",
+  "publication_number": "US20170153825A1-20170601",
+  "_processing_info": {
+    "original_size": 63818,
+    "optimized_size": 3223,
+    "reduction_percent": 94.95
+  }
+}

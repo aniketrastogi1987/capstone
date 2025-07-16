@@ -1,0 +1,48 @@
+{
+  "patent_number": "None",
+  "application_number": "15590614",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "filing_date": "20170509",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A method and system are disclosed for improving a policy for a stochastic control problem, the stochastic control problem being characterized by a set of actions, a set of states, a reward structure as a function of states and actions, and a plurality of decision epochs, the method comprising using a sampling device obtaining data representative of sample configurations of a Boltzmann machine, obtaining initialization data and an initial policy for the stochastic control problem; assigning data representative of an initial weight and a bias of respectively each coupler and each node and the transverse field strength of the Boltzmann machine to the sampling device; until a stopping criterion is met generating a present-epoch state-action pair, amending data representative of none or at least one coupler and at least one bias, performing a sampling corresponding to the present-epoch state-action pair to obtain first sampling empirical means, obtaining an approximation of a value of a Q-f...",
+  "publication_number": "US20170323195A1-20171109",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>According to a broad aspect, there is disclosed a method for improving a policy for a stochastic control problem, the stochastic control problem being characterized by a set of actions, a set of states, a reward structure as a function of states and actions, and a plurality of decision epochs, wherein evolution of an underlying stochastic state process depends on a plurality of actions in a policy, the method comprising using a sampling device coupled to a digital computer and to a sampling device control system, the sampling device obtaining data representative of sample configurations of a Boltzmann machine comprising a plurality of nodes, a plurality of couplers, a plurality of biases, each bias corresponding to a node in the plurality of nodes, a plurality of coupling weights, each coupling weight corresponding to a coupler of the plurality of couplers, and a transverse field strength; obtaining, using the digital computer, initialization data comprising the set of actions, the set of states, the reward structure of the stochastic control problem and an initial policy for the stochastic control problem, the policy comprising a choice of at least one action for each state; using the digital computer and the sampling device control system, assigning data representative of an initial weight and a bias of respectively each coupler and each node and the transverse field strength of the Boltzmann machine to the sampling device; until a stopping criterion is met generating a present-epoch state-action pair using the digital computer, using the digital computer and the sampling device control system, amending data representative of none or at least one coupler and at least one bias using the generated present-epoch state-action pair, performing a sampling corresponding to the present-epoch state-action pair to obtain first sampling empirical means, obtaining, using the first sampling empirical means, using the digital computer, an approximation ...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N9900",
+    "G06N308",
+    "G06N9900",
+    "G06E300"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CRAWFORD",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "RONAGH",
+      "inventor_name_first": "Pooya",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "LEVIT",
+      "inventor_name_first": "Anna",
+      "inventor_city": "Coquitlam",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR IMPROVING A POLICY FOR A STOCHASTIC CONTROL PROBLEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 160641,
+    "optimized_size": 3897,
+    "reduction_percent": 97.57
+  }
+}

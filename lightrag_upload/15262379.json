@@ -1,0 +1,39 @@
+{
+  "decision": "PENDING",
+  "application_number": "15262379",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "title": "AUTOMATED TATTOO RECOGNITION TECHNIQUES",
+  "filing_date": "20160912",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hougen",
+      "inventor_name_first": "Darrell",
+      "inventor_city": "Littleton",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lo",
+      "inventor_name_first": "Peter Zhen-Ping",
+      "inventor_city": "Mission Viejo",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T700",
+    "G06T740",
+    "G06K966"
+  ],
+  "main_ipcr_label": "G06T700",
+  "summary": "<SOH> SUMMARY <EOH>The performance of tattoo detection techniques is often strongly correlated to the accuracy of segmentation techniques used to extract features associated with a region that potentially includes a tattoo within an input image. However, many tattoo segmentation techniques (e.g., skin-based detection) are often inaccurate when applied to low quality images because of variations in illumination across images, among other complicating factors. Accordingly, one innovative aspect described throughout this specification includes systems and techniques capable of performing automatic tattoo segmentation and detection to improve tattoo recognition of low quality images. The tattoo segmentation and detection techniques described herein are based on processing local information associated with a set of regions within an input image, as well as global information associated with the arrangement and/or size of a set of candidate tattoo regions within the input image. The first stage of the segmentation and detection techniques described herein can be used to accurately discriminate between tattoo and non-tattoo regions within an input image. For example, the use of segmentation techniques enables the tattoo analysis system to automatically identify candidate tattoo regions that are highly likely to include a whole or part of a tattoo, and identify non-specific regions that are not likely to include a tattoo. The second phase of the segmentation and detection techniques can then be used to increase overall accuracy of tattoo detection within the input image. For example, global geometric relationships between each of the identified candidate tattoo regions from the segmentation stage can be analyzed in order to make an accurate tattoo detection determination. Implementations may include one or more of the following features. For example, a computer-implemented method may include a set of operations. The operations may include obtaining an image; determining a b...",
+  "patent_number": "None",
+  "abstract": "In some implementations, a computer-implemented method is capable of automatically segmenting and detecting a tattoo within an image. An image may be initially obtained. A block coverage pattern that identifies multiple blocks within the obtained image may be determined. A set of processing operations may then be performed for each block. The processing operations may include calculating a plurality of statistical features. A confidence score reflecting a likelihood that at least a portion of the block includes a predetermined graphical attribute associated with tattoos may be calculated. A subset of the multiple blocks of the image that have a respective confidence score greater than a predetermined threshold value may be identified. A portion of the image that includes one or more blocks from among the subset of the multiple blocks may then be determined to correspond to a tattoo.",
+  "publication_number": "US20180075603A1-20180315",
+  "_processing_info": {
+    "original_size": 118702,
+    "optimized_size": 3602,
+    "reduction_percent": 96.97
+  }
+}

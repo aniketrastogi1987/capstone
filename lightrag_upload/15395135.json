@@ -1,0 +1,48 @@
+{
+  "decision": "PENDING",
+  "application_number": "15395135",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "title": "TRANSFORMATION BASED FILTER FOR INTERPOLATION OR DECIMATION",
+  "filing_date": "20161230",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Balakrishnan",
+      "inventor_name_first": "Jaiganesh",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Nandi",
+      "inventor_name_first": "Suvam",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Rangachari",
+      "inventor_name_first": "Sundarrajan",
+      "inventor_city": "Trichy",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "H04B100",
+    "H04B104",
+    "H04B110",
+    "G06F501",
+    "H03H1702"
+  ],
+  "main_ipcr_label": "H04B100",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed embodiments provide a low power digital filter for interpolation or decimation that also reduces digital area. The digital filter accomplishes the reduced area by performing a transformation that reduces the number of components necessary to perform filtering in the digital domain. Using a set of desired filter coefficients, a transformation is performed on the filter coefficients to introduce structure into the sub-filters, e.g., either symmetry or anti-symmetry. For an interpolation filter, a second transformation is performed on the output of the sub-filters to reverse the first transformation and recover a desired output. For a decimation filter, the second transformation is performed on the inputs to the transformed sub-filters. The techniques presented are generic and may be applied to any signal chain transceiver that employs an interpolation or decimation filter. In one aspect, an embodiment of a digital filter is disclosed. The digital filter includes a filter block comprising a pair of sub-filters having respective transformed coefficients, the respective transformed coefficients of a first sub-filter of the pair of sub-filters being symmetric and the respective transformed coefficients of a second sub-filter of the pair of sub-filters being anti-symmetric; a first transformation circuit coupled to the filter block to perform a first transformation, the filter block and the first transformation circuit together providing suppression of undesired spectral images in final outputs of the digital filter; and an input stream coupled to provide input values to a component selected from the filter block and the first transformation circuit. In another aspect, an embodiment of an electronic device is disclosed. The electronic device includes a digital interpolation filter for interpolating by M, where M is an integer, the digital interpolation filter comprising: a filter block comprising a pair of sub-filters having respective transfor...",
+  "patent_number": "None",
+  "abstract": "A digital filter for interpolation or decimation and a device incorporating the digital filter is disclosed. The digital filter includes a filter block, a first transformation circuit coupled to the filter block and an input stream coupled to provide input values to a component selected from the filter block and the first transformation circuit. The filter block includes a pair of sub-filters having respective transformed coefficients, the respective transformed coefficients of a first sub-filter of the pair of sub-filters being symmetric and the respective transformed coefficients of a second sub-filter of the pair of sub-filters being anti-symmetric. The first transformation circuit is coupled to perform a first transformation; the filter block and the first transformation circuit together provide suppression of undesired spectral images in final outputs of the digital filter.",
+  "publication_number": "US20180191383A1-20180705",
+  "_processing_info": {
+    "original_size": 45226,
+    "optimized_size": 3785,
+    "reduction_percent": 91.63
+  }
+}

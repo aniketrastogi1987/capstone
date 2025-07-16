@@ -1,0 +1,30 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364825A1-20171221",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15188779",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tiell",
+      "inventor_name_first": "Steven C.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Techniques are described for adaptive and augmented decision making by an artificial intelligence (AI) engine, such as an engine that employs machine learning techniques. A decision-making process may be executed to make a decision regarding operations of the organization, and the AI engine may be employed to analyze the various aspects of a decision and determine a risk level associated with the decision. The risk level may be a combination of the probability of a negative outcome and a magnitude of loss that may occur due to a negative outcome. The automated process may also determine a confidence level that indicates a degree of confidence in the determined risk level. Risk and confidence may be independent values. Implementations may enable risk mitigation by providing a risk estimate with higher confidence than traditional methods.",
+  "filing_date": "20160621",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Implementations of the present disclosure are generally directed to adaptive decision making. More specifically, implementations are directed to employing an AI engine to determine a risk level and a confidence level for a decision, and employing group(s) of reviewers to provide feedback regarding the determined risk level and confidence level, the feedback used to refine the model employed by the AI engine. In general, innovative aspects of the subject matter described in this specification can be embodied in methods that include actions of: providing, based on a risk evaluation model, a risk level associated with a decision provided from an artificial intelligence (AI) engine, the risk evaluation model further providing a confidence level for the risk level; responsive to determining that the risk level is at least a risk threshold and the confidence level is less than a confidence threshold, communicating decision information for the decision to be reviewed by a first set of reviewers including multiple reviewers characterized by at least two different expertise key words; receiving recommendations from the first set of reviewers regarding the decision information; and responsive to determining that the recommendations indicate a consensus among the first set of reviewers, modifying the risk evaluation model based on first feedback information including the recommendations from the first set of reviewers, the risk level, and the confidence level. Implementations can optionally include one or more of the following features: the actions further include determining a variance among the recommendations from the first set of reviewers; the first feedback information further includes the variance; the first feedback information further includes at least one monitored outcome of the decision; the actions further include responsive to determining that the risk level is less than the risk threshold and the confidence level is within a predetermined rang...",
+  "date_published": "20171221",
+  "title": "ADAPTIVE AUGMENTED DECISION ENGINE",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 64838,
+    "optimized_size": 3379,
+    "reduction_percent": 94.79
+  }
+}

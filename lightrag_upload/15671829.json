@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15671829",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "filing_date": "20170808",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A convolution engine, such as a convolution neural network, operates efficiently with respect to sparse kernels by implementing zero skipping. An input tile is loaded and accumulated sums are calculated for the input tile for non-zero coefficients by shifting the tile according to a row and column index of the coefficient in the kernel. Each coefficient is applied individually to tile and the result written to an accumulation buffer before moving to the next non-zero coefficient. A 3D or 4D convolution may be implemented in this manner with separate regions of the accumulation buffer storing accumulated sums for different indexes along one dimension. Images are completely processed and results for each image are stored in the accumulation buffer before moving to the next image.",
+  "publication_number": "US20180046898A1-20180215",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In order that the advantages of the invention will be readily understood, a more particular description of the invention briefly described above will be rendered by reference to specific embodiments illustrated in the appended drawings. Understanding that these drawings depict only typical embodiments of the invention and are not therefore to be considered limiting of its scope, the invention will be described and explained with additional specificity and detail through use of the accompanying drawings, in which: FIG. 1 is a schematic block diagram of data structures used and generated according to the methods described herein; FIG. 2 is a schematic block diagram of components for computing convolution of a kernel with input data in accordance with an embodiment of the present invention; and FIGS. 3A and 3B are process flow diagrams of methods for computing convolution of a kernel with input data in accordance with an embodiment of the present invention; and FIG. 4 is a diagram of a computing device in which the systems and methods disclosed herein may be implemented. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lo",
+      "inventor_name_first": "Mankit",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Zero Coefficient Skipping Convolution Neural Network Engine",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 40729,
+    "optimized_size": 2540,
+    "reduction_percent": 93.76
+  }
+}

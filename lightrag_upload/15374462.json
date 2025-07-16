@@ -1,0 +1,45 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15374462",
+  "date_published": "20170831",
+  "date_produced": "20170816",
+  "title": "TECHNOLOGIES FOR EFFICIENT LZ77-BASED DATA DECOMPRESSION",
+  "filing_date": "20161209",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gopal",
+      "inventor_name_first": "Vinodh",
+      "inventor_city": "Westborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gulley",
+      "inventor_name_first": "Sean M.",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Guilford",
+      "inventor_name_first": "James D.",
+      "inventor_city": "Northborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H03M730",
+    "G06F306"
+  ],
+  "main_ipcr_label": "H03M730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The concepts described herein are illustrated by way of example and not by way of limitation in the accompanying figures. For simplicity and clarity of illustration, elements illustrated in the figures are not necessarily drawn to scale. Where considered appropriate, reference labels have been repeated among the figures to indicate corresponding or analogous elements. FIG. 1 is a simplified block diagram of at least one embodiment of a computing device for efficient data decompression; FIG. 2 is a simplified block diagram of at least one embodiment of an environment of the computing device of FIG. 1 ; FIGS. 3A and 3B are a simplified flow diagram of at least one embodiment of a method for efficient data decompression that may be executed by the computing device of FIGS. 1 and 2 ; FIG. 4 is a schematic diagram of compressed data symbols that may be decompressed by the method of FIGS. 3A and 3B ; FIG. 5 is a pseudocode listing of at least one embodiment of the method of FIGS. 3A and 3B ; and FIG. 6 is a pseudocode listing of another embodiment of part of the method of FIGS. 3A and 3B . detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "9917596",
+  "abstract": "Technologies for data decompression include a computing device that reads a symbol tag byte from an input stream. The computing device determines whether the symbol can be decoded using a fast-path routine, and if not, executes a slow-path routine to decompress the symbol. The slow-path routine may include data-dependent branch instructions that may be unpredictable using branch prediction hardware. For the fast-path routine, the computing device determines a next symbol increment value, a literal increment value, a data length, and an offset based on the tag byte, without executing an unpredictable branch instruction. The computing device sets a source pointer to either literal data or reference data as a function of the tag byte, without executing an unpredictable branch instruction. The computing device may set the source pointer using a conditional move instruction. The computing device copies the data and processes remaining symbols. Other embodiments are described and claimed.",
+  "publication_number": "US20170250706A1-20170831",
+  "_processing_info": {
+    "original_size": 73936,
+    "optimized_size": 3071,
+    "reduction_percent": 95.85
+  }
+}

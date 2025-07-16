@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15297456",
+  "date_published": "20170406",
+  "date_produced": "20170323",
+  "title": "PARTIAL RESTORE FROM TAPE BACKUP",
+  "filing_date": "20161019",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Pandey",
+      "inventor_name_first": "Sonal",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Venkatasubramanyam",
+      "inventor_name_first": "Venkatraman",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Jain",
+      "inventor_name_first": "Vaibhav",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1114"
+  ],
+  "main_ipcr_label": "G06F1114",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Various embodiments of the invention are disclosed in the following detailed description and the accompanying drawings. FIG. 1 is a block diagram illustrating an embodiment of a system to provide partial restores from backup. FIG. 2 is a flow chart illustrating an embodiment of a process to generate meta-information to be used to support partial restores from backup. FIG. 3 is a flow chart illustrating an embodiment of a process to extract and cache meta-information to be used to support partial restores from backup. FIG. 4 is a flow chart illustrating an embodiment of a process to provide partial restores from backup. FIG. 5 is a flow chart illustrating an embodiment of a process to provide partial restores from backup. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "Techniques to restore data from backup are disclosed. In various embodiments, an indication of a subcomponent to be restored from backup is received. View information associated with the backup is used to determine a set of physical components required to be retrieved from the backup to restore the requested subcomponent. The determined set of physical components is retrieved from the backup. The retrieved physical components are used to restore the subcomponent. In various embodiments, the view information includes data that identifies each of a plurality of separately-recoverable subcomponents of the backup and for each one or more physical components comprising the backup which would be required to restore that subcomponent.",
+  "publication_number": "US20170097872A1-20170406",
+  "_processing_info": {
+    "original_size": 29579,
+    "optimized_size": 2405,
+    "reduction_percent": 91.87
+  }
+}

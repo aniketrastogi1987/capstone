@@ -1,0 +1,73 @@
+{
+  "date_produced": "20161019",
+  "publication_number": "US20160321541A1-20161103",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15108758",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LIU",
+      "inventor_name_first": "Kang",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "LIU",
+      "inventor_name_first": "Huaijun",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "LU",
+      "inventor_name_first": "Yanxiong",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Juhong",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "LIU",
+      "inventor_name_first": "Tingting",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "XU",
+      "inventor_name_first": "Liheng",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZHAO",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "An information processing method and apparatus, the method including: training a Deep Neural Network (DNN) by using an evaluation object seed, an evaluation term seed and an evaluation relationship seed (101); at a first input layer, connecting vectors corresponding to a candidate evaluation object, a candidate evaluation term and a candidate evaluation relationship to obtain a first input vector (102); at a first hidden layer, compressing the first input vector to obtain a first middle vector, and at a first output layer, decoding the first middle vector to obtain a first output vector (103); and determining a first output vector whose decoding error value is less than a decoding error value threshold, and determining a candidate evaluation object, a candidate evaluation term and a candidate evaluation relationship corresponding to the determined first output vector as first opinion information (104). By use of the technical solution, precision of extracting opinion information from a...",
+  "filing_date": "20160628",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention provide an information processing method and apparatus, which can enhance precision of extracting opinion information from an evaluation text. The technical solution of the embodiments of the present invention is implemented as follows: The embodiments of the present invention provide an information processing method, the method including: training a Deep Neural Network (DNN) by using an evaluation object seed, an evaluation term seed and an evaluation relationship seed, the DNN including a first input layer, a first hidden layer and a first output layer, the number of nodes of the first input layer corresponding to that of the first output layer, and the number of nodes of the first input layer being greater than that of the first hidden layer; at the first input layer, connecting vectors corresponding to a candidate evaluation object, a candidate evaluation term and a candidate evaluation relationship to obtain a first input vector, at the first hidden layer, compressing the first input vector to obtain a first middle vector, and at the first output layer, decoding the first middle vector to obtain a first output vector; and determining a first output vector whose decoding error value is less than a decoding error value threshold, and determining a candidate evaluation object, a candidate evaluation term and a candidate evaluation relationship corresponding to the determined first output vector as first opinion information. Preferably, the training a DNN by using an evaluation object seed, an evaluation term seed and an evaluation relationship seed includes: at the first input layer, connecting vectors corresponding to the evaluation object seed, the evaluation term seed and the evaluation relationship seed to obtain a second input vector; at the first hidden layer, compressing the second input vector to obtain a second middle vector; and updating a parameter set of the DNN until a Euclidean distance between ...",
+  "date_published": "20161103",
+  "title": "INFORMATION PROCESSING METHOD AND APPARATUS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 114704,
+    "optimized_size": 4386,
+    "reduction_percent": 96.18
+  }
+}

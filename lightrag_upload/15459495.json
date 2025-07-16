@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15459495",
+  "date_published": "20170921",
+  "date_produced": "20170906",
+  "filing_date": "20170315",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A computer-implemented method and an apparatus to facilitate building of prediction models from customer Web logs includes receiving a Web log including unstructured data and structured data corresponding to a customer's journey on a Website. The structured data in the Web log is used to generate structured variables and the unstructured data in the Web log is used to generate unstructured variables. The generated structured and unstructured variables are concatenated to form a session string, which serves as a textual representation of the customer's journey on the Website. The session string is subjected to text-based processing to generate a plurality of features. The plurality of features are used to build one or more prediction models for facilitating prediction of at least one response variable corresponding to the customers visiting the Website.",
+  "publication_number": "US20170270416A1-20170921",
+  "summary": "<SOH> SUMMARY <EOH>In an embodiment of the invention, a computer-implemented method for building prediction models from customer Web logs is disclosed. The method receives, by a processor, a Web log including unstructured data and structured data corresponding to a customer's journey on a Website. The method generates by the processor, using the Web log: (1) a plurality of unstructured variables from the unstructured data, and (2) a plurality of structured variables from the structured data. The method generates, by the processor, a session string by concatenating the plurality of unstructured variables and the plurality of structured variables. The session string configures a textual representation of the customer's journey on the Website. The method performs, by the processor, a text-based processing of the session string to generate a plurality of features. The method builds, by the processor, at least one prediction model using the plurality of features. The at least one prediction model is configured to facilitate prediction of at least one response variable. In another embodiment of the invention, an apparatus for building prediction models from customer Web logs is disclosed. The apparatus includes at least one processor and a memory. The memory has stored therein machine executable instructions, that when executed by the at least one processor, cause the apparatus to receive a Web log comprising unstructured data and structured data corresponding to a customer's journey on a Website. The apparatus generates using the Web log: (1) a plurality of unstructured variables from the unstructured data, and (2) a plurality of structured variables from the structured data. The apparatus generates a session string by concatenating the plurality of unstructured variables and the plurality of structured variables. The session string configures a textual representation of the customer's journey on the Website. The apparatus performs a text-based processing of the session ...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SRI",
+      "inventor_name_first": "R. Mathangi",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "SINGH",
+      "inventor_name_first": "Bhupinder",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR BUILDING PREDICTION MODELS FROM CUSTOMER WEB LOGS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 88314,
+    "optimized_size": 3586,
+    "reduction_percent": 95.94
+  }
+}

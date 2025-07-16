@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140261A1-20170518",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15386314",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Qamar",
+      "inventor_name_first": "Ahmad",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Media content is recommended based on suitability for a designated activity. A vector engine is trained using a plurality of lists, each of the lists containing metadata associated with a plurality of media objects. The vector engine includes a neural network trained with corpus data including (i) the plurality of lists (ii) a plurality of titles, each one of the titles associated with one of the lists, and (iii) the metadata associated with the plurality of media objects. Training the vector engine involves initializing, using the vector engine, a plurality of feature vectors representing each of the lists, each of the media objects, and each of a plurality of words in the titles of the lists. The training then further involves nudging, using the vector engine, the feature vectors based on a plurality of co-occurrences of the lists, the media objects, the words in the titles of the lists, or a combination thereof. A feature vector corresponding to an activity is identified among the f...",
+  "filing_date": "20161221",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The example embodiments described herein address the foregoing difficulties by providing a technical solution for recommending media suitable for a designated activity using data extracted from media object lists. In one example embodiment, a vector engine is trained using a plurality of lists, each of the lists containing metadata associated with a plurality of media objects. The vector engine includes a neural network trained with corpus data including (i) the plurality of lists (ii) a plurality of titles, each one of the titles associated with one of the lists, and (iii) the metadata associated with the plurality of media objects contained in each list. Training the vector engine involves initializing, using the vector engine, a plurality of feature vectors representing each of the lists, each of the media objects, and each of a plurality of words in the titles of the lists. The training then further involves nudging, using the vector engine, the plurality of feature vectors based on a plurality of co-occurrences of the lists, the media objects, the words in the titles of the lists, or a combination thereof. Once trained, the vector engine can be used to select one or more of the lists, media objects, or a combination thereof based on cosine similarities between two or more of the feature vectors. The neural network may be comprised of, for example, at least one of a Continuous Bag-of-Words (CBOW) model, a skip-gram model, a hierarchical soft-max model and a negative sampling model. In an example aspect of the embodiment, a feature vector corresponding to an activity is identified among the plurality of feature vectors. At least one of the plurality of media objects, (ii) at least one of the plurality of lists or (iii) a combination thereof suitable for the activity is selected based on cosine similarities between the feature vector corresponding to the activity and others of the feature vectors. In another example aspect, the vector engine is ...",
+  "date_published": "20170518",
+  "title": "SYSTEMS, METHODS AND COMPUTER PRODUCTS FOR DETERMINING AN  ACTIVITY",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 68047,
+    "optimized_size": 3567,
+    "reduction_percent": 94.76
+  }
+}

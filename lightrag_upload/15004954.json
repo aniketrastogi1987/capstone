@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170713",
+  "publication_number": "US20170213142A1-20170727",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15004954",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KALUZA",
+      "inventor_name_first": "Bostjan",
+      "inventor_city": "Ljubljana",
+      "inventor_state": "",
+      "inventor_country": "SI"
+    },
+    {
+      "inventor_name_last": "OZ",
+      "inventor_name_first": "Eyal",
+      "inventor_city": "Petach-Tikva",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "GILENSON",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "Givatayim",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "A method of incident root cause analysis in an information technology (IT) system, wherein upon occurrence of an incident collecting changes to configuration items and/or system parameters on computer stations during a predetermined time prior to the incident, calculating a change lifetime for each of the collected changes, comparing the change lifetime to the time of occurrence of the incident to determine if the lifetime of the change is still valid, marking a probability value of zero for occurrence of the incident as a result of the change for changes with an expired lifetime value at the time of the incident, otherwise estimating a risk profile and calculating from it a probability value for occurrence of the incident as a result of the change, sorting the changes according to the probability value, and selecting a predetermined number of changes having the highest probability values for root cause analysis.",
+  "filing_date": "20160124",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An aspect of an embodiment of the disclosure relates to a system and method for locating a root cause for incidents in an information technology system. The system collects configuration items and other system parameters, then identifies changes over time in these items. When an incident occurs the system collects changes from a predetermined time prior to the incident for analysis. For each change the system determines a lifetime value representing the time that the change could have an effect on the system and be the cause of the incident. Some changes can affect the system indefinitely and some changes may be limited to affect the system only for a specific time, for example a day or two, whereas after that the incident is clearly not the result of that change. For each change the system aims to set a probability value indicating a how likely that change is to have influenced the incident. Changes with a lifetime that expired are given a probability of zero. The other changes are examined based on their characteristics to form a risk profile that can be used to calculate a probability value. After determining the probability values the changes are sorted based on the probability value so that the changes with the highest probability may be selected and examined to determine their relevance to the incident. In an exemplary embodiment of the disclosure, an incident may include high CPU usage, high memory usage, system errors, a program crash, deteriorating response time of an application or transaction in the system and/or other system problems. In an exemplary embodiment of the disclosure, the risk profile may be based on empiric data, domain specific knowledge, the type of change, the expected time for an incident to occur in response to the change, the number of changes per incident being handled, the number of IT actions that led to the changes or other information. There is thus provided according to an exemplary embodiment of the disclosure...",
+  "date_published": "20170727",
+  "title": "SYSTEM AND METHOD FOR INCIDENT ROOT CAUSE ANALYSIS",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1107",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 50109,
+    "optimized_size": 3780,
+    "reduction_percent": 92.46
+  }
+}

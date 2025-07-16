@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15467879",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "filing_date": "20170323",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method for determining the likelihood of a modification of a social media account based upon the algorithmic review of preselected features including, but not limited to, a combination of profile, behavior, language, affect, and network features form the basis for highly accurate (0.82 accuracy) prediction of the deletion of an account.",
+  "publication_number": "US20170286867A1-20171005",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure includes a method for determining the likelihood of a modification of a social media account based upon the algorithmic review of preselected features including, but not limited to, a combination of profile, behavior, language, affect, and network features form the basis for highly accurate (0.82 accuracy) prediction of the deletion of an account. The present disclosure also includes an embodiment wherein records are harvested from a social media user, each record having a social-media posting associated with one or more entities. At least one preselected feature from each record is then extracted and stored on a data storage device which includes a computer-readable representation of an attribute of one or more records. These records are then grouped into record groups according to users using clustering, classifying, and/or filtering algorithms executed by one or more processors. Records are also grouped into record groups according to features of each record using clustering, classifying, and/or filtering algorithms executed by one or more processors. A representation for each record group is then calculated and each representation is then input into a model. The model is then executed to calculate a probability class. In some embodiments the calculated probability is labeled with a label correlated to a set of preselected labels. In some embodiments the model is optimized based upon the representation. In other embodiments the model is selected from the group consisting of logistic regression or log-linear model, random forest, and recurrent neural network. Depending upon the needs of the user, the computer-implemented method is a long-short term memory networks model. Records may be harvested from more than one source, and features may include profile, syntactic, stylistic, lexical, network and affect features. In addition, sources may include social objects, one or more foreign languages, or other items. In some applic...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502",
+    "G06Q5000"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bell",
+      "inventor_name_first": "Eric B.",
+      "inventor_city": "Richland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Volkova",
+      "inventor_name_first": "Svitlana",
+      "inventor_city": "Richland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHODS TO DETERMINE LIKELIHOOD OF SOCIAL MEDIA ACCOUNT DELETION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 45398,
+    "optimized_size": 3065,
+    "reduction_percent": 93.25
+  }
+}

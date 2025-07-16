@@ -1,0 +1,54 @@
+{
+  "date_produced": "20171213",
+  "publication_number": "US20170372197A1-20171228",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15193136",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Baughman",
+      "inventor_name_first": "Aaron K.",
+      "inventor_city": "Silver Spring",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hamilton, II",
+      "inventor_name_first": "Rick A.",
+      "inventor_city": "Charlottesville",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Santhar",
+      "inventor_name_first": "Sathya",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Tanuku",
+      "inventor_name_first": "Ashish K.",
+      "inventor_city": "Lucas",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "One or more processors receive hyperspectral band input, biometric input, and cognitive input as response input, from a user sampling a plurality of base foods, each base food prepared with a subset of ingredients and preparation techniques. The response input is transformed to a numeric representation of the respective input. Deep learning techniques are used to train an algorithm using the response data. A probabilistic ranking of base food is generated using unsupervised learning. Probability values of base food, ingredients, and preparation technique, associations preferred by the user, are generated, along with rules which define constraints associated with conditions for base food, ingredient, and preparation techniques, of user preferences. An objective function is generated that includes decision variables respectively aligned with constraints, and in response to optimizing the objective function, a preferred base food and ingredients, with preferred conditions of the user, is ...",
+  "filing_date": "20160627",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention disclose a method, computer program product, and system. The method provides for one or more processors to receive somatic and cognitive response data of a user sampling a plurality of base foods, in which each instance of a sample of a base food is prepared with a set of ingredients and preparation techniques from a plurality of ingredients and preparation techniques, and such that the somatic and the cognitive response data includes labeled and unlabeled data. One or more processors determine hierarchical features of the somatic and the cognitive input by unsupervised deep learning techniques of machine learning performed on the unlabeled data of the somatic and the cognitive data that is received. One or more processors generate a probabilistic ranking of the user's preference of the plurality of base foods, based on results of the unsupervised deep learning techniques of machine learning. One or more processors perform an association of one or more sets of ingredients and preparation techniques from the plurality of ingredients and preparation techniques, with one or more base foods of the plurality of base foods, respectively, based on supervised deep learning techniques of machine learning, using the somatic and the cognitive input of responses that are labeled. One or more processors generate a probability of the user preferring a base food of the plurality of base foods associated with a set of ingredients and preparation techniques of the plurality of ingredients and preparation techniques. One or more processors generate an objective function that includes a decision variable corresponding to each element of the set of ingredients and preparation techniques, and in response to optimizing the objective function, one or more processors determine an amount of the element of the set of ingredients and preparation techniques to include in preparation of the base food preferred by the user.",
+  "date_published": "20171228",
+  "title": "CUSTOMIZED COOKING UTILIZING DEEP LEARNING NEUROMORPHIC COMPUTING OF HYPERSPECTRAL INPUT",
+  "ipcr_labels": [
+    "G06N3063",
+    "A23L3300",
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 97801,
+    "optimized_size": 4054,
+    "reduction_percent": 95.85
+  }
+}

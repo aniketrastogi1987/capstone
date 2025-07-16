@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15674936",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "filing_date": "20170811",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Each processor of the SIMD array performs the computations for a respective neuron of a neural network. As part of this computation, each processor of the SIMD array multiplies an input to a weight and accumulates the result for its assigned neuron each (MAC) instruction cycle. A table in a first memory is used to store which input is fed to each processor of the SIMD array. A crossbar is used to route a specific input to each processor each MAC cycle. A second memory is used to provide the appropriate weight to each processor that corresponds the input being routed to that processor.",
+  "publication_number": "US20180189649A1-20180705",
+  "summary": "<SOH> SUMMARY <EOH>Examples discussed herein relate to an integrated circuit including an N-way single-instruction multiple data (SIMD) array of processors. Each processor of the array includes a multiply-accumulate unit having a respective accumulator. A crossbar is included to provide a respective selected neural network input value to each of the N processors. The N number of selected neural network input values are selected from M number of input values. In another example, a method of computing, in parallel, a plurality of neuron outputs of a neural network, includes receiving a plurality of neural network input values. The method also includes providing, from a first memory and based on a first index, a first plurality of neural network weights to a corresponding plurality of multiply-accumulate units. The method also includes receiving, from a second memory and based on a second index, a plurality of crossbar control values that associate each of the plurality of neural network input values to the respective ones of the plurality of multiply-accumulate units. The method also includes, based on the plurality of crossbar control values, providing the plurality of neural network input values to the to the respective ones of the plurality of multiply-accumulate units. The method also includes performing, in parallel and by the plurality of multiply-accumulate units, respective multiply-accumulate operations using the respective first plurality of neural network weights and the respective plurality of neural network input values. In another example, an integrated circuit includes a plurality of multiply-accumulate units, a first memory, a second memory, and a crossbar. The plurality of multiply-accumulate units receive respective first operands and respective second operands. The first memory to provides, based on a first index, a corresponding plurality of respective second operands to the plurality of multiply-accumulate units. The crossbar to provides a corresp...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "NARAYAN",
+      "inventor_name_first": "Shankar S.",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HARADEN",
+      "inventor_name_first": "Ryan S.",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "NEURAL NETWORK PROCESSOR",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 51466,
+    "optimized_size": 3265,
+    "reduction_percent": 93.66
+  }
+}

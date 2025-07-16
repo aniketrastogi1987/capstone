@@ -1,0 +1,30 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15074899",
+  "date_published": "20160714",
+  "date_produced": "20160628",
+  "title": "METHODS AND SYSTEMS TO IDENTIFY AND MIGRATE THREADS AMONG SYSTEM NODES BASED ON SYSTEM PERFORMANCE METRICS",
+  "filing_date": "20160318",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yao",
+      "inventor_name_first": "Jin",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F950"
+  ],
+  "main_ipcr_label": "G06F950",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is block diagram of an example multi-node computer system having example nodes that are associated with one or more example processors and memories. FIG. 2 illustrates an example scheduler of the computer system of FIG. 1 having an example migration candidate identifier, communicatively coupled to an example scheduler module via an example interface. FIG. 3 is a block diagram of the example migration candidate identifier of FIG. 2 . FIG. 4 is an illustration of an example memory intensive thread list. FIG. 5 is an illustration of an example migration candidate list. FIG. 6 is a flowchart representative of example machine readable instructions that may be executed to implement the example scheduler of FIG. 1 to identify a migration candidate thread. FIG. 7 is a flowchart representative of example machine readable instructions that may be executed to implement the example scheduler of FIG. 1 to select a remote node to which a thread is to be migrated. FIG. 8 is a flowchart representative of example machine readable instructions that may be executed to implement the example scheduler of FIG. 1 to select a remote node to which a thread is to be migrated. FIG. 9 is a flowchart representative of example machine readable instructions that may be executed to implement the example scheduler of FIG. 1 to select a remote node to which a thread is to be migrated. FIG. 10 is a flowchart representative of example machine readable instructions that may be executed to implement the example scheduler of FIG. 1 to migrate a thread from a home node to a remote node. FIG. 11 is a block diagram of an example processing system that may execute the example machine readable instructions of FIGS. 6, 7, 8, 9 , and/or 10 to implement the example scheduler of FIG. 1 . detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "9952905",
+  "abstract": "Methods and systems to identify computer system nodes to which a computer program thread is to be migrated. An example method disclosed herein includes storing data records containing node identifying information collected from a plurality of sampled memory operations executed by a plurality of computer program threads including a first computer program thread. Example methods further include identifying a currently executing computer program thread and, if the currently executing computer program thread is the first computer program thread, target remote nodes having a memory address accessed during execution of at least one of the plurality of sampled memory operations are identified. At least one of the target remote nodes is selected as a migration destination candidate for the first computer program thread.",
+  "publication_number": "US20160203025A1-20160714",
+  "_processing_info": {
+    "original_size": 95672,
+    "optimized_size": 3304,
+    "reduction_percent": 96.55
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15521441",
+  "date_published": "20171123",
+  "date_produced": "20171108",
+  "filing_date": "20170424",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "This disclosure relates to learning with transformed data such as determining multiple training samples from multiple data samples. Each of the multiple data samples comprises one or more feature values and a label that classifies that data sample. A processor determines each of the multiple training samples by randomly selecting a subset of the multiple data samples, and combining the feature values of the data samples of the subset based on the label of each of the data samples of the subset. Since the training samples are combinations of randomly chosen data samples, the training samples can be provided to third parties without disclosing the actual training data. This is an advantage over existing methods in cases where the data is confidential and should therefore not be shared with a learner of a classifier, for example.",
+  "publication_number": "US20170337487A1-20171123",
+  "summary": "<SOH> BRIEF DESCRIPTION OF DRAWINGS <EOH>FIG. 1 illustrates a prior art corporate-centric computer network with a social media provider. An example will be described with reference to FIG. 2 illustrates a user-centric computer network with three service providers. FIGS. 3 a and 3 b illustrate screenshots of a mobile app to calculate a dosage of a drug. FIG. 4 illustrates a computer system for learning with transformed data. FIG. 5 illustrates a method for determining multiple training samples from multiple data samples. FIG. 6 illustrates a computer network for learning with transformed data. FIG. 7 illustrates a method for determining a classifier coefficient associated with a feature index, FIGS. 8 a and 8 b illustrate different repetitions of the method of FIG. 7 where a different feature index is selected in each repetition. FIG. 9 illustrates the method of FIG. 7 in more detail. FIGS. 10, 11 and 12 illustrate example settings for learning with transformed data. FIG. 13 illustrates an algorithm for feature-wise differential privacy compliant releasing of training samples. FIG. 14 illustrates equivalent example rado losses. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N308",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nock",
+      "inventor_name_first": "Richard",
+      "inventor_city": "Eveleigh",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "Patrini",
+      "inventor_name_first": "Giorgio",
+      "inventor_city": "Eveleigh",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "Caetano",
+      "inventor_name_first": "Tiberio",
+      "inventor_city": "Eveleigh",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "title": "LEARNING WITH TRANSFORMED DATA",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 111987,
+    "optimized_size": 2883,
+    "reduction_percent": 97.43
+  }
+}

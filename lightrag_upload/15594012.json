@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15594012",
+  "date_published": "20170831",
+  "date_produced": "20170816",
+  "filing_date": "20170512",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "An information handling system includes a processing system including a first sensor, and a second sensor, and a management system including an anomaly table, a learned model table entry associated with the processing system and including a learned model and a first sensor data history, and a prediction module to implement a prediction algorithm. The management system is configured to: receive first sensor data and second sensor data, determine an estimate of a first value of the first sensor data using a second value of the second sensor data, determine a residual of the first value by a comparison of the estimate to the first value, determine a significance of the residual, where the significance having a significant value is associated with a predicted anomaly, determine that an anomaly table entry has a known anomaly class for the predicted anomaly, and perform a remediation plan to resolve the predicted anomaly.",
+  "publication_number": "US20170249565A1-20170831",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>It will be appreciated that for simplicity and clarity of illustration, elements illustrated in the Figures have not necessarily been drawn to scale. For example, the dimensions of some of the elements are exaggerated relative to other elements. Embodiments incorporating teachings of the present disclosure are shown and described with respect to the drawings presented herein, in which: FIG. 1 is a block diagram illustrating an information handling system for system profile learning according to an embodiment of the present disclosure; FIG. 2 illustrates the information handling system of FIG. 1 showing an execution flow of initialization of a management system for a processing system; FIG. 3 illustrates the information handling system of FIG. 1 showing an execution flow of system profile learning and anomaly prediction of the processing system by the management system; FIG. 4 illustrates a method for system profile learning in an information handling system according to an embodiment of the present disclosure; and FIG. 5 is a block diagram illustrating a generalized information handling system according to an embodiment of the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"? The use of the same reference symbols in different drawings indicates similar or identical items.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1107",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Vichare",
+      "inventor_name_first": "Nikhil M.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ning",
+      "inventor_name_first": "Yan",
+      "inventor_city": "College Park",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Apparatus and Method for System Profile Learning in an Information Handling System",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 55750,
+    "optimized_size": 3048,
+    "reduction_percent": 94.53
+  }
+}

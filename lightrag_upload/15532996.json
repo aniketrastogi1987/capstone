@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15532996",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "filing_date": "20170602",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Boltzmann machines are trained using an objective function that is evaluated by sampling quantum states that approximate a Gibbs state. Classical processing is used to produce the objective function, and the approximate Gibbs state is based on weights and biases that are refined using the sample results. In some examples, amplitude estimation is used. A combined classical/quantum computer produces suitable weights and biases for classification of shapes and other applications.",
+  "publication_number": "US20170364796A1-20171221",
+  "summary": "<SOH> SUMMARY <EOH>The disclosure provides methods and apparatus for training deep belief networks in machine learning. The disclosed methods and apparatus permit efficient training of generic Boltzmann machines that are currently untrainable with conventional approaches. In addition, the disclosed approaches can provide more rapid training in fewer steps. Gradients of objective functions for deep Boltzmann machines are determined using a quantum computer in combination with a classical computer. A quantum state encodes an approximation to a Gibbs distribution, and sampling of this approximate distribution is used to determine Boltzmann machine weights and biases. In some cases, amplitude estimation and fast quantum algorithms are used. Typically, a classical computer receives a specification of a Boltzmann machine and associated training data, and determines an objective function associated with the Boltzmann machine. A quantum computer determines at least one gradient of the objective function, and based on the gradient of the objective function, at least one hidden value or a weight of the Boltzmann machine is established. A mean-field approximation can be used to define an objective function, and gradients can be determined based on the sampling. These and other features of the disclosure are set forth below with reference to the accompanying drawings.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wiebe",
+      "inventor_name_first": "Nathan",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Svore",
+      "inventor_name_first": "Krysta",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kapoor",
+      "inventor_name_first": "Ashish",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "QUANTUM DEEP LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 73702,
+    "optimized_size": 2676,
+    "reduction_percent": 96.37
+  }
+}

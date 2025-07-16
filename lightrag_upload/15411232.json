@@ -1,0 +1,68 @@
+{
+  "patent_number": "nan",
+  "application_number": "15411232",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "filing_date": "20170120",
+  "main_ipcr_label": "G06N308",
+  "abstract": "The machine learning apparatus includes: a state data observing unit which observes state data of the laser apparatus, including data output from a reflected light detecting unit for measuring a reflected light amount; an operation result acquiring unit which acquires a success/failure result indicating whether the machining has been started successfully by the laser beam output from a laser oscillator; a learning unit which learns light output command data by associating the light output command data with the state data of the laser apparatus and the success/failure result of the machining start; and a decision making unit which determines the light output command data by referring to the light output command data learned by the learning unit.",
+  "publication_number": "US20170220927A1-20170803",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>However, in the above prior art laser apparatus, if the amount of reflected light is monitored, the monitored light amount is not used for controlling the light output, or the light output is only reduced when the amount of reflected light increases, or the light output is only controlled based on the data obtained by converting the amount of reflected light using a simple mathematical equation. There is no mention of how the laser beam output condition should be set based on the detected amount of reflected light so that machining can be started with a high probability of success by forming tiny pits or holes while maintaining the amount of reflected light to or below an allowable level, nor is there disclosed any technique that can derive an appropriate light output condition, partly because such conditions can be affected by the material, temperature, and surface state of the workpiece. As a result, if the amount of reflected light is monitored, it may not be possible to quickly determine the laser beam output condition for starting machining, or an alarm indicating an excessive amount of reflected light may be issued repeatedly because of poor reproducibility. This can result in an inability to start the machining in a short time or can lead to an inability to start machining. Furthermore, to increase the success rate of being able to start machining, a human has had to accumulate an enormous amount of data by repeating a trial and error procedure and thereby searching for an optimal laser beam output condition for being able to start machining. In Japanese Unexamined Patent Publication No. 2007-30032, no description is given of how the result of monitoring the surface state is to be fed back to the laser beam output condition, nor is there disclosed any method of starting machining by reducing the amount of reflected light to a prescribed level. In Japanese Unexamined Patent Publication No. 2007-42981, there can occur cases w...",
+  "ipcr_labels": [
+    "G06N308",
+    "H04L2908",
+    "B23K2603",
+    "H01S500"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Takigawa",
+      "inventor_name_first": "Hiroshi",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Yoshida",
+      "inventor_name_first": "Hiroyuki",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Machida",
+      "inventor_name_first": "Hisatada",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Maeda",
+      "inventor_name_first": "Michinori",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Miyata",
+      "inventor_name_first": "Ryusuke",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Ohyama",
+      "inventor_name_first": "Akinori",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "MACHINE LEARNING APPARATUS FOR LEARNING CONDITION FOR STARTING LASER MACHINING, LASER APPARATUS, AND MACHINE LEARNING METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 109425,
+    "optimized_size": 4137,
+    "reduction_percent": 96.22
+  }
+}

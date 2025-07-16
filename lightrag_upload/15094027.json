@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160928",
+  "publication_number": "US20160300144A1-20161013",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15094027",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SANTHANAM",
+      "inventor_name_first": "Janardhan",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Motani",
+      "inventor_name_first": "Gaurav",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Joshua",
+      "inventor_name_first": "Allan",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "Disclosed is method and system for generating recommendations to a user. System receives real time data associated with users for scenarios and batch data associated with multiple users from different data sources, received from different data channels. The user is online user. System pre-processes batch data and real time data to generate pre-processed data and stores preprocessed data in distributed, scalable big data store. System filters pre-processed data based on rules to obtain filtered data. System applies combination of machine learning techniques on filtered data, based on the scenarios associated with the user, leveraging inter-play between machine learning techniques, to generate personalized recommendations for individual user and storing the personalized recommendations in distributed database. Machine learning techniques are customized to work in distributed processing mode to reduce overall processing time. System recommends user with the personalized recommendations co...",
+  "filing_date": "20160408",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure present technological improvements as solutions to one or more of the above-mentioned technical problems recognized by the inventors in conventional systems. In view of the foregoing, embodiments herein provide a system and method for generating recommendations. In one embodiment, a method for generating recommendations is disclosed. The method comprises receiving, by a processor, real time data and batch data. The real time data is associated with a user for one or more scenarios. The batch data is associated with one or more users. The batch data is received from one or more data sources, received from a plurality of data channels. The method further comprises pre-processing, by the processor, the batch data and the real time data, to generate pre-processed data. The method further comprises storing (sending), by the processor, the pre-processed data in a distributed database. The method further comprises filtering, by the processor, the pre-processed data based on one or more rules to obtain filtered data. The method further comprises applying, by the processor, a combination of a plurality of machine learning techniques on the filtered data, based on the one or more scenarios associated with the user, to leverage interplay between the plurality of machine learning techniques, in order to generate a set of personalized recommendations associated with the user individually. The plurality of machine learning techniques are customized to work in a distributed processing mode. The method further comprises recommending, by the processor, the user with the set of personalized recommendations. In another embodiment, a system for generating recommendations is disclosed. The system comprises a processor and a memory coupled to the processor. The processor is capable of executing a plurality of modules stored in the memory. The plurality of modules comprises a receiving module, a pre-processing module, a filtering mo...",
+  "date_published": "20161013",
+  "title": "SYSTEM AND METHOD FOR GENERATING RECOMMENDATIONS",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 94516,
+    "optimized_size": 3839,
+    "reduction_percent": 95.94
+  }
+}

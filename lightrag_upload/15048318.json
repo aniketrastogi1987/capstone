@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170809",
+  "publication_number": "US20170243114A1-20170824",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15048318",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kurata",
+      "inventor_name_first": "Gakuto",
+      "inventor_city": "TOKYO",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A computer implemented method for adapting a model for recognition processing to a target-domain is disclosed. The method includes preparing a first distribution in relation to a part of the model, in which the first distribution is derived from data of a training-domain for the model. The method also includes obtaining a second distribution in relation to the part of the model by using data of the target-domain. The method further includes tuning one or more parameters of the part of the model so that difference between the first and the second distributions becomes small.",
+  "filing_date": "20160219",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the present invention, there is provided a computer implemented method performed by a computer device for adapting a model for recognition processing to a target-domain. The method includes preparing a first distribution in relation to a part of the model, in which the first distribution is derived from data of a training-domain for the model. The method also includes obtaining a second distribution in relation to the part of the model by using data of the target-domain. The method further includes tuning one or more parameters of the part of the model so that difference between the first and the second distributions becomes small. The model adapted by the method according to the embodiment of the present invention can have improved accuracy for the target-domain data without involving any additional computation during recognition processing and without requiring any supervised information. According to a preferable embodiment of the present invention, the model includes a neural network with an input layer and a plurality of layers on top of the input layer. The part is one or more lower layers among the plurality of the layers and the input layer. The first and second distributions are output distributions from the part of the neural network by feeding the data into the input layer from the training-domain and the target-domain, respectively. Since the part of the neural network is adjusted so that the part can transform the data of the target-domain into a space of the training-domain while keeping a remaining part of the neural network with discrimination capability, difference between the target-domain and the training-domain can be preferably absorbed at the one or more lower layers of the neural network, which enables the data of the target-domain to leverage discrimination capability provided by the neural network. Therefore, accuracy can be improved for the target-domain data without modifying network topolog...",
+  "date_published": "20170824",
+  "title": "ADAPTATION OF MODEL FOR RECOGNITION PROCESSING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 99847,
+    "optimized_size": 3120,
+    "reduction_percent": 96.88
+  }
+}

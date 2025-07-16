@@ -1,0 +1,58 @@
+{
+  "decision": "PENDING",
+  "application_number": "15202702",
+  "date_published": "20161027",
+  "date_produced": "20161012",
+  "title": "METHOD AND APPARATUS FOR PROCESSING DATABASE DATA IN DISTRIBUTED DATABASE SYSTEM",
+  "filing_date": "20160706",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Guan Cheng",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Shi",
+      "inventor_name_first": "Ju Wei",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Kun",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Ben Bo",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Zou",
+      "inventor_name_first": "Jia",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In view of the prior art, one of the objectives of the present invention is to provide an improved method and apparatus for processing database data in distributed database systems. In one aspect, it is disclosed method for processing database data in a distributed database system, wherein the distributed database system comprises a plurality of computing nodes communicatively coupled via computer networks, the method comprising: creating a plurality of different data replicas wherein each of the data replicas is created in the following way: sorting the database data according to at least one data attribute; generating a row key based on the at least one data attribute; and using the sorted database data with the row key as the data replica, storing different data replicas in different computing nodes; and creating an index for each of the data replicas according to its row key. In another aspect, it is disclosed an apparatus for processing database data in a distributed database system, wherein the distributed database system comprises a plurality of computing nodes communicatively coupled via computer networks, the apparatus comprising: a data replica creation module configured to create a plurality of different data replicas wherein each of the data replicas is created in the following way: sorting the database data according to at least one data attribute; generating a row key based on the at least one data attribute; and using the sorted database data with the row key as the data replica, a replica storage module configured to store different data replicas in different computing nodes; and an index creation module configured to create an index for each of the data replicas according to its row key.",
+  "patent_number": "None",
+  "abstract": "A computer program product configured to implement a method for processing database data in a distributed database system, wherein the distributed database system comprises a plurality of computing nodes communicatively coupled via computer networks, the method comprising: creating a plurality of different data replicas wherein each of the data replicas is created in the following way: sorting the database data according to at least one data attribute; generating a row key based on the at least one data attribute; and using the sorted database data with the row key as the data replica, storing different data replicas in different computing nodes; and creating an index for each of the data replicas according to its row key.",
+  "publication_number": "US20160314178A1-20161027",
+  "_processing_info": {
+    "original_size": 52713,
+    "optimized_size": 3623,
+    "reduction_percent": 93.13
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180523",
+  "publication_number": "US20180157984A1-20180607",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15367139",
+  "inventor_list": [
+    {
+      "inventor_name_last": "O'Herlihy",
+      "inventor_name_first": "Michael",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Merchant",
+      "inventor_name_first": "Rafiq Raziuddin",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "De",
+      "inventor_name_first": "Nirveek",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Buettner",
+      "inventor_name_first": "Jordan Allen",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system coordinates services between users and providers. The system trains a computer model to predict a user state of a user using data about past services. The prediction is based on data associated with a request submitted by a user. Request data can include current data about the user's behavior and information about the service that is independent of the particular user behavior or characteristics. The user behavior may be compared against the user's prior behavior to determine differences in the user behavior for this request and normal behavior of prior requests. The system can alter the parameters of a service based on the prediction about the state of the user requesting the service.",
+  "filing_date": "20161201",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A travel coordination system (also referred to herein as “a system” for simplicity) identifies uncharacteristic user activity and may take an action to reduce undesired consequences of uncharacteristic user states. The system uses a computer model to identify user and trip characteristics indicative of the unusual user state. A system receives information about transport services (e.g., trips) requested by users and/or provided by providers. The information includes information about trip requests submitted by users, data obtained by monitoring trips as they occur, and feedback regarding trips received from users and providers. Such monitoring and trip feedback may indicate whether a user's state was unusual during the trip or when picked up by the provider. The system uses the data about past trips to train a computer model to predict a user state of a user submitting a trip request. That is, the model is trained to predict whether the user is acting uncharacteristically by analyzing the submitted request as well as data collected about the user before and/or during the time the user submits the request (and in some instances, after submitting the request). When a user enters information to generate a ride request into a user's device, the user's device collects information about the user's activity on the user's device during data entry and includes the user activity data in the ride request to the system. The system compares the user activity data to determine the user's state. For example, the user activity can include text input characteristics, interface interaction characteristics, and device handling characteristics. For example, text input characteristics may include the number of typographical errors entered by a user or the number of characters erased by a user while entering a search query. Examples of interface interaction characteristics include the amount of time for a user to interact with the user interface after new information (...",
+  "date_published": "20180607",
+  "title": "PREDICTING USER STATE USING MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 57104,
+    "optimized_size": 3735,
+    "reduction_percent": 93.46
+  }
+}

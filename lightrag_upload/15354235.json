@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180503",
+  "publication_number": "US20180137424A1-20180517",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15354235",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gabaldon Royval",
+      "inventor_name_first": "Alfredo",
+      "inventor_city": "Clifton Park",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gustafson",
+      "inventor_name_first": "Steven Matt",
+      "inventor_city": "Niskayuna",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Palla",
+      "inventor_name_first": "Ravi Kiran Reddy",
+      "inventor_city": "Glenville",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Examples relate to systems for authoring and executing predictive models. A computer system includes a model development context analyzer configured to store a set of derived modeling knowledge generated at least in part from a plurality of modeling operations performed using at least a first predictive model authoring tool. The system is configured to, receive a modeling context indicating at least a modeling operation being performed, determine, from the modeling context, at least one element of an ontology, the ontology defining at least one attribute of a plurality of modeling operations, query the set of derived modeling knowledge using the at least one element of the ontology to identify at least one record of the set of derived modeling knowledge associated with the at least one element of the ontology, identify at least one suggested model parameter associated with the modeling context, and provide the at least one suggested model parameter.",
+  "filing_date": "20161117",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Some embodiments generally relate to methods and systems for providing improved capture and usage of knowledge during predictive model authoring operations. Embodiments include authoring tools that capture information related to the type of asset being modeled, components and subcomponents of that asset, features of the sensor data, particular data analysis and modeling techniques applied to those features, and other aspects of a predictive model authoring process. This captured information is mapped to particular tasks of a predictive model authoring process such that knowledge about the authoring of that predictive model is captured. This knowledge is indexed in a manner so as to facilitate further predictive modeling authoring operations. Embodiments further include processes and algorithms for identifying gaps in the knowledge and processes for addressing or filling those gaps. An example of an embodiment includes a computer system configured to programmatically identify gaps in a predictive model knowledge graph. The computer system includes a model development context analyzer configured to generate a knowledge graph comprising a plurality of elements indicating a plurality of correlations between model parameters used in modelling operations performed using a predictive model authoring tool, analyze the knowledge graph to identify at least one of the plurality of elements that is not associated with a data attribute, determine a user associated with the identified at least one of the plurality of elements, generate a user interface to present to the user, the user interface comprising at least one interface control for providing a response to a query derived from the identified at least one of the plurality of elements, receive the response to the query via the at least one interface control, and update the knowledge graph based on the response to the query. The computer system may be further configured to analyze the knowledge graph to ide...",
+  "date_published": "20180517",
+  "title": "METHODS AND SYSTEMS FOR IDENTIFYING GAPS IN PREDICTIVE MODEL ONTOLOGY",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 143045,
+    "optimized_size": 3857,
+    "reduction_percent": 97.3
+  }
+}

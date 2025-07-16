@@ -1,0 +1,58 @@
+{
+  "decision": "PENDING",
+  "application_number": "15138884",
+  "date_published": "20161124",
+  "date_produced": "20161109",
+  "title": "STORAGE CONTROL APPARATUS AND STORAGE SYSTEM",
+  "filing_date": "20160426",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Otaka",
+      "inventor_name_first": "Atsuhiro",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Sakaguchi",
+      "inventor_name_first": "Akiko",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SATOU",
+      "inventor_name_first": "Hidetoshi",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "YUMOTO",
+      "inventor_name_first": "Takahiro",
+      "inventor_city": "Nagano",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "YAMAZAKI",
+      "inventor_name_first": "Akira",
+      "inventor_city": "Machida",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect of the embodiments, there is provided a storage control apparatus including: a memory storing selection condition information relating to a selection condition for storage devices to construct a RAID, group information relating to groups to which the storage devices belong, and connection information indicating a connection configuration of the storage devices; and a processor configured to perform a procedure including: selecting storage devices that match the selection condition information from the storage devices; extracting groups to which the selected storage devices belong based on the group information; assigning group priorities, which indicate selection priorities in units of the groups of the storage devices, to the extracted groups based on the connection information; and selecting one storage device from each of the extracted groups in accordance with the group priorities until a predetermined number of storage devices have been selected. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the invention.",
+  "patent_number": "None",
+  "abstract": "A storage control apparatus includes a memory and a processor. The memory stores selection condition information relating to a selection condition for storage devices to construct a RAID, group information relating to groups to which the storage devices belong, and connection information indicating a connection configuration of the storage devices. The processor is configured to perform a procedure including: selecting the storage devices that match the selection condition information; extracting groups to which the selected storage devices belong based on the group information; assigning group priorities, which indicate selection priorities in units of the groups of the storage devices, to the extracted groups based on the connection information; and selecting one storage device from each of the extracted groups in accordance with the group priorities until a predetermined number of storage devices have been selected.",
+  "publication_number": "US20160342358A1-20161124",
+  "_processing_info": {
+    "original_size": 80200,
+    "optimized_size": 3371,
+    "reduction_percent": 95.8
+  }
+}

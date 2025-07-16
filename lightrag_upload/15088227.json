@@ -1,0 +1,54 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286845A1-20171005",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15088227",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gifford",
+      "inventor_name_first": "Wesley M.",
+      "inventor_city": "Ridgefield",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Ying",
+      "inventor_city": "Mohegan Lake",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Rong",
+      "inventor_city": "Sterling",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sheopuri",
+      "inventor_name_first": "Anshul",
+      "inventor_city": "Teaneck",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A user trajectory graph may be constructed based on spatio-temporal data and mobility pattern extracted from trajectory graph. Users may be clustered into groups, wherein the users in a same group posses similar feature values in the mobility pattern, and the users in different groups have different feature values, to identify personas and location sets. A distribution model may be constructed that models user timing and location preference, wherein an outcome indicates a preference for a particular time bin on a particular day for a particular location.",
+  "filing_date": "20160401",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A computer-implemented method and system to automatically determine user mobility behaviors and interaction preferences using spatio-temporal data and engage users may be provided. The method, in one aspect, may include receiving spatio temporal data comprising location data as a function of time, app interaction data as a function of time, and geographic map data comprising geographic coordinates. The method may also include constructing a user trajectory graph based on the spatio temporal data. The method may also include determining mobility pattern based on the user trajectory graph. The method may also include deriving features from the mobility patterns. The method may also include clustering users into groups, wherein the users in a same group have similar feature values associated with the features, and the users in different groups have different feature values. Whether a feature value is similar or different may be determined based on meeting a similarity threshold. The method may also include identifying personas and location sets based on the clustering. The method may also include constructing a distribution model, wherein an outcome indicates a preference for a particular time bin on a particular day for a particular location. The model, for example, may be a multinomial distribution model. The method may also include monitoring user device's location and responsive to detecting that the user device is at the particular location at a particular time estimated as a preferred time and location, pushing content to the user device. A system to automatically determine user mobility behaviors and interaction preferences using spatio-temporal data and engage users, in one aspect, may include one or more processor communicatively couple to one or more storage devices. One or more of the processors may be operable to receive spatio temporal data comprising location data as a function of time, app interaction data as a function of time, ...",
+  "date_published": "20171005",
+  "title": "AUTOMATIC EXTRACTION OF USER MOBILITY BEHAVIORS AND INTERACTION PREFERENCES USING SPATIO-TEMPORAL DATA",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06F1730",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 73788,
+    "optimized_size": 3623,
+    "reduction_percent": 95.09
+  }
+}

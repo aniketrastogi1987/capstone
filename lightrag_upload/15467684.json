@@ -1,0 +1,47 @@
+{
+  "patent_number": "None",
+  "application_number": "15467684",
+  "date_published": "20170928",
+  "date_produced": "20170915",
+  "filing_date": "20170323",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method of generating a confidence measure for an estimation derived from images captured by a camera mounted on a vehicle includes: capturing consecutive training images by the camera while the vehicle is moving; determining ground-truth data for the training images; computing optical flow vectors from the training images and estimating a first output signal based on the optical flow vectors for each of the training images, the first output signal indicating an orientation of the camera; classifying the first output signal for each of the training images as a correct signal or a false signal depending on how good the first output signal fits to the ground-truth data; determining optical flow field properties for each of the training images derived from the training images; and generating a separation function that separates the optical flow field properties into two classes based on the classification of the first output signal.",
+  "publication_number": "US20170278014A1-20170928",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is an underlying object of the invention to provide a method to generate a meaningful confidence measure for an estimation derived from images captured by a camera mounted on a vehicle. It is further an object of the invention to provide a device for generating a confidence measure for an estimation derived from images captured by a camera mounted on a vehicle. The object underlying the invention is satisfied by the features of the independent claims. Advantageous further developments and aspects of the invention are set forth in the dependent claims. In one aspect of the invention a method of generating a confidence measure for an estimation derived from images captured by a camera mounted on a vehicle is provided. According to the method, in particular in a training mode or an offline mode, consecutive training images are captured by the camera while the vehicle is moving. In addition, ground-truth data are determined for the training images. Optical flow vectors are computed from the training images and for each of the training images a first output signal is estimated. The estimation is based on the optical flow vectors and the first output signal indicates an orientation of the camera and/or a change thereof. The orientation of the camera may be given by pitch and roll angles, and the change of the orientation of the camera may indicate ego-motion. For each of the training images the first output signal is classified either as a correct signal or as a false signal. The classification of the first output signal depends on how good the first output signal for the respective training image fits to the ground-truth data. In addition, for each of the training images optical flow field properties are determined, wherein the optical flow field properties are derived from the training images. A separation function is then generated that separates the optical flow field properties into two classes based on the classification of the...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06K962",
+    "G06T520",
+    "G06K966"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lessmann",
+      "inventor_name_first": "Stephanie",
+      "inventor_city": "Erkrath",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Meuter",
+      "inventor_name_first": "Mirko",
+      "inventor_city": "Erkrath",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Westerhoff",
+      "inventor_name_first": "Jens",
+      "inventor_city": "Dortmund",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "METHOD AND A DEVICE FOR GENERATING A CONFIDENCE MEASURE FOR AN ESTIMATION DERIVED FROM IMAGES CAPTURED BY A CAMERA MOUNTED ON A VEHICLE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 47829,
+    "optimized_size": 3892,
+    "reduction_percent": 91.86
+  }
+}

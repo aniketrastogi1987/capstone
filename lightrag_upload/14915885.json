@@ -1,0 +1,32 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "14915885",
+  "date_published": "20160922",
+  "date_produced": "20160908",
+  "title": "INFORMATION PROCESSING DEVICE, INFORMATION PROCESSING METHOD, AND PROGRAM",
+  "filing_date": "20160301",
+  "inventor_list": [
+    {
+      "inventor_name_last": "INOUE",
+      "inventor_name_first": "Atsushi",
+      "inventor_city": "Fuchu Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1107",
+    "G06F1122",
+    "G06F1130"
+  ],
+  "main_ipcr_label": "G06F1107",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>",
+  "patent_number": "9952920",
+  "abstract": "An information processing device according to an embodiment includes a buffer, a memory, and a controller. The buffer is capable of storing target data for transfer. The memory is capable of storing a fact that predetermined abnormality detection data is written in the buffer and storing an abnormality detection result of the buffer, the abnormality detection result being written by an external controller which controls a first control target. The controller controls a second control target which is different than the first control target; writes, in the buffer, the abnormality detection data to be transferred to the external controller; makes the memory to hold the fact; and, when the abnormality detection result indicates detection of abnormality, prohibits writing of data in at least such memory areas, from among memory areas in the buffer, in which abnormality is detected.",
+  "publication_number": "US20160274960A1-20160922",
+  "_processing_info": {
+    "original_size": 64364,
+    "optimized_size": 1514,
+    "reduction_percent": 97.65
+  }
+}

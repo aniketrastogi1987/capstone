@@ -1,0 +1,40 @@
+{
+  "date_produced": "20161012",
+  "publication_number": "US20160314400A1-20161027",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15103757",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Charpentier",
+      "inventor_name_first": "Philippe",
+      "inventor_city": "Mareil-Marly",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Debost",
+      "inventor_name_first": "Isabelle",
+      "inventor_city": "Chaville",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "A computing system for predicting a curtailed consumption of fluid comprising: a module for collecting consumption data comprising information relating to an actual consumption of fluid of a plurality of consumers during a learning phase, a processing circuit for aggregating the consumption data collected by groups as a function of at least one determined descriptive variable associated with each consumer and contained in the consumption data, a processor for determining on the basis of the aggregated consumption data a curve of global load for each group, a computer for computing a model of extraction of a load curve, termed heating and/or air conditioning, on the basis of each global load curve and of meteorological data, and a predictor for computing a prediction of a curtailed consumption of fluid for each group during a forthcoming curtailment phase.",
+  "filing_date": "20160610",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY AND OBJECT OF THE PRESENT INVENTION <EOH>The present invention aims to improve the situation described above. The present invention therefore proposes a statistical approach for predicting effectively the curtailed fluid consumption for a future curtailment phase. The subject matter of the present invention more particularly concerns a method of predicting a curtailed fluid consumption that is implemented by computer means; the prediction method includes firstly collecting consumption data. The consumption data advantageously includes information relating to a real fluid consumption of a plurality of consumers during a learning phase. Following this data collection, the method in accordance with the present invention includes aggregating the collected consumption data on a group basis. This aggregation on a group basis is preferably carried out notably as a function of one or more particular descriptive variables; these variables are associated with each consumer and are contained in the consumption data. These descriptive variables are preferably selected from at least one of the following variables: the region, the accommodation type and area, the number of persons in the accommodation or the heating and/or air conditioning method. Obviously, the person skilled in the art will understand here that other descriptive variables may equally well be envisaged in the context of the present invention. The method in accordance with the present invention advantageously also includes determining a global load curve for each group from the aggregated consumption data. This global load curve is the curve relating to the consumption of fluid by each group during the learning phase. The method in accordance with the present invention preferably includes calculating an extraction model of a load curve referred to as the heating and/or air conditioning load curve. Here this heating and/or air conditioning load curve is the curve relating to the fluid consumption by ...",
+  "date_published": "20161027",
+  "title": "PREDICTION OF A CURTAILED CONSUMPTION OF FLUID",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1750",
+    "G06F1711",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 77069,
+    "optimized_size": 3592,
+    "reduction_percent": 95.34
+  }
+}

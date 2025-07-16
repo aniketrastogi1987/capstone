@@ -1,0 +1,47 @@
+{
+  "date_produced": "20171018",
+  "publication_number": "US20170316341A1-20171102",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15143138",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KAFAI",
+      "inventor_name_first": "Mehran",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SHANG",
+      "inventor_name_first": "Hongwei",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "AGUILAR MACEDO",
+      "inventor_name_first": "Omar",
+      "inventor_city": "Tlaquepaque",
+      "inventor_state": "",
+      "inventor_country": "MX"
+    }
+  ],
+  "abstract": "Dynamically updating a ridge regression data model of a continuous stream of data is disclosed. New data chunks corresponding to a current data accumulation point are received and the data values in the new data chunks are transformed via standardization methods. A ridge estimator for the standardized data that includes data chunks received up to a penultimate data accumulation point to include the new data chunks is dynamically updated. The cumulative observations received up to the current data accumulation point are updated and stored. Predictions for the continuous data stream are generated based on the updated ridge estimator.",
+  "filing_date": "20160429",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Features of the present disclosure are illustrated by way of example and not limited in the following figure(s), in which like numerals indicate like elements, and in which: FIG. 1 is a block diagram of a computing apparatus for updating a ridge regression data model, according to an example of the present disclosure; FIG. 2 is a flowchart of a method for online updating of a ridge regression data model for streaming data, according to an example of the present disclosure; and FIG. 3 is a flowchart of a method of updating a ridge regression data model of a data stream in response to receiving new observations, according to an example of the present disclosure. FIG. 4 is a block diagram of a network system according to an example of the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20171102",
+  "title": "UPDATING DATA MODELS FOR STREAMING DATA",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1718",
+    "G06F1730",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 33063,
+    "optimized_size": 2382,
+    "reduction_percent": 92.8
+  }
+}

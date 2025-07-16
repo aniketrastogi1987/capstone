@@ -1,0 +1,45 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15108927",
+  "date_published": "20161103",
+  "date_produced": "20161019",
+  "title": "METHOD AND DEVICE FOR DETECTING MALICIOUS CODE IN AN INTELLIGENT TERMINAL",
+  "filing_date": "20160629",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YANG",
+      "inventor_name_first": "Kang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Zhuo",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "TANG",
+      "inventor_name_first": "Hai",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2155",
+    "G06F2160"
+  ],
+  "main_ipcr_label": "G06F2155",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In view of the problems above, a method and device for feature extraction according to the present invention are provided so as to overcome the above problems or at least partially solve the above problems. According to one aspect of the present invention, there is provided a method for detecting malicious code in an intelligent terminal, comprising: acquiring a virtual machine executable file of an application from an application layer of an intelligent terminal operating system; decompiling the virtual machine executable file to obtain a decompiled function information structure; parsing the decompiled function information structure, and extracting a function calling sequence in the decompiled function information structure; matching the function calling sequence using a preset malicious code feature library; if matching succeeds, determining that the virtual machine executable file of the application contains malicious code. Preferably, the method further comprises: by parsing the decompiled function information structure, obtaining a virtual machine mnemonic sequence; and extracting the function calling sequence from the virtual machine mnemonic sequence. According to another aspect of the present invention, there is provided a device for detecting malicious code in an intelligent terminal, comprising: a file acquiring unit configured to acquire a virtual machine executable file of an application from an application layer of an intelligent terminal operating system; a decompiling unit configured to decompile the virtual machine executable file to obtain a decompiled function information structure; an extracting unit configured to parse the decompiled function information structure, and extract a function calling sequence in the decompiled function information structure; a detecting unit configured to match the function calling sequence using a preset malicious code feature library; and if matching succeeds, determine that the ...",
+  "patent_number": "9792433",
+  "abstract": "The present invention discloses a method and device for detecting malicious code in an intelligent terminal. The method comprises: acquiring a virtual machine executable file of an application from an application layer of an intelligent terminal operating system; decompiling the virtual machine executable file to obtain a decompiled function information structure; parsing the decompiled function information structure to extract a function calling sequence in the decompiled function information structure; matching the function calling sequence using a preset malicious code feature library; if matching succeeds, determining that the virtual machine executable file of the application contains malicious code. By applying the solution of the present invention, through a virtual machine executable file of the application, it may be analyzed and determined whether the application comprises malicious code, such that a tampered application program or a malicious software may be detected and rem...",
+  "publication_number": "US20160321453A1-20161103",
+  "_processing_info": {
+    "original_size": 73123,
+    "optimized_size": 3852,
+    "reduction_percent": 94.73
+  }
+}

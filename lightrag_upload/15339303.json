@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180418",
+  "publication_number": "US20180121792A1-20180503",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15339303",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tristan",
+      "inventor_name_first": "Jean-Baptiste",
+      "inventor_city": "Lexington",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wick",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Medford",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zaheer",
+      "inventor_name_first": "Manzil",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "According to embodiments, a recurrent neural network (RNN) is equipped with a set data structure whose operations are differentiable, which data structure can be used to store information for a long period of time. This differentiable set data structure can “remember” an event in the sequence of sequential data that may impact another event much later in the sequence, thereby allowing the RNN to classify the sequence based on many kinds of long dependencies. An RNN that is equipped with the differentiable set data structure can be properly trained with backpropagation and gradient descent optimizations. According to embodiments, a differentiable set data structure can be used to store and retrieve information with a simple set-like interface. According to further embodiments, the RNN can be extended to support several add operations, which can make the differentiable set data structure behave like a Bloom filter.",
+  "filing_date": "20161031",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings: FIG. 1 depicts a flowchart for training a recurrent neural network equipped with a differentiable set data structure and using the trained model to classify unlabeled sequential data. FIG. 2 is a block diagram that depicts an example network arrangement for training a recurrent neural network, equipped with a differentiable set data structure, to recognize long dependencies within sequential data. FIG. 3 is a block diagram of a computer system on which embodiments may be implemented. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180503",
+  "title": "DIFFERENTIABLE SET TO INCREASE THE MEMORY CAPACITY OF RECURRENT NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 61967,
+    "optimized_size": 2434,
+    "reduction_percent": 96.07
+  }
+}

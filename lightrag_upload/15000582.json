@@ -1,0 +1,47 @@
+{
+  "date_produced": "20170705",
+  "publication_number": "US20170206453A1-20170720",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15000582",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kaufmann",
+      "inventor_name_first": "Joseph M.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Krishnamurthy",
+      "inventor_name_first": "Lakshminarayanan",
+      "inventor_city": "Round Rock",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mendes",
+      "inventor_name_first": "Pablo N.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments are directed to a method of utilizing an ensemble of distributional semantics systems in conjunction with a domain term extractor for generating domain-specific synonyms. The method allows for extraction of high-quality, domain-specific synonyms that can be used in an information handling system, such as a question-answer system or in an information retrieval (IR) system, capable of processing natural language. According to embodiments, the domain term extractor identifies the words for which synonyms are sought, and the ensemble of distributional semantics systems determines the synonyms.",
+  "filing_date": "20160119",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention provide for generating domain-specific synonyms for identified domain terms of an information source, utilizing an ensemble of distributional semantics systems in conjunction with a domain term extractor. In an embodiment, a computer implemented method in a data processing system comprising a processor and a memory comprising instructions which are executed by the processor to cause the processor to implement a method for utilizing information sources to identify domain-specific synonyms for an information handling system capable of processing natural language, the method comprises: receiving, by the information handling system, a domain-specific information source; applying, by the information handling system, an algorithm to distinguish between standard terms and domain-specific terms in the domain-specific information source to form a candidate synonym list; applying, by the information handling system, at least two ensemble machine learning techniques to train a synonym finder; and utilizing, by the information handling system, the synonym finder to find synonyms of terms in the candidate synonym list. In an embodiment, a system for identifying domain-specific synonyms for an information handling system capable of processing natural language, comprises a processor configured to: receive a domain-specific information source; apply an algorithm to distinguish between standard terms and domain-specific terms in the domain-specific information source to form a candidate synonym list; apply at least two ensemble machine learning techniques to train a synonym finder; and utilize the synonym finder to find synonyms of terms in the candidate synonym list. In an embodiment, a computer program product for identifying domain-specific synonyms for an information handling system capable of processing natural language comprises a computer readable storage medium having program instructions embodied therewith, the program...",
+  "date_published": "20170720",
+  "title": "SYSTEM AND METHOD OF INFERRING SYNONYMS USING ENSEMBLE LEARNING TECHNIQUES",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1727",
+    "G06F1728",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 43102,
+    "optimized_size": 3522,
+    "reduction_percent": 91.83
+  }
+}

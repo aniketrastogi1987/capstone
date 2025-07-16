@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15358223",
+  "date_published": "20180524",
+  "date_produced": "20180509",
+  "title": "CONSTRUCTING AND QUERYING A BLOOM FILTER TO DETECT THE ABSENCE OF DATA FROM ONE OR MORE ENDPOINTS",
+  "filing_date": "20161122",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lavelle",
+      "inventor_name_first": "Andrew",
+      "inventor_city": "Galway",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Warren",
+      "inventor_name_first": "Claude",
+      "inventor_city": "Galway",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of this disclosure, a computer-implemented method includes constructing an overall Bloom filter representing a set of legal parameter values of a plurality of parameters useable for querying one or more endpoints. In the overall Bloom filter, each parameter of the plurality of parameters is offset based on a respective unique identifier of the parameter. A first set of desired parameter values is determined corresponding to first desired data to be retrieved from a first endpoint of the one or more endpoints. Using a computer processor, a first query Bloom filter is constructed representing the first set of desired parameter values. A first Bloom filter search is performed of the first query Bloom filter against the overall Bloom filter. Responsive to not finding a match through the first Bloom filter search, it is opted not to query the first endpoint with the first set of desired parameter values. In another embodiment, a system includes a memory having computer readable instructions and one or more processors for executing the computer readable instructions. The computer readable instructions include constructing an overall Bloom filter representing a set of legal parameter values of a plurality of parameters useable for querying one or more endpoints. In the overall Bloom filter, each parameter of the plurality of parameters is offset based on a respective unique identifier of the parameter. Further according to the computer readable instructions, a first set of desired parameter values is determined corresponding to first desired data to be retrieved from a first endpoint of the one or more endpoints. A first query Bloom filter is constructed representing the first set of desired parameter values. A first Bloom filter search is performed of the first query Bloom filter against the overall Bloom filter. Responsive to not finding a match through the first Bloom filter search, it is opted not to query the first endpoin...",
+  "patent_number": "None",
+  "abstract": "A computer-implemented method includes constructing an overall Bloom filter representing a set of legal parameter values of a plurality of parameters useable for querying one or more endpoints. In the overall Bloom filter, each parameter of the plurality of parameters is offset based on a respective unique identifier of the parameter. A first set of desired parameter values is determined corresponding to first desired data to be retrieved from a first endpoint of the one or more endpoints. Using a computer processor, a first query Bloom filter is constructed representing the first set of desired parameter values. A first Bloom filter search is performed of the first query Bloom filter against the overall Bloom filter. Responsive to not finding a match through the first Bloom filter search, it is opted not to query the first endpoint with the first set of desired parameter values.",
+  "publication_number": "US20180144031A1-20180524",
+  "_processing_info": {
+    "original_size": 56166,
+    "optimized_size": 3618,
+    "reduction_percent": 93.56
+  }
+}

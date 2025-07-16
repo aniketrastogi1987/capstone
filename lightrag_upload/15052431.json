@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170809",
+  "publication_number": "US20170243113A1-20170824",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15052431",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fukuda",
+      "inventor_name_first": "Takashi",
+      "inventor_city": "Kanagawa-ken",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Ichikawa",
+      "inventor_name_first": "Osamu",
+      "inventor_city": "Kanagawa-ken",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A method for learning a neural network having a plurality of filters for extracting local features performed by a computing device is disclosed. The computing device calculates a plurality of projection parameter sets by analyzing one or more training data. The plurality of the projection parameter sets define a projection of each training data into a new space and each projection parameter set has a same size as the filters in the neural network. At least part of the plurality of the projection parameter sets is set as initial parameters of at least part of the plurality of the filters in the neural network for training.",
+  "filing_date": "20160224",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the present invention, there is provided a computer implemented method performed by a computing device for learning a neural network that has a plurality of filters for extracting local features. The method includes calculating a plurality of projection parameter sets by analyzing one or more training data, in which the plurality of the projection parameter sets defines a projection of each training data into a new space and each projection parameter set has a same size as the filters in the neural network. The method further includes setting at least a part of the plurality of the projection parameter sets as initial parameters of at least a part of the plurality of the filters in the neural network for training. According to another embodiment of the present invention, there is provided a computer system for learning a neural network that has a plurality of filters for extracting local features, by executing program instructions. The computer system includes a memory tangibly storing the program instructions and a processor in communications with the memory. The computer system is configured to calculate a plurality of projection parameter sets by analyzing one or more training data, in which the plurality of the projection parameter sets defines a projection of each training data into a new space and each projection parameter set has a same size as the filters in the neural network. The computer system is further configured to set at least part of the plurality of the projection parameter sets as initial parameters of at least part of the plurality of the filters in the neural network for training. Computer program products relating to one or more aspects of the present invention are also described and claimed herein. Additional features and advantages are realized through the techniques of the present invention. Other embodiments and aspects of the invention are described in detail herein and are considered a part...",
+  "date_published": "20170824",
+  "title": "LEARNING OF NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 86344,
+    "optimized_size": 3307,
+    "reduction_percent": 96.17
+  }
+}

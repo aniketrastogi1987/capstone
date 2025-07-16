@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15625383",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "filing_date": "20170616",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Predictive regression models are widely used in different domains such as life sciences, healthcare, pharma etc. and variable selection, is employed as one of the key steps. Variable selection can be performed using random or exhaustive search techniques. Unlike a random approach, the exhaustive search approach, evaluates each possible combination and consequently, is a computationally hard problem, thus limiting its applications. The embodiments of the present disclosure perform i) parallelization and optimization of critical time consuming steps of the technique, Variable Selection and Modeling based on the Prediction (VSMP) ii) its applications for the generation of the best possible predictive models using input dataset (e.g., Blood Brain Barrier Permeation data) and iii) business impact of predictive models that are requires the selection of larger number of variables.",
+  "publication_number": "US20170364809A1-20171221",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure present technological improvements as solutions to one or more of the above-mentioned technical problems recognized by the inventors in conventional systems. For example, in one aspect, a processor implemented method for performing parallelization techniques for generating predictive models and variable selection and its applications is provided. The method comprising: defining, by one or more processors, (i) an input data comprising a set of independent variables, a set of dependent variables, and a subset size, (ii) a set of control parameters comprising maximum allowed inter correlation coefficient of independent variables R int , and a minimum or maximum objective function threshold (R cri ) pertaining to the set of independent variables, and (iii) a block size and a grid size pertaining to a graphics processing unit (GPU), the block size and grid size are indicative of number of execution threads to be executed in one or more blocks in a grid; calculating, by the one or more processors, one or more inter correlation coefficients of each pair of independent variables from the set of independent variables; ranking, using a lexicographical technique, one or more subsets of independent variables from the set of independent variables; assigning the one or more ranked subsets to corresponding one or more execution threads of the GPU; executing, in parallel, in each of the one or more execution threads specific to the one or more blocks: generating, using an unranking technique, an initial set of subsets from the one or more assigned subsets, and recursively generating, based on the initial set of subsets, a next set of subsets based on the one or more assigned subsets, wherein when the initial set of subsets is being generated, a comparison of an inter correlation coefficient (R a ) across independent variables in a subset of the initial set is performed; performing a comparison of (i) an inter correlation coef...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N312"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "RAMAMURTHI",
+      "inventor_name_first": "Narayanan",
+      "inventor_city": "Hyderabad",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Koneti",
+      "inventor_name_first": "Geervani",
+      "inventor_city": "Hyderabad",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "PARALLELIZATION TECHNIQUES FOR VARIABLE SELECTION AND PREDICTIVE MODELS GENERATION AND ITS APPLICATIONS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 68905,
+    "optimized_size": 3641,
+    "reduction_percent": 94.72
+  }
+}

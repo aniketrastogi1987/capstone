@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170412",
+  "publication_number": "US20170116511A1-20170427",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15336086",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Howon",
+      "inventor_city": "Busan",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Jihyun",
+      "inventor_city": "Busan",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "Provided are an apparatus and method for classifying home appliances based on power consumption using deep learning, which can efficiently classify home appliances in use by applying deep learning and analyzing power data collected from a house. The apparatus includes a home appliance classification model creation module configured to encode power consumption data collected from a house to learn a home appliance classification model and create an RNN-based home appliance classification model and a home appliance classification module configured to collect and encode data on power consumption currently in use and classify home appliances using the home appliance classification model created by the home appliance classification model creation module.",
+  "filing_date": "20161027",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention is intended to solve the problems of the conventional home appliance classification methods. The present invention is also directed to an apparatus and method for classifying home appliances based on power consumption using deep learning, where accuracy of a home appliance classification model may be increased by applying a recurrent neural network (RNN)-enhanced model capable of sequential data pattern learning, among deep learning algorithms capable of high-level learning, and by designing a data structure appropriate for the network. The present invention is also directed to an apparatus and method for classifying home appliances based on power consumption using deep learning, where a home appliance classification model may be created by providing a set of input/output data obtained during a certain period to an RNN so that the RNN can learn the set of input/output data and learn a data pattern corresponding to the period at high level. The present invention is also directed to an apparatus and method for classifying home appliances based on power consumption using deep learning, where a problem of decreasing accuracy as the number of home appliances increases when classifying home appliances and a problem of decreasing classification accuracy when a home appliance having multi-state power consumption is modeled may be solved. The present invention is also directed to an apparatus and method for classifying home appliances based on power consumption using deep learning, where accuracy may be increased by measuring a variation while updating a base value of the power consumption with a low pass filter and by encoding a value of measured total power consumption according to the variation. The present invention is not limited to the above objectives, but other objectives may be clearly understood by those skilled in the art from the following descriptions. According to an aspect of the present disclosure, the...",
+  "date_published": "20170427",
+  "title": "APPARATUS AND METHOD FOR CLASSIFYING HOME APPLIANCES BASED ON POWER CONSUMPTION USING DEEP LEARNING",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "H04L1228"
+  ],
+  "_processing_info": {
+    "original_size": 44861,
+    "optimized_size": 3497,
+    "reduction_percent": 92.2
+  }
+}

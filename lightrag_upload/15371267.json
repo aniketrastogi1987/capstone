@@ -1,0 +1,51 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15371267",
+  "date_published": "20170323",
+  "date_produced": "20170309",
+  "title": "STORE FORWARDING CACHE",
+  "filing_date": "20161207",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Alexander",
+      "inventor_name_first": "Khary J.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hsieh",
+      "inventor_name_first": "Jonathan T.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jacobi",
+      "inventor_name_first": "Christian",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mitchell",
+      "inventor_name_first": "James R.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F120877"
+  ],
+  "main_ipcr_label": "G06F120877",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention include a method, computer program product and system for executing a load with store forwarding data. In one embodiment, a load request is received, wherein the load request is a request to retrieve a piece of data from a location in memory and wherein the load request follows one or more store requests in a set of instructions to store a piece of data in the location in memory. One or more possible locations in a cache for a piece of data corresponding to the location in memory is determined. Responsive to determining the one or more possible locations in the cache, each possible location of the one or more possible locations in the cache is determined. If at least one location of the one or more possible locations contains data to be stored in the location in memory is determined. Responsive to determining that the at least one location of the one or more possible locations contains data to be stored in the location in memory, data in one location of the at least one location is loaded, wherein the data in the one location is from a store request of the one or more store requests and wherein the store request is closest in the set of instructions to the load request.",
+  "patent_number": "9697132",
+  "abstract": "A load request is received to retrieve a piece of data from a location in memory and the load request follows one or more store requests in a set of instructions to store a piece of data in the location in memory. One or more possible locations in a cache for a piece of data corresponding to the location in memory is determined. Each possible location of the one or more possible locations in the cache is determined. It is then determined if at least one location of the one or more possible locations contains data to be stored in the location in memory. Data in one location of the at least one location is loaded, the data in the one location is from a store request of the one or more store requests and the store request is closest in the set of instructions to the load request.",
+  "publication_number": "US20170083445A1-20170323",
+  "_processing_info": {
+    "original_size": 38100,
+    "optimized_size": 3018,
+    "reduction_percent": 92.08
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "date_produced": "20180418",
+  "publication_number": "US20180121798A1-20180503",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15339434",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Barkan",
+      "inventor_name_first": "Oren",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Koenigstein",
+      "inventor_name_first": "Noam",
+      "inventor_city": "Ra'anana",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Yogev",
+      "inventor_name_first": "Eylon",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Nice",
+      "inventor_name_first": "Nir",
+      "inventor_city": "Kfar Veradim",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "A recommender system that represents items in a catalog by first feature vectors in a first vector space based on first characteristics of the items and second feature vectors in a second vector space based on second characteristics of the items different from the first characteristics and maps a feature vector defined in the first vector space for an item to a vector in the second vector space to provide recommendations based on the item.",
+  "filing_date": "20161031",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An aspect of an embodiment of the disclosure, relates to providing a recommender system that represents items in a catalog of items by respective first feature vectors in a first vector space and respective second feature vectors in a second vector space. The first feature vectors are configured to encode data responsive to a first set of characteristics of the catalog items. The second feature vectors are configured to encode data responsive to a second, different set of characteristics of the catalog items. The recommender system, optionally referred to as a “Janus recommender” or simply “Janus”, may use a neural network, which may be referred to as a “MapNet neural network” or simply “MapNet”, to map feature vectors from the first vector space to feature vectors in the second vector space. Janus may use feature vectors in the second space that are mapped by MapNet from the first vector space to recommend an item from the catalog of items to a user of Janus. The feature vectors in the first and second vector spaces may be referred to as respectively providing first and second perspectives of the items in the catalog and may be used to recommend items from, or items that may be included in, the catalog based respectively on the first and second perspectives. Feature vectors in the second vector space that are mapped by MapNet from first feature vectors include attributes based on both the first and second perspectives and may be used to recommend items from the catalog, or items that may be included in the catalog, based on both the first and second perspectives. First feature vectors may be referred to as source vectors (SRC vectors) and the first vector space as a source vector space, and second feature vectors and the second vector space may be referred to as target vectors (TGT vectors) and a target vector space respectively. A given vector space may be referred to as a SRC or TGT vector space and vectors in the given vector space as SRC or T...",
+  "date_published": "20180503",
+  "title": "RECOMMENDER SYSTEM",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1721",
+    "G06N304",
+    "G06F1716"
+  ],
+  "_processing_info": {
+    "original_size": 38742,
+    "optimized_size": 3452,
+    "reduction_percent": 91.09
+  }
+}

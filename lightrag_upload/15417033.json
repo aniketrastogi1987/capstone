@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15417033",
+  "date_published": "20170727",
+  "date_produced": "20170713",
+  "filing_date": "20170126",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Provided herein in some embodiments is an artificial intelligence (“AI”) engine configured to operate with multiple user interfaces to accommodate different types of users solving different types of problems with AI. The AI engine can include AI-engine modules including an architect module, an instructor module, and a learner module. An assembly code can be generated from a source code written in a pedagogical programming language. The architect module can be configured to propose a neural-network layout from the assembly code; the learner module can be configured to build the AI model from the neural-network layout; and the instructor module can be configured to train the AI model built by the learner module. The multiple user interfaces can include an integrated development environment, a web-browser interface, or a command-line interface configured to enable an author to define a mental model for the AI model to learn.",
+  "publication_number": "US20170213132A1-20170727",
+  "summary": "<SOH> SUMMARY <EOH>Provided herein in some embodiments is an AI engine configured to operate with multiple user interfaces to accommodate different types of users solving different types of problems with AI. The AI engine can include one or more AI-engine modules including an architect module, an instructor module, and a learner module. A compiler can be configured to receive a source code written in a pedagogical programming language through an API exposed to the multiple user interfaces. The compiler can be further configured to generate an assembly code from the source code. The architect module can be configured to propose a neural-network layout with one or more neural-network layers from the assembly code. The learner module can be configured to build the AI model with the one or more neural-network layers from the neural-network layout proposed by the architect module. The instructor module can be configured to train the AI model built by the learner module. The multiple user interfaces enable an author to define a mental model for the AI model to learn and one or more curriculums written in the pedagogical programming language, the mental model including an input, one or more concept nodes, one or more optional stream nodes, and an output. The multiple user interfaces can further enable the author to send the source code through the API exposed to the multiple user interfaces to the compiler. Also provided herein in some embodiments is an AI system including an AI engine configured with multiple user interfaces to accommodate different types of users solving different types of problems with AI. The AI system can include one or more remote servers and one or more local clients. The one or more remote servers can include a compiler and one or more AI-engine modules including an architect module, an instructor module, and a learner module. The compiler can be configured to receive a source code written in a pedagogical programming language through an API expose...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F1750"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hammond",
+      "inventor_name_first": "Mark Isaac",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Browne",
+      "inventor_name_first": "Keen McEwan",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Estee",
+      "inventor_name_first": "Mike",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kliman-Silver",
+      "inventor_name_first": "Clara",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "MULTIPLE USER INTERFACES OF AN ARTIFICIAL INTELLIGENCE SYSTEM TO ACCOMMODATE DIFFERENT TYPES OF USERS SOLVING DIFFERENT TYPES OF PROBLEMS WITH ARTIFICIAL INTELLIGENCE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 154175,
+    "optimized_size": 4072,
+    "reduction_percent": 97.36
+  }
+}

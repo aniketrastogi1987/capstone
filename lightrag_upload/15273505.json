@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180308",
+  "publication_number": "US20180082176A1-20180322",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15273505",
+  "inventor_list": [
+    {
+      "inventor_name_last": "WU",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "AUGUSTINE",
+      "inventor_name_first": "Charles",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "PAUL",
+      "inventor_name_first": "Somnath",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Provided are a neuromorphic computing device, memory device, system, and method to maintain a spike history for neurons in a spiking neural network. A neural network spike history is generated in a memory device having an array of rows and columns of memory cells. There is one row of the rows for each of a plurality of neurons and columns for each of a plurality of time slots. Indication is made in a current column in the row of the memory cells for a firing neuron that a spike was fired. Indication is made in the current column in rows of memory cells of idle neurons that did not fire that a spike was not fired. Information in the array is used to determine a timing difference between a connected neuron and the firing neuron and to adjust a weight of the connecting synapse.",
+  "filing_date": "20160922",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Embodiments are described by way of example, with reference to the accompanying drawings, which are not drawn to scale, in which like reference numerals refer to similar elements. FIG. 1 illustrates an embodiment of a neural network computing environment FIGS. 2 and 3 illustrate embodiments of a spike history array and now pointer. FIG. 4 illustrates an embodiment of synapse information. FIG. 5 illustrates an embodiment of neuron membrane potential information. FIGS. 6 a , 6 b , and 6 c illustrate an embodiment of operations to update information on the neurons and synapses in a neural network. FIG. 7 illustrates an embodiment of a memory device array used to store the spike history array information. FIG. 8 illustrates an embodiment of a computer architecture in which embodiments may be implemented. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180322",
+  "title": "NEUROMORPHIC COMPUTING DEVICE, MEMORY DEVICE, SYSTEM, AND METHOD TO MAINTAIN A SPIKE HISTORY FOR NEURONS IN A NEUROMORPHIC COMPUTING ENVIRONMENT",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 71368,
+    "optimized_size": 2644,
+    "reduction_percent": 96.3
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15377537",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "title": "DYNAMIC CACHE BYPASSING",
+  "filing_date": "20161213",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Farmahini Farahani",
+      "inventor_name_first": "Amin",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Roberts",
+      "inventor_name_first": "David A.",
+      "inventor_city": "Boxborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F120888",
+    "G06F120806"
+  ],
+  "main_ipcr_label": "G06F120888",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The present disclosure may be better understood, and its numerous features and advantages made apparent to those skilled in the art by referencing the accompanying drawings. The use of the same reference symbols in different drawings indicates similar or identical items. FIG. 1 is a block diagram of a processing system filling a memory access request by bypassing a cache storing a dirty cache line when a write congestion condition is detected and transferring the requested data to the processor without installing the data in the cache in accordance with some embodiments. FIG. 2 is a block diagram of a processing system filling a memory access request for a read operation from a processor by bypassing a higher level non-inclusive cache storing a dirty cache line when a write congestion condition is detected and transferring the requested data to a lower level cache in accordance with some embodiments. FIG. 3 is a block diagram of an example of the cache controller of FIG. 1 bypassing the cache when filling a memory access request in response to the write congestion monitor detecting a write congestion condition and the cache controller detecting a dirty cache line in accordance with some embodiments. FIG. 4 is a block diagram of an example of the write congestion monitor of FIG. 1 detecting a write congestion condition in response to a write bus connecting the cache to the write buffer being occupied in accordance with some embodiments. FIG. 5 is a block diagram of an example of the write congestion monitor of FIG. 1 detecting a write congestion condition in response to the write buffer reaching a threshold capacity in accordance with some embodiments. FIG. 6 is a block diagram of an example of the write congestion monitor of FIG. 1 detecting a write congestion condition in response to a memory bank for a dirty cache line being occupied with servicing requests in accordance with some embodiments. FIG. 7 is a block diagram ...",
+  "patent_number": "None",
+  "abstract": "A processing system fills a memory access request for data from a processor core by bypassing a cache when a write congestion condition is detected, and when transferring the data to the cache would cause eviction of a dirty cache line. The cache is bypassed by transferring the requested data to the processor core or to a different cache. Accordingly, the processing system can temporarily bypass the cache storing the dirty cache line when filling a memory access request, thereby avoiding the eviction and write back to main memory of a dirty cache line when a write congestion condition exists.",
+  "publication_number": "US20180165214A1-20180614",
+  "_processing_info": {
+    "original_size": 51358,
+    "optimized_size": 3292,
+    "reduction_percent": 93.59
+  }
+}

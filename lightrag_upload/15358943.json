@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180509",
+  "publication_number": "US20180144256A1-20180524",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15358943",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Saxena",
+      "inventor_name_first": "Sanchan Sahai",
+      "inventor_city": "Milpitas",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ko",
+      "inventor_name_first": "Alvin",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mutakana",
+      "inventor_name_first": "Veera S.",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ahres",
+      "inventor_name_first": "Youssef",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one embodiment, a method includes using a processing system to access a first set and a second set of user accounts in an online social network. The first set and second set of user accounts are predetermined as belonging to a first category and a second category, respectively. From each user account in the first and second set, the system may extract feature values corresponding to a set of predetermined feature types, which includes at least a feature type relating to profile information and at least a feature type relating to posting information. The system may then train a machine-learning model using the extracted feature values. The trained machine-learning model may be configured to predict whether a third user account in the online social network belongs to the first category or the second category, based feature values corresponding to the feature types extracted from the third user account.",
+  "filing_date": "20161122",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF PARTICULAR EMBODIMENTS <EOH>In particular embodiments, a social-networking system may use machine learning to automatically determine if a user account is being used in a particular manner of interest (e.g., business or non-business/personal purpose). For example, a machine-learning model may be trained using machine learning algorithms to analyze information associated with a user account and predict whether the account belongs to a particular predetermined category. Account information may include, for example, profile information (e.g., biographical information, website link, contact information, name, etc.), posting information (e.g., messages, comments, reviews, affinities, pictures, and videos posted on the social-networking system, along with associated metadata), and other suitable information. An example supervised machine-learning process may include extracting feature values from (1) a training set of user accounts known to belong to a first category (e.g., accounts used for business purposes) and (2) a training set of accounts known to belong to a second category (e.g., accounts used for non-business purposes). The extracted features and their association with known categories or account types may be used to train a machine-learning prediction model. Once trained, the machine-learning model may be used to analyze similarly extracted feature values from an account of unknown usage type and predict how the account should be categorized/classified (e.g., whether the account is likely being used for business or non-business purposes). The trained machine-learning model thus transforms an otherwise generic computer processing system into a specialized system capable of automatically categorizing user accounts. The embodiments disclosed herein for training the machine-learning model overcome the technical challenge of generic computer processing systems being otherwise incapable of automatically categorizing user accounts with sufficient preci...",
+  "date_published": "20180524",
+  "title": "Categorizing Accounts on Online Social Networks",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 105508,
+    "optimized_size": 3920,
+    "reduction_percent": 96.28
+  }
+}

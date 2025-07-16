@@ -1,0 +1,60 @@
+{
+  "date_produced": "20170713",
+  "publication_number": "US20170213130A1-20170727",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15267346",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Khatri",
+      "inventor_name_first": "Chandra Prakash",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Parikh",
+      "inventor_name_first": "Nish",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Solanki",
+      "inventor_name_first": "Sameep Navin",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "House",
+      "inventor_name_first": "Justin Nicholas",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Singh",
+      "inventor_name_first": "Gyanit",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods and media are provided for training a snippet extractor to create snippets based on information extracted from published descriptions. In one example, a computer-implemented method includes creating, based on a non-RNN (Recurrent Neural Network) extraction technique performed on the published descriptions, a plurality of base models, each base model including one or more sample description summaries; evaluating the base models using an evaluation technique; selecting an optimum base model; developing a classification model using RNN extraction, the classification model based on description summaries contained in the optimum base model; and using the classification model to train the snippet extractor by machine learning.",
+  "filing_date": "20160916",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In the present subject matter, summaries (snippets) are generated for published items using descriptions provided by listers or publishers of that content. A snippet can be a small piece of information or brief extract about a published item. In search engines for example, search snippets include summaries of web pages that help users preview content and decide if they want to investigate further. One objective of the present disclosure is to generate snippets which can be helpful for a user to assess quickly whether he or she is interested in the item. In an e-commerce application (and the present disclosure is not limited to this), this approach can lead to faster purchase decisions and higher conversion rates for a given retailer or marketplace host. In one study, comparative analysis of various snippet generation techniques was performed. In some examples, Recurrent Neural Networks (RNNs) were also used for extraction and abstraction-based summarizations. The training data for RNNs was obtained from the summaries generated using a “topic-signature”-based information retrieval approach and also a so-called “golden dataset” obtained from human curators. Examples of the golden dataset are discussed further below. Topic signatures are the set of words highly descriptive of an input document. For some items, topic signatures correspond to search queries, item aspects, title words, item category words and corresponding synonyms. In one aspect, it was shown that topic signature-based summarization is very effective and leads to significant user engagement (for example, in terms of viewing or purchasing) and conversions for e-commerce items. In another aspect, summaries obtained from this technique were used for building highly scalable language models. It was also determined that there are better techniques than topic signature-based summarization in some examples. This finding can lead to even more user engagement and better quality snippet cr...",
+  "date_published": "20170727",
+  "title": "SNIPPET EXTRACTOR: RECURRENT NEURAL NETWORKS FOR TEXT SUMMARIZATION AT INDUSTRY SCALE",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 84055,
+    "optimized_size": 3966,
+    "reduction_percent": 95.28
+  }
+}

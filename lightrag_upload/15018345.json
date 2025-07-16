@@ -1,0 +1,39 @@
+{
+  "date_produced": "20160518",
+  "publication_number": "US20160155070A1-20160602",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15018345",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hoover",
+      "inventor_name_first": "James",
+      "inventor_city": "Mechanicsburg",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MILLER",
+      "inventor_name_first": "Jeffrey Scott",
+      "inventor_city": "Fairfax Station",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments may include machine learning, including decision tree machine learning. Predictive variables may be selected for the machine learning through an iterative process. Predictive power of the predictive variables and collinearity between the predictive variables may be considered when selecting a set of the predictive variables for the machine learning.",
+  "filing_date": "20160208",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment, a procurement analysis system may include a network interface to interface with one or more data sources over a network to receive procurement data. The system may include a data storage device to store model building data sets determined from the procurement data, and a model generator module, which may be executed by a processor, to determine procurement scoring models from the model building data sets and to store the procurement scoring models in the data storage. The procurement scoring models may include a price risk scoring model, a supplier risk scoring model and an item risk scoring model, and the procurement risk analysis module may determine a scoring scale of scores associated with each procurement scoring model and determine a threshold for each scale identifying a high-risk procurement. The scoring scale and the threshold may be the same for each of the scoring models. The system may also include a procurement risk analysis module, which may be executed by the processor, to determine an evaluation capacity to review bids for a procurement, and to evaluate bids for the procurement based on the procurement scoring models and the evaluation capacity to identify high-risk procurements associated with the evaluated bids. The system may include a dashboard comprised of a graphical user interface to provide illustrations of price risk, supplier risk and item risk for the bids based on the evaluation of the bids. In another embodiment, a procurement analysis system may include a network interface to interface with one or more data sources over a network to receive procurement data, a data storage device to store model building data sets determined from the procurement data, and a model generator module to determine procurement scoring models from the model building data sets and store the models in the data storage. The system may also include a procurement risk analysis module to determine an evaluation capacity ...",
+  "date_published": "20160602",
+  "title": "DECISION TREE MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504",
+    "G06Q3002"
+  ],
+  "_processing_info": {
+    "original_size": 59469,
+    "optimized_size": 3070,
+    "reduction_percent": 94.84
+  }
+}

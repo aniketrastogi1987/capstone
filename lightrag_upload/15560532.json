@@ -1,0 +1,42 @@
+{
+  "patent_number": "None",
+  "application_number": "15560532",
+  "date_published": "20180426",
+  "date_produced": "20180411",
+  "filing_date": "20170922",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Wearable devices that predict the context in which they are used based on previously tracked context data, and methods associated with the same, are provided. A wearable device may include a processor, a sensor that records data associated with a user of the wearable device, and memory storing executable instructions. By way of executing the instructions, the wearable device may receive context data representing a first context from the user. The wearable device may correlate the received context data with a first set of recorded sensor data. A second set of recorded sensor data may be recorded subsequent to recording the first set of recorded sensor data. The wearable device may then predict a second context associated with the second set of recorded sensor data based on the correlation between the context data received from the user and the first set of recorded sensor data. The user can label newly identified contexts.",
+  "publication_number": "US20180114124A1-20180426",
+  "summary": "<SOH> SUMMARY <EOH>Wearable devices that predict the context in which they are used based on previously tracked context data, and methods associated with the same, are provided. Various embodiments described herein are directed to a wearable device comprising: a sensor configured to obtain sensor data descriptive of a physiological parameter of the user; a memory configured to store a plurality of records correlating context data to physiological parameters obtained from sensor data; and a processor configured to: establish a baseline value based on a first set of sensor data obtained from the sensor, compare the baseline value to a second set of sensor data obtained from the sensor to determine whether the second set of sensor data is a change from the first set of sensor data, request user input from the user descriptive of a current context in response to determining that the second set of sensor data is a change from the first set of sensor data, create a record based on the second set of sensor data and the current context, and store the record in the memory as a member of the plurality of records. Various embodiments described herein are directed to a method for training a wearable device to predict a context in which a wearable device is used, the method comprising: establishing a baseline value based on a first set of sensor data obtained from a sensor configured to obtain sensor data descriptive of a physiological parameter of the user, comparing the baseline value to a second set of sensor data obtained from the sensor to determine whether the second set of sensor data is a change from the first set of sensor data, requesting user input from the user descriptive of a current context in response to determining that the second set of sensor data is a change from the first set of sensor data, creating a record based on the second set of sensor data and the current context, and storing the record in a memory as a member of a plurality of records. Various embod...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06F116",
+    "G16H5030",
+    "A61B516",
+    "A61B500"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CRONN",
+      "inventor_name_first": "John",
+      "inventor_city": "Bonita Springs",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CRONIN",
+      "inventor_name_first": "Seth",
+      "inventor_city": "Essex Junction",
+      "inventor_state": "VT",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "LEARNING MODE FOR CONTEXT IDENTIFICATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 84063,
+    "optimized_size": 3673,
+    "reduction_percent": 95.63
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180425",
+  "publication_number": "US20180129960A1-20180510",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15348826",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Caballero",
+      "inventor_name_first": "Maria Luz",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Mingfei",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one embodiment, a method includes accessing identifying information for one or more endpoints of a user. Each of the endpoints corresponds to a particular communication medium. The method also includes calculating a confidence score associated with one or more of the endpoints of the user. The confidence score is calculated based one or more signals associated with the respective endpoint. The method also includes comparing the calculated confidence score to a pre-determined threshold score; and determining the identifying information is currently valid based on the calculated confidence score satisfying the pre-determined threshold score.",
+  "filing_date": "20161110",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF PARTICULAR EMBODIMENTS <EOH>Particular embodiments maintain identifying information for one or more endpoints (e.g., phone number, email address, or mailing address) associated with a user in order to contact and communicate with the user. Over time, such identifying information may become outdated as the endpoints change. For example, the user may have switched their cellphone service from one carrier to another, at which point the user lost their old phone number and was assigned a new phone number. In another example, the user may have changed jobs or graduated from school, at which point the user no longer has access to their work or school email address. In another example, the user may have simply abandoned a particular email address or voice-over-IP (VoIP) phone number after being overwhelmed with spam emails or marketing calls. Therefore, the ability to assess the current status of an endpoint may become important when determining whether to use the endpoint in order to send urgent, important, sensitive, or private information to the user. Particular embodiments may calculate a confidence score representing whether a particular endpoint should be used to communicate with the user. The confidence score may be evaluated based on one or more signals, which may be categorized as either positive signals (e.g., the endpoint should be used to communicate with the user) or negative signals (e.g., the endpoint should not be used to communicate with the user, and perhaps should be dissociated from the user). Furthermore, the positive/negative signals may be categorized as “strong” or “weak” signals. For example, the initial confidence score may be 100% when a user first confirms the identifying information (e.g., confirming a cellphone number by responding with a SMS message to a confirmation request sent to the cellphone number by SMS). In particular embodiments, the confidence score may be periodically evaluated, particularly prior to transmission o...",
+  "date_published": "20180510",
+  "title": "CONTACT INFORMATION CONFIDENCE",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 130596,
+    "optimized_size": 3359,
+    "reduction_percent": 97.43
+  }
+}

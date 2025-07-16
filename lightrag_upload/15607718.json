@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15607718",
+  "date_published": "20180208",
+  "date_produced": "20180124",
+  "filing_date": "20170530",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Methods and systems for selecting a selected-sub-set of features from a plurality of features for training a machine learning module, the training of the machine learning module to enable classification of an electronic document to a target label, the plurality of features associated with the electronic document. In one embodiment, the method comprises analyzing a given training document to extract the plurality of features, and for a given not-yet-selected feature of the plurality of features: generating a set of relevance parameters iteratively, generating a set of redundancy parameters iteratively and determining a feature significance score based on the set of relevance parameters and the set of redundancy parameters. The method further comprises selecting a feature associated with a highest value of the feature significance score and adding the selected feature to the selected-sub-set of features.",
+  "publication_number": "US20180039911A1-20180208",
+  "summary": "<SOH> SUMMARY <EOH>It is an object of the present technology to ameliorate at least some of the inconvenience present in the prior art. Embodiments of the present technology have been developed based on developers' appreciation of at least one technical problem associated with the prior art solutions. Without wishing to be bound by any specific theory, developers of the present technology believe that the traditional approaches to feature selection with mutual information (MI) may not consider or be efficient when interaction of more than three features is contemplated. Additionally, these approaches may not consider features that are relevant together but not as relevant individually to a target label while also taking into account the redundancy between features using a conditional mutual information. Moreover, developers of the present technology believe that the traditional approaches to feature selection may not consider the usage of binary representatives for features, which may allow taking into account the interaction of multiple features. Hence, developers of the present technology address the above-discussed drawbacks associated with the traditional approaches to feature selection by developing a feature selection method using conditional mutual information and taking into account a synergy and a redundancy between a plurality of features. As such, embodiments of the present technology are aimed at generating a subset of features best representing features of a training document to enable the classification of the training document to a target label. The feature selection method may also use binary representatives of features instead of the features. In accordance with a first broad aspect of the present technology, there is provided a computer-implemented method for selecting a selected-sub-set of features from a plurality of features for training a machine learning module, the machine learning module executable by an electronic device, the training of ma...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "BEZZUBTSEVA",
+      "inventor_name_first": "Anastasiya Aleksandrovna",
+      "inventor_city": "Lipetsk",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "SHISHKIN",
+      "inventor_name_first": "Alexandr Leonidovich",
+      "inventor_city": "Kirovo-Chepetsk",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "GUSEV",
+      "inventor_name_first": "Gleb Gennadievich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "DRUTSA",
+      "inventor_name_first": "Aleksey Valyerevich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    }
+  ],
+  "title": "METHOD AND SYSTEM OF SELECTING TRAINING FEATURES FOR A MACHINE LEARNING ALGORITHM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 123331,
+    "optimized_size": 3992,
+    "reduction_percent": 96.76
+  }
+}

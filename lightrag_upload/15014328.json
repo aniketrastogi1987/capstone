@@ -1,0 +1,53 @@
+{
+  "date_produced": "20160720",
+  "publication_number": "US20160224891A1-20160804",
+  "main_ipcr_label": "G06N308",
+  "decision": "ACCEPTED",
+  "application_number": "15014328",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kao",
+      "inventor_name_first": "Jonathan C.",
+      "inventor_city": "Stanford",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pandarinath",
+      "inventor_name_first": "Chethan",
+      "inventor_city": "E Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nuyujukian",
+      "inventor_name_first": "Paul",
+      "inventor_city": "Stanford",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shenoy",
+      "inventor_name_first": "Krishna V.",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A brain machine interface (BMI) for restoring performance of poorly performing decoders is provided. The BMI has a decoder for decoding neural signals for controlling the brain machine interface. The decoder separates in part neural signals associated with a direction of movement and neural signals associated with a speed of movement of the brain machine interface. The decoder assigns relatively greater weight to the neural signals associated with a direction of movement.",
+  "filing_date": "20160203",
+  "patent_number": "9471870",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In one embodiment of the invention a method is provided for artificial control of a prosthetic device (e.g. a robotic limb, a computer cursor, or the like). A brain machine interface is stored on a computer-readable medium and executable by a computer. The brain machine interface contains a mapping from neural signals to corresponding intention estimating kinematics of a limb trajectory. The intention estimating kinematics includes positions and velocities. The neural signals are signals from cortical neurons related to volitional tasks. The prosthetic device is controlled by the stored brain machine interface using recorded neural signals as input to the brain machine interface and the stored mapping of the brain machine interface to determine the intention estimating kinematics. The determined intention estimating kinematics then controls the prosthetic device and results in an executed movement of the prosthetic device. During the control of the prosthetic device, a modified brain machine interface is developed by modifying (and storing by the computer) the vectors of the velocities defined in the brain machine interface. Each of the modifications of the velocity vectors includes changing the direction of the velocity vector towards an end target of the executed movement of the prosthetic device. Once on target, the velocity is set to zero. In one example, the velocity vectors are modified and stored at discrete intervals over the course of the executed movement of the prosthetic device. The modified brain machine interface includes a new mapping of the neural signals and the intention estimating kinematics that can now be used to control the prosthetic device using recorded neural brain signals from a user of the prosthetic device. In one example, the intention estimating kinematics of the original and modified brain machine interface includes a Kalman filter modeling velocities as intentions and positions as feedback. In anot...",
+  "date_published": "20160804",
+  "title": "Brain-Machine Interface Utilizing Interventions to Emphasize Aspects of Neural Variance and Decode Speed and Angle",
+  "ipcr_labels": [
+    "G06N308",
+    "A61F272",
+    "A61B504"
+  ],
+  "_processing_info": {
+    "original_size": 58738,
+    "optimized_size": 3560,
+    "reduction_percent": 93.94
+  }
+}

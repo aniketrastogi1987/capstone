@@ -1,0 +1,47 @@
+{
+  "date_produced": "20170603",
+  "publication_number": "US20170169329A1-20170615",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15214380",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Doniwa",
+      "inventor_name_first": "Kenichi",
+      "inventor_city": "Asaka Saitama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Haruki",
+      "inventor_name_first": "Kosuke",
+      "inventor_city": "Tachikawa Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Ozawa",
+      "inventor_name_first": "Masahiro",
+      "inventor_city": "Akishima Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "According to one embodiment, a server is included in a system which also includes a second server and a third server. The server also configured to specify, from a search range of the parameters, a first combination of first initial parameters and a second combination of second initial parameters, using a search method based on a uniform distribution, and to specify, from a search range of the parameters, a third combination of third parameters, based on the first and second learning results and using a search method based on a probability distribution.",
+  "filing_date": "20160719",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>A general architecture that implements the various features of the embodiments will now be described with reference to the drawings. The drawings and the associated descriptions are provided to illustrate the embodiments and not to limit the scope of the invention. FIG. 1 is a block diagram showing a specific configuration of a hyper-parameter search system according to an embodiment. FIG. 2 is a block diagram showing a specific configuration of a server used in the system of FIG. 1 . FIG. 3 is a block diagram s showing a specific configuration of a manager used in the system of FIG. 1 . FIG. 4 is a view showing the hierarchical structure of the system shown in FIG. 1 and examples of hyper-parameters. FIG. 5 is a flowchart showing processing performed by the manager of the system shown in FIG. 1 . FIG. 6 is a flowchart showing processing performed by a worker of the system shown in FIG. 1 . FIG. 7 is a flowchart showing processing performed when the worker in the system shown in FIG. 1 includes an interrupt function. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170615",
+  "title": "SERVER, SYSTEM AND SEARCH METHOD",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1730",
+    "H04L2908",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 29392,
+    "optimized_size": 2566,
+    "reduction_percent": 91.27
+  }
+}

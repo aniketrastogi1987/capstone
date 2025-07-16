@@ -1,0 +1,69 @@
+{
+  "patent_number": "nan",
+  "application_number": "15846044",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "filing_date": "20171218",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A system for hybrid approach to natural language understanding is provided, comprising a machine learning configured to create a new natural language understanding model from user-provided examples, and provide a natural language understanding model dataset to other components of the system; an integrated development environment configured to retrieve the natural language understanding model dataset, and publish a hybrid runtime solution; and an interaction engine configured to: retrieve the hybrid runtime solution, receive a natural language input, and process the natural language input and generate a log dataset; wherein, the log dataset may be used to retrain and improve existing models.",
+  "publication_number": "US20180089572A1-20180329",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Accordingly, the inventor has conceived, and reduced to practice, a system and method for a hybrid approach for developing, optimizing, and executing conversational interaction applications. The invention presented herein relates to a system with an underlying rule-based approach that has overcome many of the problems (see co-owned U.S. Pat. No. 8,346,563, titled “SYSTEM AND METHODS FOR DELIVERING ADVANCED NATURAL LANGUAGE INTERACTION APPLICATIONS”; U.S. Pat. No. 8,892,419, titled “SYSTEM AND METHODS FOR SEMIAUTOMATIC GENERATION AND TUNING OF NATURAL LANGUAGE INTERACTION APPLICATIONS”; and U.S. Pat. No. 8,903,711, titled “SYSTEM AND METHODS FOR SEMIAUTOMATIC GENERATION AND TUNING OF NATURAL LANGUAGE INTERACTION APPLICATIONS”, the entire specifications of each of which are incorporated herein by reference) with rule-based approaches to conversational application development, for example by making it less time-consuming and overwhelming to write rules, allowing for automatic generation and ordering of natural language understanding (NLU) from pre-built building blocks for NLU (so called Language objects) trained on data that capture the wide variation of expressiveness in language as well as allowing for non-experts to re-use these building blocks to more easily build natural language interaction or conversational interaction applications. The invention presented here discloses a hybrid method to natural language understanding for conversational systems that benefits from the advantages of both rule-based and data-driven approaches while avoiding most of the problems these approaches come with. The invention strives towards achieving an NLU-based conversational application that may allow for fine-grained precision in interpreting the user inputs, while being robust to errors and variety in order to achieve higher recognition rates and more accurate, precise results. The method proposed may allow conversational applications to go bot...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900",
+    "G06F1730",
+    "G06F1724",
+    "G06F1727"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Aili",
+      "inventor_name_first": "Eric",
+      "inventor_city": "Huddinge",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "Jonsson",
+      "inventor_name_first": "Rebecca",
+      "inventor_city": "Barcelona",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    },
+    {
+      "inventor_name_last": "Uittenhout",
+      "inventor_name_first": "Siem",
+      "inventor_city": "Utrecht",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "Walters",
+      "inventor_name_first": "Gareth",
+      "inventor_city": "Cheltenham",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Wieweg",
+      "inventor_name_first": "Andreas",
+      "inventor_city": "Stockholm",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "Willering",
+      "inventor_name_first": "Lucas",
+      "inventor_city": "Utrecht",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    }
+  ],
+  "title": "HYBRID APPROACH FOR DEVELOPING, OPTIMIZING, AND EXECUTING CONVERSATIONAL INTERACTION APPLICATIONS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 119163,
+    "optimized_size": 4085,
+    "reduction_percent": 96.57
+  }
+}

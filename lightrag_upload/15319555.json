@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15319555",
+  "date_published": "20180726",
+  "date_produced": "20180711",
+  "title": "MODEL GENERATION METHOD, WORD WEIGHTING METHOD, DEVICE, APPARATUS, AND COMPUTER STORAGE MEDIUM",
+  "filing_date": "20161216",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ZOU",
+      "inventor_name_first": "Hongjian",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "FANG",
+      "inventor_name_first": "Gaolin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06F1518"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>In view of the above, the present invention provides a model generation method, word weighting method, device, apparatus, and computer storage medium, which improves the accuracy of the word weighting result of the words in the text of an image, and thus improves the accuracy of image search results. One aspect of embodiments of the present invention provides a model generation method, comprising: obtaining other images that are identical to a specified image, and using the specified image and said other images as sample images; obtaining a text clustering based on the texts of the sample images; obtaining text features based on the text clustering and obtaining visual features based on the sample images; carrying out machine learning based on the text features and the visual features to generate a first regression model and a first sorting model. As the aforementioned aspects and any possible implementations, an implementation is further provided, wherein the step of obtaining other images that are identical to a specified image comprises: obtaining signatures of the specified image and respective candidate images; obtaining similarity degrees between the specified image and the respective candidate images based on the signatures of the specified image and the respective candidate images; extracting candidate images whose similarity degrees are greater than or equal to a preset similarity threshold as other images that are identical to the specified image. As the aforementioned aspects and any possible implementations, an implementation is further provided, wherein prior to the step of obtaining text features based on the text clustering and obtaining visual features based on the sample images, the method further comprises: filtering the texts in the text clustering based on at least one of: authoritative data of the sites or pages where the respective sample images are located, time information of the pages where the respective sample images are...",
+  "patent_number": "None",
+  "abstract": "The present invention provides a model generation method, word weighting method, device, apparatus, and computer storage medium. In one aspect, the embodiments of the present invention obtain other images that are identical to a specified image, and use the specified image and said other images as sample images; and then obtain a text clustering based on the texts of the sample images; and then obtain text features based on the text clustering and obtaining visual features based on the sample images; and carry out machine learning based on the text features and the visual features to generate a first regression model and a first sorting model for word weighting on words in the text of an image. The embodiments of the present invention therefore can improve the accuracy of the word weighting result in an image text, thus improving the accuracy of an image search result.",
+  "publication_number": "US20180210897A1-20180726",
+  "_processing_info": {
+    "original_size": 79593,
+    "optimized_size": 3614,
+    "reduction_percent": 95.46
+  }
+}

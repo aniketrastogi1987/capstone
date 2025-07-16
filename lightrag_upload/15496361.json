@@ -1,0 +1,30 @@
+{
+  "patent_number": "None",
+  "application_number": "15496361",
+  "date_published": "20180104",
+  "date_produced": "20171219",
+  "filing_date": "20170425",
+  "main_ipcr_label": "G06N308",
+  "abstract": "An information processing apparatus includes a pooling layer and a convolution layer. The pooling layer acquires, information on an error gradient including a plurality of elements from an upper layer. The convolution layer specifies, when computing a value of one element included in a weight gradient, an area corresponding to the one element among from a plurality of elements included information acquired from a lower layer, and divides the specified area having elements into a plurality of partial areas. The convolution layer computes, for each of the partial areas, a value based on one or more total values of the elements included in the one or more partial areas and a value of one of the elements of the error gradient corresponding to the corresponding partial area, and totalizes the computed values to execute a process for computing the value of the one element.",
+  "publication_number": "US20180005113A1-20180104",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of an embodiment, an information processing apparatus includes a processor that executes a process including acquiring, in a pooling layer, information on an error gradient including a plurality of elements from an upper layer, when computing a learning value of a learning network including a plurality of layers; performing, in a convolution layer, cumulative additions on a plurality of elements included in the information in a lateral direction and a longitudinal direction to convert the information into an integrated image, when acquiring information from a lower layer; specifying, in the convolution layer, an area corresponding to the one element among from a plurality of elements included in the integrated image, when computing a value of one element included in a weight gradient; dividing, in the convolution layer, the specified area having elements into a plurality of partial areas; first computing, in the convolution layer, total values of elements included in the respective partial areas based on characteristics of the integrated image; second computing, in the convolution layer, for each of the partial areas, a value based on the one or more total values of the elements included in the one or more partial areas and a value of one of the elements of the error gradient corresponding to the corresponding partial area; and totalizing, in the convolution layer, the computed values to execute a process for computing the value of the one element. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the invention, as claimed.",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kasagi",
+      "inventor_name_first": "Akihiko",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION PROCESSING APPARATUS, NON-TRANSITORY COMPUTER-READABLE STORAGE MEDIUM, AND LEARNING-NETWORK LEARNING VALUE COMPUTING METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 77628,
+    "optimized_size": 3357,
+    "reduction_percent": 95.68
+  }
+}

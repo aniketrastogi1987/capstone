@@ -1,0 +1,40 @@
+{
+  "patent_number": "9734447",
+  "application_number": "15497398",
+  "date_published": "20170810",
+  "date_produced": "20170726",
+  "filing_date": "20170426",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A computer system computes a score for a received data exchange and, in accordance with a neural network and input variables determined by received current exchange and history data, the computed score indicates a condition suitable for a denial. A set of attribution scores are computed using an Alternating Decision Tree model in response to a computed score that is greater than a predetermined score threshold value for the denial. The computed score is provided to an assessment unit and, if the computed score indicates a condition suitable for the denial and if attribution scores are computed, then a predetermined number of input variable categories from a rank-ordered list of input variable categories is also provided to the assessment unit of the computer system.",
+  "publication_number": "US20170228635A1-20170810",
+  "summary": "<SOH> SUMMARY <EOH>This disclosure describes a computer system that computes a score for a received data exchange and, in accordance with a neural network and input variables determined by received current exchange and history data, the computed score indicates a condition suitable for a denial. A set of attribution scores are computed using an Alternating Decision Tree model in response to a computed score that is greater than a predetermined score threshold value for the denial. The computed score is provided to an assessment unit and, if the computed score indicates a condition suitable for the denial and if attribution scores are computed, then a predetermined number of input variable categories from a rank-ordered list of input variable categories is also provided to the assessment unit of the computer system. The disclosure further describes a computer system comprising a processor and a non-transitory computer-readable storage medium that includes instructions that are configured to be executed by the processor such that, when executed, the instructions cause the computer system to perform operations including: receiving data in connection with a data exchange received at a system relating to a record associated with a record owner; retrieving history data from a data storage, wherein the history data relates to a history of the record associated with the record owner; determining a set of input variables in response to the received data and the retrieved history data; computing a score in connection with the record to which the received data relates, in accordance with a neural network and the determined input variables, wherein the computed score provides an indication of the record being in a compromised condition; computing a set of attribution scores using an Alternating Decision Tree model, in response to a computed score that is greater than a predetermined score threshold value, in accordance with the input variables; producing an Alternating Decision...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N504",
+    "H04L2908",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Diev",
+      "inventor_name_first": "Vesselin",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Duke",
+      "inventor_name_first": "Brian Lee",
+      "inventor_city": "Poway",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "GENERATING ACCURATE REASON CODES WITH COMPLEX NON-LINEAR MODELING AND NEURAL NETWORKS",
+  "decision": "ACCEPTED",
+  "_processing_info": {
+    "original_size": 149352,
+    "optimized_size": 3532,
+    "reduction_percent": 97.64
+  }
+}

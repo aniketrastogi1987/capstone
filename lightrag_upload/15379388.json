@@ -1,0 +1,32 @@
+{
+  "date_produced": "20170603",
+  "publication_number": "US20170169346A1-20170615",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15379388",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rinkus",
+      "inventor_name_first": "Gerard John",
+      "inventor_city": "Newton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The invention is methods and apparatus for: a) performing nonlinear time warp invariant sequence recognition using a back-off procedure; and b) recognizing complex sequences, using physically embodied computer memories that represent information using a sparse distributed representational (SDR) format. Recognition of complex sequences often requires that multiple equally plausible hypotheses (multiple competing hypotheses, MCHs) can be simultaneously physically active in memory until disambiguating information arrives whereupon only hypotheses that are consistent with the new information are active. The invention is the first description of both back-off and MCH-handling methods in combination with representing information using a sparse distributed representation (SDR) format.",
+  "filing_date": "20161214",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Sequence recognition systems (e.g., Sparsey) often operate on input sequences that include variability such as when errors are introduced into the data. Some embodiments are directed to techniques for accounting for such variability in input sequences processed by the system. For example, rather than considering the contribution of all input sources, some embodiments relate to a back-off technique that selectively disregards one or more input (evidence) sources to account for added or omitted items in an input sequence. In the examples that follow the macs are mandated to operate in retrieval mode. That is, regardless of which version of G it ultimately uses (i.e., “backs off to”), the system attempts to activate the code of the most closely matching stored sequence. In one envisioned usage, the back-off technique described herein operates only when the machine is in the overall mandated retrieval mode. Some embodiments relate to methods and apparatus for considering different combinations of evidence sources to activate the codes of hypotheses that are most consistent with the total evidence input over the course of a sequence and with respect to learned statistics of an input space. Such embodiments introduce a general nonlinear time warp invariance capability in a sequence recognition system by evaluating a sequence of progressively lower-order estimates of a similarity distribution over the codes stored in a Sparsey mac. An “order” of an estimate refers to the number of evidence sources (factors) used in computing that estimate. Determining whether to analyze next lower-order estimates may be dependent upon the relation of a function of the estimates at a higher order to prescribed thresholds. In some embodiments, as lower-order estimates are evaluated, the thresholds may be increased to at least partially mitigate the risk of overgeneralization. More generally, the threshold used may be specific to the set of evidence sources...",
+  "date_published": "20170615",
+  "title": "Methods and Apparatus for Sequence Recognition Using Sparse Distributed Codes",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 129784,
+    "optimized_size": 3399,
+    "reduction_percent": 97.38
+  }
+}

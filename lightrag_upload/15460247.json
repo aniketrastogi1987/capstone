@@ -1,0 +1,47 @@
+{
+  "patent_number": "None",
+  "application_number": "15460247",
+  "date_published": "20170629",
+  "date_produced": "20170614",
+  "filing_date": "20170316",
+  "main_ipcr_label": "G06N700",
+  "abstract": "A method for predicting information propagation in a social network includes acquiring target information to be predicted, and acquiring influences of K clusters, where the target information is posted or forwarded by a first user at a first moment, and K is a positive integer; determining a role probability distribution of the first user, and determining a second user who has not propagated the target information, where the role probability distribution of the first user is used to indicate probabilities that the first user belongs separately to the K clusters; and determining, according to the influences of the K clusters and the role probability distribution of the first user, a probability that the second user forwards the target information from the first user. In the embodiments of the present application, propagation of target information in a social network can be predicted by using influences of K clusters.",
+  "publication_number": "US20170185908A1-20170629",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present application provide a method for predicting information propagation in a social network, where the method has high computational efficiency. According to a first aspect, a method for predicting information propagation in a social network is provided, where the method includes: acquiring target information to be predicted, and acquiring influences of K clusters, where the target information is posted or forwarded by a first user, the K clusters are used to indicate K categories of characteristic attributes of users, the influences of the K clusters include information propagation success rates of the K clusters, and K is a positive integer; determining a role probability distribution of the first user, and determining a second user who has not propagated the target information, where the role probability distribution of the first user is used to indicate probabilities that the first user belongs separately to the K clusters; and determining, according to the influences of the K clusters and the role probability distribution of the first user, a probability that the second user forwards the target information from the first user. With reference to the first aspect, in a first possible implementation manner of the first aspect, the target information is posted or forwarded by the first user at an initial moment, and the method further includes outputting an account of the second user who meets a preset condition, where the preset condition is that the probability of forwarding the target information is greater than a preset probability threshold. With reference to the first aspect or the first possible implementation manner of the first aspect, in a second possible implementation manner of the first aspect, before the acquiring target information to be predicted, and acquiring influences of K clusters, the method further includes: acquiring an information propagation record, a user relationship database, and a user characte...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N502",
+    "G06N9900",
+    "G06Q5000"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Yang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Leung",
+      "inventor_name_first": "Wing Ki",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Tang",
+      "inventor_name_first": "Jie",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "METHOD AND DEVICE FOR PREDICTING INFORMATION PROPAGATION IN SOCIAL NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 125016,
+    "optimized_size": 3801,
+    "reduction_percent": 96.96
+  }
+}

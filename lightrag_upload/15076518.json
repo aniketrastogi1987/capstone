@@ -1,0 +1,38 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15076518",
+  "date_published": "20170420",
+  "date_produced": "20170405",
+  "title": "CAMERA ARRAY FOR PERFORMING NON-LOCAL MEANS IMAGE PROCESSING OVER MULTIPLE SEQUENTIAL IMAGES",
+  "filing_date": "20160321",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Milshteyn",
+      "inventor_name_first": "Kostyantyn",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Musatenko",
+      "inventor_name_first": "Yuriy",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T500",
+    "G06T550"
+  ],
+  "main_ipcr_label": "G06T500",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>In at least some embodiments, the present invention relates to a method that includes gathering a plurality of sequential image sets from a scene. The plurality of sequential image sets includes at least a main sequential image set and one or more additional sequential image sets. The main sequential image set includes a plurality of main images comprising a main central image that is at or proximate to a temporal midpoint of the set, and one or more remaining main images. The one or more additional sequential image sets each include a plurality of additional images comprising an additional central image that is at or proximate to a temporal midpoint of the set, and one or more additional remaining images. A first patch is defined as including a first plurality of contiguous pixels in the main central image that surrounds or adjoins a first target pixel of the main central image. A plurality of second patches is defined as including a set of positions corresponding to the first patch within the one or more remaining main images and the plurality of additional images, wherein a single frame of reference is applied to each of the plurality of main images and each of the plurality of additional images. The single frame of reference includes an x-axis and a y-axis, such that a set of x and y coordinates specifying the first target pixel within the main central image also specifies a substantially identical position within each of the remaining main images and each of the plurality of additional images. A set of patch similarity weights is determined by comparing the first patch to each of the plurality of second patches. The set of patch similarity weights is applied to the first target pixel to provide a filtered pixel value for the first target pixel. The foregoing procedure is repeated for at least one additional target pixel of the main central image until a set of filtered pixel values are provided for substantially all pix...",
+  "patent_number": "None",
+  "abstract": "Gathering a plurality of sequential image sets from a scene. The sets include a main sequential image set and one or more additional sequential image sets. The main sequential image set includes a main central image that is near a temporal midpoint of the set, and one or more remaining main images. The additional sequential image sets each include a plurality of additional images comprising an additional central image and one or more additional remaining images. The one or more remaining main images and the plurality of additional images are used to perform filtering of the main central image to provide a filtered main central image having an enhanced signal-to-noise ratio.",
+  "publication_number": "US20170109867A1-20170420",
+  "_processing_info": {
+    "original_size": 77650,
+    "optimized_size": 3435,
+    "reduction_percent": 95.58
+  }
+}

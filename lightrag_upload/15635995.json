@@ -1,0 +1,51 @@
+{
+  "patent_number": "None",
+  "application_number": "15635995",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "filing_date": "20170628",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A computer-implemented method for simultaneous metric learning and variable selection in non-linear regression is presented. The computer-implemented method includes introducing a dataset and a target variable, creating a univariate neighborhood probability map for each reference point of the dataset, and determining a pairwise distance between each reference point and other points within the dataset. The computer-implemented method further includes computing a Hessian matrix of a quadratic programming (QP) problem, performing optimization of the QP problem, re-weighing data derived from the optimization of the QP problem, and performing non-linear regression on the re-weighed data.",
+  "publication_number": "US20180075370A1-20180315",
+  "summary": "<SOH> SUMMARY <EOH>A computer-implemented method for simultaneous metric learning and variable selection in non-linear regression is presented. The method includes introducing a dataset and a target variable, creating a univariate neighborhood probability map for each reference point of the dataset, and determining a pairwise distance between each reference point and other points within the dataset. The method further includes, based on determined pairwise distances, computing a Hessian matrix of a quadratic programming (QP) problem, performing optimization of the QP problem, re-weighing data derived from the optimization of the QP problem, and performing non-linear regression on the re-weighed data. A system for simultaneous metric learning and variable selection in non-linear regression is presented. The system includes a memory and a processor in communication with the memory, wherein the processor is configured to introduce a dataset and a target variable, create a univariate neighborhood probability map for each reference point of the dataset, determine a pairwise distance between each reference point and other points within the dataset, based on determined pairwise distances, compute a Hessian matrix of a quadratic programming (QP) problem, perform optimization of the QP problem, re-weigh data derived from the optimization of the QP problem, and perform non-linear regression on the re-weighed data. A non-transitory computer-readable storage medium including a computer-readable program for simultaneous metric learning and variable selection in non-linear regression is presented, wherein the computer-readable program when executed on a computer causes the computer to perform the steps of introducing a dataset and a target variable, creating a univariate neighborhood probability map for each reference point of the dataset, and determining a pairwise distance between each reference point and other points within the dataset. The non-transitory computer-readable sto...",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cheng",
+      "inventor_name_first": "Wei",
+      "inventor_city": "NY",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Haifeng",
+      "inventor_city": "West Windsor",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jiang",
+      "inventor_name_first": "Guofei",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Kai",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "MINING NON-LINEAR DEPENDENCIES VIA A NEIGHBORHOOD MIXTURE MODEL",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 47104,
+    "optimized_size": 3672,
+    "reduction_percent": 92.2
+  }
+}

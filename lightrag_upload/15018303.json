@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170726",
+  "publication_number": "US20170228647A1-20170810",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15018303",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Brunner",
+      "inventor_name_first": "Ralph",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Human Computer Interfaces (HCl) may allow a user to interact with a computer via a variety of mechanisms, such as hand, head, and body gestures. Various of the disclosed embodiments allow information captured from a depth camera on an HCl system to be used to recognize such gestures. Particularly, the HCl system's depth sensor may capture depth frames of the user's movements over time. To discern gestures from these movements, the system may group portions of the user's anatomy represented by the depth data into classes. “Features” which reflect distinguishing features of the user's anatomy may be used to accomplish this classification. Some embodiments provide improved systems and methods for generating and/or selecting these features. Features prepared by various of the disclosed embodiments may be less susceptible to overfitting training data and may more quickly distinguish portions of the user's anatomy.",
+  "filing_date": "20160208",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Various of the embodiments introduced herein may be better understood by referring to the following Detailed Description in conjunction with the accompanying drawings, in which like reference numerals indicate identical or functionally similar elements: FIG. 1 is a series of use case diagrams illustrating various situations in which various of the disclosed embodiments may be implemented; FIG. 2 is a series of perspective and side views of example depth data as may be used in some embodiments; FIG. 3 is a series of views illustrating data isolation via plane clipping as may be applied to the depth data of FIG. 2 in some embodiments; FIG. 4 is an example component classification as may be applied to the isolated data of FIG. 3 in some embodiments; FIG. 5 is a flow diagram illustrating some example depth data processing operations as may be performed in some embodiments; FIG. 6 is a hardware block diagram illustrating an example hardware implementation which may be used to perform depth data processing operations in some embodiments; FIG. 7 is a representation of pixels in an example depth data frame as may be acquired by a depth sensor in some embodiments; FIG. 8 illustrates several example features on a pixel grid as may be used in some embodiments; FIG. 9 illustrates the use of features in relation to a depth frame resolution pyramid as may be used in some embodiments; FIG. 10 illustrates an example use of features to generate a classification tree as may occur in some embodiments; FIG. 11 illustrates an example forest generated from a training set of projected depth images as may occur in some embodiments; FIG. 12 is a flow diagram illustrating operations in an example forest generation process as may occur in some embodiments; FIG. 13 is a plot of a random, uniformly distributed collection of feature endpoints as may be used in some systems; FIG. 14 is a plot of a random, Gaussian distribution of feature endpoints as m...",
+  "date_published": "20170810",
+  "title": "DEPTH-BASED FEATURE SYSTEMS FOR CLASSIFICATION APPLICATIONS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1710"
+  ],
+  "_processing_info": {
+    "original_size": 66722,
+    "optimized_size": 3492,
+    "reduction_percent": 94.77
+  }
+}

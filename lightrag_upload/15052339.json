@@ -1,0 +1,39 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15052339",
+  "date_published": "20161020",
+  "date_produced": "20161005",
+  "title": "Systems and Methods for Allocating Online Resources",
+  "filing_date": "20160224",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BOOKMAN",
+      "inventor_name_first": "PETER G.",
+      "inventor_city": "HUNTSVILLE",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ASTHANA",
+      "inventor_name_first": "ANANT DAKSH",
+      "inventor_city": "COTTONWOOD HEIGHTS",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L12911",
+    "G06F9455",
+    "G06F950"
+  ],
+  "main_ipcr_label": "H04L12911",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments are described herein that generally relate to methods and systems for allocating resources between a plurality of virtual computers. In a broad aspect, at least one embodiment described herein provides a method of managing online resource allocation between a plurality of virtual computers. The method can include providing a plurality of resources via a host server, the plurality of resources being accessible to the plurality of virtual computers. Each virtual computer in the plurality of virtual computers can be linked to electronically communicate with the host server. The method can also include defining a plurality of resource pools for the host server, where each resource pool in the plurality of resource pools defines an associated group of resources selected from the plurality of resources and excludes other resources in the plurality of resources, and assigning each virtual computer in the plurality of virtual computers to an associated resource pool in the plurality of resource pools. Then, for each virtual computer in the plurality of virtual computers, automatically providing, by the host server, that virtual computer with access to the associated group of resources corresponding to the associated resource pool to which that virtual computer was assigned and excluding access to all other resources in the plurality of resources to that virtual computer. The method can also include for each resource pool: determining, by the host server, a pool usage profile by monitoring the usage, by the virtual computers assigned to that resource pool, of the resources in the associated group of resources corresponding to that resource pool and storing the determined pool usage profile in a storage module accessible by the host server. In some embodiments, the described methods may further include defining a plurality of resource kinds for providing a plurality of different functions, each resource kind in the plurality of resource ...",
+  "patent_number": "9531639",
+  "abstract": "Various embodiments are described herein for methods and systems for managing online resource allocation between a plurality of virtual computers. A plurality of resources can be provided via a host server. The host server can define a plurality of resource pools, where each resource pool defines an associated group of resources. Each virtual computer can be assigned to an associated resource pool. The host server can then automatically provide access for each virtual computer to the group of resources corresponds to the resource pool to which they were assigned. The host server can then determine a pool usage profile by monitoring the usage of the resources in the resource pools and store the pool usage profile. The pool usage profile may be used to re-define the resource pools or re-assign virtual computers.",
+  "publication_number": "US20160308783A1-20161020",
+  "_processing_info": {
+    "original_size": 145801,
+    "optimized_size": 3558,
+    "reduction_percent": 97.56
+  }
+}

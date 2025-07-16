@@ -1,0 +1,33 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15154176",
+  "date_published": "20160901",
+  "date_produced": "20160817",
+  "title": "METHODS, APPARATUSES AND COMPUTER PROGRAM PRODUCTS FOR AUTOMATED LEARNING OF DATA MODELS",
+  "filing_date": "20160513",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sabbouh",
+      "inventor_name_first": "Marwan Badawi",
+      "inventor_city": "Chelmsford",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F944",
+    "G06F2162",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A method, apparatus and computer program product are therefore provided for facilitating automated learning of a data model for usage in a cloud system. In this regard, an example embodiment may. An example embodiment may provide an approach that may alleviate the need for a developer to develop a data model within a development environment. Rather than developing the data model in a development environment, an example embodiment may utilize one or more Rest APIs interacting with the development environment in order to store data associated with the Rest API(s). In an instance in which an example embodiment determines that a sufficient sample of the data has been stored such as, for example, in a cloud system, a tool may be run or executed that analyzes the sample data stored which may be utilized in part to create the data model. Once the data model, such as, for example, a type, is created, an example embodiment may configure the development environment to validate instances of a type. At this point, the functioning of the development environment may be the same as that of the production environment. In one example embodiment, a method for generating a data model is provided. The method may include receiving one or more requests from one or more communication devices or one or more applications. The method may further include analyzing one or more instances of data of the requests, in part, to generate at least one index. The method may further include automatically generating a data model, in a development environment, based at least in part on the data in the index. The data model may include one or more definitions defining valid types of instances of data designated for validation of one or more received instances of data. In another example embodiment, an apparatus for generating a data model is provided. The apparatus may include a processor and at least one memory including computer program code. The memory and computer program code...",
+  "patent_number": "9811605",
+  "abstract": "An apparatus includes a processor and memory storing executable computer program code causing the apparatus to at least receive requests from communication devices or applications, a request of the requests associated with requester credentials; analyze instances of data of the requests based at least in part on a comparison of the requester credentials and credentials of a creator of the instances of data; generate an index based at least in part on the analysis of the instances of data of the requests, wherein the index comprises an instance of type access control determined based at least in part on the comparison; and automatically generate a data model, in a development environment, based at least in part on data in the index, the data model comprises definitions defining access control for instances of data designated for validation of received instances of data. Corresponding methods and computer program products are also provided.",
+  "publication_number": "US20160255093A1-20160901",
+  "_processing_info": {
+    "original_size": 101598,
+    "optimized_size": 3579,
+    "reduction_percent": 96.48
+  }
+}

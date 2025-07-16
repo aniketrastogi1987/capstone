@@ -1,0 +1,69 @@
+{
+  "date_produced": "20161012",
+  "publication_number": "US20160314399A1-20161027",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15051165",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mullins",
+      "inventor_name_first": "Brian",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DeLand",
+      "inventor_name_first": "Matt",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ferdowsi",
+      "inventor_name_first": "Zahra",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lang",
+      "inventor_name_first": "Stephen",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stokvis",
+      "inventor_name_first": "John",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Finn",
+      "inventor_name_first": "Nolan",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Provided herein are systems, methods and computer readable media for classifying a provider of products, services or experiences as a provider that should be engaged based on a predicted return rate for any products, services or experiences that may be offered and purchased by a consumer. An example method may comprise supplying a classifying model with a dataset, wherein the dataset comprises an identification of a provider and a plurality of attributes corresponding to the provider and identifying a class of the provider in accordance with the plurality of corresponding attributes, wherein the identification is determined based on one or more patterns determinative of a return rate by the classifying model.",
+  "filing_date": "20160223",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In general, embodiments of the present invention provided herein include systems, methods and computer readable media for calculating a provider quality score. In one embodiment, a method for classifying providers based on a return rate of a provider is provided, the method may comprise supplying a classifying model with a dataset, wherein the dataset comprises an identification of a provider and a plurality of attributes corresponding to the provider, and identifying a class of the provider in accordance with the plurality of corresponding attributes, wherein the identification is determined based on one or more patterns determinative of a return rate by the classifying model. In another embodiment, the classifying model is a support vector machine. In another embodiment, the method may further comprise determining which one of a plurality of classifying models to utilize based on available attribute data. In another embodiment, the corresponding attributes are assembled from one or more of (1) internal data, (2) external data, and (3) web data. In another embodiment, the method may further comprise generating the plurality of attributes by normalizing a plurality of raw data. In another embodiment, the corresponding attributes comprises one or more of category data, sub-category data, and competitor feature data. In another embodiment, the corresponding attributes may comprise one or more of time data, financial stability risk data, median credit data, count of judgment data, and risk level data. In another embodiment, the corresponding attributes comprise web data. In another embodiment a method for training a classifying model is provided, the method may comprise supplying a classifying model with a dataset, wherein the dataset comprises an identification of one or more providers, a plurality of attributes corresponding to the one or more providers and a historical return rate that corresponds to a promotion provided by the one or more p...",
+  "date_published": "20161027",
+  "title": "METHOD, APPARATUS, AND COMPUTER PROGRAM PRODUCT FOR DETERMINING A PROVIDER RETURN RATE",
+  "ipcr_labels": [
+    "G06N504",
+    "G06Q3002",
+    "G06Q4000",
+    "G06N9900",
+    "G06Q1006"
+  ],
+  "_processing_info": {
+    "original_size": 106439,
+    "optimized_size": 4064,
+    "reduction_percent": 96.18
+  }
+}

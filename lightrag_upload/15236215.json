@@ -1,0 +1,66 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364803A1-20171221",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15236215",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Calmon",
+      "inventor_name_first": "Flavio D.",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Heath, III",
+      "inventor_name_first": "Fenno F.",
+      "inventor_city": "Woodbridge",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hull",
+      "inventor_name_first": "Richard B.",
+      "inventor_city": "Chatham",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Khabiri",
+      "inventor_name_first": "Elham",
+      "inventor_city": "Briarcliff Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Riemer",
+      "inventor_name_first": "Matthew D.",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vempaty",
+      "inventor_name_first": "Aditya",
+      "inventor_city": "Elmsford",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method and system are provided to calculate a future behavioral data and identify a relative causal impact of external factors affecting the data. Behavioral data and data for one or more external factors are harvested for a first time period. New behavioral data is harvested for a second time period. New data for the second time period is harvested. Based on a second training algorithm, a forecast time series value of a future behavioral data for a third time period that is after the second time period is calculated. A relative causal impact between each external factor and the predicted time series value of the behavioral data, for the third time period, is identified.",
+  "filing_date": "20160812",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to various exemplary embodiments, a computing device, a non-transitory computer readable storage medium, and a method are provided to calculate future behavioral data and identify a relative causal impact of external factors affecting the data. Behavioral data as a first set of one or more time series for a first time period is harvested by a computing device. One or more external factors as a second set of one or more time series of the first time period are harvested. New behavioral data as a continuation of the first set of the one or more time series, for a second time period, is harvested. New data for the one or more external factors as a continuation of the second set of the one or more time series, for the second time period, is harvested. Based on a second training algorithm, a forecast time series value of a future behavioral data as the continuation of the first set of the one or more time series, for a third time period that is after the second time period, is calculated. A relative causal impact between each external factor and the predicted time series value of the behavioral data is identified for the third time period. In one exemplary embodiment, harvesting the behavioral data comprises receiving the first set the of one or more time series. The first set of the one or more time series is stored in a storage device. A first training algorithm is applied to the first set of the one or more time series to create a first statistical prediction model that does not include the external factors. Further, in one exemplary embodiment, harvesting the one or more external factors comprises receiving the second set of the one or more time series, storing the second set of the one or more time series in the storage device, and applying a second training algorithm to the second set of the one or more time series and the first statistical prediction model to create a second statistical prediction model. In one exemplary embodiment, th...",
+  "date_published": "20171221",
+  "title": "TIME SERIES FORECASTING TO DETERMINE RELATIVE CAUSAL IMPACT",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 81286,
+    "optimized_size": 4006,
+    "reduction_percent": 95.07
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15796419",
+  "date_published": "20180222",
+  "date_produced": "20180207",
+  "filing_date": "20171027",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method and system generate sample data set for efficiently and accurately testing a new calculation for preparing a portion of an electronic document for users of an electronic document preparation system. The method and system receive the new calculation and gather historical use data related to previously prepared electronic documents for a large number of historical users. The method and system group the historical users into groups based on the attributes of the historical users. The groups are selected to include groups dedicated to users with rare combinations of attributes, as well as groups for users with more common combinations of attributes. The groups are then sampled by selecting a small number of historical users from each group.",
+  "publication_number": "US20180053120A1-20180222",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure provide one or more technical solutions to the technical problem of electronic document preparation systems that are not able to generate sample data sets that are sure to cover all use cases while efficiently using resources. The technical solutions include generating training sets for testing new calculations with very small sample sizes that, nevertheless, result in representation of the entire range of possible users. The training set data includes previously prepared electronic documents associated with a relatively small number of historical users of an electronic document preparation system. Embodiments of the present disclosure generate the training set data by generating bin data. The bin data includes, for each variable associated with a new calculation, a plurality of bins. For each variable, each historical user is sorted into one of the bins based on the data value that the historical user has for the variable. Embodiments of the present disclosure generate grouping data that includes a group for each combination of bins represented among the historical users. Thus, embodiments of the present disclosure generate the grouping data such that, if a small number of historical users is taken from each group, these historical users will represent all types of historical users, including historical users with rare or uncommon attributes. Embodiments of the present disclosure overcome the drawbacks of traditional electronic document preparation systems that generate training set data by taking a random sample of the entire group of historical users, resulting in the high likelihood that historical users with very rare combinations of attributes will not be present in the training set data. Embodiments of the present disclosure also overcome the drawbacks of traditional electronic document preparation systems that generate training set data including a very large number of historical users in order to incr...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q4000",
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mukherjee",
+      "inventor_name_first": "Saikat",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Joseph",
+      "inventor_name_first": "Saneesh",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Unsal",
+      "inventor_name_first": "Cem",
+      "inventor_city": "Alameda",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR IDENTIFYING A SUBSET OF TOTAL HISTORICAL USERS OF A DOCUMENT PREPARATION SYSTEM TO REPRESENT A FULL SET OF TEST SCENARIOS BASED ON STATISTICAL ANALYSIS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 107165,
+    "optimized_size": 3732,
+    "reduction_percent": 96.52
+  }
+}

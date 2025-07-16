@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15012435",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "title": "SYSTEMS AND METHODS FOR DATABASE ORIENTATION TRANSFORMATION",
+  "filing_date": "20160201",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gass",
+      "inventor_name_first": "Albrecht",
+      "inventor_city": "Fullerton",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Faradouris",
+      "inventor_name_first": "Nikolaos",
+      "inventor_city": "Mannheim",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Flach",
+      "inventor_name_first": "Oliver",
+      "inventor_city": "Leinfelden-Echterdingen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Hetges",
+      "inventor_name_first": "Stefan",
+      "inventor_city": "Mannheim",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE FIGURES <EOH>The details, objects, aspects, features, and advantages of various embodiments of the invention are set forth in the description below and accompanying drawings, in which: FIG. 1A is a block diagram of an embodiment of a network environment for a client to access a server for analyzing and transforming an application from a source installation to a target installation; FIG. 1B is a block diagram of an embodiment of a computing device; FIG. 2A is a block diagram of an embodiment of a suite of applications for analyzing and transforming an application from a source installation to a target installation; FIG. 2B is a block diagram of an embodiment of an appliance for analyzing and transforming an application from a source installation to a target installation; FIG. 2C is block diagram of another embodiment of an appliance for analyzing and transforming an application from a source installation to a target installation; FIG. 2D is a block diagram of an embodiment of an analysis and transformation of a source installation into a target installation; FIG. 2E is a block diagram of an embodiment of a transformation process; FIGS. 3A-B is a flow chart of an embodiment of a method of analyzing and transforming an application from a source installation to a target installation; FIGS. 4A-B are illustrations of databases in row orientation and column orientation, respectively; FIG. 4C is a flow chart of an implementation of a method for conversion of databases from row orientation to column orientation; and FIG. 4D is a flow chart of an implementation of a method for automated conversion of applications from use with row-oriented databases to use with column-oriented databases. detailed-description description=\"Detailed Description\" end=\"lead\"? The features and advantages of the present invention will become more apparent from the detailed description set forth below when taken in conjunction with the drawings, in which like reference ...",
+  "patent_number": "None",
+  "abstract": "The present application is directed towards systems and methods for automated analysis and transformation of databases and related applications and functions from a row-oriented syntax to a column-oriented syntax. An analyzer client executed by a processor of a client device may analyze a first database of a business management system comprising a plurality of arrays in a row-oriented syntax. A transformer executed by the processor may execute a first array of a second database having a column-oriented syntax. Iteratively, for each array of the plurality of arrays of the first database, the transformer may read an element at a first position of said array, and write the element to a next position of the first array of the second database.",
+  "publication_number": "US20170220613A1-20170803",
+  "_processing_info": {
+    "original_size": 120361,
+    "optimized_size": 3754,
+    "reduction_percent": 96.88
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15630659",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170622",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Prediction systems and methods are provided. The system obtains a first social media data pertaining to a first set of users, filters the first social media data to obtain a filtered social media data, generates a word embedding matrix including co-occurrence words each represented as a vector having a context, aggregates vectors pertaining each social data to obtain a first set of vectors, and trains machine learning technique(s) (MLTs) using the first set of vectors and context of the first set of vectors. The system further obtains a second social media data pertaining to a second set of users, and performs filtering, word embedding matrix generation, and aggregation operations to obtain a second set of vectors, and further applies the trained MLTs on the second set of vectors and context associated with the second set of vectors to predict age and gender of the second set of users.",
+  "publication_number": "US20170372206A1-20171228",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure present technological improvements as solutions to one or more of the above-mentioned technical problems recognized by the inventors in conventional systems. For example, in one aspect, a processor implemented method is provided. The method comprising (i) obtaining, using one or more hardware processors, a first social media data from one or more sources, the first social media data pertains to a first set of users; (ii) filtering the first social media data by identifying one or more stop words, and one or more expressions to obtain a first filtered social media data; (iii) generating a first word embedding matrix comprising a first set of co-occurrence words from the first filtered social media data, each co-occurrence word of the first set of co-occurrence words is represented as a vector comprising context (or contexts); (iv) aggregating one or more vectors pertaining each social data submitted by each user to obtain a first set of vectors for the first set of users based on the first word embedding matrix and the first set of co-occurrence words; and (v) training one or more machine learning techniques using (a) the first set of vectors, and/or (b) context associated with each of the first set of vectors to obtain one or more trained machine learning techniques. In an embodiment, the processor implemented method may further comprise obtaining a second social media data from one or more sources, wherein the second social media data pertains to a second set of users; repeating the steps of (ii) till (iv) to obtain a second set of vectors for the second set of users based on the second social media data; and applying the one or more trained machine learning techniques (MLTs) on the second set of vectors, and context(s) associated with each of the second set of vectors. In an embodiment, the second set of vectors are obtained (or generated) by filtering the second social media data by identifying one or more ...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KAVADIKI",
+      "inventor_name_first": "Rajesh",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "DAS",
+      "inventor_name_first": "Soumyajit",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR PREDICTING GENDER AND AGE OF USERS BASED ON SOCIAL MEDIA DATA",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 64240,
+    "optimized_size": 3629,
+    "reduction_percent": 94.35
+  }
+}

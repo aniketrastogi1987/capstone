@@ -1,0 +1,33 @@
+{
+  "decision": "PENDING",
+  "application_number": "15117040",
+  "date_published": "20170615",
+  "date_produced": "20170603",
+  "title": "REAL-TIME DETECTION OF PERIODIC BREATHING",
+  "filing_date": "20160805",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ramanan",
+      "inventor_name_first": "Dinesh",
+      "inventor_city": "Sydney",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "ipcr_labels": [
+    "A61B500",
+    "A61M1600",
+    "G06F1900",
+    "A61B5087"
+  ],
+  "main_ipcr_label": "A61B500",
+  "summary": "<SOH> 6 BRIEF SUMMARY OF THE TECHNOLOGY <EOH>The present technology is directed towards providing medical devices used in the diagnosis, amelioration, treatment, or prevention of respiratory disorders having one or more of improved comfort, cost, efficacy, ease of use and manufacturability. A first aspect of the present technology relates to a device used in the diagnosis, amelioration, treatment or prevention of a respiratory disorder. Another aspect of the present technology relates to methods used in the diagnosis, amelioration, treatment or prevention of a respiratory disorder. One form of the present technology comprises a device that determines in “real time” whether to signal that an episode of periodic breathing, such as Cheyne-Stokes respiration, has started or ended, based on an analysis of SDB events such as apneas and hypopneas. Another aspect of one form of the present technology is a method of analysing SDB events such as apneas and hypopneas so as to determine the start and end times of periodic breathing episodes as, or soon after, they occur. According to a first aspect of the present technology, there is provided a method of detecting periodic breathing in a patient, the method comprising: receiving in a processor a series of event intervals bounded by apnea or hypopnea events detected in the respiration of the patient; processing, upon closure of an event interval, the event interval to determine a character of the event interval, wherein the character of an event interval is one of: probably a periodic breathing cycle; probably not a periodic breathing cycle; and uninformative; and determining in the processor whether to change a current periodic breathing state that indicates whether a periodic breathing episode is in progress, based on a history of event interval characters that is long compared to the typical length of a periodic breathing cycle. According to another aspect of the present technology, there is provided a device for detecting pe...",
+  "patent_number": "None",
+  "abstract": "A method for a device detects periodic breathing in a patient. The method may include receiving a series of event intervals bounded by apnea or hypopnea events detected in respiration of the patient, and processing, upon closure of an event interval, the event interval to determine a character of the event interval, such as any of: probably a periodic breathing cycle; probably not a periodic breathing cycle; and uninformative. The method may further include determining whether to change a current periodic breathing state that indicates whether a periodic breathing episode is in progress, based on a history of event interval characters that is long compared to the typical length of a periodic breathing cycle real-time detection of periodic breathing",
+  "publication_number": "US20170164906A1-20170615",
+  "_processing_info": {
+    "original_size": 149219,
+    "optimized_size": 3330,
+    "reduction_percent": 97.77
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174037A1-20180621",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15383603",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Henry",
+      "inventor_name_first": "Shawn",
+      "inventor_city": "Brooklyn",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A first user and a second user may exchange messages during a session and the exchanged messages may be processed to suggest resources to the first user. For example, the first user may be a customer service representative assisting a customer, and the suggested resources may include text of a message to send to the customer. The resources may be suggested by computing a semantic representation of the messages in the session, computing a context vector that describes a context of the session, computing a context hash vector from the context vector, and retrieving one or more resources from a data store of resources using the context hash vector. Information about a resource may be presented to the first user to assist the first user in responding to the second user.",
+  "filing_date": "20161219",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE FIGURES <EOH>The invention and the following detailed description of certain embodiments thereof may be understood by reference to the following figures: FIG. 1 is an example system for suggesting resources to a customer service representative for responding to a customer. FIG. 2 is an example of a user interface for a customer service representative for responding to a customer. FIG. 3 is a flowchart of an example implementation of suggesting a resource to a customer service representative using a context of a session. FIG. 4 is an example of data that may be used to train models for suggesting resources. FIG. 5 is an example system for training a model for suggesting resources. FIG. 6 is an example system for suggesting a resource using a context of a session. FIGS. 7A and 7B are example systems for training a model for suggesting resources. FIGS. 8A, 8B, and 8C are example systems for training a model for suggesting resources using hash vectors. FIGS. 9A and 9B are example systems for suggesting a resource using hash vectors. FIG. 10 is a flowchart for an example implementation of training a model for suggesting resources using hash vectors. FIG. 11 is a flowchart of an example implementation of suggesting a resource using hash vectors. FIG. 12 is an exemplary computing device that may be used to suggest resources and train models for suggesting resources. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180621",
+  "title": "SUGGESTING RESOURCES USING CONTEXT HASHING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1730",
+    "G06Q3000"
+  ],
+  "_processing_info": {
+    "original_size": 84179,
+    "optimized_size": 2809,
+    "reduction_percent": 96.66
+  }
+}

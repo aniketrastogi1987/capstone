@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15240930",
+  "date_published": "20180222",
+  "date_produced": "20180207",
+  "title": "AUTO-SANDBOXING WEBSITE OR PARTS OF WEBSITE IN BROWSER TO PROTECT USER PRIVACY AND SECURITY",
+  "filing_date": "20160818",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Palanichamy",
+      "inventor_name_first": "Kulanthaivel",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ros",
+      "inventor_name_first": "Enrico",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2153",
+    "G06F2155"
+  ],
+  "main_ipcr_label": "G06F2153",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Illustrative embodiments of the present invention that are shown in the drawings are summarized below. These and other embodiments are more fully described in the Detailed Description section. It is to be understood, however, that there is no intention to limit the invention to the forms described in this Summary of the Invention or in the Detailed Description. One skilled in the art can recognize that there are numerous modifications, equivalents, and alternative constructions that fall within the spirit and scope of the invention as expressed in the claims. According to an aspect, a method for processing web content on a computing device is disclosed. The method includes receiving a webpage with a browser, parsing the webpage with the browser to obtain subcomponents from the webpage, and identifying, with the browser, whether there is an indication that one or more subcomponents of the webpage are potentially malicious. When there is an indication that the one or more subcomponents of the webpage are malicious, the one or more of the subcomponents of the webpage are loaded in an auto-sandbox instance for isolated execution by the browser. According to another aspect, a computing device is disclosed. The computing device includes a web browser configured to receive a webpage and prepare a composite view of the webpage for display to a user. The web browser includes a parser configured to parse the webpage to obtain subcomponents from the webpage, a platform application programming interface (API) configured to provide plurality of entry points to access services and receive events, and at least one detection component configured to generate an indication that one or more subcomponents of the webpage are potentially malicious. A sandbox filter is disposed to intercept calls made by subcomponents of the webpage to the platform API, and the sandbox filter is configured to expose interfaces to the detection component to enable the de...",
+  "patent_number": "None",
+  "abstract": "Methods and devices for processing web content are disclosed. The method may include receiving a webpage with a browser and parsing the webpage with the browser to obtain subcomponents from the webpage. The browser identifies whether there is an indication that one or more subcomponents of the webpage are potentially malicious, and when there is an indication that the one or more subcomponents of the webpage are malicious, the browser loads the one or more of the subcomponents of the webpage in an auto-sandbox instance for isolated execution by the browser.",
+  "publication_number": "US20180052992A1-20180222",
+  "_processing_info": {
+    "original_size": 39497,
+    "optimized_size": 3312,
+    "reduction_percent": 91.61
+  }
+}

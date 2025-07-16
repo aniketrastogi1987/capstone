@@ -1,0 +1,30 @@
+{
+  "date_produced": "20170405",
+  "publication_number": "US20170109632A1-20170420",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15015160",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BHANDARY",
+      "inventor_name_first": "Chiranjib",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "The invention provides method and system for extracting rule specific data from a computer word. The method comprises: calculating at least one decimal value based on a rule representation associated with a rule, the rule representation is a byte array, value of each bit of the byte array representing whether a corresponding bit position in the computer word has a data component; identifying at least one result byte array based on the calculated decimal value from a preset look-up table, which includes a plurality of mappings, each between a result byte array and a decimal value, the result byte array indicating a set of reference bit positions for determining a set of bit positions in the computer word in which data components related to the rule are stored, and a last byte of the result byte array representing a bit count value associated with the set of reference bit positions.",
+  "filing_date": "20160204",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>In order to provide an efficient way for extracting rule specific data from a computer word, embodiments of the invention provide a compact rule representation for each rule and preset a look-up table for efficiently extracting the rule specific data from a computer word stored in a computer system. According to one aspect of the invention, a method for extracting rule specific data in a computer word is provided. The method comprises: calculating, by a processor in the computer system, at least one decimal value based on a rule representation associated with a rule, wherein the rule representation is a byte array including at least one byte binary codes, value of each bit of the byte array configured to represent whether a corresponding bit position in the computer word has a data component related to the rule; identifying, by the processor in the computer system, at least one result byte array corresponding to the rule based on the calculated at least one decimal value from a preset look-up table in the computer system, wherein the preset look-up table includes a plurality of mappings, each mapping between a result byte array and a decimal value, the result byte array in each mapping indicating a set of reference bit positions for determining a set of bit positions in the computer word, wherein a last byte of the result byte array in each mapping is configured to represent a bit count value associated with the set of reference bit positions; and determining, by the processor in the computer system, a set of bit positions in the computer word in which a set of data components related to the rule are stored based on both the set of reference bit positions indicated by each identified result byte array and the last byte of each identified result byte array as a loop counter. According to another aspect of the invention, a system for extracting rule specific data in a computer word is provided. The system comprises: a processor and a me...",
+  "date_published": "20170420",
+  "title": "METHOD AND SYSTEM FOR EXTRACTING RULE SPECIFIC DATA FROM A COMPUTER WORD",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 41820,
+    "optimized_size": 3457,
+    "reduction_percent": 91.73
+  }
+}

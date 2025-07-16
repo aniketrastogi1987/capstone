@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180503",
+  "publication_number": "US20180137405A1-20180517",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15376875",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Moon",
+      "inventor_name_first": "Taesup",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A denoising device, and a noise removal method. The denoising device includes a deriving part configured to, when corrupted noise data corrupted due to noises is received from source data, derive an estimated loss which is estimated when each symbol within noise data is reconstructed to the source data based on a predefined noise occurrence probability, a processor configured to process training of a defined learning model by including parameters related with the reconstruction of the source data from the noise data based on context composed of a sequence of neighbored symbols based on each symbol within the noise data and pseudo-training data using the estimated loss corresponding to the context, and an output part configured to output reconstructed data in which each symbol within the noise data is reconstructed to a symbol of the source data through a denoiser formed based on a result of the training processing.",
+  "filing_date": "20161213",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Exemplary embodiments of the present inventive concept overcome the above disadvantages and other disadvantages not described above. Also, the present inventive concept is not required to overcome the disadvantages described above, and an exemplary embodiment of the present inventive concept may not overcome any of the problems described above. According to an embodiment, a technical objective is directed to obtaining an optimum denoiser by training deep learning algorithms with utilization of a pseudo-label derived from context and estimated losses as training data of objective functions according to Discrete Universal DEnoiser (DUDE). According to an embodiment, a denoising device includes an deriving part configured to derive an estimated loss which is estimated when each symbol within noise data is reconstructed to recover source data based on a predefined noise occurrence probability if the corrupted noise data is received from the source data due to noises, a processor configured to process training of a defined learning model by including parameters related with the reconstruction of the source data from the noise data based on pseudo-training data comprising context composed of a sequence of symbols neighboring each symbol within the noise data and the estimated loss corresponding to the context, and an output part configured to output reconstructed data in which each symbol within the noise data is reconstructed to recover a symbol of the source data through a denoiser formed based on the training processing result. More specifically, the denoising device further includes a forming part configured to form each denoiser based on the parameters obtained through the training for each sliding window size k determining a size of the context, and a selecting part configured to select a specific sliding window size minimizing an estimated loss by calculating an estimated loss occurred when the noise data is reconstructed to recover the source da...",
+  "date_published": "20180517",
+  "title": "DENOISER, AND CONTROL METHOD THEREOF",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 51070,
+    "optimized_size": 3456,
+    "reduction_percent": 93.23
+  }
+}

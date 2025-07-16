@@ -1,0 +1,39 @@
+{
+  "date_produced": "20160628",
+  "publication_number": "US20160203417A1-20160714",
+  "main_ipcr_label": "G06N9900",
+  "decision": "REJECTED",
+  "application_number": "15078408",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Dhurandhar",
+      "inventor_name_first": "Amit",
+      "inventor_city": "Somers",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Somers",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system and method for extending partially labeled data graphs to unlabeled nodes in a single network classification by weighting the data with a weight matrix that uses a modified graph Laplacian based regularization framework and applying graph transduction methods to the weighted data. The technique may be applied to data graphs that are directed or undirected, that may or may not have attributes and that may be homogeneous or heterogeneous.",
+  "filing_date": "20160323",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention provides a lucid way to effectively leverage a rich class of graph transduction methods, namely those based on the graph Laplacian regularization framework, to make within network relational classifications. Among the existing graph transduction methods, this class of methods is considered to be one of the most efficient and accurate in real applications. In particular, the invention provides a procedure to learn a weight matrix for a graph that may be directed or undirected, that may exhibit positive or negative auto-correlation and where the edges in the graph may be between labeled nodes, between unlabeled nodes or between a labeled and an unlabeled node. The inventive methodology first provides a solution for a graph where nodes have no attributes, only class labels. We then extend the solution to include attributes (and heterogenous data) by incorporating a conical weighting scheme that weighs importance of the links relative to the attributes. The construction of the weight matrix assumes binary labeling. However, recursive application of the chosen graph transduction method with reconstruction of the weight matrix will accomplish multi-class classification as is shown in the experiments on real data in connection with FIGS. 8A and 8B . When we have a connected unweighted homogeneous/heterogeneous graph that is partially labeled, the goal is to propagate the labels to the unlabeled nodes. In this disclosure, we provide a different perspective on this problem by enabling the effective use of graph transduction techniques. We accomplish this by providing a novel procedure for constructing a weight matrix that serves as input to a rich class of graph transduction techniques. Our procedure has multiple desirable properties. For example, the weights it assigns to edges between unlabeled nodes naturally relate to a measure of association commonly used in statistics, namely the Gamma test statistic. We further...",
+  "date_published": "20160714",
+  "title": "SYSTEM  AND METHOD FOR USING GRAPH TRANSDUCTION TECHNIQUES TO MAKE RELATIONAL CLASSIFICATIONS ON A SINGLE CONNECTED NETWORK",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 55780,
+    "optimized_size": 3225,
+    "reduction_percent": 94.22
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "patent_number": "None",
+  "application_number": "15416988",
+  "date_published": "20170727",
+  "date_produced": "20170713",
+  "filing_date": "20170126",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Provided herein in some embodiments is an artificial intelligence (“AI”) engine configured to work with a graphical user interface (“GUI”). The AI engine can include an architect module, instructor module, and learner module AI-engine modules. The GUI can be configured with a text editor and a mental-model editor to enable an author to define a mental model to be learned by an AI model, the mental model including an input, one or more concept nodes, and an output. The architect module can be configured to propose a neural-network layout from an assembly code compiled from a source code in a pedagogical programming language, the learner module can be configured to build the AI model from the neural-network layout, and the instructor module can be configured to train the AI model on the one or more concept nodes.",
+  "publication_number": "US20170213131A1-20170727",
+  "summary": "<SOH> SUMMARY <EOH>Provided herein in some embodiments is an AI engine configured to work with a graphical user interface (“GUI”). The AI engine can include one or more AI-engine modules including an architect module, an instructor module, and a learner module. A source code written in a pedagogical programming language can be received through an API exposed to the GUI and an assembly code can be subsequently generated from the source code. The GUI can be configured to enable an author to define a mental model to be learned by an AI model, the mental model including an input, one or more concept nodes, one or more optional stream nodes, and an output. The GUI can be further configured to enable the author to define the mental model in a textual mode, a graphical mode, or both the textual mode and the graphical mode. The architect module can be configured to propose a neural-network layout with one or more neural-network layers from the assembly code. The learner module can be configured to build the AI model with the one or more neural-network layers from the neural-network layout proposed by the architect module. The instructor module can be configured to train the AI model built by the learner module on the one or more concept nodes. Also provided herein in some embodiments is an AI system including an AI engine configured to work with an integrated development environment (“IDE”). The AI system can include one or more remote servers and one or more local clients. The one or more remote servers can include a compiler and one or more AI-engine modules including an architect module, an instructor module, and a learner module. The compiler can be configured to receive a source code written in a pedagogical programming language through an API exposed to the IDE and generate an assembly code from the source code. The architect module can be configured to propose a neural-network layout with one or more neural-network layers from the assembly code. The learner module ca...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F30482",
+    "G06N304",
+    "G06F944",
+    "G06F1750",
+    "G06N300"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hammond",
+      "inventor_name_first": "Mark Isaac",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Browne",
+      "inventor_name_first": "Keen McEwan",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Estee",
+      "inventor_name_first": "Mike",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kliman-Silver",
+      "inventor_name_first": "Clara",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "GRAPHICAL USER INTERFACE TO AN ARTIFICIAL INTELLIGENCE ENGINE UTILIZED TO GENERATE ONE OR MORE TRAINED ARTIFICIAL INTELLIGENCE MODELS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 149799,
+    "optimized_size": 3991,
+    "reduction_percent": 97.34
+  }
+}

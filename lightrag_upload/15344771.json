@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180425",
+  "publication_number": "US20180129944A1-20180510",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15344771",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Meunier",
+      "inventor_name_first": "Jean-Luc",
+      "inventor_city": "Saint-Nazaire-les-Eymes",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Déjean",
+      "inventor_name_first": "Hervé",
+      "inventor_city": "Grenoble",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "A multi-page document is represented as a graph in which extracted page objects of the document, such as text blocks, are represented by nodes that are connected by intra-page edges and/or cross-page edges. The nodes and edges of the graph are associated with respective sets of features, the edge features distinguishing between intra-page and cross-page edges. A trained first model jointly predicts class labels for page objects, based on node and edge features. Page labels for the pages may be predicted, based on the page object predictions, optionally enforcing a constraint, such a maximum of one class label for a given class, per page. The pages can be assigned a respective category, based on the predicted classes of the page objects and respective features. Information based on the predictions is output, such as one or more of the page object class labels, the page labels, and information based thereon.",
+  "filing_date": "20161107",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION <EOH>In accordance with one aspect of the exemplary embodiment, a method for processing a multi-page document includes providing a trained first model for jointly predicting class labels for page objects of pages of a document, the predicted class labels being selected from a predefined set of class labels. A multi-page document to be labeled is received. A graph is generated in which page objects extracted from pages of the multi-page document are represented by nodes that are connected by edges. The nodes and edges of the graph are each associated with a set of features. The edges include intra-page edges and cross-page edges. With the trained first model, object class labels are jointly predicted, from the set of class labels, for at least some of the represented page objects, the prediction being based on the sets of features of the nodes and edges. Information based on the predicted object class labels is output. At least one of the generation of the graph and predicting object class labels is performed with a processor. In accordance with another aspect of the exemplary embodiment, a system for processing a multi-page document includes a graphing component which generates a graph in which page objects extracted from pages of a multi-page input document are represented by nodes that are connected by edges, the nodes and edges of the graph each being associated with a set of features. The edges include intra-page edges and cross-page edges. An object class label prediction component with access to a trained first model, is stored in memory, for jointly predicting object class labels for page objects of the pages of the input document, based on the graph. Optionally, a page class label prediction component computes a confidence score for page objects with respect to the page object class labels, and for pages of the input document, assigns a respective at least one page label, based on the confidence scores. Optionally, a category predicti...",
+  "date_published": "20180510",
+  "title": "DOCUMENT UNDERSTANDING USING CONDITIONAL RANDOM FIELDS",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 84503,
+    "optimized_size": 3654,
+    "reduction_percent": 95.68
+  }
+}

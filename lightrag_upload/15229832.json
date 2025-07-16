@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180124",
+  "publication_number": "US20180039906A1-20180208",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15229832",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bhatt",
+      "inventor_name_first": "Himanshu Sharad",
+      "inventor_city": "Uttam",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Krishnapuram",
+      "inventor_name_first": "Raghuram",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "The disclosed embodiments illustrate method and system of processing data by a computing device for training a target domain classifier. The method includes extracting one or more first features and one or more second features from a first target instance, associated with a target domain. The method further includes predicting a first label for the received first target instance based on the one or more first features by utilizing a trained first classifier associated with a set of labeled source instances, wherein the predicted first label is assigned to the first target instance when a first score of the predicted first label exceeds a first pre-specified threshold. Further, the method includes updating a set of labeled target instances associated with the target domain based on the labeled first target instance, wherein the updated set of labeled target instances is utilized to train the target domain classifier.",
+  "filing_date": "20160805",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to embodiments illustrated herein, there is provided a method of processing data by a computing device for training a target domain classifier. The method includes extracting, by one or more processors in a computing device, one or more first features and one or more second features from a first target instance, associated with a target domain, received from another computing device. The method further includes predicting, by the one or more processors in the computing device, a first label for the received first target instance based on the one or more first features by utilizing a trained first classifier associated with a set of labeled source instances, wherein the predicted first label is assigned to the first target instance when a first score of the predicted first label exceeds a first pre-specified threshold, wherein the first score is determined based on a ratio between a count of the one or more first features and a total count of the one or more first features and the one or more second features, wherein the first label is assigned to the one or more second features. Further, the method includes updating, by the one or more processors in the computing device, a set of labeled target instances associated with the target domain based on the labeled first target instance, wherein the updated set of labeled target instances is utilized to train the target domain classifier when a cumulative value associated with the set of labeled target instances exceeds a pre-specified threshold value. According to embodiments illustrated herein, there is provided a system for processing data by a computing device for training a target domain classifier. The system includes one or more processors configured to extract one or more first features and one or more second features from a first target instance, associated with a target domain, received from another computing device. The one or more processors are further configured to predict a first...",
+  "date_published": "20180208",
+  "title": "METHOD AND SYSTEM OF PROCESSING DATA FOR TRAINING A TARGET DOMAIN CLASSIFIER",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 90390,
+    "optimized_size": 3663,
+    "reduction_percent": 95.95
+  }
+}

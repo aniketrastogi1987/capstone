@@ -1,0 +1,39 @@
+{
+  "date_produced": "20161116",
+  "publication_number": "US20160350671A1-20161201",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15134048",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Morris, II",
+      "inventor_name_first": "Robert G.",
+      "inventor_city": "ATLANTA",
+      "inventor_state": "GA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McGinnis",
+      "inventor_name_first": "William",
+      "inventor_city": "ATLANTA",
+      "inventor_state": "GA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Various examples are provided for dynamically updating or adapting predictive modeling for prediction of outcomes of interest for operating systems and processes. Embodiments of the disclosure may provide systems, apparatus, processes, and methods for generating and deploying dynamically updated predictive models. In some embodiments, the predictive model may be deployed for the purpose of predicting operational outcomes of interests in operating systems, hardware devices, machines and/or processes associated therewith prior to the operational outcomes of interest occurring. The predictions can, for example, provide sufficient time for maintenance or repairs to be scheduled and carried out to avoid the predicted operational outcome. Autonomous evaluation of features allows the predictive models to be dynamically updated in response to changes in the environment or monitored data.",
+  "filing_date": "20160420",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention provides systems and methods for predicting operational outcomes of interest in operating systems, hardware devices, or machines. Autonomous evaluation of features allows the predictive models to be dynamically updated in response to changes in the environment or monitored data. In some embodiments, the invention comprises systems and methods for predicting at least one operational outcome of interest associated with an operating system, hardware device, or machine. In this regard, the inventions comprise at least one memory that stores computer-executable instructions, and at least one processor that, when executing the computer-executable instructions, configures the system to: collect source data collected from over a period of time, wherein the source data is derived from information obtained from operation of an operating system, hardware device, or machine. Feature data context values (feature data configurations) are created from feature data derivable from the source data, and the feature data context values are derivable from a plurality of operational parameters associated with operation of the operating system, hardware device, or machine during the period of time in which the source data was generated. The systems and methods are configurable to analyze the feature data context values by application of a plurality of statistical models, independently, to each feature data context value, whereby a correlation is generated between the feature data in each feature data context value and each of the applied statistical models. From each correlation a probability model associated with the likelihood of occurrence of an operational outcome of interest is generated that is relatable to operation of the operating system, hardware device, or machine. The systems and methods are also configurable to validate each of the plurality of probability models, by either or both of: testing each of the probability m...",
+  "date_published": "20161201",
+  "title": "DYNAMICALLY UPDATED PREDICTIVE MODELING OF SYSTEMS AND PROCESSES",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1750",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 167086,
+    "optimized_size": 3621,
+    "reduction_percent": 97.83
+  }
+}

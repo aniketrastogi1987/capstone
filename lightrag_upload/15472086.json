@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15472086",
+  "date_published": "20170713",
+  "date_produced": "20170627",
+  "filing_date": "20170328",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "Embodiments are disclosed for predicting a response (e.g., an answer responding to a question) using an end-to-end memory network model. A computing device according to some embodiments includes embedding matrices to convert knowledge entries and an inquiry into feature vectors including the input vector and memory vectors. The device further execute a hop operation to generate a probability vector based on an input vector and a first set of memory vectors using a continuous weighting function (e.g., softmax), and to generate an output vector as weighted combination of a second set of memory vectors using the elements of the probability vector as weights. The device can repeat the hop operation for multiple times, where the input vector for a hop operation depends on input and output vectors of previous hop operation(s). The device generates a predicted response based on at least the output of the last hop operation.",
+  "publication_number": "US20170200077A1-20170713",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram illustrating a memory network for providing machine-generated responses. FIG. 2 is a block diagram illustrating data flows between a memory component and various inference components within a memory network. FIG. 3 is a block diagram illustrating a memory component being organized as a combination of memory slots. FIG. 4 is a block diagram illustrating a memory network for generating an output as a response to an input. FIG. 5 is an illustration of an example task performed by the memory network. FIGS. 6-8 are illustrations of various example tasks performed by the memory network. FIG. 9 is a block diagram illustrating a process of providing a machine-generated response to an input using a memory network. FIG. 10 is a block diagram illustrating a process of hashing memory entries into multiple buckets via word hashing. FIG. 11 is a block diagram illustrating another process of hashing memory entries into multiple buckets via clustering word embedding. FIG. 12 is a block diagram illustrating a sample layer of an end-to-end memory network. FIG. 13 is a block diagram illustrating an end-to-end memory network including multiple layers of neural networks. FIG. 14 is a block diagram illustrating components of an end-to-end memory network model. FIG. 15 is a block diagram illustrating a process of predicting an answer to a question by an end-to-end memory network. FIG. 16 is an illustration of example tasks of question answering performed by the end-to-end memory network. FIG. 17 shows a table listing test error rates of end-to-end memory networks using various numbers of layers and various sentence representations. FIG. 18 shows a table of sample probabilities p of each hop of end-to-end memory networks. FIG. 19 is a block diagram illustrating a process of language modeling by an end-to-end memory network. FIG. 20 shows a table listing language modeling results of end-to-end memory networks trained by ...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Weston",
+      "inventor_name_first": "Jason E.",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Szlam",
+      "inventor_name_first": "Arthur David",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fergus",
+      "inventor_name_first": "Robert D.",
+      "inventor_city": "Tuxedo Park",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sukhbaatar",
+      "inventor_name_first": "Sainbayar",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "END-TO-END MEMORY NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 111421,
+    "optimized_size": 3929,
+    "reduction_percent": 96.47
+  }
+}

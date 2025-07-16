@@ -1,0 +1,36 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15092164",
+  "date_published": "20160728",
+  "date_produced": "20160713",
+  "title": "MEDICAL IMAGE PROCESSING DEVICE, OPERATION METHOD THEREFOR, AND MEDICAL IMAGE PROCESSING PROGRAM",
+  "filing_date": "20160406",
+  "inventor_list": [
+    {
+      "inventor_name_last": "AKAHORI",
+      "inventor_name_first": "Sadato",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T700",
+    "A61B500",
+    "G06K962",
+    "A61B600",
+    "G06T500",
+    "A61B5055",
+    "A61B603"
+  ],
+  "main_ipcr_label": "G06T700",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>However, although there are a T1-weighted image in which a difference between T1 values (longitudinal relaxation time) of the tissue is emphasized, a T2-weighted image in which a difference between T2 values (transverse relaxation time) of the tissue is emphasized, and the like as images captured by an MRI apparatus, the quality of these images changes greatly with the magnetic field strength or the pulse sequence. In addition, unlike a CT image in which pixel values are defined by substances (for example, air is −1000, water is 0, and hard bone is +1000), pixel values are not standardized. Therefore, in the case of an MR image, there is no choice but to rely on the shape or contrast between pixels at the time of region extraction. For this reason, it is difficult to accurately perform automatic extraction or semi-automatic extraction. In addition, in the case of a CT image, if an appropriate window width and window level or a color map is set according to a diagnostic target part, it is possible to observe an image in a state in which each anatomical structure is assigned with a fixed brightness or color. In the case of an MR image, however, since pixel values are not standardized as described above, it is necessary to adjust the setting of the window width and the window level or the color map for each imaging in order to observe an image in a desired state. Accordingly, there is a problem that a time for this adjustment is required. JP2013-75079A proposes a method of extracting a ventricular region using the graph cut method. However, only the method of using a CT value is disclosed. JP2004-141612A proposes a method of extracting a ventricular region using a result binarized based on a threshold value set in advance. However, in the case of the above-described MR image, it is not possible to perform accurate region extraction using the method disclosed in JP2004-141612A since the pixel values are not standardized. JP2006-175231...",
+  "patent_number": "9947094",
+  "abstract": "There are provided a feature point extraction unit that extracts an anatomical feature point included in a medical image based on the medical image and a standardization conditions acquisition unit that acquires standardization conditions of pixel values of the medical image based on some pixel values around the anatomical feature point among the pixel values of the medical image.",
+  "publication_number": "US20160217572A1-20160728",
+  "_processing_info": {
+    "original_size": 55792,
+    "optimized_size": 3039,
+    "reduction_percent": 94.55
+  }
+}

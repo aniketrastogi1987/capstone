@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15136208",
+  "date_published": "20171026",
+  "date_produced": "20171011",
+  "title": "AUTOMATED TELLER MACHINE FLOW NETWORK AND CONTROL SYSTEM",
+  "filing_date": "20160422",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Diao",
+      "inventor_name_first": "Yixin",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jan",
+      "inventor_name_first": "Ea-Ee",
+      "inventor_city": "Ardsley",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sarkar",
+      "inventor_name_first": "Soumitra",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q1006",
+    "G06Q2010"
+  ],
+  "main_ipcr_label": "G06Q1006",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A system, method, computer program product, and/or techniques may be provided, which optimize an automatic teller machine network flow. A system that controls an automatic teller machine flow network, in one aspect, may include one or more hardware processors operable to receive signals comprising a deterministic forecasted withdrawal demand and a stochastic forecasted withdrawal demand at an automatic teller machine. One or more of the hardware processors may be further operable to execute a deterministic optimization process at least based on the deterministic forecasted withdrawal demand to determine a cash refill amount that minimizes cash interest cost and cash refill cost subject to a plurality of constraints. The plurality of constraints may include at least a cash availability constraint as a function of a scaling parameter that represents a safety margin against an out-of-cash incident. One or more of the hardware processors may be further operable to execute a stochastic simulation process to determine an overall automatic teller machine network management cost at least based on the stochastic forecasted withdrawal demand and the cash refill amount determined by the deterministic optimization process. One or more of the hardware processors may be further operable to update the scaling parameter and feed the updated scaling parameter to the deterministic optimization process, and iterate executing of the deterministic optimization process based on the updated scaling parameter and executing of the stochastic simulation process based on the cash refill amount determined by the deterministic optimization process at current iteration until a termination threshold is met. One or more of the hardware processors may be further operable to find a target scaling parameter that minimizes the overall automatic teller machine network management cost out of all iterations. One or more of the hardware processors may be further operable to determ...",
+  "patent_number": "None",
+  "abstract": "Automatic teller machine network management control system executes a deterministic optimization process based on a deterministic forecasted withdrawal demand to determine a cash refill amount, and executes a stochastic simulation process to determine an overall automatic teller machine network management cost based on a stochastic forecasted withdrawal demand and the cash refill amount. The executing of the deterministic optimization process and the executing of the stochastic simulation process are iterated based on updated scaling parameter from the stochastic simulation process and the cash refill amount determined by the deterministic optimization process at current iteration until a termination threshold is met. A target scaling parameter that minimizes the overall automatic teller machine network management cost out of all iterations is determined, and target cash refill amount and time specification for refilling the automatic teller machine are determined based on executing th...",
+  "publication_number": "US20170308835A1-20171026",
+  "_processing_info": {
+    "original_size": 76028,
+    "optimized_size": 3847,
+    "reduction_percent": 94.94
+  }
+}

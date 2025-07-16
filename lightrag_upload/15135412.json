@@ -1,0 +1,74 @@
+{
+  "date_produced": "20171011",
+  "publication_number": "US20170308807A1-20171026",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15135412",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hauth",
+      "inventor_name_first": "Tobias M.",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tyma",
+      "inventor_name_first": "Paul M.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Guanchao",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lau",
+      "inventor_name_first": "David Siuwai",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Thallapragada",
+      "inventor_name_first": "Sowmitra",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ramirez",
+      "inventor_name_first": "Richard G.",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Daga",
+      "inventor_name_first": "Pratik",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system, apparatus, and method are provided for implementing secondary profiles for members of an online application or service. Each member has a corresponding primary profile populated by the member, and a secondary profile populated with information from data sources other than the member. Each fact or entry in the secondary (or inferred) profile is accompanied by a confidence score reflecting confidence in the source of the fact, confidence that the fact is correctly associated with this member, and/or other factors. A given fact may be obtained or extracted from multiple sources, with each copy or version assigned a separate confidence score. In response to a request to identify members having a particular attribute, in addition to identifying members that have the attribute in their primary profiles, members having the attribute in their secondary profiles may be identified if the corresponding confidence scores are greater than a threshold.",
+  "filing_date": "20160421",
+  "patent_number": "None",
+  "summary": "",
+  "date_published": "20171026",
+  "title": "SECONDARY PROFILES WITH CONFIDENCE SCORES",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 74709,
+    "optimized_size": 2420,
+    "reduction_percent": 96.76
+  }
+}

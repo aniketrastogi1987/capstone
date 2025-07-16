@@ -1,0 +1,44 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286864A1-20171005",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15091381",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fiedel",
+      "inventor_name_first": "Noah",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Olston",
+      "inventor_name_first": "Christopher",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Harmsen",
+      "inventor_name_first": "Jeremiah",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for batching inputs to machine learning models. One of the methods includes receiving a stream of requests, each request identifying a respective input for processing by a first machine learning model; adding the respective input from each request to a first queue of inputs for processing by the first machine learning model; determining, at a first time, that a count of inputs in the first queue as of the first time equals or exceeds a maximum batch size and, in response: generating a first batched input from the inputs in the queue as of the first time so that a count of inputs in the first batched input equals the maximum batch size, and providing the first batched input for processing by the first machine learning model.",
+  "filing_date": "20160405",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, this specification describes a system for batching inputs to a machine learning model. A system of one or more computers can be so configured by virtue of software, firmware, hardware, or a combination of them installed on the system that in operation cause the system to perform the actions. One or more computer programs can be so configured by virtue of having instructions that, when executed by data processing apparatus, cause the apparatus to perform the actions. Particular embodiments of the subject matter described in this specification can be implemented so as to realize one or more of the following advantages. By batching inputs to a machine learning model as described in this specification, the hardware resources used by a system to perform the operations of the model can be more effectively used while ensuring that a maximum acceptable latency is not exceeded. In particular, high-throughput hardware resources, e.g., graphics processing units (GPUs) and other hardware accelerators, can be optimized while maintaining an acceptable latency. In situations where the system maintains multiple machine learning models, inputs for each of those models can be batched effectively. By maintaining a respective queue for each of the multiple machine learning models, virtualization of the hardware accelerators available to the system for processing machine learning inputs can effectively be achieved. The details of one or more embodiments of the subject matter of this specification are set forth in the accompanying drawings and the description below. Other features, aspects, and advantages of the subject matter will become apparent from the description, the drawings, and the claims.",
+  "date_published": "20171005",
+  "title": "BATCHING INPUTS TO A MACHINE LEARNING MODEL",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 45841,
+    "optimized_size": 3395,
+    "reduction_percent": 92.59
+  }
+}

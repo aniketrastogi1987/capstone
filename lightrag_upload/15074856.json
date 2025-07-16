@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170906",
+  "publication_number": "US20170270428A1-20170921",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15074856",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zoldi",
+      "inventor_name_first": "Scott Michael",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Murray",
+      "inventor_name_first": "Joseph F.",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An automated way of learning archetypes which capture many aspects of entity behavior, and assigning entities to a mixture of archetypes, such that each entity is represented as a distribution across multiple archetypes. Given those representations in archetypes, anomalous behavior can be detected by finding misalignment with a plurality of entities archetype clustering within a hard segmentation. Extensions to sequence modeling are also discussed. Applications of this method include anti-money laundering (where the entities can be customers and accounts, as described extensively below), retail banking fraud detection, network security, and general anomaly detection.",
+  "filing_date": "20160318",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The subject matter described here is an automated method of learning archetypes which capture many aspects of entity behavior, and assigning those entities to a mixture of archetypes, such that each entity is represented as a soft-clustering across multiple archetypes. Given those representations in archetypes, anomalous behavior can be detected by finding misalignment with the archetype clustering. Extensions to sequence modeling are also discussed. Applications of this method include anti-money laundering (where the entities can be customers and accounts, as described extensively below), retail banking fraud detection, network security, and general anomaly detection. In one aspect, methods having one or more operations, systems having at least one programmable processor and a machine-readable medium storing instructions that, when executed by the at least one processor, cause the at least one programmable processor to perform one or more operations, and non-transitory computer readable media storing instructions which, when executed by a processor, cause the processor to perform one or more operations. The operations can include maintaining one or more profiles in a data store for a plurality of entities of interest. Each of the one or more profiles can be formed as a data structure that captures statistics of one or more behaviors of an entity associated with the profile. The data structure can include demographic information associated with the entity. One or more models can be generated based on the captured statistics of one or more behaviors of the plurality of entities. The one or more models can be used by the computer processor for predicting a behavior of a new entity of interest. The plurality of entities of interest can be assigned to hard segments of a segmentation scheme. Individual ones of the plurality of entities of interest can be assigned to a set of archetypes. The set of archetypes can be an archetype distribution and generat...",
+  "date_published": "20170921",
+  "title": "Behavioral Misalignment Detection Within Entity Hard Segmentation Utilizing Archetype-Clustering",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 84602,
+    "optimized_size": 3429,
+    "reduction_percent": 95.95
+  }
+}

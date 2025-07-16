@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15320842",
+  "date_published": "20170713",
+  "date_produced": "20170627",
+  "title": "METHOD AND SYSTEM FOR IDENTIFYING WHETHER AN APPLICATION IS GENUINE BY MEANS OF DIGITAL WATERMARKS",
+  "filing_date": "20161221",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SHU",
+      "inventor_name_first": "Xin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Nan",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Yong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2116"
+  ],
+  "main_ipcr_label": "G06F2116",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In view of this, embodiments of the present application provide a method and system for identifying whether an application is genuine by means of digital watermarks, which can conveniently identify whether an application is genuine. To achieve above objectives, embodiments of the present application adopt the following technical solutions: In one aspect, embodiments of the present application provide a method for identifying whether an application is genuine by means of digital watermarks, which comprises: acquiring an executable file of an application to be identified, and extracting a first digital watermark from the executable file; using a decompiling-then-compiling algorithm on the executable file so as to generate a first compilation file having a same file format as that of the executable file, and extracting a second digital watermark from the first compilation file; wherein, the second digital watermark and the first digital watermark belong to the same type of digital watermarks; using another decompiling-then-compiling algorithm on the executable file so as to generate a second compilation file having a same file format as that of the executable file, and extracting a third digital watermark from the second compilation file; wherein, the third digital watermark and the first digital watermark belong to the same type of digital watermarks; and in the another decompiling-then-compiling algorithm, the format of the file generated after decompiling is identical with that of a corresponding file generated during compiling and generating the executable file of a genuine application corresponding to the application to be identified; acquiring similarity between the first digital watermark and the second digital watermark and similarity between the first digital watermark and the third digital watermark; comparing the similarity between the first digital watermark and the second digital watermark with the similarity between the...",
+  "patent_number": "None",
+  "abstract": "Embodiments of the present application disclose a method and system for identifying whether an application is genuine by means of digital watermarks, which can conveniently determine whether an application is genuine. The method comprises: extracting a first digital watermark from an executable file of an application to be identified; using two decompiling-then-compiling algorithms on the executable file so as to generate, respectively, a first compilation file and a second compilation file having a same file format as that of the executable file, and extracting, respectively, a second digital watermark and a third digital watermark from the first compilation file and the second compilation file; acquiring, respectively, similarity between the first digital watermark and the second digital watermark and similarity between the first digital watermark and the third digital watermark; and if the similarity between the first digital watermark and the third digital watermark is higher than ...",
+  "publication_number": "US20170199992A1-20170713",
+  "_processing_info": {
+    "original_size": 70269,
+    "optimized_size": 3860,
+    "reduction_percent": 94.51
+  }
+}

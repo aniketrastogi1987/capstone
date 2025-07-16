@@ -1,0 +1,44 @@
+{
+  "patent_number": "None",
+  "application_number": "15689975",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "filing_date": "20170829",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "An information extraction support device includes a receptor, a pattern generator, a data generator, and an output controller. The receptor receives input of a first training example for learning a model used in at least one of extraction of information and extraction of a relation between a plurality of pieces of information, and clue information indicating a basis on which the first training example is used for learning. The pattern generator generates a supervised pattern for generating a training example used for learning, using the first training example and the clue information. The data generator generates a second training example using the supervised pattern. The output controller outputs the second training example and the clue information that is used to generate the supervised pattern having generated the second training example.",
+  "publication_number": "US20180137435A1-20180517",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram of an information extraction support device according to an embodiment; FIG. 2 is a flowchart illustrating an example of information extraction support processing according to the embodiment; FIG. 3 is a diagram illustrating an example of a schema formation screen to form a schema; FIG. 4 is a diagram illustrating an example of a document search screen to search an object document; FIG. 5 is a diagram illustrating an example of a method of registering training examples and clue expressions; FIG. 6 is a diagram illustrating an example of a weak supervised pattern generated. FIG. 7 is a diagram illustrating an example of a weak supervised pattern generated. FIG. 8 is a diagram illustrating an example of an output result; FIG. 9 is a diagram illustrating an example of an output result; FIG. 10 is a diagram illustrating an example of a screen to correct an error of an output result; FIG. 11 is a diagram illustrating an example of a screen to correct an error of an output result; FIG. 12 is a diagram illustrating an example of a determination screen to perform determination only with a value of an example candidate; FIG. 13 is a diagram illustrating an example of a determination screen to perform determination only with a value of an example candidate; FIG. 14 is a diagram illustrating an example of a determination screen to perform determination only with a value of an example candidate; FIG. 15 is a diagram illustrating an output example of an output result in the case where a partially different example candidate is generated; FIG. 16 is a diagram illustrating an output example of an output result in the case where a partially different example candidate is generated; FIG. 17 is a diagram illustrating an example of a screen allowing registration of synonyms; FIG. 18 is a diagram illustrating an example of a screen allowing registration of synonyms; FIG. 19 is a diagram illustrating an example of an...",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "OKAMOTO",
+      "inventor_name_first": "Masayuki",
+      "inventor_city": "Kawasaki Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MIYAMURA",
+      "inventor_name_first": "Yuichi",
+      "inventor_city": "Yokohama Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SUZUKI",
+      "inventor_name_first": "Hirokazu",
+      "inventor_city": "Machida Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION EXTRACTION SUPPORT DEVICE, INFORMATION EXTRACTION SUPPORT METHOD AND COMPUTER PROGRAM PRODUCT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 60915,
+    "optimized_size": 3764,
+    "reduction_percent": 93.82
+  }
+}

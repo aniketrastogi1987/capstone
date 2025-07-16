@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180322",
+  "publication_number": "US20180096243A1-20180405",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15282058",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PATIL",
+      "inventor_name_first": "Sundeep R",
+      "inventor_city": "Garching b. Munchen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "KAPIL",
+      "inventor_name_first": "Ansh",
+      "inventor_city": "Munich",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "BAPTISTA",
+      "inventor_name_first": "Oliver",
+      "inventor_city": "Garching",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "The present embodiments relate to a system and method associated with anomaly classification. The method comprises receiving a plurality of time-series data from one or more sensors associated with a machine. The time-series data may be automatically passed through a convolutional neural network to determine reduced dimension data. An anomaly based on classifying the reduced dimension data may be automatically determined. In a case that the anomaly is an unknown anomaly, the determined anomaly may be labeled and the determined anomaly and its associated label may be stored in an anomaly training database.",
+  "filing_date": "20160930",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to some embodiments, the present embodiments relate to a method and system for determining an anomaly associated with a machine. The method comprises receiving a plurality of time-series data from the machine. The time-series data may be automatically passed through a convolutional neural network to determine reduced dimension data. An anomaly based on classifying the reduced dimension data may be automatically determined via a processor. In a case that the anomaly is an unknown anomaly, the determined anomaly may be labeled and stored in an anomaly training database. A technical advantage of some embodiments disclosed herein are improved systems and methods for early detection and diagnosis of anomalies associated with machines through the use of convolutional neural networks which are easier to train and have many fewer parameters than fully connected networks.",
+  "date_published": "20180405",
+  "title": "DEEP LEARNING FOR DATA DRIVEN FEATURE REPRESENTATION AND ANOMALY DETECTION",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 39686,
+    "optimized_size": 2382,
+    "reduction_percent": 94.0
+  }
+}

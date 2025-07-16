@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15379250",
+  "date_published": "20170622",
+  "date_produced": "20170607",
+  "title": "Methods and Systems for Assessing Cell Morphology",
+  "filing_date": "20161214",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nieves Alicea",
+      "inventor_name_first": "Rene",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Wenjing",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T700",
+    "G06K952",
+    "G06K962",
+    "G06K946"
+  ],
+  "main_ipcr_label": "G06T700",
+  "summary": "<SOH> SUMMARY <EOH>Aspects of the instant disclosure include a method of extracting stain-independent cellular features, the method comprising: generating a cellular mask of a digital image of a histologically stained specimen; extracting a first cellular feature of a cell, or portion thereof, defined by the cellular mask; extracting a second feature over a region of interest (ROI) of the histology specimen, wherein the first and second features are not affected by variation in the staining or are proportionally affected by variation in the staining; and determining a stain-independent feature of the cell by calculating the ratio of the first cellular feature to the second feature. In other aspects, the method includes where the first cellular feature and the second feature are color features, lightness features, contour features, invariant moment features or image texture features. In other aspects, the method includes where the cellular features are extracted over various ROIs, including where the first cellular feature is of a cell and the ROI is the cell, the first cellular feature is of the nucleus of a cell and the ROI is the nucleus of the cell or a portion thereof, the first cellular feature is of the cytoplasm of a cell and the ROI is the cytoplasm of the cell or a portion thereof, the first cellular feature is of a cell and the ROI is the nucleus of the cell or a portion thereof, the ROI is one or more nuclear lobes of the cell, the first cellular feature is of a cell and the ROI is the cytoplasm of the cell or a portion thereof, the first cellular feature is of a cell and the ROI is a non-cellular feature of the histology specimen (including e.g., where the non-cellular feature of the histology specimen is the background of the slide), the first cellular feature and the ROI are first and second ring portions of the cell concentric with the cell and/or the first cellular feature is of a cell and the ROI is a population of cells defined by the cellular mask...",
+  "patent_number": "None",
+  "abstract": "The instant disclosure provides methods of extracting stain-independent features from digital images of histologically stained cells. Stain-independent features provide consistent assessment of cell morphology in the presence of staining variation and across different stains or stain formulations. Improved consistency in cell morphology assessments finds use in automated cell classification and other image processing applications. Also included are systems for practicing the described methods. The instant disclosure also provides computer readable media storing instructions that, when executed by a computing device, cause the computing device and/or components of a described system to perform steps of a method involving of extraction of stain-independent features from digital images.",
+  "publication_number": "US20170178321A1-20170622",
+  "_processing_info": {
+    "original_size": 160553,
+    "optimized_size": 3518,
+    "reduction_percent": 97.81
+  }
+}

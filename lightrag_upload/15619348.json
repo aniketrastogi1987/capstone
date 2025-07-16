@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15619348",
+  "date_published": "20171214",
+  "date_produced": "20171129",
+  "filing_date": "20170609",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Convolution processing performance in digital image processing is enhanced using a data packing process for convolutional layers in deep neural networks and corresponding computation kernel code. The data packing process includes an input and weight packing of the input channels of data into a contiguous block of memory in preparation for convolution. In addition, data packing process includes an output unpacking process for unpacking convolved data into output channel blocks of memory, where the input channel block and output channel block sizes are configured for efficient data transfer and data reuse during convolution. The input packing and output packing processes advantageously improve convolution performance and conserve power while satisfying the real-time demands of digital image processing.",
+  "publication_number": "US20170357894A1-20171214",
+  "summary": "<SOH> SUMMARY OF THE DESCRIPTION <EOH>Methods, processes, apparatus, machine-readable tangible storage media, and data processing systems are described to reduce processor demand during convolution using data packing. In one embodiment, data packing reduces processor demand during convolution through any one or more of reducing a number of load and store operations and reusing data already in close proximity to the processor. In one embodiment data packing includes input data packing and output data packing. Input data packing includes pre-processing input data representing a digital image signal into an input channel block of contiguous memory. Output data packing includes convolving the input data representing the digital image signal into an output channel block of contiguous memory sized in accordance with an architecture of the convolution processor. In one embodiment, pre-processing input data includes determining a size of the input channel block into which the input data is packed, wherein the size of the input channel block depends on the size of the output channel block, and further wherein the size of the output channel block depends on the architecture of the convolution processor. In one embodiment, determining the size of the input channel block into which the data is packed further includes determining how many neighboring pixels in the digital image signal are to be used during convolution. In one embodiment, preprocessing input data includes arranging multiple input channel blocks into contiguous memory for multi-layer convolution. In one embodiment, convolving the input data representing the digital image signal into an output channel block of contiguous memory sized in accordance with an architecture of the convolution processor includes processing packed input data from the input channel block with a convolution kernel to produce output data packed into the output channel block, the output data representing the convolved digital image signal. In ...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F306"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bainville",
+      "inventor_name_first": "Eric",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sazegari",
+      "inventor_name_first": "Ali",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DATA PACKING FOR CONVOLUTION OF ARTIFICIAL NEURAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 39877,
+    "optimized_size": 3516,
+    "reduction_percent": 91.18
+  }
+}

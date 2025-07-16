@@ -1,0 +1,62 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046935A1-20180215",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15232557",
+  "inventor_list": [
+    {
+      "inventor_name_last": "AMERSHI",
+      "inventor_name_first": "SALEEMA A.",
+      "inventor_city": "SEATTLE",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "BONGSHIN",
+      "inventor_city": "ISSAQUAH",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SUH",
+      "inventor_name_first": "JINA",
+      "inventor_city": "SEATTLE",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WILLIAMS",
+      "inventor_name_first": "JASON DOUGLAS",
+      "inventor_city": "SEATTLE",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "REN",
+      "inventor_name_first": "DONGHAO",
+      "inventor_city": "SEATTLE",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, computer systems, computer-storage media, and graphical user interfaces are provided for improving performance of a multi-class classifier. An interactive graphical user interface includes an item representation display area that displays a plurality of item representations corresponding to a plurality of items processed by a multi-class classifier. The classifier's performance can be visualized using bidirectional bar graphs displaying true positives, false positives, and false negatives for each class.",
+  "filing_date": "20160809",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. Various aspects of the technology described herein are generally directed to systems, methods, and computer storage media for, among other things, improving the operation of multi-class classifiers by providing an interactive visualization of performance. The visualization of various performance metrics can help troubleshoot the multi-class classifier by helping practitioners understand where additional or different training can improve performance. In aspects, the technology described herein includes a visual representation that simultaneously represents the classifier's performance at a model level, across all items of data processed for different classes, at a class level, and an item level, for each item of processed data. The performance can be measured by having a multi-class classifier process labeled data. The label indicates the ground truth for each item. The performance can then be evaluated by comparing the class each test item is assigned to with the class label for each test item. When the assignment matches the label, then a true positive occurs. When the assignment does not match the label, then both a false positive and a false negative occur. The false positive is with respect to the incorrect class that an item is assigned to. The false negative is with respect to the class the item should have been assigned to. In an exemplary aspect, the technology described shows true positives, false positives, and false negatives across multiple classes through a bidirectional bar graph. Thus, the visualization provides a sense of whether the classifier is generally making accurate predictions about...",
+  "date_published": "20180215",
+  "title": "INTERACTIVE PERFORMANCE VISUALIZATION OF MULTI-CLASS CLASSIFIER",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06K962",
+    "G06T1120",
+    "G06T1100"
+  ],
+  "_processing_info": {
+    "original_size": 89735,
+    "optimized_size": 3703,
+    "reduction_percent": 95.87
+  }
+}

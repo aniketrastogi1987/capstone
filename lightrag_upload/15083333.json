@@ -1,0 +1,39 @@
+{
+  "decision": "PENDING",
+  "application_number": "15083333",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "title": "RAID SYSTEM PERFORMANCE ENHANCEMENT USING COMPRESSED DATA",
+  "filing_date": "20160329",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gerhard",
+      "inventor_name_first": "Adrian C.",
+      "inventor_city": "Rochester",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Moertl",
+      "inventor_name_first": "Daniel F.",
+      "inventor_city": "Rochester",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1110",
+    "G06F306",
+    "G11C2952"
+  ],
+  "main_ipcr_label": "G06F1110",
+  "summary": "<SOH> SUMMARY <EOH>According to embodiments of the present disclosure, a method for operating a storage system, the storage system having memory and RAID storage devices may include receiving, from a computing system, a first data block to write to the storage system. The method may further include compressing the received first data block to generate a second data block, the second data block including the first data block in compressed form and a data value, where the data value indicates that the second data block is compressed. The method may further include storing the second data block in memory. The method may additionally include retrieving the second data block from memory and executing a set of RAID operations to write the second data block to the RAID storage devices, the set of operations including: generating, based on the second data block, redundant data for performing at least one of an error detection and an error correction operation on the second data block; writing the second data block to the RAID storage devices; and writing the redundant data block to the RAID storage devices. Various embodiments are directed towards a system and a computer program product for operating a storage system. The above summary is not intended to describe each illustrated embodiment or every implementation of the present disclosure.",
+  "patent_number": "None",
+  "abstract": "A method for operating a storage system RAID storage devices includes receiving a first data block to write to the storage system. The method further includes compressing the first data block to generate a second data block, the second data block including the first data block in compressed form and a data value indicating that the second data block is compressed. The method further includes storing the second data block in memory. The method additionally includes retrieving the second data block from memory and executing RAID operations to write the data block to the RAID storage devices, the set of operations including: generating, based on the second data block, redundant data for performing at least one of an error detection and an error correction operation on the second data block; writing the second data block to the RAID storage devices; writing the redundant data block to the RAID storage devices.",
+  "publication_number": "US20170286215A1-20171005",
+  "_processing_info": {
+    "original_size": 83050,
+    "optimized_size": 2995,
+    "reduction_percent": 96.39
+  }
+}

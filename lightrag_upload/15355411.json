@@ -1,0 +1,32 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15355411",
+  "date_published": "20170309",
+  "date_produced": "20170223",
+  "title": "SYSTEMS AND METHODS FOR RECOMMENDING A RETAIL LOCATION",
+  "filing_date": "20161118",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lyman",
+      "inventor_name_first": "Nate L.",
+      "inventor_city": "Livermore",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q3006",
+    "G06K714",
+    "G06K1906"
+  ],
+  "main_ipcr_label": "G06Q3006",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments are illustrated by way of example and not limitation in the figures of the accompanying drawings in which: FIG. 1 is a network diagram depicting a recommendation service, according to an example embodiment; FIG. 2 is a block diagram illustrating example computer-implemented modules that may be utilized by the recommendation system shown in FIG. 1 , according to an example embodiment; FIG. 3 is a flowchart illustrating a method for generating a recommendation of a retail location based, at least in part, on historical product scan messages associated with the retail location, according to an example embodiment; FIG. 4 is a flowchart showing a method for building a scan event model from product scan messages received from a scanning device, according to an example embodiment; FIG. 5 is a flow chart illustrating a method for generating a recommendation for a retail location based at least in part on historical product scan messages, according to an example embodiment; FIG. 6 is a block diagram illustrating a selection of a retail location definition based on scan events associated with other retail locations, according to an example embodiment; and FIG. 7 is a diagrammatic representation of a machine in the example form of a computer system within which a set of instructions for causing the machine to perform any one or more of the methodologies discussed herein, according to an example embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "9836778",
+  "abstract": "A method and a system are disclosed for generating a recommendation of a retail location on a network-based system. For example, a system may obtain a retail location definition associated with a geographic location. The geographic location may represent the retail location. The system then builds a scan event model from product scan messages received from a plurality of scanning devices located within the geographic location. The scan event model may include one or more scan events each being associated with a product definition and the retail location definition. Next, a recommendation query from the search device is received by the system. The recommendation query may include a product identifier and a query location. The system may generate a recommendation of the retail location based on determining that the product identifier and the query location match the one or more scan events of the scan event model.",
+  "publication_number": "US20170069012A1-20170309",
+  "_processing_info": {
+    "original_size": 60005,
+    "optimized_size": 3046,
+    "reduction_percent": 94.92
+  }
+}

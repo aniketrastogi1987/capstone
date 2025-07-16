@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15114729",
+  "date_published": "20161124",
+  "date_produced": "20161109",
+  "title": "SYSTEM IDENTIFICATION DEVICE",
+  "filing_date": "20160727",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SAITO",
+      "inventor_name_first": "Mitsunori",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KANAI",
+      "inventor_name_first": "Yurika",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1750"
+  ],
+  "main_ipcr_label": "G06F1750",
+  "summary": "<SOH> SUMMARY <EOH>",
+  "patent_number": "None",
+  "abstract": "A system identification device identifies a linear discrete-time system using a recursive method with respect to each dimension belonging to a designated search range of a system dimension, calculates a system output obtained when actual input data for identification is applied to a linear discrete-time system corresponding to each dimension as a system characteristic, determines a minimum dimension from among dimensions at which a norm distribution of sum of squares of errors in a time domain of the system output and actual output data for identification of the dynamic system is less than or equal to a threshold value, to be a system dimension n, and identifies a system matrix of the linear discrete-time system based on input and output vectors of the dynamic system, and a state vector generated using the determined system dimension.",
+  "publication_number": "US20160342731A1-20161124",
+  "_processing_info": {
+    "original_size": 71186,
+    "optimized_size": 1517,
+    "reduction_percent": 97.87
+  }
+}

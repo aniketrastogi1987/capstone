@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15616370",
+  "date_published": "20180308",
+  "date_produced": "20180222",
+  "filing_date": "20170607",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A response generation apparatus ensures accurate output. A computer stores graph knowledge including a response generation module generating a response to an input document including a plurality of sentences, the graph knowledge database includes graph data that manages a structure of each type of graph knowledge, and the response generation module generates a first graph knowledge from each of the sentences; searches a second graph knowledge similar to each of the plurality of first graph knowledge while referring to the graph data on the basis of the plurality of first graph knowledge; identifies the plurality of second graph knowledge included in a dense location where a density of the second graph knowledge is high in a graph space; searches third graph knowledge for generating the response while referring to the graph data on the basis of the identified second graph knowledge; and generates the response using the third graph knowledge.",
+  "publication_number": "US20180068225A1-20180308",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is necessary to accurately grasp an input in order to output an accurate response to the input. Specifically, an apparatus refers to a knowledge database and searches a knowledge that matches the input. However, if the knowledge that matches the input is not stored in the knowledge database, the apparatus is unable to generate a response. As a consequence, no information is presented in response to the input. Furthermore, the conventional technique has a problem that if a matching condition is relaxed, it is impossible to output an accurate response. A typical example of the invention disclosed in the present application is as follows. That is, provided is a computer including a processor, a storage device connected to the processor, and an interface connected to the processor. Further, the computer holds a graph type knowledge database that stores graph type knowledges each representing a relevance among elements constituting a sentence that defines a knowledge using a node and an edge, and the computer includes a response generation module that generates a response to an input document including a plurality of sentences using the graph type knowledge database. Furthermore, the graph type knowledge database includes graph data that manages a structure of each of the graph type knowledges, and the response generation module is configured to: generate a first graph type knowledge from each of the sentences included in the input document; search a second graph type knowledge similar to each of the plurality of first graph type knowledges while referring to the graph data on the basis of the plurality of first graph type knowledges; identify the plurality of second graph type knowledges included in a dense location where a density of the plurality of second graph type knowledges is high in a graph space corresponding to the graph type knowledge database as the second graph type knowledges used to generate a response; search third ...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MIYOSHI",
+      "inventor_name_first": "Toshinori",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "LEI",
+      "inventor_name_first": "Miaomei",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SATO",
+      "inventor_name_first": "Hiroki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "COMPUTER AND RESPONSE GENERATION METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 64603,
+    "optimized_size": 3770,
+    "reduction_percent": 94.16
+  }
+}

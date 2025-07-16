@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15624266",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "filing_date": "20170615",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Methods are provided for exact synthesis of unitaries for qudit and multi-qubit systems. In addition, state preparation methods are provided. The syntheses produce circuits that have lowest cost for a given cost function.",
+  "publication_number": "US20180107939A1-20180419",
+  "summary": "<SOH> 2. SUMMARY <EOH>Disclosed are methods for decomposing a unitary into a quantum circuit and finding a circuit that prepares a given state on a quantum computer. The methods find a circuit by gradually decreasing the complexity of the unitary or the quantum state. The complexity of the unitary or the state is measured using the structure of a quotient of torsion-free modules associated with the unitary or the state. The relevant part of the structure of the quotient of torsion-free modules is described by an integer vector consisting of p-adic valuations of elementary divisors of the quotient. The complexity is decreased if the vector of integers becomes smaller with respect to a total order on integer vectors. Exact synthesis methods of unitaries for qudit and multiple qubit quantum computing systems include a series of basis gates arranged based on lexicographical or other orderings obtained using products of the basis gates with a torsion free module L of rank d and modules M′ associated with products of a previously selected basis gate and a module M. Typically, quantum states are representable as vectors of length d, wherein d is an integer greater than or equal to 2, and the unitary is represented as a square matrix of dimension d over a ring R. A final gate in the series is defined as u=(U † r) † , wherein r is a product of the other selected basis gates. In some cases, state preparation methods are also provided.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716",
+    "H03K19195"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Schoennenbeck",
+      "inventor_name_first": "Sebastian",
+      "inventor_city": "Aachen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Kliuchnikov",
+      "inventor_name_first": "Vadym",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bocharov",
+      "inventor_name_first": "Alexei V.",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "EXACT QUANTUM CIRCUITS AND CIRCUIT SYNTHESES FOR QUDIT AND MULTIPLE QUBIT CIRCUITS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 49079,
+    "optimized_size": 2583,
+    "reduction_percent": 94.74
+  }
+}

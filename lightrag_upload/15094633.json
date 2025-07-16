@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170802",
+  "publication_number": "US20170236055A1-20170817",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15094633",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LIN",
+      "inventor_name_first": "ZHE",
+      "inventor_city": "FREMONT",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SHEN",
+      "inventor_name_first": "XIAOHUI",
+      "inventor_city": "SAN JOSE",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BRANDT",
+      "inventor_name_first": "JONATHAN",
+      "inventor_city": "SANTA CRUZ",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "JIANMING",
+      "inventor_city": "NEWTON",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FANG",
+      "inventor_name_first": "CHEN",
+      "inventor_city": "SANTA CLARA",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments of the present invention provide an automated image tagging system that can predict a set of tags, along with relevance scores, that can be used for keyword-based image retrieval, image tag proposal, and image tag auto-completion based on user input. Initially, during training, a clustering technique is utilized to reduce cluster imbalance in the data that is input into a convolutional neural network (CNN) for training feature data. In embodiments, the clustering technique can also be utilized to compute data point similarity that can be utilized for tag propagation (to tag untagged images). During testing, a diversity based voting framework is utilized to overcome user tagging biases. In some embodiments, bigram re-weighting can down-weight a keyword that is likely to be part of a bigram based on a predicted tag set.",
+  "filing_date": "20160408",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This summary is not intended to identify key features or essential features of the claimed subject matter, nor should it be used as an aid in determining the scope of the claimed subject matter. Embodiments of the present invention relate to image tagging systems. In particular, embodiments of the present invention provide an automated image tagging system that can predict a set of tags, along with relevance scores, that can be used for keyword-based image retrieval, image tag proposal, and image tag auto-completion based on user input. An enhanced clustering technique is utilized to remove cluster imbalance and improve training of a classifier that is utilized to predict tags and relevance scores for an image. As described above, cluster imbalance is a problem that happens when a large number of data points are concentrated in a small number of clusters. Cluster imbalance results in inefficiency during training as well as inaccuracy during testing. Consequently, a solution is proposed that enforces a size upper bound on clusters that results by (a) removing a subset of clusters of a particular size, and (b) recursively applying KMeans clustering on any remaining dominant clusters. In this way, when the data is input into a convolutional neural network (CNN), the CNN is able to more effectively distinguish between a large number of tags present in the training data which also enables the CNN to more accurately tag untagged images during testing. An enhanced voting framework can then be utilized to overcome user tagging biases. As described above, user tagging bias is a problem that happens when the set of training images have been tagged by similar annotators or similar tag providers. A solution is proposed that addresses user tagging biases by employing a diversity-based voting framework. In particular, ...",
+  "date_published": "20170817",
+  "title": "ACCURATE TAG RELEVANCE PREDICTION FOR IMAGE SEARCH",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 57916,
+    "optimized_size": 3968,
+    "reduction_percent": 93.15
+  }
+}

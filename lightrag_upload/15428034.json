@@ -1,0 +1,40 @@
+{
+  "patent_number": "None",
+  "application_number": "15428034",
+  "date_published": "20170810",
+  "date_produced": "20170726",
+  "filing_date": "20170208",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Embodiments relate to systems, devices, non-transitory computer-readable storage media, and computer-implemented methods for performing behavioral analytics using short identifiers by obtaining historical event data for multiple events and multiple short identifiers, where each event is associated with a short identifier, selecting a first event location associated with a first event, selecting a second event location associated with a second event that is geographically dispersed from the first event location, determining identifier collisions based on short identifiers associated with the first event location and short identifiers associated with the second event location in the historical event data, determining an average percentage of identifiers collisions based on the identifier collisions that were determined, performing behavior analytics on the short identifiers to generate behavioral models associated with the short identifiers, and generating adjusted behavioral models base...",
+  "publication_number": "US20170228657A1-20170810",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure relates to systems, devices, non-transitory computer-readable media, and methods for performing behavioral analytics using short identifiers by obtaining historical event data for multiple events and multiple short identifiers, where each event is associated with a short identifier, selecting a first event location associated with a first event, selecting a second event location associated with a second event that is geographically dispersed from the first event location, determining identifier collisions based on short identifiers associated with the first event location and short identifiers associated with the second event location in the historical event data, determining an average percentage of identifiers collisions based on the identifier collisions that were determined, performing behavior analytics on the short identifiers to generate behavioral models associated with the short identifiers, and generating adjusted behavioral models based on the average percentage of identifier collisions. In some embodiments the behavioral analytics can be used to determining new event values by obtaining a short identifier from a user device, determining, based on the short identifier, an adjusted behavioral model, determining an expected event frequency based on the adjusted behavioral model, determining an actual event frequency, and transmitting an indication of a new event value to the client device based on a determination that the expected event frequency is less than the actual event frequency, where the client device displays a notification corresponding to the indication of the new event value.",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730",
+    "G06N9900",
+    "H04L2908"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kinnier",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "Bethesda",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McPhee",
+      "inventor_name_first": "Richard",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR SHORT IDENTIFIER BEHAVIORAL ANALYTICS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 66308,
+    "optimized_size": 3407,
+    "reduction_percent": 94.86
+  }
+}

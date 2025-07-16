@@ -1,0 +1,66 @@
+{
+  "patent_number": "None",
+  "application_number": "15588478",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "filing_date": "20170505",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Disclosed is a system (and process) for determining the accuracy of computerized tasks in a task batch. The system calculates a number of reviews to assess the accuracy of a task based on a source accuracy and a reviewer accuracy. The source accuracy is based factors calculated by a predictive model, the factors including a historical accuracy of an authoring user. The reviewer accuracy is based on a true positive rate and a true negative rate of one or more reviewers of the task batch. The system transmits sourced tasks to a same number of reviewers. The system collects reviews and assesses if the task passes review based on the collected number of reviews.",
+  "publication_number": "US20170323211A1-20171109",
+  "summary": "<SOH> SUMMARY <EOH>Described is a configuration that may include a system, a method, and/or program code storable on a non-transitory computer readable storage medium, to determine computerized tasks in a task batch for assignment to a plurality of users. The configuration may include calculating a number of reviews to assess an accuracy of a task, targeting a same number of reviewers to assess the accuracy of the task, collecting the number of the reviews, and determining if the task passes review based on the number of collected reviews. In one aspect, the number of the reviews to assess the accuracy of the task may be based on an accuracy of a user who completed the task or an amount of time for a user to complete the task. The number of reviews may be based on a true positive rate of the task batch, the true positive rate is based on a proportion of tasks of the task batch that users correctly mark as passing review. The number of the reviews may be based on a true negative rate of the task batch; the true negative rate is based on a proportion of tasks of the task batch that users correctly marks as not passing review. The number of reviews to assess the accuracy of the task may be based on a quality accuracy threshold provided by a customer associated with the task batch. In one example embodiment, the configuration calculates a probability that the sourced task is completed correctly based on a source accuracy of the authoring user from one or more factors calculated by a predictive model. The one or more factors may include a historical accuracy of the authoring user. The historical accuracy of the authoring user may be based on a proportion of previously completed tasks by the authoring user that have passed review. The source accuracy may be based on an amount of time for the authoring user to complete the sourced task. The one or more factors may include a behavior pattern of the authoring user. The behavior pattern of the authoring user may include at le...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06Q1006"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bencke",
+      "inventor_name_first": "Matthew Justin Von",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hugeback",
+      "inventor_name_first": "Angela Beth",
+      "inventor_city": "Bainbridge Island",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Yuan",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nakhuda",
+      "inventor_name_first": "Daryn Edward",
+      "inventor_city": "Bainbridge Island",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "O'Donnell",
+      "inventor_name_first": "Patrick Emmett",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shobe",
+      "inventor_name_first": "Matthew Newman",
+      "inventor_city": "Mercer Island",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "AUTOMATED ACCURACY ASSESSMENT IN TASKING SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 141128,
+    "optimized_size": 4003,
+    "reduction_percent": 97.16
+  }
+}

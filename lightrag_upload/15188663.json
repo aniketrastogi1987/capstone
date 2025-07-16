@@ -1,0 +1,39 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364793A1-20171221",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15188663",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "SangBum",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lam",
+      "inventor_name_first": "Chung H.",
+      "inventor_city": "Peekskill",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A neuromorphic memory circuit including a memory cell with a programmable resistive memory element. A postsynaptic capacitor builds up a leaky integrate and fire (LIF) charge. An axon LIF pulse generator activates a LIF discharge path from the postsynaptic capacitor through the resistive memory element when the axon LIF pulse generator generates axon LIF pulses. A postsynaptic comparator compares the capacitor voltage to a threshold voltage and generates postsynaptic output pulses when the capacitor voltage passes the threshold voltage. The postsynaptic output pulses include a postsynaptic firing characteristic dependent on a frequency of the axon LIF pulses. A refractory circuit prevents the postsynaptic comparator from generating additional postsynaptic output pulses until a refractory time passes since a preceding postsynaptic output pulse. A training circuit adjusts the postsynaptic firing characteristic to match a target firing characteristic.",
+  "filing_date": "20160621",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Accordingly, one example aspect of the present invention is a neuromorphic memory circuit comprising a memory cell that includes a resistive memory element programmable to a memory resistance. A postsynaptic capacitor is configured to build up a leaky integrate and fire (LIF) charge. The postsynaptic capacitor includes a capacitor voltage proportional to the LIF charge. An axon LIF pulse generator is configured to activate a LIF discharge path from the postsynaptic capacitor through the resistive memory element when the axon LIF pulse generator generates axon LIF pulses. A postsynaptic comparator is configured to compare the capacitor voltage to a threshold voltage and generate postsynaptic output pulses when the capacitor voltage passes the threshold voltage. The postsynaptic output pulses include a postsynaptic firing characteristic dependent on a frequency of the axon LIF pulses. A refractory circuit is coupled to the postsynaptic comparator and is configured to prevent the postsynaptic comparator from generating additional postsynaptic output pulses until a refractory time passes since a preceding postsynaptic output pulse. A training circuit is configured to adjust the postsynaptic firing characteristic to match a target firing characteristic. The postsynaptic firing characteristic includes a postsynaptic firing rate that rises from a postsynaptic threshold frequency along a postsynaptic curve slope that asymptotically approaches a postsynaptic maximum frequency. Similarly, the target firing characteristic includes a target firing rate that rises from a target threshold frequency along a target curve slope that asymptotically approaches a target maximum frequency. Another example aspect of the present invention is a neuromorphic memory circuit comprising memory cell array. Each memory cell in the memory cell array includes a resistive memory element programmable to a memory resistance. A postsynaptic capacitor is coupled to a row of mem...",
+  "date_published": "20171221",
+  "title": "SYSTEM TO DUPLICATE NEUROMORPHIC CORE FUNCTIONALITY",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N308",
+    "G11C1300"
+  ],
+  "_processing_info": {
+    "original_size": 64383,
+    "optimized_size": 3678,
+    "reduction_percent": 94.29
+  }
+}

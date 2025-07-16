@@ -1,0 +1,48 @@
+{
+  "patent_number": "None",
+  "application_number": "15627296",
+  "date_published": "20180201",
+  "date_produced": "20180117",
+  "filing_date": "20170619",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A system is described for interactively analyzing plays of a sporting event based on real-world positional tracking data. Using positional information regarding the players and/or ball and/or other objects obtained from a tracking system, along with identified event data and contextual information, the system processes a library of plays (e.g., one or more seasons' worth of a league's contests) into a searchable database of plays using multiple alignment templates and discriminative clustering techniques. A user interface is described for interacting with the database in a graphical manner, whereby users can query a graphical depiction of a play and receive the most similar plays from the library, along with statistical information relating to the plays. The user interface further permits the user to modify the query graphically (e.g., moving or exchanging players, ball trajectories, etc.) and obtain updated statistical information for comparison.",
+  "publication_number": "US20180032858A1-20180201",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>A system is provided for interactive analysis of sports games using gathered trajectory information. The system processes sequences (e.g., “plays”) of a game from gathered tracking data in an efficient manner that permits a user to query a database of plays using a graphical representation of the raw trajectories and to interactively find plays that are similar. A user can use selected “exemplar” plays, or user-drawn plays on an interface. The system also permits interactive statistical analysis by the user based on a graphical representation of the game players and trajectories. For example, the system allows a user to specify a current play-of-interest (such as by selecting the play from a list of exemplar plays, or by manipulating graphical objects on a screen to represent the play) as a query to the database of plays. Using statistical information associated with the plays in the database, the system can present a statistical probability for a particular event occurring in the queried state. With respect to FIG. 9 a , a basketball game state is shown with ten players positioned on the court, five on offense and five on defense. The system queries the database using the game situation (or a subset of the elements of the game situation), and displays a statistical probability of a successful outcome for players in that situation (e.g., 34% for Brown), based on similarly situated plays in the database that were retrieved in response to the query. Other types of statistical event probabilities (e.g., pass probability, foul probability, turnover probability, etc.) can also be estimated and presented based on the query. The system also permits interactive analysis by tweaking or modifying the queried play to ask “what if . . . ?” types of questions. For example, with respect to FIG. 9 b , the user has exchanged one player (Brown) for another (Tucker) in the queried situation. The system updates the event probability accordingl...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "A63F1325",
+    "A63F1335",
+    "A63F13812"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lucey",
+      "inventor_name_first": "Patrick",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SHA",
+      "inventor_name_first": "Long",
+      "inventor_city": "Brisbane",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "WEI",
+      "inventor_name_first": "Xinyu",
+      "inventor_city": "Melbourne",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR PREDICTIVE SPORTS ANALYTICS USING CLUSTERED MULTI-AGENT DATA",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 64110,
+    "optimized_size": 3888,
+    "reduction_percent": 93.94
+  }
+}

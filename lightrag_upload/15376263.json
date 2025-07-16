@@ -1,0 +1,46 @@
+{
+  "decision": "PENDING",
+  "application_number": "15376263",
+  "date_published": "20180412",
+  "date_produced": "20180328",
+  "title": "METHOD AND APPARATUS FOR USING BMC AS PROXY FOR NVME OVER FABRICS DEVICE FIRMWARE UPGRADE",
+  "filing_date": "20161212",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Olarig",
+      "inventor_name_first": "Sompong Paul",
+      "inventor_city": "Pleasanton",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pham",
+      "inventor_name_first": "Son",
+      "inventor_city": "San Ramon",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Worley",
+      "inventor_name_first": "Fred",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F9445",
+    "H04L2906",
+    "H04L1224"
+  ],
+  "main_ipcr_label": "G06F9445",
+  "summary": "<SOH> SUMMARY <EOH>According to one embodiment, a method for upgrading a firmware of a target device includes: receiving a firmware upgrade request from an initiator, the firmware upgrade request including a target identification and a firmware image; authenticating the firmware upgrade request using a baseboard management controller (BMC) of a switching board; and performing the firmware upgrade of the target device using the BMC of the switching board. According to another embodiment, a switchboard includes: a plurality of slots configured to connect a plurality of devices; a network controller; and a baseboard management controller (BMC) connected to each of the plurality of slots. The BMC controller is configured to receive a firmware upgrade request from an initiator via the network controller, the firmware upgrade request including a target identification and a firmware image. The BMC is further configured to authenticate the firmware upgrade request and perform the firmware upgrade of one or more target devices. The above and other preferred features, including various novel details of implementation and combination of events, will now be more particularly described with reference to the accompanying figures and pointed out in the claims. It will be understood that the particular systems and methods described herein are shown by way of illustration only and not as limitations. As will be understood by those skilled in the art, the principles and features described herein may be employed in various and numerous embodiments without departing from the scope of the present disclosure.",
+  "patent_number": "None",
+  "abstract": "A method for upgrading a firmware of a target device includes: receiving a firmware upgrade request from an initiator, the firmware upgrade request including a target identification and a firmware image; authenticating the firmware upgrade request using a baseboard management controller (BMC) of a switching board; and performing the firmware upgrade of the target device using the BMC of the switching board.",
+  "publication_number": "US20180101376A1-20180412",
+  "_processing_info": {
+    "original_size": 46998,
+    "optimized_size": 2918,
+    "reduction_percent": 93.79
+  }
+}

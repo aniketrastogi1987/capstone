@@ -1,0 +1,47 @@
+{
+  "date_produced": "20170906",
+  "publication_number": "US20170270430A1-20170921",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15076007",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Llagostera",
+      "inventor_name_first": "Jaume Ferrarons",
+      "inventor_city": "Barcelona",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    },
+    {
+      "inventor_name_last": "Sánchez Charles",
+      "inventor_name_first": "David",
+      "inventor_city": "Barcelona",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    },
+    {
+      "inventor_name_last": "Muntés Mulero",
+      "inventor_name_first": "Victor",
+      "inventor_city": "Barcelona",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    }
+  ],
+  "abstract": "A method includes performing, by a processor: receiving a document containing subject matter related to a course of action, the document comprising a plurality of sub-documents that are related to one another in a time sequence, converting the document to a vector format to generate a vectorized document that encodes a probability distribution of words in the document and transition probabilities between words, applying a machine learning algorithm to the vectorized document to generate an estimated vectorized document, associating the estimated vectorized document with a reference document; predicting future subject matter contained in a future sub-document of the document based on the reference document, and adjusting the course of action responsive to predicting the future subject matter.",
+  "filing_date": "20160321",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In some embodiments of the inventive subject matter, a method comprises performing, performing by a processor: receiving a document containing subject matter related to a course of action, the document comprising a plurality of sub-documents that are related to one another in a time sequence, converting the document to a vector format to generate a vectorized document that encodes a probability distribution of words in the document and transition probabilities between words, applying a machine learning algorithm to the vectorized document to generate an estimated vectorized document, associating the estimated vectorized document with a reference document; predicting future subject matter contained in a future sub-document of the document based on the reference document, and adjusting the course of action responsive to predicting the future subject matter. In other embodiments of the inventive subject matter, a system comprises a processor and a memory coupled to the processor and comprising computer readable program code embodied in the memory that is executable by the processor to perform: receiving a document containing subject matter related to a course of action, the document comprising a plurality of sub-documents that are related to one another in a time sequence, converting the document to a vector format to generate a vectorized document that encodes a probability distribution of words in the document and transition probabilities between words, applying a machine learning algorithm to the vectorized document to generate an estimated vectorized document, associating the estimated vectorized document with a reference document, predicting future subject matter contained in a future sub-document of the document based on the reference document, adjusting the course of action by determining a destination for communication of the document based on the future subject matter that was predicted, and electronically communicating the document to the d...",
+  "date_published": "20170921",
+  "title": "DOCUMENT ANALYSIS SYSTEM THAT USES MACHINE LEARNING TO PREDICT SUBJECT MATTER EVOLUTION OF DOCUMENT CONTENT",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1721",
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 54562,
+    "optimized_size": 3761,
+    "reduction_percent": 93.11
+  }
+}

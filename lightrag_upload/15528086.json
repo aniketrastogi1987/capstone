@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15528086",
+  "date_published": "20171102",
+  "date_produced": "20171018",
+  "filing_date": "20170518",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Quantum circuits and circuit designs are based on factorizations of diagonal unitaries using a phase context. The cost/complexity of phase sparse/phase dense approximations is compared, and a suitable implementation is selected. For phase sparse implementations in the Clifford+T basis, required entangling circuits are defined based on a number of occurrences of a phase in the phase context in a factor of the diagonal unitary.",
+  "publication_number": "US20170316336A1-20171102",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed herein are methods and apparatus that define quantum circuits for implementing n-qubit diagonal unitaries. The disclosed approaches provide more efficient approximations of the target diagonal unitaries than conventional designs in practically important ranges of parameters. The circuits produced using the disclosed approaches are called circuits with cascaded entanglers. Based on a phase context, a plurality of rotation operators having rotation angles in the phase context is selected and the quantum circuit is defined based on the plurality of rotation operators applied to an ancillary qubit. The design of circuits with cascaded entanglers exploits the sparseness of the phase context, as a part of the circuit synthesis process this design is compared with other designs such as exact designs, so that an optimal circuit can be selected. Typically, the diagonal unitary is factored as a product of diagonal operators, and each of the factors is represented as a single rotation and one or more entanglement circuits. The entanglement circuits can be represented in the Clifford+T basis based on a number of occurrences of a respective phase in the associated factor.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1750"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bocharov",
+      "inventor_name_first": "Alexei",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Svore",
+      "inventor_name_first": "Krysta",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Welch",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "Pensacola",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHOD FOR EFFICIENT IMPLEMENTATION OF DIAGONAL OPERATORS OVER CLIFFORD+T BASIS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 51109,
+    "optimized_size": 2506,
+    "reduction_percent": 95.1
+  }
+}

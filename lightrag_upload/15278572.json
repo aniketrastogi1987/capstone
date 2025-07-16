@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180315",
+  "publication_number": "US20180089560A1-20180329",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15278572",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wallace",
+      "inventor_name_first": "Douglas E.",
+      "inventor_city": "Round Rock",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mutnury",
+      "inventor_name_first": "Bhyrav M.",
+      "inventor_city": "Round Rock",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An information handling system includes a memory that stores code, and a processor that executes code stored in memory to derive a distribution of impedances for parameters of a trace within a printed circuit board (PCB). The processor further to determine impedance corners of the distribution of impedances, to select the impedance corners as first, second, and third trace models, and to derive first, second, and third distribution of losses based on the first, second, and third trace models. The processor further to store loss corners of the first, second, and third distribution of losses as modeling points, and to determine whether all of modeling points pass within tolerance levels of loss and impedance of the trace.",
+  "filing_date": "20160928",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method can include deriving, by an Artificial Neural Network (ANN), a distribution of impedances of a trace within a printed circuit board (PCB) based on input parameters for the trace. The method also includes determining first, second, and third impedance corners of the distribution of impedances. The method further includes selecting the first impedance corner as a first trace model, the second impedance corner as a second trace model, and the third impedance corner as a third trace model. The method also includes deriving, by the ANN, a first distribution of losses and impedance values based on the first trace model, a second distribution of losses and impedance values based on the second trace model, and a third distribution of losses and impedance values based on the third trace model. The method further includes storing loss corners of the first, second, and third distribution of losses as modeling points. The method also includes determining whether all of the modeling points pass within tolerance levels of impedance and manufacturing parameter values for the trace. The method further includes building the PCB based on parameters defined in the modeling points in response to all of the model points passing within the tolerance levels",
+  "date_published": "20180329",
+  "title": "High Speed Serial Links for High Volume Manufacturing",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1750"
+  ],
+  "_processing_info": {
+    "original_size": 38416,
+    "optimized_size": 2720,
+    "reduction_percent": 92.92
+  }
+}

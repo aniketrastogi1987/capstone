@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15598793",
+  "date_published": "20171123",
+  "date_produced": "20171108",
+  "filing_date": "20170518",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method for unsupervised sorting, in real time, of action potentials of biological neurons by a network of artificial neurons including input, intermediate and output layers, the method according to which: the input layer receives an electrical signal measuring an electrical activity of biological neurons, the electrical signal having a variable amplitude as a function of action potentials emitted by the plurality of biological neurons over time; the input layer converts the amplitude of the electrical signal into a train of first spikes; the input layer transmits the train of first spikes to the intermediate layer; the intermediate layer converts the train of first spikes into a train of second spikes; the intermediate layer transmits the train of second spikes to the output layer; as a function of the train of second spikes, the output layer sorts each occurrence of each type of action potential present in the electrical signal.",
+  "publication_number": "US20170337473A1-20171123",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The invention offers a solution to the problems evoked previously, making it possible to sort action potentials in real time and in an unsupervised manner, that is to say without return of information as a function of the result of an output layer, in other words without feedback or inverse feedback, as in the case of reinforcement learning. One aspect of the invention relates to a method for unsupervised sorting, in real time, of action potentials of a plurality of biological neurons by means of a network of artificial neurons comprising an input layer, an intermediate layer and an output layer, each artificial neuron of the input layer being connected to a plurality of artificial neurons of the intermediate layer by a plurality of first excitatory synapses and each artificial neuron of the intermediate layer being connected to a plurality of artificial neurons of the output layer by a plurality of second excitatory synapses, at least one first or second excitatory synapse connecting a first artificial neuron to a second artificial neuron and having a weight that is modified as a function of the instants at which take place presynaptic spikes emitted by the first artificial neuron and postsynaptic spikes emitted by the second artificial neuron, method according to which: the input layer receives an electrical signal measuring an electrical activity of a plurality of biological neurons, the electrical signal having a variable amplitude as a function of action potentials emitted by the plurality of biological neurons over time; the input layer converts the amplitude of the electrical signal into a train of first spikes; the input layer transmits the train of first spikes to the intermediate layer; the intermediate layer converts the train of first spikes into a train of second spikes; the intermediate layer transmits the train of second spikes to the output layer; as a function of the train of second spikes, the output layer sorts ...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "BERNERT",
+      "inventor_name_first": "Marie",
+      "inventor_city": "GRENOBLE",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "VIANELLO",
+      "inventor_name_first": "Elisa",
+      "inventor_city": "GRENOBLE",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "YVERT",
+      "inventor_name_first": "Blaise",
+      "inventor_city": "SAINT EGREVE",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "title": "METHOD FOR UNSUPER VISED SORTING IN REAL TIME OF ACTION POTENTIALS OF A PLURALITY OF BIOLOGICAL NEURONS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 163288,
+    "optimized_size": 3837,
+    "reduction_percent": 97.65
+  }
+}

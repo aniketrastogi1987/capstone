@@ -1,0 +1,40 @@
+{
+  "patent_number": "None",
+  "application_number": "15811074",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "filing_date": "20171113",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A method is provided that includes accessing a training set of positive and negative event pairs. The method includes calculating (i) positive similarity scores between an input pair of events and the positive event pairs, and (ii) negative similarity scores between the input pair of events and the negative event pairs. The method includes applying a Softmax process to (i) the positive similarity scores to produce an overall positive similarity score for the input pair of events, and (ii) the negative similarity scores to produce an overall negative similarity score for the input pair of events. The method includes calculating the difference between the overall positive and negative similarity scores to obtain a future event prediction score indicating a future occurrence likelihood of at least one of two events forming the input pair of events. The method includes performing an action responsive to the future event prediction score.",
+  "publication_number": "US20180150755A1-20180531",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the present invention, a computer-implemented method is provided. The method includes accessing, by a processor, a training set of positive and negative event pairs. The method further includes calculating, by the processor, (i) positive similarity scores between an input pair of events and the positive event pairs in the training set, and (ii) negative similarity scores between the input pair of events and the negative event pairs in the training set. The method also includes applying, by the processor, a Softmax process to (i) the positive similarity scores to produce an overall positive similarity score for the input pair of events relative to the negative event pairs, and (ii) the negative similarity scores to produce an overall negative similarity score for the input pair of events relative to the positive event pairs. The method additionally includes calculating, by the processor, the difference between the overall positive similarity score and the overall negative similarity score to obtain a future event prediction score indicating a future occurrence likelihood of at least one of two constituent events forming the input pair of events. The method also includes performing, by the processor, an action responsive to the future event prediction score. According to another aspect of the present invention, a computer program product is provided. The computer program product includes a non-transitory computer readable storage medium having program instructions embodied therewith. The program instructions are executable by a computer to cause the computer to perform a method. The method includes accessing, by a processor, a training set of positive and negative event pairs. The method further includes calculating, by the processor, (i) positive similarity scores between an input pair of events and the positive event pairs in the training set, and (ii) negative similarity scores between the input pair of events and the ne...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F954",
+    "G06F938",
+    "G06K962"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bai",
+      "inventor_name_first": "Bing",
+      "inventor_city": "Princeton Junction",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Andrade",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "ANALOGY-BASED REASONING WITH MEMORY NETWORKS FOR FUTURE PREDICTION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 50520,
+    "optimized_size": 3681,
+    "reduction_percent": 92.71
+  }
+}

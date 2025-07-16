@@ -1,0 +1,31 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15377649",
+  "date_published": "20170330",
+  "date_produced": "20170316",
+  "title": "ATOMIC DETECTION AND REPAIR OF KERNEL MEMORY",
+  "filing_date": "20161213",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sallam",
+      "inventor_name_first": "Ahmed Said",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2156",
+    "G06F944"
+  ],
+  "main_ipcr_label": "G06F2156",
+  "summary": "<SOH> SUMMARY <EOH>A method for detecting memory modifications includes allocating a contiguous block of a memory of an electronic device, and loading instructions for detecting memory modifications into the contiguous block of memory. The electronic device includes a plurality of processing entities. The method also includes disabling all but one of a plurality of processing entities of the electronic device, scanning the memory of the electronic device for modifications performed by malware, and, if a memory modification is detected, repairing the memory modification. The method also includes enabling the processing entities that were disabled. The remaining processing entity executes the instructions for detecting memory modifications. In a further embodiment, an article of manufacture includes a computer readable medium and computer-executable instructions. The computer-executable instructions are carried on the computer readable medium. The instructions are readable by a processor. The instructions, when read and executed, cause the processor to allocate a contiguous block of a memory of an electronic device, load instructions for detecting memory modifications into the contiguous block of memory, disable all but one processing entity of the electronic device, scan the memory of an electronic device for modifications performed by malware, repair a detected memory modification, and enable the processing entities that were disabled. The electronic device includes a plurality of processing entities. The remaining processing entity executes the instructions for detecting memory modifications.",
+  "patent_number": "9703957",
+  "abstract": "A method for detecting memory modifications includes allocating a contiguous block of a memory of an electronic device, and loading instructions for detecting memory modifications into the contiguous block of memory. The electronic device includes a plurality of processing entities. The method also includes disabling all but one of a plurality of processing entities of the electronic device, scanning the memory of the electronic device for modifications performed by malware, and, if a memory modification is detected, repairing the memory modification. The method also includes enabling the processing entities that were disabled. The remaining processing entity executes the instructions for detecting memory modifications.",
+  "publication_number": "US20170091452A1-20170330",
+  "_processing_info": {
+    "original_size": 45896,
+    "optimized_size": 2900,
+    "reduction_percent": 93.68
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170316",
+  "publication_number": "US20170091624A1-20170330",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15378278",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Smith",
+      "inventor_name_first": "Kevin B.",
+      "inventor_city": "Eastleigh",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Thompson",
+      "inventor_name_first": "Andrew J.",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Waddling",
+      "inventor_name_first": "David R.",
+      "inventor_city": "Winchester",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "An approach for predictively scoring test case results in real-time. Test case results associated with a test run are received by a software testing environment. Using predictive statistical models, test case results and attribute relationships are matched against model rules and test case history. A statistical correlation and confidence parameter provide the ability to generate test case relationships for predicting the outcome of other test cases in the test run. The test case relationships are transformed into scoring results and output for the further processing.",
+  "filing_date": "20161214",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>As disclosed herein, a computer system for predictively scoring test case results in real-time, the computer system comprising: one or more computer processors; one or more non-transitory computer readable storage media; program instructions stored on the one or more computer non-transitory readable storage media for execution by at least one of the one or more computer processors, the program instructions comprising: one or more computer readable storage media and program instructions stored on the one or more computer readable storage media, the program instructions comprising: program instructions to receive one or more test case results associated with a test run, wherein the one or more test case results comprise attributes associated with one or more test case relationships; program instructions to determine one or more test case relationships based on at least one of one or more predictive statistical models and one or more attributes, wherein predictive statistical models comprise one or more of a priori, regression, clustering, tree, and neural network, wherein the one or more predictive statistical models are operational on the one or more test case results, and wherein determining the one or more test case relationships comprises data-mining historical test results to organize related attributes statistically; program instructions to transform the one or more test case relationships into one or more scoring results based on predetermined correlation criteria, wherein predetermined correlation criteria comprise one or more of predetermined association rules and one or more predictive statistical models and program instructions to output the one or more scoring results for further processing, wherein the one or more scoring results comprise one or more of single-value output comprising a test case for execution, multi-value output comprising a plurality of test cases and statistical correlation and confidence ranking for execution, and mu...",
+  "date_published": "20170330",
+  "title": "PREDICTIVE MODEL SCORING TO OPTIMIZE TEST CASE ORDER IN REAL TIME",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700",
+    "G06F1136"
+  ],
+  "_processing_info": {
+    "original_size": 34677,
+    "optimized_size": 3447,
+    "reduction_percent": 90.06
+  }
+}

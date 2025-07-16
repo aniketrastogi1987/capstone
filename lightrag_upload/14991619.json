@@ -1,0 +1,47 @@
+{
+  "date_produced": "20170627",
+  "publication_number": "US20170200087A1-20170713",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "14991619",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mascaro",
+      "inventor_name_first": "Massimo",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cessna",
+      "inventor_name_first": "Joseph",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ouyang",
+      "inventor_name_first": "Peter",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method and system adaptively improves potential customer conversion rates, revenue metrics, and/or other target metrics by providing effective user experience options, from a variety of different user experience options, to some users while concurrently testing user responses to other user experience options, according to one embodiment. The method and system selects the user experience options by applying user characteristics data to an analytics model, according to one embodiment. The characteristics of the analytics model are adjusted and/or tuned to control/reduce uncertainty in identifying effective user experience options, according to one embodiment. The method and system analyzes user responses to the user experience options to update the analytics model, and to dynamically adapt the personalization of the user experience options, at least partially based on feedback from users, according to one embodiment.",
+  "filing_date": "20160108",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure address some of the shortcomings associated with traditional tax return preparation systems and other software systems by adjusting analytics model characteristics to reduce uncertainty (improve accuracy) in determining users' preferences for user experience options, to support providing personalized user experiences to users, at least partially based on the users' likely preferences for user experience options, according to various embodiments. The disclosed software system uses one or more of a number of techniques for adjusting analytics model characteristics to compensate for overfitting and to improve the accuracy of the analytics model in determining users' preferences for user experience options, according to one embodiment. Overfitting is generally when a model (e.g., an analytics and/or statistical model) describes (or operates based on) noisy data rather than an underlying relationship between the data that is used to train the model. A model that has been overfit will generally have poor predictive performance. One way of adjusting analytics model characteristics for overfitting is to control the noise in the data that is used to define the analytics model. The software system uses one or more of a variety of techniques to control the noise, prevent/reduce overfitting, and/or adjust the analytics model characteristics. The techniques include, but are not limited to, using local stop probabilities to determine the number of levels/segments of a decision tree in the analytics model; establishing minimum numbers of users for defining segments of users for the decision tree nodes; and/or aggregating one or more defined nodes/segments of users to reduce signal variance/uncertainty by performing a type of decision tree pruning operation, according to one embodiment. Because selective evaluation of past performance provides insights into future behavior, the disclosed methods and systems define an analytic...",
+  "date_published": "20170713",
+  "title": "METHOD AND SYSTEM FOR ADJUSTING ANALYTICS MODEL CHARACTERISTICS TO REDUCE UNCERTAINTY IN DETERMINING USERS' PREFERENCES FOR USER EXPERIENCE OPTIONS, TO SUPPORT PROVIDING PERSONALIZED USER EXPERIENCES TO USERS WITH A SOFTWARE SYSTEM",
+  "ipcr_labels": [
+    "G06N700",
+    "G06Q2014",
+    "G06Q4000",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 184037,
+    "optimized_size": 3980,
+    "reduction_percent": 97.84
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "date_produced": "20170726",
+  "publication_number": "US20170228641A1-20170810",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15385283",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sohn",
+      "inventor_name_first": "Kihyuk",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method includes receiving N pairs of training examples and class labels therefor. Each pair includes a respective anchor example, and a respective non-anchor example capable of being a positive or a negative training example. The method further includes extracting features of the pairs by applying a DHCNN, and calculating, for each pair based on the features, a respective similarly measure between the respective anchor and no example. The method additionally includes calculating a similarity score based on the respective similarity measure for each pair. The score represents similarities between all anchor points and positive training examples in the pairs relative to similarities between all anchor points and negative training examples in the pairs. The method further includes maximizing the similarity score for the anchor example for each pair to pull together the training examples from a same class while pushing apart the training examples from different classes.",
+  "filing_date": "20161220",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the present invention, a computer-implemented method is provided. The method includes receiving, by a processor, N pairs of training examples and class labels for the training examples that correspond to a plurality of classes. Each of the N pairs includes a respective anchor example and further includes a respective non-anchor example capable of being a positive training example or a negative training example. The method further includes extracting, by the processor, features of the N pairs by applying a deep convolutional neural network to the N pairs and to the class labels. The method also includes calculating, by the processor for each of the N pairs based on the features, a respective similarly measure between the respective anchor example and the respective non-anchor example. The method additionally includes calculating, by the processor, a similarity score based on the respective similarity measure for each of the N pairs. The similarity score represents one or more similarities between all anchor points and all positive training examples in the N pairs relative to one or more similarities between all of the anchor points and all negative training examples in the N pairs. The method further includes maximizing, by the processor, the similarity score for the respective anchor example for each of the N pairs to pull together in a distribution space the training examples from a same one of the plurality of classes while pushing apart in the distribution space the training examples from different ones of the plurality of classes. According to another aspect of the present invention, a system is provided. The system includes a processor. The processor is configured to receive N pairs of training examples and class labels for the training, examples that correspond to a plurality of classes. Each of the N pairs includes a respective anchor example and further includes a respective non-anchor example capable of being a p...",
+  "date_published": "20170810",
+  "title": "DISTANCE METRIC LEARNING WITH N-PAIR LOSS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N700",
+    "G06F1711",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 49247,
+    "optimized_size": 3542,
+    "reduction_percent": 92.81
+  }
+}

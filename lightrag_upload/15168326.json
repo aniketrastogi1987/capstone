@@ -1,0 +1,47 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15168326",
+  "date_published": "20160922",
+  "date_produced": "20160908",
+  "title": "METHODS AND SYSTEMS FOR DETERMINING A PERCEPTUAL SIMILARITY BETWEEN IMAGES",
+  "filing_date": "20160531",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "En-Hui",
+      "inventor_city": "Petersburg",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Xiang",
+      "inventor_city": "Kitchener",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Meng",
+      "inventor_name_first": "Jin",
+      "inventor_city": "Kitchener",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K962",
+    "G06K946",
+    "H04N160",
+    "G06T700"
+  ],
+  "main_ipcr_label": "G06K962",
+  "summary": "<SOH> SUMMARY <EOH>Perceptual similarity between any two independent images may be addressed with a set mapping perspective by first expanding each image A into a set φ(A) of images, and then defining the similarity between any two images A and B as the smallest average distortion per pixel between any pair of images, one from φ(A) and the other from φ(B), where the average distortion per pixel between any pair of images is calculated according to a given pixel-level distortion measure d. The resulting similarity metric is dubbed the set mapping induced similarity distance (SMID) between A and B and denoted by d φ (A,B). This perspective is fundamentally different from conventional approaches where images A and B are first summarized into their signatures and the similarity between A and B is then defined through the notion of distance between their respective signatures, which is in general disconnected from pixel-level distortion. Several examples of the set mapping φ are illustrated; each of them gives a set φ(A) of images, which may contain images perceptually similar to A to a certain degree. It can be shown that under some mild conditions on φ and d, d φ (A,B) is indeed a pseudo distance over the set of all images. Analytic formulas for and lower bounds to d φ (A,B) are also developed for some set mappings φ and are each expressed as the infimum of average distortion per pixel over a set of pixel block distributions. By linking the computation of the SMID d φ (A,B) to the weighted bipartite matching problem, two algorithms called two-stage algorithms are developed to approximate the SMID from above. When compared with other similarity metrics such as those based on histogram-based methods, SIFT, autocorrelogram, etc., the SMID shows better discriminating power on image similarity. Experimental results also show that the SMID is well aligned with human perception for image similarity. In accordance with a first embodiment described herein, there is provided a m...",
+  "patent_number": "10026009",
+  "abstract": "Systems, methods and computer program products for determining perceptual similarity between independent images are described. The described systems, methods and computer program products use a similarity distance to determine the perceptual similarity between a first image having a first arrangement of pixels and a second image having a second arrangement of pixels. A processor can determine a first image array corresponding to the first arrangement of pixels and a second image array corresponding of the second arrangement of pixels. The processor can generate a first pixel group set based on the first image array and a second pixel group set based on the second image array. A plurality of pixel group pairs can be generated, and each pixel group pair can be associated with a corresponding pixel group pair distortion. The similarity distance between the first image and the second image can be determined based on the plurality of pixel group pair distortions.",
+  "publication_number": "US20160275370A1-20160922",
+  "_processing_info": {
+    "original_size": 244950,
+    "optimized_size": 3905,
+    "reduction_percent": 98.41
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "patent_number": "None",
+  "application_number": "15524744",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "filing_date": "20170505",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A system includes a learning object storing section that stores objects to be learned, a learning result storing section that stores learning results, and a control section connected to an input section. The control section computes a principal component coefficient vector of a first feature vector of an object to be processed that is designated by the input section, computes a principal component coefficient vector of a second feature vector using a principal component basis vector stored in the learning result storing section, and computes the second feature vector of the object to be processed using the principal component coefficient vector of the second feature vector.",
+  "publication_number": "US20170323223A1-20171109",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>As described above, various attempts have been made in the super-resolution technology to achieve higher speed and higher image quality. For example, in the technique described in Non-Patent Document 1, although principal component analysis is performed, high resolution images are predicted by regression analysis. In this case, if the relationship between low resolution and high resolution is independently subjected to regression learning for each principal component coefficient, the overall accuracy may deteriorate due to coexistence of principal component coefficients of high accuracy and principal component coefficients of low accuracy. In the technique described in Patent Document 1, principal component analysis is performed to reduce the amount of dictionary data and to speed up searches, but variance of principal component coefficients is not taken into consideration. Accordingly, it is an objective of the present disclosure to provide a system, method, and program for efficiently predicting second information, which contains feature vectors, based on first information, which contains feature vectors. In accordance with one aspect of the present disclosure, a system configured to predict information is provided. The system includes a learning object storing section that stores objects to be learned, a learning result storing section that stores learning results, and a control section that is connected to an input section and configured to perform learning processing and prediction processing. In the learning processing, the control section computes a first feature vector and a second feature vector for each object to be learned stored in the learning object storing section; generates a row vector by dividing a principal component coefficient vector of the first feature vector and a principal component coefficient vector of the second feature vector by an index representing variation of the principal component coefficient vec...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "NAGATA",
+      "inventor_name_first": "Takeshi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MAEKAWA",
+      "inventor_name_first": "Hidemasa",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SUITANI",
+      "inventor_name_first": "Makiko",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TOMOZAWA",
+      "inventor_name_first": "Hiromitsu",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MATSUZAKI",
+      "inventor_name_first": "Kazutoshi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SANO",
+      "inventor_name_first": "Akira",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "HAGIWARA",
+      "inventor_name_first": "Toru",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "HIZUKURI",
+      "inventor_name_first": "Akiyoshi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "SYSTEM, METHOD, AND PROGRAM FOR PREDICTING INFORMATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 71432,
+    "optimized_size": 4236,
+    "reduction_percent": 94.07
+  }
+}

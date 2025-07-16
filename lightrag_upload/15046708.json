@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170809",
+  "publication_number": "US20170243127A1-20170824",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15046708",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ZHU",
+      "inventor_name_first": "QIANG",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHAO",
+      "inventor_name_first": "JOHN",
+      "inventor_city": "Foster City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HU",
+      "inventor_name_first": "QINGBO",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Techniques are provided for determining predicted results for entities based on relatedness of the entities in a graph of nodes. In an embodiment, the graph of nodes is generated based on the determined relatedness of the entities. A node in the graph of nodes represents an entity, and nodes representing entities with known results are assigned those results as their respective node values. The assigned node values are then propagated between the neighboring nodes throughout the graph of nodes in the amount determined by the relatedness of the nodes. Based on the propagation, node values for entities with unknown results are determined and represent the predicted results for those entities. Additionally, various classifiers may be combined with the propagated node values to increase the accuracy of the predicted results.",
+  "filing_date": "20160218",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings: FIG. 1 is a flow diagram that depicts a process for predicting results for entities in a graph of nodes, in an embodiment; FIG. 2A-F are block diagrams that depict a graph of nodes, in various embodiments; FIG. 3 is a block diagram that illustrates a computer system upon which an embodiment of the invention may be implemented. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170824",
+  "title": "GRAPH BASED TECHNIQUES FOR PREDICTING RESULTS",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F950"
+  ],
+  "_processing_info": {
+    "original_size": 62440,
+    "optimized_size": 2118,
+    "reduction_percent": 96.61
+  }
+}

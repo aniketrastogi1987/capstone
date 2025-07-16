@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170719",
+  "publication_number": "US20170220930A1-20170803",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15011293",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hachmeister",
+      "inventor_name_first": "Damon Robert",
+      "inventor_city": "North Grafton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Raghunathan",
+      "inventor_name_first": "Sudarshan",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Linfoot",
+      "inventor_name_first": "Andy James",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mishra",
+      "inventor_name_first": "Debi Prasad",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Husbands",
+      "inventor_name_first": "Parry Jones Reginald",
+      "inventor_city": "Waltham",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A machine learning problem assessment system that identifies potential machine learning problems in a machine learning system in which learning code evaluates data to correlate estimated learned data with data patterns. An accessing component accesses the learning code and/or the data that the learning code evaluates. A problem identifies component estimates, based on the accessed code and/or data, that there is a potential problem with machine learning system. A rectification component at least partially automatically rectifies the identified potential problem with the machine learning system by performing a computerized action on the machine learning system. The identified potential problem may affect quality (e.g., appropriateness of conclusions) and/or performance (e.g., speed) of the learning of the machine learning system.",
+  "filing_date": "20160129",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>At least some embodiments described herein relate to a machine learning problem assessment system that identifies potential machine learning problems in a machine learning system in which learning code evaluates data to correlate estimated additional data with data patterns. An accessing component accesses the learning code and/or the data that the learning code evaluates. A problem assessment component identifies, based on the accessed code and/or data, that there is a potential problem with the machine learning system. A rectification component at least partially automatically rectifies the identified potential problem with the machine learning system by performing a computerized action on the machine learning system. The identified potential problem may affect quality (e.g., appropriateness of conclusions) and/or performance (e.g., speed) of the learning of the machine learning system. In some embodiments, the problem assessment component performs dynamic analysis of the learning process by identifying a potential problem based on evaluation of at least one of multiple stages of the learning code. For instance, the problem assessment component may evaluate the state of the learning after each piece of data is evaluated by the learning code. The rectification performed by the rectification component might be performed fully automatically or perhaps automatically after approval by a user. Examples of rectification include, for instance, preparing the data, stratifying the data, adjusting or creating a split of the data, replacing or adjusting the learning code, or the like. The task of manually sorting through the learning code and data to identify potential problems with machine learning is fraught with difficulty due to the high volume of data involved, and the potential complexity of the learning code. This can lead to incorrect conclusions, even after extensive analysis, potentially leaving some problems unresolved. Using the principles...",
+  "date_published": "20170803",
+  "title": "AUTOMATIC PROBLEM ASSESSMENT IN MACHINE LEARNING SYSTEM",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 50595,
+    "optimized_size": 4026,
+    "reduction_percent": 92.04
+  }
+}

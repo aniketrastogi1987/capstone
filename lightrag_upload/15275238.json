@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15275238",
+  "date_published": "20170112",
+  "date_produced": "20161228",
+  "title": "Multi-User Search System Using Tokens",
+  "filing_date": "20160923",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Goel",
+      "inventor_name_first": "Samir",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chastagnol",
+      "inventor_name_first": "Franck",
+      "inventor_city": "Woodside",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Agrawal",
+      "inventor_name_first": "Abhishek",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06F1727"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram of a basic computing device in accordance with some embodiments of the invention. FIG. 2 is a block diagram of a basic software system for controlling the operation of the computing device in accordance with some embodiments of the invention FIG. 3 is a block diagram of a client/server system including a multi-user search system in accordance with some embodiments of the invention. FIG. 4 is a block diagram of a serving system of a multi-user search system in accordance with some embodiments of the invention. FIG. 5 is a block diagram of an index shard of a sharded document index in accordance with some embodiments of the invention. FIG. 6 illustrates a possible schema for a token store of a multi-user search system in accordance with some embodiments of the present invention. FIG. 7 is a block diagram of an indexer of a multi-user search system for constructing a sharded document index according to some embodiments of the present invention. FIG. 8 illustrates a possible life cycle of an index at index server of a multi-user search system in accordance with some embodiments of the present invention. FIG. 9 is a block diagram of an indexer of a multi-user search system for generating index mutations to a sharded document index according to some embodiments of the present invention. FIG. 10A and FIG. 10B includes a flowchart of example operation of an instant indexer of a multi-user search system according to some embodiments of the present invention. FIG. 11A and FIG. 11B illustrate various possible states of a token store of a multi-user search system during the example operation of the instant indexer according to some embodiments of the present invention. FIGS. 12A and 12B comprise a flowchart of a process for instant indexing according to some embodiments of the present invention. FIG. 13A is a block diagram of a changed document message according to some embodiments of the present invention. ...",
+  "patent_number": "None",
+  "abstract": "A multi-user search system with methodology for instant indexing. In one embodiment, for example, a system for instant indexing includes a token store storing sets of tokens for current versions of documents. The system further includes a tokenizer server configured to tokenize new versions of the documents and to generate sets of tokens for the new versions of the documents, an instant indexer configured to determine tokens to use to index the documents based on identified differences between the sets of tokens for the new versions of the documents and the sets of tokens for the current versions of the documents, and to generate index mutations including the tokens to use to index the documents, an index mutation journal configured to store the generated index mutations in association with timestamps, and an index mutation server configured to provide, to index servers, from the index mutation journal, generated index mutations for the index servers that are associated with timestamps...",
+  "publication_number": "US20170011084A1-20170112",
+  "_processing_info": {
+    "original_size": 179107,
+    "optimized_size": 3848,
+    "reduction_percent": 97.85
+  }
+}

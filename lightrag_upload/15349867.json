@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140263A1-20170518",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15349867",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kaiser",
+      "inventor_name_first": "Lukasz Mieczyslaw",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sutskever",
+      "inventor_name_first": "Ilya",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for implementing a convolutional gated recurrent neural network (CGRN). In one of the systems, the CGRN is configured to maintain a state that is a tensor having dimensions x by y by m, wherein x, y, and m are each greater than one, and for each of a plurality of time steps, update a currently maintained state by processing the currently maintained state through a plurality of convolutional gates.",
+  "filing_date": "20161111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to recurrent neural network architectures. In general, a convolutional gated recurrent neural network (CGRN) includes multiple convolutional gated recurrent units (CGRUs) and maintains a state tensor that has dimensions x by y by m, with x, y, and m each being greater than one. At each of multiple time steps, the CGRN is configured to update the currently maintained state tensor by processing the currently maintained state tensor through each of the CGRUs. After the last time step, the state tensor is processed by an output layer that generates a system output. For a system of one or more computers to be configured to perform particular operations or actions means that the system has installed on it software, firmware, hardware, or a combination of them that in operation cause the system to perform the operations or actions. For one or more computer programs to be configured to perform particular operations or actions means that the one or more programs include instructions that, when executed by data processing apparatus, cause the apparatus to perform the operations or actions. The subject matter described in this specification can be implemented in particular embodiments so as to realize one or more of the following advantages. The architecture of the CGRN as described in this specification allows a CGRN to be highly parallel, i.e., because the CGRN is constructed from the highly parallel convolution operator, making the CGRN less computationally intensive to train and more computationally efficient to run, i.e., to compute an inference using the CGRN. The architecture of the CGRN allows the CGRN to generalize to inputs of different sizes, e.g., allows a CGRN trained on shorter inputs to effectively compute inferences for longer inputs. The details of one or more embodiments of the subject matter of this specification are set forth in the accompanying drawings and the description below. Othe...",
+  "date_published": "20170518",
+  "title": "CONVOLUTIONAL GATED RECURRENT NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1716",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 38899,
+    "optimized_size": 3220,
+    "reduction_percent": 91.72
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date_produced": "20171227",
+  "publication_number": "US20180012134A1-20180111",
+  "main_ipcr_label": "G06N700",
+  "decision": "ACCEPTED",
+  "application_number": "15202216",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SHETYE",
+      "inventor_name_first": "ATMARAM",
+      "inventor_city": "Mapusa",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "A historical repository of device identifiers associated with sets of prior mean values and prior standard deviation values, is maintained. A device identification message is received from a suspect computer device and contains a device identifier and a measured device signature value. A mean value and a standard deviation value are determined based thereon, and used to update the prior mean value and the prior standard deviation value in one of the sets in the historical repository having an association to the device identifier. A prior frequency value is determined. A posterior probability value, indicating likelihood that the suspect computer device corresponds to a genuine computer device identified by the device identifier, is generated based on the mean value, the standard deviation value, and the prior frequency value. Whether the suspect computer device is permitted to access an electronic resource is controlled based on the posterior probability value.",
+  "filing_date": "20160705",
+  "patent_number": "10032116",
+  "summary": "<SOH> SUMMARY <EOH>Some embodiments disclosed herein are directed to a method of performing operations on a processor of a computer device identification node. The method includes maintaining in a memory device a historical repository of device identifiers associated with sets of prior mean values and prior standard deviation values. A device identification message is received from a suspect computer device. The device identification message contains a device identifier and device signature value measured by the suspect computer device. A mean value is determined based on a combination of the device signature value and one of the prior mean values. A standard deviation value is determined based on a combination of the device signature value and one of the prior standard deviation values. The mean value and the standard deviation value are used to update the prior mean value and the prior standard deviation value, respectively, in one of the sets in the historical repository having an association to the device identifier. A prior frequency value is determined based on a ratio of a number of device identification messages containing the device identifier that have been used to update one of the sets of the prior mean values and the prior standard deviation values in the historical repository having the association to the device identifier, to a total number of device identification messages containing any device identifier that have been used to update the sets of the prior mean values and the prior standard deviation values in the historical repository having the association to any of the device identifiers. A posterior probability value, indicating a likelihood that the suspect computer device corresponds to a genuine computer device identified by the device identifier, is generated based on processing a combination of the mean value, the standard deviation value, and the prior frequency value. The method then controls whether the suspect computer device is permitte...",
+  "date_published": "20180111",
+  "title": "IDENTIFYING COMPUTER DEVICES BASED ON MACHINE EFFECTIVE SPEED CALIBRATION",
+  "ipcr_labels": [
+    "G06N700",
+    "H04L2906"
+  ],
+  "_processing_info": {
+    "original_size": 81767,
+    "optimized_size": 3550,
+    "reduction_percent": 95.66
+  }
+}

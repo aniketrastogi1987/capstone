@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170726",
+  "publication_number": "US20170228656A1-20170810",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15203448",
+  "inventor_list": [
+    {
+      "inventor_name_last": "OZAKI",
+      "inventor_name_first": "Ryota",
+      "inventor_city": "Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TSUBOSHITA",
+      "inventor_name_first": "Yukihiro",
+      "inventor_city": "Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KATO",
+      "inventor_name_first": "Noriji",
+      "inventor_city": "Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A data classification device includes an estimation unit that estimates, for each of one or more classes provided for learning data pieces in a feature-amount-data space that includes multiple learning data pieces, probability densities of learning data pieces belonging to the class and learning data pieces not belonging to the class around a judgment target data piece in the feature-amount-data space, a calculation unit that calculates, based on the probability densities, an index indicating how much the judgment target data piece is likely to belong to the class, and a judgment unit that judges which class the judgment target data piece belongs to by using the index. Based on distribution of positive data pieces belonging to the class and negative data pieces not belonging to the class around the judgment target data piece, the estimation unit determines a size of a region used for the estimation.",
+  "filing_date": "20160706",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the invention, there is provided a data classification device including an estimation unit, a calculation unit, and a judgment unit. The estimation unit estimates, for each of one or more classes provided for learning data pieces in a feature-amount-data space that includes multiple learning data pieces, probability densities of learning data pieces located around a judgment target data piece in the feature-amount-data space. The probability densities are respectively a density of learning data pieces belonging to the class and a density of learning data pieces not belonging to the class. The calculation unit calculates an index indicating how much the judgment target data piece is likely to belong to the class. The calculation unit calculates the index on a basis of the probability densities that are estimated by the estimation unit and that are respectively the probability density of the learning data pieces belonging to the class and the probability density of the learning data pieces not belonging to the class. The judgment unit judges which one of the classes the judgment target data piece belongs to by using the index calculated for each class by the calculation unit. In accordance with distribution of positive data pieces and negative data pieces around the judgment target data piece in the feature-amount-data space, the estimation unit determines a region size of a region used for estimating the probability densities. The positive data pieces are the learning data pieces belonging to the class, and the negative data pieces are the learning data pieces not belonging to the class.",
+  "date_published": "20170810",
+  "title": "DATA CLASSIFICATION DEVICE, NON-TRANSITORY COMPUTER READABLE MEDUIM, AND DATA CLASSIFICATION METHOD",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 46988,
+    "optimized_size": 3454,
+    "reduction_percent": 92.65
+  }
+}

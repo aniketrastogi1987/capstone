@@ -1,0 +1,73 @@
+{
+  "date_produced": "20180425",
+  "publication_number": "US20180129972A1-20180510",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15394708",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Zhifeng",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Schuster",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Johnson Premkumar",
+      "inventor_name_first": "Melvin Jose",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wu",
+      "inventor_name_first": "Yonghui",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Le",
+      "inventor_name_first": "Quoc V.",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Krikun",
+      "inventor_name_first": "Maxim",
+      "inventor_city": "Castro Valley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brants",
+      "inventor_name_first": "Thorsten",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media for performing machine learning tasks. One method includes receiving (i) a model input, and (ii) data identifying a first machine learning task to be performed on the model input to generate a first type of model output for the model input; augmenting the model input with an identifier for the first machine learning task to generate an augmented model input; and processing the augmented model input using a machine learning model, wherein the machine learning model has been trained on training data to perform a plurality of machine learning tasks including the first machine learning task, and wherein the machine learning model has been configured through training to process the augmented model input to generate a machine learning model output of the first type for the model input.",
+  "filing_date": "20161229",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in methods for training a machine learning model on training data, wherein the machine learning model is configured to receive an augmented model input comprising a model input with an identifier for a machine learning task to be performed on the model input, and perform the machine learning task on the received augmented model input to generate a respective type of model output for the model input, and wherein the method comprises: obtaining training data comprising a plurality of paired datasets, wherein each of the paired datasets comprise (i) an input dataset, and (ii) an output dataset; and training the machine learning model on the training data to perform a plurality of machine learning tasks, wherein the plurality of machine learning tasks includes the machine learning task to be performed on the model input. Other embodiments of this aspect include corresponding computer systems, apparatus, and computer programs recorded on one or more computer storage devices, each configured to perform the actions of the methods. A system of one or more computers can be configured to perform particular operations or actions by virtue of software, firmware, hardware, or any combination thereof installed on the system that in operation may cause the system to perform the actions. One or more computer programs can be configured to perform particular operations or actions by virtue of including instructions that, when executed by data processing apparatus, cause the apparatus to perform the actions. The foregoing and other embodiments can each optionally include one or more of the following features, alone or in combination. In some implementations the augmented model input comprises a model input with a prepended token identifier for the machine learning task. In some implementations the model input comprises a model input of a first input type and the m...",
+  "date_published": "20180510",
+  "title": "IMPLICIT BRIDGING OF MACHINE LEARNING TASKS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1728"
+  ],
+  "_processing_info": {
+    "original_size": 69903,
+    "optimized_size": 4331,
+    "reduction_percent": 93.8
+  }
+}

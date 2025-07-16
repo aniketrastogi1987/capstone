@@ -1,0 +1,37 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046902A1-20180215",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15232639",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Liao",
+      "inventor_name_first": "Linxia",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jin",
+      "inventor_name_first": "Wenjing",
+      "inventor_city": "Cincinnati",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments of the present invention provide an enhanced Restricted Boltzmann Machine (RBM) system with a novel regularization term to generate features automatically that are suitable for predicting remaining useful life (RUL) of engineered systems such as machines, tools, apparatus, or parts. The system improves the trendability of the output features, which may better represent the degradation pattern of such systems. The disclosed system has been demonstrated to improve trendability and RUL prediction accuracy, offering improved predictive power earlier in the life cycle of the machine, tool, or part. During operation, the system implements an RBM including a loss function. The system then extracts a set of features from a degradation measurement via the RBM. The system fits a rate-of-change slope for a respective feature and adds a regularization term to the loss function based on the fitted slope. The system then selects a subset of the enhanced features based on a measure of mon...",
+  "filing_date": "20160809",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment of the present invention provides a system and method for enhanced remaining useful life (RUL) prediction. During operation, the system implements a Restricted Boltzmann Machine (RBM) including a loss function. The system may then extract a set of features via the RBM, using a degradation measurement as input. The system may then enhance the features within the RBM, which further comprises fitting a rate-of-change slope for a respective feature. The system may add a regularization term, based on the fitted slope and encouraging monotonic trending of the respective feature, to the loss function. The system may then select a subset of the enhanced features based on a measure of monotonic trending of a respective enhanced feature. The system may then aggregate the selected subset of features into a health value. The system may then predict a remaining useful life (RUL) as an average of RUL values for training models weighted by their match to a historical degradation pattern in the health value. In a variation on this embodiment, the fitted rate-of-change slope for the respective feature may be a slope of a linear regression of the respective feature over time in the degradation measurement. The regularization term may comprise a sum of squares of fitted rate-of-change slopes for respective features. In a variation on this embodiment, the linear regression further comprises a weighted least squares regression or a sparse linear regression. In a variation on this embodiment, the system may implement a Self-Organizing Map (SOM) including a distance map. The system then compares the SOM structure using the extracted lifecycle features to the healthy baseline features, which further comprises determining a best matching unit (BMU) as a closest vector representation to the degradation measurement in the SOM network, according to the distance map. The system then identifies the health value as a minimum quantization error (MQE), which is a d...",
+  "date_published": "20180215",
+  "title": "ENHANCED RESTRICTED BOLTZMANN MACHINE WITH PROGNOSIBILITY REGULARIZATION FOR PROGNOSTICS AND HEALTH ASSESSMENT",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 56902,
+    "optimized_size": 3744,
+    "reduction_percent": 93.42
+  }
+}

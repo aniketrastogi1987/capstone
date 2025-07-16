@@ -1,0 +1,46 @@
+{
+  "decision": "PENDING",
+  "application_number": "15055055",
+  "date_published": "20170831",
+  "date_produced": "20170816",
+  "title": "JOB SEARCH ENGINE FOR RECENT COLLEGE GRADUATES",
+  "filing_date": "20160226",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ortigas",
+      "inventor_name_first": "Raymond Elery",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Ada Cheuk Ying",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Xiao Yu",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q1010",
+    "G06Q5000",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06Q1010",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments are illustrated by way of example and not limitation in the figures of the accompanying drawings in which: FIG. 1 is a block diagram showing the functional components of a social networking service, consistent with some embodiments of the invention; FIG. 2 is a block diagram of an example system, according to various embodiments; FIGS. 3A and 3B are a flowchart illustrating an example method, according to various embodiments; FIG. 3C is a flowchart illustrating another example method, according to various embodiments; FIG. 4 illustrates an exemplary member profile page, according to various embodiments; FIG. 5 illustrates an exemplary operation for training a prediction model, according to various embodiments; FIG. 6 is a diagrammatic representation of a machine in the example form of a computer system within which a set of instructions, for causing the machine to perform any one or more of the methodologies discussed herein, may be executed. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A system filters profiles of an online business network as a function of recent college graduates who have recently become employed in first employment positions, and identifies codes associated with the first employment positions. The system filters job listings using the identified codes to identify job listings that are closed and similar to the first employment positions. The system stores the identified job listings that are similar to the first employment positions into a first subset of job listings, and analyzes the job descriptions in the first subset of job listings using a logistic regression to model job listings with predictor variables indicating whether the requirements expressed in the job descriptions—for example, requirements of previous work experience—are likely optional or mandatory. The system stores open job listings classified by the model as likely having optional requirements or mandatory requirements into a second subset of job listings, and displays the seco...",
+  "publication_number": "US20170249594A1-20170831",
+  "_processing_info": {
+    "original_size": 61630,
+    "optimized_size": 2974,
+    "reduction_percent": 95.17
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286844A1-20171005",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15260077",
+  "inventor_list": [
+    {
+      "inventor_name_last": "El Mernissi",
+      "inventor_name_first": "Karim S.",
+      "inventor_city": "Noisy-Le-Grand",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Feillet",
+      "inventor_name_first": "Pierre D.",
+      "inventor_city": "Gentilly",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "A computer implemented method comprising accessing a decision service, determining a subset of the decision logic, inserting a causal probe into the decision service, receiving a query at the interface of the decision service, executing the decision logic to determine the one or more outputs for the decision service for the received query, and outputting the one or more outputs and the causal history from the decision service for the received query. The causal history can be accessed at a later date and used to generate a causal model that can be used to determine an explanation for the original decision.",
+  "filing_date": "20160908",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to a first aspect of the present invention, there is provided a computer implemented method comprising accessing a decision service, the decision service comprising (a) an interface defining one or more inputs and one or more outputs and (b) a decision logic comprising a plurality of statements, each statement defining a cause and one or more effects that follow if the cause is satisfied, determining a subset of the decision logic, the subset comprising only those components of the decision logic required to determine the output(s) for the decision service, inserting a causal probe into the decision service, the causal probe comprising recording logic arranged to record a causal history for a query to the decision service, the causal history limited to the components of the decision logic forming the subset of the decision logic required to determine the output(s) for the decision service, receiving a query at the interface of the decision service, the query defining the one or more inputs for the decision service, executing the decision logic to determine the one or more outputs for the decision service for the received query, the executing including executing the causal probe to determine the causal history for the received query, and outputting the one or more outputs and the causal history from the decision service for the received query. According to a second aspect of the present invention, there is provided a computer system comprising a processor arranged to access a decision service, the decision service comprising (a) an interface defining one or more inputs and one or more outputs and (b) a decision logic comprising a plurality of statements, each statement defining a cause and one or more effects that follow if the cause is satisfied, determine a subset of the decision logic, the subset comprising only those components of the decision logic required to determine the output(s) for the decision service, inserting a causal probe...",
+  "date_published": "20171005",
+  "title": "DECISION SERVICE",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730",
+    "G06Q1006"
+  ],
+  "_processing_info": {
+    "original_size": 72375,
+    "optimized_size": 3299,
+    "reduction_percent": 95.44
+  }
+}

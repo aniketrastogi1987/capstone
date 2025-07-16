@@ -1,0 +1,31 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15255266",
+  "date_published": "20161222",
+  "date_produced": "20161208",
+  "title": "DELETING INFORMATION TO MAINTAIN SECURITY LEVEL",
+  "filing_date": "20160902",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ohkado",
+      "inventor_name_first": "Akira",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2162",
+    "H04L2906"
+  ],
+  "main_ipcr_label": "G06F2162",
+  "summary": "<SOH> SUMMARY <EOH>",
+  "patent_number": "9910998",
+  "abstract": "A method, system, mediation server, client, and computer program for deleting a copied file in which a master file is duplicated while maintaining a certain level of security. A mediation server receives and stores a copied file in which a master file stored in a server is duplicated, generates private-key information and public-key information, and transmits the generated public-key information and the copied file to a client. The client receives and stores the copied file and the public-key information. In a case where the copied file is updated, the client encrypts difference information on the difference arising in the updating using the public-key information and transmits the difference information to the mediation server. The client determines whether the condition for being secure is satisfied when a process for updating the copied file becomes possible. When determining that the condition is not satisfied, the client deletes the copied file.",
+  "publication_number": "US20160371499A1-20161222",
+  "_processing_info": {
+    "original_size": 52419,
+    "optimized_size": 1530,
+    "reduction_percent": 97.08
+  }
+}

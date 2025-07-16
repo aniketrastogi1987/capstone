@@ -1,0 +1,47 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046901A1-20180215",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15390744",
+  "inventor_list": [
+    {
+      "inventor_name_last": "XIE",
+      "inventor_name_first": "Dongliang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Song",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SHAN",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present technical disclosure relates to artificial neural networks, e.g., gated recurrent unit (GRU). In particular, the present technical disclosure relates to how to implement a hardware accelerator for compressed GRU based on an embedded FPGA. Specifically, it proposes an overall design processing method of matrix decoding, matrix-vector multiplication, vector accumulation and activation function. In another aspect, the present technical disclosure proposes an overall hardware design to implement and accelerate the above process.",
+  "filing_date": "20161227",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In the present technical disclosure, we propose a device for implementing compressed GRU (recurrent neural network), said device comprising: a receiving unit, which is used to receive a plurality of input vectors and distribute them to a plurality of processing elements (PE); a plurality of processing elements (PE), each of which comprising: a reading unit configured to read weight matrices W, said W indicates weights of said GRU; an ALU configured to perform multiplication and addition calculation of said weight matrices W; a calculation buffer configured to store results of matrix-vector multiplication and output results to an assembling unit; an assembling unit configured to receive results from PEs and assemble them into a complete resultant vector; a hidden layer computation module, configured to read matrix-vector multiplication result from said processing elements, and to compute update signal, reset signal and the hidden layer's activation output vector h; and a controller unit configured for controlling said plurality of processing elements. Further, said hidden layer computation module comprising: an activation function unit, configured to perform hidden layer's activation function of said GRU; a selector, configured to receive data from said assembling unit and element-wise multiplier and select one of the received data to be output to an adder tree; a W x buffer, configured to receive and store matrix-vector multiplication results from the assembling unit and output corresponding result to the adder tree according to the instruction from the controller unit; an adder tree, configured to conduct vector accumulation operation on vectors received from the W x buffer and the selector; an element-wise multiplier, configured to conduct element-wise multiplication on vectors received from the assembling unit and the activation function unit, and to output the multiplication result to the selector. Further, said receiving unit comprises: a plu...",
+  "date_published": "20180215",
+  "title": "HARDWARE ACCELERATOR FOR COMPRESSED GRU ON FPGA",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1716",
+    "G06F750",
+    "G06F7523"
+  ],
+  "_processing_info": {
+    "original_size": 71670,
+    "optimized_size": 3384,
+    "reduction_percent": 95.28
+  }
+}

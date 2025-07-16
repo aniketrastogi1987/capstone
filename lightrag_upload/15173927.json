@@ -1,0 +1,45 @@
+{
+  "date_produced": "20161122",
+  "publication_number": "US20160358106A1-20161208",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15173927",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Anderson",
+      "inventor_name_first": "Thomas Dale",
+      "inventor_city": "Peoria",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Duarte",
+      "inventor_name_first": "James Edward",
+      "inventor_city": "Clermont",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Falahi",
+      "inventor_name_first": "Milad",
+      "inventor_city": "Sacramento",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computing device predicts a probability of a transformer failure. An analysis type indicator defined by a user is received. A worth value for each of a plurality of variables is computed. Highest worth variables from the plurality of variables are selected based on the computed worth values. A number of variables of the highest worth variables is limited to a predetermined number based on the received analysis type indicator. A first model and a second model are also selected based on the received analysis type indicator. Historical electrical system data is partitioned into a training dataset and a validation dataset that are used to train and validate, respectively, the first model and the second model. A probability of failure model is selected as the first model or the second model based on a comparison between a fit of each model.",
+  "filing_date": "20160606",
+  "patent_number": "9652723",
+  "summary": "<SOH> SUMMARY <EOH>In another example embodiment, a non-transitory computer-readable medium is provided having stored thereon computer-readable instructions that, when executed by a computing device, cause the computing device to predict a probability of an electrical transformer failure. Historical electrical system data that includes a plurality of observations with a plurality of data points defined for each observation is received. Each data point of the plurality of data points is associated with a variable to define a plurality of variables. The received historical electrical system data is partitioned into a training dataset and a validation dataset. The validation dataset is different from the training dataset. An analysis type indicator defined by a user is received. A worth value for each of the plurality of variables is computed. Highest worth variables from the plurality of variables are selected based on the computed worth values. A number of variables of the highest worth variables is limited to a predetermined number based on the received analysis type indicator. A first model is selected based on the received analysis type indicator. The selected first model is trained using values from the training dataset of the selected highest worth variables to predict a probability of failure of a plurality of electrical transformers. The trained first model is validated using the validation dataset to statistically assess a fit by the trained first model to the historical electrical system data. A second model is selected based on the received analysis type indicator. The selected second model is trained using values from the training dataset of the selected highest worth variables to predict the probability of failure of the plurality of electrical transformers. The trained second model is validated using the validation dataset to statistically assess the fit by the trained second model to the historical electrical system data. The fit by the trained first mo...",
+  "date_published": "20161208",
+  "title": "ELECTRICAL TRANSFORMER FAILURE PREDICTION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 138085,
+    "optimized_size": 3699,
+    "reduction_percent": 97.32
+  }
+}

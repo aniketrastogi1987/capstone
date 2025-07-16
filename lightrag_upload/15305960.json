@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15305960",
+  "date_published": "20170216",
+  "date_produced": "20170201",
+  "title": "PARTITIONABLE TERNARY CONTENT ADDRESSABLE MEMORY (TCAM) FOR USE WITH A BLOOM FILTER",
+  "filing_date": "20161021",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Sheng",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lim",
+      "inventor_name_first": "Kevin T.",
+      "inventor_city": "La Honda",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Milojicic",
+      "inventor_name_first": "Dejan S.",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Faraboschi",
+      "inventor_name_first": "Paolo",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 illustrates an example block diagram of a computing device to dynamically partition a ternary content addressable memory (TCAM) array for purposes of performing search operations. FIG. 2 illustrates an example block diagram of a TCAM device in accordance with examples of FIG. 1 . FIGS. 3A through 3C are example block diagrams of a dynamically partitionable TCAM array in accordance with examples of FIGS. 1 and 2 . FIGS. 4A and 4B illustrate example flow charts for constructing a Bloom filter for a dynamically partitionable TCAM array and for performing search operations. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A bit vector for a Bloom filter is determined by performing one or more hash function operations on a set of ternary content addressable memory (TCAM) words. A TCAM array is partitioned into a first portion to store the bit vector for the Bloom filter and a second portion to store the set of TCAM words. The TCAM array can be searched using a search word by performing the one or more hash function operations on the search word to generate a hashed search word and determining whether bits at specified positions of the hashed search word match bits at corresponding positions of the bit vector stored in the first portion of the TCAM array before searching the second portion of the TCAM array with the search word.",
+  "publication_number": "US20170046395A1-20170216",
+  "_processing_info": {
+    "original_size": 64573,
+    "optimized_size": 2442,
+    "reduction_percent": 96.22
+  }
+}

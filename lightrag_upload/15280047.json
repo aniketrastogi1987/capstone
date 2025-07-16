@@ -1,0 +1,33 @@
+{
+  "date_produced": "20171011",
+  "publication_number": "US20170308788A1-20171026",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15280047",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Modha",
+      "inventor_name_first": "Dharmendra S.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The present invention provides an event-driven universal neural network circuit. The circuit comprises a plurality of neural modules. Each neural module comprises multiple digital neurons such that each neuron in a neural module has a corresponding neuron in another neural module. An interconnection network comprising a plurality of digital synapses interconnects the neural modules. Each synapse interconnects a first neural module to a second neural module by interconnecting a neuron in the first neural module to a corresponding neuron in the second neural module. Corresponding neurons in the first neural module and the second neural module communicate via the synapses. Each synapse comprises a learning rule associating a neuron in the first neural module with a corresponding neuron in the second neural module. A control module generates signals which define a set of time steps for event-driven operation of the neurons and event communication via the interconnection network.",
+  "filing_date": "20160929",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>The present invention relates to an event-driven universal neural network circuit. In one embodiment, the present invention provides a neural network circuit comprising a plurality of neural modules, wherein each neural module comprises multiple digital neurons such that each neuron in a neural module has a corresponding neuron in another neural module. An interconnection network comprising a plurality of digital synapses interconnects the plurality of neural modules. Each synapse interconnects a first neural module to a second neural module by interconnecting a neuron in the first neural module to a corresponding neuron in the second neural module such that corresponding neurons in the first neural module and the second neural module communicate via the synapses. Each synapse comprises a learning rule associating a neuron in the first neural module with a corresponding neuron in the second neural module. A control module generates signals which define a set of time steps for event driven operation of the neurons and event communication via the interconnection network. In another embodiment, the present invention provides a method comprising performing event-driven spiking computation in a neural network circuit comprising a plurality of neural modules. Each neural module includes multiple digital neurons such that every neuron in a first neural module is connected to a corresponding neuron in a second neural module via an interconnect network of synapses. Each synapse includes a learning rule associating a neuron in the first neural module with a corresponding neuron in the second neural module. Event-driven spiking computation comprises generating signals which define a set of time steps for event-driven operation of the neurons and event communication via the interconnect network. At each time step, each neuron updates its operational state. Based on its operational state, each neuron determines whether to generate a firing event in respo...",
+  "date_published": "20171026",
+  "title": "EVENT-DRIVEN UNIVERSAL NEURAL NETWORK CIRCUIT",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06N304",
+    "G06N3063"
+  ],
+  "_processing_info": {
+    "original_size": 54702,
+    "optimized_size": 3562,
+    "reduction_percent": 93.49
+  }
+}

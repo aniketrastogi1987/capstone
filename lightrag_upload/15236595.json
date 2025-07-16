@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046928A1-20180215",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15236595",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jang",
+      "inventor_name_first": "Jiyong",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kirat",
+      "inventor_name_first": "Dhilung Hang",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Park",
+      "inventor_name_first": "Youngja",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stoecklin",
+      "inventor_name_first": "Marc Philippe",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "This disclosure provides for a signal flow analysis-based exploration of security knowledge represented in a graph structure comprising nodes and edges. “Conductance” values are associated to each of a set of edges. Each node has an associated “toxicity” value representing a degree of maliciousness associated with the node. The conductance value associated with an edge is a function of at least the toxicity values of the nodes to which the edge is incident. A signal flow analysis is conducted with respect to an input node representing an observable associated with an offense. The flow analysis seeks to identify a subset of the nodes that, based on their conductance values, are reached by flow of a signal representing a threat, wherein signal flow over a path in the graph continues until a signal threshold is met. Based on the analysis, nodes within the subset are designated as hypothesis nodes for further examination.",
+  "filing_date": "20160815",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>This disclosure provides a technique for a signal flow analysis-based exploration of security knowledge represented in a graph structure. Analytics over that graph structure can reveal potential causal relationships between security events and offenses that are reported from a security system (e.g., a SIEM). To this end, in a first embodiment, the disclosure provides for an automated method for cognitive analysis of security data using a knowledge graph comprising nodes and edges. The method begins by associating “conductance” values to each of a set of edges in at least a portion of the knowledge graph. Each node in the portion of the knowledge graph has an associated “toxicity” value representing a degree of maliciousness associated with the node. The conductance value associated with a given edge of the set of edges is a function of at least the toxicity values of the nodes to which the given edge is incident. The method then continues with respect to an input node representing an observable associated with an offense and, in particular, by conducting a signal flow analysis. The purpose of the signal flow analysis is to identify a subset of the nodes that, based on their conductance values, are reached by flow of a signal representing a threat, wherein flow of the signal over a given path in the knowledge graph continues until a signal threshold is met. Based on the signal flow analysis, the method associates nodes within the subset as hypothesis nodes. The hypothesis nodes represent a hypothesis to be examined to attempt to identify information in the knowledge graph representing a causal relationship that led to the offense. According to a second aspect of this disclosure, an apparatus for cognitive analysis of security data using a knowledge graph comprising nodes and edges is described. The apparatus comprises a processor, and computer memory holding computer program instructions executed by the processor to perform a set of operation...",
+  "date_published": "20180215",
+  "title": "Cognitive analysis of security data with signal flow-based graph exploration",
+  "ipcr_labels": [
+    "G06N504",
+    "H04L2906"
+  ],
+  "_processing_info": {
+    "original_size": 84947,
+    "optimized_size": 4010,
+    "reduction_percent": 95.28
+  }
+}

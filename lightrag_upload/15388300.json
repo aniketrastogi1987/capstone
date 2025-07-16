@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15388300",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "title": "MULTI-LEVEL RESERVOIR SAMPLING OVER DISTRIBUTED DATABASES AND DISTRIBUTED STREAMS",
+  "filing_date": "20161222",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Al-Kateb",
+      "inventor_name_first": "Mohammed Hussein",
+      "inventor_city": "Rolling Hills Estates",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kostamaa",
+      "inventor_name_first": "Olli Pekka",
+      "inventor_city": "Santa Monica",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06N700"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The system may be better understood with reference to the following drawings and description. The components in the figures are not necessarily to scale, emphasis instead being placed upon illustrating the principles of the invention. Moreover, in the figures, like referenced numerals designate corresponding parts throughout the different views. FIG. 1 is a block diagram of a Teradata Unified Data Architecture (UDA) system. FIG. 2 is a simple illustration showing data streams from various data sources to a Teradata UDA system. FIG. 3 is an illustration of a process for performing reservoir sampling from a data stream. FIG. 4 is an illustration of a process for performing two-step sampling from multiple or distributed data streams, in accordance with the present invention. FIG. 5 is another illustration of a process for performing two-set sampling from multiple or distributed data streams, in accordance with the present invention. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A system and method for random sampling of distributed data, including distributed data streams. The system and method use a multi-level reservoir sampling technique that leverages the conventional reservoir sampling algorithm for distributed data or distributed data streams. The method establishes an intermediate reservoir for each distributed data source or data stream and populates the intermediate reservoirs with a sample of data elements received from each distributed data source or data stream. A final reservoir is established and data elements are randomly selected from each one of the intermediate reservoirs to populate the final reservoir.",
+  "publication_number": "US20180181621A1-20180628",
+  "_processing_info": {
+    "original_size": 26935,
+    "optimized_size": 2476,
+    "reduction_percent": 90.81
+  }
+}

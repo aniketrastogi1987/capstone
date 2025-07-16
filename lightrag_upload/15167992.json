@@ -1,0 +1,52 @@
+{
+  "date_produced": "20161116",
+  "publication_number": "US20160350662A1-20161201",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15167992",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jin",
+      "inventor_name_first": "Ruoming",
+      "inventor_city": "Kent",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Anthony",
+      "inventor_name_first": "Adam",
+      "inventor_city": "Kent",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Ming",
+      "inventor_city": "Great Neck",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tietz",
+      "inventor_name_first": "Nicholas",
+      "inventor_city": "Kent",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods for generating real-time, personalized recommendations are disclosed. In one embodiment, a method operates upon an electronic data collection organized as a network of vertices and edge connections between the vertices. The method provides the recommendations includes iteratively traversing across edges that satisfy search criteria to a new set of vertices and filtering each new set of vertices to satisfy the search criteria. At the conclusion of the traversing and filtering, a final set of vertices represents the recommended entities. In some embodiments, a control vector describes a sequence of relationships between a requester and the items to be recommended. The method can assign scores to candidate recommendations and select the recommendations having the highest scores. Advantageously, the method provides flexibility and rapid execution of recommendation queries without the need to precompute intermediate results.",
+  "filing_date": "20160528",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is an exemplary top-level block diagram illustrating one embodiment of a graph-based recommendation system. FIG. 2A is an exemplary diagram illustrating one embodiment of a relationship graph used by the graph-based recommendation system of FIG. 1 . FIG. 2B is an exemplary diagram illustrating another embodiment of a relationship graph used by the graph-based recommendation system of FIG. 1 . FIG. 3A is an exemplary block diagram illustrating one embodiment of a control vector used by the graph-based recommendation system of FIG. 1 . FIG. 3B is exemplary diagram illustrating the creation of a control vector by the graph-based recommendation system of FIG. 1 . FIG. 4 is an exemplary flow chart illustrating one embodiment of a real-time recommendation method implemented by the graph-based recommendation system of FIG. 1 . FIG. 5 is an exemplary diagram illustrating an embodiment of a vertex table of the graph database of FIG. 1 . FIG. 6 is an exemplary diagram illustrating one embodiment of an edge table of the graph database of FIG. 1 . FIG. 7 is exemplary diagram illustrating another embodiment of the edge table of FIG. 1 . FIG. 8 is an exemplary block diagram illustrating another embodiment of an iteration control object of the control vector FIG. 3A . FIG. 9 is an exemplary block diagram illustrating one embodiment of a subgraph processor of the graph-based recommendation system of FIG. 1 . FIG. 10 is an exemplary block diagram illustrating an embodiment of the control vector of FIG. 3A for a recommendation request using the relationship graph of FIG. 2B . FIG. 11 is an exemplary diagram illustrating one embodiment of edge weights in a relationship graph used by the graph-based recommendation system of FIG. 1 . FIG. 12 is an exemplary diagram illustrating one embodiment of path aggregation in the real-time recommendation method of FIG. 4 . FIG. 13 is an exemplary diagram illustrating one embodiment of master vert...",
+  "date_published": "20161201",
+  "title": "SYSTEM AND METHOD FOR REAL-TIME GRAPH-BASED RECOMMENDATIONS",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 74836,
+    "optimized_size": 3933,
+    "reduction_percent": 94.74
+  }
+}

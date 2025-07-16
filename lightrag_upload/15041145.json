@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15041145",
+  "date_published": "20170119",
+  "date_produced": "20170104",
+  "title": "TERMINAL, SYSTEM, METHOD, AND PROGRAM FOR PRESENTING SENTENCE CANDIDATE",
+  "filing_date": "20160211",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NAKAYAMA",
+      "inventor_name_first": "Yoshiharu",
+      "inventor_city": "Kumamoto",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SAITO",
+      "inventor_name_first": "Satoru",
+      "inventor_city": "Kumamoto",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06F1728"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>Reports in finding of medical diagnostic imaging have some regularities in a patient's symptom. Therefore, the sentence structure has a pattern. In other words, one sentence containing an input technical term has a limited pattern to easily present a sentence candidate. Moreover, in the structure of the entire report, a sentence right after one sentence is completed has some limited patterns to present likely candidates to a user. Then, the inventors of the present invention have focused on the solution that a plurality of reports input in the past are maintained in a report data base (hereinafter referred to as “report DB”), a sentence containing an input character is retrieved from the data base, and then a sentence candidate is presented based on the retrieved sentences to improve the work efficiency and shorten the input time of a user to generate technical reports. In addition, the sentence input by using the terminal for presenting a sentence candidate of the present invention to standardize variable sentences. The present invention can standardize the orthographic variant and the difference in expression, for example, the difference between “be possible to” and “be suggested to,” which are varied depending on users. In such a case, not only one sentence containing a technical term as an input candidate but also a sentence right before and after the sentence is presented to more efficiently input and complete the entire report including a plurality of sentences with high quality. Therefore, after one sentence is input or selected, a sentence right before and after the sentence are preferably presented as the candidates. However, an Internet search or a method of Patent Document 1 can present information to retrieve a sentence that the user intends to search but not an entire sentence that the user finally wishes to input as a sentence candidate. Moreover, the methods cannot select a sentence right before and after an input sente...",
+  "patent_number": "None",
+  "abstract": "The present invention is to provide a terminal for presenting a sentence candidate that presents a candidate to improve the work efficiency and to standardize a sentence, when a report is generated. The terminal for presenting a sentence candidate 100 is capable of presenting a more appropriate sentence candidate by including a report data base 131 that stores a report including a plurality of sentences, searching the report data base by an input character, generating a report group including a plurality of reports as a search result, extracting a sentence containing a character input from the report group to generate a sentence group, and preferentially outputting a predetermined sentence based on a priority.",
+  "publication_number": "US20170017718A1-20170119",
+  "_processing_info": {
+    "original_size": 72000,
+    "optimized_size": 3468,
+    "reduction_percent": 95.18
+  }
+}

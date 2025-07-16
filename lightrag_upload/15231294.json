@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180124",
+  "publication_number": "US20180039907A1-20180208",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15231294",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kraley",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Lexington",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The structure of an untagged document can be derived using a predictive model that is trained in a supervised learning framework based on a corpus of tagged training documents. Analyzing the training documents results in a plurality of document part feature vectors, each of which correlates a category defining a document part (for example, “title” or “body paragraph”) with one or more feature-value pairs (for example, “font=Arial” or “alignment=centered”). Any suitable machine learning algorithm can be used to train the predictive model based on the document part feature vectors extracted from the training documents. Once the predictive model has been trained, it can receive feature-value pairs corresponding to a portion of an untagged document and make predictions with respect to the how that document part should be categorized. The predictive model can therefore generate tag metadata that defines a structure of the untagged document in an automated fashion.",
+  "filing_date": "20160808",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram illustrating selected components of an example document structure evaluation framework that allows the structure of an untagged document to be derived using a predictive model. FIG. 2 is a data flow diagram schematically illustrating an example technique for using a plurality of tagged training documents to train a predictive model that can subsequently be used to generate tag metadata corresponding to an untagged document. FIG. 3 is a flowchart illustrating an example method for using a plurality of tagged training documents to train a predictive model that can subsequently be used to generate tag metadata corresponding to an untagged document. FIG. 4 is a flowchart illustrating an example method for deriving the structure of an untagged document using a predictive model that was trained based on a corpus of tagged training documents. FIG. 5 is a screenshot illustrating an example user interface that is provided by a document viewer application, and that displays suggested categorizations for at least some of the document parts that comprise an untagged document. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180208",
+  "title": "DOCUMENT STRUCTURE EXTRACTION USING MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1721"
+  ],
+  "_processing_info": {
+    "original_size": 74487,
+    "optimized_size": 2789,
+    "reduction_percent": 96.26
+  }
+}

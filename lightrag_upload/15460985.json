@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15460985",
+  "date_published": "20170629",
+  "date_produced": "20170614",
+  "filing_date": "20170316",
+  "main_ipcr_label": "G06N700",
+  "abstract": "In an illustrative embodiment, systems and methods for determining exposure include detecting, based on received data from external entities, an occurrence of a catastrophic event. Responsive to detecting the occurrence, a first matrix is generated indicating features of one or more properties within a vicinity of the catastrophic event, and a second matrix is generated representing characteristics of the catastrophic event. Using the first matrix and the second matrix, a convolution calculation matrix is calculated indicating amounts of correspondence between the first matrix and the second matrix. In real time, in response to detecting the occurrence of the catastrophic event, present risk exposure information to at least one remote computing system associated with at least one property of the plurality of properties, where the risk exposure data relates to the amount of correspondence between the first matrix and the second matrix in reference to the at least one property.",
+  "publication_number": "US20170185909A1-20170629",
+  "summary": "<SOH> SUMMARY OF ILLUSTRATIVE EMBODIMENTS <EOH>In an illustrative embodiment, systems and methods for determining exposure include detecting, based on received data from external entities, an occurrence of a catastrophic event. Responsive to detecting the occurrence, a first matrix is generated indicating features of one or more properties within a vicinity of the catastrophic event, and a second matrix is generated representing characteristics of the catastrophic event. Using the first matrix and the second matrix, a convolution calculation matrix is calculated indicating amounts of correspondence between the first matrix and the second matrix. In real time, in response to detecting the occurrence of the catastrophic event, present risk exposure information to at least one remote computing system associated with at least one property of the plurality of properties, where the risk exposure data relates to the amount of correspondence between the first matrix and the second matrix in reference to the at least one property. The forgoing general description of the illustrative implementations and the following detailed description thereof are merely exemplary aspects of the teachings of this disclosure, and are not restrictive. The implementations described herein are directed toward an exposure determination system and environment that performs a convolution calculation of matrices that are generated at runtime in response to detection of a particular type of event. The matrices include a location matrix indicating features of one or more locations associated with the event and a spatial footprint matrix that represents characteristics of the event. A result of the convolution calculation of the matrices indicates an amount of exposure for the one or more locations in light of the detection of the event.",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1714",
+    "G06F1715"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mildenhall",
+      "inventor_name_first": "Stephen John Martin",
+      "inventor_city": "Oak Park",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dybvik",
+      "inventor_name_first": "Kirk William",
+      "inventor_city": "Chaska",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR PERFORMING REAL-TIME CONVOLUTION CALCULATIONS OF MATRICES INDICATING AMOUNTS OF EXPOSURE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 63800,
+    "optimized_size": 3611,
+    "reduction_percent": 94.34
+  }
+}

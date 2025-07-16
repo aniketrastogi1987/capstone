@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15441194",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "filing_date": "20170223",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Embodiments of a convolutional neutral network (CNN) system based on using resolution-limited small-scale CNN modules are disclosed. In some embodiments, a CNN system includes: a receiving module for receiving an input image of a first image size, the receiving module can be used to partition the input image into a set of subimages of a second image size; a first processing stage that includes a first hardware CNN module configured with a maximum input image size, the first hardware CNN module is configured to sequentially receive the set of subimages and sequentially process the received subimages to generate a set of outputs; a merging module for merging the sets of outputs into a set of merged feature maps; and a second processing stage for receiving the set of feature maps and processing the set of feature maps to generate an output including at least one prediction on the input image.",
+  "publication_number": "US20180150740A1-20180531",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments described herein provide various examples of a convolutional neural network (CNN) constructed based on small-scale low-cost hardware CNN modules. The disclosed CNN architecture and system can be implemented in resource-limited embedded systems to allow these systems to perform tasks which would typically require large-scale expensive CNN systems. For example, the disclosed CNN architecture and system allows for using low-cost CNN-enabled embedded systems on high-complexity CNN applications, such as processing high-resolution input images which would otherwise not be feasible for resource-limited embedded systems. Various embodiments of the disclosed CNN systems manage a complex task based on a divide-and-conquer approach. In some embodiments, a disclosed CNN system is constructed with two or more tiers/stages, wherein each of the two or more tiers/stages is implemented with either one or more small-scale low-cost hardware CNN modules or with software which operates on low-resolution inputs. As such, each of the two or more tiers/stages can have a very low-complexity. More specifically, to use the disclosed CNN system, an original high-resolution input image can be partitioned into a set of subimages of substantially the same size which is much smaller than the size of the original input image, wherein the partition can include properly designed gaps and/or overlaps between adjacent subimages. These subimages are sequentially fed into the first tier/stage of the disclosed CNN system which includes one or more small-scale hardware CNN modules designed to handle low-resolution input images. In this manner, a high-resolution input image can be processed by a given small-scale hardware CNN module by way of reusing the small-scale hardware CNN module repeatedly on the set of subimages. The outputs from the first tier/stage based on the set of subimages are subsequently merged. In some embodiments, the disclosed CNN system includes provisions...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06T711"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Xing",
+      "inventor_city": "Port Coquitlam",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Ng",
+      "inventor_name_first": "Him Wai",
+      "inventor_city": "Burnaby",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Liang",
+      "inventor_name_first": "Jie",
+      "inventor_city": "Coquitlam",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "CONVOLUTIONAL NEURAL NETWORK (CNN) SYSTEM BASED ON RESOLUTION-LIMITED SMALL-SCALE CNN MODULES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 111338,
+    "optimized_size": 3775,
+    "reduction_percent": 96.61
+  }
+}

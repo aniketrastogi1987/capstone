@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060734A1-20180301",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15253144",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BELLER",
+      "inventor_name_first": "CHARLES E.",
+      "inventor_city": "BALTIMORE",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DING",
+      "inventor_name_first": "CHENGMIN",
+      "inventor_city": "CHANTILLY",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DUMEY",
+      "inventor_name_first": "ADAM",
+      "inventor_city": "FALLS CHURCH",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SHEK",
+      "inventor_name_first": "ELINNA",
+      "inventor_city": "ALDIE",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A technique for responding to user input includes assigning respective initial confidence scores to relationship n-tuples in a knowledge graph (KG). Each of the n-tuples designates at least a first entity, a second entity, and a relationship between the first and second entities or a single entity and a relationship between the single entity and one or more properties of the single entity. Respective feature vectors are associated with each of the n-tuples. A training set that includes at least a subset of the n-tuples labeled with respective ground truth labels is generated. Respective initial weights are learned for the feature vectors based on the training set. Respective subsequent confidence scores are generated for each of the n-tuples based on the initial weights for the feature vectors. A response to user input is generated based on the subsequent confidence scores for one or more of the n-tuples.",
+  "filing_date": "20160831",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Disclosed are a method, a data processing system, and a computer program product (embodied in a computer-readable storage device) for responding to user input based on confidence scores assigned to relationship entries in a knowledge graph. A technique for responding to user input includes assigning respective initial confidence scores to relationship n-tuples in a knowledge graph. Each of the relationship n-tuples designates at least a first entity, a second entity, and a relationship between the first and second entities or a single entity and a relationship between the single entity and one or more properties of the single entity. Respective feature vectors are associated with each of the relationship n-tuples. A training set that includes at least a subset of the relationship n-tuples labeled with respective ground truth labels is generated. Respective initial weights are learned for the feature vectors based on the training set. Respective subsequent confidence scores are generated for each of the relationship n-tuples based on the initial weights for the feature vectors. A response to user input is generated based on the respective subsequent confidence scores for one or more of the relationship n-tuples in the KG. The above summary contains simplifications, generalizations and omissions of detail and is not intended as a comprehensive description of the claimed subject matter but, rather, is intended to provide a brief overview of some of the functionality associated therewith. Other systems, methods, functionality, features and advantages of the claimed subject matter will be or will become apparent to one with skill in the art upon examination of the following figures and detailed written description. The above as well as additional objectives, features, and advantages of the present invention will become apparent in the following detailed written description.",
+  "date_published": "20180301",
+  "title": "RESPONDING TO USER INPUT BASED ON CONFIDENCE SCORES ASSIGNED TO RELATIONSHIP ENTRIES IN A KNOWLEDGE GRAPH",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 68867,
+    "optimized_size": 3886,
+    "reduction_percent": 94.36
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "decision": "PENDING",
+  "application_number": "15356840",
+  "date_published": "20180524",
+  "date_produced": "20180509",
+  "title": "SYSTEMS AND METHODS FOR GENERATING FOR DISPLAY RECOMMENDATIONS THAT ARE TEMPORALLY RELEVANT TO ACTIVITIES OF A USER AND ARE CONTEXTUALLY RELEVANT TO A PORTION OF A MEDIA ASSET THAT THE USER IS CONSUMING",
+  "filing_date": "20161121",
+  "inventor_list": [
+    {
+      "inventor_name_last": "James",
+      "inventor_name_first": "Bryan Keith",
+      "inventor_city": "Foster City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04N21482",
+    "G06F314",
+    "H04N2145",
+    "H04N21466",
+    "H04N21262",
+    "H04N21431",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "H04N21482",
+  "summary": "<SOH> SUMMARY <EOH>Systems and methods are provided herein for generating for display recommendations that are temporally relevant to activities of a user and are contextually relevant to a portion of a media asset that the user is consuming. For example, if the user has an itinerary indicating he will travel to Italy in a week, and the user is presently watching a movie scene taking place in Rome, Italy, the user may be provided a recommendation relating to Italy at that time because the movie scene has a nexus to the user's upcoming travel plans. In some aspects of the disclosure, a media guidance application may identify a first plurality of activities a user has planned, as well as a plurality of respective times for which each of the first plurality of activities was planned to be performed by the user. The media guidance application may identify this information by querying a non-media guidance application, such as an application dedicated to booking travel activities (e.g., Kayak, which is a service for booking car, hotel, and airline reservations). In some embodiments, in order to identify the activities, the media guidance application may identify a plurality of non-media guidance applications that are associated with the user. For example, the user may use multiple applications that are dedicated to booking travel activities (for example, in addition to Kayak, the user may use an airline-specific application for booking a flight). The media guidance application may query each non-media guidance application of the plurality of non-media guidance applications for information relating to activities the user has planned, and may receive, in response to the querying, information about an activity of the activities the user has planned. The media guidance application may add the information to the first plurality of activities. Thus, the media guidance application may add the information from each non-media guidance application used by the user to schedule activ...",
+  "patent_number": "None",
+  "abstract": "Systems and methods are provided herein for displaying recommendations that are temporally relevant to activities of a user and are contextually relevant to a portion of viewed media. This may be accomplished by a media guidance application identifying activities a user has planned, as well as respective times for which each of the plurality of activities was planned to be performed by the user. The media guidance application may filter the activities by determining which of the first plurality of activities has a corresponding respective time that is within a threshold period of time. The media guidance application may then identify characteristics of each filtered activity and of a media asset that the user is consuming at the present moment, and may compute whether the characteristics match. If the characteristics match, the media guidance application may generate for display a recommendation relating to the respective activity.",
+  "publication_number": "US20180146258A1-20180524",
+  "_processing_info": {
+    "original_size": 143878,
+    "optimized_size": 3720,
+    "reduction_percent": 97.41
+  }
+}

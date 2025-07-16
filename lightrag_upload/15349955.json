@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140265A1-20170518",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15349955",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Le",
+      "inventor_name_first": "Quoc V.",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sutskever",
+      "inventor_name_first": "Ilya",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Neelakantan",
+      "inventor_name_first": "Arvind",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for performing operations using data from a data source. In one aspect, a method includes a neural network system including a controller neural network configured to: receive a controller input for a time step and process the controller input and a representation of a system input to generate: an operation score distribution that assigns a respective operation score to an operation and a data score distribution that assigns a respective data score in the data source. The neural network system can also include an operation subsystem configured to: perform operations to generate operation outputs, wherein at least one of the operations is performed on data in the data source, and combine the operation outputs in accordance with the operation score distribution and the data score distribution to generate a time step output for the time step.",
+  "filing_date": "20161111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes a system implemented as computer programs on one or more computers in one or more locations. The system generates a system output from a system input by repeatedly performing operations from a set of operations using data from a data source. In particular, the system includes a controller neural network configured to, for each of multiple time steps, receive a controller input for the time step and process the controller input and a representation of the system input to generate: (i) an operation score distribution that assigns a respective operation score to each operation in the set of operations, and (ii) a data score distribution that assigns a respective data score to each of multiple locations in the data source. The system also includes an operation subsystem configured to, for each of the time steps, perform operations from the set of operations to generate a set of operation outputs, wherein at least one of the operations is performed on data in the data source, and combine the operation outputs in accordance with the operation score distribution and the data score distribution to generate a time step output for the time step. In some implementations, the system generates the system output from the time step output for the last time step. Advantageous implementations can include one or more of the following features. The system can include a recurrent neural network that is augmented with a set of arithmetic and logical operations to perform complex reasoning. Specifically, recurrent neural network can be implemented with multiple layers such as an operation neural network layer and a data neural network layer. The system can use the neural network layers to perform operations of a set of operations on data of a particular data segment that is located in a data source. The system can be fully differentiable. As such, the system can be trained in an end-to-end implementation to induce programs that require litt...",
+  "date_published": "20170518",
+  "title": "NEURAL NETWORK PROGRAMMER",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 58941,
+    "optimized_size": 3781,
+    "reduction_percent": 93.59
+  }
+}

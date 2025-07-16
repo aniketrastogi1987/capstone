@@ -1,0 +1,37 @@
+{
+  "patent_number": "None",
+  "application_number": "15571677",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20171103",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Embodiments of training signal processing models for component replacement in signal processing systems are disclosed. A device for training a third signal processing model via a machine learning method include a first calculating unit, a second calculating unit and a training unit. The first calculating unit calculates a first output from each first sample in a first sample set based on a first signal processing model. The second calculating unit calculates a second output from the first sample based on a second signal processing model. The training unit trains a third signal processing model by minimizing a first cost including a first error between the first output and a third output, so that the combination of the second signal processing model and the third signal processing model can simulate the behaviors of the first signal processing model on the first sample set. The third output is an output of the third signal processing model in response to an input including the second ou...",
+  "publication_number": "US20180181880A1-20180628",
+  "summary": "<SOH> SUMMARY <EOH>According to an example embodiment disclosed herein, there is provided a method of training a third signal processing model by way of a machine learning method. The method includes the steps of a) calculating a first output from each first sample in a first sample set based on a first signal processing model; b) calculating a second output from the first sample based on a second signal processing model; and c) training a third signal processing model by minimizing a first cost including a first error between the first output and a third output, so that the combination of the second signal processing model and the third signal processing model can simulate the behavior of the first signal processing model on the first sample set, wherein the third output is an output of the third signal processing model in response to an input including the second output. According to another example embodiment disclosed herein, there is provided a method of training a third signal processing model by way of a machine learning method. The method includes the steps of: a) acquiring a candidate set as a result of adding into an initial set one or more of sample sets which have not been added into the initial set; b) training a third signal processing model by calculating a second output from each sample in the candidate set based on a second signal processing model and minimizing a first cost including an error calculated for each of the samples in the candidate set, so that the combination of the second signal processing model and the third signal processing model can simulate the behavior of a first signal processing model, wherein if the sample belongs to a sample set identified as a first type, the error is calculated as a difference between a first output calculated from the sample based on the first signal processing model, and a third output of the third signal processing model in response to an input including the second output, and if the sample belongs to a...",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Guiping",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "LU",
+      "inventor_name_first": "Li",
+      "inventor_city": "San Francico",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Training Signal Processing Model for Component Replacement in Signal Processing System",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 86621,
+    "optimized_size": 3717,
+    "reduction_percent": 95.71
+  }
+}

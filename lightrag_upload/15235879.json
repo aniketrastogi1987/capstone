@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170524",
+  "publication_number": "US20170161638A1-20170608",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15235879",
+  "inventor_list": [
+    {
+      "inventor_name_last": "GARAGIC",
+      "inventor_name_first": "Denis",
+      "inventor_city": "Wayland",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "RHODES",
+      "inventor_name_first": "Bradley J.",
+      "inventor_city": "Reading",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A generic online, probabilistic, approximate computational inference model for learning-based data processing is presented. The model includes detection, feature production and classification steps. It employs Bayesian Probabilistic Models (BPMs) to characterize complex real-world behaviors under uncertainty. The BPM learning is incremental. Online learning enables BPM adaptation to new data. The available data drives BPM complexity (e.g., number of states) accommodating spatial and temporal ambiguities, occlusions, environmental clutter, and large inter-domain data variability. Generic Sequential Bayesian Inference (GSBI) efficiently operates over BPMs to process streaming or forensic data. Deep Belief Networks (DBNs) learn feature representations from data. Examples include model applications for streaming imagery (e.g., video) and automatic target recognition (ATR).",
+  "filing_date": "20160812",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An embodiment provides a method performed by at least one computer processing unit for online, probabilistic, approximate computational inference modeling of input representing features to be labeled, the method comprising detecting and segmenting a plurality of signals to create a plurality of features ( 115 ), the detecting and segmenting comprising observed pixel values and labeled classified pixel background states ( 400 ); tracking and associating the plurality of features to create a plurality of tracks ( 120 ), the tracking and associating comprising track detection assignment and output estimation ( 500 ), ( 600 ), ( 700 ); extracting and optimizing the plurality of features ( 125 ) ( 230 ); classifying and recognizing the plurality of features and/or tracks ( 130 ), the classifying and recognizing comprising classifier conditions ( 815 ) and models ( 820 ) ( 800 ); and creating one or more labels associated with the features and/or tracks on output. In embodiments a portion of the model processes observations collected within a time interval and generates particles, calculates weights, normalizes weights, and/or resamples to obtain approximate posterior distribution and an inferred hidden state. In other embodiments an online generic probabilistic inference is used in all processing areas, providing optimal performance with respect to energy, speed, and accuracy. In subsequent embodiments a closed-loop characteristic adds on-the-fly performance-driven Data Processing Pipeline (DPP) adaptation to changing environments and behaviors. For additional embodiments error tolerance accommodates noisy streaming data that contain spatial and temporal ambiguities, occlusions, clutter, and large degrees of variability. In another embodiment direct processing pipeline comprises adaptive modeling loops for each stage comprising detection, feature production, and open set classification. For a following embodiment real world data comprises intelligence,...",
+  "date_published": "20170608",
+  "title": "GENERIC PROBABILISTIC APPROXIMATE COMPUTATIONAL INFERENCE MODEL FOR STREAMING DATA PROCESSING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 58060,
+    "optimized_size": 3634,
+    "reduction_percent": 93.74
+  }
+}

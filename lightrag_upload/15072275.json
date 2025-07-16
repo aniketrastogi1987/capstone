@@ -1,0 +1,41 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15072275",
+  "date_published": "20170921",
+  "date_produced": "20170906",
+  "title": "ACCESS CONTROL FOR SELECTED DOCUMENT CONTENTS USING  DOCUMENT LAYERS AND ACCESS KEY SEQUENCE",
+  "filing_date": "20160316",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shiraishi",
+      "inventor_name_first": "Kyohei",
+      "inventor_city": "San Mateo",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pathak",
+      "inventor_name_first": "Rabindra",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2110",
+    "H04L932",
+    "H04L2906",
+    "G06F2160",
+    "G06F2162"
+  ],
+  "main_ipcr_label": "G06F2110",
+  "summary": "<SOH> SUMMARY <EOH>In conventional DRM system described above, documents are protected at the document (file) level. The system encrypts a file, not individual parts of its content; therefore if a user is granted access to a document, she has access to all contents of the entire document. To allow different users to access different contents of a document, the DRM system would need to generate multiple encrypted versions (multiple files) of the document which would make different contents of the document visible, and grant different users access to different versions. These multiple versions would contain duplicative information, increasing the demand on system storage. Moreover, it is often desirable to provide different contents of a document with different levels of security, but when the documents are encrypted only at the document level, if the access credential for a document is leaked or cracked, all information within the document will be exposed. Accordingly, the present invention is directed to a digital rights management method and related apparatus that substantially obviates one or more of the problems due to limitations and disadvantages of the related art. An object of the present invention is to provide a digital rights management method that can protect a document while making it possible to grant different users access rights to different contents of the document without creating multiple separate files for the document. Another object of the present invention is to give the document publisher a way to apply additional security at content level by means of masking and/or hiding of blocks of content. Additional features and advantages of the invention will be set forth in the descriptions that follow and in part will be apparent from the description, or may be learned by practice of the invention. The objectives and other advantages of the invention will be realized and attained by the structure particularly pointed out in the written description an...",
+  "patent_number": "9990474",
+  "abstract": "In a digital rights management system, layers are defined for each document and user permissions are specified for each layer, to control user access at the layer-level. The layers are ordered by depth, where a layer completely contained inside another layer is deemed deeper than the other layer. The layers are encrypted in a deep-to-shallow order, each by its own encryption key. The entire document is then encrypted. When a user requests access to a document, the system generates an ordered sequence of encryption keys based on the user's access rights for each layer. The document open program on the user's client computer attempts to decrypt the various layers using the ordered sequence of keys. The client program and the system's key sequence generating algorithm are designed to give the result that only layers that the user has access to are successfully decrypted and displayed at document open time.",
+  "publication_number": "US20170270283A1-20170921",
+  "_processing_info": {
+    "original_size": 71287,
+    "optimized_size": 3701,
+    "reduction_percent": 94.81
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "decision": "PENDING",
+  "application_number": "15041542",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "title": "MULTILINGUAL TERM EXTRACTION FROM DIAGNOSTIC TEXT",
+  "filing_date": "20160211",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PERANANDAM",
+      "inventor_name_first": "Prakash Mohan",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "DE",
+      "inventor_name_first": "Soumen",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "RAJPATHAK",
+      "inventor_name_first": "Dnyanesh G.",
+      "inventor_city": "Troy",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1727",
+    "G06F1730",
+    "G01S1913",
+    "G01C2134",
+    "B60W30188",
+    "G06F1721",
+    "G06N9900"
+  ],
+  "main_ipcr_label": "G06F1727",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the invention, there is provided a method of extracting terms from service records without regard to language. The method includes receiving service terms included in one or more service records at computer processing equipment; classifying the service terms into a group of likely relevant service terms and a group of likely irrelevant service terms using the computer processing equipment; and identifying the relevant service terms from the group of likely relevant service terms and ignoring the likely irrelevant service terms using the computer processing equipment. According to another embodiment of the invention, there is provided a method of. The method includes receiving service terms included in one or more service records at computer processing equipment; classifying the contents of the service record(s) into a group of likely relevant terms and likely irrelevant terms; determining outlier index values for any remaining service terms; and including the service terms into groups of likely relevant terms and likely irrelevant terms based on the determined outlier index values. According to yet another embodiment of the invention, there is provided a method of. The method includes executing a training phase, which comprises: associating service terms within a plurality of service records with a symptom, part, action, or irrelevant classification; determining a frequency of occurrence, a word position, or both for each service term; and storing the determined frequency of occurrence, word position, or both with the service term in a data structure. The method also includes executing an operational phase, which comprises receiving one or more additional service records; classifying the contents of the additional service record(s) into a group of likely relevant terms and likely irrelevant terms using the data structure; determining one or more semantic similarity index values for service terms; determining one or mo...",
+  "patent_number": "None",
+  "abstract": "A system and method of identifying relevant service terms within service records includes: receiving service terms included in one or more service records at computer processing equipment; classifying the service terms into a group of likely relevant service terms and a group of likely irrelevant service terms using the computer processing equipment; and identifying the relevant service terms from the group of likely relevant service terms and ignoring the likely irrelevant service terms using the computer processing equipment.",
+  "publication_number": "US20170235720A1-20170817",
+  "_processing_info": {
+    "original_size": 49423,
+    "optimized_size": 3446,
+    "reduction_percent": 93.03
+  }
+}

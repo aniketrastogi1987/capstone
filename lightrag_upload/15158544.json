@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15158544",
+  "date_published": "20161124",
+  "date_produced": "20161109",
+  "title": "AUTOMATED WORKLOAD ANALYSIS AND SIMULATION PROCESS",
+  "filing_date": "20160518",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Richter",
+      "inventor_name_first": "Roger",
+      "inventor_city": "Leander",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gueller",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Converse",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F950",
+    "H04L1224"
+  ],
+  "main_ipcr_label": "G06F950",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The detailed description is set forth with reference to the accompanying figures. In the figures, the left-most digit(s) of a reference number identifies the figure in which the reference number first appears. The use of the same reference numbers in different figures indicates similar or identical items or features. FIG. 1 illustrates a block diagram of an example environment in which an automated workload analysis and simulation process (AWSAP) controller may receive and analyze workload data from an original computing platform, and provide recommendations of candidate computing platforms as suitable migration options. FIG. 2 illustrates a block diagram of an example environment of a AWASP controller. FIG. 3 illustrates a block diagram of an example Platform Quality of Service (QoS) Application. FIG. 4 illustrates a flow diagram that describes the general process of monitoring an original computing platform and ranking one or more candidate computing platforms as options for migration of data and data workload from the original computing platform. FIG. 5 illustrates a flow diagram that describes an automated process of generating a recommendation of candidate computing platforms for migration from an original computing platform. FIG. 6 illustrates a flow diagram that describes an automated process using a Platform Indexing Ranking and Rating Service (PIRRS) to select one or more candidate computing platforms, and ranking an order of the selected candidate computing platforms based on performance and customer requirements under a synthetic workload. FIG. 7 illustrates a flow diagram that describes an automated process of generating a synthetic workload and re-tuning a synthetic workload for deployment on candidate computing platforms. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "This disclosure sets forth systems and methods for recommending candidate computing platforms for migration of data and data-related workload from an original computing platform. The systems and methods further describe determining recommendations of candidate computing platforms based on a comparison of key performance and utilization statistics of the original computing platform under a user-generated workload with candidate computing platforms under a synthetic workload. Key performance and utilization statistics may relate to CPU, memory, file I/O, network I/O, and database I/O operations on the respective computing platforms. The synthetic workload may be defined by parameters that simulate the key performance and utilization statistics of the original computing platform under the user-generated workload. Further, the synthetic workloads may be executed on individual candidate computing platforms to determine service level capabilities that are ultimately used to form the recommen...",
+  "publication_number": "US20160342446A1-20161124",
+  "_processing_info": {
+    "original_size": 85655,
+    "optimized_size": 3579,
+    "reduction_percent": 95.82
+  }
+}

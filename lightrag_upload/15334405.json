@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170510",
+  "publication_number": "US20170147946A1-20170525",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15334405",
+  "inventor_list": [
+    {
+      "inventor_name_last": "UMEDA",
+      "inventor_name_first": "YUHEI",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A machine learning method related to these embodiments includes: first generating a pseudo attractor from each of plural series data sets, the pseudo attractor being a set of points in N-dimensional space, each of the points including N values sampled at an equal interval; second generating a series data set of Betti numbers from each of plural pseudo attractors generated in the first generating, each of the Betti numbers being a number of holes for a radius of a N-dimensional sphere in the N-dimensional space; and performing machine learning for each of plural series data sets of Betti numbers generated in the second generating, the series data set of Betti numbers being used as input in the machine learning.",
+  "filing_date": "20161026",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>By using the method described above, it is possible to express a rule of change in series data according to a mutual relationship among points in N-dimensional space, however, coordinates themselves of each point do not have a meaning. Therefore, even though machine learning is performed on a set of points in N-dimensional space by using coordinates of each point, the series data is classified independently of its original feature. Moreover, there is a case where not only white noise but also noise other than white noise is included in series data and an effect of that noise may also remain in a pseudo attractor that is generated from the series data. Therefore, when machine learning is performed based on a mutual relationship among points in N-dimensional space, accuracy of classification will decrease due to that noise. Particularly, when time resolution with respect to change in series data is not sufficient, the effect of that noise remarkably appears. In other words, there is no technique to classify series data by using a pseudo attractor that was generated from the series data. A machine learning method related to this invention includes: first generating a pseudo attractor from each of plural series data sets, the pseudo attractor being a set of points in N-dimensional space, each of the points including N values sampled at an equal interval; second generating a series data set of Betti numbers from each of plural pseudo attractors generated in the first generating by calculation of persistent homology, each of the Betti numbers being a number of holes for a radius of a N-dimensional sphere in the N-dimensional space; and performing machine learning for each of plural series data sets of Betti numbers generated in the second generating, the series data set of Betti numbers being used as input in the machine learning. The object and advantages of the embodiment will be realized and attained by means of the elements and combinations particul...",
+  "date_published": "20170525",
+  "title": "METHOD AND APPARATUS FOR MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 65515,
+    "optimized_size": 3257,
+    "reduction_percent": 95.03
+  }
+}

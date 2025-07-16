@@ -1,0 +1,37 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046940A1-20180215",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15352318",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hummel",
+      "inventor_name_first": "Patrick",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nadav",
+      "inventor_name_first": "Uri",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for optimizing machine learning systems. In one aspect a method includes determining an average error of a machine learning system (“MLS”). An evaluation function that provides a result that would have been achieved using a specified value of a given parameter is defined. An expected outcome function that provides expected results for prior events based on the error of the MLS is defined. For each of multiple prior events, a target value of the given parameter is determined, e.g., using the expected outcome function. A model is generated using the MLS based on features of the prior events and the determined target values of the given parameter for the prior events. A value is assigned to the given parameter for a new event based on application of the model to features of the new event.",
+  "filing_date": "20161115",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in methods that include determining an average error of a machine learning system; defining an evaluation function that provides a result that would have been achieved using a specified value of a given parameter in prior events; defining an expected outcome function that provides expected results for prior events based on the error of the machine learning system; determining, for each of multiple prior events, a target value of the given parameter that causes the expected outcome function to provide a specified output for the prior event; generating a model using the machine learning system based on features of the prior events and the determined target values of the given parameter for the prior events; assigning a value to the given parameter for a new event based on application of the model to features of the new event; selecting third-party content for distribution to a client device based on the assigned value of the given parameter and selection values submitted by third-party content providers; and distributing, over a network, the selected third-party content to the client device. Other aspects include corresponding systems, devices, and computer readable medium. These and other embodiments can each optionally include one or more of the following features. Defining the evaluation function can include defining the evaluation function to provide an output that specifies an amount of gain that would have been realized if a specified threshold eligibility value had been used to select third-party content. Methods can include evaluating selection values submitted by third-parties for each of one or more prior requests, wherein, for each request, the evaluation function provides an output of zero when no third-party has submitted a selection value that meets the threshold eligibility value, provides an output of the threshold eligibility valu...",
+  "date_published": "20180215",
+  "title": "OPTIMIZED MACHINE LEARNING SYSTEM",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 72014,
+    "optimized_size": 3574,
+    "reduction_percent": 95.04
+  }
+}

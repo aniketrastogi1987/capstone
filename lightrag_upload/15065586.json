@@ -1,0 +1,53 @@
+{
+  "date_produced": "20170830",
+  "publication_number": "US20170262767A1-20170914",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15065586",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mahyar",
+      "inventor_name_first": "Hooman",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Khakpour",
+      "inventor_name_first": "Amir Reza",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shiell",
+      "inventor_name_first": "Derek",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Peters",
+      "inventor_name_first": "Robert J.",
+      "inventor_city": "Santa Monica",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The embodiments provide systems and methods for efficiently and accurately differentiating requests directed to uncacheable content from requests directed to cacheable content based on identifiers from the requests. The differentiation occurs without analysis or retrieval of the content being requested. Some embodiments hash identifiers of prior requests that resulted in uncacheable content being served in order to set indices within a bloom filter. The bloom filter then tracks prior uncacheable requests without storing each of the identifiers so that subsequent requests for uncacheable requests can be easily identified based on a hash of the request identifier and set indices of the bloom filter. Some embodiments produce a predictive model identifying uncacheable content requests by tracking various characteristics found in identifiers of prior requests that resulted in uncacheable content being served. Subsequent requests with identifiers having similar characteristics to those of th...",
+  "filing_date": "20160309",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>A preferred embodiment of methods and systems for advanced content cacheability determination and routing will now be described, by way of example only, with reference to the accompanying drawings in which: FIG. 1 illustrates a distributed platform point-of-presence in which a director control request distribution across a set of caching servers of the point-of-presence. FIG. 2 conceptually illustrates a director differentiating the distribution of cacheable content requests and uncacheable content requests across a set of caching servers in accordance with some embodiments. FIG. 3 conceptually illustrates a director differentiating the distribution of cacheable content requests and uncacheable content requests across different caching server domains in accordance with some embodiments. FIG. 4 presents a memorization process for identifying and differentiating uncacheable content requests and cacheable content requests based on a request identifier in accordance with some embodiments. FIG. 5 conceptually illustrates the two bloom filter implementation in accordance with some embodiments. FIG. 6 presents a process for modeling characteristics of cacheable content requests and uncacheable content requests in accordance with some embodiments. FIG. 7 illustrates a director using the common characteristics of each predictive model to differentiate and distribute subsequently received requests. FIG. 8 presents a process for predicting request cacheability based on request characteristic probabilities. FIG. 9 conceptually illustrates forming a predictive model from a set of request URLs. FIG. 10 conceptually illustrates predictively differentiating a newly received request based on the predictive model of FIG. 9 . FIG. 11 illustrates a computer system or server with which some embodiments are implemented. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170914",
+  "title": "METHODS AND SYSTEMS FOR ADVANCED CONTENT CACHEABILITY DETERMINATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 70459,
+    "optimized_size": 3985,
+    "reduction_percent": 94.34
+  }
+}

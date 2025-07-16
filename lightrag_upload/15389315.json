@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170614",
+  "publication_number": "US20170185894A1-20170629",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15389315",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Volkovs",
+      "inventor_name_first": "Maksims",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Poutanen",
+      "inventor_name_first": "Tomi Johan",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "A recommendation system generates recommendations for an online system using one or more neural network models that predict preferences of users for items in the online system. The neural network models generate a latent representation of a user and of a user that can be combined to determine the expected preference of the user to the item. By using neural network models, the recommendation system can generate predictions in real-time for new users and items without the need to re-calibrate the models. Moreover, the recommendation system can easily incorporate other forms of information other than preference information to generate improved preference predictions by including the additional information to generate the latent description of the user or item.",
+  "filing_date": "20161222",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A recommendation system generates recommendations for an online system using one or more neural network models that predict preferences of users for items in the online system. The neural network models generate a latent representation of a user and a latent representation of an item that can be combined to determine the expected preference of the user to the item. The latent representations are termed a latent item vector and a latent user vector. In one embodiment, the expected preference is determined from the latent vectors by a mathematical formula, such as a dot product, which may obviate more complex techniques for combining latent representations. Additionally, the neural network models that generate the latent vectors may be jointly trained using prior preference information to generate latent vectors for which the mathematical formula generates the preference information. By using neural network models, the recommendation system can generate predictions in real-time for new users and items without the need to re-calibrate the models by making forward passes through the models to generate a latent representation (in the latent vector) of a user or item. Moreover, the recommendation system can easily incorporate other forms of information other than preference information to generate improved preference predictions by including the additional information to generate the latent vector description of the user or item. In one embodiment, these include characteristics of users and items. In one embodiment, the recommendation system characterizes a user as a set of user descriptors, and characterizes an item as a set of item descriptors. The user descriptors and item descriptors are used as inputs to the model generating the latent vectors. In one embodiment, the user descriptors include a user preference vector identified from the known preference information that indicates preferences of the user for one or more other items, and a user conten...",
+  "date_published": "20170629",
+  "title": "END-TO-END DEEP COLLABORATIVE FILTERING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 91777,
+    "optimized_size": 3453,
+    "reduction_percent": 96.24
+  }
+}

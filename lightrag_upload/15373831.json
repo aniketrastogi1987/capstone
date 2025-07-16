@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15373831",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "title": "METHODS AND APPARATUS TO AUTOMATE DEPLOYMENTS OF SOFTWARE DEFINED DATA CENTERS",
+  "filing_date": "20161209",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Dobrev",
+      "inventor_name_first": "Pavel Mitkov",
+      "inventor_city": "Sofia",
+      "inventor_state": "",
+      "inventor_country": "BG"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F948",
+    "G06F9445"
+  ],
+  "main_ipcr_label": "G06F948",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 depicts an example system constructed in accordance with the teachings of this disclosure for managing a cloud computing platform. FIG. 2 illustrates an example data flow for generating and executing the automation plans of FIG. 1 to automatically deploy software defined data centers (SDDCs) and/or virtual appliances based on user-configurable parameters specified by customers to customize such deployments. FIG. 3 illustrates an example installation of deployed virtual machines and associated servers acting as hosts for deployment of component servers for a customer. FIG. 4 illustrates an example implementation of a virtual appliance. FIG. 5 illustrates an example main deployment automation configuration user interface that may be displayed to a customer to specify user-configurable parameter settings for customizing deployment of an SDDC and/or a virtual appliance. FIG. 6 illustrates an example deployment model selection user interface for selecting a model for deploying an SDDC. FIG. 7 illustrates an example product selection user interface for specifying user-configurable parameter settings for different products to be included in the SDDC. FIG. 8 illustrates an example run parameters configuration user interface for specifying user-configurable parameter settings for different run parameters for use to run different processes in the SDDC. FIG. 9 illustrates an example automated deployment status user interface to show a progress status of an automated deployment of the SDDC. FIG. 10 illustrates an example troubleshooting user interface that may be used to diagnose failures during the automated deployment of the SDDC. FIG. 11 is a flow diagram representative of example computer readable instructions that may be executed to implement the example automation plan generator of FIGS. 1 and 2 . FIGS. 12A and 12B illustrate a flow diagram representative of example computer readable instructions that may be executed to ...",
+  "patent_number": "None",
+  "abstract": "A disclosed example method to automate deployment of a software defined data center includes generating, by executing an instruction with at least one processor, a task list based on tasks provided in an automation plan to deploy the software defined data center; determining, by executing an instruction with the at least one processor, dependencies between the tasks prior to executing the tasks; determining, by executing an instruction with the at least one processor, whether a resource that is to be an output of a first one of the tasks exists before execution of the first one of the tasks; removing, by executing an instruction with the at least one processor, the first one of the tasks from the task list when the resource exists before execution of the first one of the tasks; generating an execution schedule, by executing an instruction with the at least one processor, based on the dependencies and ones of the tasks remaining in the task list; and executing, with the at least one pro...",
+  "publication_number": "US20180165122A1-20180614",
+  "_processing_info": {
+    "original_size": 124370,
+    "optimized_size": 3582,
+    "reduction_percent": 97.12
+  }
+}

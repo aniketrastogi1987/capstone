@@ -1,0 +1,50 @@
+{
+  "decision": "PENDING",
+  "application_number": "15253832",
+  "date_published": "20180301",
+  "date_produced": "20180213",
+  "title": "MANAGED FORWARDING ELEMENT EXECUTING IN PUBLIC CLOUD DATA COMPUTE NODE WITHOUT OVERLAY NETWORK",
+  "filing_date": "20160831",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hira",
+      "inventor_name_first": "Mukesh",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shah",
+      "inventor_name_first": "Saurabh",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Su",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "H04L1224",
+    "H04L12721",
+    "H04L2908",
+    "H04L12933",
+    "H04L12823",
+    "G06F9455"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Some embodiments of the invention provide a network management and control system with the ability to manage a logical network that spans across (i) a private datacenter, in which the system can access and control the forwarding elements and (ii) one or more public multi-tenant datacenters in which the system does not have access to the forwarding elements. In the private datacenter of some embodiments, the network management and control system (referred as network control system herein) manages software forwarding elements that execute in the virtualization software (e.g., hypervisor) of the host machines, and therefore can implement the administrator's desired network forwarding and security policies. However, in the public datacenter, the network control system does not have access to the virtualization software, and therefore may not be able to implement the same networking policies to workloads operating in the public datacenter. Some embodiments use a hierarchical network control system to expand the private datacenter management and control into the public datacenter. Specifically, some embodiments operate network controllers and managed forwarding elements inside virtual machines (VMs) or other data compute nodes (DCNs) operating in the public datacenter, in order to enforce network security and forwarding rules for packets sent to and from those DCNs. In some embodiments, the public datacenter(s) provide tenants with one or more isolated sets of resources (i.e., data compute nodes) over which the tenant has control, also referred to as virtual private clouds (VPCs). With some cloud providers, the tenant can define a virtual network with network subnets and routing tables, and/or place their DCNs into security groups defined by the public cloud provider. To implement the hierarchical network control system, some embodiments implement a first level of network controller (referred to as a gateway controller) in a first DCN in each VPC ...",
+  "patent_number": "None",
+  "abstract": "Some embodiments provide a method for a network controller that manages a logical network implemented in a datacenter having forwarding elements to which the network controller does not have access. The method identifies a data compute node (DCN), that operates on a host machine in the datacenter, to attach to the logical network. The DCN has a network interface with a network address provided by a management system of the datacenter. The DCN executes (i) a workload application and (ii) a managed forwarding element (MFE). The method distributes configuration data for configuring the MFE to receive data packets sent from the workload application on the DCN and perform network security processing on the data packets without performing logical forwarding operations. The data packets sent by the workload application have the provided network address as a source address when received by the MFE and are not encapsulated by the MFE.",
+  "publication_number": "US20180063086A1-20180301",
+  "_processing_info": {
+    "original_size": 217577,
+    "optimized_size": 3888,
+    "reduction_percent": 98.21
+  }
+}

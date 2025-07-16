@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140266A1-20170518",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15349900",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Ziyu",
+      "inventor_city": "St Albans",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Gomes de Freitas",
+      "inventor_name_first": "Joao Ferdinando",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Lanctot",
+      "inventor_name_first": "Marc",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Systems, methods, and apparatus, including computer programs encoded on a computer storage medium, for selecting an actions from a set of actions to be performed by an agent interacting with an environment. In one aspect, the system includes a dueling deep neural network. The dueling deep neural network includes a value subnetwork, an advantage subnetwork, and a combining layer. The value subnetwork processes a representation of an observation to generate a value estimate. The advantage subnetwork processes the representation of the observation to generate an advantage estimate for each action in the set of actions. The combining layer combines the value estimate and the respective advantage estimate for each action to generate a respective Q value for the action. The system selects an action to be performed by the agent in response to the observation using the respective Q values for the actions in the set of actions.",
+  "filing_date": "20161111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in systems for selecting actions from a set of actions to be performed by an agent interacting with an environment, where the systems include a dueling deep neural network implemented by one or more computers. The dueling deep neural network includes: (i) a value subnetwork configured to receive a representation of an observation characterizing a current state of the environment and process the representation of the observation to generate a value estimate, the value estimate being an estimate of an expected return resulting from the environment being in the current state; (ii) an advantage subnetwork configured to receive the representation of the observation and process the representation of the observation to generate a respective advantage estimate for each action in the set of actions that is an estimate of a relative measure of the return resulting from the agent performing the action when the environment is in the current state relative to the return resulting from the agent performing other actions when the environment is in the current state; and (iii) a combining layer configured to, for each action, combine the value estimate and the respective advantage estimate for the action to generate a respective Q value for the action, wherein the respective Q value is an estimate of an expected return resulting from the agent performing the action when the environment is in the current state. Other embodiments of this aspect include methods for using the systems to select actions to be performed by an agent interacting with an environment. Other embodiments of this aspect include corresponding computer systems, apparatus, and computer programs recorded on one or more computer storage devices, each configured to perform the actions of the methods. A system of one or more computers can be configured to perform particular operations or actions by...",
+  "date_published": "20170518",
+  "title": "DUELING DEEP NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 59161,
+    "optimized_size": 3756,
+    "reduction_percent": 93.65
+  }
+}

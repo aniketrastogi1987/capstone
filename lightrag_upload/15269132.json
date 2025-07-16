@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15269132",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "title": "PREDICTION-BASED INSTANT SEARCH",
+  "filing_date": "20160919",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Juneja",
+      "inventor_name_first": "Vanuj",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jadhav",
+      "inventor_name_first": "Pravin",
+      "inventor_city": "Milpitas",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pandiyan",
+      "inventor_name_first": "Shanmugapriya",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments are illustrated by way of example and not limitation in the figures of the accompanying drawings. FIG. 1 is a network diagram illustrating a network environment suitable for providing prediction-based instant search results, according to some example embodiments. FIG. 2 is a block diagram illustrating components of a browser, according to some example embodiments. FIG. 3 is a block diagram illustrating components of a cache server, according to some example embodiments. FIG. 4 is a diagram illustrating communication flows in the network environment, according to some example embodiments. FIG. 5 is a flowchart illustrating operations of a method for obtaining auto-suggestion keywords at the browser, according to some example embodiments. FIG. 6 is a flowchart illustrating operations of a method for obtaining current results at the browser, according to some example embodiments. FIG. 7 is a flowchart illustrating operations of a method for obtaining results based on a selected auto-suggestion, according to some example embodiments. FIG. 8 is a flowchart illustrating operations of a method for providing current input results at the cache server, according to some example embodiments. FIG. 9 is a flowchart illustrating operations of a method for caching predicted results at the cache server, according to some example embodiments. FIG. 10 is a flowchart illustrating operations of a method for managing prediction-based results at the cache server, according to some example embodiments. FIG. 11 is a block diagram illustrating components of a machine, according to some example embodiments, able to read instructions from a machine-readable medium and perform any one or more of the methodologies discussed herein. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "Example embodiments provide a system and method for providing prediction-based instant search results. A system detects a current input entered in a search field of a user interface by a user. The system generates an auto-suggestion application program interface (API) request that includes the current input as a parameter, and transmits the auto-suggestion API request to an auto-suggestion server. In response, the system receives auto-suggestions from the auto-suggestion server. The system generates a search application program interface (API) request that includes the current input and at least some of the auto-suggestions as parameters, and transmits, the search API request to a search system. In response, the system receives results. The system then updates the user interface to display the results.",
+  "publication_number": "US20180081893A1-20180322",
+  "_processing_info": {
+    "original_size": 81396,
+    "optimized_size": 3497,
+    "reduction_percent": 95.7
+  }
+}

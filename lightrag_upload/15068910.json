@@ -1,0 +1,51 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15068910",
+  "date_published": "20160707",
+  "date_produced": "20160622",
+  "title": "Second Failure Data Capture in Co-Operating Multi-Image Systems",
+  "filing_date": "20160314",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chamberlain",
+      "inventor_name_first": "Richard Nigel",
+      "inventor_city": "Hursley",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Hellyer",
+      "inventor_name_first": "Howard J.",
+      "inventor_city": "Hursley",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Peters",
+      "inventor_name_first": "Matthew Francis",
+      "inventor_city": "Hursley",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Pilkington",
+      "inventor_name_first": "Adam John",
+      "inventor_city": "Hursley",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1107"
+  ],
+  "main_ipcr_label": "G06F1107",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Embodiments of the present disclosure provide a method of capturing diagnostic trace information. The method is used in a computer system having a plurality of software images. The method comprises: receiving information associated with a first failure in a first one of said plurality of software images; distributing said information to others of said plurality of software images; capturing information associated with a second failure in another of said plurality of software images. This method has the advantage that the cost of capturing trace diagnostic information is minimized until a first failure occurs, after which, the value of captured trace diagnostic information is maximized and the cost of capturing trace diagnostic information is minimized by only capturing detailed trace diagnostic information that relates to the first failure. In an embodiment, the step of distributing the information can be carried out by either a load balancer, a hypervisor, an operating system, monitoring software or a peer-to-peer communication mechanism. In one embodiment, the step of distributing the information to the plurality of software images comprises distributing the first portion of the information to first ones of the plurality of software images and a second portion of the information to second ones of the plurality of software images. This has the advantage of distributing the load of collecting diagnostic trace information across the software images, but still enabling collection of comprehensive trace diagnostic information. The step of capturing information expires after a predetermined time period. In an alternative embodiment, the step of capturing information expires after a second failure. These embodiments limit the additional costs of capturing the diagnostic trace information by limiting the time period during which additional diagnostic trace information is captured. In another embodiment, each of the software images further comprise...",
+  "patent_number": "9921950",
+  "abstract": "A method captures diagnostic trace information in a computer system having a plurality of software images. Information is received that is associated with a first failure in a first one of the plurality of software images. The received information is distributed to others of the plurality of software images. Further information is captured that is associated with a second failure in another one of the plurality of software images. The information associated with a first failure in a first one of said plurality of software images is combined with the information associated with a second failure in another of said plurality of software images, and the combined information is analyzed in order to determine a cause of the first failure.",
+  "publication_number": "US20160196177A1-20160707",
+  "_processing_info": {
+    "original_size": 38394,
+    "optimized_size": 3757,
+    "reduction_percent": 90.21
+  }
+}

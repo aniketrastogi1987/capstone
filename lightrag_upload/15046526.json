@@ -1,0 +1,53 @@
+{
+  "date_produced": "20161130",
+  "publication_number": "US20160364652A1-20161215",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15046526",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fei",
+      "inventor_name_first": "Geli",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mahmud",
+      "inventor_name_first": "Jalal U.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pal",
+      "inventor_name_first": "Aditya",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhou",
+      "inventor_name_first": "Michelle X.",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments relate predicting an attitude of a user towards a target without directly surveying the user. Social media data associated with or related to a target is collected and stored. A set of attitude features are computed from the collected data. A statistical model is built with both the collected data and the assessed attitude features. The statistical data is converted to an attitude prediction, with the prediction emanating from personal and social characteristics as evident in the social media data.",
+  "filing_date": "20160218",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The invention includes a method for inferring attitude. More specifically, the method functions to employ inference as a prediction tool. Attitude data associated with a target is collected from social media. The collected data is stored at a first memory location. A set of attitude features is formed from the collected data and associated with the attitude components. The features include are selected to depict characteristics associated with attitude evaluation, including but not limited to, n-gram computed from textual communications, general and context based sentiment, recency of mention of a target, and frequency of mention of a target. The computed attitude features are stored at a second memory location. Both the collected data and the computed attitude features are used to construct a statistical model, which is used to predict an attitude towards the target. More specifically, the predicted attitude converts statistical data to a relevant output. These and other features and advantages will become apparent from the following detailed description of the presently preferred embodiment(s), taken in conjunction with the accompanying drawings.",
+  "date_published": "20161215",
+  "title": "Attitude Inference",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730",
+    "G06Q3002"
+  ],
+  "_processing_info": {
+    "original_size": 45614,
+    "optimized_size": 2661,
+    "reduction_percent": 94.17
+  }
+}

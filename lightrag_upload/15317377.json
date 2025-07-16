@@ -1,0 +1,53 @@
+{
+  "decision": "PENDING",
+  "application_number": "15317377",
+  "date_published": "20170427",
+  "date_produced": "20170412",
+  "title": "POWER SUPPLY CONTROL APPARATUS, POWER SUPPLY CONTROL SYSTEM, AND PROGRAM",
+  "filing_date": "20161208",
+  "inventor_list": [
+    {
+      "inventor_name_last": "FUJITA",
+      "inventor_name_first": "Tomohiko",
+      "inventor_city": "Kyoto",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SHIMIZU",
+      "inventor_name_first": "Noriyoshi",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NAKAHARA",
+      "inventor_name_first": "Tomoharu",
+      "inventor_city": "Hyogo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NISHIYAMA",
+      "inventor_name_first": "Takashi",
+      "inventor_city": "Hyogo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q5006",
+    "G05B1502",
+    "G06F132"
+  ],
+  "main_ipcr_label": "G06Q5006",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>It is an object of the present invention to provide a power supply control apparatus and a power supply control system, capable of suppressing reduction in demand power on a utility grid through an electrical energy storage and reduction in remaining capacity of the electrical energy storage. It is also an object of the present invention to provide a program for allowing a computer to function as the power supply control apparatus. A power supply control apparatus in accordance with the present invention includes an estimator and a judging module. The estimator is configured to perform estimation of a present state in which a user of an electrical load is present in a building and estimation of an absent state in which the user is absent from the building. The judging module is configured to judge whether or not to allow an electrical energy storage in the building to feed its own power into the electrical load within a target period while the electrical energy storage is requested to feed the power into the electrical load. The judging module is being configured: to judge to allow the electrical energy storage to feed the power when the present state is derived from the estimation by the estimator within the target period; and to judge to prohibit the electrical energy storage from feeding the power when the absent state is derived from the estimation by the estimator within the target period. A power supply control system in accordance with the present invention includes: individual management devices each of which is disposed in a building; and a centralized management device having a function configured to communicate with the individual management devices and designate a target period. Each of the individual management devices includes the power supply control apparatus. Another power supply control system in accordance with the present invention includes individual management devices and a centralized management device. Each of ...",
+  "patent_number": "None",
+  "abstract": "In order to reduce demand power on utility grid through electrical energy storage and suppress reduction in remaining capacity of electrical energy storage, power supply control apparatus includes judging module and estimator. Judging module judges whether to allow electrical energy storage to feed power into electrical load within target period while electrical energy storage in building is requested to feed power into electrical load. Estimator performs estimation of present state in which user of electrical load is present in building or absent state in which user is absent from building. Judging module judges to allow electrical energy storage to feed power when estimation by estimator is present state, within target period and judges to prohibit electrical energy storage from feeding power when estimation by estimator is absent state, within target period.",
+  "publication_number": "US20170116686A1-20170427",
+  "_processing_info": {
+    "original_size": 76351,
+    "optimized_size": 3890,
+    "reduction_percent": 94.91
+  }
+}

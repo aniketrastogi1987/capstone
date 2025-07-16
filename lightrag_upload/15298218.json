@@ -1,0 +1,55 @@
+{
+  "decision": "PENDING",
+  "application_number": "15298218",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "title": "Estimation of Time to Collision in a Computer Vision System",
+  "filing_date": "20161019",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Viswanath",
+      "inventor_name_first": "Prashanth Ramanathpur",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Poddar",
+      "inventor_name_first": "Deepak Kumar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Nagori",
+      "inventor_name_first": "Soyeb",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Mathew",
+      "inventor_name_first": "Manu",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K900",
+    "G06T700",
+    "G06T720",
+    "H04N718",
+    "B60R1104"
+  ],
+  "main_ipcr_label": "G06K900",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure relate to estimation of time to collision in a computer vision system. In one aspect, a method for estimating time to collision (TTC) of a detected object in a computer vision system is provided that includes determining a three dimensional (3D) position of a camera in the computer vision system, determining a 3D position of the detected object based on a 2D position of the detected object in an image captured by the camera and an estimated ground plane corresponding to the image, computing a relative 3D position of the camera, a velocity of the relative 3D position, and an acceleration of the relative 3D position based on the 3D position of the camera and the 3D position of the detected object, wherein the relative 3D position of the camera is relative to the 3D position of the detected object, and computing the TTC of the detected object based on the relative 3D position, the velocity, and the acceleration. In one aspect, a computer vision system is provided that includes a monocular camera configured to capture a two dimensional (2D) image of a scene, an object detection component configured to detect objects in the 2D image, and a time to collision (TTC) component configured to estimate TTC for an object detected by the object detection component, wherein the TTC component is configured to determine a three dimensional (3D) position of the camera corresponding to the 2D image, determine a 3D position of the detected object based on a 2D position of the detected object in the image and an estimated ground plane corresponding to the image, compute a relative 3D position of the camera, a velocity of the relative 3D position, and an acceleration of the relative 3D position based on the 3D position of the camera and the 3D position of the detected object, wherein the relative 3D position of the camera is relative to the 30 position of the detected object, and compute the TTC of the detected object based on the ...",
+  "patent_number": "None",
+  "abstract": "A method for estimating time to collision (TTC) of a detected object in a computer vision system is provided that includes determining a three dimensional (3D) position of a camera in the computer vision system, determining a 3D position of the detected object based on a 2D position of the detected object in an image captured by the camera and an estimated ground plane corresponding to the image, computing a relative 3D position of the camera, a velocity of the relative 3D position, and an acceleration of the relative 3D position based on the 3D position of the camera and the 3D position of the detected object, wherein the relative 3D position of the camera is relative to the 3D position of the detected object, and computing the TTC of the detected object based on the relative 3D position, the velocity, and the acceleration.",
+  "publication_number": "US20180107883A1-20180419",
+  "_processing_info": {
+    "original_size": 41537,
+    "optimized_size": 3883,
+    "reduction_percent": 90.65
+  }
+}

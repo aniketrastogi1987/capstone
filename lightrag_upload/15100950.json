@@ -1,0 +1,39 @@
+{
+  "date_produced": "20160928",
+  "publication_number": "US20160300153A1-20161013",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15100950",
+  "inventor_list": [
+    {
+      "inventor_name_last": "VERMA",
+      "inventor_name_first": "Vikas",
+      "inventor_city": "Chennai, Tamil Nadu",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "HUANG",
+      "inventor_name_first": "Vincent",
+      "inventor_city": "Sollentuna",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    }
+  ],
+  "abstract": "A method in a communication network for predicting whether a second service will be used by a user in a future time slot. The method comprises obtaining information about which services, of a plurality of services, have historically been used in which time slots in the communication network. The method comprises analysing the obtained information to determine that, whether a first service of the plurality of services is used in any of the historic time slots, correlates with whether the second service of the plurality of services is used in said historic time slot. The method comprises predicting whether the first service will be used by the user in the future time slot. The method comprises predicting, based on whether the first service has been predicted to be used in the future time slot, whether the second service will be used by the user in said future time slot.",
+  "filing_date": "20160601",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>As mentioned above, the prior art allows machine learning of algorithms for prediction of each service individually. However, it is herein proposed that for a more accurate prediction of usage of a particular service, it may be suitable to utilize the usage history also of other services along with the usage history of the predicted service. A way to utilize the usage history of other services is to represent each possible service combination by a new symbol and learn a machine learning model using this new representation of service combinations. This new representation can be called a joint representation of services. However, the combination of services increases exponentially with the number of services and cannot be easily handled in solving a machine learning problem. In order to handle prediction of a large number of services, it is proposed, in accordance with the present disclosure, utilize observed covariance of services in order to allow prediction of a service usage based on a prediction of the usage of another service. According to an aspect of the present disclosure, there is provided a method in a communication network for predicting whether a second service will be used by a user in a future time slot. The method comprises obtaining information about which services, of a plurality of services, have historically been used in which time slots in the communication network. The method also comprises analysing the obtained information to determine that, whether a first service of the plurality of services is used in any of the historic time slots, correlates with whether the second service of the plurality of services is used in said historic time slot. The method also comprises predicting whether the first service will be used by the user in the future time slot. The method also comprises predicting, based on whether the first service has been predicted to be used in the future time slot, whether the second service will be used by the u...",
+  "date_published": "20161013",
+  "title": "USER SERVICE PREDICTION IN A COMMUNICATION NETWORK",
+  "ipcr_labels": [
+    "G06N700",
+    "H04W400",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 55186,
+    "optimized_size": 3594,
+    "reduction_percent": 93.49
+  }
+}

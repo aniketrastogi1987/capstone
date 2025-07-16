@@ -1,0 +1,42 @@
+{
+  "patent_number": "None",
+  "application_number": "15586387",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "filing_date": "20170504",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Techniques are disclosed herein for making predictions with respect to how content consumers will interact with a digital asset. For example, in the context of website visitors browsing digital assets provided via a website, web traffic data can be collected and modeled using a belief network. The belief network may represent a probability distribution for a set of variables that define the web traffic data. Examples of such variables include browser type, browsing session duration, geographic location, visitor demographic characteristics, and a browsing outcome. Certain of the embodiments disclosed herein can be used to extract knowledge from the belief network, thereby allowing statistical inferences to be drawn with respect to how certain classes of website visitors will interact with the website. The influence of one or more first variables (for example, geographic location) can be quantified with respect to one or more second variables (for example, the successful result indicator...",
+  "publication_number": "US20170236066A1-20170817",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram schematically illustrating how a visitor analytics engine can interact with content consumers and website owners in accordance with an embodiment of the present invention. FIG. 2 is a data flow diagram schematically illustrating how a knowledge discovery module can leverage a belief network to make predictions with respect to how content consumers will interact with a digital asset in accordance with an embodiment of the present invention. FIG. 3 is a schematic illustration of a data structure corresponding to web traffic data that is conceptually organized in accordance with an embodiment of the present invention. FIG. 4 is a schematic illustration of a belief network that can be used to make predictions with respect to how content consumers will interact with a digital asset in accordance with an embodiment of the present invention. FIG. 5 is a screenshot of a user interface that can be used to define and display the results of conditional probability distributions in accordance with an embodiment of the present invention. FIG. 6 is a table ranking the most influential variable-value pairs (V j , v j ) on a selected variable V i =“success” as determined by a large variation finder in accordance with an embodiment of the present invention. FIG. 7 is a table ranking the combined influence of multiple variable-values pairs (V j , v j ) and (V k , v k ) on the distribution of a selected variable V i =“success” as determined by a large variation finder in accordance with an embodiment of the present invention. FIG. 8 is a screenshot of a user interface that can be used to fix one or more values for variables V i , V j , V k , . . . , and display the most likely values for a plurality of variables V a , V b , V c , . . . , in accordance with an embodiment of the present invention. FIG. 9A is a flowchart illustrating a first example technique for evaluating the extent to which various combinations of ...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N308",
+    "G06N502",
+    "G06N504",
+    "H04L1224",
+    "H04L1226"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ruiz",
+      "inventor_name_first": "Carlos Riquelme",
+      "inventor_city": "Stanford",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Koh",
+      "inventor_name_first": "Eunyee",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "KNOWLEDGE DISCOVERY FROM BELIEF NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 78446,
+    "optimized_size": 3758,
+    "reduction_percent": 95.21
+  }
+}

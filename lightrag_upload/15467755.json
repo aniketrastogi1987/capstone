@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15467755",
+  "date_published": "20170928",
+  "date_produced": "20170915",
+  "filing_date": "20170323",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Technologies for automatic discovery and connection to a representational state transfer (REST) interface include a provider computing device communicatively coupled to a REST interface of a Web service hosted by a 3rd party. The provider computing device is configured to analyze a data representation received from a REST interface of a Web service in response to having transmitted an HTTP request to an endpoint of the Web service and determine a pattern of the data representation as a function of the analysis of the data representation. Additionally, the provider computing device is configured to generate one or more possible schemas for the REST interface based on the determined pattern. Additional embodiments are described herein.",
+  "publication_number": "US20170278005A1-20170928",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSED EMBODIMENTS <EOH>In one aspect, a method for automatic discovery and connection to a representational state transfer (REST) interface includes analyzing, by a provider computing device, a data representation received from a REST interface of a Web service in response to having transmitted an HTTP request to an endpoint of the Web service; determining, by the provider computing device, a pattern of the data representation as a function of the analysis of the data representation; assigning, by the provider computing device, a level of confidence in the pattern as a function of the analysis of the data representation and the determined pattern; and generating, by the provider computing device and subsequent to a determination that the level of confidence in the pattern is greater than or equal to a corresponding confidence threshold, one or more possible schemas for the REST interface as a function of the determined pattern. In some embodiments, the method further includes identifying, by the provider computing device and subsequent to a determination that the level of confidence in the pattern is greater than or equal to a corresponding confidence threshold, one or more key values for the data representation as a function of the determined patter, wherein generating the one or more possible schemas for the REST interface comprises generating the one or more possible schemas for the REST interface as a function of the identified key values. In some embodiments, analyzing the data representation comprises (i) identifying data of the data representation that is usable to identify a main data set, (ii) analyzing multiple records of the data set for data members to find an inclusive set of possible data, and (iii) analyzing data field paths of the data to determine one or more probably data types usable to identify the main data set. In other embodiments, identifying data of the data representation that is usable to identify the main data set...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cunningham",
+      "inventor_name_first": "Gregory P.",
+      "inventor_city": "Zionsville",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "TECHNOLOGIES FOR AUTO DISCOVER AND CONNECT TO A REST INTERFACE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 65498,
+    "optimized_size": 3314,
+    "reduction_percent": 94.94
+  }
+}

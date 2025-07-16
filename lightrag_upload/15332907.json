@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180411",
+  "publication_number": "US20180114112A1-20180426",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15332907",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Willson",
+      "inventor_name_first": "Matthew James",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Fiscato",
+      "inventor_name_first": "Marco",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Iso-Sipilä",
+      "inventor_name_first": "Juha",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Orr",
+      "inventor_name_first": "Douglas Alexander Harper",
+      "inventor_city": "Brentwood, Essex",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "An electronic device is described which has at least one input interface to receive at least one item of a sequence of items. The electronic device is able to communicate with a server, the server storing a neural network and a process which generates item embeddings of the neural network. The electronic device has a memory storing a copy of the neural network and a plurality of item embeddings of the neural network. In the case when there is unavailability at the electronic device of a corresponding item embedding corresponding to the received at least one item, the electronic device triggers transfer of the corresponding item embedding from the server to the electronic device. A processor at the electronic device predicts at least one candidate next item in the sequence by processing the corresponding item embedding with the copy of the neural network and the plurality of item embeddings.",
+  "filing_date": "20161024",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The following presents a simplified summary of the disclosure in order to provide a basic understanding to the reader. This summary is not intended to identify key features or essential features of the claimed subject matter nor is it intended to be used to limit the scope of the claimed subject matter. Its sole purpose is to present a selection of concepts disclosed herein in a simplified form as a prelude to the more detailed description that is presented later. An electronic device is described which has at least one input interface to receive at least one item of a sequence of items. The electronic device is able to communicate with a server over a communications network, the server storing a neural network and a process which generates item embeddings of the neural network. The electronic device has a memory storing a copy of at least part of the neural network and a plurality of item embeddings of the neural network. In the case when there is unavailability at the electronic device of a corresponding item embedding corresponding to the received at least one item, the electronic device triggers transfer of the corresponding item embedding from the server to the electronic device. A processor at the electronic device predicts at least one candidate next item in the sequence by processing the corresponding item embedding, and item embeddings for one or more other preceding items if available, with the copy of the neural network and using item embeddings for a plurality of candidate next items retrieved from the memory. The processor is configured to make available the candidate next item for input to the electronic device. Many of the attendant features will be more readily appreciated as the same becomes better understood by reference to the following detailed description considered in connection with the accompanying drawings.",
+  "date_published": "20180426",
+  "title": "DEVICE/SERVER DEPLOYMENT OF NEURAL NETWORK DATA ENTRY SYSTEM",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 77271,
+    "optimized_size": 3803,
+    "reduction_percent": 95.08
+  }
+}

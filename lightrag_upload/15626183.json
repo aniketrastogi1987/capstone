@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15626183",
+  "date_published": "20180104",
+  "date_produced": "20171219",
+  "filing_date": "20170619",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A decision tree generating apparatus includes an information gain calculator and a decision tree generator. When a classification target data set including a plurality of pieces of classification target data respectively having different attributes with attribute values assigned thereto is segmented into subsets in a form of a decision tree, the information gain calculator calculates an amount of entropy reduction on each attribute, and calculates an information gain, based on the amount of reduction in the entropy and reliability of a user's answer responsive to an inquiry asking about the attribute. The decision tree generator successively determines an attribute having a maximum information gain to be a node of the decision tree by recursively iterating the segmentation of the pre-segmentation data set, and generates the decision tree that is to be used to determine an order of the inquiries.",
+  "publication_number": "US20180005126A1-20180104",
+  "summary": "<SOH> SUMMARY <EOH>In one general aspect, the techniques disclosed here feature a decision tree generating apparatus. The decision tree generating apparatus includes an information gain calculator and a decision tree generator. When a classification target data set including a plurality of pieces of classification target data respectively having mutually different attributes with attribute values assigned thereto is hierarchically segmented into a plurality of subsets in a form of a decision tree, the information gain calculator calculates an amount of reduction in entropy of the pre-segmentation classification target data set caused by segmentation on each attribute of each piece of the classification target data included in a pre-segmentation data set, and calculates an information gain when the pre-segmentation data set is segmented in accordance with the attribute value of each attribute, based on the amount of reduction in the entropy and reliability that is an index representing correctness or incorrectness of a user's answer responsive to an inquiry asking about the attribute. The decision tree generator successively determines an attribute having a maximum information gain to be a node of the decision tree by recursively iterating the segmentation of the pre-segmentation data set in accordance with the attribute value of the attribute having the maximum information gain from among the information gains calculated on the attributes, and generates the decision tree that is to be used to determine an order of inquiries asking about the attributes in order to classify the pieces of classification target data by successively assigning the attribute value of the attribute having the maximum information gain to an edge of the node. In accordance with the present disclosure, candidates of classification results from user's answers to inquiries made to the user in dialog are narrowed by making the inquiry to the user. Even if the user's answer is in error, a decision...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "YAMAGAMI",
+      "inventor_name_first": "KATSUYOSHI",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "ENDO",
+      "inventor_name_first": "MITSURU",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "DECISION TREE GENERATING APPARATUS, DECISION TREE GENERATING METHOD, NON-TRANSITORY COMPUTER-READABLE RECORDING MEDIUM, AND INQUIRY SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 90653,
+    "optimized_size": 3699,
+    "reduction_percent": 95.92
+  }
+}

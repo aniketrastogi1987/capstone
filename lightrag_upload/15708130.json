@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15708130",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "filing_date": "20170919",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A machine learning device according to the present invention learns an operation condition of a robot that stores a plurality of objects disposed on a carrier device in a container using a hand for grasping the objects. The machine learning device includes a state observation unit for observing the positions and postures of the objects and a state variable including at least one of cycle time to store the objects in the container and torque and vibration occurring when the robot grasps the objects during operation of the robot; a determination data obtaining unit for obtaining determination data for determining a margin of each of the cycle time, the torque, and the vibration against an allowance value; and a learning unit for learning the operation condition of the robot in accordance with a training data set constituted of a combination of the state variable and the determination data.",
+  "publication_number": "US20180089589A1-20180329",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention aims at providing a machine learning device and a machine learning method for reducing the burden on a robot having a hand that has the function of grasping a plurality of objects, as well as minimizing the cycle time that is the time required for the robot to store the objects in a container. A machine learning device according to an embodiment of the present invention learns an operation condition of a robot that stores a plurality of objects disposed on a carrier device in a container using a hand for grasping the objects. The machine learning device includes a state observation unit for observing the positions and postures of the objects and a state variable including at least one of cycle time to store the objects in the container and torque and vibration occurring when the robot grasps the objects, during operation of the robot; a determination data obtaining unit for obtaining determination data for determining a margin of each of the cycle time, the torque, and the vibration against an allowance value; and a learning unit for learning the operation condition of the robot in accordance with a training data set constituted of a combination of the state variable and the determination data. A machine learning method according to an embodiment of the present invention learns an operation condition of a robot that stores a plurality of objects disposed on a carrier device in a container using a hand for grasping the objects. The machine learning method includes the steps of observing the positions and postures of the objects and a state variable including at least one of cycle time to store the objects in the container and torque and vibration occurring when the robot grasps the objects, during operation of the robot; obtaining determination data for determining a margin of each of the cycle time, the torque, and the vibration against an allowance value; and learning the operation condition of the robot in ...",
+  "ipcr_labels": [
+    "G06N9900",
+    "B25J916",
+    "B25J1308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "OOBA",
+      "inventor_name_first": "Masafumi",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "MACHINE LEARNING DEVICE AND MACHINE LEARNING METHOD FOR LEARNING OPTIMAL OBJECT GRASP ROUTE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 44323,
+    "optimized_size": 3503,
+    "reduction_percent": 92.1
+  }
+}

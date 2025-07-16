@@ -1,0 +1,34 @@
+{
+  "inventor_list": [
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Ho-Sub",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "filing_date": "20180129",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700",
+    "A61B516",
+    "A61B500",
+    "H04L1258"
+  ],
+  "main_ipcr_label": "G06N502",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "publication_number": "US20180150751A1-20180531",
+  "title": "APPARATUS AND METHOD FOR DETERMINING USER'S MENTAL STATE",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. In one general aspect, an apparatus for determining a user's mental state including a data collector configured to collect sensor data; a data processor configured to extract feature data from the sensor data; and a mental state determiner configured to apply the feature data to a inference model to determine the user's mental state. The sensor data may be measured through one or more of a touch screen, an accelerometer sensor, a gyroscope sensor, a magnetometer sensor, an orientation sensor, a global positioning system (GPS), a barometer sensor, a fingerprint sensor, an illuminance sensor, a microphone, and a software sensor in a terminal. The feature data includes text input information and context information; and the text input information comprises one or more of keyboard input information, writing input information, and terminal state information, and the context information comprises one or more of a location, weather, a discomfort index, a time, and an average illuminance. The apparatus may include a learning data generator configured to determine whether to generate learning data when feature data is extracted and to generate learning data with the feature data; and the mental state determiner is further configured to build the inference model with the learning data. The learning data generator may be configured to select at least one feature data from the extracted feature data, to ask the user about a mental state, and to generate learning data based on the user's response. The learning data generator may be configured to calculate significances of the extracted feature data and to select the at...",
+  "application_number": "15882135",
+  "abstract": "An apparatus for determining a user's mental state in a terminal is provided. The apparatus includes a data collector configured to collect sensor data; a data processor configured to extract feature data from the sensor data; and a mental state determiner configured to provide the feature data to an inference model to determine the user's mental state.",
+  "decision": "PENDING",
+  "patent_number": "nan",
+  "_processing_info": {
+    "original_size": 57462,
+    "optimized_size": 2935,
+    "reduction_percent": 94.89
+  }
+}

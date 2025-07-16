@@ -1,0 +1,65 @@
+{
+  "date_produced": "20170906",
+  "publication_number": "US20170270404A1-20170921",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15075314",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Eleftheriou",
+      "inventor_name_first": "Evangelos S.",
+      "inventor_city": "Rueschlikon",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Kull",
+      "inventor_name_first": "Lukas",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Pantazi",
+      "inventor_name_first": "Angeliki",
+      "inventor_city": "Thalwil",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Sebastian",
+      "inventor_name_first": "Abu",
+      "inventor_city": "Adliswil",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Stanisavljevic",
+      "inventor_name_first": "Milos",
+      "inventor_city": "Adliswil",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Tuma",
+      "inventor_name_first": "Tomas",
+      "inventor_city": "Adliswil",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "abstract": "Artificial neuron apparatus includes a resistive memory cell connected in an input circuit having a neuron input, for receiving neuron input signals, and a current source for supplying a read current to the cell. The input circuit is selectively configurable in response to a set of control signals, defining alternating read and write phases of operation, to apply the read current to the cell during the read phase and to apply a programming current to the cell, for programming cell resistance, on receipt of a neuron input signal during the write phase. The cell resistance is progressively changed from a first state to a second state in response to successive neuron input signals. The apparatus further includes an output circuit comprising a neuron output and a digital latch which is connected to the input circuit for receiving a measurement signal dependent on cell resistance.",
+  "filing_date": "20160321",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to at least one embodiment of the present invention there is provided artificial neuron apparatus. The apparatus includes a resistive memory cell connected in an input circuit having a neuron input, for receiving neuron input signals, and a current source for supplying a read current to the cell. The input circuit is selectively configurable in response to a set of control signals, defining alternating read and write phases of operation, to apply the read current to the cell during the read phase and to apply a programming current to the cell, for programming cell resistance, on receipt of a neuron input signal during the write phase. The cell resistance is progressively changed from a first state to a second state in response to successive neuron input signals. The apparatus further includes an output circuit comprising a neuron output and a digital latch which is connected to the input circuit for receiving a measurement signal dependent on cell resistance. The latch is operable in response to the read phase to latch a digital value dependent on the measurement signal. A first value is latched if cell resistance has not reached the second state, and a second value is latched if cell resistance has reached the second state. The output circuit is adapted to provide a neuron output signal at the neuron output during the write phase if the second value is latched. Apparatus embodying the invention offers efficient neuron realizations suitable for connectivity and operation in a neural network configuration. The neuron circuitry permits compact implementation, allowing high-density integration in neuromorphic networks. Configuration of the neuron circuitry for the read and write phases of operation is controlled by one or more control signals. Such a control signal can be a simple periodic signal which can be easily generated, for example from a system clock, and can be readily applied to multiple neuron circuits for efficient, global contr...",
+  "date_published": "20170921",
+  "title": "ARTIFICIAL NEURON APPARATUS",
+  "ipcr_labels": [
+    "G06N3063"
+  ],
+  "_processing_info": {
+    "original_size": 48339,
+    "optimized_size": 4138,
+    "reduction_percent": 91.44
+  }
+}

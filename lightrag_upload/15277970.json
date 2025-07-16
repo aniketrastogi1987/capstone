@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180315",
+  "publication_number": "US20180089581A1-20180329",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15277970",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zang",
+      "inventor_name_first": "Hui",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kong",
+      "inventor_name_first": "Yiming",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An apparatus and method are provided for dataset model fitting, and using a classifying engine to identify a statistical distribution for the dataset. The dataset classifying engine is configured to calculate a characterization function that represents a dataset and compute a feature vector for the dataset, where the feature vector encodes slope value changes corresponding to the characterization function. The dataset classifying engine receives a classification model and applies the classification model to the feature vector to identify a statistical distribution for the dataset.",
+  "filing_date": "20160927",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A classifying engine, computer readable medium, and method are provided for model fitting for a dataset. Classification comprises determining a statistical distribution for any random variable by analyzing a plurality of samples of the random variable, where the plurality of samples is a dataset. Components of a classifying system may include one or more processors in communication with a memory storage, where the one or more processors execute the classifying engine. In one embodiment, the one or more processors execute a training engine to train a classification model with a set of candidate statistical distributions. The dataset classifying engine is configured to calculate a characterization function that represents a dataset, and compute a feature vector for the dataset, where the feature vector encodes slope value changes corresponding to the characterization function. The dataset classifying engine receives the classification model and applies the classification model to the feature vector to identify a statistical distribution for the dataset. In a first embodiment, the characterization function is a complementary cumulative distribution function (CCDF). In a second embodiment (which may or may not be combined with the first embodiment), points are identified on a plot of the characterization function. In a third embodiment (which may or may not be combined with the first and/or second embodiments), a log scale is used on an x-axis of the plot and a log scale is used on a y-axis of the plot. In a fourth embodiment (which may or may not be combined with the first, second, and/or third embodiments), a first point and a last point of the points are discarded, a slope value is computed for each pair of adjacent points forming a segment, and a difference between each pair of slope values is computed to produce the slope value changes. In a fifth embodiment (which may or may not be combined with the first, second, third, and/or fourth embodiment...",
+  "date_published": "20180329",
+  "title": "APPARATUS AND METHOD FOR DATASET MODEL FITTING USING A CLASSIFYING ENGINE",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 59254,
+    "optimized_size": 3301,
+    "reduction_percent": 94.43
+  }
+}

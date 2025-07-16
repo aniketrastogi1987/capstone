@@ -1,0 +1,33 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15011130",
+  "date_published": "20160526",
+  "date_produced": "20160511",
+  "title": "IMAGE PROCESSING APPARATUS AND METHOD, AND PROGRAM",
+  "filing_date": "20160129",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SHIOYA",
+      "inventor_name_first": "HIROYUKI",
+      "inventor_city": "KANAGAWA",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "H04N5235",
+    "H04N5232",
+    "G06T550",
+    "H04N5225"
+  ],
+  "main_ipcr_label": "H04N5235",
+  "summary": "<SOH> SUMMARY <EOH>The concern here is that, with the apparatus of Patent Document 1, the user may be indeed allowed to adjust the luminance of light from the lighting devices by simulation after finishing imaging, but not allowed to adjust the position and direction of the lighting devices by simulation, for example. This means that the previous technology has many restrictions on shading adjustment of the object. Moreover, in order to use the technology of Patent Document 1, the use of a plurality of computer-controllable lighting devices is expected so that the time and cost for the placement thereof is a burden, for example. In the first place, the multi lighting system itself is a large-scale project for amateur users with no expertise. Further, with the multi lighting system, a larger number of lighting devices indeed leads to a higher flexibility but results in more complicated shading control. Still further, in order to reduce the effect caused by superposition of noise on the image such as light shot noise, the use of a lighting device that emits relatively strong light is expected. The use of the multi lighting system for imaging is not thus easy for the amateur users. Also in Patent Document 1, adequate measures are not taken against the shot noise in ambient light components. There thus is a possibility of causing strong noise in any portion especially dark in the image, which is free from the ambient light components after the subtraction process performed thereon. This is because a pixel value a+b being the sum of pixel values a and b includes variance of shot noise of a+b, and similarly to this pixel value addition, a pixel value a−b being the difference between the pixel values a and b also includes the variance of shot noise of a+b. That is, the noise is added together even at the time of pixel value subtraction, e.g., even with a pixel value of a−a=0 (i.e., black), noise included therein is a+a=2a, and this thus causes strong noise in any dark port...",
+  "patent_number": "9800797",
+  "abstract": "There is provided an image processing apparatus that includes an ambient-light image obtaining section, a cumulative image generation section, and a high-quality image generation section. The ambient-light image obtaining section obtains an ambient-light image in a first time range, the ambient-light image being an image of an object captured with a predetermined exposure time. The cumulative image generation section generates a cumulative image in a second time range, the cumulative image being obtained by cumulative addition of each pixel value in a plurality of images, the plurality of images being of the object sequentially captured with the predetermined exposure time. The high-quality image generation section generates a high-quality image, the high-quality image being obtained by subtracting a pixel value in the ambient-light image from a corresponding pixel value in a normalized image, the normalized image being the cumulative image normalized based on a total sum of the exposu...",
+  "publication_number": "US20160150147A1-20160526",
+  "_processing_info": {
+    "original_size": 107660,
+    "optimized_size": 3592,
+    "reduction_percent": 96.66
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180328",
+  "publication_number": "US20180101765A1-20180412",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15289010",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chiang",
+      "inventor_name_first": "Hsiao-Dong",
+      "inventor_city": "Ithaca",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Bin",
+      "inventor_city": "Ithaca",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chiang",
+      "inventor_name_first": "Hartley",
+      "inventor_city": "Ithaca",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Predictive analytic models are hierarchically built based on a training dataset, which includes pairs of input data and output data. First, the input data and the output data are preprocessed. A hierarchical clustering process is performed on the dataset. The hierarchical clustering process comprises level-1 input and output data clustering, level-2 input and output data clustering, and so on, up to level-K input and output data clustering, where K is an integer greater than one. A hierarchical model building process is performed. The hierarchical model building process comprises level-1 model building over level-1 clustered input and output data, level-2 model building over level-2 clustered input and output data, and so on, up to level-K model building over level-K clustered input and output data. At least one level-K predictive model is generated as the resulting built model.",
+  "filing_date": "20161007",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>There usually exist special inherent structures in “Big Data” of a large data volume or large data dimensions. For a dataset of a large volume, there usually exist group properties among data samples; more specifically, some data samples in the dataset are more similar to each other than to the remaining data samples in the dataset. Therefore, data samples that are similar to each other can form data groups, and data samples belonging to a same group can be approximated by a few representative data samples in the group. On the other hand, for a dataset of large data dimensions, that is, of a large number of variables or features, there usually exist group properties among data variables or features; more specifically, some data variables or features in the dataset are more similar to each other than to the remaining data variables or features in the dataset. Therefore, data variables or features that are similar to each other can form feature groups, and data variables or features belonging to a same group can be approximated by a few representative data variables or features in the group. It is one aspect of this invention to provide a system and method for building a plurality of predictive models on a dataset, taking advantage of such group properties embedded in the dataset. As mentioned before, building optimal predictive models for usage in data mining is an optimization task. Therefore, optimization technology plays an important role in building optimal analytical models for effective data mining. In this regard, it is yet another aspect of this invention to provide a system and method for building a plurality of predictive models on a dataset not only taking advantage of group properties embedded in the dataset, but also taking advantage of effective optimization methods for building optimal predictive models. Briefly stated, a system and method is provided herein for building predictive analytic models for data mining in a hierarchical ma...",
+  "date_published": "20180412",
+  "title": "SYSTEM AND METHOD FOR HIERARCHICALLY BUILDING PREDICTIVE ANALYTIC MODELS ON A DATASET",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 68378,
+    "optimized_size": 3771,
+    "reduction_percent": 94.49
+  }
+}

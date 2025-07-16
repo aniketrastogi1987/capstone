@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286835A1-20171005",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15086576",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ho",
+      "inventor_name_first": "Tin Kam",
+      "inventor_city": "Millburn",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lastras-Montano",
+      "inventor_name_first": "Luis A.",
+      "inventor_city": "Cortlandt Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shmueli",
+      "inventor_name_first": "Oded",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Soares",
+      "inventor_name_first": "Livio",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method and apparatus are provided for generating concept hierarchies in response to a user request to produce a hierarchy of concepts from a first concept set by performing a natural language processing (NLP) analysis comparison of the vector representations of the concepts in the first concept set to determine a similarity measure for each pair of distinct concepts Ci and Cj in the first concept set, and to construct therefrom a concept hierarchy based on one or more specified hierarchy parameters and the similarity measure for each pair of distinct concepts Ci and Cj in the first concept set.",
+  "filing_date": "20160331",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Broadly speaking, selected embodiments of the present disclosure provide a system, method, and apparatus for processing of inquiries to an information handling system capable of answering questions by using the cognitive power of the information handling system to generate or extract a sequence of concepts, to extract or compute therefrom a distributed representation of the concept(s) (i.e., concept vectors), and to process the distributed representation (the concept vectors) to carry out useful tasks in the domain of concepts and user-concept interaction. In selected embodiments, the information handling system may be embodied as a question answering (QA) system which has access to structured, semi-structured, and/or unstructured content contained or stored in one or more large knowledge databases (a.k.a., “corpus”), and which extracts therefrom a sequence of concepts from annotated text (e.g., hypertext with concept links highlighted), from graph representations of concepts and their inter-relations, from tracking the navigation behavior of users, or a combination thereof. In other embodiments, concept vectors may also be used in a “discovery advisor” context where users would be interested in seeing directly the concept-concept relations, and/or use query concepts to retrieve and relate relevant documents from a corpus. To compute the concept vector(s), the QA system may process statistics of associations in the concept sequences using vector embedding methods. However generated, the concept vectors may be processed to enable improved presentation and visualization of concepts and their inter-relations and to improve the quality of answers provided by the QA system by providing the ability to generate a hierarchy of concepts using methods based on similarity metrics which may be manipulated to promote synonyms/hypernyms of a certain nature to display one or more concept hierarchies. The foregoing is a summary and thus contains, by necessity, si...",
+  "date_published": "20171005",
+  "title": "Concept Hierarchies",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1728"
+  ],
+  "_processing_info": {
+    "original_size": 129729,
+    "optimized_size": 3600,
+    "reduction_percent": 97.22
+  }
+}

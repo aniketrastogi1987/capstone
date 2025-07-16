@@ -1,0 +1,50 @@
+{
+  "decision": "PENDING",
+  "application_number": "15104545",
+  "date_published": "20161027",
+  "date_produced": "20161012",
+  "title": "A BABY MONITORING DEVICE",
+  "filing_date": "20160615",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HEINRICH",
+      "inventor_name_first": "ADRIENNE",
+      "inventor_city": "EINDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "VAN BREE",
+      "inventor_name_first": "KARL CATHARINA",
+      "inventor_city": "EINDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "JEANNE",
+      "inventor_name_first": "VINCENT",
+      "inventor_city": "EINDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    }
+  ],
+  "ipcr_labels": [
+    "A61B500",
+    "A61B5113",
+    "G06K962",
+    "H04N718",
+    "G06T720",
+    "A61B50205",
+    "A61B511"
+  ],
+  "main_ipcr_label": "A61B500",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is an object of the invention to provide for an objective representation of the sleep behaviour and sleep development of a child. According to the invention this object is realized in that a baby monitoring device for monitoring a baby in a crib comprises a video camera arranged to provide a video signal for detecting a sequence of motions of the baby, an MPEG video encoder comprising a motion estimator arranged to classify the sequence of motions based on motion estimation carried out on the video signal by the MPEG video encoder during compression for classifying the sequence of motions received from the motion sensor into small amplitude motions, intermediate amplitude motions and large amplitude motions (classified motions) and a processor for classifying an event based on a sequence of small, intermediate and large amplitude motions received from the motion estimator. The video camera is arranged to detect movement of the child or baby. The MPEG video encoder comprises a motion estimator, which uses the movements detected by the video camera to classify the sequence of motions based on motion estimation carried out on the video signal by the MPEG video encoder during compression to classify the movements as small amplitude motions, intermediate amplitude motions or large amplitude motions. The motion estimator distinguishes between the several classified motions based on the amplitude of the motion. The motion amplitudes can be easily extracted from the MPEG video encoder during compression of the video signal as the motion estimator in an MPEG video encoder calculates motion vectors. From these motion vectors only the motion amplitudes or classified motions need to be stored for the purpose of the invention, not the direction of the motion vectors as normally also obtained by the motion estimator during MPEG video encoding. The classified motion classified by the motion estimator will subsequently be fed to the processor ...",
+  "patent_number": "None",
+  "abstract": "A baby monitoring system (10) is provided which gives insight in the sleeping behaviour of a child based on the motion of the child in the bed (1). The baby monitoring system (10) comprises a video camera(11), a motion estimator (21) and a processor (22) to classify the observed motions into events. A set of events gives a parent an insight in the sleeping behaviour of the child.",
+  "publication_number": "US20160310067A1-20161027",
+  "_processing_info": {
+    "original_size": 40376,
+    "optimized_size": 3267,
+    "reduction_percent": 91.91
+  }
+}

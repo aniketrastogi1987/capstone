@@ -1,0 +1,39 @@
+{
+  "date_produced": "20161102",
+  "publication_number": "US20160335560A1-20161117",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15109614",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mohseni",
+      "inventor_name_first": "Masoud",
+      "inventor_city": "Redondo Beach",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Neven",
+      "inventor_name_first": "Hartmut",
+      "inventor_city": "Malibu",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Among other things, an apparatus comprises quantum units; and couplers among the quantum units. Each coupler is configured to couple a pair of quantum units according to a quantum Hamiltonian characterization of the quantum by the coupler.",
+  "filing_date": "20160701",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Artificial intelligent tasks can be translated into machine learning optimization problems. To perform an artificial intelligence task, quantum hardware, e.g., a quantum processor, is constructed and programmed to encode the solution to a corresponding machine optimization problem into an energy spectrum of a many-body quantum Hamiltonian characterizing the quantum hardware. For example, the solution is encoded in the ground state of the Hamiltonian. The quantum hardware performs adiabatic quantum computation starting with a known ground state of a known initial Hamiltonian. Over time, as the known initial Hamiltonian evolves into the Hamiltonian for solving the problem, the known ground state evolves and remains at the instantaneous ground state of the evolving Hamiltonian. The energy spectrum or the ground state of the Hamiltonian for solving the problem is obtained at the end of the evolution without diagonalizing the Hamiltonian. Sometimes the quantum adiabatic computation becomes non-adiabatic due to excitations caused, e.g., by thermal fluctuations. Instead of remaining at the instantaneous ground state, the evolving quantum state initially started at the ground state of the initial Hamiltonian can reach an excited state of the evolving Hamiltonian. The quantum hardware is constructed and programmed to suppress such excitations from an instantaneous ground state to a higher energy state during an early stage of the computation. In addition, the quantum hardware is also constructed and programmed to assist relaxation from higher energy states to lower energy states or the ground state during a later stage of the computation. The robustness of finding the ground state of the Hamiltonian for solving the problem is improved. The details of one or more embodiments of the subject matter of this specification are set forth in the accompanying drawings and the description below. Other features, aspects, and advantages of the subject matter will be a...",
+  "date_published": "20161117",
+  "title": "CONSTRUCTING AND PROGRAMMING QUANTUM HARDWARE FOR ROBUST QUANTUM ANNEALING PROCESSES",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1711",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 54286,
+    "optimized_size": 2986,
+    "reduction_percent": 94.5
+  }
+}

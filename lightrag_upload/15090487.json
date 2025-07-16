@@ -1,0 +1,72 @@
+{
+  "date_produced": "20160713",
+  "publication_number": "US20160217370A1-20160728",
+  "main_ipcr_label": "G06N310",
+  "decision": "ACCEPTED",
+  "application_number": "15090487",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HUNT",
+      "inventor_name_first": "Jonathan James",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SINYAVSKIY",
+      "inventor_name_first": "Oleg",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KIMBALL",
+      "inventor_name_first": "Robert Howard",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HALL",
+      "inventor_name_first": "Eric Martin",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LEVIN",
+      "inventor_name_first": "Jeffrey Alexander",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BENDER",
+      "inventor_name_first": "Paul",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CANOY",
+      "inventor_name_first": "Michael-David Nakayoshi",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Apparatus and methods for developing parallel networks. Parallel network design may comprise a general purpose language (GPC) code portion and a network description (ND) portion. GPL tools may be utilized in designing the network. The GPL tools may be configured to produce network specification language (NSL) engine adapted to generate hardware optimized machine executable code corresponding to the network description. The developer may be enabled to describe a parameter of the network. The GPC portion may be automatically updated consistent with the network parameter value. The GPC byte code may be introspected by the NSL engine to provide the underlying source code that may be automatically reinterpreted to produce the hardware optimized machine code. The optimized machine code may be executed in parallel.",
+  "filing_date": "20160404",
+  "patent_number": "9652713",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure satisfies the foregoing needs by providing, inter alia, apparatus and methods for management of general purpose language code in a parallel network environment. One aspect of the disclosure relates to a method of generating machine executable instructions configured to operate a parallel network via a computerized processing apparatus. In at least an exemplary implementation, the method includes: (i) based at least in part on an evaluation of a code element of a network design by the processing apparatus: (a) causing, responsive to at least an indication by the evaluation that the element corresponds to a general purpose language portion of the network design, generation of a first plurality of machine executable instructions; and (b) causing, responsive to at least an indication by the evaluation that the element corresponds to a network description portion of the network design, generation of a second plurality of machine executable instructions. In some implementations, (i) individual ones of the second plurality of machine executable instructions are configured to be executed by the processing apparatus, (ii) and the second plurality of machine executable instructions comprise a reference to at least one instruction of the first plurality of instructions. In a second aspect of the disclosure, an apparatus configured to process sensory data is disclosed. In at least one implementation, the apparatus comprises: (i) a first processing element configured to operate a first portion of a parallel network, and (ii) a second processing element configured to operate a second portion of the parallel network contemporaneously with the operation of the first portion. In one or more implementations, (i) the parallel network is based on a design code comprising a general purpose language portion and a network portion, (ii) the first and the second portions cooperate to effectuate the sensory data processing, (iii) the operation of the...",
+  "date_published": "20160728",
+  "title": "APPARATUS AND METHODS FOR DEVELOPING PARALLEL NETWORKS USING A GENERAL PURPOSE PROGRAMMING LANGUAGE",
+  "ipcr_labels": [
+    "G06N310"
+  ],
+  "_processing_info": {
+    "original_size": 131949,
+    "optimized_size": 4336,
+    "reduction_percent": 96.71
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15159210",
+  "date_published": "20160915",
+  "date_produced": "20160831",
+  "title": "MECHANISM FOR COMMUNICATION IN A DISTRIBUTED DATABASE",
+  "filing_date": "20160519",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Anantharam",
+      "inventor_name_first": "Sushma",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Biswas",
+      "inventor_name_first": "Amitabha",
+      "inventor_city": "San Franciso",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ghosh",
+      "inventor_name_first": "Nirapada",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Padhye",
+      "inventor_name_first": "Harshad S.",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>Aspects of an embodiment of the present invention disclose a method, computer program product, and computing system for providing communication integrity within a distributed database computer system. A first node of a plurality of nodes transmits a change notification to a second node of the plurality of nodes, wherein the change notification indicates that the first node has changed from a first version to a second version. The first node of the plurality of nodes receives at least one change confirmation from the second node, the change confirmation confirming acknowledgment of the change notification by the second node and by a third node of the plurality of nodes. The first node updates a version table of the first node to show that the second node and the third node know that the first node has changed from the first version to the second version.",
+  "patent_number": "9734185",
+  "abstract": "In a method for providing communication integrity within a distributed database computer system, a first node of a plurality of nodes transmits a change notification to a second node of the plurality of nodes. The change notification indicates that the first node has changed from a first version to a second version. The first node receives at least one change confirmation from the second node. The change confirmation confirms acknowledgment of the change notification by the second node and by a third node of the plurality of nodes. The first node updates a version table of the first node to show that the second node and the third node know that the first node has changed from the first version to the second version.",
+  "publication_number": "US20160267121A1-20160915",
+  "_processing_info": {
+    "original_size": 63399,
+    "optimized_size": 2611,
+    "reduction_percent": 95.88
+  }
+}

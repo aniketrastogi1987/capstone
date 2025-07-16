@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15792047",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "filing_date": "20171024",
+  "main_ipcr_label": "G06N312",
+  "abstract": "A code is generated for mapping source to target code words which allows encoding source data at reduced probability of incorrect decoding, e.g. for DNA storage. The target code words are grouped into subsets and comprise identifying and remaining portions. The identifying portions of target code words corresponding to a same subset are identical. A first code symbol set of source code words is selected for addressing the subsets. For the subsets, neighboring subsets are determined. The identifying portions of the target code words of neighboring subsets differ from those of the corresponding subset by up to a predetermined amount of symbols. Source code words are assigned where the corresponding first code symbols address the same subset to said subset such that an amount of target code words of said subset having their remaining portions identical to their neighboring subsets corresponds to an optimization criterion.",
+  "publication_number": "US20180046921A1-20180215",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the invention, a code generation method for mapping a plurality of source code words to a plurality of target code words comprises grouping the plurality of target code words into a plurality of subsets of the target code words, the target code words comprising an identifying portion and a remaining portion, wherein the identifying portions of the target code words corresponding to a same subset of the plurality of subsets are identical; selecting a first set of code symbols of the source code words for addressing the plurality of subsets; determining for the subsets one or more corresponding neighboring subsets within the plurality of subsets, wherein the identifying portions of the target code words of the one or more neighboring subsets differ from the identifying portion of the target code words of the corresponding subset by up to a predetermined amount of code symbols; and assigning source code words where the corresponding first set of code symbols addresses the same subset, to said subset such that an amount of the target code words of said subset having their remaining portions identical to the corresponding remaining portions of the target code words of their neighboring subsets corresponds to an optimization criterion. Accordingly, a code generating apparatus for mapping a plurality of source code words to a plurality of target code words comprises a code word grouping unit configured to group the plurality of target code words into a plurality of subsets of the target code words, the target code words comprising an identifying portion and a remaining portion, wherein the identifying portions of the target code words corresponding to a same subset of the plurality of subsets are identical; a selection unit connected to the code word grouping unit and configured to select a first set of code symbols of the source code words for addressing the plurality of subsets; a determining unit connected to the code word gr...",
+  "ipcr_labels": [
+    "G06N312",
+    "H03M514",
+    "G11C1300"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Xiaoming",
+      "inventor_city": "Hannover",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Blawat",
+      "inventor_name_first": "Meinolf",
+      "inventor_city": "Hannover",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Gaedke",
+      "inventor_name_first": "Klaus",
+      "inventor_city": "Schaumannweg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Huetter",
+      "inventor_name_first": "Ingo",
+      "inventor_city": "Pattensen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "CODE GENERATION METHOD, CODE GENERATING APPARATUS AND COMPUTER READABLE STORAGE MEDIUM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 111040,
+    "optimized_size": 3963,
+    "reduction_percent": 96.43
+  }
+}

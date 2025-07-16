@@ -1,0 +1,82 @@
+{
+  "date_produced": "20160706",
+  "publication_number": "US20160210551A1-20160721",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "14992129",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Hodong",
+      "inventor_city": "Yongin-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Hoshik",
+      "inventor_city": "Yongin-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Heeyoul",
+      "inventor_city": "Hwaseong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "MIN",
+      "inventor_name_first": "Yunhong",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "YOO",
+      "inventor_name_first": "Sang Hyun",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Yeha",
+      "inventor_city": "Hwaseong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Jihyun",
+      "inventor_city": "Hwaseong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "YoungSang",
+      "inventor_city": "Seongnam-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A method and apparatus for training a language model, include generating a first training feature vector sequence and a second training feature vector sequence from training data. The method is configured to perform forward estimation of a neural network based on the first training feature vector sequence, and perform backward estimation of the neural network based on the second training feature vector sequence. The method is further configured to train a language model based on a result of the forward estimation and a result of the backward estimation.",
+  "filing_date": "20160111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. In accordance with an embodiment, there is provided a method, including generating a first training feature vector sequence and a second training feature vector sequence from training data; performing forward estimation of a neural network based on the first training feature vector sequence, and performing backward estimation of the neural network based on the second training feature vector sequence; and training a language model based on a result of the forward estimation and a result of the backward estimation. The neural network may include first hidden layers for the forward estimation and second hidden layers for the backward estimation, and the first hidden layers are separate from the second hidden layers. The generating may include converting the training data into a word vector sequence; and generating the first training feature vector sequence starting in a forward direction of the word vector sequence and the second training feature vector sequence starting in a backward direction of the word vector sequence. The forward estimation may include estimating a subsequent word to be connected to a first word included in the training data, and the backward estimation may include estimating a previous word connected to a second word included in the training data. The training may include calculating an error value between the training data and output data of the neural network based on the result of the forward estimation and the result of the backward estimation; and updating a connection weight between artificial neurons included in the neural network based on the error value. The language model may ...",
+  "date_published": "20160721",
+  "title": "METHOD AND APPARATUS FOR TRAINING LANGUAGE MODEL, AND METHOD AND APPARATUS FOR RECOGNIZING LANGUAGE",
+  "ipcr_labels": [
+    "G06N308",
+    "G10L1516",
+    "G06F1727",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 68084,
+    "optimized_size": 4179,
+    "reduction_percent": 93.86
+  }
+}

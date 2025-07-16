@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171227",
+  "publication_number": "US20180012135A1-20180111",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15202747",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chakraborty",
+      "inventor_name_first": "Supriyo",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ortiz",
+      "inventor_name_first": "Jorge J.",
+      "inventor_city": "Rego Park",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wood, III",
+      "inventor_name_first": "David A.",
+      "inventor_city": "Scarsdale",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for executing a query includes determining one or more nodes that are likely to have local content that matches a search query. The determination is based on a location profile for each of the one or more nodes and a conditional probabilistic model for each of a set of distinct locations. The search query is executed at the one or more nodes.",
+  "filing_date": "20160706",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method for executing a query includes determining one or more nodes that are likely to have local content that matches a search query, using a processor. The determination is based on a location profile for each of the one or more nodes and a conditional probabilistic model for each of a set of distinct locations. The search query is executed at the one or more nodes. A method for executing a query includes constructing a conditional probabilistic model of each of a plurality of locations for a server and for one or more nodes, with the conditional probabilistic model for the one or more nodes being further based on locally stored information. One or more nodes that are likely to have local content that matches a search query are determined. The determination is based on a location profile for each of the one or more nodes and includes calculating a probability that each of one or more nodes possesses content that matches the search query based on the conditional probabilistic model, each node's respective location profile, and location information from the search query. The search query is executed at the one or more nodes. A system for executing a query includes a query refinement module that has a processor configured to determine one or more nodes that are likely to have local content that matches a search query. The determination is based on a location profile for each of the one or more nodes and a conditional probabilistic model for each of a set of distinct locations. The query refinement module forwards the search query to the one or more nodes for execution. These and other features and advantages will become apparent from the following detailed description of illustrative embodiments thereof, which is to be read in connection with the accompanying drawings.",
+  "date_published": "20180111",
+  "title": "QUERY-TARGET REFINEMENT IN A DISTRIBUTED MOBILE SYSTEM",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 40323,
+    "optimized_size": 3033,
+    "reduction_percent": 92.48
+  }
+}

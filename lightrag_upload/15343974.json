@@ -1,0 +1,51 @@
+{
+  "date_produced": "20170301",
+  "publication_number": "US20170076208A1-20170316",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15343974",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Maosheng",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Qian",
+      "inventor_name_first": "Li",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Kangmin",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Shanfu",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "A terminal application launching method and a terminal are disclosed. The method comprises: acquiring a contextual value of at least one contextor, where the contextor represents an information source that is available to a terminal and that is related to human-computer interaction, and the contextual value is a value that represents the contextor; determining, according to a decision rule, an application that matches the contextual value; determining a running parameter of the application according to the acquired contextual value and the determined application; and launching the application, where the application runs by using the running parameter. A corresponding terminal and another corresponding method and terminal are further disclosed. In embodiments of the present invention, according to a contextual value of a contextor of a terminal, automatic launching and running of the application of the terminal or automatic selection and launching of the application can be implemented.",
+  "filing_date": "20161104",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention provide a terminal application launching method, and a terminal, to implement automatic launching of an application of the terminal or automatic selection and launching of an application. According to a first aspect, a terminal application launching method is provided, including: acquiring a contextual value of at least one contextor, where the contextor represents an information source that is available to a terminal and that is related to human-computer interaction, and the contextual value is a value that represents the contextor; determining, according to a decision rule, an application that matches the contextual value; determining a running parameter of the application according to the acquired contextual value and the determined application; and launching the application, where the application runs by using the running parameter. In a first possible implementation manner, the determining, according to a decision rule, an application that matches the contextual value includes: launching an application launching decision engine, so that the application launching decision engine determines, according to the decision rule, the application that matches the contextual value; and acquiring the application that matches the contextual value and that is output by the application launching decision engine, where the application launching decision engine includes the following decision rule: a Bayes classifier, a decision tree, a Support Vector Machine, a Hidden Markov Model, or a Gaussian Mixture Model. With reference to the first aspect, in a second possible implementation manner, the determining a running parameter of the application according to the acquired contextual value and the determined application includes: launching an application parameter decision engine, so that the application parameter decision engine determines the running parameter of the application according to the decision rule; and acquiring ...",
+  "date_published": "20170316",
+  "title": "TERMINAL APPLICATION LAUNCHING METHOD, AND TERMINAL",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 127939,
+    "optimized_size": 3959,
+    "reduction_percent": 96.91
+  }
+}

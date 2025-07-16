@@ -1,0 +1,60 @@
+{
+  "date_produced": "20161019",
+  "publication_number": "US20160321546A1-20161103",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15106075",
+  "inventor_list": [
+    {
+      "inventor_name_last": "DELESPIERRE",
+      "inventor_name_first": "Benjamin",
+      "inventor_city": "Compiegne",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "FENOUL",
+      "inventor_name_first": "Federic",
+      "inventor_city": "Allonville",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "BISCHOFF",
+      "inventor_name_first": "Guido",
+      "inventor_city": "Muenster",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "SCARBOROUGH",
+      "inventor_name_first": "Rooger M.",
+      "inventor_city": "Luckey",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "QIU",
+      "inventor_name_first": "Jiqiong",
+      "inventor_city": "Massy",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "The invention relates to a method to determine a formula for a sample color matching a target color, based on an obsolete color formula, based on a given range of tinting bases. According to the proposed method, a color prediction model is used to calculate a distance between respective color parameters of a candidate color formula and the color parameters of the target color, and a genetic algorithm is used to obtain the formula for the sample color out of a population of candidate color formulas, wherein a distance of respective color parameters of a candidate color formula of the population of candidate color formulas to the color parameters of the target color is minimized by the genetic algorithm by iterative steps of mutation/crossing-over and selection of candidate color formulas that fit best to a fitness criterion, until a pre-given stopping criterion is fulfilled which automatically leads to a candidate color formula which is kept as the sample color formula.",
+  "filing_date": "20160617",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In accordance with the teachings of the present invention, a method is provided to determine based on a given range of tinting bases a formula for a sample color matching a target color which is based on an obsolete color formula, the method comprising at least the following steps: a) determining at least one intrinsic feature of the obsolete color formula based on at least one physical property; b1) setting up a color prediction model for predicting color parameters of the at least one target color, based on a database between color parameters and formula intrinsic features and a mathematical model; b2) linking the at least one determined intrinsic feature of the obsolete color formula via the mathematical model to defined color parameters of the color prediction model, thus obtaining color parameters of the at least one target color; c) using the color prediction model to calculate a distance between respective color parameters of a candidate color and the color parameters of the at least one target color; d) using a genetic algorithm to obtain the sample color formula out of a population of candidate color formulas, wherein a distance of respective color parameters of a candidate color formula of the population of candidate color formulas to the color parameters of the target color is minimized by the genetic algorithm by iterative steps of mutation/crossing over and selection of candidate color formulas that fit best to a fitness criterion, until a pre-given stopping criterion is fulfilled which automatically leads to a candidate color formula which is kept as the formula for the sample color. Within the scope of the present disclosure, the terms “sample color formula”, “converted color formula” and “formula for a/the sample color” are used synonymously. Further measurements, i.e. distance measurements between colors are to be understood as respective measurements between the respective color parameters of the respective color...",
+  "date_published": "20161103",
+  "title": "METHOD AND SYSTEM FOR DETERMINING A COLOR FORMULA",
+  "ipcr_labels": [
+    "G06N502",
+    "G01J346",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 53032,
+    "optimized_size": 4162,
+    "reduction_percent": 92.15
+  }
+}

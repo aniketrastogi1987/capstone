@@ -1,0 +1,60 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189652A1-20180705",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15395675",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Korthikanti",
+      "inventor_name_first": "Vijay Anand R.",
+      "inventor_city": "Milpitas",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kalaiah",
+      "inventor_name_first": "Aravind",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Werner",
+      "inventor_name_first": "Tony L.",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kloss",
+      "inventor_name_first": "Carey K.",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Khosrowshahi",
+      "inventor_name_first": "Amir",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one embodiment, a matrix operation may be performed using a plurality of input matrices, wherein the matrix operation is associated with one or more convolution operations. The plurality of input matrices may be partitioned into a plurality of input partitions, wherein the plurality of input matrices is partitioned based on a number of available processing elements. The plurality of input partitions may be distributed among a plurality of processing elements, wherein each input partition is distributed to a particular processing element of the plurality of processing elements. A plurality of partial matrix operations may be performed using the plurality of processing elements, and partial matrix data may be transmitted between the plurality of processing elements while performing the plurality of partial matrix operations. A result of the matrix operation may be determined based on the plurality of partial matrix operations.",
+  "filing_date": "20161230",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The present disclosure is best understood from the following detailed description when read with the accompanying figures. It is emphasized that, in accordance with the standard practice in the industry, various features are not necessarily drawn to scale, and are used for illustration purposes only. Where a scale is shown, explicitly or implicitly, it provides only one illustrative example. In other embodiments, the dimensions of the various features may be arbitrarily increased or reduced for clarity of discussion. FIG. 1 illustrates a schematic diagram for an example computing system according to certain embodiments. FIGS. 2A-C illustrate block diagrams for an example embodiment of a matrix processing architecture. FIGS. 3 and 4 illustrate block diagrams for example embodiments of computer processors. FIG. 5 illustrates an example convolution operation. FIGS. 6A-G and 7 A-F illustrate example neural network operations associated with convolutions. FIG. 8 illustrates a flowchart for an example embodiment of distributed matrix operations associated with convolutions. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180705",
+  "title": "DISTRIBUTED CONVOLUTION FOR NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1716",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 155903,
+    "optimized_size": 3301,
+    "reduction_percent": 97.88
+  }
+}

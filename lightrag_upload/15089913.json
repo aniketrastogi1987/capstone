@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170323",
+  "publication_number": "US20170098166A1-20170406",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15089913",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lau",
+      "inventor_name_first": "Troy M",
+      "inventor_city": "Stoneham",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kuzdeba",
+      "inventor_name_first": "Scott A",
+      "inventor_city": "Framingham",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for predicting subject trustworthiness includes using at least one classifier to predict truthfulness of subject responses to prompts during a local or remote interview, based on subject responses and response times, as well as interviewer impressions and response times, and, in embodiments, also biometric measurements of the interviewer. Data from the subject interview is normalized and analyzed relative to an experience database previously created using data obtained from test subjects. Classifier prediction algorithms incorporate assumptions that subject response times are indicators of truthfulness, that subjects will tend to be consistently truthful or deceitful, and that conscious and subconscious impressions of the interviewer are predictive of subject trustworthiness. Data regarding interviewer impressions can be derived from interviewer response times, interviewer questionnaire answers, and/or interviewer biometric data. Appropriate actions based on trustworthiness pr...",
+  "filing_date": "20160404",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method is disclosed for predicting the trustworthiness of a subject in real time in scenarios where the subject is interacting with an interviewer according to a pre-established subject evaluation “schema” that defines a standard set of prompts which are transmitted to the subject by the interviewer, and a set of corresponding responses are received from the subject. In embodiments, the “prompts” are not limited to yes/no questions, and need not even be in the form of traditional questions. It is only necessary that that interviewer provides prompts that require some sort of well-characterized response from the subject. The disclosed method depends only on information that is naturally provided by the subject during execution of the schema, as well as data that can be obtained directly from the interviewer. As such, the method can be applied to a subject who is interacting either remotely or in person with an interviewer, without any requirement to place biometric sensors on the subject. In some embodiments biometric sensors are applied to the interviewer, as discussed in more detail below. The present invention takes advantage of several insights that have not been fully exploited in the prior art: a. The time required for a subject to respond to a prompt is an indicator of trustworthiness. b. Trustworthiness tends to follow a Markov chain. In other words, a subject will tend to be consistently truthful or deceptive. c. Both the conscious and subconscious impressions of an interviewer regarding subject trustworthiness are predictors of the trustworthiness of a subject. d. Response times of an interviewer and (optionally) measurements by biometric sensors placed on an interviewer are indicators of the subconscious impressions of the interviewer regarding likelihood of subject trustworthiness. Accordingly, the disclosed method includes at least three phases. In the preparatory phase, the subject evaluation schema is defined. The schema includes a...",
+  "date_published": "20170406",
+  "title": "SCHEMA AND METHOD FOR DECEPTION DETECTION",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 49562,
+    "optimized_size": 3711,
+    "reduction_percent": 92.51
+  }
+}

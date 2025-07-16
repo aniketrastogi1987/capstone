@@ -1,0 +1,47 @@
+{
+  "inventor_list": [
+    {
+      "inventor_name_last": "HAGEN",
+      "inventor_name_first": "Josiah Dede",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "RAO",
+      "inventor_name_first": "Prasad V.",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MOWBRAY",
+      "inventor_name_first": "Miranda Jane Felicity",
+      "inventor_city": "Bristol",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "filing_date": "20180208",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "H04L2906",
+    "H04L2912"
+  ],
+  "main_ipcr_label": "G06N9900",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "publication_number": "US20180165607A1-20180614",
+  "title": "DOMAIN CLASSIFICATION",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The following detailed description references the drawings, wherein: FIG. 1 is a block diagram of an example system for domain classification; FIG. 2 is a flowchart of an example method for domain classification; FIG. 3 is a flowchart of an example method for domain classification; FIG. 4 is a block diagram of an example system for domain classification; and FIG. 5 is a block diagram of an example system for domain classification. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "application_number": "15892088",
+  "abstract": "In one example in accordance with the present disclosure, a method for domain classification includes sorting a set of sample domains into leaves based on syntactical features of the domains. Each sample domain belongs to a family of domains. The method also includes identifying, for each leaf, a regular expression for each family with at least one domain in the leaf. The method also includes determining, for each leaf, at least one lobe with a set of domains in the leaf that matches the regular expression for a first family with at least one domain in the leaf, and that does not match the regular expression for the other families with at least one domain in the leaf. The method also includes creating a classifier for the domains in each lobe by using the set of domains from each family in the lobe as training classes for machine learning.",
+  "decision": "PENDING",
+  "patent_number": "nan",
+  "_processing_info": {
+    "original_size": 38662,
+    "optimized_size": 2252,
+    "reduction_percent": 94.18
+  }
+}

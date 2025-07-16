@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170915",
+  "publication_number": "US20170277994A1-20170928",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15082653",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sharifi",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Kilchberg",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Foerster",
+      "inventor_name_first": "Jakob Nicolaus",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "abstract": "Computer-implemented techniques can include obtaining, by a client computing device, a digital media item and a request for a processing task on the digital item and determining a set of operating parameters based on (i) available computing resources at the client computing device and (ii) a condition of a network. Based on the set of operating parameters, the client computing device or a server computing device can select one of a plurality of artificial neural networks (ANNs), each ANN defining which portions of the processing task are to be performed by the client and server computing devices. The client and server computing devices can coordinate processing of the processing task according to the selected ANN. The client computing device can also obtain final processing results corresponding to a final evaluation of the processing task and generate an output based on the final processing results.",
+  "filing_date": "20160328",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A computer-implemented technique and a computing system having one or more processors and a non-transitory memory storing a set of executable instructions for the technique are presented. The technique can include obtaining, by a client computing device having one or more processors, a digital media item and a request for a processing task on the digital item, determining, by the client computing device, a set of operating parameters based on (i) available computing resources at the client computing device and (ii) a condition of a network, wherein the client computing device and a server computing device are configured for communication with each other via the network, based on the set of operating parameters, selecting one of a plurality of artificial neural networks (ANNs), each ANN defining which portions of the processing task are to be performed by the client and server computing devices, coordinating, between the client and server computing devices, processing of the processing task according to the selected ANN, obtaining, by the client computing device, final processing results corresponding a final evaluation of the processing task; and generating, by the client computing device, an output based on the final processing results. In some embodiments, each ANN defines first and second portions of the processing task, the first portion to be performed (i) by one of the client and server computing devices prior to (ii) communication via the network that causes the other of the client and server computing devices to perform the second portion. In some embodiments, the client computing device (i) selects the selected ANN, (ii) performs the first portion of the processing task to obtain the intermediate processing results, (iii) transmits, to the server computing device, the intermediate processing results, and (iv) receives, from the server computing device via the network, the final processing results. In some embodiments, the available comput...",
+  "date_published": "20170928",
+  "title": "ADAPTIVE ARTIFICIAL NEURAL NETWORK SELECTION TECHNIQUES",
+  "ipcr_labels": [
+    "G06N308",
+    "H04L2906"
+  ],
+  "_processing_info": {
+    "original_size": 52104,
+    "optimized_size": 3621,
+    "reduction_percent": 93.05
+  }
+}

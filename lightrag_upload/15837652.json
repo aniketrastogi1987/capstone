@@ -1,0 +1,40 @@
+{
+  "patent_number": "None",
+  "application_number": "15837652",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "filing_date": "20171211",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A machine-learning based artificial intelligence device for finding an estimate of patent quality, such as patent lifetime or term is disclosed. Such a device may receive a first set of patent data and generate a list of binary classifiers. A candidate set of binary classifiers may be selected and using a heuristic search, for example an artificial neural network (ANN), a genetic algorithm, a final set of binary classifiers is found by maximizing iteratively a yield according to a cost function, such an area under a curve (AUC) of a receiver operating characteristic (ROC). The device may then receive patent information for a target patent and report an estimate of patent quality according to the final set of binary classifiers.",
+  "publication_number": "US20180165605A1-20180614",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSURE <EOH>A machine-learning based artificial intelligence device for finding an estimate of patent quality is disclosed. Such a device may include: a patent data retriever configured to receive a first set of patent data comprising at least one of patent application data and patent data for a plurality of patents, and to generate a list of binary classifiers based on the first set of patent data; a quantitative data scalar configured to assign a standardized scaled score to each binary classifier of the list of binary classifiers; a binary classifier optimizer configured to generate, using an automated processor, a candidate set of binary classifiers from the list of binary classifiers using a heuristic search and to generate, using the automated processor, a final set of binary classifiers by maximizing iteratively a yield according to a cost function, wherein the device is configured to provide a signal representing the final set of binary classifiers. The heuristic search may include an artificial neural network model. The maximizing iteratively may include changing a number of hidden layers of the artificial neural network. The maximizing iteratively may include using a genetic algorithm or an artificial neural network model and a genetic algorithm. The cost function may be a receiver operating characteristic and the yield may be calculated according an area under a curve. The estimate of patent quality may represent an estimate of a lifetime of the patent. The patent data retriever may be configured to receive a second set of patent data comprising at least one of patent application data and patent data for a plurality of patents, and wherein the device may be configured to test a validity of the final set of binary classifiers using the second set of patent data. The device may also include a user information manager configured to receive patent information for a target patent and to report the estimate of patent quality according t...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06K962",
+    "G06K900",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Beers",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Ashland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Causevic",
+      "inventor_name_first": "Elvir",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "MACHINE LEARNING-BASED PATENT QUALITY METRIC",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 71010,
+    "optimized_size": 3455,
+    "reduction_percent": 95.13
+  }
+}

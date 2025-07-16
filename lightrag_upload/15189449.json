@@ -1,0 +1,44 @@
+{
+  "date_produced": "20171213",
+  "publication_number": "US20170372194A1-20171228",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15189449",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Pantazi",
+      "inventor_name_first": "Angeliki",
+      "inventor_city": "THALWIL",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Tuma",
+      "inventor_name_first": "Tomas",
+      "inventor_city": "ADLISWIL",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Wozniak",
+      "inventor_name_first": "Stanislaw",
+      "inventor_city": "ADLISWIL",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "abstract": "This invention relates to an apparatus, system, and method for computing with neuromorphic circuit architectures that have neurons with interconnected internal state information. The interconnected internal state information allows the neurons to enable or strengthen the input to other neurons. Furthermore, neuron internal state information provides insights on the characteristics of the input data that can be used to enhance the performance of the neuromorphic system. The neuromorphic system can be implemented with an artificial phase-change-based neurons.",
+  "filing_date": "20160622",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, the disclosure relates to a neuromorphic architecture comprising a single or multilayer layer network in which neurons within a layer are interconnected with internal state information links. Primarily, neurons in the same layer are connected with the internal state information links, but the internal state information of a neuron can also be transmitted to neurons in different layers of a multilayer network. The internal state information of the neuron is used to modify the operation of other neurons. For example, the interconnecting of neurons using internal state information can enable or strengthen the input signal to other neurons. The neuron internal state information provides insight into the characteristics of the input data that can be used to enhance the performance or increase the capabilities of the neuromorphic system. The disclosure further relates to electronic neuron elements. These neuron elements are basic processing circuit elements that can be linked and generally behave as temporal integrators with some degree of leakage. Their internal potential reflects the sum of the various positive or negative inputs received over time, subjected to a leakage that can be, as an example, modeled by a constant leakage current. When the internal potential of the neuron passes a threshold, the neuron element outputs a signal, or fires, via a logic and/or electrical event of short duration, simulating the action potential of biological neurons. The neuron elements internal potential then returns to its inactivated output state. This logic event will in turn, through the intermediary of its electrical manifestation, generate an input in the post-synaptic neurons connected to the source neuron. Embodiments further provide a neuromorphic circuit architecture. According to an embodiment, a neuromorphic circuit comprises a plurality of interconnected electronic neurons. Each circuit comprises an electronic synapse array comprising mu...",
+  "date_published": "20171228",
+  "title": "NEUROMORPHIC ARCHITECTURE WITH MULTIPLE COUPLED NEURONS USING INTERNAL STATE NEURON INFORMATION",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 45204,
+    "optimized_size": 3435,
+    "reduction_percent": 92.4
+  }
+}

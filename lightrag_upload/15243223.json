@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180207",
+  "publication_number": "US20180053090A1-20180222",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15243223",
+  "inventor_list": [
+    {
+      "inventor_name_last": "VOELKER",
+      "inventor_name_first": "Aaron Russell",
+      "inventor_city": "Stittsville",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "ELIASMITH",
+      "inventor_name_first": "Christopher David",
+      "inventor_city": "Waterloo",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "A method is described for designing systems that provide efficient implementations of feed-forward, recurrent, and deep networks that process dynamic signals using temporal filters and static or time-varying nonlinearities. A system design methodology is described that provides an engineered architecture. This architecture defines a core set of network components and operations for efficient computation of dynamic signals using temporal filters and static or time-varying nonlinearities. These methods apply to a wide variety of connected nonlinearities that include temporal filters in the connections. Here we apply the methods to synaptic models coupled with spiking and/or non-spiking neurons whose connection parameters are determined using a variety of methods of optimization.",
+  "filing_date": "20160822",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In a first aspect, some embodiments of the invention provide a method for implementing single or multi-layer, feed-forward or recurrent neural networks for dynamic computations. The method includes defining any node response function that either exhibits brief temporal nonlinearities for representing state over time, often termed ‘spikes’, or exhibits a value at each time step or over continuous time (i.e., ‘rates’). These response functions are dynamic because they accept input over time and produce output over time. For spiking neurons, the nonlinearity is over both time and state, whereas for rate neurons it is largely over state. The method also includes defining one or more temporal filters (i.e., synapses) on the input and/or output of each node. These synapses serve to filter the input/output signal in various ways, either linearly or nonlinearly. This structure is then used to determine connection weights between layers of nodes for computing a specified dynamic function. Specification of the function can be performed either by writing it in closed form, or by providing sample points. In some cases, the initial couplings and connection weights are determined using a neural compiler. Connection weights can be further trained either with online or offline optimization and learning methods. In a second aspect, some embodiments of the invention provide a system for pattern classification, data representation, or signal processing in neural networks. The system includes one or more input layers presenting a vector of one or more dimensions, as well as zero or more intermediate layers coupled via weight matrices to at least one of the input, other intermediate, or output layers, and one or more output layers generating a vector representation of the data presented at the input layer or computing a function of that data. Each layer comprises a plurality of nonlinear components, wherein each nonlinear component has zero or more temporal filters on...",
+  "date_published": "20180222",
+  "title": "Methods And Systems For Implementing Dynamic Neural Networks",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N3063"
+  ],
+  "_processing_info": {
+    "original_size": 61823,
+    "optimized_size": 3534,
+    "reduction_percent": 94.28
+  }
+}

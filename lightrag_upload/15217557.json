@@ -1,0 +1,52 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15217557",
+  "date_published": "20170511",
+  "date_produced": "20170427",
+  "title": "SYSTEMS AND METHODS FOR NON-LINEAR PROCESSING OF IMAGE FRAMES",
+  "filing_date": "20160722",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nilsson",
+      "inventor_name_first": "Mikael",
+      "inventor_city": "Lund",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "Tran",
+      "inventor_name_first": "To",
+      "inventor_city": "Arlov",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "Hellsberg",
+      "inventor_name_first": "Börje Anders",
+      "inventor_city": "Malmo",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "Thomas",
+      "inventor_name_first": "James Frank",
+      "inventor_city": "Concord",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T540",
+    "G06T790"
+  ],
+  "main_ipcr_label": "G06T540",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The patent or application file contains at least one drawing executed in color. Copies of this patent or patent application publication with color drawing(s) will be provided by the Office upon request and payment of the necessary fee. One or more embodiments of the present disclosure are illustrated by way of example and not limitation in the figures of the accompanying drawings, in which like references indicate similar elements. FIG. 1 is a high level overview of the imaging processing methods described in some embodiments disclosed herein. FIG. 2 is a comparison of the linear and non-linear transformations as may apply in some embodiments. FIG. 3 is a flow diagram depicting a high level process for adjusting a single image as disclosed in some embodiments. FIG. 4 is a flow diagram depicting a high level process for adjusting multiple images as disclosed in some embodiments. FIG. 5 is a block diagram of an example Mean Quantization Unit (MQU) block in an example Successive Mean Quantization Transform (SMQT) operation as may be used in some embodiments. FIG. 6 is a block diagram of an example SMQT tree as may be used in some embodiments. FIG. 7 illustrates an example application of a histogram-based SMQT tree as may occur in some embodiments. FIG. 8 illustrates various compression and scaling approaches that may be applied in some embodiments. FIG. 9 illustrates a process for determining a luminance conversion as may be applied in conjunction with the SMQT in some embodiments. FIG. 10 is an informal block diagram depicting the generation and usage of interpolation tables as may apply in some embodiments. FIG. 11 is an example depiction of linear slider values as may be used to control interpolation in some embodiments. FIG. 12 is a an example depiction of a pattern overlay to select pixels for processing as may be applied in some embodiments. FIG. 13 is a flow diagram depicting the application of certain embodiments in ...",
+  "patent_number": "None",
+  "abstract": "Embodiments of the present disclosure include systems and methods for image processing for enhancing, e.g., photos, videos, and graphics representations. Particularly, some embodiments perform a histogram-based SMQT decomposition of various attributes in an original image. The SMQT decomposition of these attributes may then be used to create a look-up-table indicating how to modify pixel attributes in the same or a subsequent image so as to enhance the same or subsequent image. The results of the SMQT decomposition for each attribute may be interpolated based, e.g., on user preferences, to achieve a more optimal enhancement.",
+  "publication_number": "US20170132770A1-20170511",
+  "_processing_info": {
+    "original_size": 66200,
+    "optimized_size": 3628,
+    "reduction_percent": 94.52
+  }
+}

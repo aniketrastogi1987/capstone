@@ -1,0 +1,80 @@
+{
+  "date_produced": "20160810",
+  "publication_number": "US20160247067A1-20160825",
+  "main_ipcr_label": "G06N312",
+  "decision": "PENDING",
+  "application_number": "15027373",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CAI",
+      "inventor_name_first": "Yiyu",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "CAI",
+      "inventor_name_first": "Panpan",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "INDHUMATHI",
+      "inventor_name_first": "Chandrasekara",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "ZHENG",
+      "inventor_name_first": "Jianmin",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "THALMANN",
+      "inventor_name_first": "Nadia M.",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "WONG",
+      "inventor_name_first": "Peng",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "LIM",
+      "inventor_name_first": "Teng Sam",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "GONG",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    }
+  ],
+  "abstract": "A method is proposed for automatically generating a crane lifting path describing the motion of a crane. The method includes: laser scanning a plant to generate one or more point clouds; using the point clouds to identify objects to be lifted by the crane; rasterizing the laser scanned point clouds to generate digital data describing the plant and in a format for input to a Graphics Processing Unit (GPU); and iteratively optimizing a crane lifting path, including using the GPU and the digital data to detect collisions between one or more cranes and the plant if the crane follows the crane lifting path.",
+  "filing_date": "20160405",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention aims to provide a new and useful method of planning an operation of moving an object using a crane. In particular, the method proposes a process of generating a crane lifting path in which the data describing the plant and preferably the object, is presented in a rasterized format (that is, as a multi-layer depth map), and the optimization is then performed iteratively by generating and testing candidate crane lifting paths, using a Graphics Processing Unit (GPU) to detect collisions between the one or more cranes and the plant. In preferred embodiments of the invention, the crane lifting path optimization is realized by a novel parallel Genetic Algorithm, based on CUDA (compute unified device architecture) programming. Note that the known methods described of using a GPU described above, are for collision detection, not for path planning optimisation. The known method of optimization using a genetic algorithm [21] was not parallelized, and had a different formulation of the optimization problem from that of typical embodiments of the present invention. The invention may be used in plants for which a PDMS or Smart Plant model exists including the location of an object to be movel. However, in many important applications of the invention, such data describing the plant and/or the object does not pre-exist. In this case, the invention proposes prior steps of laser scanning the plant, identifying the object (preferably including extracting data about the objects from a database, where available), forming data describing the plant, and a rasterization process of converting the data into a format suitable for input into the GPU. Preferably, the raterization process is performed after the step of identifying the object, although in principle it can be performed first, i.e. such that the step of identifying the object uses the rasterized data. Thus, one expression of the invention is a method of generating a crane l...",
+  "date_published": "20160825",
+  "title": "METHOD AND SYSTEM FOR INTELLIGENT CRANE LIFTING",
+  "ipcr_labels": [
+    "G06N312",
+    "G06F1750"
+  ],
+  "_processing_info": {
+    "original_size": 48900,
+    "optimized_size": 4166,
+    "reduction_percent": 91.48
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "patent_number": "None",
+  "application_number": "15447397",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "filing_date": "20170302",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method for multi-instance learning (MIL)-based classification of a streaming input is described. The method includes running a first biased MIL model using extracted features from a subset of instances received in the streaming input to obtain a first classification result. The method also includes running a second biased MIL model using the extracted features to obtain a second classification result. The first biased MIL model is biased opposite the second biased MIL model. The method further includes classifying the streaming input based on the classification results of the first biased MIL model and the second biased MIL model.",
+  "publication_number": "US20180046941A1-20180215",
+  "summary": "<SOH> SUMMARY <EOH>A method for multi-instance learning (MIL)-based classification of a streaming input is described. The method includes running a first biased MIL model using extracted features from a subset of instances received in the streaming input to obtain a first classification result. The method also includes running a second biased MIL model using the extracted features to obtain a second classification result. The first biased MIL model is biased opposite the second biased MIL model. The method further includes classifying the streaming input based on the classification results of the first biased MIL model and the second biased MIL model. The first biased MIL model and the second biased MIL model may each be biased towards opposite binary classification types. The first biased MIL model may be generated using a first training set that is biased toward a first classification and the second biased MIL model may be generated using a second training set that is biased toward a second classification. When the classification results of the first biased MIL model and the second biased MIL model indicate a same classification for the streaming input, then the classification of the streaming input may be considered accurate. When the classification results of the first biased MIL model and the second biased MIL model indicate a different classification for the streaming input, then the classification of the streaming input may be considered inaccurate. The method may also include running an unbiased MIL model using the extracted features. The streaming input may be classified based on a classification result of the unbiased MIL model. The method may also include obtaining one or more additional instances of the streaming input. The first biased MIL model and the second biased MIL model may be run using extracted features from the additional instances of the streaming input to obtain additional classification results. The streaming input may be classified based o...",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sule",
+      "inventor_name_first": "Dineel",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "De",
+      "inventor_name_first": "Subrato Kumar",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ding",
+      "inventor_name_first": "Wei",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR MULTI-INSTANCE LEARNING-BASED CLASSIFICATION FOR STREAMING INPUTS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 87698,
+    "optimized_size": 3510,
+    "reduction_percent": 96.0
+  }
+}

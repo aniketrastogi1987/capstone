@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160810",
+  "publication_number": "US20160247061A1-20160825",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15047532",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Trask",
+      "inventor_name_first": "Andrew",
+      "inventor_city": "Nashville",
+      "inventor_state": "TN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gilmore",
+      "inventor_name_first": "David",
+      "inventor_city": "Nashville",
+      "inventor_state": "TN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Russell",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Franklin",
+      "inventor_state": "TN",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In some aspects, the present disclosure relates to neural language modeling. In one embodiment, a computer-implemented neural network includes a plurality of neural nodes, where each of the neural nodes has a plurality of input weights corresponding to a vector of real numbers. The neural network also includes an input neural node corresponding to a linguistic unit selected from an ordered list of a plurality of linguistic units, and an embedding layer with a plurality of embedding node partitions. Each embedding node partition includes one or more neural nodes. Each of the embedding node partitions corresponds to a position in the ordered list relative to a focus term, is configured to receive an input from an input node, and is configured to generate an output. The neural network also includes a classifier layer with a plurality of neural nodes, each configured to receive the embedding outputs from the embedding layer, and configured to generate an output corresponding to a probabili...",
+  "filing_date": "20160218",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Some aspects of the present disclosure relate to a computer-implemented neural network architecture that explicitly encodes order in a sequence of symbols and uses this architecture to embed both word-level and character-level representations. In some embodiments, a NNLM is provided that can take into account word morphology and shape. In some embodiments, an NNLM is provided that can be trained by multiple systems working in parallel. In some embodiments, an NNLM is provided that can be used to process analogy queries. In some embodiments, word embeddings learned via neural language models can share resources between multiple languages.",
+  "date_published": "20160825",
+  "title": "Systems and Methods for Neural Language Modeling",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 84961,
+    "optimized_size": 2506,
+    "reduction_percent": 97.05
+  }
+}

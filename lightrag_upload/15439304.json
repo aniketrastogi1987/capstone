@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15439304",
+  "date_published": "20180201",
+  "date_produced": "20180117",
+  "filing_date": "20170222",
+  "main_ipcr_label": "G06N308",
+  "abstract": "In a prediction apparatus for a learning system, an obtaining unit obtains, as input variables, at least one parameter indicative of a structure of a convolutional neural network, the number of nodes of a learning system, and a sub-batch number indicative of the number of pieces of training data collectively processed by at least one graphic processing unit. A predictor predicts at least one of learning time and an average mini-batch size as a function of the input variables obtained by the obtainer. The learning time is time required for one update of all the weights by a central processing unit. The average mini-batch size is an average number of pieces of training data used for the one update of all the weights.",
+  "publication_number": "US20180032865A1-20180201",
+  "summary": "<SOH> SUMMARY <EOH>The convolutional neural networks have a great advantage in recognition performance, but also have a weakness of requiring long learning time when they are learned. Learning of the convolutional neural network means a task to optimize parameters, such as weights and biases, of the convolutional neural network. Datasets associated with social networks or datasets associated with autonomous driving are an example of ever-increasing datasets. Using such an enormous volume of a dataset for learning a convolutional neural network may increase the learning time of the convolutional neural network, resulting in a risk that the learning may be unfinished within a realistically allowable time length. For example, learning of a convolutional neural network based on such an enormous volume of a dataset may require one or more years. Prolonged learning of a convolutional neural network may reduce the practicality of the convolutional neural network. This may result in users having no choice but using recognition algorithms other than convolutional neural networks. That is, it is a very important issue in industry to speed up learning of convolutional neural networks. For addressing the above issue, users have tried to use a computer cluster to establish a learning system; the compute cluster is configured such that a plurality of computers, such as nodes, each of which includes one or more central processing units (CPUs) and/or one or more graphics processing units (GPUs), are communicably connected to each other. That is, users have tried to perform distributed learning of the weights in such a computer cluster of the learning system. This aims to greatly shorten the learning time of the weights of the learning system. Examples of these attempts are disclosed in the following non-patent documents 2 to 5 in addition to the non-patent document 1: Non-patent document 2: Written by D. Amodei, et. al, “Deep Speech 2: End-to-End Speech Recognition in English and M...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nishimura",
+      "inventor_name_first": "Hiroki",
+      "inventor_city": "Kariya-city",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Matsuoka",
+      "inventor_name_first": "Satoshi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Nomura",
+      "inventor_name_first": "Akihiro",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Oyama",
+      "inventor_name_first": "Yosuke",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Sato",
+      "inventor_name_first": "Ikuro",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "PREDICTION APPARATUS, PREDICTION METHOD, AND PREDICTION PROGRAM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 98439,
+    "optimized_size": 3862,
+    "reduction_percent": 96.08
+  }
+}

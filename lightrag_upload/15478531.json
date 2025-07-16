@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15478531",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "filing_date": "20170404",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Training neural networks by constructing a neural network model having neurons each associated with a quantized activation function adapted to output a quantized activation value. The neurons are arranged in layers and connected by connections associated quantized connection weight functions adapted to output quantized connection weight values. During a training process a plurality of weight gradients are calculated during backpropagation sub-processes by computing neuron gradients, each of an output of a respective the quantized activation function in one layer with respect to an input of the respective quantized activation function. Each neuron gradient is calculated such that when an absolute value of the input is smaller than a positive constant threshold value, the respective neuron gradient is set as a positive constant output value and when the absolute value of the input is smaller than the positive constant threshold value the neuron gradient is set to zero.",
+  "publication_number": "US20170286830A1-20171005",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to some embodiments of the present invention, there is provided a method for training neural networks. The method comprises constructing a neural network model having a plurality of neurons each associated with a quantized activation function adapted to output a quantized activation value selected from a first finite set, the plurality of neurons are arranged in a plurality of layers and being connected by a plurality of connections each associated with a quantized connection weight function adapted to output a quantized connection weight value selected from a second finite set, receiving a training set dataset, using the training set dataset to train the neural network model according to respective the quantized connection weight values, the training includes computing a plurality of weight gradients for backpropagation sub-processes by: computing a plurality of neuron gradients, each the neuron gradient is of an output of a respective the quantized activation function in one layer of the plurality of layers with respect to an input of the respective quantized activation function and is calculated such that when an absolute value of the input is smaller than a positive constant threshold value, the respective neuron gradient is set as a positive constant value and when the absolute value of the input is smaller than the positive constant threshold value the neuron gradient is set to zero, and updating a plurality of floating point connection weight values according to the plurality of weight gradients. The method further comprises outputting a trained quantized neural network formed as an outcome of the training process. Optionally, each of the plurality of connections is associated with one of the plurality of floating point connection weight values. Optionally, the neural network model is a convolutional neural network (CNN) model and the trained quantized neural network is a trained quantized CNN. Optionally, the qua...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F7523",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "EL-YANIV",
+      "inventor_name_first": "Ran",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "HUBARA",
+      "inventor_name_first": "Itay",
+      "inventor_city": "Jerusalem",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "SOUDRY",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "title": "QUANTIZED NEURAL NETWORK TRAINING AND INFERENCE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 77031,
+    "optimized_size": 3817,
+    "reduction_percent": 95.04
+  }
+}

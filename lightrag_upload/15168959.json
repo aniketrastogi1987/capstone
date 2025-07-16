@@ -1,0 +1,59 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344885A1-20171130",
+  "main_ipcr_label": "G06N310",
+  "decision": "PENDING",
+  "application_number": "15168959",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hosokawa",
+      "inventor_name_first": "Kohji",
+      "inventor_city": "Shiga-ken",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Ishii",
+      "inventor_name_first": "Masatoshi",
+      "inventor_city": "Shiga-ken",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Nakamura",
+      "inventor_name_first": "Yutaka",
+      "inventor_city": "Kyoto",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Okazawa",
+      "inventor_name_first": "Junka",
+      "inventor_city": "Kyoto",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Yasuda",
+      "inventor_name_first": "Takeo",
+      "inventor_city": "Nara-ken",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Methods and systems are provided for operating a neuromorphic system for generating neuron and synapse activities. The method includes: preparing at least one digital timer in the neuromorphic system, each of the at least one digital timers including multi-bit digital values; generating time signals using the at least one digital timer; emulating an analog waveform of a neuron spike; updating parameters of the neuromorphic system using the time signals and the current values of the parameters; presetting, using a processor, the digital values of the at least one digital timer to initial values when the spike input is provided to the node; and updating, using the processor, the digital values of the at least one digital timer with a specified amount when there is an absence of a spike input to the node.",
+  "filing_date": "20160531",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with an embodiment of the present principles, a method is provided for operating a neuromorphic system for generating neuron activity. The method includes the step of preparing at least one digital timer in the neuromorphic system, each of the at least one digital timers including multi-bit digital values. The method further includes the step of generating time signals using the at least one digital timer, the time signals showing a time that has elapsed since a spike input was provided to a node of a synapse in the neuromorphic system. The method further includes the step of updating parameters of the neuromorphic system using the time signals. The method further includes the step of presetting, using a processor, the digital values of the at least one digital timer to initial values when the spike input is provided to the node. The method further includes the step of updating, using the processor, the digital values of the at least one digital timer with a specified amount when there is an absence of a spike input to the node. In accordance with another embodiment of the present principles, a system is provided. The system includes a memory. The system further includes at least one hardware-based one digital timer, each of the at least one digital timers including multi-bit digital values. The system further includes a hardware-based processor configured to generate time signals using the at least one digital timer, the time signals showing a time that has elapsed since a spike input was provided to a node of a synapse in the neuromorphic system, update, in the memory, parameters of the neuromorphic system using the time signals, preset the digital values of the digital timers to initial values when the spike input is provided to the node, and update the digital values of the digital timers with a specified amount when there is an absence of a spike input to the node. In accordance with yet another embodiment of the present princip...",
+  "date_published": "20171130",
+  "title": "Timing Sequence for Digital STDP Synapse and LIF Neuron-based Neuromorphic System",
+  "ipcr_labels": [
+    "G06N310",
+    "G06N3063"
+  ],
+  "_processing_info": {
+    "original_size": 84678,
+    "optimized_size": 3968,
+    "reduction_percent": 95.31
+  }
+}

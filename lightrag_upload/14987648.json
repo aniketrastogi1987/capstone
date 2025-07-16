@@ -1,0 +1,32 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193394A1-20170706",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "14987648",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fang",
+      "inventor_name_first": "Miaoqing",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and non-transitory computer readable media are configured to determine a training set to train a machine learning model. A feature set for the model is determined. The model is trained based on the training set and the feature set to determine a score reflecting a probability that each user in an evaluation set of users is qualified for employment with an organization. A ranking of users in the evaluation set is provided based on the score determined for each user.",
+  "filing_date": "20160104",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present technology can include systems, methods, and non-transitory computer readable media configured to determine a training set to train a machine learning model. A feature set for the model is determined. The model is trained based on the training set and the feature set to determine a score reflecting a probability that each user in an evaluation set of users is qualified for employment with an organization. A ranking of users in the evaluation set is provided based on the score determined for each user. In an embodiment, the training set includes users who are employees of the organization. In an embodiment, the training set further includes users who are employees of a second organization of the same organization type as the organization. In an embodiment, the feature set comprises at least one of a number of connections of a user in the training set on a social networking system, a number of days since the user performed an action on the social networking system, a number of requests by the user to initiate connections on the social networking system, a number of entities who are following the user on the social networking system, a number of entities followed by the user on the social networking system, college attended by the user, graduate school attended by the user, degrees obtained by the user, concentrations of study by the user, and employers of the user excluding employers of the same type as the organization. In an embodiment, the determining a feature set further comprises de-duplicating features in the feature set. In an embodiment, the determining a feature set further comprises: determining that a feature value is likely false based on a veracity score that does not satisfy a threshold veracity value; and re-labeling the feature value. In an embodiment, the providing a ranking of users further comprises: sorting the users in the evaluation set based on associated scores determined by the model; adju...",
+  "date_published": "20170706",
+  "title": "SYSTEMS AND METHODS TO RANK JOB CANDIDATES BASED ON MACHINE LEARNING MODEL",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q1010",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 82368,
+    "optimized_size": 3077,
+    "reduction_percent": 96.26
+  }
+}

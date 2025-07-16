@@ -1,0 +1,33 @@
+{
+  "date_produced": "20161228",
+  "publication_number": "US20170011305A1-20170112",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15273469",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Williams",
+      "inventor_name_first": "Colin P.",
+      "inventor_city": "Half Moon Bay",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods that employ interactions between quantum computing systems and digital computing systems are described. For an iterative method, a quantum computing system may be designed, operated, and/or adapted to provide a rate of convergence that is greater than the rate of convergence of a digital supercomputer. When the digital supercomputer is iteratively used to evaluate an objective function at a cost incurred of C per iteration, the quantum computing system may be used to provide the input parameter(s) to the objective function and quickly converge on the input parameter(s) that optimize the objective function. Thus, a quantum computing system may be used to minimize the total cost incurred CT for consumption of digital supercomputer resources when a digital supercomputer is iteratively employed to evaluate an objective function.",
+  "filing_date": "20160922",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A method of minimizing a total cost incurred for consumption of digital supercomputer resources when a digital supercomputer is employed to optimize a function, wherein the digital supercomputer evaluates the function in response to a call from an external computing system, each call to the digital supercomputer from the external computing system having a cost incurred per call, may be summarized as including initializing communication between the digital supercomputer and the external computing system, wherein the external computing system includes a quantum computing system; optimizing the function, wherein optimizing the function comprises, for a plurality iterations: generating a candidate value for at least one input parameter by the quantum computing system, transmitting, in a respective call, the candidate value for at least one input parameter from the quantum computing system to the digital supercomputer, and evaluating the function based on the candidate value for at least one input parameter by the digital supercomputer, until a value for at least one input parameter that at least approximately optimizes the function is found, wherein the number of iterations in the plurality of iterations is dependent on a rate of convergence of the quantum computing system, and wherein the rate of convergence of the quantum computing system is greater than a rate of convergence of the digital supercomputer such that the number of iterations is minimized, and wherein the total cost incurred is minimized; and in response to finding the value for at least one input parameter that at least approximately optimizes the function: stopping the iteration, and returning the found value for at least one input parameter that at least approximately optimizes the function by the digital supercomputer. Generating a candidate value for at least one input parameter by the quantum computing system may include performing at least one of adiabatic quantum computati...",
+  "date_published": "20170112",
+  "title": "SYSTEMS AND METHODS FOR INTERACTING WITH A QUANTUM COMPUTING SYSTEM",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1340",
+    "H05K720",
+    "G06F1336"
+  ],
+  "_processing_info": {
+    "original_size": 108837,
+    "optimized_size": 3457,
+    "reduction_percent": 96.82
+  }
+}

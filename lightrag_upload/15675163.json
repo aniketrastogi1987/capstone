@@ -1,0 +1,48 @@
+{
+  "patent_number": "None",
+  "application_number": "15675163",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "filing_date": "20170811",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A quantum computing emulation platform may be used to control operation of a quantum computing emulation device in performing, by analog electronic circuits within the device, a quantum computing exercise. The platform may include a master controller to determine an initial quantum state for the exercise, a number and sequence of gate operations to be applied in sets of execution runs, and a transformation type for each run, to define and allocate storage for data collection variables, to initiate performance of the exercise by the device, and to store results. The platform may include a set controller to prepare control values for the gate operations and to prepare the platform to collect results, and a run controller to provide the control values for each run to the device and record results. The control values may control switches on the device and program analog electronic circuits to perform particular gate operations.",
+  "publication_number": "US20180046933A1-20180215",
+  "summary": "<SOH> SUMMARY <EOH>The disclosure relates to systems and methods for controlling and simulating a quantum emulation device. In one aspect, a disclosed method for controlling a quantum computing emulation device may include receiving, via an input interface of a quantum computing emulation platform, input identifying a quantum computing exercise to be performed by analog electronic circuits within the quantum computing emulation device, determining, by a master controller of the quantum computing emulation platform dependent on the received input, a plurality of control values for programming, on the quantum computing emulation device, an initial quantum state for the quantum computing exercise, a number of gate operations to be applied to the initial quantum state in one or more sets of execution runs during performance of the quantum computing exercise, a transformation type for each execution run, and a sequence of one or more gate operations to be applied in each set of execution runs, defining, by the master controller of the quantum computing emulation platform, one or more data collection variables for the quantum computing exercise and allocating storage for the one or more data collection variables in a memory, initiating performance of the quantum computing exercise by the analog electronic circuits within the quantum computing emulation device, where the initiating includes providing the control values to the quantum computing emulation device, and storing, by the master controller of the quantum computing emulation platform to the data collection variables, data collected from the quantum computing emulation device during performance of the quantum computing exercise. In any of the disclosed embodiments, the plurality of control values may include a respective control value for controlling each of a plurality of switch type circuits on the quantum computing emulation device. The plurality of switch type circuits may control selection of a number of qubits...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1202",
+    "G06F1310",
+    "G06F13364",
+    "G06F1340"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "La Cour",
+      "inventor_name_first": "Brian R.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Starkey",
+      "inventor_name_first": "Michael J.",
+      "inventor_city": "San Antonio",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ostrove",
+      "inventor_name_first": "Corey I.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR CONTROLLING A QUANTUM COMPUTING EMULATION DEVICE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 243166,
+    "optimized_size": 3848,
+    "reduction_percent": 98.42
+  }
+}

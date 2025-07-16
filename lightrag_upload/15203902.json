@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15203902",
+  "date_published": "20161027",
+  "date_produced": "20161012",
+  "title": "Method, Device and Computer Program Product for Programming a Plurality of Control Units",
+  "filing_date": "20160707",
+  "inventor_list": [
+    {
+      "inventor_name_last": "FISCHER",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Muenchen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Voegel",
+      "inventor_name_first": "Hans-Joerg",
+      "inventor_city": "Groebenzell",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "ipcr_labels": [
+    "G05B19042",
+    "B60R16023",
+    "G06F1342",
+    "G05B1502"
+  ],
+  "main_ipcr_label": "G05B19042",
+  "summary": "<SOH> BACKGROUND AND SUMMARY OF THE INVENTION <EOH>The invention relates to a method for programming a plurality of control units of a vehicle via a bus. The invention also relates to a device, a computer program, and a computer program product for programming a plurality of control units of a vehicle via a bus. Modern vehicles have an increasingly large number of control units. If new firmware is written to one of these control units, it is possibly likewise necessary to write new firmware to further control units in order to match the control units to one another. The object on which the invention is based is to provide a method and a corresponding device which contributes to making it possible to effectively program a plurality of control units of a vehicle. The invention is distinguished by a method for programming a plurality of control units of a vehicle via a bus. The invention is also distinguished by a corresponding device. The control units of the vehicle are each changed to a persistent bus idle mode in which the control units each transmit messages on the bus only if they are requested from outside the respective control unit. While the control units are in the persistent bus idle mode, new firmware is written to each of the control units in a process of writing to the respective control unit. At least one subset of the control units is written to here in such a manner that the respective processes of writing to the subset of the control units overlap in terms of time. In this context, persistent means that the respective control units are still in the persistent bus idle mode even after a restart. The control units are therefore in a bus idle mode until the latter is externally canceled. The bus is, in particular, a Controller Area Network (CAN) bus, in particular according to the ISO standard 11898. The CAN bus is a serial bus system and is used, in particular, to network control units in vehicles. In this context, the overlapping of the respective wri...",
+  "patent_number": "None",
+  "abstract": "A method is provided for programming a plurality control units of a vehicle via bus, wherein the control units are each put into a persistent bus idle mode, in which mode the control units each send messages on the bus only when the messages are requested from outside of the particular control unit. While the control units are in the persistent bus idle mode, new firmware is written to the control units in a writing process of the particular control unit. At least a subset of the control units is written to such that the particular writing processes of the subset of the control units overlap in time.",
+  "publication_number": "US20160313715A1-20161027",
+  "_processing_info": {
+    "original_size": 39253,
+    "optimized_size": 3375,
+    "reduction_percent": 91.4
+  }
+}

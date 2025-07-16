@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15800322",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20171101",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method for generating a sparsified convolutional neural network (CNN) is provided that includes training the CNN to generate coefficient values of filters of convolution layers, and performing sparsified fine tuning on the convolution layers to generate the sparsified CNN, wherein the sparsified fine tuning causes selected nonzero coefficient values of the filters to be set to zero.",
+  "publication_number": "US20180181864A1-20180628",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure relate to sparsified training of convolutional neural networks (CNNs). In one aspect, a method for generating a sparsified convolutional neural network (CNN) is provided that includes training the CNN to generate coefficient values of filters of convolution layers, and performing sparsified fine tuning on the convolution layers to generate the sparsified CNN, wherein the sparsified fine tuning causes selected nonzero coefficient values of the filters to be set to zero. In one aspect, a computer system is provided that includes a processor, and a memory storing software instructions that, when executed by the processor, cause generation of a sparsified (CNN) wherein the CNN is trained to generate coefficient values of filters of convolution layers, and sparsified fine tuning on the convolution layers is performed to generate the sparsified CNN, wherein the sparsified fine tuning causes selected nonzero coefficient values of the filters to be set zero. In one aspect, a computer readable medium is provided that stores software instructions that, when executed by one or more processors, cause generation of a sparsified CNN, the software instructions including instructions to train a CNN to generate coefficient values of filters of convolution layers, and perform sparsified fine tuning on the convolution layers to generate the sparsified CNN, wherein the sparsified fine tuning causes selected nonzero coefficient values of the filters to be set zero.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mathew",
+      "inventor_name_first": "Manu",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Desappan",
+      "inventor_name_first": "Kumar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Swami",
+      "inventor_name_first": "Pramod Kumar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "Sparsified Training of Convolutional Neural Networks",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 54265,
+    "optimized_size": 2753,
+    "reduction_percent": 94.93
+  }
+}

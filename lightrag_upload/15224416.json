@@ -1,0 +1,32 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032906A1-20180201",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15224416",
+  "inventor_list": [
+    {
+      "inventor_name_last": "GANGADHARAPPA",
+      "inventor_name_first": "KIRAN KULUVALLI",
+      "inventor_city": "Pleasanton",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system for providing adaptive metric pruning includes a processor; a memory; and one or more modules stored in the memory and executable by a processor to perform operations including: receive, by a collector, metadata associated with the business transaction running in a monitored environment; train a machine learning system by providing training data and an anticipated result for the training data to the machine learning system to generate rules for retaining given metadata; predict a retention requirement for the received metadata by providing the received metadata to the machine learning system to apply the generated rules and generate a result for retaining the received metadata; and provide a user interface to display the generated result for retaining the received metadata including a recommendation on how to retain the received metadata according to the result for retaining the received metadata.",
+  "filing_date": "20160729",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Examples of implementations of dynamic query chunking and streaming of results of the chunked queries are disclosed. In one aspect, a system for providing adaptive metric pruning associated with a monitored business transaction is disclosed. The system includes a processor; a memory; and one or more modules stored in the memory and executable by a processor to perform operations including: receive, by a collector, metadata associated with the business transaction running in a monitored environment; train a machine learning system by providing training data and an anticipated result for the training data to the machine learning system to generate rules for retaining given metadata; predict a retention requirement for the received metadata by providing the received metadata to the machine learning system to apply the generated rules and generate a result for retaining the received metadata; and provide a user interface to display the generated result for retaining the received metadata including a recommendation on how to retain the received metadata according to the result for retaining the received metadata. The system can be implemented in various ways to include one or more of the following features. For example, the one or more modules can be executable by a processor to train the machine learning system including applying a machine learning algorithm to the training data and the anticipated result to generate the rules for retaining the given metadata. The rules can include categorizing the given metadata into different groups having different retentions. The different groups having different retentions can include a group for removing from cache, a group for removing from disk, or a group for further monitoring. The one or more modules can be executable by a processor to predict the retention requirement including applying the machine learning algorithm to the received metadata to apply the generated rules to categorize the received metadata ...",
+  "date_published": "20180201",
+  "title": "Adaptive Metric Pruning",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q1006",
+    "G06F30484"
+  ],
+  "_processing_info": {
+    "original_size": 74798,
+    "optimized_size": 3475,
+    "reduction_percent": 95.35
+  }
+}

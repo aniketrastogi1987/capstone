@@ -1,0 +1,52 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15239147",
+  "date_published": "20171102",
+  "date_produced": "20171018",
+  "title": "IMAGE-PROCESSING APPARATUS, IMAGE-PROCESSING METHOD, AND COMPUTER PROGRAM PRODUCT",
+  "filing_date": "20160817",
+  "inventor_list": [
+    {
+      "inventor_name_last": "OHMI",
+      "inventor_name_first": "Kunihiko",
+      "inventor_city": "Ishikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MATSUDA",
+      "inventor_name_first": "Kazunori",
+      "inventor_city": "Ishikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TOSAKI",
+      "inventor_name_first": "Gota",
+      "inventor_city": "Ishikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "H04N100",
+    "H04N100",
+    "H04N100",
+    "H04N100",
+    "H04N100",
+    "H04N100",
+    "H04N100",
+    "H04N100",
+    "G06K962"
+  ],
+  "main_ipcr_label": "H04N100",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSURE <EOH>It is an object of the present disclosure to at least partially solve the problems in the conventional technology. An image-processing apparatus according to one aspect of the present disclosure is an image-processing apparatus including a statistical information storage unit that stores temporal statistical information of read images read by an image-reading apparatus, a scan information acquiring unit that acquires scan information of the read images read by the image-reading apparatus, a temporal change data generating unit that generates temporal change data based on the statistical information and the scan information, a threshold determining unit that determines whether the temporal change data satisfy a threshold, and an information outputting unit that outputs notice information when the threshold determining unit determines that the temporal change data fail to satisfy the threshold. An image-processing method according to another aspect of the present disclosure is an image-processing method including a scan information acquiring step of acquiring scan information of read images read by an image-reading apparatus, a temporal change data generating step of generating temporal change data based on temporal statistical information of the read images read by the image-reading apparatus and the scan information, a threshold determining step of determining whether the temporal change data satisfy a threshold, and an information outputting step of outputting notice information when the temporal change data are determined as failing to satisfy the threshold at the threshold determining step. A computer program product according to still another aspect of the present disclosure is a computer program product having a non-transitory tangible computer readable medium including programmed instructions for causing, when executed by a computer, the computer to perform an image-processing method including a scan information acquiring s...",
+  "patent_number": "9955028",
+  "abstract": "According to the present disclosure, an image-processing apparatus acquires scan information of the read images read by the image-reading apparatus, generates temporal change data based on the statistical information and the scan information, determines whether the temporal change data satisfy a threshold, and outputs notice information when the temporal change data are determined as failing to satisfy the threshold.",
+  "publication_number": "US20170318164A1-20171102",
+  "_processing_info": {
+    "original_size": 95232,
+    "optimized_size": 3368,
+    "reduction_percent": 96.46
+  }
+}

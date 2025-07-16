@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15565413",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "filing_date": "20171009",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Quantum circuits are synthesized based on a projective gate set derived from a set of single-qubit gates, typically a basis set such as the Clifford+T gates or the V-gates. An initial projective gate set is used to determine at least one characteristic of a quaternion algebra, and the quaternion algebra is used to define a new projective gate set. Exactly synthesizable unitaries are identified, and a circuit approximating a target unitary is defined in the single-qubit gate set by mapping from the new projective gate set.",
+  "publication_number": "US20180129966A1-20180510",
+  "summary": "<SOH> SUMMARY <EOH>Quantum circuit synthesis methods based on a predetermined single-qubit gate set include determining an initial projective gate set (PGS) associated with the single-qubit gate set. A set of elements of a quaternion algebra related to the PGS is determined, and in some cases, the associated quaternion algebra and elements of the quaternion algebra are established. Based on a maximal order and a set of ideals associated with the quaternion algebra, a final projective gate set (PGS*) is determined. A target unitary is mapped to a set of unitaries that are exactly representable based on PGS*, and based on a PGS/PGS* mapping, the target unitary is synthesized in the single-qubit gate set. Various single-qubit gate sets such as the Clifford+T gates, the V-gates, and the Fibonacci gates can be used. In some cases, target unitaries are approximated using exactly synthesizable unitaries defined by the final projective gate set that are then mapped into the single-qubit gate set.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kliuchnikov",
+      "inventor_name_first": "Vadym",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yard",
+      "inventor_name_first": "Jon",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR QUANTUM CIRCUIT SYNTHESIS USING QUATERNION ALGEBRA",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 49761,
+    "optimized_size": 2244,
+    "reduction_percent": 95.49
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "14915539",
+  "date_published": "20160721",
+  "date_produced": "20160706",
+  "title": "METHOD FOR PROCESSING TRANSACTIONAL DATA, CORRESPONDING DEVICES AND COMPUTER PROGRAMS",
+  "filing_date": "20160229",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Leger",
+      "inventor_name_first": "Michel",
+      "inventor_city": "Saint Germain En Laye",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2036",
+    "G06Q2040",
+    "G06Q2038"
+  ],
+  "main_ipcr_label": "G06Q2036",
+  "summary": "<SOH> 4. SUMMARY OF THE INVENTION <EOH>The present technique at least partly resolves the above-mentioned problems. In particular, the present technique pertains to a method for processing a transaction within a server called an intermediate server. The method comprises: a step for receiving a request for processing coming from a payment terminal connected to said server by means of a communications network; a step for analyzing said request for processing delivering at least one identifier of a digital wallet and an identifier of a digital wallet user; a step for implementing a payment transaction on the basis of said identifier of a digital wallet and said identifier of said digital wallet user and of one or more parameters specific to a transactional server associated with said digital wallet identifier and connected to said server by a communications network; a step for receiving a piece of data, coming from a transactional server, representing acceptance or rejection of the transaction, called a piece of finalizing data; a step for transmitting this piece of finalizing data to said payment terminal. Thus, according to the proposed technique, it is not the payment terminal that processes the transaction and its progress. This task is performed by a server, which can be called an intermediate server or a proxy server, to which the payment terminal transmits a standardized request comprising at least some of the data needed to implement the transaction. It is therefore no longer necessary to have a plurality of applications available within the payment terminal, each application being adapted to a particular payment service provider. The optional character of the specific parameters varies according to the requirements of the transactional server. According to one particular characteristic, said method furthermore comprises a step of decryption of the request for processing by means of a private key proper to said server. Thus, it is ensured that the content of th...",
+  "patent_number": "None",
+  "abstract": "A method is provided for processing a transaction within a server. The method includes: for receiving a processing request, coming from a payment terminal, connected to the server via a communication network; analyzing the processing request delivering at least one digital wallet identifier and a digital wallet user identifier; implementing a payment transaction from the digital wallet identifier and the digital wallet user identifier and at least one parameter specific to a transaction server associated with the digital wallet identifier, and connected to the server by a communication network; receiving, from the transaction server, a finalizing datum representative of the acceptance or rejection of the transaction; and transmitting said finalizing datum to the payment terminal.",
+  "publication_number": "US20160210617A1-20160721",
+  "_processing_info": {
+    "original_size": 58939,
+    "optimized_size": 3399,
+    "reduction_percent": 94.23
+  }
+}

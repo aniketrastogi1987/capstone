@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15442989",
+  "date_published": "20180111",
+  "date_produced": "20171227",
+  "filing_date": "20170227",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Web security methods and apparatus are disclosed herein. A method includes receiving a detection model for detecting malicious webpages via a transceiver of the computing device, and storing the detection model in a non-volatile memory of the computing device. One or more JavaScripts are detected in the webpage, wherein each of the JavaScripts can be separately executed. A feature vector for each of the JavaScripts may be generated, either incrementally as the web page is being loaded or prefetching the JavaScript for the web page, to produce one or more feature vectors for the webpage, wherein a particular feature vector includes values for different features of a JavaScript. Each of the feature vectors are analyzed with the multi-instance learning based detection model to determine whether the webpage from which the JavaScripts originate is malicious or benign.",
+  "publication_number": "US20180012144A1-20180111",
+  "summary": "<SOH> SUMMARY <EOH>An aspect includes a method for detecting malicious webpages stored in a non-volatile memory of a computing device. The method includes detecting multiple JavaScripts in a webpage received at the computing device, wherein each of the JavaScripts can be separately executed. A feature vector is generated for each of the JavaScripts to produce a plurality of feature vectors for the webpage, wherein a particular feature vector includes values for different features of a particular JavaScript. Each of the feature vectors is analyzed with a detection model stored on the computing device to determine whether the webpage from which the JavaScripts originate is malicious or benign, the detection model is a multi-instance-based detection model for analyzing multiple JavaScript instances of a webpage-level-bag. Another aspect includes an apparatus for analyzing and displaying web content. The apparatus includes one or more transceivers for transmitting requests for web content and receiving the web content; a model manager configured maintain a detection model in a non-volatile memory of the computing device; and a webpage processing portion configured to generate requests for the web content, receive the web content, and detect multiple JavaScripts in a webpage, wherein each of the JavaScripts can be separately executed. The apparatus also includes a malicious webpage detector that includes an incremental analysis module configured to incrementally request JavaScripts to render the webpage and analyze the incrementally requested JavaScripts to generate feature vectors as the JavaScripts are incrementally requested; a speculative analysis module configured to prefetch JavaScripts, before the JavaScripts are needed to render the webpage, to generate feature vectors; and a detection module to apply the detection model to the feature vectors to determine whether or not the webpage is malicious.",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2906"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ding",
+      "inventor_name_first": "Wei",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sule",
+      "inventor_name_first": "Dineel",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "De",
+      "inventor_name_first": "Subrato Kumar",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "George",
+      "inventor_name_first": "Sajo Sunder",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ahmad",
+      "inventor_name_first": "Zaheer",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "INCREMENTAL AND SPECULATIVE ANALYSIS OF JAVASCRIPTS BASED ON A MULTI-INSTANCE MODEL FOR WEB SECURITY",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 58509,
+    "optimized_size": 3995,
+    "reduction_percent": 93.17
+  }
+}

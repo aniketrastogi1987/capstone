@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15429216",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "filing_date": "20170210",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "The present disclosure provides a new scalable coordinate descent (SCD) algorithm and associated system for generalized linear models whose convergence behavior is always the same, regardless of how much SCD is scaled out and regardless of the computing environment. This makes SCD highly robust and enables it to scale to massive datasets on low-cost commodity servers. According to one aspect, by using a natural partitioning of parameters into blocks, updates can be performed in parallel a block at a time without compromising convergence. Experimental results on a real advertising dataset are used to demonstrate SCD's cost effectiveness and scalability.",
+  "publication_number": "US20170236072A1-20170817",
+  "summary": "<SOH> SUMMARY <EOH>Aspects and advantages of embodiments of the present disclosure will be set forth in part in the following description, or may be learned from the description, or may be learned through practice of the embodiments. One exemplary aspect of the present disclosure is directed to computer-implemented method. The method includes obtaining, by one or more computing machines, a training dataset useful to machine learn a plurality of model parameters. The training dataset includes a plurality of examples. Each example includes entries for a plurality of features. The plurality of features respectively correspond to the plurality of model parameters. The method further includes partitioning, by the one or more computing machines, the plurality of features into a plurality of blocks. At least one of the plurality of blocks contains at least two features. Another exemplary aspect of the present disclosure is directed to a distributed computing system to perform large-scale machine learning. The system includes a master computing machine that includes at least one processing device. The system includes a plurality of worker computing machines under control of the master computing machine. Each worker computing machine includes at least one processing device. The system is configured to partition a plurality of features of a training dataset into a plurality of blocks. The training dataset includes a plurality of examples. Each example includes entries for the plurality of features. At least one of the plurality of blocks includes at least two features. The system is further configured to perform a plurality of iterations of a machine learning technique to learn a plurality of parameters of a model from the plurality of blocks. The plurality of parameters respectively correspond to the plurality of features. The system is configured to process only one of the plurality of blocks per iteration. Another exemplary aspect of the present disclosure is directed to a...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06F306"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rendle",
+      "inventor_name_first": "Steffen",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fetterly",
+      "inventor_name_first": "Dennis Craig",
+      "inventor_city": "Belmont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shekita",
+      "inventor_name_first": "Eugene J.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Su",
+      "inventor_name_first": "Bor-yiing",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Robust Large-Scale Machine Learning in the Cloud",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 76791,
+    "optimized_size": 3679,
+    "reduction_percent": 95.21
+  }
+}

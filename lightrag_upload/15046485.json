@@ -1,0 +1,52 @@
+{
+  "date_produced": "20161012",
+  "publication_number": "US20160314398A1-20161027",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15046485",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fei",
+      "inventor_name_first": "Geli",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mahmud",
+      "inventor_name_first": "Jalal U.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pal",
+      "inventor_name_first": "Aditya",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhou",
+      "inventor_name_first": "Michelle X.",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments relate to detecting an attitude of a user towards a target prior to or without presence of a direct expression of the attitude. A dictionary is built with a first collection of positive attitude content and a second collection of negative attitude content. In addition, a statistical model of attitude relevance is constructed based on content based similarity metrics. The model utilizes the dictionary and statistically assesses attitude relevance. Based on the assessment the user is classified as relevant or non-relevant for attitude towards the target.",
+  "filing_date": "20160218",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The embodiment(s) include a method for attitude detection. The method is employed to detect attitude prior to or without a direction expression of the attitude. An attitude dictionary is constructed. In one embodiment, a separate dictionary is constructed for different targets. The dictionary mines keywords from content of social media posts, and identifies an expression of relevance. The dictionary is stored at a first memory location. A statistical model of attitude relevance towards each target is built. In one embodiment, a separate model is built for each target. The dictionary generates features for the model. The model is stored at a second memory location. Prior to receipt of a direct expression to a target, a communication from a source is compared to the model, and an attitude classification for the source is created. The comparison converts an identity of the source to the attitude classification. These and other features and advantages will become apparent from the following detailed description of the presently preferred embodiment(s), taken in conjunction with the accompanying drawings.",
+  "date_published": "20161027",
+  "title": "Attitude Detection",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 51557,
+    "optimized_size": 2655,
+    "reduction_percent": 94.85
+  }
+}

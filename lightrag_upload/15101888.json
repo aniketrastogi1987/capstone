@@ -1,0 +1,45 @@
+{
+  "date_produced": "20161012",
+  "publication_number": "US20160314406A1-20161027",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15101888",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wiebe",
+      "inventor_name_first": "Nathan",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Svore",
+      "inventor_name_first": "Krysta",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kapoor",
+      "inventor_name_first": "Ashish",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Nearest neighbor distances are obtained by coherent majority voting based on a plurality of available distance estimates produced using amplitude estimation without measurement in a quantum computer. In some examples, distances are Euclidean distances or are based on inner products of a target vector with vectors from a training set of vectors. Distances such as mean square distances and distances from a data centroid can also be obtained.",
+  "filing_date": "20160603",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. The disclosed methods and apparatus address problems associated with clustering, classification, and distance measure computations on a quantum computer. The disclosed approaches can provide end-to-end solutions in which such computations are performed with a quantum computer. In addition, decision problems can be solved using a number of queries to a quantum oracle that is not explicitly dependent on the number of features in a feature vector. The disclosed approaches also are suitable for a wider range of applications than conventional methods. Quantum computing methods permit determination of inner products and Euclidean distances between elements of data sets. A nearest neighbor to a particular data point can be determined, wherein the neighbor distance is based on a Euclidean distance or an inner product of vectors defined by the data points. In addition, data values can be assigned to one or more data sets corresponding to a nearest cluster of data points. Distances are obtained based on amplitude estimation without measurement, and a median value of a plurality of values is selected. The foregoing and other features, and advantages of the disclosed technology will become more apparent from the following detailed description, which proceeds with reference to the accompanying figures.",
+  "date_published": "20161027",
+  "title": "METHOD AND SYSTEM FOR COMPUTING DISTANCE MEASURES ON A QUANTUM COMPUTER",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F9445"
+  ],
+  "_processing_info": {
+    "original_size": 51534,
+    "optimized_size": 2962,
+    "reduction_percent": 94.25
+  }
+}

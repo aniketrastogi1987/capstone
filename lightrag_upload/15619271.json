@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15619271",
+  "date_published": "20171214",
+  "date_produced": "20171129",
+  "filing_date": "20170609",
+  "main_ipcr_label": "G06N502",
+  "abstract": "An example method comprises receiving a first data stream regarding performance of a monitored system at a first time, determining a plurality of distributions from the first data stream using a density function of a plurality of bins for the data, identifying at least one state for each different distribution of the plurality of distributions to identify a plurality of states, classifying each of the plurality of states into classifications, identifying at least one of the plurality of states as being a problematic state using a first log likelihood ratio, for each state recognizing one or more transitions from or to other states of the plurality of states, receiving a second data stream of the monitored system at a second time, identifying a precursor state indicating at least a potential future transition to the-problematic state, and generating a warning before the monitored system enters the problematic state.",
+  "publication_number": "US20170357897A1-20171214",
+  "summary": "<SOH> SUMMARY OF THE INVENTION(S) <EOH>An example method comprises receiving a first data stream regarding performance of a monitored system at a first time, determining a plurality of distributions from the first data stream, identifying at least one state for each different distribution of the plurality of distributions to identify a plurality of states, classifying each of the plurality of states into classifications, identifying at least one of the plurality of states as being a problematic state, for each state of the plurality of states, recognizing one or more transitions from or to other states of the plurality of states, receiving a second data stream indicating performance of the monitored system at a second time, identifying a precursor state of the plurality of states based on the second data stream indicating at least a potential future transition to the problematic state, and generating a warning before the monitored system enters the problematic state, thereby enabling the monitored system or an operator to make changes in the monitored system to reach another state of the plurality of states before the transition to the problematic state. This may include data from a sensor or transactional business data. In some embodiments, the data stream may be received from application performance management (APM) tools providing metric information regarding performance of at least one application. In various embodiments, determining the plurality of distribution from the data stream comprises computing probabilities across dimensions of the first data stream and aggregating the probabilities into the plurality of distributions. The method may comprise generating a list of states based on the identified plurality of states. In some embodiments, the first data stream is regarding a single metric of the monitored system. Identifying the precursor state of the plurality of states based on the second data stream may include identifying the precursor state based on a...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Adlakha",
+      "inventor_name_first": "Sachin",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "O'Neill",
+      "inventor_name_first": "Daniel C.",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pham",
+      "inventor_name_first": "Peter T.",
+      "inventor_city": "Hollister",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "STREAMING DATA DECISION-MAKING USING DISTRIBUTIONS WITH NOISE REDUCTION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 113006,
+    "optimized_size": 3800,
+    "reduction_percent": 96.64
+  }
+}

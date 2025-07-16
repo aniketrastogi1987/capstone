@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15584611",
+  "date_published": "20180426",
+  "date_produced": "20180411",
+  "filing_date": "20170502",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A method to reduce a neural network includes: adding a reduced layer, which is reduced from a layer in the neural network, to the neural network; computing a layer loss and a result loss with respect to the reduced layer based on the layer and the reduced layer; and determining a parameter of the reduced layer based on the layer loss and the result loss.",
+  "publication_number": "US20180114110A1-20180426",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. In one general aspect, a method to reduce a neural network includes: adding a first reduced layer, which is reduced from a first layer in the neural network, to the neural network; computing a first layer loss and a first result loss with respect to the first reduced layer based on the first layer and the first reduced layer; and determining a parameter of the first reduced layer based on the first layer loss and the first result loss. The determining of the parameter of the first reduced layer may include: computing a network loss based on the first layer loss and the first result loss; and determining the parameter of the first reduced layer to reduce the network loss. The method may further include: removing the first layer from the neural network, in response to the network loss being less than a threshold loss. The computing of the network loss may include: determining a layer weight to be applied to the first layer loss to be a value greater than a result weight to be applied to the first result loss, in response to the network loss being greater than or equal to an initial loss; and computing the network loss based on the layer weight, the first layer loss, the result weight, and the first result loss. The method may further include: determining a layer weight to be applied to the first layer loss to be a value greater than a result weight to be applied to the first result loss, in response to the network loss being less than an initial loss; and computing the network loss based on the first layer weight, the first layer loss, the first result weight, and the first result loss. The computing of the ...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N3063",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Seung Ju",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Jung Bae",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Jae Joon",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Chang Kyu",
+      "inventor_city": "Seongnam-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "METHOD AND APPARATUS TO REDUCE NEURAL NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 67948,
+    "optimized_size": 3334,
+    "reduction_percent": 95.09
+  }
+}

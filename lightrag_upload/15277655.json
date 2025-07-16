@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15277655",
+  "date_published": "20170119",
+  "date_produced": "20170104",
+  "title": "METHOD FOR DISTRIBUTING COMPUTING BETWEEN SERVER AND CLIENT",
+  "filing_date": "20160927",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Charles",
+      "inventor_name_first": "John Francis",
+      "inventor_city": "Blackburn",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F944",
+    "H04L2908"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to the present invention in a first aspect, there is provided a method for use in running a display-based computer application, the application comprising a plurality of application segments, involving distributing computing between a server on a server computer and a client on a client computer, the server and client computers operatively interconnected by way of a computer network, the method comprising the steps of: providing a generic client engine to the client computer, the client engine comprising an application manager, one or more display managers, and one or more load managers; providing a collection of individual application subset definition files each relating to one of said application segments; wherein, on receipt of successive application subset definition files from the server, the client recursively transforms to provide the respective application segments. An application subset definition file may define components or layout characteristics within one or more display areas (such as windows) associated with the respective segment. Preferably, an application subset definition file defines only information relating to component or layout characteristics to be added or removed between successive segments. In a further aspect, the invention provides a computer program embodied on a computer readable medium for carrying out the above method. The method of the invention is therefore able to provide a business solution which comprises a collection of segments, by way of the generic client engine and the individual application subset definition files. To run the business solution, the client engine is loaded or installed only once, to then be resident on the client machine. The client is then able to transform itself using the application subset definition files, the client maintaining state information between client-server requests/responses, the definition files utilised to incrementally update the client. T...",
+  "patent_number": "None",
+  "abstract": "A method and system for use in running a display-based computer application comprising a plurality of application segments, where computing is distributed between a server and a client computer. The method comprises the steps of providing a generic client engine (20) to the client computer, the client engine comprising an application manager (24), one or more display managers (22), and one or more load managers (26), providing a collection of individual application subset definition files (18), each relating to one of said application segments, wherein, on receipt of successive application subset definition files from the server, the client recursively transforms to provide the respective application segments. The invention has broad utility in a wide variety of display-based computer applications, particularly in wireless applications.",
+  "publication_number": "US20170019507A1-20170119",
+  "_processing_info": {
+    "original_size": 74933,
+    "optimized_size": 3426,
+    "reduction_percent": 95.43
+  }
+}

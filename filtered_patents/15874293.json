@@ -1,0 +1,82 @@
+{
+  "inventor_list": [
+    {
+      "inventor_name_last": "AMBECK-MADSEN",
+      "inventor_name_first": "Jonas",
+      "inventor_city": "Bruxelles",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "RATEAU",
+      "inventor_name_first": "Aymeric",
+      "inventor_city": "Woluwe Saint Lambert",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "MASTROLEO",
+      "inventor_name_first": "Marcello",
+      "inventor_city": "Acquaviva Delle Fonti",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "SASSI",
+      "inventor_name_first": "Federico",
+      "inventor_city": "Poviglio",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "UGOLOTTI",
+      "inventor_name_first": "Roberto",
+      "inventor_city": "San Polo D'Enza",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "BACCHINI",
+      "inventor_name_first": "Alessandro",
+      "inventor_city": "Fidenza",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "MUSSI",
+      "inventor_name_first": "Luca",
+      "inventor_city": "Parma",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "ASCARI",
+      "inventor_name_first": "Luca",
+      "inventor_city": "Parma",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    }
+  ],
+  "filing_date": "20180118",
+  "ipcr_labels": [
+    "G06N300",
+    "G06N304",
+    "G06N9900",
+    "G10L2527"
+  ],
+  "main_ipcr_label": "G06N300",
+  "date_published": "20180607",
+  "date_produced": "20180523",
+  "publication_number": "US20180157957A1-20180607",
+  "title": "SYSTEM AND COMPUTER-BASED METHOD FOR SIMULATING A HUMAN-LIKE CONTROL BEHAVIOUR IN AN ENVIRONMENTAL CONTEXT",
+  "summary": "<SOH> OBJECT AND SUMMARY OF THE INVENTION <EOH>The invention aims to improve a memory prediction framework global efficiency by performing an invertible dimensionality reduction on the inter-node communication which allows a data-dependent bi-directional mapping between high- and low-dimensional spaces. This goal is reached thanks to a computer based method for realising a bi-directional compression of data by compressing high dimensional data into a lower dimensional map, e.g. a two- or three-dimensional map, the method comprising a reception of data with a first dimension greater than one, for example data captured and transmitted by at least one sensor, and a compression of said data or attributes derived from said data, such as segments of GPS data or segments of data of the on-board electronic control unit of a vehicle, into compressed data with a second dimension lower than the first dimension. According to a general feature of this computer based method, for two metric spaces X=(x,μ x ) and Y=(y,μ y ) with x a first space which dimension is greater or equal than the dimension of a second space y, μ x a first metric on said first space x, μ y a metric on said second space y, and P being a first set of n points belonging to said first space x, a point being an element of a space, the compression is realized by finding a second set of n points Q belonging to said second space y such that: in-line-formulae description=\"In-line Formulae\" end=\"lead\"? Q =argmin tϵy n d ( A 1 (μ x ( P )), A 2 ( t )))  (Equation 1) in-line-formulae description=\"In-line Formulae\" end=\"tail\"? where d(.,.) is a symmetric distance function on the space of square matrices, while A 1 and A 2 are any two functions holding the following properties, A being any of A 1 or A 2 functions: A: R 4→ [0, 1], A(0)=1, lim x→∞ A(z)=0, A(z 1 )>A(z 2 ) if and only if z 1 <z 2 . A 1 and A 2 can be any function holding said properties, including: A  ( z ) = e - z s with s>0, or A  ( z ) = e - ( z s ) 2 , ...",
+  "application_number": "15874293",
+  "abstract": "A computer-based method for simulating a human-like decision in an environmental context, comprising: capturing environmental data with at least one sensor, realising a computer based method for realising a bi-directional compression of high dimensional data by compressing the data into a lower-dimensional map, if environmental data are captured during a learning phase of a computer-based model, evaluate the map of compressed data by determining the quality of the map by how well it separates data with different properties, the captured data corresponding to known pre-recorded data that have been pre-evaluated, if environmental data are captured after the learning phase, add new point to the compressed data and generate a signal indicating which human-like decision to use to correspond to the state of the operator.",
+  "decision": "PENDING",
+  "patent_number": "nan",
+  "_processing_info": {
+    "original_size": 88106,
+    "optimized_size": 4576,
+    "reduction_percent": 94.81
+  }
+}

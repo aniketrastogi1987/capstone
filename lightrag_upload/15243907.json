@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180207",
+  "publication_number": "US20180053086A1-20180222",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15243907",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Chun-Chen",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hao",
+      "inventor_name_first": "Kangli",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Liu",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A neural network including a controller and plural neurons is provided. The controller is configured to generate a forward propagation instruction in a computation process. Each neuron includes an instruction register, a storage device, and an application-specific computation circuit. The instruction register is configured to receive the forward propagation instruction from the controller and temporarily storing the forward propagation instruction. The storage device is configured to store at least one input and at least one learnable parameter. The application-specific computation circuit is invariably configured to dedicate to computations related to the neuron. In response to the forward propagation instruction received by the instruction register, the application-specific computation circuit is configured to perform a computation on the at least one input and the at least one learnable parameter according to an activation function and to feed back a computation result to the storag...",
+  "filing_date": "20160822",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>To solve the aforementioned problem, a new artificial neuron and controlling method thereof are provided. One embodiment according to the invention is a neural network including a controller and a plurality of neurons. The controller is configured to generate a forward propagation instruction in a computation process. Each neuron includes an instruction register, a storage device, and an application-specific computation circuit. The instruction register is configured to receive and temporarily store the forward propagation instruction provided by the controller. The storage device is configured to store at least one input data and at least one learnable parameter for this neuron. The application-specific computation circuit is configured to dedicate on computations related to the neuron. In response to the forward propagation instruction received by the instruction register, the application-specific computation circuit performs a computation on the at least one input and the at least one learnable parameter according to an activation function and to feed back a computation result to the storage device. Another embodiment according to the invention is an artificial neuron including a storage device and a computation circuit. The storage device is configured to store at least one input, at least one learnable parameter, and a look-up table including plural sets of parameters that describe an activation function. The computation circuit is configured to first generate an index based on the at least one input and the at least one learnable parameter, and then find out, based on the look-up table, an output value corresponding to the index in the activation function as a computation result of this neuron. Another embodiment according to the invention is a controlling method for an artificial neuron. First, an index is generated based on at least one input and at least one learnable parameter of this artificial neuron. Then, based on a ...",
+  "date_published": "20180222",
+  "title": "ARTIFICIAL NEURON AND CONTROLLING METHOD THEREOF",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 29830,
+    "optimized_size": 3838,
+    "reduction_percent": 87.13
+  }
+}

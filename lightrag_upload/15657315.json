@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15657315",
+  "date_published": "20180201",
+  "date_produced": "20180117",
+  "filing_date": "20170724",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A method and system for predicting a next navigation event are described. Aspects of the disclosure minimize the delay between a navigation event and a network response by predicting the next navigation event. The system and method may then prerender content associated with the next navigation event. For example, the method and system may predict a likely next uniform resource locator during web browsing to preemptively request content from the network before the user selects the corresponding link on a web page. The methods describe a variety of manners of predicting the next navigation event, including examining individual and aggregate historical data, text entry prediction, and cursor input monitoring.",
+  "publication_number": "US20180032877A1-20180201",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A method and system for predicting user navigation events are described. Aspects of the disclosure minimize the delay in accessing web content by predicting a user navigation event on a web page. The navigation event may be predicted by various indicators, including but not limited to a user's navigation history, aggregate navigation history, text entry within a data entry field, or a mouse cursor position. Users can be provided with an opportunity to op in/out of functionality that may collect personal information about users. In addition, certain data can be anonymized and aggregated before it is stored or used, such that personally identifiable information is removed. Aspects of the disclosure provide a computer-implemented method for predicting a user navigation event. The method may include tracking a first text input to a text field using a computer processor, the text field functioning to direct network navigation operations of a web browser, consulting a set of probability data to determine a most likely network navigation destination using the text input, and prerendering the most likely network navigation destination using the web browser. The method may also include generating the set of probability data by a method comprising, monitoring one or more previous text inputs to the text field, displaying one or more potential network navigation destinations associated with each of the previous text inputs in response to the one or more previous text inputs, and storing selection data indicating whether the displayed one or more potential network navigation destinations were selected, the data associating each of the one or more previous text inputs with the one or more potential network navigation destinations. The probability data may be indexed by the previous text inputs. In some aspects, the probability data may be indexed by an identifier comprising one of the previous text inputs and a likely network navigation destination. The ...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jain",
+      "inventor_name_first": "Arvind",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hamon",
+      "inventor_name_first": "Dominic",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "PREDICTING USER NAVIGATION EVENTS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 83096,
+    "optimized_size": 3398,
+    "reduction_percent": 95.91
+  }
+}

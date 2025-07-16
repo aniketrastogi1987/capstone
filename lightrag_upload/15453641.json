@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15453641",
+  "date_published": "20171123",
+  "date_produced": "20171108",
+  "filing_date": "20170308",
+  "main_ipcr_label": "G06N304",
+  "abstract": "The present disclosure is drawn to the reduction of parameters in fully connected layers of neural networks. For a layer whose output is defined by y=Wx, where y ∈ Rm is the output vector, x ∈ Rn is the input vector, and W ∈ Rmxn is a matrix of connection parameters, matrices Uij and Vij are defined and submatrices Wij are computed as the product of Uij and Vij, so that Wij=VijUij, and W is obtained by appending submatrices Wi,j.",
+  "publication_number": "US20170337465A1-20171123",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure is drawn to the reduction of parameters in fully connected layers of neural networks. For a layer whose output is defined by y=Wx, where y ∈ R m is the output vector, x ∈ R n is the input vector, and W ∈ R mxn is a matrix of connection parameters, matrices U ij and V ij are defined and submatrices W ij are computed as the product of U ij and V ij , so that W ij =V ij U ij , and W is obtained by appending submatrices W i,j . In accordance with a first broad aspect, there is provided a method for creating a neural network layer. The method comprises partitioning an m-dimensional output vector y into equally sized subvectors y i of length s and an n-dimensional input vector x into equally sized subvectors x j of length t, where s is a divisor of m and t is a divisor of n. Matrices U ij ∈ R rxt and V ij ∈ R sxr of rank r are defined for i=(1, . . . , m/s) and j=(1, . . . , n/t), where r≦min (s, t). A plurality of submatrices W ij are computed as a product of matrices U ij and matrices V ij , and the output vector y is determined from y=W·x, where W is a matrix composed of the plurality of submatrices W ij for i=(1, . . . , m/s) and j=(1, . . . , n/t). In some embodiments, determining the output vector y from y=W·x comprises computing y i =Σ j=1 n/t (W ij x j ) and determining the output vector y as y=[y 1 , y 2 , y 3 , . . . , y m /s ]. In some embodiments, determining the output vector y from y=W·x comprises appending submatrices W ij to obtain matrix W, and computing y=W·x. In some embodiments, the method further comprises storing the matrices V ij and U ij . In some embodiments, the method further comprises retrieving the stored matrices V ij and U ij to compute the submatrices W i,j . In some embodiments, the neural network is a feedforward neural network and/or a deep neural network. In some embodiments, defining matrices V ij and U ij is performed during a training phase of the neural network. In accordance with another br...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SOZUBEK",
+      "inventor_name_first": "Serdar",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "DALTON",
+      "inventor_name_first": "Barnaby",
+      "inventor_city": "Mississauga",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "COURVILLE",
+      "inventor_name_first": "Vanessa",
+      "inventor_city": "Etobicoke",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "TAYLOR",
+      "inventor_name_first": "Graham",
+      "inventor_city": "Guelph",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "REDUCTION OF PARAMETERS IN FULLY CONNECTED LAYERS OF NEURAL NETWORKS BY LOW RANK FACTORIZATIONS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 37899,
+    "optimized_size": 3546,
+    "reduction_percent": 90.64
+  }
+}

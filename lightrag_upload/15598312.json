@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15598312",
+  "date_published": "20171130",
+  "date_produced": "20171115",
+  "filing_date": "20170518",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A machine learning device learning a condition associated with an end-of-life failure of an electronic component in network-connected equipment connected to a network, including a state observation unit that observes a state variable obtained based on at least one of a hardware configuration, manufacturing information, an operating status, a use condition, and an output from a sensor detecting a state of a surrounding environment of the network-connected equipment; a determination data acquisition unit that acquires determination data on determination of presence or absence of the end-of-life failure or a degree of the end-of-life failure of the electronic component in the network-connected equipment; and a learning unit that learns, based on training data created from an output from the state observation unit and an output from the determination data acquisition unit, and teacher data, a condition associated with the end-of-life failure of the electronic component in the network-conne...",
+  "publication_number": "US20170344909A1-20171130",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>According to a first aspect of the present invention, there is provided a machine learning device learning a condition associated with an end-of-life failure of an electronic component in network-connected equipment, including a state observation unit that observes a state variable obtained based on at least one of a hardware configuration, manufacturing information, an operating status, a use condition, and an output from a sensor detecting a state of a surrounding environment of the network-connected equipment; a determination data acquisition unit that acquires determination data on determination of presence or absence of the end-of-life failure or a degree of the end-of-life failure of the electronic component in the network-connected equipment; and a learning unit that learns, based on training data created from an output from the state observation unit and an output from the determination data acquisition unit, and teacher data, a condition associated with the end-of-life failure of the electronic component in the network-connected equipment. The learning unit may include an error calculation unit that calculates an error between the training data and the teacher data; and a learning model update unit that updates, based on an output from the state observation unit, an output from the determination data acquisition unit and an output from the error calculation unit, a learning model defining an error in the condition associated with the end-of-life failure of the electronic component in the network-connected equipment. The machine learning device may be present on a fog server. The fog server may control at least one cell including pieces of equipment via a first network. The machine learning device may be present on a cloud server. The cloud server may control, via a second network, at least one fog server to which at least one cell including pieces of equipment is linked via a first network. The machine learning device may be ...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KUROKAWA",
+      "inventor_name_first": "Yuuki",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MATSUDAIRA",
+      "inventor_name_first": "Tetsurou",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TANABE",
+      "inventor_name_first": "Yoshikiyo",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "MACHINE LEARNING DEVICE, FAILURE PREDICTION DEVICE, MACHINE SYSTEM AND MACHINE LEARNING METHOD FOR LEARNING END-OF-LIFE FAILURE CONDITION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 35378,
+    "optimized_size": 3940,
+    "reduction_percent": 88.86
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "patent_number": "None",
+  "application_number": "15677319",
+  "date_published": "20180222",
+  "date_produced": "20180207",
+  "filing_date": "20170815",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "The present teaching relates to method system, and medium for generating knowledge for a chat bot. Training data are used to learn and generating knowledge and are received with at least some labeled training seeds and unlabeled conversation data. The training data are parsed and various linguistic elements are extracted therefrom. Such linguistic elements are then used to perform automated learning in accordance with at least one label used in labeling the training seeds. Based on the automated learning, at least one model associated with the at least one label is generated from the training data.",
+  "publication_number": "US20180053119A1-20180222",
+  "summary": "<SOH> SUMMARY <EOH>The teachings disclosed herein relate to methods, systems, and programming for online services. More particularly, the present teaching relates to methods, systems, and programming for developing a virtual agent that can have a dialog with a user. In one example, a method implemented on a computer having at least one processor, a storage, and a communication platform for generating knowledge for a chat bot. Training data are received that are to be used to learn and generate knowledge. The received training data have at least some labeled training seeds and unlabeled conversation data. The training data are then parsed and various linguistic elements are extracted therefrom. Such linguistic elements are then used to perform automated learning in accordance with at least one label used in labeling the training seeds. Based on the automated learning, at least one model associated with the at least one label is generated from the training data. In a different example, a system for generating knowledge for a virtual agent is disclosed to comprise a parser, an information extractor, and a model generator. The parser is configured for receiving, training data for learning and generating knowledge, wherein the training data include at least one labeled training seed and un-labeled conversation data. The information extractor is configured for extracting a plurality of linguistic elements from the received training data. The model generator is configured for performing automated learning based on the extracted plurality of linguistic elements and in accordance with at least one label used to label the at least one labeled training seed and generating at least one model associated with the at least one label based on a result of the automated learning performed based on both at least one labeled training seed and unlabeled conversation data. Other concepts relate to software for implementing the present teaching on developing a virtual agent. A software pr...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1727",
+    "G06N300"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zeng",
+      "inventor_name_first": "Huajun",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yi",
+      "inventor_name_first": "Xing",
+      "inventor_city": "Milpitas",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jin",
+      "inventor_name_first": "Roger",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Yunfei",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR SEMI-SUPERVISED LEARNING IN GENERATING KNOWLEDGE FOR INTELLIGENT VIRTUAL AGENTS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 142972,
+    "optimized_size": 3795,
+    "reduction_percent": 97.35
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "date_produced": "20180411",
+  "publication_number": "US20180114133A1-20180426",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15299656",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chowdhary",
+      "inventor_name_first": "Mahesh",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kumar",
+      "inventor_name_first": "Arun",
+      "inventor_city": "New Delhi",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Singh",
+      "inventor_name_first": "Ghanapriya",
+      "inventor_city": "New Delhi",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Meer",
+      "inventor_name_first": "Kashif R. J.",
+      "inventor_city": "New Delhi",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Kar",
+      "inventor_name_first": "Indra Narayan",
+      "inventor_city": "New Delhi",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Bahl",
+      "inventor_name_first": "Rajendar",
+      "inventor_city": "New Delhi",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "Disclosed herein is a method of operating an electronic device. The method includes activating a first sensing device, and determining a first probabilistic context of the electronic device relative to its surroundings. The method includes outputting the first probabilistic context, and determining a confidence measure of the first probabilistic context. Where the confidence measure of the first probabilistic context is below a threshold, the method includes activating a second sensing device, determining a second probabilistic context of the electronic device relative to its surroundings. outputting the second probabilistic context, and determining a confidence measure of the second probabilistic context. Where the confidence measure of the second probabilistic context is above the threshold, the second sensing device is deactivated and the method returns to determining the first probabilistic context.",
+  "filing_date": "20161021",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce a selection of concepts that are further described below in the detailed description. This summary is not intended to identify key or essential features of the claimed subject matter, nor is it intended to be used as an aid in limiting the scope of the claimed subject matter. This disclosure relates to the method and apparatus for determining a mobile or wearable device user's context in an energy efficient manner while providing a desired level of classification accuracy. The energy optimization is based on determining the sensors to be used at a given time and accordingly switching on/off or putting them selectively in normal/low power mode. The algorithmic framework is flexible to allow trade-off between energy efficiency and context detection accuracy. The computational architecture outputs the probability of some or all the different contexts given the data from one or more sensors. The probability output is used to determine the degree of confidence in the detected context class and thereby determine whether additional sensors are to be switched on to improve the confidence, or whether some sensor(s) are to be switched off as their data is/are not useful in further improving the confidence of the classification result. For example, if the context refers to the type of motion activity that the user of a mobile or wearable device is engaged in, then the suite of embedded sensors used for this task may include the accelerometer, barometer, gyroscope, and microphone. The number of sensors to be used at a given time may be determined from the perspective of energy efficiency and context classification accuracy. Disclosed herein is a method of operating an electronic device. The method includes activating a first sensing device, and determining a first probabilistic context of the electronic device relative to its surroundings. The method includes outputting the first probabilistic context, and determining a c...",
+  "date_published": "20180426",
+  "title": "METHOD AND APPARATUS FOR ENERGY EFFICIENT PROBABILISTIC CONTEXT AWARENESS OF A MOBILE OR WEARABLE DEVICE USER BY SWITCHING BETWEEN A SINGLE SENSOR AND MULTIPLE SENSORS",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F132"
+  ],
+  "_processing_info": {
+    "original_size": 65303,
+    "optimized_size": 4318,
+    "reduction_percent": 93.39
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15720056",
+  "date_published": "20180405",
+  "date_produced": "20180322",
+  "filing_date": "20170929",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A machine learning apparatus determines an order in which numerical values in an input dataset are to be entered to a neural network for data classification, based on a reference pattern that includes an array of reference values to provide a criterion for ordering the numerical values. The machine learning apparatus then calculates an output value of the neural network whose input-layer neural units respectively receive the numerical values arranged in the determined order. The machine learning apparatus further calculates an input error at the input-layer neural units, based on a difference between the calculated output value and a correct classification result indicated by a training label. The machine learning apparatus updates the reference values in the reference pattern, based on the input error at the input-layer neural units.",
+  "publication_number": "US20180096247A1-20180405",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, there is provided a non-transitory computer-readable storage medium storing a learning program that causes a computer to perform a procedure including: obtaining an input dataset including a set of numerical values and a training label indicating a correct classification result corresponding to the input dataset; determining an input order in which the numerical values in the input dataset are to be entered to a neural network for data classification, based on a reference pattern that includes an array of reference values to provide a criterion for ordering the numerical values; calculating an output value of the neural network whose input-layer neural units respectively receive the numerical values arranged in the input order; calculating an input error at the input-layer neural units of the neural network, based on a difference between the calculated output value and the correct classification result indicated by the training label; and updating the reference values in the reference pattern, based on the input error at the input-layer neural units. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the invention.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06K966",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MARUHASHI",
+      "inventor_name_first": "Koji",
+      "inventor_city": "Hachioji",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR MACHINE LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 73552,
+    "optimized_size": 2827,
+    "reduction_percent": 96.16
+  }
+}

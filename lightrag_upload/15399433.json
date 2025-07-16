@@ -1,0 +1,37 @@
+{
+  "patent_number": "nan",
+  "application_number": "15399433",
+  "date_published": "20170706",
+  "date_produced": "20170621",
+  "filing_date": "20170105",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Roughly described, the technology disclosed provides a so-called machine learned conversion optimization (MLCO) system that uses evolutionary computations to efficiently identify most successful webpage designs in a search space without testing all possible webpage designs in the search space. The search space is defined based on webpage designs provided by marketers. Website funnels with a single webpage or multiple webpages are represented as genomes. Genomes identify different dimensions and dimension values of the funnels. The genomes are subjected to evolutionary operations like initialization, testing, competition, and procreation to identify parent genomes that perform well and offspring genomes that are likely to perform well. Each webpage is tested only to the extent that it is possible to decide whether it is promising, i.e., whether it should serve as a parent for the next generation, or should be discarded.",
+  "publication_number": "US20170193403A1-20170706",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings, like reference characters generally refer to like parts throughout the different views. Also, the drawings are not necessarily to scale, with an emphasis instead generally being placed upon illustrating the principles of the technology disclosed. In the following description, various implementations of the technology disclosed are described with reference to the following drawings, in which: FIG. 1 depicts a conversion system that implements evolutionary computations to identify high performing candidate individuals in a candidate search space. FIG. 2 illustrates modules that can be used to implement the evolutionary computations of the conversion system in FIG. 1 . FIG. 3 shows a workflow of the disclosed machine learned conversion optimization (MLCO). FIG. 4 illustrates a funnel with multiple webinterfaces. FIG. 5 depicts a webinterface layout of a funnel. FIG. 6 shows a webinterface of a funnel with its dimensions and dimension values. FIG. 7 is a symbolic drawing of one implementation of transforming an editor design representation of a starter funnel into a runtime design representation. FIG. 8 depicts a symbolic drawing of one implementation of encoding starter dimensions and starter dimension values of a starter funnel. FIG. 9 illustrates one implementation of encoding starter dimensions and starter dimension values of a starter funnel into a starter candidate individual/starter genome. FIG. 10 depicts one implementation of initializing a first generation based on a starter funnel. FIG. 11 shows a symbolic drawing of one implementation of procreating new candidate individuals using a crossover technique. FIG. 12 is a symbolic drawing of one implementation of procreating candidate individuals using a mutation technique. FIGS. 13 and 14 show one implementation of generating funnels of one or more webinterfaces in dependence upon corresponding candidate individuals for frontend presentation to the end...",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "ISCOE",
+      "inventor_name_first": "Neil",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MIIKKULAINEN",
+      "inventor_name_first": "Risto",
+      "inventor_city": "Stanford",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "MACHINE LEARNING BASED WEBINTERFACE GENERATION AND TESTING SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 117569,
+    "optimized_size": 3632,
+    "reduction_percent": 96.91
+  }
+}

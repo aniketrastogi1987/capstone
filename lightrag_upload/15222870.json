@@ -1,0 +1,52 @@
+{
+  "date_produced": "20161102",
+  "publication_number": "US20160335540A1-20161117",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15222870",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hinton",
+      "inventor_name_first": "Geoffrey E.",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Krizhevsky",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sutskever",
+      "inventor_name_first": "Ilya",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Srivastva",
+      "inventor_name_first": "Nitish",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "A system for training a neural network. A switch is linked to feature detectors in at least some of the layers of the neural network. For each training case, the switch randomly selectively disables each of the feature detectors in accordance with a preconfigured probability. The weights from each training case are then normalized for applying the neural network to test data.",
+  "filing_date": "20160728",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, a system for training a neural network is provided, the system comprising a switch linked to a plurality of feature detectors of the neural network, the switch operable to randomly selectively disable each of the plurality of feature detectors for each of a plurality of training cases. In another aspect, a method for training a neural network is provided.",
+  "date_published": "20161117",
+  "title": "SYSTEM AND METHOD FOR ADDRESSING OVERFITTING IN A NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 29042,
+    "optimized_size": 1782,
+    "reduction_percent": 93.86
+  }
+}

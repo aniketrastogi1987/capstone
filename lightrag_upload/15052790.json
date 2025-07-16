@@ -1,0 +1,31 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15052790",
+  "date_published": "20170323",
+  "date_produced": "20170309",
+  "title": "MESSAGE DISPATCHER FOR PAYMENT SYSTEM",
+  "filing_date": "20160224",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Vadera",
+      "inventor_name_first": "Kshitiz",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2034",
+    "G06Q2020"
+  ],
+  "main_ipcr_label": "G06Q2034",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The above and other features of the present disclosure, its nature and various advantages will be more apparent upon consideration of the following detailed description, taken in conjunction with the accompanying drawings in which: FIG. 1 shows an illustrative block diagram of a payment system in accordance with some embodiments of the present disclosure; FIG. 2 depicts an illustrative block diagram of a payment device and payment reader in accordance with some embodiments of the present disclosure; FIG. 3 depicts a block diagram of a payment reader in accordance with some embodiments of the present disclosure; FIG. 4 depicts a block diagram of components of an NFC chip in accordance with some embodiments of the present disclosure; FIG. 5 depicts a software block diagram of a payment reader in accordance with some embodiments of the present disclosure; and FIG. 6 depicts a non-limiting flow diagram illustrating exemplary steps for processing messages with a message dispatcher module and functional modules in accordance with some embodiments of the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "9613350",
+  "abstract": "A payment reader includes a contactless interface for communicating with a contactless device. The payment reader has a processor that executes instructions stored in memory, and the instructions include instructions for a plurality of firmware modules including a message dispatcher module and a plurality of functional modules. The functional modules generate messages and the message dispatcher module stores the messages in a queued data structure such as a stack or a queue. The messages are provided to the functional modules from the queued data structure. Some of the messages are timed messages that are returned to the queued data structure.",
+  "publication_number": "US20170083904A1-20170323",
+  "_processing_info": {
+    "original_size": 88844,
+    "optimized_size": 2389,
+    "reduction_percent": 97.31
+  }
+}

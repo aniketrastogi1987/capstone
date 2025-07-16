@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15369495",
+  "date_published": "20170323",
+  "date_produced": "20170309",
+  "title": "RELIABILITY RESOURCE ALLOCATION METHOD AND APPARATUS",
+  "filing_date": "20161205",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YIN",
+      "inventor_name_first": "Jie",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "GONG",
+      "inventor_name_first": "Xiaodong",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F950",
+    "H04L1224",
+    "G06F9455",
+    "H04L12911"
+  ],
+  "main_ipcr_label": "G06F950",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure provide a reliability resource allocation method and apparatus, so as to resolve a technical problem that it is difficult for a reliability resource allocation solution in the prior art to accurately meet a reliability requirement of a user. According to a first aspect, an embodiment of the present disclosure provides a reliability resource allocation method, including: receiving, by a network functions virtualization orchestrator NFVO, a reliability requirement of a user for an application service; decomposing, by the NFVO, the reliability requirement to determine a reliability requirement of a virtual machine providing the application service; selecting, by the NFVO from a preset reliability information base according to the reliability requirement of the virtual machine, a reliability resource that meets the reliability requirement of the virtual machine, where the reliability information base includes a mapping relationship between at least one first reliability mechanism running on at least one first node and a first reliability capability, and the reliability resource includes a second node and a second reliability mechanism running on the second node; and sending, by the NFVO, the reliability resource to a virtualized infrastructure manager VIM, so that the VIM starts the reliability resource. With reference to the first aspect, in a first possible implementation manner of the first aspect, before the receiving, by an NFVO, a reliability requirement of a user for an application service, the method further includes: obtaining, by the NFVO, the at least one first reliability mechanism that can be deployed on the at least one first node and a reliability parameter of the at least one first node; and establishing, by the NFVO, the reliability information base according to the at least one first reliability mechanism that can be deployed on the at least one first node and the reliability parameter of the at ...",
+  "patent_number": "None",
+  "abstract": "The present disclosure provides a reliability resource allocation method and apparatus. The method includes: receiving, by an NFVO (network functions virtualization orchestrator), a reliability requirement of a user for an application service; decomposing, by the NFVO, the reliability requirement to determine a reliability requirement of a virtual machine providing the application service; selecting, by the NFVO from a preset reliability information base according to the reliability requirement of the virtual machine, a reliability resource that meets the reliability requirement of the virtual machine; and sending, by the NFVO, the reliability resource to a VIM (virtualized infrastructure manager), so that the VIM starts the reliability resource. According to the method provided in embodiments of the present disclosure, the reliability requirement of the user for the application service can be accurately met.",
+  "publication_number": "US20170083374A1-20170323",
+  "_processing_info": {
+    "original_size": 87421,
+    "optimized_size": 3635,
+    "reduction_percent": 95.84
+  }
+}

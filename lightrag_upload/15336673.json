@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170419",
+  "publication_number": "US20170124451A1-20170504",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15336673",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Barham",
+      "inventor_name_first": "Paul Ronald",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vasudevan",
+      "inventor_name_first": "Vijay",
+      "inventor_city": "Los Altos Hills",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for receiving, by a computational graph system, a request to process a computational graph; obtaining data representing a subgraph of the computational graph, the computational graph comprising a plurality of nodes and directed edges, wherein each node represents a respective operation, wherein each directed edge connects a respective first node to a respective second node, the subgraph assigned to a first device by a placer in the computational graph system; determining that the first device comprises a hardware accelerator having a plurality of streams; in response to determining, generating instructions that when executed by the first device cause the first device to: assign the operation represented by each node in the subgraph to a respective stream; and perform the operations represented by the nodes in the subgraph in accordance with the assignment.",
+  "filing_date": "20161027",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, this specification describes a system for processing subgraphs of a computational graph using a stream-based accelerator device, e.g., a GPU. In general, one innovative aspect of the subject matter described in this specification can be embodied in methods that include the actions of receiving, by a computational graph system, a request to process a computational graph; obtaining data representing a subgraph of the computational graph, the computational graph comprising a plurality of nodes and directed edges, wherein each node represents a respective operation, wherein each directed edge connects a respective first node to a respective second node that represents an operation that receives, as input, an output of an operation represented by the respective first node, the subgraph assigned to a first device by a placer in the computational graph system; determining that the first device comprises a graphical processing unit having a plurality of streams; in response to determining that the first device comprises a graphical processing unit having a plurality of streams, generating instructions that when executed by the first device cause the first device to: assign the operation represented by each node in the subgraph to a respective stream in the plurality of streams of the graphical processing unit; and perform the operations represented by the nodes in the subgraph in accordance with the assignment; and providing the instructions and the data to the first device. Implementations can include one or more of the following features. The request specifies identifying one or more particular outputs from one or more respective nodes in the subgraph, further comprising: receiving, from the first device, the one or more particular outputs; and providing the one or more particular outputs to the client. The instructions further cause the first device to store the one or more particular outputs in memory of the first device. The operations fo...",
+  "date_published": "20170504",
+  "title": "STREAM-BASED ACCELERATOR PROCESSING OF COMPUTATIONAL GRAPHS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 80055,
+    "optimized_size": 3688,
+    "reduction_percent": 95.39
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "date_produced": "20180103",
+  "publication_number": "US20180018582A1-20180118",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15293553",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Unsal",
+      "inventor_name_first": "Cem",
+      "inventor_city": "Alameda",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mukherjee",
+      "inventor_name_first": "Saikat",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Meike",
+      "inventor_name_first": "Roger Charles",
+      "inventor_city": "Redwood City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method and system learns functions to be associated with data fields of forms to be incorporated into an electronic document preparation system. The functions are essentially sets of operations required to calculate the data field. The method and system receive form data related to a data field that expects data values resulting from performing specific operations. The method and system utilize machine learning and training set data to generate, test, and evaluate candidate functions to determine acceptable functions.",
+  "filing_date": "20161014",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure provide a technical solution to the longstanding problems discussed herein, and thus solve some of the shortcomings associated with traditional electronic document preparation systems by providing methods and systems for automatically incorporating new or updated forms by utilizing machine learning using genetic programming and genetic algorithms in conjunction with training set data. In particular, embodiments of the present disclosure receive form data of or related to a new or updated form that includes data fields to be completed. Embodiments of the present disclosure determine one or more possible dependencies for one or more data fields. Embodiments of the present disclosure utilize machine learning and genetic algorithms to quickly and accurately determine an acceptable function needed to complete the one or more data fields. Embodiments of the present disclosure gather training set data that includes previously filled forms related to the new and/or updated form in order to assist in the machine learning process. The training set data may also include fabricated data prepared by human users reviewing the form. The machine learning process for learning and incorporating the new and/or updated form includes generating candidate functions for one or more data fields of the new and/or updated form. In one embodiment, the generation of the candidate functions takes into account the one or more possible dependencies. The candidate functions include, in various embodiments, one or more operators selected from a set of operators including logical, mathematical, and other functionality. The machine learning process applies the candidate functions to the training set data in order to determine the accuracy of the candidate functions. For each data field, embodiments of the present disclosure generate and apply candidate functions in successive iterations until an acceptable candidate function is found that produ...",
+  "date_published": "20180118",
+  "title": "SYSTEM AND METHOD FOR AUTOMATIC LEARNING OF FUNCTIONS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1724",
+    "G06Q4000"
+  ],
+  "_processing_info": {
+    "original_size": 224761,
+    "optimized_size": 3391,
+    "reduction_percent": 98.49
+  }
+}

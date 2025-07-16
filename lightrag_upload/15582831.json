@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15582831",
+  "date_published": "20171102",
+  "date_produced": "20171018",
+  "filing_date": "20170501",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A computer-based method includes receiving an input signal at a neuron in a computer-based neural network that includes a plurality of neuron layers, applying a first non-linear transform to the input signal at the neuron to produce a plain signal, and calculating a weighted sum of a first component of the input signal and the plain signal at the neuron. In a typical implementation, the first non-linear transform is a function of the first component of the input signal and at least a second component of the input signal.",
+  "publication_number": "US20170316308A1-20171102",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In one aspect, a computer-based method includes receiving an input signal at a neuron in a computer-based neural network that comprises a plurality of neuron layers, applying a first non-linear transform to the input signal at the neuron to produce a plain signal, and calculating a weighted sum of a first component of the input signal and the plain signal at the neuron. In another aspect, a computer-based neural network includes a plurality of layers of neurons, where each layer of neurons comprises a plurality of neurons. One or more of the neurons includes an input to receive an input signal, a means for applying a first non-linear transform to the input signal to produce a plain signal, a means for calculating a weighted sum of a first component of the input signal and the plain signal, and an output to send the calculated weighted sum out of the neuron. In yet another aspect, a training method is disclosed that applies to a computer-based neural network. The computer-based neural network includes a plurality of layers of neurons, where each layer of neurons comprises a plurality of neurons. One or more of the neurons includes a means for applying a first non-linear transform to an input signal to produce a plain signal, a first gate configured to apply a second non-linear transform to the input signal to produce a transform signal, and a second gate configured to apply a third non-linear transform to the input signal to produce a carry signal, and a means for calculating a weighted sum of a first component of the input signal and the plain signal. The training method includes initializing parameters associated with each of the first, second and/or third of the non-linear transforms for each of a plurality of the neurons in the computer-based neural network, analyzing an input by passing an associated input signal through the computer-based neural network in a forward direction to produce an output signal at an output of the co...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Srivastava",
+      "inventor_name_first": "Rupesh Kumar",
+      "inventor_city": "Lugano",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Greff",
+      "inventor_name_first": "Klaus",
+      "inventor_city": "Massagno",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "title": "HIGHLY TRAINABLE NEURAL NETWORK CONFIGURATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 73832,
+    "optimized_size": 3218,
+    "reduction_percent": 95.64
+  }
+}

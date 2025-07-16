@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15261693",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "title": "SENSITIVE DATA MANAGEMENT",
+  "filing_date": "20160909",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Boutnaru",
+      "inventor_name_first": "Shlomi",
+      "inventor_city": "Modiin",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "H04L2906"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE FIGURES <EOH>FIG. 1 is a block diagram of an example computing system for data file management. FIG. 2 is a block diagram of an example computer system suitable for implementing one or more devices of the computing system in FIG. 1 . FIG. 3 is a flow diagram illustrating an example file modification process for tracking data files. FIG. 4 is a flow diagram illustrating an example process for managing data files. FIG. 5 illustrates an example data file tree for viewing and/or as part of a graphical user interface. FIG. 6 illustrates an example block diagram of data clusters with a data file stored on the data clusters and slack space for storing additional information. detailed-description description=\"Detailed Description\" end=\"lead\"? The detailed description that follows provides several embodiments and advantages of the system of the present disclosure. It should be appreciated that like reference numerals are used to identify like elements illustrated in one or more of the figures, whereas showings therein are for purposes of illustrating embodiments of the present disclosure and not for purposes of limiting the same.",
+  "patent_number": "None",
+  "abstract": "A system for discovering and monitoring data movement across the file system on a specific device or across the network, which enables to detect data leakage and locate specific data across the organization. The system tracks files by having devices maintain a record of hash values associated with a file in a tables of hash values. The memory used to maintain the records of each file can be distributed to each device carrying the files. The system can analyze the data leak of a file by receiving a hash value of a file and requesting devices to search and respond with information about files that have the same hash value. Furthermore, based on the table of hash values for all the files, the system can recreate the origination of each file and the number of different versions that exist of the file.",
+  "publication_number": "US20180075058A1-20180315",
+  "_processing_info": {
+    "original_size": 52614,
+    "optimized_size": 2503,
+    "reduction_percent": 95.24
+  }
+}

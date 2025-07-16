@@ -1,0 +1,39 @@
+{
+  "date_produced": "20161220",
+  "publication_number": "US20170004412A1-20170105",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15193676",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chaba",
+      "inventor_name_first": "Piotr J.",
+      "inventor_city": "Wilmington",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Baker",
+      "inventor_name_first": "Daniel J.",
+      "inventor_city": "Letchworth",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Systems and methods are provided for improving communication by various computing systems in a network. Each computing system can be used to receive and process data. The data can be associated with a process represented by a chain of tasks. The computing systems can determine various parameters associated with the chain of tasks for determining a risk associated with the chain of tasks. The computing system can also determine a risk associated with multiple chains of tasks and aggregate the risks associated with the multiple chains of tasks. Determining the risk associated with each chain of tasks in the multiple chains of tasks can normalize a risk represented by the chains of tasks. Determining the risk associated with each chain of tasks or normalizing the risks represented by the chains can improve communication by the various computing systems in the network.",
+  "filing_date": "20160627",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one example, a method of the present disclosure includes receiving a data set associated with a clinical trial. The data set can include data about various tasks to be completed for planning or implementing the clinical trial and a predetermined date for completing the various tasks. The method can further include storing the data set and generating a chain of tasks based on the stored data by determining a relationship between tasks within the multiple tasks and electronically converting the stored data into the chain of tasks based on the relationship. The method can further include receiving a first subset of data associated with the chain of tasks, which can include data for determining a progress of completing the chain of tasks. The method also includes determining a buffer index associated with the chain of tasks based on the first subset of data. The buffer index can correspond to a likelihood of completing the chain of tasks by the predetermined date and the buffer index can be used to determine when a processing device receives or processes an additional data set. The method further includes generating an interface for display that includes data associated with the chain of tasks, the first subset of data, or the buffer index. In another example, a system of the present disclosure includes a processing device and non-transitory computer-readable medium that is communicatively coupled to the processing device. The processing device is configured to perform operations including receiving a data set associated with a clinical trial. The data set can include data about various tasks to be completed for planning or implementing the clinical trial and a predetermined date for completing the various tasks. The processing device is also configured to perform operations including storing the data set and generating a chain of tasks based on the stored data by determining a relationship between tasks within the multiple tasks and electronically...",
+  "date_published": "20170105",
+  "title": "Normalizing Data Sets for Predicting an Attribute of the Data Sets",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F948",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 94452,
+    "optimized_size": 3604,
+    "reduction_percent": 96.18
+  }
+}

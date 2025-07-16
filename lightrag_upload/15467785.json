@@ -1,0 +1,115 @@
+{
+  "patent_number": "9818067",
+  "application_number": "15467785",
+  "date_published": "20170928",
+  "date_produced": "20170915",
+  "filing_date": "20170323",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A self-learning system for categorizing log entries may be provided. A text classifier may identify a log description of a log entry in response to text of the log description being associated with indicators of a word model. A datafield classifier may generate a datafield metrics including an accuracy of the categorical identifiers representing the datafield. A metafield classifier may generate a context metrics for the context of the log entry, the context metrics including an accuracy categorical identifiers representing the metafields. A combination classifier may form a weighted classification set and select a categorical identifier as being representative of the datafield based on the weighted classification set. A categorical controller may identify new categories based on an analysis of the context metrics of the log entry.",
+  "publication_number": "US20170278015A1-20170928",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments may be better understood with reference to the following drawings and description. The components in the figures are not necessarily to scale. Moreover, in the figures, like-referenced numerals designate corresponding parts throughout the different views. FIG. 1A-B illustrates an example of a system to classify a log entry. FIG. 2 illustrates an example of a text classifier. FIG. 3 illustrates an example of a multiclass classifier. FIG. 4 illustrates an example of a combination classifier FIG. 5A-B illustrates a flow logic of a system. FIG. 6 illustrates an example of a categorical controller. FIG. 7A-B illustrates an example of a closed loop controller. FIG. 8 illustrates an example of a system that includes a memory and a processor. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Miranda",
+      "inventor_name_first": "Abhilash Alexander",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Jubete",
+      "inventor_name_first": "Laura Alvarez",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Corcoran",
+      "inventor_name_first": "Medb",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Burgin",
+      "inventor_name_first": "Edward",
+      "inventor_city": "Nottingham",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Renker",
+      "inventor_name_first": "Kristine",
+      "inventor_city": "Grand Rapids",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Timmermans",
+      "inventor_name_first": "Kris",
+      "inventor_city": "Everberg",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "De Maeseneer",
+      "inventor_name_first": "Kimberly",
+      "inventor_city": "Knokke-Heist",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "Reychler",
+      "inventor_name_first": "Amaury",
+      "inventor_city": "Woluwe-Saint-Lambert",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "Shuda",
+      "inventor_name_first": "Shinichiro",
+      "inventor_city": "El Segundo",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Willems",
+      "inventor_name_first": "Robert",
+      "inventor_city": "Miami",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "O'Malley",
+      "inventor_name_first": "Laura",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Bhowan",
+      "inventor_name_first": "Urvesh",
+      "inventor_city": "Bray Wicklow",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Sacristan",
+      "inventor_name_first": "Pedro",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "title": "SELF-LEARNING LOG CLASSIFICATION SYSTEM",
+  "decision": "ACCEPTED",
+  "_processing_info": {
+    "original_size": 148973,
+    "optimized_size": 4050,
+    "reduction_percent": 97.28
+  }
+}

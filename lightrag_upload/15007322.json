@@ -1,0 +1,31 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15007322",
+  "date_published": "20160825",
+  "date_produced": "20160810",
+  "title": "FILE DEDUPLICATION IN A FILE SYSTEM",
+  "filing_date": "20160127",
+  "inventor_list": [
+    {
+      "inventor_name_last": "TOSAKA",
+      "inventor_name_first": "Eiji",
+      "inventor_city": "Yamato",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1114",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1114",
+  "summary": "<SOH> SUMMARY OF THE DESCRIBED EMBODIMENTS <EOH>The present invention, in one embodiment, includes mechanisms for shortening the time required for deduplication of a file without utilizing file data thereof. Additionally, these mechanisms allow deduplication of multiple duplicate files without utilizing file data thereof even when at least one of the duplicate files is compressed or encrypted. Accordingly, in one embodiment, the present invention provides a method for file deduplication in a file system, comprising: receiving one of a new file creation instruction, a file copy instruction, and a file update instruction specifying at least a file directory and a file name; storing or updating inode information for a file upon creation, copying, or update of the file; acquiring identification information which is newly assigned to the file upon creation, copying, or update of the file and is inherited by the file from a different file if the file is a copy of the different file, to thereby make a content of the file identifiable, wherein the identification information includes world wide unique identification (WWUID); storing the identification information and an inode information number in the file directory; storing the file name together and the identification information in an extended directory; determining whether or not first identification information and second identification information match each other, the first identification information being the identification information acquired by the acquisition unit and assigned to a first file, the second identification information being the identification information acquired by the acquisition unit and assigned to a second file; if the first identification information is determined to match the second identification information, preventing the first file and the second file from being stored as duplicate files in the file system; registering, in count information, an increase in the number of pieces of identific...",
+  "patent_number": "9710336",
+  "abstract": "A worldwide unique identifier (WWUID) is newly assigned to a file upon the creation or update of the file and is inherited from a file to a copied file when the file is copied. In a backup apparatus, a file name reception unit receives the file name of a backup target file. A WWUID reception unit receives a WWUID corresponding to the file name. A WWUID search unit searches for the same WWUID in backup management information of a previous day stored in a backup destination. Only if the search is failed, a file operation instruction unit instructs the storing of the backup target file into the backup destination. Then, an Rcnt update instruction unit instructs the updating of the number of references made to the WWUID within the backup destination. A second management information update instruction unit then instructs the updating of backup management information of the current day.",
+  "publication_number": "US20160246682A1-20160825",
+  "_processing_info": {
+    "original_size": 100173,
+    "optimized_size": 3428,
+    "reduction_percent": 96.58
+  }
+}

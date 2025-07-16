@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170524",
+  "publication_number": "US20170161639A1-20170608",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15316366",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ZENG",
+      "inventor_name_first": "Guangxiang",
+      "inventor_city": "Anhui",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "TIAN",
+      "inventor_name_first": "Jilei",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CAO",
+      "inventor_name_first": "Yang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CHIN",
+      "inventor_name_first": "Alvin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "A method, apparatus and computer-readable storage medium for determining one or more recommendations by applying efficient adaptive matrix factorization are disclosed. The method comprises causing, at least in part, an iterative performing of the following steps: a using of a current data set to optimize parameters used to adapt a current matrix factorization model by the end of the current time period, and a training of a current matrix factorization model and the current data set by the end of the current time period, based on the optimized parameters, to obtain an adapted matrix factorization model for service in a next time period.",
+  "filing_date": "20161205",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments of the invention are illustrated by way of example, and not by way of limitation, in the figures of the accompanying drawings: FIG. 1 is a diagram of a system capable of determining one or more recommendations by applying efficient adaptive matrix factorization, according to one embodiment; FIG. 2 is a diagram of the components of an incremental platform, according to one embodiment; FIG. 3 is a flowchart of a process for determining one or more recommendations by applying efficient adaptive matrix factorization, according to one embodiment; FIG. 4 is a flowchart of a process for determining a optimal value for parameter used to adapt the matrix factorization, according to one embodiment; FIG. 5 shows a diagram for determining a optimal value for parameter used to adapt the matrix factorization, according to one embodiment; FIG. 6 is a flowchart of a process for determining an initial recommendation by applying efficient adaptive matrix factorization, according to one embodiment; FIG. 7 is a flowchart of a process for providing one or more recommendations with association information, according to one embodiment; FIGS. 8A-8C show a performance of a highly-efficient matrix factorization based recommendation algorithm for streaming data, according to various embodiments; FIG. 9 is a diagram of hardware that can be used to implement an embodiment of the invention; FIG. 10 is a diagram of a chip set that can be used to implement an embodiment of the invention; and FIG. 11 is a diagram of a mobile terminal (e.g., handset) that can be used to implement an embodiment of the invention. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170608",
+  "title": "METHOD AND APPARATUS FOR RECOMMENDATION BY APPLYING EFFICIENT ADAPTIVE MATRIX FACTORIZATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716"
+  ],
+  "_processing_info": {
+    "original_size": 102631,
+    "optimized_size": 3385,
+    "reduction_percent": 96.7
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15361119",
+  "date_published": "20170525",
+  "date_produced": "20170510",
+  "title": "USER TERMINAL APPARATUS AND CONTROL METHOD THEREOF",
+  "filing_date": "20161125",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KANG",
+      "inventor_name_first": "Seong-min",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Heung-woo",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T700",
+    "G06F1900",
+    "G09B1900",
+    "G06K962"
+  ],
+  "main_ipcr_label": "G06T700",
+  "summary": "<SOH> SUMMARY <EOH>Exemplary embodiments overcome the above disadvantages and other disadvantages not described above. Also, an exemplary embodiment is not required to overcome the disadvantages described above, and an exemplary embodiment may not overcome any of the problems described above. Exemplary embodiments provide a user terminal apparatus that allows a user to conveniently input food that the user eats through recognition of an image and a control method thereof. According to an aspect of an exemplary embodiment, there is provided a user terminal apparatus including: a camera configured to obtain a captured image; a storage configured to store a food intake history; a processor configured to extract a food image from the captured image and determine a food type of a food item included in the captured image based on feature information of the extracted food image and the previously stored food intake history; and a display configured to display relevant information about the determined food type. The processor may apply a weight to each food type based on the food intake history, and, if the food item is determined to be one of a plurality of different food types, determine the food item included in the captured image to be of a food type having a highest weight among the plurality of different food types. The food intake history may include kinds food types that have been eaten by a user and respective intake frequencies associated with the food types, and the processor may apply the weight to each food type in accordance with an order of intake frequency and store the food intake history in the storage. The processor may control the display to display a list of food types determined based on the feature information of the extracted food. The list may be sorted in order of weight. The processor may determine the extracted food image to be of a food type selected from the list according to a user input. The processor may store the captured image in the stora...",
+  "patent_number": "None",
+  "abstract": "A user terminal apparatus is provided. The user terminal apparatus includes a camera configured to obtain a captured image; a storage configured to store a food intake history; a processor configured to extract a food image from the captured image and determine a food type of a food item included in the captured image based on feature information of the extracted food image and the previously stored food intake history; and a display configured to display relevant information about the determined food type.",
+  "publication_number": "US20170148162A1-20170525",
+  "_processing_info": {
+    "original_size": 83038,
+    "optimized_size": 3222,
+    "reduction_percent": 96.12
+  }
+}

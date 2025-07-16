@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15607007",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "filing_date": "20170526",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "A method for operating an artificial neuron and an apparatus for performing the method are provided. The artificial neuron may calculate a change amount of an activation based on an input signal received via an input synapse, determine whether an event occurs in response to the calculated change amount of the activation, and transmit, to an output synapse, an output signal that corresponds to the event in response to an occurrence of the event.",
+  "publication_number": "US20180018558A1-20180118",
+  "summary": "<SOH> SUMMARY <EOH>Exemplary embodiments may address at least the problems mentioned above and/or other problems not mentioned above. Also, the exemplary embodiments are not required to overcome the problems mentioned above, and an exemplary embodiment may not overcome any one of the problems mentioned above. According to an aspect of an exemplary embodiment, there is provided a method which is performable by using a neural network, the method including determining a current activation of an artificial neuron based on a previous activation of the artificial neuron and an input signal received via an input synapse of the artificial neuron, determining a change amount of a first activation based on the current activation and a second activation that corresponds to an event that previously occurred due to the artificial neuron, determining whether a new event occurs based on a first threshold and the determined change amount of the first activation, and transmitting, to an output synapse, an output signal that corresponds to the new event in response to an occurrence of the new event. The new event may occur in response to a crossing of the determined change amount of the first activation and the first threshold. The output signal may include a sign bit that indicates a direction of a crossing of the determined change amount and the first threshold. The method may further include receiving a second threshold that corresponds to a previous layer connected via the input synapse, wherein the determining of the current activation may include determining the current activation based on the previous activation, the input signal, and the second threshold. The output signal may include the determined change amount of the first activation approximated as a predetermined degree of a bit precision. The predetermined degree of the bit precision may be adjusted based on at least one from among a degree of requirement accuracy and a volume of available resources. The first threshold...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06F300"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Jun Haeng",
+      "inventor_city": "Hwaseong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "NEIL",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "LIU",
+      "inventor_name_first": "Shih-Chii",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "DELBRUCK",
+      "inventor_name_first": "Tobi",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "title": "METHOD FOR NEURAL NETWORK AND APPARATUS PERFORMING SAME METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 102494,
+    "optimized_size": 3436,
+    "reduction_percent": 96.65
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15648047",
+  "date_published": "20180208",
+  "date_produced": "20180124",
+  "filing_date": "20170712",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Systems and methods identify and provide interesting facts about an entity. An example method includes selecting documents associated with at least one unique fact trigger, the documents being from a document repository. The method also includes generating entity-sentence pairs from the documents and, for a first entity of the entities represented by the entity-sentence pairs, clustering the entity-sentence pairs for the first entity using salient terms occurring in the sentence. The method also includes determining a representative sentence for each of the clusters and providing at least one of the representative sentences in response to a query that identifies the first entity. Another example method includes determining that a query relates to an entity in a knowledge base, determining that the entity has an associated unique fact list, and providing at least one of the unique facts in the list in response to the query.",
+  "publication_number": "US20180039889A1-20180208",
+  "summary": "<SOH> SUMMARY <EOH>Implementations provide an improved search engine that automatically identifies and provides unique facts in response to a query for a particular entity. For example, implementations may identify and extract sentences that represent unique facts for an entity from a document repository, determine the best facts, and provide one or more of these facts in response to a query directed toward the entity. The query may specifically request unique or fun facts for the entity or may be a query directed to the entity. The system may automatically select high-quality, well-supported facts over facts expressed in a poor fashion or facts that lack support. The system may use poorly-formed sentences and sentences that require context to support a fact but may not provide such sentences in response to the query. In some implementations, the system may cluster sentences so that sentences supporting a particular fact are clustered together and may select one sentence from the cluster as a representative sentence for the cluster. The sentences provided in response to the query may be the representative sentences and the system may analyze the representative sentences to ensure that duplicate facts are not displayed. The sentences may be displayed in a random order or, in some implementations, the sentences and clusters may be scored so that higher-scoring representative sentences are provided ahead of lower-scoring sentences. The sentences may be provided with a link to the source document from which they were extracted. According to certain aspects, a system includes a data store storing unique fact triggers and a query handling system. The query handling system can include at least one processor and a memory storing instructions that, when executed by the at least one processor, cause the query handling system to perform operations. The operations include selecting, from a document repository, documents associated with at least one unique fact trigger and gener...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nanavati",
+      "inventor_name_first": "Akash",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ray",
+      "inventor_name_first": "Aniket",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rohlfing",
+      "inventor_name_first": "Torsten",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SURFACING UNIQUE FACTS FOR ENTITIES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 109624,
+    "optimized_size": 3772,
+    "reduction_percent": 96.56
+  }
+}

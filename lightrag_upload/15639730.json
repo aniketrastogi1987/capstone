@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15639730",
+  "date_published": "20171019",
+  "date_produced": "20171004",
+  "filing_date": "20170630",
+  "main_ipcr_label": "G06N504",
+  "abstract": "According to one aspect, there is provided a method for predicting floor information for a destination call. The method comprises storing, in a memory, destination call history entries about destination calls made by a user, each destination call history entry comprising a time stamp and a source and destination floor pair for a destination call; detecting an intention of the user to make a new destination call; and predicting a destination floor for the new destination call based on the current time and the stored destination call history entries of the user.",
+  "publication_number": "US20170300820A1-20171019",
+  "summary": "<SOH> SUMMARY <EOH>According to a first aspect of the invention, there is a method for predicting floor information for a destination call. The method comprises storing, in a memory, destination call history entries about destination calls made by a user, each destination call history entry comprising a time stamp and a source and destination floor pair for a destination call; detecting an intention of the user to make a new destination call; and predicting a destination floor for the new destination call based on the current time and the stored destination call history entries of the user. In one embodiment, the method comprises predicting a source floor for the new destination call based on the current time and the stored destination call history entries. In one embodiment, alternatively or in addition, the method comprises dividing time of day to a plurality of time slots, and associating each destination call history entry with a time slot corresponding to the time stamp of the destination call. In one embodiment, alternatively or in addition, predicting the destination floor for the new destination call comprises determining the time slot corresponding to the current time, and determining which source and destination floor pairs are associated in the destination call history entries multiple times for the determined time slot. In one embodiment, alternatively or in addition, the method comprises selecting a destination floor from the source and destination floor pairs associated in the destination call history entries multiple times for the determined time slot as the predicted destination floor. In one embodiment, alternatively or in addition, the method comprises selecting the destination floor having the highest occurrence number in the determined time slot. In one embodiment, alternatively or in addition, the method comprises selecting a source and destination floor pair from the source and destination floor pairs associated in the destination call history ...",
+  "ipcr_labels": [
+    "G06N504",
+    "B66B134",
+    "B66B146"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Raitola",
+      "inventor_name_first": "Pasi",
+      "inventor_city": "Helsinki",
+      "inventor_state": "",
+      "inventor_country": "FI"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR PREDICTING FLOOR INFORMATION FOR A DESTINATION CALL",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 52336,
+    "optimized_size": 3149,
+    "reduction_percent": 93.98
+  }
+}

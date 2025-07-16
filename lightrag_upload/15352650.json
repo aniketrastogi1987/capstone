@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140300A1-20170518",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15352650",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Funakoshi",
+      "inventor_name_first": "Kotaro",
+      "inventor_city": "Wako-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Iwahashi",
+      "inventor_name_first": "Naoto",
+      "inventor_city": "Soja-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A classification apparatus includes: a calculation unit that outputs, as a classification result, results of classification by each of a plurality of classifiers with respect to learning data formed of data of at least two classes at a learning time and calculates a combination result value obtained by linear combination, using a combination coefficient, of results of classification by each of the plurality of classifiers with respect to the learning data to output the calculated combination result value as the classification result at a classification time; an extraction unit that extracts a correct solution class and an incorrect solution class for each of the classifiers from the classification result; a difference calculation unit that calculates a difference between the correct solution class and the incorrect solution class for each of the classifiers; a conversion unit that calculates a feature vector using the calculated difference for each of the classifiers; and a combination...",
+  "filing_date": "20161116",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>However, according to the technique described in Japanese Unexamined Patent Application, First Publication No. 2008-102856, there is a problem in that it is necessary to obtain a scalar product for each input vector, and the calculation amount is increased. In view of the foregoing, an object of an aspect of the present invention is to provide a classification apparatus, a robot, and a classification method capable of reducing a calculation amount. (1) In order to achieve the above object, a classification apparatus according to an aspect of the present invention includes: a calculation unit that outputs, as a classification result, results of classification by each of a plurality of classifiers with respect to learning data formed of data of at least two classes at a learning time and calculates a combination result value obtained by linear combination, using a combination coefficient, of results of classification by each of the plurality of classifiers with respect to the learning data formed of data of at least two classes to output the calculated combination result value as the classification result at a classification time; an extraction unit that extracts a correct solution class and an incorrect solution class other than the correct solution class for each of the classifiers from the classification result; a difference calculation unit that calculates the difference between the correct solution class and the incorrect solution class for each of the classifiers; a conversion unit that calculates a feature vector using the calculated difference for each of the classifiers; and a combination coefficient setting unit that learns, using a support vector machine, a value based on the feature vector with respect to a plurality of the learning data and thereby updates the combination coefficient, wherein input data is classified using the updated combination coefficient. (2) In the classification apparatus according to an aspect of the present inve...",
+  "date_published": "20170518",
+  "title": "CLASSIFICATION APPARATUS, ROBOT, AND CLASSIFICATION METHOD",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 103535,
+    "optimized_size": 3708,
+    "reduction_percent": 96.42
+  }
+}

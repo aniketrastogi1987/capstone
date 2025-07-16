@@ -1,0 +1,54 @@
+{
+  "patent_number": "None",
+  "application_number": "15421219",
+  "date_published": "20170622",
+  "date_produced": "20170607",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "In an example embodiment, a supervised machine learning algorithm is used to train a communication reply score model based on an extracted first set of features and second set of features from social networking service member profiles and activity and usage information. When a plurality of member search results is to be displayed, for the member identified in each of the plurality of member search results, the member profile corresponding to the member is parsed to extract a third set of one or more features from the member profile, activity and usage information pertaining to actions taken by the members on the social networking service is parsed to extract a fourth set of one or more features, and the extracted third set of features and fourth set of features is inputted into the communication reply score model to generate a communication reply score, which is displayed visually to a searcher.",
+  "publication_number": "US20170178031A1-20170622",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments of the technology are illustrated, by way of example and not limitation, in the figures of the accompanying drawings. FIG. 1 is a block diagram illustrating a client-server system, in accordance with an example embodiment. FIG. 2 is a block diagram showing the functional components of a social networking service, including a data processing module referred to herein as a search engine, for use in generating and providing search results for a search query, consistent with some embodiments of the present disclosure. FIG. 3 is a block diagram illustrating an application server module of FIG. 2 in more detail. FIG. 4 is a block diagram illustrating the communication reply score generator of FIG. 3 in more detail, in accordance with an example embodiment. FIG. 5 is a screen capture illustrating an example user interface, in accordance with an example embodiment. FIG. 6 is a screen capture illustrating a user interface, in accordance with another example embodiment. FIG. 7 is a screen capture illustrating a user interface, in accordance with another example embodiment. FIG. 8 is a flow diagram illustrating a method, in accordance with an example embodiment, for providing an indication of a probability that a member of a social networking service will respond to an electronic communication sent via the social networking service. FIG. 9 is a block diagram illustrating a representative software architecture, which may be used in conjunction with various hardware architectures herein described. FIG. 10 is a block diagram illustrating components of a machine, according to some example embodiments, able to read instructions from a machine-readable medium (e.g., a machine-readable storage medium) and perform any one or more of the methodologies discussed herein. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "H04L1258",
+    "G06Q5000"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhu",
+      "inventor_name_first": "Qiang",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Liang",
+      "inventor_name_first": "Keqing",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rigano",
+      "inventor_name_first": "Peter Hume",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tague",
+      "inventor_name_first": "Matthew Steven",
+      "inventor_city": "San Mateo",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "MEMBER COMMUNICATION REPLY SCORE CALCULATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 87957,
+    "optimized_size": 3840,
+    "reduction_percent": 95.63
+  }
+}

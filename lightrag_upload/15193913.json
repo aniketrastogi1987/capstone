@@ -1,0 +1,38 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15193913",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "title": "METHOD AND SYSTEM FOR CALIBRATION OF A FINGERPRINT SENSING DEVICE",
+  "filing_date": "20160627",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Andersson",
+      "inventor_name_first": "Markus",
+      "inventor_city": "LOMMA",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "Danielsson",
+      "inventor_name_first": "Mikael",
+      "inventor_city": "Hollviken",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K903",
+    "G06K900"
+  ],
+  "main_ipcr_label": "G06K903",
+  "summary": "<SOH> SUMMARY <EOH>In view of above-mentioned desired properties of a fingerprint sensor, it is an object of the present invention to provide a method for determining when to perform a calibration operation ensuring a more accurate and power efficient operation of a fingerprint sensor. According to a first aspect of the invention, there is provided a method of initiating a calibration operation of a fingerprint sensing device comprising an array of sensing elements for sensing a fingerprint pattern, the method comprising acquiring information indicative of a change of an environmental parameter influencing the operation of the fingerprint sensing device; and if the change is larger than a predetermined threshold value, performing a calibration operation of the fingerprint sensing device. The fingerprint sensing device, i.e. the fingerprint sensor, may for example be a capacitive fingerprint sensor where a fingerprint image is acquired by measuring a capacitive coupling between a finger placed on the sensor and the sensing element, thereby determining the distance between the sensing element and the finger, such that ridges and valleys of the finger are identified. A fingerprint sensor arranged in an electronic device is typically calibrated at selected points in time to setup the fingerprint sensor for image capture under the current conditions. The present invention is based on the realization that the calibration of the fingerprint sensor can be triggered to occur only when it is required, e.g. only when the external environment of the fingerprint sensor has changed to such a degree that it is unlikely that the latest performed calibration would provide an optimal, or satisfactory, fingerprint image. Accordingly, it is suggested to only initiate and perform a calibration of the fingerprint sensor only when an acquired parameter value exceeds a predetermined threshold value. The calibration functionality in itself can be assumed to be a known feature of the fingerp...",
+  "patent_number": "None",
+  "abstract": "There is provided a method of initiating a calibration operation of a fingerprint sensing device comprising an array of sensing elements for sensing a fingerprint pattern, the method comprising acquiring information indicative of a change of an environmental parameter influencing the operation of the fingerprint sensing device; and if the change is larger than a predetermined threshold value, performing a calibration operation of the fingerprint sensing device. There is also provided a method of initiating a calibration operation of a fingerprint sensing device comprising an array of sensing elements for sensing a fingerprint pattern, the method comprising: receiving information indicative of an event in a device in which the fingerprint sensing device is arranged; if the event is one of a group of predetermined events, performing a calibration operation of the fingerprint sensing device.",
+  "publication_number": "US20170140233A1-20170518",
+  "_processing_info": {
+    "original_size": 52488,
+    "optimized_size": 3613,
+    "reduction_percent": 93.12
+  }
+}

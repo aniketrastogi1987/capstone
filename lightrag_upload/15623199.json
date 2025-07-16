@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15623199",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "filing_date": "20170614",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A learning agent is disclosed that receives data in sequence from one or more sequential data sources; generates a model modelling sequences of data and actions; and selects an action maximizing the expected future value of a reward function, wherein the reward function depends at least partly on at least one of: a measure of the change in complexity of the model, or a measure of the complexity of the change in the model. The measure of the change in complexity of the model may be based on, for example, the change in description length of the first part of a two-part code describing one or more sequences of received data and actions, the change in description length of a statistical distribution modelling, the description length of the change in the first part of the two-part code, or the description length of the change in the statistical distribution modelling.",
+  "publication_number": "US20170364829A1-20171221",
+  "summary": "<SOH> SUMMARY <EOH>The following summary is included in order to provide a basic understanding of some aspects and features of the invention. This summary is not an extensive overview of the invention and as such it is not intended to particularly identify key or critical elements of the invention or to delineate the scope of the invention. Its sole purpose is to present some concepts of the invention in a simplified form as a prelude to the more detailed description that is presented below. A solution for reinforcement learning using an intrinsic reward function that requires no task-specific programming, and instead rewards the act of learning itself. In essence, learning is its own reward. Such a function may be employed to drive a general agent, or may be used in combination with a task-specific reward function as an alternative to ad-hoc exploit-vs-explore heuristics. The main feature of the invention that sets it apart from previous intrinsically motivated learning agents is a reward function based on the change in the complexity of the learned model, or the complexity of the change of the learned model, or both, optionally in combination with a task-specific reward, and optionally in combination with traditional intrinsic motivation rewards such as rewarding the accuracy of the model. Intuitively, encouraging large changes in the complexity of the learned model will encourage the agent to maximize its knowledge. We propose several measures of complexity that measure structure in the model while ignoring noise in the observed data, so that the agent is rewarded for discovering more complex structures, and not rewarded for simply finding more data. Further, encouraging more complex changes in the learned model will encourage the agent to challenge its own understanding of the data, which may help prevent the agent from becoming obsessed with a subset of data containing a great deal of structure. A learning agent may receive data in sequence from one or more seq...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1750"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "FYFFE",
+      "inventor_name_first": "Graham",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEM AND METHODS FOR INTRINSIC REWARD REINFORCEMENT LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 50917,
+    "optimized_size": 3441,
+    "reduction_percent": 93.24
+  }
+}

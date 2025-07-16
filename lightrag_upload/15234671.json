@@ -1,0 +1,47 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15234671",
+  "date_published": "20170413",
+  "date_produced": "20170329",
+  "title": "METHOD AND DEVICE FOR DETECTING COPIES IN A STREAM OF VISUAL DATA",
+  "filing_date": "20160811",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LE BORGNE",
+      "inventor_name_first": "Hervé",
+      "inventor_city": "PARIS",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "GADESKI",
+      "inventor_name_first": "Etienne",
+      "inventor_city": "ORSAY",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "POPESCU",
+      "inventor_name_first": "Adrian",
+      "inventor_city": "MONTROUGE",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K962",
+    "G06T760",
+    "H04N140",
+    "G06T340"
+  ],
+  "main_ipcr_label": "G06K962",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The described solution aims to solve the problem of searching for visual content in a visual data stream context. In order to achieve this objective, one subject of the present invention is to propose a device and a method for detecting copies based on a new mode of obtaining the overall signature of an image. Advantageously, the method of the invention that allows an image signature to be generated is fast, and allows a signature to be computed in a time of the order of or less than 5 ms for a machine with typical resources, such as e.g. a machine operating in a frequency range of around 3 GHz. Again advantageously, the signature obtained via the method of the invention is very compact, smaller than 100 bytes, thus allowing quick and exhaustive searching through a large database, the content of the database being dependent on the available memory size and being able to contain, for example, of the order of 10 7 to 10 8 images. Advantageously, the image signature obtained via the method of the invention may be quantified by means of a K-median method in order to be indexed in an inverted index structure allowing the search to be sped up. A similar method, quantifying a GIST signature by means of K-mean, is described in M. Douze, H. Jégou, H. Sandhawalia, L. Amsaleg, and C. Schmid, “Evaluation of gist descriptors for web-scale image search”, in International Conference on Image and Video Retrieval. New York, N.Y., USA: ACM, 2009, pp. 19:1-19:8. The K-median method is identical to the K-mean method (well known to those skilled in the art) while replacing the mean computation with a median computation. More generally, the image signature obtained via the method of the invention is robust to the image transformations commonly encountered on the Internet. The present invention will be advantageous in any application subject to the problems of having to search for illegal copies of protected content, wanting to measure the popularity of...",
+  "patent_number": "None",
+  "abstract": "A method and a device for detecting copies or near-copies of images, comprises receiving an initial image, converting the initial image to grayscale, resizing the grayed image to a reduced image having a plurality of rows and an even number of columns, computing an overall signature for the reduced image, and determining whether the initial image is a copy or near-copy of an image according to the result of a comparison between the overall signature of the reduced image and reference image signatures. The step of computing the overall signature comprises the steps of computing a row signature for each row of the reduced image, the computation being based on a comparison of values obtained statistically across subsets of symmetrical pixels in each row, and concatenating the row signatures in order to obtain an overall signature.",
+  "publication_number": "US20170103285A1-20170413",
+  "_processing_info": {
+    "original_size": 64742,
+    "optimized_size": 3732,
+    "reduction_percent": 94.24
+  }
+}

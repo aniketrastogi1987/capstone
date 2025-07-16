@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15284942",
+  "date_published": "20170406",
+  "date_produced": "20170323",
+  "title": "Multi-Party Secure Information Integration System",
+  "filing_date": "20161004",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Roberts",
+      "inventor_name_first": "Candice",
+      "inventor_city": "Wake Forest",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Belk",
+      "inventor_name_first": "Alisha",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Konuru",
+      "inventor_name_first": "Bhavani",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F2162"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>In some aspects, a system may include a processor and a memory device. The processor may be coupled to a database having a plurality of memory locations. The memory device may be accessible to the processor and include instructions that may be executed by the processor to cause the processor to receive (i) secure host information corresponding to a user and hosted on the system by a host party and (ii) secure third-party information corresponding to the user and hosted on a third-party system by a third party. The instructions may also be executed by the processor to cause the processor to create a secure database. The database may be created by storing the secure host information and the secure third-party information in a subset of memory locations of the plurality of memory locations. The database may also be created by associating memory locations of the subset with each other based on a common information type corresponding to a common type of the secure host information and the secure third-party information stored in the subset. The database may also be created by associating the subset with an additional memory location of the plurality of memory locations having a stored user identifier corresponding to the user. The additional memory location may be associated with an additional subset of memory locations of the plurality of memory locations. In certain aspects, the additional subset of memory locations may include stored host authentication information that may be used to authenticate the user to access the host secure information on a host website hosted by the host party. The additional subset of memory locations may also include stored third-party authentication information that may be used to authenticate the system to retrieve updated secure third-party information from the third-party system. The instructions may also be executed by the processor to cause the processor to create a graphical user interface that includes the secure ...",
+  "patent_number": "None",
+  "abstract": "A method of the present disclosure includes a host system authenticating a user of the user device to access secure host information associated with the user in a database. A request may be transmitted to a third-party system to access secure third-party information stored by the third party based on third-party authentication information. The host system may receive the secure third-party information and store the secure third-party information in a memory location of the database that is associated with a different memory location including the secure host information. The memory location and the different memory location may be associated in the database based on a common information type. The host system may generate a graphical user interface that positions the secure host information and the secure third-party information in the graphical user interface based on their respective location in the database.",
+  "publication_number": "US20170099294A1-20170406",
+  "_processing_info": {
+    "original_size": 89456,
+    "optimized_size": 3768,
+    "reduction_percent": 95.79
+  }
+}

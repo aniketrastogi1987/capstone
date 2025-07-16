@@ -1,0 +1,47 @@
+{
+  "patent_number": "None",
+  "application_number": "15496692",
+  "date_published": "20171102",
+  "date_produced": "20171018",
+  "filing_date": "20170425",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Provided is a numerical controller that is capable of determining a proper timing of swarf discharge and allows an operator to change a swarf discharge method and examine appropriateness of the timing of the swarf discharge on an as needed basis, the numerical controller including a simulation unit that executes a simulation in which a workpiece is machined based on a machining program, a rendered workpiece volume calculation unit that calculates the volume of a rendered workpiece representing the shape of the workpiece rendered by the simulation, and a swarf accumulation amount prediction unit that predicts, based on the volume of the initial rendered workpiece when execution of the simulation is started and the volume of the rendered workpiece when execution of each block included in the machining program is completed, a swarf accumulation amount when the execution of the block is completed.",
+  "publication_number": "US20170316323A1-20171102",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>To cope with this, an object of the present invention is to provide a numerical controller that is capable of determining a proper timing of swarf discharge and allows an operator to change a swarf discharge method and examine appropriateness of the timing of the swarf discharge on an as needed basis. In the present invention, a three-dimensional machining simulation using solid data based on a machining program is executed and, as shown in FIG. 1 , the volume of a rendered workpiece when execution of the machining program is started and the volume of the rendered workpiece in a block during execution of each block are determined. Subsequently, as shown in FIG. 2 , a swarf accumulation amount is calculated based on a difference between these volumes, and a function of automatically inserting a program such as an M code for swarf discharge shown in FIG. 3 into a block immediately before the swarf accumulation amount exceeds a preset threshold value is provided in the numerical controller, whereby the above problems are solved. A numerical controller according to the present invention is a numerical controller including a simulation unit that executes a simulation in which a workpiece is machined based on a machining program, the numerical controller including a rendered workpiece volume calculation unit that calculates a volume of a rendered workpiece representing a shape of the workpiece that is rendered by the simulation, and a swarf accumulation amount prediction unit that predicts, based on the volume of an initial rendered workpiece when execution of the simulation is started and the volume of the rendered workpiece when execution of each block included in the machining program is completed that are calculated by the rendered workpiece volume calculation unit, a swarf accumulation amount when the execution of the block is completed. The numerical controller according to the present invention further includes a swarf discharge ...",
+  "ipcr_labels": [
+    "G06N504",
+    "G01B2128",
+    "G06F1730",
+    "G06F1750"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nakanishi",
+      "inventor_name_first": "Giichi",
+      "inventor_city": "Minamitsuru-gun",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Maeda",
+      "inventor_name_first": "Hideaki",
+      "inventor_city": "Minamitsuru-gun",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Fukui",
+      "inventor_name_first": "Yorikazu",
+      "inventor_city": "Minamitsuru-gun",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "NUMERICAL CONTROLLER",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 50794,
+    "optimized_size": 3761,
+    "reduction_percent": 92.6
+  }
+}

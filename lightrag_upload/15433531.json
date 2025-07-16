@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15433531",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "filing_date": "20170215",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Apparatuses and methods of manufacturing same, systems, and methods for performing network parameter quantization in deep neural networks are described. In one aspect, diagonals of a second-order partial derivative matrix (a Hessian matrix) of a loss function of network parameters of a neural network are determined and then used to weight (Hessian-weighting) the network parameters as part of quantizing the network parameters. In another aspect, the neural network is trained using first and second moment estimates of gradients of the network parameters and then the second moment estimates are used to weight the network parameters as part of quantizing the network parameters. In yet another aspect, network parameter quantization is performed by using an entropy-constrained scalar quantization (ECSQ) iterative algorithm. In yet another aspect, network parameter quantization is performed by quantizing the network parameters of all layers of a deep neural network together at once.",
+  "publication_number": "US20180107925A1-20180419",
+  "summary": "<SOH> SUMMARY <EOH>Accordingly, the present disclosure has been made to address at least the problems and/or disadvantages described herein and to provide at least the advantages described below. According to an aspect of the present disclosure, a method is provided which determines diagonals of a second-order partial derivative matrix (a Hessian matrix) of a loss function of network parameters of a neural network and uses the determined diagonals to weight (Hessian-weighting) the network parameters as part of quantizing the network parameters. According to an aspect of the present disclosure, a method is provided which trains a neural network using first and second moment estimates of gradients of the network parameters and uses the second moment estimates to weight the network parameters as part of quantizing the network parameters. According to an aspect of the present disclosure, an apparatus is provided in a neural network, including one or more non-transitory computer-readable media and at least one processor which, when executing instructions stored on one or more non-transitory computer readable media, performs the steps of: determining diagonals of a second-order partial derivative matrix (a Hessian matrix) of a loss function of network parameters of a neural network; and using the determined diagonals to weight (Hessian-weighting) the network parameters as part of quantizing the network parameters. According to an aspect of the present disclosure, an apparatus is provided in a neural network, including one or more non-transitory computer-readable media; and at least one processor which, when executing instructions stored on one or more non-transitory computer readable media, performs the steps of: training a neural network using first and second moment estimates of gradients of the network parameters; and using the second moment estimates to weight the network parameters as part of quantizing the network parameters. According to an aspect of the present di...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Yoo Jin",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "EL-KHAMY",
+      "inventor_name_first": "Mostafa",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Jungwon",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR NEURAL NETWORK QUANTIZATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 99932,
+    "optimized_size": 3837,
+    "reduction_percent": 96.16
+  }
+}

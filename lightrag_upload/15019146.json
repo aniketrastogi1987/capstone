@@ -1,0 +1,37 @@
+{
+  "date_produced": "20170208",
+  "publication_number": "US20170053211A1-20170223",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15019146",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HEO",
+      "inventor_name_first": "Jingu",
+      "inventor_city": "Yongin-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "NAM",
+      "inventor_name_first": "Dong Kyung",
+      "inventor_city": "Yongin-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A classifier training method includes detecting error data from training data; and training a classifier configured to detect an object based on the error data.",
+  "filing_date": "20160209",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>At least one example embodiment relates to a classifier training method. In at least one example embodiment, the method may include detecting error data from training data, and training a classifier configured to detect an object based on the error data. The error data may include at least one of first error data to be detected when an object included in the training data is not classified, and second error data to be detected when the object included in the training data is misclassified as another object. The detecting may include detecting the error data by classifying the training data using a first classifier trained based on the training data. The detecting may include training the first classifier based on the training data, detecting the first error data by classifying the training data using the first classifier, training a second classifier based on the first error data, and detecting the second error data by classifying the training data using the second classifier. The training may include training the classifier based on the second error data. The second error data may include data to be detected when the object is classified by the first classifier and not classified by the second classifier, and data to be detected when the object is not classified by both the first classifier and the second classifier. The training may include verifying the trained classifier. The verifying may include adjusting a parameter of the classifier to allow a false acceptance rate (FAR) to be less than or equal to a preset threshold value. The training data may include positive data and negative data at a preset ratio. At least one example embodiment relates to an object detecting method. In at least one example embodiment, the method may include receiving input data, and detecting a target object from the input data using a classifier trained based on error data. The error data may be detected by training a first classifier using training data and classi...",
+  "date_published": "20170223",
+  "title": "METHOD OF TRAINING CLASSIFIER AND DETECTING OBJECT",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 52798,
+    "optimized_size": 2841,
+    "reduction_percent": 94.62
+  }
+}

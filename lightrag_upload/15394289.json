@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189672A1-20180705",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15394289",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Paluri",
+      "inventor_name_first": "Balmanohar",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one embodiment, a system retrieves a first feature vector for an image. The image is inputted into a first deep-learning model, which is a first-version model, and the first feature vector may be output from a processing layer of the first deep-learning model for the image. The first feature vector using a feature-vector conversion model to obtain a second feature vector for the image. The feature-vector conversion model is trained to convert first-version feature vectors to second-version feature vectors. The second feature vector is associated with a second deep-learning model, and the second deep-learning model is a second-version model. The second-version model is an updated version of the first-version model. A plurality of predictions for the image may be generated using the second feature vector and the second deep-learning model.",
+  "filing_date": "20161229",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF PARTICULAR EMBODIMENTS <EOH>In particular embodiments, a system may use one or more deep-learning models to generate a plurality of predictions for a plurality of concepts for an image. Each prediction may be a likelihood that a corresponding concept (e.g., red shirt, octopus, politics) is associated with an image. Deep-learning models (e.g., convolutional neural networks) may be trained to determine predictions (i.e., likelihoods) that concepts are associated with an image. Deep-learning models may be trained using a predetermined set of concepts (i.e., using positive and negative samples of images with respect to the concepts). As used herein, a concept associated with an image may include, as an example and not by way of limitation, an identifiable item depicted in whole or in part in an image (e.g., a person, a blue chair, an oak tree, a dog, a logo, a barcode, or a Quick Response code (“QR code)), a visual property of an image or a part of an image (e.g., the color green in an image, a sepia-filtered image, a blurry image, lighting conditions associated with the image), metadata associated with the image, a category associated with the image (e.g., politics, marriage, or clean eating), a mood associated with an image (e.g., spooky or happy), an event associated with an image (e.g., a wedding, a Butch Walker concert, Election Day 2016), a location (e.g., Pennsylvania or Franklin & Marshall College), any concept that may represented by a node in a social graph and that may be associated with an image, any other concept identifiable in or associated with an image, or any combination thereof. Concepts may be arranged in any suitable number of taxonomies. It will be understood that as used herein, an image may be any visual scene that may be captured in one or more frames, including, as an example and not by way of limitation, pictures, videos, or any combination thereof. Each deep-learning model trained to determine predictions for concepts in imag...",
+  "date_published": "20180705",
+  "title": "Updating Predictions for a Deep-Learning Model",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 85368,
+    "optimized_size": 3413,
+    "reduction_percent": 96.0
+  }
+}

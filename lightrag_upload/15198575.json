@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15198575",
+  "date_published": "20180104",
+  "date_produced": "20171219",
+  "title": "SYSTEMS AND METHODS FOR MODELING NETWORKS",
+  "filing_date": "20160630",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kanza",
+      "inventor_name_first": "Yaron",
+      "inventor_city": "Fair Lawn",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Johnson",
+      "inventor_name_first": "Theodore",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shkapenyuk",
+      "inventor_name_first": "Vladislav",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lakshmanan",
+      "inventor_name_first": "Laks V.S.",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L1224",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "H04L1224",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with an aspect, this disclosure may be directed to a system. The system may include a processor and an input adapted to communicate with a network. The system may also include memory storing instructions that cause the processor to effectuate operations. The operations may include detecting a plurality of nodes in the network based on data received at the input and, for each of the plurality of nodes, instantiating a node data structure. The operations may also include, for each respective node of the plurality of nodes, identifying an edge indicative of a connection between the respective node and a second node of the plurality of nodes, and instantiating a plurality of edge data structures based on the edges. The operations may also include creating a graph database comprising a layered graph based on data structures. The data structures may include the plurality of node data structures and the plurality of edge data structures. In accordance with yet another aspect, this disclosure may be directed to a method. The method may include detecting a plurality of nodes in a network and, for each of the plurality of nodes, instantiating a node data structure. The node data structure may identify a node hierarchy. The method may also include, for each respective node of the plurality of nodes, identifying an edge indicative of a connection between the respective node and a second of the plurality of nodes. The method may include instantiating a plurality of edge data structures based on the edges and creating a graph database comprising a layered graph based on the node data structures and the edge data structures. According to another aspect, this disclosure may be directed to a non-transitory computer-readable storage medium storing instructions that cause a processor executing the instructions to effectuate operations. The operations may include, for each of a plurality of nodes in a network, instantiating a node data structure. The op...",
+  "patent_number": "None",
+  "abstract": "A system may include a processor, an input, and memory comprising a graph database and executable instructions. The executable instructions may cause the processor to effectuate operations. The operations may include receiving, via the input, a query comprising pathway variables. The operations may also include determining an anchor set based on at least one of the pathway variables and identifying an evaluation order based on the anchor set. The operations may also include translating the pathway variables into a pathway algebraic expression based on the evaluation order. The operations may include executing the pathway algebraic expression on the graph database to return a pathway set.",
+  "publication_number": "US20180006898A1-20180104",
+  "_processing_info": {
+    "original_size": 157272,
+    "optimized_size": 3692,
+    "reduction_percent": 97.65
+  }
+}

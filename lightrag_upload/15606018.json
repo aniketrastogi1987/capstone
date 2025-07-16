@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15606018",
+  "date_published": "20171207",
+  "date_produced": "20171121",
+  "filing_date": "20170526",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Ising devices interconnected via buses each include: neuron circuits that each update, when a value of an output signal from one of connection destination neuron circuits changes, a value based on an update signal; a memory holding connection destination information wherein items of address information respectively identifying the destination neuron circuits and the ising devices including these circuits and identification information about weight values are associated with each other; a control circuit that outputs, when an output signal of a destination neuron circuit in an ising device other than the own ising device changes, the value of the changed output signal and the update signal based on the destination information; and a router that receives a mode set value from a control device and determines whether to connect at least two neighboring ising devices, or a neighboring ising device and the control circuit, based on the set value.",
+  "publication_number": "US20170351947A1-20171207",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect, there is provided an information processing apparatus including: a plurality of ising devices arranged in a matrix and connected to each other via a bus; and a control device, wherein each of the ising devices includes: a plurality of neuron circuits that each hold a first value based on a sum of values each obtained by multiplying one of a plurality of output signals from a plurality of connection destination neuron circuits by one of a plurality of weight values each representing connection strength between a corresponding neuron circuit and one of the plurality of connection destination neuron circuits, outputs 0 or 1 in accordance with a result of comparison between a second value obtained by adding a noise value to the first value with a threshold, receives an update signal when any one of the output signals changes, calculates a change amount of the first value in accordance with the update signal, and updates the first value by adding or subtracting the change amount to or from the first value, a memory that holds connection destination information in which items of first address information that identify the respective connection destination neuron circuits, items of second address information that identify ising devices including the respective connection destination neuron circuits among all the plurality of ising devices, and items of identification information about the respective weight values are associated with each other, a control circuit that outputs, when a first output signal of a first connection destination neuron circuit included in a first ising device other than the ising device including the control circuit among all the plurality of connection destination neuron circuits changes, a value corresponding to the first output signal that has changed and the update signal based on the connection destination information, and a router that receives a mode set value and determines whether to connect at le...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N9900",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "TAMURA",
+      "inventor_name_first": "Hirotaka",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MATSUBARA",
+      "inventor_name_first": "SATOSHI",
+      "inventor_city": "Machida",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION PROCESSING APPARATUS, ISING DEVICE, AND INFORMATION PROCESSING APPARATUS CONTROL METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 80457,
+    "optimized_size": 3711,
+    "reduction_percent": 95.39
+  }
+}

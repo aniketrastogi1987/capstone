@@ -1,0 +1,33 @@
+{
+  "date_produced": "20180411",
+  "publication_number": "US20180114142A1-20180426",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15387070",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MUELLER",
+      "inventor_name_first": "Felix",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "abstract": "A fully or semi-automated, integrated learning, labeling and classification system and method have closed, self-sustaining pattern recognition, labeling and classification operation, wherein unclassified data sets are selected and converted to an assembly of graphic and text data forming compound data sets that are to be classified. By means of feature vectors, which can be automatically generated, a machine learning classifier is trained for improving the classification operation of the automated system during training as a measure of the classification performance if the automated labeling and classification system is applied to unlabeled and unclassified data sets, and wherein unclassified data sets are classified automatically by applying the machine learning classifier of the system to the compound data set of the unclassified data sets.",
+  "filing_date": "20161221",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is one object of the present invention to provide an automated or at least semi-automated labeling and classification engine and system without the above-discussed drawbacks. The automated or semi-automated engine and system should be able to generate test data without significant human interference. The system shall have the technical capability to apply a particular decision based on which a particular form can be easily and automatically added to the whole training set. On the other hand, the system should be able to automatically refer similar pages to a selected page or form, if it is not clear how a page or data element should be classified. The system should also provide structures for automatically detecting inconsistently or wrongly labeled data, and it should provide appropriate warnings. Instead of having to label thousands of training pages, which are mostly identical and thus not adding much value, the system should be able to detect and flag gaps in the training data so that these gaps can be closed easily. Once all training and testing data have been labeled, the system should also provide automated features for detecting and flagging where inconsistent labels have been assigned for the same forms. Finally, the system should allow for an automated rating, specifically regarding the good or bad quality of an OCR text quality or classification. This allows for preventing that bad data are added to the training set. In summary, it is an object of the present invention to provide a new labeling, classification and meta learning system, wherein the number of cases that is classified correctly may be used to arrive at an estimated accuracy of the operation of the system. The aim is to provide a highly accurate, and thereby automated or semi-automated system, and engine that is easy to implement and achieves a novel level of efficiency when dealing with large and multiple data set. According to the present invention, th...",
+  "date_published": "20180426",
+  "title": "DATA EXTRACTION ENGINE FOR STRUCTURED, SEMI-STRUCTURED AND UNSTRUCTURED DATA WITH AUTOMATED LABELING AND CLASSIFICATION OF DATA PATTERNS OR DATA ELEMENTS THEREIN, AND CORRESPONDING METHOD THEREOF",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716",
+    "G06K962",
+    "G06K918"
+  ],
+  "_processing_info": {
+    "original_size": 96669,
+    "optimized_size": 3569,
+    "reduction_percent": 96.31
+  }
+}

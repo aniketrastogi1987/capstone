@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189647A1-20180705",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15393322",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Calvo",
+      "inventor_name_first": "Marcos",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Carbune",
+      "inventor_name_first": "Victor",
+      "inventor_city": "Basel",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Gonnet Anders",
+      "inventor_name_first": "Pedro",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Deselaers",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "abstract": "The present disclosure provides systems and methods that leverage machine learning to refine and/or predict sensor outputs for multiple sensors. In particular, systems and methods of the present disclosure can include and use a machine-learned virtual sensor model that has been trained to receive sensor data from multiple sensors that is indicative of one or more measured parameters in each sensor's physical environment, recognize correlations among sensor outputs of the multiple sensors, and in response to receipt of the sensor data from multiple sensors, output one or more virtual sensor output values. The one or more virtual sensor output values can include one or more of refined sensor output values and one or more predicted future sensor output value.",
+  "filing_date": "20161229",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Aspects and advantages of embodiments of the present disclosure will be set forth in part in the following description, or can be learned from the description, or can be learned through practice of the embodiments. One example aspect of the present disclosure is directed to a virtual sensor that determines one or more predicted future sensor outputs from multiple sensors. The virtual sensor includes at least one processor. The virtual sensor also includes a machine-learned sensor output prediction model. The sensor output prediction model has been trained to receive sensor data from multiple sensors, the sensor data from each sensor indicative of one or more measured parameters in the sensor's physical environment. In response to receipt of the sensor data from the multiple sensors, the sensor output prediction model has been trained to output one or more predicted future sensor outputs. The virtual sensor also includes at least one tangible, non-transitory computer-readable medium that stores instructions that, when executed by the at least one processor, cause the at least one processor to obtain the sensor data from the multiple sensors, the sensor data descriptive of one or more measured parameters in each sensor's physical environment. The instructions further cause the at least one processor to input the sensor data into the sensor output prediction model. The instructions further cause the at least one processor to receive, as an output of the sensor output prediction model, a sensor output prediction vector that describes the one or more predicted future sensor outputs for two or more of the multiple sensors respectively for one or more future times. The instructions further cause the at least one processor to perform one or more actions associated with the one or more predicted future sensor outputs described by the sensor output prediction vector. Another example aspect of the present disclosure is directed to a computing device that det...",
+  "date_published": "20180705",
+  "title": "Machine-learned virtual sensor model for multiple sensors",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 111111,
+    "optimized_size": 3752,
+    "reduction_percent": 96.62
+  }
+}

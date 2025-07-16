@@ -1,0 +1,53 @@
+{
+  "date_produced": "20180613",
+  "publication_number": "US20180181855A1-20180628",
+  "main_ipcr_label": "G06N300",
+  "decision": "PENDING",
+  "application_number": "15391488",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Johnson, JR.",
+      "inventor_name_first": "Joseph Edwin",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Koukoumidis",
+      "inventor_name_first": "Emmanouil",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vann",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Duvall",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mu",
+      "inventor_name_first": "Hailong",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods for automated mathematical chatting. The systems and methods convert any identified non-numerical inputs into vectors and then perform the mathematical equation utilizing the vectors instead of the nonnumeric inputs along with any other identified numeric inputs to obtain a numerical vector result. The systems and methods decode the numerical vector result into a result feature and then search one or more databases for output based on the result feature. The systems and methods provide the selected output from the one or more databases in response to the mathematical query.",
+  "filing_date": "20161227",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In summary, the disclosure generally relates to systems and methods for automated mathematical chatting. The systems and methods as disclosed herein convert any identified non-numerical inputs into vectors and then perform the mathematical equation utilizing the vectors to obtain a numerical vector result. The systems and methods as disclosed herein decode the numerical vector result into a result feature and then search one or more databases for outputs based on the result feature. The systems and methods as disclosed herein provide a selected output from the one or more databases in response to the mathematical query. One aspect of the disclosure is directed to a system for a mathematical chat bot. The system includes at least one processor and a memory. The memory encodes computer executable instruction that, when executed by the at least one processor, are operative to: collect a mathematical query; identify a variable that corresponds to each image of images in an equation in the mathematical query utilizing a mathematical knowledge graph to form corresponding variables; identify one or more mathematical operators in the equation in the mathematical query utilizing the mathematical knowledge graph; extract potential features for each image based on at least one of world knowledge and a natural language understanding system; filter the potential features; assign confidence scores to the potential features based on the filtering of the potential features; select a feature from the potential features for each image based on the confidence scores; encode the feature for each of the images into a vector; substitute the vector for each of the images into the corresponding variables; execute the equation to determine a result; decode the result into a result feature; search an image database for result images that correspond to the result feature; filter the result images; assign probability scores to the result images based on the filtering of the ...",
+  "date_published": "20180628",
+  "title": "SYSTEMS AND METHODS FOR A MATHEMATICAL CHAT BOT",
+  "ipcr_labels": [
+    "G06N300",
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 84400,
+    "optimized_size": 3607,
+    "reduction_percent": 95.73
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "date_produced": "20180425",
+  "publication_number": "US20180129969A1-20180510",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15347875",
+  "inventor_list": [
+    {
+      "inventor_name_last": "FENG",
+      "inventor_name_first": "MINWEI",
+      "inventor_city": "YORKTOWN HEIGHTS",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "REN",
+      "inventor_name_first": "YUFEI",
+      "inventor_city": "SOMERS",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "YANDONG",
+      "inventor_city": "ELMSFORD",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "LI",
+      "inventor_city": "YORKTOWN HEIGHTS",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "WEI",
+      "inventor_city": "ELMSFORD",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A machine receives a first set of global parameters from a global parameter server. The first set of global parameters includes data that weights one or more operands used in an algorithm that models an entity type. Multiple learner processors in the machine execute the algorithm using the first set of global parameters and a mini-batch of data known to describe the entity type. The machine generates a consolidated set of gradients that describes a direction for the first set of global parameters in order to improve an accuracy of the algorithm in modeling the entity type when using the first set of global parameters and the mini-batch of data. The machine transmits the consolidated set of gradients to the global parameter server. The machine then receives a second set of global parameters from the global parameter server, where the second set of global parameters is a modification of the first set of global parameters based on the consolidated set of gradients.",
+  "filing_date": "20161110",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one or more embodiments of the present invention, a computer-implemented method enables parameter data sharing. A machine receives a first set of global parameters from a global parameter server. The first set of global parameters includes data that weights one or more operands used in an algorithm that models an entity type. Multiple learner processors in the machine execute the algorithm using the first set of global parameters and a mini-batch of data known to describe the entity type. The machine generates a consolidated set of gradients that describes a direction for the first set of global parameters in order to improve the accuracy of the algorithm in modeling the entity type when using the first set of global parameters and the mini-batch of data known to describe the entity type. The machine transmits the consolidated set of gradients to the global parameter server. The machine then receives a second set of global parameters from the global parameter server, where the second set of global parameters is a modification of the first set of global parameters based on the consolidated set of gradients. The described invention may also be implemented in a computer system and/or as a computer program product.",
+  "date_published": "20180510",
+  "title": "PARAMETER DATA SHARING FOR MULTI-LEARNER TRAINING OF MACHINE LEARNING APPLICATIONS",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 68312,
+    "optimized_size": 3391,
+    "reduction_percent": 95.04
+  }
+}

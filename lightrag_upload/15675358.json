@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15675358",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "filing_date": "20170811",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A memory-centric neural network system and operating method thereof includes: a processing unit; semiconductor memory devices coupled to the processing unit, the semiconductor memory devices contain instructions executed by the processing unit; weight matrixes including a positive weight matrix and a negative weight matrix constructed with rows and columns of memory cells, inputs of the memory cells of a same row are connected to one of Axons, outputs of the memory cells of a same column are connected to one of Neurons; timestamp registers registering timestamps of the Axons and the Neurons; and a lookup table containing adjusting values indexed in accordance with the timestamps, the processing unit updates the weight matrixes in accordance with the adjusting values.",
+  "publication_number": "US20180075339A1-20180315",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure are directed to a neural network hardware accelerator architecture and the operating method thereof capable of improving the performance and efficiency of a neural network accelerator. In accordance with an embodiment of the present invention, there is provided with an operating method of a memory-centric neural network system which includes providing a processing unit; providing semiconductor memory devices coupled to the processing unit, the semiconductor memory devices contain instructions executed by the processing unit; connecting weight matrixes to Axons and Neurons, the weight matrixes including a positive weight matrix and a negative weight matrix are constructed with rows and columns of memory cells, inputs of the memory cells of a same row are connected to one of the Axons, outputs of the memory cells of a same column are connected to one of the Neurons; registering timestamps of the Axons and the Neurons into timestamp registers; looking up adjusting values from a lookup table, the adjusting values of the lookup table are indexed in accordance with the timestamps; and updating the weight matrixes in accordance with the adjusting values by the processing unit. In accordance with an embodiment of the present invention, there is provided with a memory-centric neural network system which includes a processing unit; semiconductor memory devices coupled to the processing unit, the semiconductor memory devices contains instructions executed by the processing unit; weight matrixes including a positive weight matrix and a negative weight matrix constructed with rows and columns of memory cells, inputs of the memory cells of a same row are connected to one of Axons, outputs of the memory cells of a same column are connected to one of Neurons; timestamp registers registering timestamps of the Axons and the Neurons; and a lookup table containing adjusting values indexed in accordance with the timestamps, the pr...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F702",
+    "G11C1300"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MA",
+      "inventor_name_first": "Kenneth C.",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SUH",
+      "inventor_name_first": "Dongwook",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "NEURAL NETWORK HARDWARE ACCELERATOR ARCHITECTURES AND OPERATING METHOD THEREOF",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 74790,
+    "optimized_size": 3512,
+    "reduction_percent": 95.3
+  }
+}

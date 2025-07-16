@@ -1,0 +1,74 @@
+{
+  "date_produced": "20171025",
+  "publication_number": "US20170323221A1-20171109",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15185277",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chaudhuri",
+      "inventor_name_first": "Arin",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kakde",
+      "inventor_name_first": "Deovrat Vijay",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jahja",
+      "inventor_name_first": "Maria",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xiao",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kong",
+      "inventor_name_first": "Seung Hyun",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jiang",
+      "inventor_name_first": "Hansi",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Peredriy",
+      "inventor_name_first": "Sergiy",
+      "inventor_city": "Auburndale",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computing device determines an SVDD to identify an outlier in a dataset. First and second sets of observation vectors of a predefined sample size are randomly selected from a training dataset. First and second optimal values are computed using the first and second observation vectors to define a first set of support vectors and a second set of support vectors. A third optimal value is computed using the first set of support vectors updated to include the second set of support vectors to define a third set of support vectors. Whether or not a stop condition is satisfied is determined by comparing a computed value to a stop criterion. When the stop condition is not satisfied, the first set of support vectors is defined as the third set of support vectors, and operations are repeated until the stop condition is satisfied. The third set of support vectors is output.",
+  "filing_date": "20160617",
+  "patent_number": "9830558",
+  "summary": "<SOH> SUMMARY <EOH>In another example embodiment, a non-transitory computer-readable medium is provided having stored thereon computer-readable instructions that, when executed by a computing device, cause the computing device to determine a support vector data description for outlier identification. A first set of observation vectors is randomly selected from a training dataset. A number of the first set of observation vectors is a predefined sample size. A first optimal value of an objective function defined for a support vector data description (SVDD) model is computed using the selected first set of observation vectors to define a first set of support vectors that define a first data description for the training dataset. (a) A second set of observation vectors is randomly selected from the training dataset, wherein a number of the second set of observation vectors is the predefined sample size. (b) A second optimal value of the objective function is computed using the selected second set of observation vectors to define a second set of support vectors, wherein the second set of support vectors define a second data description for the training dataset. (c) The first set of support vectors is updated to include the defined second set of support vectors. (d) A third optimal value of the objective function is computed using the updated first set of support vectors to define a third set of support vectors, wherein the third set of support vectors define a third data description for the training dataset. (e) A value of a stop parameter is computed. (f) Whether or not a stop condition is satisfied is determined by comparing the computed value to a stop criterion. (g) When the stop condition is not satisfied, the first set of support vectors is defined as the defined third set of support vectors, and (a)-(g) are repeated until the stop condition in (f) is satisfied. When the stop condition in (f) is satisfied, the defined third set of support vectors are output for iden...",
+  "date_published": "20171109",
+  "title": "FAST TRAINING OF SUPPORT VECTOR DATA DESCRIPTION USING SAMPLING",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2908",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 97879,
+    "optimized_size": 4322,
+    "reduction_percent": 95.58
+  }
+}

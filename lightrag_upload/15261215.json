@@ -1,0 +1,94 @@
+{
+  "date_produced": "20170830",
+  "publication_number": "US20170262769A1-20170914",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15261215",
+  "inventor_list": [
+    {
+      "inventor_name_last": "McShane",
+      "inventor_name_first": "Alan",
+      "inventor_city": "Baldolye",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Huu",
+      "inventor_name_first": "Jacques Doan",
+      "inventor_city": "Guyancourt",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Abdelrahman",
+      "inventor_name_first": "Ahmed",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Carme",
+      "inventor_name_first": "Antoine",
+      "inventor_city": "Montigny Le Bretonneux",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Lamy",
+      "inventor_name_first": "Bertrand",
+      "inventor_city": "Paris",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Maali",
+      "inventor_name_first": "Fadi",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Ouologuem",
+      "inventor_name_first": "Laya",
+      "inventor_city": "Rueil Malmaison",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Caires",
+      "inventor_name_first": "Milena",
+      "inventor_city": "Celbridge",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Dulian",
+      "inventor_name_first": "Nicolas",
+      "inventor_city": "Houilles",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Marcade",
+      "inventor_name_first": "Erik",
+      "inventor_city": "Paris",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "Techniques are described for identifying an input training dataset stored within an underlying data platform; and transmitting instructions to the data platform, the instructions being executable by the data platform to train a predictive model based on the input training dataset by delegating one or more data processing operations to a plurality of nodes across the data platform.",
+  "filing_date": "20160909",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Innovative aspects of the subject matter described in this specification may be embodied in methods that include the actions of identifying an input training dataset stored within an underlying data platform; and transmitting instructions to the data platform, the instructions being executable by the data platform to train a predictive model based on the input training dataset by delegating one or more data processing operations to a plurality of nodes across the data platform. Other embodiments of these aspects include corresponding systems, apparatus, and computer programs, configured to perform the actions of the methods, encoded on computer storage devices. These and other embodiments may each optionally include one or more of the following features. For instance, applying the predictive model to a business dataset to identify one or more results each associated with a probability of occurrence. The data platform includes an open source cluster computing framework. The open source cluster computing framework includes Apache Spark. The method is independent of data transfer of the input training dataset from the data platform. The one or more processing operations include calculating one or more statistics associated with the input training dataset to reduce a number of variables for generating the predictive model. The one or more processing operations include encoding data of the input training dataset including converting alphanumeric data to numeric data. The one or more processing operations include performing a co-variance matrix calculation and a matrix inversion calculation with respect to the input training dataset. The one or more processing operations include slicing the input training dataset, and scoring the predictive model with respect to the slices. The one or more processing operations include re-calculating the one or more statistics based on the one or more results. The one or more processing operations include iteratively ev...",
+  "date_published": "20170914",
+  "title": "PREDICTIVE MODELING OPTIMIZATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 93534,
+    "optimized_size": 4228,
+    "reduction_percent": 95.48
+  }
+}

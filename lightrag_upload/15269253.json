@@ -1,0 +1,53 @@
+{
+  "date_produced": "20180308",
+  "publication_number": "US20180082211A1-20180322",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15269253",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Allen",
+      "inventor_name_first": "Corville O.",
+      "inventor_city": "Morrisville",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lambdin",
+      "inventor_name_first": "Shannen B.",
+      "inventor_city": "Morrisville",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lopez",
+      "inventor_name_first": "Nicolas B.",
+      "inventor_city": "San Antonio",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sharma",
+      "inventor_name_first": "Anuj",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A mechanism is provided in a computing device configured with instructions executing on a processor of the computing device to implement a ground truth generation system for quality assessment scoring of articles in a corpus. The ground truth generation system receives recommendations of a set of recommended articles from subject matter experts. The ground truth generation system identifies a set of non-recommended articles. A topic clustering component within the ground truth generation system performs topic clustering on a combination of the set of recommended articles and the set of non-recommended articles to form a set of topic clusters containing recommended articles and non-recommended articles. The ground truth generation system identifies a first number of recommended articles and a second number of non-recommended articles in each of the set of topic clusters to form a quality assessment training set. The mechanism trains a quality assessment machine learning model using the ...",
+  "filing_date": "20160919",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described herein in the Detailed Description. This Summary is not intended to identify key factors or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. In one illustrative embodiment, a method is provided in a computing device configured with instructions executing on a processor of the computing device to implement a ground truth generation system for quality assessment scoring of articles in a corpus. The method comprises receiving, by the ground truth generation system, recommendations of a set of recommended articles from subject matter experts. The method further comprises identifying, by the ground truth generation system, a set of non-recommended articles. The method further comprises performing, by a topic clustering component within the ground truth generation system, topic clustering on a combination of the set of recommended articles and the set of non-recommended articles to form a set of topic clusters containing recommended articles and non-recommended articles. The method further comprises identifying, by the ground truth generation system, a first number of recommended articles and a second number of non-recommended articles in each of the set of topic clusters to form a quality assessment training set. The method further comprises training a quality assessment machine learning model using the quality assessment training set. In other illustrative embodiments, a computer program product comprising a computer usable or readable medium having a computer readable program is provided. The computer readable program, when executed on a computing device, causes the computing device to perform various ones of, and combinations of, the operations outlined above with regard to the method illustrative embodiment. In yet another illustrative embodiment, a system/appa...",
+  "date_published": "20180322",
+  "title": "Ground Truth Generation for Machine Learning Based Quality Assessment of Corpora",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 82644,
+    "optimized_size": 4053,
+    "reduction_percent": 95.1
+  }
+}

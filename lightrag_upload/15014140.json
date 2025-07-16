@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170719",
+  "publication_number": "US20170220926A1-20170803",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15014140",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chhabra",
+      "inventor_name_first": "Shruti",
+      "inventor_city": "Ghaziabad",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "ROY",
+      "inventor_name_first": "SHOURYA",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Mariappan",
+      "inventor_name_first": "Ragunathan",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "The disclosed embodiments illustrate a method and a system for predicting future activities of a user on a social media platform. The method includes extracting a first time series of one or more historical activities performed by the user from a social media platform server. The method further includes receiving a second time series of one or more future events from a requestor-computing device. The method further includes determining a first set of forecast values and a second set of forecast values based on the first time series and/or the second time series, wherein the first set of forecast values is determined using an ARIMA technique, and the second set of forecast values is determined using a regression modelling technique. The method further includes predicting the future activities of the user based on the first set of forecast values and the second set of forecast values.",
+  "filing_date": "20160203",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to embodiments illustrated herein, there is provided a method for predicting one or more future activities of a user on a social media platform. The method includes extracting, by one or more processors, a first time series of one or more historical activities performed by the user on the social media platform from a social media platform server. The method further includes receiving, by the one or more processors, a second time series of one or more future events from a computing device. The method further includes determining, by the one or more processors, a first set of forecast values pertaining to the one or more future activities based on the first time series, wherein the first set of forecast values is determined using a first forecasting technique. The first forecasting technique corresponds to an auto regressive integrated moving average (ARIMA) technique. The method further includes determining, by the one or more processors, a second set of forecast values pertaining to the one or more future activities based on the first time series and the second time series, wherein the second set of forecast values is determined using a second forecasting technique. The second forecasting technique corresponds to a regression modelling technique. The method further includes predicting, by the one or more processors, the one or more future activities of the user based on the first set of forecast values and the second set of forecast values. The one or more future activities may comprise one or more of a frequency of visit of the user to the social media platform during a second predefined time duration, a count of messages to be posted, shared, or followed by the user during the second predefined time duration, and a like or a dislike of the user towards a product or a service during the second predefined time duration. According to embodiments illustrated herein, there is provided a system for predicting one or more future activities of...",
+  "date_published": "20170803",
+  "title": "METHOD AND SYSTEM FOR PREDICTING FUTURE ACTIVITIES OF USER ON SOCIAL MEDIA PLATFORMS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06Q3002",
+    "G06Q5000"
+  ],
+  "_processing_info": {
+    "original_size": 87540,
+    "optimized_size": 3784,
+    "reduction_percent": 95.68
+  }
+}

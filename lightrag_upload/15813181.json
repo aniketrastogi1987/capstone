@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15813181",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "filing_date": "20171115",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Described embodiments include a system that includes one or more buffers and circuitry. The circuitry is configured to process a plurality of input values, by identifying each of the input values that is not zero-valued, and, for each value of the identified input values, computing respective products of coefficients of a kernel with the value and storing at least some of the respective products in the buffers. The circuitry is further configured to compute a plurality of output values, by retrieving respective sets of stored values from the buffers, at least some of the retrieved sets including one or more of the products, and summing the retrieved sets. The circuitry is further configured to output the computed output values. Other embodiments are also described.",
+  "publication_number": "US20180150741A1-20180531",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>There is provided, in accordance with some embodiments of the present invention, a system that includes one or more buffers, and circuitry. The circuitry is configured to process a plurality of input values, by identifying each of the input values that is not zero-valued, and, for each value of the identified input values, computing respective products of coefficients of a kernel with the value and storing at least some of the respective products in the buffers. The circuitry is further configured to compute a plurality of output values, by retrieving respective sets of stored values from the buffers, at least some of the retrieved sets including one or more of the products, and summing the retrieved sets. The circuitry is further configured to output the computed output values. In some embodiments, the circuitry is configured to output at least some of the computed output values before processing all of the input values. In some embodiments, the circuitry is configured to, in response to a given one of the input values being zero-valued, store a plurality of zeros in the buffers, without multiplying the given one of the input values by any of the coefficients. In some embodiments, the system further includes an oscillator configured to clock the circuitry, and the circuitry includes: zero-comparison circuitry, configured to, during a given clock cycle of the oscillator: compare a subset of the input values to zero, and based on the comparing, identify, in the subset, one or more zero-valued input values, and one or more non-zero-valued input values; and multiplier circuitry, configured to, during the given clock cycle, multiply each of the non-zero-valued input values by the coefficients, without multiplying any of the zero-valued input values by any of the coefficients. In some embodiments, each buffer of the buffers corresponds to a different respective coefficient of the coefficients, and the circuitry is configured to store e...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Levi",
+      "inventor_name_first": "Dotan",
+      "inventor_city": "Kiryat Motzkin",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Anker",
+      "inventor_name_first": "Tal",
+      "inventor_city": "Ramat Gan",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Markus",
+      "inventor_name_first": "Ohad",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "title": "Accelerated Convolution in Convolutional Neural Networks",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 64136,
+    "optimized_size": 3611,
+    "reduction_percent": 94.37
+  }
+}

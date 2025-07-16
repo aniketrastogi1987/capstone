@@ -1,0 +1,39 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15368553",
+  "date_published": "20170323",
+  "date_produced": "20170309",
+  "title": "SECURE HOST COMMUNICATIONS",
+  "filing_date": "20161202",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rizzo",
+      "inventor_name_first": "Dominic",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zatko",
+      "inventor_name_first": "Peiter Charles",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "H04L932",
+    "G06F2162"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>In certain example aspects described herein, a trusted computing device is provided. For example, in some embodiments, a trusted computing device is a microSD form factor device that includes an isolated environment, a microSD host interface, a secure interface, a computer program product for trusted computing, and optional out-of-band communications channels that bypass the host system. The isolated environment includes an isolated environment processor, memory, and an auxiliary processor. The memory is either entirely allocated to a secure partition, or divided into a secure partition and a non-secure partition, and is connected for data communication with the isolated environment processor. The auxiliary processor is connected for data communications to the isolated environment processor and the memory. Both of the memory and the auxiliary processor are in data communication with a host only through the isolated environment processor. Both the host interface and the secure interface are connected for data communication to the isolated environment processor. The computer program product includes non-transitory computer-readable media having computer-executable program instructions embodied thereon. The instructions, when executed by the trusted computing device, cause the trusted computing device to perform trusted computing. In particular the computer program product includes program instructions to provision the trusted computing device for cryptographic operations via the secure interface. Additional program instructions cause the trusted computing device to present a first File Allocation Table (FAT) file system partition at the host interface via the isolated environment processor. The first FAT file system partition includes a host write file and a host read file. If not configured for secure partition only, further program instructions cause the trusted computing device to present an non-secured second FAT file system partition with acces...",
+  "patent_number": "9948668",
+  "abstract": "A trusted device includes a secure interface and a host interface, the secure interface being isolated from the host interface by an isolated environment. A user provides a communication to the trusted device via the secure interface. A processor of the isolated environment encrypts the communication and transmits the encrypted communication to a read file of the host interface. A host device connected to the trusted device via the host interface receives the encrypted communication. The host device transmits the encrypted communication to a second host device that is connected to a second trusted device via a second host interface. The second host device transmits the encrypted communication to a write file of the second host interface. A processor in an isolated environment of the second trusted device decrypts the communication and provides the decrypted communication to a second user via a secure interface of the second trusted device.",
+  "publication_number": "US20170085589A1-20170323",
+  "_processing_info": {
+    "original_size": 178415,
+    "optimized_size": 3659,
+    "reduction_percent": 97.95
+  }
+}

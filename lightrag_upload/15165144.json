@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15165144",
+  "date_published": "20171130",
+  "date_produced": "20171115",
+  "title": "GRAPH METHOD FOR SYSTEM SENSITIVITY ANALYSES",
+  "filing_date": "20160526",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Chia-Yu",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hsueh",
+      "inventor_name_first": "Pei-Yun",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lai",
+      "inventor_name_first": "Jui-Hsin",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xia",
+      "inventor_name_first": "Yinglong",
+      "inventor_city": "Rye Brook",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention disclose a method, computer program product, and system for determination of critical parts and component correlations in a circuit using a correlation graph and centrality analysis including; receiving, by one or more computer processors, one or more circuit layout portion of an entire circuit layout, where each circuit layout portion includes components and component connections; converting, by one or more computer processors, the received circuit layout portions into a correlation graph, where the components are represented as nodes and the component connections are represented by edges; determine, by one or more computer processors, ground truth for the received circuit layout portions; applying, by one or more computer processors, one or more workloads to the correlation graphs; and determining, by one or more computer processors, a component correlation and component weighting for the correlation graphs by applying a centrality analysis and using the ground truth and Naïve Bayes.",
+  "patent_number": "None",
+  "abstract": "A computer-implemented method, computer program product, and system for determination of critical parts and component correlations in a circuit using a correlation graph and centrality analysis including; receiving a circuit layout portion of a larger circuit layout, converting the circuit layout portion into a correlation graph representing components as nodes and connecting wires as edges, determining, using ground truth and Naïve Bayes to determine correlation weighting, scaling the correlation graph to represent the larger circuit, and presenting the larger correlation graph on a graphical user interface (GUI).",
+  "publication_number": "US20170344558A1-20171130",
+  "_processing_info": {
+    "original_size": 59395,
+    "optimized_size": 2663,
+    "reduction_percent": 95.52
+  }
+}

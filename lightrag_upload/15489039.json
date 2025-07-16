@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15489039",
+  "date_published": "20171019",
+  "date_produced": "20171004",
+  "filing_date": "20170417",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Systems and methods for building a distributed learning framework, including generating a sparse communication network graph with a high overall spectral gap. The generating includes computing model parameters in distributed shared memory of a cluster of a plurality of worker nodes; determining a spectral gap of an adjacency matrix for the cluster using a stochastic reduce convergence analysis, wherein a spectral reduce is performed using a sparse reduce graph with a highest possible spectral gap value for a given network bandwidth capability; and optimizing the communication graph by iteratively performing the computing and determining until a threshold condition is reached. Each of the plurality of worker nodes is controlled using tunable approximation based on available bandwidth in a network in accordance with the generated sparse communication network graph.",
+  "publication_number": "US20170300830A1-20171019",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the present principles, a method is provided for building a distributed learning framework, including generating a sparse communication network graph with a high overall spectral gap. The generating includes computing model parameters in distributed shared memory of a cluster of a plurality of worker nodes; determining a spectral gap of an adjacency matrix for the cluster using a stochastic reduce convergence analysis, wherein a spectral reduce is performed using a sparse reduce graph with a highest possible spectral gap value for a given network bandwidth capability; and optimizing the communication graph by iteratively performing the computing and determining until a threshold condition is reached. Each of the plurality of worker nodes is controlled using tunable approximation based on available bandwidth in a network in accordance with the generated sparse communication network graph. According to another aspect of the present principles, a system is provided for building, using a processor coupled to a memory, a distributed learning framework, including generating a sparse communication network graph with a high overall spectral gap. The generating includes computing model parameters in distributed shared memory of a cluster of a plurality of worker nodes; determining a spectral gap of an adjacency matrix for the cluster using a stochastic reduce convergence analysis, wherein a spectral reduce is performed using a sparse reduce graph with a highest possible spectral gap value for a given network bandwidth capability; and optimizing the communication graph by iteratively performing the computing and determining until a threshold condition is reached. Each of the plurality of worker nodes is controlled using tunable approximation based on available bandwidth in a network in accordance with the generated sparse communication network graph. According to another aspect of the present principles, a non-transitory computer r...",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2908"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kadav",
+      "inventor_name_first": "Asim",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kruus",
+      "inventor_name_first": "Erik",
+      "inventor_city": "Hillsborough",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR COMMUNICATION EFFICIENT SPARSE-REDUCE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 72192,
+    "optimized_size": 3583,
+    "reduction_percent": 95.04
+  }
+}

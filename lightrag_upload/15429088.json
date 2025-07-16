@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15429088",
+  "date_published": "20170810",
+  "date_produced": "20170726",
+  "filing_date": "20170209",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for computing Q values for actions to be performed by an agent interacting with an environment from a continuous action space of actions. In one aspect, a system includes a value subnetwork configured to receive an observation characterizing a current state of the environment and process the observation to generate a value estimate; a policy subnetwork configured to receive the observation and process the observation to generate an ideal point in the continuous action space; and a subsystem configured to receive a particular point in the continuous action space representing a particular action; generate an advantage estimate for the particular action; and generate a Q value for the particular action that is an estimate of an expected return resulting from the agent performing the particular action when the environment is in the current state.",
+  "publication_number": "US20170228662A1-20170810",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in a system for selecting actions to be performed by an agent interacting with an environment from a continuous action space of actions, the system comprising: a value subnetwork configured to receive an observation characterizing a current state of the environment; and process the observation to generate a value estimate, the value estimate being an estimate of an expected return resulting from the environment being in the current state; a policy subnetwork configured to receive the observation, and process the observation to generate an ideal point in the continuous action space; and a subsystem configured to receive a particular point in the continuous action space representing a particular action; generate an advantage estimate for the particular action from a distance between the ideal point and the particular point; and generate a Q value for the particular action that is an estimate of an expected return resulting from the agent performing the particular action when the environment is in the current state by combining the advantage estimate and the value estimate. Other embodiments of this aspect include corresponding methods comprising the operations performed by the system and computer programs recorded on one or more computer storage devices, each configured to perform the actions of the methods. A system of one or more computers can be configured to perform particular operations or actions by virtue of software, firmware, hardware, or any combination thereof installed on the system that in operation may cause the system to perform the actions. One or more computer programs can be configured to perform particular operations or actions by virtue of including instructions that, when executed by data processing apparatus, cause the apparatus to perform the actions. Implementations can include one or more of the following optional features...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gu",
+      "inventor_name_first": "Shixiang",
+      "inventor_city": "Cambridge",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Lillicrap",
+      "inventor_name_first": "Timothy Paul",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "ISutskever",
+      "inventor_name_first": "Ilya",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Levine",
+      "inventor_name_first": "Sergey Vladimir",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "REINFORCEMENT LEARNING USING ADVANTAGE ESTIMATES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 64614,
+    "optimized_size": 3958,
+    "reduction_percent": 93.87
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date_produced": "20170726",
+  "publication_number": "US20170228659A1-20170810",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15082877",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Zhe",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Jianchao",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jin",
+      "inventor_name_first": "Hailin",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fang",
+      "inventor_name_first": "Chen",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Certain embodiments involve learning features of content items (e.g., images) based on web data and user behavior data. For example, a system determines latent factors from the content items based on data including a user's text query or keyword query for a content item and the user's interaction with the content items based on the query (e.g., a user's click on a content item resulting from a search using the text query). The system uses the latent factors to learn features of the content items. The system uses a previously learned feature of the content items for iterating the process of learning features of the content items to learn additional features of the content items, which improves the accuracy with which the system is used to learn other features of the content items.",
+  "filing_date": "20160328",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure provide systems and methods for iteratively learning features of content items based on web data and user behavior data. In one example, a method for iterative collaborative feature learning usable for accurately matching image content in queries to corresponding image results includes obtaining, by a processor, a data set that includes data indicating whether a user providing a text query clicked on a content item resulting from a search of the text query. The method further includes populating, by the processor, missing data in the data set. The method further includes determining, by the processor, a first latent factor of the content item from the data set. The first latent factor includes information about a feature of the content item. The method also includes learning, by the processor, a first feature of the content item based on the first latent factor and iteratively learning, by the processor, a second feature of the content item by adding the first feature into the data set to decrease a sparsity of the data set. Each iteration can comprise: decomposing the data set to identify a second latent factor of the content item based on the data set; grouping the first latent factor and the second latent factor into a cluster; and learning the second feature of the content item based on the cluster. The method employs training a neural network to learn features by learning to classify a plurality of content items based at least partially on the first or the second feature of the content item. Additional features and advantages of exemplary embodiments of the present disclosure will be set forth in the description which follows, and in part will be obvious from the description, or will be learned by the practice of such exemplary embodiments. The foregoing summary is not an extensive overview, and it is not intended to identify key elements or indicate a scope. Rather the foregoing summary identifie...",
+  "date_published": "20170810",
+  "title": "Regularized Iterative Collaborative Feature Learning From Web and User Behavior Data",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 102250,
+    "optimized_size": 3811,
+    "reduction_percent": 96.27
+  }
+}

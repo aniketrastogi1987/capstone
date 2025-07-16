@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170223",
+  "publication_number": "US20170068896A1-20170309",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15120165",
+  "inventor_list": [
+    {
+      "inventor_name_last": "DE ROO",
+      "inventor_name_first": "Jos",
+      "inventor_city": "Mortsel",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "MELS",
+      "inventor_name_first": "Giovanni",
+      "inventor_city": "Mortsel",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "SUN",
+      "inventor_name_first": "Hong",
+      "inventor_city": "Mortsel",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "COLAERT",
+      "inventor_name_first": "Dirk",
+      "inventor_city": "Mortsel",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    }
+  ],
+  "abstract": "A method for generating rules for rule-based reasoning includes the steps of starting from a set of generic reasoning rules generating a set of specific reasoning rules by substituting in at least one of the generic reasoning rules having more than one variable, at least one of the variables with (a) class(es) defined in an ontology.",
+  "filing_date": "20160819",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The above-mentioned aspect is realized by a method as set out below. Specific features for preferred embodiments of the invention are also set out below. According to the present invention rules used in rule based reasoning are so-called ‘specialized’. In this context ‘specialisation of a rule’ is defined as described below. Consider a general rule in-line-formulae description=\"In-line Formulae\" end=\"lead\"? ∀x, y : P(x) Q(x, y) C(x, y) in-line-formulae description=\"In-line Formulae\" end=\"tail\"? And consider an ontology containing statements P(a). This rule can be specialized for each value “a” of x as follows: ∀ x , y  :   P  ( x ) ⇒ ( Q  ( x , y ) ⇒ C  ( x , y ) )  P  ( a ) ∀ y  :   Q  ( a , y ) ⇒ C  ( a , y ) The rules ∀ y : Q(a,y) C(a,y) are defined in the context of the present invention as specialized rules, in which the value of x is “materialized”. As a result of the above described specialization the statements P(a) and the rule ∀x,y : P(x) Q(x,y) C(x,y) can be eliminated from the knowledge base. The present invention is applicable to rules comprising at least two variables. It is important that the number of variables in the “P( ) part” is one lower than the total number of variables in the rule. That way, after the variables in the P( ) part are substituted with constant terms from the ontology, one variable remains unbound. Also, not all variables in P must occur in Q( ) or C( ). ∀ x , y , z  :   P  ( x , z ) ⇒ ( Q  ( x , y , z ) ⇒ C  ( x , y , z ) )  P  ( a , b ) ∀ y  :   Q  ( a , y , b ) ⇒ C  ( a , y , b ) The rdfs:subClassOf rule (used in the embodiment described below) is an example of rule which contains 3 variables. Specialisation according to the present invention differs from materialisation which operation is defined below (this materialization is not aimed at in the present invention). Consider a rule in-line-formulae description=\"In-line Formulae\" end=\"lead\"? ∀x : P(x) C(x) in-line-f...",
+  "date_published": "20170309",
+  "title": "SPECIALISATION MECHANISM FOR TERMINOLOGY REASONING",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 24425,
+    "optimized_size": 3564,
+    "reduction_percent": 85.41
+  }
+}

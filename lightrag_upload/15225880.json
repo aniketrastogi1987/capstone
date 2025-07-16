@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180124",
+  "publication_number": "US20180039904A1-20180208",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15225880",
+  "inventor_list": [
+    {
+      "inventor_name_last": "STEVENS",
+      "inventor_name_first": "Richard J.",
+      "inventor_city": "Monkton",
+      "inventor_state": "VT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SUAREZ SAIZ",
+      "inventor_name_first": "Fernando J.",
+      "inventor_city": "Armonk",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system rapidly produces training cases for machine based learning by automatically creating training cases from a database of historical data. The system determines a plurality of attributes relevant to each of the training cases. The system identifies a first attribute of the plurality of attributes as an issue, and a second attribute of the plurality attributes as a response to the issue. The system identifies a plurality of cohort members from the database of historical data, where each cohort member comprises cohort member attributes that match a subset of the plurality of attributes. The system analyzes the cohort member attributes of each of the plurality of cohort members to identify the most frequent responses to the issue. The system creates the training cases where each training case comprises the issue and the most frequent responses. The system then trains a machine based learning system using the training cases.",
+  "filing_date": "20160802",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the present invention, in a method for rapidly producing training cases for machine based learning, the method automatically creates one or more training cases for machine based learning from a database of historical data. The method determines a plurality of attributes relevant to each of the training cases. The method identifies a first attribute of the plurality of attributes as an issue, and identifies a second attribute of the plurality attributes as a response to the issue. The method identifies a plurality of cohort members from the database of historical data, where each cohort member comprises cohort member attributes that match a subset of the plurality of attributes. The method analyzes the cohort member attributes of each of the plurality of cohort members to identify a plurality of most frequent responses to the issue. The method creates one or more training cases where each training case comprises the issue and the plurality of most frequent responses. The method trains a machine based learning system using one or more training cases. In an example embodiment, the method updates at least one of the plurality of cohort members and the cohort member attributes as new data is inserted into the database of historical data. In another example embodiment, the method continues to train the machine based learning system as new data is inserted into the database of historical data and/or at least one additional database of historical data is added to the database of historical data. In an example embodiment, when the method automatically creates one or more training cases for machine based learning from the database of historical data, the method selects the database of historical data from a plurality of databases of historical data to produce training cases that reflect a consensus associated with the selected database. In an example embodiment, when the method automatically creates one or more training cases f...",
+  "date_published": "20180208",
+  "title": "COHORT CONSENSUS APPROACH TO MANUFACTURING WATSON Q&A PIPELINE TRAINING CASES FROM HISTORICAL DATA",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 48404,
+    "optimized_size": 3698,
+    "reduction_percent": 92.36
+  }
+}

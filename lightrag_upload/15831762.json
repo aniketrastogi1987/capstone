@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15831762",
+  "date_published": "20180607",
+  "date_produced": "20180523",
+  "filing_date": "20171205",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "An apparatus for achieving an accelerator of a sparse convolutional neural network is provided. The apparatus comprises a convolution and pooling unit, a full connection unit and a control unit. Convolution parameter information and input data and intermediate calculation data are read based on control information, and weight matrix position information of a full connection layer is also read. Then a convolution and pooling operation for a first iteration number of times is performed on the input data in accordance with the convolution parameter information, and then a full connection calculation for a second iteration number of times is performed in accordance with the weight matrix position information of the full connection layer. Each input data is divided into a plurality of sub-blocks, and the convolution and pooling unit and the full connection unit perform operations on the plurality of sub-blocks in parallel, respectively.",
+  "publication_number": "US20180157969A1-20180607",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Based on discussions above, the present disclosure puts forward a dedicated circuit, supports a sparse CNN network of an FC layer, adopts a ping-pang buffer parallelization design, and effectively balances an I/O bandwidth and a calculation efficiency. In the exiting technical solution, a dense CNN network needs a comparatively large I/O bandwidth, and a comparatively large number of storage and calculation resources. In order to adapt to algorithm requirements, a model compression technique becomes more and more popular. The sparse neural network after the model compression needs to be encoded for storage and needs to be decoded for calculation. The present disclosure adopts a custom circuit and a pipeline design, and can obtain a comparatively good performance per watt. An objective of the invention lies in providing an apparatus and a method for achieving an accelerator of a sparse CNN network to achieve an objective of improving a calculation performance and reducing a response delay. According to a first aspect of the present invention, an apparatus for achieving an accelerator of a sparse convolutional neural network is provided. The apparatus may comprise: a convolution and pooling unit for performing a convolution and pooling operation for a first iteration number of times on input data in accordance with convolution parameter information to finally obtain an input vector of a sparse neural network, wherein each input data is divided into a plurality of sub-blocks, and the convolution and pooling unit performs the convolution and pooling operation on the plurality of sub-blocks in parallel; a full connection unit for performing a full connection calculation for a second iteration number of times on the input vector in accordance with weight matrix position information of a full connection layer to finally obtain a calculation result of the sparse convolutional neural network, wherein each input vector is divided into a plu...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06F757",
+    "G06F7544"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "XIE",
+      "inventor_name_first": "Dongliang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Yu",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SHAN",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "Apparatus and Method for Achieving Accelerator of Sparse Convolutional Neural Network",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 66825,
+    "optimized_size": 3815,
+    "reduction_percent": 94.29
+  }
+}

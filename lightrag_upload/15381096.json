@@ -1,0 +1,66 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174069A1-20180621",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15381096",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Childress",
+      "inventor_name_first": "Rhonda L.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nidd",
+      "inventor_name_first": "Michael E.",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Rivers",
+      "inventor_name_first": "Michelle",
+      "inventor_city": "Marietta",
+      "inventor_state": "GA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stark",
+      "inventor_name_first": "George E.",
+      "inventor_city": "Lakeway",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tummalapenta",
+      "inventor_name_first": "Srinivas B.",
+      "inventor_city": "Broomfield",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wiesmann",
+      "inventor_name_first": "Dorothea",
+      "inventor_city": "Oberrieden",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "abstract": "A computer-implemented method of increasing reliability of an information technology environment comprising a plurality of hardware devices. Training data is received and a random forest is built from the training data using machine learning. A particular hardware device in the plurality of hardware devices is determined to be strange. Strange is defined as the particular hardware device having a proximity value lower than a predetermined threshold value for the random forest. A preventative action is determined to lower a risk of failure of the particular hardware device. The preventative action is reported. Reporting includes at least one of displaying a report on a display device, printing the report onto paper, and storing the report in a non-transitory computer recordable storage medium.",
+  "filing_date": "20161215",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A computer-implemented method of increasing reliability of an information technology environment comprising a plurality of hardware devices. The method includes receiving, at a processor, training data, wherein the training data comprises a plurality of feature sets corresponding to the plurality of hardware devices and also comprises a plurality of failures corresponding to the plurality of hardware devices, wherein the plurality of feature sets represent configurations and descriptions of individual hardware devices in the plurality of hardware devices, and wherein the plurality of failures describe corresponding failures of individual hardware devices in the plurality of hardware devices. The method also includes building, using the processor, a random forest from the training data using machine learning. The method also includes determining, by the processor, that a particular hardware device in the plurality of hardware devices is strange, wherein strange is defined as the particular hardware device having a proximity value lower than a predetermined threshold value for the random forest, and wherein proximity is defined as a tendency of a particular feature set and a particular failure rate for the particular hardware device to be within a same leaf of the random forest as other feature sets and failure rates of ones of hardware devices in the plurality of hardware devices. The method also includes determining, using the processor, a preventative action to lower a risk of failure of the particular hardware device. The method also includes reporting, using the processor, the preventative action, wherein reporting comprises at least one of displaying a report on a display device, printing the report onto paper, and storing the report in a non-transitory computer recordable storage medium. The illustrative embodiments also provide for a computer including program code for performing the above method. The illustrative embodiments also provide fo...",
+  "date_published": "20180621",
+  "title": "SYSTEM AND METHOD FOR IMPROVING PROBLEMATIC INFORMATION TECHNOLOGY DEVICE PREDICTION USING OUTLIERS",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L12751"
+  ],
+  "_processing_info": {
+    "original_size": 52633,
+    "optimized_size": 4157,
+    "reduction_percent": 92.1
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "date_produced": "20170419",
+  "publication_number": "US20170124482A1-20170504",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15189373",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YOO",
+      "inventor_name_first": "Jiho",
+      "inventor_city": "Hwaseong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KWON",
+      "inventor_name_first": "Youngchun",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Kyungdoc",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "SHIN",
+      "inventor_name_first": "Jaikwang",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Hyosug",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Younsuk",
+      "inventor_city": "Seongnam-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A method for searching a new material includes: performing a learning on a material model, which is modeled based on a known material; determining a candidate material by inputting a targeted physical property to a result of the learning; and determining the new material from the candidate material.",
+  "filing_date": "20160622",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>When methods for selecting a material group with likelihood in advance to simulation by applying a scheme such as a machine learning are used, the method for applying the machine learning to the high throughput screening (“HTS”) may be desired to generate a lot of virtual materials to generate advanced material candidate materials, so the materials with undesired properties may be mass produced, such that the candidate material of advanced materials may not be effectively searched. Exemplary embodiments of the invention relate to a device and method for searching a new material based upon a probability function with structure information and physical property information of a material as a variable. Exemplary embodiments of the invention relate to a device and method for acquiring a physical property of a specific material based on a probability function with structure information and physical property information of a material as a variable. According to an exemplary embodiment of the invention, a method for searching a new material includes: performing a learning on a material model, which is modeled based on a known material; determining a candidate material by inputting a targeted physical property to a result of the learning; and determining the new material from the candidate material. In an exemplary embodiment, the performing the learning on the material model may include: modeling the material model based upon first structure information, which is information on a structure of the known material, first physical property information, which is information on a physical property of the known material, information on a potential fact, and a learning parameter; updating the learning parameter; and determining whether to finish the learning based on an update result of the learning parameter. In an exemplary embodiment, the first structure information may include information on a partial structure in a molecular structure of the material. In an...",
+  "date_published": "20170504",
+  "title": "METHOD AND DEVICE FOR SEARCHING NEW MATERIAL",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1750",
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 54266,
+    "optimized_size": 3591,
+    "reduction_percent": 93.38
+  }
+}

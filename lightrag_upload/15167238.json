@@ -1,0 +1,38 @@
+{
+  "date_produced": "20160908",
+  "publication_number": "US20160275399A1-20160922",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15167238",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Leonard",
+      "inventor_name_first": "Michael James",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Elsheimer",
+      "inventor_name_first": "David Bruce",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods are included for adjusting a set of predicted future data points for a time series data set including a receiver for receiving a time series data set. One or more processors and one or more non-transitory computer readable storage mediums containing instructions may be utilized. A count series forecasting engine, utilizing the one or more processors, generates a set of counts corresponding to discrete values of the time series data set. An optimal discrete probability distribution for the set of counts is selected. A set of parameters are generated for the optimal discrete probability distribution. A statistical model is selected to generate a set of predicted future data points. The set of predicted future data points are adjusted using the generated set of parameters for the optimal discrete probability distribution in order to provide greater accuracy with respect to predictions of future data points.",
+  "filing_date": "20160527",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with the teaching provided herein, systems, methods, and computer-program products are provided herein for adjusting a set of predicted future data points for a time series data set. For example, a system is provided that includes a processor and a non-transitory computer readable storage medium containing instructions that, when executed with the processor, cause the processor to perform operations. The operations include receiving a time series data set, wherein the time series data set includes a plurality of data points that correspond to a plurality of discrete values. The operations further include generating a set of counts for the time series data set by analyzing the time series data, wherein a count corresponds to a number of instances of a particular discrete value in the time series data set. The operations further include automatically selecting an optimal discrete probability distribution for the set of counts from a set of candidate discrete probability distributions based on a selection criterion. The operations further include generating a set of parameters corresponding to the optimal discrete probability distribution. The operations further include selecting a statistical model for the time series data set, wherein selecting the statistical model includes using a set of statistical models and the selection criterion. The operations further include generating the set of predicted future data points for the time series data set, wherein generating the set of predicted future data points includes using the selected statistical model. The operations further include adjusting the set of predicted future data points for the time series data set, wherein adjusting the set of predicted future data points includes using the set of parameters corresponding to the optimal discrete probability distribution. The operations further include using the adjusted set of predicted future data points to provide a predicted future data ...",
+  "date_published": "20160922",
+  "title": "SYSTEMS AND METHODS FOR TIME SERIES ANALYSIS TECHNIQUES UTILIZING COUNT DATA SETS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 173770,
+    "optimized_size": 3671,
+    "reduction_percent": 97.89
+  }
+}

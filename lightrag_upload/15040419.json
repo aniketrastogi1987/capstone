@@ -1,0 +1,37 @@
+{
+  "date_produced": "20160803",
+  "publication_number": "US20160239757A1-20160818",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15040419",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HIROKI",
+      "inventor_name_first": "Keiichi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MIYOSHI",
+      "inventor_name_first": "Toshinori",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A chronological change prediction system stores a graphical model which an evidence set at a first time is inputted in and outputs information about states of random variables at a second time when a first period has passed from the first time, determines whether to convert each probability distribution in the first evidence set based on a feature value calculated from the probability distributions and/or a feature value calculated from a random variable associated with the probability distributions in the graphical model, converts each probability distribution determined to be converted into a particular state of a random variable corresponding to each probability distribution determined to be converted, creates a second evidence set from the first evidence set by replacing each probability distribution determined to be converted and included in the first evidence set with the first particular state, and inputs the second evidence set to the graphical model.",
+  "filing_date": "20160210",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>JP 2014-225176 constructs, with data about states of a certain year and the next year, a Bayesian network which predicts a one-year-later prevalence rate and one-year-later medical expenses. Evidence which is inputted to a graphical network, such as the Bayesian network, includes hard evidence, which is information about a particular state of a random variable, and soft evidence, which is information about a probability distribution in the case that the probability distribution of a random variable which still has a plurality of states is proved. The art of JP 2014-225176 predicts a one-year-later state by inputting the hard evidence which is information about present states to the Bayesian network. Thus, when the present state includes a probability distribution of a random variable (which still has a plurality of states), the art of JP 2014-225176 must converts the probability distribution into a particular state. Methods for converting a probability distribution into a particular state include a method which selects a mode, which is a state that appears most often in the probability distribution, as the particular state and a method which calculates an expectation value with the probability distribution and selects a state corresponding to the expectation value as the particular state. When the particular state converted from the probability distribution is inputted, prediction accuracy decreases as compared to a case that the probability distribution is inputted. When prediction which inputs a result of the last prediction by the graphical model into the graphical is repeated, a result of the repeated prediction should greatly differ from a future state. The prevalence rates and the medical expenses are likely to increase with ages. However, chronological change prediction with particular states into which the prevalence rates and the medical expenses are converted should create prediction results that the prevalence rates and the medical expe...",
+  "date_published": "20160818",
+  "title": "CHRONOLOGICAL CHANGE PREDICTION SYSTEM",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 75493,
+    "optimized_size": 3640,
+    "reduction_percent": 95.18
+  }
+}

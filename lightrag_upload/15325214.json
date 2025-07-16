@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15325214",
+  "date_published": "20170629",
+  "date_produced": "20170614",
+  "filing_date": "20170110",
+  "main_ipcr_label": "G06N700",
+  "abstract": "A computer-implemented method for estimating an actual operational state of a machine of interest at a point in time is described. The method comprises operating a computer processing unit to receive a plurality of messages, each message comprising data relating to the machine of interest as it performs the worksite operation. The plurality of messages comprises data from at least two separate sources. The data is processed using a statistical process to generate an estimated actual operational state of the machine of interest at the point in time.",
+  "publication_number": "US20170185906A1-20170629",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed herein is a computer-implemented method for estimating an actual operational state of a machine of interest at a point in time, the machine of interest being involved in a worksite operation comprising a plurality of different operational states, wherein the method comprises operating a computer processing unit to: receive a plurality of messages, each message comprising data relating to the machine of interest as it performs the worksite operation, the plurality of messages comprising data from at least two separate sources; process the data from the plurality of messages using a statistical process to generate an estimated actual operational state of the machine of interest at the point in time. The at least two separate data sources may comprise a first data source comprising data derived from a first sensor carried by the machine of interest and a second data source comprising data derived from a second sensor carried by the machine of interest. The at least two separate data sources comprise a first data source comprising data derived from the machine of interest and a second data source comprising data derived another worksite machine. The at least two separate data sources comprise a data source of contextual information. The plurality of messages may comprise at least one perceived state message comprising data relating to a perceived operational state of the machine of interest at a point in time. The source of the at least one perceived state message may be the machine of interest. The computer-implemented method may further comprise operating the computer processing unit to: process the estimated actual operational state against alert criteria; and responsive to the alert criteria being satisfied, raise an alert comprising at the estimated actual operational state of the machine of interest. The computer-implemented method may further comprise operating the computer processing unit to: process the plurality of operation messag...",
+  "ipcr_labels": [
+    "G06N700",
+    "G07C508"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Collins",
+      "inventor_name_first": "Darryl V.",
+      "inventor_city": "Jindalee",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "title": "System and Method for Determining Machine Operational State",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 83648,
+    "optimized_size": 3114,
+    "reduction_percent": 96.28
+  }
+}

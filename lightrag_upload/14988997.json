@@ -1,0 +1,51 @@
+{
+  "date_produced": "20160413",
+  "publication_number": "US20160117599A1-20160428",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "14988997",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ramakrishnan",
+      "inventor_name_first": "Kadangode K.",
+      "inventor_city": "Berkeley Heights",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Srivastava",
+      "inventor_name_first": "Divesh",
+      "inventor_city": "Summit",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cho",
+      "inventor_name_first": "Tae Won",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Yin",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Recommendation systems are widely used in Internet applications. In current recommendation systems, users only play a passive role and have limited control over the recommendation generation process. As a result, there is often considerable mismatch between the recommendations made by these systems and the actual user interests, which are fine-grained and constantly evolving. With a user-powered distributed recommendation architecture, individual users can flexibly define fine-grained communities of interest in a declarative fashion and obtain recommendations accurately tailored to their interests by aggregating opinions of users in such communities. By combining a progressive sampling technique with data perturbation methods, the recommendation system is both scalable and privacy-preserving.",
+  "filing_date": "20160106",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In an embodiment, a recommendation system receives a user-defined recommendation request and a user-defined declarative community definition. The recommendation system searches at least one recommendation database. The recommendation system retrieves rating data from at least one member of the community defined by the declarative community definition. Based at least in part on the rating data, the recommendation system generates at least one recommendation. In an embodiment, the recommendation system receives additional user input, including a user-defined item constraint, a user-defined aggregation function, and a user-defined selection algorithm. The recommendation system generates at least one recommendation according to the aggregation function and a progressive sampling policy. To preserve privacy, the rating data may be perturbed. These and other advantages of the disclosure will be apparent to those of ordinary skill in the art by reference to the following detailed description and the accompanying drawings.",
+  "date_published": "20160428",
+  "title": "User-Powered Recommendation System",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 50797,
+    "optimized_size": 2832,
+    "reduction_percent": 94.42
+  }
+}

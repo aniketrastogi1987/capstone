@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15043928",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "title": "METHODS FOR MANAGING ARRAY LUNS IN A STORAGE NETWORK WITH A MULTI-PATH CONFIGURATION AND DEVICES THEREOF",
+  "filing_date": "20160215",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KOLBUSH",
+      "inventor_name_first": "RICHARD",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G06F1342"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram of a network environment with an exemplary storage management computing device coupled to a bridge device; FIG. 2 is a block diagram of the exemplary storage management computing device of FIG. 1 ; FIG. 3 is a flowchart of an exemplary method for interfacing, by the exemplary storage management computing device of FIGS. 1 and 2 , with a bridge device to manage array LUNs in a storage network with a multi-path configuration; FIG. 4 is a flow diagram of an exemplary method for interfacing, by the exemplary bridge device of FIG. 1 , with a storage management computing device to manage array LUNs in a storage network with a multi-path configuration; and FIG. 5 is a flow diagram of an exemplary method for identifying a bridge device port in response to a storage device failure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "Methods, non-transitory computer readable media, and storage management computing devices that obtains and stores a plurality of LUN ranges and an indication of a plurality of ports of a bridge device corresponding to the plurality of LUN ranges. A LUN is received from the bridge device. One of the plurality of ports of the bridge device to which a storage device associated with the received LUN is attached via inclusion in one of a plurality of stacks communicably coupled to the one of the plurality of ports of the bridge device is identified. The received LUN is within one of the plurality of LUN ranges corresponding to the one of the plurality of ports. An action is initiated based on the identified one of the plurality of ports of the bridge.",
+  "publication_number": "US20170235494A1-20170817",
+  "_processing_info": {
+    "original_size": 55395,
+    "optimized_size": 2284,
+    "reduction_percent": 95.88
+  }
+}

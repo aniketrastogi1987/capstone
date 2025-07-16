@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15444258",
+  "date_published": "20170831",
+  "date_produced": "20170816",
+  "filing_date": "20170227",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Systems and methods in accordance with embodiments of the invention enable identifying informative features within input data using a neural network data structure. One embodiment includes a data structure describing a neural network that comprises a plurality of neurons; wherein the processor is configured by the feature application to: determine contributions of individual neurons to activation of a target neuron by comparing activations of a set of neurons to their reference values, where the contributions are computed by dynamically backpropagating an importance signal through the data structure describing the neural network; extracting aggregated features detected by the target neuron by: segmenting the determined contributions; clustering into clusters of similar segments; aggregating data to identify aggregated features of input data that contribute to the activation of the target neuron; and displaying aggregated features of input data to highlight important features.",
+  "publication_number": "US20170249547A1-20170831",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Systems and methods in accordance with embodiments of the invention enable identifying informative features within input data using a neural network data structure. One embodiment includes a network interface; a processor, and; a memory, containing: a feature application; a data structure describing a neural network that comprises a plurality of neurons: wherein the processor is configured by the feature application to: determine contributions of individual neurons to activation of a target neuron by comparing activations of a set of neurons to their reference values, where the contributions are computed by dynamically backpropagating an importance signal through the data structure describing the neural network; extracting aggregated features detected by the target neuron by: segmenting the determined contributions to the target neuron; clustering the segmented contributions into clusters of similar segments; aggregating data within clusters of similar segments to identify aggregated features of input data that contribute to the activation of the target neuron; and displaying the aggregated features of input data to highlight important features of the input data relied upon by the neural network. In a further embodiment, the activation of the target neuron and the activations of the reference neurons are calculated by a rectified linear unit activation function. In another embodiment, the reference input is predetermined. In a still further embodiment, segmenting the determined contributions further comprises identifying segments with a highest value. In still another embodiment, the processor is further configured to extract aggregated features by: filtering and discarding determined contributions with the significant score below the highest value. In a yet further embodiment, the processor is further configured to extract aggregated features by: augmenting the determined contributions with a set of auxiliary information. In yet ...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shrikumar",
+      "inventor_name_first": "Avanti",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Greenside",
+      "inventor_name_first": "Peyton Greis",
+      "inventor_city": "Stanford",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kundaje",
+      "inventor_name_first": "Anshul",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Systems and Methods for Holistic Extraction of Features from Neural Networks",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 118481,
+    "optimized_size": 3873,
+    "reduction_percent": 96.73
+  }
+}

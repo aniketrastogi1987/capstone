@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15263991",
+  "date_published": "20161229",
+  "date_produced": "20161214",
+  "title": "SYSTEM AND METHOD FOR WRITE PROTECTING PORTIONS OF TAPE STORAGE MEDIA",
+  "filing_date": "20160913",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HOSTETTER",
+      "inventor_name_first": "David G.",
+      "inventor_city": "Louisville",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HERRON",
+      "inventor_name_first": "John Steven",
+      "inventor_city": "Arvada",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G11B1504",
+    "G11B2736",
+    "G06F306",
+    "G11B5008"
+  ],
+  "main_ipcr_label": "G11B1504",
+  "summary": "<SOH> SUMMARY <EOH>Systems and methods for writing data on a tape having a plurality of partitions and accessed by a tape drive having an associated tape drive processor in communication with a host computer having an associated host processor include a tape and/or tape cartridge storing a read-only partition identifier associated with each of the plurality of partitions. The tape drive processor compares a requested write partition identifier with the stored read-only partition identifiers, and writes data to the requested write partition only if the associated read-only identifier indicates that the requested write partition is not a read-only partition. In one embodiment, a method for archiving data from a host computer to one of a plurality of tapes having a plurality of substantially identical data partitions and loadable into a tape drive in communication with the host computer includes reading information identifying selected partitions marked as read-only associated with one of the tapes when the tape is mounted. The method may also include transferring the information into tape drive memory, receiving a write request from the host computer to write data to at least one of the partitions, and comparing the information in the tape drive memory to the write request to determine if the write request includes any partitions designated as read only. Various embodiments include returning an error to the host computer for partitions in the write request designated as read-only partitions by the information in the tape drive memory, and writing data to partitions in the write request that are not identified as read-only partitions by the information in the tape drive memory. Embodiments according to the present disclosure may also include a computer data storage system having a tape drive with an associated processor and memory for writing and reading data on an associated tape having a plurality of substantially identical partitions for storing data. The tape drive...",
+  "patent_number": "None",
+  "abstract": "A non-transitory computer readable storage medium includes a tape having a plurality of partitions configured for storing data, and a plurality of read-only partition identifiers, each read-only partition identifier associated with one of the plurality of partitions and readable by a tape drive having a processor and memory for writing and reading tape data. Each read-only partition identifier selectively designates a corresponding one of the partitions as read-only to prevent data from being written to the designated read-only partition by the tape drive.",
+  "publication_number": "US20160379678A1-20161229",
+  "_processing_info": {
+    "original_size": 49891,
+    "optimized_size": 3312,
+    "reduction_percent": 93.36
+  }
+}

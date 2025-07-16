@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15631058",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20170623",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A neural network conversion method and a recognition apparatus that implements the method are provided. A method of converting an analog neural network (ANN) to a spiking neural network (SNN) normalizes first parameters of a trained ANN based on a reference activation that is set to be proximate to a maximum activation of artificial neurons included in the ANN, and determines second parameters of an SNN based on the normalized first parameters.",
+  "publication_number": "US20180121802A1-20180503",
+  "summary": "<SOH> SUMMARY <EOH>Exemplary embodiments may address at least the above problems and/or disadvantages and other disadvantages not described above. Also, the exemplary embodiments are not required to overcome the disadvantages described above, and an exemplary embodiment may not overcome any of the problems described above. According to an aspect of an exemplary embodiment, there is provided a method for converting an analog neural network (ANN) to a spiking neural network (SNN), the method including normalizing first parameters of a trained ANN based on a reference activation that is determined based on a predetermined proximity with respect to a maximum activation of artificial neurons included in the ANN, and determining second parameters of an SNN based on the normalized first parameters. The normalizing may include setting an activation to be proximate to a one-hundredth (100-th) percentile from among activations of the artificial neurons included in the ANN as the reference activation, and normalizing the first parameters based on the reference activation. The normalizing may include determining a reference activation that corresponds to a first layer included in the ANN, and normalizing first parameters that correspond to the first layer based on the determined reference activation, and the reference activation that corresponds to the first layer may be set to be more proximate to the maximum activation than a reference activation that corresponds to a second layer that is subsequent to the first layer. A current membrane potential of an artificial neuron included in the SNN may be determined based on at least one from among a previous membrane potential of the artificial neuron, a reception signal received via an input synapse of the artificial neuron, and a predetermined bias. An output layer included in the SNN may determine an artificial neuron to be used for outputting a spike based on current membrane potentials of artificial neurons included in the outp...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "RUCKAUER",
+      "inventor_name_first": "Bodo",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "LUNGU",
+      "inventor_name_first": "Iulia-Alexandra",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "HU",
+      "inventor_name_first": "Yuhuang",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "PFEIFFER",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Bern",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "title": "METHOD OF CONVERTING NEURAL NETWORK AND RECOGNITION APPARATUS USING THE SAME",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 66111,
+    "optimized_size": 3451,
+    "reduction_percent": 94.78
+  }
+}

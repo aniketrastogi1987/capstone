@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15279889",
+  "date_published": "20170323",
+  "date_produced": "20170309",
+  "title": "PROVIDING CONTEXT-AWARE INPUT DATA",
+  "filing_date": "20160929",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chang",
+      "inventor_name_first": "Xu",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Cheng",
+      "inventor_name_first": "Wen Xin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Meliksetian",
+      "inventor_name_first": "Dikran S.",
+      "inventor_city": "Danbury",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Zhi Jun",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1724",
+    "G06F30481"
+  ],
+  "main_ipcr_label": "G06F1724",
+  "summary": "<SOH> SUMMARY <EOH>The present subject matter provides a method and apparatus for providing input data to an application running on a computer system, such that the method and apparatus may provide context-aware input data for a specific input field, verify the validity of input data while improving the input efficiency, and further provide more complex constraints among respective input fields. In an embodiment of the present subject matter, there is provided a method for providing context-aware input data to an application running on a computer system. The method comprises: generating in advance external constraints with respect to at least one input field of at least one application; and providing context-aware input data to at least one input field of a currently used application, based on the external constraints. In another embodiment of the present subject matter, generating in advance the external constraints comprises at least one of: generating in advance a first external constraint with respect to input data of a single input field of the at least one application; and generating in advance a second external constraint with respect to an association relationship between input data of at least two input fields of the at least one application. In an embodiment of the present subject matter, there is provided an apparatus for providing context-aware input data to an application running on a computer system. The apparatus comprises: a memory; and a processor programmed to execute: a generation component for generating in advance external constraints with respect to at least one input field of at least one application within the memory; and a provision component for providing context-aware input data to at least one input field of a currently used application, based on the external constraints. In another embodiment of the present subject matter, the generation component comprises at least one of: a first generation component for generating in advance a first e...",
+  "patent_number": "None",
+  "abstract": "External inter-application input field constraints that specify a configured association relationship between an input field utilized during execution by a first application and multiple input fields utilized during execution by a second application are generated in advance. In response to user input entered into the input field of the executing first application and based on the external inter-application input field constraints, context-aware input data to the multiple input fields of the concurrently-executing second application is provided during concurrent execution of the first application and the second application.",
+  "publication_number": "US20170083501A1-20170323",
+  "_processing_info": {
+    "original_size": 64916,
+    "optimized_size": 3597,
+    "reduction_percent": 94.46
+  }
+}

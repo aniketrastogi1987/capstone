@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15585645",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "filing_date": "20170503",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "A method of configuring a hardware implementation of a Convolutional Neural Network (CNN), the method comprising: determining, for each of a plurality of layers of the CNN, a first number format for representing weight values in the layer based upon a distribution of weight values for the layer, the first number format comprising a first integer of a first predetermined bit-length and a first exponent value that is fixed for the layer; determining, for each of a plurality of layers of the CNN, a second number format for representing data values in the layer based upon a distribution of expected data values for the layer, the second number format comprising a second integer of a second predetermined bit-length and a second exponent value that is fixed for the layer; and storing the determined number formats for use in configuring the hardware implementation of a CNN.",
+  "publication_number": "US20170323197A1-20171109",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. There is provided a method of configuring a hardware implementation of a Convolutional Neural Network (CNN), the method comprising: determining, for at least one weight of at least one layer of the CNN, a first number format for representing that weight in the at least one layer based upon a distribution of weight values for the at least one layer, the first number format comprising a first integer of a first predetermined bit-length and a first exponent value. The method may further comprise determining, for each of a plurality of layers of the CNN, a second number format for representing data values in the layer based upon a distribution of expected data values for the layer, the second number format comprising a second integer of a second predetermined bit-length and a second exponent value that is fixed for the layer. The method may further comprise determining, for each of a plurality of layers of the CNN, a third number format for representing weight values in the layer based upon a distribution of weight values for the layer, the third number format comprising a third integer of a third predetermined bit-length and a third exponent value that is fixed for the layer. The method may further comprise storing the determined number formats for use in configuring the hardware implementation of a CNN. There is provided a method of configuring a hardware implementation of a Convolutional Neural Network (CNN), the method comprising: determining, for at least one layer parameter of a CNN, a number format for representing the layer parameter based upon a distribution of layer parameter values for at least a portion of at leas...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gibson",
+      "inventor_name_first": "Clifford",
+      "inventor_city": "St. Albans",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Imber",
+      "inventor_name_first": "James",
+      "inventor_city": "Hemel Hempstead",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "Convolutional Neural Network Hardware Configuration",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 87374,
+    "optimized_size": 3592,
+    "reduction_percent": 95.89
+  }
+}

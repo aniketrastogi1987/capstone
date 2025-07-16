@@ -1,0 +1,33 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "14988123",
+  "date_published": "20160512",
+  "date_produced": "20160427",
+  "title": "REAL-TIME FUNCTIONAL-MRI CONNECTIVITY ANALYSIS",
+  "filing_date": "20160105",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Jingyun",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T700",
+    "G06T1508",
+    "G06K900",
+    "G06T1100"
+  ],
+  "main_ipcr_label": "G06T700",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A first embodiment of the present invention provides a method for real-time subject-driven functional connectivity analysis, the method comprising: a processor of a computer system receiving a first brain volume of a time series, wherein the time series comprises a sequence of brain volumes recorded during a first time period, wherein each brain volume of the time series represents a same subject's brain as a three-dimensional set of voxels, wherein each brain volume of the time series was recorded at a unique recording time of a set of recording times, wherein the first brain volume was recorded at an earliest recording time of the set of recording times, wherein a parcellation of the first brain volume identifies a set of three-dimensional regions common to each brain volume of the time series; and wherein a voxel of the first brain volume is characterized by an intensity that represents a level of activation at a unique location within the same subject's brain at a time at which the first brain volume was recorded; the processor further receiving remaining brain volumes of the time series in an order in which the remaining brain volumes were recorded, the processor deriving an average intensity of each region of the set of three-dimensional regions in each received brain volume; the processor generating a set of time courses as a function of the deriving, wherein each course of the set of time courses is associated with one associated region of the set of three-dimensional regions and identifies a time-varying change in an average intensity of the one associated region during the first time period; and the processor detecting a correlation between a first region of the set of three-dimensional regions and a second region of the set of three-dimensional regions during the first time period, as a function of a first time course of the set of time courses associated with the first region and a second time course of the set of time courses as...",
+  "patent_number": "9501825",
+  "abstract": "A method and associated systems for real-time subject-driven functional connectivity analysis. One or more processors receive an fMRI time series of sequentially recorded, masked, parcellated images that each represent the state of a subject's brain at the image's recording time as voxels partitioned into a constant set of three-dimensional regions of interest. The processors derive an average intensity of each region's voxels in each image and organize these intensity values into a set of time courses, where each time course contains a chronologically ordered list of average intensity values of one region. The processors then identify time-based correlations between average intensities of each pair of regions and represent these correlations in a graphical format. As each subsequent fMRI image of the same subject's brain arrives, the processors repeat this process to update the time courses, correlations, and graphical representation in real time or near-real time.",
+  "publication_number": "US20160133017A1-20160512",
+  "_processing_info": {
+    "original_size": 91129,
+    "optimized_size": 3548,
+    "reduction_percent": 96.11
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15640191",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170630",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A method of detecting anomalies in a time series is disclosed. A training time series corresponding to a process is extracted from an initial time series corresponding to the process, the training time series including a subset of the initial time series. Outlier data points in the training time series are modified based on predetermined acceptability criteria. A plurality of prediction methods are trained using the training time series. An actual data point corresponding to the initial time series is received. The plurality of prediction methods are used to determine a set of predicted data points corresponding to the actual data point. It is determined whether the actual data point is anomalous based on a calculation of whether each of the set of predicted data points is statistically different from the actual data point.",
+  "publication_number": "US20170372207A1-20171228",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments are illustrated by way of example and not limitation in the figures of the accompanying drawings. FIG. 1 is a network diagram depicting a client-server system within which various example embodiments may be deployed. FIG. 2 is a block diagram illustrating multiple server applications that, in various example embodiments, are provided as part of the networked system of FIG. 1 . FIG. 3 is an example embodiment of a method of determining a health of a complex system. FIG. 4 is an example embodiment of a method of detecting anomalies with respect to a computer process executing within a complex system. FIG. 5 is a block diagram illustrating an example anomaly detection daily process. FIG. 6 is an example user interface of a graphical user interface for representing a health of particular computer process executing within a complex system. FIG. 7 is a block diagram of machine in the example form of a computer system within which instructions for causing the machine to perform any one or more of the methodologies discussed herein may be executed. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Moghtaderi",
+      "inventor_name_first": "Azadeh",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bawa",
+      "inventor_name_first": "Gagandeep Singh",
+      "inventor_city": "Campbell",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Schwarzbach",
+      "inventor_name_first": "David",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "ANOMALY DETECTION FOR NON-STATIONARY DATA",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 61097,
+    "optimized_size": 2870,
+    "reduction_percent": 95.3
+  }
+}

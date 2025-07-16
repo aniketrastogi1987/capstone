@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15628963",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "filing_date": "20170621",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "In a quantum processor some couplers couple a given qubit to a nearest neighbor qubit (e.g., vertically and horizontally in an ordered 2D array), other couplers couple to next-nearest neighbor qubits (e.g., diagonally in the ordered 2D array). Couplers may include half-couplers, to selectively provide communicative coupling between a given qubit and other qubits, which may or may not be nearest or even next-nearest-neighbors. Tunable couplers selective mediate communicative coupling. A control system may impose a connectivity on a quantum processor, different than an “as designed” or “as manufactured” physical connectivity. Imposition may be via a digital processor processing a working or updated working graph, to map or embed a problem graph. A set of exclude qubits may be created from a comparison of hardware and working graphs. An annealing schedule may adjust a respective normalized inductance of one or more qubits, for instance to exclude certain qubits.",
+  "publication_number": "US20170286859A1-20171005",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Applicant has previously employed the term “connectivity” to describe the number of possible or available communicative coupling paths that are physically available (e.g., whether active or not) to communicably couple directly between pairs of qubits in a quantum processor without the use of intervening qubits. Applicant introduces new terminology to distinguish between various measures of connectivity. For example, Applicant introduces terminology to distinguish between various forms of physically available connectivity (e.g., “as designed physical connectivity”; “as manufactured physical connectivity”). Applicant also introduces terminology to distinguish programmed or logical connectivity (e.g., imposed connectivity). Applicant further introduces terminology to distinguish between quantum processor wide connectivity (e.g., processor-wide minimal connectivity), and more specific subsets of the quantum processor (inner minimal connectivity). As an example, a qubit with a physical connectivity of three is physically capable of directly communicably coupling to up to three other qubits without any intervening qubits due to the physical architecture of the qubits and couplers as manufactured. In other words, there are direct communicative coupling paths available to a maximum of three other qubits, although in any particular application all or less than all of those direct communicative coupling paths may actually be employed depending on the particular problem being solved and/or mapping of that particular problem to the processor or hardware. Typically, the number of qubits in a quantum processor limits the size of problems that may be solved and the interaction between the qubits in a quantum processor limits the complexity of the problems that may be solved. The following discussion of various stages and associated quantum processor characteristics provides a basis for understanding the more detailed discussion of the present methods, syst...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1582"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Harris",
+      "inventor_name_first": "Richard G.",
+      "inventor_city": "North Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Bunyk",
+      "inventor_name_first": "Paul I.",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Amin",
+      "inventor_name_first": "Mohammad H.S.",
+      "inventor_city": "Burnaby",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Hoskinson",
+      "inventor_name_first": "Emile M.",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "QUANTUM PROCESSOR WITH INSTANCE PROGRAMMABLE QUBIT CONNECTIVITY",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 173351,
+    "optimized_size": 4040,
+    "reduction_percent": 97.67
+  }
+}

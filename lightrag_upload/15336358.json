@@ -1,0 +1,32 @@
+{
+  "date_produced": "20180418",
+  "publication_number": "US20180121825A1-20180503",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15336358",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kumar",
+      "inventor_name_first": "Neeraj",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "One or more embodiments of a content naming system provide machine-learned name suggestions to a user for naming content items. Specifically, an online content management system can train a machine-learning model to identify a naming pattern from previously stored content items corresponding to a user account of the user. The online content management system uses the machine-learning model to determine a plurality of name suggestions for naming a content item associated with the user account. One or more embodiments provide graphical elements corresponding to the name suggestions within a graphical user interface. The user can select one or more graphical elements to add the corresponding name suggestion(s) to the name of the content item.",
+  "filing_date": "20161027",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One or more embodiments described herein provide benefits and/or solve one or more of the foregoing or other problems in the art with systems and methods for naming content items. In particular, the systems and methods described herein provide machine-learned filename suggestions for naming content items based on previously named content items. For example, the systems and methods train a machine-learning model based on previously named content items associated with a user or a particular plurality of users (e.g., a group of co-workers) to allow the model to learn naming conventions and patterns specific to the user or user group and provide suggestions to a user based on the learned naming patterns. Specifically, one or more embodiments determine characteristics of a content item to be named. The systems and methods use the machine-learning model to determine suggestions based on naming patterns for other content items having similar characteristics as the content item. The systems and methods then provide suggestions for naming the content item within a graphical user interface. In particular, one or more embodiments generate graphical elements with the corresponding machine-learned suggestions and provide the graphical elements in the graphical user interface. This allows user selection of one or more of the graphical elements to add to the name of the content item using the corresponding name suggestions. For example, the disclosed systems and methods identify one or more selected graphical elements and apply the corresponding name suggestions to the name of the content item in an order in which the graphical elements are selected. The systems and methods can further update the machine-learning model based on the resulting name of the content item to continue learning naming patterns for the user. Additional features and advantages of the present disclosure will be set forth in the description that follows, and in part will be obvious from the...",
+  "date_published": "20180503",
+  "title": "PROVIDING INTELLIGENT FILE NAME SUGGESTIONS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504",
+    "G06F30482"
+  ],
+  "_processing_info": {
+    "original_size": 108885,
+    "optimized_size": 3310,
+    "reduction_percent": 96.96
+  }
+}

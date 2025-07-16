@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15554985",
+  "date_published": "20180222",
+  "date_produced": "20180207",
+  "filing_date": "20170831",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A first intermediate layer activity level calculator refers to an index stored in a first intermediate layer storage, acquires, from among activity levels of respective nodes in an input layer calculated by an input layer activity level calculator and weight for respective edges and bias values stored in the first intermediate layer storage, an activity level of each node in the input layer that is connected with each node in the first intermediate layer and weight for each of edges and a bias value thereof, and calculates an activity level of each node in the first intermediate layer using the activity level of each node in the first input layer and the weight for each of the edges and the bias value having been acquired. This is capable of reducing the calculation amount and the memory amount upon performing inference, and also obtaining higher inference accuracy.",
+  "publication_number": "US20180053085A1-20180222",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>Since inference devices in the conventional art are configured in the above manner, the number of edges between an input layer and an intermediate layer or the number of edges between the intermediate layer and an output layer can be reduced. However, between the input layer and the intermediate layer belonging to the same group, each node in the input layer is connected with all nodes in the intermediate layer and thus the reduction number of edges is limited. Therefore, there may cause a problem that the calculation amount and the memory amount upon inference are still large. The present invention has been devised to solve the aforementioned problem with an object to obtain an inference method and an inference device that is capable of reducing the calculation amount and the memory amount upon performing inference. A further object is to obtain an inference device and an inference method having high inference accuracy. An inference device according to the invention includes: an input layer activity level calculator to calculate, when data is given to each node of an input layer constituting a neural network, an activity level of each node of the input layer from the given data; an intermediate layer storage to store weight applied to an edge that connects a node of an intermediate layer constituting the neural network and a node of the input layer; an intermediate layer activity level calculator to acquire, from among the activity levels of the respective nodes of the input layer calculated by the input layer activity level calculator and the weight for the respective edges stored in the intermediate layer storage, an activity level of a node in the input layer that has connection with a node in the intermediate layer, and also acquire weight for a corresponding edge, and calculate an activity level of the node in the intermediate layer by using the acquired activity level of the node in the input layer and the acquired weight for t...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MATSUMOTO",
+      "inventor_name_first": "Wataru",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "YOSHIMURA",
+      "inventor_name_first": "Genta",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "ZHAO",
+      "inventor_name_first": "Xiongxin",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFERENCE DEVICE AND INFERENCE METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 112396,
+    "optimized_size": 3696,
+    "reduction_percent": 96.71
+  }
+}

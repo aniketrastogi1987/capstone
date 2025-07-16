@@ -1,0 +1,51 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15161412",
+  "date_published": "20160915",
+  "date_produced": "20160831",
+  "title": "COMPENSATING FOR REDUCED AVAILABILITY OF A DISRUPTED PROJECT RESOURCE",
+  "filing_date": "20160523",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kenkre",
+      "inventor_name_first": "Sreyash D.",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Mehta",
+      "inventor_name_first": "Sameep",
+      "inventor_city": "New Delhi",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Narayanam",
+      "inventor_name_first": "Krishnasuri",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Pandit",
+      "inventor_name_first": "Vinayaka D.",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q1006"
+  ],
+  "main_ipcr_label": "G06Q1006",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A first embodiment of the present invention provides a method for automatically identifying critical resources of an organization, wherein said organization comprises a plurality of projects, wherein a project of said plurality of projects comprises a plurality of resource instances, wherein a resource instance of said plurality of resource instances is associated with a resource type of a plurality of resource types, and wherein a disruption of a disrupted resource type of said plurality of resource types results in an unavailability of a unit of a resource instance of said plurality of resource instances, said method comprising: a processor of a computer system receiving one or more dependency relationships, wherein a dependency relationship of said one or more dependency relationships relates an independent resource type of said plurality of resource types and a dependent resource type of said plurality of resource types, and wherein a first disruption of said independent resource type results in a second disruption of said dependent resource type; said processor determining a capacity of said dependent resource type, wherein said capacity is a function of an initial disruption of an initially disrupted resource type of said plurality of resource types and wherein said capacity is a further function of said one or more dependency relationships; said processor categorizing said initially disrupted resource type as being critical for said dependent resource type, wherein said categorizing is a function of said capacity of said dependent resource type. A second embodiment of the present invention provides a computer program product, comprising a computer-readable hardware storage device having a computer-readable program code stored therein, said computer-readable program code implementing a method for automatically identifying critical resources of an organization, said method implemented by execution of said program code on a processor of ...",
+  "patent_number": "9922305",
+  "abstract": "A method and associated systems for automatically identifying critical resources in an organization. An organization creates a model of the dependencies between pairs of resource types, wherein that model describes how the organization's projects and services are affected when a resource type becomes unavailable. This model may include a system of directed graphs. This model may be used to automatically identify a resource type as critical if unacceptable cost is incurred by resuming projects and services rendered infeasible when the resource type is disrupted. The model may also be used to automatically identify a first resource type as critical for a second resource type when disruption of the first resource type forces the available capacity of the second resource type to fall below a threshold value.",
+  "publication_number": "US20160267415A1-20160915",
+  "_processing_info": {
+    "original_size": 96703,
+    "optimized_size": 3828,
+    "reduction_percent": 96.04
+  }
+}

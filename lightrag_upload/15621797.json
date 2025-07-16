@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15621797",
+  "date_published": "20171214",
+  "date_produced": "20171129",
+  "filing_date": "20170613",
+  "main_ipcr_label": "G06N302",
+  "abstract": "An information processor is provided that includes an inference module configured to extract a subset of data from information in an input and a classification module configured to classify the information in the input based on the extracted data. The inference module includes a first plurality of convolvers acting in parallel to apply each of N1 convolution kernels to each of N2 portions of the input image in order to generate an interim sparse representation of the input and a second plurality of convolvers acting in parallel to apply each of N3 convolution kernels to each of N4 portions of the interim sparse representation to generate a final sparse representation containing the extracted data. In order to take advantage of sparsity in the interim sparse representation, N3 is greater than N4 to parallelize processing in a non-sparse dimension and/or the second plurality of convolvers comprise sparse convolvers.",
+  "publication_number": "US20170357889A1-20171214",
+  "summary": "<SOH> SUMMARY <EOH>This disclosure relates to a processor for classifying information in an input. In particular, this disclosure relates to a processor that take advantage of the concept of sparsity to reduce processor workloads and power consumption. An information processor in accordance with one embodiment includes an inference module configured to extract a subset of data from information contained in an input and a classification module configured to classify the information in the input based on the extracted subset of data. The inference modules includes a first submodule having a first plurality of convolvers acting in parallel to apply each of N1 convolution kernels to each of N2 portions of the input, wherein N1 and N2 are each greater than one. The first submodule generates at least one interim sparse representation of the input. The inference module further includes a second submodule having a second plurality of convolvers acting in parallel to apply each of N3 convolution kernels to each of N4 portions of the at least one interim sparse representation, wherein N3 is greater than one and greater than N4. The second submodule generates at least one final sparse representation of the input containing the extracted subset of data. An information processor in accordance with another embodiment includes an inference module configured to extract a subset of data from information contained in an input and a classification module configured to classify the information in the input based on the extracted subset of data. The inference module includes a first submodule having a first plurality of convolvers acting in parallel to apply each of N1 convolution kernels to each of N2 portions of the input, wherein N1 and N2 are each greater than one. The first submodule generates at least one interim sparse representation of the input. The interim sparse representation comprises a two dimensional data structure having a plurality of cells. The inference module further...",
+  "ipcr_labels": [
+    "G06N302",
+    "G06F132",
+    "G06F950"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Zhengya",
+      "inventor_city": "Ann Arbor",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LIU",
+      "inventor_name_first": "Chester",
+      "inventor_city": "Ann Arbor",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KNAG",
+      "inventor_name_first": "Phil",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SPARSE NEUROMORPHIC PROCESSOR",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 42004,
+    "optimized_size": 3754,
+    "reduction_percent": 91.06
+  }
+}

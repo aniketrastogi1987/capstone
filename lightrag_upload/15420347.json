@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15420347",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N312",
+  "abstract": "A tool computes fitness values for a first generation of a first sub-population of a plurality of sub-populations. A population of candidate solutions for an optimization problem was previously divided into the plurality of sub-populations. The population of candidate solutions was created for an iterative computing process in accordance with an evolutionary algorithm to identify a most fit candidate solution for the optimization problem. The tool determines a speculative ranking of the first generation of the first sub-population prior to the fitness values being computed for all candidate solutions in the first generation of the first sub-population. The tool generates a next generation of the first sub-population based, at least in part, on the speculative ranking prior to completion of computation of the fitness values for the first generation of the first sub-population.",
+  "publication_number": "US20170140274A1-20170518",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments include a method that receives fitness values for a first generation of a first sub-population of a plurality of sub-populations. A population of candidate solutions for an optimization problem was previously divided into the plurality of sub-populations. The population of candidate solutions was created for an iterative computing process in accordance with an evolutionary algorithm to identify a most fit candidate solution for the optimization problem. The method determines that the first generation of the first sub-population does not satisfy a termination criterion for the iterative computing processing. The method determines that the first generation corresponds to a later iteration of the iterative computing process than a second generation of a second sub-population of the plurality of sub-populations. The method determines that a difference between the first generation and the second generation does not exceed a termination speculation threshold. The method generates a third generation of the first sub-population responsive to said determining that the difference between the first generation and the second generation does not exceed the termination speculation threshold. Generating the third generation of the first sub-population is based, at least in part, on the fitness values.",
+  "ipcr_labels": [
+    "G06N312",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cantin",
+      "inventor_name_first": "Jason F.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SPECULATIVE ASYNCHRONOUS SUB-POPULATION EVOLUTIONARY COMPUTING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 74893,
+    "optimized_size": 2785,
+    "reduction_percent": 96.28
+  }
+}

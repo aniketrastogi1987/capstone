@@ -1,0 +1,54 @@
+{
+  "decision": "PENDING",
+  "application_number": "15033387",
+  "date_published": "20161006",
+  "date_produced": "20160921",
+  "title": "CRYPTOGRAPHIC APPARATUS",
+  "filing_date": "20160429",
+  "inventor_list": [
+    {
+      "inventor_name_last": "FRENCH",
+      "inventor_name_first": "George",
+      "inventor_city": "Northampton",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "HOOD",
+      "inventor_name_first": "Evan",
+      "inventor_city": "Northampton",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "DOOMAN",
+      "inventor_name_first": "Peter",
+      "inventor_city": "Northampton",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "TAYLOR",
+      "inventor_name_first": "David",
+      "inventor_city": "Northampton",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2038",
+    "G06Q2040",
+    "G06Q2036",
+    "G06Q2032"
+  ],
+  "main_ipcr_label": "G06Q2038",
+  "summary": "<SOH> SUMMARY <EOH>It would, therefore, be desirable to be able to address one or more of the above-mentioned problems. In a first aspect of the present disclosure there is provided a method for an electronic device to generate and provide authentication data relating to a transaction, the method comprising a software program that is executing on a processor of the electronic device performing the steps of: receiving data relating to the transaction from a terminal; generating authentication data based, at least in part, on (a) the data relating to the transaction and (b) device information, wherein the device information comprises one or both of: (i) information on the electronic device suitable for identifying the electronic device and (ii) information specifying at least part of a configuration of the electronic device; and outputting authentication information for provision to the terminal, wherein the authentication information comprises at least the authentication data. The authentication information may further comprise an indication that the authentication data was generated using the software program. Additionally, or alternatively, the authentication information may further comprise an indication of a process by which the authentication data was generated. Preferably, the electronic device may store a counter, wherein the authentication data is generated based, at least in part, on the counter, and wherein the method comprises the software program incrementing the counter. Preferably, the software program may generate a first session key based, at least in part, on the counter, wherein the authentication data is generated using at least a first cryptographic algorithm and the first session key. The first session key may be generated using at least a second cryptographic algorithm and a device key that is stored as part of the software program on the electronic device. Preferably, the authentication data is generated using at least a third cryptographic alg...",
+  "patent_number": "None",
+  "abstract": "A mobile electronic device comprising an input interface that receives an authorisation challenge from a terminal; one or more processors implementing at least two modules, jointly performing a secure multiparty cryptographic process to generate an authorisation request cryptogram (ARQC); and an output interface that transmits an authorisation response comprising the ARQC to the terminal for use in authorising the mobile electronic device, wherein each of the modules performs that module's part of the secure multiparty cryptographic process based on secure data that is not shared outside that module; a first module of the at least two modules is programmed in a first programming language; a second module of the at least two modules is programmed in a second programming language; and the first programming language is different to the second programming language.",
+  "publication_number": "US20160292676A1-20161006",
+  "_processing_info": {
+    "original_size": 207791,
+    "optimized_size": 3858,
+    "reduction_percent": 98.14
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189667A1-20180705",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15393825",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tsou",
+      "inventor_name_first": "Yu-Lin",
+      "inventor_city": "New Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Shao-Wen",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chu",
+      "inventor_name_first": "Hong-Min",
+      "inventor_city": "Taipei",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "abstract": "A weighting value is determined for each of a plurality of decision trees in a random forest model hosted on a particular device, where the weighting is based on entropy of the respective decision tree. A new decision tree is received at the particular device and a weighting value is determined for the new decision tree based on entropy of the new decision tree. Based on the determined weighting value, it is determined whether to add the new the decision tree to the random forest model. A classification for data generated at the particular device is predicted using the random forest model.",
+  "filing_date": "20161229",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1A illustrates an embodiment of a system including multiple sensor devices and an example management system. FIG. 1B illustrates an embodiment of a cloud computing network. FIG. 2 illustrates an embodiment of a system including an example management system and device-based decision tree managers. FIG. 3 is a simplified block diagram illustrating a flow for the development of an example random forest model. FIG. 4 is a simplified block diagram illustrating decision tree sharing within an example machine-to-machine system. FIG. 5 is a simplified block diagram illustrating an example of a distributed framework for developing random forest-based models. FIG. 6 is a simplified block diagram illustrating a flow for the development of an example random forest model utilizing entropy-based decision tree weighting. FIG. 7 is a simplified flow diagram illustrating an example of using an anomaly detection model to predict anomalies at a device. FIG. 8 is a simplified flow diagram illustrating an example generation of anomaly data for use in anomaly detection model training. FIG. 9 is a simplified block diagram illustrating example development of a random forest for anomaly detection. FIG. 10 is a simplified block diagram illustrating example detection of anomalies on a device of an example machine-to-machine system. FIG. 11 is a flowchart illustrating an example technique for developing and using a local random forest model at a device. FIG. 12 is a block diagram of an exemplary processor in accordance with one embodiment; and FIG. 13 is a block diagram of an exemplary computing system in accordance with one embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"? Like reference numbers and designations in the various drawings indicate like elements.",
+  "date_published": "20180705",
+  "title": "ENTROPY-BASED WEIGHTING IN RANDOM FOREST MODELS",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 145371,
+    "optimized_size": 3287,
+    "reduction_percent": 97.74
+  }
+}

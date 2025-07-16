@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286846A1-20171005",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15089175",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hawkins",
+      "inventor_name_first": "Jeffrey C.",
+      "inventor_city": "Atherton",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ahmad",
+      "inventor_name_first": "Subutai",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments relate to a first processing node that processes an input data having a temporal sequence of spatial patterns by retaining a higher-level context of the temporal sequence. The first processing node performs temporal processing based at least on feedback inputs received from a second processing node. The first processing node determines whether learned temporal sequences are included in the input data based on sequence inputs transmitted within the same level of a hierarchy of processing nodes and the feedback inputs received from an upper level of the hierarchy of processing nodes.",
+  "filing_date": "20160401",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments relate to temporal processing of input data that change over time. A first processing node receives input data, and in response, generates a series of sparse distributed vectors over time by performing spatial pooling on the input data at the first processing node. Temporal processing is performed on the series of sparse distributed vectors at the first processing node. Specifically, temporal processing includes at least generating sequence inputs varying over time based on the series of sparse distributed vectors, transmitting the sequence inputs via lateral connections within the first processing node, receiving feedback inputs from a second processing node via first feedback connections, and determining whether one or more learned temporal sequences of spatial patterns are included in the input data based on the transmitted sequence inputs and the received feedback inputs. Output data indicating at least prediction or detection of one or more spatial patterns or one or more temporal sequences in the input data is sent from the first processing node to the second processing node.",
+  "date_published": "20171005",
+  "title": "FEEDBACK MECHANISMS IN SEQUENCE LEARNING SYSTEMS WITH TEMPORAL PROCESSING CAPABILITY",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 86712,
+    "optimized_size": 2473,
+    "reduction_percent": 97.15
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date_produced": "20161220",
+  "publication_number": "US20170004411A1-20170105",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15192215",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HASSAN",
+      "inventor_name_first": "Ehtesham",
+      "inventor_city": "Gurgaon",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "YADAV",
+      "inventor_name_first": "Surya",
+      "inventor_city": "Gurgaon",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "AGARWAL",
+      "inventor_name_first": "Puneet",
+      "inventor_city": "Noida",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "SHROFF",
+      "inventor_name_first": "Gautam",
+      "inventor_city": "Gurgaon",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "The present disclosure relates to business data processing and facilitates fusing business data spanning disparate sources for processing distributional queries for enterprise business intelligence application. Particularly, the method comprises defining a Bayesian network based on one or more attributes associated with raw data spanning a plurality of disparate sources; pre-processing the raw data based on the Bayesian network to compute conditional probabilities therein as parameters; joining the one or more attributes in the raw data using the conditional probabilities; and executing probabilistic inference from a database of the parameters by employing an SQL engine. The Bayesian Network may be validated based on estimation error computed by comparing results of processing a set of validation queries on the raw data and the Bayesian Network.",
+  "filing_date": "20160624",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure present technological improvements as solutions to one or more of the above-mentioned technical problems recognized by the inventors in conventional systems. In an aspect, there is provided a method comprising defining a Bayesian network based on one or more attributes associated with raw data spanning a plurality of disparate sources; pre-processing the raw data based on the Bayesian network to compute conditional probabilities therein as parameters; joining the one or more attributes in the raw data using the conditional probabilities; and executing probabilistic inference from a database of the probabilities. In another aspect, there is provided a system comprising: one or more data storage devices operatively coupled to one or more hardware processors and configured to store instructions configured for execution by the one or more hardware processors to: define a Bayesian network based on one or more attributes associated with raw data spanning a plurality of disparate sources; pre-process the raw data based on the Bayesian network to compute conditional probabilities therein as parameters; join the one or more attributes in the raw data using the conditional probabilities; and execute probabilistic inference from a database of the probabilities. In yet another aspect, there is provided a computer program product comprising a non-transitory computer readable medium having a computer readable program embodied therein, wherein the computer readable program, when executed on a computing device, causes the computing device to: define a Bayesian network based on one or more attributes associated with raw data spanning a plurality of disparate sources; pre-process the raw data based on the Bayesian network to compute conditional probabilities therein as parameters: join the one or more attributes in the raw data using the conditional probabilities; and execute probabilistic inference from a database of the proba...",
+  "date_published": "20170105",
+  "title": "METHOD AND SYSTEM FOR FUSING BUSINESS DATA FOR DISTRIBUTIONAL QUERIES",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 72737,
+    "optimized_size": 3863,
+    "reduction_percent": 94.69
+  }
+}

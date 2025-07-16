@@ -1,0 +1,38 @@
+{
+  "date_produced": "20161122",
+  "publication_number": "US20160358087A1-20161208",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15242325",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Frieder",
+      "inventor_name_first": "Ophir",
+      "inventor_city": "Chevy Chase",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hartley",
+      "inventor_name_first": "David",
+      "inventor_city": "Washington",
+      "inventor_state": "DC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for generating hypotheses in a corpus of data comprises selecting a form of ontology; coding the corpus of data based on the form of the ontology; generating ontology space based on coding results and the ontology; transforming the ontology space into a hypothesis space by grouping hypotheses; weighing hypotheses included in the hypothesis space; and applying a science-based optimization algorithm configured to model a science-based treatment of the weighted hypotheses.",
+  "filing_date": "20160819",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>To overcome the issues associated with current hypothesis generation techniques, the present disclosure presents a computer implemented method that allows the data itself to define a space of possible hypotheses, which optionally merges and groups similar hypotheses, and then weights and selects a subset of relevant hypotheses for further consideration by a human analyst. The computerized method uses a theoretical and physical basis to implement hypothesis generation. Specifically, a simulated annealing technique is applied and provides an understood, validated theoretical construct by which the problem of hypothesis generation can be solved. A weighing algorithm is applied that expresses the goal as an optimization problem. Moreover, this end-to-end approach is easily communicated due to the physics-based analogue, which is applicable to textual, audio, and video data, executable in real time or near-real time, and scalable to realistic applications. The method is also domain agnostic; namely, the method is generalized and interoperable among various systems or domains. According to some embodiments, disclosed is a method for generating hypotheses in a corpus of data. The method comprises selecting a form of ontology configured as one or more ontology vectors; coding the corpus of data based on the form of the ontology vector; generating an ontology space based on coding results and the ontology form; transforming the ontology space into a hypothesis space by grouping hypotheses; weighing the hypotheses included in the hypothesis space; and applying a random-walk process configured to model a physics-based treatment process to the weighing results of the hypotheses. According to some embodiments, the random-walk process is guided to explore hypotheses less likely to be anticipated. That is, hypotheses that are anticipated with a greater degree of expectation are discarded in favor of exploring unanticipated hypotheses. That is, the random walk fa...",
+  "date_published": "20161208",
+  "title": "GENERATING HYPOTHESES IN DATA SETS",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1728"
+  ],
+  "_processing_info": {
+    "original_size": 78488,
+    "optimized_size": 3168,
+    "reduction_percent": 95.96
+  }
+}

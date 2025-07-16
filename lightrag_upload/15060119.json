@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170823",
+  "publication_number": "US20170255861A1-20170907",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15060119",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hawkins",
+      "inventor_name_first": "Jeffrey C.",
+      "inventor_city": "Atherton",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cui",
+      "inventor_name_first": "Yuwei",
+      "inventor_city": "Redwood City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments relate to a processing node of a hierarchical temporal memory (HTM) system with a union processor that enables a more stable representation of sequences by unionizing or pooling patterns of a temporal sequence. The union processor biases the HTM system so a learned temporal sequence may be more quickly recognized. The union processor includes union elements that are associated with incoming spatial patterns or with cells that represent temporal relationships between the spatial patterns. A union element of the union processor may be activated if a persistence score of the union element satisfies a predetermined criterion. The persistence score of the detector is updated based on the activation states of the spatial patterns or cells associated with the detector. After activation, the union element remains active for a period longer than a time step for performing the spatial pooling.",
+  "filing_date": "20160303",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments relate to a processing node for temporally processing input data. The input data has a plurality of elements having their activation states change over time. Spatial pooling is performed on the input data by selecting, for each time step, elements in a series of vectors to be activated based on active elements of the input data mapped to the elements in the vectors. Each of the vectors is in sparse distributed representation. The processing node generates an output data having one or more elements activated based on the selected elements in each of the vectors. The activated elements in the output data remaining active for a duration longer than the time step. Embodiments also relate to a processing node having a sequence processor with its state updated responsive to receiving input data for each time step. The state information represents the updated state of the sequence processor and indicates detection or prediction of temporal sequences in the input data. The one or more elements in the output data activated based on activation of elements of the state information mapped to the one or more elements in the output data. An output data having one or more elements is generated. The output data is activated based on the activation of elements of the state information mapped to the one or more elements in the output data. The activated elements in the output data remaining active for a duration longer than the time step.",
+  "date_published": "20170907",
+  "title": "UNION PROCESSING OF SEQUENCES OF PATTERNS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 92206,
+    "optimized_size": 3072,
+    "reduction_percent": 96.67
+  }
+}

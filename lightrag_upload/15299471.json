@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170517",
+  "publication_number": "US20170154283A1-20170601",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15299471",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KAWAI",
+      "inventor_name_first": "Yasuo",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MATSUMOTO",
+      "inventor_name_first": "Kaname",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SENOO",
+      "inventor_name_first": "Tatsuya",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A machine learning apparatus includes: a state observation unit that observes a state variable composed of at least one of data relating to the number of errors that is an error between a position command relative to a rotor of a motor which is drive-controlled by the motor control apparatus and an actual position of a feed mechanism unit, an operation program of the motor control apparatus, any command of the position command, a speed command, or a current command in the motor control apparatus, data relating to a workpiece machining condition in a machine tool including the motor control apparatus, and data relating to a state of the machine tool including the motor control apparatus; and a learning unit that learns a condition associated with the number of corrections used to correct the above-mentioned command in accordance with a training data set constituted by the state variable.",
+  "filing_date": "20161021",
+  "patent_number": "9990590",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>In view of the problems as described, it is an object of the present invention to provide a machine learning apparatus and method capable of easily minimizing the number of errors between a rotor position command relative to a motor and an actual position of a feed mechanism unit, and a motor control apparatus including the machine learning apparatus. To achieve the above-described object, a machine learning apparatus that learns a condition associated with the number of corrections for any command of a position command, a speed command, or a current command in a motor control apparatus includes: a state observation unit that observes a state variable composed of at least one of data relating to the number of errors between the position command relative to a rotor of a motor which is drive-controlled by the motor control apparatus and an actual position of a feed mechanism unit, an operation program of the motor control apparatus, any command of the position command, the speed command, or the current command in the motor control apparatus, data relating to a workpiece machining condition in a machine tool including the motor control apparatus, and data relating to a state of the machine tool including the motor control apparatus; and a learning unit that learns the condition associated with the number of corrections used to correct any command of the position command, the speed command, or the current command in the motor control apparatus in accordance with a training data set constituted by the state variable. The state of the machine tool may include at least one of a temperature of the machine tool and vibrations of the machine tool. Further, the learning unit may include: a reward calculation unit that calculates a reward based on the number of errors; and a function update unit that updates a function for calculating the number of corrections based on the state variable and the reward. Further, the reward calculation unit may be...",
+  "date_published": "20170601",
+  "title": "MACHINE LEARNING APPARATUS AND METHOD FOR OPTIMIZING SMOOTHNESS OF FEED OF FEED AXIS OF MACHINE AND MOTOR CONTROL APPARATUS INCLUDING MACHINE LEARNING APPARATUS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1100"
+  ],
+  "_processing_info": {
+    "original_size": 81628,
+    "optimized_size": 3855,
+    "reduction_percent": 95.28
+  }
+}

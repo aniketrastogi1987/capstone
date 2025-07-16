@@ -1,0 +1,47 @@
+{
+  "date_produced": "20180228",
+  "publication_number": "US20180075368A1-20180315",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15262649",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Brennan",
+      "inventor_name_first": "Paul E.",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Carrier",
+      "inventor_name_first": "Scott R.",
+      "inventor_city": "Apex",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stickler",
+      "inventor_name_first": "Michael L.",
+      "inventor_city": "Columbus",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method, system and a computer program product are provided for classifying elements in a ground truth training set by iteratively assigning machine-annotated training set elements to clusters which are analyzed to identify a prioritized cluster containing one or more elements which are frequently misclassified and display machine-annotated training set elements associated with the first prioritized cluster along with a warning that the first prioritized cluster contains one or more elements which are frequently misclassified to solicit verification or correction feedback from a human subject matter expert (SME) for inclusion in an accepted training set.",
+  "filing_date": "20160912",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Broadly speaking, selected embodiments of the present disclosure provide a ground truth verification system, method, and apparatus for generating ground truth for a machine-learning process by (1) using an annotated ground truth training set to train a first classifier model to identify annotated training set instances (e.g., entities and relationships) which are assigned to clusters characterized by cluster feature vectors, (2) using a confusion matrix of commonly confused or misclassified clusters to derive misclassification features for commonly confused/misclassified clusters, (3) employing the misclassification features for the commonly confused/misclassified clusters to train a second classifier model to detect misclassified training set instances (e.g., false positives) which are characterized by misclassification feature vectors, (4) pairing each misclassification feature vector with a recommended cluster of correctly classified training set instance(s) (e.g., true positives), and (5) flagging any cluster feature vector which aligns with a misclassified feature vector as a probable error for SME verification, including providing a recommended cluster of correctly classified training set instance(s). In selected embodiments, the ground truth verification system may be implemented with a browser-based ground truth verification interface which provides a cluster view of entity and/or relationship mentions from the training set along with a warning for at least one of the annotated training set instances in each entity/relationship cluster which aligns with a misclassified feature vector. In addition or in the alternative, the browser-based ground truth verification interface may be configured to make verification suggestions to a user, such as a subject matter expert, by displaying a reclassification recommendation for at least one of the annotated training set instances in each entity/relationship cluster which aligns with a misclassified fe...",
+  "date_published": "20180315",
+  "title": "System and Method of Advising Human Verification of Often-Confused Class Predictions",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N300",
+    "G06F1724",
+    "G06F1727"
+  ],
+  "_processing_info": {
+    "original_size": 89338,
+    "optimized_size": 3567,
+    "reduction_percent": 96.01
+  }
+}

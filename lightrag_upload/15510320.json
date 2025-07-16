@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15510320",
+  "date_published": "20171026",
+  "date_produced": "20171011",
+  "filing_date": "20170310",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A system and method for predicting failures of machinery such as a gas turbine. The system and method utilizes computer-based system to annotate historical data locate a prior failure event. Data associated with sensor readings prior to the failure event is annotated to note that it is likely associated with a failure and is compared to normal operating condition data. A fast boxes algorithm is used to learn the location of the pre-event data (positive class, minority group) with respect to the normal operation data (negative class, majority group). An evaluation is performed to analyze the discriminatory strength of the pre-event data with respect to the normal data, and if a relatively strong difference is found, the associated pre-event data is stored and used as a “symptom” to monitor the on-going performance of a machine and predict the possibility of an unexpected failure days before it would otherwise occur.",
+  "publication_number": "US20170308801A1-20171026",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The needs remaining in the prior art are addressed by the present invention, which relates to the supervision of gas turbines utilized in power generation networks and a methodology for recognizing pre-fault conditions in a turbine that allow for preventative maintenance operations to be deployed and mitigate the possibility of an unexpected forced turbine shutdown. In accordance with the present invention, a time series set of data for a particular gas turbine (in the form of sensor readings) is reviewed and annotated to include labels that indicate times/events where a potential failure has occurred. A selected number of “pre-event” sensor readings over a period of time (3-5 days, for example) is assembled and compared against known, steady-state normal operation sensor readings to determine if there are any signatures in the pre-event data that would predict the occurrence of a turbine failure (or any other particular “event” being reviewed). That is, are there any perceptible “symptoms” is the sensor readings in the days leading up to a turbine failure (or any other event). A “fast boxes” algorithm (or another suitable type of machine learning methodology) is used to compare the pre-event data to the “normal operation state” data and ascertain if symptoms can be recognized. Going forward, sensor readings that fall within the boundaries developed in the analysis are used as warnings that a failure may be imminent. In a preferred embodiment of the present invention, only a subset of the total number of gas turbine sensors are included in the analysis, preferably those sensors whose readings are highly sensitive to changes in gas turbine performance. Since the collected readings of both “pre-event” and “normal operations” data forms an imbalanced data set (i.e., the data of interest is a very small collection with respect to the rest of the data), the fast boxes algorithm is well-suited for use in studying the data. The pre-event...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CAI",
+      "inventor_name_first": "XINMIN",
+      "inventor_city": "AMHERST",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHAKRABORTY",
+      "inventor_name_first": "AMIT",
+      "inventor_city": "EAST WINDSOR",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "EVANS",
+      "inventor_name_first": "MATTHEW",
+      "inventor_city": "WINTER PARK",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "GOH",
+      "inventor_name_first": "SIONG THYE",
+      "inventor_city": "CAMBRIDGE",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "YUAN",
+      "inventor_name_first": "CHAO",
+      "inventor_city": "PLAINSBORO",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "GAS TURBINE FAILURE PREDICTION UTILIZING SUPERVISED LEARNING METHODOLOGIES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 54597,
+    "optimized_size": 4172,
+    "reduction_percent": 92.36
+  }
+}

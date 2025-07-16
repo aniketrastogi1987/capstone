@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15420265",
+  "date_published": "20170810",
+  "date_produced": "20170726",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A machine learning device, which detects an operator, communicates with a database registering information concerning the operator, and learns display of an operation menu based on the information concerning the operator, includes a state observation unit which observes an operation history of the operation menu; and a learning unit which learns the display of the operation menu on the basis of the operation history of the operation menu observed by the state observation unit.",
+  "publication_number": "US20170228644A1-20170810",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>According to a first aspect of the present invention, there is provided a machine learning device which detects an operator, communicates with a database registering information concerning the operator, and learns display of an operation menu based on the information concerning the operator, the device including a state observation unit which observes an operation history of the operation menu; and a learning unit which learns the display of the operation menu on the basis of the operation history of the operation menu observed by the state observation unit. The operation history of the operation menu may include an access count to the operation menu and transition information of the operation menu. The state observation unit may further include at least one of information concerning a currently-selected operation menu, information indicating whether a machine tool is in processing operation, alarm information of a numerical controller and the machine tool, and information indicating whether program editing is in progress. The machine learning device may further include a decision unit which decides a position and an order of an operation menu to be displayed on a display device by referring to the display of the operation menu learned by the learning unit. The learning unit may include a reward computation unit which computes a reward on the basis of output from the state observation unit; and a value function update unit which updates a value function for determining a value of a position and an order in an operation menu to be displayed on a display device, in accordance with the reward on the basis of outputs from the state observation unit and the reward computation unit. The reward computation unit may provide a positive reward when operation is performed from a menu of the operation menu arranged in a position and an order easy to access, and provide a negative reward when operation is performed from a menu of the operation men...",
+  "ipcr_labels": [
+    "G06N308",
+    "G05B194155"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KUROKAWA",
+      "inventor_name_first": "Yuuki",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "MACHINE LEARNING DEVICE, NUMERICAL CONTROLLER, MACHINE TOOL SYSTEM, MANUFACTURING SYSTEM, AND MACHINE LEARNING METHOD FOR LEARNING DISPLAY OF OPERATION MENU",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 56653,
+    "optimized_size": 3139,
+    "reduction_percent": 94.46
+  }
+}

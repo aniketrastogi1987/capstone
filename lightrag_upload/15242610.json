@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180207",
+  "publication_number": "US20180053084A1-20180222",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15242610",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Yilei",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Du",
+      "inventor_name_first": "Yuan",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Chun-Chen",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Du",
+      "inventor_name_first": "Li",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A multi-layer artificial neural network having at least one high-speed communication interface and N computational layers is provided. N is an integer larger than 1. The N computational layers are serially connected via the at least one high-speed communication interface. Each of the N computational layers respectively includes a computation circuit and a local memory. The local memory is configured to store input data and learnable parameters for the computation circuit. The computation circuit in the ith computational layer provides its computation results, via the at least one high-speed communication interface, to the local memory in the (i+1)th computational layer as the input data for the computation circuit in the (i+1)th computational layer, wherein i is an integer index ranging from 1 to (N−1).",
+  "filing_date": "20160822",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>To solve the aforementioned problems, new artificial neural networks are provided. One embodiment according to the invention is a multi-layer artificial neural network including at least one high-speed communication interface and N computational layers. N is an integer larger than 1. The N computational layers are serially connected via the at least one high-speed communication interface. Each of the N computational layers respectively includes a computation circuit and a local memory. The local memory is configured to store input data and learnable parameters for the computation circuit. The computation circuit in the ith computational layer provides its computation results, via the at least one high-speed communication interface, to the local memory in the (i+1)th computational layer as the input data for the computation circuit in the (i+1)th computational layer, wherein i is an integer index ranging from 1 to (N−1). The advantage and spirit of the invention may be understood by the following recitations together with the appended drawings. These and other objectives of the present invention will no doubt become obvious to those of ordinary skill in the art after reading the following detailed description of the preferred embodiment that is illustrated in the various figures and drawings.",
+  "date_published": "20180222",
+  "title": "MULTI-LAYER NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 28922,
+    "optimized_size": 3119,
+    "reduction_percent": 89.22
+  }
+}

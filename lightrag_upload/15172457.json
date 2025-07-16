@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170301",
+  "publication_number": "US20170076196A1-20170316",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15172457",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sainath",
+      "inventor_name_first": "Tara N.",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sindhwani",
+      "inventor_name_first": "Vikas",
+      "inventor_city": "Hawthorne",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for implementing long-short term memory layers with compressed gating functions. One of the systems includes a first long short-term memory (LSTM) layer, wherein the first LSTM layer is configured to, for each of the plurality of time steps, generate a new layer state and a new layer output by applying a plurality of gates to a current layer input, a current layer state, and a current layer output, each of the plurality of gates being configured to, for each of the plurality of time steps, generate a respective intermediate gate output vector by multiplying a gate input vector and a gate parameter matrix. The gate parameter matrix for at least one of the plurality of gates is a structured matrix or is defined by a compressed parameter matrix and a projection matrix.",
+  "filing_date": "20160603",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to recurrent neural network architectures. In general, a recurrent neural network includes at least one Long Short-Term Memory (LSTM) layer that is compressed. The LSTM layer has at least one gate that has a compressed parameter matrix. The LSTM layer may be compressed by either replacing one or more of the gate parameter matrices in the LSTM layer with a Toeplitz-like structured matrix or by re-defining the gate parameter matrix with a compressed parameter matrix and a projection matrix. Optionally, one LSTM layer may be compressed by replacing one of the gate parameter matrices in the LSTM layer with a Toeplitz-like structured matrix and another LSTM layer may be compressed by replacing one of the gate parameter matrices in the other LSTM layer by re-defining the gate parameter matrix with a compressed parameter matrix and a projection matrix. For a system of one or more computers to be configured to perform particular operations or actions means that the system has installed on it software, firmware, hardware, or a combination of them that in operation cause the system to perform the operations or actions. For one or more computer programs to be configured to perform particular operations or actions means that the one or more programs include instructions that, when executed by data processing apparatus, cause the apparatus to perform the operations or actions. The subject matter described in this specification can be implemented in particular embodiments so as to realize one or more of the following advantages. The performance of a recurrent neural network can be improved by including a compressed LSTM layer in the recurrent neural network. In particular, by including the compressed LSTM layer in the recurrent neural network, the recurrent neural network is configured to be able to process data more efficiently and use less data storage. A recurrent neural network having a compressed LSTM l...",
+  "date_published": "20170316",
+  "title": "COMPRESSED RECURRENT NEURAL NETWORK MODELS",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 49604,
+    "optimized_size": 3567,
+    "reduction_percent": 92.81
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180404",
+  "publication_number": "US20180107923A1-20180419",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15297889",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Benson",
+      "inventor_name_first": "Glenn S.",
+      "inventor_city": "Newton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Samarasinghe",
+      "inventor_name_first": "Kasun Maduranga",
+      "inventor_city": "Quincy",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system of classifying devices and/or app instances a new or returning divides attributes generated from observations received from an uncharacterized device/software app into base-fingerprint attributes and predictor attributes, where the two kinds of attributes have different longevities. Predictor attribute tuples from attribute tuples having the same base fingerprint as the base fingerprint corresponding to the uncharacterized device/app, and the predictor attribute tuple corresponding to the uncharacterized device/app are analyzed using a machine learned predictor function to obtain a final fingerprint. Machine learning techniques such as logistic regression, support vector machine, and artificial neural network can provide a predictor function that can decrease the conflict rate of the final fingerprint and, hence, the utility thereof, without significantly affecting the accuracy of classification.",
+  "filing_date": "20161019",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In various embodiments, this disclosure describes a Third Generation fingerprint technology for accurate identification of a device (such as a smart phone, tablet computer, laptop, etc.) and/or an instance of a software application executed on a device, so as to minimize FAR and FRR. This is achieved at least in part by generating two kinds of attributes, namely, base fingerprint attributes and predictor attributes from data received from a device and/or an app instance (i.e., an instance of a software application invoked on the device). The base fingerprint attributes are used for selecting a group or a class of candidate devices/app instances. A particular device and/or an app instance may then be identified from the selected group/class using a predictor function derived from analysis of data previously collected from several devices/app instances. In general, the stability characteristics of the two kinds of attributes are different, and the predictor functions are particularly trained to determine whether a device/app instance is a previously unseen one or a returning device/app instance using, in substance, not the base fingerprint attributes but the predictor attributes, and the previously collected data. Various embodiments also feature the generation of predictor functions using machine learning/soft computing techniques. In general, conventional fingerprint technology, i.e., technology used to distinguish between new and returning devices and/or app instances collects a lot of information from each device/app instance. However, such technology often discards much of the information due to poor stability. For example, a user may install new plugins or fonts onto a device. When an app is invoked thereafter, some of the collected information may change, even if it is the same user using the same device and the same app the user had used before. The fingerprint technology generally needs to have enough stability to tolerate such relatively m...",
+  "date_published": "20180419",
+  "title": "SYSTEMS AND METHODS FOR RECOGNIZING A DEVICE AND/OR AN INSTANCE OF AN APP INVOKED ON A DEVICE",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 155265,
+    "optimized_size": 3669,
+    "reduction_percent": 97.64
+  }
+}

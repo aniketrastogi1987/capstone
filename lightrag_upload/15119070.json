@@ -1,0 +1,30 @@
+{
+  "date_produced": "20170208",
+  "publication_number": "US20170053212A1-20170223",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15119070",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NARITA",
+      "inventor_name_first": "Kazuyo",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Even in circumstances where the size of training data is more than the memory size of a calculator, CD method can be used. A data management apparatus (101) according to the present invention includes a blocking unit (20) which divides training data representing matrix data into a plurality of blocks, and generates meta data indicating a column for which each block holds a value of the original training data, and a re-blocking unit (40) which, when a component of a parameter learned from the training data converges to zero, replaces an old block including an unnecessary column, among the plurality of blocks, with a block from which the unnecessary column has been removed, and regenerates the meta data.",
+  "filing_date": "20160815",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>",
+  "date_published": "20170223",
+  "title": "DATA MANAGEMENT APPARATUS, DATA ANALYSIS APPARATUS, DATA ANALYSIS SYSTEM, AND ANALYSIS METHOD",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 72039,
+    "optimized_size": 1318,
+    "reduction_percent": 98.17
+  }
+}

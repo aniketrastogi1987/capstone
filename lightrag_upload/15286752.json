@@ -1,0 +1,52 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15286752",
+  "date_published": "20170119",
+  "date_produced": "20170104",
+  "title": "VARIABLE UPDATES OF BRANCH PREDICTION STATES",
+  "filing_date": "20161006",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Adiga",
+      "inventor_name_first": "Narasimha R.",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Bonanno",
+      "inventor_name_first": "James J.",
+      "inventor_city": "Wappingers Falls",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Misra",
+      "inventor_name_first": "Ashutosh",
+      "inventor_city": "Lucknow",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Saporito",
+      "inventor_name_first": "Anthony",
+      "inventor_city": "Highland",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F938",
+    "G06F930"
+  ],
+  "main_ipcr_label": "G06F938",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments include a method, system, and computer program product for predicting instruction branches. An aspect includes a processor, communicatively coupled to memory, the processor including an execution unit for executing instructions and a prediction unit for predicting a branch selection of the execution unit. The prediction unit has stored therein a state machine made up of a plurality of branch predictors for encoding a present prediction state. The state machine includes a plurality of “taken” states and a plurality of “not-taken” states. The computer system is configured to perform a method including determining, by the prediction unit of the processor, that a present state of the state machine is one of the plurality of “not-taken” states or one of the plurality of “taken” states. The method includes determining, by the prediction unit of the processor, the branch selection of the execution unit corresponding to a selection to take a branch of a branch instruction or to not take the branch of the branch instruction and determining whether the present prediction state of the state machine correctly predicted the branch selection by the execution unit. The method further includes determining, by the prediction unit of the processor, whether a predetermined condition is met for performing an alternative state transition. The method further includes, based on determining that the predetermined condition is not met changing, by the prediction unit of the processor, the present prediction state of the state machine from a first state to a second state according to a default state transition process based on the branch selection of the execution unit and the determination whether the present prediction state of the state machine correctly predicted the branch selection by the execution unit. The method further includes, based on determining that the predetermined condition is met, changing the present prediction state of the state machine fro...",
+  "patent_number": "9697001",
+  "abstract": "Embodiments relate to variable branch prediction. An aspect includes determining a branch selection of an execution unit of a processor and determining whether a present prediction state of the state machine correctly predicted the branch selection by the execution unit. The aspect includes determining whether a predetermined condition is met for performing an alternative state transition and, based on determining that the predetermined condition is met, changing the present prediction state of the branch prediction state machine from the one state to another state according to an alternative state transition process based on the branch selection of the execution unit and the determination whether the present prediction state of the state machine correctly predicted the branch selection by the execution unit.",
+  "publication_number": "US20170017493A1-20170119",
+  "_processing_info": {
+    "original_size": 50069,
+    "optimized_size": 3861,
+    "reduction_percent": 92.29
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15295596",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "title": "STORAGE AREA NETWORK HAVING FABRIC-ATTACHED STORAGE DRIVES, SAN AGENT-EXECUTING CLIENT DEVICES, AND SAN MANAGER",
+  "filing_date": "20161017",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Condict",
+      "inventor_name_first": "Michael Neil",
+      "inventor_city": "Hurdle Mills",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cosby",
+      "inventor_name_first": "David W.",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hinkle",
+      "inventor_name_first": "Jonathan Randall",
+      "inventor_city": "Morrisville",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>An example storage-area network (SAN) system includes fabric-attachable storage drives. Each storage drive is directly connected to a fabric and is to operate drive volumes. The SAN system includes client computing devices. Each client computing device is directly connected to the fabric, and is to execute a SAN software agent to operate logical volumes realized by the drive volumes of the storage drives. The SAN system includes a SAN manager directly connected to the fabric to manage the drive volumes of the SAN storage drives and to manage the logical volumes that the SAN software agents of the client computing devices operate. An example method includes receiving, by a SAN manager running on a computing device directly connected to a fabric, a request from an administrator to allocate and mount a logical volume on a client computing device directly connected to the fabric. The method includes, in response to receiving the request, selecting, by the SAN manager, a subset of storage drives of a set of storage drives to store data of the logical volume. Each storage drive of the set is directly connected to the fabric. The method includes sending, by the SAN manager, a command to each storage drive of the selected subset to provision a drive volume. The method includes sending, by the SAN manager, a command to a SAN software agent on the client computing device to create and mount the logical volume using the drive volumes provisioned on the storage drives of the subset. An example non-transitory computer-readable data storage medium stores computer-executable code that a client computing device executes to perform a method. The method includes receiving, by a SAN agent running on the client computing device and from a SAN manager directly connected to a fabric to which the client computing device is connected, a command to create and mount a logical volume using one or more drive volumes provisioned on corresponding storage drives directly connec...",
+  "patent_number": "None",
+  "abstract": "A storage area network (SAN) includes fabric-attachable storage drives that are each directly connected to a fabric and that operate drive volumes. The SAN includes SAN software agents executed by client computing devices that are directly connected to the fabric. Each SAN software agent operates logical volumes realized by the drive volumes of the storage drives. The SAN includes a SAN manager directly connected to the fabric to manage the drive volumes of the SAN storage drives and to manage the logical volumes that the SAN software agents operate.",
+  "publication_number": "US20180107409A1-20180419",
+  "_processing_info": {
+    "original_size": 72227,
+    "optimized_size": 3471,
+    "reduction_percent": 95.19
+  }
+}

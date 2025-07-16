@@ -1,0 +1,39 @@
+{
+  "date_produced": "20161116",
+  "publication_number": "US20160350655A1-20161201",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "14992041",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Weiss",
+      "inventor_name_first": "Tal",
+      "inventor_city": "Nes Ziona",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Beka",
+      "inventor_name_first": "Amit",
+      "inventor_city": "Givatayim",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "Disclosed are systems, methods, circuits and associated computer executable code for deep learning based natural language understanding, wherein training of one or more neural networks, includes: producing character strings inputs ‘noise’ on a per-character basis, and introducing the produced ‘noise’ into machine training character strings inputs fed to a ‘word tokenization and spelling correction language-model’, to generate spell corrected word sets outputs; feeding machine training word sets inputs, including one or more ‘right’ examples of correctly semantically-tagged word sets, to a ‘word semantics derivation model’, to generate semantically tagged sentences outputs. Upon models reaching a training ‘steady state’, the ‘word tokenization and spelling correction language-model’ is fed with input character strings representing ‘real’ linguistic user inputs, generating word sets outputs that are fed as inputs to the word semantics derivation model for generating semantically tagged s...",
+  "filing_date": "20160111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention includes systems, methods, circuits, and associated computer executable code for deep learning based natural language understanding, wherein: (1) a word tokenization and spelling correction model/machine may generate corrected word sets outputs based on respective character strings inputs; and/or (2) a word semantics derivation model/machine may generate semantically tagged sentences outputs based on respective word sets inputs. According to some embodiments, each of the models/machines may go through an ‘offline’ training/learning phase, wherein training (e.g. not ‘real’ user data/linguistic-inputs) data is separately inputted to each of the machines and corresponding language and semantic models evolve. The models may evolve and improve through training as the outputs of the machines are examined for their correctness and the machines' weights are accordingly calibrated/tuned/shifted (e.g. direction and magnitude of weight tuning increase/decrease corresponds to the level of correctness of the machine's output). According to some embodiments of the present invention, the word tokenization and spelling correction model/machine training may be unsupervised (i.e. based on substantially large amounts of uncharacterized data) wherein noise is introduced into the input training data (e.g. incrementally) to increase and/or diversify the amounts and types of data errors encountered and learned by the machine. According to some embodiments of the present invention, the word semantics derivation model/machine training may be weakly-supervised (i.e. based on substantially small amounts of characterized data, followed by substantially large amounts of uncharacterized data) wherein ‘right’ examples (e.g. word sets semantically tagged correctly) constitute the initial input training data, thus yielding a supervised training phase for providing the model with initial ‘correct’ knowledge, which may be followed by an unsupe...",
+  "date_published": "20161201",
+  "title": "Systems Methods Circuits and Associated Computer Executable Code for Deep Learning Based Natural Language Understanding",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1722",
+    "G06F1727"
+  ],
+  "_processing_info": {
+    "original_size": 89195,
+    "optimized_size": 3890,
+    "reduction_percent": 95.64
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "patent_number": "None",
+  "application_number": "15584482",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "filing_date": "20170502",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Systems and methods for neural machine translation are provided. In one example, a neural machine translation system translates text and comprises processors and a memory storing instructions that, when executed by at least one processor among the processors, cause the system to perform operations comprising, at least, obtaining a text as an input to a neural network system, supplementing the input text with meta information as an extra input to the neural network system, and delivering an output of the neural network system to a user as a translation of the input text, leveraging the meta information for translation.",
+  "publication_number": "US20170323203A1-20171109",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In order more easily to identify the discussion of any particular element or act, the most significant digit or digits in a reference number refer to the figure number in which that element is first introduced. FIG. 1 is a block diagram illustrating a networked system, according to some example embodiments. FIG. 2 is a block diagram illustrating a representative software architecture, which may be used in conjunction with various hardware architectures herein described. FIG. 3 is a block diagram illustrating components of a machine, according to some example embodiments, able to read instructions from a machine-readable medium (e.g., a machine-readable storage medium) and perform any one or more of the methodologies discussed herein. FIG. 4 illustrates the neural translation architecture, where input text is augmented with meta-information as an additional input signal, in accordance with the example embodiment. FIG. 5 illustrates an encoder-decoder model, in accordance with an example embodiment. FIG. 6 illustrates an example neural encoder and an attention based decoder, showing an example architecture point for the insertion of a topic or category, or other meta information, as an additional input to influence machine translation decisions, in accordance with example embodiments. FIG. 7 illustrates a topic-aware readout layer of a decoder, in accordance with an example embodiment. FIG. 8 depicts in Table 800 corpus statistics for certain translation tasks, in accordance with example embodiments. FIG. 9 depicts in Table 900 an evaluation of different approaches for topic-aware neural machine translation (NMT), in accordance with example embodiments. FIG. 10 depicts in Table 1000 an example of improved translation quality when topic information is used as input in an (NMT) system, in accordance with example embodiments. FIG. 11 depicts example cosine distances for topic embedding, in accordance with example embodiments. ...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1730",
+    "G06F1730",
+    "G06F1727",
+    "G06F1730",
+    "G06F1518",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Matusov",
+      "inventor_name_first": "Evgeny",
+      "inventor_city": "Aachen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Wenhu",
+      "inventor_city": "Shaoguan Shi",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Khadivi",
+      "inventor_name_first": "Shahram",
+      "inventor_city": "Aachen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "USING META-INFORMATION IN NEURAL MACHINE TRANSLATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 68128,
+    "optimized_size": 3523,
+    "reduction_percent": 94.83
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_produced": "20161228",
+  "publication_number": "US20170011310A1-20170112",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15270805",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hu",
+      "inventor_name_first": "Jian",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Zheng",
+      "inventor_name_first": "Hao",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Techniques are described herein for training a search query intent classifier using wiki article titles and a search click log. Titles of wiki articles that correspond to links that are associated with a specified wiki article and/or titles of wiki articles that are included in a category that includes the specified wiki article are extracted and included with the title of the specified wiki article in an initial set. Each title in the initial set is correlated with respective clicked URI(s) using a search click log. The initial set is expanded to include search terms that are correlated to the clicked URIs based on the search click log to provide an expanded set. The search query intent classifier is trained to classify search queries with respect to a query intent that is associated with the title of the specified wiki article based on the expanded set.",
+  "filing_date": "20160920",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>Various approaches are described herein for, among other things, training a search query intent classifier using wiki article titles and a search click log. A wiki is a site (e.g., a Web site) that provides a platform for the creation and editing of interlinked pages (e.g., Web pages) via a client (e.g., a Web crawler, a Web browser, a non-Web-enabled client, etc.). Each interlinked page of a wiki is referred to as a wiki article. Each wiki article includes a title and a body. The title identifies the subject matter of the wiki article, and the body provides information (e.g., text, images, video, etc.) regarding the subject matter. Wiki articles are associated with links (e.g., hyperlinks). For example, a wiki article may be associated with an article link, an in-link, a category link, a redirection link, and/or a disambiguation link. An article link is a link from the wiki article to another wiki article. An in-link is a link to the wiki article from another wiki article. A category link is a link to a category that includes the wiki article. For instance, categories of wiki articles may be organized hierarchically into an ontology. A redirection link is a link to a wiki article that has a title that is deemed to be relevant to the user's search query when no wiki article has a title that matches the user's search query exactly. A disambiguation link is a link to one of multiple wiki articles to which the user's search query is deemed to pertain. Documents that are retrieved in response to a user's search query are referred to as a search result. Each of the documents has a respective uniform resource identifier (URI), such as a uniform resource locator (URL) or a uniform resource name (URN), which may be selected (e.g., clicked) by the user to cause the document to be displayed to the user. A search click log is a record of search queries that are provided by users and the documents that are selected by the users from the...",
+  "date_published": "20170112",
+  "title": "TRAINING A SEARCH QUERY INTENT CLASSIFIER USING WIKI ARTICLE TITLES AND A SEARCH CLICK LOG",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 70620,
+    "optimized_size": 3589,
+    "reduction_percent": 94.92
+  }
+}

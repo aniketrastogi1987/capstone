@@ -1,0 +1,33 @@
+{
+  "decision": "PENDING",
+  "application_number": "15383798",
+  "date_published": "20180621",
+  "date_produced": "20180608",
+  "title": "IMAGE PROCESSING APPARATUS",
+  "filing_date": "20161219",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Maruoka",
+      "inventor_name_first": "Isao",
+      "inventor_city": "Gunma",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F3041",
+    "G06F30354",
+    "G06T1920",
+    "G06T1520"
+  ],
+  "main_ipcr_label": "G06F3041",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In light of the foregoing, it is desirable to provide an image processing apparatus that enables translation of pointing input by a pointer, through comparatively simple process, so that thicknesses can be represented as if the stroke was drawn, for example, with an oil paint. According to an embodiment of the present disclosure, there is provided an image processing apparatus that includes detection circuitry and processing circuitry. The detection circuitry, in operation, detects a position on a sensor pointed to by a pointer. The processing circuitry, in operation, generates three-dimensional data that includes the position detected by the detection circuitry, positions a two-dimensional surface relative to the position detected by the detection circuitry, and applies rendering to, at least, part of the three-dimensional data that is arranged on one side of the two-dimensional surface to be displayed on a display screen. In the image processing apparatus according to the above embodiment, the processing circuitry generates three-dimensional data that includes the position detected by the detection circuitry. For example, the processing circuitry uses spheres as a three-dimensional shape, and generates spherical three-dimensional data that includes the position detected by the detection circuitry at the center of the sphere. Then, the processing circuitry positions a two-dimensional surface relative to the position detected by the detection circuitry. Then, the processing circuitry applies rendering to, at least, part of the three-dimensional data that is arranged on one side of the two-dimensional surface to be displayed on the display screen. The image appearing on the display screen using this image information is something similar to 3D three-dimensional graphics appearing on a two-dimensional screen. This makes it possible for the image processing apparatus according to the above embodiment to generate, through simple processes, image...",
+  "patent_number": "None",
+  "abstract": "An image processing apparatus includes detection circuitry and processing circuitry. The detection circuitry, in operation, detects a position on a sensor that is pointed to by a pointer. The processing circuitry, in operation, generates three-dimensional data that includes the position detected by the detection circuitry, positions a two-dimensional surface relative to the position detected by the detection circuitry, and applies rendering to, at least, part of the three-dimensional data that is arranged on one side of the two-dimensional surface to be displayed on a display screen.",
+  "publication_number": "US20180173333A1-20180621",
+  "_processing_info": {
+    "original_size": 60114,
+    "optimized_size": 3137,
+    "reduction_percent": 94.78
+  }
+}

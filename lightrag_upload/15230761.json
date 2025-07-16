@@ -1,0 +1,31 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15230761",
+  "date_published": "20161124",
+  "date_produced": "20161109",
+  "title": "IMAGE RECORDING APPARATUS AND IMAGE REPRODUCING APPARATUS",
+  "filing_date": "20160808",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sugawara",
+      "inventor_name_first": "Atsushi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "H04N5232",
+    "G06F30484"
+  ],
+  "main_ipcr_label": "H04N5232",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>An aspect of the present invention is to provide a recording apparatus and reproducing apparatus of image data, which can quickly display image data obtained by an image pickup apparatus that can photograph an object as an image that can be refocused, as a desired refocus image. In order to solve the above-described problem, according to the invention, an image recording apparatus for recording image data from which a refocus image of an image including at least one object can be reconstructed, comprises: an obtaining unit configured to obtain image data which is obtained by photographing the image including at least one object and can reconstruct the refocus image, and photographing information of the image; a parameter generation unit configured to generate a parameter to be used to reconstruct the refocus image based on the obtained photographing information in relation to the object included in the image; and a recording unit configured to record the generated parameter as meta data of the image in a recording medium together with the obtained image data. Furthermore, according to the present invention, an image reproducing apparatus for reproducing the image data recorded by the image recording apparatus, comprises: a read unit configured to read out the recorded image data and the parameter from the recording medium; a reconstruction unit configured to reconstruct a refocus image from the readout image data using the readout parameter; and an editing unit configured to edit the reconstructed refocus image according to an editing instruction, and to edit a parameter of the edited refocus image. Further features of the present invention will become apparent from the following description of exemplary embodiments with reference to the attached drawings.",
+  "patent_number": "10021309",
+  "abstract": "An image recording unit obtains image data which is obtained by a photographing operation, and can reconstruct a refocus image, and photographing information, generates a parameter used to reconstruct a refocus image in relation to an object included in an image based on the obtained photographing information, and records the generated parameter in a recording medium as meta data of the image data together with the obtained image data. An image reproducing apparatus reads out the recorded image data and parameter from the recording medium, reconstructs a refocus image from the readout image data using the readout parameter, edits the reconstructed refocus image according to an editing instruction, and edits a parameter of the edited refocus image.",
+  "publication_number": "US20160344940A1-20161124",
+  "_processing_info": {
+    "original_size": 49248,
+    "optimized_size": 3139,
+    "reduction_percent": 93.63
+  }
+}

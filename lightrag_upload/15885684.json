@@ -1,0 +1,34 @@
+{
+  "filing_date": "20180131",
+  "publication_number": "US20180174061A1-20180621",
+  "decision": "PENDING",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>Brief Summary of the Parent Invention The parent invention envisions devices and method using the devices to escape from a venue when a threat is detected. A processor constructs a model of a venue in its memory based on first information which is available prior to entry of a person to be protected from potential hazards. The model is trained by machine learning methods and receives further training after the person enters the venue. The model, thereby, takes into account the location of the person and information gathered by sensors about conditions on entry. Other pre-training can concern methods of escape from typical venues and behaviors by persons in the presence of hazards. Observed conditions are evaluated by a processor in accordance with the model and the device generates an escape plan when a hazard is detected. The escape plan is displayed or transmitted to the protected person to facilitate escape from the threatened venue. The protected person thereby has an improved chance of successful escape in spite of difficulties that may appear from the threat or the conditions of escape. Warnings of a hazard may be detected and transmitted separately from the plan of escape. Brief Summary of the CURRENT Invention The current invention claimed in this application concerns devices and methods to determine whether or not physical elements present in a situation are compliant with a set of rules by using a machine learning system to test compliance from data gathered by one or more sensors. The machine learning system is trained on one processor with data concerning objects and behaviors indicating compliance with the rules. The resulting trained model is downloaded to another processor for field use in determining compliance in specific cases. There is further training of the model with specific information concerning the context of the case to be examined and then data from the sensor is used to determine compliance. The ...",
+  "title": "Devices and Methods to Detect Compliance with Regulations",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G01C2120",
+    "G06K900",
+    "G06K962"
+  ],
+  "abstract": "A system and method of confirming compliance with rules. A machine learning model is trained in multiple levels with data concerning basic interpretation of sensors and with discovery of interesting patterns related to the area of application of the rules. The model is downloaded to a second processor which further trains the model with sensor data gathered after the download. Additional sensor data along with data from a server or other sources may be used as an input to the model and the second or another processor evaluates the model with the inputs to create outputs which determine the state of compliance. Specific applications include determination of compliance with a dress code and determination of sobriety in traffic stop situations. Other typical applications include compliance with sports regulations such as the one requiring a specific geometry of a lacrosse stick head pocket as checked after each goal.",
+  "patent_number": "nan",
+  "application_number": "15885684",
+  "date_published": "20180621",
+  "main_ipcr_label": "G06N504",
+  "date_produced": "20180608",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Harvey",
+      "inventor_name_first": "Thomas Danaher",
+      "inventor_city": "Rockville",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "_processing_info": {
+    "original_size": 92933,
+    "optimized_size": 3526,
+    "reduction_percent": 96.21
+  }
+}

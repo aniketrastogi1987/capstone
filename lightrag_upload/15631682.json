@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15631682",
+  "date_published": "20180125",
+  "date_produced": "20180109",
+  "filing_date": "20170623",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method, system and computer program product for generating sets of training programs for machine learning models. Fixed values of one or more workload metrics are received from a user, where the workload metrics correspond to low-level program features which define particular low-level application behavior. A profile using the fixed values of the workload metrics is then created. A suite of synthetic applications is generated using the created profile to form a set of training programs which target particular aspects of program behavior. A machine learning model is then trained using the set of training programs. Since the generated synthetic applications provide a broader coverage of the program state-space, the formed set of training programs more accurately targets performance behavior thereby improving the prediction accuracy of the machine learning based predictive models.",
+  "publication_number": "US20180025270A1-20180125",
+  "summary": "<SOH> SUMMARY <EOH>In one embodiment of the present invention, a method for generating sets of training programs for machine learning models comprises receiving fixed values of a first set of one or more workload metrics from a user and/or generating random values of a second set of one or more workload metrics within a bounded range, where the workload metrics correspond to low-level program features which define particular low-level application behavior. The method further comprises creating, by a processor, a profile using the fixed values of the first set of one or more workload metrics and/or using the random values of the second set of one or more workload metrics. The method additionally comprises generating, by the processor, a suite of synthetic applications using the created profile to form a set of training programs which target particular aspects of program behavior. Other forms of the embodiment of the method described above are in a system and in a computer program product. The foregoing has outlined rather generally the features and technical advantages of one or more embodiments of the present invention in order that the detailed description of the present invention that follows may be better understood. Additional features and advantages of the present invention will be described hereinafter which may form the subject of the claims of the present invention.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "John",
+      "inventor_name_first": "Lizy Kurian",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Panda",
+      "inventor_name_first": "Reena",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zheng",
+      "inventor_name_first": "Xinnian",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gerstlauer",
+      "inventor_name_first": "Andreas",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "GENERATING SETS OF TRAINING PROGRAMS FOR MACHINE LEARNING MODELS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 53668,
+    "optimized_size": 3284,
+    "reduction_percent": 93.88
+  }
+}

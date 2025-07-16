@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15030840",
+  "date_published": "20160908",
+  "date_produced": "20160824",
+  "title": "METHOD AND DEVICE FOR ORGANIZING AND RESTORING FILE INDEXESES",
+  "filing_date": "20160420",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HUANG",
+      "inventor_name_first": "Kaiming",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SUN",
+      "inventor_name_first": "Jiye",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Xidian",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1114",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1114",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>The present application provides a method and device for organizing and restoring system file indexes, which improves the efficiency of restoring file indexes. In one aspect, the present invention provides a method for restoring and organizing file indexes, comprising: using all files in a storage medium to constitute a bidirectional linked list, the bidirectional linked list comprises a forward linked list and a backward linked list; storing indexes of all files in an index information set, and in each file, providing a backup of an index corresponding to the file; in the process of accessing of a file, if an index of a file in the index information set doesn't match with a backup of the index of the file, restoring the bidirectional index; re-establishing the indexes of all files according to the restored bidirectional linked list. In another aspect, the present invention provides a device for restoring and organizing file indexes, comprising: a constituting module configured for using all files in a storage medium to constitute a bidirectional linked list, the bidirectional linked list comprises a forward linked list and a backward linked list; a storing and backup module configured for storing indexes of all files in an index information set, and in each file, providing a backup of an index corresponding to the file; a restoring module configured for restoring the bidirectional index if an index of a file in the index information set doesn't match with a backup index of the file in the process of accessing of the file; a re-establishing module configured for re-establishing the indexes of all files according to a restored bidirectional linked list.",
+  "patent_number": "None",
+  "abstract": "The present invention provides a method and device for organizing and restoring file indexes, which belongs to a technical field of data storing methods. In the present invention, a circular bidirectional linked list is constituted by all files in a storage medium firstly, wherein the bidirectional linked list comprises a forward linked list and a backward linked list; the indexes of all files are stored in an index information set, and each file is provided therein with a backup of its corresponding index; afterwards, in the process of accessing of a file, if the index of the file in the index information set doesn't match with the backup of the index of the file, the bidirectional linked list is restored; finally, the indexes of all files are re-established according to the restored bidirectional linked list. By using the method and device for organizing and restoring file index of the present invention, an efficiency of file index reestablishment can be improved.",
+  "publication_number": "US20160259694A1-20160908",
+  "_processing_info": {
+    "original_size": 33784,
+    "optimized_size": 3524,
+    "reduction_percent": 89.57
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032891A1-20180201",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15223601",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BA",
+      "inventor_name_first": "YUTAO",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "He",
+      "inventor_name_first": "Miao",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Qinhua",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Zongying",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Real-time collision avoidance in moving vehicles includes initializing a prior collision distribution from a manufacturer's vehicle calibration, receiving driver data acquired from a driver when a vehicle is driven and vehicular data acquired from the vehicle being driven by the driver, determining a conditional collision probability using features derived from the driver data and the vehicular data and a model for the driver, calculating posterior probability collision distribution from the conditional collision probability and the prior collision distribution, and determining a probability of a collision occurring from the posterior probability collision.",
+  "filing_date": "20160729",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Exemplary embodiments of the present disclosure provide an adaptive architecture and method to predict a collision using a drivers' individual and situational data to adjust the manufacturer-calibrated model. Performance of a prediction method according to an embodiment has been validated via a large sample size experiment, whose results confirm that, with a longer prediction time (>4 s), the accuracy significantly increased and the false alarm rate significantly decreased. According to an embodiment of the disclosure, there is provided a method for real-time collision avoidance in moving vehicles, including initializing a prior collision distribution from a manufacturer's vehicle calibration, receiving driver data acquired from a driver when a vehicle is driven and vehicular data acquired from the vehicle being driven by the driver and a model for a driver, determining a conditional collision probability using features derived from the driver data and the vehicular data, calculating posterior probability collision distribution from the conditional collision probability and the prior collision distribution, and determining a probability of a collision from the posterior probability collision. According to a further embodiment of the disclosure, driver data and vehicular data is continuously acquired from the driver and vehicle while the vehicle is in motion. According to a further embodiment of the disclosure, the driver data includes one or more of demographic data, driving history data, and behavioral and physiological data. According to a further embodiment of the disclosure, the vehicular data includes distance to detected risk (DDR), time to collision (TTC), speed, gas-pedal, brake-pedal, and steering-wheel. According to a further embodiment of the disclosure, features extracted from the driver data and vehicular data include one or more of mean values, standard deviations, minimum values and maximum values, and on-road time percentages. Acco...",
+  "date_published": "20180201",
+  "title": "ADAPTIVE ARCHITECTURE FOR CRASH PREDICTION IN VEHICLE COLLISION AVOIDANCE SYSTEMS",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 52074,
+    "optimized_size": 3785,
+    "reduction_percent": 92.73
+  }
+}

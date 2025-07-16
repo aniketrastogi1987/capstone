@@ -1,0 +1,37 @@
+{
+  "date_produced": "20171018",
+  "publication_number": "US20170316310A1-20171102",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15075063",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cho",
+      "inventor_name_first": "Youngkwan",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Srinivasa",
+      "inventor_name_first": "Narayan",
+      "inventor_city": "Oak Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Described is a system for decoding spiking reservoirs even when the spiking reservoir has continuous synaptic plasticity. The system uses a set of training patterns to train a neural network having a spiking reservoir comprised of spiking neurons. A test pattern duration d is estimated for a set of test patterns P, and each test pattern is presented to the spiking reservoir for a duration of d/P seconds. Output spikes from the spiking reservoir are generated via readout neurons. The output spikes are measured and the measurements are used to compute firing rate codes, each firing rate code corresponding to a test pattern in the set of test patterns P. The firing rate codes are used to decode performance of the neural network by computing a discriminability index (DI) to discriminate between test patterns in the set of test patterns P.",
+  "filing_date": "20160318",
+  "patent_number": "nan",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>The present invention relates to a system for decoding spiking reservoirs composed of spiking neurons and, more particularly, to a system for decoding spiking reservoirs even when the spiking reservoir has continuous synaptic plasticity. The system comprises one or more processors and a memory having instructions such that when the instructions are executed, the one or more processors perform multiple operations. The system uses a set of training patterns to train a neural network having a spiking reservoir comprised of spiking neurons. A test pattern duration d is estimated for a set of test patterns P. Each test pattern is presented to the spiking reservoir for a duration of d/P. Output spikes from the spiking reservoir are generated via a set of readout neurons. The output spikes are measured, resulting in a plurality of measurements, and the plurality of measurements are used to compute firing rate codes, each firing rate code corresponding to a test pattern in the set of test patterns P. The firing rate codes are used to decode performance of the neural network by computing a discriminability index (DI) to discriminate between test patterns in the set of test patterns P. In another aspect, the neural network exhibits continuous plasticity. In another aspect, the system perform operations of: computing, for each test pattern p, firing rates f i p of a sink neuron i in the neural network as the total number of output spikes during a duration d; estimating a maximum firing rate f max p from the firing rates f i p of all sink neurons in the neural network for the test pattern p; and computing a firing rate code for each test pattern p using f max p and f i p . In another aspect, the DI is a product of a separability measure, ε, and a uniqueness measure, γ, wherein the separability measure is defined as a measure of a degree of separation of firing rate codes for the set of test patterns P, and wherein the uniqueness measure is define...",
+  "date_published": "20171102",
+  "title": "SYSTEM AND METHOD FOR DECODING SPIKING RESERVOIRS WITH CONTINUOUS SYNAPTIC PLASTICITY",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 63018,
+    "optimized_size": 3581,
+    "reduction_percent": 94.32
+  }
+}

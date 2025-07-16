@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060723A1-20180301",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15244109",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NAKANO",
+      "inventor_name_first": "Hiroki",
+      "inventor_city": "Shiga",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SAKAMOTO",
+      "inventor_name_first": "Masaharu",
+      "inventor_city": "Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A method includes: training a first neural network using a first training dataset; inputting each test data of a first test dataset to the first neural network; calculating output data of the first neural network for each test data of the first test dataset; composing a second training dataset of training data from the first test dataset that causes the first neural network to output data within a first range; and training a second neural network using the second training dataset.",
+  "filing_date": "20160823",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to a first aspect of the present invention, provided is a method comprising: training a first neural network using a first training dataset; inputting each test data of a first test dataset to the first neural network; calculating output data of the first neural network for each test data of the first test dataset; composing a second training dataset of training data from the first test dataset that causes the first neural network to output data within a first range; and training a second neural network using the second training dataset. The first aspect may also include a system implementing the method and a computer program product for performing the method. The summary clause does not necessarily describe all features of the embodiments of the present invention. Embodiments of the present invention may also include sub-combinations of the features described above.",
+  "date_published": "20180301",
+  "title": "CASCADED NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 62489,
+    "optimized_size": 2056,
+    "reduction_percent": 96.71
+  }
+}
