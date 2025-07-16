@@ -8,6 +8,13 @@ rag_storage/
 # Virtual environments
 lightrag_env/
 
+# Large database files
+lightrag_backup.db
+*.db
+
+# Large JSON files from LightRAG
+rag_storage/*.json
+lightrag_storage/*.json
 
 # OS
 .DS_Store
