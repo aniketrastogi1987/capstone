@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15565795",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20171011",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A method and an apparatus for operating an automation system is provided. The method for operating an automation system includes the method steps of: providing a learning-based prediction model for the automation system trained by process data including context of an automation process, receiving information about current context of the automation process, verifying context change by comparing the current context to the context of said process data, in the case of any context change verifying a concept drift by comparing pre-drift process data and post-drift process data, in the case of any concept drift re-training said model with post-drift process data, in the case of no context change testing for random concept drift not detected by verifying context change, in the case of any random concept drift extend the current context by using data comprising previous context changes, otherwise no further method steps are required.",
+  "publication_number": "US20180121815A1-20180503",
+  "summary": "<SOH> SUMMARY <EOH>An aspect relates to an approach that integrates context information into a flexible production planning and scheduling scenario. An aspect relates to a dynamic integration of context knowledge and history of MOM systems. A prediction model, also called analytic model is provided from the manufacturer side. In particular the prediction model may be used for fault prediction. The proposed method for operating an automation system comprises the method steps of: a) providing a learning-based prediction model for the automation system trained by process data comprising context of an automation process, b) receiving information about current context of the automation process, c) verifying context change by comparing the current context to the context of said process data, d) in the case of any context change verifying a concept drift by comparing pre-drift process data and post-drift process data, e) in the case of any concept drift re-training said model with post-drift process data, f) in the case of no context change testing for random concept drift not detected by verifying context change, g) in the case of any random concept drift extend the current context by using data comprising previous context changes, and h) otherwise no further method steps are required. A further aspect of the invention is an apparatus for operating an automation system comprising: a) Means for obtaining a learning-based prediction model for the automation system trained by process data comprising context of an automation process, b) Means for receiving information about current context of the automation process, c) Means for verifying context change by comparing the current context to the context of said process data, d) Means for verifying a concept drift by comparing pre-drift process data and post-drift process data in the case of any context change, e) Means for providing post-drift process data for re-training said model in the case of any concept drift, f) Means for...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "LAMPARTER",
+      "inventor_name_first": "STEFFEN",
+      "inventor_city": "FELDKIRCHEN",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "LEPRATTI",
+      "inventor_name_first": "RAFFAELLO",
+      "inventor_city": "GENUA",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "RINGSQUANDL",
+      "inventor_name_first": "MARTIN",
+      "inventor_city": "TRAUNSTEIN",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR OPERATING AN AUTOMATION SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 37787,
+    "optimized_size": 3795,
+    "reduction_percent": 89.96
+  }
+}

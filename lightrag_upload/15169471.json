@@ -1,0 +1,52 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344905A1-20171130",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15169471",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hack",
+      "inventor_name_first": "Michel H.T.",
+      "inventor_city": "Cortlandt Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ren",
+      "inventor_name_first": "Yufei",
+      "inventor_city": "Somers",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Yandong",
+      "inventor_city": "Elmsford",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Li",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Version vector-based rules are used to facilitate asynchronous execution of machine learning algorithms. The method uses version vector based rule to generate aggregated parameters and determine when to return the parameters. The method also includes coordinating the versions of aggregated parameter sets among all the parameter servers. This allows to broadcast to enforce the version consistency; generate parameter sets in an on-demand manner to facilitate version control. Furthermore the method includes enhancing the version consistency at the learner's side and resolving the inconsistent version when mismatching versions are detected.",
+  "filing_date": "20160531",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The inventors have considered the newly identified technical problem and realized that there is a significant need for a rule-based approach to facilitate asynchronous execution, introducing a server side coordinate version control to achieve version consistency, and introducing a learner side version enhancement to further enforce the version consistency. In an exemplary embodiment, the present invention can provide a coordinated version control system including a parameter server having a plurality of parameter sets and a plurality of learners communicating with the plurality of parameter sets, the system including a leader parameter collecting circuit configured to parameter set data for a leader parameter set from the plurality of learners, a follower parameter collecting circuit configured to collect parameter set data for a follower parameter set from the plurality of learners, a leader aggregated parameter generating circuit configured to generate a new leader version of a leader aggregated parameter set based on the leader parameter set data, an event broadcasting circuit configured to generate a broadcast event indicating that the new version of the aggregated parameter set has been generated, a broadcast detecting circuit configured to detect the broadcast event, a checking circuit configured to check if a version of the follower parameter set matches the leader new version of the aggregated parameter set based on the broadcast detecting circuit detecting the broadcast event, and a follower aggregated parameter generating circuit configured to generate a new follower version of a follower aggregated parameter that matches the new leader version of the leader aggregated parameter set. Further, in another exemplary embodiment, the present invention can provide a coordinated version control method for a parameter server having a plurality of parameter sets and a plurality of learners communicating with the plurality of parameter sets, the m...",
+  "date_published": "20171130",
+  "title": "COORDINATED VERSION CONTROL SYSTEM, METHOD, AND RECORDING MEDIUM FOR PARAMETER SENSITIVE APPLICATIONS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 71719,
+    "optimized_size": 3691,
+    "reduction_percent": 94.85
+  }
+}

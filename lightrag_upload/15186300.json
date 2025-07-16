@@ -1,0 +1,58 @@
+{
+  "decision": "PENDING",
+  "application_number": "15186300",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "title": "Cracking Page-Loadable Columns for In-Memory Data Management",
+  "filing_date": "20160617",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nica",
+      "inventor_name_first": "Anisoara",
+      "inventor_city": "Waterloo",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Bumbulis",
+      "inventor_name_first": "Peter",
+      "inventor_city": "Kitchener",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Sherkat",
+      "inventor_name_first": "Reza",
+      "inventor_city": "Waterloo",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Andrei",
+      "inventor_name_first": "Mihnea",
+      "inventor_city": "Issy les Moulineaux",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Goel",
+      "inventor_name_first": "Anil K.",
+      "inventor_city": "Waterloo",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram of an architecture of an in-memory database system 100 that supports page-loadable columns, according to some embodiments. FIG. 2 is a flowchart illustrating a process for selectively rebuilding non-critical data during a delta-merge of a page-loadable column, according to some embodiments. FIG. 3 is a flowchart illustrating a process for dynamically rebuilding non-critical data structures driven by the query being executed, according to some embodiments. FIG. 4 is an example computer system useful for implementing various embodiments. detailed-description description=\"Detailed Description\" end=\"lead\"? In the drawings, like reference numbers generally indicate identical or similar elements. Additionally, generally, the left-most digit(s) of a reference number identifies the drawing in which the reference number first appears.",
+  "patent_number": "None",
+  "abstract": "Cracking page-loadable columns for in-memory data management is described herein. An embodiment operates by accessing a column according to a received query, determining that the received query requires a non-critical data structure associated with the column, and rebuilding the non-critical data structure from data associated with the column.",
+  "publication_number": "US20170364554A1-20171221",
+  "_processing_info": {
+    "original_size": 29033,
+    "optimized_size": 2389,
+    "reduction_percent": 91.77
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "patent_number": "None",
+  "application_number": "15789765",
+  "date_published": "20180301",
+  "date_produced": "20180213",
+  "filing_date": "20171020",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Under one aspect, a computer-implemented method includes receiving a query at a query interface about whether a computer file comprises malicious code. It is determined, using at least one machine learning sub model corresponding to a type of the computer file, whether the computer file comprises malicious code. Data characterizing the determination are provided to the query interface. Generating the sub model includes receiving computer files at a collection interface. Multiple sub populations of the computer files are generated based on respective types of the computer files, and random training and testing sets are generated from each of the sub populations. At least one sub model for each random training set is generated.",
+  "publication_number": "US20180060760A1-20180301",
+  "summary": "<SOH> SUMMARY <EOH>This current subject matter is directed to a process in which computers can be used to efficiently create classifications and similarity analysis using probabilistic models generated through the principles of machine learning. The process does this in an automated way via use of generative models in which samples further train the system and result in iteratively better models that correctly represent the best predictive capabilities expressed within a particular sample population. The process can be defined by five major functionality components and the infrastructure required in order to support these functions. Query Interface Sample collection Feature extraction from samples Multiclass Sample Classification and Similarity Analysis Model Generation A sample is any piece of data that you wish to classify or perform similarity analysis against similar samples. A feature is any salient data point that the system measures from a sample. A model is a single or multimodel probability matrix that defines the likelihood of any sample to be classified in a particular class. A multiclass classifier is one that can support classification in two or more classes. A multimodel classifier is one that uses sub models to handle particular intricacies in a complex sample. A generative classifier is one in which samples used to classify may become training material for future analysis. In one aspect, a sample of data is placed within a directed graph (e.g., a directed acyclic graph). The directed graph comprises a plurality of hierarchical nodes that form a queue of work items for a particular worker class that is used to process the sample of data. Work items are scheduled within the queue for each of a plurality of workers by traversing the nodes of the directed graph. Thereafter, the work items are served to the workers according to the queue. Results are then received from the workers for the work items. In this arrangement, the nodes of the directed graph ar...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502",
+    "G06F950"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Permeh",
+      "inventor_name_first": "Ryan",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McClure",
+      "inventor_name_first": "Stuart",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wolff",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Laguna Niguel",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Golomb",
+      "inventor_name_first": "Gary",
+      "inventor_city": "Santa Cruz",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Soeder",
+      "inventor_name_first": "Derek A.",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Levites",
+      "inventor_name_first": "Seagen",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "O'Dea",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Estero",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Acevedo",
+      "inventor_name_first": "Gabriel",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chisholm",
+      "inventor_name_first": "Glenn",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Automated Systems and Methods for Generative Multimodel Multiclass Classification and Similarity Analysis Using Machine Learning",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 90761,
+    "optimized_size": 4541,
+    "reduction_percent": 95.0
+  }
+}

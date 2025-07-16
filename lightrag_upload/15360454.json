@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180509",
+  "publication_number": "US20180144269A1-20180524",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15360454",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wilson",
+      "inventor_name_first": "Mathew Whitney",
+      "inventor_city": "Kitchener",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Ilyas",
+      "inventor_name_first": "Ihab",
+      "inventor_city": "Waterloo",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Sweeney",
+      "inventor_name_first": "Peter J.",
+      "inventor_city": "Kitchener",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "Systems and methods are provided for classifying at least one unlabeled content item with a machine-learning classifier. A knowledge representation synthesized based on an object of interest is used as a source of features for which training data is evaluated. The machine learning classifier is trained based on features based on the attributes and the training data.",
+  "filing_date": "20161123",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The inventive concepts presented herein are illustrated in a number of different embodiments, each showing one or more concepts, though it should be understood that, in general, the concepts are not mutually exclusive and may be used in combination even when not so illustrated. Some embodiments provide for a method of generating training data for a machine learning classifier, the method comprising: receiving a knowledge representation, encoded as a non-transitory computer-readable data structure, based on an object of interest, the knowledge representation comprising at least one concept and/or relationship between two or more concepts; receiving a first set of content items, wherein the first set comprises one or more content items without a label, wherein the label classifies a content item into one or more categories; determining one or more scores for one or more respective content items of the first set, wherein the score for a respective content item is based on the knowledge representation and contents of the respective content item; and generating the training data for the machine learning classifier by assigning a label to the one or more respective content items of the first set based on the score associated with the one or more respective content items of the first set. Some embodiments provide for a system for generating training data for a machine learning classifier, the system comprising: at least one processor configured to perform a method comprising: receiving a knowledge representation, encoded as a non-transitory computer-readable data structure, based on an object of interest, the knowledge representation comprising at least one concept and/or relationship between two or more concepts; receiving a first set of content items, wherein the first set comprises one or more content items without a label, wherein the label classifies a content item into one or more categories; determining one or more scores for one or more respectiv...",
+  "date_published": "20180524",
+  "title": "SYSTEM AND METHOD OF USING A KNOWLEDGE REPRESENTATION FOR FEATURES IN A MACHINE LEARNING CLASSIFIER",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 99631,
+    "optimized_size": 3264,
+    "reduction_percent": 96.72
+  }
+}

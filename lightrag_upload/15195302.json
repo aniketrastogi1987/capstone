@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170713",
+  "publication_number": "US20170213129A1-20170727",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15195302",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Jun Haeng",
+      "inventor_city": "Hwaseong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A recognition apparatus and a training method are provided. The recognition apparatus includes a memory configured to store a neural network including a previous layer of neurons, and a current layer of neurons that are activated based on first synaptic signals and second synaptic signals, the first synaptic signals being input from the previous layer, and the second synaptic signals being input from the current layer. The recognition apparatus further includes a processor configured to generate a recognition result based on the neural network. An activation neuron among the neurons of the current layer generates a first synaptic signal to excite or inhibit neurons of a next layer, and generates a second synaptic signal to inhibit neurons other than the activation neuron in the current layer.",
+  "filing_date": "20160628",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Exemplary embodiments may address at least the above problems and/or disadvantages and other disadvantages not described above. Also, the exemplary embodiments are not required to overcome the disadvantages described above, and an exemplary embodiment may not overcome any of the problems described above. According to an aspect of an exemplary embodiment, there is provided a recognition apparatus including a memory configured to store a neural network including a previous layer of neurons, and a current layer of neurons that are activated based on first synaptic signals and second synaptic signals, the first synaptic signals being input from the previous layer, and the second synaptic signals being input from the current layer. The recognition apparatus further includes a processor configured to generate a recognition result based on the neural network. An activation neuron among the neurons of the current layer generates a first synaptic signal to excite or inhibit neurons of a next layer, and generates a second synaptic signal to inhibit neurons other than the activation neuron in the current layer. The neurons of the current layer may include spiking neurons. The activation neuron may adjust a membrane potential of the other neurons based on the first synaptic signals and the second synaptic signals. The activation neuron may transmit the second synaptic signal to the other neurons based on a lateral inhibition coefficient of the activation neuron. A neuron receiving the second synaptic signal among the other neurons may decrease a membrane potential of the neuron based on a membrane potential threshold of the neuron and the lateral inhibition coefficient. The previous layer may include a group of neurons, and the neurons included in the group may share a receptive field. The current layer may include another group of neurons, the other group corresponding to the receptive field, and each of the neurons sharing the receptive field may be connect...",
+  "date_published": "20170727",
+  "title": "RECOGNITION APPARATUS BASED ON NEURAL NETWORK AND METHOD OF TRAINING NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 81289,
+    "optimized_size": 3386,
+    "reduction_percent": 95.83
+  }
+}

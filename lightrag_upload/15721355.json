@@ -1,0 +1,34 @@
+{
+  "patent_number": "None",
+  "application_number": "15721355",
+  "date_published": "20180208",
+  "date_produced": "20180124",
+  "filing_date": "20170929",
+  "main_ipcr_label": "G06N700",
+  "abstract": "A method, article comprising machine-readable instructions and apparatus that processes data systems for encoding, decoding, pattern recognition/matching and data generation is disclosed. State subsets of a data system are identified for the efficient processing of data based, at least in part, on the data system's systemic characteristics.",
+  "publication_number": "US20180039902A1-20180208",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The method, article comprising machine instructions, and apparatus presented in this inventive material solves many of the problems associated with data processing in the known art by identifying a subset of states out of a superset comprising all possible states of a data system. A data system, as presented in this inventive subject matter, is a system where data units are treated similarly to a system of atoms, that being an aggregate of interconnected and mutually dependent units that have non-uniform probability distributions and manifest, as a whole, one state. Identifiers are created to represent at least one of the following: a state within the state subset and a boundary of the state subset. The identifiers allow a data processing device to generate a data system corresponding to one of the states comprised by the state subset. Data processing is made more efficient when a number of states comprised by the state subset is less than a number of states comprised by the state superset. When only the states within the state subset are considered, redundancy of information can be reduced, as well as the average information entropy. The result is a method, article comprising machine instructions, and apparatus that can efficiently model the probabilities of a data system's systemic characteristics, such as a large data sequence from the data system, a system's structures and the states of the data system itself without incurring a high cost to the data processor and memory as compared to other methods in the known art. A state subset is identified using a model that describes a data system's systemic characteristics; its structures and relationships between data units. Such a model can be created using a set with added structure, such as a space, whereby elements of the space represent a possible state of the systemic characteristic. Probabilities associated with the elements are represented by a probability field within the spa...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730",
+    "H04N1991",
+    "H03M730",
+    "H04N19463"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jeffries",
+      "inventor_name_first": "Adam",
+      "inventor_city": "Torrance",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "UTILIZING SPATIAL STATISTICAL MODELS TO REDUCE MEMORY AND PROCESSING RESOURCE UTILIZATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 218505,
+    "optimized_size": 2967,
+    "reduction_percent": 98.64
+  }
+}

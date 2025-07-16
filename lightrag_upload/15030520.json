@@ -1,0 +1,53 @@
+{
+  "date_produced": "20160908",
+  "publication_number": "US20160275415A1-20160922",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15030520",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YOO",
+      "inventor_name_first": "Byungin",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Wonjun",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Chang Kyu",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Jaejoon",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A recognizer training method and apparatus includes selecting training data, generating clusters by clustering the selected training data based on a global shape parameter, and classifying training data from at least one cluster based on a local shape feature.",
+  "filing_date": "20160419",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. In one general aspect, a recognizer training method includes selecting training data, generating clusters by clustering the selected training data based on a global shape parameter, and classifying training data from at least one cluster based on a local shape feature. The global shape parameter may be used to determine a global feature of the selected training data, and the local shape feature may be used to determine a local feature of the training data from the cluster. The generating may include determining a parameter value of the global shape parameter, determining a parameter vector of the selected training data using the determined parameter value, dividing the parameter vector into data sets, verifying whether a degree of separation between the data sets satisfies a predetermined condition, and storing division information on the generating of the clusters when the degree of separation satisfies the predetermined condition. The dividing of the parameter vector may include dividing the parameter vector into the data sets based on randomly determined threshold values, and wherein an arbitrary number of the threshold values may be generated. The degree of separation may be determined based on a mean and a standard deviation of each data set. The division information on the generating of the clusters may include information on the global shape parameter used to generate the clusters and information on the threshold values used to divide the parameter vector into the data sets. The degree of separation may satisfy the predetermined condition when a currently determined degree of separation is greatest ...",
+  "date_published": "20160922",
+  "title": "READER LEARNING METHOD AND DEVICE, DATA RECOGNITION METHOD AND DEVICE",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 73100,
+    "optimized_size": 3266,
+    "reduction_percent": 95.53
+  }
+}

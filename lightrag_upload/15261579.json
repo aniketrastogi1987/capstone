@@ -1,0 +1,37 @@
+{
+  "date_produced": "20170301",
+  "publication_number": "US20170076201A1-20170316",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15261579",
+  "inventor_list": [
+    {
+      "inventor_name_last": "van Hasselt",
+      "inventor_name_first": "Hado Philip",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Guez",
+      "inventor_name_first": "Arthur Clément",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for training a Q network used to select actions to be performed by an agent interacting with an environment. One of the methods includes obtaining a plurality of experience tuples and training the Q network on each of the experience tuples using the Q network and a target Q network that is identical to the Q network but with the current values of the parameters of the target Q network being different from the current values of the parameters of the Q network.",
+  "filing_date": "20160909",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to reinforcement learning. In general, this specification describes training a Q network that is used to select actions to be performed by an agent that interacts with an environment by receiving an observation characterizing a current state of the environment and performing an action from a set of actions in response to the observation. The subject matter described in this specification can be implemented in particular embodiments so as to realize one or more of the following advantages. A reinforcement learning system can effectively learn an effective action selection policy for an agent by training a Q network as described in this specification. In particular, by, during the training, selecting a next action using the Q network and then determining an estimated future cumulative reward for the next action using the target Q network, the reinforcement learning system can effectively learn an action selection policy that avoids overestimating cumulative future rewards for actions, as can occur when using only the target Q network to estimate the future cumulative reward for the next action during training. Employing an action selection policy that avoids overestimating cumulative rewards can result in the agent achieving improved performance on a variety of reinforcement learning tasks. The details of one or more embodiments of the subject matter of this specification are set forth in the accompanying drawings and the description below. Other features, aspects, and advantages of the subject matter will become apparent from the description, the drawings, and the claims.",
+  "date_published": "20170316",
+  "title": "TRAINING REINFORCEMENT LEARNING NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 45106,
+    "optimized_size": 2920,
+    "reduction_percent": 93.53
+  }
+}

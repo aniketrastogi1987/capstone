@@ -1,0 +1,52 @@
+{
+  "date_produced": "20160525",
+  "publication_number": "US20160162781A1-20160609",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "14907560",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LILLICRAP",
+      "inventor_name_first": "Timothy",
+      "inventor_city": "Oxford",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Akerman",
+      "inventor_name_first": "Colin",
+      "inventor_city": "Oxford",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "TWEED",
+      "inventor_name_first": "Douglas",
+      "inventor_city": "Oxford",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "COWNDEN",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Oxford",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "A method of training a neural network having at least an input layer, an output layer and a hidden layer, and a weight matrix encoding connection weights between two of the layers, the method comprising the steps of (a) providing an input to the input layer, the input having an associated expected output, (b) receiving a generated output at the output layer, (c) generating an error vector from the difference between the generated output and expected output, (d) generating a change matrix, the change matrix being the product of a random weight matrix and the error vector, and (e) modifying the weight matrix in accordance with the change matrix.",
+  "filing_date": "20160125",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to a first aspect of the invention there is provided a method of training a neural network having at least an input layer, a hidden layer and an output layer, and a plurality of forward weight matrices encoding connection weights between successive pairs of layers, the method comprising the steps of: (a) providing an input to the input layer, the input having an associated expected output, (b) receiving a generated output at the output layer, (c) generating an error vector from the difference between the generated output and expected output, (d) for at least one pair of the layers, generating a change matrix, the change matrix being the product of a fixed random feedback weight matrix and the error vector, and (e) modifying the forward weight matrix for the at least one pair of the layers in accordance with the change matrix. The change matrix may be the cross product of the fixed random feedback weight matrix and the error vector. The method may comprise an initial step of initialising the neural network with random connection weight values. The method may comprise an initial step of generating the fixed random feedback weight matrix. The fixed random feedback weight matrix elements may comprise random values from a uniform distribution over [−α, α] where α is a scalar. The method may comprise iteratively performing steps (a) to (e) for a plurality of input values. Step (e) may comprise modifying the forward weight matrix encoding connection weights between the pair of layers comprising the input layer and the hidden layer. Step (e) may comprise modifying the forward weight matrix encoding connection weights between the pair of layers comprising the hidden layer and the output layer The neural network may comprise a plurality of hidden layers, each hidden layer having an associated forward weight matrix and an associated fixed random backward weight matrix, the method comprising the steps of; generating a change matrix ...",
+  "date_published": "20160609",
+  "title": "METHOD OF TRAINING A NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 40119,
+    "optimized_size": 3633,
+    "reduction_percent": 90.94
+  }
+}

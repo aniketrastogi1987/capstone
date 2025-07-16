@@ -1,0 +1,58 @@
+{
+  "date_produced": "20160706",
+  "publication_number": "US20160210563A1-20160721",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15095242",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bhagwat",
+      "inventor_name_first": "Anand B.",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Bohra",
+      "inventor_name_first": "Amit P.",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Pal",
+      "inventor_name_first": "Manojkumar",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Shrivastava",
+      "inventor_name_first": "Abhishek",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Sahu",
+      "inventor_name_first": "Swapnasarit",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "A computer processor determines a first span of a communication, wherein a span includes content associated with one or more dialog statements. If the content of the first span contains one or more topic change indicators which are identified by at least one detector of a learning model, the computer processor, in response, generates scores for each of the one or more indicators. The computer processor aggregates scores of the one or more indicators of the first span, which may be weighted, to produce an aggregate score. The computer processor compares the aggregate score to a threshold value, wherein the threshold value is determined during training of the learning model, and the computer processor, in response to the aggregate score crossing the threshold value, determines a topic change has occurred within the first span.",
+  "filing_date": "20160411",
+  "patent_number": "9513764",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention disclose a method for determining a topic change of a digitized communication. A computer processor monitors a communication that includes a first span, and determines the communication to contain a set of dialog statements, in which the first span of the communication includes one or more dialog statements of the set of dialog statements. A computer processor determines if the one or more dialog statements of the first span include one or more indicators of a topic change, such that the one or more indicators are identified by at least one detector of a learning model, and each of the one or more indicators of the topic change within the first span includes at least one of: a particular key phrase, a pause of particular duration, a particular activity on a participant's communication device, and a particular duration of the first span. A computer processor, responsive to determining that the first span includes the one or more indicators of the topic change, generates a score for the one or more indicators, based on the learning model, and responsive to the score for the one or more indicators triggering a threshold condition, a computer processor determines a topic change within the first span, in which the threshold condition is based on a determination of the topic change within the first span of the communication during training of the learning model; and the threshold condition determined during training of the learning model includes: a weighted value for the at least one detector, based on heuristics, received input of labelled communication dialog statements in which the labelled communication dialog statements include one or more topic change indicators that are known, and the one or more topic change indicators that are known corresponding to the at least one detector. The threshold condition determined during training of the learning model also includes: a computer processor that adjusts the weighte...",
+  "date_published": "20160721",
+  "title": "DETECTION OF COMMUNICATION TOPIC CHANGE",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 67197,
+    "optimized_size": 3942,
+    "reduction_percent": 94.13
+  }
+}

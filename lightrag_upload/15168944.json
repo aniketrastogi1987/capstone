@@ -1,0 +1,60 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344896A1-20171130",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15168944",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LeMoine",
+      "inventor_name_first": "Marc",
+      "inventor_city": "Bettendorf",
+      "inventor_state": "IA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Schwartz",
+      "inventor_name_first": "Catherine",
+      "inventor_city": "Alexandria",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stein",
+      "inventor_name_first": "Erik E.",
+      "inventor_city": "Gaithersburg",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Price",
+      "inventor_name_first": "Zachary",
+      "inventor_city": "Alexandria",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sipple",
+      "inventor_name_first": "John A.",
+      "inventor_city": "Potomac Falls",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods for disambiguation of agricultural input are disclosed. An example disclosed method includes determining a first probability for a second product specifier. The first probability indicates a likelihood that the second product specifier is correct. Additionally, the example method includes, in response to determining that agricultural input identifiers for a manufacturer associated with a portion of the first product specifier are in a variety database, modifying the first probability with a second probability. The example method includes, in response to determining that the agricultural input identifiers for the manufacturer associated with the portion of the first product specifier are not in the variety database, modifying the first probability with a third probability different from the second probability. The example method includes comparing the modified first probability with a threshold, and associating the second product specifier with the vehicle location w...",
+  "filing_date": "20160531",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The appended claims define this application. The present disclosure summarizes aspects of the embodiments and should not be used to limit the claims. Other implementations are contemplated in accordance with the techniques described herein, as will be apparent to one having ordinary skill in the art upon examination of the following drawings and detailed description, and these implementations are intended to be within the scope of this application. Example embodiments for disambiguation of agricultural input are disclosed. In an example disclosed method, a central electronic data processing system receives vehicle activity data from a vehicle, such as a tractor, a seed planter, or a fertilizer. The vehicle activity data includes a first product specifier and a vehicle location. A product disambiguator generates a second product specifier that may be comprised of a single hypothesis or series of hypothesis rank ordered with statistical confidence. The second product specifier is based on a transformation from the first product specifier. The product disambiguator determines a first probability for the second product specifier. The first probability indicates a likelihood that the second product specifier is correct. In response to determining that agricultural input identifiers for a manufacturer associated with a portion of the first product specifier are in a variety database, the product disambiguator modifies the first probability with a second probability. Additionally, in response to determining that the agricultural input identifiers for the manufacturer associated with the portion of the first product specifier are not in the variety database, the product disambiguator modifies the first probability with a third probability. The third probability is different from the second probability. The product disambiguator compares the modified first probability with a threshold. The product disambiguator associates the second product specifier with ...",
+  "date_published": "20171130",
+  "title": "DISAMBIGUATION OF AGRICULTURAL INPUT",
+  "ipcr_labels": [
+    "G06N700",
+    "H04W400",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 68675,
+    "optimized_size": 4154,
+    "reduction_percent": 93.95
+  }
+}

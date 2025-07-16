@@ -1,0 +1,33 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15144249",
+  "date_published": "20160825",
+  "date_produced": "20160810",
+  "title": "System and Method for Authentication",
+  "filing_date": "20160502",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Allison",
+      "inventor_name_first": "Dennis Keith",
+      "inventor_city": "Fayetteville",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2160",
+    "H04N100",
+    "H04N144",
+    "H04L2906"
+  ],
+  "main_ipcr_label": "G06F2160",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure provides a system, device, and method for authenticating users, over a secure network, to use multi-functional devices (MFDs) communicatively connected to the secure network. In one embodiment, an MFD comprises a user input/output (I/O) assembly configured to receive user input. The user input, which may comprise user credentials and an associated password or Personal Identity Number (PIN), are provided to a server via a secure network. If the information is authenticated, a heartbeat signal is generated and sent to access control circuitry. Upon receipt, the access control circuitry generates a control signal and provides it to the MFD. The control signal opens the MFD so that the authenticated user can utilize the functions provided by the MFD. So long as the access control circuitry receives a heartbeat signal, the access control circuitry will generate the control signal for the MFD. However, upon detecting that the heartbeat signal has ceased, the access control circuitry will cease generating the control signal thereby disabling MFD. Of course, those skilled in the art will appreciate that the present invention is not limited to the above contexts or examples, and will recognize additional features and advantages upon reading the following detailed description and upon viewing the accompanying drawings.",
+  "patent_number": "9501655",
+  "abstract": "A multi-functional device is attached to a secure network and includes a control circuit. The control circuit receives indications as to whether a user is authenticated to use the multi-functional device and in response, generates and sends a control signal to the multi-functional device. As long as the multi-functional device continues to receive the control signal, the multi-functional device remains in an operational mode to allow the authenticated user to access the multi-functional device functions. If the multi-functional device ceases to receive the control signal, the multi-functional device deactivates itself.",
+  "publication_number": "US20160246975A1-20160825",
+  "_processing_info": {
+    "original_size": 44533,
+    "optimized_size": 2570,
+    "reduction_percent": 94.23
+  }
+}

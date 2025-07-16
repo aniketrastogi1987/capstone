@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15271739",
+  "date_published": "20170112",
+  "date_produced": "20161228",
+  "title": "PROGRAMMATICALLY CHOOSING PREFERRED STORAGE PARAMETERS FOR FILES IN LARGE-SCALE DISTRIBUTED STORAGE SYSTEMS",
+  "filing_date": "20160921",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Stokely",
+      "inventor_name_first": "Murray M.",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Merchant",
+      "inventor_name_first": "Arif",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies relating to cloud storage in general, and specifically to methods and systems for programmatically choosing preferred configuration parameters for storing and provisioning files in large-scale distributed storage systems. In general, one aspect of the subject matter described in this specification can be embodied in a system and method for programmatically determining preferred storage parameters for files stored in a large-scale distributed storage system. An exemplary system may include one or more processing devices and one or more storage devices that store instructions to execute steps of an exemplary method. An exemplary method may include: receiving a desired file reliability or availability requirement; receiving system characteristics which include statistics of system outages in a datacenter; predicting future failures of the storage system based on system outage statistics; receiving file encoding or replication information for at least one file in the storage system; predicting file reliability and maintenance costs based on past system failures and file encoding and replication information; and determining preferred storage parameters for at least one file to minimize cost while achieving the desired file reliability or availability based on the received requirement. A second exemplary method may include: receiving a desired file reliability or availability requirement; receiving system characteristics which include information regarding the storage system, off-site backups for the storage system, and file access patterns for files stored in the storage system; determining historical reliability of the system, reliability of off-site backups for the storage system, and reliability of files stored using each possible file encoding or replication level in the system; predicting the future reliability of the storage system based on the determined reliability of the storage system; predicting the ...",
+  "patent_number": "None",
+  "abstract": "A method includes receiving trace data representing access information about files stored in a large-scale distributed storage system, identifying file access patterns based on the trace data, receiving metadata information associated with the files stored in the large-scale distributed storage system, and generating a preferred storage parameter for each file based on the received metadata information and the identified file access patterns. The method also includes receiving, file reliability or accessibility information of a new file, determining whether the received file reliability or accessibility information of the new file matches information of a file group of the files in the large-scale distributed storage system, and when the file reliability or accessibility information of the new file matches the information of the file group, storing the new file in the large-scale distributed storage system using the preferred storage parameter associated with the file group.",
+  "publication_number": "US20170011059A1-20170112",
+  "_processing_info": {
+    "original_size": 68316,
+    "optimized_size": 3757,
+    "reduction_percent": 94.5
+  }
+}

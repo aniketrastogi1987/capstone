@@ -1,0 +1,47 @@
+{
+  "date_produced": "20180207",
+  "publication_number": "US20180053102A1-20180222",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15362799",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Martinson",
+      "inventor_name_first": "Eric",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Olabiyi",
+      "inventor_name_first": "Oluwatobi",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Oguchi",
+      "inventor_name_first": "Kentaro",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "By way of example, the technology disclosed by this document may be implemented in a method that includes aggregating local sensor data from vehicle system sensors, detecting a driver action using the local sensor data, and extracting features related to predicting driver action from the local sensor data during the operation of the vehicle. The method may include adapting a stock machine learning-based driver action prediction model to a customized machine learning-based driver action prediction model using one or more of the extracted features and the detected driver action, the stock machine learning-based driver action prediction model initially generated using a generic model configured to be applicable to a generalized driving populace. In some instances, the method may also include predicting a driver action using the customized machine learning-based driver action prediction model and the extracted features.",
+  "filing_date": "20161128",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The specification overcomes the deficiencies and limitations of the approaches described in the Background at least in part by providing novel technology for updating driver action prediction models by recognizing actions in live sensing and improving performance with respect to individual drivers and environments. According to one innovative aspect of the subject matter described in this disclosure, a method may include aggregating local sensor data from a plurality of vehicle system sensors during operation of vehicle by a driver; detecting, during the operation of the vehicle, a driver action using the local sensor data; and extracting, during the operation of the vehicle, features related to predicting driver action from the local sensor data. The method may include adapting, during operation of the vehicle, a stock machine learning-based driver action prediction model to a customized machine learning-based driver action prediction model using one or more of the extracted features and the detected driver action, the stock machine learning-based driver action prediction model initially generated using a generic model configured to be applicable to a generalized driving populace. Additionally, in some implementations, the method may include predicting a driver action using the customized machine learning-based driver action prediction model and the extracted features. According to another innovative aspect of the subject matter described in this disclose, a system may include one or more computer processors and one or more non-transitory memories storing instructions that, when executed by the one or more computer processors, cause the computer system to perform operations comprising: aggregating local sensor data from a plurality of vehicle system sensors during operation of vehicle by a driver; detecting, during the operation of the vehicle, a driver action using the local sensor data; and extracting, during the operation of the vehicle, featu...",
+  "date_published": "20180222",
+  "title": "Individualized Adaptation of Driver Action Prediction Models",
+  "ipcr_labels": [
+    "G06N504",
+    "B60R16023",
+    "G08G101",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 121049,
+    "optimized_size": 3819,
+    "reduction_percent": 96.85
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15350214",
+  "date_published": "20170525",
+  "date_produced": "20170510",
+  "title": "SUPER-RESOLUTION IMAGE RECONSTRUCTION USING HIGH-FREQUENCY BAND EXTRACTION",
+  "filing_date": "20161114",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cutu",
+      "inventor_name_first": "Florin",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Eilertsen",
+      "inventor_name_first": "James",
+      "inventor_city": "Pittsford",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T340",
+    "G06T500",
+    "H04N978",
+    "G06T720",
+    "G06T1160",
+    "H04N5232",
+    "G06T740",
+    "G06T520"
+  ],
+  "main_ipcr_label": "G06T340",
+  "summary": "<SOH> SUMMARY <EOH>The inventors of the present disclosure realized that high-frequency content of images of a scene can be substantially invariant from one image to another even when different spectral (i.e., color) filters are used to capture the images. Such high-frequency content can include, for example, edge locations and/or texture in the scene. By extracting the high-frequency content from the images and using the extracted data as input for super-resolution reconstruction, high-resolution luma images can be obtained. The high-resolution luma images then can be used to reconstruct high-resolution color images of the scene. For example, in one aspect, a method of generating a super-resolved reconstructed image includes acquiring a multitude of monochromatic images of a scene and extracting high-frequency band luma components from the acquired images. The method further includes generating a high-resolution luma image using the high-frequency components and motion data for the acquired images. The high-resolution luma image is combined with an up-sampled color image, generated from the acquired images, to obtain a super-resolved reconstructed color image of the scene. Some implementations include one or more of the following features. For example, in some cases, the method includes constructing an array of raw monochromatic images based on the acquired images. In some instances, extracting the high-frequency band luma components includes convolving raw monochromatic image data of the scene using a Gaussian filter to obtain a Gaussian filtered image, and subtracting the raw monochromatic image data from the Gaussian filtered image. Extracting the high-frequency band luma components also can include eliminating polarity differences after subtracting the raw monochromatic image data from the Gaussian filtered image. Eliminating polarity differences can include, for example, calculating an absolute value of a difference previously obtained by subtracting the raw m...",
+  "patent_number": "None",
+  "abstract": "Generating a super-resolved reconstructed image includes acquiring a multitude of monochromatic images of a scene and extracting high-frequency band luma components from the acquired images. A high-resolution luma image is generated using the high-frequency components and motion data for the acquired images. The high-resolution luma image is combined with an up-sampled color image, generated from the acquired images, to generate a super-resolved reconstructed color image of the scene.",
+  "publication_number": "US20170148139A1-20170525",
+  "_processing_info": {
+    "original_size": 37730,
+    "optimized_size": 3277,
+    "reduction_percent": 91.31
+  }
+}

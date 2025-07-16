@@ -1,0 +1,37 @@
+{
+  "date_produced": "20160727",
+  "publication_number": "US20160232440A1-20160811",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15016160",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gregor",
+      "inventor_name_first": "Karol",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Danihelka",
+      "inventor_name_first": "Ivo",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Methods, and systems, including computer programs encoded on computer storage media for generating data items. A method includes reading a glimpse from a data item using a decoder hidden state vector of a decoder for a preceding time step, providing, as input to a encoder, the glimpse and decoder hidden state vector for the preceding time step for processing, receiving, as output from the encoder, a generated encoder hidden state vector for the time step, generating a decoder input from the generated encoder hidden state vector, providing the decoder input to the decoder for processing, receiving, as output from the decoder, a generated a decoder hidden state vector for the time step, generating a neural network output update from the decoder hidden state vector for the time step, and combining the neural network output update with a current neural network output to generate an updated neural network output.",
+  "filing_date": "20160204",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in systems that include an encoder neural network, wherein the encoder neural network is a recurrent neural network that is configured to, for each input data item processed by the encoder neural network and at each time step of a plurality steps: receive a glimpse captured by reading from the input data item, receive a decoder hidden state vector of a decoder neural network for the preceding time step, and process the glimpse, the decoder hidden state vector, and an encoder hidden state vector of the encoder neural network from the preceding time step to generate an encoder hidden state vector for the time step; a decoder neural network, wherein the decoder neural network is a recurrent neural network that is configured to, for each of the plurality of time steps: receive a decoder input for the time step, and process the decoder hidden state vector for the preceding time step and the decoder input to generate a decoder hidden state vector for the time step; and a subsystem, wherein the subsystem is configured to, for each of the time steps: read the glimpse from the input data item using the decoder hidden state vector for the preceding time step; provide the glimpse as input to the encoder neural network; generate the decoder input for the decoder neural network from the encoder hidden state vector at the time step; provide the decoder input as input to the decoder neural network for the time step; generate a neural network output update for the time step from the decoder hidden state vector for the time step; and combine the neural network output update for the time step with a current neural network output to generate an updated neural network output. Other embodiments of this aspect include computer programs recorded on one or more computer storage devices configured to cause one or more computers to implement the system and methods that i...",
+  "date_published": "20160811",
+  "title": "RECURRENT NEURAL NETWORKS FOR DATA ITEM GENERATION",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 53380,
+    "optimized_size": 3596,
+    "reduction_percent": 93.26
+  }
+}

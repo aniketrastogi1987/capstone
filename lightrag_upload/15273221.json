@@ -1,0 +1,32 @@
+{
+  "date_produced": "20170316",
+  "publication_number": "US20170091671A1-20170330",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15273221",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mitarai",
+      "inventor_name_first": "Yusuke",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "There is provided a classifier capable of classifying unknown abnormal data input to the classifier even if there is a small number of abnormal data used for the learning of the classifier. When learning parameters of the classifier, the specific category likelihood of normal patterns for learning relatively deviating from a group of normal patterns for learning is decreased relatively to the specific category likelihood of normal patterns for learning not relatively deviating from the group of normal patterns for learning, and the specific category likelihood of abnormal patterns for learning is decreased relatively to the specific category likelihood of the group of normal patterns for learning.",
+  "filing_date": "20160922",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to an aspect of the present invention, a classifier generation apparatus configured to generate a classifier for calculating a value representing a specific category likelihood for input data based on a predetermined parameter and identifying whether the input data is data belonging to the specific category based on a result of the calculation, includes an input unit configured to input a plurality of specific category data for learning known to belong to a specific category and at least one piece of non-specific category data for learning known not to belong to the specific category, an acquisition unit configured to acquire a feature amount based on the plurality of specific category data for learning and the at least one piece of non-specific category data for learning, and a determination unit configured to determine the parameter based on the acquired feature amount, wherein the determination unit determines the parameter so that, with a decrease in the specific category likelihood of data relatively deviating from a distribution of the plurality of specific category data for learning known to belong to the specific category, the likelihood of the at least one piece of non-specific category data for learning known not to belong to the specific category becomes relatively smaller than the likelihood of the specific category data for learning. According to the exemplary embodiments of the present invention, it becomes possible to classify data belonging to an unknown non-specific category input to a classifier even if there is a small number of data belonging to a non-specific category used for learning. Further features of the present invention will become apparent from the following description of exemplary embodiments with reference to the attached drawings.",
+  "date_published": "20170330",
+  "title": "CLASSIFIER GENERATION APPARATUS, CLASSIFIER GENERATION METHOD, AND STORAGE MEDIUM",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 134995,
+    "optimized_size": 3133,
+    "reduction_percent": 97.68
+  }
+}

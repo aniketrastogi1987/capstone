@@ -1,0 +1,45 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15075508",
+  "date_published": "20161027",
+  "date_produced": "20161012",
+  "title": "LIVE UPDATES FOR VIRTUAL MACHINE MONITOR",
+  "filing_date": "20160321",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Liguori",
+      "inventor_name_first": "Anthony Nicholas",
+      "inventor_city": "Bainbridge Island",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wilson",
+      "inventor_name_first": "Matthew Shawn",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nowland",
+      "inventor_name_first": "Ian Paul",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F9445",
+    "G06F9455"
+  ],
+  "main_ipcr_label": "G06F9445",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The foregoing aspects and many of the attendant advantages of this disclosure will become more readily appreciated as the same become better understood by reference to the following detailed description, when taken in conjunction with the accompanying drawings. FIG. 1 is a block diagram depicting a physical computing device with an offload device and a plurality of virtual machine instances. FIG. 2A illustrates an embodiment of a state flow diagram depicting the configuration of virtual machine instances on the physical computing device and virtual components on an offload device utilizing a control plane manager. FIG. 2B illustrates an embodiment of a state flow diagram depicting the configuration of virtual machine instances on the physical computing device and virtual components on an offload device by a virtual machine monitor. FIG. 3A illustrates an embodiment of a state flow diagram depicting indirect communication between a virtual machine instance and a virtual component via the virtual machine monitor. FIG. 3B illustrates an embodiment of a state flow diagram depicting direct communication between a virtual machine instance and a virtual component. FIG. 4 illustrates a flow diagram of a routine for determining a configuration of a virtual environment on a physical computing device and an offload device by a control plane manager. FIG. 5 illustrates a flow diagram of a routine for the configuration of a virtual environment on a physical computing device and an offload device. FIG. 6 illustrates a flow diagram of a routine for indirect communication between the host computing device and the virtual device via the virtual machine monitor. FIG. 7 illustrate an embodiment of a block diagram depicting interactions between an physical computing device, an offload device and an update source for implementing a live update to a virtual machine monitor. FIG. 8 illustrates an embodiment of a block diagram depicting interact...",
+  "patent_number": "9760394",
+  "abstract": "Generally described, aspects of the present disclosure relate to a live update process of the virtual machine monitor during the operation of the virtual machine instances. An update to a virtual machine monitor can be a difficult process to execute because of the operation of the virtual machine instances. Generally, in order to update the virtual machine monitor, the physical computing device needs to be rebooted, which interrupts operation of the virtual machine instances. The live update process provides for a method of updating the virtual machine monitor without rebooting the physical computing device.",
+  "publication_number": "US20160313986A1-20161027",
+  "_processing_info": {
+    "original_size": 112003,
+    "optimized_size": 3481,
+    "reduction_percent": 96.89
+  }
+}

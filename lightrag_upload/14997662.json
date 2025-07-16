@@ -1,0 +1,52 @@
+{
+  "date_produced": "20160908",
+  "publication_number": "US20160275406A1-20160922",
+  "main_ipcr_label": "G06N700",
+  "decision": "REJECTED",
+  "application_number": "14997662",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chan",
+      "inventor_name_first": "Ka Hou",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chan",
+      "inventor_name_first": "Simon",
+      "inventor_city": "Belmont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Szeto",
+      "inventor_name_first": "Kit Pang",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yip",
+      "inventor_name_first": "Yue Kwen Justin",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Disclosed are methods and systems of tracking the deployment of a predictive engine for machine learning, including steps to deploy an engine variant of the predictive engine based on an engine parameter set, wherein the engine parameter set identifies at least one data source and at least one algorithm; receive one or more queries to the deployed engine variant from one or more end-user devices, and in response, generate predicted results; receive one or more actual results corresponding to the predicted results; associate the queries, the predicted results, and the actual results with a replay tag, and record them with the corresponding deployed engine variant.",
+  "filing_date": "20160118",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>The inventors of the present invention have created methods and systems for tracking the deployment of predictive engines for machine learning applications, and for replaying the performances of such predictive engines. More specifically, in one aspect, one embodiment of the present invention is a method for tracking the deployment of a predictive engine, the method including steps to deploy an engine variant of the predictive engine based on an engine parameter set, wherein the engine parameter set identifies at least one data source and at least one algorithm; the deployed engine variant listens to and receives one or more queries from one or more end-user devices. In response to the received queries, the deployed engine variant generates one or more predicted results. The method further includes steps to receive one or more actual results corresponding to the predicted results, and to associate the queries, the predicted results, and the actual results with a replay tag, and recording them with the corresponding deployed engine variant. In some embodiments of the present invention, the method further includes steps to receive a replay request specified by one or more replay tags, and in response to the replay request, replay at least one of the queries, the predicted results, and the actual results associated with the one or more replay tags. In some embodiments of the present invention, the engine parameter set is generated manually by an operator. In other embodiments, the engine parameter set is determined automatically by the system using one or more heuristics, rules, or other procedures. In yet other embodiments, the engine parameter set may be determined automatically, and later edited or modified by the operator before the engine variant is deployed. In some embodiments, the actual results comprise a sequence of user responses to the predicted results. In some embodiments, the actual results are collected over a d...",
+  "date_published": "20160922",
+  "title": "METHODS AND SYSTEMS FOR PREDICTIVE ENGINE EVALUATION AND REPLAY OF ENGINE PERFORMANCE",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 142392,
+    "optimized_size": 3699,
+    "reduction_percent": 97.4
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15595049",
+  "date_published": "20171123",
+  "date_produced": "20171108",
+  "filing_date": "20170515",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Methods and systems of training a neural network includes training a neural network based on training data. Weights of a layer of the neural network are multiplied by an attrition factor. A block of weights is pruned from the layer if the block of weights in the layer has a contribution to an output of the layer that is below a threshold.",
+  "publication_number": "US20170337472A1-20171123",
+  "summary": "<SOH> SUMMARY <EOH>A method of training a neural network includes training a neural network based on training data. Weights of a layer of the neural network are multiplied by an attrition factor. A block of weights is pruned from the layer if the block of weights in the layer has a contribution to an output of the layer that is below a threshold. A method of training a neural network includes training a convolutional neural network based on training data. Weights of a layer of the neural network are multiplied by a number less than one. A block of weights in the layer is pruned, a filter corresponding to the block of weights in a subsequent layer in the neural network is pruned, and a block of weights that corresponds to the pruned filter in a subsequent layer in the neural network is pruned if the block of weights in the layer has a contribution to an output of the layer that is below a threshold. The contribution of a block of weights to the output of the layer is calculated as a percentage of a sum of absolute weights of the weights in the layer made up by a sum of absolute weights of the weights in the block of weights. A system for training a neural network includes a neural network. A training module is configured to train the neural network based on training data. A pruning module is configured to multiply weights of a layer of the neural network by an attrition factor and to prune a block of weights from the layer if the block of weights in the layer has a contribution to an output of the layer that is below a threshold. These and other features and advantages will become apparent from the following detailed description of illustrative embodiments thereof, which is to be read in connection with the accompanying drawings.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N3063"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Durdanovic",
+      "inventor_name_first": "Igor",
+      "inventor_city": "Lawrenceville",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Graf",
+      "inventor_name_first": "Hans Peter",
+      "inventor_city": "Lincroft",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "PASSIVE PRUNING OF FILTERS IN A CONVOLUTIONAL NEURAL NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 25368,
+    "optimized_size": 2810,
+    "reduction_percent": 88.92
+  }
+}

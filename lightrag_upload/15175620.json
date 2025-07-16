@@ -1,0 +1,59 @@
+{
+  "date_produced": "20171121",
+  "publication_number": "US20170351970A1-20171207",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15175620",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Abedini",
+      "inventor_name_first": "Mani",
+      "inventor_city": "Melbourne",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "Garnavi",
+      "inventor_name_first": "Rahil",
+      "inventor_city": "Macleod",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "Lynar",
+      "inventor_name_first": "Timothy M.",
+      "inventor_city": "Kew",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "Mesiku",
+      "inventor_name_first": "Christopher I.E.",
+      "inventor_city": "Brisbane",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "Wagner",
+      "inventor_name_first": "John M.",
+      "inventor_city": "Carlton",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "abstract": "Solar irradiation may be predicted based on input terrestrial sky images comprising cloud images, the terrestrial sky images taken from a plurality of geographic locations by a plurality of devices; for example, wherein the terrestrial sky images are crowd sourced from the plurality of devices. A model may be generated that predicts solar irradiation in a geographic area based on the input terrestrial sky images and the geographic locations from where the terrestrial sky images were taken. A signal representing the solar irradiation predicted by the model is output.",
+  "filing_date": "20160607",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A method, system and computer program product for determining solar irradiation may be provided. The method, in one aspect, may include receiving as input terrestrial sky images comprising cloud images, the terrestrial sky images taken from a plurality of geographic locations by a plurality of devices participating as community members. The method may also include characterizing clouds in the terrestrial sky images. The method may further include predicting future shape and position of the clouds in image pixels of the terrestrial sky images by executing a first machine learning model trained to predict cloud positions based on cloud speed, wind speed and direction. The method may also include generating a second machine learning model that predicts solar irradiation in a geographic area based on cloud shape and position. The method may further include executing the second machine learning model to predict the solar irradiation based on the future shape and position of the clouds predicted by the first machine learning model. The method may also include outputting a signal representing the solar irradiation. A system of determining solar irradiation, in one aspect, may include a hardware processor operable to receive as input terrestrial sky images comprising cloud images, the terrestrial sky images taken from a plurality of geographic locations by a plurality of devices. The hardware processor may be further operable to generate a model that predicts solar irradiation in a geographic area based on the input terrestrial sky images and the geographic locations from where the terrestrial sky images were taken, the geographic locations determined based on cloud-sun line of vision angles. The hardware processor may be further operable to execute the model to predict the solar irradiation. The hardware processor may be further operable to output a signal representing the solar irradiation. A computer readable storage medium storing a program of i...",
+  "date_published": "20171207",
+  "title": "SOLAR IRRADIATION MODELING AND FORECASTING USING COMMUNITY BASED TERRESTRIAL SKY IMAGING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G01W110"
+  ],
+  "_processing_info": {
+    "original_size": 51158,
+    "optimized_size": 3742,
+    "reduction_percent": 92.69
+  }
+}

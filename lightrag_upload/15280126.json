@@ -1,0 +1,65 @@
+{
+  "date_produced": "20180315",
+  "publication_number": "US20180089585A1-20180329",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15280126",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rickard, Jr.",
+      "inventor_name_first": "Scott Thurston",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Balsam",
+      "inventor_name_first": "Elizabeth Rachel",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Backes",
+      "inventor_name_first": "Tracy Morgan",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rajaram",
+      "inventor_name_first": "Siddharth",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Alexander",
+      "inventor_name_first": "Zachary",
+      "inventor_city": "Snoqualmie",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pascale",
+      "inventor_name_first": "Gregory Thomas",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An online system stores objects representing potential transactions of an enterprise. The online system uses machine learning techniques to predict likelihood of success for a potential transaction object. The online system stores historical data describing activities associated with potential transaction objects and uses the stored data as training dataset for a predictor model. The online system extracts features describing potential transaction objects and provides these as input to the predictor model for predicting the likelihood of success of a given potential transaction. The online system may use predictions of likelihood of success of potential transactions to identify a set of potential transactions that should be acted upon to maximize the benefit the enterprise within a time interval, for example, by the end of the current month.",
+  "filing_date": "20160929",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF DRAWINGS <EOH>The disclosed embodiments have advantages and features which will be apparent from the detailed description, the appended claims, and the accompanying figures (or drawings). A brief introduction of the figures is below. FIG. 1 shows an overall system environment illustrating an online system for storing and analyzing objects associated with potential transactions, in accordance with an embodiment. FIG. 2 shows the system architecture of an object analyzer for analyzing potential transaction objects, in accordance with an embodiment. FIG. 3 shows the process of analyzing potential transaction objects, in accordance with an embodiment. FIG. 4 shows an example of historical data associated with a potential transaction object stored in the online system, in accordance with an embodiment. FIG. 5 shows the process of modifying the state of a potential transaction object, in accordance with an embodiment. FIG. 6 shows the process of training a machine learning model for predicting success of a potential transaction, in accordance with an embodiment. FIG. 7 shows the process of analyzing potential transaction objects, in accordance with an embodiment. FIG. 8 illustrates how the predicted score for a potential transaction varies with time as a result of user interactions associated with the potential transaction, in accordance with an embodiment. FIG. 9 illustrates a ranked list of potential transactions recommended by the online system, in accordance with an embodiment. FIG. 10 illustrates an example of statistical analysis for predicting an aggregate amount expected from potential transactions at the end of a time period, in accordance with an embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"? Reference will now be made in detail to several embodiments, examples of which are illustrated in the accompanying figures. It is noted that wherever practicable similar or like reference numbers may be used in the...",
+  "date_published": "20180329",
+  "title": "MACHINE LEARNING MODEL FOR PREDICTING STATE OF AN OBJECT REPRESENTING A POTENTIAL TRANSACTION",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 65659,
+    "optimized_size": 4221,
+    "reduction_percent": 93.57
+  }
+}

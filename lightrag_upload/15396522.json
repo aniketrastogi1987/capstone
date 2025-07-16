@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15396522",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "title": "METHOD AND APPARATUS TO BUILD A MONOLITHIC MESH INTERCONNECT WITH STRUCTURALLY HETEROGENOUS TILES",
+  "filing_date": "20161231",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PAL",
+      "inventor_name_first": "Rahul",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "AGARWAL",
+      "inventor_name_first": "Ishwar",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1580",
+    "G06F930"
+  ],
+  "main_ipcr_label": "G06F1580",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The invention may best be understood by referring to the following description and accompanying drawings that are used to illustrate embodiments of the invention. In the drawings: FIG. 1 is a diagram of one embodiment of a computing system with a multicore processor. FIG. 2A is a diagram of one example embodiment of a mesh architecture topology. FIG. 2B is an example simplified representation of a regular mesh interconnect architecture including the components of core tiles and the interconnects. FIG. 2C is a diagram of one embodiment of a simplified block diagram of a ring stop. FIG. 2D is a diagram of one embodiment of another block diagram of a ring stop. FIG. 2E is a block diagram illustrating a simplified representation of the on-chip layout of a core tile included in a multi-core device utilizing a mesh interconnect. FIG. 2F is a block diagram of one embodiment of an agent. FIG. 3 is a diagram of one embodiment of a hetero-mesh topology. FIG. 4 is a diagram of the wiring of SSMs between different density areas of the hetero-mesh topology. FIG. 5 is a diagram of one example architectural usage of the hetero-mesh. FIG. 6A is a flowchart of one embodiment of a process for a tile sending a message from a denser portion of the hetero-mesh to a less dense portion of the hetero-mesh. FIG. 6B is a flowchart of one embodiment of a process for a tile sending a message from a less dense portion of the hetero-mesh to a denser portion of the hetero-mesh. FIG. 7 is a block diagram of a second system 1100 in accordance with an embodiment of the present invention. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A hetero-mesh architecture is provided to enable varying densities of tile in a multi-core processor. The hetero-mesh architecture includes areas with different tile sizes and wire densities operating and different bandwidths. A split merge switch is utilized between the different parts of the hetero-mesh to enable the sending of packets from tiles in one area of the hetero-mesh to another area of the hetero-mesh while employing a single end to end communication protocol.",
+  "publication_number": "US20180189232A1-20180705",
+  "_processing_info": {
+    "original_size": 79143,
+    "optimized_size": 2911,
+    "reduction_percent": 96.32
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "date_produced": "20170823",
+  "publication_number": "US20170255867A1-20170907",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15058035",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ramachandran",
+      "inventor_name_first": "Lakshmi",
+      "inventor_city": "Boulder",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Foltz",
+      "inventor_name_first": "Peter W.",
+      "inventor_city": "Boulder",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cheng",
+      "inventor_name_first": "Jian",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods for alerting a third party device according to a result of automated evaluation of a received response packet according to at least one pattern in the data packet are disclosed herein. The system can include a memory having a pattern database and a model database. The system can further include a user device and a content management server. The content management server can receive a response packet and identify one or several patterns within the response packet. Based on the presence or absence of these one or several patterns in the response packet, the content management server can generate an evaluation of the response packet and generate and send an alert with the results of the evaluation.",
+  "filing_date": "20160301",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>One aspect of the present disclosure relates to a system for alerting a third party device according to a result of automated evaluation of a received response packet according to at least one pattern in the data packet. The system includes a memory including: a pattern database containing data defining at least two data patterns of tokens; and a model database including a model for generating an evaluative output for the received response packet. The system includes a user device including: a network interface that can exchange data with a content management server via a communication network; and an I/O subsystem that can convert electrical signals to user interpretable outputs user interface. The system can include the content management server that can: receive the response packet from the user device, which response packet includes a user generated text string forming a plurality of words; receive data from the pattern database, which data from the pattern database defines at least two data patterns of tokens; and automatically generate a binary value for each of the at least two data patterns of tokens, which binary value automatically generated for each of the at least two data patterns of tokens includes one of: a first binary value indicative of the presence of the data pattern in the response packet; and a second binary value indicative of the absence of the data pattern in the response packet. The content management server can: automatically generate an evaluation of the response packet based on the binary value generated for each of the at least two data patterns of tokens by applying the automatically generated binary values to the model; and generate and send an alert to a supervisor device when the evaluation is below a threshold value. The system can include a supervisor device including: a network interface that can exchange data with the content management server via the communication network; and an I/O subsystem that can ...",
+  "date_published": "20170907",
+  "title": "SYSTEM AND METHOD FOR AUTOMATED PATTERN BASED ALERT GENERATION",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730",
+    "G06N9900",
+    "H04L1224"
+  ],
+  "_processing_info": {
+    "original_size": 164161,
+    "optimized_size": 3606,
+    "reduction_percent": 97.8
+  }
+}

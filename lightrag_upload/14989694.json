@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193376A1-20170706",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "14989694",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Agarwal",
+      "inventor_name_first": "Amit",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hsu",
+      "inventor_name_first": "Steven K.",
+      "inventor_city": "Lake Oswego",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Krishnamurthy",
+      "inventor_name_first": "Ram K.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Giridhar",
+      "inventor_name_first": "Bharan",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method and apparatus are described for performing complex regex pattern matching utilizing filters based on truncated Deterministic Finite Automata (DFA). For example, one embodiment of a method comprises: representing a set of reference strings as a DFA; truncating the DFA based on a truncating policy, wherein the truncated DFA does not generate a false positive match; creating a filter based on the truncated DFA; filtering an input string against the set of reference strings by running the input string through the filter.",
+  "filing_date": "20160106",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>A better understanding of the present invention can be obtained from the following detailed description in conjunction with the following drawings, in which: FIG. 1A illustrates an exemplary deterministic finite automaton (DFA); FIG. 1B illustrates an exemplary DFA truncated at a fixed depth; FIG. 1C is a chart showing the probability of each DFA state being accessed by benchmark strings in a simulation; FIG. 2 is a block diagram illustrating a pattern-matching system according to an embodiment; FIGS. 3A-3C illustrate exemplary ways to truncate a DFA according to various embodiments; FIG. 4 illustrates an exemplary complex DFA; FIG. 5 illustrates a high-level hardware system that utilizes hardware accelerators according to an embodiment; FIG. 6 is a flow diagram illustrating the operation and logic of performing pattern-matching through hardware accelerators according to an embodiment; FIG. 7 shows an exemplary hardware architecture of the partial pattern matching module according to an embodiment; FIG. 8 illustrates an exemplary implementation of the state address register file (STA) according to an embodiment; FIG. 9 illustrates an exemplary implementation of the state-transition register file (STTR) according to an embodiment; FIG. 10 illustrates an exemplary circuit implementation of a range comparator according to an embodiment; FIG. 11 is a flow diagram illustrating the operation and logic of the partial pattern matcher in accordance to an embodiment. FIG. 12A is a block diagram illustrating both an exemplary in-order pipeline and an exemplary register renaming, out-of-order issue/execution pipeline according to embodiments of the invention; FIG. 12B is a block diagram illustrating both an exemplary embodiment of an in-order architecture core and an exemplary register renaming, out-of-order issue/execution architecture core to be included in a processor according to embodiments of the invention; FIG. 13 is a block d...",
+  "date_published": "20170706",
+  "title": "AREA/ENERGY COMPLEX REGULAR EXPRESSION PATTERN MATCHING HARDWARE FILTER BASED ON TRUNCATED DETERMINISTIC FINITE AUTOMATA (DFA)",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 72677,
+    "optimized_size": 3609,
+    "reduction_percent": 95.03
+  }
+}

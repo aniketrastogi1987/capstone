@@ -1,0 +1,47 @@
+{
+  "patent_number": "None",
+  "application_number": "15561229",
+  "date_published": "20180301",
+  "date_produced": "20180213",
+  "filing_date": "20171003",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A score explanation method for explaining a score includes at least steps of: a1) providing a first score associated with a first vector containing the first values of the parameters; b) generating a first set of lists, each list including a second number of indicators; c) generating, from a list, of at least a third vector wherein each parameter has a third value; the third value being equal to the corresponding first value when the list does not include an indicator of the corresponding parameter, and different from the corresponding first value otherwise; d) calculating the score of at least one third vector; e) evaluating, from the scores calculated for each of the third vectors, an indicator of significance of each parameter; f) elaborating, from the evaluated indicators of significance, an explanation of the first score.",
+  "publication_number": "US20180060746A1-20180301",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>There is therefore a need for an explanation method for explaining a score, that is obtained by using a function that is either known or not known, which presents better performance elements in particular in terms of relevance of the explanation. To this end, the invention provides a score explanation method for explaining a score associated with a vector of a first number of parameters by means of a function, each parameter being ordered with an indicator varying from one to the first number, the first number being an integer that is strictly greater than one, the method including at least the following steps: a1) providing a first score associated with a first vector containing first values of the parameters; b) generating a first set of lists, each list comprising a second number of indicators, the second number being an integer that is strictly less than the first number and strictly greater than zero; c) generating, from a list, of at least a third vector wherein each parameter has a third value; the third value being equal to the corresponding first value when the list does not include an indicator of the corresponding parameter, and different from the corresponding first value in the opposite case; d) calculating the score of at least one third vector; e) evaluating, from the scores calculated for each of the third vectors, an indicator of significance of each parameter; f) elaborating, from the evaluated indicators of significance, an explanation of the first score. According to one particular embodiment, the method includes one or more of the following characteristic features, taken into consideration in isolation or in accordance with any technically possible combinations: the indicators of significance calculated during the step e are either Shapley values, or Sobol' indices; the first set comprises a total number of lists, the total number satisfying the following mathematical inequality: in-line-formulae description=\"...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06F1711",
+    "G06Q4002"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "POUYLLAU",
+      "inventor_name_first": "Helia",
+      "inventor_city": "PALAISEAU CEDEX",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "LABREUCHE",
+      "inventor_name_first": "Christophe",
+      "inventor_city": "PALAISEAU CEDEX",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "GOUJON",
+      "inventor_name_first": "Benedicte",
+      "inventor_city": "PALAISEAU CEDEX",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "title": "METHOD OF EXPLAINING A SCORE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 66510,
+    "optimized_size": 3708,
+    "reduction_percent": 94.42
+  }
+}

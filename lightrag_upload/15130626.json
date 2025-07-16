@@ -1,0 +1,33 @@
+{
+  "decision": "PENDING",
+  "application_number": "15130626",
+  "date_published": "20161020",
+  "date_produced": "20161005",
+  "title": "Architecture and Method for an Interconnected Data Storage System Using a Unified Data Bus",
+  "filing_date": "20160415",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Velez-McCaskey",
+      "inventor_name_first": "Ricardo Eugenio",
+      "inventor_city": "Nashua",
+      "inventor_state": "NH",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G06F1316",
+    "G06F1337",
+    "G06F1342"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a diagram depicting the plurality of computing devices being interconnected with the plurality of storage devices via the unified data bus. FIG. 2 is a flowchart depicting the steps for transferring data from a computing device to the plurality of storage devices via the storage cluster. FIG. 3 is a flowchart thereof, further depicting the step for scheduling access to the unified data bus. FIG. 4 is a flowchart thereof, further depicting the step for mapping a plurality of target addresses for a single multi-target transfer. FIG. 5 is a flowchart thereof, further depicting steps for transferring data when the transfer command is a write command. FIG. 6 is a flowchart thereof, further depicting steps for transferring data when the transfer command is a read command. FIG. 7 is a flowchart thereof, further depicting the step for sharing resources between at least two of the plurality of storage systems. FIG. 8 is a flowchart thereof, further depicting the step for sharing resources between at least one of the plurality of storage systems and the computing device. FIG. 9 is a flowchart depicting the steps for transferring data and providing access to the unified data bus, wherein a round robin method is used to provide access to eight connecting ports. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A system and method for providing an interconnected data storage system that is able to avoid multiple data transfers, and thus increase the overall performance of the interconnected data storage system. A unified data bus interconnects a computing device with a plurality of storage devices via a plurality of storage systems; each of the plurality of storage systems having a main memory, processor, at least one storage controller, and a connecting port. The unified data bus is a local, high bandwidth bus that allows resources to be shared between the plurality of storage systems and with the computing device. Additionally, the unified data bus allows data to be transferred from the computing device to each of the plurality of storage devices in a single multi-target transfer. Furthermore, the architecture allows for a simpler management software that further increases performance of the interconnected data storage system.",
+  "publication_number": "US20160306551A1-20161020",
+  "_processing_info": {
+    "original_size": 33599,
+    "optimized_size": 2957,
+    "reduction_percent": 91.2
+  }
+}

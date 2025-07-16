@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15651345",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "filing_date": "20170717",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A distributed, online machine learning system is presented. Contemplated systems include many private data servers, each having local private data. Researchers can request that relevant private data servers train implementations of machine learning algorithms on their local private data without requiring de-identification of the private data or without exposing the private data to unauthorized computing systems. The private data servers also generate synthetic or proxy data according to the data distributions of the actual data. The servers then use the proxy data to train proxy models. When the proxy models are sufficiently similar to the trained actual models, the proxy data, proxy model parameters, or other learned knowledge can be transmitted to one or more non-private computing devices. The learned knowledge from many private data servers can then be aggregated into one or more trained global models without exposing private data.",
+  "publication_number": "US20180018590A1-20180118",
+  "summary": "<SOH> SUMMARY <EOH>The inventive subject matter provides apparatus, systems, and methods in which distributed, on-line machine learning computers are able to learn information or gain knowledge from private data and distribute the knowledge among peers lacking access to the private data, wherein the distributed knowledge does not include the actual private or restricted features of the local, private data. For the purposes of this application, it is understood that the term “machine learning” refers to artificial intelligence systems configured to learn from data without being explicitly programmed. Such systems are understood to be necessarily rooted in computer technology, and in fact, cannot be implemented or even exist in the absence of computing technology. While machine learning systems utilize various types of statistical analyses, machine learning systems are distinguished from statistical analyses by virtue of the ability to learn without explicit programming and being rooted in computer technology. Thus, the present techniques utilize a distributed data structure that preserves privacy rights while also retaining learnability. Protocols that exchange compressed/learned data, as opposed to raw data, reduces bandwidth overhead. One aspect of the inventive subject matter includes a distributed machine learning system. In some embodiments, the distributed machine learning system has a plurality of private data servers, possibly operating as peers in a distributed computing environment. Each private data server has access to its own local, private data. The other servers or peers in the system typically lack permission, authority, privilege, or access to others local, private data. Further, each private data server is communicatively coupled with one or more non-private computing devices comprising a global modeling engine; a centralized machine learning computer farm or a different private data server for example. The private data servers are computing devices...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F2162",
+    "G06F1900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Szeto",
+      "inventor_name_first": "Christopher",
+      "inventor_city": "Scotts Valley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Benz",
+      "inventor_name_first": "Stephen Charles",
+      "inventor_city": "Santa Cruz",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Witchey",
+      "inventor_name_first": "Nicholas J.",
+      "inventor_city": "Laguna Hills",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Distributed Machine Learning Systems, Apparatus, and Methods",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 182034,
+    "optimized_size": 3852,
+    "reduction_percent": 97.88
+  }
+}

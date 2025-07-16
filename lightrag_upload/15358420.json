@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180509",
+  "publication_number": "US20180144241A1-20180524",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15358420",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Ming-Yu",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kao",
+      "inventor_name_first": "Chieh-Chi",
+      "inventor_city": "Goleta",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for training a neuron network using a processor in communication with a memory includes determining features of a signal using the neuron network, determining an uncertainty measure of the features for classifying the signal, reconstructing the signal from the features using a decoder neuron network to produce a reconstructed signal, comparing the reconstructed signal with the signal to produce a reconstruction error, combining the uncertainty measure with the reconstruction error to produce a rank of the signal for a necessity of a manual labeling, labeling the signal according to the rank to produce the labeled signal; and training the neuron network and the decoder neuron network using the labeled signal.",
+  "filing_date": "20161122",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Some embodiments of the invention are based on recognition that an active learning using an uncertainty measure of features of input signals and reconstruction of the signals from the features provides less annotation processes with improving the accuracy of classifications of signals. Accordingly, one embodiment discloses a method for training a neuron network using a processor in communication with a memory, and the method includes determining features of a signal using the neuron network; determining an uncertainty measure of the features for classifying the signal; reconstructing the signal from the features using a decoder neuron network to produce a reconstructed signal; comparing the reconstructed signal with the signal to produce a reconstruction error; combining the uncertainty measure with the reconstruction error to produce a rank of the signal for a necessity of a manual labeling; labeling the signal according to the rank to produce the labeled signal; and training the neuron network and the decoder neuron network using the labeled signal. Another embodiment discloses an active learning system that includes a human machine interface; a storage device including neural networks; a memory; a network interface controller connectable with a network being outside the system; an imaging interface connectable with an imaging device; and a processor configured to connect to the human machine interface, the storage device, the memory, the network interface controller and the imaging interface, wherein the processor executes instructions for classifying a signal using the neural networks stored in the storage device, wherein the neural networks perform steps of determining features of the signal using the neuron network; determining an uncertainty measure of the features for classifying the signal; reconstructing the signal from the features using a decoder neuron network to produce a reconstructed signal; comparing the reconstru...",
+  "date_published": "20180524",
+  "title": "Active Learning Method for Training Artificial Neural Networks",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 42165,
+    "optimized_size": 3430,
+    "reduction_percent": 91.87
+  }
+}

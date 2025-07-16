@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15430024",
+  "date_published": "20170928",
+  "date_produced": "20170915",
+  "filing_date": "20170210",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A method is provided that is performed in a network having nodes that generate heterogeneous logs including performance logs and text logs. The method includes performing, during a heterogeneous log training stage, (i) a log-to-time sequence conversion process for transforming clustered ones of training logs, from among the heterogeneous logs, into a set of time sequences that are each formed as a plurality of data pairs of a first configuration and a second configuration based on cluster type, (ii) a time series generation process for synchronizing particular ones of the time sequences in the set based on a set of criteria to output a set of fused time series, and (iii) an invariant model generation process for building invariant models for each time series data pair in the set of fused time series. The method includes controlling an anomaly-initiating one of the plurality of nodes based on the invariant models.",
+  "publication_number": "US20170277997A1-20170928",
+  "summary": "<SOH> SUMMARY <EOH>These and other drawbacks and disadvantages of the prior art are addressed by the present invention. According to an aspect of the present invention, a method is provided that is performed in a network having a plurality of nodes that generate heterogeneous logs including performance logs and text logs. The method includes performing, by a processor during a heterogeneous log training stage, (i) a log-to-time sequence conversion process for transforming clustered ones of training logs, from among the heterogeneous logs, into a set of time sequences that are each formed as a plurality of data pairs of a first configuration and a second configuration based on cluster type, (ii) a time series generation process for synchronizing particular ones of the time sequences in the set based on a set of criteria to output a set of fused time series, and (iii) an invariant model generation process for building invariant models for each time series data pair in the set of fused time series. The method further includes controlling, by the processor, an anomaly-initiating one of the plurality of nodes based on an output of the invariant models. According to another aspect of the present invention, a computer program product is provided for invariant model formation for a network having a plurality of nodes that generate heterogeneous logs including performance logs and text logs. The computer program product includes a non-transitory computer readable storage medium having program instructions embodied therewith. The program instructions are executable by a computer to cause the computer to perform a method. The method includes performing, by a processor during a heterogeneous log training stage, (i) a log-to-time sequence conversion process for transforming clustered ones of training logs, from among the heterogeneous logs, into a set of time sequences that are each formed as a plurality of data pairs of a first configuration and a second configuration based on ...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zong",
+      "inventor_name_first": "Bo",
+      "inventor_city": "Plainsboro",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Jianwu",
+      "inventor_city": "Lawrenceville",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jiang",
+      "inventor_name_first": "Guofei",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Invariants Modeling and Detection for Heterogeneous Logs",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 49141,
+    "optimized_size": 3771,
+    "reduction_percent": 92.33
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180404",
+  "publication_number": "US20180107922A1-20180419",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15294666",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Paul",
+      "inventor_name_first": "Somnath",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Augustine",
+      "inventor_name_first": "Charles",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Khellah",
+      "inventor_name_first": "Muhammad M.",
+      "inventor_city": "Tigard",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A processor or integrated circuit includes a memory to store weight values for a plurality neuromorphic states and a circuitry coupled to the memory. The circuitry is to detect an incoming data signal for a pre-synaptic neuromorphic state and initiate a time window for the pre-synaptic neuromorphic state in response to detecting the incoming data signal. The circuitry is further to, responsive to detecting an end of the time window: retrieve, from the memory, a weight value for a post-synaptic neuromorphic state for which an outgoing data signal is generated during the time window, the post-synaptic neuromorphic state being a fan-out connection of the pre-synaptic neuromorphic state; perform a causal update to the weight value, according to a learning function, to generate an updated weight value; and store the updated weight value back to the memory.",
+  "filing_date": "20161014",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram of a neuromorphic computing system with details of a processor core, according to an embodiment of the present disclosure. FIG. 2 is a block diagram illustrating use of a Spike-timing Dependent Plasticity (STDP) algorithm for update of interconnected neuromorphic states, according to an embodiment of the present disclosure. FIG. 3 is a series of graphs illustrating different learning functions to apply to weight values, according to an embodiment of the present disclosure. FIG. 4 is a graph illustrating sub-periods of a representative time step that is a period of time used to time updating states and weight values of neuromorphic states. FIG. 5 is a block diagram illustrating a pointer table identifying locations within a weight table of the weight memory of FIG. 1 . FIGS. 6A, 6B, and 6C are block diagrams of a time window during which acausal updates are performed, both causal and acausal updates are performed, and during which causal updates are performed, respectively, according to an embodiment of the present disclosure. FIGS. 7A, 7B, 7C, and 7D are graphs illustrating convergence of two learning algorithms as a refractory period for outgoing data signal generation increases, according to an embodiment of the present disclosure. FIG. 8 is a graph illustrating a comparison of the final weight values between the two algorithms of FIGS. 7A, 7B, 7C, and 7D , according to an embodiment of the present disclosure. FIG. 9 is a flow chart of a method for performing pre-synaptic learning using delayed causal updates, according to an embodiment of the present disclosure. FIG. 10A is a block diagram illustrating an in-order pipeline and a register renaming stage, out-of-order issue/execution pipeline according to one embodiment. FIG. 10B is a block diagram illustrating a micro-architecture for a processor that may perform operations of the processor core of FIG. 1 . FIG. 11 illustrates a block diagram o...",
+  "date_published": "20180419",
+  "title": "PRE-SYNAPTIC LEARNING USING DELAYED CAUSAL UPDATES",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 124706,
+    "optimized_size": 3713,
+    "reduction_percent": 97.02
+  }
+}

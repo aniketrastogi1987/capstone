@@ -1,0 +1,59 @@
+{
+  "date_produced": "20171103",
+  "publication_number": "US20170330079A1-20171116",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15152102",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Akolkar",
+      "inventor_name_first": "Rahul P.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Farinelli",
+      "inventor_name_first": "Kristi A.",
+      "inventor_city": "Philadelphia",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Prabhu",
+      "inventor_name_first": "Srijith N.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sharpe, III",
+      "inventor_name_first": "Joseph L.",
+      "inventor_city": "Loveland",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Slawson",
+      "inventor_name_first": "Bruce R.",
+      "inventor_city": "Palmdale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method, system and computer-usable medium are disclosed for automating the generation of an incorrect answer to a question suitable for a multiple choice exam. An input corpus of human-readable text associated with a subject domain is provided to a question generation system, where it is processed to generate a set of question-answer (QA) pairs. The set of QA pairs is then processed with the corpus of input text to extract a set of input keywords and concepts. A concept dependency graph is then used to perform disambiguation operations on the set of input keywords and concepts, and the reference keywords and concepts it contains, to generate a set of distractor words. The resulting set of distractor words is then processed with the set of QA pairs to generate a set of multiple choice question-answers that include various distractor answers.",
+  "filing_date": "20160511",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A method, system and computer-usable medium are disclosed for automating the generation of an incorrect answer to a question suitable for a multiple choice exam. In various embodiments, an input corpus of human-readable text associated with a particular subject domain is provided to a question generation system, where it is processed to generate a set of question-answer (QA) pairs. The resulting set of QA pairs is then provided to a concept and keywords extraction system, where they are processed with the corpus of input text to extract a set of input keywords and concepts. A reference corpus of relevant content is then used to generate a concept dependency graph that includes keywords and concepts associated with the subject domain of the input corpus, along with their respective interrelationships. In turn, the concept dependency graph is used to perform disambiguation operations on the set of input keywords and concepts, and the reference keywords and concepts, to generate a set of distract or words. The resulting set of distract or words is then processed with the set of QA pairs to generate a set of multiple choice question-answers that include various distract or answers, which are in turn provided as output. In various embodiments, the distract or words are located in the concept dependency graph and not in the input corpus. In certain embodiments, individual multiple choice question-answers in the set of multiple choice question-answers are eliminated according to a question quality criteria based upon aspects including specificity, context, and ambiguity. In certain embodiments, the input corpus may one or more images, video content, audio content, or some combination thereof. In these embodiments, the multiple choice question-answers may respectively include distract or image, video or audio content associated with plausible, yet misleading and incorrect answers.",
+  "date_published": "20171116",
+  "title": "Automated Distractor Generation by Performing Disambiguation Operations",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 55272,
+    "optimized_size": 3971,
+    "reduction_percent": 92.82
+  }
+}

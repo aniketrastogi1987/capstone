@@ -1,0 +1,46 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15347640",
+  "date_published": "20170316",
+  "date_produced": "20170301",
+  "title": "EXTERNAL PLATFORM EXTENSIONS IN A MULTI-TENANT ENVIRONMENT",
+  "filing_date": "20161109",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mellor",
+      "inventor_name_first": "David R.",
+      "inventor_city": "Lynnfield",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jones",
+      "inventor_name_first": "Andrew H.",
+      "inventor_city": "Newtown",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lattimer",
+      "inventor_name_first": "Charles",
+      "inventor_city": "Danbury",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F2160",
+    "G06F2162"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Generally, what is described is a multi-tenant cloud application that includes services developed by third party developers that tend their own access lists for their services. The tenant access lists and payments are arranged by the third party developers so that developers can charge for services in a finer manner than the all-or-nothing, cloud managed services of the prior art. Access can be automated through tenant access list rules that are submitted directly by the third-party developers to the cloud environment as part of a software package. Once a software package is uploaded, the cloud's application server is restarted with a config file that has been merged with a delta file (of a ‘blank’ config file) populated by a third party developer for its add-in or service. The merging safely adds the third-party developer's configs to the master configuration file so that the software service can execute on the cloud, without having to expose parts of the config file that are internal to the cloud services provider. The merged config file ensures that the third-party's services are loaded in the server for everyone; however, the third-party developer's tenant access list rules block those who are not subscribers from accessing the services. The config file can be an extensible markup language (XML) file compliant with an XML schema defined in an XSD file. The XSD schema file can specify or otherwise define elements, child elements, and attributes of the elements. Given a ‘blank’ version of an XML configuration file from the cloud service provider, that is, a version of the XML configuration file with no configs or child elements in it, a third party developer or other programmer can populate the XML config file with elements concerning his or her third party extension. The third party developer's XML configuration file is treated as a delta file, showing ‘changes’ by the third party developer to the config file. The third-party developer ca...",
+  "patent_number": "9825964",
+  "abstract": "Enforcing access control to individual extensions of services in a multi-tenant cloud environment by initializing objects for the extension based on public and private configuration files with service access rules that are merged is described. This allows third party vendors to specify payment rules for their own extensions while securely keeping the core extension configuration files. Tenants of the multi-tenant cloud environment can pick and choose which services to purchase, and the cloud environment automates the process of accessing the service using the third-party developer's tenant access list rules.",
+  "publication_number": "US20170078302A1-20170316",
+  "_processing_info": {
+    "original_size": 100456,
+    "optimized_size": 3519,
+    "reduction_percent": 96.5
+  }
+}

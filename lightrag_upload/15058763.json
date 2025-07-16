@@ -1,0 +1,45 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15058763",
+  "date_published": "20160623",
+  "date_produced": "20160608",
+  "title": "READ-DETECTION IN MULTI-LEVEL CELL MEMORY",
+  "filing_date": "20160302",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mittelholzer",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Papandreou",
+      "inventor_name_first": "Nikolaos",
+      "inventor_city": "Thalwil",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Pozidis",
+      "inventor_name_first": "Charalampos",
+      "inventor_city": "Thalwil",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1110",
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F1110",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>A method for detecting N-symbol codewords, each N-symbol codeword being a permutation of one of a predefined plurality of N-symbol initial vectors having symbols that are ordered according to a symbol value, wherein the symbols of each codeword have one of q symbol values and are stored in respective q-level memory cells where q>2, the method including: reading the q-level memory cells to obtain a read signal having N signal components corresponding to respective symbols of the codeword; detecting the memory cell level which most-closely corresponds to each read signal component according to a first correspondence criterion dependent on reference signal levels for the q cell levels; identifying unreliable read signal components dependent on a reliability indicator for each read signal component, wherein the reliability indicator is dependent on proximity of the read signal component to the reference signal level for the most-closely corresponding memory cell level; additionally detecting, for each unreliable read signal component, the next-most-closely corresponding memory cell level according to the first correspondence criterion; defining, for each read signal, a set of ordered codeword vectors each having N symbols corresponding to respective components of the read signal ordered according to a signal level, wherein the symbol values in each ordered codeword vector correspond to one possible combination of the detected memory cell levels for the read signal components; defining, for each read signal, a set of candidate initial vectors having intersection of the set of ordered codeword vectors for that read signal and the predefined plurality of N-symbol initial vectors; and detecting, if the set of candidate initial vectors for the read signal contains at least one vector, the codeword corresponding to that read signal that is dependent on the set of candidate initial vectors. An apparatus for detecting N-symbol codewords...",
+  "patent_number": "9619328",
+  "abstract": "A data storage device for storing N-symbol codewords. The device implementing a method including: reading q-level memory cells to obtain a read signal having N signal components; detecting the memory cell level corresponding to each component using a first correspondence criterion dependent on reference signal levels; identifying unreliable components; detecting, for each unreliable component, the next-most-closely corresponding memory cell level according to the first correspondence criterion; defining a set of ordered codeword vectors having N symbols corresponding to respective components of the read signal ordered according to a signal level, wherein the symbol values in each ordered codeword vector correspond to one combination of detected memory cell levels; defining, for each read signal, candidate initial vectors having intersected the ordered codeword vectors and plurality of initial vectors; and detecting, if the candidate initial vectors contains a vector, the codeword corre...",
+  "publication_number": "US20160179619A1-20160623",
+  "_processing_info": {
+    "original_size": 78494,
+    "optimized_size": 3849,
+    "reduction_percent": 95.1
+  }
+}

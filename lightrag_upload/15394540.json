@@ -1,0 +1,32 @@
+{
+  "date_produced": "20170405",
+  "publication_number": "US20170109646A1-20170420",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15394540",
+  "inventor_list": [
+    {
+      "inventor_name_last": "DAVID",
+      "inventor_name_first": "Jeffrey Drue",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Techniques for measuring and/or compensating for process variations in a semiconductor manufacturing processes. Machine learning algorithms are used on extensive sets of input data, including upstream data, to organize and pre-process the input data, and to correlate the input data to specific features of interest. The correlations can then be used to make process adjustments. The techniques may be applied to any feature or step of the semiconductor manufacturing process, such as overlay, critical dimension, and yield prediction.",
+  "filing_date": "20161229",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a flow chart illustrating a process for making a semiconductor device. FIG. 2 is a block diagram illustrating relationships between different steps of the process of FIG. 1 and their cumulative effects on process variation and product performance. FIG. 3A is a top plan view of features formed in two different layers of a device, with no overlay error. FIG. 3B is a top plan view of features formed in two different layers of a device, with overlay error. FIG. 4 is a top plan view of features formed in a single layer of a device, with a critical dimension error. FIG. 5A is a side plan view of a substrate having features formed in two different layers of a device, with no critical dimension or overlay errors. FIG. 5B is a side plan view of a substrate having features formed in two different layers of a device, with no critical dimension or overlay errors. FIG. 6 is a flow chart illustrating a method for training and deploying a model. FIG. 7 is a block diagram illustrating examples of input data and the sources for input data. FIG. 8 is a flow chart illustrating a method for using a deployed model to make process adjustments. FIG. 9 is a graph showing the error between a DBO measurement and a CD-SEM measurement. FIG. 10 is a flow chart illustrating yield prediction using a classification algorithm and a confidence metric. FIG. 11 is a flow chart illustrating a method for training and deploying a model to predict yield. FIG. 12 is a block diagram of one embodiment of a yield prediction system. FIG. 13 shows equations illustrating a process for determining the status of a manufactured product as a function of weighted test data, confidence metrics, and classification. FIG. 14 shows equations illustrating a process for optimizing burn-in time. FIG. 15 is a block diagram illustrating additional applications in a semiconductor manufacturing process for predictive analytics. FIG. 16 is a block diagram illustrating a high ...",
+  "date_published": "20170420",
+  "title": "PROCESS CONTROL TECHNIQUES FOR SEMICONDUCTOR MANUFACTURING PROCESSES",
+  "ipcr_labels": [
+    "G06N700",
+    "H01L2166",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 118593,
+    "optimized_size": 3120,
+    "reduction_percent": 97.37
+  }
+}

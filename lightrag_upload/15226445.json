@@ -1,0 +1,53 @@
+{
+  "date_produced": "20180124",
+  "publication_number": "US20180039891A1-20180208",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15226445",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hamann",
+      "inventor_name_first": "Hendrik F.",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Khabibrakhmanov",
+      "inventor_name_first": "Ildar",
+      "inventor_city": "Syosset",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Younghun",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lu",
+      "inventor_name_first": "Siyuan",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods and systems for predicting irradiance include learning a classification model using unsupervised learning based on historical irradiance data. The classification model is updated using supervised learning based on an association between known cloudiness states and historical weather data. A cloudiness state is predicted based on forecasted weather data. An irradiance is predicted using a regression model associated with the cloudiness state.",
+  "filing_date": "20160802",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method for predicting irradiance includes learning a classification model using unsupervised learning based on historical irradiance data. The classification model is updated using supervised learning based on an association between known cloudiness states and historical weather data. A cloudiness state is predicted based on forecasted weather data. An irradiance is predicted using a regression model associated with the cloudiness state using a processor. A method for predicting irradiance includes learning a classification model using unsupervised learning based on historical irradiance data. The classification model is updated using supervised learning based on an association between known cloudiness states and historical weather data by comparing the predicted weather data to one or more criteria that are based on a measured or forecasted global horizontal irradiance. A cloudiness state is predicted based on forecasted weather data. An irradiance is predicted using a regression model associated with the cloudiness state using a processor. The regression model is based on a difference between the predicted irradiance and the clear sky irradiance if the cloudiness state is predicted to be overcast. The regression model is based on a predicted irradiance without considering the clear sky irradiance if the cloudiness state is predicted to be clear or partially cloudy. A system for predicting irradiance includes an unsupervised learning module configured to learn a classification model using unsupervised learning based on historical irradiance data. A supervised learning module is configured to update the classification model using supervised learning based on an association between known cloudiness states and historical weather data. A classification module is configured to predict a cloudiness state based on forecasted weather data. A prediction module has a processor configured to predict an irradiance using a regression model associated with t...",
+  "date_published": "20180208",
+  "title": "SOLAR FORECASTING USING MACHINE LEARNED CLOUDINESS CLASSIFICATION",
+  "ipcr_labels": [
+    "G06N504",
+    "G01W110",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 39061,
+    "optimized_size": 3493,
+    "reduction_percent": 91.06
+  }
+}

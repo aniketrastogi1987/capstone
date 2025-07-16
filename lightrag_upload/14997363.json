@@ -1,0 +1,59 @@
+{
+  "date_produced": "20160427",
+  "publication_number": "US20160132781A1-20160512",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "14997363",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Traupman",
+      "inventor_name_first": "Jonathan David",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Agarwal",
+      "inventor_name_first": "Deepak",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Liang",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Long",
+      "inventor_name_first": "Bo",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Astier",
+      "inventor_name_first": "Frank Emmanuel",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Techniques for predicting a user response to content are described. According to various embodiments, a configuration file is accessed, where the configuration file includes a user-specification of raw data accessible via external data sources and raw data encoding rules. In some embodiments, the raw data includes raw member data associated with a particular member and raw content data associated with a particular content item. Thereafter, source modules encode the raw data from the external data sources into feature vectors, based on the raw data encoding rules. An assembler module assembles one or more of the feature vectors into an assembled feature vector, based on user-specified assembly rules included in the configuration file. A prediction module performs a prediction modeling process based on the assembled feature vector and a prediction model, to predict a likelihood of the particular member performing a particular user action on the particular content item.",
+  "filing_date": "20160115",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments are illustrated by way of example and not limitation in the figures of the accompanying drawings in which: FIG. 1 is a block diagram showing the functional components of a social networking service, consistent with some embodiments of the invention; FIG. 2 is a block diagram of an example system, according to various embodiments; FIG. 3 illustrates an exemplary configuration file, according to various embodiments; FIG. 4 is a flowchart illustrating an example method, according to various embodiments; FIG. 5 illustrates a schematic diagram of an exemplary data flow in a response prediction system, according to various embodiments; FIG. 6 illustrates an example of raw member data and a member feature vector, according to various embodiments; FIG. 7 illustrates an example of raw content data and a content feature vector, according to various embodiments; FIG. 8 is a flowchart illustrating an example method, according to various embodiments; FIG. 9 illustrates a schematic diagram of an exemplary data flow in a response prediction system, according to various embodiments; FIG. 10 is a flowchart illustrating an example method, according to various embodiments; FIG. 11 is a flowchart illustrating an example method, according to various embodiments; and FIG. 12 is a diagrammatic representation of a machine in the example form of a computer system within which a set of instructions, for causing the machine to perform any one or more of the methodologies discussed herein, may be executed. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20160512",
+  "title": "SYSTEMS AND METHODS FOR CONTENT RESPONSE PREDICTION",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 87788,
+    "optimized_size": 3766,
+    "reduction_percent": 95.71
+  }
+}

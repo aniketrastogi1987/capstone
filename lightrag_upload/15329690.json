@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15329690",
+  "date_published": "20170727",
+  "date_produced": "20170713",
+  "filing_date": "20170127",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method of inverse reinforcement learning for estimating cost and value functions of behaviors of a subject includes acquiring data representing changes in state variables that define the behaviors of the subject; applying a modified Bellman equation given by Eq. (1) to the acquired data: q(x)+gV(y)−V(x)=−1n{pi(y|x))/(p(y|x)} (1) where q(x) and V(x) denote a cost function and a value function, respectively, at state x, g represents a discount factor, and p(y|x) and pi(y|x) denote state transition probabilities before and after learning, respectively; estimating a density ratio pi(y|x)/p(y|x) in Eq. (1); estimating q(x) and V(x) in Eq. (1) using the least square method in accordance with the estimated density ratio pi(y|x)/p(y|x), and outputting the estimated q(x) and V(x).",
+  "publication_number": "US20170213151A1-20170727",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "UCHIBE",
+      "inventor_name_first": "Eiji",
+      "inventor_city": "Okinawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "DOYA",
+      "inventor_name_first": "Kenji",
+      "inventor_city": "Okinawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INVERSE REINFORCEMENT LEARNING BY DENSITY RATIO ESTIMATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 67270,
+    "optimized_size": 1517,
+    "reduction_percent": 97.74
+  }
+}

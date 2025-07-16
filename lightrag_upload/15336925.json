@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170517",
+  "publication_number": "US20170154260A1-20170601",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15336925",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hamada",
+      "inventor_name_first": "Naoki",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "OHWA",
+      "inventor_name_first": "Takuya",
+      "inventor_city": "Shinagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "An information processing apparatus executes 1 learning on each of a plurality of neural networks with regard to target data by duration of at least 1 epoch, and information processing apparatus executes a plurality times of loops of a specific algorithm, each of the plurality of times of loops changes a number of units of each of the plurality of neural networks. The information processing apparatus sets a plurality of learning durations for each of the plurality of neural networks based on a respective accuracy variance and a respective actual performance.",
+  "filing_date": "20161028",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to a non-transitory computer-readable recording medium stores therein a learning program that causes a computer to execute a process. The process includes executing learning on each of a plurality of neural networks with regard to target data by duration of at least 1 epoch; executing a plurality times of loops of a specific algorithm, each of the plurality of times of loops changes a number of units of each of the plurality of neural networks; and setting a plurality of learning durations for each of the plurality of neural networks based on a respective accuracy variance and a respective actual performance, each of the plurality of learning durations being durations of the learning in each of the plurality of times of loops of the specific algorithm, the respective accuracy variance being variance values of accuracy for each of the plurality of neural networks immediately before start of the respective loop, and the respective actual performance being an actual performance of the plurality of neural networks with regard to the target data immediately before start of the respective loop. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the invention.",
+  "date_published": "20170601",
+  "title": "LEARNING METHOD, COMPUTER-READABLE RECORDING MEDIUM, AND INFORMATION PROCESSING APPARATUS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 52686,
+    "optimized_size": 2757,
+    "reduction_percent": 94.77
+  }
+}

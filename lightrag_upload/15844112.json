@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15844112",
+  "date_published": "20180621",
+  "date_produced": "20180608",
+  "filing_date": "20171215",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A system and method of training an artificial neural network. The method comprises determining an activation value for each node in a set of nodes of the artificial neural network, the activation values being determined by applying training data to the artificial neural network, and scaling the determined activation values for each of a plurality of the nodes in a portion of the artificial neural network. Each scaled activation value is determined using a scaling factor associated with a corresponding one of the plurality of nodes. Each scaling factor is determined based on a rank of the corresponding node. The method further comprises updating weights associated with each of the plurality of nodes in the portion of the artificial neural network using the determined scaled activation values to train the neural network.",
+  "publication_number": "US20180174051A1-20180621",
+  "summary": "<SOH> SUMMARY <EOH>One aspect of the present disclosure provides a method of training an artificial neural network, the method comprising: determining an activation value for each node in a set of nodes of the artificial neural network, the activation values being determined by applying training data to the artificial neural network; scaling the determined activation values for each of a plurality of the nodes in a portion of the artificial neural network, each scaled activation value determined using a scaling factor associated with a corresponding one of the plurality of nodes, each scaling factor being determined based on a rank of the corresponding node; and updating weights associated with each of the plurality of nodes in the portion of the artificial neural network using the determined scaled activation values to train the neural network. In some aspects, the rank of each of the plurality of the nodes is determined according to the activation value of the node. In some aspects, the plurality of the nodes are ranked from a highest activation value to a lowest activation value, the node having the highest activation value being assigned lowest rank, and the node having the lowest activation value being assigned highest rank. In some aspects, the plurality of the nodes are ranked from a highest activation value to a lowest activation value, the node having the highest activation value being assigned lowest rank, and the node having the lowest activation value being assigned highest rank, wherein the scaling factor for the node with lowest rank is a lowest scaling factor, and the scaling factor for the node with highest rank is a highest scaling factor. In some aspects, the plurality of the nodes are ranked from a highest activation value to a lowest activation value, the node having the highest activation value being assigned lowest rank, and the node having the lowest activation value being assigned highest rank, wherein nodes with activation values between the...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KNITTEL",
+      "inventor_name_first": "ANTHONY",
+      "inventor_city": "Maroubra",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "title": "METHOD FOR TRAINING AN ARTIFICIAL NEURAL NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 103706,
+    "optimized_size": 3377,
+    "reduction_percent": 96.74
+  }
+}

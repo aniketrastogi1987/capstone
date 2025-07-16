@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15421193",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N308",
+  "abstract": "The technology disclosed relates to an end-to-end neural network for question answering, referred to herein as “dynamic coattention network (DCN)”. Roughly described, the DCN includes an encoder neural network and a coattentive encoder that capture the interactions between a question and a document in a so-called “coattention encoding”. The DCN also includes a decoder neural network and highway maxout networks that process the coattention encoding to estimate start and end positions of a phrase in the document that responds to the question.",
+  "publication_number": "US20180129938A1-20180510",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings, like reference characters generally refer to like parts throughout the different views. Also, the drawings are not necessarily to scale, with an emphasis instead generally being placed upon illustrating the principles of the technology disclosed. In the following description, various implementations of the technology disclosed are described with reference to the following drawings, in which: FIG. 1 illustrates aspects of a dynamic coattention network (DCN) that reads and comprehends a document and answers a question based on it. FIG. 2 shows one implementation of producing document and question contextual encodings using an encoder neural network. FIG. 3 depicts one implementation of a hidden state comparator, which produces an affinity matrix that determines linguistic similarity between the document and question contextual encodings of FIG. 2 . FIG. 4 is one implementation of producing document-to-question attention weights by document-wise normalizing the affinity matrix of FIG. 3 . FIG. 5 illustrates one implementation of generating contextual summaries of the document by combining FIG. 2 's document contextual encoding with FIG. 4 's document-to-question attention weights. FIG. 6 is one implementation of producing question-to-document attention weights by question-wise normalizing the affinity matrix of FIG. 3 . FIG. 7 illustrates one implementation of generating contextual summaries of the question by combining FIG. 2 's question contextual encoding with FIG. 6 's question-to-document attention weights. FIG. 8 depicts one implementation of generating improved contextual summaries of the document by combining FIG. 5 's contextual summaries of the document with FIG. 6 's question-to-document attention weights. FIG. 9 is one implementation of generating a codependent representation of the document by concatenating FIG. 8 's improved contextual summaries of the document with FIG. 7 's contextual summari...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "XIONG",
+      "inventor_name_first": "Caiming",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "ZHONG",
+      "inventor_name_first": "Victor",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SOCHER",
+      "inventor_name_first": "Richard",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DYNAMIC COATTENTION NETWORK FOR QUESTION ANSWERING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 52114,
+    "optimized_size": 3413,
+    "reduction_percent": 93.45
+  }
+}

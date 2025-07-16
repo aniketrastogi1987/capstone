@@ -1,0 +1,51 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15214005",
+  "date_published": "20170316",
+  "date_produced": "20170301",
+  "title": "MULTI-LEVEL MEMORY WITH DIRECT ACCESS",
+  "filing_date": "20160719",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fanning",
+      "inventor_name_first": "Blaise",
+      "inventor_city": "Flosom",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Qawami",
+      "inventor_name_first": "Shekoufeh",
+      "inventor_city": "El Dorado Hills",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tetrick",
+      "inventor_name_first": "Raymond S.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hady",
+      "inventor_name_first": "Frank T.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The following description and accompanying drawings are used to illustrate embodiments of the invention. In the drawings: FIG. 1 illustrates an embodiment of a typical computer system. FIG. 2 illustrates an embodiment of a simple two-level memory implementation in a computer system. FIG. 3 illustrates an embodiment of a multi-level memory-based system with a dynamic random access memory being utilized as a cache for a non-volatile random access memory. FIG. 4 illustrates an embodiment of a multi-level memory-based system that accounts for specialized usage of a portion of the dynamic random access memory cache. FIG. 5 illustrates the lower 4 GB of physical addressable memory space for a processor. FIG. 6 illustrates an embodiment of a dual-partitioned non-volatile random access memory that utilizes a portion for far memory and the other portion for storage. FIG. 7 illustrates an embodiment of address redirection tables that provide functionality for mapping page-granular platform physical addresses and logical block addresses into ever-changing pages in the physical non-volatile random access memory devices. FIG. 8 illustrates an embodiment of address redirection tables to map platform physical addresses and logical block addresses into non-volatile random access memory with no pre-designated physically linear portion of non-volatile random access memory for storage use memory use. FIG. 9 is a flow diagram of an embodiment of a process to allow non-volatile storage pages that reside in a particular type of device to be mapped directly into a software application's address space. FIG. 10 illustrates an embodiment of a PCMS page cleaning process using a page empty write policy. FIG. 11 illustrates an embodiment of a process flow for the write mechanism that writes data to PCMS pages available in phantom address space. FIG. 12 illustrates an embodiment of a mechanism to allow PCMS pages to be written to efficiently from a po...",
+  "patent_number": "9703502",
+  "abstract": "Examples of a multi-level memory with direct access are described. Examples include designating an amount of a non-volatile random access memory (NVRAM) for use as memory for a computer system. Examples also include designating a second amount of the NVRAM to for use as storage for the computing device. Examples also include re-designating at least a first portion of the first amount of NVRAM from use as memory to use as storage.",
+  "publication_number": "US20170075616A1-20170316",
+  "_processing_info": {
+    "original_size": 82516,
+    "optimized_size": 3414,
+    "reduction_percent": 95.86
+  }
+}

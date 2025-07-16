@@ -1,0 +1,66 @@
+{
+  "date_produced": "20160824",
+  "publication_number": "US20160260026A1-20160908",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15026969",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KLOETZER",
+      "inventor_name_first": "Julien",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TORISAWA",
+      "inventor_name_first": "Kentaro",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "HASHIMOTO",
+      "inventor_name_first": "Chikara",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SANO",
+      "inventor_name_first": "Motoki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "OH",
+      "inventor_name_first": "Jonghoon",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "OOTAKE",
+      "inventor_name_first": "Kiyonori",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "[Object] An object is to provide a device capable of efficiently collecting contradictory expressions in units smaller than a sentence. [Solution] A contradictory expression collecting device includes: a first-stage contradiction pattern classifying unit extracting a pattern pair consisting of mutually contradictory patterns by machine learning using as training data pattern pairs consisting of patterns in the form of “subject X predicate object Y”; an additional contradiction pattern pair deriving unit 130 deriving a new pattern pair by rewriting one pattern of each extracted pattern pair by using entailment relation; a training data expanding unit for expanding training data by adding to the training data those of the newly derived pattern pairs which are highly likely consisting of mutually contradicting patterns; and an SVM 142 performing a second-stage classification classifying given pattern pairs to pattern pairs consisting of mutually contradictory patterns and to other pairs, ...",
+  "filing_date": "20160402",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>",
+  "date_published": "20160908",
+  "title": "DEVICE FOR COLLECTING CONTRADICTORY EXPRESSIONS AND COMPUTER PROGRAM THEREFOR",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 67163,
+    "optimized_size": 2327,
+    "reduction_percent": 96.54
+  }
+}

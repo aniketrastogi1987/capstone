@@ -1,0 +1,44 @@
+{
+  "date_produced": "20170214",
+  "publication_number": "US20170061297A1-20170302",
+  "main_ipcr_label": "G06N504",
+  "decision": "REJECTED",
+  "application_number": "15233610",
+  "inventor_list": [
+    {
+      "inventor_name_last": "JOSHI",
+      "inventor_name_first": "KALYAN",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "ROEHL",
+      "inventor_name_first": "NITZI",
+      "inventor_city": "Wellington",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHIEN",
+      "inventor_name_first": "YUNG-HSIN (ALEX)",
+      "inventor_city": "Apex",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Data sets for a three-stage predictor can be automatically determined. For example, multiple time series can be filtered to identify a subset of time series that have time durations that exceed a preset time duration. Whether a time series of the subset of time series includes a time period with inactivity can be determined. Whether the time series exhibits a repetitive characteristic can be determined based on whether the time series has a pattern that repeats over a predetermined time period. Whether the time series includes a magnitude spike with a value above a preset magnitude can be determined. If the time series (i) lacks the time period with inactivity, (ii) exhibits the repetitive characteristic, and (iii) has the magnitude spike with the value above the preset magnitude threshold, the time series can be included in a data set for use with the three-stage predictor.",
+  "filing_date": "20160810",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one example, a non-transitory computer readable medium comprising program code that is executable by a processor is provided. The program code can cause the processor to receive a plurality of time series. Each time series of the plurality of time series can comprise a plurality of data points arranged in a sequential order over a period of time. The program code can cause the processor to filter the plurality of time series using a preset time duration to identify a subset of time series that have time durations that exceed the preset time duration. The preset time duration can be a minimum time duration usable with a preselected forecasting process. The program code can cause the processor to determine that a time series of the subset of time series does not include a time period with inactivity. The program code can cause the processor to determine that the time series exhibits a repetitive characteristic based on the time series comprising a pattern that repeats over a predetermined time period. The program code can cause the processor to determine that the time series comprises a magnitude spike with a value above a preset magnitude threshold. The program code can cause the processor to, in response to determining that the time series (i) lacks the time period with inactivity, (ii) exhibits the repetitive characteristic, and (iii) comprises the magnitude spike with the value above the preset magnitude threshold: generate a data set that includes the time series, and generate a predictive forecast from the data set using the preselected forecasting process. The predictive forecast can indicate a progression of the time series over a future period of time. In another example, a method is provided that can include receiving a plurality of time series. Each time series of the plurality of time series can comprise a plurality of data points arranged in a sequential order over a period of time. The method can include filtering the plurality of t...",
+  "date_published": "20170302",
+  "title": "AUTOMATICALLY DETERMINING DATA SETS FOR A THREE-STAGE PREDICTOR",
+  "ipcr_labels": [
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 154470,
+    "optimized_size": 3729,
+    "reduction_percent": 97.59
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180523",
+  "publication_number": "US20180157987A1-20180607",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15368007",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Schmidt-Karaca",
+      "inventor_name_first": "Markus",
+      "inventor_city": "Heidelberg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "Methods, computer-readable media and systems are disclosed for building, deploying, operating, and maintaining an intelligent dynamic form in which a trained machine learning (ML) model is embedded. A universe of questions is associated with a plurality of output classifiers, which could represent eligibilities for respective benefits. The questions are partitioned into blocks. Each block can be associated with one or more of the classifiers, and each classifier can have a dependency on one or more blocks. An ML model is trained to make inferences from varied combinations of responses to questions and pre-existing data, and determine probabilities or predictions of values of the output classifiers. Based on outputs of the trained model, blocks of questions can be selectively rendered. The trained model is packaged with the question blocks and other components suitably for offline deployment. Uploading collected responses and maintenance of the dynamic form are also disclosed.",
+  "filing_date": "20161202",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In summary, the detailed description is directed to various innovative technologies for developing, using, and maintaining forms. Examples of disclosed technologies use machine learning (ML) techniques to make predictions regarding the applicability of questions in forms, thereby streamlining the user experience without requiring costly attention by developers to individual details. Examples of disclosed technologies permit ready integration and maintenance of a large number of forms, with great savings in administrative and development effort. Examples of disclosed technologies are based on a universe of questions pertaining to a plurality of forms. The questions can be organized in blocks, dubbed form blocks. The blocks of questions and the forms are associated with outcomes, which could be, for example, eligibility of an end user for a particular benefit. Each form and each form block can be associated with one outcome, or with a plurality of outcomes. Using these form blocks, a dynamic questionnaire is built that in principle is able to request possible data required to determine a range of possible outcomes. It adapts to the users' needs dynamically. Only relevant questions are displayed. The assessment on relevance is performed with ML based predictive models based on the answers given in previous questions and/or on data provided by the end user earlier or otherwise known about the end user. According to one aspect of the innovations described herein, an ML model is trained using training data which associates input data with output classifications associated with form blocks. The ML model can implement any of a wide range of techniques, such as a Bayes classifier, a decision tree, logistic regression, a model ensemble, multinomial logistic regression, a neural network, a random forest, and/or a support vector machine. The trained ML model is incorporated into a predictive module, which is configured to map input data values at runtime to p...",
+  "date_published": "20180607",
+  "title": "DYNAMIC FORM WITH MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 103091,
+    "optimized_size": 3533,
+    "reduction_percent": 96.57
+  }
+}

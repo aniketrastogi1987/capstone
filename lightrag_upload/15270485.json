@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15270485",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "title": "PIPELINED INTERCONNECT CIRCUITRY HAVING RESET VALUES HOLDING CAPABILITIES",
+  "filing_date": "20160920",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Richard",
+      "inventor_name_first": "Frederic",
+      "inventor_city": "Maidenhead",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "ipcr_labels": [
+    "G11C710",
+    "G06F1340",
+    "G06F124"
+  ],
+  "main_ipcr_label": "G11C710",
+  "summary": "<SOH> SUMMARY <EOH>It is appreciated that the present invention can be implemented in numerous ways, such as a process, an apparatus, a system, a device, or a method on a computer readable medium. Several inventive embodiments of the present invention are described below. In accordance with a first embodiment, an integrated circuit may have logic circuitry and a switching circuit. The switching circuit may selectively provide a reset signal or a data signal to the logic circuit. The integrated circuit may also include a latching circuity that has a programmable reset value and that feeds the data signal to the switching circuit. The integrated circuit may further include a circuit without a programmable reset value that is interposed between the latching circuit and the switching circuit. The circuit may have a fixed reset value. Alternatively, the circuit may not be resettable (e.g., cannot be reset) and will thus start in an unknown state having a potentially variable value. The circuit may include at least one pipeline register. The switching circuit may include a multiplexer. The latching circuit may include a register. The integrated circuit may further include control logic for controlling the switching circuit. In accordance with a second embodiment, an integrated circuit may include a control circuit and first and second switching circuits. The first switching circuit may receive a signal from a first input path and a reset signal. The control circuit may receive a clock signal. The control circuit may also configure the first switching circuit to pass through the first reset signal for a predetermined number of clock signals. After passing the first reset signal to the first switching circuit for the predetermined number of clock cycles, the control circuit may configure the first switching circuit to pass though the signal from the first input path. The control circuit may count the number of clock cycles that have elapsed for the clock signal. The control...",
+  "patent_number": "None",
+  "abstract": "An integrated circuit may have pipelined interconnects that includes reset control circuitry, which provide desirable reset values to combinational logic. The pipelined interconnects may include multiple parallel input data paths coupled to the combinational logic. The reset control circuitry may include multiplexers coupled between the pipelined interconnects and the combinational logic for each input data path. The multiplexers may provide the desired reset values to the combinational logic based on control signals from counter and comparison logic circuitry. By comparing path lengths for the input data paths and a timing after reconfiguring the combinational logic, the counter and comparison logic circuitry may provide the correct control signals to the multiplexers during operation after reconfiguring the combinational logic. The number of clock cycles that the counter needs to wait before releasing the control signals may be determined using automated circuit design tools implemen...",
+  "publication_number": "US20180082720A1-20180322",
+  "_processing_info": {
+    "original_size": 78157,
+    "optimized_size": 3590,
+    "reduction_percent": 95.41
+  }
+}

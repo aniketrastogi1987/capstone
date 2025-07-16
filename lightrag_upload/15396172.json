@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15396172",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "title": "Scheduling of External Block Based Data Processing Tasks on a Hardware Thread Scheduler",
+  "filing_date": "20161230",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sanghvi",
+      "inventor_name_first": "Hetul",
+      "inventor_city": "Richardson",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nandan",
+      "inventor_name_first": "Niraj",
+      "inventor_city": "Plano",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mody",
+      "inventor_name_first": "Mihir Narendra",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Chitnis",
+      "inventor_name_first": "Kedar Satish",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F948"
+  ],
+  "main_ipcr_label": "G06F948",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure relate to methods and apparatus for scheduling of external block based data processing tasks on a hardware thread scheduler. In one aspect, a data processing device is provided that includes a plurality of hardware data processing nodes, wherein each hardware data processing node performs a task, and a hardware thread scheduler including a plurality of hardware task schedulers configured to control execution of a respective task on a respective hardware data processing node of the plurality of hardware data processing nodes, and a proxy hardware task scheduler coupled to a data processing node external to the data processing device, wherein the proxy hardware task scheduler is configured to control execution of a task by the external data processing device, wherein the hardware thread scheduler is configurable to execute a thread of tasks, the tasks including the task controlled by the proxy hardware task scheduler and a first task controlled by a first hardware task scheduler of the plurality of hardware task schedulers. In one aspect, a method for executing a thread on a hardware thread scheduler included in a data processing device, the method including configuring a thread on the hardware thread scheduler, wherein the thread includes tasks of a subset of hardware data processing nodes included in the data processing device, and a task of a data processing node external to the data processing device, and initiating execution of the thread by the hardware thread scheduler.",
+  "patent_number": "None",
+  "abstract": "A data processing device is provided that includes a plurality of hardware data processing nodes, wherein each hardware data processing node performs a task, and a hardware thread scheduler including a plurality of hardware task schedulers configured to control execution of a respective task on a respective hardware data processing node of the plurality of hardware data processing nodes, and a proxy hardware task scheduler coupled to a data processing node external to the data processing device, wherein the proxy hardware task scheduler is configured to control execution of a task by the external data processing device, wherein the hardware thread scheduler is configurable to execute a thread of tasks, the tasks including the task controlled by the proxy hardware task scheduler and a first task controlled by a first hardware task scheduler of the plurality of hardware task schedulers.",
+  "publication_number": "US20180189102A1-20180705",
+  "_processing_info": {
+    "original_size": 68327,
+    "optimized_size": 3472,
+    "reduction_percent": 94.92
+  }
+}

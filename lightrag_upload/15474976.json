@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15474976",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "filing_date": "20170330",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A data entry system is described which has a user interface which receives a sequence of one or more context text items input by a user. The data entry system has a predictor trained to predict a next item in the sequence. The predictor comprises a plurality of learnt text item embeddings each text item embedding representing a text item in a numerical form, the text item embeddings having a plurality of different lengths. A projection component obtains text item embeddings of the context text items and projects these to be of the same length. The predictor comprises a trained neural network which is fed the projected text item embeddings and which computes a numerical output associated with the predicted next item.",
+  "publication_number": "US20180150744A1-20180531",
+  "summary": "<SOH> SUMMARY <EOH>The following presents a simplified summary of the disclosure in order to provide a basic understanding to the reader. This summary is not intended to identify key features or essential features of the claimed subject matter nor is it intended to be used to limit the scope of the claimed subject matter. Its sole purpose is to present a selection of concepts disclosed herein in a simplified form as a prelude to the more detailed description that is presented later. A data entry system is described which has a user interface which receives a sequence of one or more context text items input by a user. The data entry system has a predictor trained to predict a next item in the sequence. The predictor comprises a plurality of learnt text item embeddings each text item embedding representing a text item in a numerical form, the text item embeddings having a plurality of different lengths. A projection component obtains text item embeddings of the context text items and projects these to be of the same length. The predictor comprises a trained neural network which is fed the projected text item embeddings and which computes a numerical output associated with the predicted next item. Many of the attendant features will be more readily appreciated as the same becomes better understood by reference to the following detailed description considered in connection with the accompanying drawings.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Orr",
+      "inventor_name_first": "Douglas Alexander Harper",
+      "inventor_city": "Brentwood",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Iso-Sipila",
+      "inventor_name_first": "Juha",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Fiscato",
+      "inventor_name_first": "Marco",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Willson",
+      "inventor_name_first": "Matthew James",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Osborne",
+      "inventor_name_first": "Joseph",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "NEURAL NETWORK DATA ENTRY SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 61797,
+    "optimized_size": 3269,
+    "reduction_percent": 94.71
+  }
+}

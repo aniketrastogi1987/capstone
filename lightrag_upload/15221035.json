@@ -1,0 +1,59 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15221035",
+  "date_published": "20171116",
+  "date_produced": "20171103",
+  "title": "OPERATION OF A MULTI-SLICE PROCESSOR IMPLEMENTING A LOAD/STORE UNIT MAINTAINING REJECTED INSTRUCTIONS",
+  "filing_date": "20160727",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHADHA",
+      "inventor_name_first": "SUNDEEP",
+      "inventor_city": "AUSTIN",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CORDES",
+      "inventor_name_first": "ROBERT A.",
+      "inventor_city": "AUSTIN",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HRUSECKY",
+      "inventor_name_first": "DAVID A.",
+      "inventor_city": "CEDAR PARK",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LE",
+      "inventor_name_first": "HUNG Q.",
+      "inventor_city": "AUSTIN",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MCGLONE",
+      "inventor_name_first": "ELIZABETH A.",
+      "inventor_city": "ROCHESTER",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F120875",
+    "G06F930"
+  ],
+  "main_ipcr_label": "G06F120875",
+  "summary": "<SOH> SUMMARY <EOH>Methods and apparatus for operation of a multi-slice processor are disclosed in this specification. Such a multi-slice processor includes a plurality of execution slices and a plurality of load/store slices, where the load/store slices are coupled to the execution slices via a results bus. Such a multi-slice processor may further include one or more instruction sequencing units. Operation of such a multi-slice processor includes: receiving, at a load/store slice from an instruction sequencing unit, a instruction to be issued; determining, at the load/store slice, a rejection condition for the instruction; and responsive to determining the rejection condition for the instruction, maintaining state information for the instruction in the load/store slice instead of notifying the instruction sequencing unit of a rejection of the instruction. The foregoing and other objects, features and advantages of the invention will be apparent from the following more particular descriptions of exemplary embodiments of the invention as illustrated in the accompanying drawings wherein like reference numbers generally represent like parts of exemplary embodiments of the invention.",
+  "patent_number": "None",
+  "abstract": "Operation of a multi-slice processor that includes a plurality of execution slices, a plurality of load/store slices, and one or more instruction sequencing units, where operation includes: receiving, at a load/store slice from an instruction sequencing unit, a instruction to be issued; determining, at the load/store slice, a rejection condition for the instruction; and responsive to determining the rejection condition for the instruction, maintaining state information for the instruction in the load/store slice instead of notifying the instruction sequencing unit of a rejection of the instruction.",
+  "publication_number": "US20170329713A1-20171116",
+  "_processing_info": {
+    "original_size": 58540,
+    "optimized_size": 3000,
+    "reduction_percent": 94.88
+  }
+}

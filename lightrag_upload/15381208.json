@@ -1,0 +1,59 @@
+{
+  "decision": "PENDING",
+  "application_number": "15381208",
+  "date_published": "20170406",
+  "date_produced": "20170323",
+  "title": "MONITORING SYSTEM NOISES IN PARALLEL COMPUTER SYSTEMS",
+  "filing_date": "20161216",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YIM",
+      "inventor_name_first": "Keun Soo",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SEELAM",
+      "inventor_name_first": "Seetharami R.",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FONG",
+      "inventor_name_first": "Liana L.",
+      "inventor_city": "Irvington",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "IYENGAR",
+      "inventor_name_first": "Arun",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LEWARS",
+      "inventor_name_first": "John",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F952",
+    "G06F948"
+  ],
+  "main_ipcr_label": "G06F952",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In one embodiment, a method for monitoring system noise in a parallel computing system is disclosed. The method comprises storing at least one set of system noise data in a buffer during a first computation interval. The set of system noise data is detected during the first computation interval and is associated with at least one parallel thread in a plurality of parallel threads. Each thread in the plurality of parallel threads is a thread of a program. The set of system noise data is filtered during a second computation interval based on at least one filtering condition creating a filtered set of system noise data. The filtered set of system noise data is then stored. In another embodiment, an information processing system for monitoring system noise in a parallel computing system is disclosed. The information processing system comprises a memory and a processor that is communicatively coupled to the memory. A system noise monitor is communicatively coupled to the memory and the processor. The system noise monitor is configured to perform a method. The method comprises storing at least one set of system noise data in a buffer during a first computation interval. The set of system noise data is detected during the first computation interval and is associated with at least one parallel thread in a plurality of parallel threads. Each thread in the plurality of parallel threads is a thread of a program. The set of system noise data is filtered during a second computation interval based on at least one filtering condition creating a filtered set of system noise data. The filtered set of system noise data is then stored. A computer program product comprising a computer readable storage medium containing computer code that, when executed by a computer, implements a method for monitoring system noise data in a parallel computing system. The method comprises storing at least one set of system noise data in a buffer during a first computation interv...",
+  "patent_number": "None",
+  "abstract": "Various embodiments monitor system noise in a parallel computing system. In one embodiment, at least one set of system noise data is stored in a shared buffer during a first computation interval. The set of system noise data is detected during the first computation interval and is associated with at least one parallel thread in a plurality of parallel threads. Each thread in the plurality of parallel threads is a thread of a program. The set of system noise data is filtered during a second computation interval based on at least one filtering condition creating a filtered set of system noise data. The filtered set of system noise data is then stored.",
+  "publication_number": "US20170097856A1-20170406",
+  "_processing_info": {
+    "original_size": 71267,
+    "optimized_size": 3818,
+    "reduction_percent": 94.64
+  }
+}

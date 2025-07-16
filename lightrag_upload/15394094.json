@@ -1,0 +1,60 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189668A1-20180705",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15394094",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ray",
+      "inventor_name_first": "Abhik",
+      "inventor_city": "Burbank",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Branch",
+      "inventor_name_first": "Joel",
+      "inventor_city": "Burbank",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Williams",
+      "inventor_name_first": "James",
+      "inventor_city": "Burbank",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Topol",
+      "inventor_name_first": "Zvi",
+      "inventor_city": "Burbank",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brutch",
+      "inventor_name_first": "Tasneem",
+      "inventor_city": "Burbank",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods and systems for measuring and predicting content dissemination in social networks includes computing a “virality score” for popularity of social media content, a “pattern” of diffusion of the content, and a “hype” parameter of such content without requiring a “friendship graph” or “information diffusion” structured data. It also includes an iterative, predictive model, which predicts future performance (or future rate of dissemination) of the content while mitigating a class imbalance problem inherent in predicting viral posts, and which provides updates to the model based on actual performance results.",
+  "filing_date": "20161229",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a top-level block diagram of components of a system and method for measuring and predicting content dissemination in social networks, in accordance with embodiments of the present disclosure. FIG. 2 is a more detailed block diagram of components of FIG. 1 , in accordance with embodiments of the present disclosure. FIG. 3 is a graph of number of shares vs. time, showing a family of curves for curve-fitting options, and an example of shares data, in accordance with embodiments of the present disclosure. FIG. 4 is a table showing data values for the example of shares data and curve fitting options shown in the graph of FIG. 3 , in accordance with embodiments of the present disclosure. FIG. 5 is a flow diagram of one of the components of FIG. 2 , in accordance with embodiments of the present disclosure. FIG. 6 is a table showing a share data time series, certain attributes, and virality statistics data, in accordance with embodiments of the present disclosure. FIG. 6A is a graph of Hype Lifetime Percentage (HLP) vs. Ex-post time (Txp) for four sample posts, in accordance with embodiments of the present disclosure. FIG. 7 is a table showing the data of FIG. 6 for a plurality of social media accounts, in accordance with embodiments of the present disclosure. FIG. 8 is a flow diagram of another one of the components of FIG. 2 , in accordance with embodiments of the present disclosure. FIG. 9 is a table showing various model features for a plurality of posts, in accordance with embodiments of the present disclosure. FIG. 10 is a diagram showing a post and article and one of the components of FIG. 2 , in accordance with embodiments of the present disclosure. FIG. 11 is a topic ontology for the general topic of “news”, in accordance with embodiments of the present disclosure. FIG. 12 is a flow diagram of a portion of one of the components of FIG. 2 , in accordance with embodiments of the present disclosure. FIG. 13 is a t...",
+  "date_published": "20180705",
+  "title": "System and Method for Measuring and Predicting Content Dissemination in Social Networks",
+  "ipcr_labels": [
+    "G06N700",
+    "G06Q5000",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 98698,
+    "optimized_size": 3848,
+    "reduction_percent": 96.1
+  }
+}

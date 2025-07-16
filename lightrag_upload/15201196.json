@@ -1,0 +1,33 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15201196",
+  "date_published": "20170105",
+  "date_produced": "20161220",
+  "title": "ACCELERATED ERASURE CODING SYSTEM AND METHOD",
+  "filing_date": "20160701",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Anderson",
+      "inventor_name_first": "Michael H.",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H03M1315",
+    "G11C2952",
+    "H03M1300",
+    "G06F1110"
+  ],
+  "main_ipcr_label": "H03M1315",
+  "summary": "<SOH> SUMMARY <EOH>Aspects of embodiments of the present invention address these problems by providing a practical erasure coding system that, for byte-level RAID processing (where each byte is made up of 8 bits), performs well even for values of N+M as large as 256 drives (for example, N=127 data drives and M=129 check drives). Further aspects provide for a single precomputed encoding matrix (or master encoding matrix) S of size M max ×N max , or (N max +M max )×N max or (M max −1)×N max , elements (e.g., bytes), which can be used, for example, for any combination of N≦N max data drives and M≦M max check drives such that N max +M max ≦256 (e.g., N max =127 and M max =129, or N max =63 and M max =193). This is an improvement over prior art solutions that rebuild such matrices from scratch every time N or M changes (such as adding another check drive). Still higher values of N and M are possible with larger processing increments, such as 2 bytes, which affords up to N+M=65,536 drives (such as N=32,767 data drives and M=32,769 check drives). Higher check disk count can offer increased reliability and decreased cost. The higher reliability comes from factors such as the ability to withstand more drive failures. The decreased cost arises from factors such as the ability to create larger groups of data drives. For example, systems with two checks disks are typically limited to group sizes of 10 or fewer drives for reliability reasons. With a higher check disk count, larger groups are available, which can lead to fewer overall components for the same unit of storage and hence, lower cost. Additional aspects of embodiments of the present invention further address these problems by providing a standard parity drive as part of the encoding matrix. For instance, aspects provide for a parity drive for configurations with up to 127 data drives and up to 128 (non-parity) check drives, for a total of up to 256 total drives including the parity drive. Further aspects provide for d...",
+  "patent_number": "10003358",
+  "abstract": "An accelerated erasure coding system includes a processing core for executing computer instructions and accessing data from a main memory, and a non-volatile storage medium for storing the computer instructions. The processing core, storage medium, and computer instructions are configured to implement an erasure coding system, which includes: a data matrix for holding original data in the main memory; a check matrix for holding check data in the main memory; an encoding matrix for holding first factors in the main memory, the first factors being for encoding the original data into the check data; and a thread for executing on the processing core. The thread includes: a parallel multiplier for concurrently multiplying multiple entries of the data matrix by a single entry of the encoding matrix; and a first sequencer for ordering operations through the data matrix and the encoding matrix using the parallel multiplier to generate the check data.",
+  "publication_number": "US20170005671A1-20170105",
+  "_processing_info": {
+    "original_size": 130697,
+    "optimized_size": 3575,
+    "reduction_percent": 97.26
+  }
+}

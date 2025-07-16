@@ -1,0 +1,48 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032900A1-20180201",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15220895",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chowdhury",
+      "inventor_name_first": "Md Faisal M.",
+      "inventor_city": "Corona",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dash",
+      "inventor_name_first": "Sarthak",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gliozzo",
+      "inventor_name_first": "Alfio M.",
+      "inventor_city": "Brooklyn",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method, system and computer-usable medium are disclosed for reducing labeled data imbalances when training an active learning system. The ratio of instances having positive labels or negative labels in a collection of labeled instances associated with an input category used for learning is determined. A first instance for annotation is selected from a collection of unlabeled instances if a first threshold for negative instances, and a first threshold confidence level of being a positive instance of the input category, have been met. A second instance for annotation is selected if a second threshold for positive instances, and a second threshold confidence level of being a negative instance of the input category, have been met. The first and second instances are respectively annotated with a positive and negative label and added to the collection of labeled instances, which are then used for training.",
+  "filing_date": "20160727",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A method, system and computer-usable medium are disclosed for reducing labeled data imbalances when training an active learning system for a Natural Language Processing (NLP) task. In certain embodiments, the disclosure relates to a computer-implemented method for active machine learning, comprising: determining the ratio of positive instances to negative instances in a collection of labeled instances associated with an input category, the positive and negative instances being annotated accordingly and used for learning; selecting a first instance for annotation from a collection of unlabeled instances if a first threshold for negative instances has been met, the first instance meeting a first threshold confidence level of being a positive instance of the input category; and selecting a second instance for annotation from the collection of unlabeled instances if a second threshold for positive instances has been met, the second instance meeting a second threshold confidence level of being a negative instance of the input category. In certain embodiments, the disclosure relates to a system comprising: a processor; a data bus coupled to the processor; and a computer-usable medium embodying computer program code, the computer-usable medium being coupled to the data bus, the computer program code used for using a contextual graph to summarize a corpus of content and comprising instructions executable by the processor and configured for: determining the ratio of positive instances to negative instances in a collection of labeled instances associated with an input category, the positive and negative instances being annotated accordingly and used for learning; selecting a first instance for annotation from a collection of unlabeled instances if a first threshold for negative instances has been met, the first instance meeting a first threshold confidence level of being a positive instance of the input category; and selecting a second inst...",
+  "date_published": "20180201",
+  "title": "Greedy Active Learning for Reducing Labeled Data Imbalances",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1727",
+    "G06F1724",
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 97970,
+    "optimized_size": 3815,
+    "reduction_percent": 96.11
+  }
+}

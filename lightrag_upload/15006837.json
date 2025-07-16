@@ -1,0 +1,52 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15006837",
+  "date_published": "20160519",
+  "date_produced": "20160504",
+  "title": "SEMICONDUCTOR DEVICE AND ENCRYPTION KEY WRITING METHOD",
+  "filing_date": "20160126",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Endo",
+      "inventor_name_first": "Takashi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Tanno",
+      "inventor_name_first": "Yosuke",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Amanuma",
+      "inventor_name_first": "Yoshiyuki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Nariyoshi",
+      "inventor_name_first": "Yuichiro",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1214",
+    "H04L914"
+  ],
+  "main_ipcr_label": "G06F1214",
+  "summary": "<SOH> SUMMARY <EOH>The examination performed by the present inventors on Patent Literatures 1, 2, 3, 4, and 5 has revealed that there exist the following new issues. Patent Literature 1 does not describe about a storing method of an encryption key, in particular, about the technology that improves the security level against an attack trying to illegally read out the encryption key. Patent Literature 2 describes the technology in which an encryption key is divided and stored in plural storage devices in a distributed manner; however, it is necessary to provide plural storage devices, accordingly, it is difficult to employ the technology in a small-scale system such as an IC card. The storing method of an encryption key described in Patent Literatures 3, 4, and 5 is executed by a program. Therefore, it is difficult to utilize the storing method for the storage of an encryption key employed for encryption of the program itself. Even if the storing method of an encryption key disclosed by Patent Literature 3 and Patent Literature 4 is applied to the technology disclosed by Patent Literature 1 and Patent Literature 2, it is difficult to improve the security level against an attack trying to read out a program illegally. The reason is as follows. That is, in the technology disclosed by Patent Literature 1 and Patent Literature 2, the encrypted program is decrypted with the use of an encryption key, developed in another storage device, and executed subsequently. Therefore, keeping the secrecy of the encryption key is meaningless to an attack trying to read the developed program which has become a plaintext program after the decryption. The solution to such issues is explained in the following. The other issues and new features of the present invention will become clear from the description of the present specification and the accompanying drawings. One embodiment is as follows. That is, a semiconductor device is provided with a CPU, an electrically rewritable EEPROM, and a...",
+  "patent_number": "None",
+  "abstract": "A semiconductor device includes a central processing unit (CPU), a first memory which stores a plurality of split keys, a second memory which stores an encryption code as at least one of an encrypted instruction and encrypted data, the plurality of split keys including an encryption key for decrypting the encryption code, and a decrypter which reads the encryption code from the second memory, decrypts the encryption code with the use of the encryption key, and supplies the decrypted encryption code to the CPU. The second memory stores an encryption key reading program which is executed by the CPU to restore the encryption key and to supply the encryption key to the decrypter, by reading and reconfiguring the split keys stored in the first memory in a distributed manner.",
+  "publication_number": "US20160140057A1-20160519",
+  "_processing_info": {
+    "original_size": 83959,
+    "optimized_size": 3761,
+    "reduction_percent": 95.52
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170419",
+  "publication_number": "US20170124467A1-20170504",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15375050",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chakrabarti",
+      "inventor_name_first": "Deepayan",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Macskassy",
+      "inventor_name_first": "Sofus Attila",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Funiak",
+      "inventor_name_first": "Stanislav",
+      "inventor_city": "Lawrence",
+      "inventor_state": "KS",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chang",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "At least one embodiment of this disclosure includes a method of inferring attribute labels for a user in a social networking system based on the user's social connections and user-specified attribute labels in the social networking system. The method can include: establishing variational equations based on attribute labels of nodes in an ego network in a social graph of a social networking system; determining likelihood scores for at least a portion of the attribute labels of neighboring nodes from a focal user node in the ego network based on user-specified attribute labels from the social networking system; and calculating probability distributions of possible attribute labels for the focal user node of the ego network based on the variational equations and the likelihood scores.",
+  "filing_date": "20161209",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a schematic map diagram illustrating a social graph in a social networking system. FIG. 2 is a block diagram illustrating a social networking system with a mechanism to infer social connection explanations and user node attributes, in accordance with various embodiments. FIG. 3 is a high level block diagram of a system environment suitable for a social networking system, in accordance with various embodiments. FIG. 4A is a schematic diagram illustrating an ego network within a social graph of a social networking system where some attributes of social nodes are unavailable. FIG. 4B is a schematic diagram illustrating the ego network of FIG. 4A with social graph connections labeled with reasons and with inferred attribute labels added to a node profile of the focal user, in accordance with various embodiments. FIG. 4C is a schematic diagram illustrating the ego network of FIG. 4A after an inference system has completed labeling the entire social graph, in accordance with various embodiments. FIG. 5 is a flow chart of a method of operating an inference system to iteratively determine likelihood of possible attribute labels for nodes of a social graph, in accordance with various embodiments. FIG. 6 is a flow chart of a method of operating a computing system to infer user node attributes and social connection explanations, in accordance with various embodiments. FIG. 7 is a schematic diagram illustrating an ego network within a social graph of a social networking system where social connections from a focal user node are striped when iteratively inferring attribute labels for the focal user node, in accordance with various embodiments. FIG. 8 is a block diagram of an example of a computing device, which may represent one or more computing device or server described herein, in accordance with various embodiments. detailed-description description=\"Detailed Description\" end=\"lead\"? The figures depict various embodiments...",
+  "date_published": "20170504",
+  "title": "LABEL INFERENCE IN A SOCIAL NETWORK",
+  "ipcr_labels": [
+    "G06N504",
+    "G06Q5000"
+  ],
+  "_processing_info": {
+    "original_size": 104301,
+    "optimized_size": 3795,
+    "reduction_percent": 96.36
+  }
+}

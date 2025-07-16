@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170809",
+  "publication_number": "US20170243111A1-20170824",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15051452",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Iyer",
+      "inventor_name_first": "Ajay",
+      "inventor_city": "Murray",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Barjatia",
+      "inventor_name_first": "Meenakshi",
+      "inventor_city": "Salt Lake City",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A technique for estimating a set of parameter values for a lumped parameter model of a loudspeaker. The technique includes determining, via a neural network model, a first set of parameter values for the LPM of the loudspeaker based on an audio input signal and a first measured response of a loudspeaker that corresponds to the audio input signal. The technique further includes generating a first LPM response based on the first set of parameter values and comparing the first LPM response to the first measured response of the loudspeaker to determine a first error value. The technique further includes generating, via the neural network model, a second set of parameter values for the LPM of the loudspeaker based on the first error value.",
+  "filing_date": "20160223",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure set forth a computer-implemented method for estimating a set of parameter values for a lumped parameter model of a loudspeaker. The method includes determining, via a neural network model, a first set of parameter values for the LPM of the loudspeaker based on an audio input signal and a first measured response of a loudspeaker that corresponds to the audio input signal. The method further includes generating a first LPM response based on the first set of parameter values and comparing the first LPM response to the first measured response of the loudspeaker to determine a first error value. The method further includes generating, via the neural network model, a second set of parameter values for the LPM of the loudspeaker based on the first error value. Further embodiments provide, among other things, a system and a non-transitory computer-readable medium configured to implement the method set forth above. At least one advantage of the disclosed techniques is that a neural network is implemented to provide real-time estimates of lumped parameter model (LPM) values with a high degree of accuracy. Accordingly, the neural network-based approach described herein is able to accurately estimate and update LPM values to account for changes to various physical properties of the loudspeaker that may occur over time due to effects such as thermal variations and suspension aging.",
+  "date_published": "20170824",
+  "title": "NEURAL NETWORK-BASED PARAMETER ESTIMATION OF LOUDSPEAKERS",
+  "ipcr_labels": [
+    "G06N308",
+    "H04R2900"
+  ],
+  "_processing_info": {
+    "original_size": 47045,
+    "optimized_size": 2897,
+    "reduction_percent": 93.84
+  }
+}

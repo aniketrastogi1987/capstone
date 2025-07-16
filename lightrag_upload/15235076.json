@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15235076",
+  "date_published": "20170216",
+  "date_produced": "20170201",
+  "title": "Secure Tracking Beacons Using Distributed Ledgers",
+  "filing_date": "20160811",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chow",
+      "inventor_name_first": "Arthur Carroll",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Chan",
+      "inventor_name_first": "Paul Mon-Wah",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Haldenby",
+      "inventor_name_first": "Perry Aaron Jones",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "John Jong Suk",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2038",
+    "G06Q2010"
+  ],
+  "main_ipcr_label": "G06Q2038",
+  "summary": "<SOH> SUMMARY <EOH>In some embodiments of the present disclosure, an apparatus for use in a product tracking system includes a storage device and a processor coupled to the storage device. The storage device includes stored software instructions for controlling the processor that when executed configure the processor to perform various operations, including: receiving a signal representing data including event information detailing an event involving a product; determining that the event matches a triggering event in an event trigger list stored in an entry of a distributed ledger for the product, wherein the event trigger list includes a change in status of at least one of manufacturing and shipment of the product, and at least a portion of the distributed ledger is stored at the storage device; determining a rule associated with the triggering event, wherein the rule is stored in a rules section of the entry of the distributed ledger; and executing the rule by updating the distributed ledger and performing an action associated with the determined rule specified in the rules section. The event may be an automatic registration of the product after manufacturing of the product and prior to shipment of the product. The product may include a computer processor, a memory, and a network interface configured to send the signal. The action may be a disbursement of funds from a purchaser of the product to a shipper of the product In some embodiments, a process includes receiving a signal representing data including event information detailing an event involving a product. A computer processor determines that the event matches a triggering event in an event trigger list stored in an entry of a distributed ledger for the product. The event trigger list includes a change in status of manufacturing and/or shipment of the product. At least a portion of the distributed ledger is stored at a storage device. A rule associated with the triggering event is determined by the processor...",
+  "patent_number": "None",
+  "abstract": "A process includes receiving a signal representing data including event information detailing an event involving a product. A computer processor determines that the event matches a triggering event in an event trigger list stored in an entry of a distributed ledger for the product. The event trigger list includes a change in status of manufacturing and/or shipment of the product. At least a portion of the distributed ledger is stored at a storage device. A rule associated with the triggering event is determined by the processor. The rule was previously stored in a rules section of the entry of the distributed ledger. The rule is executed by the processor by updating the distributed ledger and performing an action associated with the determined rule specified in the rules section.",
+  "publication_number": "US20170046694A1-20170216",
+  "_processing_info": {
+    "original_size": 141653,
+    "optimized_size": 3794,
+    "reduction_percent": 97.32
+  }
+}

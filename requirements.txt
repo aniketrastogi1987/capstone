@@ -3,6 +3,7 @@ torch>=2.0.0
 transformers>=4.30.0
 accelerate>=0.20.0
 sentencepiece>=0.1.99
+beautifulsoup4
 
 # Neo4j
 neo4j>=5.0.0
@@ -44,3 +45,20 @@ regex>=2023.0.0
 
 # Optional: GPU support
 # cuda-python>=12.0.0  # Uncomment if using CUDA 
+
+#Evaluation
+rouge-score
+sentence-transformers
+
+#Guardrails
+guardrails-ai 
+alt-profanity-check 
+tenacity
+torch
+
+#monitoring
+prometheus-client
+prometheus-api-client
+prometheus-client-utils
+prometheus-client-utils
+psutil

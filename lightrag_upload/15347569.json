@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15347569",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "title": "MULTIPLE LASER MODULE PROGRAMMING OVER INTERNAL COMMUNICATIONS BUS OF FIBER LASER",
+  "filing_date": "20161109",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Black",
+      "inventor_name_first": "Nathaniel",
+      "inventor_city": "Vancouver",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kutscha",
+      "inventor_name_first": "Timothy N.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F9445",
+    "G06F1338",
+    "G06F1342",
+    "G06F1340"
+  ],
+  "main_ipcr_label": "G06F9445",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect of the disclosed technology, an apparatus includes a plurality of laser system modules coupled to a communication bus that includes a module update bus, each laser system module including at least one module update port coupled to the module update bus and at least one micro controller unit (MCU) in communication with the module update port, wherein each laser system module is situated to receive a module update instruction over the module update bus based on a type identifier in a general purpose input/output (GPIO) register of the at least one MCU of the corresponding laser system module that indicates a laser system module type. According to another aspect of the disclosed technology, a method includes adjusting a bit arrangement of a GPIO register in at least one MCU in one or more laser system modules of a laser system so that the bit arrangement corresponds to a laser system module type, and arranging a communication bus that includes a module update bus between the one or more laser system modules so that a module update port of a master laser system module of the one or more laser system modules is situated to receive instruction from a computing device to scan the bit arrangements and update a firmware of the at least one MCU of each laser system module based on the scanned bit arrangements. According to further aspect of the disclosed technology, a system includes a joint test action group (JTAG) adapter, at least one processor coupled to the JTAG adapter, and one or more computer-readable storage media including stored instructions that, responsive to execution by the at least one processor, cause the system to scan, through the JTAG adapter and a JTAG bus of a laser system that serially couples a plurality of laser system modules of the laser system, at least one laser system module, and determine a laser system module type based on a bit arrangement in a GPIO register of an MCU of the at least one laser system ...",
+  "patent_number": "None",
+  "abstract": "An apparatus includes a plurality of laser system modules coupled to a communication bus that includes a module update bus, each laser system module including at least one module update port coupled to the module update bus and at least one micro controller unit (MCU) in communication with the module update port, wherein each laser system module is situated to receive a module update instruction over the module update bus based on a type identifier in a general purpose input/output (GPIO) register of the at least one MCU of the corresponding laser system module that indicates a laser system module type.",
+  "publication_number": "US20170139700A1-20170518",
+  "_processing_info": {
+    "original_size": 51444,
+    "optimized_size": 3371,
+    "reduction_percent": 93.45
+  }
+}

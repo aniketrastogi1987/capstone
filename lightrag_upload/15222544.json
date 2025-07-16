@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032903A1-20180201",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15222544",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Barry",
+      "inventor_name_first": "Paul M.J.",
+      "inventor_city": "Cork",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Cummins",
+      "inventor_name_first": "Cormac",
+      "inventor_city": "Cork",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Manning",
+      "inventor_name_first": "Ian",
+      "inventor_city": "Cork",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Thai",
+      "inventor_name_first": "Vinh Tuan",
+      "inventor_city": "Cork",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "abstract": "A method and system are provided for retraining an analytic model. The method includes building, by a processor, a Markov chain for the analytic model. The Markov chain has only two states that consist of an alarm state and a no alarm state. The method further includes updating, by the processor, the Markov chain with observed states, for each of a plurality of timestamps evaluated during a burn-in period. The method also includes updating, by the processor, state transition probabilities within the Markov chain, for each of a plurality of timestamps evaluated after the burn-in period. The method additionally includes generating, by the processor, a signal for causing the model to be retrained, responsive to any of the state transition probabilities representing a probability of greater than 0.5 of seeing the alarm state in a previous interval and again in a current interval.",
+  "filing_date": "20160728",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the present principles, a method is provided for retraining an analytic model. The method includes building, by a processor, a Markov chain for the analytic model. The Markov chain has only two states that consist of an alarm state and a no alarm state. The method further includes updating, by the processor, the Markov chain with observed states, for each of a plurality of timestamps evaluated during a burn-in period. The method also includes updating, by the processor, state transition probabilities within the Markov chain, for each of a plurality of timestamps evaluated after the burn-in period. The method additionally includes generating, by the processor, a signal for causing the model to be retrained, responsive to any of the state transition probabilities representing a probability of greater than 0.5 of seeing the alarm state in a previous interval and again in a current interval. According to another aspect of the present principles, a computer program product is provided for retraining an analytic model. The computer program product includes a non-transitory computer readable storage medium having program instructions embodied therewith. The program instructions are executable by a computer to cause the computer to perform a method. The method includes building, by a processor, a Markov chain for the analytic model. The Markov chain has only two states that consist of an alarm state and a no alarm state. The method further includes updating, by the processor, the Markov chain with observed states, for each of a plurality of timestamps evaluated during a burn-in period. The method also includes updating, by the processor, state transition probabilities within the Markov chain, for each of a plurality of timestamps evaluated after the burn-in period. The method additionally includes generating, by the processor, a signal for causing the model to be retrained, responsive to any of the state transition probabilities ...",
+  "date_published": "20180201",
+  "title": "OPTIMIZED RE-TRAINING FOR ANALYTIC MODELS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 53715,
+    "optimized_size": 3846,
+    "reduction_percent": 92.84
+  }
+}

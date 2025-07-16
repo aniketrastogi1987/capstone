@@ -1,0 +1,138 @@
+{
+  "patent_number": "nan",
+  "application_number": "15854387",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "filing_date": "20171226",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Provided is a data meta-scaling method. The data meta-scaling method optimizes an abbreviation criterion for abbreviating data through continuous knowledge augmentation in various dimensions which enable expression of data in a process of performing machine learning.",
+  "publication_number": "US20180189655A1-20180705",
+  "summary": "<SOH> SUMMARY <EOH>Accordingly, the present invention provides a data meta-scaling apparatus and method for continuous learning, which automate optimization of an abbreviation criterion for abbreviating data through continuous knowledge augmentation in various dimensions which enable expression of data in a process of performing ML. In one general aspect, a data meta-scaling method for continuous learning includes: setting, by a processor, abbreviation criterion information which defines a rule for abbreviating input data to be expressed in another attribute, learning criterion information which defines a rule for limiting learning on the abbreviation data and a rule for evaluating learning performance, and knowledge augmentation criterion information which defines a rule for optimizing the abbreviation criterion information; abbreviating, by the processor, the input data to abbreviation data, based on the abbreviation criterion information; performing, by the processor, learning on the abbreviation data to generate a learning model, based on the learning criterion information; evaluating, by the processor, performance of the learning model to determine suitability of the abbreviation data, based on the learning criterion information; and performing, by the processor, knowledge augmentation for updating the abbreviation criterion information according to a result of the suitability determination, based on the knowledge augmentation criterion information. In another general aspect, a data meta-scaling apparatus for continuous learning includes: a meta-optimizer setting abbreviation criterion information which defines a rule for abbreviating input data to be expressed in another attribute, learning criterion information which defines a rule for limiting learning on the abbreviation data and a rule for evaluating learning performance, and knowledge augmentation criterion information which defines a rule for optimizing the abbreviation criterion information; an abbrevia...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1518",
+    "G06F702",
+    "G06F1717"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "OH",
+      "inventor_name_first": "Se Won",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "Yeon Hee",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Bae",
+      "inventor_name_first": "Ji Hoon",
+      "inventor_city": "Sejong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kang",
+      "inventor_name_first": "Hyun Joong",
+      "inventor_city": "Jinju-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kwon",
+      "inventor_name_first": "Soon Hyun",
+      "inventor_city": "Incheon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Kwi Hoon",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Young Min",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Eun Joo",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Hyun Jae",
+      "inventor_city": "Incheon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Park",
+      "inventor_name_first": "Hong Kyu",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Jae Hak",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "Ho Sung",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Cho",
+      "inventor_name_first": "Seong Ik",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Nae Soo",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Sun Jin",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Pyo",
+      "inventor_name_first": "Cheol Sig",
+      "inventor_city": "Sejong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "DATA META-SCALING APPARATUS AND METHOD FOR CONTINUOUS LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 101400,
+    "optimized_size": 4980,
+    "reduction_percent": 95.09
+  }
+}

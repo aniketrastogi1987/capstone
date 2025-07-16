@@ -1,0 +1,108 @@
+{
+  "date_produced": "20180530",
+  "publication_number": "US20180165599A1-20180614",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15376271",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Pete",
+      "inventor_name_first": "Balazs",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Kearney",
+      "inventor_name_first": "Declan",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "McGovern",
+      "inventor_name_first": "Cathal",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Dornan",
+      "inventor_name_first": "Simon",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Keane",
+      "inventor_name_first": "Jennifer",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Golden",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Cullen",
+      "inventor_name_first": "Orla",
+      "inventor_city": "Castleknock",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "McGrath",
+      "inventor_name_first": "Robert",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Chhabra",
+      "inventor_name_first": "Shekhar",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "O'Connor",
+      "inventor_name_first": "Kerry",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Kaufmann",
+      "inventor_name_first": "Malte Christian",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Julian",
+      "inventor_name_first": "John",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "abstract": "Techniques are described for integrating predictive models into applications, to enable the applications to provide predictive functionality. Using the framework according to implementations, predictive models and their supporting libraries may be incorporated into applications without requiring application developers to be knowledgeable regarding the particular features of the predictive models and/or libraries. The framework exposes a common and consistent application programming interface (API) on top of the predictive libraries. Applications can use the API to interact with the predictive models, thus enabling the applications to leverage predictive functionality. Implementations also provide an API which may be used by applications to request the retraining of predictive models.",
+  "filing_date": "20161212",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Implementations of the present disclosure are generally directed to employing predictive models to generate predictions. More particularly, implementations of the present disclosure are directed to a framework that enables applications to request that a predictive model be applied to generate predictions, and to request retraining of a predictive model. In general, innovative aspects of the subject matter described in this specification can be embodied in methods that include actions of: providing a plurality of apply procedures that are each associated with a predictive model for generating predictions based on input data; receiving a first call from an application to an apply procedure and, in response, requesting that a predictive library execute a first version of the predictive model associated with the apply procedure; and providing, to the application, the predictions generated through execution of the first version of the predictive model. These and other implementations can each optionally include one or more of the following innovative features: the actions further include receiving, from the application, a request to retrain the predictive model and, in response, sending an instruction to the predictive library to cause the predictive model to be retrained; the actions further include receiving an indication that the predictive model has been retrained to provide a second version of the predictive model; the actions further include receiving a second call from the application to the apply procedure and, in response, requesting that the predictive library execute the second version of the predictive model associated with the apply procedure; the actions further include providing, to the application, the predictions generated through execution of the second version of the predictive model; the first call and the second call from the application include the same set of input parameters; the plurality of apply procedures include one or more...",
+  "date_published": "20180614",
+  "title": "PREDICTIVE MODEL INTEGRATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1750"
+  ],
+  "_processing_info": {
+    "original_size": 77674,
+    "optimized_size": 4900,
+    "reduction_percent": 93.69
+  }
+}

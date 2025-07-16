@@ -1,0 +1,37 @@
+{
+  "patent_number": "None",
+  "application_number": "15615872",
+  "date_published": "20180405",
+  "date_produced": "20180322",
+  "filing_date": "20170607",
+  "main_ipcr_label": "G06N308",
+  "abstract": "To reduce a network size and calculation cost with regard to a neural network to which multidimensional data is input. Provided is an information processing device including: an estimation unit configured to estimate a status by using a neural network constituted by single- or multi-dimensional neurons that perform output on the basis of input multidimensional data. The neural network includes a transformation layer configured to transform output of a type 1 neuron into a dimension corresponding to input of a type 2 neuron, and the type 2 neuron performs a process based on lower-dimensional data than the type 1 neuron.",
+  "publication_number": "US20180096246A1-20180405",
+  "summary": "<SOH> SUMMARY <EOH>However, according to the technology described in JP 2016-75558A, an upper triangular matrix excluding diagonal components of an autocorrelation matrix of the reception signal vector is input to a real- or complex-valued neural network. Therefore, according to the technology described in JP 2016-75558A, it is necessary to input all possible combination pairs corresponding to the number of elements of the reception signal vector, and the size of the neural network tends to get larger. In addition, the technology described in JP 2016-75558A has a problem of increase in calculation cost for combination arithmetic of the number of elements. Accordingly, it is desirable to provide a system capable of reducing a network size and calculation cost with regard to a neural network to which multidimensional data is input. According to an aspect of the present invention, there is provided an information processing device including: an estimation unit configured to estimate a status by using a neural network constituted by single- or multi-dimensional neurons that perform output on the basis of input multidimensional data. The neural network includes a transformation layer configured to transform output of a type 1 neuron into a dimension corresponding to input of a type 2 neuron. The type 2 neuron performs a process based on lower-dimensional data than the type 1 neuron. The type 1 neuron may be a complex-valued neuron, and the type 2 neuron may be a real-valued neuron. The neural network may further include a complex-valued network constituted by at least one or more layers including an input layer to which complex data is input, and a real-valued network constituted by at least one or more layers including an output layer to which real data is input. The transformation layer may connect the complex-valued network and the real-valued network. The transformation layer may propagate error information in the real-valued network backward to the complex-valued ne...",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "YAMAMOTO",
+      "inventor_name_first": "Kohei",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MAENO",
+      "inventor_name_first": "Kurato",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION PROCESSING DEVICE AND INFORMATION PROCESSING METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 63559,
+    "optimized_size": 3313,
+    "reduction_percent": 94.79
+  }
+}

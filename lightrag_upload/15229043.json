@@ -1,0 +1,53 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15229043",
+  "date_published": "20161124",
+  "date_produced": "20161109",
+  "title": "HOST IDENTITY BOOTSTRAPPING",
+  "filing_date": "20160804",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Johansson",
+      "inventor_name_first": "Jesper M.",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Corddry",
+      "inventor_name_first": "Matthew T.",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hansen",
+      "inventor_name_first": "Tom F.",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kearney",
+      "inventor_name_first": "Luke F.",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F944",
+    "H04L932",
+    "H04L2906"
+  ],
+  "main_ipcr_label": "G06F944",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The detailed description is set forth with reference to the accompanying figures. In the figures, the left-most digit(s) of a reference number identifies the figure in which the reference number first appears. The use of the same reference numbers in different figures indicates similar or identical items. FIG. 1 is a block diagram of an illustrative security environment incorporating host identity bootstrapping. FIG. 2 is a schematic of an illustrative Trusted Issuer Server (TIS) from FIG. 1 . FIG. 3 is a schematic of an illustrative Infrastructure Coordination Server (ICS) from FIG. 1 . FIG. 4 is a schematic of an illustrative Certificate Authority Server (CAS) from FIG. 1 . FIG. 5 is a schematic of an illustrative Registration Authority Server (RAS) from FIG. 1 . FIG. 6 is a schematic of the illustrative host from FIG. 1 . FIG. 7 is a schematic of an illustrative virtualized environment. FIG. 8 is a flow diagram of an illustrative automated provisioning process with a TIS. FIG. 9 is a flow diagram of an illustrative process of verifying a Certificate Signing Request (CSR). FIG. 10 is a flow diagram of an illustrative process of verifying identity and host status at a Certificate Authority Module (CAM) of FIG. 8 . FIG. 11 is a flow diagram of an illustrative message flow during the automated provisioning process of FIG. 8 with a TIS. FIG. 12 is a flow diagram of an illustrative automated provisioning process with an ICS. FIG. 13 is a flow diagram of an illustrative message flow during the automated provisioning process of FIG. 12 with an ICS. FIG. 14 is a flow diagram of an illustrative automated certificate renewal process. FIG. 15 is a flow diagram of an illustrative message flow during the automated certificate renewal process of FIG. 14 . FIG. 16 is a flow diagram of an illustrative automated certificate renewal process with ICS. FIG. 17 is a flow diagram of an illustrative message flow during the automated certifica...",
+  "patent_number": "9778939",
+  "abstract": "Automated provisioning of hosts on a network with reasonable levels of security is described in this application. A certificate management service (CMS) on a host, one or more trusted agents, and a public key infrastructure are utilized in a secure framework to establish host identity. Once host identity is established, signed encryption certificates may be exchanged and secure communication may take place.",
+  "publication_number": "US20160342429A1-20161124",
+  "_processing_info": {
+    "original_size": 53481,
+    "optimized_size": 3397,
+    "reduction_percent": 93.65
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "decision": "PENDING",
+  "application_number": "15166441",
+  "date_published": "20161201",
+  "date_produced": "20161116",
+  "title": "DISPLAY SYSTEM, INFORMATION PROCESSING APPARATUS, COMPUTER READABLE RECORDING MEDIUM, AND POWER SOURCE CONTROL METHOD",
+  "filing_date": "20160527",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SHIGEMITSU",
+      "inventor_name_first": "Makoto",
+      "inventor_city": "Sapporo-Shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KANAMORI",
+      "inventor_name_first": "Yoshiyuki",
+      "inventor_city": "Sapporo-Shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TOMONO",
+      "inventor_name_first": "Mitsunori",
+      "inventor_city": "Suwa-Gun",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F30482",
+    "G06F30488",
+    "H04N931",
+    "G06F30484"
+  ],
+  "main_ipcr_label": "G06F30482",
+  "summary": "<SOH> SUMMARY <EOH>An advantage of some aspects of the invention is to provide a technique of remotely enabling power to be supplied to a display apparatus in response to a user's request. An aspect of the invention provides a display system including an information processing apparatus; and a display apparatus. The information processing apparatus includes a first communication section that is connected to the display apparatus and performs communication therewith, a function information reception section that receives function information indicating a function of the display apparatus from the display apparatus connected to the first communication section, a setting information transmission section that transmits, in a case where the function information includes a function of controlling a supply of power to a second communication section provided in the display apparatus, setting information for making the function of controlling the supply of power to the second communication section valid or invalid to the display apparatus, and a command transmission section that transmits a command for turning on or off a power source of the display apparatus to the display apparatus. The display apparatus includes the second communication section that is connected to the information processing apparatus and performs communication therewith, a function information transmission section that transmits the function information to the information processing apparatus connected to the second communication section, a setting information reception section that receives the setting information, a first control section that supplies power to the second communication section, even when the power source of the display apparatus is turned off in a case where the setting information indicates that the function of controlling the supply of power to the second communication section is valid, and stops the supply of power to the second communication section when the power source of the disp...",
+  "patent_number": "None",
+  "abstract": "An information processing apparatus includes a setting information transmission section that transmits setting information for making a function of controlling a supply of power to a second communication section provided in a display apparatus valid or invalid to the display apparatus. The display apparatus includes a first control section that supplies power to the second communication section even when the power source of the display apparatus is turned off in a case where the setting information indicates that the function of controlling the supply of power to the second communication section is valid, and stops the supply of power to the second communication section when the power source of the display apparatus is turned off in a case where the setting information indicates that the function of controlling the supply of power to the second communication section is invalid.",
+  "publication_number": "US20160349948A1-20161201",
+  "_processing_info": {
+    "original_size": 109443,
+    "optimized_size": 3840,
+    "reduction_percent": 96.49
+  }
+}

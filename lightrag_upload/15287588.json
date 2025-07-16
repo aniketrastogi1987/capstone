@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170323",
+  "publication_number": "US20170098172A1-20170406",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15287588",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ellenbogen",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Wayland",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McCcord",
+      "inventor_name_first": "M. brendan",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Knoth",
+      "inventor_name_first": "Brian",
+      "inventor_city": "East Walpole",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wolfe",
+      "inventor_name_first": "Brandon",
+      "inventor_city": "Tyngsboro",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Data is received characterizing a request for agent computation of sensor data. The request includes a required confidence and required latency for completion of the agent computation. Agents to query are determined based on the required confidence. Data is transmitted to query the determined agents to provide analysis of the sensor data. Related apparatus, systems, techniques, and articles are also described.",
+  "filing_date": "20161006",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In an aspect, data is received characterizing a request for agent computation of sensor data. The request includes a required confidence and required latency for completion of the agent computation. Agents to query are determined based on the required confidence. Data is transmitted to query the determined agents to provide analysis of the sensor data. In another aspect, sensor data is received. The sensor data is classified into one of two or more classes by at least a machine computation component including a predictive model trained on data labeled by at least an agent computation component. The agent computation component includes a platform to query an agent. The classification is provided. In yet another aspect, sensor data is received. Processing by an agent computation component is requested and a result and a confidence measure of the result is received from the agent computation component. The confidence measure of the result exceeds a predefined threshold. The sensor data provided to a machine computation component as an input and the result from the agent computation component is provided to the machine computation component as supervisory data to train a predictive model of the machine computation component. One or more of the following features can be included in any feasible combination. For example, determining agents can be further based on at least one of a measure of agent quality, a measure of expected agent latency, and proximity to average completion time for a current task. Data characterizing query results from a plurality of the determined agents can be received. Data to query additional agents to achieve the required confidence can be transmitted when two or more of the received query results are inconsistent. A number of additional agents to query to achieve the required confidence can be determined. Quality of available agents in a pool of agents can be determined. A minimum quality required of a to-be-queried agent to ...",
+  "date_published": "20170406",
+  "title": "Training Artificial Intelligence",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 163168,
+    "optimized_size": 3394,
+    "reduction_percent": 97.92
+  }
+}

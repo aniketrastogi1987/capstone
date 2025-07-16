@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170201",
+  "publication_number": "US20170046630A1-20170216",
+  "main_ipcr_label": "G06N9900",
+  "decision": "REJECTED",
+  "application_number": "15336963",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Firat",
+      "inventor_name_first": "Aykut",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brooks",
+      "inventor_name_first": "Mitchell",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bingham",
+      "inventor_name_first": "Christopher",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Herdagdelen",
+      "inventor_name_first": "Amac",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "King",
+      "inventor_name_first": "Gary",
+      "inventor_city": "Brookline",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods are provided for classifying text based on language using one or more computer servers and storage devices. A computer-implemented method includes receiving a training set of elements, each element in the training set being assigned to one of a plurality of categories and having one of a plurality of content profiles associated therewith; receiving a population set of elements, each element in the population set having one of the plurality of content profiles associated therewith; and calculating using at least one of a stacked regression algorithm, a bias formula algorithm, a noise elimination algorithm, and an ensemble method consisting of a plurality of algorithmic methods the results of which are averaged, based on the content profiles associated with and the categories assigned to elements in the training set and the content profiles associated with the elements of the population set, a distribution of elements of the population set over the categories.",
+  "filing_date": "20161028",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The invention includes systems and methods for calculating category proportions in a population set. In a first aspect, a computer-implemented method is provided. In this aspect, a computer processor receives a training set of elements. Each element in the training set is assigned to one of a plurality of categories and has a content profile associated with it. The computer processor further receives a population set of elements, with each element in the population set having a content profile. The computer process then calculates, applying the stacked regression method, based on the content profiles associated with and the categories assigned to elements in the training set and the content profiles associated with the elements of the population set, a distribution of elements of the population set over the categories. In a further aspect of the invention, the bias formula method is applied in place of the stacked regression method in the first aspect. In another aspect of the invention, the noise elimination method is applied in place of the stacked regression method in the first aspect. In still another aspect of the invention, an ensemble method consisting of a plurality of algorithmic methods, the results of which are averaged, is applied in place of the stacked regression method in the first aspect. In a still further aspect of the invention, a system for calculating category proportions for a population set is provided. The system has a training module and a population set category estimating module. The training module includes a training processor coupled to memory with the memory including software instructions causing the training processor to: (i) receive training data, the training data comprising a number of training text elements, (ii) present the at least some of the training text elements to a user, receive from the user an indications of categories to which the training text elements belong, and tag the training text elements with...",
+  "date_published": "20170216",
+  "title": "SYSTEMS AND METHODS FOR CALCULATING CATEGORY PROPORTIONS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 41292,
+    "optimized_size": 4146,
+    "reduction_percent": 89.96
+  }
+}

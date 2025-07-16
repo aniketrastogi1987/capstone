@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170201",
+  "publication_number": "US20170046613A1-20170216",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15091490",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Paluri",
+      "inventor_name_first": "Balamanohar",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bourdev",
+      "inventor_name_first": "Lubomir",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Collobert",
+      "inventor_name_first": "Ronan Stéfan",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sun",
+      "inventor_name_first": "Chen",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and non-transitory computer-readable media can obtain a content item to be evaluated by a set of cascaded convolutional neural networks, the set of cascaded convolutional neural networks including at least a first convolutional neural network (CNN) and a second CNN. The content item can be provided to the first CNN as input, wherein an output of the first CNN includes data describing at least one region of interest in the content item and at least one first concept corresponding to the region of interest. The output of the first CNN can be provided to the second CNN as input, wherein an output of the second CNN includes data describing at least one second concept corresponding to the region of interest, the second concept being more accurate than the first concept.",
+  "filing_date": "20160405",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure can include systems, methods, and non-transitory computer readable media configured to obtain a content item to be evaluated by a set of cascaded convolutional neural networks, the set of cascaded convolutional neural networks including at least a first convolutional neural network (CNN) and a second CNN. The content item can be provided to the first CNN as input, the first CNN including at least one convolutional layer, pooling layer, and fully-connected layer, wherein an output of the first CNN includes data describing at least one region of interest in the content item and at least one first concept corresponding to the region of interest. The output of the first CNN can be provided to the second CNN as input, the second CNN including at least one convolutional layer, pooling layer, and fully-connected layer, wherein an output of the second CNN includes data describing at least one second concept corresponding to the region of interest, the second concept being more accurate than the first concept. In an embodiment, the systems, methods, and non-transitory computer readable media are configured to cause the first CNN to be trained using at least a set of annotated training examples, wherein a training example includes a content item and at least one label for the content item that identifies (i) a concept captured in the content item and (ii) a location corresponding to the concept in the content item. In an embodiment, the systems, methods, and non-transitory computer readable media are configured to cause the second CNN to be trained using at least some outputs that were produced by the first CNN. In an embodiment, the systems, methods, and non-transitory computer readable media are configured to provide a zoomed-in portion of the at least one region of interest to the second CNN. In an embodiment, the output of the second CNN includes data describing at least one second region of interest in the ...",
+  "date_published": "20170216",
+  "title": "SYSTEMS AND METHODS FOR CONTENT CLASSIFICATION AND DETECTION USING CONVOLUTIONAL NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 88373,
+    "optimized_size": 3853,
+    "reduction_percent": 95.64
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "patent_number": "None",
+  "application_number": "15826115",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "filing_date": "20171129",
+  "main_ipcr_label": "G06N700",
+  "abstract": "We disclose transconductor-capacitor classical dynamical systems that emulate quantum dynamical systems and quantum-inspired systems by composing them with 1) capacitors that represent ℏ termed Planck capacitors; 2) a ‘quantum admittance’ element, which can be emulated efficiently via coupled transconductors; 3) an emulated ‘quantum transadmittance element’ that can couple emulated quantum admittances to each other; and 4) an emulated ‘quantum transadmittance mixer element’ that can couple emulated quantum admittances to each other under the control of an input. We describe a ‘Quantum Cochlea’, a biologically-inspired quantum traveling-wave system with coupled emulated quantum two-state systems for efficient spectrum analysis that uses all of these parts. We show how emulated quantum transdmittance mixers can help represent an exponential number of quantum superposition states in the spectral domain with linear classical resources, even if they are not all simultaneously accessible as ...",
+  "publication_number": "US20180150761A1-20180531",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In this application, we disclose transconductor-capacitor classical dynamical systems that exactly emulate quantum dynamical systems by composing them with 1) a real capacitor, whose value exactly emulates the value of ℏ=h/(2π) with h being Planck's constant, and being adjustable; complex voltage variables are then composed of two parts corresponding to the real and imaginary parts of the quantum probability-amplitude wave function and represented on two such ℏ capacitors; such ‘Planck capacitors’, as we shall term them, are ubiquitous in our emulations. 2) a ‘quantum admittance’ element, which has no classical equivalent, but which can be emulated exactly by a coupled transconductor system; these transconductors effectively create an exact emulation of quantum behavior with two classical ℏ capacitors that couple to each other via a symmetric negative-feedback loop, creating the oscillatory behavior and energy-current flows seen in an isolated quantum admittance; Transistor-based implementations that compensate for loss can effectively emulate such systems with approximately 18 transistors; 3) a ‘quantum transadmittance element’ wherein the current output of the transadmittance at one complex voltage variable site is controlled by another complex voltage variable input; transistor-based implementations can take just 12 transistors for physical emulation by leveraging transistors already in existence within quantum admittance elements; 4) a ‘quantum transadmittance mixer element’, which enables control of one complex voltage variable at one frequency by two complex voltage variables at two other frequencies that mix, thus enabling controlled and spectrally resonant quantum interactions. Such interactions can raise or lower quantum states between energy levels as in atomic energy transitions controlled by light inputs. A cascade of N emulated quantum transadmittance mixer elements, along with associated emulated quantum two-state sy...",
+  "ipcr_labels": [
+    "G06N700",
+    "H03H1112",
+    "G06F9455",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SARPESHKAR",
+      "inventor_name_first": "Rahul",
+      "inventor_city": "Hanover",
+      "inventor_state": "NH",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "EMULATION OF QUANTUM AND QUANTUM-INSPIRED SPECTRUM ANALYSIS AND SUPERPOSITION WITH CLASSICAL TRANSCONDUCTOR-CAPACITOR CIRCUITS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 125403,
+    "optimized_size": 3760,
+    "reduction_percent": 97.0
+  }
+}

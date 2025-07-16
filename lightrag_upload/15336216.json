@@ -1,0 +1,51 @@
+{
+  "date_produced": "20180418",
+  "publication_number": "US20180121786A1-20180503",
+  "main_ipcr_label": "G06N304",
+  "decision": "ACCEPTED",
+  "application_number": "15336216",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Narayanaswami",
+      "inventor_name_first": "Ravi",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Woo",
+      "inventor_name_first": "Dong Hyuk",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Temam",
+      "inventor_name_first": "Olivier",
+      "inventor_city": "Antony",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Khaitan",
+      "inventor_name_first": "Harshit",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computer-implemented method that includes receiving, by a processing unit, an instruction that specifies data values for performing a tensor computation. In response to receiving the instruction, the method may include, performing, by the processing unit, the tensor computation by executing a loop nest comprising a plurality of loops, wherein a structure of the loop nest is defined based on one or more of the data values of the instruction. The tensor computation can be at least a portion of a computation of a neural network layer. The data values specified by the instruction may comprise a value that specifies a type of the neural network layer, and the structure of the loop nest can be defined at least in part by the type of the neural network layer.",
+  "filing_date": "20161027",
+  "patent_number": "9959498",
+  "summary": "<SOH> SUMMARY <EOH>One innovative aspect of the subject matter described in this specification can be embodied in a computer-implemented method. The method includes receiving, by a processing unit, an instruction that specifies parameters for performing a tensor computation. In response to receiving the instruction, the method may include, performing, by the processing unit, the tensor computation by executing a loop nest comprising a plurality of loops, wherein a structure of the loop nest is defined based on one or more of the parameters of the instruction. These and other implementations can each optionally include one or more of the following features. For example, the tensor computation can be at least a portion of a computation of a neural network layer. The parameters specified by the instruction may comprise a parameter that specifies a type of the neural network layer, and the structure of the loop nest can be defined at least in part by the type of the neural network layer. In some implementations, the tensor computation is at least a portion of a computation of a neural network layer. In some implementations, the data values specified by the instruction comprises at least one value that specifies a type of the neural network layer, and wherein the structure of the loop nest is defined at least in part by the type of the neural network layer. In some implementations, the instruction causes the processing unit to access at least one element of a dimension of a tensor, the element being a part of at least one index used in executing the loop nest during performance of the tensor computation. In some implementations, the instruction causes the processing unit to access at least one memory address of an array in a storage medium, the memory address of the array comprising a variable that is read by the processing unit during performance of the tensor computation. In some implementations, performing the tensor computation comprises, providing, by the processing...",
+  "date_published": "20180503",
+  "title": "NEURAL NETWORK INSTRUCTION SET ARCHITECTURE",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 76776,
+    "optimized_size": 3740,
+    "reduction_percent": 95.13
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160413",
+  "publication_number": "US20160117595A1-20160428",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "14991651",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Jie",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Yibo",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Hang",
+      "inventor_city": "Hongkong",
+      "inventor_state": "",
+      "inventor_country": "HK"
+    }
+  ],
+  "abstract": "The present invention provides an information recommendation method and apparatus in a social media. An off-line procedure includes: determining a point of interest of a target user; selecting information related to the point of interest as an annotated corpus; and training an interest classification model of the target user by using the annotated corpus as a training sample. An on-line procedure includes: inputting to-be-recommended information to the interest classification model of the target user, so as to determine whether the to-be-recommended information tallies with an interest of the target user; and if the to-be-recommended information tallies with the interest of the target user, recommending the to-be-recommended information to the target user. According to the present invention, an effect of information recommendation in a social media can be improved.",
+  "filing_date": "20160108",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In view of this, the present invention provides an information recommendation method and apparatus in a social media, so as to improve an effect of information recommendation. Specific technical solutions are as follows: According to a first aspect, an embodiment of the present invention provides an information recommendation method in a social media, where the method includes an off-line procedure and an on-line procedure, where the off-line procedure includes: S 11 : Determine a point of interest of a target user from historical operation information that is of the target user and in the social media; S 12 : Select information related to the point of interest from the historical operation information that is of a quality user related to the point of interest and in the social media, as an annotated corpus; and S 13 : Train an interest classification model of the target user by using the annotated corpus as a training sample; and the on-line procedure includes: S 21 : Acquire to-be-recommended information of the social media; S 22 : Input the to-be-recommended information to the interest classification model of the target user, so as to determine whether the to-be-recommended information tallies with an interest of the target user; and S 23 : If the to-be-recommended information tallies with the interest of the target user, recommend the to-be-recommended information to the target user. In a first possible implementation manner of the first aspect, the historical operation information includes at least one type of the following information: posted information, favorited information, reposted information, comment information, and an annotated tag. With reference to the first possible implementation manner of the first aspect, step S 11 includes: determining the point of interest of the user by using a tag that is annotated in the social media by the target user; or after word segmentation and stop word removal are separately performed on at least ...",
+  "date_published": "20160428",
+  "title": "INFORMATION RECOMMENDATION METHOD AND APPARATUS IN SOCIAL MEDIA",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 56762,
+    "optimized_size": 3713,
+    "reduction_percent": 93.46
+  }
+}

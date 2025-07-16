@@ -1,0 +1,61 @@
+{
+  "patent_number": "None",
+  "application_number": "15655203",
+  "date_published": "20180201",
+  "date_produced": "20180117",
+  "filing_date": "20170720",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A lightened neural network, method, and apparatus, and recognition method and apparatus implementing the same. A neural network includes a plurality of layers each comprising neurons and plural synapses connecting neurons included in neighboring layers. Synaptic weights with values greater than zero and less than a preset value of a variable a, which is greater than zero, may be at least partially set to zero. Synaptic weights with values greater than a preset value of a variable b, which is greater than zero, may be at least partially set to the preset value of the variable b.",
+  "publication_number": "US20180032867A1-20180201",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is the Summary intended to be used as an aid in determining the scope of the claimed subject matter. In one general aspect, a neural network includes a plurality of layers each including neurons, and plural synapses connecting neurons included in neighboring layers, where synaptic weights with values greater than zero and less than a preset value of a variable a, which is greater than zero, are at least partially set to zero. The synaptic weights that are at least partially set to zero may correspond to synapses of the plural synapses that connect the neighboring layers among the plurality of layers. Synaptic weights with values greater than zero and greater than a preset value of a variable b, which is greater than the preset value of the variable a, may be at least partially set to the preset value of the variable b. The synaptic weights with values greater than zero and greater than the preset value of the variable b, which are set to the preset value of the variable b, may correspond to synapses of the plural synapses that connect the neighboring layers among the plurality of layers. The preset value of the variable b may be independently preset for two or more of the plurality of layers. The preset value of the variable b may be different between at least two of the plurality of layers. The preset value of the variable b may be independently preset for two or more output map channels in a predetermined layer. The preset value of the variable b may be different between at least two output map channels in the predetermined layer. Each of synaptic weights with values greater than or equal to the preset value of the variable a and less than or equal to the preset value of the variable b may be r...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F7523",
+    "G06N304",
+    "G06F501"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SON",
+      "inventor_name_first": "Changyong",
+      "inventor_city": "Anyang-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "SON",
+      "inventor_name_first": "Jinwoo",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "YOO",
+      "inventor_name_first": "Byungin",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Chang Kyu",
+      "inventor_city": "Seongnam-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Jae-Joon",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "NEURAL NETWORK METHOD AND APPARATUS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 149650,
+    "optimized_size": 3705,
+    "reduction_percent": 97.52
+  }
+}

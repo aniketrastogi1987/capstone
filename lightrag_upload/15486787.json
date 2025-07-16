@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15486787",
+  "date_published": "20171019",
+  "date_produced": "20171004",
+  "filing_date": "20170413",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Embodiments herein achieve a machine-learning system for managing shuffling of input training datasets. The machine-learning system includes a training dataset manager configured to shuffle an input dataset received from each of a plurality of electronic devices. Further, the training dataset manager is configured to split the input training datasets into a plurality of mini-batches. Each of the mini-batches, along with the target values, defines an error surface corresponding to an error function. A learning manager is configured to obtain a cross mini-batch discriminator based on the error function for each of the mini-batches. Further, the learning manager is configured to select a mini-batch associated with a least cross mini-batch discriminator from the plurality of mini-batches as optimal mini-batch.",
+  "publication_number": "US20170300829A1-20171019",
+  "summary": "<SOH> SUMMARY <EOH>The principal object of the embodiments herein to provide a method and system to manage shuffling of input training datasets to train a machine-learning system. Another object of the embodiments herein is to shuffle an input dataset received from each of electronic devices. Another object of the embodiments herein is to split the input training datasets into a plurality of mini-batches. Another object of the embodiments herein is to obtain a cross mini-batch discriminator based on the error function for each of the mini-batches. Another object of the embodiments herein is to select a mini-batch configuration associated with a least cross mini-batch discriminator from the plurality of mini-batch configurations as optimal mini-batch configuration. Embodiments herein disclose a method to manage shuffling of input training datasets to train a machine-learning system. The method includes shuffling, by a training dataset manager, an input dataset received from each of a plurality of electronic devices. Further, the method includes splitting, by the training dataset manager, the input training datasets into a plurality of mini-batches. Each of the mini-batches along with the corresponding target values, define an error surface corresponding to an error function. Further, the method includes obtaining, by a learning manager, a cross mini-batch discriminator based on the error function for each of the mini-batches. Further, the method includes selecting a mini-batch associated with a least cross mini-batch discriminator from the plurality of mini-batch configurations as optimal mini-batch configuration. In an embodiment, the cross mini-batch discriminator is defined as a function evaluated as the sum of a differences in an error converged on by every mini-batch and the initial error on the error surface formed by the subsequent mini-batch for at least one specific mini-batch configuration from the plurality of mini-batch configurations using a gradient des...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1718"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Iyengar",
+      "inventor_name_first": "Raghu Sesha",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Balasubramanian",
+      "inventor_name_first": "Vineeth Nallure",
+      "inventor_city": "Sangareddy",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "MACHINE-LEARNING SYSTEM AND METHOD THEREOF TO MANAGE SHUFFLING OF INPUT TRAINING DATASETS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 56363,
+    "optimized_size": 3577,
+    "reduction_percent": 93.65
+  }
+}

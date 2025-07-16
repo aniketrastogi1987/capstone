@@ -1,0 +1,40 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174024A1-20180621",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15385504",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Tsung-Han",
+      "inventor_city": "Campbell",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Srinivasa",
+      "inventor_name_first": "Narayan",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A spiking neural network (SNN) is defined that includes artificial neurons interconnected by artificial synapses, the SNN defined to correspond to one or more numerical matrices in an equation such that weight values of the synapses correspond to values in the numerical matrices. An input vector is provided to the SNN to correspond to a numerical vector in the equation. A steady state spiking rate is determined for at least a portion of the neurons in the SNN and an approximate result of a matrix inverse problem corresponding to the equation is determined based on values of the steady state spiking rates.",
+  "filing_date": "20161220",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 illustrates an embodiment of a system including a neuromorphic computing systems. FIG. 2A illustrates a simplified block diagram of an example neuromorphic computing device utilizing a network of hardware-implemented neuromorphic cores. FIG. 2B illustrates a simplified block diagram illustrating a portion of a network of neuromorphic cores interconnected by one or more routers. FIG. 2C illustrates a simplified block diagram of an example one of the number of neuromorphic cores implemented in an example neuromorphic computing device. FIGS. 3A-3B are simplified block diagrams of portions of example neural networks capable of being implemented using an example neuromorphic computing device. FIG. 4A is a simplified block diagram illustrating a portion of an example spiking neural network (SNN). FIGS. 4B-4C are simplified block diagrams illustrating example simplified SNNs. FIGS. 5A-5D are block diagrams illustrating principles corresponding to steady state conditions of various portions of examples SNNs. FIGS. 6A-6B are graphs illustrating spiking behavior and spike rates of example neurons with an example SNN. FIGS. 7A-7C are simplified block diagrams illustrating example simplified SNNs configured to approximate solutions for example matrix inverse problems. FIG. 8 is a simplified block diagram illustrating use of an approximate solution generated from an example SNN implemented by an example neuromorphic computing device. FIG. 9A is a representation of an example over complete problem. FIG. 9B is a simplified block diagram illustrating a portion of a first example spiking neural network (SNN) configured to solve a sparse coding problem. FIG. 10 is a simplified block diagram illustrating a portion of a second example spiking neural network (SNN) configured to solve a sparse coding problem. FIG. 11 is a simplified block diagram illustrating a portion of a third example spiking neural network (SNN) configured to solve ...",
+  "date_published": "20180621",
+  "title": "SOLVING MATRIX INVERSE PROBLEMS USING NEUROMORPHIC COMPUTING",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1716",
+    "G06N3063",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 156446,
+    "optimized_size": 3345,
+    "reduction_percent": 97.86
+  }
+}

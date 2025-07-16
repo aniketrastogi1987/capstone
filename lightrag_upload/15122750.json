@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170301",
+  "publication_number": "US20170076227A1-20170316",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15122750",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Elgie",
+      "inventor_name_first": "Judith Rosalyn",
+      "inventor_city": "Manchester",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Jordan",
+      "inventor_name_first": "Dominic",
+      "inventor_city": "Manchester",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "One or more techniques and/or systems are provided for training and/or utilizing a traffic obstruction identification model for identifying traffic obstructions based upon vehicle location point data. For example, a training dataset, comprising sample vehicle location points (e.g., global positioning system location points of vehicles) and traffic obstruction identification labels (e.g., locations of known traffic obstructions such as stop signs, crosswalks, stop lights, etc.), may be evaluated to extract a set of training features indicative of traffic flow patterns. The set of training features and the traffic obstruction identification labels may be used to train a traffic obstruction identification model to create a trained traffic obstruction identification model. The trained traffic obstruction identification model may be used to determine whether a road segment has a traffic obstruction or not.",
+  "filing_date": "20160831",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the detailed description. This summary is not intended to identify key factors or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. Among other things, one or more systems and/or techniques for training and utilizing a traffic obstruction identification model are provided herein. In an example, a training dataset, comprising sample vehicle location points (e.g., individual global positing system (GPS) points, of vehicles traveling along one or more road segments, labeled with vehicle identifiers of corresponding vehicles) and/or traffic obstruction identification labels (e.g., known locations of traffic obstructions such as stop signs, crosswalks, bus stops, etc.), is obtained. A set of training features is extracted from the training dataset based upon the sample vehicle location points (e.g., a portion of vehicles traveling below a threshold speed; a median average deviation in travel time of a vehicle; a point density of sample vehicle location points of a road segment compared to other road segments; etc.). The set of training features are indicative of traffic flow patterns (e.g., stopping patterns, acceleration patterns, speed patterns, a length of a queued line of vehicles, etc.). In an example, the sample vehicle location points may be evaluated as individual points (e.g., as opposed to evaluating trace data where points are connected together, which may otherwise increase processing resource overhead), such that aggregated statistics on individual sample vehicle location points may be used to obtain the set of training features. A traffic obstruction identification model (e.g., a statistical distribution model, a hand constructed parametric model, a neural network that learns from data, or other automatic learning procedure) may be trained usi...",
+  "date_published": "20170316",
+  "title": "TRAFFIC OBSTRUCTION DETECTION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G08G101"
+  ],
+  "_processing_info": {
+    "original_size": 54258,
+    "optimized_size": 3598,
+    "reduction_percent": 93.37
+  }
+}

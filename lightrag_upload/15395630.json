@@ -1,0 +1,53 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189674A1-20180705",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15395630",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hillard",
+      "inventor_name_first": "Dustin Lundring Rigg",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Balikov",
+      "inventor_name_first": "Alex",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kornfield",
+      "inventor_name_first": "Micah",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Golder",
+      "inventor_name_first": "Scott",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for providing consistent processing in a machine learning system are disclosed. A real-time processing request may be received and processed by both a preferred machine learning model and a fallback machine learning model. Processing for the preferred machine learning model may include obtaining additional information. A determination may be made regarding whether the processing of the real-time request by the preferred machine learning model has completed as of an expiration of an acceptable latency period. If the preferred model has not completed as of the expiration of an acceptable latency period, the response to the real-time request may be generated from the fallback model output. If the preferred model has completed prior to or by the expiration of the acceptable latency period, the response to the request may be generated from the preferred model output.",
+  "filing_date": "20161230",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies relating to machine learning systems in general, and specifically to methods and systems for providing consistent processing in a real-time processing machine learning system. In general, one aspect of the subject matter described in this specification can be embodied in a system comprising one or more computers and one or more storage devices storing instructions that are operable, when executed by the one or more computers to cause the one or more computers to perform operations that implement an example method. An example method comprises: receiving a first real-time processing request; processing the first real-time processing request by a fallback machine learning model to generate a fallback model output; initializing processing of the first real-time processing request by a preferred machine learning model; determining that the processing of the first real-time processing request by the preferred machine learning model has not been completed as of an expiration of an acceptable latency period from a time at which the first real-time processing request was received; and in response to determining that the processing of the first real-time processing request by the preferred machine learning model has not been completed: generating first response data from the fallback model output; and providing the first response data as a response to the first real-time processing request. These and other embodiments can optionally include one or more of the following features. A second real-time processing request for a machine learning model output may be received and the processing of the second real-time processing request may be initialized by the preferred machine learning model. The second real-time processing request may be processed by the fallback machine learning model to generate a fallback model output for the second real-time processing request. The processing of the second real-time processing reques...",
+  "date_published": "20180705",
+  "title": "PROCESSING REAL-TIME PROCESSING REQUESTS USING MACHINE LEARNING MODELS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q4008",
+    "G06Q4004"
+  ],
+  "_processing_info": {
+    "original_size": 76961,
+    "optimized_size": 4003,
+    "reduction_percent": 94.8
+  }
+}

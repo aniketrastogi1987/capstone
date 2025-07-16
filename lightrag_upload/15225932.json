@@ -1,0 +1,61 @@
+{
+  "date_produced": "20171011",
+  "publication_number": "US20170308809A1-20171026",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15225932",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MOZES",
+      "inventor_name_first": "Ari W.",
+      "inventor_city": "Lexington",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MILENOVA",
+      "inventor_name_first": "Boriana L.",
+      "inventor_city": "Reading",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CAMPOS",
+      "inventor_name_first": "Marcos M.",
+      "inventor_city": "Carlsbad",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MCCRACKEN",
+      "inventor_name_first": "Mark A.",
+      "inventor_city": "Wakefield",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "AYYAPPAN",
+      "inventor_name_first": "Gayathri P.",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "Systems, methods, and other embodiments are disclosed for partitioning models in a database. In one embodiment, a set of training data is parsed into multiple data partitions based on partition keys, where the data partitions are identified by the partition keys and are used for training data mining models. The multiple data partitions are analyzed to generate partition metrics data. Algorithm data, identifying at least one algorithm for processing the multiple data partitions, and resources data, identifying available modeling resources for processing the multiple data partitions, are read. The partition metrics data, the algorithm data, and the resources data are processed to generate an organization data structure. The organization data structure is configured to control distribution and processing of the multiple data partitions across the available modeling resources to generate a composite model object that includes a separately trained data mining model for each partition of the...",
+  "filing_date": "20160802",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The accompanying drawings, which are incorporated in and constitute a part of the specification, illustrate various systems, methods, and other embodiments of the disclosure. It will be appreciated that the illustrated element boundaries (e.g., boxes, groups of boxes, or other shapes) in the figures represent one embodiment of the boundaries. In some embodiments one element may be designed as multiple elements or that multiple elements may be designed as one element. In some embodiments, an element shown as an internal component of another element may be implemented as an external component and vice versa. Furthermore, elements may not be drawn to scale. FIG. 1 illustrates one embodiment of a relational database system, having a computing device configured with analytics logic, for generating a composite model object of partitioned data mining models built on partitioned training data, and scoring records of scoring data using the composite model object; FIG. 2 illustrates one embodiment of a method, which can be performed by the analytics logic of the relational database system of FIG. 1 , to generate an organization data structure to control distribution and processing of data partitions of training data across available modeling resources when generating a composite model object; FIG. 3 graphically illustrates an example embodiment of a first process of distributing and processing a data partition across multiple processing nodes of available modeling resources; FIG. 4 graphically illustrates an example embodiment of a second process of distributing and processing multiple data partitions across multiple processing nodes of available modeling resources; FIG. 5 illustrates one embodiment of a portion of the method of FIG. 2 , which can be performed by the analytics logic of the relational database system of FIG. 1 , to determine how to distribute and process data partitions of training data across available modeling res...",
+  "date_published": "20171026",
+  "title": "SYSTEM AND METHOD FOR PARTITIONING MODELS IN A DATABASE",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06F1730",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 87937,
+    "optimized_size": 4187,
+    "reduction_percent": 95.24
+  }
+}

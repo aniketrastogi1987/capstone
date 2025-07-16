@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140273A1-20170518",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15353784",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SAGHER",
+      "inventor_name_first": "Yoram",
+      "inventor_city": "Hod Hasharon",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "BUTMAN",
+      "inventor_name_first": "Moshe",
+      "inventor_city": "Petah Tikva",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "SAGGIR",
+      "inventor_name_first": "Ronen",
+      "inventor_city": "Rishon Letzion",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "AMAR",
+      "inventor_name_first": "Rani",
+      "inventor_city": "Givat Shmuel",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "YEFFET",
+      "inventor_name_first": "Lahav",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "A system and method of determining a neural network configuration may include receiving at least one neural network configuration, altering the received configuration for at least two iterations, calculating a first parameter of an altered configuration, calculating a second parameter of a consecutive altered configuration of the at least two iterations, comparing values of the calculated first parameter and second parameter, and determining a configuration having largest value of the calculated parameters.",
+  "filing_date": "20161117",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>There is thus provided, in accordance with some embodiments of the invention, a method of determining a neural network configuration, the method including receiving, by a processor, at least one neural network configuration, altering, by the processor, the received configuration for at least two iterations, calculating, by the processor, a first parameter of the altered configuration, calculating, by the processor, a second parameter of a consecutive altered configuration of the at least two iterations, comparing, by the processor, values of the calculated first parameter and second parameter, and determining, by the processor, a configuration having largest value of the calculated parameters. In some embodiments, the method further includes outputting the determined configuration. In some embodiments, the determined configuration defines a neural network to carry out an object detection algorithm. In some embodiments, the method further includes receiving a set of labeled samples, performing evaluation of the received labeled samples with the object detection algorithm, and detecting an object from the set of labeled samples, with the object detection algorithm. In some embodiments, the configuration is determined to correspond with an object to be detected with the object detection algorithm. In some embodiments, the method further includes outputting the object detection algorithm. In some embodiments, the parameter is selected from the group consisting of a receiver operating characteristic curve, a confusing matrix, real-time performance, a true-positives rate and a false-positive rate. In some embodiments, the altering is carried out randomly. In some embodiments, the altering includes altering at least one of the group consisting of a hidden layer, a number of neurons at a layer, number of filters at each layer, type of network, an activation function at a neuron, convolutional neural network, composition, fully connected n...",
+  "date_published": "20170518",
+  "title": "SYSTEM AND METHOD FOR AUTOMATIC SELECTION OF DEEP LEARNING ARCHITECTURE",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 50317,
+    "optimized_size": 3664,
+    "reduction_percent": 92.72
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "patent_number": "None",
+  "application_number": "15799882",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20171031",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A pre-trained convolutional neural network is trained to accurately identify threats in x-ray images of luggage. The x-ray images are filtered according to a threshold to separate out the outlines of dense objects prior to the analysis by the trained convolutional neural network.",
+  "publication_number": "US20180121804A1-20180503",
+  "summary": "<SOH> SUMMARY <EOH>A weapon detection station is provided for the detection of weapons or threats in luggage. The weapon detection station includes an x-ray system for capturing x-ray images of luggage. The resulting captured data may thus be streamed to the cloud or processed in the weapon detection station itself by a suitable processor such as a graphics processing unit (GPU). The GPU incorporates a pre-trained commercial off-the-shelf (COTS) convolutional neural network (CNN) that is further trained on images of weapons. To address the non-standard orientation problem that will commonly arise with the taking of a two-dimensional (2D) x-ray image of a weapon within luggage, the CNN is also further trained on partial images of weapons. Each beam within the x-ray system corresponds to the collection of a 2D image. To increase accuracy, a dual-beam (which may also be designated as a dual-energy) x-ray system is used in some embodiments. Regardless of how many beams are employed, the trained CNN does not analyze the original 2D x-ray image corresponding to a particular beam. Instead, the weapons detection station filters the original 2D x-ray image according to a threshold to distinguish relatively dense items from background clutter to address the problems of clutter that is endemic to x-ray imaging of the luggage. Following the filtering, a certain minimum size requirement is applied to filter out dense objects that are too small to constitute a weapon. The resulting disconnected dense objects are then placed in separate image bins for processing by the trained CNN. To further increase accuracy, the prediction results from the separate beams in dual-beam embodiments are combined. These and other advantageous features may be better appreciated through the following detailed description.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06T700",
+    "G06T744",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mohamadi",
+      "inventor_name_first": "Farrokh",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Augmented X-Ray Imaging System For Detection of Threats",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 21611,
+    "optimized_size": 2672,
+    "reduction_percent": 87.64
+  }
+}

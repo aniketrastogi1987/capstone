@@ -1,0 +1,32 @@
+{
+  "date_produced": "20180411",
+  "publication_number": "US20180114139A1-20180426",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15332370",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KUCERA",
+      "inventor_name_first": "JOHN T.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one aspect, a request for web content is received from a user device communicatively coupled to the processing device via the network. In response to receiving the request, user information associated with the user is determined. Predicted responses of the user to each variation of a plurality of variations of the web content are determined using prediction models and the user information. The prediction models include one or more decision trees generated using a splitting criterion requiring a minimum number of positive responses to a variation and a minimum number of negative responses to the variation as a condition of considering the possible split. The variation determined to have a threshold likelihood of yielding a predicted positive response of the predicted responses is selected based on the user information. The variation is transmitted to the user device via the network.",
+  "filing_date": "20161024",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One exemplary aspect of the present disclosure involves predictively customizing web content for a user using prediction models implementing decision trees that are generated based on a splitting criterion. For example, a user operates a user device to request content from a server. A content personalization system receives the request and customizes the content based on information about the user. The prediction models used to predict responses of the user to the different web content variations determine the predicted response (e.g., a purchase of a product or service). The decision trees making up the prediction model are generated using a splitting criterion that requires a minimum number of positive instances (e.g., a conversion, such as a purchase of a product) and a minimum number of negative instances (e.g., a non-conversion, or no product purchase) to be on each side of a split. The web content variation associated with the prediction model determined to have a likelihood of yielding a desired response higher than a determined threshold is selected and transmitted to the user via the network. These illustrative features are mentioned not to limit or define the disclosure, but to provide examples to aid understanding thereof. Additional aspects are discussed in the Detailed Description, and further description is provided there.",
+  "date_published": "20180426",
+  "title": "CUSTOMIZED WEBSITE PREDICTIONS FOR MACHINE-LEARNING SYSTEMS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 71967,
+    "optimized_size": 2844,
+    "reduction_percent": 96.05
+  }
+}

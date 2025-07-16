@@ -1,0 +1,31 @@
+{
+  "patent_number": "nan",
+  "application_number": "15858813",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20171229",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A transformation process determines whether a predicate of a rule matches a given node of tree structured data containing a set of nodes and, when the predicate of a rule matches the given node, applies a function of an identified rule to the node to generate a compound result and an interim mutated output document, and when the compound result contains a next node, determines whether the next node is compared with the predicate of a next rule. The transform process includes determining that the next node is processed by a next rule, using the interim mutated output document as input, and determining whether a predicate of a rule matches the next node in a set of nodes. When the predicate of a rule matches the next node, a function of an identified rule is applied to the next node to generate a compound result and interim mutated output document. When the compound result does not contain a next node, a final mutated output document is generated.",
+  "publication_number": "US20180121809A1-20180503",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>According to one embodiment, a computer-implemented process for tree structured data transformation receives tree structured data as input, and responsive to a determination that the predicate of a rule matches the given node, applies a function of an identified rule to the node to generate a compound result and an interim mutated output document and responsive to a determination that the compound result contains a next node, determines whether the next node is compared with the predicate of a next rule. Responsive to a determination that the next node is processed by a next rule, the computer-implemented process uses the interim mutated output document as input and determines whether a predicate of a rule matches a given node in a set of nodes. Responsive to a determination that the predicate of a rule matches the given node, a function of an identified rule is applied to the node to generate a compound result and mutated document and responsive to a determination that the compound result does not contain a next node, a final mutated output document is generated. According to another embodiment, a computer program product for tree structured data transformation includes a computer recordable media containing computer executable program code stored thereon. The computer executable program code includes computer executable program code for receiving tree structured data as input, computer executable program code for determining whether a predicate of a rule matches a given node in a set of nodes, computer executable program code responsive to a determination that the predicate of a rule matches the given node, for applying a function of an identified rule to the node to generate a compound result and an interim mutated output document, computer executable program code for determining whether the compound result contains a next node, computer executable program code responsive to a determination that the compound result contains a next node, f...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1722"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KYLE",
+      "inventor_name_first": "BRYAN J.",
+      "inventor_city": "VICTORIA",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "TREE STRUCTURED DATA TRANSFORM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 62946,
+    "optimized_size": 3486,
+    "reduction_percent": 94.46
+  }
+}

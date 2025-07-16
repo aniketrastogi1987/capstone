@@ -1,0 +1,52 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15109635",
+  "date_published": "20161124",
+  "date_produced": "20161109",
+  "title": "APPARATUS AND METHOD FOR HALF-TONING",
+  "filing_date": "20160703",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LITVAK",
+      "inventor_name_first": "Mattetyahu",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "KLINGER",
+      "inventor_name_first": "Shahar",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "SIMAN TOV",
+      "inventor_name_first": "Alon",
+      "inventor_city": "Or Yehuda",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "GUTTMAN",
+      "inventor_name_first": "Avraham",
+      "inventor_city": "Yavne",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "ipcr_labels": [
+    "H04N1405",
+    "G06K1502"
+  ],
+  "main_ipcr_label": "H04N1405",
+  "summary": "<SOH> SUMMARY OF EMBODIMENTS <EOH>There is disclosed a method of digital printing which comprises: a. electronically applying an N×M pixel-image mask to a target non-binary multi-level digital image to obtain therefrom a target binary digital image; and b. converting the target binary digital image into an ink image by ink deposition onto a target surface, wherein variables L, M, N, r, s, p, y are defined such that L is a positive integer equal to at least 64, M and N are each positive integers that are each equal to at least 16, s is a positive integer having a value between 1 and y*L, p is a positive number having a value of at least 30, y is a positive number having a value of at most 0.1 at most 0.05 or at most 0.03, and r is a positive number having a value of at least 0.5, and wherein the N×M pixel-image mask has all of the following properties: i. a total number of lightness levels of the pixel-image mask is at least L; ii. at sub-threshold lightness levels below a threshold lightness level, application of the pixel-image mask to a uniform-lightness N×M digital image yields a sub-threshold-lightness-level binary image characterized by an array of pixel-clusters, centroids of clusters of the array being spatially distributed according to a stochastic pattern; iii. at the threshold lightness level, application of the pixel-image mask to a uniform-lightness N×M digital image yields a threshold-lightness-level binary image characterized by an array of pixel-clusters, centroids of clusters of the array being spatially distributed according to a stochastic pattern, the threshold-lightness-level binary image being further characterized such that, within ink-image-space defined according to the ink-deposition process of step (b), at least p % of all pixels-clusters of the array of pixel-clusters nearly touch a neighboring pixel-cluster without touching; iv. at a threshold-succeeding lightness level that is s lightness levels above the threshold lightness level (or al...",
+  "patent_number": "9749497",
+  "abstract": "There is provided an ink-deposition device suitable for depositing ink on a target surface and a printing system comprising the same. In operation in a printing system, the ink-deposition device can convert digital images into ink images on the target surface using pixel-masks and methods as disclosed herein. Advantageously, the ink-deposition device, the printing system comprising it and the methods of using the same can reduce or prevent the occurrence of some undesired ink-formations typically governed by the respective physical and/or chemical properties of the surface and ink being used or mitigate their effect on print quality. Application of the pixel-image mask yields a binary image that exhibits pixel-clusters with stochastically distributed centroids.",
+  "publication_number": "US20160344896A1-20161124",
+  "_processing_info": {
+    "original_size": 82256,
+    "optimized_size": 3768,
+    "reduction_percent": 95.42
+  }
+}

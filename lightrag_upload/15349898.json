@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140264A1-20170518",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15349898",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sutskever",
+      "inventor_name_first": "Ilya",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Andrychowicz",
+      "inventor_name_first": "Marcin",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Kurach",
+      "inventor_name_first": "Karol Piotr",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for generating a system output from a system input. In one aspect, a neural network system includes a memory storing a set of register vectors and data defining modules, wherein each module is a respective function that takes as input one or more first vectors and outputs a second vector. The system also includes a controller neural network configured to receive a neural network input for each time step and process the neural network input to generate a neural network output. The system further includes a subsystem configured to determine inputs to each of the modules, process the input to the module to generate a respective module output, determine updated values for the register vectors, and generate a neural network input for the next time step from the updated values of the register vectors.",
+  "filing_date": "20161111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes a system implemented as computer programs on one or more computers in one or more locations. The system includes a memory storing a set of register vectors and data defining a plurality of modules. Each module is a respective function that takes as input one or more first vectors and outputs a second vector. The system also includes a controller neural network that is configured to, for each of multiple time steps, receive a neural network input for the time step and process the neural network input for the time step to generate a neural network output for the time step. The system also includes a subsystem that is configured to, for each of the time steps: determine, from the neural network output, inputs to each of the plurality of modules; process, for each of the modules, the input to the module using the module to generate a respective module output; determine, from the neural network output, updated values for the register vectors using the module outputs; and generate a neural network input for the next time step from the updated values of the register vectors. Advantageous implementations can include one or more of the following features. The system can include a neural network system that manipulates pointers, stores pointers in memory, and dereferences pointers into a working memory. As such, the system can provide solutions to operational problems that require pointer chasing and manipulation. The system can learn sequence-to-sequence transformations by initializing registers with input sequences and producing corresponding output sequences. Further, the output sequences can be used to update the values of the registers. In certain aspects, the system can include an external variable-sized memory tape. The variable sized-memory tape can be used by the system to increase the efficiency of the system in generalizing long input sequences. Additionally, the variable-sized memory tape can be used by the system as...",
+  "date_published": "20170518",
+  "title": "NEURAL RANDOM ACCESS MACHINE",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1718",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 52463,
+    "optimized_size": 3745,
+    "reduction_percent": 92.86
+  }
+}

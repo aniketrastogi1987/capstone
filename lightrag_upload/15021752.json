@@ -1,0 +1,41 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15021752",
+  "date_published": "20160804",
+  "date_produced": "20160720",
+  "title": "METHOD AND APPARATUS FOR ASSIGNING COLOURS TO AN IMAGE",
+  "filing_date": "20160314",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ZEBAZE",
+      "inventor_name_first": "Roger",
+      "inventor_city": "Coburg",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "PENG",
+      "inventor_name_first": "Yu",
+      "inventor_city": "Southbank",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T740",
+    "G06K952",
+    "G06K962",
+    "G06K946",
+    "G06T700"
+  ],
+  "main_ipcr_label": "G06T740",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to a first broad aspect of the invention, there is provided a method of assigning colours to an image or part thereof, comprising: selecting a sequence of colours (that is, with a specific order) for assignment to the image or part thereof (whether automatically or manually); determining a minimum intensity I MIN within the image or part thereof (such as the intensity value of the pixels or voxels in the image or part thereof); determining a maximum intensity I MAX within the image or part thereof (such as the intensity value of the pixels or voxels in the image or part thereof); and determining relative intensity values RIV(i) for each pixel or voxel i according to: RIV  ( i ) = f  ( I  ( i ) - I M   IN I M   A   X - I M   I   N ) where I(i) is an intensity of pixel or voxel i, and ƒ is a preselected function (such as to re-arrange the normalized values); and assigning colours to at least some pixels in the image or part thereof based on the relative intensity values and an order of each of the colours in the sequence. The method may include segmenting one or more colours within the image or part thereof based on a non-threshold analysis of a colour profile curve derived from the image or part thereof. The process of assigning colours to an image, or one or more parts of the image, is referred to as quantitative colouring (QC). While QC can be used to highlight features within an image, it can also be used to do the reverse—that is, to obscure or mask details in parts of any image, or in the image. Furthermore, it can be used to change the colours after these colours have being segmented (i.e. grouped). The present invention is intended to be used in all areas when images are used, but in particular for medical images (which are by default in a greyscale), or any other area where clear visualization of detail by scientists or radiologists is critical. In one embodiment, the method comprises selecting colour...",
+  "patent_number": "10008008",
+  "abstract": "A method and system for assigning colours to an image or part thereof, the method comprising: selecting a sequence of colours for assignment to the image or part thereof; determining a minimum intensity IMIN within the image or part thereof; determining a maximum intensity IMAX within the image or part thereof; and determining relative intensity values RIV(i) for each pixel or voxel i according to; (I) where I(i) is an intensity of pixel or voxel /, and ƒ is a preselected function (such as to re-arrange the normalized values); and assigning colours to at least some pixels in the image or part thereof based on the relative intensity values and an order of each of the colours in the sequence.",
+  "publication_number": "US20160225166A1-20160804",
+  "_processing_info": {
+    "original_size": 43455,
+    "optimized_size": 3504,
+    "reduction_percent": 91.94
+  }
+}

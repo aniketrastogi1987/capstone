@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15182894",
+  "date_published": "20161006",
+  "date_produced": "20160921",
+  "title": "EXTENSIBLE DATA QUERY SCENARIO DEFINITION AND CONSUMPTION",
+  "filing_date": "20160615",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Puszkiewicz",
+      "inventor_name_first": "Piotr Milosz",
+      "inventor_city": "Issaquah",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mall",
+      "inventor_name_first": "Roger",
+      "inventor_city": "Sammamish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kasperski",
+      "inventor_name_first": "Ziv",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Schellhardt",
+      "inventor_name_first": "Zachary",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. In addition to typical descriptions of the dataset contents, dataset publishers provide examples of how to use their dataset in one embodiment. When a dataset is offered to subscribers, the publisher defines one or more questions that can be answered by the dataset. The publisher also defines the query code required to answer those questions. In a data marketplace, for example, a subscriber is shown the example questions answered by the dataset and is provided code having the appropriate values that correspond to the question. One or more terms in the query may be highlighted or otherwise designated as variable or subscriber-selectable so that the subscriber can understand how to modify the sample query to ask other questions. As a result, the subscriber does not have to know how the dataset is organized in order to use the dataset, but instead can use the pre-formatted queries to begin using the dataset immediately. In some cases, the subscriber's platform may not support the query language used by the dataset or the subscriber may not be familiar with the dataset's native format. A translation engine is used to translate the sample query, or other queries, to a target format selected by the subscriber. This allows the subscriber to obtain queries that both ask a desired question of the dataset and do so in a format that the subscriber can deploy in existing applications. Data brokers, such as aggregators and marketplaces, may provide content providers, such as dataset publishers, with the ability to define scenarios for their datasets once and then rely on the aggregator to appropriately translate the scenario into sale...",
+  "patent_number": "None",
+  "abstract": "Content providers define a set of scenarios that are addressed by their datasets. The scenarios include user-friendly, human-readable attributes such as a title, description, and visualization. The scenarios may also include a technical description that can be used to generate sample queries that can then be executed against the dataset. The technical description may be machine translated to arbitrary data querying protocols while maintaining the semantic meaning of the query. A user interface may be provided to allow users to intuitively generate the scenarios. In one embodiment, an extensible framework provides for the creation of protocol-specific translation plug-ins that are used to generate implementations of the scenario suitable for selected protocols. Known market-relevant translator plug-ins may also be implemented.",
+  "publication_number": "US20160292218A1-20161006",
+  "_processing_info": {
+    "original_size": 42057,
+    "optimized_size": 3836,
+    "reduction_percent": 90.88
+  }
+}

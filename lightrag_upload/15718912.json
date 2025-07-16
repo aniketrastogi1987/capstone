@@ -1,0 +1,37 @@
+{
+  "patent_number": "None",
+  "application_number": "15718912",
+  "date_published": "20180405",
+  "date_produced": "20180322",
+  "filing_date": "20170928",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Provided is a method for operating a convolutional neural network. The method includes performing learning on weights between neural network nodes by using input data, removing an adaptive parameter that performs learning using the input data after removing a weight having a size less than a threshold value among weights, and mapping remaining weights in the removing of the adaptive parameter to a plurality of representative values.",
+  "publication_number": "US20180096249A1-20180405",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure provides a convolutional neural network system capable of adaptively reducing the number of parameters and an operation method thereof. An embodiment of the inventive concept provides an operation method of a convolutional neural network. The method includes: performing learning on weights between neural network nodes by using input data; removing an adaptive parameter that performs learning using the input data after removing a weight having a size less than a threshold value among weights; and mapping remaining weights in the removing of the adaptive parameter to a plurality of representative values. In an embodiment of the inventive concept, a convolutional neural network system includes: an input buffer configured to buffer input data; an operation unit configured to learn a parameter between a plurality of neural network nodes by using the input data; an output buffer configured to store and update a learning result of the operation unit; a parameter buffer configured to deliver a parameter between the plurality of neural network nodes to the operation unit and update the parameter according to a result of the learning; and a control unit configured to control the parameter buffer to remove weights having a size less than a threshold value among weights between the neural network nodes and map remaining weights among the weights to at least one representative value.",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Jin Kyu",
+      "inventor_city": "Sejong",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Joo Hyun",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "CONVOLUTIONAL NEURAL NETWORK SYSTEM USING ADAPTIVE PRUNING AND WEIGHT SHARING AND OPERATION METHOD THEREOF",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 46945,
+    "optimized_size": 2598,
+    "reduction_percent": 94.47
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date_produced": "20160831",
+  "publication_number": "US20160267381A1-20160915",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15162505",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fuchs",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Los Gatos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jagota",
+      "inventor_name_first": "Arun",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The technology disclosed relates to methods for partitioning sets of features for a Bayesian classifier, finding a data partition that makes the classification process faster and more accurate, while discovering and taking into account feature dependence among sets of features in the data set. It relates to computing class entropy scores for a class label across all tuples that share the feature-subset and arranging the tuples in order of non-decreasing entropy scores for the class label, and constructing a data partition that offers the highest improvement in predictive accuracy for the data set. Also disclosed is a method for partitioning a complete set of records of features in a batch computation, computing increasing predictive power; and also relates to starting with singleton partitions, and using an iterative process to construct a data partition that offers the highest improvement in predictive accuracy for the data set.",
+  "filing_date": "20160523",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The technology disclosed relates to systems and methods for partitioning sets of features for a Bayesian classifier, finding partitions that make the classification process faster and more accurate, while discovering and taking into account feature dependence among certain sets of features in the data set. Instances of data in the data set have features and a class label. Typically feature values are assigned to the features, and a class value is assigned to the class label. A tuple is a set of feature-value pairs. A subtuple is comprised of unique feature subsets in an input tuple. A partition is a disjoint set of tuples that “covers” the features. That is, if the full set of feature-value pairs is {X 1 =a, X 2 =b, X 3 =c}, then {X 1 =a, X 3 =c} is an example of a tuple, {X 1 =a} is an example subtuple, and p={{X 1 =a, X 3 =c}, {X 2 =b}} is an example of a partition. Counts for a tuple are provided as input to the system. These counts represent the number of instances, in a training set, of the unique combination of feature values with specific class values. The disclosed systems and methods make use of these counts, accessing a set of tuples that have feature values, class values and counts—stored in a tuple instance count data structure. The disclosed technology relates to an iterative process of identifying input subtuples with a minimum threshold support count in the records of a large data set, computing class entropy scores of each such subtuple toward the class label, arranging the subtuples in order of non-decreasing class entropy score, constructing the partition list by adding feature subsets corresponding to the input subtuples in order of non-decreasing class entropy score, and pruning from subsequent consideration other input subtuples that include any features that overlap with any features in the current ordered input subtuple. The process is complete when all of the features of the input tuple have been added to the partition list...",
+  "date_published": "20160915",
+  "title": "Systems and Methods for Partitioning Sets Of Features for A Bayesian Classifier",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 76395,
+    "optimized_size": 3694,
+    "reduction_percent": 95.16
+  }
+}

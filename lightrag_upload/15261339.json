@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180228",
+  "publication_number": "US20180075366A1-20180315",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15261339",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Dole",
+      "inventor_name_first": "Bryn R.",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ko",
+      "inventor_name_first": "William S.",
+      "inventor_city": "Daly City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kossarian",
+      "inventor_name_first": "Malous M.",
+      "inventor_city": "Redwood City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Smith",
+      "inventor_name_first": "Douglas A.",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments provide a computer implemented method, in a data processing system comprising a processor and a memory comprising instructions which are executed by the processor to cause the processor to implement a full question generation system, the method comprising ingesting, into the full question generation system, a query dataset derived from one or more search queries entered by one or more users of an internet search engine; identifying questions from the ingested query dataset; separating, through a full question identification module, one or more prior full questions from the ingested dataset; identifying, through a question intent query identification module, one or more question intent queries from the query dataset; for each identified question intent query: sorting, through a sorting module, the question intent query into one or more bins based on one or more missing interrogative words; and appending, through an appending module, the missing interrogative word and a verb ...",
+  "filing_date": "20160909",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments can provide a computer implemented method, in a data processing system comprising a processor and a memory comprising instructions which are executed by the processor to cause the processor to implement a full question generation system for training a cognitive system comprising a question-answer system pipeline, the method comprising ingesting, into the full question generation system, a query dataset derived from one or more search queries entered by one or more users of an internet search engine; identifying questions from the ingested query dataset; separating, through a full question identification module, one or more prior full questions from the ingested dataset; identifying, through a question intent query identification module, one or more question intent queries from the query dataset; for each identified question intent query: sorting, through a sorting module, the question intent query into one or more bins based on one or more missing interrogative words; and appending, through an appending module, the missing interrogative word and a verb onto the question intent query to generate a full question; and ingesting, through the cognitive system, the one or more generated full questions as training dataset. Embodiments can further provide a method further comprising identifying one or more question intent queries from the query dataset using one or more regular expressions to detect at least one trigger phrase contained in each question intent query. Embodiments can further provide a method further comprising determining the plurality of the at least one trigger phrases; and applying a proper conjugation of the verb to the question intent query. Embodiments can further provide a method further comprising analyzing, through the question-answer system pipeline, each of the one or more generated full questions contained in the training dataset; and training the full question generation system based on the analysis of the one or m...",
+  "date_published": "20180315",
+  "title": "SYSTEM AND METHOD FOR GENERATING FULL QUESTIONS FROM NATURAL LANGUAGE QUERIES",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 68972,
+    "optimized_size": 4035,
+    "reduction_percent": 94.15
+  }
+}

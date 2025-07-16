@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180207",
+  "publication_number": "US20180053087A1-20180222",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15240613",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fukuda",
+      "inventor_name_first": "Takashi",
+      "inventor_city": "Kanagawa-ken",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Methods, systems, and computer programs are provided for training a front-end neural network (“front-end NN”) and a back-end neural network (“back-end NN”). The method includes: combining the back-end NN with the front-end NN so that an output layer of the front-end NN is also an input layer of the back-end NN to form a joint layer to thereby generate a combined NN; and training the combined NN for a speech recognition with a set of utterances as training data, a plurality of specific units in the joint layer being dropped during the training and the plurality of the specific units corresponding to one or more common frequency bands. The front-end NN may be configured to estimate clean frequency filter bank features from noisy input features; or, to estimate clean frequency filter bank features from noisy frequency filter bank input features in the same feature space.",
+  "filing_date": "20160818",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect of the present invention, an embodiment of the present invention provides a computer-implemented method for training a front-end neural network (hereinafter also referred to as “front-end NN”) and a back-end neural network (hereinafter also referred to as “back-end NN”). The method comprises the following: combining the back-end NN with the front-end NN so that an output layer of the front-end NN is also an input layer of the back-end NN to form a joint layer to thereby generate a combined NN; and training the combined NN for a speech recognition with a set of utterances as training data, a plurality of specific units in the joint layer being dropped during the training, the plurality of the specific units corresponding to one or more common frequency bands. According to another aspect of the present invention, a speech recognition system which performs a speech recognition, using the combined NN which was trained according to the one or more methods described herein, may be provided. According to another aspect of the present invention, a system, such as a computer system, comprising a computer readable storage medium storing a program of instructions executable by the system to perform one or more methods described herein may be provided. According to another aspect of the present invention, a computer program product comprising a computer readable storage medium storing a program of instructions executable by the system to perform one or more methods described herein also may be provided.",
+  "date_published": "20180222",
+  "title": "TRAINING OF FRONT-END AND BACK-END NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 51065,
+    "optimized_size": 3028,
+    "reduction_percent": 94.07
+  }
+}

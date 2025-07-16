@@ -1,0 +1,50 @@
+{
+  "patent_number": "None",
+  "application_number": "15486318",
+  "date_published": "20171116",
+  "date_produced": "20171103",
+  "filing_date": "20170413",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method for determining an identity of a URL visited by a user from a vantage point in a network in which network traffic is encrypted includes determining a host to model, generating a list of URLs hosted by the host to model, repeatedly retrieving web resources referenced by the list of URLs hosted by the host to model and generating a network traffic signature upon each retrieval, generating a data feature for each of the generated network traffic signatures, and training, using the generated data features, a classifier corresponding to the host to model, wherein the classifier is configured to determine an identity of the visited URL from a signature of network traffic produced by the retrieval of a resource referenced by the visited URL.",
+  "publication_number": "US20170330107A1-20171116",
+  "summary": "<SOH> SUMMARY <EOH>In an embodiment, the present invention provides a method for determining an identity of a URL visited by a user from a vantage point in a network in which network traffic is encrypted. The method includes determining a host to model, generating a list of URLs hosted by the host to model, repeatedly retrieving web resources referenced by the list of URLs hosted by the host to model and generating a network traffic signature upon each retrieval, generating a data feature for each of the generated network traffic signatures, and training, using the generated data features, a classifier corresponding to the host to model, wherein the classifier is configured to determine an identity of the visited URL from a signature of network traffic produced by the retrieval of a resource referenced by the visited URL.",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2908",
+    "H04L2908",
+    "H04L1226",
+    "H04L1226",
+    "H04L2908",
+    "G06Q3002"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gonzalez Sanchez",
+      "inventor_name_first": "Roberto",
+      "inventor_city": "Heidelberg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Soriente",
+      "inventor_name_first": "Claudio",
+      "inventor_city": "Barcelona",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    },
+    {
+      "inventor_name_last": "Laoutaris",
+      "inventor_name_first": "Nikolaos",
+      "inventor_city": "Barcelona",
+      "inventor_state": "",
+      "inventor_country": "ES"
+    }
+  ],
+  "title": "METHOD FOR PERFORMING USER PROFILING FROM ENCRYPTED NETWORK TRAFFIC FLOWS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 71529,
+    "optimized_size": 2527,
+    "reduction_percent": 96.47
+  }
+}

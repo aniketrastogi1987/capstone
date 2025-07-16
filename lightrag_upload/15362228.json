@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180516",
+  "publication_number": "US20180150764A1-20180531",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15362228",
+  "inventor_list": [
+    {
+      "inventor_name_last": "STENNETH",
+      "inventor_name_first": "Leon",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An approach is provided for generating parking restriction data using a machine learning model. The approach involves determining a plurality of classification features associated with a set of labeled road links. Each of the labeled road links is labeled with a parking restriction label that indicates a parking restriction status of said each of the labeled road links. The approach also involves training the machine learning model to classify an unlabeled road link of the geographic database using the plurality of classification features. The approach further involves determining the plurality of classification features for the unlabeled road link. The approach further involves processing the plurality of classification features for the unlabeled road link using the trained machine learning model to associate an assigned parking restriction label to the unlabeled road link. The approach further involves storing the assigned parking restriction label as the parking restriction data.",
+  "filing_date": "20161128",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments of the invention are illustrated by way of example, and not by way of limitation, in the figures of the accompanying drawings: FIG. 1A is a diagram of a system for providing automated generation of parking restriction data using machine learning, according to one embodiment; FIG. 1B is a diagram of a geographic database, according to one embodiment; FIG. 2 is a diagram of the components of a mapping platform, according to one embodiment; FIG. 3 is a graph illustrating an example frequency of parking restriction labels versus functional class, according to one embodiment; FIG. 4 is a flowchart of a process for using a machine learning model to assign parking restriction labels to road links, according to one embodiment; FIG. 5 is a flowchart of a process for determining classification features for a machine learning model configured to assign parking restriction labels to road links, according to one embodiment; FIG. 6 is a flowchart of a process for automatically labeling road links with parking restriction labels, according to one embodiment; FIG. 7 is a diagram of a user interface for managing parking restriction data in a geographic database, according to one embodiment; FIG. 8 is a diagram of a mapping user interface presenting visual representations of parking restriction data generated from machine learning, according to one embodiment; FIG. 9 is a diagram of hardware that can be used to implement an embodiment of the invention; FIG. 10 is a diagram of a chip set that can be used to implement an embodiment of the invention; and FIG. 11 is a diagram of a mobile terminal (e.g., mobile computer) that can be used to implement an embodiment of the invention. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180531",
+  "title": "METHOD AND APPARATUS FOR PROVIDING AUTOMATED GENERATION OF PARKING RESTRICTION DATA USING MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 117720,
+    "optimized_size": 3421,
+    "reduction_percent": 97.09
+  }
+}

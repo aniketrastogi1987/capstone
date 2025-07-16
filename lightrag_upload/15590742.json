@@ -1,0 +1,70 @@
+{
+  "patent_number": "None",
+  "application_number": "15590742",
+  "date_published": "20180607",
+  "date_produced": "20180523",
+  "filing_date": "20170509",
+  "main_ipcr_label": "G06N502",
+  "abstract": "System and method for training inductive logic programming enhanced deep belief network models for discrete optimization are disclosed. The system initializes (i) a dataset comprising values and (ii) a pre-defined threshold, partitions the values into a first set and a second set based on the pre-defined threshold. Using Inductive Logic Programming (ILP) engine and a domain knowledge associated with the dataset, a machine learning model is constructed on the first set and the second set to obtain Boolean features, and using the Boolean features that are being appended to the dataset, a deep belief network (DBN) model is trained to identify an optimal set of values between the first set and the second set. Using the trained DBN model, the optimal set of values are sampled to generate samples. The pre-defined threshold is adjusted based on the generated samples, and the steps are repeated to obtain optimal samples.",
+  "publication_number": "US20180157977A1-20180607",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure present technological improvements as solutions to one or more of the above-mentioned technical problems recognized by the inventors in conventional systems. For example, in one aspect, a processor implemented method for training inductive logic programming enhanced deep belief network models for discrete optimization is provided. The method comprising: (a) initializing (i) a dataset comprising a plurality of values and (ii) a pre-defined threshold; (b) partitioning the plurality of values into a first set of values and a second set of values based on the pre-defined threshold; (c) constructing, using (i) an Inductive Logic Programming (ILP) and (ii) a domain knowledge associated with the dataset, a machine learning model on each of the first set of values and the second set of values to obtain one or more Boolean features; (d) training, using the one or more Boolean features that are being appended to the dataset, a deep belief network (DBN) model to identify an optimal set of values between the first set of values and the second set of values; and (e) sampling, using the trained DBN model, the optimal set of values to generate one or more samples. In an embodiment, the method may further include adjusting, using the one or more generated samples, value of the pre-defined threshold and repeating steps (b) till (e) until an optimal sample is generated. In an embodiment, the step of partitioning the plurality of values into a first set of values and a second set of values based on the pre-defined threshold comprises performing a comparison of each value from the plurality of values with the pre-defined threshold. In an embodiment, the first set of values are values lesser than or equal to the pre-defined threshold. In an embodiment, the second set of values are values greater than the pre-defined threshold. In another aspect, a system training inductive logic programming enhanced deep belief network models for ...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900",
+    "G06F1730",
+    "G06K962",
+    "G06N504",
+    "G05B19042"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SAIKIA",
+      "inventor_name_first": "Sarmimala",
+      "inventor_city": "Noida",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Vig",
+      "inventor_name_first": "Lovekesh",
+      "inventor_city": "Gurgaon",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Shroff",
+      "inventor_name_first": "Gautam",
+      "inventor_city": "Gurgaon",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Agarwal",
+      "inventor_name_first": "Puneet",
+      "inventor_city": "Noida",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Rawat",
+      "inventor_name_first": "Richa",
+      "inventor_city": "Noida",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Srinivasan",
+      "inventor_name_first": "Ashwin",
+      "inventor_city": "Zuarinagar",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "TRAINING INDUCTIVE LOGIC PROGRAMMING ENHANCED DEEP BELIEF NETWORK MODELS FOR DISCRETE OPTIMIZATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 60970,
+    "optimized_size": 4285,
+    "reduction_percent": 92.97
+  }
+}

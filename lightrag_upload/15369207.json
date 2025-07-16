@@ -1,0 +1,32 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15369207",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "title": "HOST DEVICE COUPLED TO A USB PERIPHERAL AND METHOD OF OPERATING THE SAME",
+  "filing_date": "20161205",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BEN HAROSH",
+      "inventor_name_first": "Almog",
+      "inventor_city": "Pardes Hana",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F944",
+    "G06F1338",
+    "G06F1310"
+  ],
+  "main_ipcr_label": "G06F944",
+  "summary": "<SOH> SUMMARY OF EMBODIMENTS <EOH>Embodiments of the disclosed subject-matter relate to methods and apparatus for communicating with a peripheral cell phone device whereby instead of relying on the cell phone drivers directly or indirectly specified by the USB hardware identifier passed by the cellphone to the host, it is possible to (i) actively suppress the loading of a peripheral-device-specific driver into memory and (ii) to identify the cellphone from a plurality of candidates without relying on device drivers. Once the cellphone is properly identified (e.g. to determine a vendor identity, to determine phone hardware or software capabilities, to determine a protocol recognized by the peripheral phone, etc), it is possible to communicate with a cellphone according to its particular ‘language’ even if no information about the identity of the cellphone is provided to the host a priori (i.e. manually provided or provided by loading the cellphone-specific device driver). In one non-limiting example, it is possible to analyze endpoint descriptor data of the peripheral cell phone, and then to compare the endpoint descriptor data to a database—for example, residing on a host side of a host-peripheral USB interface. It has been determined that for many cases, USB endpoint descriptor data by itself and/or in combination with other USB-fingerprint data (e.g. USB interface descriptor and/or USB configuration descriptor and/or USB device descriptor data) suffices, in many cases, to specify one or more of (i) a phone vendor name; (ii) a phone model name; (iii) phone hardware and/or software resources; (iv) phone protocol features and (v) one or more additional phone-specific features. As such, instead of assuming a priori that a user has coupled to the host device a phone from a specific vendor, it is possible to provide a relatively ‘universal phone host’ product which configures a host to appropriately communicate with phone devices from a relatively ‘large’ numbers of ven...",
+  "patent_number": "None",
+  "abstract": "Embodiments of the present invention relate to methods and apparatus for operating a host device (e.g. a ‘plug-and-play’ host device) coupled to a peripheral device (e.g. a mobile phone). In some embodiments, the host device may analyzed peripheral device-descriptive data (e.g. including but not limited to USB endpoint data) and determine information about the peripheral device in accordance with the results of the analysis. Operations that may be carried out by the host device in accordance with results of the analysis include but are not limited to protocol selection, retrieval of cell phone data, and determining software or hardware resource(s) of the peripheral device. In some embodiments, it is possible to actively suppress natural OS behavior whereby a device driver(s) specified by the peripheral device (e.g. in a hardware identifier) is loaded by the host device. For example, it is possible to load a surrogate driver instead. In one example, the hardware identifier is intercepte...",
+  "publication_number": "US20170220356A1-20170803",
+  "_processing_info": {
+    "original_size": 114974,
+    "optimized_size": 3637,
+    "reduction_percent": 96.84
+  }
+}

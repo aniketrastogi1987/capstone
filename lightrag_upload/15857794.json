@@ -1,0 +1,53 @@
+{
+  "patent_number": "nan",
+  "application_number": "15857794",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "filing_date": "20171229",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A Brain-Mobile Interface (BMoI) system is provided. A control circuit is configured to execute a predictive model to generate a defined number of predicted signal features in future time based on a number of signal features extracted from a first type sensory data (e.g., electroencephalogram (EEG) data). A predicted future mental state(s) can thus be generated based on the number of predicted signal features and used to trigger a corresponding action(s) in a BMoI application(s). In a non-limiting example, a second type sensory data (e.g., electrocardiogram (ECG) data) can be used to improve accuracy of the predictive model. By using the predicted signal features to generate the predicted future mental state(s) to control the BMoI application(s), it is possible to duty-cycle the BMoI system to help reduce power consumption and processing latency, thus allowing the BMoI application(s) to operate in real-time with improved accuracy and power consumption.",
+  "publication_number": "US20180189678A1-20180705",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the disclosure relate to a Brain-Mobile Interface (BMoI) system. In examples discussed herein, a control circuit is configured to execute a predictive model to generate a defined number of predicted signal features in future time based on a number of signal features extracted from a first type sensory data (e.g., electroencephalogram (EEG) data). A predicted future mental state(s) (e.g., human nervousness levels in response to a stimulus) can thus be generated based on the number of predicted signal features and used to trigger a corresponding action(s) in a BMoI application(s). In a non-limiting example, a second type sensory data (e.g., electrocardiogram (ECG) data) can be used to improve accuracy of the predictive model. By using the predicted signal features to generate the predicted future mental state(s) to control the BMoI application(s), it is possible to duty-cycle the BMoI system to help reduce power consumption and processing latency, thus allowing the BMoI application(s) to operate in real-time with improved accuracy and power consumption. In one aspect, a BMoI system is provided. The BMoI system includes an input interface coupled to a selected communication medium. The BMoI system also includes an output interface coupled to the selected communication medium. The BMoI system also includes a control circuit coupled to the input interface and the output interface. The control circuit is configured to receive a first type sensory data via the input interface. The control circuit is also configured to extract a number of signal features from the received first type sensory data. The control circuit is also configured to execute a predictive model to generate a defined number of predicted signal features based on the number of extracted signal features in at least one prediction window. The control circuit is also configured to generate at least one predicted future mental state based on the defined number of predicted sign...",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2908",
+    "G05D100"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gupta",
+      "inventor_name_first": "Sandeep",
+      "inventor_city": "Phoenix",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Banerjee",
+      "inventor_name_first": "Ayan",
+      "inventor_city": "Mesa",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Esfahani",
+      "inventor_name_first": "Mohammad Javad Sohankar",
+      "inventor_city": "Tempe",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Oskooyee",
+      "inventor_name_first": "Seyed Koosha Sadeghi",
+      "inventor_city": "Tempe",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "BRAIN-MOBILE INTERFACE OPTIMIZATION USING INTERNET-OF-THINGS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 73983,
+    "optimized_size": 3999,
+    "reduction_percent": 94.59
+  }
+}

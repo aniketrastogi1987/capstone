@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286866A1-20171005",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15164909",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bhowan",
+      "inventor_name_first": "Urvesh",
+      "inventor_city": "Bray",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Cortis",
+      "inventor_name_first": "Keith",
+      "inventor_city": "Rabat",
+      "inventor_state": "",
+      "inventor_country": "MT"
+    },
+    {
+      "inventor_name_last": "McAteer",
+      "inventor_name_first": "Seamus R.",
+      "inventor_city": "Navan",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "McCloskey",
+      "inventor_name_first": "Daniel J.",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "abstract": "A system, method and computer program product provides improved performance in machine learning, decision making and similar processes. In one example method, a plurality of individual subsets of features of a dataset comprising multiple features are received. The subsets may be provided by applying one or more feature selection methods to the dataset. Each subset is represented as a graph based on a predefined graph template. The example method merges the graphs of the plurality of individual subsets by overlaying the graphs on each other to form a merged feature graph. The merged feature graph may be used for identifying a single subset of features for use in machine learning, decision making and similar processes.",
+  "filing_date": "20160526",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention disclose a method, computer program product, and system for According to an aspect of the present disclosure, a computer-implemented method is provided. The method receives a plurality of individual subsets of features of a dataset of features, each subset represented as a graph based on a predefined template. The method merges the plurality of graphs by combining elements of the graphs to form a merged feature graph for use in identifying a single subset of features therefrom. The merged feature graph provided in accordance with the present disclosure may be used to determine a single subset of features that is more optimized, (i.e., more useful or relevant) than a subset of features identified by existing techniques, and so can be used to develop a better model for improved performance. In example implementations of the method, the predefined graph template comprises nodes that represent features in the subset, and edges between pairs of nodes. Each edge of the graph represents a relationship, which may be any type of connection or inter-dependency, between the feature pair represented by the two nodes that are connected by the edge. In example implementations, each of the edges has an edge weight (or strength value). In example implementations, the method creates a graph for each received feature subset based on the predefined template by mapping the features of the subset to nodes and connecting pairs of features of the subset by an edge. In some example implementations, the method determines an edge weight for each edge in the graph. By including edges in the predefined graph template in example implementations of the present disclosure, relationships between features in the subset, and thus the connection or inter-dependence between the features, can be taken into account in identifying the single subset of features. Such relationships or inter-dependence may be significant for models in some applications...",
+  "date_published": "20171005",
+  "title": "MERGING FEATURE SUBSETS USING GRAPHICAL REPRESENTATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 82490,
+    "optimized_size": 3709,
+    "reduction_percent": 95.5
+  }
+}

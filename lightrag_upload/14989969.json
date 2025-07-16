@@ -1,0 +1,31 @@
+{
+  "date_produced": "20160413",
+  "publication_number": "US20160117589A1-20160428",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "14989969",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Scholtes",
+      "inventor_name_first": "Johannes Cornelis",
+      "inventor_city": "Bussum",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    }
+  ],
+  "abstract": "A system, method and computer program product for automatic document classification, including an extraction module configured to extract structural, syntactical and/or semantic information from a document and normalize the extracted information; a machine learning module configured to generate a model representation for automatic document classification based on feature vectors built from the normalized and extracted semantic information for supervised and/or unsupervised clustering or machine learning; and a classification module configured to select a non-classified document from a document collection, and via the extraction module extract normalized structural, syntactical and/or semantic information from the selected document, and generate via the machine learning module a model representation of the selected document based on feature vectors, and match the model representation of the selected document against the machine learning model representation to generate a document catego...",
+  "filing_date": "20160107",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Therefore, there is a need for a method and system that addresses the above and other problems with document classification systems and methods. The above and other problems are addressed by the illustrative embodiments of the present invention, which provide improved systems and methods that addresses limitations of what is referred to as a bag-of-word (BOW) approach. Advantageously, the illustrative systems and methods can provide automatic document classification for eDiscovery, compliance, legacy-information clean-up, and the like, while allowing for usage of various machine-learning approaches, and the like, in multi-lingual environments, and the like. Accordingly, in illustrative aspects of the present invention there is provided a system, method, and computer program product for automatic document classification, including an extraction module configured to extract structural, syntactical and/or semantic information from a document and normalize the extracted information; a machine learning module configured to generate a model representation for automatic document classification based on feature vectors built from the normalized and extracted semantic information for supervised and/or unsupervised clustering or machine learning; and a classification module configured to select a non-classified document from a document collection, and via the extraction module extract normalized structural, syntactical and/or semantic information from the selected document, and generate via the machine learning module a model representation of the selected document based on feature vectors, and match the model representation of the selected document against the machine learning model representation to generate a document category, and/or classification for display to a user. The extracted information includes named entities, properties of entities, noun-phrases, facts, events, and/or concepts. The extraction module employs text-mining, lang...",
+  "date_published": "20160428",
+  "title": "SYSTEM AND METHOD FOR AUTOMATIC DOCUMENT CLASSIFICATION IN EDISCOVERY, COMPLIANCE AND LEGACY INFORMATION CLEAN-UP",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 66743,
+    "optimized_size": 3625,
+    "reduction_percent": 94.57
+  }
+}

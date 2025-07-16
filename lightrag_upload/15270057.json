@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180308",
+  "publication_number": "US20180082212A1-20180322",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15270057",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Faivishevsky",
+      "inventor_name_first": "Lev",
+      "inventor_city": "Kfar Saba",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Armon",
+      "inventor_name_first": "Amitai",
+      "inventor_city": "Tel-Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "An optimization of running time for performing a machine learning algorithm on a processor architecture may be performed and include determining a plurality of parameters to be configured in the machine learning algorithm, and initiating, in the optimization, a plurality of iterations of performance of the machine learning algorithm by the processor architecture. Each of the iterations may include detecting a running time of an immediately preceding one of the iterations, changing a value of one of the parameters used in the immediately preceding iteration to form a new set of values, where the value is changed based on the detected running time of the immediately preceding iteration and according to a downhill simplex algorithm. An optimal set of values for the parameters may be determined based on the plurality of iterations to realize a minimum running time to complete performance of the machine learning algorithm by the processor architecture.",
+  "filing_date": "20160920",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 illustrates an embodiment of system including an example running time optimization engine. FIGS. 2A-2B illustrate an examples of processor architectures. FIG. 3 is a simplified block diagram illustrating an example running time optimization performed using an example optimization engine. FIG. 4 illustrates a simplified block diagram illustrating a flow of an optimization algorithm used during an example running time optimization. FIG. 5 are representations of adjustment operations performed in an example optimization algorithm used during an example running time optimization. FIG. 6 is a flowchart illustrating example techniques for performing a running time optimization for the performance of a particular machine learning algorithm by a particular processor architecture. FIG. 7 is a block is a block diagram of an exemplary processor in accordance with one embodiment; FIG. 8 is a block diagram of an exemplary mobile device system in accordance with one embodiment; and FIG. 9 is a block diagram of an exemplary computing system in accordance with one embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"? Like reference numbers and designations in the various drawings indicate like elements.",
+  "date_published": "20180322",
+  "title": "OPTIMIZING MACHINE LEARNING RUNNING TIME",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1582"
+  ],
+  "_processing_info": {
+    "original_size": 98508,
+    "optimized_size": 2933,
+    "reduction_percent": 97.02
+  }
+}

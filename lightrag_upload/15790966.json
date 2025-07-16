@@ -1,0 +1,78 @@
+{
+  "patent_number": "None",
+  "application_number": "15790966",
+  "date_published": "20180301",
+  "date_produced": "20180213",
+  "filing_date": "20171023",
+  "main_ipcr_label": "G06N504",
+  "abstract": "The present principles are directed to identifying and classifying web traffic inside encrypted network tunnels. A method includes analyzing network traffic of unencrypted data packets to detect packet traffic, timing, and size patterns. The detected packet, timing, and size traffic patterns are correlated to at least a packet destination and a packet source of the unencrypted data packets to create at least one of a training corpus and a model built from the training corpus. The at least one of the corpus and model is stored in a memory device. Packet traffic, timing, and size patterns of encrypted data packets are observed. The observed packet traffic, timing, and size patterns of the encrypted data packets are compared to at least one of the training corpus and the model to classify the encrypted data packets with respect to at least one of a predicted network host and predicted path information.",
+  "publication_number": "US20180060745A1-20180301",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the present principles, there is provided a method. The method includes analyzing network traffic of unencrypted data packets to detect packet traffic patterns, packet timing patterns, and packet size patterns therein. The method further includes correlating the detected packet traffic patterns, the detected packet timing patterns, and the detected packet size patterns to at least a packet destination and a packet source of the unencrypted data packets to create at least one of a training corpus and a model built from the training corpus. The method also includes storing the at least one of the training corpus and the model in a memory device. The method additionally includes observing packet traffic patterns, packet timing patterns, and packet size patterns of encrypted data packets. The method moreover includes comparing the observed packet traffic patterns, the observed packet timing patterns, and the observed packet size patterns of the encrypted data packets to at least one of the training corpus and the model to classify the encrypted data packets with respect to at least one of a predicted network host and predicted path information for the encrypted data packets. According to another aspect of the present principles, there is provided a system. The system includes a feature extractor for analyzing network traffic of unencrypted data packets to detect packet traffic patterns, packet timing patterns, and packet size patterns therein. The system further includes a modeling engine for correlating the detected packet traffic patterns, the detected packet timing patterns, and the detected packet size patterns to at least a packet destination and a packet source of the unencrypted data packets to create at least one of a training corpus and a model built from the training corpus. The system also include a memory for storing the at least one of the training corpus and the model. The feature generator observes packet traff...",
+  "ipcr_labels": [
+    "G06N504",
+    "H04L2908",
+    "G06N9900",
+    "G06N500",
+    "H04L1224",
+    "H04L1226",
+    "H04L2906"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHRISTODORESCU",
+      "inventor_name_first": "Mihai",
+      "inventor_city": "Briarcliff Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HU",
+      "inventor_name_first": "Xin",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SCHALES",
+      "inventor_name_first": "Douglas L.",
+      "inventor_city": "Ardsley",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SAILER",
+      "inventor_name_first": "Reiner",
+      "inventor_city": "Scarsdale",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "STOECKLIN",
+      "inventor_name_first": "Marc PH.",
+      "inventor_city": "Bern",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Ting",
+      "inventor_city": "Elmsford",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WHITE",
+      "inventor_name_first": "Andrew M.",
+      "inventor_city": "Chapel Hill",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "IDENTIFICATION AND CLASSIFICATION OF WEB TRAFFIC INSIDE ENCRYPTED NETWORK TUNNELS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 43358,
+    "optimized_size": 4445,
+    "reduction_percent": 89.75
+  }
+}

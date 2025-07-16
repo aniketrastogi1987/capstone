@@ -1,0 +1,54 @@
+{
+  "patent_number": "None",
+  "application_number": "15582420",
+  "date_published": "20171102",
+  "date_produced": "20171018",
+  "filing_date": "20170428",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A hardware-based programmable deep learning processor (DLP) is proposed, wherein the DLP comprises with a plurality of accelerators dedicated for deep learning processing. Specifically, the DLP includes a plurality of tensor engines configured to perform operations for pattern recognition and classification based on a neural network. Each tensor engine includes one or more matrix multiplier (MatrixMul) engines each configured to perform a plurality of dense and/or sparse vector-matrix and matrix-matrix multiplication operations, one or more convolutional network (ConvNet) engines each configured to perform a plurality of efficient convolution operations on sparse or dense matrices, one or more vector floating point units (VectorFPUs) each configured to perform floating point vector operations, and a data engine configured to retrieve and store multi-dimensional data to both on-chip and external memories.",
+  "publication_number": "US20170316312A1-20171102",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Aspects of the present disclosure are best understood from the following detailed description when read with the accompanying figures. It is noted that, in accordance with the standard practice in the industry, various features are not drawn to scale. In fact, the dimensions of the various features may be arbitrarily increased or reduced for clarity of discussion. FIG. 1 depicts an example of a diagram of a system 100 configured to support hardware-based deep learning processing in accordance with some embodiments. FIG. 2 depicts an example of a neural network, which includes a plurality of layers in accordance with some embodiments. FIG. 3 depicts an example of a convolutional neural network for pattern recognition and classification in accordance with some embodiments. FIG. 4 depicts an example of a block diagram of key components of each tensor engine in accordance with some embodiments. FIG. 5A depicts an example of vector-matrix multiplication in accordance with some embodiments. FIG. 5B depicts an example of matrix-matrix multiplication in accordance with some embodiments. FIG. 6 depicts an example of a neural network before and after pruning in accordance with some embodiments. FIG. 7A depicts an example of kernel reuse in accordance with some embodiments. FIG. 7B depicts an example of image reuse in accordance with some embodiments. FIG. 7C depicts an example of stride reuse in accordance with some embodiments. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F7523",
+    "G06F1716",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Goyal",
+      "inventor_name_first": "Rajan",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bullis",
+      "inventor_name_first": "Ken",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Billa",
+      "inventor_name_first": "Satyanarayana Lakshmipathi",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dikshit",
+      "inventor_name_first": "Abhishek",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR DEEP LEARNING PROCESSOR",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 39770,
+    "optimized_size": 3500,
+    "reduction_percent": 91.2
+  }
+}

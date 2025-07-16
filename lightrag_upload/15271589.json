@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170412",
+  "publication_number": "US20170116520A1-20170427",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15271589",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Min",
+      "inventor_name_first": "Renqiang",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Huahua",
+      "inventor_city": "Minneapolis",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kadav",
+      "inventor_name_first": "Asim",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods and systems for training a neural network include sampling multiple local sub-networks from a global neural network. The local sub-networks include a subset of neurons from each layer of the global neural network. The plurality of local sub-networks are trained at respective local processing devices to produce trained local parameters. The trained local parameters from each local sub-network are averaged to produce trained global parameters.",
+  "filing_date": "20160921",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method for training a neural network includes sampling multiple local sub-networks from a global neural network. The local sub-networks include a subset of neurons from each layer of the global neural network. The plurality of local sub-networks are trained at respective local processing devices to produce trained local parameters. The trained local parameters from each local sub-network are averaged to produce trained global parameters. A system for training a neural network includes multiple local sub-network processing devices. Each local sub-network processing device includes a neural network module having neurons that represent a subset of neurons from each layer of a global neural network. The neural network module is configured to train a local sub-network to produce trained local parameters. A global parameter server is configured to average the trained local parameters from each local sub-network to produce global parameters. These and other features and advantages will become apparent from the following detailed description of illustrative embodiments thereof, which is to be read in connection with the accompanying drawings.",
+  "date_published": "20170427",
+  "title": "Memory Efficient Scalable Deep Learning with Model Parallelization",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1716"
+  ],
+  "_processing_info": {
+    "original_size": 37189,
+    "optimized_size": 2482,
+    "reduction_percent": 93.33
+  }
+}

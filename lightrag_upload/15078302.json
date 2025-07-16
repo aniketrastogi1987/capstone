@@ -1,0 +1,60 @@
+{
+  "date_produced": "20160908",
+  "publication_number": "US20160275398A1-20160922",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15078302",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Corvinelli",
+      "inventor_name_first": "Vincent",
+      "inventor_city": "Mississauga",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Huaxin",
+      "inventor_city": "Delta",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Mingbin",
+      "inventor_city": "Scarborough",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Ziting",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Zuzarte",
+      "inventor_name_first": "Calisto P.",
+      "inventor_city": "Pickering",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "In an approach for generating a selectivity estimation, one or more processors generate an artificial neural network and receive a DBMS query comprising one or more predicates. One or more processors replace one or more predicates in the one or more predicates that have strict operators with one or more predicates that have non-strict operators. One or more processors generate a selectivity function from the one or more predicates that has one or more arguments that are each comprised of an upper bound and a lower bound for a value in a predicate. One or more processors generate a training data set from a data distribution in the database and train the artificial neural network on the training data set to compute the selectivity function. One or more processors generate a selectivity estimation with the artificial neural network for one or more predicates in the DBMS query.",
+  "filing_date": "20160323",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Aspects of an embodiment of the present invention disclose a method for generating a selectivity estimation. The method includes generating, by one or more processors, an artificial neural network with a hidden layer comprising one or more neurons, wherein the one or more neurons are grouped into one or more groups of neurons, wherein each neuron in a group of neurons in the one or more groups of neurons compute with a common jump activation function. The method further includes receiving, by one or more processors, a DBMS query comprising one or more predicates, wherein a predicate in the one or more predicates operates on one or more database columns. The method further includes replacing, by one or more processors, a first predicate, in the one or more predicates, that operates on a first value with operator=, with a second predicate that operates on the first value with operator ≧ and a third predicate that operates on the first value with operator ≦. The method further includes replacing, by one or more processors, a fourth predicate, in the one or more predicates, that operates on a second value in a first database column with operator <>, with a fifth predicate that operates on the second value with operator > and a sixth predicate that operates on the second value with operator <. The method further includes replacing, by one or more processors, a strict range operator > in a seventh predicate, in the one or more predicates, that operates on a third value in a second database column, with a non-strict range operator ≧ that operates on a fourth value in the second database column, wherein the fourth value is a smallest value in the second database column that is greater than the third value. The method further includes replacing, by one or more processors, a strict range operator < in an eighth predicate, in the one or more predicates, that operates on a fifth value in a third database column, with a non-strict range operator ≦ that operate...",
+  "date_published": "20160922",
+  "title": "CARDINALITY ESTIMATION USING ARTIFICIAL NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 69648,
+    "optimized_size": 4050,
+    "reduction_percent": 94.19
+  }
+}

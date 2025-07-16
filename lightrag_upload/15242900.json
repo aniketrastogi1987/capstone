@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180207",
+  "publication_number": "US20180053118A1-20180222",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15242900",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kataria",
+      "inventor_name_first": "Saurabh",
+      "inventor_city": "Rochester",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sun",
+      "inventor_name_first": "Tong",
+      "inventor_city": "Penfield",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method and a system are provided for correlation detection in multiple spatio-temporal datasets for event sensing in a geographical area. The method includes extracting datasets, comprising information about one or more events, from one or more data sources. The method further includes identifying a primary data source and secondary data sources from the one or more data sources. The method further includes extracting primary features from the datasets associated with the primary data source and secondary features from the datasets associated with the secondary data sources. The primary features are categorized into one or more categories. The method further includes training classifiers based on the primary features and/or the one or more categories. The method further includes detecting a correlation among the information associated with the one or more events based on a category transfer distribution from the primary data source to the secondary data sources.",
+  "filing_date": "20160822",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to embodiments illustrated herein, there is provided a method for correlation detection among events based on datasets from multiple data sources. The method includes receiving, by a processor at a server, one or more datasets from each of one or more data sources over a communication network. The one or more datasets include at least information about one or more events in a geographical area. The method further includes identifying, by a data processor, a primary data source and one or more secondary data sources from the one or more data sources based on a first pre-defined criteria. The method further includes extracting, by a feature extraction processor at the server, one or more primary features from the one or more datasets associated with the primary data source and one or more secondary features from the one or more datasets associated with the one or more secondary data sources. The one or more primary features are categorized into one or more categories based on a second pre-defined criteria. The method further includes training, by the processor at the server, one or more classifiers based on at least one of the one or more primary features and the one or more categories of the one or more primary features. The method further includes detecting, by the processor, a correlation among the information associated with the one or more events based on a category transfer distribution from the primary data source to the one or more secondary data sources. The one or more secondary features are categorized based on the category transfer distribution using one or more trained classifiers for the determination of the correlation. According to embodiments illustrated herein, there is provided a system for correlation detection among events based on datasets from multiple data sources. The system includes one or more processors that are configured to receive one or more datasets from each of one or more data sources over a communication...",
+  "date_published": "20180222",
+  "title": "METHOD AND SYSTEM FOR CORRELATION DETECTION IN MULTIPLE SPATIO-TEMPORAL DATASETS FOR EVENT SENSING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F954",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 91851,
+    "optimized_size": 3733,
+    "reduction_percent": 95.94
+  }
+}

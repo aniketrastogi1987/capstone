@@ -1,0 +1,81 @@
+{
+  "patent_number": "None",
+  "application_number": "15624577",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170615",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Aspects of the present invention are directed to computer-implemented techniques for improving the training of artificial neural networks using a reduced precision (e.g., float16) data format. Embodiments of the present invention rescale tensor values prior to performing matrix operations (such as matrix multiplication or matrix addition) to prevent overflow and underflow. To preserve accuracy throughout the performance of the matrix operations, the scale factors are defined using a novel data format to represent tensors, wherein a matrix is represented by the tuple X, where X=(a, v[.]), wherein a is a float scale factor and v[.] are scaled values stored in the float16 format. The value of any element X[i] according to this data format would be equal to a*v[i].",
+  "publication_number": "US20170372202A1-20171228",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the invention, nor is it intended to be used to limit the scope of the invention. Embodiments of the present invention are directed to computer-implemented techniques for improving the training of artificial neural networks using a reduced precision (e.g., float16) data format. Embodiments of the present invention rescale tensor values prior to performing matrix operations (such as matrix multiplication or matrix addition) to prevent overflow and underflow. To preserve accuracy throughout the performance of the matrix operations, the scale factors are defined using a novel data format to represent tensors, wherein a matrix is represented by the tuple X, where X=(a, v[.]), wherein a is a float scale factor and v[.] are scaled values stored in the float16 format. The value of any element X[i] according to this data format would be equal to a*v[i]. In this manner, the memory usage and performance advantages of float16 format can be realized while avoiding the problems associated with underflow and overflow. According to one embodiment of the present invention, a computer-implemented method is provided for performing matrix operations with data represented in a novel reduced precision format. According to embodiments, matrices comprising values represented in a reduced precision floating point data format are accessed. The values are compared to one or more threshold values and scaling factors are determined to correspond to each of the input matrices. In one or more embodiments, the scaling factors are calculated based on the input values such that, when applied to the input values, performing a matrix computation that involves the matrices avoid generating both overflow and underflow values. Once the data values ...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "GINSBURG",
+      "inventor_name_first": "Boris",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "NIKOLAEV",
+      "inventor_name_first": "Sergei",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KISWANI",
+      "inventor_name_first": "Ahmad",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WU",
+      "inventor_name_first": "Hao",
+      "inventor_city": "Hanzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "GHOLAMINEJAD",
+      "inventor_name_first": "Amir",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KIERAT",
+      "inventor_name_first": "Slawomir",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HOUSTON",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FIT-FLOREA",
+      "inventor_name_first": "Alex",
+      "inventor_city": "Belmont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "TENSOR PROCESSING USING LOW PRECISION FORMAT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 67524,
+    "optimized_size": 4367,
+    "reduction_percent": 93.53
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364800A1-20171221",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15184372",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KIRANYAZ",
+      "inventor_name_first": "Serkan",
+      "inventor_city": "Doha",
+      "inventor_state": "",
+      "inventor_country": "QA"
+    },
+    {
+      "inventor_name_last": "INCE",
+      "inventor_name_first": "Turker",
+      "inventor_city": "Izmir",
+      "inventor_state": "",
+      "inventor_country": "TR"
+    },
+    {
+      "inventor_name_last": "EREN",
+      "inventor_name_first": "Levent",
+      "inventor_city": "Izmir",
+      "inventor_state": "",
+      "inventor_country": "TR"
+    }
+  ],
+  "abstract": "A method and apparatus may include receiving a signal from a motor. The signal is received while the motor is operating. The method also includes performing a pre-processing of the signal. The method also includes inputting the signal to a 1D convolutional neural network. The method also includes detecting a fault of the motor based on the output of the neural network.",
+  "filing_date": "20160616",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to a first embodiment, a method can include receiving a signal from a motor. The signal is received while the motor is operating. The method can also include performing a pre-processing of the signal. The method can also include inputting the signal to a 1D convolutional neural network. The method can also include detecting a fault of the motor based on an output of the neural network. In the method of the first embodiment, receiving the signal includes receiving the signal from an induction motor. In the method of the first embodiment, performing the pre-processing of the signal includes at least one of down-sampling the signal, filtering the signal, and normalizing the signal. In the method of the first embodiment, receiving the signal includes receiving a motor current signal. In the method of the first embodiment, the 1D convolution neural network can be configured to perform a plurality of back-propagation iterations, and to update weights and bias sensitivities of the 1D convolution neural network for each back-propagation iteration. In the method of the first embodiment, detecting the fault of the motor includes detecting a bearing fault of the motor. According to a second embodiment, an apparatus can include at least one processor. The apparatus can also include at least one memory including computer program code. The at least one memory and the computer program code can be configured, with the at least one processor, to cause the apparatus at least to receive a signal from a motor. The signal is received while the motor is operating. The apparatus is also caused to perform a pre-processing of the signal. The apparatus is also caused to input the signal to a 1D convolutional neural network. The apparatus is also caused to detect a fault of the motor based on an output of the neural network. In the apparatus of the second embodiment, receiving the signal includes receiving the signal from an induction motor. In the apparatus of th...",
+  "date_published": "20171221",
+  "title": "METHOD AND APPARATUS FOR PERFORMING MOTOR-FAULT DETECTION VIA CONVOLUTIONAL NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1126"
+  ],
+  "_processing_info": {
+    "original_size": 38030,
+    "optimized_size": 3236,
+    "reduction_percent": 91.49
+  }
+}

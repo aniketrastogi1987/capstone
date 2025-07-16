@@ -1,0 +1,46 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344902A1-20171130",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15169255",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shacham",
+      "inventor_name_first": "Dan",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Merhav",
+      "inventor_name_first": "Uri",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Fang",
+      "inventor_name_first": "Zhanpeng",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In an example embodiment, a solution that automatically predicts an industry for a candidate company is provided. An existing industry classifier is trained using a first machine learning algorithm, the first machine learning algorithm taking as input first training data and existing industries listed in an industry taxonomy. A new industry classifier is trained using a second machine learning algorithm, the second machine learning algorithm taking as input second training data and new industries listed in an industry taxonomy. Then the candidate company is fed into the existing industry classifier, producing one or more predicted existing industries corresponding to the candidate company. The candidate company is also fed into the new industry classifier, producing one or more predicted new industries corresponding to the candidate company. One or more final predicted industries are selected from among the one or more predicted existing industries and the one or more predicted new ind...",
+  "filing_date": "20160531",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments of the technology are illustrated, by way of example and not limitation, in the figures of the accompanying drawings. FIG. 1 is a block diagram illustrating a client-server system, in accordance with an example embodiment. FIG. 2 is a block diagram showing the functional components of a social networking service, including a data processing module referred to herein as a search engine, for use in generating and providing search results for a search query, consistent with some embodiments of the present disclosure. FIG. 3 is a block diagram illustrating the application server module of FIG. 2 in more detail in accordance with an example embodiment. FIG. 4 is a diagram illustrating sample training data in accordance with an example embodiment. FIG. 5 is a diagram illustrating additional sample training data in accordance with an example embodiment. FIG. 6 is diagram illustrating an example of operation of the industry selection component in accordance with an example embodiment. FIG. 7 is diagram illustrating an example of operation of the industry selection component in accordance with another example embodiment. FIG. 8 is a flow diagram illustrating a method for automatically predicting an industry for a candidate company in accordance with an example embodiment. FIG. 9 is a block diagram illustrating a representative software architecture, which may be used in conjunction with various hardware architectures herein described. FIG. 10 is a block diagram illustrating components of a machine, according to some example embodiments, able to read instructions from a machine-readable medium (e.g., a machine-readable storage medium) and perform any one or more of the methodologies discussed herein. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20171130",
+  "title": "Parent Company Industry Classifier",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q5000",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 84934,
+    "optimized_size": 3691,
+    "reduction_percent": 95.65
+  }
+}

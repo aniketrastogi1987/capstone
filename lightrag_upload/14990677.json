@@ -1,0 +1,37 @@
+{
+  "date_produced": "20170627",
+  "publication_number": "US20170200083A1-20170713",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "14990677",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Proctor",
+      "inventor_name_first": "Mark",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Fusco",
+      "inventor_name_first": "Mario",
+      "inventor_city": "Milan",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    }
+  ],
+  "abstract": "A processing device executing a rule engine receives a first object. The processing device determines whether the first object is represented by a relational model or an object-oriented model. The first object is determined to be represented by the relational model responsive to the first object lacking a reference to a nested object. The first object is determined to be represented by the object-oriented model responsive to the first object including a reference to a nested object. If the first object is represented by the relational model, a join is performed between the first object and a second object based on a relationship between the objects using a first node. If the first object is represented by the object-oriented model, an expression of the first object is evaluated to navigate to a third object that is a first nested object of the first object using a second node.",
+  "filing_date": "20160107",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The present invention is illustrated by way of example, and not by way of limitation, in the figures of the accompanying drawings and in which: FIG. 1 illustrates an example system that implements a rule engine. FIG. 2 illustrates a simple example network having a single rule, in accordance with one embodiment of the present invention. FIG. 3 illustrates an example of object relationships, in accordance with one embodiment of the present invention. FIG. 4 illustrates another example network having a single rule, in accordance with one embodiment of the present invention. FIG. 5 illustrates another example network having a single rule, in accordance with one embodiment of the present invention. FIG. 6 illustrates an exemplary graph, in accordance with one embodiment of the present invention. FIG. 7 illustrates another example network having a single rule and implementing nodes for objects represented by an object-oriented model, in accordance with one embodiment of the present invention. FIG. 8A illustrates one embodiment of a method to determine whether an object is represented by a relational model or an object-oriented model. FIG. 8B illustrates an embodiment of a method using a callback to update an object in response to a change. FIG. 9 illustrates a block diagram of an exemplary computing device. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170713",
+  "title": "BUILDING A HYBRID REACTIVE RULE ENGINE FOR RELATIONAL AND GRAPH REASONING",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 94212,
+    "optimized_size": 3020,
+    "reduction_percent": 96.79
+  }
+}

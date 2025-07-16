@@ -1,0 +1,83 @@
+{
+  "decision": "PENDING",
+  "application_number": "15105483",
+  "date_published": "20170202",
+  "date_produced": "20170119",
+  "title": "SMART SHIFT SELECTION IN A CLOUD VIDEO SERVICE",
+  "filing_date": "20160616",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Aghdasi",
+      "inventor_name_first": "Farzin",
+      "inventor_city": "Clovis",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DiCroce",
+      "inventor_name_first": "Tony T.",
+      "inventor_city": "Fresno",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rippee",
+      "inventor_name_first": "Scott M.",
+      "inventor_city": "Clovis",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Velasquez",
+      "inventor_name_first": "Barry",
+      "inventor_city": "Clovis",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Andersen, III",
+      "inventor_name_first": "Emil",
+      "inventor_city": "Clovis",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Millar",
+      "inventor_name_first": "Greg M.",
+      "inventor_city": "Coarsegold",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Medhurst",
+      "inventor_name_first": "Kirsten A.",
+      "inventor_city": "Fairfax",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mitchell",
+      "inventor_name_first": "Stephen J.",
+      "inventor_city": "Reedley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04N718",
+    "H04L2908",
+    "G06F1730",
+    "G11B2734",
+    "G06K900"
+  ],
+  "main_ipcr_label": "H04N718",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Example embodiments of the present invention provide a method of managing a video surveillance system. A plurality of entries are stored to a database, where each entry corresponds to one of a plurality of cameras. Further, each entry includes a camera identifier and at least one tag. The database is indexed by one or more classes, and each of the entries is associated with the one or more of the classes based on its tag. The database is then searched, based on a user input string and the classes, to determine a selection of the entries. As a result of the search, video content is caused to be transmitted to a user interface, where the video content corresponds to at least one of the plurality of cameras corresponding to the selection of entries. The cameras may be connected to distinct nodes of a network, and the video content may be routed across the network to the user interface. In further embodiments, the plurality of entries can be associated with the classes based on a semantic equivalence of the respective tags. The tags may be automatically updated in response to a user operation, such as accessing a camera, viewing the video content, and selecting at least one camera. The updating can include, for example, automatically adding a tag to the entries, the tag corresponding to a user input. In still further embodiments, the tags may be automatically updated based on a camera identifier or a set of rules. For example, a tag may be added to indicate a view obtained by a respective camera. Tags may also be modified to match a semantically equivalent tag. In yet further embodiments, a semantic equivalent of the user input string may be generated and employed in the database search. The classes may include a number of classes that indicate characteristics of the associated cameras, such as the view obtained by the camera or geographic location of the camera. A camera, based on its tags, may be associated with one or more of the c...",
+  "patent_number": "None",
+  "abstract": "A cloud-based network service provides intelligent access to surveillance camera views across multiple locations and environments. A cloud computing server maintains a database of time periods of interest captured by the cameras connected to the network. The server also maintains defined motion data associated with recorded video content. Video segments are generated from the recorded video content according to both the motion data and the time periods of interest. The server causes the video segments to be transmitted to a user interface, where a user can remotely monitor an environment through the video segments.",
+  "publication_number": "US20170034483A1-20170202",
+  "_processing_info": {
+    "original_size": 64297,
+    "optimized_size": 4240,
+    "reduction_percent": 93.41
+  }
+}

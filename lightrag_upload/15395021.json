@@ -1,0 +1,32 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193401A1-20170706",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15395021",
+  "inventor_list": [
+    {
+      "inventor_name_last": "GREHANT",
+      "inventor_name_first": "Xavier",
+      "inventor_city": "Colombes",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "The invention notably relates to a computer-implemented method for selecting an appropriate decision by constraining options assessed with a model. The method comprises selecting a model capable of receiving inputs and providing output in response to an input; training a model with a set of data representing similar events; generating options that represent hypothetical events; computing target values by applying the trained model on the generated options; computing index for indexing the generated options and target values associated with the trained model; querying the said index for obtaining a selection of a set of options, the selection being performed according to a specific constraint; returning, as a result of the query, a subset of the set of the generated options, the subset being ranked according to the target values associated with each option.",
+  "filing_date": "20161230",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is therefore provided a computer-implemented method for selecting an appropriate decision by constraining options assessed with a model. The method comprises: selecting a model capable of receiving inputs and providing output in response to an input; training a model with a set of data representing similar events; generating options that represent hypothetical events; computing target values by applying the trained model on the generated options; computing an index for indexing the generated options and target values associated with the trained model; querying the said index for obtaining a selection of a set of options, the selection being performed according to a specific constraint; returning, as a result of the query, a subset of the set of the generated options, the subset being ranked according to the target values associated with each option. The method may comprise one or more of the following: training the model further comprise collecting a set of data representing similar events; training the model based on the collected set of data representing similar events; the set of data representing similar events comprises a set of observations wherein each observation is defined with variables: identifying target variables on the set of observations, a target variable being a variable; identifying measurable variables on the set of observations, a measurable variable being a variable that can be measured in a current observation of a current event that is similar to the past events; identifying actionable variables on the set of observations, an actionable variable being a variable that can be acted upon based on the decision of a user; training the model further comprise computing a set of data that are generated from a set of simulations; training the model based on the generated set of data; generating the options that represent hypothetical events comprises defining each variable of each observation on continuous segment...",
+  "date_published": "20170706",
+  "title": "RECOMMENDATIONS BASED ON PREDICTIVE MODEL",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 70924,
+    "optimized_size": 3421,
+    "reduction_percent": 95.18
+  }
+}

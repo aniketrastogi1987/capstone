@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171025",
+  "publication_number": "US20170323219A1-20171109",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15146846",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shahrzad",
+      "inventor_name_first": "Hormoz",
+      "inventor_city": "Dublin",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hodjat",
+      "inventor_name_first": "Babak",
+      "inventor_city": "Dublin",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Miikkulainen",
+      "inventor_name_first": "Risto",
+      "inventor_city": "Stanford",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Roughly described, an evolutionary data mining system includes at least two processing units, each having a pool of candidate individuals in which each candidate individual has a fitness estimate and experience level. A first processing unit tests candidate individuals against training data, updates an individual's experience level, and assigns each candidate to one of multiple layers of the candidate pool based on the individual's experience level. Individuals within the same layer of the same pool compete with each other to remain candidates. The first processing unit selects a set of candidates to retain based on the relative novelty of their responses to the training data. The first processing unit reports successful individuals to the second processing unit, and receives individuals for further testing from the second processing unit. The second processing unit selects individuals to retain based on their fitness estimate.",
+  "filing_date": "20160504",
+  "patent_number": "None",
+  "summary": "<SOH> I. SUMMARY <EOH>U.S. patent application Ser. No. 14/011,062 (GNFN 3100-1), incorporated by reference herein, describes client/server arrangements for implementing an evolutionary data mining system. In some such arrangements, the pool of candidate individuals is distributed over a multitude of clients for evaluation. Each client continues to evaluate its own client-centric candidate pool using portions of data from a training database or data feed, which it may receive in bulk or recurrently. Individuals that satisfy one or more predefined conditions on a client computer are transmitted to the server to form part of a server candidate pool. In the above-incorporated application, the functions of the server may be federated. Roughly described, this is achieved by providing “mid-chain” evolutionary coordinators, and placing them between the main server (which in this arrangement can be called a “top-chain” evolutionary coordinator, or a “master” evolutionary coordinator) and the clients (which in this arrangement can be called “evolutionary engines”). Multiple levels of mid-chain evolutionary coordinators can be used in a hierarchy, and the various branches of the hierarchy need not have equal length. Each evolutionary coordinator (other than the top-chain evolutionary coordinator) appears to its up-chain neighbor as if it were an evolutionary engine, though it does not actually perform any evolution itself. Similarly, each evolutionary coordinator (including the top-chain evolutionary coordinator) also appears to its down-chain neighbors as a top-chain evolutionary coordinator. Each mid-chain evolutionary coordinator maintains its own local candidate pool, reducing the load on the top-chain evolutionary coordinator pool, as well as reducing bandwidth requirements. As used herein, the term “evolutionary unit” includes both “evolutionary coordinators” and “evolutionary engines”. To achieve a diverse population, individuals may be selected for procreation based on...",
+  "date_published": "20171109",
+  "title": "DATA MINING TECHNIQUE WITH DISTRIBUTED NOVELTY SEARCH",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N312"
+  ],
+  "_processing_info": {
+    "original_size": 127088,
+    "optimized_size": 3859,
+    "reduction_percent": 96.96
+  }
+}

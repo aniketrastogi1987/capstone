@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180103",
+  "publication_number": "US20180018573A1-20180118",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15208020",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Henderson",
+      "inventor_name_first": "James Brinton",
+      "inventor_city": "Vessy",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Popa",
+      "inventor_name_first": "Diana Nicoleta",
+      "inventor_city": "Grenoble",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "A system and method for making entailment inferences are disclosed. Entailment inferences are computed between semantic representations of text objects which, for a set of features, indicate whether the feature is known or unknown about the text object. A function of the semantic representations of first and second text objects is computed with an asymmetric vector space operator which differs depending on the entailment relationship.",
+  "filing_date": "20160712",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION <EOH>In accordance with one aspect of the exemplary embodiment, a method for making an entailment inference includes, with a processor, computing an entailment inference for a first text object with respect to a second text object. This includes computing a function of semantic representations of the first and second text objects with an asymmetric vector space operator. Information based on the inference is output. In accordance with another aspect of the exemplary embodiment, an entailment system includes a representation generation component which generates semantic representations of text objects using a trained semantic model, each semantic representation comprising a multidimensional vector. An inference component computes an entailment inference for a first text object with respect to a second text object. This includes computing a function of semantic representations of the first and second text objects with an asymmetric vector space operator. An output component outputs information based on the inference. A processor implements the components. In accordance with another aspect of the exemplary embodiment, a method for making an entailment inference includes storing an asymmetric vector space operator for computing a function of semantic representations of first and second text objects, the asymmetric vector space operator being selected from a forward-inference entailment operator, a backward-inference entailment operator, and a factorized entailment operator. The forward-inference entailment operator predicts whether the first text object, having a semantic representation X, is entailed by the second text object, having a semantic representation Y, as a function of a dot product of X and log Y, or sigmoid functions thereof, where log Y is a vector in which each element is the log e of the corresponding element in Y. The backward-inference entailment operator predicts whether the second text object entails the first text object as a...",
+  "date_published": "20180118",
+  "title": "VECTOR OPERATORS FOR DISTRIBUTIONAL ENTAILMENT",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 106483,
+    "optimized_size": 3139,
+    "reduction_percent": 97.05
+  }
+}

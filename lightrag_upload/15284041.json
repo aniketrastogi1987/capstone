@@ -1,0 +1,47 @@
+{
+  "decision": "PENDING",
+  "application_number": "15284041",
+  "date_published": "20170126",
+  "date_produced": "20170110",
+  "title": "CLOUD BASED VIRTUAL ENVIRONMENT VALIDATION",
+  "filing_date": "20161003",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hudlow",
+      "inventor_name_first": "Gandolf G.",
+      "inventor_city": "San Marcos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bond",
+      "inventor_name_first": "Eugene T.",
+      "inventor_city": "Trabuco Canyon",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Thompson",
+      "inventor_name_first": "Adam J.",
+      "inventor_city": "Henderson",
+      "inventor_state": "NV",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F1114",
+    "G07F1732",
+    "H04L2908"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments described or referenced herein are directed to systems and methods for providing on-demand deployment, management, authentication, and validation services for virtual machines deployed in a cloud-based on-demand service environment. The virtual machines may be deployed to provide wager-based game services and/or casino management services to remote machines. In some implementations, a system provides for validation of a deployment of a master deployment set. The system includes one or more data sources, one or more component servers, and one or more validation servers. The one or more data sources are configured to store one or more master deployment sets. A master deployment set includes one or more master virtual machines that are configured to have a master snapshot taken. A master deployment set further includes a manifest of files of regulatory importance. The one or more component servers are configured to host at least one deployment of a master deployment set. The at least one deployment includes one or more virtual machines, wherein the one or more virtual machines are one instance of corresponding one or more master virtual machines within the master deployment set. The one or more virtual machines are further configured to have a deployment snapshot taken. The one or more validation servers are configured to: generate, for each of a selected one or more virtual machines in the at least one deployment, a deployment snapshot, the deployment snapshot including a first set of files; generate, for each of a corresponding one or more master virtual machines in the master deployment set corresponding with the at least one deployment, a master snapshot, the master snapshot including a second set of files; determine, for each of the selected one or more virtual machines in the at least one deployment, a first selection of files from the deployment snapshot, the first selection of files determined by using the manifest of file...",
+  "patent_number": "None",
+  "abstract": "Techniques for providing on-demand validation services for wager-based virtual machines deployed in a cloud based virtual environment. In some implementations, data sources store master deployment sets containing virtual machines. The master deployment sets may be deployed to component servers to provide a gaming related software services to remote client machines. The on-demand service takes snapshots of the virtual machines in the deployment and the virtual machines in the master deployment set. The snapshots are compared to ensure that important files in the master deployment set have not been improperly modified in the deployment. In some implementations, a secure hashing algorithm creates signatures for the snapshots prior to the comparison and the signatures are compared. The validation result may be sent to a remote client that requested the validation.",
+  "publication_number": "US20170026494A1-20170126",
+  "_processing_info": {
+    "original_size": 99586,
+    "optimized_size": 3749,
+    "reduction_percent": 96.24
+  }
+}

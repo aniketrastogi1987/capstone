@@ -1,0 +1,31 @@
+{
+  "date_produced": "20160928",
+  "publication_number": "US20160300152A1-20161013",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15100432",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kloppenburg",
+      "inventor_name_first": "Ernst",
+      "inventor_city": "Ditzingen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "A method for creating a Gaussian process model as a data-based functional model for an output quantity that is to be modeled, based on training data in an input data space, including providing training data having training data points and output values, assigned to the training data points, of one or more output quantities; ascertaining a point density that is a function of the position of the training data points in the input data space; ascertaining a length scale function for each input quantity of the training data as a function of the point density; and generating a Gaussian process model from the training data and the output data of the output quantity to be modeled, based on the ascertained length scale functions.",
+  "filing_date": "20160531",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to the present invention, a method is provided for creating a Gaussian process model as a data-based functional model according to claim 1 , and a device and a computer program are provided. According to a first aspect, an example method is provided for creating a Gaussian process model as a data-based functional model for an output quantity that is to be modeled, based on training data in an input data space, the method including the following steps: providing training data having training data points and output values, assigned to the training data points, of one or more output quantities; ascertaining a point density that is a function of the position of the training data points in the input data space; ascertaining a length scale function for each input quantity of the training data as a function of the point density; and generating a Gaussian process model from the training data and from the output values of the output quantity to be modeled, based on the ascertained length scale functions. Conventional Gaussian process models model a system behavior based on hyperparameters, namely the variance σ f and the length scales, which are constant for each dimension of the input data space, and having a parameter vector in which the hyperparameters and the values of the output quantity of the training data are taken into account. Due to the constant length scales, in particular stronger variations within a sub-region of the input data space are not adequately taken into account. The function of the length scales in Gaussian process models is explained in detail in particular in C. E. Rasmussen et al., “Gaussian Processes for Machine Learning,” MIT Press, 2006, ISBN 026218253X; www.GaussianProcess.org/gpml. The example method described above circumvents these problems of high complexity of the calculation for providing varying length scales in that the density of the training data points in the sub-areas of the input data space are used as ...",
+  "date_published": "20161013",
+  "title": "METHOD AND DEVICE FOR DETERMINING A DATA-BASED FUNCTIONAL MODEL",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 30785,
+    "optimized_size": 3311,
+    "reduction_percent": 89.24
+  }
+}

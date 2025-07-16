@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15202978",
+  "date_published": "20170622",
+  "date_produced": "20170607",
+  "title": "COMMUNICATION SYSTEM WITH SERIAL PORTS FOR AUTOMATICALLY IDENTIFYING DEVICE TYPES AND COMMUNICATION PROTOCOLS AND METHOD THEREOF",
+  "filing_date": "20160706",
+  "inventor_list": [
+    {
+      "inventor_name_last": "JIANG",
+      "inventor_name_first": "Shyh-Biau",
+      "inventor_city": "Pingzhen City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Li-Wu",
+      "inventor_city": "Pingzhen City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1342"
+  ],
+  "main_ipcr_label": "G06F1342",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>One objective of the present invention is to provide a communication system with a plurality of serial ports for automatically identifying a plurality of device types and communication protocols and method thereof. The communication system with a plurality of serial ports for automatically identifying a plurality of device types and communication protocols utilizes the control unit to control the serial port architecture in order to perform an initial driver function for initializing the interface device, where the communication system is capable of automatically identifying the device types and communication protocols of the interface devices with different device numbers which are installed with the serial port architecture. The application program module and the user do not need to know the device type and communication protocol of the interface device in advance. After the device type and communication protocol of the interface device are identified, the driver functions are capable of performing a serial communication based on the serial port architecture for matching the device types and communication protocols correspondingly when the application program module communicates with the interface device via the device number using the control unit, thereby reducing the development and manufacturing costs of communication system. Another objective of the present invention is to provide a communication system with a plurality of serial ports for automatically identifying a plurality of device types and communication protocols and method thereof. The user of an application program module only needs to provide the device numbers and data control information without the cooperation of hardware circuits and manufacturing technique of the interface devices to complete the automatic control and monitoring tasks of the interface devices to increase the utilization convenience. According to the above objectives, the present invention set...",
+  "patent_number": "None",
+  "abstract": "A communication system with serial ports for automatically identifying device types and communication protocols and method thereof are described. The communication system and method are capable of automatically identifying the device types and communication protocols of interface devices with different serial device numbers which are disposed in the serial port architecture. Furthermore, the drivers are capable of performing a serial communication based on the serial port architecture for matching the device types and communication protocols correspondingly, thereby reducing the development and manufacturing costs of communication system. Moreover, the user of an application program module only needs to provide the device numbers and data control information without the cooperation of hardware circuits and manufacturing technique of the interface devices to complete the automatic control and monitoring tasks of the interface devices to increase the utilization convenience.",
+  "publication_number": "US20170177538A1-20170622",
+  "_processing_info": {
+    "original_size": 92551,
+    "optimized_size": 3756,
+    "reduction_percent": 95.94
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180207",
+  "publication_number": "US20180053117A1-20180222",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15242631",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CAFFREY",
+      "inventor_name_first": "JAMES M.",
+      "inventor_city": "WOODSTOCK",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments include identifying unusual activity in an IT system based on user configurable message anomaly scoring. Aspects include receiving a message stream for the IT system and dividing the message stream into a plurality of intervals, wherein each interval corresponds to a time period. Aspects also include identifying and removing one or more intervals from the plurality of intervals that include a startup or a shutdown of an element of the IT system, identifying and removing one or more intervals from the plurality of intervals that correspond to a standard level of command activity and an elevated level of user complaint activity, and identifying and removing one or more intervals from the plurality of intervals that correspond to an elevated level of command activity and an standard level of user complaint activity. Aspects further include creating a training set of intervals that consists of the remaining labelled intervals.",
+  "filing_date": "20160822",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with an embodiment, a method for identifying unusual activity in an information technology (IT) system is provided. The method includes receiving, by a processing device, a message stream for the IT system and dividing the message stream into a plurality of intervals, wherein each interval corresponds to a time period. The method also includes identifying and removing one or more intervals from the plurality of intervals that include a startup or a shutdown of an element of the IT system, identifying and removing one or more intervals from the plurality of intervals that correspond to a standard level of command activity and an elevated level of user complaint activity, and identifying and removing one or more intervals from the plurality of intervals that correspond to an elevated level of command activity and an standard level of user complaint activity. The method further includes creating a training set of intervals that consists of the remaining labelled intervals. In accordance with another embodiment, a system for identifying unusual activity in an information technology (IT) system includes a processor in communication with one or more types of memory. The processor is configured to receive a message stream for the IT system and divide the message stream into a plurality of intervals, wherein each interval corresponds to a time period. The processor is also configured to identify and remove one or more intervals from the plurality of intervals that include a startup or a shutdown of an element of the IT system, identify and remove one or more intervals from the plurality of intervals that correspond to a standard level of command activity and an elevated level of user complaint activity, and identify and remove one or more intervals from the plurality of intervals that correspond to an elevated level of command activity and an standard level of user complaint activity. The processor is further configured to create a training ...",
+  "date_published": "20180222",
+  "title": "LABELLING INTERVALS USING SYSTEM DATA TO IDENTIFY UNUSUAL ACTIVITY IN INFORMATION TECHNOLOGY SYSTEMS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 41948,
+    "optimized_size": 3553,
+    "reduction_percent": 91.53
+  }
+}

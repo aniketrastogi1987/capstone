@@ -1,0 +1,82 @@
+{
+  "decision": "PENDING",
+  "application_number": "15258546",
+  "date_published": "20170810",
+  "date_produced": "20170726",
+  "title": "AUTOMATIC DESKEW USING DESIGN FILES OR INSPECTION IMAGES",
+  "filing_date": "20160907",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jain",
+      "inventor_name_first": "Arpit",
+      "inventor_city": "Indore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Yati",
+      "inventor_name_first": "Arpit",
+      "inventor_city": "Lucknow",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Jayaraman",
+      "inventor_name_first": "Thirupurasundari",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Konuru",
+      "inventor_name_first": "Raghavan",
+      "inventor_city": "Kurnnol",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Kuppa",
+      "inventor_name_first": "Raj",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Prasad",
+      "inventor_name_first": "Hema",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Momula",
+      "inventor_name_first": "Saiyashwanth",
+      "inventor_city": "Telangana",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Lobo",
+      "inventor_name_first": "Arun",
+      "inventor_city": "Karnataka",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T700",
+    "G01N23225",
+    "H01L2166",
+    "H01J3722"
+  ],
+  "main_ipcr_label": "G06T700",
+  "summary": "<SOH> BRIEF SUMMARY OF THE DISCLOSURE <EOH>In a first embodiment, a system is provided. A system comprises a review tool; an electronic data storage unit in which one or more reference files are stored; and a controller in electronic communication with the review tool. The review tool includes a stage configured to hold a wafer and an image generation system configured to generate an image of the wafer. The controller is configured to receive the image of the wafer from the review tool; identify one or more alignment sites in the image of the wafer; receive a reference file corresponding to the image of the wafer from the review tool from the electronic data storage unit; mark at least one die corner on the wafer; compare one or more alignment sites in the reference file to one or more alignment sites in the image from the review tool; and generate a deskew transform corresponding to the image of the wafer based on the one or more alignment sites. Each reference file has one or more alignment sites. The controller can include a processor and a communication port in electronic communication with the processor and the electronic data storage unit. The review tool can be a scanning electron microscope. The reference file can be, for example, a design file or an inspection image of the wafer. The image of the wafer may not contain a defect having a size from 3 μm to 50 μm. The image generation system can be configured to use at least one of an electron beam, a broad band plasma, or a laser to generate the image of the wafer. The controller can further be configured to apply the deskew transform to the image of the wafer. The controller also can further be configured to validate that the image of the wafer from the review tool and the design file remain aligned after the deskew transform is applied. In a second embodiment, a method is provided. The method comprises loading a wafer on a stage of a review tool; receiving, from the review tool, an image of the wafer having ...",
+  "patent_number": "None",
+  "abstract": "Deskew for image review, such as SEM review, aligns inspection and review coordinate systems. Deskew can be automated using design files or inspection images. A controller that communicates with a review tool can align a file of the wafer, such as a design file or an inspection image, to an image of the wafer from the review tool; compare alignment sites of the file to alignment sites of the image from the review tool; and generate a deskew transform of coordinates of the alignment sites of the file and coordinates of alignment sites of the image from the review tool. The image of the wafer may not contain defects.",
+  "publication_number": "US20170228866A1-20170810",
+  "_processing_info": {
+    "original_size": 52611,
+    "optimized_size": 4225,
+    "reduction_percent": 91.97
+  }
+}

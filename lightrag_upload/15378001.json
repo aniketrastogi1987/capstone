@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060722A1-20180301",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15378001",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HWANG",
+      "inventor_name_first": "Sang Heum",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Hyo Eun",
+      "inventor_city": "Seongnam-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "Provided are a machine learning method based on weakly supervised learning includes extracting feature maps about a dataset given a first type of information and not given a second type of information by using a convolutional neural network (CNN), updating the CNN by back-propagating a first error value calculated as a result of performing a task corresponding to the first type of information by using a first model, and updating the CNN by back-propagating a second error value calculated as a result of performing the task corresponding to the first type of information by using a second model different from the first model, wherein the second type of information is extracted when the task corresponding to the first type of information is performed using the second model.",
+  "filing_date": "20161213",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Aspects of the inventive concept provide a method and apparatus for training oneself on a dataset to be learned and executing an intended task without using a pre-trained network. Aspects of the inventive concept also provide a method and apparatus for training a convolutional neural network (CNN) by oneself by using a small dataset in an environment in which a large dataset cannot be secured. However, aspects of the inventive concept are not restricted to the one set forth herein. The above and other aspects of the inventive concept will become more apparent to one of ordinary skill in the art to which the inventive concept pertains by referencing the detailed description of the inventive concept given below. According to an aspect of the inventive concept, there is provided A machine learning method based on weakly supervised learning, the method performed by a machine learning apparatus and comprises extracting feature maps about a dataset given a first type of information and not given a second type of information by using a convolutional neural network (CNN), updating the CNN by back-propagating a first error value calculated as a result of performing a task corresponding to the first type of information by using a first model and updating the CNN by back-propagating a second error value calculated as a result of performing the task corresponding to the first type of information by using a second model different from the first model, wherein the second type of information is extracted when the task corresponding to the first type of information is performed using the second model. According to another aspect of the inventive concept, there is provided A machine learning method based on weakly supervised learning, the method performed by a machine learning apparatus and comprises extracting feature maps about a dataset given a first type of information and not given a second type of information by using a CNN, calculating a first error value b...",
+  "date_published": "20180301",
+  "title": "MACHINE LEARNING METHOD AND APPARATUS BASED ON WEAKLY SUPERVISED LEARNING",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 91043,
+    "optimized_size": 3494,
+    "reduction_percent": 96.16
+  }
+}

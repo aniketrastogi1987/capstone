@@ -1,0 +1,53 @@
+{
+  "date_produced": "20170405",
+  "publication_number": "US20170109653A1-20170420",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15058837",
+  "inventor_list": [
+    {
+      "inventor_name_last": "AGARWAL",
+      "inventor_name_first": "Puneet",
+      "inventor_city": "Noida",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Shroff",
+      "inventor_name_first": "Gautam",
+      "inventor_city": "Gurgaon",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Saikia",
+      "inventor_name_first": "Sarmimala",
+      "inventor_city": "Noida",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Srinivasan",
+      "inventor_name_first": "Ashwin",
+      "inventor_city": "Sancoale",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "This disclosure relates generally to multi-sensor data, and more particularly to summarizing multi-sensor data. In one embodiment, the method includes computing plurality of histograms from sensor data associated with a plurality of sensors. The respective histograms of each sensor are clustered into a first plurality of sensor-clusters, and a first set of rules is extracted therefrom. First set of rules defines patterns of histograms of a set of sensors occurring frequently over a time-period. Two or more sensor-clusters from amongst the first plurality of sensor-clusters are merged selectively to obtain a second plurality of sensor-clusters. Second set of rules are extracted from the second plurality of sensor-clusters, and a set of correlated sensors are identified therefrom based on the second set of rules. Third set of rules are extracted from the set of correlated sensors, the third set of rules summarizes the multi-sensor data to represent prominent co-occurring sensor behaviors...",
+  "filing_date": "20160302",
+  "patent_number": "nan",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure present technological improvements as solutions to one or more of the above-mentioned technical problems recognized by the inventors in conventional systems. For example, in one embodiment, a computer-implemented method for summarization of multi-sensor data is provided. The method includes computing, via one or more hardware processors, a plurality of histograms from sensor data associated with a plurality of sensors. Further, the method includes, clustering via the one or more hardware processors and from the plurality of histograms, respective histograms of each of the plurality of sensors to obtain a first plurality of sensor-clusters based on shape of the respective histograms. Each sensor-cluster of the first plurality of sensor-clusters includes a centroid histogram representative of distinct sensor behavior for a distinct sensor of the plurality of sensors. Furthermore, the method includes performing, via the one or more hardware processors, frequent pattern mining on the first plurality of sensor-clusters to extract a first set of rules. A rule of the first set of rules is associated with a set of sensors of the plurality of sensors and includes a set of sensor-clusters occurring frequently in the first plurality of sensor-clusters over a time period. Moreover, the method includes selectively merging, via the one or more hardware processors, two or more sensor-clusters from amongst the first plurality of sensor-clusters to obtain a second plurality of sensor-clusters. The two or more sensor-clusters are selected corresponding to a sensor of the set of sensors. The two or more sensor-clusters are merged based on two or more rules from amongst the first set of rules associated with the two or more sensor-clusters and a distance measure between the two or more sensor-clusters of the sensor. Additionally, the method includes extracting, via the one or more hardware processors, a second set of rules from t...",
+  "date_published": "20170420",
+  "title": "MULTI-SENSOR DATA SUMMARIZATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 91134,
+    "optimized_size": 3977,
+    "reduction_percent": 95.64
+  }
+}

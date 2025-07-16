@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180103",
+  "publication_number": "US20180018576A1-20180118",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15207722",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Boyer",
+      "inventor_name_first": "John M.",
+      "inventor_city": "Victoria",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Fadnis",
+      "inventor_name_first": "Kshitij P.",
+      "inventor_city": "Dublin",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Raghu",
+      "inventor_name_first": "Dinesh",
+      "inventor_city": "New Delhi",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "A mechanism is provided in a data processing system for text classifier training. The data processing system receives a training set of text and class specification pairs to be used as a ground truth for training a text classifier machine learning model for a text classifier. Each text and class specification pair comprises a text and a corresponding class specification. A domain terms selector component executing on a processor of the data processing system identifies at least one domain term in the texts of the training set. A domain terms replacer component executing on a processor of the data processing system replaces the at least one identified domain term in the texts of the training set with a corresponding replacement term to form a revised set of text and class specification pairs. A text classifier trainer component executing on a processor of the data processing system trains the text classifier machine learning model using the revised set to form a trained text classifier ...",
+  "filing_date": "20160712",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described herein in the Detailed Description. This Summary is not intended to identify key factors or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. In one illustrative embodiment, a method is provided in a data processing system for text classifier training. The method comprising receiving, by the data processing system, a training set of text and class specification pairs to be used as a ground truth for training a text classifier machine learning model for a text classifier. The method further comprises identifying, by a domain terms selector component executing on a processor of the data processing system, at least one domain term in the texts of the training set. The method further comprises replacing, by a domain terms replacer component executing on a processor of the data processing system, the at least one identified domain term in the texts of the training set with a corresponding replacement term to form a revised set of text and class specification pairs. The method further comprises training, by a text classifier trainer component executing on a processor of the data processing system, the text classifier machine learning model using the revised set to form a trained text classifier machine learning model. In other illustrative embodiments, a computer program product comprising a computer usable or readable medium having a computer readable program is provided. The computer readable program, when executed on a computing device, causes the computing device to perform various ones of, and combinations of, the operations outlined above with regard to the method illustrative embodiment. In yet another illustrative embodiment, a system/apparatus is provided. The system/apparatus may comprise one or more processors and a memory coupled to the one or more proces...",
+  "date_published": "20180118",
+  "title": "Text Classifier Training",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1727"
+  ],
+  "_processing_info": {
+    "original_size": 94612,
+    "optimized_size": 3819,
+    "reduction_percent": 95.96
+  }
+}

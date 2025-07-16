@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189638A1-20180705",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15396520",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NURVITADHI",
+      "inventor_name_first": "Eriko",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MARR",
+      "inventor_name_first": "Deborah",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Hardware accelerator templates and design frameworks for implementing recurrent neural networks (RNNs) and variants thereof are described. A design framework module obtains a flow graph for an RNN algorithm. The flow graph identifies operations to be performed to implement the RNN algorithm and further identifies data dependencies between ones of the operations. The operations include matrix operations and vector operations. The design framework module maps the operations of the flow graph to an accelerator hardware template, yielding an accelerator instance comprising register transfer language code that describes how one or more matrix processing units and one or more vector processing units are to be arranged to perform the RNN algorithm. At least one of the one or more MPUs, as part of implementing the RNN algorithm, is to directly provide or directly receive a value from one of the one or more VPUs.",
+  "filing_date": "20161231",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The invention may best be understood by referring to the following description and accompanying drawings that are used to illustrate some embodiments. In the drawings: FIG. 1 is a block diagram illustrating a recurrent neural network and an unrolled recurrent neural network. FIG. 2 is a block diagram illustrating exemplary compositions of a standard recurrent neural network, a gated recurrent unit variant, and a long short term memory variant. FIG. 3 is a diagram illustrating a composition of matrix and vector operations for implementing a gated recurrent unit variant. FIG. 4 is a block diagram illustrating an exemplary design framework and top-level architecture of a hardware accelerator template according to some embodiments. FIG. 5 is a block diagram illustrating a table of customizable parameters of a hardware accelerator template and a table of auto-tuning factors according to some embodiments. FIG. 6 is a block diagram illustrating matrix processing unit customizations, including a matrix multiplication, a matrix processing unit using six floating-point-multiple add units, and a matrix processing unit using twelve floating-point-multiple add units according to some embodiments. FIG. 7 is a block diagram illustrating exemplary programming for a pipelined gated recurrent unit computation according to some embodiments. FIG. 8 is a flow diagram illustrating a flow of operations for generating an accelerator instance to implement a recurrent neural network according to some embodiments. FIG. 9 illustrates an exemplary implementation in which an accelerator is communicatively coupled to a plurality of cores through a cache coherent interface according to some embodiments. FIG. 10 illustrates another view of an accelerator according to some embodiments. FIG. 11 illustrates an exemplary set of operations performed by the processing elements according to some embodiments. FIG. 12 a depicts an example of a multiplication betw...",
+  "date_published": "20180705",
+  "title": "HARDWARE ACCELERATOR TEMPLATE AND DESIGN FRAMEWORK FOR IMPLEMENTING RECURRENT NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 176555,
+    "optimized_size": 3660,
+    "reduction_percent": 97.93
+  }
+}

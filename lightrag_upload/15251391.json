@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060737A1-20180301",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15251391",
+  "inventor_list": [
+    {
+      "inventor_name_last": "EZRY",
+      "inventor_name_first": "Raphael",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "GOYAL",
+      "inventor_name_first": "Munish",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "TAN",
+      "inventor_name_first": "Jingzi",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "VARSHNEY",
+      "inventor_name_first": "Shobhit",
+      "inventor_city": "Somers",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, computer program products, and systems are presented. The methods include, for instance: building model connections between models in a knowledgebase, which stores case data as model networks. An exploration probability stored in the knowledgebase indicates a likelihood of new connections based on a case data input to be employed for an analytical model of the case data input, which includes numerous stages and multiple model choices in each stage. Based on the new connections and model networks of the knowledgebase, paths are created and performance of respective paths/connections are evaluated. A predefined number of top performing paths are selected and the models and attributes that do not appear in the top performing paths are eliminated from the knowledgebase. Probabilities of model networks and a future case data input are updated accordingly and a best-fit model for the case data input is presented to a user.",
+  "filing_date": "20160830",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The shortcomings of the prior art are overcome, and additional advantages are provided, through the provision, in one aspect, of a method. The method for adaptive analytical modeling includes, for example: obtaining, by one or more processor of a computer, a case data input for an analysis in a number of stages; building all model connections between models in the knowledgebase with a complementary of an exploration probability, wherein the knowledgebase stores one or more model networks and the exploration probability indicating a likelihood to discover a new model network that performs well and that is not stored in the knowledgebase; integrating new model connections based on the case data input into the knowledgebase with the exploration probability; selecting a predefined number of paths that perform best based on ranking respective model connections from the building and the integrating by use of preconfigured performance metrics, wherein each of the paths includes respective models in each of the stages and respective model connections from a first stage through a last stage; eliminating one or more poor models and attributes associated with respective poor models from the knowledgebase, wherein the poor models do not present in the paths from the selecting; updating a model network probability indicating a likelihood to use the model networks stored in the knowledgebase as resulted from the eliminating, by use of the exploration probability; calculating a new exploration probability for another case data input in using the knowledgebase as resulted from the updating; and producing the predefined number of paths from the selecting, without the poor models as resulted from the eliminating, to a user as a best-fit model for the analysis of the case data. Additional features are realized through the techniques set forth herein. Other embodiments and aspects, including but not limited to computer program product and system, are described in det...",
+  "date_published": "20180301",
+  "title": "ADAPTIVE ANALYTICAL MODELING TOOL",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 59999,
+    "optimized_size": 3912,
+    "reduction_percent": 93.48
+  }
+}

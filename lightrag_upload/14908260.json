@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160601",
+  "publication_number": "US20160171368A1-20160616",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "14908260",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Aspuru-Guzik",
+      "inventor_name_first": "Alan",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Babbush",
+      "inventor_name_first": "Ryan",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "O'Gorman",
+      "inventor_name_first": "Bryan",
+      "inventor_city": "Edison",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Solution of a problem of determining values of a set of N problem variables x, makes use of a quantum processor that has a limited number of hardware elements for representing quantum bits and/or limitations on coupling between quantum bits. A method includes accepting a specification of the problem that includes a specification of a set of terms where each term corresponds to a product of at least three variables and is associated with a non-zero coefficient. A set of ancilla variables, each ancilla variable corresponding to a pair of problem variables, is determined by applying an optimization procedure to the specification of the set of the terms. The accepted problem specification is then transformed according to the determined ancilla variables to form a modified problem specification for use in configuring the quantum processor and solution of problem.",
+  "filing_date": "20160128",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>There is a need configure a quantum computer to solve a 3-local (or more generally k-local for k=3, 4, or >4) optimization within the hardware capacity for number of variables and/or available precision of coupling coefficients. For example, arbitrary introduction of ancilla variables may achieve the technical requirement of conversion of a problem to a 2-local form, but that converted form may exceed the number of variables that can be supported by the quantum computer hardware or require a precision that exceeds the available precision of the quantum computer. In one aspect, in general, a method is for use in solution of a problem of determining values of a set of N problem variables x i by a quantum processor that has a limited number of hardware elements for representing quantum bits and/or limitations on coupling between quantum bits. The method includes accepting a specification of the problem that includes a specification of a set of terms where each term corresponds to a product of at least three variables and is associated with a non-zero coefficient. A set of ancilla variables, each ancilla variable corresponding to a pair of problem variables, is determined by applying an optimization procedure to the specification of the set of the terms. The accepted problem specification is then transformed according to the determined ancilla variables to form a modified problem specification for use in configuring the quantum processor and solution of problem. Aspects may include one or more of the following features. The modified problem is solved using the quantum processor using an adiabatic quantum annealing approach. The optimization procedure includes a set covering procedure in which a minimal set of variable pairs cover all the terms of the set of terms. In some examples, applying the optimization procedure includes applying an Integer Linear Programming (ILP) procedure. In some examples, applying the optimization procedure includes applying...",
+  "date_published": "20160616",
+  "title": "QUANTUM PROCESSOR PROBLEM COMPILATION",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 75304,
+    "optimized_size": 3703,
+    "reduction_percent": 95.08
+  }
+}

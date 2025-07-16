@@ -1,0 +1,52 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15010326",
+  "date_published": "20160526",
+  "date_produced": "20160511",
+  "title": "MEMORY ACCESS METHOD AND APPARATUS FOR MESSAGE-TYPE MEMORY MODULE",
+  "filing_date": "20160129",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gao",
+      "inventor_name_first": "Xiang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Bing",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Shan",
+      "inventor_name_first": "Shuchang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Hu",
+      "inventor_name_first": "Yu",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1110",
+    "G11C2952"
+  ],
+  "main_ipcr_label": "G06F1110",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention provide a memory access method and apparatus for a message-type memory module, so as to provide an error-tolerant memory access solution with low power consumption and high reliability, and and may be implemented at a variable granularity. According to a first aspect, the present invention provides a memory access apparatus for a message-type memory module, where the memory module includes (M+2) dynamic random access memories DRAMs, where M is equal to 2 to the power of m, m is a positive integer, data that can be accessed in one read-write cycle and stored in each DRAM is referred to as a single chip burst cluster SCBC, and a set of data that can be accessed in a same read-write cycle and stored in all the DRAMs forms a memory row; and the apparatus includes: a read-write module, configured to store, to a corresponding DRAM, an SCBC to be stored within a current read-write cycle, where the SCBC is located in a current memory row, and the DRAM that is used to store the SCBC does not include an (M+2) th DRAM; and a processing module, configured to: calculate one group of error detecting code for each SCBC in a memory row, and calculate one group of error correcting code for all SCBCs in a memory row; where the read-write module is further configured to: store, in an (M+2) th DRAM in a memory row, an error detecting code that is obtained, through calculation, for the memory row; and store, in a Z th DRAM in a memory row, an error correcting code that is obtained, through calculation, for the memory row, where Z is a positive integer, 1≦Z≦(M+1), and error correcting codes in consecutive (M+1) memory rows are stored in different DRAMs. In a first possible implementation manner, the processing module is further configured to: when a read memory access request is received, instruct the read-write module to read a required SCBC and a corresponding error detecting code from the current memory row, check the read SCBC a...",
+  "patent_number": "9811416",
+  "abstract": "A memory access apparatus includes a read-write module and a processing module. The read-write module is configured to store an error detecting code in an (M+2)th DRAM in the memory row, and store the error correcting code in a Zth DRAM in the memory row, where Z is a positive integer, 1≦Z≦(M+1), and error correcting codes in consecutive (M+1) memory rows are stored in different DRAMs. The processing module is configured to calculate one group of error detecting code for each SCBC in a memory row, and calculate one group of error correcting code for all SCBCs in a memory row.",
+  "publication_number": "US20160147600A1-20160526",
+  "_processing_info": {
+    "original_size": 82449,
+    "optimized_size": 3581,
+    "reduction_percent": 95.66
+  }
+}

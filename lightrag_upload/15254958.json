@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170223",
+  "publication_number": "US20170068902A1-20170309",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15254958",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kirshner",
+      "inventor_name_first": "Sergey",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gray",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kite",
+      "inventor_name_first": "Lawrence",
+      "inventor_city": "Los Gatos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system and method for predicting a user of interest's location including collecting geospatial data of a plurality of users, the plurality of users including a user of interest and other users; and generating a model for the user of interest's location based on the collected geospatial data using one or more weights associated with one or more criteria to account for data surrogacy.",
+  "filing_date": "20160901",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, an innovative aspect of the subject matter described in this disclosure may be embodied in methods that include collecting geospatial data for a plurality of users including the user of interest and other users, generating a geospatial model based on the geospatial data of the user of interest and based on the geospatial data of the one or more other users, wherein the geospatial model is generated using a weight to account for one or more types of data surrogacy. According to another innovative aspect of the subject matter described in this disclosure, a system comprising one or more processors; and a memory storing instructions that, when executed by the one or more processors, cause the system to collect geospatial data of a plurality of users, the plurality of users including a user of interest and other users; and generate a model for the user of interest's location based on the collected geospatial data using one or more weights associated with one or more criteria to account for data surrogacy. Other implementations of one or more aspects include corresponding methods, systems, apparatus, and computer program products for these and other innovative features. These and other implementations may each optionally include one or more of the following features. For instance, the operations further include receiving information associated with an observed location, (x,y), wherein the information includes one of a probability density score associated with the observed location and the log of the probability density score associated with the observed location; receiving a quantile threshold, c; determining a density value, p c , corresponding to the received quantile threshold; determining that the observed location is an outlier when p((X=x, Y=y)|t)<p c ; and initiating an action based on determining the observed location is an outlier. For instance, the one or more criteria includes a time characteristic and the data surrogacy includes...",
+  "date_published": "20170309",
+  "title": "Modeling of Geospatial Location Over Time",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730",
+    "G06F1750"
+  ],
+  "_processing_info": {
+    "original_size": 72370,
+    "optimized_size": 3240,
+    "reduction_percent": 95.52
+  }
+}

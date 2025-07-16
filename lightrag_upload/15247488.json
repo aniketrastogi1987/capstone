@@ -1,0 +1,33 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15247488",
+  "date_published": "20170601",
+  "date_produced": "20170517",
+  "title": "METHOD AND ELECTRONIC DEVICE FOR SKIN COLOR DETECTION",
+  "filing_date": "20160825",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LI",
+      "inventor_name_first": "Yanjie",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K946",
+    "H04N160",
+    "G06T700",
+    "G06T740"
+  ],
+  "main_ipcr_label": "G06K946",
+  "summary": "<SOH> SUMMARY <EOH>The object of the present disclosure is to provide a method and a device for skin color detection, for solving the defect in the prior art that a large number of samples need to be collected so that preferable segmentation effects can be obtained only, and implementing effective skin color detection. To fulfill the foregoing object, the present disclosure adopts the following technical solutions. According to a first aspect, some embodiments of the present disclosure provide a method for skin color detection, including: reading an RGB image, and converting the RGB image from an RGB color space to an r-g color space, and obtaining an image to be detected; traversing and reading each pixel in the image to be detected, and calculating a first probability density of the pixel under a skin Gaussian mixture model and a second probability density of the pixel under a non-skin Gaussian mixture model according to a pre-established Gaussian mixture model; calculating the posteriori probability of the pixel belonging to a skin region according to the first probability density and the second probability density of the pixel; and attributing the pixel to the skin region when determining that the posteriori probability is greater than a preset posteriori probability threshold. According to a second aspect, some embodiments of the present disclosure provide an electronic device for skin color detection, including: at least one processor; and a memory communicably connected with the at least one processor for storing instructions executable by the at least one processor, wherein execution of the instructions by the at least one processor causes the at least one processor to: read an RGB image and convert the RGB image from an RGB color space to an r-g color space, and obtain an image to be detected; traverse and read each pixel in the image to be detected, and calculate a first probability density of the pixel under a skin Gaussian mixture model and a second prob...",
+  "patent_number": "None",
+  "abstract": "The present disclosure discloses a method and a device for skin color detection. The method includes: reading an RGB image, and converting the RGB image from an RGB color space to an r-g color space, and obtaining an image to be detected; traversing and reading each pixel in the image to be detected, and calculating a first probability density of the pixel under a skin Gaussian mixture model and a second probability density of the pixel under a non-skin Gaussian mixture model according to a pre-established Gaussian mixture model; calculating the posteriori probability of the pixel belonging to a skin region according to the first probability density and the second probability density of the pixel; and attributing the pixel to the skin region when determining that the posteriori probability is greater than a preset posteriori probability threshold. Effective skin color detection under a case of a few samples is implemented.",
+  "publication_number": "US20170154238A1-20170601",
+  "_processing_info": {
+    "original_size": 52167,
+    "optimized_size": 3504,
+    "reduction_percent": 93.28
+  }
+}

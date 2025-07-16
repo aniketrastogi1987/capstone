@@ -1,0 +1,45 @@
+{
+  "date_produced": "20161019",
+  "publication_number": "US20160321563A1-20161103",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15144184",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sinha",
+      "inventor_name_first": "Arunesh",
+      "inventor_city": "Glendale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tambe",
+      "inventor_name_first": "Milind",
+      "inventor_city": "Rancho Palos Verdes",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Chao",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An optimized artificial intelligence machine may: receive information indicative of the times, locations, and types of crimes that were committed over a period of time in a geographic area; receive information indicative of the number and locations of patrol agents that were patrolling during the period of time; build a learning model based on the received information that learns the relationships between the locations of the patrol agents and the crimes that were committed; and determine whether and where criminals would commit new crimes based on the learning model and a different number of patrol agents or locations of patrol agents. The optimized artificial intelligence machine may determine an optimum location of a pre-determined number of patrolling agents to minimize the number or seriousness of crimes in a geographic area based on the learned model of the relationships between the locations of the patrol agents and the crimes that were committed, and may automatically activate ...",
+  "filing_date": "20160502",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An optimized artificial intelligence machine may: receive information indicative of the times, locations, and types of crimes that were committed over a period of time in a geographic area; receive information indicative of the number and locations of patrol agents that were patrolling during the period of time; build a learning model based on the received information that learns the relationships between the locations of the patrol agents and the crimes that were committed; and determine whether and where criminals would commit new crimes based on the learning model and a different number of patrol agents or locations of patrol agents. The learning model may include a Dynamic Bayesian Network that captures the relationships between the locations of the patrol agents and the crimes that were committed. A compact representation of the Dynamic Bayesian Network may be used to reduce the time of building the learning model. The compact representation may improve the determination of whether and where criminals would commit new crimes from the built learning model. The optimized artificial intelligence machine may determine an optimum location of a pre-determined number of patrolling agents to minimize the number or seriousness of crimes in a geographic area based on the learned model of the relationships between the locations of the patrol agents and the crimes that were committed. The determination may use a dynamic programming-based algorithm and/or an alternative greedy algorithm. The patrolling agents may include robots. The optimized artificial intelligence machine may automatically position the robots in accordance with the determination. The patrol agents may include security cameras. The optimized artificial intelligence machine may automatically activate or position one or more of the security cameras in accordance with the determination. A non-transitory, tangible, computer-readable storage media may contain a program of instructions that co...",
+  "date_published": "20161103",
+  "title": "OPTIMIZED ARTIFICIAL INTELLIGENCE MACHINES THAT ALLOCATE PATROL AGENTS TO MINIMIZE OPPORTUNISTIC CRIME BASED ON LEARNED MODEL",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q5026"
+  ],
+  "_processing_info": {
+    "original_size": 44494,
+    "optimized_size": 3932,
+    "reduction_percent": 91.16
+  }
+}

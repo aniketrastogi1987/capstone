@@ -1,0 +1,66 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140270A1-20170518",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15349950",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mnih",
+      "inventor_name_first": "Volodymyr",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Puigdomènech Badia",
+      "inventor_name_first": "Adrià",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Graves",
+      "inventor_name_first": "Alexander Benjamin",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Harley",
+      "inventor_name_first": "Timothy James Alexander",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Silver",
+      "inventor_name_first": "David",
+      "inventor_city": "Hitchin",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Kavukcuoglu",
+      "inventor_name_first": "Koray",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for asynchronous deep reinforcement learning. One of the systems includes a plurality of workers, wherein each worker is configured to operate independently of each other worker, and wherein each worker is associated with a respective actor that interacts with a respective replica of the environment during the training of the deep neural network.",
+  "filing_date": "20161111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to reinforcement learning. In particular, this specification describes techniques for asynchronously training a deep neural network used by a reinforcement learning system to select actions to be performed by an agent when interacting with an environment. For a system of one or more computers to be configured to perform particular operations or actions means that the system has installed on it software, firmware, hardware, or a combination of them that in operation cause the system to perform the operations or actions. For one or more computer programs to be configured to perform particular operations or actions means that the one or more programs include instructions that, when executed by data processing apparatus, cause the apparatus to perform the operations or actions. The subject matter described in this specification can be implemented in particular embodiments so as to realize one or more of the following advantages. By parallelizing training, a neural network used by a reinforcement learning system can be trained faster. More particularly, by parallelizing the training using multiple workers operating independently on a single machine, communication costs incurred as a result of the parallelization can be reduced. Additionally, by removing the need for the workers to store experience tuples in a replay memory or other storage as is generally required in parallelization techniques that include multiple workers on multiple machines, memory requirements for the training can be reduced and on-policy reinforcement learning methods can be employed. The details of one or more embodiments of the subject matter of this specification are set forth in the accompanying drawings and the description below. Other features, aspects, and advantages of the subject matter will become apparent from the description, the drawings, and the claims.",
+  "date_published": "20170518",
+  "title": "ASYNCHRONOUS DEEP REINFORCEMENT LEARNING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 59391,
+    "optimized_size": 3679,
+    "reduction_percent": 93.81
+  }
+}

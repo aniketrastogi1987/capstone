@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180103",
+  "publication_number": "US20180018569A1-20180118",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15207523",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Roitman",
+      "inventor_name_first": "Haggai",
+      "inventor_city": "Yoknea'm Elit",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Sar-Shalom",
+      "inventor_name_first": "Oren",
+      "inventor_city": "Nes Ziona",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "Methods, computing systems and computer program products implement embodiments of the present invention that include identifying a set of the items in the transactions, and executing, using input including the transactions, an implicit feedback collaborative filtering model to compute, for each of the users, a predicted rating for each of the items. Using input including the transactions and the predicted ratings as labels, a sentiment analysis model is executed to compute, for each given user, an opinion for each of the given items in the transactions for the given user, and using input including the transactions and the opinions as factors for the predicted ratings, an explicit feedback collaborative analysis model is executed to update, for each of the users, the predicted ratings for each of the items.",
+  "filing_date": "20160712",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>There is provided, in accordance with an embodiment of the present invention a method, including receiving a set of transactions for multiple users, each of the transactions including a user, an item, and a text string indicating an attitude of the given user toward the item, identifying a set of the items in the transactions, executing, using input including the transactions, an implicit feedback collaborative filtering model to compute, for each of the users, a predicted rating for each of the items, executing, using input including the transactions and the predicted ratings as labels, a sentiment analysis model to compute, for each given user, an opinion for each of the given items in the transactions for the given user, and executing, using input including the transactions and the opinions as factors for the predicted ratings, an explicit feedback collaborative analysis model to update, for each of the users, the predicted ratings for each of the items. There is also provided, in accordance with an embodiment of the present invention an apparatus, including a memory configured to store an implicit feedback collaborative filtering model, a sentiment analysis model and an explicit feedback collaborative filtering model, and a processor configured to receive a set of transactions for multiple users, each of the transactions including a user, an item, and a text string indicating an attitude of the user toward the item, to identify a set of the items in the transactions, to execute, using input including the transactions, the implicit feedback collaborative filtering model to compute, for each of the users, a predicted rating for each of the items, to execute, using input including the transactions and the predicted ratings as labels, the sentiment analysis model to compute, for each given user, an opinion for each of the given items in the transactions for the given user, and to execute, using input including the transactions and the opinions as ...",
+  "date_published": "20180118",
+  "title": "Mutual Reinforcement of Collaborative Filtering and Sentiment Analysis",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 48891,
+    "optimized_size": 3550,
+    "reduction_percent": 92.74
+  }
+}

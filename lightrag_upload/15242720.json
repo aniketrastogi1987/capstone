@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15242720",
+  "date_published": "20170622",
+  "date_produced": "20170607",
+  "title": "METHOD AND ELECTRONIC DEVICE FOR ALLOCATING DYNAMIC MEMORY RESOURCES",
+  "filing_date": "20160822",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Xie",
+      "inventor_name_first": "Guofeng",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G06F1202",
+    "H04W5202"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>This disclosure discloses a method and electronic device for allocating dynamic memory resources, to solve the problem that the method for prolonging the endurance time by optimizing system resources in the existing smart mobile terminal is not perfect, thereby prolonging the endurance time of the smart mobile terminal. Thus, the embodiments of this disclosure provide the following technical solutions: One objective of the embodiments of this disclosure is to provide a method for allocating dynamic memory resources, including the following steps: acquiring a memory resource allocation request of an application; judging whether a condition that the bandwidth of the dynamic memory to be allocated is restricted to partial bandwidth is met or not; and if the condition is met, then allocating partial bandwidth of the dynamic memory according to the memory resource allocation request; or otherwise, allocating all the bandwidth of the dynamic memory to the application. Preferably, the step of judging whether the condition that the bandwidth of the dynamic memory to be allocated is restricted to partial bandwidth is met or not includes: judging whether a memory resource allocation request for all the bandwidth of the dynamic memory exists or not; and if the memory resource allocation request exists, then determining that the condition is not met; or otherwise, determining that the condition is met. Preferably, the step of judging whether the condition that the bandwidth of the dynamic memory to be allocated is restricted to partial bandwidth is met or not includes: judging whether a screen of the mobile device is in a screen-off state or not; and if the screen is in the screen-off state, then determining that the condition is met; or otherwise, judging whether the number of CPU is less than 2 or not; and if the number of CPU is less than 2, then determining that the condition is not met. Preferably, the step of judging whether the condition that the bandw...",
+  "patent_number": "None",
+  "abstract": "This disclosure discloses a method and electronic device for allocating dynamic memory resources, wherein the method includes the following steps: acquiring a memory resource allocation request of an application; judging whether a condition that the bandwidth of the dynamic memory to be allocated is restricted to partial bandwidth is met or not; and if the condition is met, then allocating partial bandwidth of the dynamic memory according to the memory resource allocation request; or otherwise, allocating all the bandwidth of the dynamic memory to the application. The method and device disclosed by this disclosure allocate memory resources according to needs of a terminal device, so that not only the performance of a smart mobile terminal is guaranteed, but also the battery life of the smart mobile terminal is prolonged by avoiding the resource waste to save power consumption.",
+  "publication_number": "US20170177255A1-20170622",
+  "_processing_info": {
+    "original_size": 75025,
+    "optimized_size": 3464,
+    "reduction_percent": 95.38
+  }
+}

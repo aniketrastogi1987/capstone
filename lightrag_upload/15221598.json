@@ -1,0 +1,39 @@
+{
+  "decision": "PENDING",
+  "application_number": "15221598",
+  "date_published": "20170928",
+  "date_produced": "20170915",
+  "title": "NON-VOLATILE MEMORY APPARATUS AND EMPTY PAGE DETECTION METHOD THEREOF",
+  "filing_date": "20160728",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tai",
+      "inventor_name_first": "Ying Yu",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhu",
+      "inventor_name_first": "Jiangli",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1110",
+    "H03M1311",
+    "G11C2952"
+  ],
+  "main_ipcr_label": "G06F1110",
+  "summary": "<SOH> SUMMARY <EOH>The invention provides a non-volatile memory apparatus and an empty page detection method thereof which may correctly determine whether the memory page is an empty page. According to an exemplary embodiment of the present invention, a non-volatile memory (NVM) apparatus is provided. The NVM apparatus includes a NVM and a controller. The controller coupled to the NVM, configured to perform an empty page detection method to determine whether a memory page of the NVM is an empty page. The controller reads a content of the memory page. The controller performs a Low Density Parity Check (LDPC) decoding for at least one codeword of the memory page to obtain a decoded codeword and a check-result vector. The controller determines that the memory page is not an empty page when the LDPC decoding for the at least one codeword is successful. The controller counts an amount of bits being 1 in the check-result vector, or counts an amount of bits being 0 in the check-result vector when the LDPC decoding for the at least one codeword is fail. The controller determines whether the memory page is an empty page based on the amount of the bits being 1 in the check-result vector, or based on the amount of the bits being 0 in the check-result vector. According to an exemplary embodiment of the present invention, an empty page detection method is provided. The empty page detection method is used for determining whether a memory page of a NVM of a NVM apparatus is an empty page, wherein the NVM apparatus includes the NVM and a controller. The empty page detection method includes: reading a content of the memory page by the controller; performing a LDPC decoding for at least one codeword of the memory page by the controller to obtain a decoded codeword and a check-result vector; determining that the memory page is not an empty page by the controller when the LDPC decoding for the at least one codeword is successful; counting an amount of bits being 1 in the check-result v...",
+  "patent_number": "None",
+  "abstract": "A non-volatile memory (NVM) apparatus and an empty page detection method thereof are provided. The NVM apparatus includes a NVM and a controller. The controller reads the content of a memory page of the NVM. The controller performs Low Density Parity Check (LDPC) decoding for at least one codeword of the memory page to obtain a decoded codeword and a check-result vector. The controller determines that the memory page is not an empty page when the LDPC decoding for the codeword is successful. The controller counts an amount of the bits being 1 (or 0) in the check-result vector when the LDPC decoding for the codeword is fail. Based on the amount of the bits being 1 (or 0) in the check-result vector, the controller determines whether the memory page is an empty page.",
+  "publication_number": "US20170277589A1-20170928",
+  "_processing_info": {
+    "original_size": 42665,
+    "optimized_size": 3504,
+    "reduction_percent": 91.79
+  }
+}

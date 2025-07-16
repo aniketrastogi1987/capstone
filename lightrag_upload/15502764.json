@@ -1,0 +1,40 @@
+{
+  "patent_number": "None",
+  "application_number": "15502764",
+  "date_published": "20170810",
+  "date_produced": "20170726",
+  "filing_date": "20170208",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Provided herein are systems and methods for an iterative approach to topic modeling and the use of web mapping technology to implement advanced spatial operators for interactive high-dimensional visualization and inference.",
+  "publication_number": "US20170228654A1-20170810",
+  "summary": "<SOH> SUMMARY <EOH>There are provided herein systems and methods for an iterative approach to topic modeling and the use of web mapping technology to implement advanced spatial operators for interactive high-dimensional visualization and inference. An embodiment of disclosure provides an integrated workflow and framework to utilize topic modeling, self organizing map (SOM) dimensionality reduction, and web GIS to create interactive knowledge domain visualization from any domain-specific large text corpus and perform analytical operations that relate user-provided text input to a such text corpus and visualized base map. In a first aspect, a method of constructing a base map is disclosed. The method includes: processing data items to create modified data items; removing stop topics from the modified data items; processing of modified data item to create topic model usable data format to form a topic model; processing the topic model into a self organizing map (SOM) to form a geometric data structure; and providing the geometric data structure into a geographic information system (GIS) to form a base map. In an embodiment of the first aspect, the processing of data to create a topic model usable data format includes: receiving a plurality of text documents; and selecting a portion from each of the plurality of text documents to create a plurality of modified text documents. In an embodiment of the first aspect, the method further includes: converting the modified text documents into a topic model usable format. In an embodiment of the first aspect, the topic model usable format includes a plurality of individual modified text documents as plain text files or a single plain text file including line-separated text content of a plurality of modified text documents. In an embodiment of the first aspect, the method further includes: reformatting the topic model usable format into an ingestable topic model format. In an embodiment of the first aspect, the topic model includ...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730",
+    "G06F1721",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SKUPIN",
+      "inventor_name_first": "Andre",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DU",
+      "inventor_name_first": "Fangming",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHODS AND SYSTEMS FOR BASE MAP AND INFERENCE MAPPING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 67441,
+    "optimized_size": 2945,
+    "reduction_percent": 95.63
+  }
+}

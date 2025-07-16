@@ -1,0 +1,33 @@
+{
+  "decision": "PENDING",
+  "application_number": "15027281",
+  "date_published": "20160901",
+  "date_produced": "20160817",
+  "title": "TERMINAL DEVICE, SCREEN SHARING METHOD, AND SCREEN SHARING SYSTEM",
+  "filing_date": "20160405",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KOIKE",
+      "inventor_name_first": "Hiromasa",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F314",
+    "G06F30484",
+    "H04L2906",
+    "G09G512"
+  ],
+  "main_ipcr_label": "G06F314",
+  "summary": "<SOH> BRIEF DESCRIPTION OF DRAWINGS <EOH>FIG. 1 is a configuration diagram of an example of a conference system according to the an embodiment; FIG. 2 is a hardware configuration diagram of an example of a computer according to the an embodiment; FIG. 3 is a functional block diagram of an example of a registration terminal; FIG. 4 is a functional block diagram of an example of a conference server device; FIG. 5 is a functional block diagram of an example of a participating terminal; FIG. 6 is a flowchart of an example of a conference registration process; FIG. 7 is an image diagram of an example of a conference registration screen; FIG. 8 is a configuration diagram of an example of a conference information DB; FIG. 9 is a configuration diagram of an example of a material information DB; FIG. 10 is a flowchart of an example of a preliminary acquisition process of conference material; FIG. 11 is a configuration diagram of an example of conference material received by a preliminary acquisition process of the conference material; FIG. 12 is a flowchart of an example of a conference participation process; FIG. 13 is an image diagram of an example of a conference participation screen; FIG. 14 is a flowchart of an example of a conference participation process; FIG. 15 is an image diagram of an example of a conference screen; FIG. 16 is an image diagram of an example expressing how an XMPP message is distributed; and FIG. 17 illustrates an example of an XMPP message. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A terminal device shares a screen with other terminal devices via an information processing device. The terminal device acquires data necessary for screen display from an acquisition destination, and stores the acquired data in a storage unit, before receiving a request to share a screen from a user; sends the user's request to the information processing device, and acquires information necessary for sharing a screen from the information processing device; determines whether data necessary for screen display based on the request has been acquired, based on identification information of data necessary for screen display included in the information necessary for sharing the screen and identification information of data necessary for screen display stored in the storage unit; and starts to share the screen with the other terminal devices by using the data stored in the storage unit, when the data is determined to have been acquired.",
+  "publication_number": "US20160253143A1-20160901",
+  "_processing_info": {
+    "original_size": 64097,
+    "optimized_size": 3080,
+    "reduction_percent": 95.19
+  }
+}

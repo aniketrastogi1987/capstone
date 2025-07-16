@@ -1,0 +1,47 @@
+{
+  "decision": "PENDING",
+  "application_number": "15185486",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "title": "METHOD AND SYSTEM FOR AUTOMATIC E-MAIL ACCOUNT SETUP AND LINKAGE",
+  "filing_date": "20160617",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LYONS",
+      "inventor_name_first": "Garry",
+      "inventor_city": "Dublin 14",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "LOWENBERG",
+      "inventor_name_first": "Todd Christian",
+      "inventor_city": "Redding",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHAUHAN",
+      "inventor_name_first": "Rohit",
+      "inventor_city": "Somers",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q3004",
+    "G06F1730",
+    "H04L1258",
+    "H04L2908"
+  ],
+  "main_ipcr_label": "G06Q3004",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure provides a description of electronic systems and automated methods for automatic email generation and delivery based on transaction account linkage, which cannot be achieved through human thought, using pen-and-paper, or through mere organization of human activity. A method for automatic email generation and delivery based on transaction account linkage includes: storing, in an account database of a processing server, a plurality of account profiles, wherein each account profile includes a structured data set related to a transaction account including at least a primary account number and an email address; receiving, by a receiving device of the processing server, a transaction message via a payment network, wherein the transaction message is related to a payment transaction and is formatted pursuant to one or more standards and includes at least a plurality of data elements including a first data element configured to store a specific primary account number, a second data element configured to store a merchant identifier of a plurality of merchant identifiers, and one or more additional data elements configured to store transaction data; executing, by a querying module of the processing server, a query on the account database to identify a specific account profile where the primary account number corresponds to the specific primary account number stored in the first data element included in the transaction message; generating, by a generation module of the processing server, an email message, wherein a body of the email message includes at least content generated from the transaction data stored in the one or more additional data elements included in the transaction message and a header of the email message includes the email address included in the identified specific account profile as a destination address; and electronically transmitting, by a transmitting device of the processing server, the generated email message to ...",
+  "patent_number": "None",
+  "abstract": "A method for automatic email generation and delivery based on transaction account linkage includes: storing a plurality of account profiles, each related to a transaction account and including a primary account number and an email address automatically generated for the transaction account upon issuance; receiving a transaction message for a payment transaction including a specific primary account number and transaction data; identifying a specific account profile that includes the specific primary account number; generating an email message, wherein a body of the email message includes content generated from the transaction data and a header of the email message includes the email address included in the identified specific account profile as a destination address; and transmitting the generated email message to a mail server for delivery to the destination address included in the header.",
+  "publication_number": "US20170364971A1-20171221",
+  "_processing_info": {
+    "original_size": 113037,
+    "optimized_size": 3789,
+    "reduction_percent": 96.65
+  }
+}

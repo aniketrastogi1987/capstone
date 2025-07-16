@@ -1,0 +1,64 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174068A1-20180621",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15379513",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Dahl",
+      "inventor_name_first": "Sigrid Kaarstad",
+      "inventor_city": "Trondheim",
+      "inventor_state": "",
+      "inventor_country": "NO"
+    },
+    {
+      "inventor_name_last": "Urheim",
+      "inventor_name_first": "Stig",
+      "inventor_city": "Oslo",
+      "inventor_state": "",
+      "inventor_country": "NO"
+    },
+    {
+      "inventor_name_last": "Skjetne",
+      "inventor_name_first": "Paal",
+      "inventor_city": "Trondheim",
+      "inventor_state": "",
+      "inventor_country": "NO"
+    },
+    {
+      "inventor_name_last": "Morud",
+      "inventor_name_first": "John Christian",
+      "inventor_city": "Trondheim",
+      "inventor_state": "",
+      "inventor_country": "NO"
+    },
+    {
+      "inventor_name_last": "Zoric",
+      "inventor_name_first": "Josip",
+      "inventor_city": "Trondheim",
+      "inventor_state": "",
+      "inventor_country": "NO"
+    }
+  ],
+  "abstract": "A subject-specific simulation model of at least one component in the cardiovascular system for simulating blood flow and/or structural features. This simulation model can be used as a tool for cardiovascular diagnostic and/or treatment planning. The invention also regards non-invasive medical imaging of the cardiovascular system. The simulation model of a component in the cardiovascular system, for instance a pumping heart, is reconstructed by combining computational fluid dynamics (CFD) and/or fluid structure interaction (FSI) algorithms with medical imaging, such as for example ultrasound, MRI or CT. Such models make it possible to describe the complex flow phenomenon and provide flow details. The subject-specific model is a tool for clinical decision-making, an objective support for health care professionals in making decisions prior to surgery.",
+  "filing_date": "20161215",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Like most of the biomechanical problems, the invention covers multidisciplinary subjects and involves scientific computing, mathematical modelling, fluid dynamics, structural mechanics and physiology. The invention provides different frameworks for providing a subject-specific computational model of at least one component in the cardiovascular system for simulating blood flow and/or structural features. This model can for instance be used for simulating the hemodynamics in the left heart. Thus, the invention contributes to computational methodology for cardiac modelling. The main findings and developments embodied in the invention are providing an implicit coupling algorithm for the partitioned FSI simulation of two rigid leaflets. The algorithm allows for asynchronous motion of two leaflets and is therefore suitable for simulating bi-leaflet mechanical heart valves. The mutual interaction between the leaflets can be accounted for in the coupling iterations by including the full 2×2 Jacobian matrix. The differences in convergence rate of the full Jacobian matrix versus the diagonal Jacobian matrix were compared. The results show that including the full Jacobian matrix in the coupling iterations significantly enhanced the convergence rate and thereby the speed of the simulation. Overall, the total computational time was reduced by 22.5%. detailed-description description=\"Detailed Description\" end=\"tail\"?",
+  "date_published": "20180621",
+  "title": "Method and process for providing a subject-specific computational model used for treatment of cardiovascular diseases",
+  "ipcr_labels": [
+    "G06N9900",
+    "A61B3410",
+    "A61B806",
+    "A61B600",
+    "A61B500",
+    "A61B808",
+    "G06F1900"
+  ],
+  "_processing_info": {
+    "original_size": 135786,
+    "optimized_size": 3569,
+    "reduction_percent": 97.37
+  }
+}

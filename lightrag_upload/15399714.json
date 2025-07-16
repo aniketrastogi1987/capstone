@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15399714",
+  "date_published": "20170713",
+  "date_produced": "20170627",
+  "filing_date": "20170105",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A machine learning hardware accelerator architecture and associated techniques are disclosed. The architecture features multiple memory banks of very wide SRAM that may be concurrently accessed by a large number of parallel operational units. Each operational unit supports an instruction set specific to machine learning, including optimizations for performing tensor operations and convolutions. Optimized addressing, an optimized shift reader and variations on a multicast network that permutes and copies data and associates with an operational unit that support those operations are also disclosed.",
+  "publication_number": "US20170200094A1-20170713",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The Detailed Description is set forth with reference to the accompanying figures. FIG. 1 is a top level context diagram for Hardware Accelerated Machine Learning. FIG. 2 is a block diagram of an example architecture for Hardware Accelerated Machine Learning. FIG. 3 is a flow chart for an exemplary operation of a shift register for Hardware Accelerated Machine Learning. FIG. 4 is a flow chart for an exemplary operation for fetching and executing computer readable instruction in a machine learning hardware accelerator. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F501"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bruestle",
+      "inventor_name_first": "Jeremy",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ng",
+      "inventor_name_first": "Choong",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "HARDWARE ACCELERATED MACHINE LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 56347,
+    "optimized_size": 1919,
+    "reduction_percent": 96.59
+  }
+}

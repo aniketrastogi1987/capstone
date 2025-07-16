@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15455259",
+  "date_published": "20170629",
+  "date_produced": "20170614",
+  "filing_date": "20170310",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A system and a method for training a parameter set in a neural network includes a main-control-node set, used for controlling a training process and storing a data set and a parameter set that are used for training, where the main-control-node set includes M main control nodes, every two of the M main control nodes are in a communication connection, and at least one main control node of the M main control nodes is configured to back up the parameter set. The system also includes N training-node sets, where the training-node set includes multiple training nodes, and the training node is configured to perform training according to a data set and a parameter set that are delivered by the main-control-node set, and send a training result to a corresponding main control node.",
+  "publication_number": "US20170185895A1-20170629",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present application provides a system and a method for training a parameter set in a neural network, which can improve reliability of a training process of a neural network and training efficiency. According to a first aspect, a system for training a parameter set in a neural network is provided, where the system includes a main-control-node set, where the main-control-node set includes M main control nodes, the main-control-node set is used for controlling a process of training the parameter set in the neural network and storing a data set and a parameter set that are used in the process of training the parameter set, the data set includes multiple data subsets, the parameter set includes multiple parameter subsets, the multiple parameter subsets are stored separately in different main control nodes, a set of parameter subsets stored in all main control nodes in the main-control-node set is the parameter set, every two of the M main control nodes are in a communication connection, and at least one main control node of the M main control nodes is configured to back up the parameter set, where M is a positive integer greater than 1. The system also includes N training-node sets, where each of the N training-node sets is in a communication connection with the main-control-node set, the training-node set includes multiple training nodes, the training node is configured to receive the data subset and the parameter set that are delivered by the main-control-node set, train, according to the received data subset and parameter set, a parameter subset for which the training node is responsible, and send a training result to a main control node storing the parameter subset, where N is a positive integer greater than 1, data subsets used any two of the N training-node sets for training are different, and a set of parameter subsets trained by all training nodes in each training-node set is the parameter set. With reference to the first asp...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Jia",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Zeng",
+      "inventor_name_first": "Jia",
+      "inventor_city": "Hong Kong",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "System and Method for Training Parameter Set in Neural Network",
+  "decision": "REJECTED",
+  "_processing_info": {
+    "original_size": 79447,
+    "optimized_size": 3476,
+    "reduction_percent": 95.62
+  }
+}

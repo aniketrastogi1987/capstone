@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15018468",
+  "date_published": "20160616",
+  "date_produced": "20160601",
+  "title": "RUNTIME ADAPTABLE SEARCH PROCESSOR",
+  "filing_date": "20160208",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Pandya",
+      "inventor_name_first": "Ashish A.",
+      "inventor_city": "El Dorado Hills",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06F930",
+    "H04L2908"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>I describe a high performance run time adaptable search processor using hardware acceleration for regular expressions. The regular expressions are converted into equivalent DFAs and NFAs and then the most cost effective solution is chosen. The content search processor comprises of a set of DFA processing engines and NFA processing engines. The converted REs are then mapped either to an appropriate NFA or DFA engine. The processor may also include a set of composite DFA processing engines which can be used to absorb the growth in the number of rules beyond the number supported by the array of FSA engines. Thus new system hardware may not be necessary until the composite DFA results in significant memory usage which is beyond that available with the memory associated with the content search processor. In many content search applications like security, there is a need to constantly update the rules or the signatures being used to detect malicious traffic. In such applications it is critical that a solution be adaptable to keep up with the constantly evolving nature of the security threat. In an always connected type of usage models, it is extremely important to have the latest security threat mitigation rules updated in the security system on a frequent basis. When a composite DFA type architecture is used, compiling and releasing any new security rules or policy can consume a large amount of time, where the updates may not be timely to avoid the impact of the security threat. In such environments the release of new rule base may take up to 8 to 24 hours, which is quite delayed response to constantly evolving threat. In the processor of this invention, that issue is addressed since the release of new rules is a matter of converting those rules into NFAs and DFAs and updating only these very small rules into the content search processor. Thus the response to new threats can be immediate and would not require huge delays which occur fr...",
+  "patent_number": "None",
+  "abstract": "A runtime adaptable search processor is disclosed. The search processor provides high speed content search capability to meet the performance need of network line rates growing to 1 Gbps, 10 Gbps and higher. The search processor provides a unique combination of NFA and DFA based search engines that can process incoming data in parallel to perform the search against the specific rules programmed in the search engines. The processor architecture also provides capabilities to transport and process Internet Protocol (IP) packets from Layer 2 through transport protocol layer and may also provide packet inspection through Layer 7. Further, a runtime adaptable processor is coupled to the protocol processing hardware and may be dynamically adapted to perform hardware tasks as per the needs of the network traffic being sent or received and/or the policies programmed or services or applications being supported. A set of engines may perform pass-through packet classification, policy processing an...",
+  "publication_number": "US20160171102A1-20160616",
+  "_processing_info": {
+    "original_size": 481479,
+    "optimized_size": 3560,
+    "reduction_percent": 99.26
+  }
+}

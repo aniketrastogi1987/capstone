@@ -1,0 +1,56 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15075699",
+  "date_published": "20160922",
+  "date_produced": "20160908",
+  "title": "ROBOT OPERATION APPARATUS AND ROBOT OPERATION PROGRAM PRODUCT",
+  "filing_date": "20160321",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YUI",
+      "inventor_name_first": "Daisuke",
+      "inventor_city": "Chita-gun",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KANADA",
+      "inventor_name_first": "Motoki",
+      "inventor_city": "Toyohashi-city",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SUGANO",
+      "inventor_name_first": "Atsuko",
+      "inventor_city": "Kariya-city",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TOUMA",
+      "inventor_name_first": "Hirota",
+      "inventor_city": "Obu-city",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "B25J916",
+    "B25J1300",
+    "G06F3041",
+    "G06F30484",
+    "G06F30488",
+    "G06F30486"
+  ],
+  "main_ipcr_label": "B25J916",
+  "summary": "<SOH> SUMMARY <EOH>It is an object of the present disclosure is to provide a robot operation apparatus realizing drag operation input to a touch panel for manual operation of a robot so as to improve intuitive operation for a user, and to provide a robot operation program product for this robot operation apparatus. According to one aspect of the present disclosure, a robot operation apparatus includes: a touch panel that receives input of touch operation and movement operation from a user; an operation detector capable of detecting the touch operation and the movement operation to the touch panel; and a behavior command generator that generates a behavior command for operating a robot based on a detection result by the operation detector. The behavior command generator performs a behavior speed determination process for determining behavior speed of the robot based on operation speed of the movement operation when the operation detector detects the movement operation to an operation graphic formed in the touch panel. According to the robot operation apparatus of the present disclosure, it may be possible for the user to continue motion of the robot in accordance with continuation of movement of the finger of the user or the like in a manner drawing a circle, for example, and to stop the robot in accordance with a stop of the finger of the user or the like. In this case, it may be possible that the behavior speed of the robot is controlled by the user in accordance with control of the shift speed of the finger of the user or the like. Accordingly, the user easily obtains an impression that movement operation performed by the user, that is, movement of the finger of the user or the like produced by drag operation or flick operation by the user is associated with the motion of the robot. In this condition, it may be possible for the user to directly and intuitively determine the correlation between the movement operation performed by the user and the motion of the robo...",
+  "patent_number": "9857962",
+  "abstract": "A robot operation apparatus comprising: a touch panel that receives input of a touch operation and a movement operation from a user; an operation detector that detects the touch operation and the movement operation to the touch panel; and a behavior command generator that generates a behavior command operating a robot based on a detection result of the operation detector. The behavior command generator performs a behavior speed determination process that determines a behavior speed of the robot based on an operation speed of the movement operation, when the operation detector detects the movement operation to an operation graphic provided on the touch panel.",
+  "publication_number": "US20160271792A1-20160922",
+  "_processing_info": {
+    "original_size": 153343,
+    "optimized_size": 3719,
+    "reduction_percent": 97.57
+  }
+}

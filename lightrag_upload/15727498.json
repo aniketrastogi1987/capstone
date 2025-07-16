@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15727498",
+  "date_published": "20180208",
+  "date_produced": "20180124",
+  "filing_date": "20171006",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method for training a neural network of a neural network based speaker classifier for use in speaker change detection. The method comprises: a) preprocessing input speech data; b) extracting a plurality of feature frames from the preprocessed input speech data; c) normalizing the extracted feature frames of each speaker within the preprocessed input speech data with each speaker's mean and variance; d) concatenating the normalized feature frames to form overlapped longer frames having a frame length and a hop size; e) inputting the overlapped longer frames to the neural network based speaker classifier; and f) training the neural network through forward-backward propagation.",
+  "publication_number": "US20180039888A1-20180208",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSED EMBODIMENTS <EOH>A method for training a neural network of a neural network based speaker classifier for use in speaker change detection. The method comprises: a) preprocessing input speech data; b) extracting a plurality of feature frames from the preprocessed input speech data; c) normalizing the extracted feature frames of each speaker within the preprocessed input speech data with each speaker's mean and variance; d) concatenating the normalized feature frames to form overlapped longer frames having a frame length and a hop size; e) inputting the overlapped longer frames to the neural network based speaker classifier; and f) training the neural network through forward-backward propagation.",
+  "ipcr_labels": [
+    "G06N308",
+    "G10L1704",
+    "G10L1700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "GE",
+      "inventor_name_first": "ZHENHAO",
+      "inventor_city": "INDIANAPOLIS",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "IYER",
+      "inventor_name_first": "ANANTH NAGARAJA",
+      "inventor_city": "INDIANAPOLIS",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHELUVARAJA",
+      "inventor_name_first": "SRINATH",
+      "inventor_city": "INDIANAPOLIS",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "GANAPATHIRAJU",
+      "inventor_name_first": "ARAVIND",
+      "inventor_city": "HYDERABAD",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR SPEAKER CHANGE DETECTION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 36818,
+    "optimized_size": 2440,
+    "reduction_percent": 93.37
+  }
+}

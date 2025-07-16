@@ -1,0 +1,46 @@
+{
+  "date_produced": "20171219",
+  "publication_number": "US20180005131A1-20180104",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15200922",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yin",
+      "inventor_name_first": "Dawei",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tang",
+      "inventor_name_first": "Jiliang",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chang",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Disclosed are systems and methods for improving interactions with and between computers in social media content generation and delivery and/or providing systems supported by or configured with personal computing devices, servers and/or platforms. The systems interact to identify and retrieve data within or across platforms, which can be used to improve the quality of data used in processing interactions between or among processors in such systems. The disclosed systems and methods provide systems and methods for automatically method for automatically summarizing social media content using a timeline comprising a set (or chain) of episodes and a summary of each episode. The disclosed systems and methods identify a number of episodes based on analysis of each social media content item of a corpus, identify a number of social content items to summarize each episode, and generate a timeline summarization of the corpus of social media content items.",
+  "filing_date": "20160701",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure provides novel systems and methods for automatic summarization of social media content using a timeline comprising a set (or chain or timeline) of episodes and a summary of each episode. The disclosed systems and methods first detect the set of episodes by analyzing regular content, hashtag content and temporal information of social media data about an entity. A statistical machine model models and analyzes the regular content, hashtag content and temporal information in combination to determine the set of episodes by clustering the social media data items (or posts), where each cluster represents an episode in the set of episodes. The disclosed system and methods then use a statistical machine modeling approach to generate a summary for each episode in the set. In some embodiments, in generating a summary for an episode, multiple types of features (e.g., temporal-based, content-based and popularity-based features) of each social media content item assigned to an episode are extracted and used to rank the social media content items in the episode. A number of the highest-ranked (or top-ranked) social media content items assigned to the episode is/are selected as the most representative social media content item(s) for the episode, and used in a summarization of the episode. It will be recognized from the disclosure herein that embodiments of the instant disclosure provide improvements to a number of technology areas, for example those related to systems and processes that handle or process social media content generation and delivery to users over the internet, such as but not limited to, search engines, local and/or web-based applications, TV widgets, set-top boxes, or other types of content retrieval and/or distribution platforms, electronic social networking platforms and the like. The disclosed systems and methods can effectuate increased speed and efficiency in the ways that users can access and retrieve social media co...",
+  "date_published": "20180104",
+  "title": "Automatic Social Media Content Timeline Summarization Method and Apparatus",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730",
+    "G06Q5000"
+  ],
+  "_processing_info": {
+    "original_size": 117755,
+    "optimized_size": 3830,
+    "reduction_percent": 96.75
+  }
+}

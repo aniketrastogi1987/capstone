@@ -1,0 +1,41 @@
+{
+  "patent_number": "None",
+  "application_number": "15474379",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "filing_date": "20170330",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A universal quantum computer may be emulated by a classical computing system that uses an electronic signal of bounded duration and amplitude to represent an arbitrary initial quantum state. The initial quantum state may be specified by inputs provided to the system and may be encoded in the signal, which is derived from a collection of phase-coherent coherent basis signals. Unitary quantum computing gate operations, including logical operations on qubits or operations that change the phase of a qubit, may be performed using analog electronic circuits within the quantum computing emulation device. These circuits, which may apply a matrix transformation to the signals representing the initial quantum state, may include four-quadrant multipliers, operational amplifiers, and analog filters. A measurement component within the quantum computing emulation device may produce a digital signal output representing the transformed quantum state. The gate operation(s) performed may be selected fro...",
+  "publication_number": "US20170286858A1-20171005",
+  "summary": "<SOH> SUMMARY <EOH>The disclosure relates to systems and methods for emulating a quantum computer. In one aspect, a disclosed quantum computer emulation device may include a basis state generator including circuitry to receive a baseline signal, derive a plurality of phase-coherent signals from the baseline signal, where each of two or more pairs of signals in the plurality of phase-coherent signals is to represent a real component and an imaginary component of a signal for a single qubit, and multiply components of the single-qubit signals together to create a plurality of basis state signals. The quantum computer emulation device may also include an initial quantum state generator including circuitry to receive a plurality of direct current (DC) voltages, the DC voltages to represent complex coefficients, and generate, from the plurality of basis state signals and dependent on the plurality of DC voltages, a synthesized complex signal to represent a particular initial quantum state of two or more qubits. The quantum computer emulation device may include a first gate component including circuitry to receive the synthesized complex signal, and to perform a given operation on the synthesized complex signal to produce a modified complex signal. The modified complex signal may represent a transformed quantum state. The quantum computer emulation device may also include a measurement component including circuitry to receive the modified complex signal, and output a digital signal. The digital signal may represent the transformed quantum state. In any of the disclosed embodiments, the plurality of phase-coherent signals may include two pairs of signals, the plurality of basis state signals may include four basis state signals, and the synthesized complex signal may represent the initial quantum state of two qubits. In any of the disclosed embodiments, the initial quantum state generator may further include circuitry to multiply each of the plurality of basis state AC sig...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716",
+    "G06F750",
+    "G06F1750",
+    "G06F7523"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "La Cour",
+      "inventor_name_first": "Brian R.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ott",
+      "inventor_name_first": "Granville E.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR EMULATION OF A QUANTUM COMPUTER",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 202809,
+    "optimized_size": 3741,
+    "reduction_percent": 98.16
+  }
+}

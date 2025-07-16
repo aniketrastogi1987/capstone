@@ -1,0 +1,53 @@
+{
+  "patent_number": "nan",
+  "application_number": "15739605",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20171222",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A method for estimating movement behaviour of a user of a mobile communication device by a neural network comprising one or more lower and one or more higher hidden layers. The method comprises a step of obtaining sensor data from sensors in the mobile device; a step of obtaining measurements related to a movement of the user; a step of labelling these measurements as weakly labelled data; pre-training the lower hidden layers to estimate the measurements from the first set of sensor data; a step of obtaining a second set of sensor data wherein movement behaviour of the user is labelled as labelled data; a step of training the higher hidden layers with the labelled data to estimate the movement behaviour of the user as said output.",
+  "publication_number": "US20180181860A1-20180628",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is an object of the present invention to alleviate the above disadvantages and to provide a method and system for estimating, predicting or detecting movement behaviour from raw sensor data that can be trained from a limited or reduced set of labelled data. According to a first aspect, this object is achieved by a computer-implemented method for estimating movement behaviour of a user of a mobile communication device by a neural network comprising one or more lower and one or more higher hidden layers. The method comprises the following steps: Obtaining sensor data from one or more sensors in the mobile communication device. Obtaining measurements related to a movement of the user. Labelling the measurements as weakly labelled data with a first set of the sensor data. Pre-training the one or more lower hidden layers to estimate the measurements from the first set of sensor data in order to estimate the movement of the user. Obtaining a second set of the sensor data wherein movement behaviour of the user is labelled with the second set as labelled data. Training the one or more higher hidden layers in the neural network with the labelled data to estimate the movement behaviour of the user as the output. By the pre-training, it is learned how to fuse data streams from different sensors, how to remove noise and artefacts from the input data and how to calculate features that represent and abstract the raw sensor data in a meaningful manner. For the pre-training, no manually labelled data samples are needed, i.e., no data samples are needed that relate the sensor data directly to the movement behaviour of the user. As the weakly labelled data is highly correlated with the labelled data, during the pre-training an internal representation of the data that is needed for training the neural network with the labelled sensor data will be constructed. Therefore, the neural network can thus be accurately trained with a limited set of label...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "B60W4009"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "VERBIST",
+      "inventor_name_first": "Frank",
+      "inventor_city": "Wolvertem",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "VAN SEVEREN",
+      "inventor_name_first": "Joren",
+      "inventor_city": "De Pinte",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "SPRUYT",
+      "inventor_name_first": "Vincent",
+      "inventor_city": "Antwerpen",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "JOCQUET",
+      "inventor_name_first": "Vincent",
+      "inventor_city": "Antwerpen",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    }
+  ],
+  "title": "DERIVING MOVEMENT BEHAVIOUR FROM SENSOR DATA",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 59364,
+    "optimized_size": 3734,
+    "reduction_percent": 93.71
+  }
+}

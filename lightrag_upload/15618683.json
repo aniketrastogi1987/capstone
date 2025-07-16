@@ -1,0 +1,48 @@
+{
+  "patent_number": "None",
+  "application_number": "15618683",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "filing_date": "20170609",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Disclosed herein is a convolutional neural network (CNN) operation apparatus, including at least one channel hardware set suitable for performing a feature extraction layer operation and a classification layer operation based on input data and weight data, and a controller coupled to the channel hardware set. The controller may control the channel hardware set to perform the feature extraction layer operation and perform a classification layer operation when the feature extraction layer operation is completed.",
+  "publication_number": "US20180089562A1-20180329",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments are directed to a convolution neural network (CNN) operation apparatus and a method which are capable of performing a deep learning algorithm. Various embodiments propose an apparatus and a method for performing a test operation on a convolution neural network (CNN) algorithm, wherein convolution operation is performed on trained weight data and input data. Various embodiments of the present invention propose a convolution neural network (CNN) operation apparatus and a method which are capable of improving parallelism between a convolution operation and a pooling operation and reducing operation latency by performing a convolution operation using a pre-computed memory map for the mapping of input data and weight data. Various embodiments of the present invention propose a convolution neural network (CNN) operation apparatus and a method which are capable of reducing a convolution operation time by passing a convolution operation if an operand is 0. Various embodiments of the present invention propose a convolution neural network (CNN) operation apparatus and a method which are capable of reducing multiplication delay attributable to memory load latency by prefetching weight data for convolution operation and performing convolution using the prefetched weight data when performing a convolution operation. Various embodiments of the present invention propose a convolution neural network (CNN) operation apparatus and a method which are capable of performing a drop-out operation for improving the complexity of convolution operation. In various embodiments of the present invention, a convolution neural network (CNN) operation apparatus may include at least one channel hardware set suitable for performing a feature extraction layer operation and a classification layer operation based on input data and weight data, and a controller coupled to the channel hardware set. The CNN control unit may control the channel hardware set to perform...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F7523",
+    "G06F7501",
+    "G06F1718"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "JIN",
+      "inventor_name_first": "Young-Jae",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "MOON",
+      "inventor_name_first": "Young-Suk",
+      "inventor_city": "Gyeonggi-do",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Hong-Sik",
+      "inventor_city": "Gyeonggi-do",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "OPERATION APPARATUS AND METHOD FOR CONVOLUTIONAL NEURAL NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 135485,
+    "optimized_size": 3402,
+    "reduction_percent": 97.49
+  }
+}

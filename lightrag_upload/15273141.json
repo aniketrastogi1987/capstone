@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180308",
+  "publication_number": "US20180082180A1-20180322",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15273141",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Burr",
+      "inventor_name_first": "Geoffrey W.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Narayanan",
+      "inventor_name_first": "Pritish",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Single-shot learning and disambiguation of multiple predictions in hierarchical temporal memory is provided. In various embodiments an input sequence is read. The sequence comprises first, second, and third time-ordered components. Each of the time-ordered components is encoded in a sparse distributed representation. The sparse distributed representation of the first time-ordered component is inputted into a first portion of a hierarchical temporal memory. The sparse distributed representation of the second time-ordered component is inputted into a second portion of the hierarchical temporal memory. The second portion is connected to the first portion by a first plurality of synapses. A plurality of predictions as to the third time-ordered component is generated within a third portion of the hierarchical temporal memory. The third portion is connected to the second portion by a second plurality of synapses. Based on the plurality of predictions, additional synaptic connections are adde...",
+  "filing_date": "20160922",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>According to embodiments of the present disclosure, methods of, and computer program products for, operating a temporal memory are provided. An input sequence is read. The sequence comprises first, second, and third time-ordered components. Each of the first, second, and third time-ordered components is encoded in a sparse distributed representation. The sparse distributed representation of the first time-ordered component is inputted into a first portion of a hierarchical temporal memory. The sparse distributed representation of the second time-ordered component is inputted into a second portion of the hierarchical temporal memory. The second portion is connected to the first portion by a first plurality of synapses. A plurality of predictions as to the third time-ordered component is generated within a third portion of the hierarchical temporal memory. The third portion is connected to the second portion by a second plurality of synapses. Based on the plurality of predictions, additional synaptic connections are added between the first portion and the second portion. According to other embodiments of the present disclosure, a system comprising temporal memory is provided. The temporal memory comprises first, second, and third portions. Each portion comprises a plurality of columns. Each column comprises a plurality of cells. The second portion is connected to the first portion by a first plurality of synapses. The third portion is connected to the second portion by a first plurality of synapses. A plurality of cells is active in the first portion, encoding a sparse distributed representation of a first time-ordered component. A plurality of cells is active in the second portion, encoding a sparse distributed representation of a plurality of instances of the second time-ordered component. The temporal memory is adapted to generate a plurality of predictions as to a third time-ordered component within the third portion, and based on the plur...",
+  "date_published": "20180322",
+  "title": "TEMPORAL MEMORY ADAPTED FOR SINGLE-SHOT LEARNING AND DISAMBIGUATION OF MULTIPLE PREDICTIONS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 54786,
+    "optimized_size": 3746,
+    "reduction_percent": 93.16
+  }
+}

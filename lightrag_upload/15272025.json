@@ -1,0 +1,87 @@
+{
+  "date_produced": "20170614",
+  "publication_number": "US20170185902A1-20170629",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15272025",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KUMAR",
+      "inventor_name_first": "Kriti",
+      "inventor_city": "Whitefiled",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Thokala",
+      "inventor_name_first": "Naveen Kumar",
+      "inventor_city": "Whitefiled",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Karumanchi",
+      "inventor_name_first": "Ravikumar",
+      "inventor_city": "Whitefiled",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Chandra",
+      "inventor_name_first": "Mariswamy Girish",
+      "inventor_city": "Whitefiled",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Kamakolanu Guru",
+      "inventor_name_first": "Kalyan Prathap",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Upparapalli",
+      "inventor_name_first": "Suresh",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Chowdary",
+      "inventor_name_first": "Madhusudhan Kamma Chavala",
+      "inventor_city": "Hyderabad",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Kulkarni",
+      "inventor_name_first": "Prasanna Madhavrao",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Sharda",
+      "inventor_name_first": "Pareshkumar Bhawanishankar",
+      "inventor_city": "Houston",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "System and method for predicting enterprise system response time is disclosed. System pre-processes causal variables of historical output time series data to select subset of causal variables by applying regression techniques to obtain significant causal variables. Historical output time series data shows response time of enterprise system. System derives dummy variables from historical output time series data using threshold based method. Dummy variables are specific to peak detection and trough detection in historic output time series data. System trains predictive model using historical output time series data, significant causal variables, and dummy variables to generate trained predictive model and predictive model designed using machine learning technique selected based on forecast methodology used for forecasting input time series data. System predicts enterprise system response time by using trained predictive model, input time series data or lag between input time series data ...",
+  "filing_date": "20160921",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce aspects related to systems and methods for predicting response time of an enterprise system, and the concepts are further described below in the detailed description. This summary is not intended to identify essential features of subject matter nor is it intended for use in determining or limiting the scope of the subject matter. In one implementation, a method for predicting response time of an enterprise system is disclosed. The method comprising pre-processing, by a processor, a plurality of causal variables of an historical output time series data. The plurality of causal variables affect the response time of the enterprise system. The plurality of causal variables are pre-processed to select a subset of the plurality of causal variables by applying one or more regression techniques to obtain significant causal variables. The historical output time series data shows the response time of the enterprise system. The method further comprises deriving, by the processor, a plurality of dummy variables from the historical output time series data, by using a threshold value based method. The plurality of dummy variables are specific to at least one of a peak detection and a trough detection in the output time series data. The method further comprises training, by the processor, at least one predictive model using 1) the historical output time series data, 2) the plurality of significant causal variables, and 3) the plurality of dummy variables to generate at least one trained predictive model. The at least one predictive model is designed using at least one machine learning technique. The at least one machine learning technique may be selected based on a type of forecast methodology used for forecasting input time series data. The method further comprises predicting, by the processor, the response time of the enterprise system by using the at least one trained predictive model and input time series data or a lag b...",
+  "date_published": "20170629",
+  "title": "SYSTEM AND METHOD FOR PREDICTING RESPONSE TIME OF AN ENTERPRISE SYSTEM",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 78484,
+    "optimized_size": 4836,
+    "reduction_percent": 93.84
+  }
+}

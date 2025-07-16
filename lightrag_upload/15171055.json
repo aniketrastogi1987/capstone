@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171121",
+  "publication_number": "US20170351962A1-20171207",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15171055",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Appel",
+      "inventor_name_first": "Ana P.",
+      "inventor_city": "Sao Paulo",
+      "inventor_state": "",
+      "inventor_country": "BR"
+    },
+    {
+      "inventor_name_last": "Gama Leal",
+      "inventor_name_first": "Andre",
+      "inventor_city": "Sao Paulo",
+      "inventor_state": "",
+      "inventor_country": "BR"
+    },
+    {
+      "inventor_name_last": "Santos Souza",
+      "inventor_name_first": "Renan Francisco",
+      "inventor_city": "Rio de Janeiro",
+      "inventor_state": "",
+      "inventor_country": "BR"
+    }
+  ],
+  "abstract": "A question database storing questions and a conditional probability of one question to be asked given that a previous question was asked is searched to predict a future question based on the conditional probability stored in the question database given an input question as the previous question. The future question is suggested to a user. Responsive to receiving an acceptance of the future question, the question database is updated to strengthen the conditional probability associated with the future question occurring given the input question. An answer to the future question is provided and searching, predicting, suggesting and updating may be repeated, with the future question as the input question, until the future question is declined.",
+  "filing_date": "20160602",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A method of predicting and presenting a future question in an automated question answering system may be provided. The method, in one aspect, may include receiving an input question in the automated question answering system. The method may also include providing an answer to the question. The method may further include searching a question database storing questions and a conditional probability of one question to be asked given that a previous question was asked, for all questions in the question database, the conditional probability determined based on a supervised learning algorithm, natural language processing that determines distance metric between the questions, and user data obtained from a plurality of data sources. The method may also include predicting the future question based on the conditional probability stored in the question database given the input question as the previous question. The method may further include suggesting the future question on a user interface. The method may also include, responsive to receiving an acceptance of the future question, updating the question database to strengthen the conditional probability associated with the future question occurring given the input question. The method may further include providing an answer to the future question. The method may also include repeating the searching, the predicting, the suggesting and the updating, with the future question as the input question until the future question is declined. A system of predicting and presenting a future question in an automated question answering system, in one aspect, may include, at least one hardware processor coupled to a communication network. A storage device may be coupled to the at least one hardware processor. The at least one hardware processor may be operable to receive an input question in the automated question answering system. The at least one hardware processor may be further operable to provide an answer to the...",
+  "date_published": "20171207",
+  "title": "PREDICTING USER QUESTION IN QUESTION AND ANSWER SYSTEM",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 70926,
+    "optimized_size": 3613,
+    "reduction_percent": 94.91
+  }
+}

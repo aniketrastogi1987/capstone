@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170816",
+  "publication_number": "US20170249561A1-20170831",
+  "main_ipcr_label": "G06N9900",
+  "decision": "REJECTED",
+  "application_number": "15056232",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Abdallah",
+      "inventor_name_first": "Muhammad E.",
+      "inventor_city": "Rochester Hills",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system for demonstrating a task to a robot includes a glove, sensors, and a controller. The sensors measure task characteristics while a human operator wears the glove and demonstrates the task. The task characteristics include a pose, joint angle configuration, and distributed force of the glove. The controller receives the task characteristics and uses machine learning logic to learn and record the demonstrated task as a task application file. The controller transmits control signals to the robot to cause the robot to automatically perform the demonstrated task. A method includes measuring the task characteristics using the glove, transmitting the task characteristics to the controller, processing the task characteristics using the machine learning logic, generating the control signals, and transmitting the control signals to the robot to cause the robot to automatically execute the task.",
+  "filing_date": "20160229",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A system and accompanying method are disclosed herein for facilitating robotic learning of human operator-demonstrated applications having force and position objectives. The present approach is intended to greatly simplify development of complex robotic applications, particularly those used in unstructured environments and/or environments in which direct human-robot interaction and collaboration occurs. Unstructured environments, as is known in the art, are work environments that are not heavily configured and designed for a specific application. As the complexity of robots continues to increase, so too does the complexity of the types of robotic tasks that can be performed. For instance, some emerging robots use tendon-actuated fingers and opposable thumbs to perform tasks with human-like levels of dexterity and nimbleness. Traditional task programming and conventional backdriving task demonstration for such robots is thus complex to the point of being impracticable. In an example embodiment, a system for demonstrating to a robot a task having both force and position objectives includes a glove that is wearable by a human operator. The system also includes sensors and one or more controllers, with the controller(s) in communication with the sensors. The sensors collectively measure task characteristics while the human operator wearing the glove actively demonstrates the task solely through the human operator's actions. The task characteristics include distributed forces acting on the glove, as well as a glove pose and joint angle configuration. The controller may be programmed to apply machine learning logic to the task characteristics to thereby learn and record the demonstrated task as a task application file. The controller is also programmed to execute the task application file and thereby control an operation of the robot, i.e., the robot automatically executes the task that was initially demonstrated by the human operator wearing the glove....",
+  "date_published": "20170831",
+  "title": "ROBOT LEARNING VIA HUMAN-DEMONSTRATION OF TASKS WITH FORCE AND POSITION OBJECTIVES",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06K710"
+  ],
+  "_processing_info": {
+    "original_size": 35357,
+    "optimized_size": 3503,
+    "reduction_percent": 90.09
+  }
+}

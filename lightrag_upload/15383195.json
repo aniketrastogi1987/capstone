@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170705",
+  "publication_number": "US20170206450A1-20170720",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15383195",
+  "inventor_list": [
+    {
+      "inventor_name_last": "UMEDA",
+      "inventor_name_first": "Yuhei",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A disclosed machine learning method includes: calculating a first output error between a label and an output in a case where dropout in which values are replaced with 0 is executed for a last layer of a first channel among plural channels in a parallel neural network; calculating a second output error between the label and an output in a case where, the dropout is not executed for the last layer of the first channel; and identifying at least one channel from the plural channels based on a difference between the first output error and the second output error to update parameters of the identified channel.",
+  "filing_date": "20161219",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A machine learning method relating to one aspect includes: calculating a first output error between a label and an output in a case where dropout in which values are replaced with 0 is executed for a last layer of a first channel among plural channels in a parallel neural network; calculating a second output error between the label and an output in a case where the dropout is not executed for the first channel; and identifying at least one channel from the plural channels based on a difference between the first output error and the second output error to update parameters of the identified channel. The object and advantages of the embodiment will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the embodiment, as claimed.",
+  "date_published": "20170720",
+  "title": "METHOD AND APPARATUS FOR MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 67319,
+    "optimized_size": 2115,
+    "reduction_percent": 96.86
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "patent_number": "9934260",
+  "application_number": "15433662",
+  "date_published": "20170608",
+  "date_produced": "20170524",
+  "filing_date": "20170215",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A computing device creates a state of an analytic model. An analytic engine of an analytic model of an analytic model type is initialized. The analytic model is trained using a dataset and the analytic engine. A request to save a state of the analytic model is received. In response to receipt of the third indicator, the state of the trained analytic model is serialized. The state includes a reentry point name of a function of the analytic model type called to instantiate the trained analytic model. The serialized state is written to an output file. The written state is read from the output file. The state of the trained analytic model is restored using the read state. An analytic result is computed based on data in a second dataset different from the named dataset using the restored state of the trained analytic model. The computed analytic result is output.",
+  "publication_number": "US20170161641A1-20170608",
+  "summary": "<SOH> SUMMARY <EOH>In an example embodiment, a system is provided. The system includes, but is not limited to, a processor and a computer-readable medium operably coupled to the processor. The computer-readable medium has instructions stored thereon that, when executed by the processor, cause the system to create a state of an analytic model. A first indicator of a name of a dataset is received. A second indicator that identifies an analytic model type of a plurality of analytic model types to train using the named dataset and a configuration of the analytic model type is received. An analytic engine of an analytic model of the identified analytic model type is initialized. The analytic model of the analytic model type is trained using the named dataset and the initialized analytic engine. A third indicator that is request to save a state of the analytic model is received. In response to receipt of the third indicator, the state of the trained analytic model is serialized. The state includes a reentry point name of a function of the analytic model type called to instantiate the trained analytic model. The serialized state of the trained analytic model is written to an output file. The written state is read from the output file. The state of the trained analytic model is restored using the read state. An analytic result is computed based on data in a second dataset different from the named dataset using the restored state of the trained analytic model. The computed analytic result is output. In another example embodiment, a non-transitory computer-readable medium is provided having stored thereon computer-readable instructions that when executed by a computing device, cause the computing device to create a state of an analytic model. In yet another example embodiment, a method of creating a state of an analytic model is provided. Other principal features of the disclosed subject matter will become apparent to those skilled in the art upon review of the following draw...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Guirguis",
+      "inventor_name_first": "Georges H.",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Latour",
+      "inventor_name_first": "Dominique J.",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ray",
+      "inventor_name_first": "Robert S.",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "STREAMLINED ANALYTIC MODEL TRAINING AND SCORING SYSTEM",
+  "decision": "ACCEPTED",
+  "_processing_info": {
+    "original_size": 108607,
+    "optimized_size": 3722,
+    "reduction_percent": 96.57
+  }
+}

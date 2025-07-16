@@ -1,0 +1,53 @@
+{
+  "decision": "PENDING",
+  "application_number": "15162843",
+  "date_published": "20161201",
+  "date_produced": "20161116",
+  "title": "BOOTING DEVICE AND OPERATING METHOD THEREOF",
+  "filing_date": "20160524",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Byeong-hu",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Byeong-kuk",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Taek-gyun",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "PARK",
+      "inventor_name_first": "Yong-hee",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F944",
+    "G06F1136",
+    "G06F1208"
+  ],
+  "main_ipcr_label": "G06F944",
+  "summary": "<SOH> SUMMARY <EOH>A device capable of performing test booting for a test process of a device, at high speed, and an operating method thereof are provided. Additional aspects will be set forth in part in the description which follows and, in part, will be apparent from the description. According to an aspect of an example embodiment, a device includes: a storage device comprising a memory configured to store configuration data used for test booting for a process of testing the device, before the test booting; and a controller configured to perform the test booting using the stored configuration data when receiving a start signal of the test booting, to control the process of testing the device to be performed after the test booting, and to delete the configuration data stored in the storage device when a completion signal of the process of testing the device is received. The configuration data may include one or more of data that sets user configuration values of the device, as a random value, and cache data used to execute an operating system or an application installed in the device. The storage device may further be configured to store the configuration data in a read/write area of a nonvolatile memory. The storage device may further be configured to store a process flag indicating initial booting of the device, before the test booting. The controller may further be configured to control the test booting to be performed, when the process flag is stored in the storage device. The controller may further be configured to delete the process flag stored in the storage device, when the completion signal of the process of testing the device is received. The controller may further be configured to generate one or more of user configuration data and cache data corresponding to the configuration data, during initial booting of a user of the device, and to store the generated one or more of the user configuration data and the cache data in the storage device. The controller...",
+  "patent_number": "None",
+  "abstract": "A device is provide including: a storage device comprising a memory configured to store configuration data used for test booting for a process of testing the device, before the test booting; and a controller configured to perform the test booting using the stored configuration data when receiving a start signal of the test booting, to control the process of testing the device to be performed after the test booting, and to delete the configuration data stored in the storage device when a completion signal of the process of testing the device is received.",
+  "publication_number": "US20160350131A1-20161201",
+  "_processing_info": {
+    "original_size": 35462,
+    "optimized_size": 3545,
+    "reduction_percent": 90.0
+  }
+}

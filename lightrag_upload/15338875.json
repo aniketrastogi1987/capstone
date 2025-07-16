@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15338875",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "title": "MANAGING QUEUEING AND DE-QUEUEING OPERATIONS OF TRANSACTION QUEUES",
+  "filing_date": "20161031",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Aoki",
+      "inventor_name_first": "Norihiro",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bharathan",
+      "inventor_name_first": "Aarti",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Allen",
+      "inventor_name_first": "Anthony Shakrala",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q3006"
+  ],
+  "main_ipcr_label": "G06Q3006",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The present embodiments may be better understood, and numerous objects, features, and advantages made apparent to those skilled in the art by referencing the accompanying drawings. FIG. 1 is a system diagram illustrating embodiments of a communication system showing a payment system communicating with a marketplace. FIG. 2 is a system diagram illustrating embodiments of a payment system that uses a transaction queue to store and process requested transactions. FIG. 3 is a system diagram illustrating embodiments of a de-queue module for accessing a transaction queue. FIG. 4 is a flow diagram illustrating embodiments of operations for asynchronously accessing a transaction queue to process the requested transactions. FIG. 5 is a flow diagram illustrating embodiments of operations for synchronously accessing a transaction queue to process the requested transactions. FIG. 6 is a diagram illustrating embodiments of characteristics of a transaction queue and processing modules used by the de-queue module to manage access to a transaction queue. FIG. 7 is a flow diagram illustrating embodiments of operations for adjusting operation of a processing module of a de-queue module that accesses the transaction queue. FIG. 8 is a flow diagram illustrating embodiments of operations for resizing a processing module of a de-queue module that accesses the transaction queue. FIG. 9 is a flow diagram illustrating embodiments of operations for configuring a disbursement module for managing disbursement signals. FIG. 10 is a flow diagram illustrating embodiments of operations for operating a disbursement module for managing disbursement signals. FIG. 11 is a timing diagram illustrating one embodiment of communication between various modules of a payment system communicating with an online marketplace, buyer, and a seller. FIG. 12 is a timing diagram illustrating one embodiment of communication between various modules of a payment system when c...",
+  "patent_number": "None",
+  "abstract": "A method for managing transaction queues is discussed. The method includes receiving, from a marketplace, a first communication indicating a cart, the cart comprising items for purchase, the items originating from one or more sellers. The method includes performing a first risk analysis on the cart to determine whether to accept the cart for processing into a queue, the first risk analysis being a cart-level analysis. The method also includes, in response to determining to accept the cart, adding requested transactions for the items to the queue. The method includes performing a de-queueing operation for a selected requested transaction from the queue for processing. The method also includes performing a second risk analysis on the selected requested transaction as part of determining whether to process a payment for the selected requested transaction, the second risk analysis being a transaction-level analysis.",
+  "publication_number": "US20180089745A1-20180329",
+  "_processing_info": {
+    "original_size": 118472,
+    "optimized_size": 3784,
+    "reduction_percent": 96.81
+  }
+}

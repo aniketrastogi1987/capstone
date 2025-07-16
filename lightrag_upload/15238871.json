@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180207",
+  "publication_number": "US20180053115A1-20180222",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15238871",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Vachhani",
+      "inventor_name_first": "Vishal",
+      "inventor_city": "Navi Mumbai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Jha",
+      "inventor_name_first": "Prashant",
+      "inventor_city": "Navi Mumbai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Farkade",
+      "inventor_name_first": "Amol",
+      "inventor_city": "Navi Mumbai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "The present invention discloses a method, a system and a computer program product for spend data classification using selected taxonomies. The invention provides refresh classification tool and implementation classification tools for spend data classification. The invention further provides a web mining tool for determining unknown terms in spend data to obtain an enriched spend data for classification.",
+  "filing_date": "20160817",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An embodiment the present invention discloses a method of spend data classification. The method includes the steps of receiving a spend data from an entity at a server, cleansing the received spend data and storing the cleansed spend data in an operational database. The method further includes a check to identify if the entity is a registered entity. If the entity is identified as a registered entity then a processor selects a refresh classification tool for generating a classified data with a confidence score, else an implementation classification tool is selected. The method includes the step of creating a training classification model from the selected classification tool by using an artificial intelligence engine. The classification model is then stored in a training model database. The cleansed spend data is fetched from the operation database and any unknown terms in the cleansed spend data is identified by using a web mining tool. The processor selects the web mining tool to determine information about the unknown terms. The information is included in the cleansed spend data to obtain enriched spend data. The enriched spend data is used to create a classification data matrix by using the processor. The classification model stored in the training model database is applied to the classification data matrix for classifying the spend data and provide the confidence score of the classified spend data. In an embodiment of the invention, a web mining tool is used for obtaining unknown terms in received spend data. The method of obtaining unknown terms includes inserting the unknown terms in a search engine API (application program interface), extracting a predefined quantity of URLs (Uniform Resource Locators) from results of the search engine, crawling the extracted URLs for obtaining web content, parsing the web content to obtain a plurality of texts relating to the unknown terms, identifying most frequent text relevant to the unknown terms from...",
+  "date_published": "20180222",
+  "title": "Spend Data Enrichment and Classification",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 76061,
+    "optimized_size": 3243,
+    "reduction_percent": 95.74
+  }
+}

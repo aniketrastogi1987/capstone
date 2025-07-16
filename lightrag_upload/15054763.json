@@ -1,0 +1,47 @@
+{
+  "date_produced": "20170427",
+  "publication_number": "US20170132527A1-20170511",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15054763",
+  "inventor_list": [
+    {
+      "inventor_name_last": "AHN",
+      "inventor_name_first": "Sunghwan",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "SHIM",
+      "inventor_name_first": "Youngbo",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "HYUNG",
+      "inventor_name_first": "Seungyong",
+      "inventor_city": "Yongin-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A method and apparatus for training an algorithm to recognize a walking state of a user wearing a walking assistance apparatus are provided. The method and apparatus may generate virtual sensing data associated with walking of a virtual human model through a dynamic simulation, and may train the algorithm based on the virtual sensing data.",
+  "filing_date": "20160226",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Some example embodiments relate to method for training an algorithm to recognize a walking state of a user. In some example embodiments, the method includes generating virtual sensing data associated with walking of a virtual human model through a dynamic simulation; and training the algorithm to recognize the walking state based on the virtual sensing data. In some example embodiments, the generating comprises: generating the virtual human model based on a physical characteristic of a virtual human body; generating a walking model based on the virtual human model and walking environment information; and performing the dynamic simulation based on the walking model to generate the virtual sensing data. In some example embodiments, the generating further comprises: associating a virtual sensor to a portion of the virtual human model; and generating the virtual sensing data via the virtual sensor. In some example embodiments, the virtual sensing data includes at least one of a joint angle, walking speed data, walking acceleration data, a ground reaction force and an electromyographic (EMG) signal of the virtual human model. In some example embodiments, the algorithm is a deep neural network (DNN). In some example embodiments, the DNN is one of a deep convolutional neural network (DCNN) and a deep belief network (DBN). In some example embodiments, the training comprises: calculating a probability value of each of a plurality of walking states using the algorithm based on the virtual sensing data; calculating an error value based on the probability value and a label of dynamic simulation data; and adjusting at least one parameter of the algorithm to reduce the error value. In some example embodiments, the training further comprises: iteratively training the algorithm until the error value is equal to or less than a threshold value. In some example embodiments, the calculating the probability value comprises: generating an input vector based on the virt...",
+  "date_published": "20170511",
+  "title": "WALKING ASSISTANCE APPARATUS AND METHOD OF CONTROLLING SAME",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N308",
+    "G06N700",
+    "G06F1750"
+  ],
+  "_processing_info": {
+    "original_size": 84924,
+    "optimized_size": 3205,
+    "reduction_percent": 96.23
+  }
+}

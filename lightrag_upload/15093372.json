@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15093372",
+  "date_published": "20171012",
+  "date_produced": "20170927",
+  "title": "PARALLEL READ AND WRITES IN 3D FLASH MEMORY",
+  "filing_date": "20160407",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SETHURAMAN",
+      "inventor_name_first": "Saravanan",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "TRESSLER",
+      "inventor_name_first": "Gary A.",
+      "inventor_city": "Sandy Hook",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "VENKATARAMAN",
+      "inventor_name_first": "Harish",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment of the present invention is a memory system that includes a 3D NAND flash memory array comprising a plurality of data blocks that each includes a plurality of pages. The memory system also includes a controller configured to receive a program request to write data into a first block of the data blocks and receive a read request to read data from a second block of the data blocks. The controller is configured to instruct the flash memory array to read the data from the second block responsive to the read request in parallel with performing the program request on the first block. Another embodiment of the present invention is a method of operating a 3D NAND flash memory array including a plurality of data blocks that each includes a plurality of pages. The method includes receiving a program request to write data into a first block of the data blocks and receiving a read request to read data from a second block of the data blocks. The method includes instructing the flash memory array to read the data from the second block responsive to the read request in parallel with performing the program request on the first block. Another embodiment of the present invention is an integrated circuit that includes a controller configured to receive a program request to write data into a first block of a plurality of data blocks in a 3D NAND flash memory array, where each of the data blocks includes a plurality of pages. The controller is also configured to receive a read request to read data from a second block of the data blocks and instruct the flash memory array to read the data from the second block responsive to the read request in parallel with performing the program request on the first block.",
+  "patent_number": "None",
+  "abstract": "Embodiments herein describe a 3D flash memory system that includes multiple blocks where each block contains multiple pages arranged in a vertical stack. Instead of having a single command line indicating whether a read or program is to be performed, separate command lines are coupled to each of the blocks. As a result, if the memory system identifies a read request and a program request to different blocks, the requests can be performed in parallel. In one embodiment, a program command line is used to perform a program request on a first block while a read command line is used to perform a read request on a second block in the 3D flash memory system in parallel. Furthermore, because a program request can take much longer to complete than a read request, the 3D flash memory system can perform multiple read requests in parallel with the program request.",
+  "publication_number": "US20170293436A1-20171012",
+  "_processing_info": {
+    "original_size": 43271,
+    "optimized_size": 3448,
+    "reduction_percent": 92.03
+  }
+}

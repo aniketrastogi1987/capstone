@@ -1,0 +1,39 @@
+{
+  "date_produced": "20161109",
+  "publication_number": "US20160342897A1-20161124",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15203578",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Helfman",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "Half Moon Bay",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "White",
+      "inventor_name_first": "Brent-Kaan William",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments of the present invention provide a faceted browser for decision-making that enables interactive visualization of a decision space as choices are made. According to one embodiment, a computer-implemented method comprises receiving a selection of a first choice from a user. The first choice is displayed in a user interface that includes a plurality of facets, each facet including a plurality of choices. The method further comprises disabling at least one second choice in response to the selection of the first choice, and determining a first result set in response to the selection of the first choice. The user interface is then updated in real-time to display the selected status of the first choice, the disabled status of the second choice, and the first result set to the user.",
+  "filing_date": "20160706",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>Embodiments of the present invention address the foregoing problems by providing a faceted browser for decision-making that enables interactive visualization of a decision space as choices are made. In one set of embodiments, each facet of the decision space is represented as a collection of user-selectable elements (e.g., checkboxes, radio buttons, drop-down lists, etc.) in a user interface (e.g., web-based form, proprietary client application, etc.). The result set of the decision space is represented as a list of items (e.g., hyperlinks, etc.). When a user selects a particular element corresponding to a choice, other elements corresponding to other choices may become disabled (i.e., can no longer be selected) and the result set list may be shortened. Conversely, when a user de-selects a particular element corresponding to a choice, other elements corresponding to other choices may become enabled (i.e., can be selected) and the result set list may be expanded. In this manner, the user receives immediate, interactive feedback about how a particular choice affects the result set, as well as how the choices are related. In various embodiments, the user interface of the faceted browser may be automatically generated from one or more lists that are separate from the faceted browser logic. These lists may be stored in a textual form, such as XML or JavaScript object notation (JSON). This feature allows non-programmers to edit attributes of the user interface without having to change the program code of the browser. This feature also allows the faceted browser engine to be reused for a variety of different decision support scenarios without having to modify the program code. The lists may be stored together with the program code of the faceted browser or in one or more files that are separate from the program code. In one embodiment, attributes of the user interface may be stored across a plurality of text-based lists. For exampl...",
+  "date_published": "20161124",
+  "title": "GENERALIZED FACETED BROWSER DECISION SUPPORT TOOL",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F30481",
+    "G06F30484"
+  ],
+  "_processing_info": {
+    "original_size": 64905,
+    "optimized_size": 3530,
+    "reduction_percent": 94.56
+  }
+}

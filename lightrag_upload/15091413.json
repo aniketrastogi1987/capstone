@@ -1,0 +1,73 @@
+{
+  "date_produced": "20170603",
+  "publication_number": "US20170169326A1-20170615",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15091413",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Diamos",
+      "inventor_name_first": "Gregory",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hannun",
+      "inventor_name_first": "Awni",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Catanzaro",
+      "inventor_name_first": "Bryan",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Amodei",
+      "inventor_name_first": "Dario",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Elsen",
+      "inventor_name_first": "Erich",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Engel",
+      "inventor_name_first": "Jesse",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sengupta",
+      "inventor_name_first": "Shubhabrata",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods for a multi-core optimized Recurrent Neural Network (RNN) architecture are disclosed. The various architectures affect communication and synchronization operations according to the Multi-Bulk-Synchronous-Parallel (MBSP) model for a given processor. The resulting family of network architectures, referred to as MBSP-RNNs, perform similarly to a conventional RNNs having the same number of parameters, but are substantially more efficient when mapped onto a modern general purpose processor. Due to the large gain in computational efficiency, for a fixed computational budget, MBSP-RNNs outperform RNNs at applications such as end-to-end speech recognition.",
+  "filing_date": "20160405",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Reference will be made to embodiments of the invention, examples of which may be illustrated in the accompanying figures. These figures are intended to be illustrative and not limiting. Although the invention is generally described in the context of these embodiments, it shall understood that this is not intended to limit the scope of the invention to these particular embodiments. Elements in the figures may not be drawn to scale. FIGURE (“FIG.”) 1 depicts a simplified block diagram of a computing system comprising an RNN to increase computational efficiency according to various embodiments of the present disclosure. FIG. 2A shows a common, fully-connected baseline RNN layer architecture. FIG. 2B shows connectivity between modules in a common RNN layer architecture using fast and slow modules in a time series. FIG. 2C is a depiction of a single level of hierarchy of the Multi-Bulk-Synchronous-Parallel (MBSP) machine model. FIG. 2D is an example of a lowest level hierarchy MBSP module. FIG. 3A illustrates interconnectivity between two MBSP modules in the second level of a hierarchy of an RNN, according to various embodiments of the present disclosure. FIG. 3B illustrates the MBSP machine model hierarchy for an exemplary processor, according to various embodiments of the present disclosure. FIG. 3C is a flowchart of a process for creating an efficient RNN layer architecture according to various embodiments of the present disclosure. FIG. 3D is a flowchart of a process for balancing predefined conditions of the RNN, according to various embodiments of the present disclosure. FIG. 4 illustrates the notion of levels of hierarchy of modules in an RNN that is executed on a particular processor, according to various embodiments of the present disclosure. FIG. 5 illustrates an RNN that is segregated into fast and slow modules, according to various embodiments of the present disclosure. FIG. 6 illustrates a parallel prefix pattern ...",
+  "date_published": "20170615",
+  "title": "SYSTEMS AND METHODS FOR A MULTI-CORE OPTIMIZED RECURRENT NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 82081,
+    "optimized_size": 4148,
+    "reduction_percent": 94.95
+  }
+}

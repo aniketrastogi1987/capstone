@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15838597",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "filing_date": "20171212",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A quantum mechanical arithmetic operation method for machine vision, based on quantum dots is performed by a quantum processing processor. The quantum mechanical arithmetic operation method comprises, obtaining a first labeled graph connecting between feature points of the first image and a second labeled graph connecting feature points of the second image, generating a point-to-point combination by matching the feature points of the first image with the feature points the second image, generating a conflict graph by adding the largest point-to-point combination by comparing the point-to-point combinations with the threshold, generating non-constrained binary optimization equation for finding a maximum independent set of conflict graphs, converting the non-constrained binary optimization equation into Ising model of the quantum system, and calculating the Hamiltonian of Ising model based on the quantum dots to obtain solution of the non-constrained binary optimization equation.",
+  "publication_number": "US20180165594A1-20180614",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Accordingly, it is an object of the present invention to provide a quantum mechanical machine vision system and an arithmetic operation method based on quantum dot, which can facilitate calculation of complexity caused by an increase in the number of feature points for image identification. A quantum mechanical arithmetic operation method based on quantum dots according to an exemplary embodiment of the present invention is performed by a quantum processing processor. The quantum mechanical arithmetic operation method comprises, obtaining a first labeled graph connecting between feature points of the first image and a second labeled graph connecting feature points of the second image, generating a point-to-point combination by matching the feature points of the first image with the feature points the second image, generating a conflict graph by adding the largest point-to-point combination by comparing the point-to-point combinations with the threshold, generating non-constrained binary optimization equation for finding a maximum independent set of conflict graphs, converting the non-constrained binary optimization equation into Ising model of the quantum system, and calculating the Hamiltonian of Ising model based on the quantum dots to obtain solution of the non-constrained binary optimization equation. For example, calculating the Hamiltonian of Ising model based on the quantum dots to obtain solution of the non-constrained binary optimization equation may be performed by quantum dots arranged in a matrix shape. In this case, neighboring quantum dots with the shortest distance in a column direction or a row direction may be connected to each other through the tunnel junction. For example, the Hamiltonian of the Ising model may be calculated through adiabatic evolve, in calculating the Hamiltonian of Ising model based on the quantum dots to obtain solution of the non-constrained binary optimization equation. On the other hand, t...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06K962",
+    "G06K966"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "AHN",
+      "inventor_name_first": "Do Yeol",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "QUANTUM MECHANICAL MACHINE VISION SYSTEM AND ARITHMETIC OPERATION METHOD BASED ON QUANTUM DOT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 43045,
+    "optimized_size": 3590,
+    "reduction_percent": 91.66
+  }
+}

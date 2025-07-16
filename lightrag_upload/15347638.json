@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170427",
+  "publication_number": "US20170132515A1-20170511",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15347638",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yokoi",
+      "inventor_name_first": "Kensuke",
+      "inventor_city": "Kariya-city",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Sato",
+      "inventor_name_first": "Ikuro",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Niihara",
+      "inventor_name_first": "Hideki",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Nishimura",
+      "inventor_name_first": "Hiroki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "In a learning system, a storage stores training data. At least one processor performs a plurality of processes. Each of the processes calculates, based on the at least one parameter at a present time and the training data, a differential value for updating the at least one parameter in accordance with backpropagation. Each of the processes calculates, based on the differential value and the at least one parameter at the present time, a transmission value to be transmitted to the other processes. Each of the processes updates, based on the transmission values transmitted from the other processes, the at least one parameter at the present time.",
+  "filing_date": "20161109",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The convolution neural networks have a great advantage in recognition performance, but also have a weakness of requiring long training time when they are trained. Learning of the convolution neural network means a task to optimize parameters, such as weights and biases, of the convolution neural network. Datasets associated with social networks or datasets associated with autonomous driving are an example of ever-increasing datasets. Using such an enormous volume of a dataset for learning a convolution neural network may increase the training time of the convolution neural network, resulting in a risk that the training may be unfinished within a realistically allowable time length. For example, learning of a convolution neural network based on such an enormous volume of a dataset may require one or more years. Prolonged learning of a convolution neural network may reduce the practicality of the convolution neural network. This may result in users having no choice but to use recognition algorithms other than convolution neural networks. That is, it is a very important issue in industry to speed up learning of convolution neural networks. In view of the circumstances set forth above, one aspect of the present disclosure seeks to provide learning systems, learning programs, and learning methods, each of which is capable of speeding up learning of convolution neural networks. According to a first exemplary aspect of the present disclosure, there is provided a learning system for updating at least one parameter for a neural network. The learning system includes a storage storing training data, and at least one processor configured to perform a plurality of processes. Each of the processes is configured to calculate, based on the at least one parameter at a present time and the training data, a differential value for updating the at least one parameter in accordance with backpropagation. Each of the processes is configured to calculate, based on the dif...",
+  "date_published": "20170511",
+  "title": "LEARNING SYSTEM, LEARNING PROGRAM, AND LEARNING METHOD",
+  "ipcr_labels": [
+    "G06N308",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 156073,
+    "optimized_size": 3635,
+    "reduction_percent": 97.67
+  }
+}

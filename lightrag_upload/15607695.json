@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15607695",
+  "date_published": "20171130",
+  "date_produced": "20171115",
+  "filing_date": "20170530",
+  "main_ipcr_label": "G06N308",
+  "abstract": "There is provided a method comprising: receiving a graph comprising nodes with directional edges each associated with a variable weight representing an interaction strength of the respective direction edge adjustable according to a respective range; calculating a current global value defined by a function of the variable weights of the directional edges; calculating a mismatch between the current global value and a desired global value, wherein multiple different combinations of assigned variable weights of the directional edges are associated with the desired global value within the tolerance requirement; determining when the mismatch is within a tolerance requirement representing desired global values; and one of: randomly adjusting the variable weights of the directional edges within the respective range, and iterating the calculating the mismatch and determining when the mismatch is not within the tolerance requirement, and outputting determined values for the variable weights when...",
+  "publication_number": "US20170344883A1-20171130",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to an aspect of some embodiments of the present invention there is provided a computer implemented method for identifying values for variable weight parameters of edges of a network according to a desired global value within a tolerance requirement, comprising: receiving a graph representation of a network comprising nodes with directional edges each associated with a variable weight representing an interaction strength of the respective direction edge adjustable according to a respective range; calculating a current global value defined by a function of the variable weights of the directional edges; calculating a mismatch between the current global value and a desired global value, wherein multiple different combinations of assigned variable weights of the directional edges are associated with the desired global value within the tolerance requirement; determining when the mismatch is within a tolerance requirement representing desired global values; and one of: randomly adjusting the variable weights of the directional edges within the respective range, and iterating the calculating the mismatch and determining when the mismatch is not within the tolerance requirement, and outputting determined values for the variable weights of the directional edges when the mismatch is within the tolerance requirement. Optionally, randomly adjusting comprises randomly adjusting the variable weights of the directional edges within the respective range according to a function proportional to the amount of mismatch. Optionally, an iterative reduction in the amount of mismatch reduces the amount of the random adjustment within the respective range. Optionally, the network represents a chemical reaction, wherein each node represents a reactant, or an intermediate product, wherein each directed edge represents a reaction condition, wherein the desired global value represents a desired product, wherein the tolerance requirement represents a ...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SOEN",
+      "inventor_name_first": "Yoav",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "SCHREIER",
+      "inventor_name_first": "Hallel",
+      "inventor_city": "Clil",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "BRENNER",
+      "inventor_name_first": "Naama",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR CONTROL, ANALYSIS, AND/OR EVALUATION OF DYNAMICAL SYSTEMS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 108990,
+    "optimized_size": 3859,
+    "reduction_percent": 96.46
+  }
+}

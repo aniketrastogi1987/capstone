@@ -1,0 +1,130 @@
+{
+  "decision": "PENDING",
+  "application_number": "15276290",
+  "date_published": "20170112",
+  "date_produced": "20161228",
+  "title": "MECHANISM FOR INSTRUCTION SET BASED THREAD EXECUTION ON A PLURALITY OF INSTRUCTION SEQUENCERS",
+  "filing_date": "20160926",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Hong",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shen",
+      "inventor_name_first": "John P.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Grochowski",
+      "inventor_name_first": "Edward T.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hankins",
+      "inventor_name_first": "Richard A.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chinya",
+      "inventor_name_first": "Gautham N.",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bigbee",
+      "inventor_name_first": "Bryant E.",
+      "inventor_city": "Scottsdale",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kaushik",
+      "inventor_name_first": "Shivnandan D.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zou",
+      "inventor_name_first": "Xiang Chris",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hammarlund",
+      "inventor_name_first": "Per",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rodgers",
+      "inventor_name_first": "Scott Dion",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tian",
+      "inventor_name_first": "Xinmin",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Aggarwal",
+      "inventor_name_first": "Anil",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sethi",
+      "inventor_name_first": "Prashant",
+      "inventor_city": "Folsom",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Patel",
+      "inventor_name_first": "Baiju V.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Held",
+      "inventor_name_first": "James P.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F938",
+    "G06F930",
+    "G06F948"
+  ],
+  "main_ipcr_label": "G06F938",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIGS. 1A and 1B show high-level block diagrams of a multi-sequencer system, in accordance with one embodiment of the invention; FIG. 1C is a block diagram illustrating selected features of embodiments of a multi-sequencer system that supports control of threads by user-level instructions; FIG. 2 shows a logical view of multi-sequencer hardware forming a part of the multi-sequencer system of FIGS. 1A-1C ; FIG. 3A shows a view of an instruction set architecture for the systems of FIGS. 1A-1C ; FIG. 3B illustrates a logical diagram of an embodiment of a processor with two or more instruction sequencers that include a user-level control-transfer instruction and a user-level monitor instruction in their instruction sets. FIGS. 4A and 4B shows the format of the SXFR and SEMONITOR instructions, respectively, in accordance to one embodiment of the invention; FIG. 5 illustrates how the SXFR instruction can be used to implement inter-sequencer control transfer, in accordance with one embodiment of the invention; FIGS. 6A-6B illustrate tables, in accordance with one embodiment of the invention, that may be used to program a service channel; FIG. 7 shows a functional block diagram of the components that make up the thread management logic of the systems of FIGS. 1A-1C , in accordance with one embodiment of the invention; FIG. 8 illustrate the operation of a proxy execution mechanism, in accordance with one embodiment of the invention; FIGS. 9 and 10 show examples of logical processors, in accordance with one embodiment of the invention; FIG. 11 shows how the SXFR and SEMONITOR instructions may be used to support proxy execution upon a page-fault handling by the OS, in accordance with one embodiment of the invention; and FIG. 12 shows a processing system in accordance with one embodiment of the invention. FIG. 13 illustrates a block diagram of an example computer system that may use an embodiment of a processor component, such as a Ce...",
+  "patent_number": "None",
+  "abstract": "In an embodiment, a method is provided. The method includes managing user-level threads on a first instruction sequencer in response to executing user-level instructions on a second instruction sequencer that is under control of an application level program. A first user-level thread is run on the second instruction sequencer and contains one or more user level instructions. A first user level instruction has at least 1) a field that makes reference to one or more instruction sequencers or 2) implicitly references with a pointer to code that specifically addresses one or more instruction sequencers when the code is executed.",
+  "publication_number": "US20170010895A1-20170112",
+  "_processing_info": {
+    "original_size": 92061,
+    "optimized_size": 5315,
+    "reduction_percent": 94.23
+  }
+}

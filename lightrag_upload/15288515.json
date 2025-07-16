@@ -1,0 +1,44 @@
+{
+  "date_produced": "20180328",
+  "publication_number": "US20180101764A1-20180412",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15288515",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fukuda",
+      "inventor_name_first": "Takashi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Suzuki",
+      "inventor_name_first": "Masayuki A.",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Tachibana",
+      "inventor_name_first": "Ryuki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A method for transferring acoustic knowledge of a trained acoustic model (AM) to a neural network (NN) includes reading, into memory, the NN and the AM, the AM being trained with target domain data, and a set of training data including a set of phoneme data, the set of training data being data obtained from a domain different from a target domain for the target domain data, inputting training data from the set of training data into the AM, calculating one or more posterior probabilities of context-dependent states corresponding to phonemes in a phoneme class of a phoneme to which each frame in the training data belongs, and generating a posterior probability vector from the one or more posterior probabilities, as a soft label for the NN, and inputting the training data into the NN and updating the NN, using the soft label.",
+  "filing_date": "20161007",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect of the present invention, an embodiment of the present invention provides a computer-implemented method for transferring acoustic knowledge of a trained AM to an NN. The method includes reading, into a memory, the NN, the AM, the AM being trained with target domain data, and a set of training data consisting of a set of phoneme data, the training data being data obtained from a domain different from a target domain for the target domain data; inputting training data into the AM, calculating each posterior probability of context-dependent states corresponding to each phoneme in a phoneme class to of a phoneme which each frame in the training data belongs, and generating a posterior probability vector from the calculated posterior probabilities, as a soft label for the NN; and inputting the training data into the NN and updating the NN, using the soft label. According to another aspect of the present invention, a speech recognition system which performs speech recognition, using the updated NN which was trained according to the one or more methods described herein, is provided. According to another aspect of the present invention, a system, such as a computer system, comprising a processor and a memory storing a program of instructions executable by the processor to perform one or more methods described herein is provided. According to another aspect of the present invention, a computer program product comprising a computer readable storage medium storing a program of instructions executable by a system to perform one or more methods described herein is provided.",
+  "date_published": "20180412",
+  "title": "TRANSFER OF AN ACOUSTIC KNOWLEDGE TO A NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 49216,
+    "optimized_size": 3287,
+    "reduction_percent": 93.32
+  }
+}

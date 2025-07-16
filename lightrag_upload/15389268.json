@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15389268",
+  "date_published": "20170608",
+  "date_produced": "20170524",
+  "title": "METHODS AND SYSTEMS FOR REBUILDING DATA SUBSEQUENT TO THE FAILURE OF A STORAGE UNIT",
+  "filing_date": "20161222",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Han",
+      "inventor_name_first": "Chunqi",
+      "inventor_city": "Pleasanton",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nanduri",
+      "inventor_name_first": "Anil",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vishnumolakala",
+      "inventor_name_first": "Murali Krishna",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1110"
+  ],
+  "main_ipcr_label": "G06F1110",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In accordance with one embodiment, a data redundancy scheme provides the benefits of both the above-described RAID 6 and RAID 7 implementations. One embodiment is depicted in FIG. 4 . For a fair comparison with the above-described RAID 6 and RAID 7 implementations, the embodiment of FIG. 4 also employs 8 disks and has the same data capacity (i.e., is capable of storing the same number of data blocks as the above-described RAID 6 and RAID 7 implementations). Of course, the use of exactly 8 disks is exemplary in nature, and a person having ordinary skill in the art could adapt the data redundancy technique illustrated in FIG. 4 for a different number of disks. The embodiment of FIG. 4 provides triple-parity (thus providing the benefits of the RAID 7 implementation of FIG. 2 ), while at the same time, includes a disk that can serve as a spare disk (thus providing the benefits of the RAID 6 implementation). To be more specific, disk 7 is dedicated for storing error-correction blocks during normal operation of the storage array, but transforms into a spare disk upon failure of any one of the other disks. In other words, upon failure of one of the disks (i.e., any one of disk 0 through disk 6 ), the reconstructed contents of the failed disk over write the error-correction blocks of disk 7 . One might initially be skeptical of such a scheme, in that writing over the error-correction blocks would appear to cause the loss of redundancy information. This is, however, not so. Upon the failure of any one of the disks, the triple-parity of the storage array is immediately reduced to dual-parity (i.e., instead of being able to recover three data blocks of a stripe, only two data blocks of a stripe can now be recovered). Writing over the error-correction blocks of disk 7 with the reconstructed contents of the failed disk does not result in the loss of any information since the storage array maintains its dual-parity level of redundancy during th...",
+  "patent_number": "None",
+  "abstract": "Described herein are techniques for storing data in a redundant manner on a plurality of storage units of a storage system. While all of the storage units are operating without failure, only error-correction blocks are stored on a first one of the storage units, while a combination of data blocks and error-correction blocks are stored on a second one of the storage units. Upon failure of the second storage unit, one or more data blocks and one or more error-correction blocks formerly stored on the second storage unit are reconstructed, and the one or more reconstructed data blocks and the one or more reconstructed error-correction blocks are stored on the first storage unit.",
+  "publication_number": "US20170161146A1-20170608",
+  "_processing_info": {
+    "original_size": 80510,
+    "optimized_size": 3564,
+    "reduction_percent": 95.57
+  }
+}

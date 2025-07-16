@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15557793",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "filing_date": "20170912",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A mechanism for compiling a generative description of an inference task into a neural network. First, an arbitrary generative probabilistic model from the exponential family is specified (or received). The model characterizes a conditional probability distribution for measurement data given a set of latent variables. A factor graph is generated for the generative probabilistic model. Each factor node of the factor graph is expanded into a corresponding sequence of arithmetic operations, based on a specified inference task and a kind of message passing algorithm. The factor graph and the sequences of arithmetic operations specify the structure of a neural network for performance of the inference task. A learning algorithm is executed, to determine values of parameters of the neural network. The neural network is then ready for performing inference on operational measurements.",
+  "publication_number": "US20180082172A1-20180322",
+  "summary": "<SOH> SUMMARY <EOH>A grand challenge in machine learning is the development of computational algorithms that match or outperform humans in perceptual inference tasks such as visual object and speech recognition. The key factor complicating such tasks is the presence of numerous nuisance variables, for instance, the unknown object position, orientation, and scale in object recognition, or the unknown voice pronunciation, pitch, and speed in speech recognition. Recently, a new breed of deep learning algorithms have emerged for high-nuisance inference tasks; they are constructed from many layers of alternating linear and nonlinear processing units and are trained using large-scale algorithms and massive amounts of training data. The recent success of deep learning systems is impressive—they now routinely yield pattern recognition systems with near- or super-human capabilities but two fundamental question remains: (i) Why do they work? and (ii) How to derive the best deep network for solving a given inference task? Intuitions abound, but a coherent framework for understanding, analyzing, and synthesizing deep learning architectures has remained elusive. We answer these questions by developing a new probabilistic framework for deep learning based on a Bayesian generative probabilistic model that explicitly captures variation due to nuisance variables. The graphical structure of the model enables it to be learned from data using classical expectation-maximization techniques. Furthermore, by relaxing the generative model to a discriminative one, we can recover two of the current leading deep learning systems, deep convolutional neural networks (DCNs) and random decision forests (RDFs), providing insights into their successes and shortcomings as well as a principled route to their improvement and refinement. Our framework goes far beyond explaining why current deep learning systems work. We develop an explicit procedure, called BrainFactory, that can convert a large class o...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Patel",
+      "inventor_name_first": "Ankit B.",
+      "inventor_city": "Houston",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Baraniuk",
+      "inventor_name_first": "Richard G.",
+      "inventor_city": "Houston",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Automated Compilation of Probabilistic Task Description into Executable Neural Network Specification",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 236921,
+    "optimized_size": 3642,
+    "reduction_percent": 98.46
+  }
+}

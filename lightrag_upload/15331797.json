@@ -1,0 +1,53 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060738A1-20180301",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15331797",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Achin",
+      "inventor_name_first": "Jeremy",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DeGodoy",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Melrose",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Owen",
+      "inventor_name_first": "Timothy",
+      "inventor_city": "Watertown",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Conort",
+      "inventor_name_first": "Xavier",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    }
+  ],
+  "abstract": "A method for determining the predictive value of a feature may include: (a) performing predictive modeling procedures associated with respective predictive models, wherein performing each modeling procedure includes fitting the associated model to an initial dataset representing an initial prediction problem; (b) determining a first accuracy score of each of the fitted models, representing an accuracy with which the fitted model predicts an outcome of the initial prediction problem; (c) shuffling values of a feature across observations included in the initial dataset, thereby generating a modified dataset representing a modified prediction problem; (d) determining a second accuracy score of each of the fitted models, representing an accuracy with which the fitted model predicts an outcome of the modified prediction problem; and (e) determining a model-specific predictive value of the feature for each of the fitted models based on the first and second accuracy scores of the fitted model...",
+  "filing_date": "20161021",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Motivation for Some Embodiments of the Invention Data analysts can use analytic techniques and computational infrastructures to build predictive models from electronic data, including operations and evaluation data. Data analysts generally use one of two approaches to build predictive models. With the first approach, an organization dealing with a prediction problem simply uses a packaged predictive modeling solution already developed for the same prediction problem or a similar prediction problem. This “cookie cutter” approach, though inexpensive, is generally viable only for a small number of prediction problems (e.g., fraud detection, churn management, marketing response, etc.) that are common to a relatively large number of organizations. With the second approach, a team of data analysts builds a customized predictive modeling solution for a prediction problem. This “artisanal” approach is generally expensive and time-consuming, and therefore tends to be used for a small number of high-value prediction problems. The space of potential predictive modeling solutions for a prediction problem is generally large and complex. Statistical learning techniques are influenced by many academic traditions (e.g., mathematics, statistics, physics, engineering, economics, sociology, biology, medicine, artificial intelligence, data mining, etc.) and by applications in many areas of commerce (e.g., finance, insurance, retail, manufacturing, healthcare, etc.). Consequently, there are many different predictive modeling algorithms, which may have many variants and/or tuning parameters, as well as different pre-processing and post-processing steps with their own variants and/or parameters. The volume of potential predictive modeling solutions (e.g., combinations of pre-processing steps, modeling algorithms, and post-processing steps) is already quite large and is increasing rapidly as researchers develop new techniques. Given this vast space of predictive modeling...",
+  "date_published": "20180301",
+  "title": "SYSTEMS AND TECHNIQUES FOR DETERMINING THE PREDICTIVE VALUE OF A FEATURE",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 277240,
+    "optimized_size": 4040,
+    "reduction_percent": 98.54
+  }
+}

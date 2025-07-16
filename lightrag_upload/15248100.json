@@ -1,0 +1,52 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15248100",
+  "date_published": "20161208",
+  "date_produced": "20161122",
+  "title": "STORING A SYSTEM-ABSOLUTE ADDRESS (SAA) IN A FIRST LEVEL TRANSLATION LOOK-ASIDE BUFFER (TLB)",
+  "filing_date": "20160826",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ALEXANDER",
+      "inventor_name_first": "KHARY J.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HSIEH",
+      "inventor_name_first": "JONATHAN T.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "JACOBI",
+      "inventor_name_first": "CHRISTIAN",
+      "inventor_city": "Schoenaich",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "SLEGEL",
+      "inventor_name_first": "TIMOTHY J.",
+      "inventor_city": "Staatsburg",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F121045",
+    "G06F120897"
+  ],
+  "main_ipcr_label": "G06F121045",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments relate to a method, system and computer program product for storing a system-absolute address (SAA) in a first level look-aside buffer (TLB). In one embodiment, the system includes a central processor including the TLB and general purpose registers (GPRS). The TLB is configured for storing the SAA. The central processor is configured for issuing a load system-absolute address (LSAA) instruction. The system includes a translation unit that is in communication with the TLB of the central processor. The system is configured to perform a method including determining, based on the LSAA instruction being issued, whether the SAA is stored in the TLB. The method includes sending a translation request to the translation unit from the central processor based on the SAA not being stored in the TLB. The method includes determining the SAA by the translation unit based on receiving the translation request. The method includes sending the SAA from the translation unit to the TLB and writing the SAA to the TLB. The LSAA instruction is then restarted. The method includes obtaining the SAA from the TLB based on the LSAA instruction being issued, and writing the SAA to the GPRS.",
+  "patent_number": "9569370",
+  "abstract": "Embodiments relate to a method, system and computer program product for storing a system-absolute address (SAA) in a first level look-aside buffer (TLB). In one embodiment, the system includes a central processor including the TLB and general purpose registers (GPRS). The TLB is configured for storing the SAA. The central processor is configured for issuing a load system-absolute address (LSAA) instruction. The system includes a translation unit that is in communication with the TLB of the central processor. The system is configured to perform a method including determining, based on the LSAA instruction being issued, whether the SAA is stored in the TLB. The method includes sending a translation request to the translation unit from the central processor based on the SAA not being stored in the TLB. The method includes determining the SAA by the translation unit based on receiving the translation request.",
+  "publication_number": "US20160357685A1-20161208",
+  "_processing_info": {
+    "original_size": 35187,
+    "optimized_size": 3193,
+    "reduction_percent": 90.93
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174042A1-20180621",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15385334",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Srinivasa",
+      "inventor_name_first": "Narayan",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cao",
+      "inventor_name_first": "Yongqiang",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wild",
+      "inventor_name_first": "Andreas",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods for supervised learning and cascaded training of a neural network are described. In an example, a supervised process is used for strengthening connections to classifier neurons, with a supervised learning process of receiving a first spike at a classifier neuron from a processing neuron in response to training data, and receiving an out-of-band communication of a second desired (artificial) spike at the classifier neuron that corresponds to the classification of the training data. As a result of spike timing dependent plasticity, connections to the classifier neuron are strengthened. In another example, a cascaded technique is disclosed to generate a plurality of trained neural networks that are separately initialized and trained based on different types or forms of training data, which may be used with cascaded or parallel operation of the plurality of trained neural networks.",
+  "filing_date": "20161220",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings, which are not necessarily drawn to scale, like numerals may describe similar components in different views. Like numerals having different letter suffixes may represent different instances of similar components. Some embodiments are illustrated by way of example, and not limitation, in the figures of the accompanying drawings in which: FIG. 1 illustrates a diagram of a simplified neural network, according to an example; FIG. 2 illustrates the use of spikes in a neural network pathway implementing learning from spike timing dependent plasticity, according to an example; FIG. 3 illustrates the use of spikes in a neural network pathway implementing supervised learning from spike timing dependent plasticity based on a triggered desired spike, according to an example; FIGS. 4A and 4B illustrate graphs of long-term potentiation and long-term depression from a function of supervised spike time dependent plasticity, according to an example; FIG. 5A illustrates a graph of values from an unsupervised spike timing learning rule, according to an example; FIG. 5B illustrates a graph of values from an supervised spike timing learning rule, using a desired spike value, according to an example; FIG. 6 illustrates a diagram of a neural network adapted for implementing a supervised spike timing learning rule, according to an example; FIG. 7 illustrates a flowchart of operations for implementing a supervised spike timing learning process, according to an example; FIG. 8 illustrates a sequence of operations for implementing cascading training operations in a neural network, according to an example; FIG. 9 illustrates a sequence of operations for predicting classification from parallel evaluation operations in a trained neural network, according to an example; FIG. 10 illustrates a sequence of operations for predicting classification from cascading evaluation operations in a neural network, according to an example; FIG. 11 il...",
+  "date_published": "20180621",
+  "title": "SUPERVISED TRAINING AND PATTERN MATCHING TECHNIQUES FOR NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 136273,
+    "optimized_size": 3775,
+    "reduction_percent": 97.23
+  }
+}

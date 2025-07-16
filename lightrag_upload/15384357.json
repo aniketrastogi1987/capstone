@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174071A1-20180621",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15384357",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bhatt",
+      "inventor_name_first": "Himanshu Sharad",
+      "inventor_city": "Uttam",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Rajkumar",
+      "inventor_name_first": "Arun",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Ramakrishnan",
+      "inventor_name_first": "Sriranjani",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Roy",
+      "inventor_name_first": "Shourya",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "The disclosed embodiments illustrate a domain adaptation method for learning transferable feature representations from a source domain for a target domain. The method includes receiving real-time input data comprising labeled instances of the source domain and unlabeled instances of the target domain from a computing device. The method further includes determining source specific representation corresponding to the source domain and a common representation shared between the source domain and the target domain. Based on a positive contribution from the source specific representation and the common representation, the labeled instances of the source domain are classified. The method further includes training a generalized classifier based on a positive contribution from the common representation. The method further includes automatically performing text classification on the unlabeled instances of the target domain based on the trained generalized classifier. The result of the text clas...",
+  "filing_date": "20161220",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to embodiments illustrated herein, there is provided a domain adaptation method for text classification based on learning of transferable feature representations from a source domain for a target domain. The domain adaptation method includes receiving, by one or more processors in a data processing server, real-time input data from a computing device over a communication network, wherein the received input data comprises labeled instances of the source domain and unlabeled instances of the target domain. The domain adaptation method further includes determining, by a source specific processor in the data processing server, source specific representation corresponding to the source domain, and, by a common processor, a common representation shared between the source domain and the target domain. The domain adaptation method further includes classifying, by a classification processor in the data processing server, the labeled instances of the source domain based on a positive contribution from the source specific processor that provides the source specific representation and the common processor that provides the common representation. The domain adaptation method further includes training, by a domain regression processor in the data processing server, a generalized classifier based on a positive contribution from the common processor that provides the common representation. The domain adaptation method further includes automatically performing, by the one or more processors, text classification on the unlabeled instances of the target domain based on the trained generalized classifier, wherein result of the text classification automatically performed on the unlabeled instances of the target domain is rendered at a user interface of the computing device over the communication network. According to embodiments illustrated herein, there is provided a domain adaptation system for text classification based on learning of transferable feature ...",
+  "date_published": "20180621",
+  "title": "METHOD AND SYSTEM FOR TEXT CLASSIFICATION BASED ON LEARNING OF TRANSFERABLE FEATURE REPRESENTATIONS FROM A SOURCE DOMAIN",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 122694,
+    "optimized_size": 4067,
+    "reduction_percent": 96.69
+  }
+}

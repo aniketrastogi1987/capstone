@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170110",
+  "publication_number": "US20170024642A1-20170126",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15067920",
+  "inventor_list": [
+    {
+      "inventor_name_last": "XIONG",
+      "inventor_name_first": "Hui Yuan",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "DELONG",
+      "inventor_name_first": "Andrew",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "FREY",
+      "inventor_name_first": "Brendan",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "Systems and methods for training a neural network or an ensemble of neural networks are described. A hyper-parameter that controls the variance of the ensemble predictors is used to address overfitting. For larger values of the hyper-parameter, the predictions from the ensemble have more variance, so there is less overfitting. This technique can be applied to ensemble learning with various cost functions, structures and parameter sharing. A cost function is provided and a set of techniques for learning are described.",
+  "filing_date": "20160311",
+  "patent_number": "nan",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, a computer-implemented method for use in training a plurality of neural networks is provided, the method comprising: obtaining at least one training data item; computing outputs from one or more members within the plurality of neural networks for the at least one training data item; combining one or more of the outputs to form an aggregate output; selecting at least one neural network from the plurality of neural networks; computing a variance-adjusted output for each selected neural network by summing the aggregate output with a fixed multiple (a) of a difference between the output of the selected neural network and the aggregate output for the at least one training data item; computing a difference between the variance-adjusted outputs and a desired output for the training data item; and adjusting at least one parameter of the plurality of neural networks to reduce the difference between the variance-adjusted outputs and the desired output. In another aspect, a computer-implemented method for use in training a neural network is provided, the method comprising: obtaining at least one training data item; computing a plurality of training outputs by repeatedly applying the neural network to the at least one training data item while disabling at least one of the hidden units or input units randomly with the predetermined probability, or pseudo-randomly with the predetermined probability, or using a predetermined set of binary masks that use the predetermined probability and where each mask is used only once, or according to a fixed pattern that uses the predetermined probability; computing aggregate training outputs for the at least one training data item, by averaging of the plurality of training outputs or by majority voting of the plurality of training outputs; for each training output, computing a variance-adjusted training output by summing the aggregate training output with a fixed number (a) times a difference between the train...",
+  "date_published": "20170126",
+  "title": "SYSTEM AND METHOD FOR TRAINING NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F758",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 53729,
+    "optimized_size": 3360,
+    "reduction_percent": 93.75
+  }
+}

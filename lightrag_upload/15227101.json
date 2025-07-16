@@ -1,0 +1,37 @@
+{
+  "date_produced": "20180124",
+  "publication_number": "US20180039905A1-20180208",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15227101",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Anghel",
+      "inventor_name_first": "Andreea S.",
+      "inventor_city": "Adliswil",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Prisacari",
+      "inventor_name_first": "Bogdan",
+      "inventor_city": "Adliswil",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "abstract": "Embodiments train data analytics models by fitting that is distributed computationally and from a data storage point of view to produce an equivalent model to that achieved by sequential fitting. For example, a method may include performing a first pass on an untrained model at a first node, repeatedly transmitting the model to a next node and training the data analytics model at the next node until the data analytics model has been trained by at least a portion of the plurality of processing nodes. There may be a plurality of models that need to be fitted on the dataset and that may be independent or may result from varying and choosing different combinations of model structure, model meta-parameters that are not learned through training, and training algorithm parameters. Embodiments may provide the capability for training multiple models simultaneously by performing the single-model fitting process on different successions of nodes.",
+  "filing_date": "20160803",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention may provide the capability for training of data analytics models by fitting that is distributed computationally and from a data storage point of view and that is able to produce an equivalent model to that achieved by sequential fitting. Given a multi-node distributed computing system data parallelism and in-memory computation may be achieved by distributing the dataset onto the available nodes. Likewise, sequential-equivalence may be achieved by transmitting from node to node not the data, but the intermediate models, and performing computation only on local data (bringing thus computation to the data, not the other way around). Further, computational parallelism may be achieved by training multiple models and considering multiple dataset views. In an embodiment of the present invention, a computer-implemented method for training of data analytics models may comprise dividing a dataset among a plurality of processing nodes, each processing node comprising at least one processor, memory, and communications circuitry, the memory of each processing node storing a different portion of the dataset, performing a first training pass on an untrained data analytics model by receiving at a first node the untrained data analytics model, training the untrained data analytics model by integrating the portion of the dataset stored on the first node into the data analytics model, repeating transmitting the data analytics model to a next node and training the data analytics model at the next node by integrating the portion of the dataset stored on the next node into the data analytics model until the data analytics model has been trained by at least a portion of the plurality of processing nodes, and outputting the trained data analytics model. In an embodiment of the present invention, the method may further comprise performing at least one additional training pass on the data analytics model. The output trained data analyti...",
+  "date_published": "20180208",
+  "title": "LARGE SCALE DISTRIBUTED TRAINING OF DATA ANALYTICS MODELS",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 48112,
+    "optimized_size": 3645,
+    "reduction_percent": 92.42
+  }
+}

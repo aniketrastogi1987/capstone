@@ -1,0 +1,30 @@
+{
+  "decision": "PENDING",
+  "application_number": "15051057",
+  "date_published": "20160825",
+  "date_produced": "20160810",
+  "title": "HYBRID MESSAGE-BASED SCHEDULING TECHNIQUE",
+  "filing_date": "20160223",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kimmel",
+      "inventor_name_first": "Jeffrey S.",
+      "inventor_city": "Chapel Hill",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1336"
+  ],
+  "main_ipcr_label": "G06F1336",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The above and further advantages of the embodiments herein may be better understood by referring to the following description in conjunction with the accompanying drawings in which like reference numerals indicate identically or functionally similar elements, of which: FIG. 1 is a block diagram of a plurality of nodes interconnected as a cluster; FIG. 2 is a block diagram of a node; FIG. 3 is a block diagram of a storage input/output (I/O) stack of the node; FIG. 4 illustrates a write path of the storage I/O stack; FIG. 5 illustrates a read path of the storage I/O stack; and FIG. 6 is a block diagram of a hybrid message-based scheduling technique. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A hybrid message-based scheduling technique efficiently load balances a storage I/O stack partitioned into one or more non-blocking (i.e., free-running) messaging kernel (MK) threads that execute non-blocking message handlers (i.e., non-blocking services) and one or more operating system kernel blocking threads that execute blocking services. The technique combines the blocking and non-blocking services within a single coherent extended programming environment. The messaging kernel (MK) operates on processors apart from the operating system kernel that are allocated from a predetermined number of logical processors (i.e., hyper-threads) for use by an MK scheduler to schedule the non-blocking services within storage I/O stack as well as allocate a remaining number of logical processors for use by the blocking services. In addition, the technique provides a variation on a synchronization primitive that allows signaling between the two types of services (i.e., non-blocking and blocking) w...",
+  "publication_number": "US20160246742A1-20160825",
+  "_processing_info": {
+    "original_size": 77648,
+    "optimized_size": 2310,
+    "reduction_percent": 97.03
+  }
+}

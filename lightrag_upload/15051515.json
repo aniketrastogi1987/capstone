@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15051515",
+  "date_published": "20160825",
+  "date_produced": "20160810",
+  "title": "Valve clip prediction",
+  "filing_date": "20160223",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sipiorski",
+      "inventor_name_first": "Ronald",
+      "inventor_city": "Carpentersville",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Trini",
+      "inventor_name_first": "Martin",
+      "inventor_city": "Schaumburg",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1900"
+  ],
+  "main_ipcr_label": "G06F1900",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention provide a method and system for predicting an optimal position for a valve clip to be placed and/or an optimal type of valve clip to be used. According to embodiments disclosed herein, a simulation of the blood flow for the mitral valve is used to calculate the optimal position for the valve clip as well as the optimal type of clip to be used. In an embodiment, a system for valve clip placement comprises a processor configured to: receive one or more parameters that influence a simulation of blood flow for a mitral valve; define one or more metrics for an acceptable simulation result; conduct the simulation of the blood flow for the mitral valve based on one or more of the one or more received parameters; compare results of the simulation with the defined one or more metrics; re-conduct the simulation of the blood flow for the mitral valve based on a re-parameterization of one or more of the one or more received parameters if the comparison indicates an unacceptable simulation result, wherein the re-conducting is performed until the acceptable simulation result is accomplished as determined by a comparison of the results of the re-conducted simulation with the defined one or more metrics; and determine at least one of a valve clip position and a valve clip type based on the acceptable simulation result from one of the conducted simulation and the re-conducted simulation. A user interface in communication with the processor is configured to display data relating to the at least one of the valve clip position and the valve clip type. In an embodiment, the simulation of the blood flow is a computational fluid dynamics (CFD) simulation. In an embodiment, the one or more parameters that influence the simulation of blood flow for the mitral valve comprise at least one of calcification details, Doppler information, valve clip properties, and prior parameters based on prior simulations. According to an embodiment, at l...",
+  "patent_number": "None",
+  "abstract": "Embodiments relate to a method and system for calculating an optimal position for a valve clip to be placed and/or an optimal type of valve clip to be used for placement in a patient, based upon a simulation of the blood flow for the valve. Parameters that influence the simulation of blood flow for the mitral valve are used to conduct the simulation, the results of which are compared against certain predefined metrics. One or more metrics may be defined to analyze the effective regurgitation resulting from computational fluid dynamics (CFD) calculations. A valve clip and/or a clip position may be selected or determined to be preferred based upon flow characteristics calculated for the valve clip and/or the clip position under the CFD simulation. Appropriate instructions or other guidance information to appropriately place and affix the valve clip into the optimal position is provided via a user interface.",
+  "publication_number": "US20160246938A1-20160825",
+  "_processing_info": {
+    "original_size": 48387,
+    "optimized_size": 3586,
+    "reduction_percent": 92.59
+  }
+}

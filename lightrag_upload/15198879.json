@@ -1,0 +1,38 @@
+{
+  "date_produced": "20161005",
+  "publication_number": "US20160307097A1-20161020",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15198879",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lu",
+      "inventor_name_first": "Zhengdong",
+      "inventor_city": "Hong Kong",
+      "inventor_state": "",
+      "inventor_country": "HK"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Hang",
+      "inventor_city": "Hong Kong",
+      "inventor_state": "",
+      "inventor_country": "HK"
+    }
+  ],
+  "abstract": "The present disclosure includes acquiring a keyword of information to be replied to, as a first feature, and acquiring a keyword of a pending reply in a pending reply set as a second feature, calculating, according to a correlation between the first feature and the second feature, a match between the information to be replied to and the pending reply, where the correlation between the first feature and the second feature is obtained through multiple trainings according to an original text and a reply to the original text that are acquired from a corpus environment, where the corpus environment includes a microblog, a forum, and a post bar, repeating the foregoing steps, until matches between the information to be replied to and all pending replies are obtained, and selecting a best matched pending reply as a reply to the information to be replied to.",
+  "filing_date": "20160630",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure provides a method and an apparatus for automatically replying to information, which can automatically reply to information sent by a peer and greatly improve reply efficiency in an open field. A first aspect of the present disclosure provides a method for acquiring a feature correlation, including the following steps acquiring, from a corpus environment, an original text and an eligible reply to the original text, where the corpus environment includes a microblog, a forum, and a post bar, and the eligible reply is a reply complying with a set condition, acquiring a keyword of the original text as a first feature, and acquiring a keyword of the eligible reply as a second feature, and training a neural network model using the first feature and the second feature, to obtain a correlation between the first feature and the second feature. With reference to the first aspect, in a first possible implementation manner of the first aspect of the present disclosure, the step of acquiring, from a corpus environment, an original text and an eligible reply to the original text, includes acquiring, from the corpus environment, the original text and a reply to the original text, and cleaning the reply to the original text according to the set condition to obtain the eligible reply to the original text, where the set condition includes that a count of words exceeds 5, and that there is no attachment, and that the reply is within the first one hundred replies sorted in reply order. A second aspect of the present disclosure provides an apparatus for acquiring a feature correlation, including a corpus acquiring module, a feature acquiring module, and a training module, where the corpus acquiring module is configured to acquire, from a corpus environment, an original text and an eligible reply to the original text, where the corpus environment includes a microblog, a forum, and a post bar, and the eligible reply is a reply complying with a set ...",
+  "date_published": "20161020",
+  "title": "Method and Apparatus for Automatically Replying to Information",
+  "ipcr_labels": [
+    "G06N308",
+    "H04L1258"
+  ],
+  "_processing_info": {
+    "original_size": 77600,
+    "optimized_size": 3561,
+    "reduction_percent": 95.41
+  }
+}

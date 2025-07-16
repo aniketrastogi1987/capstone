@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15480597",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "filing_date": "20170406",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Technical solutions are described for implementing a convolutional neural network (CNN) using resistive processing unit (RPU) array. An example method includes configuring an RPU array corresponding to a convolution layer in the CNN based on convolution kernels of the layer. The method further includes performing forward pass computations via the RPU array by transmitting voltage pulses corresponding to input data to the RPU array, and storing values corresponding to output currents from the RPU arrays as output maps. The method further includes performing backward pass computations via the RPU array by transmitting voltage pulses corresponding to error of the output maps, and storing the output currents from the RPU arrays as backward error maps. The method further includes performing update pass computations via the RPU array by transmitting voltage pulses corresponding to the input data of the convolution layer and the error of the output maps to the RPU array.",
+  "publication_number": "US20180075338A1-20180315",
+  "summary": "<SOH> SUMMARY <EOH>According to one or more embodiments, a computer implemented method for implementing a convolutional neural network (CNN) using resistive processing unit (RPU) array includes configuring an RPU array corresponding to a convolution layer in the CNN based on convolution kernels of the convolution layer. The method further includes performing forward pass computations for the CNN via the RPU array by transmitting voltage pulses corresponding to input data of the convolution layer to the RPU array, and storing values corresponding to output currents from the RPU arrays as output maps. The method further includes performing backward pass computations for the CNN via the RPU array by transmitting voltage pulses corresponding to error of the output maps of the convolution layer to the RPU array, and storing values corresponding to the output currents from the RPU arrays as backward error maps. The method further includes performing update pass computations for the CNN via the RPU array by transmitting voltage pulses corresponding to the input data of the convolution layer and the error of the output maps to the RPU array. According to one or more embodiments, a system facilitating training a convolution layer of a convolutional neural network (CNN) using resistive processing unit (RPU) arrays, includes an RPU array, which includes a plurality of RPUs, and a processor configured to control electric voltage across the RPUs from the RPU array. The processor configures the RPU array corresponding to the convolution layer based on dimensions associated with convolution kernels of the convolution layer. The processor performs forward pass computations for the CNN via the RPU array by transmitting voltage pulses corresponding to input data of the convolution layer to the RPU array, and storing values corresponding to output currents from the RPU arrays as output maps. The processor also performs backward pass computations for the CNN via the RPU array by transm...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gokmen",
+      "inventor_name_first": "Tayfun",
+      "inventor_city": "Briarcliff Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "CONVOLUTIONAL NEURAL NETWORKS USING RESISTIVE PROCESSING UNIT ARRAY",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 114110,
+    "optimized_size": 3552,
+    "reduction_percent": 96.89
+  }
+}

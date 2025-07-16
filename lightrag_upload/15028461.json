@@ -1,0 +1,61 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15028461",
+  "date_published": "20160901",
+  "date_produced": "20160817",
+  "title": "Semantic Deduplication",
+  "filing_date": "20160411",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Feld",
+      "inventor_name_first": "Joachim",
+      "inventor_city": "Nuernberg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Fiege",
+      "inventor_name_first": "Ludger",
+      "inventor_city": "Grafing",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Riedl",
+      "inventor_name_first": "Johannes",
+      "inventor_city": "Ergolding",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Schmid",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Leinfelden-Echterdingen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Zirkler",
+      "inventor_name_first": "Andreas",
+      "inventor_city": "Muenchen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L12801",
+    "H04L1242",
+    "G06F1107",
+    "H04L2908"
+  ],
+  "main_ipcr_label": "H04L12801",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment provides a method for reducing the data traffic in a network, comprising the steps of sending of master data from a master node to at least one checking entity; checking of the master data by the checking entity; in the event of there being no error, sending of either the master data or slave data ascertained by the slave node from the checking entity to the data processing unit; and in the event of an error being recognized, sending of all master data and slave data available on the checking entity from the checking entity to the data processing unit. In a further embodiment, the master node, the checking entity and the data processing unit are connected to a ring topology, and are preferably arranged in the ring topology. In a further embodiment, the slave node checks the master data by carrying out the same operations as the master node and thus produces slave data that are redundant in relation to the master data. In a further embodiment, the slave node carries out the same operations as the master node only if the checking entity has recognized an error. In a further embodiment, a network coupler that is separate from the slave node comprises or is the checking entity. In a further embodiment, the slave node comprises or is the checking entity. In a further embodiment, the master node comprises a further checking entity. Another embodiment provides a system comprising a master node, a slave node and a data processing unit, which are connected to a ring topology; wherein the master node is adapted to send master data that it ascertains to the data processing unit and to the slave node in respectively different ring directions; wherein the slave node is adapted to send slave data that it ascertains to the data processing unit and to the master node in respectively different ring directions; and wherein the slave node is adapted to check the master data, to send only the master data or the slave data to the data processing unit du...",
+  "patent_number": "9952919",
+  "abstract": "In order to reduce data traffic in a network, a master node sends master data to at least one checking instance. The master data are checked by the checking instance. In the absence of errors, either the master data or slave data determined by the slave node are sent by the checking instance to the data-processing unit. When an error is recognized, all master data and slave data available at the checking instance are sent by the checking instance to the data-processing unit.",
+  "publication_number": "US20160255006A1-20160901",
+  "_processing_info": {
+    "original_size": 41204,
+    "optimized_size": 3624,
+    "reduction_percent": 91.2
+  }
+}

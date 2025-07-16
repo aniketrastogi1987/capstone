@@ -1,0 +1,32 @@
+{
+  "title": "SINGLE CYCLE MULTI-BRANCH PREDICTION INCLUDING SHADOW CACHE FOR EARLY FAR BRANCH PREDICTION",
+  "date_published": "20170914",
+  "publication_number": "US20170262287A1-20170914",
+  "date_produced": "20170830",
+  "ipcr_labels": [
+    "G06F938",
+    "G06F930",
+    "G06F120875"
+  ],
+  "decision": "PENDING",
+  "application_number": "13824013",
+  "patent_number": "None",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Abdallah",
+      "inventor_name_first": "Mohammad",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method of identifying instructions including accessing a plurality of instructions that comprise multiple branch instructions. For each branch instruction of the multiple branch instructions, a respective first mask is generated representing instructions that are executed if a branch is taken. A respective second mask is generated representing instructions that are executed if the branch is not taken. A prediction output is received that comprises a respective branch prediction for each branch instruction. For each branch instruction, the prediction output is used to select a respective resultant mask from among the respective first and second masks. For each branch instruction, a resultant mask of a subsequent branch is invalidated if a previous branch is predicted to branch over said subsequent branch. A logical operation is performed on all resultant masks to produce a final mask. The final mask is used to select a subset of instructions for execution.",
+  "filing_date": "20160711",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Embodiments of the present invention implement an algorithm (e.g., a method and an apparatus) that enables a parallelization of a microprocessor's fetch logic to process multiple branches in every single cycle. The algorithm also forms the final sequence of instructions based on the branches predictions also within the single cycle. In one embodiment, the present invention is implemented as a method of identifying instructions of a predicted execution path. The method includes accessing a plurality of instructions that comprise multiple branch instructions. For each branch instruction of the multiple branch instructions, a respective first mask is generated representing instructions that are executed if said branch is taken. A respective second mask is generated representing instructions that are executed if said branch is not taken. A prediction output is received that comprises a respective branch prediction for each branch instruction of said multiple branch instructions. For each branch instruction of said multiple branch instructions, said prediction output is used to select a respective resultant mask from among said respective first and second masks. For each branch instruction, a resultant mask of a subsequent branch is invalidated if a previous branch is predicted to branch over said subsequent branch. A logical operation is performed on all resultant masks to produce a final mask. A subset of instructions are selected for execution, from said plurality of instructions, based on said final mask. The foregoing is a summary and thus contains, by necessity, simplifications, generalizations and omissions of detail; consequently, those skilled in the art will appreciate that the summary is illustrative only and is not intended to be in any way limiting. Other aspects, inventive features, and advantages of the present invention, as defined solely by the claims, will become apparent in the non-limiting detailed description set f...",
+  "main_ipcr_label": "G06F938",
+  "_processing_info": {
+    "original_size": 43498,
+    "optimized_size": 3579,
+    "reduction_percent": 91.77
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15631479",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "filing_date": "20170623",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method and apparatus are provided for automatically generating and processing first and second concept vector sets extracted, respectively, from a first set of concept sequences and from a second, temporally separated, concept sequences by performing a natural language processing (NLP) analysis of the first concept vector set and second concept vector set to detect changes in the corpus over time by identifying changes for one or more concepts included in the first and/or second set of concept sequences.",
+  "publication_number": "US20170286832A1-20171005",
+  "summary": "<SOH> SUMMARY <EOH>Broadly speaking, selected embodiments of the present disclosure provide a system, method, and apparatus for processing of inquiries to an information handling system capable of answering questions by using the cognitive power of the information handling system to generate or extract a sequence of concepts, to extract or compute therefrom a distributed representation of the concept(s) (i.e., concept vectors), and to process the distributed representation (the concept vectors) to carry out useful tasks in the domain of concepts and user-concept interaction. In selected embodiments, the information handling system may be embodied as a question answering (QA) system which has access to structured, semi-structured, and/or unstructured content contained or stored in one or more large knowledge databases (each a.k.a., “corpus”), and which extracts therefrom a sequence of concepts from annotated text (e.g., hypertext with concept links highlighted), from graph representations of concepts and their inter-relations, from tracking the navigation behavior of users, or a combination thereof. In other embodiments, concept vectors may also be used in a “discovery advisor” context where users would be interested in seeing directly the concept-concept relations, and/or use query concepts to retrieve and relate relevant documents from a corpus. To compute the concept vector(s), the QA system may process statistics of associations in the concept sequences using vector embedding methods. Processing of the generated concept vectors and their similarities over time enables improved presentation and visualization of concepts and their inter-relations to improve the quality of answers provided by the QA system. For example, changes in a corpus over time can be detected by comparing two states (e.g., old and new) of a concept graph a certain time period apart from one another (e.g., two years apart) to identify the significant changes that occurred in relationship streng...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06Q3002",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ho",
+      "inventor_name_first": "Tin Kam",
+      "inventor_city": "Millburn",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lastras-Montano",
+      "inventor_name_first": "Luis A.",
+      "inventor_city": "Cortlandt Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shmueli",
+      "inventor_name_first": "Oded",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Analyzing Concepts Over Time",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 114950,
+    "optimized_size": 3376,
+    "reduction_percent": 97.06
+  }
+}

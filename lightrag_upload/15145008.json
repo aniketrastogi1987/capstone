@@ -1,0 +1,82 @@
+{
+  "decision": "PENDING",
+  "application_number": "15145008",
+  "date_published": "20160825",
+  "date_produced": "20160810",
+  "title": "HINT INSTRUCTION FOR MANAGING TRANSACTIONAL ABORTS IN TRANSACTIONAL MEMORY COMPUTING ENVIRONMENTS",
+  "filing_date": "20160503",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Busaba",
+      "inventor_name_first": "Fadi Y.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cain, III",
+      "inventor_name_first": "Harold W.",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Greiner",
+      "inventor_name_first": "Dan F.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gschwind",
+      "inventor_name_first": "Michael Karl",
+      "inventor_city": "Chappaqua",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Michael",
+      "inventor_name_first": "Maged M.",
+      "inventor_city": "Danbury",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Salapura",
+      "inventor_name_first": "Valentina",
+      "inventor_city": "Chappaqua",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shum",
+      "inventor_name_first": "Chung-Lung K.",
+      "inventor_city": "Wappingers Falls",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Slegel",
+      "inventor_name_first": "Timothy J.",
+      "inventor_city": "Staatsburg",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F950",
+    "G06F948",
+    "G06F954",
+    "G06F946"
+  ],
+  "main_ipcr_label": "G06F950",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed herein are embodiments of a method for processing transactions in a computing environment with transactional memory. A transaction-hint instruction associated with a first transaction is executed in the computing environment. The transaction-hint instruction specifies a transaction-count-to-completion (CTC) value. The CTC value indicates how far the first transaction is from completion. In some embodiments, the transaction-hint instruction is an instructions-to-completion instruction and the CTC value indicates the approximate number of instructions remaining to complete the first transaction. In some embodiments, the transaction-hint instruction is a transaction-time-to-completion instruction and the CTC value indicates the approximate amount of time remaining to complete the first transaction. In some embodiments, the transaction-hint instruction is a generic transaction-hint instruction and the CTC value may indicate either the approximate number of instructions or the approximate amount of time remaining to complete the first transaction. The CTC value specified by the transaction-hint instruction is adjusted based on the progression of the first transaction. When a disruptive event associated with inducing transactional aborts is identified while processing the first transaction, such as a pending asynchronous interrupt or a conflicting memory access between the first transaction and a second processor, processing of the disruptive event is deferred based on determining that the adjusted CTC value satisfies deferral criteria. Also disclosed herein are embodiments of a computer system with a memory and a processor in communication with the memory. The computer system is configured to perform the method described above. Also disclosed herein are embodiments of a computer program product with a computer readable storage medium readable by a processing circuit and storing instructions for execution by the processing circuit. The instruc...",
+  "patent_number": "None",
+  "abstract": "When executed, a transaction-hint instruction specifies a transaction-count-to-completion (CTC) value for a transaction. The CTC value indicates how far a transaction is from completion. The CTC may be a number of instructions to completion or an amount of time to completion. The CTC value is adjusted as the transaction progresses. When a disruptive event associated with inducing transactional aborts, such as an interrupt or a conflicting memory access, is identified while processing the transaction, processing of the disruptive event is deferred if the adjusted CTC value satisfies deferral criteria. If the adjusted CTC value does not satisfy deferral criteria, the transaction is aborted and the disruptive event is processed.",
+  "publication_number": "US20160246654A1-20160825",
+  "_processing_info": {
+    "original_size": 164206,
+    "optimized_size": 4422,
+    "reduction_percent": 97.31
+  }
+}

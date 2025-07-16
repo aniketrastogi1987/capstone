@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046905A1-20180215",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15390573",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LI",
+      "inventor_name_first": "Yubin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Song",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SHAN",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The technical disclosure relates to artificial neural network. In particular, the technical disclosure relates to how to implement efficient data access control in the neural network hardware acceleration system. Specifically, it proposes an overall design of a device that can process data receiving, bit-width transformation and data storing. By employing the technical disclosure, neural network hardware acceleration system can avoid the data access process becomes the bottleneck in neural network computation.",
+  "filing_date": "20161226",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In the technical disclosure, we propose a data access control device for a neural network acceleration system, comprising: a parameter access control circuit, configured to read parameters required by processing elements (PEs) from a memory, and perform bit-width transformation operation on said parameters and output the transformed parameters to said PEs; a vector access control circuit, configured to read vectors required by PEs from the memory, perform bit-width transformation operation on said vectors and output the transformed vectors to said PEs; a computation result access control circuit, configured to read computation results from said PEs, perform bit-width transformation operation on said computation results and output the transformed computation results to the memory. Further, said parameter access control circuit comprises: at least one parameter buffer, configured to store received parameters; and at least one bit-width converters, configured to perform bit-width transformation operation on said parameters. Further, the number of said bit-width converters in each circuit is no less than m×n ÷d, wherein m is the number of PEs, n is the number of parameters to be processed or to be output by one PE per computation cycle, and the computation delay is d. Further, said bit-width converter is implemented by using two cascaded asynchronous FIFOs, one is 512 bit-to-64 bit and the other is 64 bit-to-16 bit. Further, said parameters comprises at least weight, bias, diagnose matrix data of said neural network. In another aspect of this technical disclosure, we propose a data access control device used for a neural network acceleration system, comprising: first memory configured for storing weight data of the neural network; second memory configured for storing input vectors, bias data of the neural network; first memory controller configured for reading the weight data from the first memory and outputting said weight data to a plurality of proc...",
+  "date_published": "20180215",
+  "title": "Efficient Data Access Control Device for Neural Network Hardware Acceleration System",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 54479,
+    "optimized_size": 3377,
+    "reduction_percent": 93.8
+  }
+}

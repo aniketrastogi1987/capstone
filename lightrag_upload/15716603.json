@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15716603",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "filing_date": "20170927",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A data processing device 100 is intended to provide learning data to a system 200 that generates a prediction model by performing machine learning. The data processing device 100 includes: a data obtaining unit 10 that obtains learning data input from the outside; an encryption unit 20 that encrypts the learning data so that a prediction model generated from the learning data in an unencrypted state and a prediction model generated from the learning data in an encrypted state have a corresponding relationship with each other in terms of parameters, numeric values, and operators; and a data output unit 30 that outputs the encrypted learning data to the system 200.",
+  "publication_number": "US20180089574A1-20180329",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>An exemplary object of the present invention is to solve the foregoing issues by providing a data processing device, a data processing method, and a program that enable a system to perform machine learning without executing decryption processing, even when data used in machine learning is encrypted. In order to achieve the foregoing object, a data processing device according to one aspect of the present invention is intended to provide learning data to a system that generates a prediction model by performing machine learning. The data processing device includes: a data obtaining unit that obtains the learning data input from the outside; an encryption unit that encrypts the learning data so that a prediction model generated from the learning data in an unencrypted state and a prediction model generated from the learning data in an encrypted state have a corresponding relationship with each other in terms of parameters, numeric values, and operators; and a data output unit that outputs the encrypted learning data to the system. In order to achieve the foregoing object, a data processing method according to another aspect of the present invention is intended to provide learning data to a system that generates a prediction model by performing machine learning. The data processing method includes: (a) a step of obtaining the learning data input from the outside; (b) a step of encrypting the learning data so that a prediction model generated from the learning data in an unencrypted state and a prediction model generated from the learning data in an encrypted state have a corresponding relationship with each other in terms of parameters, numeric values, and operators; and (c) a step of outputting the encrypted learning data to the system. In order to achieve the foregoing object, a computer-readable recording medium according to still another aspect of the present invention records a program. The program is intended to, using a computer...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "H04L900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "GOTO",
+      "inventor_name_first": "Yoshiyuki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "DATA PROCESSING DEVICE, DATA PROCESSING METHOD, AND COMPUTER-READABLE RECORDING MEDIUM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 62592,
+    "optimized_size": 3264,
+    "reduction_percent": 94.79
+  }
+}

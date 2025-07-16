@@ -1,0 +1,51 @@
+{
+  "date_produced": "20170802",
+  "publication_number": "US20170236053A1-20170817",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15392958",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lavigueur",
+      "inventor_name_first": "Bruno",
+      "inventor_city": "Ottawa",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Benny",
+      "inventor_name_first": "Olivier",
+      "inventor_city": "Ottawa",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Langevin",
+      "inventor_name_first": "Michel",
+      "inventor_city": "Ottawa",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Gagné",
+      "inventor_name_first": "Vincent",
+      "inventor_city": "Gatineau",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "A programmable architecture specialized for convolutional neural networks (CNNs) processing such that different applications of CNNs may be supported by the presently disclosed method and apparatus by reprogramming the processing elements therein. The architecture may include an optimized architecture that provides a low-area or footprint and low-power solution desired for embedded applications while still providing the computational capabilities required for CNN applications that may computationally intensive, requiring a huge number of convolution operations per seconds to process inputs such as video streams in real time.",
+  "filing_date": "20161228",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Some embodiments disclosed herein include a programmable architecture specialized for CNN processing such that different applications of convolutional neural networks (CNNs) may be supported by reprogramming the processing elements. CNN processing is provided that can be consistently configured to detect different types of objects due to the programmable implementation of a CNN 40 in accordance with at least some of the embodiments disclosed herein. It may be desirable for embedded hardware implementations used within the CNN 40 to be highly optimized for area and power while achieving acceptable performance as a function of the intended environment. An optimized CNN architecture for the embedded space may be well-suited for use in computer vision, augmented reality, advanced driver assistance systems, video surveillance and robotics. Some of the embodiments disclosed herein include an optimized architecture that provides a low-area (i.e., small footprint) and low-power solution for embedded applications, while still providing the computational capabilities desirable for CNN applications that may be computationally intensive and which may use a large number of convolution operations per seconds to process inputs, such as video streams, in real time. Some of the embodiments of the architecture disclosed herein include a plurality of Processing Elements (PEs), where each PE is an Application Specific Instruction Processor (ASIP) designed specifically for use with a specialized instruction set optimized for CNN processing. Accordingly, some embodiments disclosed herein may include a specialized instruction set architecture (ISA) developed for CNN processing. The presently disclosed method and apparatus may further include a reconfigurable streaming interconnect that is used to connect through a set of FIFO (first-in first-out) buffers to a set of PEs, such that different graph topologies of CNN processing may be supported.",
+  "date_published": "20170817",
+  "title": "Configurable and Programmable Multi-Core Architecture with a Specialized Instruction Set for Embedded Application Based on Neural Networks",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 52855,
+    "optimized_size": 3660,
+    "reduction_percent": 93.08
+  }
+}

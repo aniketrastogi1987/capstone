@@ -1,0 +1,30 @@
+{
+  "patent_number": "None",
+  "application_number": "15622754",
+  "date_published": "20170928",
+  "date_produced": "20170915",
+  "filing_date": "20170614",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Embodiments of the present invention relate to the field of communications technologies, and provide a complex event processing method, apparatus, and system, so that when complex event processing is performed, a system requiring a synchronous response provides a synchronous response externally and avoids information flooding. A solution provided by the present invention includes: receiving an input event sent by an event source, where the input event includes an identifier of an object and an event type; acquiring, according to a preset database, M mode rules corresponding to the event type; performing mode matching between the input event and the M mode rules separately to acquire N output events; and if N is greater than or equal to 1, sending at least one piece of event information to a real-time decision apparatus, where each piece of the event information includes Q output events and indication information.",
+  "publication_number": "US20170278003A1-20170928",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention provide a complex event processing method, apparatus, and system, so that when complex event processing is performed, a system requiring a synchronous response provides a synchronous response externally and avoids information flooding. To achieve the foregoing objective, the following technical solutions are used in the embodiments of the present invention: According to a first aspect, a complex event processing method is provided and applied to a complex event processing apparatus. The method includes receiving an input event sent by an event source. The input event is triggered at the event source by an object, and the input event includes an identifier of the object and an event type; acquiring, according to a preset database, M mode rules corresponding to the event type, where each mode rule includes one sending primary key, the preset database includes at least one event type and mode rules corresponding to the event type, and M is greater than or equal to 1. The method further includes performing mode matching between the input event and the M mode rules separately to acquire N output events, where each output event includes a sending primary key in a mode rule for acquiring each output event, the N is greater than or equal to 0, and the N is less than or equal to the M; and if the N is greater than or equal to 1, sending at least one piece of event information to a real-time decision apparatus, where each piece of the event information includes Q output events and indication information, where the Q output events are output events that are included in the N output events and have a same sending primary key, the Q is greater than or equal to 1, and the indication information includes the identifier of the object, so that the real-time decision apparatus is instructed to send execution information of an execution action to the object. With reference to the first aspect, in a first possible implementation m...",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Shikai",
+      "inventor_city": "Nanjing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "Complex Event Processing Method, Apparatus, and System",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 157361,
+    "optimized_size": 3462,
+    "reduction_percent": 97.8
+  }
+}

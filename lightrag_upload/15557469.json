@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15557469",
+  "date_published": "20180308",
+  "date_produced": "20180222",
+  "filing_date": "20170911",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A big data processing method based on a deep learning model satisfying K-degree sparse constraints comprises: step 1), constructing a deep learning model satisfying K-degree sparse constraints using an un-marked training sample via a gradient pruning method, wherein the K-degree sparse constraints comprise a node K-degree sparse constraint and a level K-degree sparse constraint; step 2), inputting an updated training sample into the deep learning model satisfying the K-degree sparse constraints, and optimizing a weight parameter of each layer of the model, so as to obtain an optimized deep learning model satisfying the K-degree sparse constraint; and step 3), inputting big data to be processed into the optimized deep learning model satisfying the K-degree sparse constraints for processing, and finally outputting a processing result. The method in the present invention can reduce the difficulty of big data processing and increase the speed of big data processing.",
+  "publication_number": "US20180068216A1-20180308",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is an object of the present invention to overcome the above problems of an existing neural network deep learning model in the application of big data and propose a deep learning model satisfying the K-degree sparse constraint; by constraining the forward out-degree of the neuron nodes on each layer, the structure of the model can be simplified, the training speed and the generalization ability of the model can be improved, and the difficulties in parameter optimization of the model can be alleviated, and when the model is applied to big data processing, the difficulty of big data processing can be reduced, and the speed of big data processing can be increased. In order to attain the above objects, the present invention proposes a big data processing method based on a deep learning model satisfying the K-degree sparse constraint, the method comprises: step 1) constructing a deep learning model satisfying the K-degree sparse constraint using an unmarked training sample via a gradient pruning method, wherein the K-degree sparse constraint comprises a node K-degree sparse constraint and a level K-degree sparse constraint, the node K-degree sparse constraint refers to that forward out-degrees of all the nodes in the model do not exceed K, and a value taking range of K is (1,N/H], wherein N is the number of all the nodes in the deep learning model, H is the number of hidden layers of the model, and the level K-degree sparse constraint refers to that a sum of forward out-degrees of all the nodes in an h th layer is less than a sum of forward out-degrees of all the nodes in an (h−1) th layer; step 2) inputting an updated training sample into the deep learning model satisfying the K-degree sparse constraint, and optimizing a weight parameter of each layer of the model, so as to obtain an optimized deep learning model satisfying the K-degree sparse constraint; and step 3) inputting big data to be processed into the optimized deep learnin...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SHENG",
+      "inventor_name_first": "Yiqiang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Jinlin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "DENG",
+      "inventor_name_first": "Haojiang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "YOU",
+      "inventor_name_first": "Jiali",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "BIG DATA PROCESSING METHOD BASED ON DEEP LEARNING MODEL SATISFYING K-DEGREE SPARSE CONSTRAINT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 39667,
+    "optimized_size": 3993,
+    "reduction_percent": 89.93
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15077535",
+  "date_published": "20160714",
+  "date_produced": "20160628",
+  "title": "CONTENT MANIPULATION USING SWIPE GESTURE RECOGNITION TECHNOLOGY",
+  "filing_date": "20160322",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MANOFF",
+      "inventor_name_first": "Robert S.",
+      "inventor_city": "Livingston",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HOUCK",
+      "inventor_name_first": "Todd",
+      "inventor_city": "Clarksboro",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SQUIRE",
+      "inventor_name_first": "Jesse D.",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SHAY",
+      "inventor_name_first": "Caleb K.",
+      "inventor_city": "Philadelphia",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F30488",
+    "G06F30484"
+  ],
+  "main_ipcr_label": "G06F30488",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The disclosed embodiments provide a system, a method, and processor instructions for implementing swipe gesture recognition technology to manipulate Internet-based content provided by a hosting server to a user device. In the disclosed system and method, a user may have a computing device, such as, for example, a mobile device. The mobile device could be, e.g., a mobile phone, a tablet, a household appliance which is running an embedded mobile piece of software, such as mobile browser. The browser may make a request for a piece of content. This content is typically hosted on a web page and is accessed via the Internet. In such a case, a web page is actually making a request from the device to a server that hosts the content. The content may include an advertisement and the behaviors that apply to that advertisement. When the server receives a content request, it provides a “package” of the content, the advertisement, and certain related information, such swipe gesture behaviors and technology packages that are needed to apply this related information to the requested content. Different types of advertisements may be bundled in different ways, and there may be different elements of the swipe gesture recognition technology as it gets assembled, specifically, with a particular piece of content. Once those decisions are made, the server sends the bundle, which contains at least the swipe gesture recognition technology pieces and the advertisement. The advertisement may come from a server other than the content server (i.e., the hosting server). The content server may not have access to the advertisement itself. Rather, the content server may just receive enough information about the advertisement to allow the content server to determine how the swipe gesture recognition technology will be applied to the advertisement on the user's device. In certain embodiments, the information relating to the advertisement which is received by the co...",
+  "patent_number": "None",
+  "abstract": "A method of manipulation of content provided by a hosting server using swipe gesture recognition on a user device having a touch input display. The method includes storing the content, combined with a swipe gesture recognition module to form a content package, on the hosting server. The swipe gesture recognition module is associated with at least one displayable content element of the content. The method further includes receiving, at the hosting server, a request for the content package from the user device and transmitting the content package from the hosting server to the user device for display by an application running on the user device. A defined action is applied to the at least one displayable content element if it is determined that a swipe gesture has occurred on the at least one displayable content element.",
+  "publication_number": "US20160202900A1-20160714",
+  "_processing_info": {
+    "original_size": 78449,
+    "optimized_size": 3856,
+    "reduction_percent": 95.08
+  }
+}

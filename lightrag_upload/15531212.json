@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15531212",
+  "date_published": "20171116",
+  "date_produced": "20171103",
+  "filing_date": "20170526",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Disclosed is a neural network structure enabling efficient training of the network and a method thereto. The structure is a ladder-type structure wherein one or more lateral input(s) is/are taken to decoding functions. By minimizing one or more cost function(s) belonging to the structure the neural network structure may be trained in an efficient way.",
+  "publication_number": "US20170330076A1-20171116",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>An objective of the invention is to present an improved trainable neural network structure and a method thereto which improves a training of the neural network. The objectives of the invention are reached by a neural network structure and a method as defined by the respective independent claims. According to a first aspect, a trainable neural network structure, comprising a base layer and a second layer, is provided wherein the base layer comprises: a corruption function for corrupting an input data of the neural network structure, a decoding function, and a cost function; and the second layer comprises an encoding function, and a decoding function, wherein a corrupted input data is configured to be fed as an input to the encoding function of the second layer, and an encoded corrupted input data is configured to be fed as an input to the decoding function of the second layer and wherein the corrupted input data of the neural network structure and an output of the decoding function of the second layer are configured to be fed as an input to the decoding function of the base layer, and wherein an output of the decoding function of the base layer and the input data of the neural network are configured to be fed as an input to the cost function of the base layer. The second layer of the neural network structure may further comprise a cost function, wherein an output of the decoding function for the second layer and the input data of the neural network structure encoded with the encoding function of the second layer are configured to be fed as an input to the cost function. The neural network structure may further comprise at least one further second layer, wherein each of the at least one further second layer is arranged to be connected to a previous second layer, and wherein an output of the encoding function of the previous second layer is configured to be fed as an input to the encoding function of the at least one further second l...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900",
+    "G06N704"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "VALPOLA",
+      "inventor_name_first": "Harri",
+      "inventor_city": "HELSINKI",
+      "inventor_state": "",
+      "inventor_country": "FI"
+    }
+  ],
+  "title": "NEURAL NETWORK STRUCTURE AND A METHOD THERETO",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 44173,
+    "optimized_size": 2907,
+    "reduction_percent": 93.42
+  }
+}

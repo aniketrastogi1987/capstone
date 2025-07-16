@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170705",
+  "publication_number": "US20170206464A1-20170720",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "14995688",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Clayton",
+      "inventor_name_first": "Justin B.",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Okanohara",
+      "inventor_name_first": "Daisuke",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Hido",
+      "inventor_name_first": "Shohei",
+      "inventor_city": "Burlingame",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and apparatus for time series data adaptation, including sensor fusion, are disclosed. For example, a system includes a variational inference machine, a sequential data forecast machine including a hidden state, and a machine learning model. The sequential data forecast machine exports a version of the hidden state. The variational inference machine receives as inputs time series data and the version of the hidden state, and outputs a time dependency infused latent distribution. The sequential data forecast machine obtains the version of the hidden state, receives as inputs the time series data and the time dependency infused latent distribution, and updates the hidden state based on the time series data, the time dependency infused latent distribution, and the version of the hidden state to generate a second version of the hidden state. The time dependency infused latent distribution is input into the machine learning model, which outputs a result.",
+  "filing_date": "20160114",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure provides new and innovative systems, methods, and apparatus for time series data adaptation and sensor fusion. In an example embodiment, a system includes a variational inference machine, a sequential data forecast machine including a hidden state, and a machine learning model. The sequential data forecast machine exports a first version of the hidden state. The variational inference machine receives as inputs time series data and the first version of the hidden state, and outputs a time dependency infused latent distribution. The sequential data forecast machine obtains the first version of the hidden state, receives as inputs the time series data and the time dependency infused latent distribution, and updates the hidden state based on the time series data, the time dependency infused latent distribution, and the first version of the hidden state to generate a second version of the hidden state. The time dependency infused latent distribution is input into the machine learning model, which outputs a result based on the time dependency infused latent distribution. In an example embodiment, a system includes a multi-modal variational inference machine and a multi-modal sequential data forecast machine including a hidden state. The multi-modal sequential data forecast machine exports a first version of the hidden state. The multi-modal variational inference machine receives as inputs first and second time dependency infused latent distributions and the first version of the hidden state, and outputs a multi-modal time dependency infused latent distribution. The multi-modal sequential data forecast machine obtains the first version of the hidden state, receives as inputs the first and second time dependency infused latent distributions and the multi-modal time dependency infused latent distribution, and updates the hidden state based on the first and second time dependency infused latent distributions, the multi-modal time depe...",
+  "date_published": "20170720",
+  "title": "TIME SERIES DATA ADAPTATION AND SENSOR FUSION SYSTEMS, METHODS, AND APPARATUS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N302",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 127665,
+    "optimized_size": 3867,
+    "reduction_percent": 96.97
+  }
+}

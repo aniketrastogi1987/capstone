@@ -1,0 +1,68 @@
+{
+  "patent_number": "None",
+  "application_number": "15584771",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "filing_date": "20170502",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method and apparatus for generating a training model based on feedback are provided. The method for generating a training model based an feedback, includes calculating an eigenvector of a sample among a plurality of samples; obtaining scores granted by a user for one or more of the plurality of samples in a round, obtaining scores granted by the user for a first number of samples; obtaining scores granted by the user for a second number of samples in response to detecting, based on the eigenvector, an inconsistency between the scores granted by the user for the first number of samples; and generating a training model based on the scores granted by the user for the first and second numbers of samples. A corresponding apparatus is also provided.",
+  "publication_number": "US20170236058A1-20170817",
+  "summary": "<SOH> SUMMARY <EOH>Therefore, it is desired to develop a technical solution capable of generating a training model accurately and efficiently, and it is desired that the technical solution can reduce the number of samples to be rated by a user as much as possible while ensuring the accuracy of the training model; further, it is desired to detect and remove “noise” caused by user fatigue, misoperation and other errors as much as possible. To this end, the embodiments of the present invention provide a method and apparatus for generating a training model based on feedback, and a corresponding computer program product. In one embodiment of the present invention, there is provided a method for generating a training model based on feedback, comprising: calculating an eigenvector of a sample among a plurality of samples; obtaining scores granted by at least one user for at least one of the plurality of samples in at least one round, comprising; obtaining scores granted by the at least one user for a first number of samples; in response to having detected, based on the eigenvector, an inconsistency between the scores granted by the at least one user for the first number of samples, obtaining scores granted by the at least one user for a second number of samples; and generating a training model based on the scores granted by the at least one user for the first and second numbers of samples. In one embodiment of the present invention, the obtaining scores granted by at least one user for at least one of the plurality of samples comprises: for one user among the at least one user, providing at least two samples; obtaining original scores granted by the user for the at least two samples; and normalizing the original scores to obtain scores granted by the user for the at least two samples. In one embodiment of the present invention, the samples are image data. In one embodiment of the present invention, there is provided an apparatus for generating a training model based on fee...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1206",
+    "G06F1730",
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cao",
+      "inventor_name_first": "Liangliang",
+      "inventor_city": "Amherst",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Duan",
+      "inventor_name_first": "Ning",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Qian",
+      "inventor_city": "Guangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Chen",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Yan",
+      "inventor_name_first": "Junchi",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Xin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "GENERATING A TRAINING MODEL BASED ON FEEDBACK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 59429,
+    "optimized_size": 4032,
+    "reduction_percent": 93.22
+  }
+}

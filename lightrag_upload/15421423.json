@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15421423",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A neural network is trained to generate feature maps and associated weights. Reordering is performed to generate a functionally equivalent network. The reordering may be performed to improve at least one of compression of the weights, load balancing, and execution. In one implementation, zero value weights are grouped, permitting them to be skipped during execution.",
+  "publication_number": "US20180082181A1-20180322",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram illustrating reordering of feature maps and weights of a neural network in accordance with an embodiment. FIG. 2 illustrates a portion of a neural network in accordance with an embodiment. FIG. 3 illustrates a portion of a neural network in accordance with an embodiment. FIG. 4 illustrates a method of reordering a neural network in accordance with an embodiment. FIG. 5 illustrates a method of executing a reordered neural network in accordance with an embodiment. FIG. 6 illustrates a method of reordering a neural network that includes pruning in accordance with an embodiment. FIG. 7 illustrates a method of executing a reordered neural network to skip zero value weights in accordance with an embodiment. FIGS. 8A and 8B illustrate reordering to improve load balancing in accordance with an embodiment. FIGS. 9A and 9B illustrate Huffman coding of weights in accordance with embodiments. FIG. 10 illustrates mask stream decoding and value stream decoding in a neural network in accordance with an embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "BROTHERS",
+      "inventor_name_first": "John",
+      "inventor_city": "Calistoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "JI",
+      "inventor_name_first": "Zhengping",
+      "inventor_city": "Pasadena",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHENG",
+      "inventor_name_first": "Qiang",
+      "inventor_city": "Pasadena",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Neural Network Reordering, Weight Compression, and Processing",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 36769,
+    "optimized_size": 2372,
+    "reduction_percent": 93.55
+  }
+}

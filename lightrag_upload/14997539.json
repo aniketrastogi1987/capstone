@@ -1,0 +1,38 @@
+{
+  "date_produced": "20160720",
+  "publication_number": "US20160224892A1-20160804",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "14997539",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SAWADA",
+      "inventor_name_first": "YOSHIHIDE",
+      "inventor_city": "Kyoto",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KOZUKA",
+      "inventor_name_first": "KAZUKI",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A transfer learning apparatus includes a transfer target data evaluator and an output layer adjuster. The transfer target data evaluator inputs a plurality of labeled transfer target data items each assigned a label of a corresponding evaluation item from among one or more evaluation items to a neural network apparatus having been trained by using a plurality of labeled transfer source data items and including in an output layer output units, the number of which is larger than or equal to the number of evaluation items, and obtains evaluation values output from the respective output units. The output layer adjuster preferentially assigns, to each of the one or more evaluation items, an output unit from which the evaluation value having the smallest difference from the label of the evaluation item is obtained with a higher frequency, as an output unit that outputs the evaluation value of the evaluation item.",
+  "filing_date": "20160117",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One non-limiting and exemplary embodiment provides a novel transfer learning apparatus suitable for transfer learning in a neural network apparatus. In one general aspect, the techniques disclosed here feature a transfer learning apparatus including a transfer target data evaluator that inputs a plurality of labeled transfer target data items to a neural network apparatus, each of the plurality of labeled transfer target data items being assigned a label of a corresponding evaluation item from among one or more evaluation items, the neural network apparatus having been trained by using a plurality of labeled transfer source data items and including in an output layer one or more output units, the number of which is larger than or equal to the number of evaluation items, and that obtains evaluation values output from the respective output units; and an output layer adjuster that preferentially assigns, to each of the one or more evaluation items, an output unit from which the evaluation value having the smallest difference from the label of the evaluation item is obtained with a higher frequency among the output units, as an output unit that outputs the evaluation value of the evaluation item. According to the aspect of the present disclosure, transfer leaning for adaptation to transfer target data items is implemented by assigning, to each of evaluation items of transfer target data items, an output unit that outputs an evaluation value of the evaluation item, while using a configuration and weight values of the neural network apparatus that have been set through learning performed using transfer source data items. Note that the transfer source data items correspond to the plurality of first data items described in the “BACKGROUND” section and may include a plurality of pixel values included in each of a plurality of images used when the weight values of the neural network apparatus are determined. In addition, the transfer target data items may i...",
+  "date_published": "20160804",
+  "title": "TRANSFER LEARNING APPARATUS, TRANSFER LEARNING SYSTEM, TRANSFER LEARNING METHOD, AND RECORDING MEDIUM",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 115824,
+    "optimized_size": 3669,
+    "reduction_percent": 96.83
+  }
+}

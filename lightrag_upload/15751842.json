@@ -1,0 +1,40 @@
+{
+  "filing_date": "20180209",
+  "publication_number": "US20180232649A1-20180816",
+  "decision": "PENDING",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed herein are methods and apparatus that use quantum computations that permit substantial reductions in computational resources needed to perform Bayesian inference. In typical examples, a set of experimental or other data is obtained, and a prior distribution (or current posterior distribution) associated with the experiment or measurement is obtained. The prior distribution is represented in a quantum register, and a rotation gate is applied to a selected qubit of the quantum register. The state of the selected qubit is measured, and depending on the measurement, the quantum register is associated with an updated posterior, or the prior distribution is represented in the quantum register again. The rotation and measurement operations are repeated until an updated posterior is obtained. This update process can be repeated to produce a final posterior. In some cases, qubit representations of sinc functions are used to estimate distributions, and convolutions of a distribution with a model distribution are determined using quantum computations to permit Bayesian inference for time-varying systems.",
+  "title": "EFFICIENT ONLINE METHODS FOR QUANTUM BAYESIAN INFERENCE",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900",
+    "G06F1716",
+    "G06F1714"
+  ],
+  "abstract": "Quantum methods for Bayesian inference represent prior or current posterior distributions with a series of qubits. A rotation gate defined by a rotation angle based on the prior or current posterior is applied to a selected qubit of the series. The selected qubit is measured, and if measurement is successful, the state of the series of qubits represents a posterior or updated posterior. If the measurement is unsuccessful, the representation of the prior or current posterior in the series of qubits, the rotation operation, and the measurement operations are repeated until success. A sinc2 based model distribution is obtained using a quantum Fourier transform (QFT), and, in some cases, a QFT is also used to implement convolution in a filtering operation for inference with time-dependent systems.",
+  "patent_number": "nan",
+  "application_number": "15751842",
+  "date_published": "20180816",
+  "main_ipcr_label": "G06N700",
+  "date_produced": "20180801",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wiebe",
+      "inventor_name_first": "Nathan",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Granade",
+      "inventor_name_first": "Christopher",
+      "inventor_city": "Sydney",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "_processing_info": {
+    "original_size": 74586,
+    "optimized_size": 2664,
+    "reduction_percent": 96.43
+  }
+}

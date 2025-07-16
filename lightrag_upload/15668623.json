@@ -1,0 +1,72 @@
+{
+  "patent_number": "None",
+  "application_number": "15668623",
+  "date_published": "20171214",
+  "date_produced": "20171129",
+  "filing_date": "20170803",
+  "main_ipcr_label": "G06N308",
+  "abstract": "There are provided system and method of segmentation a fabrication process (FP) image obtained in a fabrication of a semiconductor specimen. The method comprises: upon obtaining a Deep Neural Network (DNN) trained to provide segmentation-related data, processing a fabrication process (FP) sample using the obtained trained DNN and, resulting from the processing, obtaining by the computer segments-related data characterizing the FP image to be segmented, the obtained segments-related data usable for automated examination of the semiconductor specimen. The DNN is trained using a segmentation training set comprising a plurality of first training samples and ground truth data associated therewith, each first training sample comprises a training image; FP sample comprises the FP image to be segmented.",
+  "publication_number": "US20170357895A1-20171214",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In order to understand the invention and to see how it may be carried out in practice, embodiments will now be described, by way of non-limiting example only, with reference to the accompanying drawings, in which: FIG. 1 illustrates a functional block diagram of an examination system in accordance with certain embodiments of the presently disclosed subject matter; FIG. 2 illustrates a generalized model of an exemplified deep neural network usable in accordance with certain embodiments of the presently disclosed subject matter; FIG. 3 illustrates a generalized flow-chart of automatically determining examination-related data using fabrication process (FP) images in accordance with certain embodiments of the presently disclosed subject matter; FIG. 4 illustrates a generalized flow-chart of training a deep neural network (DNN) in accordance with certain embodiments of the presently disclosed subject matter; FIG. 5 a and FIG. 5 b illustrate generalized flow-charts of classifying defects in accordance with certain embodiments of the presently disclosed subject matter; FIG. 6 illustrates a generalized flow-chart of segmentation of examination-related images in accordance with certain embodiments of the presently disclosed subject matter; FIG. 7 illustrates a generalized flow-chart of defect detection in accordance with certain embodiments of the presently disclosed subject matter; FIG. 8 illustrates a generalized flow-chart of registration examination-related images in accordance with certain embodiments of the presently disclosed subject matter; and FIG. 9 illustrates a generalized flow-chart of cross-modality regression in accordance with certain embodiments of the presently disclosed subject matter. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KARLINSKY",
+      "inventor_name_first": "Leonid",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "COHEN",
+      "inventor_name_first": "Boaz",
+      "inventor_city": "Lehavim",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "KAIZERMAN",
+      "inventor_name_first": "Idan",
+      "inventor_city": "Meitar",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "ROSENMAN",
+      "inventor_name_first": "Efrat",
+      "inventor_city": "Aseret",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "BATIKOFF",
+      "inventor_name_first": "Amit",
+      "inventor_city": "Petach Tikva",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "RAVID",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Herzeliya",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "ROSENWEIG",
+      "inventor_name_first": "Moshe",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "title": "METHOD OF DEEP LEARINING-BASED EXAMINATION OF A SEMICONDUCTOR SPECIMEN AND SYSTEM THEREOF",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 79951,
+    "optimized_size": 4084,
+    "reduction_percent": 94.89
+  }
+}

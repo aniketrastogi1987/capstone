@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180425",
+  "publication_number": "US20180129968A1-20180510",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15344935",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Osogami",
+      "inventor_name_first": "Takayuki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Provided are a computer program product, a learning apparatus and a learning method. The method includes calculating, by a processor, a first propagation value that is propagated from a propagation source node to a propagation destination node in a neural network including a plurality of nodes, based on node values of the propagation source node at a plurality of time points and a weight corresponding to passage of time points based on a first attenuation coefficient. The method further includes updating, by the processor, a first update parameter, which is used for updating the first attenuation coefficient, by using the first propagation value. The method also includes updating, by the processor, the first attenuation coefficient by using the first update parameter and an error of the node value of the propagation destination node.",
+  "filing_date": "20161107",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the present invention, provided are a computer program product, a learning apparatus and a learning method. The method includes calculating, by a processor, a first propagation value that is propagated from a propagation source node to a propagation destination node in a neural network including a plurality of nodes, based on node values of the propagation source node at a plurality of time points and a weight corresponding to passage of time points based on a first attenuation coefficient. The method further includes updating, by the processor, a first update parameter, which is used for updating the first attenuation coefficient, by using the first propagation value. The method also includes updating, by the processor, the first attenuation coefficient by using the first update parameter and an error of the node value of the propagation destination node. The summary clause does not necessarily describe all necessary features of the embodiments of the present invention. The present invention can also be a sub-combination of the features described above.",
+  "date_published": "20180510",
+  "title": "UPDATE OF ATTENUATION COEFFICIENT FOR A MODEL CORRESPONDING TO TIME-SERIES INPUT DATA",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 119911,
+    "optimized_size": 2541,
+    "reduction_percent": 97.88
+  }
+}

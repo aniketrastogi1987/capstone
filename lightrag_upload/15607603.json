@@ -1,0 +1,47 @@
+{
+  "patent_number": "None",
+  "application_number": "15607603",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "filing_date": "20170529",
+  "main_ipcr_label": "G06N502",
+  "abstract": "There is disclosed a computer implemented method of generating a training object for training a machine learning algorithm (MLA). The method comprises: acquiring a digital training document to be used in the training; transmitting the digital training document to a plurality of assessors, transmitting further including indicating a range of possible labels for the assessors to assess from, the range of possible labels including at least a first possible label and a second possible label; obtaining from each of the plurality of assessors a selected label to form a pool of selected labels; generating a consensus label distribution based on the pool of selected labels, the consensus label distribution representing a range of perceived labels for the digital training document and an associated probability score for each of the perceived labels; and training the machine learning algorithm using the digital training document and the consensus label distribution.",
+  "publication_number": "US20170364810A1-20171221",
+  "summary": "<SOH> SUMMARY <EOH>It is an object of the present technology to ameliorate at least some of the inconvenience present in the prior art. Embodiments of the present technology have been developed based on developers' appreciation of at least one technical problem associated with the prior art solutions. Without wishing to be bound by any specific theory, developers of the present technology believe that the traditional approaches to consensus label generation fail to explain a certain kind of disagreements among labels produced by assessors which is typical for some types of objects. For example it is well known that, when assessing relevance of documents to search queries, even well trained experts may disagree about the true label (i.e. true relevance of the given document to the search query) for certain documents. Indeed, to properly associate a label to a document with respect to the search query, one has to appreciate many aspects of the object such as the relevance, novelty, coverage, brand, design, etc. Facing such complex task, even the expert assessor may have personal preferences on the value of different aspects, which results in different selection of labels. Developers believe that this is equivalent to saying that a single true label of an object does not exist, but rather each object has its specific distribution over possible true perceived labels. Similar problems, albeit in a somewhat exacerbated form, are believed to be present in crowd-souring based system for labelling documents. Hence, developers of the present technology address the above-discussed drawbacks associated with the traditional approaches to generating consensus labels by developing a document labelling setting where it is assumed that no single true label exist for the object, but rather that each object may have multiple different “subjective but true” perceived labels. As such, embodiments of the present technology are aimed at generating a consensus label distribution in a form ...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1718",
+    "G06F1730",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "GUSEV",
+      "inventor_name_first": "Gleb Gennadievich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "FEDOROVA",
+      "inventor_name_first": "Valentina Pavlovna",
+      "inventor_city": "Sergiev Posad",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "MISHCHENKO",
+      "inventor_name_first": "Andrey Sergeevich",
+      "inventor_city": "Troitsk",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    }
+  ],
+  "title": "METHOD OF GENERATING A TRAINING OBJECT FOR TRAINING A MACHINE LEARNING ALGORITHM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 88679,
+    "optimized_size": 3911,
+    "reduction_percent": 95.59
+  }
+}

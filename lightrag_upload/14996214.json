@@ -1,0 +1,31 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "14996214",
+  "date_published": "20170511",
+  "date_produced": "20170427",
+  "title": "METHOD AND SYSTEM FOR DATA REBUILDING AND MEMORY CONTROL CIRCUIT UNIT THEREOF",
+  "filing_date": "20160114",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Sheng-Han",
+      "inventor_city": "Taichung City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1107",
+    "G06F1202"
+  ],
+  "main_ipcr_label": "G06F1107",
+  "summary": "<SOH> SUMMARY <EOH>The present invention provides a data rebuilding method, a data rebuilding system, and a memory control circuit unit thereof for rebuilding a logical-physical mapping table based on existing physical-logical mapping information when the logical-physical mapping table is damaged due to damage of a rewritable non-volatile memory module, so as to identify data stored in the rewritable non-volatile memory module. An exemplary embodiment of the present invention provides a data rebuilding method for a memory storage device having a rewritable non-volatile memory module, which includes a plurality of physical erasing units. The data rebuilding method includes reading physical-logical mapping information and time information corresponding to the physical-logical mapping information stored in the rewritable non-volatile memory module, and sorting the physical-logical mapping information according to the time information. The data rebuilding method further includes building logical-physical mapping information according to the sorted physical-logical mapping information to generate a logical-physical mapping table, and storing the logical-physical mapping table in a buffer of the memory storage device. An exemplary embodiment of the present invention provides a memory control circuit unit disposed in a memory storage device for controlling a rewritable non-volatile memory module of the memory storage device, wherein the rewritable non-volatile memory module includes a plurality of physical erasing units. The memory control circuit unit includes a host interface, a memory interface, and a memory management circuit. The host interface is coupled to a host system. The memory interface is coupled to the rewritable non-volatile memory module. The memory management circuit is coupled to the host interface and the memory interface. The memory management circuit reads physical-logical mapping information and time information corresponding to the physical-logical m...",
+  "patent_number": "9940189",
+  "abstract": "A method and a system for data rebuilding and a memory control circuit unit thereof are provided. The method includes reading a plurality of physical-logical mapping information and a plurality of time information corresponding to the physical-logical mapping information stored in a rewritable non-volatile memory module. The method also includes sorting the plurality of physical-logical mapping information according to the plurality of time information corresponding to the physical-logical mapping infoiiiiation. The method further includes rebuilding a logical-physical mapping table according to the sorted plurality of physical-logical mapping information, and storing the rebuilt logical-physical mapping table into a buffer.",
+  "publication_number": "US20170132069A1-20170511",
+  "_processing_info": {
+    "original_size": 92449,
+    "optimized_size": 3321,
+    "reduction_percent": 96.41
+  }
+}

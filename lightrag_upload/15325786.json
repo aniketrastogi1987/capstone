@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15325786",
+  "date_published": "20170525",
+  "date_produced": "20170510",
+  "filing_date": "20170112",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Performance testing based on variable length segmentation and clustering of time series data is disclosed. One example is a system including a training module, a performance testing module, and an interface module. The training module generates a trained model to learn characteristics of a system of interest from training time series data by segmenting the training time series data into homogeneous windows of variable length, clustering the segments to identify patterns, and associating each cluster with a cluster score. The performance testing module analyzes system characteristics from testing time series data by receiving the testing time series data, and determining a performance metric for the testing time series data by analyzing the testing time series data based on the trained model. The interface module is communicatively linked to the performance testing module, and provides the performance metric via an interactive graphical user interface.",
+  "publication_number": "US20170147930A1-20170525",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a functional block diagram illustrating one example of a system for performance testing based on variable length segmentation and clustering of time series data. FIG. 2 is another functional block diagram illustrating one example of a system for performance testing based on variable length segmentation and clustering of time series data. FIG. 3 illustrates an example segmentation of time series data for a vehicle commute. FIG. 4 illustrates an example histogram of segment lengths of a time series. FIG. 5 illustrates example patterns observed in segments of length between 0 and 12 seconds. FIG. 6 illustrates example patterns observed in segments of length between 12 and 30 seconds. FIG. 7 illustrates example patterns observed in segments of length between 30 and 120 seconds. FIG. 8 illustrates example patterns observed in segments of length between 120 and 300 seconds. FIG. 9 illustrates example patterns observed in segments that lasted longer than 300 seconds. FIG. 10 is an example time series data of road speed and load value for a single commute. FIG. 11 is another example time series data of road speed and load value for a single commute, FIG. 12 is a block diagram illustrating one example of a processing system for implementing the system for performance testing based on variable length segmentation and clustering of time series data. FIG. 13 is a block diagram illustrating one example of a computer readable medium for performance testing based on variable length segmentation and clustering of time series data. FIG. 14 is a flow diagram illustrating one example of a method for performance testing based on variable length segmentation and clustering of time series data. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "BELLALA",
+      "inventor_name_first": "Gowtham",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Mi",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LYON",
+      "inventor_name_first": "Geoff M.",
+      "inventor_city": "Half Moon Bay",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "PERFORMANCE TESTING BASED ON VARIABLE LENGTH SEGMENTATION AND CLUSTERING OF TIME SERIES DATA",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 69067,
+    "optimized_size": 3678,
+    "reduction_percent": 94.67
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "patent_number": "None",
+  "application_number": "15630245",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170622",
+  "main_ipcr_label": "G06N700",
+  "abstract": "A system and method for providing customized content recommendations to a user based on extrapolated data is described. The system may receive an answer to a question from a user and determine a second unanswered question having a threshold relationship level with the question. The system may compute a predicted probability that the user would answer the second question correctly, calculate a first comparative skill level of the user among a cohort of similar users, and rank the first comparative skill level of the user against a second comparative skill level of the cohort to determine a skill gap of the user. Further, in some implementations, the system may generate a search query based on the skill gap of the user, and determine recommended content customized to the skill gap of the user.",
+  "publication_number": "US20170372215A1-20171228",
+  "summary": "<SOH> SUMMARY <EOH>The techniques introduced herein overcome the deficiencies and limitations of the prior art, at least in part, with a system and method for extrapolating skill levels from a subset of all assessment questions and generating recommendations customized to the user's skill level for one or more topics. A system of one or more computers can be configured to perform particular operations or actions by virtue of having software, firmware, hardware, or a combination of them installed on the system that in operation causes or cause the system to perform the actions. One or more computer programs can be configured to perform particular operations or actions by virtue of including instructions that, when executed by data processing apparatus, cause the apparatus to perform the actions. One general aspect includes a method including: receiving, by a computing device, an answer to a question of a set of questions from a first user, the set of questions including an unanswered question to which a response is not received from the first user; computing, by the computing device, a predicted probability of the first user answering the unanswered question correctly using the answer to the question and based on question mapping data, the question mapping data representing a relationship between the question and the unanswered question; determining, by the computing device, a skill gap of the first user based on the answer to the question and the predicted probability of the first user answering the unanswered question correctly, the skill gap representing competence of the first user in a topic; determining, by the computing device, recommended instructional content customized to the skill gap of the first user; and providing, by the computing device, for display to the first user, the recommended instructional content customized to the skill gap of the first user. Other embodiments of this aspect include corresponding computer systems, apparatus, and computer prog...",
+  "ipcr_labels": [
+    "G06N700",
+    "G09B506",
+    "G06N300",
+    "G09B702",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Platt",
+      "inventor_name_first": "David",
+      "inventor_city": "Bountiful",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mashburn",
+      "inventor_name_first": "David",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kannan",
+      "inventor_name_first": "Krishna",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Thurber",
+      "inventor_name_first": "Dane",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stone",
+      "inventor_name_first": "Eric",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "EXTRAPOLATING PROBABILISTIC PREDICTIONS FOR SKILLS USING UNANSWERED QUESTIONS AND DETERMINING CORRESPONDING INSTRUCTIONAL CONTENT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 90200,
+    "optimized_size": 4037,
+    "reduction_percent": 95.52
+  }
+}

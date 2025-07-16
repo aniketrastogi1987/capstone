@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15717590",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "filing_date": "20170927",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "An analysis server receives data of multiple types. The analysis server uses multiple generated and pre-trained analysis models and semantic layer operations to analyze the data and search for and detect correlations, trends, and/or predictions using adaptive artificial intelligence or machine learning algorithms. The analysis server then transmits data to a viewer device identifying the detected correlations, trends, and/or predictions, thereby displaying notifications, charts, or graphs at the viewer device. The analysis server may then check to see if the detected correlations, trends, and/or predictions hold true based on new data, and can adjust, augment, or evolve the pre-trained analysis models based on this, or can assign or adjust confidence scores to each of the pre-trained analysis models based on this.",
+  "publication_number": "US20180089594A1-20180329",
+  "summary": "<SOH> SUMMARY OF THE PRESENTLY CLAIMED INVENTION <EOH>A first claimed embodiment of the present invention concerns a system for providing intelligence. The system includes a memory storing a plurality of correlation analysis models, wherein each correlation analysis model is previously-trained and distinct from a remainder of the plurality of correlation analysis models. The system also includes a communication transceiver receiving data from a data source. The system also includes a processor coupled to the memory and to the communication transceiver. Execution of instructions stored in the memory by the processor performs a number of system operations. The system operations include identifying a correlation within the data using a first correlation analysis model of the plurality of correlation analysis models. The system operations also include adjusting a confidence metric associated with the correlation based on the other correlation analysis models within the plurality of correlation analysis models other than the first correlation analysis model. The system operations also include transmitting correlation data to a viewer device, thereby triggering a notification identifying the correlation to be output at the viewer device. A second claimed embodiment of the present invention concerns a method of providing intelligence. The method includes storing a plurality of correlation analysis models in a memory, wherein each correlation analysis model is previously-trained and distinct from a remainder of the plurality of correlation analysis models. The method also includes receiving data from a data source and identifying a correlation within the data using a first correlation analysis model of the plurality of correlation analysis models. The method also includes adjusting a confidence metric associated with the correlation based on the other correlation analysis models within the plurality of correlation analysis models other than the first correlation analysis mo...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Duncker",
+      "inventor_name_first": "Seymour",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yruski",
+      "inventor_name_first": "Andrey",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "INTELLIGENCE GENERATION BASED ON ADAPTIVE LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 59782,
+    "optimized_size": 3530,
+    "reduction_percent": 94.1
+  }
+}

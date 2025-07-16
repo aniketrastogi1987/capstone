@@ -1,0 +1,74 @@
+{
+  "patent_number": "None",
+  "application_number": "15682108",
+  "date_published": "20180222",
+  "date_produced": "20180207",
+  "filing_date": "20170821",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Systems and methods for managing visual allocation are provided herein that use models to determine states based on visual data and, based thereon, output feedback based on the determined states. Visual data is initially obtained by a visual allocation management system. The visual data includes eye image sequences of a person in a particular state, such as engaging in a task or activity. Visual features can be identified from the visual data, such that glance information including direction and duration can be calculated. The visual data, information derived therefrom, and/or other contextual data is input into the models, which correspond to states, to calculate probabilities that the particular state that the person is engaged in is one of the modeled states. Based on the state identified as having the highest probability, an optimal feedback, such as a warning or instruction, can be output to a connected devices, systems, or objects.",
+  "publication_number": "US20180053103A1-20180222",
+  "summary": "<SOH> SUMMARY <EOH>Systems and methods are provided herein for managing visual allocation. More specifically, visual allocation management systems and methods are described herein that use captured visual data of a person engaged in an activity and, based on that visual data and/or other contextual information, identifies or infers states of the person while engaging in the activity, such that one or more responsive actions can be triggered. States are used herein to refer to a person's attention, awareness, emotions (e.g., fear, anger), or other mental or physical states (e.g., drowsiness) that, in some instances, are not-readily observable or measurable from the visual data. As described herein, visual data of a person is obtained while engaging in one or more activities, such as driving. The visual data can be captured using a variety of sensors, including one or more cameras. Visual features, such as pupil position, can be derived or extracted from the visual data, such that glance information can be calculated. The glance information can include glance direction, glance duration, and glance transitions. The visual data, data derived from the visual data (e.g., glance information), and other obtained contextual information can be input into or used with one or more models corresponding to human states. The models can be a variety of mathematical and/or statistical models, and can be pre-determined and/or pre-stored. The models correspond to or are modeled data representations of states, which can include tasks, behaviors, awareness, attention, and the like engaged in or relating to the person during the period of activity engaged in by the person. The input data can be compared to the data representations of the models in order to calculate the respective probabilities of each model. Each of the probabilities calculated and/or output by the models indicates the likelihood that the person, while engaged in the one or more activities, was also engaged in or experi...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Delgado",
+      "inventor_name_first": "Andres Mauricio Munoz",
+      "inventor_city": "England",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Reimer",
+      "inventor_name_first": "Bryan L.",
+      "inventor_city": "Newton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "Joonbum",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Angell",
+      "inventor_name_first": "Linda Sala",
+      "inventor_city": "Grosse Pointe Farms",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Seppelt",
+      "inventor_name_first": "Bobbie Danielle",
+      "inventor_city": "Brookline",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mehler",
+      "inventor_name_first": "Bruce L.",
+      "inventor_city": "Jamaica Plain",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Coughlin",
+      "inventor_name_first": "Joseph F.",
+      "inventor_city": "Sudbury",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR PROVIDING VISUAL ALLOCATION MANAGEMENT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 150745,
+    "optimized_size": 4447,
+    "reduction_percent": 97.05
+  }
+}

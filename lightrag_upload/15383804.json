@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174038A1-20180621",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15383804",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jiang",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A robotic device is disclose as having deep reinforcement learning capability. The device includes non-transitory memory comprising instructions and one or more processors in communication with the memory. The instructions cause the one or more processors to receive a sensing frame, from a sensor, comprising an image. The processors then determine a movement transition based on the sensing frame and the deep reinforcement learning, wherein the deep reinforcement learning uses at least one of a map coverage reward, a map quality reward, or a traversability reward to determine the movement transition. The processors then update an area map based on the sensing frame and the deep reinforcement learning using a visual simultaneous localization and mapping (SLAM) process to determine the map updates.",
+  "filing_date": "20161219",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various examples are now described to introduce a selection of concepts in a simplified form that are further described below in the detailed description. The Summary is not intended to identify key or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. In one example, a robotic device has deep reinforcement learning capability. The robotic device includes non-transitory memory comprising instructions. One or more processors are in communication with the memory, wherein the one or more processors execute the instructions. The instructions include receiving a sensing frame, from a sensor, comprising an image. A movement transition is determined based on the sensing frame and the deep reinforcement learning, wherein the deep reinforcement learning uses at least one of a map coverage reward, a map quality reward, or a traversability reward to determine the movement transition. An area map is updated based on the sensing frame and the deep reinforcement learning using a visual simultaneous localization and mapping (SLAM) process to determine the map updates. In another example, a computer-implemented method includes mapping with deep reinforcement learning in a robotic device. The method receives a sensing frame, from one or more sensors, comprising an image. Robotic device movement is determined based on the sensing frame and the deep reinforcement learning, wherein the deep reinforcement learning uses a plurality of rewards to determine a selected action for the robotic device movement. An area map is updated based on the sensing frame and the deep reinforcement learning using a visual simultaneous localization and mapping (SLAM) process to determine the map updates. In another example, a non-transitory computer-readable media stores computer instructions for visual simultaneous localization and mapping with deep reinforcement learning in a robotic device, that when execut...",
+  "date_published": "20180621",
+  "title": "SIMULTANEOUS LOCALIZATION AND MAPPING WITH REINFORCEMENT LEARNING",
+  "ipcr_labels": [
+    "G06N308",
+    "B25J916"
+  ],
+  "_processing_info": {
+    "original_size": 48352,
+    "optimized_size": 3513,
+    "reduction_percent": 92.73
+  }
+}

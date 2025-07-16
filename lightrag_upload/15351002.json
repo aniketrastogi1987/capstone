@@ -1,0 +1,33 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193398A1-20170706",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15351002",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Schmidt",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Various systems and methods provide an intuitive user interface that enables automatic specification of queries and constraints for analysis by ML component. Various implementations provide methodologies for automatically formulating machine learning (“ML”) and optimization queries. The automatic generation of ML and/or optimization queries can be configured to use examples to facilitate formulation of ML and optimization queries. One example method includes accepting input data specifying variables and data values associated with the variables. Within the input data any unspecified data records are identified, and a relationship between the variables specified in the input data and a variable associated with the at least one unspecified data record is automatically determined. The relationship can be automatically determined based on training data contained within the input data. Once a relationship is established a ML problem can be automatically generated.",
+  "filing_date": "20161114",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect, it is realized that ML techniques and approaches are not meeting their potential. In particular, common users find the generation and development of a query for an ML system too challenging. Lay persons and more novice users find the task of query definition overwhelming. Frustration can results from imprecise query generation, where “bad” answers are delivered in response to improperly formatted queries, or models are generated that are incapable of being used. Accordingly, various aspects provide systems and methods to alleviate the difficulty of query generation. According to one embodiment, the systems and methods provide an intuitive user interface that enables automatic specification of queries and constraints. Various implementations provide novel methodologies for automatically formulating machine learning and optimization queries. The automatic generation of ML and/or optimization queries can be configured to use examples to facilitate formulation of ML and optimization queries. According to one aspect, a computer implemented method for automatically generating machine learning problems is provided. The method comprises accepting, by a computer system, input data specifying variables and data values associated with the variables, identifying, by the computer system, at least one unspecified data record within the input data, determining, automatically, by the computer system, a relationship between the variables specified in the input data and a variable associated with the at least one unspecified data record, based on training data contained within the input data, and generating, automatically, by the computer system a machine learning problem including the relationship between the variables and the training data. According to one embodiment, the method further comprises solving, automatically by the computer system, the machine learning problem to provide a result value for the at least one unspecified data rec...",
+  "date_published": "20170706",
+  "title": "SYSTEM AND METHOD FOR AUTO-QUERY GENERATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06F1724",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 91215,
+    "optimized_size": 3561,
+    "reduction_percent": 96.1
+  }
+}

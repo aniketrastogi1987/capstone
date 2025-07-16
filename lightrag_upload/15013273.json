@@ -1,0 +1,45 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15013273",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "title": "DOMAIN ADAPTATION BY MULTI-NOISING STACKED MARGINALIZED DENOISING ENCODERS",
+  "filing_date": "20160202",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chidlovskii",
+      "inventor_name_first": "Boris",
+      "inventor_city": "Meylan",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Csurka",
+      "inventor_name_first": "Gabriela",
+      "inventor_city": "Crolles",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Clinchant",
+      "inventor_name_first": "Stéphane",
+      "inventor_city": "Grenoble",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K962",
+    "G06N9900"
+  ],
+  "main_ipcr_label": "G06K962",
+  "summary": "<SOH> BRIEF DESCRIPTION <EOH>In some embodiments disclosed herein, a non-transitory storage medium stores instructions executable by a computer to perform a machine learning method operating on training instances from a plurality of domains including (i) one or more source domains and (ii) a target domain with each training instance represented by values for a set of features and some training instances being labeled with labels of a set of labels. The machine learning method includes the following operations. Domain adaptation is performed using stacked marginalized denoising autoencoding (mSDA) operating on the training instances with at least one of: (1) different feature corruption probabilities for different features of the set of features and (2) different feature corruption probabilities for different domains of the plurality of domains. The domain adaptation generates a stack of domain adaptation transform layers operative to transform the domains to a common adapted domain. Supervised or semi-supervised learning is performed on the training instances transformed to the common adapted domain using the stack of domain adaptation transform layers to generate a classifier that outputs label predictions from the set of labels for the training instances. A label prediction is generated for an input instance in the target domain represented by values for the set of features by applying the classifier to the input instance transformed to the common adapted domain using the stack of domain adaptation transform domains. In some embodiments disclosed herein, a computer is programmed to perform a machine learning method operating on training instances from a plurality of domains including one or more source domains and a target domain. Each training instance is represented by values for a set of features. The machine learning method including the following operations. Domain adaptation is performed using stacked marginalized denoising autoencoding (mSDA) operating on t...",
+  "patent_number": "9916542",
+  "abstract": "A machine learning method operates on training instances from a plurality of domains including one or more source domains and a target domain. Each training instance is represented by values for a set of features. Domain adaptation is performed using stacked marginalized denoising autoencoding (mSDA) operating on the training instances to generate a stack of domain adaptation transform layers. Each iteration of the domain adaptation includes corrupting the training instances in accord with feature corruption probabilities that are non-uniform over at least one of the set of features and the domains. A classifier is learned on the training instances transformed using the stack of domain adaptation transform layers. Thereafter, a label prediction is generated for an input instance from the target domain represented by values for the set of features by applying the classifier to the input instance transformed using the stack of domain adaptation transform domains.",
+  "publication_number": "US20170220897A1-20170803",
+  "_processing_info": {
+    "original_size": 65521,
+    "optimized_size": 3852,
+    "reduction_percent": 94.12
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170816",
+  "publication_number": "US20170249548A1-20170831",
+  "main_ipcr_label": "G06N308",
+  "decision": "ACCEPTED",
+  "application_number": "15055446",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nelson",
+      "inventor_name_first": "Philip Charles",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Christiansen",
+      "inventor_name_first": "Eric Martin",
+      "inventor_city": "Carlsbad",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Berndl",
+      "inventor_name_first": "Marc",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Frumkin",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Santa Cruz",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for processing cell images using neural networks. One of the methods includes obtaining data comprising an input image of one or more biological cells illuminated with an optical microscopy technique; processing the data using a stained cell neural network; and processing the one or more stained cell images using a cell characteristic neural network, wherein the cell characteristic neural network has been configured through training to receive the one or more stained cell images and to process the one or more stained cell images to generate a cell characteristic output that characterizes features of the biological cells that are stained in the one or more stained cell images.",
+  "filing_date": "20160226",
+  "patent_number": "9971966",
+  "summary": "<SOH> SUMMARY <EOH>In general, this specification describes a neural network for processing cell images. In particular, a system obtains data that includes an input image of one or more biological cells illuminated with an optical microscopy technique. The system processes the data using a stained cell neural network. The stained cell neural network is a deep neural network that has been configured through training to receive the data and to process the data to generate one or more stained cell images. Each stained cell image depicts a respective stained version of the one or more biological cells in the input image. Particular embodiments of the subject matter described in this specification can be implemented so as to realize one or more of the following advantages. A stained cell neural network can predict a stained cell image from an image of a cell and a cell characteristic neural network can predict characteristics of the cell from the stained cell image. Therefore, characteristics of the cell can be predicted from the image of the cell using automated processes, which can reduce cost and testing time. That is, the characteristics of the cell can be predicted without having to physically stain a live cell, which reduces the number of live cells that need to be modified to determine the characteristics of the cell. In particular, a stained image of a live cell can be generated without physically staining and possibly killing the cell. These stained images can then be used to determine characteristics of the cell. Additionally, generating stained images using a neural network is more efficient and requires fewer resources and less time than physically staining a cell to generate a stained image. Moreover, the neural network can be configured to stain for any number of channels simultaneously, whereas physical protocols can only stain for a small number of channels simultaneously. The details of one or more embodiments of the subject matter of this specification ...",
+  "date_published": "20170831",
+  "title": "PROCESSING CELL IMAGES USING NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06T760"
+  ],
+  "_processing_info": {
+    "original_size": 37896,
+    "optimized_size": 3791,
+    "reduction_percent": 90.0
+  }
+}

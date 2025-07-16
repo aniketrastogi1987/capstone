@@ -1,0 +1,40 @@
+{
+  "decision": "PENDING",
+  "application_number": "15132027",
+  "date_published": "20160811",
+  "date_produced": "20160727",
+  "title": "EMBEDDED RESILIENT BUFFER",
+  "filing_date": "20160418",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Paul",
+      "inventor_name_first": "Somnath",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vangal",
+      "inventor_name_first": "Sriram R.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1107",
+    "G06F1316",
+    "G06F506",
+    "G06F1116"
+  ],
+  "main_ipcr_label": "G06F1107",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments of the disclosure will be understood more fully from the detailed description given below and from the accompanying drawings of various embodiments of the disclosure, which, however, should not be taken to limit the disclosure to the specific embodiments, but are for explanation and understanding only. FIG. 1 is a conventional implementation of a First In, First Out (FIFO) with a sequential unit for timing error detection. FIG. 2 is a queue embedded in parallel with a sampler, according to one embodiment of the disclosure. FIG. 3 is a pipeline with queue embedded in parallel with the sampler, and with error detection and recovery, according to one embodiment of the disclosure. FIG. 4 is a detailed description of the pipeline, according to one embodiment of the disclosure. FIG. 5 illustrates a timing sequence, according to one embodiment of the disclosure. FIG. 6 is a smart device or a computer system or an SoC (system-on-chip) with queue embedded in parallel with the sampler, according to one embodiment of the disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "Described is an apparatus that comprises: a first sequential unit; a first queue coupled in parallel to the first sequential unit such that the first queue and first sequential unit receive a first input, the first sequential for double sampling the first input; a compare unit to receive an output from the first sequential unit; and a first selection unit controllable by a write pointer of a previous cycle, the first selection unit to receive outputs of each storage unit of the first queue, wherein the first selection unit to generate an output for comparison by the first compare unit.",
+  "publication_number": "US20160232051A1-20160811",
+  "_processing_info": {
+    "original_size": 50126,
+    "optimized_size": 2458,
+    "reduction_percent": 95.1
+  }
+}

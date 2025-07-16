@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15557463",
+  "date_published": "20180308",
+  "date_produced": "20180222",
+  "filing_date": "20170911",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A big data processing method for a segment-based two-grade deep learning model. The method includes: step (1), constructing and training a segment-based two-grade deep learning model, wherein the model is divided into two grades in a longitudinal level: a first grade and a second grade, each layer of the first grade is divided into M segments in a horizontal direction, and the weight between neuron nodes of adjacent layers in different segments of the first grade is zero; step (2), dividing big data to be processed into M sub-sets according to the type of the data and respectively inputting same into M segments of a first layer of the segment-based two-grade deep learning model for processing; and step (3), outputting a big data processing result. The method of the present invention can increase the big data processing speed and shorten the processing time.",
+  "publication_number": "US20180068215A1-20180308",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is an object of the present invention to overcome the above problems of an existing neural network deep learning model in the application of big data and propose a segment-based two-grade deep learning model. The expansion capability of the model can be improved by grading and segmenting the deep learning model and restricting the weight of segments. Based on the model, the present invention proposes a big data processing method for a segment-based two-grade deep learning model, which can increase the big data processing speed and shorten the processing time. In order to attain the above object, the present invention provides a big data processing method for a segment-based two-grade deep learning model, the method comprising: step (1) constructing and training a segment-based two-grade deep learning model, wherein the model is divided into two grades in a longitudinal level: a first grade and a second grade; each layer of the first grade is divided into M segments in a horizontal direction; wherein, M is a modality number of a multimodality input, and a weight between neuron nodes of adjacent layers in different segments of the first grade is 0; step (2) dividing big data to be processed into M sub-sets according to a type of the data, and respectively inputting same into M segments of a first layer of the segment-based two-grade deep learning model for processing; and step (3) outputting a big data processing result. In the above technical solution, the step (1) further comprising: step (101) dividing a deep learning model with a depth of L layers into two grades in a longitudinal level, i.e., a first grade and a second grade: wherein, an input layer is a first layer, an output layer is an L th layer, and an (L*) th layer is a division layer, 2≦L*≦L−1, then all the layers from the first layer to the (L*) th layer are referred to as the first grade, and all the layers from an (L*+1) th layer to the L th layer are referred to a...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Jinlin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "YOU",
+      "inventor_name_first": "Jiali",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SHENG",
+      "inventor_name_first": "Yiqiang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "LI",
+      "inventor_name_first": "Chaopeng",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "BIG DATA PROCESSING METHOD FOR SEGMENT-BASED TWO-GRADE DEEP LEARNING MODEL",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 22769,
+    "optimized_size": 3875,
+    "reduction_percent": 82.98
+  }
+}

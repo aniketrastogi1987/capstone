@@ -1,0 +1,45 @@
+{
+  "date_produced": "20161109",
+  "publication_number": "US20160342898A1-20161124",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15230131",
+  "inventor_list": [
+    {
+      "inventor_name_last": "EHSANI",
+      "inventor_name_first": "FARZAD",
+      "inventor_city": "SUNNYVALE",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WITT-EHSANI",
+      "inventor_name_first": "SILKE MAREN",
+      "inventor_city": "SUNNYVALE",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MASTER",
+      "inventor_name_first": "DEMITRIOS LEO",
+      "inventor_city": "CUPERTINO",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A Mechanical Turk-Integrated Development Environment system is disclosed. An integrated development environment (IDE) can include one or more interfaces capable of communicating with a mechanical turk engine. As a developer creates applications within the IDE, the developer can use the IDE to submit one or more requests to the mechanical turk engine. The engine constructs a mechanical turk project based on the requests and provides project tasks to workers. The results of the tasks can then be compiled and integrated back into the developer's application via the IDE. An example use includes constructing large domain specific data sets that can be applied to spoken dialog interfaces.",
+  "filing_date": "20160805",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The inventive subject matter provides apparatus, systems and methods in which one can use an IDE to expand modest amounts of domain-relevant language data from a domain expert into a large data set for the domain using crowdsourcing via a Mechanical Turk (MTurk) system. One aspect of the inventive subject matter includes an application development system, which can include an application developer engine and an MTurk engine. The development engine, possibly in the form of an IDE, allows a developer to create one or more projects (e.g., applications, devices, software, etc.) that have domain-specific requirements. The MTurk engine preferably communicatively couples with the development engine over a network (e.g., LAN, WAN, Internet, etc.). Further, the MTurk engine is configured to receive an MTurk request from the development engine and convert the request into one or more MTurk projects. When the project is complete, or portions of the project's results become available, project results can be returned to the application developer engine for incorporation or integration to an application development project. Another aspect of the inventive subject matter can include an Integrated Development Environment (IDE) apparatus. Contemplated apparatus include a developer interface, possibly based on a workstation or through a browser, which is configured to build applications for computing devices. The developer interface can further be configured to generate or submit an MTurk request to an MTurk engine via an MTurk engine interface. For example, a person developing a reservation system might use their IDE to send an MTurk request to an MTurk engine where the request causes the engine to instantiate an MTurk project. Sending of MTurk requests can be hidden from the user, that is, the user can be asked to enter domain specific example words, speech etc. and the IDE can convert those entries into MTurk requests. The MTurk project could re...",
+  "date_published": "20161124",
+  "title": "MECHANICAL TURK INTEGRATED IDE, SYSTEMS AND METHODS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F945"
+  ],
+  "_processing_info": {
+    "original_size": 80705,
+    "optimized_size": 3553,
+    "reduction_percent": 95.6
+  }
+}

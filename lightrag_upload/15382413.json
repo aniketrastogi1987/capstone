@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170603",
+  "publication_number": "US20170169360A1-20170615",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15382413",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Veeramachaneni",
+      "inventor_name_first": "Uday",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Korrapati",
+      "inventor_name_first": "Vamsi",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bassias",
+      "inventor_name_first": "Constantinos",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Arnaldo",
+      "inventor_name_first": "Ignacio",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Ke",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Disclosed herein are a method and system for training a big data machine to defend, retrieve log lines belonging to log line parameters of a system's data source and from incoming data traffic, compute features from the log lines, apply an adaptive rules model with identified threat labels produce a features matrix, identify statistical outliers from execution of statistical outlier detection methods, and may generate an outlier scores matrix. Embodiments may combine a top scores model and a probability model to create a single top scores vector. The single top scores vector and the adaptive rules model may be displayed on a GUI for labeling of malicious or non-malicious scores. Labeled output may be transformed into a labeled features matrix to create a supervised learning module for detecting new threats in real time and reducing the time elapsed between threat detection of the enterprise or e-commerce system.",
+  "filing_date": "20161216",
+  "patent_number": "9904893",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>The present disclosure details an end-to-end system that learns over time from feedback from a security analyst, hereafter referred as analyst. The system may include a big data processing system, an outlier detection system, a feedback mechanism, a continuous learning system and a supervised learning module. The big data processing system comprises a platform that may quantify the features of different entities and compute them from raw data. With high-volume, high-velocity data, this first component requires processing at a challenging scale. An exemplary outlier detection system may learn a descriptive model of those features extracted from the data via unsupervised learning, using one or more of a joint probability density, matrix decomposition or replicator neural network outlier detection system. To achieve confidence and robustness when detecting rare and extreme events, the system may fuse multiple scores into a final score that indicates how far a certain entity's or event's probability is from the others. The feedback mechanism and continuing learning system may incorporate an analyst's input through a user interface. The feedback mechanism and continuing learning system may present the top outlier events or entities and ask the analyst to provide input indicating if a specific combination of features is, or is not, malicious. This feedback may then feed into the supervised learning module. The number of outlier events examined and the feedback frequency (e.g. daily or weekly) are both decided by the analyst. The supervised learning module may receive the analyst's feedback, learn a model that predicts whether a new incoming event is normal or malicious, and may continually refine the model as more feedback is gathered. In some embodiments, the supervised learning module may have access to labeled features from the past, historical labels, even before the detection system is deployed. An additional parameter, d { 0...",
+  "date_published": "20170615",
+  "title": "METHOD AND SYSTEM FOR TRAINING A BIG DATA MACHINE TO DEFEND",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F2156"
+  ],
+  "_processing_info": {
+    "original_size": 66759,
+    "optimized_size": 4083,
+    "reduction_percent": 93.88
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15009384",
+  "date_published": "20170302",
+  "date_produced": "20170214",
+  "title": "MEMORY SYSTEM AND OPERATING METHOD THEREOF",
+  "filing_date": "20160128",
+  "inventor_list": [
+    {
+      "inventor_name_last": "JUNG",
+      "inventor_name_first": "Hoe-Seung",
+      "inventor_city": "Gyeonggi-do",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G06F1342",
+    "G11C1610"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments are directed to a memory system capable of minimizing complexity and performance deterioration thereof, and rapidly and stably processing data to a memory device. In an embodiment, a memory system may include: a plurality of memory chips each memory chip comprising a plurality of planes, each plane comprising a plurality of memory blocks, each block comprising a plurality of pages; the plurality of pages being suitable for storing read data and write data requested from a host, each page comprising a plurality of memory cells coupled to a plurality of word lines; and a controller suitable for checking the write data corresponding to a command received from the host, programming the write data to pages of memory blocks included in planes of a first memory chip, and programming first data for the write data to pages of memory blocks included in planes of a second memory chip. The first data may include backup data of the write data. The first data may include data programmed to the LSB (Least Significant Bit) page among the pages of the memory blocks included in the planes of the first memory chip. The first data may include data having the same pattern as the write data. The first data may include the same data as data programmed to the MSB (Most Significant Bit) page among the pages of the memory blocks included in the planes of the first memory chip and data programmed to the MSB page among the pages of the memory blocks included in the planes of the second memory chip. The first and second memory chips may be coupled to the same channel and share a data bus. The controller may enable the first and second memory chips through the shared data bus of the first and second memory chips, and transmit the write data to the first and second memory chips through the shared data bus at the same time. The controller may generate one descriptor for the data programmed to the first and second memory chips, and then transmit a command cont...",
+  "patent_number": "None",
+  "abstract": "A memory system may include: a memory device including: a plurality of pages each including a plurality of memory cells coupled to a plurality of word lines and suitable for storing read data and write data requested from a host; a plurality of memory blocks each including the pages; a plurality of planes each including the memory blocks; and a plurality of memory chips each including the planes; and a controller suitable for checking the write data corresponding to a command received from the host, programming the write data to pages of memory blocks included in planes of a first memory chip, and programming first data for the write data to pages of memory blocks included in planes of a second memory chip.",
+  "publication_number": "US20170060470A1-20170302",
+  "_processing_info": {
+    "original_size": 89228,
+    "optimized_size": 3273,
+    "reduction_percent": 96.33
+  }
+}

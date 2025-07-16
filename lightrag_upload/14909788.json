@@ -1,0 +1,52 @@
+{
+  "date_produced": "20160615",
+  "publication_number": "US20160189050A1-20160630",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "14909788",
+  "inventor_list": [
+    {
+      "inventor_name_last": "JARAMILLO-VELASQUEZ",
+      "inventor_name_first": "VICTOR-HUGO",
+      "inventor_city": "Medellin",
+      "inventor_state": "",
+      "inventor_country": "CO"
+    },
+    {
+      "inventor_name_last": "RZESZUCINSKI",
+      "inventor_name_first": "PAWEL",
+      "inventor_city": "Kedzierzyn-kozle",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    },
+    {
+      "inventor_name_last": "OTTEWILL",
+      "inventor_name_first": "JAMES",
+      "inventor_city": "Ruislip",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "ORKISZ",
+      "inventor_name_first": "MICHAL",
+      "inventor_city": "Krakow",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    }
+  ],
+  "abstract": "A method for condition monitoring of distributed drive-trains using Bayesian data fusion approach for measured data includes measurement of physical signals obtained from sensors attached to the components being chosen from the drive-train which are delivered to the computer means for processing the measured data and performing data fusion processes, using a data from information database containing at least one information system. The method is characterized by comprising two stages for data fusion processes performed by using Bayesian Inference, the first one for local data fusion process and the second one for global data fusion process, and on the basis of the second stage the assessment process of the condition of the drive-train is performed by choosing the maximum value of the received data, which maximum value serves as an indicator for the most likely fault present in the drive-train.",
+  "filing_date": "20160203",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A method for condition monitoring of distributed drive-train comprising measurement of physical signals obtained from sensors of the components being chosen from the drive-train which are delivered to the computer means for processing the measured data and performing data fusion processes, using a data from information database containing at least one information system, characterized in that it comprising two stages for data fusion processes according to the Bayesian rules and on a base of the second stage the assessment of the condition of the drive-train is performed by choosing the maximum value of the received data, which maximum value triggers an alarm for drive-train. The first stage is consisting of determination of the local posterior probability of fault of the individual component c, p c (t i ,s c (t i )), of the drive-train, using Bayesian Inference according to a formula: p c  ( t i , s c  ( t i ) ) = 1 A  L c  ( y c  ( t i )  s c  ( t i ) )  p c -  ( t i , s c  ( t i ) ) where: t i is a time instant, s c (t i ) is the component condition s at the time instant t i , c: 1,2,3, . . . , C and C is the number of the components, p c− (t i ,s c (t i )) is the prior probability of fault for the individual component c, L c (y c (t i )|s c (t i )) is an indicator likelihood function ILF for the individual component c, y c (t i ) is the vector of indicator values of the component c at the time instant t i , is a normalizing constant, The second stage is consisting of determination of the global posterior probability of fault p(t i ,S(t i )) of the drive-train, using Bayesian Inference according to: p  ( t i , S  ( t i ) ) = 1 B  L  ( Y  ( t i )  S  ( t i ) )  p -  ( t i , S  ( t i ) ) where: t i is a time instant, S(t i ) is the global condition S of the drive-train at the time instant t i , p − (t i ,S(t i )) is the global prior probability of fault of the drive-train, Y(t i ) is the vector of local posteri...",
+  "date_published": "20160630",
+  "title": "METHOD FOR CONDITION MONITORING OF A DISTRIBUTED DRIVE-TRAIN",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 53677,
+    "optimized_size": 4034,
+    "reduction_percent": 92.48
+  }
+}

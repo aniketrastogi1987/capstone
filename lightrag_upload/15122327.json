@@ -1,0 +1,53 @@
+{
+  "date_produced": "20161208",
+  "publication_number": "US20160371593A1-20161222",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15122327",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NISHIYAMA",
+      "inventor_name_first": "Takashi",
+      "inventor_city": "Hyogo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SHIMIZU",
+      "inventor_name_first": "Noriyoshi",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "FUJITA",
+      "inventor_name_first": "Tomohiko",
+      "inventor_city": "Kyoto",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NAKAHARA",
+      "inventor_name_first": "Tomoharu",
+      "inventor_city": "Hyogo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "An inferrer calculates, for each kind of living activities, an occurrence probability defining a probability that a corresponding living activity occurs, based on an operational state of an electric appliance determined by a detector for each of sections at an inference target time by use of prior probabilities, first conditional probabilities, and second conditional probabilities, and infers that a living activity having a highest occurrence probability has occurred at inference target time. Prior probabilities each define a probability at which a corresponding living activity occurs in one day. First conditional probabilities each define active and inactive probabilities of electric appliance belonging to a corresponding section under a condition where a corresponding living activity occurs. Second conditional probabilities each define probabilities of occurrence of a corresponding living activity within respective time periods divided from one day under a condition where a correspon...",
+  "filing_date": "20160829",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>An objective of the present invention is to propose a living activity inference device having an improved inference accuracy of the living activity compared to a conventional configuration, and a program for realizing the living activity inference device by a computer. A living activity inference device according to an aspect of the present invention includes an obtainer, an appliance operation detector, a storage device, an activity inferrer, and an outputter. The obtainer is configured to obtain, for each of sections of a residence, data on a resource consumption status of one or more appliances belonging to a corresponding one of the sections. The appliance operation detector is configured to determine, for each of the sections, an operational state indicative of whether the one or more appliances belonging to a corresponding one of the sections are active or inactive, from the data on the resource consumption status obtained by the obtainer for each of the sections. The storage device is configured to preliminarily store prior probabilities, first conditional probabilities, and second conditional probabilities. The prior probabilities each define a probability at which a corresponding one of pre-defined multiple kinds of living activities occurs in one day. The first conditional probabilities each define active and inactive probabilities of the one or more appliances belonging to a corresponding one of the sections under a condition where a corresponding one of the multiple kinds of living activities occurs. The second conditional probabilities each define probabilities of occurrence of a corresponding one of the multiple kinds of living activities within respective time periods divided from one day under a condition where the corresponding one of the multiple kinds of living activities occurs. The activity inferrer is configured to calculate, for each of the multiple kinds of living activities, an occurrence probability defining ...",
+  "date_published": "20161222",
+  "title": "LIVING ACTIVITY INFERENCE DEVICE, AND PROGRAM",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06Q3002"
+  ],
+  "_processing_info": {
+    "original_size": 67331,
+    "optimized_size": 3991,
+    "reduction_percent": 94.07
+  }
+}

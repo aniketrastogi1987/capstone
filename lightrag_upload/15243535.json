@@ -1,0 +1,38 @@
+{
+  "date_produced": "20161220",
+  "publication_number": "US20170004405A1-20170105",
+  "main_ipcr_label": "G06N504",
+  "decision": "REJECTED",
+  "application_number": "15243535",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Skoglund",
+      "inventor_name_first": "Klas Jimmy",
+      "inventor_city": "Motala",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Apex",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and computer program products are provided that perform modeling and stress testing algorithms without the need for running simulations and that provide exact or approximate solutions for predicting outcomes of states and distributions of states for components of a structure. The disclosed systems, methods, and products may employ a Markov iteration approach, such as an exact Markov iteration approach or a reduced or simplified Markov iteration approach for predicting states and distributions of states for components of a structure using an algorithm that reduces solution complexity as compared to approaches that employ simulations.",
+  "filing_date": "20160822",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with the teachings described herein, systems, methods, and computer program products are provided for performing modeling and stress testing algorithms without the need for running simulations. The disclosed systems, methods, and products may provide exact solutions that predict outcomes of states and distributions of states for components of a structure. The disclosed systems, methods, and products may alternatively or additionally provide approximate solutions for prediction of states and distributions of states for components of a structure using an algorithm that reduces solution complexity. Advantageously, both the exact and approximate solutions exhibit accuracy as good or greater than algorithms that employ simulations and, thus, may be performed in the absence of or in place of simulation-based stress testing algorithms. It will be appreciated that simulation-based stress testing algorithms may be computationally expensive due to the required number of simulations needed, which may be as great as 1,000, 10,000, or 100,000 or more, to obtain an accurate prediction of states and distributions of states and, thus, the disclosed systems, methods, and products provide improved processing efficiencies for performing stress testing. This advantage is further multiplied when the number of components of the structure becomes large, such as 100,000 or 1,000,000 or more, as individual simulations for each component may be required to accurately perform stress testing. In a first aspect, stress testing systems are provided. Stress testing systems of this aspect are useful, for example, for performing modeling and generating predictions of states and state path trajectory for components of a structure. Useful stress testing systems of this aspect include those comprising one or more processors, and a non-transitory computer readable storage medium including instructions that, when executed by the one or more processors, cause the one or m...",
+  "date_published": "20170105",
+  "title": "STRESS TESTING BY AVOIDING SIMULATIONS",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 182792,
+    "optimized_size": 3335,
+    "reduction_percent": 98.18
+  }
+}

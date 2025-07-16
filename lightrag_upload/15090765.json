@@ -1,0 +1,52 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15090765",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "title": "MEMORY MAPPING FOR OBJECT-BASED STORAGE DEVICES",
+  "filing_date": "20160405",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Klein",
+      "inventor_name_first": "Matthias",
+      "inventor_city": "Wappingers Falls",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kraemer",
+      "inventor_name_first": "Marco",
+      "inventor_city": "Sindelfingen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Otte",
+      "inventor_name_first": "Carsten",
+      "inventor_city": "Stuttgart",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Raisch",
+      "inventor_name_first": "Christoph",
+      "inventor_city": "Gerlingen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G06F1210"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>Aspects of an embodiment of the present invention disclose a method, computer program product, and computing system for determining a physical address for object access in an object-based storage device (OSD) system. A processor divides a first data object into one or more partitions, including at least a first partition, and providing each partition for storage as individual stored objects in an OSD system. A processor adds a first entry in a page table, the first entry representing the first partition without an indication of a physical address. A memory management unit (MMU) of the OSD system receives a first request of the first partition. Responsive to receiving the first request of the first partition, a MMU identifies that the first entry of the page table represents the first partition. A MMU obtains a physical address of the first partition from one of a hardware component and a firmware component.",
+  "patent_number": "9928000",
+  "abstract": "In an approach for determining a physical address for object access in an object-based storage device (OSD) system, a processor divides a first data object into one or more partitions, including at least a first partition, and providing each partition for storage as individual stored objects in an OSD system. A processor adds a first entry in a page table, the first entry representing the first partition without an indication of a physical address. A memory management unit (MMU) of the OSD system receives a first request of the first partition. Responsive to receiving the first request of the first partition, a MMU identifies that the first entry of the page table represents the first partition. A MMU obtains a physical address of the first partition from one of a hardware component and a firmware component.",
+  "publication_number": "US20170139636A1-20170518",
+  "_processing_info": {
+    "original_size": 74763,
+    "optimized_size": 2755,
+    "reduction_percent": 96.32
+  }
+}

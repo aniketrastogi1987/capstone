@@ -1,0 +1,35 @@
+{
+  "date_produced": "20170627",
+  "publication_number": "US20170200092A1-20170713",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "14992047",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KISILEV",
+      "inventor_name_first": "PAVEL",
+      "inventor_city": "Maalot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "A computer implemented method of automatically creating a classification function trained with augmented representation of features extracted from a plurality of sample media objects using one or more hardware processors for executing a code. The code comprises code instructions for extracting a plurality of features from a plurality of sample media objects, generating a plurality of feature samples for each of the plurality of features by augmenting the plurality of features, training a classification function with the plurality of features samples and outputting the classification function for classifying one or more new media objects.",
+  "filing_date": "20160111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to some embodiments of the present invention there are provided methods for automatically creating a classification function trained with augmented representation of features extracted from a plurality of sample media objects using one or more hardware processor for executing a code. the code comprises code instructions for extracting a plurality of features from a plurality of sample media objects, generating a plurality of feature samples for each one of the plurality of features by augmenting the plurality of features, training a classification function with the plurality of features samples and outputting the classification function for classifying one or more new media objects. The classification function may perform as one or more regression functions and/or clustering functions. The classification function is a CNN. The plurality of features is extracted by submitting the plurality of sample media objects to a CNN during a learning process of the CNN. Optionally, topology of the classification function is optimized during the extraction of the plurality of features according to a size of each of the plurality of sample media objects. The augmentation includes applying one or more transformation to each of the plurality of features. Optionally, the one or more transformations include, a rotation, a shift, a translation, a scaling, a reflection, a geometric transformation, a pixel flip, a noise injection, a speed perturbation, a pitch shifting, a time stretching, a gain induction and/or a frequency spectrum warpage. According to some embodiments of the present invention there are provided systems for creating a classification function trained with augmented representations of features extracted from a plurality of sample media objects. The system comprises an interface module, a program store storing a code and one or more processors coupled to the interface and the program store for executing the stored code. The code comprises cod...",
+  "date_published": "20170713",
+  "title": "CREATING DEEP LEARNING MODELS USING FEATURE AUGMENTATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N308",
+    "G10L1506",
+    "G10L2530",
+    "G06K966",
+    "G06K962"
+  ],
+  "_processing_info": {
+    "original_size": 50325,
+    "optimized_size": 3244,
+    "reduction_percent": 93.55
+  }
+}

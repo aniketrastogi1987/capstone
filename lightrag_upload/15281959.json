@@ -1,0 +1,53 @@
+{
+  "date_produced": "20171018",
+  "publication_number": "US20170316327A1-20171102",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15281959",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PARK",
+      "inventor_name_first": "Young Tack",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "PARK",
+      "inventor_name_first": "Hyun Kyu",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Wan Gon",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Jagvaral",
+      "inventor_name_first": "Batselem",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "Ontology reasoning method and apparatus are disclosed. The ontology reasoning method comprises (a) broadcasting a schema triple to nodes; (b) partitioning triples other than the schema triple and distributing the partitioned triples to the nodes; and (c) reasoning at least one of the schema triple or the triples according to a reasoning rule and then renewing a confidence value of the reasoned triple.",
+  "filing_date": "20160930",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Accordingly, the invention is provided to substantially obviate one or more problems due to limitations and disadvantages of the related art. One embodiment of the invention provides a confidence value based scalable ontology reasoning system and method of reasoning efficiently scalable ontology based on a confidence value and processing a confidence value of data reasoned with duplication. In one aspect, the invention provides an ontology reasoning method comprising: (a) broadcasting a schema triple to nodes; (b) partitioning triples other than the schema triple and distributing the partitioned triples to the nodes; and (c) reasoning at least one of the schema triple or the triples according to a reasoning rule and then renewing a confidence value of the reasoned triple. In the steps of (a) and (b), only triple related to a reasoning rule to be used of the reasoning rule is selectively broadcasted and partitioned. In the step of (a), a join operation is performed about the schema triple when the schema triple corresponds to a multiple join rule, and new schema triple obtained by the join operation is broadcasted to each of the nodes. The triples other than the schema triple include an instance triple and a type triple. Here, in the step of (b), the instance triple and the type triple is again partitioned by using a hash partitioning when the reasoning rule corresponds to a multiple join rule, and an instance triple and an type triple for reasoning according to a specific multiple join rule are partitioned to the same node. In the step of (b), a RDD set is generated except a property when the reasoning rule corresponds to a transitivity rule, a new reasoning rule is generated through a join operation, an instance triple and a type triple are partitioned based on the generated new reasoning rule by using a hash partitioning and the partitioned triples are distributed to each of the nodes. In the step of (c), confidence values of a triple reasoned w...",
+  "date_published": "20171102",
+  "title": "ONTOLOGY REASONING METHOD AND APPARATUS",
+  "ipcr_labels": [
+    "G06N504",
+    "H04L2906",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 32999,
+    "optimized_size": 3376,
+    "reduction_percent": 89.77
+  }
+}

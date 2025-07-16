@@ -1,0 +1,34 @@
+{
+  "patent_number": "None",
+  "application_number": "15590481",
+  "date_published": "20171026",
+  "date_produced": "20171011",
+  "filing_date": "20170509",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A computer implemented method, computer program product and computer system for crowd detection. The computer system (1000) receives through an interface (1006) a plurality of user generated data records from a social media data storage (SMDS1, SMDS2) component, wherein a user generated data record comprises a text portion. A location extract (1001) extracts location information from a subset of the user generated data records being associated with geographic locations. A time identifier (1002) identifies in the subset time information being associated with the extracted location information. A trained machine learning system (1004) an indicator for crowd formation, wherein the indicator is an output of the machine learning system in response to an input pair of associated location information and time information.",
+  "publication_number": "US20170308812A1-20171026",
+  "summary": "<SOH> SUMMARY <EOH>There is therefore a need for a technical system to detect crowd formation in an earlier stage without a need of specialised technical infrastructure. Ideally, the formation of crowds should be predictable at a point in time which is well ahead of the actual start of crowd formation so that security forces or event organizers would have sufficient time to take all necessary actions for controlling the crowd formation. This technical problem is solved by various embodiments of the invention as described by the independent claims. Embodiments of the invention can be a computer implemented method for crowd detection, a computer program product, which can be loaded into a computer system, and the computer system, which can execute the computer implemented method when running instructions of the computer program product. The computer implemented method starts with receiving on a computer a plurality of user generated data records from a social media data storage component. The user generated data records can be received through an appropriate interface of the computer which is configured to communicate with social media services such as FACEBOOK or TWITTER. A user generated data record can be, for example, a tweet on TWITTER or a post on FACEBOOK. Such user generated data records generally have a text portion, where the users provide some information, which they want to convey to other users of the social network. The text portion may also include fields, which are automatically filled by the respective social media system. There may be huge amounts of data records which could be pre-filtered according to certain aspects of interest. Some user generated data records can be associated with location information. For example, the text portion of such a user generated data record may include a specific street name or the name of a site. There may also be other information included like a name of a rock band or of a soccer team, which is not directly associ...",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04W420",
+    "H04W402",
+    "G06F1727",
+    "G06Q5000"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KAISSER",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR CROWD DETECTION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 81091,
+    "optimized_size": 3397,
+    "reduction_percent": 95.81
+  }
+}

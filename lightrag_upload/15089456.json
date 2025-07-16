@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15089456",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "title": "HARDWARE APPARATUSES AND METHODS FOR MEMORY COMPRESSION AND DECOMPRESSION",
+  "filing_date": "20160401",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yap",
+      "inventor_name_first": "Kirk S.",
+      "inventor_city": "Westborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gopal",
+      "inventor_name_first": "Vinodh",
+      "inventor_city": "Westborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Guilford",
+      "inventor_name_first": "James D.",
+      "inventor_city": "Northborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gulley",
+      "inventor_name_first": "Sean M.",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The present disclosure is illustrated by way of example and not limitation in the figures of the accompanying drawings, in which like references indicate similar elements and in which: FIG. 1 illustrates a hardware memory controller according to embodiments of the disclosure. FIG. 2 illustrates a compression format according to embodiments of the disclosure. FIG. 3 illustrates a compression operation according to embodiments of the disclosure. FIG. 4 illustrates a dictionary according to embodiments of the disclosure. FIG. 5 illustrates a hardware compression engine according to embodiments of the disclosure. FIG. 6 illustrates a hardware compression engine according to embodiments of the disclosure. FIG. 7 illustrates a hardware decompression engine according to embodiments of the disclosure according to embodiments of the disclosure. FIG. 8 illustrates a flow diagram according to embodiments of the disclosure. FIG. 9A is a block diagram illustrating both an exemplary in-order pipeline and an exemplary register renaming, out-of-order issue/execution pipeline according to embodiments of the disclosure. FIG. 9B is a block diagram illustrating both an exemplary embodiment of an in-order architecture core and an exemplary register renaming, out-of-order issue/execution architecture core to be included in a processor according to embodiments of the disclosure. FIG. 10A is a block diagram of a single processor core, along with its connection to the on-die interconnect network and with its local subset of the Level 2(L2) cache, according to embodiments of the disclosure. FIG. 10B is an expanded view of part of the processor core in FIG. 10A according to embodiments of the disclosure. FIG. 11 is a block diagram of a processor that may have more than one core, may have an integrated memory controller, and may have integrated graphics according to embodiments of the disclosure. FIG. 12 is a block diagram of a system in accordance ...",
+  "patent_number": "None",
+  "abstract": "Methods and apparatuses relating to memory compression and decompression are described. In one embodiment, a hardware compression engine is to determine when each section of a plurality of sections of a block of data is a zero value, a full match or a partial match to an entry in a dictionary, or a no match to any entry in the dictionary, encode a tag for each section to indicate the one of the zero value, the full match, the partial match, and the no match, encode a literal when the section is the no match, an index to the entry in the dictionary when the section is the full match, and an index to the entry in the dictionary and non-matching bits when the section is the partial match, and update an entry in the dictionary with a value of a section when the section is the no match.",
+  "publication_number": "US20170285960A1-20171005",
+  "_processing_info": {
+    "original_size": 102247,
+    "optimized_size": 3801,
+    "reduction_percent": 96.28
+  }
+}

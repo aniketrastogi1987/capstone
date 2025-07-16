@@ -1,0 +1,59 @@
+{
+  "decision": "PENDING",
+  "application_number": "15285715",
+  "date_published": "20180405",
+  "date_produced": "20180322",
+  "title": "ENABLING CORRECTIONS DURING UPGRADE PROCEDURE",
+  "filing_date": "20161005",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Specht",
+      "inventor_name_first": "Juergen",
+      "inventor_city": "Gerabronn",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Biewald",
+      "inventor_name_first": "Lars-Eric",
+      "inventor_city": "Mannheim",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Ullrich",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Stutensee",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Hauck",
+      "inventor_name_first": "Ralf-Juergen",
+      "inventor_city": "Heidelberg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Driesen",
+      "inventor_name_first": "Volker",
+      "inventor_city": "Heidelberg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F9445",
+    "G06F944"
+  ],
+  "main_ipcr_label": "G06F9445",
+  "summary": "<SOH> SUMMARY <EOH>Implementations of the present disclosure include computer-implemented methods for corrections to be applied during upgrade procedures. In some implementations, actions include receiving a set of white-listed object types, receiving a set of corrections to be imported, the set of corrections including a set of objects, to which corrections are to be applied during the upgrade procedure, determining a set of object types included in the set of corrections, the set of object types including one or more object types, and selectively permitting one or more transport requests to effect corrections of the set of corrections to be issued during the upgrade procedure based on the set of object types and the set of white-listed object types. Other implementations of this aspect include corresponding systems, apparatus, and computer programs, configured to perform the actions of the methods, encoded on computer storage devices. These and other implementations can each optionally include one or more of the following features: selectively permitting one or more transport requests includes determining that a correction in a set of corrections includes an object having an object type that is included in the set of white-listed object types, and in response, permitting a transport request to effect the correction; selectively permitting one or more transport requests to effect corrections of the set of corrections is performed in response to determining that a soft repository lock is active; the soft repository lock is active in response to user input indicating that the soft repository lock is to be used during the upgrade procedure; a correction in the set of corrections includes only objects having object types in a set of white-listed object types; only objects having object types in the set of white-listed object types are permitted to be added to the correction; and a transport request is permitted and affects at least one correction is a shadow repository...",
+  "patent_number": "None",
+  "abstract": "Methods, systems, and computer-readable storage media for applying corrections during an upgrade procedure of a software management system include actions of receiving a set of white-listed object types, receiving a set of corrections to be imported, the set of corrections including a set of objects, to which corrections are to be applied during the upgrade procedure, determining a set of object types included in the set of corrections, the set of object types including one or more object types, and selectively permitting one or more transport requests to effect corrections of the set of corrections to be issued during the upgrade procedure based on the set of object types and the set of white-listed object types.",
+  "publication_number": "US20180095743A1-20180405",
+  "_processing_info": {
+    "original_size": 70028,
+    "optimized_size": 3861,
+    "reduction_percent": 94.49
+  }
+}

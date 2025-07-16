@@ -1,0 +1,67 @@
+{
+  "date_produced": "20170719",
+  "publication_number": "US20170220933A1-20170803",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15009603",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gonguet",
+      "inventor_name_first": "Vincent",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hofleitner",
+      "inventor_name_first": "Aude",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Macskassy",
+      "inventor_name_first": "Sofus Attila",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jarrett",
+      "inventor_name_first": "Steven James",
+      "inventor_city": "Alameda",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bharathi",
+      "inventor_name_first": "Aruna",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ma",
+      "inventor_name_first": "Zhiliang",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and non-transitory computer-readable media can collect past user information and churn data for a plurality of users. A churn prediction model is trained using the past user information and churn data. A churn propensity score is calculated for a present user based on the churn prediction model, the churn propensity score indicative of the likelihood of the present user to churn.",
+  "filing_date": "20160128",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure can include systems, methods, and non-transitory computer readable media configured to collect past user information and churn data for a plurality of users. A churn prediction model is trained using the past user information and churn data. A churn propensity score is calculated for a present user based on the churn prediction model, the churn propensity score indicative of the likelihood of the present user to churn. In an embodiment, the past user information comprises a plurality of user-connection entity affiliations, each user-connection entity affiliation indicative of an affiliation between a user and a connection entity. In an embodiment, the past user information and churn data are filtered based on filtering criteria. The training the churn prediction model with the past user information and churn data comprises training the churn prediction model with past user information and churn data that satisfy the filtering criteria. In an embodiment, the filtering criteria comprises a user-specific usage time threshold. In an embodiment, the usage-specific usage time threshold removes any user-connection entity affiliations that account for less than a percentage threshold of a total usage time for a particular user. In an embodiment, the percentage threshold is 10%. In an embodiment, the filtering criteria further comprises a population-specific usage time threshold. In an embodiment, churn propensity scores are calculated for a plurality of present users, and the plurality of present users are ranked based on the churn propensity scores. In an embodiment, a subset of the plurality of present users is contacted based on the churn propensity scores. In an embodiment, a subset of the plurality of present users is contacted based on a churn propensity score threshold. It should be appreciated that many other features, applications, embodiments, and/or variations of the disclosed technology will be app...",
+  "date_published": "20170803",
+  "title": "SYSTEMS AND METHODS FOR CHURN PREDICTION",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 87747,
+    "optimized_size": 3707,
+    "reduction_percent": 95.78
+  }
+}

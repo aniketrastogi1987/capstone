@@ -1,0 +1,54 @@
+{
+  "decision": "PENDING",
+  "application_number": "15001130",
+  "date_published": "20170720",
+  "date_produced": "20170705",
+  "title": "Systems and Methods for Associating an Image with a Business Venue by using Visually-Relevant and Business-Aware Semantics",
+  "filing_date": "20160119",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "BOR-CHUN",
+      "inventor_city": "Hyattsville",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "YIN-YING",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "FRANCINE R.",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "JOSHI",
+      "inventor_name_first": "DHIRAJ",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K900",
+    "G06Q3002",
+    "G06Q5000",
+    "G06T700"
+  ],
+  "main_ipcr_label": "G06K900",
+  "summary": "<SOH> SUMMARY <EOH>Various implementations of systems, methods, and devices within the scope of the appended claims each have several aspects, no single one of which is solely responsible for the attributes described herein. Without limiting the scope of the appended claims, after considering this disclosure, and particularly after considering the section entitled “Description of Implementations” one will understand how the aspects of various implementations are used to enable computing devices to associate an image with a business venue (e.g., a business venue at which the image was taken) by using visually-relevant and business-aware semantics. Disclosed implementations provide methods for accurately associating images with business venues (even in the face of sparse data availability for the business venue, such as no images available that are associated with the business venue). In general, the disclosed implementations efficiently utilize both text-based reviews (e.g., Yelp reviews) and stored images (e.g., images from Instagram, Yelp, and other similar social media services, that are already associated with a business venue) to create a framework that accurately associates images with business venues at which the images were taken. For example, the framework includes mining semantic concepts (also referred to herein as business-aware concepts) from textual reviews of business venues. The semantic concepts are carefully selected to include business-aware, visually detectable, and discriminative terms that can be used for business venue recognition purposes. The framework also includes (i) training visual detectors to identify the semantic concepts in query images (e.g., images that are not yet associated with business venues) and (ii) using word representation models (example word representation models are discussed below in reference to FIG. 4A ) to convert a respective semantic concept to a word representation (also referred to herein as a “word vector” or a ...",
+  "patent_number": "None",
+  "abstract": "Systems and methods disclosed herein associate images with business venues. An example method includes: receiving a first image and retrieving textual reviews and stored images that are associated with one or more candidate business venues. The method further includes: detecting, using trained visual detectors, a plurality of business-aware concepts in the first image and assessing likelihood that detected business-aware concepts are in the first image. The method additionally includes: (i) generating a first representation of the first image based on the likelihoods and one or more term vectors for high-scoring concepts and (ii) receiving second representations of each candidate based on the retrieved textual reviews and stored images. In accordance with determining that the first representation is most similar to a respective second representation of a first candidate, the method includes: (i) associating the first image with the first candidate and (ii) providing an indication of th...",
+  "publication_number": "US20170206416A1-20170720",
+  "_processing_info": {
+    "original_size": 119903,
+    "optimized_size": 4113,
+    "reduction_percent": 96.57
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15415810",
+  "date_published": "20170921",
+  "date_produced": "20170906",
+  "filing_date": "20170125",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A bit-depth optimization engine reduces the hardware cost of a neural network. When training data is applied to a neural network during training routines, accuracy cost and hardware costs are generated. A hardware complexity cost generator generates costs for weights near bit-depth steps where the number of binary bits required to represent a weight decreases, such as from 2N to 2N−1, where one less binary bit is required. Gradients are generated from costs for each weight, and weights near bit-depth steps are easily selected since they have a large gradient, while weights far away from a bit-depth step have near-zero gradients. The selected weights are reduced during optimization. Over many cycles of optimization, a low-bit-depth neural network is generated that uses fewer binary bits per weight, resulting in lower hardware costs when the low-bit-depth neural network is manufactured on an Application-Specific Integrated Circuit (ASIC).",
+  "publication_number": "US20170270408A1-20170921",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 illustrates a prior art neural network. FIG. 2 shows a neural network used for facial recognition. FIG. 3 shows a neural network implementing an image recognition processor. FIG. 4 shows a neural network optimizer. FIG. 5 is a graph highlighting quantized bit-depth weight costs. FIGS. 6A-B highlight selection of weights for reduction during training using a quantized weight cost curve. FIGS. 7A-C show distribution of weight values using the bit-depth optimization engine. FIG. 8 is a more detailed block diagram of a bit-depth optimization engine. FIG. 9 is a graph showing reduction in weight hardware costs using the bit-depth optimization engine. FIG. 10 shows a design and manufacturing process that creates integrated circuits that have neural networks that have bit-widths of weights optimized. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SHI",
+      "inventor_name_first": "Chao",
+      "inventor_city": "Hong Kong",
+      "inventor_state": "",
+      "inventor_country": "HK"
+    },
+    {
+      "inventor_name_last": "LIANG",
+      "inventor_name_first": "Luhong",
+      "inventor_city": "Hong Kong",
+      "inventor_state": "",
+      "inventor_country": "HK"
+    },
+    {
+      "inventor_name_last": "HUNG",
+      "inventor_name_first": "Kwok Wai",
+      "inventor_city": "Hong Kong",
+      "inventor_state": "",
+      "inventor_country": "HK"
+    },
+    {
+      "inventor_name_last": "CHIU",
+      "inventor_name_first": "King Hung",
+      "inventor_city": "Hong Kong",
+      "inventor_state": "",
+      "inventor_country": "HK"
+    }
+  ],
+  "title": "Method and System for Bit-Depth Reduction in Artificial Neural Networks",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 62901,
+    "optimized_size": 2879,
+    "reduction_percent": 95.42
+  }
+}

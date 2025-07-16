@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170309",
+  "publication_number": "US20170083812A1-20170323",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15126227",
+  "inventor_list": [
+    {
+      "inventor_name_last": "GILLESPIE",
+      "inventor_name_first": "Clayton",
+      "inventor_city": "Vienna",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Within satisfaction problems or any decision or other problem which is reducible to a satisfaction problem, the invention tracks the paths along which implications propagate and identifies conditional contradictions and subsequently moves the contradictions back down the implicational paths toward assumptions or other unreasoned assertions in order to expel the contradictions. The action is completed in less time than is incurred by existing methods and thus provides a performance improvement to the devices, software, or processes which address such problems. Such problems are addressed by devices, software, and processes related to many technical fields, including: ore refining; pipeline routing; yarn manufacture; fabric cutting; sawyering; mechanical component design; structural design of data processing systems; design and analysis of circuits or semiconductor masks; inspection and guarding of containers, pipes, and galleries; sensor array operations; orbital satellite operations; d...",
+  "filing_date": "20160914",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention address problems associated with automated solution of NP, NP-complete, and NP-hard problems in polynomial time without the need for tuning. Embodiments of the present invention may be implemented using any of a variety of techniques, such as computer-implemented methods and/or systems. Any reference herein to embodiments of the present invention which are implemented using a “method” or “methods” should be understood to include embodiments implemented using methods and/or systems. Similarly, any reference herein to embodiments of the present invention which are implemented using a “system” or “systems” should be understood to include embodiments implemented using methods and/or systems. Embodiments of the present invention provide a method for solving NP, NP-complete, or NP-hard problems in polynomial time without the need for tuning. Certain embodiments of the present invention include a method which includes converting a given problem definition into an expression composed of one or more constraints; selecting assumed value predicates for the variables of the expression; propagating the implications of the assumptions; identifying any contradictions caused by the implications of the assumptions; determining, for each identified contradiction, whether that contradiction can be moved towards a corresponding location where it will resolve as an implication; for each contradiction which can be so moved, moving that contradiction towards its corresponding location; and, for any contradiction which cannot be so moved, reporting that the expression is unsatisfiable. Embodiments of the present invention provide a method for improving the time requirement of solving of a logical or numerical problem by resolving conditional contradictions arising during the solving of the problem, without the need for tuning. The problem is formed of constraints, each of which includes one or more variables. Solving the problem inclu...",
+  "date_published": "20170323",
+  "title": "SOLVING NP-COMPLETE PROBLEMS WITHOUT HYPER POLYNOMIAL COST",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1717"
+  ],
+  "_processing_info": {
+    "original_size": 216364,
+    "optimized_size": 3603,
+    "reduction_percent": 98.33
+  }
+}

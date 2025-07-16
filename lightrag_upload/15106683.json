@@ -1,0 +1,37 @@
+{
+  "date_produced": "20161220",
+  "publication_number": "US20170004400A1-20170105",
+  "main_ipcr_label": "G06N312",
+  "decision": "PENDING",
+  "application_number": "15106683",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Frericks",
+      "inventor_name_first": "Jeffrey",
+      "inventor_city": "Anaheim Hills",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kelley",
+      "inventor_name_first": "Clifford W.",
+      "inventor_city": "Rancho Palos Verdes",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A coherent process for the acquiring and tracking of time varying signals includes receiving a time varying signal, sampling the received time varying signal, processing received data samples of the time varying signal using a global optimization method and processing received data samples of the time varying signal using a local optimization method.",
+  "filing_date": "20160620",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method and apparatus wherein concatenated Genetic (Global) and Local Optimization algorithms are used as a process for acquiring and/or tracking time varying signals. The inventive technique includes a unique formulation for processing spread spectrum signals that consists of using an enhanced genetic algorithm especially formulated to generate multi-dimensional reference vectors for signal correlation processing and signal tracking. The technique consists of reading in samples of down converted data from a signal source, optionally reading in a current set of data bits from a local network and using a genetic algorithm which creates and uses multi-dimensional state vectors to correlate with the incoming signal. The genetic process consists of forming an initial multi-dimensional state vector population; performing a unique non-binary reproduction operation and mutation process on the vector population to generate successive vector state populations; performing local optimization on the vector population each generation cycle to optimize on selected state variables; and providing a process for removing cycle slips for tracking operations after the genetic algorithm has completed. In various embodiments, the present disclosure relates generally to signal processing and more particularly to a system and method for acquiring and/or tracking time varying signals such as spread spectrum signals that use multiple access and signal spreading techniques. Common spread spectrum techniques include code division multiple access (“CDMA”), frequency division multiple access (“FDMA”) or frequency hop (“FH”), time division multiple access (“TDMA”) and combinations of these methods. The disclosure also relates to processing and tracking of other time varying signals such as biological signals. An example of such would be the determining and tracking of pulse rate data. Acquisition and tracking of spread spectrum signals require the correlation of the received c...",
+  "date_published": "20170105",
+  "title": "A GENETIC METHOD FOR THE ACQUISITION AND TRACKING OF TIME VARYING SIGNALS",
+  "ipcr_labels": [
+    "G06N312"
+  ],
+  "_processing_info": {
+    "original_size": 77667,
+    "optimized_size": 3123,
+    "reduction_percent": 95.98
+  }
+}

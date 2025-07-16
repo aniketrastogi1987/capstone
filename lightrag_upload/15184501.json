@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15184501",
+  "date_published": "20161229",
+  "date_produced": "20161214",
+  "title": "SYSTEMS AND METHODS FOR MODELING COMPUTER RESOURCE METRICS",
+  "filing_date": "20160616",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Trubin",
+      "inventor_name_first": "Igor",
+      "inventor_city": "Glen Allen",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Schutt",
+      "inventor_name_first": "Mark",
+      "inventor_city": "Chesterfield",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Robinson",
+      "inventor_name_first": "Jeffery",
+      "inventor_city": "Richmond",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q1006",
+    "G06F1750"
+  ],
+  "main_ipcr_label": "G06Q1006",
+  "summary": "<SOH> SUMMARY <EOH>In one embodiment, a processor-implemented computer resource metric modeling method is disclosed. According to the method, business transaction data related to one or more business transaction types may be aggregated. One or more statistical trends may be detected in the business transaction data for each business transaction type. For each business transaction type, one or more devices facilitating the business transaction type may be mapped, and device utilization data for the one or more devices may be aggregated. Further, one or more statistical trends may be detected in the device utilization data. Also, one or more linear regression models of a relationship between device utilization and business transaction volume may be generated. The method may continue by calculating one or more diagnostic statistics for the one or more linear regression models, and filtering out a subset of the linear regression models based on the one or more diagnostic statistics. One or more forecasts may be generated using the remaining linear regression models. Also, a report may be generated and provided based on the one or more forecasts. In another embodiment, a system is disclosed comprising one or more hardware processors, and one or more memory units storing instructions executable by the one or hardware processors to perform acts comprising a computer resource metric modeling method. According to the method, business transaction data related to one or more business transaction types may be aggregated. One or more statistical trends may be detected in the business transaction data for each business transaction type. For each business transaction type, one or more devices facilitating the business transaction type may be mapped, and device utilization data for the one or more devices may be aggregated. Further, one or more statistical trends may be detected in the device utilization data. Also, one or more linear regression models of a relationship between dev...",
+  "patent_number": "None",
+  "abstract": "This disclosure relates generally to system modeling, and more particularly to systems and methods for modeling computer resource metrics. In one embodiment, a processor-implemented computer resource metric modeling method is disclosed. The method may include detecting one or more statistical trends in aggregated interaction data for one or more interaction types, and mapping each interaction type to one or more devices facilitating the transactions. The method may further include generating one or more linear regression models of a relationship between device utilization and interaction volume, and calculating one or more diagnostic statistics for the one or more linear regression models. A subset of the linear regression models may be filtered out based on the one or more diagnostic statistics. One or more forecasts may be generated using the remaining linear regression models, using which a report may be generated and provided.",
+  "publication_number": "US20160379143A1-20161229",
+  "_processing_info": {
+    "original_size": 57329,
+    "optimized_size": 3801,
+    "reduction_percent": 93.37
+  }
+}

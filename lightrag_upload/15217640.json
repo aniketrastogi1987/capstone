@@ -1,0 +1,52 @@
+{
+  "date_produced": "20161130",
+  "publication_number": "US20160364647A1-20161215",
+  "main_ipcr_label": "G06N504",
+  "decision": "ACCEPTED",
+  "application_number": "15217640",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Achin",
+      "inventor_name_first": "Jeremy",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DeGodoy",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Melrose",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Owen",
+      "inventor_name_first": "Timothy",
+      "inventor_city": "Watertown",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Conort",
+      "inventor_name_first": "Xavier",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    }
+  ],
+  "abstract": "Systems and techniques for predictive data analytics are described. In a method for selecting a predictive model for a prediction problem, the suitabilities of predictive modeling procedures for the prediction problem may be determined based on characteristics of the prediction problem and/or on attributes of the respective modeling procedures. A subset of the predictive modeling procedures may be selected based on the determined suitabilities of the selected modeling procedures for the prediction problem. A resource allocation schedule allocating computational resources for execution of the selected modeling procedures may be generated, based on the determined suitabilities of the selected modeling procedures for the prediction problem. Results of the execution of the selected modeling procedures in accordance with the resource allocation schedule may be obtained. A predictive model for the prediction problem may be selected based on those results.",
+  "filing_date": "20160722",
+  "patent_number": "9659254",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Motivation for Some Embodiments of the Invention Data analysts can use analytic techniques and computational infrastructures to build predictive models from electronic data, including operations and evaluation data. Data analysts generally use one of two approaches to build predictive models. With the first approach, an organization dealing with a prediction problem simply uses a packaged predictive modeling solution already developed for the same prediction problem or a similar prediction problem. This “cookie cutter” approach, though inexpensive, is generally viable only for a small number of prediction problems (e.g., fraud detection, churn management, marketing response, etc.) that are common to a relatively large number of organizations. With the second approach, a team of data analysts builds a customized predictive modeling solution for a prediction problem. This “artisanal” approach is generally expensive and time-consuming, and therefore tends to be used for a small number of high-value prediction problems. The space of potential predictive modeling solutions for a prediction problem is generally large and complex. Statistical learning techniques are influenced by many academic traditions (e.g., mathematics, statistics, physics, engineering, economics, sociology, biology, medicine, artificial intelligence, data mining, etc.) and by applications in many areas of commerce (e.g., finance, insurance, retail, manufacturing, healthcare, etc.). Consequently, there are many different predictive modeling algorithms, which may have many variants and/or tuning parameters, as well as different pre-processing and post-processing steps with their own variants and/or parameters. The volume of potential predictive modeling solutions (e.g., combinations of pre-processing steps, modeling algorithms, and post-processing steps) is already quite large and is increasing rapidly as researchers develop new techniques. Given this vast space of pr...",
+  "date_published": "20161215",
+  "title": "SYSTEMS AND TECHNIQUES FOR PREDICTIVE DATA ANALYTICS",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 223170,
+    "optimized_size": 3973,
+    "reduction_percent": 98.22
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "inventor_list": [
+    {
+      "inventor_name_last": "BENOSMAN",
+      "inventor_name_first": "Ryad",
+      "inventor_city": "Pantin",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "LAGORCE",
+      "inventor_name_first": "Xavier",
+      "inventor_city": "Creteil",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "filing_date": "20180110",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1713"
+  ],
+  "main_ipcr_label": "G06N304",
+  "date_published": "20181213",
+  "date_produced": "20181128",
+  "publication_number": "US20180357527A1-20181213",
+  "title": "DATA-PROCESSING DEVICE WITH REPRESENTATION OF VALUES BY TIME INTERVALS BETWEEN EVENTS",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>An object of the present disclosure is to propose a novel approach for the representation of the data and the execution of calculations. It is desirable for this approach to be suitable for an implementation having reduced energy consumption and massive parallelism. A data processing device is proposed, comprising a set of processing nodes and connections between the nodes. Each connection has an emitter node and a receiver node out of the set of processing nodes and is configured to transmit, to the receiver node, events delivered by the emitter node. Each node is arranged to vary a respective potential value according to events that it receives and to deliver an event when the potential value reaches a predefined threshold. At least one input value of the data processing device is represented by a time interval between two events received by at least one node, and at least one output value of the data processing device is represented by a time interval between two events delivered by at least one node. The processing nodes form neuron-type calculation units. However, it is not especially desired here to imitate the operation of the brain. The term “neuron” is used in the present disclosure for linguistic convenience but does not necessarily mean strong resemblance to the operating mode of the neurons of the cortex. By using a specific temporal organisation of the events in the processing device, as well as various properties of the connections (synapses), an overall calculation framework, suitable for calculating the elementary mathematical functions, can be obtained. All the existing mathematical operators can then be implemented, whether linear or not, without necessarily having to use a Von Neumann architecture. From that point on, it is possible for the device to function like a conventional computer, but without requiring incessant back-and-forth trips to the memory and without being based on floating point precision. It is the tempor...",
+  "application_number": "15743642",
+  "abstract": "The device for processing data comprises a set of processing nodes and connections between the nodes. Each connection is configured to transmit, to a receiver node, events delivered by an emitter node. Each node is arranged to vary a respective potential value according to events that it receives and to deliver an event when the potential value reaches a predefined threshold. At least one input value of the data processing device is represented by a time interval between two events received by at least one node, and at least one output value of the data processing device is represented by a time interval between two events delivered by at least one node.",
+  "decision": "PENDING",
+  "patent_number": "nan",
+  "_processing_info": {
+    "original_size": 178396,
+    "optimized_size": 3396,
+    "reduction_percent": 98.1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15265453",
+  "date_published": "20170316",
+  "date_produced": "20170301",
+  "title": "PLANNING FOR MANUFACTURING ENVIRONMENTS",
+  "filing_date": "20160914",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NORMAN",
+      "inventor_name_first": "David Everton",
+      "inventor_city": "Bountiful",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G05B19042",
+    "G06F948",
+    "G05B2302"
+  ],
+  "main_ipcr_label": "G05B19042",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments disclosed herein include methods, systems, and computer program products for planning a semiconductor manufacturing environment, using block-based workflows. In one embodiment, a method for executing a block-based (BB) workflow to perform a planning process that generates a plan for the semiconductor manufacturing environment is disclosed. The method includes receiving at least one BB workflow that includes a plurality of blocks. The plurality of blocks specify a set of operations for performing the planning process for the semiconductor manufacturing environment. The method also includes accessing a plurality of block definitions corresponding to the plurality of blocks, and executing the at least one BB workflow by performing the set of operations based on the plurality of block definitions. Executing the at least one BB workflow includes retrieving planning data that describes an operating state of the semiconductor manufacturing environment and a set of demands for semiconductor devices to be produced from the semiconductor manufacturing environment, converting the planning data from a first schema used by the semiconductor manufacturing environment to a second schema, generating, based on the converted data, a plan for the semiconductor manufacturing environment, and publishing the plan to at least one of the spreadsheet application or a storage system in the semiconductor manufacturing environment. The generated plan can determine whether the semiconductor manufacturing environment has capacity to satisfy the set of demands, determine at least one change that should be made to the semiconductor manufacturing environment in order to satisfy the set of demands, or run one or more experiments to determine operations within the semiconductor manufacturing environment. Another embodiment provides a non-transitory computer-readable medium containing computer program code that, when executed, performs an operation for executing a BB wor...",
+  "patent_number": "None",
+  "abstract": "Embodiments presented herein provide techniques for executing a block-based workflow to perform a planning process for a semiconductor manufacturing environment. The block-based workflow includes a plurality of blocks that specify a set of operations for performing the planning process. One embodiment includes extracting planning data from a spreadsheet application, converting the data from a first schema to a second schema, generating a plan for the semiconductor manufacturing environment, and publishing the plan to the spreadsheet application, based on the plurality of blocks in the block-based workflow.",
+  "publication_number": "US20170075333A1-20170316",
+  "_processing_info": {
+    "original_size": 90967,
+    "optimized_size": 3175,
+    "reduction_percent": 96.51
+  }
+}

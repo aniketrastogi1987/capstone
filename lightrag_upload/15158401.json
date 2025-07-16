@@ -1,0 +1,40 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15158401",
+  "date_published": "20171123",
+  "date_produced": "20171108",
+  "title": "SELF-CONTAINED CRYPTOGRAPHIC BOOT POLICY VALIDATION",
+  "filing_date": "20160518",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Domke",
+      "inventor_name_first": "Felix",
+      "inventor_city": "Hamburg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Ling Tony",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2157",
+    "G06F944",
+    "H04L908",
+    "H04L932"
+  ],
+  "main_ipcr_label": "G06F2157",
+  "summary": "<SOH> SUMMARY <EOH>Described herein are techniques and systems for implementing a self-contained cryptographic boot policy validation on an electronic device. The techniques and systems described herein are “self-contained” in the sense that they do not rely on an external entity or external information to protect on-device secrets while supporting secure software upgrades on the electronic device. A device-local key derivation scheme can be utilized to allow current software running on the electronic device to create and keep on-device secrets instead of relying on an external source to create and maintain a private key used for signing authorized software. This device-local key derivation scheme generates, during an initial (first) boot session for the electronic device, a device-local private key (referred to herein as a “sealing key”). This sealing key is derived in part from a random seed generated using a random number generator of the electronic device and in part from an internal secret (i.e., internal to the electronic device) that is unique to the electronic device. After the sealing key is generated, access to the internal secret is disabled for a remainder of the first boot session and until a second boot session is initiated. In other words, access to the internal secret is made unavailable after the sealing key is generated and until the electronic device resets or reboots. Code measurements of the current software running on the electronic device can also be calculated during the initial (first) boot. The code measurements can comprise a list of hashes of boot stages for the first boot session. At runtime of the electronic device, data (e.g., user data) can be encrypted using the sealing key, and the encrypted data can be stored in non-volatile memory of the electronic device. For example, a randomized application-specific key used for hard drive encryption can be generated, and the sealing key can be used to encrypt (or wrap) the randomized applicati...",
+  "patent_number": "9916452",
+  "abstract": "A device-local key derivation scheme generates, during a first boot session for an electronic device, a sealing key that is derived at least in part from a device-generated random seed and an internal secret that is unique to the electronic device. After generating the sealing key, access to the internal secret is disabled for a remainder of the first boot session and until a second boot session is initiated. At runtime, the sealing key is used to sign a module manifest that describes the software that is authorized to access the sealing key, and the module manifest containing the sealing key is persisted in non-volatile memory of the electronic device. The module manifest can be used to validate software during a subsequent boot session and to authorize software updates on the electronic device without relying on an external entity or external information to protect on-device secrets.",
+  "publication_number": "US20170337380A1-20171123",
+  "_processing_info": {
+    "original_size": 126609,
+    "optimized_size": 3638,
+    "reduction_percent": 97.13
+  }
+}

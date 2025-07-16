@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15195740",
+  "date_published": "20170330",
+  "date_produced": "20170316",
+  "title": "MULTI-LEVEL SECURITY ENFORCEMENT UTILIZING DATA TYPING",
+  "filing_date": "20160628",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Dayka",
+      "inventor_name_first": "John C.",
+      "inventor_city": "New Paltz",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Osborne",
+      "inventor_name_first": "Michael Charles",
+      "inventor_city": "RUESCHLIKON",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Visegrady",
+      "inventor_name_first": "Tamas",
+      "inventor_city": "RUESCHLIKON",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F2160"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>Shortcomings of the prior art are overcome and additional advantages are provided through the provision of a computer-implemented method of enforcing multi-level security (MLS) on a message transmitted over a network that may be insecure. The method includes, for instance: obtaining, by a processor, a request from a source to send a message to a target, the request comprising the message and a context indicating a requested security level for the message; encrypting, by the processor, the message based on ascertaining the message received in the request is a plaintext; authenticating the encrypted message based on ascertaining the encrypted message is a ciphertext, wherein the target is enabled to trace the authenticated ciphertext back to the source; and transmitting, by the processor, the authenticated encrypted message to the target across the network. Computer program products and/or computer systems relating to one or more aspects are also described and claimed herein. Further, services relating to one or more aspects are also described and may be claimed herein. Additional features and advantages are realized through the techniques described herein. Other embodiments and aspects are described in detail herein and are considered a part of the claimed aspects.",
+  "patent_number": "None",
+  "abstract": "A computer-implemented method, a computer system, and a computer program product are provided for enforcing multi-level security (MLS) on a message transmitted over a network that may be insecure. The method includes the processor obtaining a request from a source to send a message to a target, where the request includes the message and a context indicating a requested security level for the message. The processor encrypts the message based on ascertaining the message received in the request is a plaintext. The processor authenticates the encrypted message based on ascertaining the encrypted message is a ciphertext, where the target is enabled to trace the authenticated ciphertext back to the source. The processor transmits the authenticated encrypted message to the target across the network.",
+  "publication_number": "US20170093818A1-20170330",
+  "_processing_info": {
+    "original_size": 76646,
+    "optimized_size": 2966,
+    "reduction_percent": 96.13
+  }
+}

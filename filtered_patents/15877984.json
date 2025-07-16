@@ -1,0 +1,44 @@
+{
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shaoib",
+      "inventor_name_first": "Mohammed",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Jie",
+      "inventor_city": "Medina",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Venkataramani",
+      "inventor_name_first": "Swagath",
+      "inventor_city": "West Lafayette",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    }
+  ],
+  "filing_date": "20180123",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "main_ipcr_label": "G06N9900",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "publication_number": "US20180150770A1-20180531",
+  "title": "SCALABLE-EFFORT CLASSIFIERS FOR ENERGY-EFFICIENT MACHINE LEARNING",
+  "summary": "<SOH> SUMMARY <EOH>This disclosure describes, in part, techniques and architectures for a scalable-effort (SE) machine learning system, which can automatically and dynamically adjust the amount of effort applied to input data based on the complexity of the data. For example, an amount of effort generally corresponds to an amount of computing time, energy, or resources such as area (e.g., footprint) or volume of hardware. Thus, a one-size-fits-all approach to applying a single classifier algorithm to both simple and complex data is avoided. SE machine learning involves cascaded classifiers and biased classifiers. Cascaded classifiers may be arranged as a series of multiple classifier stages having increasing complexity (and accuracy). For example, a first classifier stage involves the simplest machine learning models and is able to classify input data that is relatively simple. Subsequent classifier stages have increasingly complex machine learning models and are able to classify more complex input data. This approach provides a number of benefits, including faster computations and energy savings, as compared to fixed-effort machine learning. This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. The term “techniques,” for instance, may refer to system(s), method(s), computer-readable instructions, module(s), algorithms, hardware logic (e.g., Field-programmable Gate Arrays (FPGAs), Application-specific Integrated Circuits (ASICs), Application-specific Standard Products (ASSPs), System-on- a -chip systems (SOCs), Complex Programmable Logic Devices (CPLDs)), and/or other technique(s) as permitted by the context above and throughout the document.",
+  "application_number": "15877984",
+  "abstract": "Scalable-effort machine learning may automatically and dynamically adjust the amount of computational effort applied to input data based on the complexity of the input data. This is in contrast to fixed-effort machine learning, which uses a one-size-fits-all approach to applying a single classifier algorithm to both simple data and complex data. Scalable-effort machine learning involves, among other things, classifiers that may be arranged as a series of multiple classifier stages having increasing complexity (and accuracy). A first classifier stage may involve relatively simple machine learning models able to classify data that is relatively simple. Subsequent classifier stages have increasingly complex machine learning models and are able to classify more complex data. Scalable-effort machine learning includes algorithms that can differentiate among data based on complexity of the data.",
+  "decision": "PENDING",
+  "patent_number": "nan",
+  "_processing_info": {
+    "original_size": 83637,
+    "optimized_size": 3715,
+    "reduction_percent": 95.56
+  }
+}

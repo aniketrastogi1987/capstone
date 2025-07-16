@@ -1,0 +1,46 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15274184",
+  "date_published": "20170330",
+  "date_produced": "20170316",
+  "title": "Fabric Latency Determination",
+  "filing_date": "20160923",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Thirumoorthy",
+      "inventor_name_first": "Gokila",
+      "inventor_city": "Milpitas",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gnanasekaran",
+      "inventor_name_first": "Sathish Kumar",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ghanta",
+      "inventor_name_first": "Kumar",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L1226",
+    "H04L2908",
+    "G06F1340"
+  ],
+  "main_ipcr_label": "H04L1226",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSURE <EOH>The following presents a simplified summary of the disclosed subject matter in order to provide a basic understanding of some aspects of the subject matter disclosed herein. This summary is not an exhaustive overview of the technology disclosed herein. It is not intended to identify key or critical elements of the invention or to delineate the scope of the invention. Its sole purpose is to present some concepts in a simplified form as a prelude to the more detailed description that is discussed later. According to the embodiments of the present disclosure, an analytics and diagnostic node monitors one or more flows within one or more fabric networks in real-time by receiving mirror command frames (e.g., read command frames) from one or more monitored switches. For each monitored flow, the analytics and diagnostic node monitors one or more network ports and/or links to determine times corresponding to one or more command frames and one or more latency metrics (e.g., fabric latency). The analytics and diagnostic node also determines the number of data frames (e.g., non-command frames) transported over the network ports and/or the links for each monitored flow over a specified time period. Afterwards, the analytics and diagnostic node uses the number of transmitted data frames and the latency metrics to determine an average data rate for each monitored flow. By determining the average data rate, a cumulative data rate for all of the monitored flows can be calculated over a time period. If the cumulative data rate exceeds a designated threshold level, such as the line rate of the corresponding link, the analytics and diagnostic node indicates (e.g., generate a flag) an oversubscription occurrence. In one embodiment, the analytics and diagnostic node is configured to compute a variety of latency metrics that include initiator exchange completion time, target exchange completion time, an initiator first response latency time, and the t...",
+  "patent_number": "9998346",
+  "abstract": "An analytics and diagnostic node according to the present disclosure monitors oversubscription and determines flow metrics by receiving mirror command frames from one or more switching nodes. The mirror command frames could correspond to a multiple flows traversing over a connection within a network. The analytics and diagnostic node collects at least one latency metric for each of the flows using timestamps found within the mirror command frames. Based on the latency metrics and timestamps, the analytic diagnostic node determines an average data rate for each of the flows. The analytics and diagnostic node also computes the cumulative data rates corresponding to different bucket intervals based on the average data rates. To detect oversubscription, the analytics and diagnostic node compares the cumulative data rates with one or more oversubscription rules.",
+  "publication_number": "US20170093667A1-20170330",
+  "_processing_info": {
+    "original_size": 106325,
+    "optimized_size": 3726,
+    "reduction_percent": 96.5
+  }
+}

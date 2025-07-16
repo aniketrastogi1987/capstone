@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060730A1-20180301",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15249872",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kurata",
+      "inventor_name_first": "Gakuto",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Methods and systems for language processing includes initializing a word embedding matrix based on pre-determined word classes, such that matrix entries associated with a class of which a word is a member are initialized to a non-zero value and other entries are initialized to zero. A neural network is trained based on the initialized word embedding matrix to generate a neural network language model. A language processing task is performed using the neural network language model.",
+  "filing_date": "20160829",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method for language processing includes initializing a word embedding matrix based on pre-determined word classes, such that matrix entries associated with a class of which a word is a member are initialized to a non-zero value and other entries are initialized to zero. A neural network is trained based on the initialized word embedding matrix to generate a neural network language model. A language processing task is performed using the neural network language model. These and other features and advantages will become apparent from the following detailed description of illustrative embodiments thereof, which is to be read in connection with the accompanying drawings. A method for language processing includes determining a first set of classes using a first classification method to use as predetermined word classes. A word embedding matrix is initialized based on the pre-determined word classes, such that matrix entries associated with a class of which a word is a member are initialized to a non-zero value, such that matrix entries associated with word classes of which the word is not a member are initialized to zero, and such that matrix entries not associated with a word class are randomly initialized. A dimensionality of the word embedding matrix is reduced if the dimensionality is greater than a maximum size of a neural network. The neural network is trained based on the initialized word embedding matrix to generate a neural network language model. A language processing task is performed using the neural network language model. A system for language processing includes an initializing module configured to initialize a word embedding matrix based on pre-determined word classes, such that matrix entries associated with a class of which a word is a member are initialized to a non-zero value and other entries are initialized to zero. A training module is configured to train a neural network based on the initialized word embedding matrix to genera...",
+  "date_published": "20180301",
+  "title": "LEVERAGING CLASS INFORMATION TO INITIALIZE A NEURAL NETWORK LANGAUGE MODEL",
+  "ipcr_labels": [
+    "G06N308",
+    "G10L1516"
+  ],
+  "_processing_info": {
+    "original_size": 45350,
+    "optimized_size": 3053,
+    "reduction_percent": 93.27
+  }
+}

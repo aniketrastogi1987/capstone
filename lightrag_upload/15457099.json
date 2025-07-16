@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15457099",
+  "date_published": "20180111",
+  "date_produced": "20171227",
+  "filing_date": "20170313",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Methods, systems and apparatus for assessing the likely status of an operator of a computing device interacting with a server as a human operator or an autonomic computer application, such as a “bot” are described herein. By monitoring at least some data, e.g., biometric data, generated at the client computing device, a comparison can be made between the monitored data and model data relating to human interaction with the computing device. The results of the comparison can lead to a value that represents the likelihood that the monitored data results from human interaction.",
+  "publication_number": "US20180012138A1-20180111",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The invention is generally directed to methods, systems and apparatus for assessing the likely user status of a computing device interacting with a server where computing device is in bi-directional operative communication with the server wherein the status is one of a human operator or a computer executable program (also referred to herein as a “bot”). This assessment comprises comparing acquired and/or available data relating to the operation of the computing device to suitable models embodying human user derived data (model data). In most embodiments, the comparison yields a probability value as to one of the status states 140 , 330 , which then may be used by a program or administrator of the server to permit or deny access and/or operation to the computing device. Because many of the invention embodiments provide a probability result as opposed to a binary result, the invention embodiments avoid the “there is only one right answer” phenomena inherent in prior art CAPTCHA tests. In other words, rather than placing the burden of proof on the user for functionality/access, which if the user is a human invokes the negative consequences of conventional CAPTCHA tests as previously described, the burden is shifted to the server side of the equation.",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F2150"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Heikell",
+      "inventor_name_first": "Timothy P.",
+      "inventor_city": "Renton",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Systems, Methods and Apparatus for Evaluating Status of Computing Device User",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 28218,
+    "optimized_size": 2490,
+    "reduction_percent": 91.18
+  }
+}

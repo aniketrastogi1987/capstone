@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170208",
+  "publication_number": "US20170053201A1-20170223",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15224305",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Harik",
+      "inventor_name_first": "Georges",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system includes a number of different long short term memory (LSTM) elements, in which the input value of each LSTM element is gated by a different number of input control signals. In addition, each LSTM element may also include a state feed-back path in which the current state is weighted by a function of a product of one or more memory control values.",
+  "filing_date": "20160729",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to one embodiment of the present invention, an LSTM element includes (a) a first multiplicative element that receives an input value and more than one input control value provides a resulting input value that is a function of a product of the input value and all the input control values; (b) a state element providing a state value at each time point, wherein the state value assumes a first value at a first time point, and assumes a second value at a second time point immediately following the first time point, the second value being derived from a sum of the resulting input value and a function of the first value; and (c) a second multiplicative element that receives the state value of the state element and an output control value, and provides an output value as a function of a product of the state value and the output control value. In addition, in one embodiment of the present invention, the LSTM memory element further includes a third multiplicative element that receives one or more memory control values to provide a feedback state value that is a function of the current state value and the memory control values, such as one less the product of the one or more memory control values. The number of memory control values is preferably greater than one. According to one embodiment of the present invention, a system includes a number of different LSTM elements, wherein the input value of each LSTM element is gated by a different number of input control signals. The present invention is better understood upon consideration of the detailed description below in conjunction with the accompanying drawings.",
+  "date_published": "20170223",
+  "title": "MEMORY ELEMENT FOR A NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1202"
+  ],
+  "_processing_info": {
+    "original_size": 20840,
+    "optimized_size": 2546,
+    "reduction_percent": 87.78
+  }
+}

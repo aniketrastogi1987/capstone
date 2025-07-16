@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170719",
+  "publication_number": "US20170220951A1-20170803",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15013401",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chidlovskii",
+      "inventor_name_first": "Boris",
+      "inventor_city": "Meylan",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Csurka",
+      "inventor_name_first": "Gabriela",
+      "inventor_city": "Crolles",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Clinchant",
+      "inventor_name_first": "Stéphane",
+      "inventor_city": "Grenoble",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "Training instances from a target domain are represented by feature vectors storing values for a set of features, and are labeled by labels from a set of labels. Both a noise marginalizing transform and a weighting of one or more source domain classifiers are simultaneously learned by minimizing the expectation of a loss function that is dependent on the feature vectors corrupted with noise represented by a noise probability density function, the labels, and the one or more source domain classifiers operating on the feature vectors corrupted with the noise. An input instance from the target domain is labeled with a label from the set of labels by operations including applying the learned noise marginalizing transform to an input feature vector representing the input instance and applying the one or more source domain classifiers weighted by the learned weighting to the input feature vector representing the input instance.",
+  "filing_date": "20160202",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION <EOH>In some embodiments disclosed herein, a computer is programmed to perform a machine learning method operating on training instances from a target domain. The training instances are represented by feature vectors storing values for a set of features and labeled by labels from a set of labels. The machine learning method includes the operation of optimizing a loss function to simultaneously learn both a noise marginalizing transform and a weighting of the one or more source domain classifiers. The loss function is dependent on all of: (1) the feature vectors representing the training instances from the target domain corrupted with noise; (2) the labels of the training instances from the target domain; and (3) one or more source domain classifiers operating on the feature vectors representing the training instances from the target domain corrupted with the noise. The machine learning method includes the further operation of generating a label prediction for an unlabeled input instance from the target domain that is represented by an input feature vector storing values for the set of features by operations including applying the learned noise marginalizing transform to the input feature vector and applying the one or more source domain classifiers weighted by the learned weighting to the input feature vector. In some embodiments the loss function is not dependent on any training instance from any domain other than the target domain. In some embodiments disclosed herein, a non-transitory storage medium stores instructions executable by a computer to perform a machine learning method operating on N training instances from a target domain. The training instances are represented by feature vectors x n , n=1, . . . , N storing values for a set of features, and are labeled by labels y n , n=1, . . . , N from a set of labels. The machine learning method including the operation of optimizing the function (w,z) given by: ℒ  ( w , z ) = ∑ n = 1 N  ...",
+  "date_published": "20170803",
+  "title": "ADAPTING MULTIPLE SOURCE CLASSIFIERS IN A TARGET DOMAIN",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1727"
+  ],
+  "_processing_info": {
+    "original_size": 59883,
+    "optimized_size": 3815,
+    "reduction_percent": 93.63
+  }
+}

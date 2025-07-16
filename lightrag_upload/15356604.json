@@ -1,0 +1,33 @@
+{
+  "date_produced": "20180509",
+  "publication_number": "US20180144234A1-20180524",
+  "main_ipcr_label": "G06N300",
+  "decision": "PENDING",
+  "application_number": "15356604",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Devesa",
+      "inventor_name_first": "Arturo",
+      "inventor_city": "Brooksville",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An artificially intelligent question-answer system is disclosed. The system and method comprises of embedding a given sentence (question) into a n-dimensional vector whereby it can be compared to other known questions to determine the appropriate answer. Sentence embedding follows a weighted average of word embeddings contained in the sentence. Words can be further weighted to improve accuracy. The final sentence embedding is compared in an 12-norm sense and the known sentence yielding the minimum euclidean distance is chosen. The associated answer is then matched to input sentence.",
+  "filing_date": "20161120",
+  "patent_number": "None",
+  "summary": "<SOH> 4 SUMMARY <EOH>The present invention is a computationally fast, artificially intelligent question-answer system. The system and method comprises of a method to embed a sentence in a Eucledian space for the purpose of matching similar sentences. This method pulls a very large dataset of question-answer pairs and is able to embed each question into a vector. Comparisons can be made between the input question and the known questions. The most similar vectors will indicate a match and the answer from minimum distance question will be returned to the user. Thus, given some database of enough questions (i.e., millions of question-answer pairs), most questions in a certain field (e.g., medical, though this invention is not limited to that scope) will be able to be answered in this manner. While much of the discussion in this patent relates to medical questions, the scope of this invention is not limited to that domain. The claims of this patent span disciplines as the technique of sentence embedding and a robust question-answer system will be applicable in any field.",
+  "date_published": "20180524",
+  "title": "Sentence Embedding for Sequence-To-Sequence Matching in a Question-Answer System",
+  "ipcr_labels": [
+    "G06N300",
+    "G06N700",
+    "G06N9900",
+    "G06F1727"
+  ],
+  "_processing_info": {
+    "original_size": 11992,
+    "optimized_size": 2274,
+    "reduction_percent": 81.04
+  }
+}

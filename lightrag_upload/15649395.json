@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15649395",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "filing_date": "20170713",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method of analysing and tracking machine systems has the steps of sensing operational data from equipment, the operational data comprising at least location, time, and one or more operational condition data related to the equipment; analysing the operational data to identify data patterns; logging the data patterns as events in a database; comparing the events to a database of predetermined patterns to classify each data pattern as a known event or an unknown event; updating the database to include a new data pattern related to any unknown events; and alerting a user to further classify the unknown events manually.",
+  "publication_number": "US20180018588A1-20180118",
+  "summary": "<SOH> SUMMARY <EOH>There is provided methods and systems for automatically sensing, abstracting, perceiving, and classifying the actions and identities of entities operating as part of an organization or system involving both humans and machines. The system automatically senses and classifies entity actions and, as well, partitions them into time/space regions in which they occur. Such information can be used to analyse and partition system activities, allowing identification and understanding of classified groups of actions and how they relate to organizational tactical and strategic goals. Based on this action/region partitioning, computer models for classes of entities within an organization may be developed, inferring causal rules for how each entity responds to changes in their sensed state. Based on such entity modelling, predictive simulations may be constructed to assess the probable effect of operational changes on the system as a whole. Based on such information, optimization of organizational functioning can be achieved. Optimization can be both local (e.g. based on, for example, a single, particular, entity) and global (optimization of an entire, coordinated network of system entities). According to other aspects, there is provided methods and systems for automatically perceiving, analysing, and reporting on actions of one or more entities and/or associated entities within an organization comprised of humans and machinery, comprising: Geographic position and time measurement; At least one sensor detector; Electronic transduction to convert sensor signals and geography/time information into computer network transmissible form; A time/space-ordered database to record said time/space/sensor measurements; Computational device(s) to automatically abstract, recognize, and classify at least one set of actions from said database, thereby determining the time/space “Region” of extent of the actions; A “markup” database capable of storing such perceived actions an...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "DALTON",
+      "inventor_name_first": "Joseph",
+      "inventor_city": "Calgary",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "BAUER",
+      "inventor_name_first": "Will",
+      "inventor_city": "Edmonton",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "HAAG",
+      "inventor_name_first": "Lindsay",
+      "inventor_city": "Two Hills",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "AUTOMATED FUNCTIONAL UNDERSTANDING AND OPTIMIZATION OF HUMAN/MACHINE SYSTEMS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 110146,
+    "optimized_size": 3503,
+    "reduction_percent": 96.82
+  }
+}

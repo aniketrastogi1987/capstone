@@ -1,0 +1,47 @@
+{
+  "patent_number": "None",
+  "application_number": "15842403",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "filing_date": "20171214",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Systems, methods, and computer-readable media for generating a data set are provided. One method includes generating a data set based on input data using a plurality of brokers. The method further includes receiving a request from a user and determining whether the request can be fulfilled using data currently in the data set. When the request can be fulfilled using data currently in the data set, the data is accessed using broker(s) configured to provide access to data within the data set. When the request cannot be fulfilled using data currently in the data set, at least one new broker is spawned using existing broker(s) and additional data needed to fulfill the request is added to the data set using the new broker. The method further includes generating a response to the request using one or more of the plurality of brokers.",
+  "publication_number": "US20180107931A1-20180419",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment of the disclosure relates to a method. The method includes generating, using a computerized analysis system comprising one or more computing devices, a data set (e.g., a synthetic data set) based on input data using a plurality of brokers (e.g., software modules or agents). The data set includes a plurality of entities (e.g., synthetic entities) and is generated using input data from at least two distinct information sources accessible by one or more of the plurality of brokers. Each entity is assigned one or more attributes based on information included in the input data. The method further includes receiving, at the computerized analysis system, a request from a user and determining, at the computerized analysis system, whether the request can be fulfilled using data currently in the data set. The method further includes, when the request can be fulfilled using data currently in the data set, accessing, at the computerized analysis system, the data using one or more of the plurality of brokers configured to provide access to data within the data set. The method further includes, when the request cannot be fulfilled using data currently in the data set, spawning, at the computerized analysis system, at least one new broker using one or more existing brokers and adding additional data needed to fulfill the request to the data set using the at least one new broker. The method further includes generating a response to the request using one or more of the plurality of brokers. Another embodiment relates to a system including at least one computing device operably coupled to at least one memory and configured to generate a data set (e.g., a synthetic data set) based on input data using a plurality of brokers (e.g., software modules or agents). The data set includes a plurality of entities (e.g., synthetic entities) and is generated using input data from at least two distinct information sources accessible by one or more of the plurality...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06Q3000",
+    "G06F1700",
+    "G06Q1000"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Barrett",
+      "inventor_name_first": "Christopher L.",
+      "inventor_city": "Blacksburg",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Marathe",
+      "inventor_name_first": "Madhav V.",
+      "inventor_city": "Blacksburg",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bisset",
+      "inventor_name_first": "Keith R.",
+      "inventor_city": "Eggleston",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Complex Situation Analysis System Using a Plurality of Brokers that Control Access to Information Sources",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 112350,
+    "optimized_size": 3780,
+    "reduction_percent": 96.64
+  }
+}

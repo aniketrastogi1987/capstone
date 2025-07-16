@@ -1,0 +1,80 @@
+{
+  "patent_number": "None",
+  "application_number": "15417086",
+  "date_published": "20170727",
+  "date_produced": "20170713",
+  "filing_date": "20170126",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "The multiple independent processes run in an AI engine on its cloud-based platform. The multiple independent processes are configured as an independent process wrapped in its own container so that multiple instances of the same processes can run simultaneously to scale to handle one or more users to perform actions. The actions to solve AI problems can include 1) running multiple training sessions on two or more AI models at the same time, 2) creating two or more AI models at the same time, 3) running a training session on one or more AI models while creating one or more AI models at the same time, 4) deploying and using two or more trained AI models to do predictions on data from one or more data sources, 5) etc. A service handles scaling by dynamically calling in additional computing devices to load on and run additional instances of one or more of the independent processes as needed.",
+  "publication_number": "US20170213156A1-20170727",
+  "summary": "<SOH> SUMMARY <EOH>Provided herein in are some embodiments on an AI engine hosted on cloud platform. In an embodiment, a method is discussed for the AI engine having multiple independent processes on a cloud-based platform. The multiple independent processes run in the AI engine on its cloud-based platform. The multiple independent processes are configured as an independent process wrapped in its own container so that multiple instances of the same processes can run simultaneously to scale to handle one or more users to perform actions to solve AI problems. The actions to solve AI problems can include 1) running multiple training sessions on two or more AI models at the same time, 2) creating two or more AI models at the same time, 3) running a training session on one or more AI models while creating one or more AI models at the same time, 4) deploying and using two or more trained AI models to do predictions on data from one or more data sources, and 5) any combination of these four. A first service handles scaling by dynamically calling in additional computing devices to load on and run additional instances of one or more of the independent processes as needed. These and other features of the design provided herein can be better understood with reference to the drawings, description, and claims, all of which form the disclosure of this patent application.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hammond",
+      "inventor_name_first": "Mark Isaac",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Browne",
+      "inventor_name_first": "Keen McEwan",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Arney",
+      "inventor_name_first": "Shane",
+      "inventor_city": "Richmond",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Haigh",
+      "inventor_name_first": "Matthew E.",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jones",
+      "inventor_name_first": "Jett Evan",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brown",
+      "inventor_name_first": "Matthew James",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kong",
+      "inventor_name_first": "Ruofan",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Desh",
+      "inventor_name_first": "Chetan",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "ARTIFICIAL INTELLIGENCE ENGINE HAVING MULTIPLE INDEPENDENT PROCESSES ON A CLOUD BASED PLATFORM CONFIGURED TO SCALE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 126090,
+    "optimized_size": 3930,
+    "reduction_percent": 96.88
+  }
+}

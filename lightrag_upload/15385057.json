@@ -1,0 +1,32 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174033A1-20180621",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15385057",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Davies",
+      "inventor_name_first": "Michael I.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An electronic neuromorphic core processor circuit and related method include a dendrite circuit comprising an input that receives an input spike message having an associated input identifier that identifies a distribution set of dendrite compartments. A synapse map provides a mapping of the received identifier to a synapse configuration in the memory. A synapse configuration circuit associates the identifier with a set of synaptic connections, possibly shared hierarchically over populations of neurons defined implicitly by the mapping structures, that are read from the memory. The synaptic connections determine n-tuple information comprising a dendriteID, a weight, and a network delay time. A dendrite accumulator circuit accumulates weight values scheduled at the appropriate future time as identified by the n-tuple information and maps them to a soma compartment. A soma circuit maintains soma compartment state in response to the accumulated weight values scheduled for servicing and, wh...",
+  "filing_date": "20161220",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a pictorial diagram of an example of a neuromorphic architecture that includes a mesh network, according to an example; FIG. 2 is a pictorial diagram that shows details of a four-core tile, according to an example; FIG. 3 is a block diagram that illustrates certain details of a neuromorphic core within the neuromorphic architecture in which the core's architectural resources are shared in a time-multiplexed manner, according to an example; FIG. 4 is a flowchart illustrating a method for processing a dendritic compartment, according to an example; FIGS. 5A-5D are illustrative pictorial drawings representing a synchronized global time step with asynchronous multiplexed core operation, according to an example; FIG. 6 is an illustrative pictorial internal architecture level drawing representing an example of an operation of a dendrite logic circuit 310 and of a soma logic circuit 330 of a neuromorphic neuron, according to an example; FIG. 7 is an illustrative block diagram showing additional details of the neuromorphic core, according to an example; FIG. 8 is an example data table structure showing different example synapse configuration entry formats, according to an example; FIG. 9 is a block diagram showing a fully general synaptic mapping data flow within dendrite logic circuitry, according to an example; FIG. 10 is an illustrative pictorial drawing representing a redundant Winner-Take-All (WTA) sub-network in a stochastic spiking neural network (SNN) solving constraint satisfaction, according to an example; FIG. 11 is an illustrative pictorial drawing showing an example population connectivity model, according to an example; FIG. 12 is an illustrative pictorial drawing showing an example population connectivity template for a simple one-layer Convolutional Neural Network, according to an example; FIG. 13A is an illustrative pictorial drawing showing a one dimensional overlapping window example network, accordin...",
+  "date_published": "20180621",
+  "title": "POPULATION-BASED CONNECTIVITY ARCHITECTURE FOR SPIKING NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 129011,
+    "optimized_size": 3589,
+    "reduction_percent": 97.22
+  }
+}

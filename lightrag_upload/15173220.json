@@ -1,0 +1,55 @@
+{
+  "date_produced": "20171121",
+  "publication_number": "US20170351964A1-20171207",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15173220",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gross",
+      "inventor_name_first": "Kenny C.",
+      "inventor_city": "Escondido",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vaidyanathan",
+      "inventor_name_first": "Kalyanaraman",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bougaev",
+      "inventor_name_first": "Anton A.",
+      "inventor_city": "La Jolla",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Urmanov",
+      "inventor_name_first": "Aleksey M.",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The disclosed embodiments relate to a system that reduces bandwidth requirements for transmitting telemetry data from sensors in a computer system. During operation, the system obtains a cross-imputability value for each sensor in a set of sensors that are monitoring the computer system, wherein a cross-imputability value for a sensor indicates how well a sensor value obtained from the sensor can be predicted based on sensor values obtained from other sensors in the set. Next, the system clusters sensors in the set of sensors into two or more groups based on the determined cross-imputability values. Then, while transmitting sensor values from the set of sensors, for a group of sensors having cross-imputability values exceeding a threshold, the system selectively transmits sensor values from some but not all of the sensors in the group to reduce a number of sensor values transmitted.",
+  "filing_date": "20160603",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The disclosed embodiments relate to a system that reduces bandwidth requirements for transmitting telemetry data from sensors in a computer system. During operation, the system obtains a cross-imputability value for each sensor in a set of sensors that are monitoring the computer system, wherein a cross-imputability value for a sensor indicates how well a sensor value obtained from the sensor can be predicted based on sensor values obtained from other sensors in the set. Next, the system clusters sensors in the set of sensors into two or more groups based on the determined cross-imputability values. Then, while transmitting sensor values from the set of sensors, for a group of sensors having cross-imputability values exceeding a threshold, the system selectively transmits sensor values from some but not all of the sensors in the group to reduce a number of sensor values transmitted. In some embodiments, while selectively transmitting sensor values, the system performs a staggered round robin operation that periodically transmits sensor values from the set of sensors, and during successive transmissions of the sensor values, cycles through sensors in the group to select sensors to not transmit sensor values from. In some embodiments, while obtaining the cross-imputability value for each sensor in the set of sensors, the system captures a set of sensor values obtained from the set of sensors, and divides the captured set of sensor values into a training data set and a testing data set. During a subsequent training phase, the system uses the training data set to train a nonparametric model that predicts a sensor value in the set of sensor values based on other sensor values in the set of sensor values. Next, during a testing phase, the system applies the nonparametric model to the testing data set to predict each sensor value in the set of sensor values, and compares each predicted sensor value with an actual sensor value obtained from the testing da...",
+  "date_published": "20171207",
+  "title": "REDUCING BANDWIDTH REQUIREMENTS FOR TELEMETRY DATA USING A CROSS-IMPUTABILITY ANALYSIS TECHNIQUE",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1342",
+    "G06F1340",
+    "G06N9900",
+    "G06F1337"
+  ],
+  "_processing_info": {
+    "original_size": 53977,
+    "optimized_size": 3989,
+    "reduction_percent": 92.61
+  }
+}

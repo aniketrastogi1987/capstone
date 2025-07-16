@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170119",
+  "publication_number": "US20170032272A1-20170202",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15302887",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bocharov",
+      "inventor_name_first": "Alexei",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Svore",
+      "inventor_name_first": "Krysta M.",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Roetteler",
+      "inventor_name_first": "Martin",
+      "inventor_city": "Woodinville",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Repeat-Until-Success (RUS) circuits are compiled in a Clifford+T basis by selecting a suitable cyclotomic integer approximation of a target rotation so that the rotation is approximated within a predetermined precision. The cyclotomic integer approximation is randomly modified until a modified value can be expanded into a single-qubit unitary matrix by solving one or more norm equations. The matrix is then expanded into a two-qubit unitary matrix of special form, which is then decomposed into an optimal two-qubit Clifford+T circuit. A two-qubit RUS circuit using a primary qubit and an ancillary qubit is then obtained based on the latter decomposition. An alternate embodiment is disclosed that keeps the total T-depth of the derived circuit small using at most 3 additional ancilla qubits. Arbitrary unitary matrices defined over the cyclotomic field of 8th roots of unity are implemented with RUS circuits.",
+  "filing_date": "20161007",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. Methods and apparatus are disclosed that permit decomposition of quantum computational circuits such as rotation gates into series of Clifford+T gates using one or more ancillary qubits. Typically, a single-qubit unitary is obtained by finding a cyclotomic integer z such that z*/z is rational and corresponds to the selected rotation within a desired precision. The cyclotomic integer z is then modified so as to solve a norm equation, and the modified or scaled value of z is used to define the single-qubit unitary in the Clifford+T basis. This intermediate single-qubit unitary is then expanded into a larger two-qubit unitary which serves as the basis of the circuit design. A Clifford+T decomposition of this two-qubit unitary is arranged as a Repeat-Until-Success (RUS) circuit in which a state associated with an ancillary qubit is measured to determine if the intended circuit operation has been realized on a primary qubit. If not, the primary qubit is restored to an initial state, and RUS circuit operations are repeated. The foregoing and other features, and advantages of the invention will become more apparent from the following detailed description, which proceeds with reference to the accompanying figures.",
+  "date_published": "20170202",
+  "title": "EFFICIENT SYNTHESIS OF REPEAT-UNTIL-SUCCESS CIRCUITS IN CLIFFORD + T BASIS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716"
+  ],
+  "_processing_info": {
+    "original_size": 65029,
+    "optimized_size": 3364,
+    "reduction_percent": 94.83
+  }
+}

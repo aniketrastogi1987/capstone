@@ -1,0 +1,38 @@
+{
+  "date_produced": "20161130",
+  "publication_number": "US20160364644A1-20161215",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15062365",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Brothers",
+      "inventor_name_first": "John W.",
+      "inventor_city": "Calistoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "Joohoon",
+      "inventor_city": "East Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A spiking neural network having a plurality layers partitioned into a plurality of frustums using a first partitioning may be implemented, where each frustum includes one tile of each partitioned layer of the spiking neural network. A first tile of a first layer of the spiking neural network may be read. Using a processor, a first tile of a second layer of the spiking neural network may be generated using the first tile of the first layer while storing intermediate data within an internal memory of the processor. The first tile of the first layer and the first tile of the second layer belong to a same frustum.",
+  "filing_date": "20160307",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment may include a method of implementing a spiking neural network having a plurality layers partitioned into a plurality of frustums using a first partitioning, wherein each frustum includes one tile of each partitioned layer of the spiking neural network. The method may include reading a first tile of a first layer of the spiking neural network and generating, using a processor, a first tile of a second layer of the spiking neural network using the first tile of the first layer while storing intermediate data within an internal memory of the processor. The first tile of the first layer and the first tile of the second layer belong to a same frustum. Another embodiment may include an apparatus for implementing a spiking neural network having a plurality of layers partitioned into a plurality of frustums using a first partitioning, wherein each frustum includes one tile of each partitioned layer of the spiking neural network. The apparatus includes an internal memory configured to store intermediate data and a first compute unit coupled to the internal memory and configured to initiate executable operations. The executable operations include reading a first tile of a first layer of the spiking neural network and generating a first tile of a second layer of the spiking neural network using the first tile of the first layer while storing intermediate data within the internal memory. The first tile of the first layer and the first tile of the second layer belong to a same frustum. Another embodiment may include a computer program product including a computer readable storage medium having program code stored thereon to implement a spiking neural network having a plurality of layers partitioned into a plurality of frustums using a first partitioning, wherein each frustum includes one tile of each partitioned layer of the spiking neural network. The program code is executable by the processor to perform operations including reading a first ti...",
+  "date_published": "20161215",
+  "title": "SPIKING NEURAL NETWORK WITH REDUCED MEMORY ACCESS AND REDUCED IN-NETWORK BANDWIDTH CONSUMPTION",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 86658,
+    "optimized_size": 3364,
+    "reduction_percent": 96.12
+  }
+}

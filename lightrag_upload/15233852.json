@@ -1,0 +1,37 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046936A1-20180215",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15233852",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Zhibi",
+      "inventor_city": "Woodridge",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhou",
+      "inventor_name_first": "Shuang",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An density-based apparatus, computer program, and method are provided for reclassifying test data points as not being an anomaly. One or more test data points are received that are each classified as an anomaly. In connection with each of the one or more test data points, a density is determined for a plurality of known data points that are each known to not be an anomaly. Further, at least one of the one or more test data points is reclassified as not being an anomaly, based on the determination.",
+  "filing_date": "20160810",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An density-based apparatus, computer program, and method are provided for reclassifying test data points as not being an anomaly. One or more test data points are received that are each classified as an anomaly. In connection with each of the one or more test data points, a density is determined for a plurality of known data points that are each known to not be an anomaly. Further, at least one of the one or more test data points is reclassified as not being an anomaly, based on the determination. In a first embodiment, the one or more test data points may each be classified as an anomaly, by a one-class support vector machine (OCSVM), and/or a K-means clustering algorithm. For example, the one or more test data points may each be classified as an anomaly, by: grouping a plurality of the test data points into a plurality of groups based on one or more parameters, identifying at least one frontier for each group of the plurality of the test data points, determining whether the one or more test data points are outside of a corresponding frontier, and classifying the one or more test data points as an anomaly if the one or more test data points are outside of the corresponding frontier. In a second embodiment (which may or may not be combined with the first embodiment), the one or more test data points may include a plurality of the test data points. Further, the determination of the density may be performed for each of the plurality of the test data points. Still yet, the determination of the density may result in density information corresponding with each of the plurality of the test data points. Thus, the plurality of the test data points may be ranked, based on the density information. Further, resources may be allocated, based on the ranking. In a third embodiment (which may or may not be combined with the first and/or second embodiments), the reclassification of the one or more test data points as not being an anomaly, may result in a reductio...",
+  "date_published": "20180215",
+  "title": "DENSITY-BASED APPARATUS, COMPUTER PROGRAM, AND METHOD FOR RECLASSIFYING TEST DATA POINTS AS NOT BEING AN ANOMOLY",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 58853,
+    "optimized_size": 3245,
+    "reduction_percent": 94.49
+  }
+}

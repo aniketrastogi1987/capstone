@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180523",
+  "publication_number": "US20180157989A1-20180607",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15368497",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Green",
+      "inventor_name_first": "Bradley Ray",
+      "inventor_city": "Snohomish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and non-transitory computer-readable media can receive JOINKEY information identifying a JOINKEY and embedding element information identifying a plurality of embedding elements associated with the JOINKEY. A training instance is created comprising a pre-determined number of embedding elements from the plurality of embedding elements. A plurality of negative samples from a sample cache are added to the training instance. One or more embeddings are updated based on the training instance.",
+  "filing_date": "20161202",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure can include systems, methods, and non-transitory computer readable media configured to receive JOINKEY information identifying a JOINKEY and embedding element information identifying a plurality of embedding elements associated with the JOINKEY. A training instance is created comprising a pre-determined number of embedding elements from the plurality of embedding elements. A plurality of negative samples from a sample cache are added to the training instance. One or more embeddings are updated based on the training instance. In an embodiment, the pre-determined number of embedding elements of the training instance comprise an item element and a plurality of context elements. In an embodiment, the plurality of negative samples comprise a pre-determined number of negative samples, the pre-determined number of negative samples being determined based on the number of context elements. In an embodiment, the plurality of context elements are written to the sample cache. In an embodiment, the adding the plurality of negative samples from the sample cache to the training instance comprises selecting the plurality of negative samples from the sample cache by incrementing a read head of the sample cache by a prime, odd number. In an embodiment, the writing the plurality of context elements to the sample cache comprises incrementing a write head of the sample cache by one after each write. In an embodiment, it is determined that a training instance counter associated with the item element does not exceed a training instance threshold. In an embodiment, the adding the plurality of negative samples and the updating one or more embeddings are performed based on the determining that the training instance counter does not exceed the training instance threshold. In an embodiment, for each context element, a distance is calculated between a context element embedding associated with the context element and an item elemen...",
+  "date_published": "20180607",
+  "title": "SYSTEMS AND METHODS FOR ONLINE DISTRIBUTED EMBEDDING SERVICES",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 91536,
+    "optimized_size": 3075,
+    "reduction_percent": 96.64
+  }
+}

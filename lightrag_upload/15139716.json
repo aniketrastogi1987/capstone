@@ -1,0 +1,60 @@
+{
+  "date_produced": "20171018",
+  "publication_number": "US20170316320A1-20171102",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15139716",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jamjoom",
+      "inventor_name_first": "Hani",
+      "inventor_city": "Cos Cob",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lubensky",
+      "inventor_name_first": "David M.",
+      "inventor_city": "Brookfield",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Manweiler",
+      "inventor_name_first": "Justin G.",
+      "inventor_city": "Somers",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vogt",
+      "inventor_name_first": "Katherine",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Weisz",
+      "inventor_name_first": "Justin D.",
+      "inventor_city": "Stamford",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A database comprises historical information of a user's response to previous notifications. The database is accessed to determine a time at which to provide a (new) notification to the user, utilizing at least: a) current user activity status (e.g., determined from measurement information collected from one or more personal devices and/or user calendar events; b) time/day; and c) context information about the notification (e.g., geo-location, indoors/outdoors) including notification type (e.g., calendar entry, email, IM). The user gets the notification via a portable device at the determined time. A machine learning model can select the determined time by discriminating features of the previous notifications for which the user immediately attended versus those that were deferred and/or ignored. Content of the notification can also be altered in view of such discriminating features so as to increase a likelihood the user will immediately attend to the provided notification.",
+  "filing_date": "20160427",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In a first aspect thereof, embodiments of this invention provide a method comprising: in response to determining there is a notification for a user, accessing a tangibly stored database to determine a time at which to provide the notification to the user, wherein the database comprises historical information of previous times at which the user attended to previous notifications and the database is accessed utilizing at least: a) current activity status of the user as determined from measurement information collected from one or more personal devices and/or from a calendar listing events scheduled for the user; b) current time and day; and c) context information about the notification, where this context information is different from the measurement information and from the current time and day. Further, the context information includes at least type of the notification. The method further comprises causing a portable device to provide the notification to the user at the determined time. In another aspect thereof the embodiments of this invention provide an apparatus comprising: one or more memories comprising computer-readable code, and one or more processors. The one or more processors are configured, in response to execution of the computer-readable code, to cause the apparatus to perform actions comprising: in response to determining there is a notification for a user, accessing a tangibly stored database to determine a time at which to provide the notification to the user, wherein the database comprises historical information of previous times at which the user attended to previous notifications and the database is accessed utilizing at least: a) current activity status of the user as determined from measurement information collected from one or more personal devices and/or from a calendar listing events scheduled for the user; b) current time and day; and c) context information about the notification, where this context information is differe...",
+  "date_published": "20171102",
+  "title": "Predicting User Attentiveness to Electronic Notifications",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 72006,
+    "optimized_size": 4150,
+    "reduction_percent": 94.24
+  }
+}

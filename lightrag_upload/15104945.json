@@ -1,0 +1,66 @@
+{
+  "date_produced": "20161012",
+  "publication_number": "US20160314405A1-20161027",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15104945",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BIHANNIC",
+      "inventor_name_first": "Didier",
+      "inventor_city": "ELANCOURT",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "BAYSSE",
+      "inventor_name_first": "Camille",
+      "inventor_city": "ELANCOURT",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "DE SAPORTA",
+      "inventor_name_first": "Benoîte",
+      "inventor_city": "TALENCE",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "DUFOUR",
+      "inventor_name_first": "François",
+      "inventor_city": "TALENCE",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "GEGOUT-PETIT",
+      "inventor_name_first": "Anne",
+      "inventor_city": "TALENCE",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "SARACCO",
+      "inventor_name_first": "Jérôme",
+      "inventor_city": "TALENCE",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "The invention relates to a method for maintaining equipment likely to go through at least a degraded state before failing, this equipment being provided with a data sensor, linked to a recorder, which is in turn associated with a processing unit, which comprises the following steps of: detection of states of the equipment from the recorded data, and by means of a hidden Markov model, determination of an optimal maintenance date as a function of a state of the equipment, of a predetermined aggregate usage time of the equipment, by using an optimal stop on PDMP, which comprises: a substep of calculation of a quantization grid made up of cells with, for each cell, the transition date, the state of the equipment on that transition date, the time spent in the preceding state, the probability of being in said state on said date, a substep of calculation of a discretized grid of remaining usage time for each cell of the quantization grid, a substep of calculation of the maintenance date start...",
+  "filing_date": "20160615",
+  "patent_number": "None",
+  "summary": "",
+  "date_published": "20161027",
+  "title": "METHOD OF MAINTENANCE OF EQUIPMENT",
+  "ipcr_labels": [
+    "G06N700",
+    "G06Q1000"
+  ],
+  "_processing_info": {
+    "original_size": 27188,
+    "optimized_size": 2285,
+    "reduction_percent": 91.6
+  }
+}

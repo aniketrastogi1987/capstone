@@ -1,0 +1,32 @@
+{
+  "date_produced": "20170419",
+  "publication_number": "US20170124483A1-20170504",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15315689",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HUANG",
+      "inventor_name_first": "Te-Ming",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Some embodiments include a method of training an electronic transaction event classifier model to rank electronic transaction events. The method can include: receiving a training set of observable events corresponding to a set of quantifiable feature vectors, a set of known outcome labels, and a set of known cost values; setting initial parameters of a kernel function of a support vector machine; and iterating through potential weight vectors of the kernel function until the kernel function, as configured by a working weight vector of an iteration, is capable of estimating at least polarities of the known outcome labels within a threshold tolerance of accuracy based on the quantifiable feature vectors, wherein said iterating includes computing the working weight vector in a feature space of the quantifiable features in each iteration by solving variable constraints.",
+  "filing_date": "20161201",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1A is a data flow diagram of a model builder engine that generates a classifier model for estimating an outcome based on quantifiable features of an event, in accordance with various embodiments. FIG. 1B is a graph illustrating an example of the classifier model of FIG. 1A , in accordance with various embodiments. FIG. 2 is a block diagram illustrating a return optimization system that generates one or more classifier models and uses the classifier models to evaluate observable events to optimize business return, in accordance various embodiments FIG. 3 is a pseudo-code block illustrating a method of building a classifier model to estimate an outcome of an event based on quantifiable features of the event, in accordance with various embodiments. FIG. 4 illustrates a flow chart of the method of FIG. 3 , in accordance with various embodiments. FIG. 5 illustrates a pseudo-code block illustrating an argmax function to be used in the method of FIG. 3 , in accordance with various embodiments. FIG. 6 is a flow chart of a method of implementing the argmax function of FIG. 5 , in accordance with various embodiments. FIG. 7 is a flow chart of a high-level method of training an event classifier model, in accordance with various embodiments. FIG. 8 is a block diagram of an example of a computing device 800 , which may represent one or more computing device or server described herein, in accordance with various embodiments. detailed-description description=\"Detailed Description\" end=\"lead\"? The figures depict various embodiments of this disclosure for purposes of illustration only. One skilled in the art will readily recognize from the following discussion that alternative embodiments of the structures and methods illustrated herein may be employed without departing from the principles of the invention described herein.",
+  "date_published": "20170504",
+  "title": "Digital Event Profile Filters Based on Cost Sensitive Support Vector Machine for Fraud Detection, Risk Rating or Electronic Transaction Classification",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716",
+    "G06F2155"
+  ],
+  "_processing_info": {
+    "original_size": 76533,
+    "optimized_size": 3431,
+    "reduction_percent": 95.52
+  }
+}

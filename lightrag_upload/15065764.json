@@ -1,0 +1,47 @@
+{
+  "decision": "PENDING",
+  "application_number": "15065764",
+  "date_published": "20160915",
+  "date_produced": "20160831",
+  "title": "TOKEN MANAGEMENT AND HANDLING SYSTEM",
+  "filing_date": "20160309",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rewis",
+      "inventor_name_first": "Benjamin",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Royyuru",
+      "inventor_name_first": "Vijay K.",
+      "inventor_city": "Norristown",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cox",
+      "inventor_name_first": "Christopher T.",
+      "inventor_city": "Atlanta",
+      "inventor_state": "GA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2020",
+    "G06Q2040",
+    "G06Q2034",
+    "G06Q2036"
+  ],
+  "main_ipcr_label": "G06Q2020",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to one aspect, a system comprises an acquiring computer system and a data processor. The data processor comprises a central processing unit and memory holding instructions executable by the central processing unit. The acquiring computer system receives via an electronic network data originating from a wireless device, the data including a token, and the acquiring computer routes the data to the data processor. The instructions, when executed by the central processing unit, cause the data processor to pass the token directly to a detokenization processor and receive a detokenized account number from the detokenization processor, and to cause the data processor to pass the detokenized account number to the acquiring computer system. According to another aspect, an acquiring computer system is specially programmed to: receive from a merchant point of sale a token representing an account, the token having been presented in a payment transaction; forward the token to a data processor; receive from the data processor an account number of the account represented by the token; and forward the account number to an electronic payments network in place of the token, for transaction approval. According to another aspect, an aggregating system comprises a central processing unit, a detokenization gateway, and memory holding data and instructions. The instructions, when executed by the central processing unit, cause the aggregating system to: maintain a mapping of a plurality data token formats and token service providers corresponding to the respective data token formats; receive from a requestor a particular token at the detokenization gateway, the token representing an account; and determine from the mapping which token service provider corresponds to the particular token. According to another aspect, a transaction card comprises a card body having a first number embossed thereon. The first number identifies an account. The transa...",
+  "patent_number": "None",
+  "abstract": "Systems and methods for handling tokens. In one aspect, a token is intercepted by a data processor and a contact is made with a detokenization provider by the data processor. In another aspect, token service is aggregated. In another aspect, tokenization is extended to physical cards, to deter certain kinds of fraud.",
+  "publication_number": "US20160267455A1-20160915",
+  "_processing_info": {
+    "original_size": 57685,
+    "optimized_size": 3181,
+    "reduction_percent": 94.49
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180425",
+  "publication_number": "US20180129967A1-20180510",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15344160",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Herreshoff",
+      "inventor_name_first": "Marcello Mathias",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for constructing and processing computational graphs that represent dynamically structured machine learning models are disclosed. An example system receives data identifying a plurality of operations that can be performed on input data for processing by a dynamically structured machine learning model. The system also receives a plurality of labels corresponding to arguments for the plurality of operations. A directed computational graph representing a comprehensive layer of the dynamically structured machine learning model is generated from the identified operations and labels. An example system then receives an input for processing by the machine learning model and specifies data flow through the directed computational graph.",
+  "filing_date": "20161104",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies relating to machine learning systems in general, and specifically to systems and methods for constructing a single computational graph that represents input-dependent machine learning model architectures and scheduling input to be processed using the computational graph. In general, one innovative aspect of the subject matter described in this specification can be embodied in methods that include the actions of receiving data identifying a plurality of operations that can be performed on input data for processing by a dynamically structured machine learning model; receiving a plurality of labels corresponding to arguments for the plurality of operations; generating a directed computational graph representing a comprehensive layer of the dynamically structured machine learning model from the identified operations and labels, wherein the comprehensive layer is a layer that includes each possible operation that can be performed by the dynamically structured machine learning model; receiving an input for processing by the dynamically structured machine learning model, wherein the input includes a plurality of tokens and label data specifying labels for the plurality of tokens; and specifying data flow through the directed computational graph to fit the received labeled data. An example system includes one or more computers and one or more storage devices storing instructions that when executed by the one or more computers cause the one or more computers to perform an example method. Other embodiments of this aspect include corresponding computer systems, apparatus, and computer programs recorded on one or more computer storage devices, each configured to perform the actions of the methods. For a system of one or more computers to be configured to perform particular operations or actions means that the system has installed on it software, firmware, hardware, or a combination of them that in operation cause the ...",
+  "date_published": "20180510",
+  "title": "CONSTRUCTING AND PROCESSING COMPUTATIONAL GRAPHS FOR DYNAMICALLY STRUCTURED MACHINE LEARNING MODELS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 69686,
+    "optimized_size": 3451,
+    "reduction_percent": 95.05
+  }
+}

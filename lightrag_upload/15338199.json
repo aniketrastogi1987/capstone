@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15338199",
+  "date_published": "20170608",
+  "date_produced": "20170524",
+  "title": "TECHNIQUES TO PERFORM POWER FAIL-SAFE CACHING WITHOUT ATOMIC METADATA",
+  "filing_date": "20161028",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Trika",
+      "inventor_name_first": "Sanjeev N.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F120871",
+    "G06F120868",
+    "G06F120804"
+  ],
+  "main_ipcr_label": "G06F120871",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The features and advantages of embodiments of the invention will become apparent from the following detailed description of the subject matter in which: FIG. 1 illustrates a system to implement the methods disclosed herein in accordance with one embodiment of the invention; FIG. 2 illustrates a block diagram of an I/O controller in accordance with one embodiment of the invention; FIG. 3 illustrates a block diagram of the modules in an operating system in accordance with one embodiment of the invention; FIG. 4 illustrates a configuration of a caching device in accordance with one embodiment of the invention; FIG. 5 illustrates a flow chart of a write-through caching scheme in accordance with one embodiment of the invention; FIG. 6A illustrates a flow chart of a write-back caching scheme in accordance with one embodiment of the invention; FIG. 6B illustrates a flow chart of a write-back caching scheme in accordance with one embodiment of the invention; FIG. 6C illustrates a flow chart of a write-back caching scheme in accordance with one embodiment of the invention; FIG. 7 illustrates a flow chart of a method to insert data into a cache line in accordance with one embodiment of the invention; and FIGS. 8A and 8B illustrate a pseudo code to implement a write-back caching scheme in accordance with one embodiment of the invention. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A method and system to allow power fail-safe write-back or write-through caching of data in a persistent storage device into one or more cache lines of a caching device. No metadata associated with any of the cache lines is written atomically into the caching device when the data in the storage device is cached. As such, specialized cache hardware to allow atomic writing of metadata during the caching of data is not required.",
+  "publication_number": "US20170161198A1-20170608",
+  "_processing_info": {
+    "original_size": 54017,
+    "optimized_size": 2484,
+    "reduction_percent": 95.4
+  }
+}

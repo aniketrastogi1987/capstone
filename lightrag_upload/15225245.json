@@ -1,0 +1,32 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032888A1-20180201",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15225245",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Modarresi",
+      "inventor_name_first": "Kourosh",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Techniques for predicting a number of links an email campaign recipient will open are described. Elements in a dataset related to an email campaign are modeled using a tree structure, where nodes of the tree represent features of each element. A mean squared error is computed of an outcome for each of the elements to determine a weight for each respective tree. The weights are then regularized by applying a penalty, such as an elastic net penalty, to each of the weights. Then, the weights are applied to each of the trees. A weighted average of all of the outcomes of the trees is calculated, where the weighted average represents a prediction of an outcome resulting from a set of feature values. The feature values correspond to the nodes of each of the trees.",
+  "filing_date": "20160801",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Techniques for predicting a number of links an email campaign recipient will open are described. In one or more implementations, a data matrix is generated from a set of data relating to recipients of an email campaign. The data matrix has m number of rows and n number of columns. Entries in the rows represent individual elements, or individual email campaign recipients, in the dataset. Entries in the columns represent features associated with each respective element or email recipient. The elements in the dataset are modeled using tree structures, where nodes of the tree are the features associated with each element. A mean squared error is computed of an outcome for each of the elements to determine a weight for each respective tree. The weights are then regularized by applying a penalty, such as an elastic net penalty, to each of the weights. Then, the weights are applied to each of the trees. A weighted average of all of the outcomes of the trees is calculated, where the weighted average represents a prediction of an outcome resulting from a set of feature values. The feature values correspond to the features in the columns of the matrix, and/or the nodes of each of the trees. This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter.",
+  "date_published": "20180201",
+  "title": "Predicting A Number of Links an Email Campaign Recipient Will Open",
+  "ipcr_labels": [
+    "G06N504",
+    "H04L1258",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 68561,
+    "optimized_size": 2897,
+    "reduction_percent": 95.77
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "patent_number": "None",
+  "application_number": "15500405",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "filing_date": "20170130",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Techniques related to implementing neural networks for speech recognition systems are discussed. Such techniques may include processing a node of the neural network by determining a score for the node as a product of weights and inputs such that the weights are fixed point integer values, applying a correction to the score based a correction value associated with at least one of the weights, and generating an output from the node based on the corrected score.",
+  "publication_number": "US20170220929A1-20170803",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The material described herein is illustrated by way of example and not by way of limitation in the accompanying figures. For simplicity and clarity of illustration, elements illustrated in the figures are not necessarily drawn to scale. For example, the dimensions of some elements may be exaggerated relative to other elements for clarity. Further, where considered appropriate, reference labels have been repeated among the figures to indicate corresponding or analogous elements. In the figures: FIG. 1 is an illustrative diagram of an example setting for providing speech recognition; FIG. 2 is an illustrative diagram of an example system for providing speech recognition; FIG. 3 is an illustrative diagram of example neural network; FIG. 4 is a flow diagram illustrating an example process for determining a scaling factor for a layer of a neural network; FIG. 5 is a flow diagram illustrating an example process for converting weights of a layer of a neural network to fixed point integer values based on a scaling factor and generating correction values for one or more of the weights; FIG. 6 is an illustrative diagram of an example hidden layer node; FIG. 7 is an illustrative diagram of an example output layer node; FIG. 8 is an illustrative diagram of an example input layer node; FIG. 9 is an illustrative diagram of an example system for generating classification scores from feature vectors; FIG. 10 is a flow diagram illustrating an example process for processing a node of a neural network; FIG. 11 is an illustrative diagram of an example system for providing speech recognition; FIG. 12 is an illustrative diagram of an example system; and FIG. 13 illustrates an example device, all arranged in accordance with at least some implementations of the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F7483",
+    "G10L1516",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rozen",
+      "inventor_name_first": "Piotr",
+      "inventor_city": "Gdansk",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    },
+    {
+      "inventor_name_last": "Stemmer",
+      "inventor_name_first": "Georg",
+      "inventor_city": "Munchen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "IMPROVED FIXED POINT INTEGER IMPLEMENTATIONS FOR NEURAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 135365,
+    "optimized_size": 3088,
+    "reduction_percent": 97.72
+  }
+}

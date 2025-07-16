@@ -1,0 +1,49 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15147465",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "title": "ZONING OF LOGICAL TO PHYSICAL DATA\nADDRESS TRANSLATION TABLES WITH PARALLELIZED LOG LIST REPLAY",
+  "filing_date": "20160505",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Booth",
+      "inventor_name_first": "Jing Shi",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lo",
+      "inventor_name_first": "Jerry",
+      "inventor_city": "Hacienda Heights",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pillai",
+      "inventor_name_first": "Subhash Balakrishna",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F121009",
+    "G06F306",
+    "G06F1202",
+    "G06F306",
+    "G06F952",
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F121009",
+  "summary": "<SOH> SUMMARY <EOH>In some examples, the disclosure describes a method. The method includes forming, by a processor, a table that includes two or more mappings, each mapping being associated with a respective logical address and a respective physical address of a data storage device, and identifying, by the processor, a plurality of logical zones including a first logical zone within the table and a second logical zone within the table, where each of the first logical zone and second logical zone includes one or more mappings of the table, and where the one or more mappings of the first logical zone are mutually exclusive with respect to the one or more mappings of the second logical zone. The method may further include forming, by the processor, a first log list associated with the first logical zone, the first log list indicating one or more mapping updates associated with the one or more mappings included in the first logical zone, and forming, by the processor, a second log list associated with the second logical zone, the second log list indicating one or more mapping updates associated with the one or more mappings included in the second logical zone. The method may also include replaying, by the processor, a portion of the first log list and a portion of the second log list concurrently to update the table. In some examples, the disclosure describes a storage device that includes a device that includes a memory device and one or more processors. The memory device is configured to store a table that includes two or more mappings, each mapping being associated with a respective logical address and a respective physical address of a data storage device. The one or more processors are configured to identify a plurality of logical zones including a first logical zone within the table and a second logical zone within the table, where each of the first logical zone and second logical zone includes one or more mappings of the table, and where the one or more mappings...",
+  "patent_number": "9940261",
+  "abstract": "An example device includes a memory device and one or more processors. The memory device is configured to store a table that includes two or more mappings, each mapping being associated with a respective logical address and a respective physical address. The processors are configured to identify, within the table, a first zone and a second zone. Each zone includes one or more mappings of the table. The zones do not share any mapping of the table. The processors are further configured to form a first log list indicating one or more mapping updates associated with the mapping(s) included in the first zone, to form a second log list indicating one or more mapping updates associated with the mapping(s) included in the second zone, and to replay a portion of the first log list and a portion of the second log list concurrently to update the table.",
+  "publication_number": "US20170322888A1-20171109",
+  "_processing_info": {
+    "original_size": 95924,
+    "optimized_size": 3810,
+    "reduction_percent": 96.03
+  }
+}

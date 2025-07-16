@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170713",
+  "publication_number": "US20170213148A1-20170727",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15006892",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mytkowicz",
+      "inventor_name_first": "Todd",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Musuvathi",
+      "inventor_name_first": "Madanlal",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ding",
+      "inventor_name_first": "Yufei",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and computer media for machine learning through a symbolic, parallelized stochastic gradient descent (SGD) analysis are provided. An initial data portion analyzer can be configured to perform, using a first processor, SGD analysis on an initial portion of a training dataset. Values for output model weights for the initial portion are initialized to concrete values. Local model builders can be configured to perform, using an additional processor for each local model builder, symbolic SGD analysis on an additional portion of the training dataset. The symbolic SGD analysis uses a symbolic representation as an initial state for output model weights for the corresponding portions of the training dataset. The symbolic representation allows the SGD analysis and symbolic SGD analysis to be performed in parallel. A global model builder can be configured to combine outputs of the local model builders and the initial data portion analyzer into a global model.",
+  "filing_date": "20160126",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Examples described herein relate to machine learning systems configured to perform parallelized stochastic gradient descent (SGD). An initial data portion analyzer can be configured to perform, using a first processor, SGD analysis on an initial portion of a training dataset. The SGD analysis includes initializing values for a set of output model weights for the initial portion of the training dataset. A local model builder can be configured to perform, using a second processor, symbolic SGD analysis on an additional portion of the training dataset. The symbolic SGD analysis includes using a symbolic representation as an initial state of a set of output model weights for the additional portion of the training dataset. The initial data portion analyzer and the local model builder are configured to perform the SGD analysis and symbolic SGD analysis in parallel. A global model builder can be configured to integrate an output of the local model builder and an output of the initial data portion analyzer into a global model that reflects both the initial portion and the additional portion of the training dataset. This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. The foregoing and other objects, features, and advantages of the claimed subject matter will become more apparent from the following detailed description, which proceeds with reference to the accompanying figures.",
+  "date_published": "20170727",
+  "title": "MACHINE LEARNING THROUGH PARALLELIZED STOCHASTIC GRADIENT DESCENT",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1750"
+  ],
+  "_processing_info": {
+    "original_size": 64358,
+    "optimized_size": 3525,
+    "reduction_percent": 94.52
+  }
+}

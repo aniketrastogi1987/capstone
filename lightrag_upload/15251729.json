@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170316",
+  "publication_number": "US20170091669A1-20170330",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15251729",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KUROMATSU",
+      "inventor_name_first": "Nobuyuki",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Ueda",
+      "inventor_name_first": "Haruyasu",
+      "inventor_city": "Ichikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A distributed processing system creates a learning model used for an update and sends the created learning model to a plurality of nodes in the distributed processing system. The distributed processing system distributes, to the nodes, application tinting information that is associated with the learning model used for the update sent to the nodes and that Is related to data that is the application target of the learning model used for the update. When the nodes receive the learning model used for the update and the application timing information, the nodes apply a learning model, which is obtained before the update, to the data associated with the lining that is before the application timing information. Furthermore, the nodes apply the learning model used for the update to the data associated with the timing that is after the application timing information.",
+  "filing_date": "20160830",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of an embodiment, a distributed processing system includes, a plurality of nodes that stores allocated data in a buffer and that processes the data within predetermined time, which is obtained on the basis of a time stamp of the data, by applying a learning model to the data in units of a predetermined number of pieces of data stored in the buffer, a processor that executes a process comprising, a allocating the data to the plurality of nodes, creating, on the basis of input data, a learning model used for an update and sending the learning model used for the update at the creating to the plurality of nodes, distributing, to the plurality of nodes, application timing information that is associated with the learning model used for the update sent to the plurality of nodes at the sending and that is related to the time stamp of the data that is the application target of the learning model used for the update, wherein when the plurality of nodes receives the learning model used for the update and receives the application timing information, the plurality of nodes applies a learning model, which is obtained before the update, to the data associated with the timing that is before the application timing information and applies the learning model used for the update to the data associated with the timing that is after the application timing information. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the invention, as claimed.",
+  "date_published": "20170330",
+  "title": "DISTRIBUTED PROCESSING SYSTEM, LEARNING MODEL CREATING METHOD AND DATA PROCESSING METHOD",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 45018,
+    "optimized_size": 3359,
+    "reduction_percent": 92.54
+  }
+}

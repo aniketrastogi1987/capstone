@@ -1,0 +1,48 @@
+{
+  "patent_number": "None",
+  "application_number": "15424246",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "filing_date": "20170203",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A system and method are described for predicting road friction using data from a fleet of connected vehicles. Each fleet vehicle includes a communication arrangement for reporting, to a back end system, floating car data sets, including a position of the vehicle, time data and data regarding determined road friction influencing parameters and a determined road friction associated with that position. The data sets are collected and aggregated in a central database, over a predetermined time period. A neural network computer is trained and validated, using aggregated data sets, to create a model to predict future road friction for a specific road network position or segment associated with that specific position. Once trained and validated, the neural network computer, upon receiving the same type of new, up to date, input data, uses the model to predict future road friction for that specific position or segment of the road network.",
+  "publication_number": "US20170236052A1-20170817",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments herein aim to provide an improved system for more accurately predicting road friction by forecasts models requiring less effort to create and maintain. This is provided through a system for predicting road friction using data from a fleet of connected vehicles equipped with respective positioning systems and one or more respective sensor systems capable of determining a plurality of road friction influencing parameters during travel within a road network the road friction within which is of interest, where each respective vehicle in the fleet of connected vehicles comprises: a communication arrangement, arranged to communicate with a back end system to continuously report floating car data sets including a position of the connected vehicle within the road network, time data and data regarding determined road friction influencing parameters and a determined road friction associated with that position within the road network; and the system for predicting road friction further comprising: a central database, residing in the back end system, and arranged to collect the reported floating car data sets of the connected vehicles within the fleet and to aggregate in the central database a series of such floating car data sets over a predetermined time period; and a neural network computer arranged to be trained and validated, using the aggregated floating car data sets from the connected vehicles within the fleet, to create a model to predict future road friction for a specific position within the road network, using the aggregated floating car data sets from the connected vehicles within the fleet; and an optional data pre-processing arrangement, arranged to pre-process the floating car data sets to an appropriate structure should the data for the training and validation of the neural network computer not be structured appropriately by default; the neural network computer further arranged to, once trained and validated, receive the same type...",
+  "ipcr_labels": [
+    "G06N304",
+    "G01N3342",
+    "G01N1902",
+    "G08G100",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "ISRAELSSON",
+      "inventor_name_first": "Erik",
+      "inventor_city": "Gothenburg",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "MOHAMMADIHA",
+      "inventor_name_first": "Nasser",
+      "inventor_city": "Gothenburg",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "PANAHANDEH",
+      "inventor_name_first": "Ghazaleh",
+      "inventor_city": "Gothenburg",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    }
+  ],
+  "title": "ARRANGEMENT AND METHOD FOR PREDICTING ROAD FRICTION WITHIN A ROAD NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 82397,
+    "optimized_size": 3856,
+    "reduction_percent": 95.32
+  }
+}

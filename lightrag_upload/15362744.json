@@ -1,0 +1,88 @@
+{
+  "date_produced": "20180516",
+  "publication_number": "US20180150742A1-20180531",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15362744",
+  "inventor_list": [
+    {
+      "inventor_name_last": "WOULFE",
+      "inventor_name_first": "MUIRIS",
+      "inventor_city": "DUBLIN",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "MUTHUKUMAR",
+      "inventor_name_first": "POORNIMA",
+      "inventor_city": "SEATTLE",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SANCHEZ",
+      "inventor_name_first": "ALBERT AGRAZ",
+      "inventor_city": "ZURICH",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "DONG",
+      "inventor_name_first": "YUANYUAN",
+      "inventor_city": "BELLEVUE",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KUMAR",
+      "inventor_name_first": "SONAL",
+      "inventor_city": "UTTAR PRADESH",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "MARATOV",
+      "inventor_name_first": "MAKSAT",
+      "inventor_city": "DUBLIN",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "MOZEJKO",
+      "inventor_name_first": "MARCIN",
+      "inventor_city": "WARSAW",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    },
+    {
+      "inventor_name_last": "SARNICKI",
+      "inventor_name_first": "PIOTR",
+      "inventor_city": "BOGACICA",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    },
+    {
+      "inventor_name_last": "PEDNEKAR",
+      "inventor_name_first": "ANIKET VIDYADHAR",
+      "inventor_city": "LOS ANGELES",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A probabilistic machine learning model is generated to identify potential bugs in a source code file. Source code files with and without bugs are analyzed to find features indicative of a pattern of the context of a software bug, wherein the context is based on a syntactic structure of the source code. The features may be extracted from a line of source code, a method, a class and/or any combination thereof. The features are then converted into a binary representation of feature vectors that train a machine learning model to predict the likelihood of a software bug in a source code file.",
+  "filing_date": "20161128",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. A machine learning model is trained to predict the probability of a software bug in a source code file. The model is trained during a training phase that mines source code repositories for source code files having source code statements with and without software bugs. Features associated with the syntactic structure or context of the source code file is then extracted for analysis in order to generate feature vectors that train the machine learning model. The feature vectors may represent syntactic information from each line of source code, from each method in a source code file, and for each class of a source code file and/or any combination thereof. The feature vectors are used to train a machine learning model to determine the likelihood that a source code bug is present in a target source code file. These and other features and advantages will be apparent from a reading of the following detailed description and a review of the associated drawings. It is to be understood that both the foregoing general description and the following detailed description are explanatory only and are not restrictive of aspects as claimed.",
+  "date_published": "20180531",
+  "title": "SOURCE CODE BUG PREDICTION",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1136",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 61599,
+    "optimized_size": 3800,
+    "reduction_percent": 93.83
+  }
+}

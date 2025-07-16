@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15038031",
+  "date_published": "20161020",
+  "date_produced": "20161005",
+  "title": "DATA REORDER DURING MEMORY ACCESS",
+  "filing_date": "20160519",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lu",
+      "inventor_name_first": "Shih-Lien L.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shiah",
+      "inventor_name_first": "Chun",
+      "inventor_city": "Hsinchu",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Rong",
+      "inventor_name_first": "Bordoou",
+      "inventor_city": "Chupei",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Schaefer",
+      "inventor_name_first": "Andre",
+      "inventor_city": "Sassenburg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G06F930"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Embodiments will be readily understood by the following detailed description in conjunction with the accompanying drawings. To facilitate this description, like reference numerals designate like structural elements. Embodiments are illustrated by way of example and not by way of limitation in the figures of the accompanying drawings. FIG. 1 illustrates an example system including a memory controller, in accordance with various embodiments. FIG. 2 illustrates an example table of memory reordering operations, in accordance with various embodiments. FIG. 3 illustrates an alternative example table of memory reordering operations, in accordance with various embodiments. FIG. 4 illustrates an example process for reordering data read from a memory, in accordance with various embodiments. FIG. 5 illustrates an example system configured to perform the processes described herein, in accordance with various embodiments. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "Embodiments including systems, methods, and apparatuses associated with reordering data retrieved from a dynamic random access memory (DRAM). A memory controller may be configured to receive an instruction from a central processing unit (CPU) and, based on the instruction, retrieve a sequential data from a DRAM. The memory controller may then be configured to reorder the sequential data and place the reordered data in one or more locations of a vector register file.",
+  "publication_number": "US20160306566A1-20161020",
+  "_processing_info": {
+    "original_size": 54116,
+    "optimized_size": 2468,
+    "reduction_percent": 95.44
+  }
+}

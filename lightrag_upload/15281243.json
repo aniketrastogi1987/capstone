@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15281243",
+  "date_published": "20180405",
+  "date_produced": "20180322",
+  "title": "INTER-TABLE PARALLEL REFRESH MAXIMIZER",
+  "filing_date": "20160930",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kedia",
+      "inventor_name_first": "Pravin K.",
+      "inventor_city": "Mumbai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Kumar",
+      "inventor_name_first": "Nirmal",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Sarkar",
+      "inventor_name_first": "Dev K.",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Spyker",
+      "inventor_name_first": "James D.",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>As disclosed herein, a method for inter-table parallel refresh in a database management system (DBMS), the method comprising: receiving, by an inter-table refresher, DBMS source database and DBMS target database wherein the DBMS source database comprise source parent datasets and related source child datasets; determining, by the inter-table refresher, a collection of the source parent datasets and the related source child datasets for the inter-table refresh; creating, by the inter-table refresher, a collection of parent refresh segments and a related collection of child refresh segments based on the collection of the source parent datasets and the related source child datasets; creating, by the inter-table refresher, a collection of parent refresh batches and a collection of child refresh batches based on the collection of parent refresh segments and the collection of child refresh segments respectively and outputting, by the inter-table refresher, an inter-table refresh batch schedule based on the collection of the parent refresh batches and the collection of the child refresh batches wherein the collection of the parent refresh batches and the collection of the child refresh batches operate concurrently and a current child refresh batch follows a completion of a respective current parent refresh batch. A computer system and a computer program product corresponding to the above method are also disclosed herein.",
+  "patent_number": "None",
+  "abstract": "An approach for inter-table parallel refresh in a database management system (DBMS). An inter-table refresher receives DBMS source and target databases comprising source parent and related source child datasets. The inter-table refresher determines a collection of the source parent and the related source child datasets and creates a collection of parent and child refresh segments based on the collection of the source parent and child datasets. The inter-table refresher creates a collection of parent and child refresh batches based on the collection of parent and child refresh segments respectively and outputs an inter-table refresh batch schedule based on the collection of the parent refresh batches and the collection of the child refresh batches where the collection of the parent refresh batches and the collection of the child refresh batches operate concurrently and a current child refresh batch follows the completion of a respective current parent refresh batch.",
+  "publication_number": "US20180095971A1-20180405",
+  "_processing_info": {
+    "original_size": 47085,
+    "optimized_size": 3392,
+    "reduction_percent": 92.8
+  }
+}

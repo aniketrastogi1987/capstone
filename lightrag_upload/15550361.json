@@ -1,0 +1,45 @@
+{
+  "patent_number": "nan",
+  "application_number": "15550361",
+  "date_published": "20180823",
+  "date_produced": "20180808",
+  "filing_date": "20170810",
+  "main_ipcr_label": "G06N308",
+  "abstract": "The present invention discloses an improved extreme learning machine method based on artificial bee colony optimization, which includes the following steps: Step 1, generating an initial solution for SN individuals: Step 2, globally optimizing a connection weight ω and a threshold b for the extreme learning machine; Step 3, locally optimizing the connection weight ω and threshold b of the extreme learning machine; Step 4, if food source information is not updated within a certain time, transforming employed bees into scout bees, and reinitializing the individuals after returning to Step 1; and Step 5, extracting the connection weight ω and threshold b of the extreme learning machine from the best individuals, and verifying by using a test set. With the method provided by the present invention, the defect of worse results of the traditional extreme learning machine in classification and regression is overcomed, and effectively improves the results of classification and regression.",
+  "publication_number": "US20180240018A1-20180823",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>With respect to the defects occurring when the traditional extreme learning machine is applied to classification and regression, the present invention proposes an improved extreme learning machine method based on artificial bee colony optimization (DECABC-ELM) in view of the traditional extreme learning machine, which effectively increases the effects of classification and regression. The technical solution of the present invention is as follows: an improved extreme learning machine method based on artificial bee colony optimization comprises the following steps: given a training sample set (x i ,y i ) (i=1, 2, . . . , N), x i ∈R d , y i ∈R m , with an activation function of g( ), and the number of hidden nodes of L; Step 1, generating an initial solution for SN individuals as follows: in-line-formulae description=\"In-line Formulae\" end=\"lead\"? x i,j =x j min +rand[0,1]( x j max −x j min ),  (7) in-line-formulae description=\"In-line Formulae\" end=\"tail\"? wherein each individual is encoded in a manner as shown below: in-line-formulae description=\"In-line Formulae\" end=\"lead\"? θ G =[ω l,G T , . . . ,ω L,G T ,b l,G , . . . ,b L,G ]; in-line-formulae description=\"In-line Formulae\" end=\"tail\"? and during encoding, ωj(j=1, . . . , L) is a D-dimensional vector, with each dimension being a random number ranging from −1 to 1, b j is a random number ranging from 0 to 1, and G indicates an iteration number for a bee colony; Step 2, globally optimizing a connection weight ω and a threshold b for an extreme learning machine as follows: in-line-formulae description=\"In-line Formulae\" end=\"lead\"? v i,j =x ĩ,j +rand[−1,1]( x best,j −x k,j +x l,j −x m,j ),  (8) in-line-formulae description=\"In-line Formulae\" end=\"tail\"? wherein in formula (8), x best, j stands for a currently best individual in the bee colony, x k, j , x l, j and x m, j are another three different individuals chosen randomly other than the current individual, i.e, i≠k≠l≠m; wheneve...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N300"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MAO",
+      "inventor_name_first": "Li",
+      "inventor_city": "Wuxi",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "MAO",
+      "inventor_name_first": "Yu",
+      "inventor_city": "Wuxi",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "XIAO",
+      "inventor_name_first": "Yongsong",
+      "inventor_city": "Wuxi",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "IMPROVED EXTREME LEARNING MACHINE METHOD BASED ON ARTIFICIAL BEE COLONY OPTIMIZATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 54875,
+    "optimized_size": 3975,
+    "reduction_percent": 92.76
+  }
+}

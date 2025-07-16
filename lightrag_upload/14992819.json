@@ -1,0 +1,30 @@
+{
+  "date_produced": "20170627",
+  "publication_number": "US20170200089A1-20170713",
+  "main_ipcr_label": "G06N700",
+  "decision": "REJECTED",
+  "application_number": "14992819",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Norden E.",
+      "inventor_city": "Taoyuan City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "abstract": "The invention provides a method for data analyzing. The method comprises receiving a data, and decomposing the data into a plurality of intrinsic mode functions (IMFs) by utilizing an empirical mode decomposition (EMD) method, wherein the IMFs are a value changes over time of the data in different frequencies. The method further comprises obtaining a plurality of probability density functions based on accumulating the distribution of each IMF according to a longest mean time scale, and generating an intrinsic probability distribution function (iPDF) component spectrum, wherein the iPDF component spectrum comprises the distribution of probability density functions between a frequency dimensional and a standard deviation dimensional. This invention result of the method can be used as a diagnosis tool implementing in a system.",
+  "filing_date": "20160111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention provides a method for data analyzing in a data analyzing processor, comprises receiving a data, then decomposing the data into a plurality of intrinsic mode functions (IMFs) by utilizing an empirical mode decomposition (EMD) method, wherein the intrinsic mode functions are a value changes over time of the data in different frequencies, obtaining a plurality of probability density functions based on accumulating the distribution of each IMF according to a longest mean time scale, and generating an intrinsic probability distribution function (iPDF) component spectrum, wherein the iPDF component spectrum comprises the distribution of probability density functions between a frequency dimensional and a standard deviation dimensional. This invention result of the method can be used as a diagnosis tool implementing in a system. In an embodiment of the invention, a system for data analyzing comprises a measurement processor, an analysis processor and an outputting processor. The measurement processor receives a data. The analyzing processor is connected the measurement processor for decomposing the data into a plurality of IMFs by utilizing an EMD method, obtains a plurality of probability density functions based on accumulating the distribution of each IMF according to a longest mean time scale. The outputting processor is connected the analyzing processor for generating an iPDF component spectrum, wherein the iPDF component spectrum comprises the distribution of probability density functions between a frequency dimensional and a standard deviation dimensional. Other systems, methods, features, and advantages of the present disclosure will be or become apparent to one with skill in the art upon examination of the following drawings and detailed description. It is intended that all such additional systems, methods, features, and advantages be included within this description, be within the scope of the present disclo...",
+  "date_published": "20170713",
+  "title": "METHOD AND SYSTEM FOR DATA ANALYZING BY INTRINSIC PROBABILITY DISTRIBUTION FUNCTION",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 45262,
+    "optimized_size": 3411,
+    "reduction_percent": 92.46
+  }
+}

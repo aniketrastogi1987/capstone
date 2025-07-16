@@ -1,0 +1,47 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060750A1-20180301",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15247483",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sheppard",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Brooklyn",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Donato",
+      "inventor_name_first": "Paul",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Doe",
+      "inventor_name_first": "Peter C.",
+      "inventor_city": "Ridgewood",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Example methods disclosed herein include accessing a query requesting a metric associated with a number of unique members of an audience of media over an aggregate monitoring interval corresponding to a plurality of component monitoring intervals. Disclosed example methods also include determining respective aggregate interval probability distributions modeling likelihoods of respective monitored individuals being exposed to the media during the aggregate monitoring interval, a first one of the aggregate interval probability distributions for a first one of the monitored individuals being determined by combining parameters of respective component interval probability distributions modeling likelihoods of the first one of the monitored individuals being exposed to the media during respective ones of the component monitoring intervals. Disclosed example methods further include evaluating an audience-level probability distribution determined from the aggregate interval probability distrib...",
+  "filing_date": "20160825",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 illustrates example client devices that report audience impressions for Internet-based media to impression collection entities to facilitate identifying numbers of impressions and sizes of audiences exposed to different Internet-based media. FIG. 2 is an example communication flow diagram illustrating an example manner in which an example audience measurement entity and an example database proprietor can collect impressions and demographic information associated with a client device. FIG. 3 is a block diagram of an example probabilistic audience estimator that may be included in the example audience measurement entity and/or the example database proprietor of FIGS. 1 and/or 2 to determine metrics characterizing numbers of unique members of media audiences in accordance with the teachings of this disclosure. FIGS. 4-6 illustrate example probability distributions utilized by the example probabilistic audience estimator of FIG. 3 to determine metrics characterizing numbers of unique members of media audiences in accordance with the teachings of this disclosure. FIG. 7 is a flowchart representative of example computer readable instructions that may be executed to implement the example probabilistic audience estimator of FIG. 3 . FIG. 8 is a block diagram of an example processor platform structured to execute the example computer readable instructions of FIG. 7 to implement the example probabilistic audience estimator of FIG. 3 . detailed-description description=\"Detailed Description\" end=\"lead\"? The figures are not to scale. Wherever possible, the same reference numbers will be used throughout the drawing(s) and accompanying written description to refer to the same or like parts, elements, etc.",
+  "date_published": "20180301",
+  "title": "DETERMINING METRICS CHARACTERIZING NUMBERS OF UNIQUE MEMBERS OF MEDIA AUDIENCES",
+  "ipcr_labels": [
+    "G06N700",
+    "H04L2908",
+    "H04L2906",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 110693,
+    "optimized_size": 3671,
+    "reduction_percent": 96.68
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15293679",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "title": "IMAGE PROCESSING SYSTEM AND METHOD",
+  "filing_date": "20161014",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gorelick",
+      "inventor_name_first": "Micha",
+      "inventor_city": "Brooklyn",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mason",
+      "inventor_name_first": "Hilary",
+      "inventor_city": "Brooklyn",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Custer",
+      "inventor_name_first": "Grant",
+      "inventor_city": "Brooklyn",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K962",
+    "G06F1730",
+    "G06K972"
+  ],
+  "main_ipcr_label": "G06K962",
+  "summary": "<SOH> SUMMARY <EOH>We have devised a system and approach that represents an improvement to the field of computerized image processing. Advantageously, our solution is broadly suitable for use with any application for which there is a hierarchical taxonomy available, for example in biology—Life, Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species, Sub-species, and for which a set of images is also available where each image in the set is annotated by one or more of the labels at a most specific level of the taxonomy (e.g., grey wolf, basset hound, Indian elephant, etc.). One aspect of this disclosure involves an image processing system. The image processing system includes a camera, at least one processor associated with the camera, non-transitory storage, associated with the camera and accessible to the processor. The non-transitory storage has therein, at least an image obtained via the camera, and programming executable by the at least one processor. The image processing system also includes a lexical database of terms that is accessible to the processor. The lexical database of terms is arranged in a hierarchy including a single root node, multiple leaf nodes, and multiple hypernym nodes, located between the root node and at least one leaf node and is further arranged such that an individual hypernym node will have either: the root node or another hypernym node as a parent node, and at least one leaf node or hypernym node as a child node. In addition, the root node is associated with a term in the hierarchy of greatest generality. Also, each of the leaf nodes has an associated hyponym term, the hyponym terms representing terms in the hierarchy of greatest specificity, and each of the hypernym nodes is associated with a term that is more specific than its parent node and less specific than each of its child nodes. Finally, each of the hyponym terms has an assigned value between 0 and 1. The image processing system additionally includes image classificati...",
+  "patent_number": "9946958",
+  "abstract": "An image processing system involves a camera, at least one processor associated with the camera, non-transitory storage, a lexical database of terms and image classification software. The image processing system uses the image classification software to assign hyponyms and associated probabilities to an image and then builds a subset hierarchical tree of hypernyms from the lexical database of terms. The processor then scores the hypernyms and identifies at least one hypernym for the image that has a score that is calculated to have a value that is greater than one of: a pre-specified threshold score, or all other calculated level scores within the subset hierarchical tree. The associated methods are also disclosed.",
+  "publication_number": "US20180107899A1-20180419",
+  "_processing_info": {
+    "original_size": 56164,
+    "optimized_size": 3569,
+    "reduction_percent": 93.65
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "date_produced": "20170412",
+  "publication_number": "US20170116524A1-20170427",
+  "main_ipcr_label": "G06N312",
+  "decision": "PENDING",
+  "application_number": "15331258",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hariharan",
+      "inventor_name_first": "Sreeram",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Raman",
+      "inventor_name_first": "Ramchand",
+      "inventor_city": "Redwood City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ratnam",
+      "inventor_name_first": "Gopal Raja",
+      "inventor_city": "Redwood City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Siu Him So",
+      "inventor_name_first": "Bryan",
+      "inventor_city": "Hayward",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Arora",
+      "inventor_name_first": "Usha",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nookala",
+      "inventor_name_first": "Ganga Mohan",
+      "inventor_city": "Miyapur",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Jonnalagadda",
+      "inventor_name_first": "Krishna",
+      "inventor_city": "Secunderabad",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Nagasuri",
+      "inventor_name_first": "Pushkala",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Uppala",
+      "inventor_name_first": "Swathi",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Mani",
+      "inventor_name_first": "Sangeetha",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "Feature engineering can be performed on time series data making the data easy to manipulate and accessible to business users for analysis according to existing best practices. A computer system can, after receiving time series data related to a device, contextualize the time series data based on business data related to the device from, for example, an enterprise resource planning database. The contextualized data can be windowed by a selected feature based on execution data related to the device from, for example, a manufacturing execution system database. The windowed data can be transformed into summary data using a time series transformation. The summary data can be easily manipulated by, for example, generating genetic maps of the segmented and transformed data for clustering or searching for anomalies and patterns in response to user requests or automatically.",
+  "filing_date": "20161021",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method and system are described for performing feature engineering of time series data. The system can include a memory and a processor for executing instructions stored on the memory. The instructions can cause the processor to perform the steps of the method for performing feature engineering of time series data. The method can include receiving time series data related to a device for a period of time. The time series data can include information about the device for the period of time. The method can further include contextualizing the time series data based on business data related to the device for the period of time. The method can further include feature windowing the contextualized data based on execution data related to the device for the period of time. The resulting windowed data can be a set of windows of data, which can each be transformed into summary data using a time series transformation. The summary data sets can be stored. Optionally, transforming the windows of data into summary data can include generating a string for each window of data by normalizing the data, smoothing the data using piecewise aggregate approximation, and converting the data into a string. The method can further include converting each string into a genetic map and clustering the genetic maps to identify pattern similarities between the genetic maps. Once the patterns are identified, the genetic maps can be grouped based on the identified pattern similarities and displayed to a user. The method can further include receiving a selection of a second time series data from a user. The second time series data can be data related to the device for a second period of time. The method can also include transforming the second time series data into summary data. The method can further include searching the first time series summary data for a pattern matching a pattern in the second time series data. Upon finding a matching pattern, the method can include displayi...",
+  "date_published": "20170427",
+  "title": "SENSOR TIME SERIES DATA: FUNCTIONAL SEGMENTATION FOR EFFECTIVE MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N312",
+    "G06N504",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 104318,
+    "optimized_size": 4816,
+    "reduction_percent": 95.38
+  }
+}

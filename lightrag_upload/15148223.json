@@ -1,0 +1,31 @@
+{
+  "date_produced": "20171025",
+  "publication_number": "US20170323216A1-20171109",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15148223",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fano",
+      "inventor_name_first": "Andrew E.",
+      "inventor_city": "Lincolnshire",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for determining retraining predictive models. One of the methods includes maintaining, by a computer system of an enterprise, one or more predictive models. The computer system receives operational data and uses each of the one or more predictive models to generate predictions using the received operational data. An indication of a systemic change in the computer system is received. The method includes determining that one or more retraining rules specify that at least one of the one or more predictive models should be retrained due to the systemic change, and in response, obtaining updated training data and retraining the predictive model using the updated training data.",
+  "filing_date": "20160506",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Implementations of the present disclosure include computer-implemented methods for determining retraining of predictive models. In some implementations, actions include maintaining, by a computer system of an enterprise, one or more predictive models. The computer system receives operational data and uses each of the one or more predictive models to generate predictions using the received operational data. An indication of a systemic change in the computer system is received. The actions include determining that one or more retraining rules specify that at least one of the one or more predictive models should be retrained due to the systemic change, and in response, obtaining updated training data and retraining the predictive model using the updated training data. Other implementations of this aspect include corresponding systems, apparatus, and computer programs, configured to perform the actions of the methods, encoded on computer storage devices. These and other implementations can each optionally include one or more of the following features. The systemic change can include a change to data governance policies of the enterprise. Data governance policies of the enterprise can include data definitions, data quality standards, and processes for data management. The systemic change can include a change to business data associated with the received operational data. The systemic change can include a change in the computer system exclusive of the received operational data. A determination can be made of whether a performance of the retrained predictive model satisfies a threshold. When the performance of the retrained predictive model does not satisfy the threshold, the one or more retraining rules can be updated. Retraining the predictive model using the updated training data can include partially retraining the predictive model and assessing a performance of the partially retrained predictive model. Obtaining updated training data can include gat...",
+  "date_published": "20171109",
+  "title": "DETERMINING RETRAINING OF PREDICTIVE MODELS",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 60046,
+    "optimized_size": 3327,
+    "reduction_percent": 94.46
+  }
+}

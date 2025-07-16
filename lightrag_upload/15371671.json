@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180418",
+  "publication_number": "US20180121793A1-20180503",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15371671",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BHANDARY",
+      "inventor_name_first": "Chiranjib",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "Embodiments of the invention provide a method and system for machine failure prediction. The method comprises: identifying a plurality of basic memory depth values based on a machine failure history; ascertaining a basic weight range for each of the plurality of basic memory depth values according to a pre-stored table including a plurality of mappings each mapping between a basic memory depth value and a basic weight range, or a predetermined formula for calculating the basic weight range based on the corresponding basic memory depth value; ascertaining a composite initial weight range by calculating an average weight range of the ascertained basic weight range for each identified basic memory depth value; generating initial weights based on the composite initial weight range; and predicting a future failure using a Back Propagation Through Time (BPTT) trained Recurrent Neural Network (RNN) based on the generated initial weights.",
+  "filing_date": "20161207",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>Embodiments of the invention provide a machine failure prediction solution which can handle long time gaps between successive failures. According to one aspect of the invention, a method for machine failure prediction is provided. The method comprises: identifying, by a first processor in a first computer system, a plurality of basic memory depth values based on a machine failure history; ascertaining, by the first processor, a basic weight range for each of the plurality of basic memory depth values according to a pre-stored table which is stored in a memory and includes a plurality of mappings wherein each mapping relates a basic memory depth value to a basic weight range, or according to a predetermined formula for calculating the basic weight range based on the corresponding basic memory depth value; ascertaining, by the first processor, a composite initial weight range by calculating an average weight range of the ascertained basic weight range for each identified basic memory depth value; generating, by the first processor, initial weights based on the composite initial weight range; and predicting, by the first processor, a future failure using a Back Propagation Through Time (BPTT) trained Recurrent Neural Network (RNN) based on the generated initial weights. According to another aspect of the invention, a system for machine failure prediction is provided. The system comprises: a first processor and a memory communicably coupled thereto, wherein the first memory is configured to store data to be executed by the first processor, wherein the first processor is configured to identify a plurality of basic memory depth values based on a machine failure history; ascertain a basic weight range for each of the plurality of basic memory depth values according to a pre-stored table which is stored in the memory and includes a plurality of mappings wherein each mapping relates a basic memory depth value to a basic weight range, or accord...",
+  "date_published": "20180503",
+  "title": "METHOD AND SYSTEM FOR MACHINE FAILURE PREDICTION",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 47689,
+    "optimized_size": 3495,
+    "reduction_percent": 92.67
+  }
+}

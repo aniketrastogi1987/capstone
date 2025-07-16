@@ -1,0 +1,45 @@
+{
+  "date_produced": "20161005",
+  "publication_number": "US20160307095A1-20161020",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15000852",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Jinyu",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gong",
+      "inventor_name_first": "Yifan",
+      "inventor_city": "Sammamish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Yongqiang",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Conversion of a large-footprint DNN to a small-print DNN is performed using a variety of techniques, including split-vector quantization. The small-foot print DNN may be distributed to a variety of devices, including mobile devices. Further, the small-footprint DNN may aid a digital assistant on a device in interpreting speech input.",
+  "filing_date": "20160119",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The technologies described herein generally relate to converting a neural network system having a relatively large footprint (e.g., larger storage size) into a neural network system having a relatively smaller footprint (e.g., smaller storage size) such that the smaller-footprint neural network system may be more easily utilized by on one or more resource constrained devices. Aspects disclosed herein relate to reducing the storage size of a large-footprint DNN having one or more matrices. The one or more matrices of the large-footprint DNN store numerical values that are used in evaluating features of an audio signal. Evaluation of these features using the numerical values in the matrices allows the large-footprint DNN to determine a probability that the audio signal corresponds to particular utterance, word, phrase, and/or sentence. As discussed below, aspects of this disclosure relate to conversion techniques, that when applied to one or more matrices of a large-footprint DNN, result in a smaller matrix size. One conversion technique includes analyzing vectors of a large-footprint DNN matrix to identify portions of the vectors (e.g., sub-vectors) that have similar numerical properties. Sub-vectors with similar numerical properties are grouped. An approximation (or codeword) of the group may be determined for a group. Codewords are then indexed into a codebook, which contains the address of the codewords. In aspects of technology, after the codebook is obtained, the codewords can be fine-tuned using a variety of neural network training techniques. Using the codebook to index to the appropriate codeword corresponding to the groups of sub-vectors, a small-footprint DNN matrix can be formed. This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it ...",
+  "date_published": "20161020",
+  "title": "SMALL-FOOTPRINT DEEP NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 62563,
+    "optimized_size": 3154,
+    "reduction_percent": 94.96
+  }
+}

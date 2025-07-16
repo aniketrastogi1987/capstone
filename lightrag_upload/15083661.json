@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286838A1-20171005",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15083661",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cipriani",
+      "inventor_name_first": "James P.",
+      "inventor_city": "Danbury",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Khabibrakhmanov",
+      "inventor_name_first": "Ildar",
+      "inventor_city": "Syosset",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Younghun",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lu",
+      "inventor_name_first": "Siyuan",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Praino",
+      "inventor_name_first": "Anthony P.",
+      "inventor_city": "Poughquag",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for predicting solar power generation receives historical power profile data and historical weather micro-forecast data at a given location for a set of days. Based on power output features for the days, clusters are generated. A classification model that assigns a day to a generated cluster according to weather features is created. For each cluster, a regression model that takes as input weather features and outputs predicted solar power is built. A system includes a sensor for collecting meteorological data at a solar farm, a meter for measuring photovoltaic power output of the solar farm, and a computer processor for executing instructions to predict solar power generation at the solar farm according to the method disclosed, based on data from the sensor and the meter, for a predefined time period. Further instructions predict solar power generation at the solar farm based on a micro-forecast for the solar farm.",
+  "filing_date": "20160329",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention disclose a computer-implemented method, computer program product, and system for predicting photovoltaic solar power generation. In one aspect of the invention, a method comprises receiving historical power profile data and historical weather micro-forecast data at a given location for a set of days. Based on power output features of days of the set of days, clusters are generated. A classification model that assigns a day to a generated cluster according to weather features of the day is created. For each generated cluster, a regression model that takes as input weather features of a day and outputs predicted solar power is built. One advantage of the disclosed method, based on clustering, classification, and regression, may be reduced bias relative to present solar power output prediction models. In an aspect of the invention, the historical weather micro-forecast data comprises measurements at specified time intervals of one or more of: direct normal irradiance, direct horizontal irradiance, diffuse horizontal irradiance, global horizontal irradiance, and solar zenith angle. Such historical weather micro-forecast data is advantageous in being particularly relevant to solar power generation. In another aspect of the invention, the method further comprises receiving a weather micro-forecast for the given location for a range of days. The weather features for a day of the range of days are determined from the weather micro-forecast. The classification model is used to assign the day to a generated cluster, based on the determined weather features. The regression model for the generated cluster is used to compute a predicted power output for the day. One advantage of this method may be to provide a solar power output prediction with reduced bias relative to current methods. In another aspect of the invention, a system comprises a sensor for collecting meteorological data in a region of a solar farm for use in a ...",
+  "date_published": "20171005",
+  "title": "PREDICTING SOLAR POWER GENERATION USING SEMI-SUPERVISED LEARNING",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 59506,
+    "optimized_size": 4107,
+    "reduction_percent": 93.1
+  }
+}

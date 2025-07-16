@@ -1,0 +1,60 @@
+{
+  "date_produced": "20171227",
+  "publication_number": "US20180012121A1-20180111",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15205798",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Chaochun",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Du",
+      "inventor_name_first": "Nan",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tan",
+      "inventor_name_first": "Shulong",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fei",
+      "inventor_name_first": "Hongliang",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fan",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Presented are relation inference methods and systems that use deep learning techniques for data mining documents to discover a relation between terms of interest in a given field covering a specific topic. For example, in the healthcare domain, various embodiments of the present disclosure provide for a relation inference system that mines large-scale medical documents in a free-text database to extract symptom and disease terms and generates relation information that aids in disease diagnosis. In embodiments, this is accomplished by training and using an RNN, such as an LSTM, a Gated Recurrent Unit (GRU), etc., that takes advantage of a term dictionary to examine co-occurrences of terms of interest within documents to discover correlations between the terms. The correlation may then be used to predict statistically most probable terms (e.g., a disease) related to a given search term (e.g., a symptom).",
+  "filing_date": "20160708",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>References will be made to embodiments of the invention, examples of which may be illustrated in the accompanying figures. These figures are intended to be illustrative, not limiting. Although the invention is generally described in the context of these embodiments, it should be understood that it is not intended to limit the scope of the invention to these particular embodiments. FIGURE (“FIG.”) 1 depicts a simplified block diagram of an exemplary computing system for mining documents that are used to train a Recurrent Neural Network (RNN) to generate relation information between terms of interest, according to various embodiments of the present disclosure. FIG. 2 is a flowchart that illustrates an exemplary method for mining documents to train an RNN to recognize a correlation between terms of interest, according to various embodiments of the present disclosure. FIG. 3 is a flowchart that illustrates an exemplary method for using a trained RNN to infer a relevant term based on an input term of interest, according to various embodiments of the present disclosure. FIG. 4 depicts a simplified block diagram of an exemplary computing system for that uses a trained RNN to infer a relevant term based on an input term of interest, according to various embodiments of the present disclosure. FIG. 5 illustrates an exemplary computing system for mining documents to train and use an RNN that allows to infer relevant terms, according to various embodiments of the present disclosure. FIG. 6 depicts a simplified block diagram of a computing system comprising an RNN for generating relation information from which related terms may be inferred, according to various embodiments of the present invention. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180111",
+  "title": "SYSTEMS AND METHODS FOR RELATION INFERENCE",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 34481,
+    "optimized_size": 3880,
+    "reduction_percent": 88.75
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date_produced": "20180503",
+  "publication_number": "US20180137400A1-20180517",
+  "main_ipcr_label": "G06N300",
+  "decision": "PENDING",
+  "application_number": "15349037",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Deselaers",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Carbune",
+      "inventor_name_first": "Victor",
+      "inventor_city": "Basel",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Gonnet Anders",
+      "inventor_name_first": "Pedro",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Keysers",
+      "inventor_name_first": "Daniel Martin",
+      "inventor_city": "Stallikon",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "abstract": "The present disclosure provides systems and methods that leverage machine-learned models (e.g., neural networks) to provide enhanced communication assistance. In particular, the systems and methods of the present disclosure can include or otherwise leverage a machine-learned communication assistance model to detect problematic statements included in a communication and/or provide suggested replacement statements to respectively replace the problematic statements. In one particular example, the communication assistance model can include a long short-term memory recurrent neural network that detects an inappropriate tone or unintended meaning within a user-composed communication and provides one or more suggested replacement statements to replace the problematic statements.",
+  "filing_date": "20161111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Aspects and advantages of embodiments of the present disclosure will be set forth in part in the following description, or can be learned from the description, or can be learned through practice of the embodiments. One example aspect of the present disclosure is directed to a computer-implemented method for communication assistance. The method includes receiving, by one or more computing devices, a first communication provided by a user. The method includes providing, by the one or more computing devices, a first set of sequential communication data descriptive of the first communication provided by the user for input into a machine-learned communication assistance model. The machine-learned communication assistance model includes at least one long short-term memory recurrent neural network. The method includes receiving, by the one or more computing devices, one or more indications that respectively identify one or more problematic statements included in the first communication. The one or more indications were output by the machine-learned communication assistance model. The method includes providing, by the one or more computing devices, information regarding the one or more problematic statements for display to the user. Another example aspect of the present disclosure is directed to a computing system to provide communication assistance. The computing system includes at least one processor. The computing system includes a machine-learned communication assistance model that includes at least one recurrent neural network. The communication assistance model is trained to receive a first set of sequential communication data descriptive of a first communication provided by a user and, in response to receipt of the first set of sequential communication data, detect one or more problematic statements included in the first communication. The computing system includes at least one tangible, non-transitory computer-readable medium that stores instructi...",
+  "date_published": "20180517",
+  "title": "Enhanced Communication Assistance with Deep Learning",
+  "ipcr_labels": [
+    "G06N300",
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 84008,
+    "optimized_size": 3786,
+    "reduction_percent": 95.49
+  }
+}

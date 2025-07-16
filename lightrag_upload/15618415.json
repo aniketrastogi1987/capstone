@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15618415",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "filing_date": "20170609",
+  "main_ipcr_label": "G06N304",
+  "abstract": "The present application discloses a method and apparatus for processing a data sequence. A specific implementation of the method includes: receiving an inputted to-be-processed data sequence; copying a weight matrix in a recurrent neural network model to an embedded block random access memory (RAM) of a field-programmable gate array (FPGA); processing sequentially each piece of to-be-processed data in the to-be-processed data sequence by using an activation function in the recurrent neural network model and the weight matrix stored in the embedded block RAM; and outputting a processed data sequence corresponding to the to-be-processed data sequence. This implementation improves the data sequence processing efficiency of the recurrent neural network model.",
+  "publication_number": "US20180129933A1-20180510",
+  "summary": "<SOH> SUMMARY <EOH>An objective of the present application is to provide an improved method and apparatus for processing a data sequence, in order to solve the technical problem mentioned above. According to a first aspect, the present application provides a method for processing a data sequence, comprising: receiving an inputted to-be-processed data sequence; copying a weight matrix in a recurrent neural network model to an embedded block random access memory (RAM) of a field-programmable gate array (FPGA); processing sequentially each piece of to-be-processed data in the to-be-processed data sequence by using an activation function in the recurrent neural network model and the weight matrix stored in the embedded block RAM; and outputting a processed data sequence corresponding to the to-be-processed data sequence. In some embodiments, the method further comprises: deleting the weight matrix stored in the embedded block RAM after the processed data sequence is output. In some embodiments, before the copying a weight matrix in a recurrent neural network model to an embedded block random access memory (RAM) of a field-programmable gate array (FPGA), the method comprises: calling an address assignment interface to assign a storage address in the embedded block RAM to the weight matrix. In some embodiments, the copying a weight matrix in a recurrent neural network model to an embedded block random access memory (RAM) of a field-programmable gate array (FPGA) comprises: calling a copying interface to copy the weight matrix stored in a double data rate synchronous dynamic random access memory to the storage address in the embedded block RAM that is assigned to the weight matrix In some embodiments, the deleting the weight matrix stored in the embedded block RAM comprises: calling a deletion interface to delete the weight matrix stored in the embedded block RAM. In some embodiments, the embedded block RAM is a static random access memory. According to a second aspect, th...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N3063"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Yong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Ouyang",
+      "inventor_name_first": "Jian",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Qi",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Sizhong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "Method and Apparatus for Processing Data Sequence",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 45810,
+    "optimized_size": 3724,
+    "reduction_percent": 91.87
+  }
+}

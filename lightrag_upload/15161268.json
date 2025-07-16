@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171108",
+  "publication_number": "US20170337478A1-20171123",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15161268",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sarikaya",
+      "inventor_name_first": "Ruhi",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Crook",
+      "inventor_name_first": "Paul A.",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Marin",
+      "inventor_name_first": "Marius Alexandru",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computer-implemented technique is described herein for training a personal digital assistant (PDA) component and a simulated user (SU) component via a self-learning strategy. The technique involves conducting interactions between the PDA component and the SU component over the course of plural dialogs, and with respect to plural tasks. These interactions yield training data. A training system uses the training data to generate and update analysis components used by both the PDA component and the SU component. According to one illustrative aspect, the SU component is configured to mimic the behavior of actual users, across a range of different user types.",
+  "filing_date": "20160522",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A computer-implemented technique is described herein for training a personal digital assistant (PDA) component in an automated manner (or at least a partially automated manner). The technique involves conducting interactions between the PDA component and a simulated user (SU) component over the course of plural dialogs, and with respect to plural tasks. These interactions yield training data. A training system uses a self-learning strategy to iteratively improve the performance of the PDA component based on the training data. The technique also uses the self-learning strategy to iteratively improve the performance of the SU component based on the training data. According to one illustrative aspect, the technique trains the SU component to mimic the behavior of actual users, across a range of different user types. For instance, the SU component takes account for both ideal user behavior and various forms of non-ideal (anomalous) user behavior. For example, the SU component can approximate the behavior of users who make ambiguous utterances, users who change their minds in the course of a dialog, etc. In the process of mimicking human-PDA dialog interactions, the PDA component and the SU component cooperatively generate new training data. According to another illustrative aspect, the technique assesses the performance of the SU component based on the extent to which it: (a) efficiently contributes to the completion of different kinds of tasks; and (b) approximates the behavior of the real users. According to another illustrative aspect, the SU component employs at least one neural network to map a particular PDA utterance (along with other context-based feature values) to a particular SU utterance. Overall, the technique expedites and reduces the cost of developing PDA-analysis components by eliminating or reducing the role of human experts in the training process. Further, the technique can produce more accurate and robust PDA-analysis components c...",
+  "date_published": "20171123",
+  "title": "Self-Learning Technique for Training a PDA Component and a Simulated User Component",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F316"
+  ],
+  "_processing_info": {
+    "original_size": 145416,
+    "optimized_size": 3545,
+    "reduction_percent": 97.56
+  }
+}

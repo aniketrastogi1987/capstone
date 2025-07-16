@@ -1,0 +1,83 @@
+{
+  "patent_number": "None",
+  "application_number": "15609800",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "filing_date": "20170531",
+  "main_ipcr_label": "G06N500",
+  "abstract": "Systems and techniques for determining relationships and association significance between entities are disclosed. The systems and techniques automatically identify supply chain relationships between companies based on unstructured text corpora. The system combines Machine Learning models to identify sentences mentioning supply chain between two companies (evidence), and an aggregation layer to take into account the evidence found and assign a confidence score to the relationship between companies.",
+  "publication_number": "US20180082183A1-20180322",
+  "summary": "<SOH> SUMMARY <EOH>Over the past few decades the amount of electronic data has grown to massive levels and the desire to search, manipulate, assimilate and otherwise make full use of such data has grown in kind. Such growth will only increase over the foreseeable future with sources of data growing rapidly. Not all data is in the same format or language and some data is structured (including metadata, i.e., data concerning or about the document, subjects of the document, source of data, field descriptors, signature data, etc.) and some data is unstructured, e.g., free text. Given data reaching an unprecedented amount, coming from diverse sources, and covering a variety of domains in heterogeneous formats, information providers are faced with the critical challenge to process, retrieve and present information to their users to satisfy their complex information needs. In one manner of implementation, the present invention is used in a family of services for building and querying an enterprise knowledge graph in order to address this challenge. We first acquire data from various sources via different approaches. Furthermore, we mine useful information from the data by adopting a variety of techniques, including Named Entity Recognition (NER) and Relation Extraction (RE); such mined information is further integrated with existing structured data (e.g., via Entity Linking (EL) techniques) to obtain relatively comprehensive descriptions of the entities. Modeling the data as an RDF graph model enables easy data management and embedding of rich semantics in processed data. Finally, to facilitate the querying of this mined and integrated data, i.e., the knowledge graph, the invention is described with a natural language interface, e.g., Thomson Reuters Discover, that allows users to ask questions of the knowledge graph in their own words; these natural language questions are translated into executable queries for answer retrieval. The present invention provides a system conf...",
+  "ipcr_labels": [
+    "G06N500",
+    "G06N9900",
+    "G06N502",
+    "G06K962",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hertz",
+      "inventor_name_first": "Shai",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Olof-Ors",
+      "inventor_name_first": "Mans",
+      "inventor_city": "Luzern",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Weinreb",
+      "inventor_name_first": "Enav",
+      "inventor_city": "Petah Tikva",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Hazai",
+      "inventor_name_first": "Oren",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Horrell",
+      "inventor_name_first": "Geoff",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Lindman",
+      "inventor_name_first": "Yael",
+      "inventor_city": "Shoham",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Mataraso",
+      "inventor_name_first": "Yoni",
+      "inventor_city": "New Hyde Park",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nivarthi",
+      "inventor_name_first": "Phani",
+      "inventor_city": "West New York",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "MACHINE LEARNING-BASED RELATIONSHIP ASSOCIATION AND RELATED DISCOVERY AND SEARCH ENGINES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 192903,
+    "optimized_size": 4134,
+    "reduction_percent": 97.86
+  }
+}

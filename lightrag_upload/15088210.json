@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15088210",
+  "date_published": "20170330",
+  "date_produced": "20170316",
+  "title": "GATE LENGTH UPSIZING FOR LOW LEAKAGE STANDARD CELLS",
+  "filing_date": "20160401",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KALASHNIKOV",
+      "inventor_name_first": "VIACHESLAV",
+      "inventor_city": "ZELENOGRAD",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "MALASHEVICH",
+      "inventor_name_first": "DENIS",
+      "inventor_city": "ZELENOGRAD",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "SEMENOV",
+      "inventor_name_first": "MIKHAIL",
+      "inventor_city": "ZELENOGRAD",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1750"
+  ],
+  "main_ipcr_label": "G06F1750",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE SEVERAL VIEWS OF THE DRAWINGS <EOH>The present disclosure may be better understood, and its numerous objects, features, and advantages made apparent to those skilled in the art by referencing the accompanying drawings, wherein: FIG. 1 is a diagram depicting one example of a library optimization system that generates modified standard cells and an integrated circuit design system that creates an integrated circuit design using the modified standard cells; FIG. 2 is a flowchart depicting one example of steps taken by a library optimization system to increase gate lengths of selective transistors in a standard cell to meet predetermined design requirements; FIG. 3 is a depiction of a graphical representation of cell leakage current relative to cell size of a standard cell; FIG. 4 is a diagram depicting one example of a standard cell that identifies transistor series chains having a maximum amount of same type transistors in series; FIG. 5 is a diagram depicting one example of a standard cell that outlines five transistors for which to upsize that are not part of identified transistor series chains having the maximum amount of same type transistors in series; FIG. 6 is a diagram depicting one example of a standard cell that outlines three transistors for which to upsize that are not part of a two-transistor series chain or a three-transistor series chain; FIG. 7 is a diagram depicting a footprint of a default standard cell; FIG. 8 is a diagram depicting a footprint of a modified standard cell that includes five upsized transistors corresponding to those outlined in FIG. 5 ; FIG. 9 is a diagram depicting a footprint of a modified standard cell that includes three upsized transistors corresponding to those outlined in FIG. 6 ; and FIG. 10 illustrates an information handling system, which is a simplified example of a computer system capable of performing the computing operations described herein. detailed-description description=\"Detailed Des...",
+  "patent_number": "None",
+  "abstract": "This disclosure describes a library optimization system that creates modified standard cells with reduced leakage currents that meet predefined cell area, timing, and leakage requirements. The library optimization system selects transistors to upsize based upon the fact that transistors of a same type, such as p-channel or n-channel transistors, that are connected in series produce a small reverse bias between the gate and source, known as a stacking effect. The stacking effect results in an inherent decrease in leakage current for the series-connected transistor chain. As such, the library optimization system adjusts gate lengths of transistors that are not part of the transistor series chains having a relatively large amount of same type transistors.",
+  "publication_number": "US20170091372A1-20170330",
+  "_processing_info": {
+    "original_size": 52648,
+    "optimized_size": 3611,
+    "reduction_percent": 93.14
+  }
+}

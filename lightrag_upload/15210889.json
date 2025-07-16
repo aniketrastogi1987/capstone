@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180103",
+  "publication_number": "US20180018579A1-20180118",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15210889",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Yongming",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "GOYAL",
+      "inventor_name_first": "RAM DAYAL",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "A method and a machine learning relationship determination system (MLRDS) for determining primary key-foreign key (PK-FK) relationships among data in tables of a target database through machine learning (ML) are provided. The MLRDS selects columns of the tables in the target database and identifies inclusion dependency (ID) pairs from the selected columns. The MLRDS receives training data and validation data from a source database, computes PK-FK features for the inclusion dependency pairs, the training data, and the validation data, and generates trained ML models and validated ML models using the PK-FK features. The MLRDS determines an optimum algorithm decision threshold for a selected machine learning classification algorithm (MLCA), using which the MLRDS determines a resultant on whether the inclusion dependency pair is a PK-FK pair or a non-PK-FK pair. The MLRDS performs majority voting on the resultant for multiple MLCAs to confirm the PK-FK relationships between the inclusion d...",
+  "filing_date": "20160715",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further disclosed in the detailed description of the invention. This summary is not intended to determine the scope of the claimed subject matter. The method and the system disclosed herein address the above mentioned need for determining primary key-foreign key relationships among schema elements, that is, data in multiple tables through machine learning using computation intensive processors. Moreover, the method and the system disclosed herein intelligently combine features of the data in each table for determining the primary key-foreign key relationship between actual schema elements. Furthermore, the method and the system disclosed herein split training data that trains machine learning classification algorithms in a manner to avoid skewing of the training data towards negative training data to avoid an erroneous classification of the schema elements by the machine learning classification algorithms. Furthermore, the method and the system disclosed herein intelligently combine multiple machine learning classification algorithms for determining the primary key-foreign key relationship between the actual schema elements. The method disclosed herein employs a machine learning relationship determination system (MLRDS) comprising at least one processor configured to execute computer program instructions for determining primary key-foreign key relationships among data in multiple tables of a target database through machine learning. The MLRDS selects a first column of data from a first table among the tables and a second column of data from a second table among the tables for each of the tables in the target database. The first column of data comprises a first column name. The second column of data comprises a second column name different from the first column name. The MLRDS identifies the selected first column of data as a prospective pri...",
+  "date_published": "20180118",
+  "title": "Primary Key-Foriegn Key Relationship Determination Through Machine Learning",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 187783,
+    "optimized_size": 3729,
+    "reduction_percent": 98.01
+  }
+}

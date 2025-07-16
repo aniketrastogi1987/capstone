@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15052010",
+  "date_published": "20170504",
+  "date_produced": "20170419",
+  "title": "MEMORY SYSTEM AND MEMORY DEVICE",
+  "filing_date": "20160224",
+  "inventor_list": [
+    {
+      "inventor_name_last": "EGUCHI",
+      "inventor_name_first": "Yasuyuki",
+      "inventor_city": "Kawasaki Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1110",
+    "H03M1329",
+    "G11C2952"
+  ],
+  "main_ipcr_label": "G06F1110",
+  "summary": "<SOH> [1-4-2-0] Summary of Second to Fourth Modifications <EOH>Second to fourth modifications of the memory system according to the first embodiment will be described. In the second to fourth modifications, the data and the first parity P1 are stored in the same bank and at the same page with the same row address. The second parity P2 is distributively stored in a plurality of banks in the memory cell array 207 or in a plurality of chips. However, the specific arrangement of the data, the first parity P1, and the second parity P2 varies among the second to fourth modifications. The modifications will be described below in order.",
+  "patent_number": "None",
+  "abstract": "According to one embodiment, a memory system comprises a memory array, a first ECC control circuit, and a second ECC control circuit. The memory cell array stores data, a first parity generated in association with the data based on a first error correction code (ECC) scheme, and a second parity generated in association with the data and the first parity based on a second error correction code (ECC) scheme. The first ECC control circuit executes error correction using the first ECC scheme and the first parity during a read operation on the memory cell array. The second ECC control circuit executes error correction using the second ECC scheme and the second parity during a scrub operation on the memory cell array. The first ECC scheme and the second ECC scheme have error correction capabilities of different levels.",
+  "publication_number": "US20170123903A1-20170504",
+  "_processing_info": {
+    "original_size": 78067,
+    "optimized_size": 2011,
+    "reduction_percent": 97.42
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date_produced": "20171011",
+  "publication_number": "US20170308810A1-20171026",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15335530",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Xu",
+      "inventor_city": "Apex",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Tao",
+      "inventor_city": "Apex",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computing device predicts occurrence of an event or classifies an object using semi-supervised data. A label set defines permissible values for a target variable. A value of the permissible values is defined for a subset of observation vectors. A predefined number of times, a distance matrix is computed that defines a distance value between pairs of observation vectors using a distance function and a converged classification matrix; a number of observation vectors is selected that have minimum values for the distance value; a label is requested and a response is received for each of the selected observation vectors; the value of the target variable is updated for each of the selected observation vectors with the received response; and the value of the target variable is determined again by recomputing the converged classification matrix. The value of the target variable for each observation vector is output to a second dataset.",
+  "filing_date": "20161027",
+  "patent_number": "9792562",
+  "summary": "<SOH> SUMMARY <EOH>In an example embodiment, a non-transitory computer-readable medium is provided having stored thereon computer-readable instructions that, when executed by a computing device, cause the computing device to predict occurrence of an event or to classify an object using semi-supervised data to label unlabeled data in a dataset. A dataset is read that includes a plurality of observation vectors. A label set is read that defines permissible values for a target variable. A value of the permissible values of the target variable is defined for a subset of the plurality of observation vectors. (a) A classification matrix is initialized based on the value of the target variable of each observation vector of the plurality of observation vectors; (b) a converged classification matrix is computed, wherein the converged classification matrix defines a label probability for each permissible value defined in the label set for each observation vector of the plurality of observation vectors; and (c) for each observation vector, the value of the target variable is updated based on a maximum label probability value identified from the converged classification matrix. A predefined number of times, a distance matrix is computed that defines a distance value between each pair of the plurality of observation vectors using a distance function and the converged classification matrix; a number of observation vectors is selected from the dataset that have minimum values for the distance value; a label is requested for each of the selected observation vectors; a response to the request is received for each of the selected observation vectors; the value of the target variable is updated for each of the selected observation vectors with the received response; and operations (a) to (c) are repeated. After the predefined number of times, the value of the target variable for each observation vector of the plurality of observation vectors is output to a second dataset. In yet anoth...",
+  "date_published": "20171026",
+  "title": "EVENT PREDICTION AND OBJECT RECOGNITION SYSTEM",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06N500"
+  ],
+  "_processing_info": {
+    "original_size": 70062,
+    "optimized_size": 3632,
+    "reduction_percent": 94.82
+  }
+}

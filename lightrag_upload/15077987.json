@@ -1,0 +1,40 @@
+{
+  "date_produced": "20170915",
+  "publication_number": "US20170278012A1-20170928",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15077987",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Prasad",
+      "inventor_name_first": "Ramya Hari Hara",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sundaram",
+      "inventor_name_first": "Girish",
+      "inventor_city": "Parsippany",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A performance management method, system, and non-transitory computer readable medium for a service for database as a service (DBaaS) in a cloud computing environment, include a receiving and comparing circuit configured to receive a service request from a user and compare the received service request to at least one prior received service request, a similarity calculating circuit configured to calculate a similarity between the service request and the at least one prior received service request based on a requirement that the service request places on the DBaaS, and a data verifying circuit configured to verify whether information within the database of the DBaaS has changed since an identical prior received service request based on the receiving and comparing circuit identifying the identical prior received service request.",
+  "filing_date": "20160323",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The inventors have considered a technical solution to the technical problem by deciding to make various thresholds in the service optimizer more aggressive (i.e., manage the cloud computing environment or the like) when the DBaaS in the cloud environment notes that a given QB/Service is running slower than normal. Thus, subsequent queries of the query/service requests may run faster, and the service request total runtime can be consistent with expectations. After the query/service request completes, the thresholds would return to normal, or could be saved to affect the thresholds of future query/service request. In an exemplary embodiment, the present invention can provide a performance management system for a service for database as a service (DBaaS) in a cloud computing environment, the system including a receiving and comparing circuit configured to receive a service request from a user and compare the received service request to at least one prior received service request, a similarity calculating circuit configured to calculate a similarity between the service request and the at least one prior received service request based on a requirement that the service request places on the DBaaS, a data verifying circuit configured to verify whether information within the database of the DBaaS has changed since an identical prior received service request based on the receiving and comparing circuit identifying the identical prior received service request, an overlap determining circuit configured to determine an overlap between data of the service request and the identical prior received service request whether the data verifying circuit verifies the information within the database of the DBaaS has not changed, a service analyzing circuit configured to analyze the service request to determine if a threshold value of the database of the DBaaS should be updated based on if the service request will be completed in the cloud computing environment outside o...",
+  "date_published": "20170928",
+  "title": "SYSTEM, METHOD, AND RECORDING MEDIUM FOR PERFORMANCE MANAGEMENT OF A SERVICE FOR A DATABASE AS A SERVICE",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L1226",
+    "G06F1730",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 68057,
+    "optimized_size": 3625,
+    "reduction_percent": 94.67
+  }
+}

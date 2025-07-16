@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15224688",
+  "date_published": "20180201",
+  "date_produced": "20180118",
+  "title": "HIGH ASSURANCE CONFIGURATION SECURITY PROCESSOR (HACSP) FOR COMPUTING DEVICES",
+  "filing_date": "20160801",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kibalo",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Annapolis",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Scrofano",
+      "inventor_name_first": "Ronald",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Deeds",
+      "inventor_name_first": "Andrew",
+      "inventor_city": "Hermosa Beach",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F2157"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>Certain embodiments of the present invention may be implemented and provide solutions to the problems and needs in the art that have not yet been fully solved by conventional RoT and TPM technologies. For example, some embodiments pertain to a High Assurance Configuration Security Processor (HACSP) for an FPGA that performs real-time integrity measurements of the actual bitstream run-time performance against what is expected. While “FPGA” is used often in this disclosure as the computing device on which some embodiments of the present invention run, any suitable computing device, such as a PSoC or similar configurable device, or an Application-Specific IC (ASIC), may be used in some embodiments without deviating from the scope of the invention. In an embodiment, a computer-implemented method for providing a HACSP for a computing device includes ensuring, by the HACSP, security of a user application bitstream load and update during computing device configuration. The computer-implemented method also includes implementing security mechanisms, by the HACSP, for independent secure trusted attestation and integrity measurement mechanisms to report and provide reliable evidence about trustworthiness of the computing device during user bitstream execution without stopping operation and between load and updates. In another embodiment, a HACSP computer program is embodied on a non-transitory computer-readable medium. The program is configured to cause at least one processing core of a computing device to implement security mechanisms for independent secure trusted attestation and integrity measurement mechanisms to report and provide reliable evidence about trustworthiness of the computing device during user bitstream execution without stopping operation. In yet another embodiment, a computing device includes a HACSP residing as a software application in a first processing core associated with a Trusted Execution Environment (TEE). The HACSP is configured ...",
+  "patent_number": "None",
+  "abstract": "A High Assurance Configuration Security Processor (HACSP) for a computing device may perform real-time integrity measurements of an actual bitstream run-time performance against what is expected. The HACSP may be self-contained and have a relatively small footprint. The HACSP may be vendor-agnostic, and may be a trusted system application for the computing device. The HACSP may ensure the security of user application bitstream load and update during device configuration, and may implement security mechanisms for independent secure trusted attestation and integrity measurement mechanisms to report and provide reliable evidence about the “trustworthiness” of the system during user bitstream execution.",
+  "publication_number": "US20180034793A1-20180201",
+  "_processing_info": {
+    "original_size": 86356,
+    "optimized_size": 3609,
+    "reduction_percent": 95.82
+  }
+}

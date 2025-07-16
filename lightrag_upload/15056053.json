@@ -1,0 +1,59 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15056053",
+  "date_published": "20160623",
+  "date_produced": "20160608",
+  "title": "NON-DYADIC LENS DISTORTION CORRECTION METHOD AND APPARATUS",
+  "filing_date": "20160229",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Paik",
+      "inventor_name_first": "Joon Ki",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Park",
+      "inventor_name_first": "Jin Ho",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Dong Gyun",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Yoo",
+      "inventor_name_first": "Yoon Jong",
+      "inventor_city": "Anyang",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Dae Hee",
+      "inventor_city": "Incheon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T500",
+    "H04N5232"
+  ],
+  "main_ipcr_label": "G06T500",
+  "summary": "<SOH> SUMMARY <EOH>The present invention has been made in an effort to provide a non-dyadic lens distortion correction method and an apparatus thereof which can remove a step and a blurring phenomenon by geometric radial distortion which occurs during correcting a non-dyadic lens image. An aspect of the present invention is directed to provide a non-dyadic lens distortion correction method which can remove a step and a blurring phenomenon by geometric radial distortion which occurs during correcting a non-dyadic lens image. According to an exemplary embodiment of the present invention, a non-dyadic lens distortion correction method may be provided, which includes: (a) acquiring a non-dyadic lens image photographed through a non-dyadic lens; (b) correcting geometric distortion for the non-dyadic lens image by stage by applying a magnification ratio based on a projection model; and (c) compensating a high-frequency component of an image corrected in a previous step by the patch unit in the non-dyadic lens image of which the geometric distortion is corrected. Steps (b) and (c) may be performed by stage according to the magnification ratio until the number of correction steps is more than the number of final correction steps. Step (b) may include calculating a phased compensation point p i depending on the magnification ratio by multiplying a distortion function in the projection model by the magnification ratio; calculating a corresponding point n i corresponding to the phased compensation point p i on a straight line connecting a principal point and a point P in a 3D space based on the projection model; calculating a focus F i of a parabolic equation passing through an optical axis on an image plane and the corresponding point n i ; and correcting the geometric distortion of the non-dyadic lens image depending on the magnification ratio by using the focus F i . The focus F i may be calculated by an equation given below. F i = ( R   sin  ( θ ) × s i ) 4  ( cos  ( ...",
+  "patent_number": "9697591",
+  "abstract": "Provided are a non-dyadic lens distortion correction method and an apparatus thereof. The non-dyadic lens distortion correction method includes: (a) acquiring a non-dyadic lens image photographed through a non-dyadic lens; (b) correcting geometric distortion for the non-dyadic lens image by stage by applying a magnification ratio based on a projection model; and (c) compensating a high-frequency component of an image corrected in a previous step by the patch unit in the non-dyadic lens image of which the geometric distortion is corrected.",
+  "publication_number": "US20160180507A1-20160623",
+  "_processing_info": {
+    "original_size": 45982,
+    "optimized_size": 3698,
+    "reduction_percent": 91.96
+  }
+}

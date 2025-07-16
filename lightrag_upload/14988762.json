@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193395A1-20170706",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "14988762",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Limonad",
+      "inventor_name_first": "Lior",
+      "inventor_city": "Nesher",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Mashkif",
+      "inventor_name_first": "Nir",
+      "inventor_city": "Ein Carmel",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Wasserkrug",
+      "inventor_name_first": "Segev E",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Zadorojniy",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Zeltyn",
+      "inventor_name_first": "Sergey",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "A computer-implemented method, computerized apparatus and computer program product, the method comprising: obtaining data measured by one or more sensors; segmenting the data into a plurality of sliding windows; extracting one or more features from each of the plurality of sliding windows; analyzing, by a machine learning process, the extracted features to determine, for each sliding window, an activity detection in the sliding window; and determining an activity detection result in the data to be positive responsive to activity detection by the machine learning process in at least a number M of sliding windows out of a number N of consecutive sliding windows, wherein M>1.",
+  "filing_date": "20160106",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>One exemplary embodiment of the disclosed subject matter is a computer-implemented method comprising: obtaining data measured by one or more sensors; segmenting the data into a plurality of sliding windows; extracting one or more features from each of the plurality of sliding windows; analyzing, by a machine learning process, the extracted features to determine, for each sliding window, an activity detection in the sliding window; and determining an activity detection result in the data to be positive responsive to activity detection by the machine learning process in at least a number M of sliding windows out of a number N of consecutive sliding windows, wherein M>1. Another exemplary embodiment of the disclosed subject matter is a computerized apparatus having a processor, the processor being adapted to perform the steps of: obtaining data measured by one or more sensors; segmenting the data into a plurality of sliding windows; extracting one or more features from each of the plurality of sliding windows; analyzing, by a machine learning process, the extracted features to determine, for each sliding window, an activity detection in the sliding window; and determining an activity detection result in the data to be positive responsive to activity detection by the machine learning process in at least a number M of sliding windows out of a number N of consecutive sliding windows, wherein M>1. Yet another exemplary embodiment of the disclosed subject matter is a computer program product comprising a computer readable storage medium retaining program instructions, which program instructions when read by a processor, cause the processor to perform a method comprising: obtaining data measured by one or more sensors; segmenting the data into a plurality of sliding windows; extracting one or more features from each of the plurality of sliding windows; analyzing, by a machine learning process, the extracted features to determine, for each sliding win...",
+  "date_published": "20170706",
+  "title": "Optimizing performance of event detection by sensor data analytics",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1130"
+  ],
+  "_processing_info": {
+    "original_size": 62338,
+    "optimized_size": 3823,
+    "reduction_percent": 93.87
+  }
+}

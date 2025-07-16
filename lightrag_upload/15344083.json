@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15344083",
+  "date_published": "20170316",
+  "date_produced": "20170301",
+  "title": "Payment Method and Apparatus and Payment Factor Processing Method and Apparatus",
+  "filing_date": "20161104",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhu",
+      "inventor_name_first": "Haoying",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2038",
+    "G06Q2032"
+  ],
+  "main_ipcr_label": "G06Q2038",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments provide a payment method and apparatus and a payment factor processing method and apparatus, to resolve a problem that a risk of payment factor leakage is relatively high in the prior art. To resolve the foregoing technical problem, the embodiments disclose the following technical solutions. According to a first aspect, an embodiment discloses a payment method. The method includes receiving a payment command; reading, from a first storage device, a first part of payment information corresponding to the payment command. The method also includes reading at least one second part of the payment information from a second storage device, where the first part and the second part form the complete payment information. The method also includes combining the first part and the second part into target payment information; acquiring a payment factor from the target payment information. The method also includes completing payment by using the payment factor. With reference to the first aspect, in a first possible implementation manner of the first aspect, the acquiring a payment factor from the target payment information includes: extracting a ciphertext from the target payment information; acquiring a key and an encryption algorithm that are used to generate the ciphertext; and decrypting the ciphertext by using the key and the encryption algorithm, to obtain the payment factor. With reference to the first possible implementation manner of the first aspect, in a second possible implementation manner of the first aspect, the acquiring a key and an encryption algorithm that are used to generate the ciphertext includes: extracting the key and the encryption algorithm from the target payment information. With reference to the first aspect, the first possible implementation manner of the first aspect, or the second possible implementation manner of the first aspect, in a third possible implementation manner of the first aspect, before the receiving a p...",
+  "patent_number": "None",
+  "abstract": "This application provides a payment method and apparatus and a payment factor processing method and apparatus. The method includes receiving a payment command; reading, from a first storage device, a first part of payment information corresponding to the payment command, and reading at least one second part of the payment information from a second storage device, where the first part and the second part form the complete payment information. The method also includes combining the first part and the second part into target payment information, and acquiring a payment factor from the target payment information; and completing payment by using the payment factor.",
+  "publication_number": "US20170076285A1-20170316",
+  "_processing_info": {
+    "original_size": 72495,
+    "optimized_size": 3245,
+    "reduction_percent": 95.52
+  }
+}

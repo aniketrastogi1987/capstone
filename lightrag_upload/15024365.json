@@ -1,0 +1,60 @@
+{
+  "date_produced": "20160803",
+  "publication_number": "US20160239753A1-20160818",
+  "main_ipcr_label": "G06N700",
+  "decision": "REJECTED",
+  "application_number": "15024365",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Loehlein",
+      "inventor_name_first": "Bernhard",
+      "inventor_city": "Erlenbach",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Roshandel",
+      "inventor_name_first": "Mehran",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Ketabdar",
+      "inventor_name_first": "Hamed",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Schuessler",
+      "inventor_name_first": "Martin",
+      "inventor_city": "Moeser",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Shahin",
+      "inventor_name_first": "Tajik",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "A method for rating measured values taken from a system S that may be in an error-free or erroneous state, includes: forming, by a device, a set V of unmarked measured values v from the system S; forming, by the device, a modified learning set V′ comprising measured values v′ for a learning system L by removal or weighting or removal and weighting of measured values from the set V using a random-based method; forming, by the device, a model M for rating measured values from the system S by the learning system L from the modified learning set V′; and rating, by the device, measured values from the system S by a rating system B using the model M. At least one closest neighbor of the measured value v is removed during removal or weighting or removal and weighting of measured values v from the set V.",
+  "filing_date": "20160324",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In an embodiment, the invention provides a method for rating measured values taken from a system S that may be in an error-free or erroneous state. The system S comprises at least one communication network, a network component of a communication system or a service of a communication network. The method includes: (a) forming, by a device, a set V of unmarked measured values v from the system S; (b) forming, by the device, a modified learning set V′ comprising measured values v′ for a learning system L by (i) removal or (ii) weighting or (iii) removal and weighting of measured values from the set V using a random-based method; (c) forming, by the device, a model M for rating measured values from the system S by the learning system L from the modified learning set V′; and (d) rating, by the device, measured values from the system S by a rating system B using the model M. Step (b) further includes removing at least one closest neighbor of the measured value v during (i) removal or (ii) weighting or (iii) removal and weighting of measured values v from the set V.",
+  "date_published": "20160818",
+  "title": "METHOD AND SYSTEM FOR RATING MEASURED VALUES TAKEN FROM A SYSTEM",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1107",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 48782,
+    "optimized_size": 3083,
+    "reduction_percent": 93.68
+  }
+}

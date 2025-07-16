@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15472363",
+  "date_published": "20171012",
+  "date_produced": "20170927",
+  "filing_date": "20170329",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "There is disclosed a computer implemented method for training a search ranker, the search ranker being configured to ranking search results. The method comprises: retrieving, by the server, a training dataset including a plurality of training objects; for each training object, based on the corresponding associated object feature vector: determining a weight parameter, the weight parameter being indicative of a quality of the label; determining a relevance parameter, the relevance parameter being indicative of a moderated value of the labels relative to other labels within the training dataset; training the search ranker using the plurality of training objects of the training dataset, the determined relevance parameter for each training object of the plurality of training objects of the training dataset, and the determined weight parameter for each object of the plurality of training objects of the training dataset to rank a new document.",
+  "publication_number": "US20170293859A1-20171012",
+  "summary": "<SOH> SUMMARY <EOH>It is an object of the present to ameliorate at least some of the inconveniences present in the prior art. Embodiments of the present technology have been developed based on developers' appreciation of at least one technical problem associated with the prior art solutions. Developers have appreciated whereby professionally-assigned labels could have been noisy, the level of noise within crowd-sourced training sets is even greater than that of professional-assessors-labelled training sets. Without wishing to be bound by any specific theory, developers of the present technology believe that crowd-sourced training datasets may be suffering from an increased level of noise due to at least some of the following (but not being so limited): (1) crowd-sourcing participants are usually not provided with detailed instructions like those compiled for professional assessors, since the majority of crowd-sourcing participants are believed to either refuse or fail to follow the more complicated guidelines; (2) partly due to this, individual crowd-sourcing participants vary greatly in the quality of their assessments; (3) a large number of crowd-sourcing participants are spammers, answering randomly or using simple quality agnostic heuristics. Developers further believe that traditional approaches to noise reduction in labelled training set may not be effective for crowd-source labelled training sets. For example, common approaches to noise reduction include cleansing and weighting techniques. Noise cleansing techniques are similar to “outlier detection” and amount to filtering out samples which “look like” mislabeled for some reason. With the weighting approach none of the samples are completely discarded, while their impact on a machine learning algorithm is controlled by weights, representing our confidence in a particular label. In the setting of crowd-sourced labeling, one can modify the labeling process in order to gain some evidence for each label being co...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "GUSEV",
+      "inventor_name_first": "Gleb Gennadievich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "USTINOVSKIY",
+      "inventor_name_first": "Yury Mikhailovich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "SERDYUKOV",
+      "inventor_name_first": "Pavel Viktorovich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "FEDOROVA",
+      "inventor_name_first": "Valentina Pavlovna",
+      "inventor_city": "Sergiev Posad",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    }
+  ],
+  "title": "METHOD FOR TRAINING A RANKER MODULE USING A TRAINING SET HAVING NOISY LABELS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 85293,
+    "optimized_size": 4032,
+    "reduction_percent": 95.27
+  }
+}

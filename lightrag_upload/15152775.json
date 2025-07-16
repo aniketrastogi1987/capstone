@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15152775",
+  "date_published": "20161208",
+  "date_produced": "20161122",
+  "title": "FLUSHING CONTROL WITHIN A MULTI-THREADED PROCESSOR",
+  "filing_date": "20160512",
+  "inventor_list": [
+    {
+      "inventor_name_last": "GREENHALGH",
+      "inventor_name_first": "Peter Richard",
+      "inventor_city": "Cambridge",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1208",
+    "G06F938"
+  ],
+  "main_ipcr_label": "G06F1208",
+  "summary": "<SOH> SUMMARY <EOH>Viewed from one aspect the present disclosure provides apparatus for processing data comprising: processing circuitry to execute in parallel processing operations corresponding to a plurality of threads of processing operations; and flush control circuitry responsive to detection of a flush trigger for a given processing thread among said plurality of threads to control flushing of state for said given thread from said processing circuitry; wherein when said flush trigger is a first type of flush trigger, said state is a first set of state; and when said flush trigger is a second type of flush trigger, said state is a second set of state different from said first set of state. Viewed from another aspect the present disclosure provides apparatus for processing data comprising: processing means for executing in parallel processing operations corresponding to a plurality of threads of processing operations; and flush control means, responsive to detection of a flush trigger for a given processing thread among said plurality of threads, for controlling flushing of state for said given thread from said processing circuitry; wherein when said flush trigger is a first type of flush trigger, said state is a first set of state; and when said flush trigger is a second type of flush trigger, said state is a second set of state different from said first set of state. Viewed from a further aspect the present disclosure provides a method of processing data comprising: executing in parallel processing operations corresponding to a plurality of threads of processing operations; and in response to detection of a flush trigger for a given processing thread among said plurality of threads, controlling flushing of state for said given thread from said processing circuitry; wherein when said flush trigger is a first type of flush trigger, said state is a first set of state; and when said flush trigger is a second type of flush trigger, said state is a second set of st...",
+  "patent_number": "None",
+  "abstract": "A data processing apparatus 2 performs multi-threaded processing using the processing pipeline 6, 8, 10, 12, 14, 16, 18. Flush control circuitry 30 is responsive to multiple different types of flush trigger. Different types of flush trigger result in different sets of state being flushed for the thread which resulted in the flush trigger with state for other thread not being flushed. For example, a relatively low latency stall may result in flushing back to a first flush point whereas a longer latency stall results in flushing back to a second flush point and the loss of more state data. The data flushed back to the first flushed point may be a subset of the data flushed back to the second flush point.",
+  "publication_number": "US20160357669A1-20161208",
+  "_processing_info": {
+    "original_size": 32058,
+    "optimized_size": 3272,
+    "reduction_percent": 89.79
+  }
+}

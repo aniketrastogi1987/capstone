@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15505231",
+  "date_published": "20170713",
+  "date_produced": "20170627",
+  "filing_date": "20170220",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "A convolutional neural network comprises a plurality of artificial neurons arranged in one or more convolution layers, each convolution layer comprising one or more output matrices, each output matrix comprising a set of output neurons, each output matrix being connected to an input matrix, comprising a set of input neurons, by artificial synapses associated with a convolution matrix. The convolution matrix comprises the weight coefficients associated with the output neurons of the output matrix, the output value of each output neuron being determined from the input neurons of the input matrix to which the output neuron is connected and the weight coefficients of the convolution matrix associated with the output matrix. Each synapse consists of a set of memristive devices comprising at least one memristive device, each set of memristive devices storing a weight coefficient of the convolution matrix. In response to a change of the output value of an input neuron of an input matrix, the ...",
+  "publication_number": "US20170200078A1-20170713",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Other features and advantages of the invention will become apparent from the following description and the figures of the attached drawings in which: FIG. 1 represents an example of a simple three-layer convolutional network, and the output layer; FIG. 2 represents an example of a complex convolutional network, including “pooling” layers; FIG. 3 is a diagram showing a convolution layer made up of several output maps/matrices; FIG. 4 illustrates the principle of operation of a convolutional layer in such a network; FIG. 5 is a diagram illustrating the spike coding and the propagation in the neural network of the spikes; FIG. 6 represents a hardware device implementing a spike convolutional neural network, according to certain embodiments; FIG. 7 is a flow diagram representing the convolution method, according to certain embodiments; FIG. 8 is a schematic representation of another example of physical implementation of the convolution operations in a neural network with grouping together of the outputs (output downsampling); FIG. 9 is a schematic representation of another example of physical implementation of the convolution operations in a neural network with STDP learning; FIG. 10 is a flow diagram illustrating the step of dynamic mapping, according to a parallel embodiment (in one cycle); FIG. 11 represents an example of physical implementation of the neural network corresponding to a parallel embodiment (just 1 cycle) conforming to the embodiment of FIG. 10 ; FIG. 12 is a flow diagram illustrating the step of dynamic mapping, according to a semi-sequential embodiment (in n cycles); FIG. 13 represents an example of physical implementation of the neural network according to a semi-sequential mode on Y; FIG. 14 is a flow diagram illustrating the step of dynamic mapping, according to a fully sequential embodiment; FIG. 15 represents an example of physical implementation of the neural network corresponding to a fully sequenti...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "BICHLER",
+      "inventor_name_first": "Olivier",
+      "inventor_city": "Massy",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "title": "CONVOLUTIONAL NEURAL NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 75077,
+    "optimized_size": 3539,
+    "reduction_percent": 95.29
+  }
+}

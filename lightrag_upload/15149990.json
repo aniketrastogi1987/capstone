@@ -1,0 +1,53 @@
+{
+  "decision": "PENDING",
+  "application_number": "15149990",
+  "date_published": "20161117",
+  "date_produced": "20161102",
+  "title": "BATCH-BASED NEURAL NETWORK SYSTEM",
+  "filing_date": "20160509",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MERRILL",
+      "inventor_name_first": "Theodore",
+      "inventor_city": "Santa Cruz",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "TIELEMAN",
+      "inventor_name_first": "Tijmen",
+      "inventor_city": "Bilthoven",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "SANYAL",
+      "inventor_name_first": "Sumit",
+      "inventor_city": "Santa Cruz",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HEBBAR",
+      "inventor_name_first": "Anil",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F948",
+    "G06F950",
+    "G06N3063"
+  ],
+  "main_ipcr_label": "G06F948",
+  "summary": "<SOH> SUMMARY OF VARIOUS ASPECTS OF THE DISCLOSURE <EOH>Various aspects of the present disclosure may include hardware-assisted iterative partial processing of multiple pattern recognitions, or jobs, in parallel, where the weights associated with the pattern inputs, which are in common with all the jobs, may be streamed into the parallel processors from external memory. In one aspect, a batch neural network processor (BNNP) may include a plurality of field-programmable gate arrays (FPGAs) or application-specific integrated circuits (ASICs), each containing a large number of inner product unit (IPU) processing units, image buffers with interconnecting busses and control logic, where a plurality of pattern recognition jobs are loaded, each into one of the plurality of the image buffers, and weights for computing each of the nodes, which may be loaded into the BNNP from external memory. The IPUs may perform, for example, inner product, max pooling, average pooling, and/or local normalization based on opcodes from associated job control logic, and the image buffers may be controlled by data & address control logic. Other aspects may include a batch-based neural network system comprised of a load scheduler that connects a plurality of job dispatchers and a plurality of initiators, job dispatchers to job initiators each controlling a plurality of associated BNNPs with virtual communication channels to transfer jobs and results between/among them. The BNNPs may be comprised of GPUs, general purpose multi-processors, FPGAs, or ASICs, or combinations thereof. Upon notification to a load scheduler of the completion of a batch of jobs, the job dispatcher may choose to either keep or terminate a communication link, which may be based on the status of other batches of jobs already sent to the BNNP or plurality of BNNPs. Alternatively, upon notification of completion of the batch of jobs, the load scheduler may choose to either keep or terminate the link, based, e.g., on other re...",
+  "patent_number": "None",
+  "abstract": "A multi-processor system for batched pattern recognition may utilize a plurality of different types of neural network processors and may perform batched sets of pattern recognition jobs on a two-dimensional array of inner product units (IPUs) by iteratively applying layers of image data to the IPUs in one dimension, while streaming neural weights from an external memory to the IPUs in the other dimension. The system may also include a load scheduler, which may schedule batched jobs from multiple job dispatchers, via initiators, to one or more batched neural network processors for executing the neural network computations.",
+  "publication_number": "US20160335119A1-20161117",
+  "_processing_info": {
+    "original_size": 36356,
+    "optimized_size": 3615,
+    "reduction_percent": 90.06
+  }
+}

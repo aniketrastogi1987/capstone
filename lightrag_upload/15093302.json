@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170927",
+  "publication_number": "US20170293856A1-20171012",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15093302",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bhattacharya",
+      "inventor_name_first": "Sakyajit",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Rajan",
+      "inventor_name_first": "Vaibhav",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Anand",
+      "inventor_name_first": "Asim",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "LASSO constraints can lead to a Gaussian mixture copula model that is more robust, better conditioned, and more reflective of the actual clusters in the training data. These qualities of the GMCM have been shown with data obtained from: digital images of fine needle aspirates of breast tissue for detecting cancer; email for detecting spam; two dimensional terrain data for detecting hills and valleys; and video sequences of hand movements to detect gestures. Using training data, a GMCM estimate can be produced and iteratively refined to maximize a penalized log likelihood estimate until sequential iterations are within a threshold value of one another. The GMCM estimate can then be used to classify further samples. The LASSO constraints help keep the analysis tractibe such that useful results can be found and used while the result is still useful.",
+  "filing_date": "20160407",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>The following summary is provided to facilitate an understanding of some of the innovative features unique to the disclosed embodiments and is not intended to be a full description. A full appreciation of the various aspects of the embodiments disclosed herein can be gained by taking the entire specification, claims, drawings and abstract as a whole. It is therefore an aspect of the embodiments to provide improved detection and descriptions of clusters within data. The clusters within the data can be estimated, described, and modeled by a Gaussian Mixture Copula Model (GMCM). A GMCM can describe a set of parameters that can be used in association with a GMCM. It is another aspect of he embodiments that training data is obtained from at least one server. The server is a computer having a processor, memory, non-transient memory, and a transceiver for communicating with other computers. The clustered data includes many training samples with each sample coming from a known cluster. Each of the training samples is multivariate and can be described by a one dimensional array or vector. It is yet another aspect of the embodiments for at least one processor to estimate a GMCM which is described by a parameter set. The parameter set contains mean vectors, covariance matrices, weights, and marginal distributions. The GMCM estimate can be refined by refining the parameter set describing the GMCM. The parameter set can be refined iteratively by maximizing a penalized log likelihood estimate until sequential iterations fail to change the penalized log likelihood estimate by more than a threshold value to thereby produce an estimated GMCM. It is still yet another aspect of the embodiments that an input port can be provided to a remote computer such that the remote computer can provide a sample to be classified using the GMCM model. The input port can be, for example, an internet socket, a surface API (application program interface), or some other point of...",
+  "date_published": "20171012",
+  "title": "CLUSTERING HIGH DIMENSIONAL DATA USING GAUSSIAN MIXTURE COPULA MODEL WITH LASSO BASED REGULARIZATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 49104,
+    "optimized_size": 3754,
+    "reduction_percent": 92.36
+  }
+}

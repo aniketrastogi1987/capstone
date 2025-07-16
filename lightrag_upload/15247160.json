@@ -1,0 +1,44 @@
+{
+  "date_produced": "20171004",
+  "publication_number": "US20170300813A1-20171019",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15247160",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Jun Haeng",
+      "inventor_city": "Hwaseong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "DELBRUCK",
+      "inventor_name_first": "Tobi",
+      "inventor_city": "Zuerich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "RYU",
+      "inventor_name_first": "Eric Hyunsurk",
+      "inventor_city": "Hwaseong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "An operation method of a neural network, a training method, and a signal processing apparatus are provided. The operation method includes receiving an output signal from a first neural network, and converting a first feature included in the output signal to a second feature configured to be input to a second neural network, based on a conversion rule controlling conversion between a feature to be output from the first neural network and a feature to be input to the second neural network. The operation method further includes generating an input signal to be input to the second neural network, based on the second feature, and transmitting the input signal to the second neural network.",
+  "filing_date": "20160825",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Example embodiments may address at least the above problems and/or disadvantages and other disadvantages not described above. Also, the example embodiments are not required to overcome the disadvantages described above, and an example embodiment may not overcome any of the problems described above. According to an aspect of an example embodiment, there is provided an operation method of a neural network, the operation method including receiving an output signal from a first neural network, and converting a first feature included in the output signal to a second feature configured to be input to a second neural network, based on a conversion rule controlling conversion between a feature to be output from the first neural network and a feature to be input to the second neural network. The operation method further includes generating an input signal to be input to the second neural network, based on the second feature, and transmitting the input signal to the second neural network. The first feature may include a first feature vector, and the second feature may include a second feature vector. The neural network may include an interface neural network to which the conversion rule is applied. An input dimension of the neural network may correspond to an output dimension of the first neural network, and an output dimension of the neural network may correspond to an input dimension of the second neural network. The conversion rule may include parameters of the neural network that are optimized. The operation method may further include, in response to the first neural network being replaced with a third neural network, updating the conversion rule to control conversion between a feature to be output from the third neural network and the feature to be input to the second neural network, and in response to the second neural network being replaced with a fourth neural network, updating the conversion rule to control conversion between the feature to be outp...",
+  "date_published": "20171019",
+  "title": "INTERFACE NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 68127,
+    "optimized_size": 3499,
+    "reduction_percent": 94.86
+  }
+}

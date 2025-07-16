@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171018",
+  "publication_number": "US20170316311A1-20171102",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15079899",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Pilly",
+      "inventor_name_first": "Praveen K.",
+      "inventor_city": "West Hills",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stepp",
+      "inventor_name_first": "Nigel D.",
+      "inventor_city": "Santa Monica",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Srinivasa",
+      "inventor_name_first": "Narayan",
+      "inventor_city": "Oak Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Described is a sparse inference module that can be incorporated into a deep learning system. For example, the deep learning system includes a plurality of hierarchical feature channel layers, each feature channel layer having a set of filters. A plurality of sparse inference modules can be included such that a sparse inference module resides electronically within each feature channel layer. Each sparse inference module is configured to receive data and match the data against a plurality of pattern templates to generate a degree of match value for each of the pattern templates, with the degree of match values being sparsified such that only those degree of match values that exceed a predetermined threshold, or a fixed number of the top degree of match values, are provided to subsequent feature channels in the plurality of hierarchical feature channels, while other, losing degree of match values are quenched to zero.",
+  "filing_date": "20160324",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>Described is a sparse inference module for deep learning. In various embodiments the sparse inference module includes one or more processors and a memory. The memory has executable instructions encoded thereon, such that upon execution, the one or more processors perform several operations, such as receiving data and matching the data against a plurality of pattern templates to generate a degree of match value for each of the pattern templates; sparsifying the degree of match values such that only those degree of match values that satisfy a criterion are provided for further processing as sparse feature vectors, while other losing degree of match values are quenched to zero; and using the sparse feature vectors to self-select a channel that participates in high-level classification. In another aspect, the data comprises at least one of still image information, video information, and audio information. In yet another aspect, self-selection of the channel facilitates classification of at east one of still image information, video information, and audio information. Additionally, the criterion requires the degree of match value to be above a threshold limit. In another aspect, the criterion requires the degree of match value to be within a fixed quantity of the top degree of match values. In another aspect, described is a deep learning system using sparse learning modules. In this aspect, the deep learning system comprises a plurality of hierarchical feature channel layers, each feature channel layer having a set of filters that filter data received in the feature channel; a plurality of sparse inference modules, where a sparse inference module resides electronically within each feature channel layer; and wherein one or more of the sparse inference module is configured receive data and match the data against a plurality of pattern templates to generate a degree of match value for each of the pattern templates, and sparsify the degree of ...",
+  "date_published": "20171102",
+  "title": "SPARSE INFERENCE MODULES FOR DEEP LEARNING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 54351,
+    "optimized_size": 3775,
+    "reduction_percent": 93.05
+  }
+}

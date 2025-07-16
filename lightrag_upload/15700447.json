@@ -1,0 +1,34 @@
+{
+  "patent_number": "None",
+  "application_number": "15700447",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "filing_date": "20170911",
+  "main_ipcr_label": "G06N308",
+  "abstract": "An apparatus acquires learning-data, including feature-elements, to which a label is assigned. The apparatus generates a first-set of expanded feature-elements by expanding the feature-elements. With reference to a model where a confidence value is stored in association with each of a second-set of expanded feature-elements, the apparatus updates confidence values associated with expanded feature-elements common between the first- and second-sets of expanded feature-elements, based on the label. Upon occurrence of an error indicating that a score calculated from the updated confidence values is inconsistent with the label, the apparatus sets a feature-size indicating a maximum size of expanded feature-elements to be used to update the model, based on the number of occurrences of the error for the acquired learning-data, and updates the model by adding, out of expanded feature-elements generated according to the set feature-size, expanded feature-elements unmatched with the second-set o...",
+  "publication_number": "US20180075351A1-20180315",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the invention, an apparatus acquires learning data to which a label of positive type or negative type is assigned, where the learning data includes feature-elements each configured as a feature or sub-structural data. The apparatus generates a first set of expanded feature-elements by expanding the feature-elements included in the acquired learning data so that each expanded feature-element is configured as data generated from a combination of one or more feature-elements. With reference to a model in which a confidence value indicating a degree of confidence for a feature-element is stored in association with each of a second set of expanded feature-elements, the apparatus compares each of the first set of expanded feature-elements with the second set of expanded feature-elements stored in the model, and updates first confidence values associated with expanded feature-elements that are common between the first set of expanded feature-elements and the second set of expanded feature-elements stored in the model, based on a type of the label assigned to the learning data. Upon occurrence of a classification error indicating that a type of a score calculated from the updated first confidence values is inconsistent with a type of the label assigned to the acquired learning data, the apparatus sets a feature size indicating a maximum size of expanded feature-elements to be used to update the model, based on an error count indicating a number of occurrences of the classification error for the acquired learning data, and updates the model by adding, out of expanded feature-elements generated according to the set feature size, expanded feature-elements unmatched with the second set of expanded feature-elements stored in the model, to the model The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both t...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900",
+    "G06N502",
+    "G06F1518",
+    "G06K962"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Iwakura",
+      "inventor_name_first": "Tomoya",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "EFFICIENT UPDATING OF A MODEL USED FOR DATA LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 96354,
+    "optimized_size": 3588,
+    "reduction_percent": 96.28
+  }
+}

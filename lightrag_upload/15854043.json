@@ -1,0 +1,36 @@
+{
+  "patent_number": "nan",
+  "application_number": "15854043",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20171226",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "To provide a data processing device using a neural network that can suppress increase in the occupied area of a chip. A product-sum operation circuit is formed using a transistor including an oxide semiconductor having an extremely small off-state current. Signals are input to and output from the product-sum operation circuits included in a plurality of hidden layers through comparators. The outputs of the comparators are used as digital signals to be input signals for the next-stage hidden layer. The combination of a digital circuit and an analog circuit can eliminate the need for an analog-to-digital converter or a digital-to-analog converter which occupies a large area of a chip.",
+  "publication_number": "US20180181862A1-20180628",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A digital signal is used in a general computer. Data processing is performed in a digital circuit. A digital signal is used in most elements such as a sensor module. In contrast, in a circuit configuration using an OS transistor, an analog signal can be held and thus analog computing is suitable. When computing is performed in a neural network, not only feedforward computing but also feedback computing needs to be performed like back propagation. If a circuit is designed to perform such computing using only an analog signal, the design must be complicated. It is effective to combine part of a digital circuit and part of an analog circuit in order to use their advantages. However, a digital-to-analog converter (DAC) and an analog-to-digital converter (ADC) are needed for frequent conversion between a digital signal and an analog signal. In addition, a power source circuit for each of the ADC and DAC is needed. This causes a problem of increase in the occupied area on a chip in response to increase in circuit size. An object of one embodiment of the present invention is to provide a data processing device, particularly a data processing device using a neural network, with a novel structure that can suppress increase in circuit size. One embodiment of the present invention is a data processing device using a neural network comprising an input layer, a hidden layer, and an output layer. The hidden layer comprises a digital-to-analog converter, a first neuron circuit, a second neuron circuit, and a comparator. Each of the first neuron circuit and the second neuron circuit comprises a first potential holding circuit and a second potential holding circuit. The first potential holding circuit and the second potential holding circuit are electrically connected to the same bit line. The first potential holding circuit is configured to hold a potential of a first analog signal. The second potential holding circuit is configured to hold a pot...",
+  "ipcr_labels": [
+    "G06N3063",
+    "H01L23528",
+    "H01L23535",
+    "H01L29786",
+    "H01L2706",
+    "H01L23522",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "IKEDA",
+      "inventor_name_first": "Takayuki",
+      "inventor_city": "Atsugi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "DATA PROCESSING DEVICE USING NEURAL NETWORK, ELECTRONIC COMPONENT, AND ELECTRONIC DEVICE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 107295,
+    "optimized_size": 3340,
+    "reduction_percent": 96.89
+  }
+}

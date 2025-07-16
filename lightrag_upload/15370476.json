@@ -1,0 +1,41 @@
+{
+  "decision": "PENDING",
+  "application_number": "15370476",
+  "date_published": "20180412",
+  "date_produced": "20180328",
+  "title": "COMPUTING SYSTEM WITH SHIFT EXPANDABLE CODING MECHANISM AND METHOD OF OPERATION THEREOF",
+  "filing_date": "20161206",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Yiren Ronnie",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Xiaojie",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G06F1110",
+    "G11C2952",
+    "H03M1311",
+    "H03M1329"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>An embodiment of the present invention provides a system, including: a control circuit configured to: determine a user data, generate a base set including a base protection data based on encoding the user data according to a Low-Density Parity-Check coding mechanism, generate an extra protection data based on encoding the user data differently from the base set according to the Low-Density Parity-Check coding mechanism; and a storage circuit, coupled to the control circuit, configured to store the extra protection data corresponding to the base set. An embodiment of the present invention provides a method including: determining a user data; generating a base set including a base protection data generating, with a control circuit, an extra protection data based on encoding the user data differently from the base set according to the Low-Density Parity-Check coding mechanism; and storing the extra protection data corresponding to the base set. An embodiment of the present invention provides a system, including an access circuit configured to: provide a received codeword corresponding to a user data and a base protection data, provide an extra protection data corresponding to the received codeword; a control circuit, coupled to the access circuit, configured to: decode the received codeword according to a Low-Density Parity-Check coding mechanism, and further decode the received codeword to recover the user data based on decoding differently from decoding the base set and using the extra protection data according to the Low-Density Parity-Check coding mechanism. An embodiment of the present invention provides a method including: accessing a received codeword; decoding the received codeword according to a Low-Density Parity-Check coding mechanism; accessing an extra protection data corresponding to the received codeword; further decoding, with a control circuit, the received codeword to recover the user data based on decoding differently from decoding...",
+  "patent_number": "None",
+  "abstract": "A computing system includes: a control circuit configured to: determine a user data, generate a base set including a base protection data based on encoding the user data according to a coding mechanism, generate an extra protection data based on encoding the user data differently from the base set according to the coding mechanism; and a storage circuit configured to store the extra protection data corresponding to the base set. The computing system can further include: an storage circuit configured to: provide a received codeword corresponding to a user data and a base protection data, provide an extra protection data corresponding to the received codeword; a control circuit configured to: decode the received codeword according to a coding mechanism, and further decode the received codeword to recover the user data based on decoding differently from decoding the base set and using the extra protection data according to the coding mechanism.",
+  "publication_number": "US20180101318A1-20180412",
+  "_processing_info": {
+    "original_size": 77912,
+    "optimized_size": 3729,
+    "reduction_percent": 95.21
+  }
+}

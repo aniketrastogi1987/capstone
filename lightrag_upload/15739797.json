@@ -1,0 +1,46 @@
+{
+  "patent_number": "nan",
+  "application_number": "15739797",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "filing_date": "20171226",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A computer-implemented method is presented of processing a data set to detect clusters of outlier data, and of using the processed data to automatically detect outlier events based on sensor data and to issue alerts when such events are detected. The outlier detection technique employs two infinite model mixtures, one tailored to detection of non-outlier data, and the other tailored to detection of outlier data. Clusters of data are created and labelled as non-outlier or outlier clusters according to which infinite mixture model generated the clusters.",
+  "publication_number": "US20180189664A1-20180705",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The invention will now be further illustrated by the following description of embodiments thereof, given by way of example only with reference to the accompanying drawings, in which: FIG. 1 is a plate notation diagram of the data model according to which the present invention operates; FIG. 2 is a set of plots of posterior predictive density against four data sets; FIG. 3 is a set of plots showing numbers of clusters obtained in the data sets; FIG. 4 is a set of plots of posterior mean outlier probability for each of the data sets; FIG. 5 is a comparative set of plots to FIG. 4 where the same data sets were analysed using an MMPP model; FIG. 6 is a plot showing the performance of the technique of the invention as compared with an MMPP model; FIG. 7 is a flowchart showing the overall operation of a software system embodying the analysis method of the invention; FIG. 8 is a flowchart detailing the Gibbs sampler algorithm component of the software; FIG. 9 is a flowchart of real time data analysis software analysing data against a data model produced using the techniques herein; FIG. 10 is a block diagram of a computer system for analysing data sets; FIG. 11 is a block diagram of a system for sensing real-world conditions and generating automated alerts when outlier conditions are detected; FIG. 12 is a block diagram of a system such as in FIG. 11 , deployed in a city's traffic monitoring network. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06F954"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hegde",
+      "inventor_name_first": "Vinod",
+      "inventor_city": "Ballybrit, Galway",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Krnjajic",
+      "inventor_name_first": "Milovan",
+      "inventor_city": "Galway",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Hauswirth",
+      "inventor_name_first": "Manfred",
+      "inventor_city": "Galway",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "title": "DATA ANALYSIS AND EVENT DETECTION METHOD AND SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 90104,
+    "optimized_size": 2944,
+    "reduction_percent": 96.73
+  }
+}

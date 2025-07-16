@@ -1,0 +1,44 @@
+{
+  "date_produced": "20160908",
+  "publication_number": "US20160275407A1-20160922",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15067682",
+  "inventor_list": [
+    {
+      "inventor_name_last": "AISU",
+      "inventor_name_first": "Hideyuki",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Iwamasa",
+      "inventor_name_first": "Mikito",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Otsuki",
+      "inventor_name_first": "Tomoshi",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "An estimation device according to an aspect of the present invention includes an estimator and a selector. The estimator, for each of a plurality of times, estimates a probability density distribution of a parameter representing a state of a diagnosis object, based on a measurement value of the diagnosis object, the measurement value being measured up to each of the times. The selector selects one or more probability density distributions meeting a predetermined condition relating to the probability density distribution.",
+  "filing_date": "20160311",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram illustrating an example of a schematic configuration of a diagnostic device according to an embodiment of the present invention; FIG. 2 is a block diagram illustrating an example of a diagnostic device where a particle filter is used; FIGS. 3A to 3E are diagrams illustrating a content of processing in a particle filter; FIGS. 4A and 4B are diagrams each illustrating an example of an output; FIG. 5 is a flowchart of processing relating to measurement data; FIG. 6 is a flowchart of probability density distribution estimation and output processing; FIG. 7 is a flowchart of particle filter processing; FIG. 8 is a flowchart of probability density distribution search processing; and FIG. 9 is a block diagram illustrating an example of a hardware configuration according to an embodiment of the present invention. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20160922",
+  "title": "DIAGNOSTIC DEVICE, ESTIMATION METHOD, NON-TRANSITORY COMPUTER READABLE MEDIUM, AND DIAGNOSTIC SYSTEM",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 51994,
+    "optimized_size": 2355,
+    "reduction_percent": 95.47
+  }
+}

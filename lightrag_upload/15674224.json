@@ -1,0 +1,50 @@
+{
+  "patent_number": "None",
+  "application_number": "15674224",
+  "date_published": "20180104",
+  "date_produced": "20171219",
+  "filing_date": "20170810",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A recurrent neural network including an input layer, a hidden layer, and an output layer, wherein the hidden layer includes hybrid memory cell units, each of the hybrid memory cell units including a first memory cells of a first type, the first memory cells being configured to remember a first cell state value fed back to each of gates to determine a degree to which each of the gates is open or closed, and configured to continue to update the first cell state value, and a second memory cells of a second type, each second memory cell of the second memory cells including a first time gate configured to control a second cell state value of the second memory cell based on phase signals of an oscillatory frequency, and a second time gate configured to control an output value of the second memory cell based on the phase signals, and each second memory cell of the second memory cells being configured to remember the second cell state value.",
+  "publication_number": "US20180005107A1-20180104",
+  "summary": "<SOH> SUMMARY <EOH>Example embodiments may address at least the above problems and/or disadvantages and other disadvantages not described above. Also, the example embodiments are not required to overcome the disadvantages described above, and an example embodiment may not overcome any of the problems described above. According to an aspect of an example embodiment, there is provided a recurrent neural network including an input layer, a hidden layer, and an output layer, wherein the hidden layer includes hybrid memory cell units, each of the hybrid memory cell units including a first memory cells of a first type, the first memory cells being configured to remember a first cell state value fed back to each of gates to determine a degree to which each of the gates is open or closed, and configured to continue to update the first cell state value, and a second memory cells of a second type, each second memory cell of the second memory cells including a first time gate configured to control a second cell state value of the second memory cell based on phase signals of an oscillatory frequency, and a second time gate configured to control an output value of the second memory cell based on the phase signals, and each second memory cell of the second memory cells being configured to remember the second cell state value. Each of the hybrid memory cell units may be configured to fully open the first time gate and the second time gate with respect to a predetermined percentage of the first memory cells. When a ratio of a number of neuron indices to a total number of neurons included in each of the hybrid memory cell units exceeds the predetermined percentage, the first time gate and the second time gate may be further configured to be fully opened and set to a first value. The hidden layer may include remaining neurons which remain after neurons included in each of the hybrid memory cell units are randomly dropped out by a random variable drawn from a uniform distribution betw...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N3063",
+    "G06F1582",
+    "G06F950",
+    "G06F9445",
+    "G06N308",
+    "G06F938"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "NEIL",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Zuerich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "LIU",
+      "inventor_name_first": "Shih-Chii",
+      "inventor_city": "Zuerich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "PFEIFFER",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Boblingen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "HYBRID MEMORY CELL UNIT AND RECURRENT NEURAL NETWORK INCLUDING HYBRID MEMORY CELL UNITS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 130477,
+    "optimized_size": 3877,
+    "reduction_percent": 97.03
+  }
+}

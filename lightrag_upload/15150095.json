@@ -1,0 +1,45 @@
+{
+  "date_produced": "20161026",
+  "publication_number": "US20160328649A1-20161110",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15150095",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Simm",
+      "inventor_name_first": "Maciej",
+      "inventor_city": "Ashland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Almarode",
+      "inventor_name_first": "Jay",
+      "inventor_city": "Lebanon",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stadnisky",
+      "inventor_name_first": "Michael D.",
+      "inventor_city": "Ashland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A framework and interface for invoking and assimilating external algorithms and interacting with said algorithms in-session and real-time are described herein. An example embodiment also includes reproducible, updatable nodes that can be leveraged for data-driven analysis whereby the data itself can direct the algorithm choice, variables, and presentation leading to iteration and optimization in an analysis workflow. With example embodiments, an entire discovery or diagnosis process may be executed on a particular data set, thereby divorcing the discovery or diagnosis process from a specific data set such that the same discovery or diagnosis process, phenotype identification, and visualizations may be repeated on future experiments, published, validated, or shared with another investigator.",
+  "filing_date": "20160509",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The accompanying drawings, which are incorporated in and form a part of the specification, illustrate the embodiments of the present invention and together with the description, serve to explain the principles of the invention. In the drawings: FIG. 1 illustrates a system diagram for an example embodiment. FIG. 2A illustrates a plug-in framework and architecture according to an exemplary embodiment. FIG. 2B illustrates an example XML description of a workspace. FIG. 2C illustrates an example XML description of a plugin. FIG. 3 illustrates an implementation for interfacing with a remote computer using the plug-in framework and architecture. FIG. 4 illustrates an implementation for interfacing with an external algorithm using the plug-in framework and architecture. FIG. 5A illustrates a high level representation of a data discovery node process with result feedback according to an exemplary embodiment. FIG. 5B illustrates an example of how data discovery nodes can be used to expand a knowledge base. FIG. 6 illustrates an entire life-cycle for a data analysis flow performed by a data discovery node. FIG. 7 illustrates a user interface used to create a data discovery node and set and define operational variables. FIG. 8A illustrates an expert training a data discovery node and an analyst invoking the expertly trained data discovery node. FIGS. 8B and 8C show an example of expert training of a data discovery node. FIG. 9 illustrates a decision tree represented by a data discovery node. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20161110",
+  "title": "Data Discovery Nodes",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 104534,
+    "optimized_size": 3233,
+    "reduction_percent": 96.91
+  }
+}

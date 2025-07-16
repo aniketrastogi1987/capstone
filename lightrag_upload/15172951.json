@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15172951",
+  "date_published": "20161208",
+  "date_produced": "20161122",
+  "title": "METHOD AND APPARATUS FOR MANAGING MEMORY",
+  "filing_date": "20160603",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Kibeom",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KOO",
+      "inventor_name_first": "Jinkyu",
+      "inventor_city": "Yongin-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Kwonsik",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Hyojeong",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>Aspects of the present disclosure are to address at least the above-mentioned problems and/or disadvantages and to provide at least the advantages described below. Accordingly, an aspect of the present disclosure is to provide a method and an apparatus for managing a memory. Another aspect of the present disclosure is to provide a method and an apparatus for improving a memory allocation speed through an efficient management when memory allocation is requested. Another aspect of the present disclosure is to provide a method and an apparatus for improving a memory allocation speed through migration minimization during contiguous memory allocation. In accordance with an aspect of the present disclosure, a method for managing a memory is provided. The method includes setting a list including an exclusive relationship, between a page unit memory allocation requester and a contiguous memory allocation requester, corresponding to a segment of a contiguous memory allocation region, receiving a memory allocation request, confirming whether the memory allocation requester comprises the memory allocation requester included in the list, and allocating a page of the contiguous memory allocation region corresponding to the segment of the list, if the memory allocation requester is included in the list. In accordance with another aspect of the present disclosure, an electronic device is provided. The electronic device includes a memory including a contiguous memory allocation region, and a memory management unit. The memory management unit is configured to set a list including an exclusive relationship, between a page unit memory allocation requester and a contiguous memory allocation requester, corresponding to a segment of the contiguous memory allocation region, receive a memory allocation request, confirm whether the memory allocation requester comprises the memory allocation requester included in the list, and allocate a page of the contiguous memory alloc...",
+  "patent_number": "None",
+  "abstract": "A method for managing a memory and an electronic device are provided. The method includes setting a list including an exclusive relationship, between a page unit memory allocation requester and a contiguous memory allocation requester, corresponding to a segment of a contiguous memory allocation region, receiving a memory allocation request, confirming whether the memory allocation requester comprises the memory allocation requester included in the list, and allocating a page of the contiguous memory allocation region corresponding to the segment, if the memory allocation requester is included in the list.",
+  "publication_number": "US20160357455A1-20161208",
+  "_processing_info": {
+    "original_size": 68494,
+    "optimized_size": 3560,
+    "reduction_percent": 94.8
+  }
+}

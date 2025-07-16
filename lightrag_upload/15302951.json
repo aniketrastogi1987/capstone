@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170110",
+  "publication_number": "US20170024658A1-20170126",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15302951",
+  "inventor_list": [
+    {
+      "inventor_name_last": "UTSUNOMIYA",
+      "inventor_name_first": "Shoko",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "YAMAMOTO",
+      "inventor_name_first": "Yoshihisa",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TAKESUE",
+      "inventor_name_first": "Hiroki",
+      "inventor_city": "Atsugi-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A parametric oscillator oscillates a plurality of pseudo spin pulses SPi having mutually an identical oscillation frequency by using parametric oscillation, an interaction implementing unit performs feedback implementation of a magnitude and a sign of interaction related to each pseudo spin pulse SPi (the proportionality coefficient λi+ΣJijσj+ΣKijkσjσk with respect to σi) by using a tentative measurement result of oscillation phases φi(tentative) of the plurality of pseudo spin pulses SPi, and a pseudo spin measuring unit measures the pseudo spins σi of the plurality of pseudo spin pulses SPi, based on a final measurement result of oscillation phases φi(steady) of the plurality of pseudo spin pulses SPi.",
+  "filing_date": "20161007",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A first conventional technology (see Patent Literature 1) and a second conventional technology for solving the above-described problems are described. An NP-complete problem can be substituted by an Ising model of a magnetic material, and the Ising model of a magnetic material can be substituted by a network of lasers. Here, in the Ising model of a magnetic material, in a pair of atoms interacting with each other, the directions of spins tend to be oriented in opposite directions (in the case of interaction of antiferromagnetism) or in the identical direction (in the case of interaction of ferromagnetism) such that the energy of spin configuration is the lowest. On the other hand, in a network of lasers, in a pair of lasers interacting with each other, the polarization (in the case of the first conventional technology) or the phases (in the case of the second conventional technology) of oscillation tend to be reverse rotations or opposite phases (in the case of interaction of antiferromagnetism), or the identical rotation or the identical phase (in the case of interaction of ferromagnetism) respectively such that the threshold gain of the oscillation mode is the lowest. In other words, in a system configured by one pair of lasers, the polarization or the phases of oscillation can be optimized such that the threshold gain of the oscillation mode is the lowest. In a system configured by many pairs of lasers, when, in a case where the polarization or the phases of oscillation are optimized for a “certain” pair of lasers, the polarization or the phases of oscillation cannot be optimized for “other” pairs of lasers, a “point of compromise” of the polarization or the phases of oscillation as a “whole” of the network of lasers is searched for. However, in a case where the polarization or the phases of oscillation are optimized as a whole of the network of lasers, it is necessary to achieve locking between lasers such that individual oscillation modes for...",
+  "date_published": "20170126",
+  "title": "QUANTUM COMPUTING DEVICE FOR ISING MODEL, QUANTUM PARALLEL COMPUTING DEVICE FOR ISING MODEL, AND QUANTUM COMPUTING METHOD FOR ISING MODEL",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 142003,
+    "optimized_size": 3732,
+    "reduction_percent": 97.37
+  }
+}

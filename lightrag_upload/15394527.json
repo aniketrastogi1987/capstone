@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189669A1-20180705",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15394527",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jeon",
+      "inventor_name_first": "Sangick",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system predicts event type and event intensity within specified regions. The system trains a computer model to predict event intensity score values indicative of human activity within a certain geofence and occurring within a certain timeframe. The predicted event intensity score values are based on event data received from third party systems and analyzed by the system. The predicted event intensity score values may be further based on trip data related to trips facilitated by the system. With the predicted activity, the system can modify trips and provide adequate resources for predicted events.",
+  "filing_date": "20161229",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A system predicts regional event schedules and uses the predicted information to predict population densities and flows of people within regions. The predictions are used to trigger a variety of precautionary interventions in the affected areas. To predict events and population flows, the system receives data for various events and population flows to predict future population flows based on event data. The system receives data associated with events from third party systems such as media and sports league websites. The event data may include information about a date and time of an event, a location of an event, a type of the event, or expected number of attendees. Event data can be received in forms that are structured, as in responses to application programming interface (API) calls provided by an event webpage of the provider. Event data can also be received in unstructured forms, such as by scraping websites for information about upcoming events. Data associated with trips facilitated by the system is also collected. The system uses the event data and data about past trips to train one or more computer models to predict values for one or more event intensity scores that represent a predicted population density or a predicted directionality of human movement throughout a region. Examples of event data that may be used to train the system models may include counts of a number of performances scheduled at a theater, a count of a number of national or regional holidays that are expected to be celebrated within a region, a count of a number of sports events occurring at a local stadium within a week, and predicted events based on social media posts. Examples of training data that may be used as event intensity score values for training the model include a number of pickups and drop-offs facilitated by the system within a region, and the number of calls made from a region within a specified timeframe. The system receives new event data from third pa...",
+  "date_published": "20180705",
+  "title": "IDENTIFICATION OF EVENT SCHEDULES",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 66850,
+    "optimized_size": 3143,
+    "reduction_percent": 95.3
+  }
+}

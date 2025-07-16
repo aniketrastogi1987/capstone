@@ -1,0 +1,30 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15085971",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "title": "TRANSACTIONAL BOUNDARIES FOR VIRTUALIZATION WITHIN A SOFTWARE SYSTEM",
+  "filing_date": "20160330",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Dahan",
+      "inventor_name_first": "Jean David",
+      "inventor_city": "Cedar Park",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1136"
+  ],
+  "main_ipcr_label": "G06F1136",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>According to one aspect of the present disclosure, transaction data can be received from an agent instrumented on a first software component in a system, the transaction data identifying characteristics of a particular transaction involving the first software component and a second software component as observed by the agent during operation of the system. The particular transaction may be contemporaneous with another transaction involving software components in the system. It can be determined, from the transaction data, that the particular transaction falls within a defined transaction boundary for the system and the other transaction falls outside the transaction boundary. A virtual service can be instantiated for use in the particular transaction that simulates responses of a particular software component of the system. Another software component of the system can interact with the virtual service in the particular transaction based on the particular transaction falling within the transaction boundary, and the other software component can interact with the particular software component in the other transaction based on the other transaction falling outside the transaction boundary.",
+  "patent_number": "9946639",
+  "abstract": "Transaction data is received identifying characteristics of a particular transaction involving the first software component and a second software component as observed by an agent during operation of the system. The particular transaction is contemporaneous with another transaction involving software components in the system. It is determined, from the transaction data, that the particular transaction falls within a defined transaction boundary for the system and the other transaction falls outside the transaction boundary. A virtual service is instantiated for use in the particular transaction that simulates responses of a particular software component of the system. Another software component of the system interacts with the virtual service in the particular transaction based on the particular transaction falling within the transaction boundary, and the other software component interacts with the particular software component in the other transaction based on the other transaction fa...",
+  "publication_number": "US20170286281A1-20171005",
+  "_processing_info": {
+    "original_size": 139301,
+    "optimized_size": 2796,
+    "reduction_percent": 97.99
+  }
+}

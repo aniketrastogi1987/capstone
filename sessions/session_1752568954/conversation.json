@@ -1,0 +1,133 @@
+{
+  "session_id": "session_1752568954",
+  "start_time": "2025-07-15T14:12:34.500320",
+  "end_time": "2025-07-15T14:30:49.903783",
+  "conversation": [
+    {
+      "timestamp": "2025-07-15T14:12:44.017951",
+      "user_query": "2",
+      "assistant_response": "\ud83d\udcdd Question 1: What is the title of your invention?",
+      "response_time": 9.5367431640625e-07,
+      "guardrail_scores": {
+        "profanity_score": 0.0,
+        "topic_relevance_score": 0.5,
+        "politeness_score": 0.5
+      },
+      "evaluation_scores": null,
+      "data_source": "menu_selection",
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-07-15T14:14:15.913576",
+      "user_query": " learning system and method based on deep learning",
+      "assistant_response": "\ud83d\udcdd Question 2: Can you provide an abstract of your invention?\n(2-3 sentences describing what it does)",
+      "response_time": 1.0013580322265625e-05,
+      "guardrail_scores": {
+        "profanity_score": 0.0,
+        "topic_relevance_score": 0.5,
+        "politeness_score": 0.5
+      },
+      "evaluation_scores": null,
+      "data_source": "patent_analysis",
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-07-15T14:14:29.979934",
+      "user_query": "The present invention discloses a model fusion triple representation learning system and method based on deep learning. It uses the pre-trained BERT language model to embed the words to obtain a more contextual representation of the words; at the same time, the masking of the BERT structure is used The language modeling task uses its triples as sequence input; for the problem of multiple semantics of the same entity, the present invention uses projection or transformation matrices to enable different representations of mapped entity relationships in different fields. However, after the transformation in the present invention BERT can input triples or their description information as text and train them together.",
+      "assistant_response": "\ud83d\udcdd Question 3: Do you have a detailed description available?\n\nPlease select:\n- Type 'y' for Yes (I have a detailed description)\n- Type 'n' for No (I don't have a detailed description)",
+      "response_time": 6.9141387939453125e-06,
+      "guardrail_scores": {
+        "profanity_score": 0.0,
+        "topic_relevance_score": 0.5,
+        "politeness_score": 0.5
+      },
+      "evaluation_scores": null,
+      "data_source": "patent_analysis",
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-07-15T14:14:32.877393",
+      "user_query": "y",
+      "assistant_response": "\ud83d\udcdd Please provide your detailed description:",
+      "response_time": 6.198883056640625e-06,
+      "guardrail_scores": {
+        "profanity_score": 0.0,
+        "topic_relevance_score": 0.5,
+        "politeness_score": 0.5
+      },
+      "evaluation_scores": null,
+      "data_source": "patent_analysis",
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-07-15T14:14:47.606405",
+      "user_query": "A model fusion triple representation learning system and method based on deep learning\n\u3010Technical field\u3011\n\nThe invention belongs to the field of electronic information technology and relates to a model fusion triple representation learning system and method based on deep learning.\n\n\u3010Background technique\u3011\n\nPeople usually organize the knowledge in the knowledge base in the form of a network. Each node in the network represents an entity (name of person, place name, organization name, concept, etc.), and each edge represents the relationship between entities. Therefore, most knowledge can often be represented by a triplet (entity 1, relationship, entity 2), corresponding to an edge in the knowledge base network and the two entities it connects. This is a common representation of knowledge bases. For example, the Resource Description Framework (RDF) technical standard released by the World Wide Web (W3C) is based on triple representation. Knowledge base is an important basic technology that promotes the development of artificial intelligence disciplines and supports intelligent information service applications (such as intelligent search, intelligent question and answer, personalized recommendations, etc.). In order to improve the quality of information services, domestic and foreign Internet companies (especially search engine companies) have launched knowledge base products, such as Google Knowledge Graph, Microsoft Bing Satori, Baidu Zhixin, and Sogou Zhicube. After Google proposed the concept of knowledge graphs, the form of representing knowledge in a triplet structure has been widely recognized. The knowledge graph was also born from this.\n\nThe essence of the knowledge graph is a collection of triples. However, the completeness of the triples obtained after the entity relationship extraction is completed is still insufficient. Currently, large-scale knowledge graphs such as Freebase, Wikidata, DBpedia, etc., which store a large number of triples, exist. But they are still far from complete. With the explosive growth of information, it is certain that the knowledge map exists, but it is still far from complete. With the explosive growth of information, determining the correctness of the information in triples and completing them are also crucial tasks.\n\nTriplet representation learning based on deep learning is currently mainly divided into three categories: distance-based, text fusion and path-based methods. The translation-based representation learning completion model obtains the representation of entity and relationship semantic information by embedding entities and relationships into a low-dimensional vector space. After the word2vec word representation learning toolkit was proposed in 2013, through this model, the translation-invariant phenomenon existing in the word vector space was found. For example, V(father)-V(mother)=V(female)-V(male), where V(w) represents the vector representation of word w learned with word2vec. That is, the word vector representation can capture some of the same semantic relationships implicit between the words father and mother, and between female and male. And with the help of analogical reasoning experiments, we found that this phenomenon widely exists in the semantic relationships and syntactic relationships of words. Inspired by this phenomenon, the TransE model is proposed, which embeds entities and relationships in a low-dimensional space, represents the relationship as an inter-entity translation operation in the low-dimensional embedding space, and then uses the score function to connect the entities and relationships, and performs the operation through the loss function. Optimize to obtain the optimal target value. Since then, most translation-based representation learning models have been extended on the basis of TransE. Although the performance has been improved, the overly complex and sophisticated design of the model has greatly affected subsequent scalability. Fusion text representation learning refers to fusing knowledge extracted from different data sources together. Different from traditional data fusion (datafusion) tasks, knowledge fusion technology can use multiple different knowledge extraction tools to extract corresponding values from each data source for each data item, while data fusion only considers a single extraction tool . The drawback and shortcoming is that the noise generated in the process of fusing multi-source data cannot be effectively processed and resolved. Multi-step relationship paths also contain rich reasoning patterns between entities. The model generally measures the reachability of the relationship path through a path constrained resource allocation algorithm, and uses the semantic combination of relationship embedding to represent the relationship path, that is, the relationship path is used as a translation between entities in representation learning. Not only direct relationships are considered, but also multi-step relationship paths containing rich reasoning patterns between entities are considered, solving the problem of representation learning from only a single path. You can also use the information of relationship paths to represent entities and relationships in the knowledge graph. The flaw and shortcoming is that the selection and design of path formulas directly determine the performance of the model, which is insufficient in terms of versatility.",
+      "assistant_response": "\ud83d\udcdd Question 4: Select the technology field(s) that best match your invention:\n\n1. Machine Learning & AI\n2. Computer Vision & Image Processing\n3. Neural Networks & Deep Learning\n4. Pattern Recognition & Classification\n5. Data Mining & Analytics\n6. Bioinformatics & Computational Biology\n7. Natural Language Processing\n8. Robotics & Automation\n9. Signal Processing & Audio\n10. Others (search all patents)\n\nYou can select multiple fields by entering numbers separated by commas (e.g., 1,3,5)\nOr type 'all' to search across all fields:",
+      "response_time": 1.6927719116210938e-05,
+      "guardrail_scores": {
+        "profanity_score": 0.0,
+        "topic_relevance_score": 0.5,
+        "politeness_score": 0.5
+      },
+      "evaluation_scores": null,
+      "data_source": "patent_analysis",
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-07-15T14:16:14.471809",
+      "user_query": "10",
+      "assistant_response": "\ud83d\udd0d **Patent Analysis Complete**\n\n**Your Invention:**\n- Title: learning system and method based on deep learning\n- Technology Fields: Others (search all patents)\n\n**RAG-Based Prior Art Analysis:**\nTo conduct a prior art search for an invention involving a model fusion triple representation learning system based on deep learning that uses pre-trained BERT models, follow these steps:\n\n### Step-by-Step Prior Art Search Guide:\n\n1. **Identify Keywords**:\n   - Focus on keywords such as \"Deep Learning\", \"Triple Representation Learning\", \"Model Fusion\", \"Pre-Trained Models (BERT)\", and \"Knowledge Graph Embedding\".\n\n2. **Patent Databases**:\n   - Utilize patent databases like Google Patents, PatentScope by WIPO to find relevant patents.\n\n3. **Academic Databases**:\n   - Search academic databases such as IEEE Xplore, arXiv.org, DBLP, and Google Scholar for research papers or technical reports that discuss similar techniques.\n\n4. **Specific Search Terms**:\n   - Use search terms like \"Deep Learning AND Triple Representation\", \"BERT language model AND Knowledge Graph Embedding\", \"Pre-trained Model AND Semantic Relationships\".\n\n5. **Influential Papers and Patents**:\n   - Look for influential papers such as the TransE paper by Bordes et al., and the BERT paper by Devlin et al.\n\n### Example Prior Art:\n\n#### Patents\n- **US2019/0266084 A1**: \"Semantic Relation Extraction Using Pre-trained Language Model\"\n  - This patent incorporates the use of pre-trained language models for semantic relation extraction, which is relevant to your invention's focus on using BERT for embedding words and triples.\n\n#### Research Papers\n- **\"TransE: Translating Embeddings for Modeling Multi-relational Data,\"** by Antoine Bordes et al.\n  - This paper introduces the concept of translating embeddings for knowledge graph completion, a foundational technique that your invention builds upon with the addition of pre-trained models like BERT.\n\n### Analysis:\n\n#### Novelty Evaluation:\n- **Use of Pre-trained Models**: The use of pre-trained BERT to embed words and triples provides a more contextual representation compared to existing methods. This is particularly novel because it leverages state-of-the-art language modeling capabilities for knowledge graph embedding tasks.\n  \n- **Handling Multiple Semantics**: Your invention's approach to handling multiple semantics through projection or transformation matrices offers a unique solution that differs from previous techniques which may have been limited in their ability to capture diverse semantic nuances.\n\n#### Patentability Analysis:\n- **Technical Detail and Reproducibility**: Ensure the patent application provides sufficient technical detail so that someone skilled in the art can reproduce the system. Include clear descriptions of how BERT is used for triple embedding, the specific techniques employed for handling multiple semantics, and any novel algorithms or models developed.\n\n- **Improvement Over Prior Art**: Clearly articulate how your invention improves upon existing solutions by providing more accurate embeddings and better handling of semantic diversity through advanced matrix operations. This differentiation will be crucial in establishing patentability.\n\n### Conclusion:\nBy conducting a detailed analysis based on the identified prior art, you can establish whether your model fusion triple representation learning system offers significant advantages over existing methods. Ensure that your invention's technical contributions are clearly outlined to demonstrate both novelty and non-obviousness, thereby enhancing its chances of being patented successfully.\n\n**Local Analysis Summary:**\nYour invention shows strong potential with good innovation and market relevance, with room for minor improvements.\n\n**Key Factors:**\n\u2022 \u2705 Clear and descriptive title with technical specificity\n\u2022 \u26a0\ufe0f  Abstract is good but could include more technical details\n\u2022 \u2705 Comprehensive technical description with implementation details\n\u2022 \u26a0\ufe0f  Moderate technology potential - consider market positioning\n\n**Recommendations:**\n\u2022 Good potential - consider filing within 3-6 months\n\u2022 Address prior art concerns and strengthen novelty arguments\n\u2022 Conduct thorough competitive analysis before filing\n\n**Acceptance Probability:**\n81.1% (if available)",
+      "response_time": 82.52534794807434,
+      "guardrail_scores": {
+        "profanity_score": 0.0,
+        "topic_relevance_score": 0.5,
+        "politeness_score": 0.5
+      },
+      "evaluation_scores": null,
+      "data_source": "patent_analysis",
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-07-15T14:29:26.457502",
+      "user_query": "hi\n",
+      "assistant_response": "Option not correctly selected, please select a valid option\n\n\ud83e\udd16 **Patent Analysis Assistant**\n\nPlease select an option:\n1. \ud83d\udcca Analyze existing patent\n2. \ud83d\udca1 Analyze new invention\n3. \ud83d\udd0d Search for similar patents\n\nEnter 1, 2, or 3:",
+      "response_time": 6.198883056640625e-06,
+      "guardrail_scores": {
+        "profanity_score": 0.0,
+        "topic_relevance_score": 0.5,
+        "politeness_score": 0.5
+      },
+      "evaluation_scores": null,
+      "data_source": "menu_selection",
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-07-15T14:29:34.403181",
+      "user_query": "3",
+      "assistant_response": "\ud83d\udd0d What technology or topic would you like to search for?\n(Examples: machine learning, IoT, blockchain, etc.)",
+      "response_time": 1.2159347534179688e-05,
+      "guardrail_scores": {
+        "profanity_score": 0.0,
+        "topic_relevance_score": 0.5,
+        "politeness_score": 0.5
+      },
+      "evaluation_scores": null,
+      "data_source": "menu_selection",
+      "error_message": null
+    },
+    {
+      "timestamp": "2025-07-15T14:30:07.806933",
+      "user_query": "check patents for fuck",
+      "assistant_response": "\ud83d\udd0d COMPREHENSIVE PATENT SEARCH RESULTS\n\n\ud83d\udcda DATABASE SEARCH RESULTS (from patent database):\nBased on your query, it seems like you're interested in looking for patents related to certain types of checks or verification systems. Instead of using inappropriate language, we can focus on finding relevant technologies that might fit what you are seeking.\n\n### Possible Areas of Interest:\n1. **Security Checks**: Patents dealing with methods and systems used to verify user identity, detect unauthorized access, or monitor activity for security purposes.\n2. **Verification Systems**: Technologies involving validation processes like checksums, digital signatures, or other verification mechanisms that ensure data integrity.\n3. **Error Detection**: Inventions focused on detecting errors in software applications or hardware systems.\n\n### Steps to Refine Your Search:\n- Identify the core functionality you are interested in (e.g., security measures, error detection).\n- Use specific technical terms rather than inappropriate language when searching for patents.\n- Look into keywords such as \"security check,\" \"verification system,\" \"error detection mechanism.\"\n\nIf your query is more specifically about a particular application or aspect of these technologies, providing additional context would be very helpful. For example:\n\n- Are you interested in security checks within software applications?\n- Do you want to know about specific error detection mechanisms used in hardware systems?\n\nLet me know if you can provide any further details so I can help narrow down the search and find relevant patents for you!\n\n\ud83d\udccb LOCAL SEARCH RESULTS:\nNo local patents found related to 'check patents for fuck'.\nWould you like to analyze any specific patent from these results?",
+      "response_time": 25.106418132781982,
+      "guardrail_scores": {
+        "profanity_score": 0.0,
+        "topic_relevance_score": 0.5,
+        "politeness_score": 0.5
+      },
+      "evaluation_scores": null,
+      "data_source": "patent_analysis",
+      "error_message": null
+    }
+  ]
+}

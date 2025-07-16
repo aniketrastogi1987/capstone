@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15454373",
+  "date_published": "20171019",
+  "date_produced": "20171004",
+  "filing_date": "20170309",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A pollution estimation system (100) for estimating pollution level caused by exhaust gas of motor vehicles is provided. The system comprises an acoustic sensor interface (110) arranged to obtain use-data from an acoustic sensor comprising an audio sample of a motor vehicle sound and a trained exhaust gas model unit (120) arranged to receive as input the audio sample of the use-data and to apply a trained exhaust gas model to the received audio sample to produce an estimated pollution level associated with the received audio sample. The trained exhaust gas model has been obtained by training an exhaust gas model on multiple training items using a machine learning algorithm, the multiple training items comprising multiple audio samples of motor vehicle sounds obtained from one or more acoustic sensors and associated pollution levels.",
+  "publication_number": "US20170300818A1-20171019",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It would be advantageous to have an improved method of monitoring pollution caused by motor vehicle exhaust. A pollution estimation system for estimating pollution level caused by exhaust gas of motor vehicles is provided. The system comprises an acoustic sensor interface arranged to obtain use-data from an acoustic sensor comprising an audio sample of a motor vehicle sound, a trained exhaust gas model unit arranged to receive as input the audio sample of the use-data and to apply a trained exhaust gas model to the received audio sample to produce an estimated pollution level associated with the received audio sample, wherein the trained exhaust gas model has been obtained by training an exhaust gas model on multiple training items using a machine learning algorithm, the multiple training items comprising multiple audio samples of motor vehicle sounds obtained from one or more acoustic sensors and associated pollution levels. By taking an audio fragment of the sound of a motor vehicle, say a car, the trained exhaust gas model unit can estimate the pollution caused by that motor vehicle. In this way, the pollution estimation system does not require a pollution sensor to estimate pollution levels. In fact acoustic sensors may be used for multiple purposes and also function to estimate pollution levels. The exhaust gas model may be, e.g., a neural network. The estimation system may be improved by a hybrid model comprising both a classifying model as well as a regression model. For example, in an embodiment, the exhaust gas model comprises a classification model and at least one regression model. A list of tags is defined for the exhaust gas model, each one of the regression models being associated with a tag of the list of tags. The classification model is arranged to predict a tag from an audio sample of a motor vehicle sound, and the trained exhaust gas model unit is arranged to apply the trained classification model to the audio s...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06F1750"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SINITSYN",
+      "inventor_name_first": "ALEXANDRE GEORGIEVICH",
+      "inventor_city": "VELDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "FLINSENBERG",
+      "inventor_name_first": "INGRID CHRISTINA MARIA",
+      "inventor_city": "EINDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "AOUN",
+      "inventor_name_first": "MARC",
+      "inventor_city": "EINDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "HOLENDERSKI",
+      "inventor_name_first": "LESZEK",
+      "inventor_city": "EINDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    }
+  ],
+  "title": "POLLUTION ESTIMATION SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 70820,
+    "optimized_size": 3855,
+    "reduction_percent": 94.56
+  }
+}

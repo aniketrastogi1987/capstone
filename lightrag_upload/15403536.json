@@ -1,0 +1,61 @@
+{
+  "patent_number": "None",
+  "application_number": "15403536",
+  "date_published": "20170601",
+  "date_produced": "20170517",
+  "filing_date": "20170111",
+  "main_ipcr_label": "G06N300",
+  "abstract": "A system and method for automatically mapping LATs and candidate answers to multiple taxonomies without a need to merge these taxonomies. The method includes using a syntactic analysis of a corpus to extract all type instances of the LAT. The extracted instances are then mapped to a given taxonomy and clustered in a set of supertypes. Each supertype receives a score based on the coverage of LAT instances in the corpus. The method includes mapping the candidate answer to the same taxonomy to determine if the candidate answer is an instance of a significant supertype. Then the score of a candidate answer is obtained by aggregating or taking a maximum of the score of the matched significant supertypes. This score evaluates the type match between the LAT and candidate answer for a taxonomy. Multiple taxonomies can be used to increase the chance of LAT and candidate answer mapping.",
+  "publication_number": "US20170154256A1-20170601",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Embodiments of the invention provide for a dynamic infrastructure and methodology for performing type evaluation for determining a valid answer to a question in a question answering system, and combining multiple taxonomies for type evaluation in a question-answering system. In one embodiment, the method comprises type evaluations for a LAT and candidate answer using multiple taxonomies without a need to merge these taxonomies. It does so by using a syntactic analysis of the text corpus to extract all type instances of the LAT. The extracted instances are then mapped to a given taxonomy and clustered in a set of significant supertypes. Each significant supertype receives a score based on the coverage of LAT examples in the corpus. When matching the LAT to a candidate answer, the candidate answer is mapped to the same taxonomy to determine if the candidate answer is an instance of a significant supertype. In one embodiment, the score of a candidate answer is obtained by aggregating or taking a maximum score of the matched significant supertypes. This score evaluates the type match between the LAT and candidate answer for a taxonomy. Multiple taxonomies can be used to increase the chance of LAT and candidate answer mapping. The same technique is applied for each taxonomy and the candidate answer receives the maximum score across all considered taxonomies. An aspect of the invention thus provides a system and computer-implemented method for scoring candidate answers to questions. The method comprises receiving a natural language question into a computer-implemented question answering system. Then, applying syntactic analysis on the question to determine a lexical answer type (LAT) for the question. A second question based the LAT is generated. One or more LAT instances are identified by inputting the generated second question through the question answering system. The one or more LAT instances are mapped to one or more taxonomies. In the one or...",
+  "ipcr_labels": [
+    "G06N300",
+    "G06N502",
+    "G06N700",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bagchi",
+      "inventor_name_first": "Sugato",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bornea",
+      "inventor_name_first": "Mihaela A.",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fan",
+      "inventor_name_first": "James J.",
+      "inventor_city": "Mountain Lakes",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kalyanpur",
+      "inventor_name_first": "Aditya A.",
+      "inventor_city": "Westwood",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Welty",
+      "inventor_name_first": "Christopher",
+      "inventor_city": "Hawthorne",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "TYPE EVALUATION IN A QUESTION-ANSWERING SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 66788,
+    "optimized_size": 4069,
+    "reduction_percent": 93.91
+  }
+}

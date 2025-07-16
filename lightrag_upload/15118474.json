@@ -1,0 +1,38 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15118474",
+  "date_published": "20170622",
+  "date_produced": "20170607",
+  "title": "IMPROVED QUANTUM CIRCUIT FOR CHEMISTRY SIMULATION",
+  "filing_date": "20160811",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hastings",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Santa Barbara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wecker",
+      "inventor_name_first": "David",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H03K19195",
+    "G06N9900"
+  ],
+  "main_ipcr_label": "H03K19195",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. Quantum circuits for chemistry simulation include at least one reduced Jordan-Wigner circuit coupled to a plurality of qubits and include a plurality of CNOT gates corresponding to respective spin orbitals. One or more CNOT gates associated with a full Jordan-Wigner series is omitted or, alternatively, is included in a reduced Hamiltonian circuit coupled to qubits that are associated with the spin orbitals. The reduced Hamiltonian circuit can be based on one body or two body Hamiltonian coefficients associated with a material of interest. In some examples, the circuit includes a plurality of reduced Hamiltonian circuits situated in series and having different basis change gates. In other examples, the circuit includes an output side reduced Jordan-Wigner string corresponding to the input side reduced Jordan-Wigner string, wherein the output side reduced Jordan-Wigner string is situated after the plurality of reduced Hamiltonian circuits. In some examples, the reduced Hamiltonian circuits include Hadamard gates and Y-gates as basis change gates. In other examples, the CNOT gates are coupled to an ancillary or entanglement qubit. In some examples, methods of defining a quantum circuit associated with at least a selected one-body or two-body Hamiltonian coefficient associated with second quantization comprise defining a reduced Jordan-Wigner string associated with spin orbitals coupled by a Hamiltonian coefficient. A reduced Hamiltonian circuit is defined based on the Hamiltonian coefficient, and the reduced Jordan Wigner string is coupled to the reduced Hamiltonian circuit on an input side. In some examples, CNOT gates of t...",
+  "patent_number": "9819347",
+  "abstract": "Quantum circuits for chemistry simulation are based on second quantization Hamiltonian coefficients for one-body and two-body interactions. Jordan-Wigner series that conserve parity can be defined so that selected CNOT gates are removed from the associated circuits. Basis change gates such as Hadamard or Y-gates can be coupled to some or all qubits of a quantum circuit or cancelled in view of corresponding gates in adjacent circuits. In some examples, CNOT gates can be moved to different circuit locations.",
+  "publication_number": "US20170179960A1-20170622",
+  "_processing_info": {
+    "original_size": 55995,
+    "optimized_size": 3220,
+    "reduction_percent": 94.25
+  }
+}

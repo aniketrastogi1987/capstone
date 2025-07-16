@@ -1,0 +1,45 @@
+{
+  "decision": "REJECTED",
+  "application_number": "14905702",
+  "date_published": "20160616",
+  "date_produced": "20160601",
+  "title": "INFORMATION PROCESSING DEVICE",
+  "filing_date": "20160115",
+  "inventor_list": [
+    {
+      "inventor_name_last": "UCHIGAITO",
+      "inventor_name_first": "Hiroshi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MIURA",
+      "inventor_name_first": "Seiji",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NITO",
+      "inventor_name_first": "Takumi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1202",
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F1202",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>",
+  "patent_number": "None",
+  "abstract": "An information processing device includes a host and a memory subsystem. The host issues a write command or an erase command with tag information corresponding to data to the memory subsystem and includes an information processing circuit for processing the data. The memory subsystem includes a first memory, a second memory, and a memory subsystem control circuit. The first memory stores management information for managing the second memory. The second memory has a larger size of a data erase unit than a size of a data write unit and stores the data. The memory subsystem control circuit writes data on the same tag information in the same management unit and writes data on the different tag information in the different management unit, based on the management information in which n times of the data erase unit (“n” is a natural number) is a management unit.",
+  "publication_number": "US20160170873A1-20160616",
+  "_processing_info": {
+    "original_size": 62969,
+    "optimized_size": 1715,
+    "reduction_percent": 97.28
+  }
+}

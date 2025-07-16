@@ -1,0 +1,40 @@
+{
+  "patent_number": "nan",
+  "application_number": "15845787",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20171218",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Signal Phase and Timing (SPaT) messages are provided to control operation of a vehicle. A computer system receives switching state data (SD1) from one or more traffic lights and provides a SPaT message to the vehicle. The SD1 of a traffic light includes a pass-state (SD1p) and a stop-state (SD1s) data at respective sampling time points. A signal analyzer in the computer system analyzes the SD1 by: identifying the current signal state (SD1s, SD1p) of the one or more traffic lights; deriving, from a statistical model, probabilities for future state transitions for one or more future prediction intervals; and determining a minimum end time for a state transition from a current state to the different state. A message composer composes the SPaT message including the determined minimum end time.",
+  "publication_number": "US20180181884A1-20180628",
+  "summary": "<SOH> SUMMARY <EOH>In a general aspect, a computer system described herein provides SPaT messages to a vehicle, wherein the SPaT messages include reliable timing parameters to influence or control the operation of the vehicle by driving assistance systems, drive controllers, or board computers etc., of the vehicles. Reliable timing parameters, as used herein, refer to predicted signal switching state data time points which can be predicted with a probability close to 1. In traditional systems, a likelyTime parameter is typically provided for a potential switching state data time point with a coarse confidence value. (See e.g., SPaT related specification SAE J2735, Revision 10-2014 Oct. 20, at web site: http[://]forge.etsi.org/websvn/listing.php?repname=ITS.ITS_ASN1&path=%2Ftrunk%2FMAP_SPAT_SAEJ2735%2F20141020%2F&rev=10&peg=10#ab36907d03ab1d162a4353b2dc02481cc). The confidence value TimeIntervalConfidence may be thereby coded according to the following mapping (as defined in the file DSRC_REG_D.asn at website: http[://]forge.etsi.org/websvn/filedetails.php?repname=ITS.ITS_ASN1&path=%2Ftrunk%2FMAP_SPAT_SAEJ2735%2F20141020%2FDSRC_REG_D.asn&peg=10): DE_TimeIntervalConfidence (Desc Name) Record 144 TimeIntervalConfidence ::= INTEGER (0 . . . 15) Value Probability 0 21% 1 36% 2 47% 3 56% 4 62% 5 68% 6 73% 7 77% 8 81% 9 85% 10 88% 11 91% 12 94% 13 96% 14 98% 15 100%. What is sent via the SPaT message to the vehicle is one of the integer values 0 to 15 indicating the respective range confidence values associated with the integer via the mapping. However, when for example the vehicle receives a likelyTime parameter indicating a potential switch in 7 seconds with a confidence between 68% and 73% the information is not really helpful in that the vehicle cannot derive any specific operating instruction from the information. Therefore, it may be advantageous to provide reliable timing parameters to the vehicle which indicate a state change (signal switch) with a probability of c...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504",
+    "G06N708",
+    "G05D100"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rolle",
+      "inventor_name_first": "Oliver",
+      "inventor_city": "Hochheim am Main",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Mueck",
+      "inventor_name_first": "Juergen",
+      "inventor_city": "Muenchen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "COMPUTER SYSTEM AND METHOD FOR DETERMINING RELIABLE VEHICLE CONTROL INSTRUCTIONS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 120027,
+    "optimized_size": 3551,
+    "reduction_percent": 97.04
+  }
+}

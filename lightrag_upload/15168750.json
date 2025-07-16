@@ -1,0 +1,39 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344879A1-20171130",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15168750",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Merhav",
+      "inventor_name_first": "Uri",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Shacham",
+      "inventor_name_first": "Dan",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In an example embodiment, a first DCNN is trained to output a value for a first metric by inputting a plurality of sample documents to the first DCNN, with each of the sample documents having been labeled with a value for the first metric. Then a plurality of possible transformations of a first input document are fed to the first DCNN, obtaining a value for the first metric for each of the plurality of possible transformations. A first transformation is selected from the plurality of possible transformations based on the values for the first metric for each of the plurality of possible transformations. Then a second DCNN is trained to output a transformation for a document by inputting the selected first transformation to the second DCNN. The second input document is fed to the second DCNN, obtaining a second transformation of the second input document.",
+  "filing_date": "20160531",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments of the technology are illustrated, by way of example and not limitation, in the figures of the accompanying drawings. FIG. 1 is a block diagram illustrating a client-server system, in accordance with an example embodiment. FIG. 2 is a block diagram showing the functional components of a social networking service, including a data processing module referred to herein as a search engine, for use in generating and providing search results for a search query, consistent with some embodiments of the present disclosure. FIG. 3 is a block diagram illustrating the application server module of FIG. 2 in more detail. FIG. 4 is a diagram illustrating a Deep Convolutional Neural Network (DCNN), in accordance with an example embodiment. FIG. 5 is a flow diagram illustrating a method of training a DCNN, in accordance with an example embodiment. FIG. 6 is a flow diagram illustrating a method of assigning a professionalism score to an image, in accordance with an example embodiment. FIG. 7 is a block diagram illustrating an image transformation component in greater detail. FIG. 8 is a diagram illustrating an example original image that has been scored for professionalism by the DCNN, in accordance with an example embodiment. FIG. 9 is a diagram illustrating various different possible croppings attempted by the cropping transformation component, as instructed by the optimization problem solving component. FIG. 10 is a diagram illustrating a selected optimal cropping, in accordance with an example embodiment. FIG. 11 is a diagram illustrating various different possible rotations attempted by the rotation transformation component, as instructed by the optimization problem solving component. FIG. 12 is a diagram illustrating a selected optimal rotation in accordance with an example embodiment. FIG. 13 is a flow diagram illustrating a method for automatically cropping a digital image to improve perceived professionalism of a ...",
+  "date_published": "20171130",
+  "title": "TRAINING A NEURAL NETWORK USING ANOTHER NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1107",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 128495,
+    "optimized_size": 3570,
+    "reduction_percent": 97.22
+  }
+}

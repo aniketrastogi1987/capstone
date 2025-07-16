@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15263600",
+  "date_published": "20180301",
+  "date_produced": "20180213",
+  "title": "IMAGE FORMING APPARATUS AND IMAGE FORMING SYSTEM",
+  "filing_date": "20160913",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PANTIN",
+      "inventor_name_first": "Carl Christian Ray",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "CRISOLO",
+      "inventor_name_first": "Kenth Remon",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "H04N100",
+    "G06K1502"
+  ],
+  "main_ipcr_label": "H04N100",
+  "summary": "<SOH> SUMMARY <EOH>A technique improved over the aforementioned techniques is proposed as one aspect of the present disclosure. An image forming apparatus according to an aspect of the present disclosure includes a print target data acquisition section, a printing section, an actual printed image acquisition section, a prospective image creating section, an image comparing section, and an output section. The print target data acquisition section acquires print target data from an information processing apparatus. The printing section performs printing on a recording medium based on the print target data acquired by the print target data acquisition section. The actual printed image acquisition section reads an image from the recording medium on which the printing has been performed by the printing section and acquires the read image as an actual printed image. The prospective image creating section creates from the print target data a prospective image expected to be provided by printing on the image forming apparatus. The image comparing section compares the actual printed image acquired by the actual printed image acquisition section with the prospective image created by the prospective image creating section to calculate a comparison result indicating a difference of the actual printed image from the prospective image in terms of a predetermined item related to printing quality of the printing section. The output section outputs the comparison result regarding the item calculated by the image comparing section. An image forming system according to an aspect of the present disclosure includes an information processing apparatus and the image forming apparatus. The information processing apparatus includes a print target data sending section, a comparison result receiving section, and a display device. The print target data sending section sends the print target data to the image forming apparatus. The comparison result receiving section receives the comparison res...",
+  "patent_number": "None",
+  "abstract": "An image forming apparatus includes: a print target data acquisition section that acquires print target data; a printing section; an actual printed image acquisition section that reads a recording paper sheet subjected to printing of the image forming section to acquire an actual printed image; a prospective image creating section that creates a prospective image expected to be provided by the printing on the image forming apparatus; an image comparing section that compares the actual printed image with the prospective image to calculate a comparison result indicating a difference of the actual printed image from the prospective image in terms of a predetermined item related to printing quality of the image forming section; and an output section that outputs the comparison result regarding the item calculated by the image comparing section.",
+  "publication_number": "US20180063339A1-20180301",
+  "_processing_info": {
+    "original_size": 60073,
+    "optimized_size": 3554,
+    "reduction_percent": 94.08
+  }
+}

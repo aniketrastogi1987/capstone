@@ -1,0 +1,38 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15344980",
+  "date_published": "20170223",
+  "date_produced": "20170208",
+  "title": "Tokenization in Mobile Environments",
+  "filing_date": "20161107",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mattsson",
+      "inventor_name_first": "Ulf",
+      "inventor_city": "Cos Cob",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rozenberg",
+      "inventor_name_first": "Yigal",
+      "inventor_city": "Wilton",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2038",
+    "H04L2906"
+  ],
+  "main_ipcr_label": "G06Q2038",
+  "summary": "<SOH> SUMMARY <EOH>Sensitive data, such as communication data or payment information, is tokenized in a mobile environment or a payment environment. A mobile device identifies data for communication, such as communication information entered by a user or as part of a communication or security protocol. In response, the mobile device retrieves device information and/or session information. The mobile device identifies one or more tokenization parameters based on the retrieved device information and/or the retrieved session information, and tokenizes the identified data for communication based on the identified tokenization parameters. The mobile device transmits the tokenized data to a communication system for processing. A payment terminal can receive payment information associated with a transaction requested by a user, such as a credit card number or bank account number. The payment terminal identifies transaction information associated with the transaction, such as a transaction amount or a geographic region. The payment terminal identifies a set of tokenization parameters based on the identified transaction information, and tokenizes the received payment information based on the set of identified tokenization parameters. The payment terminal then stores the tokenized payment information if the payment terminal is offline relative to a central payment system, or transmits the tokenized payment in formation if the payment terminal is online relative to the central payment system. A payment terminal can receive payment information associated with a transaction, and can tokenize the received payment information based on a first set of tokenization parameters. The payment terminal sends the tokenized payment information to a central payment system or other payment entity configured to detokenize and retokenize or to secondarily tokenize the tokenized payment information based on a second set of tokenization parameters. The central payment system or other payment enti...",
+  "patent_number": "9721249",
+  "abstract": "Data can be protected in mobile and payment environments through various tokenization operations. A mobile device can tokenize communication data based on device information and session information associated with the mobile device. A payment terminal can tokenize payment information received at the payment terminal during a transaction based on transaction information associated with the transaction. Payment data tokenized first a first set of token tables and according to a first set of tokenization parameters by a first payment entity can be detokenized or re-tokenized with a second set of token tables and according to a second set of tokenization parameters. Payment information can be tokenized and sent to a mobile device as a token card based on one or more selected use rules, and a user can request a transaction based on the token card. The transaction can be authorized if the transaction satisfies the selected use rules.",
+  "publication_number": "US20170053270A1-20170223",
+  "_processing_info": {
+    "original_size": 118539,
+    "optimized_size": 3626,
+    "reduction_percent": 96.94
+  }
+}

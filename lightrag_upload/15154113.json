@@ -1,0 +1,44 @@
+{
+  "date_produced": "20170104",
+  "publication_number": "US20170017892A1-20170119",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15154113",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BERNSTEIN",
+      "inventor_name_first": "JEFFREY G.",
+      "inventor_city": "MIDDLETON",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WINGATE",
+      "inventor_name_first": "DAVID",
+      "inventor_city": "PROVO",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "REDFORD",
+      "inventor_name_first": "JOHN",
+      "inventor_city": "ARLINGTON",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The disclosed apparatus and methods include a reconfigurable sampling accelerator and a method of using the reconfigurable sampling accelerator, respectively. The reconfigurable sampling accelerator can be adapted to a variety of target applications. The reconfigurable sampling accelerator can include a sampling module, a memory system, and a controller that is configured to coordinate operations in the sampling module and the memory system. The sampling module can include a plurality of sampling units, and the plurality of sampling units can be configured to generate samples in parallel. The sampling module can leverage inherent characteristics of a probabilistic model to generate samples in parallel.",
+  "filing_date": "20160513",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with the disclosed subject matter, apparatus and methods are provided for statistical signal processing. In some embodiments of the disclosed subject matter, an apparatus includes a reconfigurable sampling accelerator configured to generate a sample of a variable in a probabilistic model. The reconfigurable sampling accelerator can include a sampling module having a plurality of sampling units, wherein a first one of the plurality of sampling units is configured to generate the sample in accordance with a sampling distribution associated with the variable in the probabilistic model; a memory device configured to maintain a model description table for determining the sampling distribution for the variable in the probabilistic model; and a controller configured to retrieve at least a portion of the model description table from the memory device, determine the sampling distribution based on the portion of the model description table, and provide the sampling distribution to the sampling module to enable the sampling module to generate the sample that is statistically consistent with the sampling distribution. In some embodiments, the first one of the plurality of sampling units is configured to generate the sample using a cumulative distribution function (CDF) method. In some embodiments, the first one of the plurality of sampling units is configured to compute a cumulative distribution of the sampling distribution, determine a random value from a uniform distribution, and determine an interval, corresponding to the random value, from the cumulative distribution, wherein the determined interval is the sample generated in accordance with the sampling distribution. In some embodiments, the reconfigurable sampling accelerator is configured to retrieve a one-dimensional slice of a factor table associated with the model description table from the memory device, and compute a summation of the one-dimensional slice to determine the sampling di...",
+  "date_published": "20170119",
+  "title": "SAMPLING VARIABLES FROM PROBABILISTIC MODELS",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 110966,
+    "optimized_size": 3540,
+    "reduction_percent": 96.81
+  }
+}

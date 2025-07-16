@@ -1,0 +1,44 @@
+{
+  "patent_number": "None",
+  "application_number": "15532434",
+  "date_published": "20170921",
+  "date_produced": "20170906",
+  "filing_date": "20170601",
+  "main_ipcr_label": "G06N700",
+  "abstract": "A mood score calculation system includes a processor and a memory. The memory is configured to hold relationship information on a relationship between a mood score of a user and a statistical feature for indicating fluctuation of operational interval time of a user terminal. The processor is configured to acquire an operation log of a first user terminal. The processor is configured to calculate, from the operation log, a value of a statistical feature for indicating fluctuation of operational interval time of the first user terminal. The processor is configured to determine a mood score of a user of the first user terminal based on the value of the statistical feature and the relationship information and output the mood score.",
+  "publication_number": "US20170270423A1-20170921",
+  "summary": "<SOH> SUMMARY <EOH>In Patent Document 1, the apparatus is configured to calculate fundamental indicators such as a keyboard input speed of a terminal user and a frequency of use of a backspace key, and also configured to question the user about his or her mental condition, to thereby acquire training data for learning. Through machine learning of the training data, the mental condition of the user is determined based on a group of those indicators. However, in some cases, the mental condition of the user is not determined significantly based on magnitudes of the group of fundamental indicators shown in Patent Document 1. Therefore, a technology for significantly estimating the mood of the terminal user based on history information on terminal operations is required. A representative example of this invention is a mood score calculation system, including: a processor; and a memory, the memory being configured to hold relationship information on a relationship between a mood score of a user and a statistical feature for indicating fluctuation of operational interval time of a user terminal, the processor being configured to: acquire an operation log of a first user terminal; calculate, from the operation log, a value of a statistical feature for indicating fluctuation of operational interval time of the first user terminal; determine a mood score of a user of the first user terminal based on the value of the statistical feature and the relationship information; and output the mood score. According to one embodiment of this invention, it is possible to accurately measure the mood score of a terminal user without necessitating attention of the terminal user.",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "EGI",
+      "inventor_name_first": "Masashi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KIGUCHI",
+      "inventor_name_first": "Masashi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "ATSUMORI",
+      "inventor_name_first": "Hirokazu",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "MOOD SCORE CALCULATION SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 51483,
+    "optimized_size": 3214,
+    "reduction_percent": 93.76
+  }
+}

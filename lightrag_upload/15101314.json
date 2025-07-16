@@ -1,0 +1,61 @@
+{
+  "date_produced": "20161005",
+  "publication_number": "US20160307101A1-20161020",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15101314",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "WENLONG",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "JIAO",
+      "inventor_name_first": "FENG",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "BIN",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZENG",
+      "inventor_name_first": "LEI",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "XIAOHUI",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Methods, devices, and servers for friend recommendation are provided. A user association set of a target user is obtained. Original data of each associated user in the user association set is obtained. The original data include location relationship data, associated friend data, time relationship data, or combinations thereof, between each associated user and the target user. The original data of each associated user is screened to obtain feature data to form a feature collection for each associated user. A pre-configured N-Tree prediction model is used to process the feature collection for a prediction calculation to obtain an association-predicting value for each associated user. According to the association-predicting value of each associated user, a friend user for the target user from the user association set is determined and recommended to the target user.",
+  "filing_date": "20160602",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY OF THE DISCLOSURE <EOH>One aspect or embodiment of the present disclosure includes a method for friend recommendation. A user association set of a target user is obtained. The user association set includes a plurality of associated users that are associated with the target user. Original data of each associated user in the user association set of the target user is obtained. The original data include location relationship data, associated friend data, time relationship data, or combinations thereof, between each associated user and the target user. The original data of each associated user is screened to obtain feature data to form a feature collection for each associated user. A pre-configured N-Tree prediction model is used to process the feature collection for a prediction calculation to obtain an association-predicting value for each associated user. According to the association-predicting value of each associated user, a friend user for the target user from the user association set is determined and recommended to the target user. Another aspect or embodiment of the present disclosure includes a device for friend recommendation. The device includes an obtaining module, a collecting module, a processing module, and a recommending module. The obtaining module is configured to obtain a user association set of a target user. The user association set includes a plurality of associated users that are associated with the target user. The obtaining module is further configured to obtain original data of each associated user in the user association set of the target user. The original data include location relationship data, associated friend data, time relationship data, or combinations thereof, between each associated user and the target user. The collecting module is configured to screen the original data of each associated user to obtain feature data to form a feature collection for each associated user. The processing module is configured to use...",
+  "date_published": "20161020",
+  "title": "METHOD, DEVICE, AND SERVER FOR FRIEND RECOMMENDATION",
+  "ipcr_labels": [
+    "G06N504",
+    "H04L2908",
+    "G06F1730",
+    "H04L2906"
+  ],
+  "_processing_info": {
+    "original_size": 55482,
+    "optimized_size": 4010,
+    "reduction_percent": 92.77
+  }
+}

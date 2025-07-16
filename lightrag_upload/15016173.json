@@ -1,0 +1,101 @@
+{
+  "date_produced": "20160727",
+  "publication_number": "US20160232445A1-20160811",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15016173",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Srinivasan",
+      "inventor_name_first": "Praveen Deepak",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Fearon",
+      "inventor_name_first": "Rory",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Alcicek",
+      "inventor_name_first": "Cagdas",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Nair",
+      "inventor_name_first": "Arun Sarath",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Blackwell",
+      "inventor_name_first": "Samuel",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Panneershelvam",
+      "inventor_name_first": "Vedavyas",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "De Maria",
+      "inventor_name_first": "Alessandro",
+      "inventor_city": "Bromley",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Mnih",
+      "inventor_name_first": "Volodymyr",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Kavukcuoglu",
+      "inventor_name_first": "Koray",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Silver",
+      "inventor_name_first": "David",
+      "inventor_city": "Hitchin",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Suleyman",
+      "inventor_name_first": "Mustafa",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for distributed training of reinforcement learning systems. One of the methods includes receiving, by a learner, current values of the parameters of the Q network from a parameter server, wherein each learner maintains a respective learner Q network replica and a respective target Q network replica; updating, by the learner, the parameters of the learner Q network replica maintained by the learner using the current values; selecting, by the learner, an experience tuple from a respective replay memory; computing, by the learner, a gradient from the experience tuple using the learner Q network replica maintained by the learner and the target Q network replica maintained by the learner; and providing, by the learner, the computed gradient to the parameter server.",
+  "filing_date": "20160204",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to training a reinforcement learning system. For a system of one or more computers to be configured to perform particular operations or actions means that the system has installed on it software, firmware, hardware, or a combination of them that in operation cause the system to perform the operations or actions. For one or more computer programs to be configured to perform particular operations or actions means that the one or more programs include instructions that, when executed by data processing apparatus, cause the apparatus to perform the operations or actions. The subject matter described in this specification can be implemented in particular embodiments so as to realize one or more of the following advantages. By parallelizing training, a reinforcement learning system can be trained faster. Additionally, a reinforcement learning system trained using the distributed learning techniques described in this specification can, after training, have an improved performance on reinforcement learning tasks than the same reinforcement learning system trained using a non-distributed reinforcement learning training technique. By providing an architecture that allows a distributed reinforcement learning training system to include arbitrary numbers of learners, actors, and replay memories, the system can easily be adapted for training a system to perform various reinforcement learning tasks. Additionally, the numbers of learners, actors, and, optionally, replay memories can easily be adjusted during training, resulting in improved performance. The details of one or more embodiments of the subject matter of this specification are set forth in the accompanying drawings and the description below. Other features, aspects, and advantages of the subject matter will become apparent from the description, the drawings, and the claims.",
+  "date_published": "20160811",
+  "title": "DISTRIBUTED TRAINING OF REINFORCEMENT LEARNING SYSTEMS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 63712,
+    "optimized_size": 4797,
+    "reduction_percent": 92.47
+  }
+}

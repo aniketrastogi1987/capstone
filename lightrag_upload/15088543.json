@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286827A1-20171005",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15088543",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "GREGORY K.",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SEO",
+      "inventor_name_first": "JAE-SUN",
+      "inventor_city": "Tempe",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "THOMAS C",
+      "inventor_city": "Ann Arbor",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KUMAR",
+      "inventor_name_first": "RAGHAVAN",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An apparatus and method are described for a neuromorphic processor design in which neuron timing information is duplicated on a neuromorphic core. For example, one embodiment of an apparatus comprises: a first neurosynaptic core comprising a plurality of neurons and a synapse array comprising a plurality of synapses to communicatively couple the plurality of neurons, each synapse connecting two neurons having a weight associated therewith, wherein a first neuron is to generate an output spike based on the weights of synapses over which inputs are received from the other neurons; a second neurosynaptic core also comprising a plurality of neurons and having at least one counter to maintain a count value indicative of spike timing for a second neuron, wherein a spike output of the second neuron in the second neurosynaptic core is communicatively coupled over a first synapse to the first neuron in the first neurosynaptic core; and a duplicate counter maintained within the first neurosynapt...",
+  "filing_date": "20160401",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>A better understanding of the present invention can be obtained from the following detailed description in conjunction with the following drawings, in which: FIG. 1A is a block diagram illustrating both an exemplary in-order fetch, decode, retire pipeline and an exemplary register renaming, out-of-order issue/execution pipeline according to embodiments of the invention; FIG. 1B is a block diagram illustrating both an exemplary embodiment of an in-order fetch, decode, retire core and an exemplary register renaming, out-of-order issue/execution architecture core to be included in a processor according to embodiments of the invention; FIG. 2 is a block diagram of a single core processor and a multicore processor with integrated memory controller and graphics according to embodiments of the invention; FIG. 3 illustrates a block diagram of a system in accordance with one embodiment of the present invention; FIG. 4 illustrates a block diagram of a second system in accordance with an embodiment of the present invention; FIG. 5 illustrates a block diagram of a third system in accordance with an embodiment of the present invention; FIG. 6 illustrates a block diagram of a system on a chip (SoC) in accordance with an embodiment of the present invention; FIG. 7 illustrates a block diagram contrasting the use of a software instruction converter to convert binary instructions in a source instruction set to binary instructions in a target instruction set according to embodiments of the invention; FIG. 8 illustrates an exemplary neuromorphic processor design comprising a plurality of neurons connected via a synapse array; FIG. 9 illustrates an exemplary set of neurons on which long term potentiation (LTP) and long term depreciation (LTD) operation are performed; and FIG. 10 illustrates one embodiment of the invention which duplicates pre-synaptic neuron timing values in a receiving neurosynaptic core. detailed-description description=\"De...",
+  "date_published": "20171005",
+  "title": "APPARATUS AND METHOD FOR A DIGITAL NEUROMORPHIC PROCESSOR",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 57041,
+    "optimized_size": 4001,
+    "reduction_percent": 92.99
+  }
+}

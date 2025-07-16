@@ -1,0 +1,40 @@
+{
+  "patent_number": "nan",
+  "application_number": "15845389",
+  "date_published": "20180621",
+  "date_produced": "20180608",
+  "filing_date": "20171218",
+  "main_ipcr_label": "G06N308",
+  "abstract": "In a method and a computer for determining a training function in order to generate annotated training images, a training image and training-image information are provided to a computer, together with an isolated item of image information that is independent of the training image. A first calculation is made in the computer by applying an image-information-processing first function to the isolated item of image information, and a second calculation is made by applying an image-information-processing second function to the training image. Adjustments to the first and second functions are made based on these calculation results, from which a determination of a training function is then made in the computer.",
+  "publication_number": "US20180174049A1-20180621",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>An object of the present invention is to provide a method for generating a training function for the rapid and inexpensive generation of annotated image data for training self-learning algorithms. The inventive method is described below, but features, advantages and alternative embodiments mentioned with regard to the method are applicable to the other aspects of the invention. The relevant functional features of the method are embodied as appropriate physical modules in the computer. The inventive method includes a first reception of a training image, and an item of training-image information, via an interface of a computer, wherein the training-image information is image information belonging to the training image. The inventive method furthermore includes a second reception of an isolated item of image information via the interface, wherein the isolated item of image information is independent of the training image. A first calculation is made in the computer of a first result of an image-information-processing first function when applied to the isolated item of image information. Furthermore, a second calculation is made in the computer of a second result of an image-information-processing second function when applied to the training image. Furthermore, the computer makes an adjustment of a parameter of the image-information-processing first function and/or the image-processing second function based on at least the first result and the second result. Furthermore, the computer makes a determination of a training function based on the image-information-processing first function. The computer applies the training function to an item of image information, so as to generate an associated image, which is provided as an output from the computer. The invention is based on the insight that the use of an image-information-processing second function as the basis of the training function enables training images to be generated not only fr...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06K966",
+    "G06K946",
+    "G06K962"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Pauly",
+      "inventor_name_first": "Olivier",
+      "inventor_city": "Muenchen",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Seegerer",
+      "inventor_name_first": "Philipp",
+      "inventor_city": "Fuerstenzell",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "METHOD AND COMPUTER FOR DETERMINATION OF A TRAINING FUNCTION FOR GENERATING ANNOTATED TRAINING IMAGES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 90187,
+    "optimized_size": 3484,
+    "reduction_percent": 96.14
+  }
+}

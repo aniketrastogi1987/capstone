@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15808343",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "filing_date": "20171109",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Embodiments of the innovation relate to an apparatus and method of behavior forecasting in a computer infrastructure. The method includes, for each computer environment resource of the computer infrastructure having a related attribute, deriving a set of clusters for the related attribute of each associated computer environment resource and detecting a learned behavior boundary associated with each set of clusters for each associated computer environment resource. The method includes combining the learned behavior boundaries associated with each set of clusters for each associated computer environment resource to generate a resulting attribute pattern associated with the computer infrastructure; applying an attribute pattern threshold to the resulting attribute pattern; and identifying a forecasted behavior of the computer infrastructure based upon the application of the attribute pattern threshold to the resulting attribute pattern.",
+  "publication_number": "US20180129963A1-20180510",
+  "summary": "<SOH> SUMMARY <EOH>As provided above, conventional monitoring and management tools can provide a systems administrator with insight into the behavior of the computer infrastructure at a given time. However, these conventional tools do not provide an indication of operation of the computer environment resources, such as performance or other metrics associated with the computer infrastructure at a future time. By contrast to conventional monitoring and management tools, embodiments of the present innovation relate to an apparatus and method of behavior forecasting in a computer infrastructure. In one arrangement, for a given attribute of a computer infrastructure, a host device is configured to generate an attribute pattern, such as a workload pattern, using Monte Carlo Simulation. The host device is further configured to arrange or stack the attribute patterns for the given attribute of the computer infrastructure to detect potential forecast issues within the computer infrastructure. Based upon the results of the detection, the host device is configured to display the forecast of the behavior of the computer infrastructure over time. In one arrangement, the host device provides a forecast dashboard as part of a user interface which allows a systems administrator to have visibility into the behavior issues associated with the computer infrastructure. This can include the metrics of the computer infrastructure (e.g., the performance, efficiency, reliability, and capacity of the computer environment resources) in the future, such as seven days in advance, based on the current configuration of the environment. The results provided by the dashboard can allow the systems administrator to adjust the configuration of the computer infrastructure (e.g., location of the VMs, workloads, number of workloads, capacity, etc.) to minimize or prevent the forecasted issues. Embodiments of the innovation relate to a method of behavior forecasting in a computer infrastructure. The meth...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N502",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Razin",
+      "inventor_name_first": "Sergey A.",
+      "inventor_city": "Columbia",
+      "inventor_state": "SC",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "APPARATUS AND METHOD OF BEHAVIOR FORECASTING IN A COMPUTER INFRASTRUCTURE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 56246,
+    "optimized_size": 3533,
+    "reduction_percent": 93.72
+  }
+}

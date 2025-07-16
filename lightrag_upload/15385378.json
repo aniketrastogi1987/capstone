@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174054A1-20180621",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15385378",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wild",
+      "inventor_name_first": "Andreas",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Srinivasa",
+      "inventor_name_first": "Narayan",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Various systems and methods for implementing unsupervised or reinforcement learning operations for a neuron weight used in a neural network are described. In an example, the learning operations include processing a spike train input at a neuron of a spiking neural network, applying a synaptic weight, and observing spike events occurring before and after the neuron processing based on respective spike traces. A synaptic weight update process operates to generate a new value of the synaptic weight based upon the spike traces, configuration values, and a reference weight value. A reference weight update process also operates to generate a new value of the reference value for significant changes to the synaptic weight. Reinforcement may be provided in some examples to implement changes to the reference weight in reduced time. In some examples, the techniques may be implemented in a neuromorphic hardware implementation of the spiking neural network.",
+  "filing_date": "20161220",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings, which are not necessarily drawn to scale, like numerals may describe similar components in different views. Like numerals having different letter suffixes may represent different instances of similar components. Some embodiments are illustrated by way of example, and not limitation, in the figures of the accompanying drawings in which: FIG. 1 illustrates a diagram of a simplified neural network, according to an example; FIG. 2 illustrates an inference path of a neuron in a spiking neural network, according to an example; FIG. 3 illustrates learning and inference paths of a spiking neural network applied with a learning model, according to an example; FIG. 4 illustrates a graph depicting movement of a reference weight applied in a learning model, according to an example; FIG. 5 illustrates a graph of weight dynamics for drift and relaxation functions used to change a reference weight applied in a learning model, according to an example; FIG. 6 illustrates a flowchart of operations applied in a reinforcement learning algorithm, according to an example; and FIG. 7 illustrates a flowchart of operations applied in an unsupervised learning algorithm, according to an example; and FIG. 8 illustrates a flowchart of a method for conducting learning in a neural network implementation with use of a reinforcement or unsupervised learning algorithm, according to an example. FIG. 9 illustrates a block diagram of a neuromorphic core, according to an example. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180621",
+  "title": "RAPID COMPETITIVE LEARNING TECHNIQUES FOR NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 109182,
+    "optimized_size": 3260,
+    "reduction_percent": 97.01
+  }
+}

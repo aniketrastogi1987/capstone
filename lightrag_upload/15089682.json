@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15089682",
+  "date_published": "20160728",
+  "date_produced": "20160713",
+  "title": "SERVER DEVICE, LOG TRANSFERRING METHOD, AND LOG TRANSFERRING SYSTEM",
+  "filing_date": "20160404",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NAKATA",
+      "inventor_name_first": "Kei",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TAMURA",
+      "inventor_name_first": "Naohiro",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F9455"
+  ],
+  "main_ipcr_label": "G06F9455",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of an embodiment, a server device includes: a virtualization control unit that controls, by operating a virtual machine that is a virtualized computer, a migration of the virtual machine with another server device; a storing unit that stores therein a log created by the virtual machine by associating the log with the virtual machine; and a transferring unit that transfers, to the other server device when the virtual machine is migrated to the other server device, a log of a virtual machine that is targeted for a migration stored in the storing unit. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the invention, as claimed.",
+  "patent_number": "None",
+  "abstract": "A server device includes a virtualization control unit, a storing unit, and a transferring unit. The virtualization control unit operates a virtual machine that is a virtualized computer to control a migration of the virtual machine with another server device. The storing unit stores therein a log, in an associated manner with the virtual machine, that is created by the virtual machine. When the virtual machine is migrated to the other server device, the transferring unit transfers, to the other server device, the log of the virtual machine targeted for a migration stored in the storing unit.",
+  "publication_number": "US20160216998A1-20160728",
+  "_processing_info": {
+    "original_size": 67816,
+    "optimized_size": 2235,
+    "reduction_percent": 96.7
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15391064",
+  "date_published": "20170420",
+  "date_produced": "20170405",
+  "title": "IMAGE PROCESSING APPARATUS, IMAGE PROCESSING METHOD, AND PROGRAM",
+  "filing_date": "20161227",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Uemori",
+      "inventor_name_first": "Takeshi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T700",
+    "H04N5243",
+    "H04N1300",
+    "A61B1045",
+    "G06T790",
+    "G06T740",
+    "G06K962",
+    "G06K946",
+    "G06T7593"
+  ],
+  "main_ipcr_label": "G06T700",
+  "summary": "<SOH> SUMMARY <EOH>Incidentally, in Patent Document 1, in the case where there are subjects with different light absorption characteristics in the taken image, it is difficult to accurately estimate distances to the subjects. For example, when an image of a scene of surgery is displayed as a 3D image with an endoscope system equipped with a twin-lens camera, generally, various tools (such as forceps and gauze), blood, and organs with different light absorption characteristics are mixed in the image. Therefore, it is difficult to estimate the distances by applying the inverse-square law relating to the illumination to the taken image. Further, to deal with the plurality of subjects with the different light absorption characteristics, it is necessary to find out correction coefficients of luminance components for all the subjects in advance. In addition, the estimation value obtained in Patent Document 1 is a value that indicates a degree of depth and does not indicate an absolute distance. Further, in Patent Document 2, in the case where the degree of matching of the corresponding points (or corresponding areas) is determined, an evaluation value that indicates the degree of matching is used. For the evaluation value, for example, a sum of absolute differences (hereinafter, referred to as “SAD”) of the luminance values of pixels in a block of a predetermined area or a sum of squared differences (hereinafter, referred to as “SSD”) of the luminance values of the pixels in the block of the predetermined area is used. Therefore, for example, in an area where a variation in luminance value in an image is small (area with no pattern), any positions have similar evaluation values, so a correspondence error is often caused. Further, also in an area where the same pattern is repeated, areas with similar patterns have similar evaluation values, so it is difficult to obtain accurate corresponding points (or areas). In view of the circumstances as described above, it is desirabl...",
+  "patent_number": "None",
+  "abstract": "An image processing apparatus includes an attention area detection unit, a luminance parallax conversion unit, and a parallax estimation unit. The attention area detection unit is configured to detect an attention area including a desired subject from a standard image. The luminance parallax conversion unit is configured to perform a luminance parallax conversion with respect to the attention area on the basis of a luminance parallax conversion characteristic estimated by using a past frame. The parallax estimation unit is configured to perform parallax estimation on the basis of the standard image and a reference image, a viewpoint position of which is different from that of the standard image, and perform, in the attention area, the parallax estimation by using a luminance parallax conversion result obtained by the luminance parallax conversion unit.",
+  "publication_number": "US20170109884A1-20170420",
+  "_processing_info": {
+    "original_size": 126548,
+    "optimized_size": 3524,
+    "reduction_percent": 97.22
+  }
+}

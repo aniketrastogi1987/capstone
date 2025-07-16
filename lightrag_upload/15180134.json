@@ -1,0 +1,40 @@
+{
+  "date_produced": "20171129",
+  "publication_number": "US20170357908A1-20171214",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15180134",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cabadi",
+      "inventor_name_first": "Jean Francois",
+      "inventor_city": "Massy",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Sabot",
+      "inventor_name_first": "Herve",
+      "inventor_city": "Massy",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "Described herein are systems and methods of alarm rationalization for an industrial control system. This can comprise building a model of the industrial control system, wherein the model includes components that are monitored or controlled by the industrial control system and alarms associated with the components; training the model by applying one or more machine learning algorithms against a historical database of alarms for the industrial control system; and applying the trained model against the industrial control system for alarm management of the industrial control system.",
+  "filing_date": "20160613",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed herein is a method of alarm rationalization for an industrial control system. In one aspect, the method comprises building a model of the industrial control system, wherein the model includes components that are monitored or controlled by the industrial control system and alarms associated with the components; training the model by applying one or more machine learning algorithms against a historical database of alarms for the industrial control system; and applying the trained model against the industrial control system for alarm management of the industrial control system. Optionally or alternatively, the method may further comprise refining the model by machine learning after the model has been applied against the industrial control system. Optionally or alternatively, the method may further comprise applying the trained model against a database of alarms before applying the trained model against the industrial control system for testing purposes. In one aspect of the method, training the model by applying one or more machine learning algorithms against the historical database of alarms for the industrial control system may comprise one or more of grouping alarms, decreasing alarm levels, or creating contextual alarms. For example, training the model by applying one or more machine learning algorithms against the historical database of alarms for the industrial control system comprises using a data mining algorithm to identify frequent patterns in alarm sequences, using a clustering or association rules mining algorithm to correlate alarms and process state, or using a supervised machine learning to model the rationalization process. Also disclosed herein is a system for alarm rationalization for an industrial control system. In one aspect, the system comprises a computing device, the computing device having at least a processor and a memory, wherein the processor executes computer-executable instructions stored in the memory, said co...",
+  "date_published": "20171214",
+  "title": "METHOD AND SYSTEM OF ALARM RATIONALIZATION IN AN INDUSTRIAL CONTROL SYSTEM",
+  "ipcr_labels": [
+    "G06N9900",
+    "G08B2918",
+    "G05B1502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 59007,
+    "optimized_size": 3326,
+    "reduction_percent": 94.36
+  }
+}

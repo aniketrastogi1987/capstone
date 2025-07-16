@@ -1,0 +1,37 @@
+{
+  "patent_number": "None",
+  "application_number": "15590609",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20170509",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A method of computation in a deep neural network includes discretizing input signals and computing a temporal difference of the discrete input signals to produce a discretized temporal difference. The method also includes applying weights of a first layer of the deep neural network to the discretized temporal difference to create an output of a weight matrix. The output of the weight matrix is temporally summed with a previous output of the weight matrix. An activation function is applied to the temporally summed output to create a next input signal to a next layer of the deep neural network.",
+  "publication_number": "US20180121791A1-20180503",
+  "summary": "<SOH> SUMMARY <EOH>In an aspect of the present disclosure, a method of computation in a deep neural network is presented. The method includes discretizing first input signal and a second input signal and computing a temporal difference of the first input signal and the discrete second input signal to produce a discretized temporal difference. The method also includes applying weights of a first layer of the deep neural network to the discretized temporal difference to create an output of a weight matrix. In addition, the method includes temporally summing the output of the weight matrix with a previous output of the weight matrix. The method further includes applying an activation function to the temporally summed output to create a next input signal to a next layer of the deep neural network. In another aspect of the present disclosure, an apparatus for computation in a deep neural network is presented. The apparatus includes a memory and one or more processors coupled to the memory. The processor(s) is(are) configured to discretize first input signal and a second input signal and to compute a temporal difference of the discrete first input signal and the discrete second input signal to produce a discretized temporal difference. The processor(s) is(are) also configured to apply weights of a first layer of the deep neural network to the discretized temporal difference to create an output of a weight matrix. In addition, the processor(s) is(are) configured to temporally sum the output of the weight matrix with a previous output of the weight matrix. The processor(s) is(are) further configured to apply an activation function to the temporally summed output to create a next input signal to a next layer of the deep neural network. In yet another aspect of the present disclosure, an apparatus for computation in a deep neural network is presented. The apparatus includes means for discretizing first input signal and a second input signal and computing a temporal difference...",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "O'CONNOR",
+      "inventor_name_first": "Peter",
+      "inventor_city": "Amsterdam",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "WELLING",
+      "inventor_name_first": "Max",
+      "inventor_city": "Bussum",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    }
+  ],
+  "title": "TEMPORAL DIFFERENCE ESTIMATION IN AN ARTIFICIAL NEURAL NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 79095,
+    "optimized_size": 3289,
+    "reduction_percent": 95.84
+  }
+}

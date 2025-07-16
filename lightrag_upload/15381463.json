@@ -1,0 +1,54 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15381463",
+  "date_published": "20170601",
+  "date_produced": "20170517",
+  "title": "FAST INTEREST POINT EXTRACTION FOR AUGMENTED REALITY",
+  "filing_date": "20161216",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Brendel",
+      "inventor_name_first": "William",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jayadevaprakash",
+      "inventor_name_first": "Nityananda",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mott",
+      "inventor_name_first": "David Creighton",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Feng",
+      "inventor_name_first": "Jie",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K962",
+    "G06K946",
+    "G06K900",
+    "G06T790"
+  ],
+  "main_ipcr_label": "G06K962",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments of the present technology will hereinafter be described in conjunction with the appended drawings, provided to illustrate and not to limit the technology, wherein like designations denote like elements, and in which: FIG. 1 is a conceptual diagram of a non-limiting example of extracting a corner feature or feature of interest in an image; FIG. 2 is a conceptual diagram of a non-limiting example of detecting a corner feature based on pixels of a given image; FIGS. 3 and 4 conceptually illustrate examples of different rings of pixels used by a feature descriptor with a vector of 64 discrete values in accordance to some embodiments of the subject technology; FIG. 5A illustrates steps of an example process for building each tree of a forest of trees for matching using approximate nearest neighbor that can be used in accordance with some embodiments of the subject technology; FIG. 5B illustrates an example of assigning samples to a closest center cluster in accordance with at least one embodiment of the subject technology; FIG. 5C illustrates an example of dividing elements in a given leaf node to meet a threshold requirement; FIG. 6A illustrates steps of an example process for finding the approximate nearest neighbor using the trees that can be used in accordance with some embodiments of the subject technology; FIG. 6B describes an example for traversing an example tree in accordance with some embodiments of the subject technology; FIG. 6C describes an example for finding a closest element in a leaf node for an example tree in accordance with some embodiments of the subject technology; FIGS. 7A and 7B illustrate front and back views, respectively, of an example electronic computing device that can be used in accordance with various embodiments; FIG. 8 illustrates a set of basic components of an electronic computing device such as the device described with respect to FIGS. 7A and 7B ; and FIG. 9 illustrates an ...",
+  "patent_number": "9858500",
+  "abstract": "The subject technology provides embodiments for performing fast corner detection in a given image for augmented reality applications. Embodiments disclose a high-speed test that examines intensities of pairs of pixels around a candidate center pixel. In one example, the examined pairs are comprised of pixels that are diametrically opposite ends of a circle formed with the candidate center pixel. Further, a pyramid of images including four rings of surrounding pixels is generated. An orientation of the pixels from the four rings are determined and a vector of discrete values of the pixels are provided. Next, a forest of trees are generated for the vector of discrete values corresponding to a descriptor for a first image. For a second image including a set of descriptors, approximate nearest neighbors are determined from the forest of tree representing closest matching descriptors from the first image.",
+  "publication_number": "US20170154244A1-20170601",
+  "_processing_info": {
+    "original_size": 75987,
+    "optimized_size": 3951,
+    "reduction_percent": 94.8
+  }
+}

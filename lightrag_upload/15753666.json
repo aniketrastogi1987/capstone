@@ -1,0 +1,32 @@
+{
+  "filing_date": "20180220",
+  "publication_number": "US20180247200A1-20180830",
+  "decision": "PENDING",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A method for unsupervised learning over an input space comprising discrete or continuous variables, and at least a subset of a training dataset of samples of the respective variables, to attempt to identify the value of at least one parameter that increases the log-likelihood of the at least a subset of a training dataset with respect to a model, the model expressible as a function of the at least one parameter, the method executed by circuitry including at least one processor, may be summarized as including forming a first latent space comprising a plurality of random variables, the plurality of random variables comprising one or more discrete random variables; forming a second latent space comprising the first latent space and a set of supplementary continuous random variables; forming a first transforming distribution comprising a conditional distribution over the set of supplementary continuous random variables, conditioned on the one or more discrete random variables of the first latent space; forming an encoding distribution comprising an approximating posterior distribution over the first latent space, conditioned on the input space; forming a prior distribution over the first latent space; forming a decoding distribution comprising a conditional distribution over the input space conditioned on the set of supplementary continuous random variables; determining an ordered set of conditional cumulative distribution functions of the supplementary continuous random variables, each cumulative distribution function comprising functions of a full distribution of at least one of the one or more discrete random variables of the first latent space; determining an inversion of the ordered set of conditional cumulative distribution functions of the supplementary continuous random variables; constructing a first stochastic approximation to a lower bound on the log-likelihood of the at least a subset of a training dataset; constructing a second stoc...",
+  "title": "DISCRETE VARIATIONAL AUTO-ENCODER SYSTEMS AND METHODS FOR MACHINE LEARNING USING ADIABATIC QUANTUM COMPUTERS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06N9900"
+  ],
+  "abstract": "A computational system can include digital circuitry and analog circuitry, for instance a digital processor and a quantum processor. The quantum processor can operate as a sample generator providing samples. Samples can be employed by the digital processing in implementing various machine learning techniques. For example, the computational system can perform unsupervised learning over an input space, for example via a discrete variational auto-encoder, and attempting to maximize the log-likelihood of an observed dataset. Maximizing the log-likelihood of the observed dataset can include generating a hierarchical approximating posterior.",
+  "patent_number": "nan",
+  "application_number": "15753666",
+  "date_published": "20180830",
+  "main_ipcr_label": "G06N308",
+  "date_produced": "20180815",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rolfe",
+      "inventor_name_first": "Jason",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "_processing_info": {
+    "original_size": 173787,
+    "optimized_size": 3258,
+    "reduction_percent": 98.13
+  }
+}

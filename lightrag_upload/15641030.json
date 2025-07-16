@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15641030",
+  "date_published": "20171207",
+  "date_produced": "20171121",
+  "filing_date": "20170703",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Systems, methods and aspects, and embodiments thereof relate to unsupervised or semi-supervised features learning using a quantum processor. To achieve unsupervised or semi-supervised features learning, the quantum processor is programmed to achieve Hierarchal Deep Learning (referred to as HDL) over one or more data sets. Systems and methods search for, parse, and detect maximally repeating patterns in one or more data sets or across data or data sets. Embodiments and aspects regard using sparse coding to detect maximally repeating patterns in or across data. Examples of sparse coding include L0 and L1 sparse coding. Some implementations may involve appending, incorporating or attaching labels to dictionary elements, or constituent elements of one or more dictionaries. There may be a logical association between label and the element labeled such that the process of unsupervised or semi-supervised feature learning spans both the elements and the incorporated, attached or appended label.",
+  "publication_number": "US20170351974A1-20171207",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A method of using a quantum processor to identify maximally repeating patterns in data via Hierarchical Deep Learning (HDL) may be summarized as including receiving a data set of data elements at a non-quantum processor; formulating an objective function based on the data set via the non-quantum processor, wherein the objective function includes a loss term to minimize difference between a first representation of the data set and a second representation of the data set, and includes a regularization term to minimize any complications in the objective function; casting a first set of weights in the objective function as variables using the non-quantum processor; setting a first set of values for a dictionary of the objective function using the non-quantum processor, wherein the first set of values for the dictionary includes a matrix of real values having a number of columns each defining a vector that corresponds to a qubit in the quantum processor, wherein any of the vectors that correspond to unconnected qubits in the quantum processor are orthogonal to each other; and interacting with the quantum processor, via the non-quantum processor, to minimize the objective function. Formulating an objective function may include formulating the objective function where the regularization term is governed by an L0-norm form. Formulating an objective function may include formulating the objective function where the regularization term is governed by an L1-norm form. The regularization term may include a regularization parameter, and formulating an objective function may include selecting a value for the regularization parameter to control a sparsity of the objective function. Receiving a data set of data elements at a non-quantum processor may include receiving image data and audio data. Interacting with the quantum processor, via the non-quantum processor, to minimize the objective function may further include optimizing the objective function for th...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06K900",
+    "G06K962"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rose",
+      "inventor_name_first": "Geordie",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Gildert",
+      "inventor_name_first": "Suzanne",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Macready",
+      "inventor_name_first": "William G.",
+      "inventor_city": "West Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Walliman",
+      "inventor_name_first": "Dominic Christoph",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR QUANTUM PROCESSING OF DATA",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 305241,
+    "optimized_size": 4021,
+    "reduction_percent": 98.68
+  }
+}

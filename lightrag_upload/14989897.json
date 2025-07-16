@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170627",
+  "publication_number": "US20170200081A1-20170713",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "14989897",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Allen",
+      "inventor_name_first": "Corville O.",
+      "inventor_city": "Morrisville",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Freed",
+      "inventor_name_first": "Andrew R.",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system, method, and a computer program product are provided for evaluating an analogical pattern by applying natural language processing to an information source to identify analogical pattern terms in a first analogical pattern, applying deep analysis to refine the analogical pattern terms based on semantic analysis to form metadata for the first analogical pattern, generating interpretations of different combinations of the first analogical pattern terms and the metadata, and then scoring each interpretation for each of the different combinations to select a first interpretation exceeding a predetermined threshold for interpretation of the analogical pattern, thereby evaluating the first analogical pattern.",
+  "filing_date": "20160107",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Broadly speaking, selected embodiments of the present disclosure provide a system, method, and apparatus for identifying and/or understanding analogies (e.g., analogical language, such as exemplifications, comparisons, metaphors, similes, allegories, and parables) by using the cognitive power of the information handling system to detect and categorize analogical patterns based on the terms in the detected analogical pattern and derived characteristic metadata, to generate potential meanings for each detected analogical pattern from characteristic metadata for terms in the analogical pattern, and to identify a best meaning for the detected analogical pattern by analyzing and scoring the potential meanings. As an initial step, the information handling system identifies or detects an analogy in an input sentence or text segment by performing a sentence structure and ontological analysis to identify sentence terms and associated metadata which are structured as one or more candidate analogical patterns having a first analogic (e.g., left or source term type and analogical phrase) connected by a comparator to a second analogic (e.g., right or target analogical phrase and characteristic term). In this initial step, one or more learning methods may be applied to match a detected analogical pattern to one or more known analogical patterns to categorize and detect the input sentence or text segment as an analogy. In addition, specific terms in the detected analogical pattern may be analyzed for entity resolution, ontology, and other term characteristics or metadata (e.g., by using the definition of the terms and ontology) for use in detecting the analogy and/or determining the outcome or meaning of the analogy. In determining the meaning of the detected analogical pattern, the information handling system uses the definitions of the terms and ontology in the analogical pattern to map a source from one domain to a target in a different domain by examining at...",
+  "date_published": "20170713",
+  "title": "System and Method for Analogy Detection and Analysis in a Natural Language Question and Answering System",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1728",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 78291,
+    "optimized_size": 3487,
+    "reduction_percent": 95.55
+  }
+}

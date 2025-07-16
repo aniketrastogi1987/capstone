@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180425",
+  "publication_number": "US20180129930A1-20180510",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15365641",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shin",
+      "inventor_name_first": "Jinwoo",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Chong",
+      "inventor_name_first": "Song",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "Kimin",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "Disclosed is a learning method based on a stochastic-based deep learning model having a non-consecutive stochastic neural. The learning method includes configuring a non-consecutive stochastic feedforward neural network (NCSFNN) having non-consecutive stochastic neuron as a leaning model including a plurality of hidden layers; and allowing the NCSFNN to learn.",
+  "filing_date": "20161130",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the inventive concept provide a scheme of designing a novel deep learning model which is capable of making good performance in a supervised learning situation such as recognition and classification of things even though having the same number of variables as that of variables of a conventional deep learning model, and an effective learning scheme capable of allowing the corresponding model to learn rapidly. According to an aspect of the inventive concept, a learning method includes configuring a non-consecutive stochastic feedforward neural network (NCSFNN) having non-consecutive stochastic neuron as a leaning model including a plurality of hidden layers; and allowing the NCSFNN to learn. The configuring of the NCSFNN may include configuring a last layer of the NCSFNN as a non-stochastic neuron. The configuring of the NCSFNN may include configuring the NCSFNN by replacing at least one of a deep neural network (DNN) with a stochastic layer. The configuring of the NCSFNN may include configuring at least one among the hidden layers with a stochastic layer and configuring a last layer with a non-stochastic layer. The configuring of the NCSFNN may include configuring a layer connected to an output of the stochastic layer with a deterministic layer. The stochastic layer may be defined as a binary random vector having marginal distribution expressed as follows: P  ( h 1 ; x ) = ∏ i = 1 N 1  P  ( h i 1 ; x )   with P  ( h i 1 = 1 ; x ) = g  ( α 1  f  ( W i 1  x + b i 1 ) ) stochastic layer, W i 1 is an i-th weight matrix of the stochastic layer, b i 1 is an i-th bias of the stochastic layer, f: → + is a non-negative activation function, and g(x)=min(max(x,0), 1), α 1 >0 is a parameter of the stochastic layer. The non-stochastic layer may be defined as a deterministic vector expressed as follows: in-line-formulae description=\"In-line Formulae\" end=\"lead\"? h 2 ( x )=[ f (α 2 ( P(h 1 ;x) [s ( W j 2 h 1 +b j 2 )]− s (0))):∀ j ∈ N 2 ] ...",
+  "date_published": "20180510",
+  "title": "LEARNING METHOD BASED ON DEEP LEARNING MODEL HAVING NON-CONSECUTIVE STOCHASTIC NEURON AND KNOWLEDGE TRANSFER, AND SYSTEM THEREOF",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 38979,
+    "optimized_size": 3357,
+    "reduction_percent": 91.39
+  }
+}

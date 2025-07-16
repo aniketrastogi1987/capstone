@@ -1,0 +1,35 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15181646",
+  "date_published": "20160929",
+  "date_produced": "20160914",
+  "title": "DATA PROCESSING DEVICE AND DRIVING METHOD THEREOF",
+  "filing_date": "20160614",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KUROKAWA",
+      "inventor_name_first": "Yoshiyuki",
+      "inventor_city": "Sagamihara",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "H03K19177",
+    "G06F9445",
+    "G11C712",
+    "G11C710",
+    "H03K19173",
+    "G06F1208"
+  ],
+  "main_ipcr_label": "H03K19177",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>An object is to provide a reconfigurable circuit which can also be used as a memory and a driving method thereof. Another object is to provide a memory or a data processing device whose operation time can be shortened and a driving method thereof. Another object is to provide a memory or a data processing device which includes a test circuit and can be manufactured at low cost, and a driving method thereof. Another object is to provide a novel data processing device and a driving method thereof. In addition to the above objects, one or a plurality of objects can be derived from the descriptions of the specification, the drawings, the claims, and the like. A data processing device includes first to third switch array matrixes and a logic circuit. Each of the first to third switch array matrixes includes a programmable switch at an intersection of a matrix formed using a first wiring group and a second wiring group. The programmable switch can make an electrical connection or disconnection between one wiring of the first wiring group and one wiring of the second wiring group. Signals of a plurality of wirings of the second wiring group in the second switch array matrix are input to the logic circuit. An output of the logic circuit is input to one wiring of the first wiring group in the first switch array matrix through a first switch, input to one wiring of the first wiring group in the second switch array matrix through a second switch, and input to one wiring of the first wiring group in the third switch array matrix through a third switch. At least one of the above-described objects can be achieved.",
+  "patent_number": "9800247",
+  "abstract": "In a processor or the like including a reconfigurable (RC) circuit, the RC circuit is used to form a test circuit to test a core, a cache memory, or the like, and then part of the RC circuit is used as an auxiliary cache memory. When a memory can store data after stop of power supply, a startup routine program (SRP) of the processor can be stored therein. For example, after the test, an SRP is loaded to a memory in the RC circuit from an external ROM or the like, and when power is resupplied to the processor, a startup operation is performed using the loaded SRP. When the processor is in a normal operation state, this memory is used as an auxiliary cache memory and the SRP is overwritten. The SRP is loaded to the memory again at the end of use of the processor.",
+  "publication_number": "US20160285457A1-20160929",
+  "_processing_info": {
+    "original_size": 130491,
+    "optimized_size": 3040,
+    "reduction_percent": 97.67
+  }
+}

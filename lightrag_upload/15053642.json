@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160824",
+  "publication_number": "US20160260014A1-20160908",
+  "main_ipcr_label": "G06N308",
+  "decision": "ACCEPTED",
+  "application_number": "15053642",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HAGAWA",
+      "inventor_name_first": "REIKO",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TSUKIZAWA",
+      "inventor_name_first": "SOTARO",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "ISHII",
+      "inventor_name_first": "YASUNORI",
+      "inventor_city": "Osaka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Learning method includes performing a first process in which a coarse class classifier configured with a first neural network is made to classify a plurality of images given as a set of images each attached with a label indicating a detailed class into a plurality of coarse classes including a plurality of detailed classes and is then made to learn a first feature that is a feature common in each of the coarse classes, and performing a second process in which a detailed class classifier, configured with a second neural network that is the same in terms of layers other than the final layer as but different in terms of the final layer from the first neural network made to perform the learning in the first process, is made to classify the set of images into detailed classes and learn a second feature of each detailed class.",
+  "filing_date": "20160225",
+  "patent_number": "9779354",
+  "summary": "<SOH> SUMMARY <EOH>In one general aspect, the techniques disclosed here feature that a method of learning a classifier for classifying an image includes performing a first process in which a coarse class classifier configured with a first neural network is made to classify a plurality of images given as a set of images each attached with a label indicating a detailed class into a plurality of coarse classes including a plurality of detailed classes and is then made to learn a first feature that is a feature common in each of the coarse classes, and performing a second process in which a detailed class classifier is made to classify the set of images into a plurality of detailed classes and is then made to learn a second feature that is a feature common in each of the detailed classes, the detailed class classifier configured with a second neural network that is the same in terms of layers other than a final layer as, but different in terms of the final layer from, the first neural network made to perform the learning in the first process. The present disclosure makes it possible to realize a method of learning a classifier capable of accurately recognizing an image with an improved image recognition processing speed, a recording medium therefor, and the like. It should be noted that general or specific embodiments may be implemented as a system, a method, an integrated circuit, a computer program, a computer-readable storage medium such as a CD-ROM disk or like, or any selective combination thereof. Additional benefits and advantages of the disclosed embodiments will become apparent from the specification and drawings. The benefits and/or advantages may be individually obtained by the various embodiments and features of the specification and drawings, which need not all be provided in order to obtain one or more of such benefits and/or advantages.",
+  "date_published": "20160908",
+  "title": "LEARNING METHOD AND RECORDING MEDIUM",
+  "ipcr_labels": [
+    "G06N308",
+    "G06K962"
+  ],
+  "_processing_info": {
+    "original_size": 73611,
+    "optimized_size": 3527,
+    "reduction_percent": 95.21
+  }
+}

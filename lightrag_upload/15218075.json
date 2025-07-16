@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170110",
+  "publication_number": "US20170024644A1-20170126",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15218075",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Van Der Made",
+      "inventor_name_first": "Peter AJ",
+      "inventor_city": "Aliso Viejo",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mankar",
+      "inventor_name_first": "Anil Shamrao",
+      "inventor_city": "Mission Viejo",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A configurable spiking neural network based accelerator system is provided. The accelerator system may be executed on an expansion card which may be a printed circuit board. The system includes one or more application specific integrated circuits comprising at least one spiking neural processing unit and a programmable logic device mounted on the printed circuit board. The spiking neural processing unit includes digital neuron circuits and digital, dynamic synaptic circuits. The programmable logic device is compatible with a local system bus. The spiking neural processing units contain digital circuits comprises a Spiking Neural Network that handles all of the neural processing. The Spiking Neural Network requires no software programming, but can be configured to perform a specific task via the Signal Coupling device and software executing on the host computer. Configuration parameters include the connections between synapses and neurons, neuron types, neurotransmitter types, and neuro...",
+  "filing_date": "20160724",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>An artificial spiking neural network is an approximation of the functions of a biological neural network and is intended to perform complex non-linear functions for pattern learning and recognition on a given data set. In the embodiment of the present invention, a plurality of neurons and synapses are integrated in an application specific integrated circuit (ASIC) or a programmable logic device comprising a spiking neural processing unit. The spiking neural processing unit comprises a plurality of digital neuron circuits, including dendrite circuits, comprised of digital logic gates, and configurably connected to a plurality of digital, dynamic synapse circuits, also comprised of digital logic gates, connected to produce at least one output signal in response to at least one input signal. The present invention includes information processing systems and methods that are inspired by certain aspects of a biological neural network. The combined functions of a plurality of synaptic circuits connected to a dendrite and subsequently to a neuron soma circuit, jointly called an artificial neuron, correspond to biological synapses, dendrites and a neural soma, respectively. Construction of the artificial neuron array from standard binary logic gates, whereby analogue values are simulated in registers, has allowed the creation of large arrays in VLSI devices using current state of the art semiconductor manufacturing techniques. Each sensory neuron may comprise any one or a combination of sensory devices such as a multi-element microphone, an artificial cochlea, a multi-element optical device, a biological unit, or a chemical material. Depending on synaptic efficacy as the result of learning and the artificial neuron previous activation history, different artificial neurons in general respond differently to the same input signal. The output of each artificial neuron provides a probability that the spatial and temporal input pattern closely appro...",
+  "date_published": "20170126",
+  "title": "NEURAL PROCESSOR BASED ACCELERATOR SYSTEM AND METHOD",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 46888,
+    "optimized_size": 3722,
+    "reduction_percent": 92.06
+  }
+}

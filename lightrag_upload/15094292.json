@@ -1,0 +1,32 @@
+{
+  "date_produced": "20170927",
+  "publication_number": "US20170293857A1-20171012",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15094292",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Stajner",
+      "inventor_name_first": "Tadej",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "Methods, apparatus, systems, and computer program products are provided for providing distributed online learning for personal predictive models that preserves user privacy. An example method comprises receiving model updates based at least in part on synchronization metadata. The model update comprises one or more received model parameter updates. The received model parameter updates correspond to one or more model parameters. The model updates are associated with a particular apparatus. The example method further comprises determining a decay factor based at least in part on the synchronization metadata; applying the decay factor to the one or more received model parameter updates; and updating the one or more model parameters based on the decayed model parameter updates.",
+  "filing_date": "20160408",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Methods, apparatus, systems and computer program products are provided in accordance with an example embodiment in order to provide distributed online learning for personalized predictive models that preserve a user's privacy. In example embodiments, model updates are received, for example, by a processor and through a communications interface, based at least in part on synchronization metadata. A decay factor is determined based at least in part on the synchronization metadata. The decay factor is applied to the one or more received model parameter updates. The one or more model parameters are updated based on the decayed model parameter updates. In accordance with an example embodiment, a method is provided. The method comprises receiving model updates based at least in part on synchronization metadata. The model update comprises one or more received model parameter updates, the received model parameter updates correspond to one or more model parameters, and the model updates are associated with a particular apparatus. The method further comprises determining a decay factor based at least in part on the synchronization metadata; applying the decay factor to the one or more received model parameter updates; and updating the one or more model parameters based on the decayed model parameter updates. In an example embodiment, the method further comprises collecting one or more data points, the one or more data points based at least in part on measurements made by one or more sensors; determining one or more determined model parameter updates based at least in part on the one or more data points; and updating the one or more model parameters based at least in part on the one or determined model updates. In an example embodiment, determining the one or more determined model parameter updates is based at least in part on a loss function, a regularization term, a learning rate function, and/or a combination thereof. In an example embodiment, the o...",
+  "date_published": "20171012",
+  "title": "DISTRIBUTED ONLINE LEARNING FOR PRIVACY-PRESERVING PERSONAL PREDICTIVE MODELS",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2908",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 79864,
+    "optimized_size": 3370,
+    "reduction_percent": 95.78
+  }
+}

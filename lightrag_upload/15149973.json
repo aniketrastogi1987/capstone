@@ -1,0 +1,38 @@
+{
+  "date_produced": "20171025",
+  "publication_number": "US20170323220A1-20171109",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15149973",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gordon",
+      "inventor_name_first": "John C.",
+      "inventor_city": "Newcastle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Koishida",
+      "inventor_name_first": "Kazuhito",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Technologies are described herein for modifying the modality of a computing device based upon a user's brain activity. A machine learning classifier is trained using data that identifies a modality for operating a computing device and data identifying brain activity of a user of the computing device. Once trained, the machine learning classifier can select a mode of operation for the computing device based upon a user's current brain activity and, potentially, other biological data. The computing device can then be operated in accordance with the selected modality. An application programming interface can also expose an interface through which an operating system and application programs executing on the computing device can obtain data identifying the modality selected by the machine learning classifier. Through the use of this data, the operating system and application programs can modify their mode of operation to be most suitable for the user's current mental state.",
+  "filing_date": "20160509",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Technologies are described herein for modifying the modality of a computing device based upon a user's brain activity. Through an implementation of the disclosed technologies, the mode of operation of a computing device can be modified so that the computing device operates in a manner that is consistent with the user's current mental state. For instance, notification messages can be disabled for a user of a computing device that is engaged in a task requiring a high level of concentration. In this manner, users can operate more efficiently, thereby reducing the power consumption of computing devices, reducing the number of processor cycles utilized by computing devices and, potentially, extending the battery life of computing devices. Technical benefits other than those specifically identified herein can also be realized through an implementation of the disclosed technologies. According to one configuration disclosed herein, a machine learning classifier (which might also be referred to herein as a “machine learning model”) is trained using data that identifies a modality for operating a computing device and data identifying brain activity of a user of the computing device. The brain activity of the user can be detected utilizing brain activity sensors such as, but not limited to, electrodes suitable for performing an electroencephalogram (“EEG”) on a user of the computing device. The machine learning classifier might also be trained using data representing other biological signals of the user of the computing device collected by one or more biosensors. For example, and without limitation, the user's heart rate, galvanic skin response, temperature, capillary action, pupil dilation, facial expression, and/or voice signals can also be utilized to train the machine learning classifier. Once trained, the machine learning classifier can select a mode of operation for the computing device based upon a user's current brain activity and, potentially, othe...",
+  "date_published": "20171109",
+  "title": "Modifying the Modality of a Computing Device Based Upon a User's Brain Activity",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F30481"
+  ],
+  "_processing_info": {
+    "original_size": 120748,
+    "optimized_size": 3737,
+    "reduction_percent": 96.91
+  }
+}

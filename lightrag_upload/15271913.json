@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170316",
+  "publication_number": "US20170091641A1-20170330",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15271913",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LADHA",
+      "inventor_name_first": "Shamsuddin Nasiruddin",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "YADAV",
+      "inventor_name_first": "Piyush",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "DESHPANDE",
+      "inventor_name_first": "Shailesh Shankar",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "The present disclosure provides a method and a system for optimizing Hidden Markov Model based land change prediction. Firstly, remotely sensed data is pre-processed and classified into a plurality of land use land cover classes (LULC). Then socio-economic driver variables data for a pre-defined interval of time are provided from a database. A Hidden Markov Model (HMM) is defined with LULC as hidden states and socio-economic driver variables data as observations and trained for generating a HMM state transition probability matrix. Again the defined HMM is trained by taking input data from scenario based temporal variables to generate another set of HMM state transition probability matrix. The generated HMM state transition probability matrix is then integrated with a spatio-temporal model to obtain an integrated model for predicting LULC changes to generate at least one prediction image.",
+  "filing_date": "20160921",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure present technological improvements as solutions to one or more of the above-mentioned technical problems recognized by the inventors in conventional systems. The instant disclosure provides methods and systems for optimizing Hidden Markov Model based land change prediction. In an aspect there is provided a method for optimizing Hidden Markov Model based land change prediction, the method comprising: pre-processing, by a pre-processing module, remotely sensed data received for a pre-defined interval of time from a plurality of sensors; classifying, using a classifying module, the pre-processed data into a plurality of land use land cover classes (LULC); providing, using a user interface, data corresponding to a plurality of socio-economic driver variables for a pre-defined interval of time from a database; defining, using a defining module, at least one Hidden Markov Model (HMM) with the plurality of LULC as hidden states and plurality of socio-economic driver variables as observations; training, using a training module, the defined at least one HMM with data for the plurality of LULC as hidden states and data corresponding to plurality of socio-economic driver variables as observations from the database for generating at least one HMM state transition probability matrix; generating, using a scenario generating module, data corresponding to a plurality of scenario based temporal variables and storing the data corresponding to a plurality of scenario based temporal variables in the database; training, using the training module, the defined HMM with data for the plurality of LULC as hidden states and data corresponding to a plurality of scenario based temporal variables from the database as observations for generating at least one another set of HMM state transition probability matrix; integrating, using an integrating module, the generated at least one HMM state transition probability matrix or the generated at ...",
+  "date_published": "20170330",
+  "title": "METHODS AND SYSTEMS FOR OPTIMIZING HIDDEN MARKOV MODEL BASED LAND CHANGE PREDICTION",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 60907,
+    "optimized_size": 3783,
+    "reduction_percent": 93.79
+  }
+}

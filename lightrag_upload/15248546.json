@@ -1,0 +1,36 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15248546",
+  "date_published": "20170608",
+  "date_produced": "20170524",
+  "title": "METHOD AND DEVICE FOR DETECTING VIDEO DATA",
+  "filing_date": "20160826",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LI",
+      "inventor_name_first": "Yunlong",
+      "inventor_city": "Tianjin",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "H04N2124",
+    "H04N1700",
+    "H04N21845",
+    "G06K900",
+    "H04N21235",
+    "H04N218358",
+    "H04N21234"
+  ],
+  "main_ipcr_label": "H04N2124",
+  "summary": "<SOH> SUMMARY <EOH>The technical problem to be solved by an embodiment of the present disclosure is to disclose a method for detecting video data, in order to solve the problem of limited video detection progress due to manual detection and improve the accuracy of detection while improving the efficiency of detection. Accordingly, another embodiment of the present disclosure further provides a device for detecting video data to ensure the implementation and application of the above method. According to an embodiment of the present disclosure, there is provided a method for detecting video data, including: at an electronic device, receiving frame data of image frames of a video played previously, the frame data including watermark time sequence information; extracting the watermark time sequence information from each piece of frame data and determining presentation time of the image frame corresponding to each piece of frame data; detecting continuity of the image frames based on the presentation time of the image frames and generating a detection result of the video. According to an embodiment of the present disclosure, there is provided an electronic device for detecting video data, including: at least one processor; and a memory communicably connected with the at least one processor for storing instructions executable by the at least one processor, wherein execution of the instructions by the at least one processor causes the at least one processor to: receive frame data of image frames of a video played previously, the frame data including watermark time sequence information; extract the watermark time sequence information from each piece of frame data and determine presentation time of the image frame corresponding to each piece of frame data; detect continuity of the image frames based on the presentation time of the image frames and generate a detection result of the video. According to an embodiment of the present disclosure, there is provided a computer prog...",
+  "patent_number": "None",
+  "abstract": "Embodiments of the present disclosure disclose a method and a device for detecting video data. The method comprises: receiving frame data of image frames of a video played previously, the frame data including watermark time sequence information; extracting the watermark time sequence information from each piece of frame data to determine presentation time of the image frame corresponding to each piece of frame data; detecting continuity of the image frames based on the presentation time of the image frames and generating a detection result of the video. According to the embodiments of the present disclosure, the accuracy of detection is improved; meanwhile, the problem of slow detection progress due to manual detection on playing hysteresis of a video is avoided, and the detection efficiency is improved while the workload of the testing technician is reduced.",
+  "publication_number": "US20170164026A1-20170608",
+  "_processing_info": {
+    "original_size": 64033,
+    "optimized_size": 3474,
+    "reduction_percent": 94.57
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180523",
+  "publication_number": "US20180157988A1-20180607",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15368173",
+  "inventor_list": [
+    {
+      "inventor_name_last": "JAGOTA",
+      "inventor_name_first": "Arun Kumar",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "GURKOK",
+      "inventor_name_first": "Cem",
+      "inventor_city": "Coral Gables",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "System receives inputs, each input associated with a label and having features, creates a rule for each feature, each rule including a feature and a label, each rule stored in a hierarchy, and distributes each rule into a partition associated with a label or another partition associated with another label. System identifies a number of inputs that include a feature for a rule in the rule partition, and identifies another number of inputs that include both the feature for the rule and another feature for another rule in the rule partition. System deletes the rule from the hierarchy if the ratio of the other number of inputs to the number of inputs satisfies a threshold and an additional number of inputs that includes the other antecedent feature is at least as much as the number. System predicts a label for an input including features by applying each remaining rule to the input.",
+  "filing_date": "20161202",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the following drawings like reference numbers are used to refer to like elements. Although the following figures depict various examples, the one or more implementations are not limited to the examples depicted in the figures. FIG. 1 is an operational flow diagram illustrating a high level overview of a method for rule set induction, in an embodiment; FIGS. 2A-C illustrate example data structures used for rule set induction, in an embodiment; and FIG. 3 is a block diagram illustrating an example hardware device in which the subject matter may be implemented. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180607",
+  "title": "RULE SET INDUCTION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 73562,
+    "optimized_size": 2243,
+    "reduction_percent": 96.95
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180222",
+  "publication_number": "US20180068231A1-20180308",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15259541",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sharma",
+      "inventor_name_first": "Raksha",
+      "inventor_city": "Gwalior",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Dandapat",
+      "inventor_name_first": "Sandipan",
+      "inventor_city": "Kolkata",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Bhatt",
+      "inventor_name_first": "Himanshu Sharad",
+      "inventor_city": "Uttam",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "The disclosed embodiments illustrate methods of data processing for training a target domain classifier to label text segments. The method includes identifying a set of common keywords with same label from a set of source keywords and a set of target keywords. The method includes training a first classifier, based on the set of common keywords, to label a first set of target text segments. The method includes training a second classifier based on at least a subset of the labeled first set of target text segments. The method includes training a third classifier, based on the first classifier and the second classifier, to label a second set of target text segments, wherein a subset of the labeled second set of target text segments is utilized for re-training the second classifier. The method further includes determining labels of another plurality of target text segments based on the re-trained second classifier.",
+  "filing_date": "20160908",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to embodiments illustrated herein, there is provided a method of data processing for training a target domain classifier to label text segments. The method includes identifying, by one or more processors in a computing device, a set of common keywords with same label from a set of source keywords and a set of target keywords, wherein each keyword in the set of source keywords and the set of target keywords is associated with a label. The method further includes training, by the one or more processors in the computing device, a first classifier, based on the set of common keywords, to label a first set of target text segments from a plurality of target text segments, wherein each of the labeled first set of target text segments is associated with a first confidence score. The method further includes training, by the one or more processors in the computing device, a second classifier based on at least a subset of the labeled first set of target text segments for which the first confidence score exceeds a confidence threshold value. The method further includes training, by the one or more processors in the computing device, a third classifier, based on the trained first classifier and the trained second classifier, to label a second set of target text segments from the plurality of target text segments. Further, each of the labeled second set of target text segments is associated with a second confidence score. Further, a subset of the labeled second set of target text segments, for which the second confidence score exceeds the confidence threshold value, is utilized for re-training the second classifier. The method further includes determining, by the one or more processors in the computing device, labels of another plurality of target text segments based on the re-trained second classifier that corresponds to the target domain classifier. According to embodiments illustrated herein, there is provided a system for data processing for train...",
+  "date_published": "20180308",
+  "title": "METHOD AND SYSTEM FOR TRAINING A TARGET DOMAIN CLASSIFIER TO LABEL TEXT SEGMENTS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1727"
+  ],
+  "_processing_info": {
+    "original_size": 113854,
+    "optimized_size": 3799,
+    "reduction_percent": 96.66
+  }
+}

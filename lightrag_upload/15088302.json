@@ -1,0 +1,37 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15088302",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "title": "MANAGING TRANSLATION INVALIDATION",
+  "filing_date": "20160401",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mukherjee",
+      "inventor_name_first": "Shubhendu Sekhar",
+      "inventor_city": "Southborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bertone",
+      "inventor_name_first": "Mike",
+      "inventor_city": "Marlborough",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1210"
+  ],
+  "main_ipcr_label": "G06F1210",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, in general, a processor includes one or more processing elements. At least a first processing element of the one or more processing elements includes one or more VA-indexed structures indexed by virtual addresses and is configured to handle invalidation messages. The handling includes: in response to determining that a first invalidation message applies to a subset of virtual addresses consisting of fewer than all virtual addresses associated with a first set of one or more translation context values, searching the VA-indexed structures in the first processing element to find any entries that correspond to a virtual address in the subset and invalidating any entries that are found; in response to determining that a second invalidation message applies to all virtual addresses associated with a second set of one or more translation context values and that no entry exists in one or more invalidation-tracking structures corresponding to the second set of one or more translation context values, bypassing searching of any of the VA-indexed structures in the first processing element to find any entries that correspond to a virtual address associated with the second set of one or more translation context values, where the one or more invalidation-tracking structures track invalidation of different sets of one or more translation context values; and in response to determining that a third invalidation message applies to all virtual addresses associated with a third set of one or more translation context values and that at least one entry exists in the one or more invalidation-tracking structures corresponding to the third set of one or more translation context values, storing invalidation information in the one or more invalidation-tracking structures to invalidate the third set of one or more translation context values and delaying searching of any of the VA-indexed structures in the first processing element to find any entries that corresp...",
+  "patent_number": "9779028",
+  "abstract": "Managing translation invalidation includes: in response to determining that a first invalidation message (IM) applies to a subset of virtual addresses (VAs) consisting of fewer than all VAs associated with a first set of translation context (TC) values, searching VA-indexed structure(s) to find and invalidate any entries that correspond to a VA in the subset; in response to determining that a second IM applies to all VAs associated with a second set of TC values and that no entry exists in invalidation-tracking structure(s) corresponding to the second set, bypassing searching any VA-indexed structure(s); and in response to determining that a third IM applies to all VAs associated with a third set of TC values and that at least one entry exists in the invalidation-tracking structure(s) corresponding to the third set, storing invalidation information in the invalidation-tracking structure(s) to invalidate the third set and delaying searching any VA-indexed structure(s).",
+  "publication_number": "US20170286315A1-20171005",
+  "_processing_info": {
+    "original_size": 54049,
+    "optimized_size": 3674,
+    "reduction_percent": 93.2
+  }
+}

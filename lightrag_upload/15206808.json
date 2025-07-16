@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171227",
+  "publication_number": "US20180012140A1-20180111",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15206808",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PISTOIA",
+      "inventor_name_first": "MARCO",
+      "inventor_city": "Amawalk",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tripp",
+      "inventor_name_first": "Omer",
+      "inventor_city": "Bronx",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wood",
+      "inventor_name_first": "Stephen P.",
+      "inventor_city": "Thornwood",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for performing program analysis includes receiving programs of a first platform that have been assigned a first label and programs of the first platform that have been assigned a second label. Each of the programs of the first platform is expressed as platform-independent logical features. A discriminatory model or classifier is trained, using machine learning, based on the expression of the programs of the first platform as platform-independent logical features, to distinguish between programs of the first label and programs of the second label. An unlabeled program of a second platform is received and is expressed as platform-independent logical features. The trained discriminatory model or classifier is used to determine if the unlabeled program warrants the first label or the second label, based on the expression of the unlabeled program as platform-independent logical features.",
+  "filing_date": "20160711",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A method for performing program analysis includes receiving a plurality of programs of a first platform that have been assigned a first label. A plurality of programs of the first platform that have been assigned a second label is received. Each of the plurality of programs of the first platform that have been assigned the first label is expressed as a first set of platform independent features. Each of the plurality of programs of the first platform that have been assigned the second label is expressed as a second set of platform-independent logical features. A discriminatory model or classifier is trained, using machine learning, based on the expression of the programs of the first platform that have been assigned the first and second label as the first and second sets of platform-independent logical features, to distinguish between programs of the first label and programs of the second label. An unlabeled program of a second platform, different from the first platform, is received. The unlabeled program is expressed as a third set of platform-independent logical features. The trained discriminatory model or classifier is used to determine if the unlabeled program warrants the first label or the second label, based on the expression of the unlabeled program as the third set of platform-independent logical features. A first logical extractor may be used to express each of the plurality of programs of the first platform that have been assigned the first label as the first set of platform-independent logical features and to express each of the plurality of programs of the first platform that have been assigned the second label as the second set of platform-independent logical features, and a second logical extractor may be used to express the unlabeled program as the third set of platform-independent logical features. The first logical extractor may be configured for the first platform, and the second logical extractor may be configured for t...",
+  "date_published": "20180111",
+  "title": "CROSS-PLATFORM PROGRAM ANALYSIS USING MACHINE LEARNING BASED ON UNIVERSAL FEATURES",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F944"
+  ],
+  "_processing_info": {
+    "original_size": 79388,
+    "optimized_size": 3775,
+    "reduction_percent": 95.24
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "date_produced": "20180328",
+  "publication_number": "US20180101788A1-20180412",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15030854",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HE",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A new approach is proposed to support two variants of the approach to effectively generate reason codes for an ensemble model. Both variants involve treating the ensemble model as a black box, identifying trivial values for input variables to the ensemble model, replacing each of the input variables to the ensemble model with its corresponding trivial values and then evaluating the impact on a score of the model after the trivial value replacement. The evaluation result of the impact is then used to generate the reason codes for the ensemble model. Specifically, the first variant is configured to perform one round of replacement, wherein variables with top drops in the score will be the reason codes. The second variant is configured to perform multiple rounds of replacement, which in each round, keeps the identified reason codes variables replaced with trivial values and analyzes incremental drops of replacing remaining variables.",
+  "filing_date": "20160420",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Aspects of the present disclosure are best understood from the following detailed description when read with the accompanying figures. It is noted that, in accordance with the standard practice in the industry, various features are not drawn to scale. In fact, the dimensions of the various features may be arbitrarily increased or reduced for clarity of discussion. FIG. 1 depicts an example of a system diagram to support reason codes generation in accordance with some embodiments. FIG. 2 depicts an example of a flowchart of a process to support a first variant of the approach to reason codes generation in accordance with some embodiments. FIG. 3 depicts an example of a flowchart of a process to support a second variant of the approach to reason codes generation in accordance with some embodiments. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180412",
+  "title": "SYSTEM AND METHODS FOR GENERATING REASON CODES FOR ENSEMBLE COMPUTER MODELS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1718",
+    "G06N700",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 40907,
+    "optimized_size": 2456,
+    "reduction_percent": 94.0
+  }
+}

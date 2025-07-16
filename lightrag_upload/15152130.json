@@ -1,0 +1,61 @@
+{
+  "date_produced": "20171103",
+  "publication_number": "US20170330087A1-20171116",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15152130",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Akolkar",
+      "inventor_name_first": "Rahul P.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Farinelli",
+      "inventor_name_first": "Kristi A.",
+      "inventor_city": "Philadelphia",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Prabhu",
+      "inventor_name_first": "Srijith N.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sharpe, III",
+      "inventor_name_first": "Joseph L.",
+      "inventor_city": "Loveland",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Slawson",
+      "inventor_name_first": "Bruce R.",
+      "inventor_city": "Palmdale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method, system and computer-usable medium are disclosed for using a context dependency graph to automate the generation of an incorrect answer to a question suitable for a multiple choice exam. A reference corpus is used to generate a concept dependency graph that contains reference keywords and concepts associated with the subject domain of an input corpus. Relationships between the reference keywords and concepts within the concept dependency graph are identified. Once identified, they are used to process a set of input keywords and concepts extracted from the input corpus, and the reference keywords and concepts, to generate a set of distractor words. The resulting set of distractor words is then processed with a set of QA pairs associated with the input corpus to generate a set of multiple choice question-answers that include various distractor answers.",
+  "filing_date": "20160511",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A method, system and computer-usable medium are disclosed for using a context dependency graph to automate the generation of an incorrect answer to a question suitable for a multiple choice exam. In various embodiments, a reference corpus is used to generate a concept dependency graph that contains reference keywords and concepts associated with the subject domain of an input corpus. In these embodiments, relationships between the reference keywords and concepts within the concept dependency graph are identified. Once identified, they are then used to process a set of input keywords and concepts, and the reference keywords and concepts, to generate a set of distractor words. The resulting set of distractor words is then processed with a set of QA pairs associated with the input corpus to generate a set of multiple choice question-answers that include various distractor answers. In various embodiments, the set of input keywords and concepts are extracted from the input corpus and the set of associated question-answer (QA) pairs. In certain embodiments, the set of question-answer (QA) pairs is generated from the input corpus by a question generation system. In certain embodiments, the distractor words are located in the concept dependency graph and not in the input corpus. In various embodiments, individual multiple choice question-answers in the set of multiple choice question-answers are eliminated according to a question quality criteria based upon aspects including specificity, context, and ambiguity. In certain embodiments, a machine learning model and a natural language processing (NLP) library are used to determine the individual multiple choice question-answers to be eliminated.",
+  "date_published": "20171116",
+  "title": "Automated Distractor Generation by Identifying Relationships Between Reference Keywords and Concepts",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1727",
+    "G06F1727",
+    "G06F1728"
+  ],
+  "_processing_info": {
+    "original_size": 55227,
+    "optimized_size": 3849,
+    "reduction_percent": 93.03
+  }
+}

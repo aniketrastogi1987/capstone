@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170906",
+  "publication_number": "US20170270406A1-20170921",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15273496",
+  "inventor_list": [
+    {
+      "inventor_name_last": "VISSER",
+      "inventor_name_first": "Erik",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "JIN",
+      "inventor_name_first": "Minho",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Lae-Hoon",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "PERI",
+      "inventor_name_first": "Raghuveer",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Shuhua",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method of training a device specific cloud-based audio processor includes receiving sensor data captured from multiple sensors at a local device. The method also includes receiving spatial information labels computed on the local device using local configuration information. The spatial information labels are associated with the captured sensor data. Lower layers of a first neural network are trained based on the spatial information labels and sensor data. The trained lower layers are incorporated into a second, larger neural network for audio classification. The second, larger neural network may be retrained using the trained lower layers of the first neural network.",
+  "filing_date": "20160922",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In an aspect of the present disclosure, a method of training a device specific cloud-based audio processor is presented. The method includes receiving sensor data captured from multiple sensors at a local device and receiving spatial information labels computed on the local device using local configuration information. The spatial information labels are associated with the captured sensor data. The method also includes training lower layers of a first neural network based on the spatial information labels and sensor data. Additionally, the method includes incorporating the trained lower layers into a second, larger neural network for audio classification. The method further includes retraining the second neural network using the trained lower layers of the first neural network. In another aspect of the present disclosure, a method of cloud-based audio processing using an artificial neural network is presented. The method includes receiving device identification information of a local device and sensor data captured from multiple sensors at the local device. The method also includes setting convolutional filters of the neural network based on the device identification information. The method further includes predicting an audio event classification based on the sensor data without retraining the neural network. In yet another aspect of the present disclosure, an apparatus for training a device specific cloud-based audio processor is presented. The apparatus includes a memory coupled to at least one processor. The one or more processors are configured to receive sensor data captured from multiple sensors at a local device and to receive spatial information labels computed on the local device using local configuration information. The spatial information labels are associated with the captured sensor data. The processor(s) is(are) also configured to train lower layers of a first neural network based on the spatial information labels and sensor data. ...",
+  "date_published": "20170921",
+  "title": "CLOUD-BASED PROCESSING USING LOCAL DEVICE PROVIDED SENSOR DATA AND LABELS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 92594,
+    "optimized_size": 3833,
+    "reduction_percent": 95.86
+  }
+}

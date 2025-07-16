@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15442142",
+  "date_published": "20170608",
+  "date_produced": "20170524",
+  "filing_date": "20170224",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Provided in the present invention are a method and apparatus for labeling training samples. In the embodiments of the present invention, two mutually independent classifiers, i.e. a first classifier and a second classifier, are used to perform collaborative forecasting on M unlabeled first training samples to obtain some of the labeled first training samples, without the need for the participation of operators; the operation is simple and the accuracy is high, thereby improving the efficiency and reliability of labeling training samples.",
+  "publication_number": "US20170161645A1-20170608",
+  "summary": "<SOH> SUMMARY <EOH>A method and apparatus for labeling training samples are provided in a plurality of aspects of the present invention, so as to improve the efficiency and reliability of labeling the training samples. A method for labeling training samples is provided in one aspect of the present invention, comprising: inputting M unlabeled first training samples into a first classifier to obtain a first forecasting result of each first training sample in the M first training samples, M being an integer greater than or equal to 1; according to the first forecasting result of each first training sample, selecting, from the M first training samples, N first training samples as second training samples, N being an integer greater than or equal to 1 and less than or equal to M; inputting the N second training samples into a second classifier to obtain a second forecasting result of each second training sample in the N second training samples, the first classifier and the second classifier being independent of each other; according to the second forecasting result of each second training sample, selecting, from the N second training samples, P second training samples, P being an integer greater than or equal to 1 and less than or equal to N; according to first forecasting results of other first training samples in the M first training samples, except the N second training samples, and the value of P, selecting, from the other first training samples, Q first training samples, Q being an integer greater than or equal to 1 and less than or equal to M−N; and according to second forecasting results of the P second training samples and each of the second training samples therein, generating P labeled second training samples, and according to first forecasting results of the Q first training samples and each of the first training samples therein, generating Q labeled first training samples. In the aspect as mentioned above and in any possible implementation, an implementation i...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cheng",
+      "inventor_name_first": "Huige",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Mao",
+      "inventor_name_first": "Yaozong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR LABELING TRAINING SAMPLES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 68347,
+    "optimized_size": 3235,
+    "reduction_percent": 95.27
+  }
+}

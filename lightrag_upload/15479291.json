@@ -1,0 +1,81 @@
+{
+  "patent_number": "None",
+  "application_number": "15479291",
+  "date_published": "20171012",
+  "date_produced": "20170927",
+  "filing_date": "20170405",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Systems and methods for determining whether two tree persons in a genealogical database correspond to the same real-life individual. Embodiments include identifying two tree persons in a genealogical database and extracting a plurality of features from both tree persons to generate two vectors. Embodiments also include calculating a plurality of metrics between the two vectors to generate a metric function. Embodiments further include generating feature weights using a recursive process based on training data input by external users, and generating a score by calculating a weighted sum of the metric function being weighted by the feature weights. The generated score may then be compared to a threshold value.",
+  "publication_number": "US20170293861A1-20171012",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>Embodiments of the present invention include a method for determining whether two tree persons correspond to the same real-life individual. The method may include identifying a first tree person from a first genealogical tree and a second tree person from a second genealogical tree. The first genealogical tree and the second genealogical tree may include a plurality of interconnected tree persons corresponding to individuals that are related to each other. The method may include extracting a plurality of features from both the first tree person and the second tree person to generate a first feature vector and a second feature vector. The method may include calculating a plurality of metrics between the first feature vector and the second feature vector to generate a metric function containing a plurality of values. The method may include generating feature weights having a plurality of values. The method may include generating a score by calculating a weighted sum of each of the plurality of values of the metric function being weighted by the plurality of values of the feature weights. In some embodiments, the first genealogical tree may be different than the second genealogical tree. In some embodiments, the method may include cleaning the first tree person or the second tree person by correcting one or more errors within data associated with the first tree person or the second tree person. In some embodiments, each of the plurality of values of the metric function may be greater than or equal to 0 and less than or equal to 1. In some embodiments, each of the plurality of values of the feature weights may be greater than or equal to 0 and less than or equal to 1. In some embodiments, the score may be greater than or equal to 0 and less than or equal to 1. In some embodiments, the feature weights may be generated based on a comparison between the first feature vector and the second feature vector and a set of training data p...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716",
+    "G06F1711"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Roy",
+      "inventor_name_first": "Atanu",
+      "inventor_city": "Provo",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Qi",
+      "inventor_name_first": "Jianlong",
+      "inventor_city": "Provo",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jiang",
+      "inventor_name_first": "Peng",
+      "inventor_city": "Provo",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ling",
+      "inventor_name_first": "Aaron",
+      "inventor_city": "Provo",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Furner",
+      "inventor_name_first": "Rey",
+      "inventor_city": "Provo",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wu",
+      "inventor_name_first": "Lei",
+      "inventor_city": "Provo",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Greenwood",
+      "inventor_name_first": "Eugene",
+      "inventor_city": "Provo",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Stiles",
+      "inventor_name_first": "Ian",
+      "inventor_city": "Provo",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "MACHINE-LEARNING SYSTEM AND METHOD FOR IDENTIFYING SAME PERSON IN GENEALOGICAL DATABASES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 53994,
+    "optimized_size": 4295,
+    "reduction_percent": 92.05
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180207",
+  "publication_number": "US20180053097A1-20180222",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15237970",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Soni",
+      "inventor_name_first": "Akshay",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mehdad",
+      "inventor_name_first": "Yashar",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method implemented on a computing device having at least one processor, storage, and a communication platform connected to a network for multi-label prediction comprises generating a label space; receiving a data point from a user; generating a first feature vector from the data point; projecting the first feature vector to the label space; determining a first set of labels associated with the first feature vector from the label space; converting the first set of labels to a second set of labels; and providing the second set of labels to the user.",
+  "filing_date": "20160816",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present teaching relates to method, system and programming for predicting multiple labels associated with datapoints. In particular, the present teaching relates to method, system, and programming for predicting multiple labels associated with datapoints using scalable multi-label learning. According to an embodiment of the present teaching, a method implemented on a computing device having at least one processor, storage, and a communication platform connected to a network for multi-label prediction comprises generating a label space; receiving a data point from a user; generating a first feature vector from the data point; projecting the first feature vector to the label space; determining a first set of labels associated with the first feature vector from the label space; converting the first set of labels to a second set of labels; and providing the second set of labels to the user. In some embodiments, generating a label space further comprises obtaining a plurality of data samples from at least a knowledge base; generating a plurality of second feature vectors respectively associated with the plurality of data samples; extracting one or more second labels associated with the plurality of second feature vectors; generating a first label matrix based on the plurality of second feature vectors and the one or more second labels; transforming the first label matrix to a second label matrix; training one or more parameters associated with the second label matrix; and generating the label space based on the second label matrix and the trained one or more parameters. In some embodiments, each element of the first label matrix indicates a relation as to whether one of the plurality of second vectors is annotated by one of the one or more second labels. In some embodiments, transforming the first label matrix to a second label matrix further comprises performing dimensionality reduction on the first label matrix based on random rejection, wherein ...",
+  "date_published": "20180222",
+  "title": "METHOD AND SYSTEM FOR MULTI-LABEL PREDICTION",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 60904,
+    "optimized_size": 3246,
+    "reduction_percent": 94.67
+  }
+}

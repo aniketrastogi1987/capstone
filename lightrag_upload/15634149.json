@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15634149",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "filing_date": "20170627",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A recognition method includes extracting target data corresponding to a current window and padding data subsequent to the target data from sequence data; acquiring a state parameter corresponding to a previous window; and calculating a recognition result for the current window based on the state parameter, the extracted target data, and the extracted padding data using a recurrent model.",
+  "publication_number": "US20180165572A1-20180614",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. In one general aspect, a recognition method includes extracting target data corresponding to a current window and padding data subsequent to the target data from sequence data; acquiring a state parameter corresponding to a previous window; and calculating a recognition result for the current window based on the state parameter, the extracted target data, and the extracted padding data using a recurrent model. The recognition method may further include temporarily storing a state parameter corresponding to a last frame of the current window for use in a subsequent window. The recognition method may further include excluding a state parameter associated with a padding and output data of the padding data calculated based on the recurrent model. The calculating of the recognition result may include unfolding the recurrent model by a window length and a padding length of the current window; and inputting the state parameter, the extracted target data, and the extracted padding data to the unfolded recurrent model for each frame and calculating output data corresponding to frames included in the current window. The calculating of the recognition result may include updating an input value of a node corresponding to a first frame of the current window based on a state parameter corresponding to a last frame of the previous window. The extracting of the target data and the padding data may include extracting data corresponding to a window length, starting from frame data subsequent to last frame data of the previous window, from the sequence data as the target data corresponding to the current window. The extracti...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "YOO",
+      "inventor_name_first": "Sang Hyun",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR PERFORMING RECOGNITION USING RECURRENT MODEL AND TRAINING RECURRENT MODEL",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 81369,
+    "optimized_size": 2982,
+    "reduction_percent": 96.34
+  }
+}

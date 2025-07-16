@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15488221",
+  "date_published": "20180524",
+  "date_produced": "20180509",
+  "filing_date": "20170414",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A differential recurrent neural network (RNN) is described that handles dependencies that go arbitrarily far in time by allowing the network system to store states using recurrent loops without adversely affecting training. The differential RNN includes a state component for storing states, and a trainable transition and differential non-linearity component which includes a neural network. The trainable transition and differential non-linearity component takes as input, an output of the previous stored states from the state component along with an input vector, and produces positive and negative contribution vectors which are employed to produce a state contribution vector. The state contribution vector is input into the state component to create a set of current states. In one implementation, the current states are simply output. In another implementation, the differential RNN includes a trainable OUT component which includes a neural network that performs post-processing on the curre...",
+  "publication_number": "US20180144245A1-20180524",
+  "summary": "<SOH> SUMMARY <EOH>Differential recurrent neural network (RNN) implementations described herein generally concern a type of neural network that handles dependencies that go arbitrarily far in time by allowing the network system to store states using recurrent loops, but without adversely affecting training. In one implementation, the differential RNN includes a state component sub-program for storing states. This state component sub-program includes a state loop with an adder for each state. For each state being stored, the state component sub-program modifies and stores a current state by adding the previous stored state to a corresponding element of a state contribution vector output by a trainable transition and differential non-linearity component sub-program using the associated state loop and adder each time an input vector is input into the differential RNN. During backpropagation, the state component sub-program accumulates gradients of a sequence used to train the differential RNN by adding them to the previous stored gradient and storing the new gradient at each time step starting from the end of the sequence. The trainable transition and differential non-linearity component sub-program includes a neural network. In one implementation, this neural network is regularized to a linear function. The trainable transition and differential non-linearity component sub-program takes as an input, an output of the previous stored states from the state component sub-program along with an input vector, whenever an input vector is entered into the differential RNN. The trainable transition and differential non-linearity component sub-program then produces a positive contribution vector and a negative contribution whose elements each correspond to a different element of the states being stored in the state component sub-program. The trainable transition and differential non-linearity component sub-program employs the positive and negative contribution vectors to produce ...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Simard",
+      "inventor_name_first": "Patrice",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DIFFERENTIAL RECURRENT NEURAL NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 144379,
+    "optimized_size": 3552,
+    "reduction_percent": 97.54
+  }
+}

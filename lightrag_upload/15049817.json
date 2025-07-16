@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170809",
+  "publication_number": "US20170243124A1-20170824",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15049817",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Zhuo",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Verma",
+      "inventor_name_first": "Naveen",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A weak binary classifier configured to receive an input signal for classification and generate a classification output is disclosed. The weak binary classifier includes a plurality of weighting amplifier stages, each weighting amplifier stage being configured to receive the input signal for classification and a weighting input derived from a classifier model and generate a weighted input signal, the plurality of weighting amplifier stages being configured to generate a plurality of positive weighted input signals coupled to a positive summing node and a plurality of negative weighted input signals coupled to a negative summing node. The weak binary classifier also includes a comparator having a non-inverting input coupled to the positive summing node and an inverting input coupled to the negative summing node and being configured to generate a weak classification output based on the plurality of weighted input signals.",
+  "filing_date": "20160222",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A weak binary classifier configured to receive an input signal for classification and generate a classification output is disclosed. The weak binary classifier includes a plurality of weighting amplifier stages, each weighting amplifier stage being configured to receive the input signal for classification and a weighting input derived from a classifier model and generate a weighted input signal, the plurality of weighting amplifier stages being configured to generate a plurality of positive weighted input signals coupled to a positive summing node and a plurality of negative weighted input signals coupled to a negative summing node. The weak binary classifier also includes a comparator having a non-inverting input coupled to the positive summing node and an inverting input coupled to the negative summing node and being configured to generate a weak classification output based on the plurality of weighted input signals. Each weighting amplifier stage may have an associated polarity switch configured to couple the weighted input signal of its associated weighting amplifier to the positive or negative summing node based on a polarity of the weighting input. The weighting input may be derived from the classifier model is a multi-bit weighting input. The weighting amplifier stage may have positive and negative weighting inputs configured to receive the multi-bit input weighting input. Each weighting amplifier stage may include a positive weighting amplifier and a negative weighting amplifier associated with a bit position of the weighting input. A strong binary classifier is also disclosed. The strong binary classifier includes a plurality of weak binary classifiers and a digital voter having a summing input coupled to the weak classification output of each weak binary classifier, the digital voter being configured to generate a strong binary classification output. The strong binary classifier may include a trainer configured to genera...",
+  "date_published": "20170824",
+  "title": "MACHINE-LEARNING CLASSIFIER BASED ON COMPARATORS FOR DIRECT INFERENCE ON ANALOG SENSOR DATA",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 45460,
+    "optimized_size": 3666,
+    "reduction_percent": 91.94
+  }
+}

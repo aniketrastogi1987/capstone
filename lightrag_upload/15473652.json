@@ -1,0 +1,44 @@
+{
+  "patent_number": "None",
+  "application_number": "15473652",
+  "date_published": "20171116",
+  "date_produced": "20171103",
+  "filing_date": "20170330",
+  "main_ipcr_label": "G06N504",
+  "abstract": "The present disclosure relates to a method and a system for optimizing stability of a project. A predictive analysis system receives data related to defect parameters, developer parameters, test case parameters, requirement parameters and production defect parameters of a project from data sources. Thereafter, the predictive analysis system determines plurality of trends based on the received data. Further, the predictive analysis system determines a project release prediction value for the project based on the plurality of trends. Further, the predictive analysis system determines an impact value of the project based on the plurality of trends. Further, the predictive analysis system determines a prediction result value based on the project release prediction value and the impact value for predicting the stability of the project. Further, the predictive analysis system dynamically performs one or more actions based on the prediction result value for optimizing the stability of the pro...",
+  "publication_number": "US20170330090A1-20171116",
+  "summary": "<SOH> SUMMARY <EOH>One or more shortcomings of the prior art are overcome and additional advantages are provided through the present disclosure. Additional features and advantages are realized through the techniques of the present disclosure. Other embodiments and aspects of the disclosure are described in detail herein and are considered a part of the claimed disclosure. Disclosed herein are a method and a system for optimizing stability of a project. For optimizing stability of the project, firstly, predictive analysis system determines plurality of trends related to the project. The plurality of trends may consider all the parameters involved in the project such as defect parameters indicating defect information of the project, developer parameters indicating developer information of the project, test case parameters indicating test cases used for the project, requirement parameters indicating requirements for the project and production defect parameters indicating defects in production of the project. Based on the plurality of trends, the predictive analysis system determines stability of the project. Determining the stability based on the plurality of trends provides an overall view of the project for providing a prediction inference. Further, the stepwise method for determining the plurality of trends easily identifies the issues in development of the project at any stage. Accordingly, the present disclosure relates to a method for optimizing stability of a project. The method comprises receiving, by a predictive analysis system, data related to defect parameters, developer parameters, test case parameters, requirement parameters and production defect parameters of a project from one or more data sources. Thereafter, the predictive analysis system determines plurality of trends based on at least one of the data related to the defect parameters, the test case parameters, the developer parameters, the production defect parameters and the requirement parameters. ...",
+  "ipcr_labels": [
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "JAYARAMAN",
+      "inventor_name_first": "VENKATA SUBRAMANIAN",
+      "inventor_city": "CHENNAI",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "SUNDARESAN",
+      "inventor_name_first": "SUMITHRA",
+      "inventor_city": "CHENNAI",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "AGRAWAL",
+      "inventor_name_first": "RAJIV KUMAR",
+      "inventor_city": "BANGALORE",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "METHOD AND A SYSTEM FOR OPTIMZING STABILITY OF A PROJECT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 99632,
+    "optimized_size": 3860,
+    "reduction_percent": 96.13
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15297006",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "title": "DYNAMIC DETECTION OF AN OBJECT FRAMEWORK IN A MOBILE DEVICE CAPTURED IMAGE",
+  "filing_date": "20161018",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Ning",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Lei",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T1160",
+    "G06T713",
+    "G06T340",
+    "G06T790",
+    "G06T7155",
+    "G06T520",
+    "G06T7168",
+    "G06T500"
+  ],
+  "main_ipcr_label": "G06T1160",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>When using a mobile camera and point to an object/document, embodiments of the invention enable the ability to automatically, dynamically and robustly detect an object framework such as a rectangular area/quadrangle. Such detection may be a basic operation and/or may be required in order to perform desired operations in subsequent applications (e.g., to extract content and/or to perform optical character recognition [OCR]). Embodiments of the invention may also return/display/output the identified/detected object framework/quadrangle in a camera view on the mobile device.",
+  "patent_number": "None",
+  "abstract": "A method, apparatus, and system provide the ability to detect an object framework in an image. A frame (of an image) is obtained. The image is pre-processed to smooth the image. Edges in the image are detected and an edge map is generated. Straight lines are detected from the detected edges in the edge map. One or more quadrangles are assembled from the detected straight lines. The quadrangles are sorted. One of the one or more quadrangles are selected based on the sorting. A selected quadrangle is returned to the user.",
+  "publication_number": "US20180108159A1-20180419",
+  "_processing_info": {
+    "original_size": 51799,
+    "optimized_size": 1911,
+    "reduction_percent": 96.31
+  }
+}

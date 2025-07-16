@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15115495",
+  "date_published": "20170608",
+  "date_produced": "20170524",
+  "title": "METHOD OF DETECTING ATTACKS IN A CLOUD COMPUTING ARCHITECTURE",
+  "filing_date": "20160729",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lazri",
+      "inventor_name_first": "Kahina",
+      "inventor_city": "Paris",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Laniepce",
+      "inventor_name_first": "Sylvie",
+      "inventor_city": "Caen",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F9455"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>One of the aims of the invention is to remedy the inadequacies/drawbacks of the prior art and/or provide improvements thereto. To this end, the invention proposes a method for detecting attacks in a system comprising at least two host servers, a host server being intended to host a set of virtual machines, the method comprising the following steps, implemented by a detection entity of the system: detection that a number of migrations of virtual machines from one server of the system to another during a current time period is greater than a threshold value, partitioning of the set of virtual machines of the system into a first subset of virtual machines, said to have stable profile in terms of consumption of at least one resource, and into a second subset, said to have fluctuating profile, the partitioning being dependent on a fluctuation index representative, for a machine of the set, of a variation of the consumption of the resource over a time window, the machines of the first subset having a lower fluctuation index than the machines of the second subset, computation, for the pairs of virtual machines of the second subset, of a time correlation value between the two profiles of the pair, identification in the second subset of virtual machines for which the correlation value is greater than or equal to a threshold correlation value, said machines being identified as originating the attack. The method of the invention thus makes it possible to detect a new type of vulnerability in a cloud computing architecture, more specifically in a system comprising a cluster of host servers. The new type of vulnerability, linked to the degradation of the performance levels of a virtual machine inherent in the implementation of migrations of virtual machines from one host server to another, is exploited by an attacker who, after having taken control of several virtual machines, influences the consumption of a critical resource by these machines in order to trig...",
+  "patent_number": "None",
+  "abstract": "A method and a detection entity for detecting attacks in a system including at least two host servers. Each host server hosts a set of virtual machines. The detection entity performs acts of: detecting that a number of migrations of virtual machines from one server to another during a current time period is greater than a threshold value; partitioning the virtual machines of the system into a first subset having a stable profile of consumption of at least one resource, and into a second subset having a fluctuating profile; calculating, for the pairs of virtual machines of the second subset, a value of temporal correlation between the two profiles of the pair; and identifying in the second subset the virtual machines for which the correlation value is greater than or equal to a threshold correlation value, the machines being identified as constituting the origin of the attack.",
+  "publication_number": "US20170163661A1-20170608",
+  "_processing_info": {
+    "original_size": 72639,
+    "optimized_size": 3587,
+    "reduction_percent": 95.06
+  }
+}

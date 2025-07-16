@@ -1,0 +1,56 @@
+{
+  "patent_number": "nan",
+  "application_number": "15790803",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "filing_date": "20171023",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A predictive modeling method may include determining a time interval of time-series data; identifying one or more variables of the data as targets; determining a forecast range and a skip range associated with a prediction problem represented by the data; generating training data and testing data from the time-series data; fitting a predictive model to the training data; and testing the fitted model on the testing data. The forecast range may indicate a duration of a period for which values of the targets are to be predicted. The skip range may indicate a temporal lag between the time period corresponding to the data used to make predictions and the time period corresponding to the predictions. The skip range may separate input data subsets representing model inputs from subsets representing model outputs, and separate test data subsets representing model inputs from subsets representing validation data.",
+  "publication_number": "US20180046926A1-20180215",
+  "summary": "<SOH> SUMMARY <EOH>Motivation for Some Embodiments Data analysts can use analytic techniques and computational infrastructures to build predictive models from electronic data, including operations and evaluation data. Data analysts generally use one of two approaches to build predictive models. With the first approach, an organization dealing with a prediction problem simply uses a packaged predictive modeling solution already developed for the same prediction problem or a similar prediction problem. This “cookie cutter” approach, though inexpensive, is generally viable only for a small number of prediction problems (e.g., fraud detection, churn management, marketing response, etc.) that are common to a relatively large number of organizations. With the second approach, a team of data analysts builds a customized predictive modeling solution for a prediction problem. This “artisanal” approach is generally expensive and time-consuming, and therefore tends to be used for a small number of high-value prediction problems. The space of potential predictive modeling solutions for a prediction problem is generally large and complex. Statistical learning techniques are influenced by many academic traditions (e.g., mathematics, statistics, physics, engineering, economics, sociology, biology, medicine, artificial intelligence, data mining, etc.) and by applications in many areas of commerce (e.g., finance, insurance, retail, manufacturing, healthcare, etc.). Consequently, there are many different predictive modeling algorithms, which may have many variants and/or tuning parameters, as well as different pre-processing and post-processing steps with their own variants and/or parameters. The volume of potential predictive modeling solutions (e.g., combinations of pre-processing steps, modeling algorithms, and post-processing steps) is already quite large and is increasing rapidly as researchers develop new techniques. Given this vast space of predictive modeling techniques, the ...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06F950",
+    "G06N502",
+    "G06Q1006",
+    "G06Q1004"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Achin",
+      "inventor_name_first": "Jeremy",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DeGodoy",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Melrose",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Owen",
+      "inventor_name_first": "Timothy",
+      "inventor_city": "Watertown",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Conort",
+      "inventor_name_first": "Xavier",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    }
+  ],
+  "title": "SYSTEMS FOR TIME-SERIES PREDICTIVE DATA ANALYTICS, AND RELATED METHODS AND APPARATUS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 446563,
+    "optimized_size": 4000,
+    "reduction_percent": 99.1
+  }
+}

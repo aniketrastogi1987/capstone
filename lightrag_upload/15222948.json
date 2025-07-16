@@ -1,0 +1,30 @@
+{
+  "date_produced": "20170119",
+  "publication_number": "US20170032282A1-20170202",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15222948",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SENOO",
+      "inventor_name_first": "Tatsuya",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A machine learning apparatus according to one embodiment of the present invention is a machine learning apparatus for learning a condition associated with adjustment of a current gain parameter in electrical machine control, and comprises: a state observing unit which acquires actual current as well as an integral gain function and a proportional gain function in a current control loop, and observes state variables which include the integral gain function, the proportional gain function, and at least one of an amount of overshoot, an amount of undershoot, and a rise time of the actual current occurring in response to a step-like torque command; and a learning unit which learns the condition associated with the adjustment of the current gain parameter in accordance with a training data set constructed from the state variables.",
+  "filing_date": "20160729",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is an object of the present invention to provide a machine learning apparatus that can improve motor response, reduce unevenness in feed, and enhance accuracy by optimizing a current gain parameter through machine learning; it is also an object of the invention to provide a motor control apparatus equipped with such a machine learning apparatus, and a machine learning method for the same. A machine learning apparatus according to one embodiment of the present invention is a machine learning apparatus for learning a condition associated with adjustment of a current gain parameter in electrical machine control, and comprises: a state observing unit which acquires actual current as well as an integral gain function and a proportional gain function in a current control loop, and observes state variables which include the integral gain function, the proportional gain function, and at least one of an amount of overshoot, an amount of undershoot, and a rise time of the actual current occurring in response to a step-like torque command; and a learning unit which learns the condition associated with the adjustment of the current gain parameter in accordance with a training data set constructed from the state variables. A machine learning apparatus according to an alternative embodiment of the present invention is a machine learning apparatus for learning a condition associated with adjustment of a current gain parameter in electrical machine control, and comprises: a state observing unit which acquires actual current as well as an integral gain function and a proportional gain function in a current control loop, and observes state variables which include the integral gain function, the proportional gain function, and at least one of bandwidth times calculated from an amplitude ratio and an amount of phase delay of the actual current occurring in response to a torque command constructed from a set of sinusoidal waves of different frequen...",
+  "date_published": "20170202",
+  "title": "MACHINE LEARNING APPARATUS FOR LEARNING GAIN OPTIMIZATION, MOTOR CONTROL APPARATUS EQUIPPED WITH MACHINE LEARNING APPARATUS, AND MACHINE LEARNING METHOD",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 42751,
+    "optimized_size": 3478,
+    "reduction_percent": 91.86
+  }
+}

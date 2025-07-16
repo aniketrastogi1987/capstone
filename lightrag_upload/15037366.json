@@ -1,0 +1,44 @@
+{
+  "date_produced": "20160928",
+  "publication_number": "US20160300137A1-20161013",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15037366",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Abele",
+      "inventor_name_first": "Lisa Theresa",
+      "inventor_city": "München",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Grimm",
+      "inventor_name_first": "Stephan",
+      "inventor_city": "München",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Watzke",
+      "inventor_name_first": "Michael",
+      "inventor_city": "München",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "A system and method is provided for the computer-assisted creation of rules for monitoring and/or diagnosing a technical plant. The system includes a digital knowledge base in the form of a first ontology, including a plant ontology, which describes the technical plant, and a rule ontology, which includes rules, wherein a particular rule is linked by means of a condition relation to concepts in the form of one or more conditions, which refer to one or more concepts of the plant ontology, and is linked by means of a consequence relation to the concept of a consequence derived from the one or more conditions, which consequence refers to one or more concepts of the plant ontology.",
+  "filing_date": "20160518",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An aspect relates to providing a system for creating rules for monitoring and/or diagnosing a technical plant, in which a user is assisted in the drafting of rules in a simple and flexible manner and the rules can be automatically checked. The system according to embodiments of the invention comprise a digital knowledge base in the form of a first ontology. Ontologies are sufficiently well known and represent semantic knowledge in the form of digital data. For this, ontologies use what are known as concepts or classes and relations between the concepts and also further constructs, such as inference and integrity rules for reasoning and for ensuring that said rules are valid. The first ontology comprises a plant ontology, which describes the technical plant on the basis of concepts and relations, and a rule ontology, which comprises rules as concepts and hence maps the structure of the rules. In this case, a respective rule is linked by means of a condition relation to concepts in the form of one or more conditions that refer to one or more concepts of the plant ontology. In addition, a respective rule is linked by means of a consequence relation to the concept of a consequence (e.g. a state) that is derived from the condition(s) and that refers to one or more concepts of the plant ontology. In other words, a respective rule derives a consequence in relation to a plant component when the condition(s) of the rule are met. The system according to embodiments of the invention additionally comprise a user interface by means of which a user can alter the rule ontology by specifying rules (particularly instantiating rules), whereby the first ontology is edited. Furthermore, a reasoner is provided, reasoners for processing ontologies being inherently known. The reasoner is applied to a second ontology. The second ontology may be identical to the first edited ontology or be derived from the first edited ontology by means of an ontology transformation means...",
+  "date_published": "20161013",
+  "title": "SYSTEM FOR THE COMPUTER-AIDED CREATION OF RULES FOR MONITORING AND/OR DIAGNOSING A TECHNICAL PLANT",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 64231,
+    "optimized_size": 3576,
+    "reduction_percent": 94.43
+  }
+}

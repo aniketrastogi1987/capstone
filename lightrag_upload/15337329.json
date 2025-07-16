@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15337329",
+  "date_published": "20170216",
+  "date_produced": "20170201",
+  "title": "Search Apparatus and Method",
+  "filing_date": "20161028",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gong",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Shuying",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Hu",
+      "inventor_name_first": "Jing",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of this application provide a search apparatus and method, which is helpful in improving flexibility of a search engine. According to a first aspect, a search apparatus is provided. The apparatus includes a global dispatcher, a global arbiter, and N search engines, where N is an integer greater than 1, the N search engines can access a first search table, each search engine can access only one subtable of the first search table, for any two subtables N 1 and N 2 of the first search table, any entry in the subtable N 1 is different from any entry in the subtable N 2 , and the first search table is corresponding to a first search algorithm. The apparatus also includes the global dispatcher is configured to: determine that a first search keyword is corresponding to the first search table, determine that the first search table is corresponding to the N search engines, and dispatch the first search keyword to the N search engines. The apparatus also includes each search engine in the N search engines is configured to: search, according to the first search algorithm, the one subtable that is of the first search table and can be accessed by each search engine in the N search engines, to determine whether an entry that matches the first search keyword dispatched by the global dispatcher exists; and output a search result to the global arbiter. The apparatus also includes the global arbiter is configured to arbitrate the search result output by each search engine, to obtain a search result corresponding to the first search table. In the foregoing technical solution, each search engine in N search engines can access one subtable of a first search table. Compared with the prior art in which one search engine is corresponding to one search table, by using the foregoing technical solution, flexibility of a search engine is improved. In a first possible implementation manner of the first aspect, the apparatus further includes a memory, where the mem...",
+  "patent_number": "None",
+  "abstract": "This application provides a search apparatus, including a global dispatcher, a global arbiter, and N search engines. The N search engines can access a first search table. The global dispatcher is configured to: determine that a first search keyword is corresponding to the first search table and dispatch the first search keyword to the N search engines. Each search engine is configured to: search, according to a first search algorithm, one subtable to determine whether an entry that matches the first search keyword exists; and output a search result to the global arbiter. The global arbiter is configured to arbitrate the search result output by each search engine, to obtain a search result corresponding to the first search table.",
+  "publication_number": "US20170046444A1-20170216",
+  "_processing_info": {
+    "original_size": 134063,
+    "optimized_size": 3525,
+    "reduction_percent": 97.37
+  }
+}

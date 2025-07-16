@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15191703",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "title": "MANAGING STORAGE SYSTEM METADATA DURING DATA MIGRATION",
+  "filing_date": "20160624",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Balasubramanian",
+      "inventor_name_first": "Shankar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Naik",
+      "inventor_name_first": "Manoj P.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Puvvada",
+      "inventor_name_first": "Venkateswara R.",
+      "inventor_city": "Inkollu",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the disclosure provide a method, system, and computer program product for managing the metadata of storage systems during data migration. Data may be migrated from a source storage device to a destination storage device using tape media. Both the source storage device and the destination storage device utilize disk drives to store data. A portion of data is detected migrating to the tape media. The portion of data may be migrating from the source storage device to the tape media. Metadata of the portion of data may be changed to identify the portion of data as residing on the tape media. A prefetch command for the portion of data may be detected. It may be determined that the portion of data is stored on the tape media. The storage location of the portion of data may be determined using the metadata. In response to determining that the portion of data is stored on the tape media, the prefetch command is executing without recalling the portion of data to the disk drives. Instead, the portion of data may be read directly from the tape media. The above summary is not intended to describe each illustrated embodiment or every implementation of the present disclosure.",
+  "patent_number": "None",
+  "abstract": "Data is migrated from a source storage device to a destination storage device using tape media. Both the source storage device and the destination storage device utilize disk drives to store data. A portion of data is detected migrating to the tape media. Metadata of the portion of data is changed to identify the portion of data as residing on the tape media. A prefetch command for the portion of data is detected. It is determined that the portion of data is stored on the tape media. In response to determining that the portion of data is stored on the tape media, the prefetch command is executing without recalling the portion of data to the disk drives. Instead, the portion of data is read directly from the tape media.",
+  "publication_number": "US20170371887A1-20171228",
+  "_processing_info": {
+    "original_size": 65020,
+    "optimized_size": 2791,
+    "reduction_percent": 95.71
+  }
+}

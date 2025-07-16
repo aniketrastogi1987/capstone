@@ -1,0 +1,37 @@
+{
+  "date_produced": "20170309",
+  "publication_number": "US20170083829A1-20170323",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15161906",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KANG",
+      "inventor_name_first": "Hyoa",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Hayoung",
+      "inventor_city": "Yongin-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "Disclosed herein are a model training method, a data recognizing method, and a model training apparatus. A model training method includes selecting a teacher model from a plurality of teacher models; receiving, at a student model, input data; and training the student model based on output data of the selected teacher model, the output data corresponding to the input data.",
+  "filing_date": "20160523",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Exemplary embodiments may address at least the above mentioned problems and/or disadvantages and other disadvantages not described above. Also, the exemplary embodiments are not required to overcome the disadvantages described above, and an exemplary embodiment may not overcome any of the problems described above. According to an aspect of an exemplary embodiment, there is provided A model training method comprising: selecting a teacher model from a plurality of teacher models; receiving, at a student model, input data; and training the student model based on output data of the selected teacher model, the output data corresponding to the input data. The selecting may include selecting the teacher model from the plurality of teacher models based on accuracies of the plurality of teacher models. The model training method may further include outputting data from the plurality of teacher models, and the selecting may include selecting the teacher model from the plurality of teacher models based on a correlation between the output data of the plurality of teacher models, the output data corresponding to the input data. The selecting may include selecting another teacher model from the plurality of teacher models in response to determining that a correlation between the output data of the selected teacher model and the output data of the other selected teacher model is less than a threshold. The training may further include training the student model based on output data of the student model. The selecting and the training may be performed iteratively until the student model satisfies a predetermined condition. The training may include training the student model based on a first loss between output data of the student model and first output data of the selected teacher model, the first output data corresponding to the input data, and a second loss between output data of a classifier layer derived from a hidden layer of the student model and second outpu...",
+  "date_published": "20170323",
+  "title": "MODEL TRAINING METHOD AND APPARATUS, AND DATA RECOGNIZING METHOD",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 72409,
+    "optimized_size": 3062,
+    "reduction_percent": 95.77
+  }
+}

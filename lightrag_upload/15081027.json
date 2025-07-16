@@ -1,0 +1,41 @@
+{
+  "date_produced": "20160628",
+  "publication_number": "US20160203419A1-20160714",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15081027",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chiang",
+      "inventor_name_first": "Hsiao-Dong",
+      "inventor_city": "Ithaca",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Yong-Fong",
+      "inventor_city": "Jinan",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "A method determines a global optimal solution of a system defined by a plurality of nonlinear equations by applying a metaheuristic method to cluster a plurality of search instances into at least one group, selecting a center point and a plurality of top points from the search instances in each group and applying a local method, starting from the center point and top points for each group, to find a local optimal solution for each group in a tier-by-tier manner. Then a TRUST-TECH methodology is applied to each local optimal solution to find a set of tier-1 local optimal solutions, and the TRUST-TECH methodology is applied to each tier-1 local optimal solution to find a set of tier-2 local optimal solutions. A best solution is identified among all the local optimal solutions as the global optimal solution. The heuristic method can be a particle swarm optimization method or a genetic algorithm method.",
+  "filing_date": "20160325",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A method determines a global optimal solution of a system defined by a plurality of nonlinear equations. The method includes the first stage of applying a metaheuristic method to cluster a plurality of search instances into at least one group or “promising region” for the plurality of nonlinear equations. The method also includes the second stage of selecting a center point and a plurality of top points from the search instances in each promising region and applying a local method, starting from the center point and top points for each group, to find a local optimal solution for each group in a tier-by-tier manner. The method further includes the third stage of applying a TRUST-TECH methodology to each local optimal solution to find a set of tier-1 optimal solutions and identifying a best solution among the local optimal solutions and the tier-1 optimal solutions as the global optimal solution. The method further includes applying a TRUST-TECH methodology to each tier-1 optimal solution to find a set of tier-2 optimal solutions and identifying a best solution among the local optimal solutions and the tier-1 and tier-2 optimal solutions as the global optimal solution. In some embodiments, the metaheuristic method is a particle swarm optimization methodology. In other embodiments, the metaheuristic method is a genetic algorithm methodology.",
+  "date_published": "20160714",
+  "title": "METAHEURISTIC-GUIDED TRUST-TECH METHODS FOR GLOBAL UNCONSTRAINED OPTIMIZATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N308",
+    "G06N700",
+    "G06F1730",
+    "G06N312"
+  ],
+  "_processing_info": {
+    "original_size": 100047,
+    "optimized_size": 3072,
+    "reduction_percent": 96.93
+  }
+}

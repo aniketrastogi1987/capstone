@@ -1,0 +1,72 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15051684",
+  "date_published": "20160616",
+  "date_produced": "20160601",
+  "title": "GESTURE INFERRED VOCABULARY BINDINGS",
+  "filing_date": "20160224",
+  "inventor_list": [
+    {
+      "inventor_name_last": "James",
+      "inventor_name_first": "Alex",
+      "inventor_city": "Sammamish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pizzo",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Castro",
+      "inventor_name_first": "Pablo",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Flasko",
+      "inventor_name_first": "Michael Justin",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Olson",
+      "inventor_name_first": "Lance",
+      "inventor_city": "Sammamish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jayadevan",
+      "inventor_name_first": "Siddharth",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Clark",
+      "inventor_name_first": "Jason",
+      "inventor_city": "Woodinville",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F301"
+  ],
+  "main_ipcr_label": "G06F301",
+  "summary": "<SOH> SUMMARY <EOH>A simplified summary is provided herein to help enable a basic or general understanding of various aspects of exemplary, non-limiting embodiments that follow in the more detailed description and the accompanying drawings. This summary is not intended, however, as an extensive or exhaustive overview. Instead, the sole purpose of this summary is to present some concepts related to some exemplary non-limiting embodiments in a simplified form as a prelude to the more detailed description of the various embodiments that follow. In one or more embodiment, the disclosed subject matter can relate to an architecture that can facilitate annotating data based on gestures. In accordance therewith, the architecture can include a tracking component configured to track a gesture and associate the gesture with data, wherein the gesture includes user interaction with a client, and an analysis component configured to determine a global term to assign to the data based on the gesture. In an aspect, the architecture can further comprise a data store configured to store a look-up table that associates gestures with global terms, wherein the analysis component is configured to employ the look-up table to determine the global term to assign to the data. In another embodiment, provided is a method, comprising tracking a gesture, wherein the gesture includes user interaction with a client, associating the gesture with data, and determining a global term to assign to the data based on the gesture. In an aspect, the method can further comprise tracking context information associated with the gesture, wherein the determining the global term to assign to the data based on the gesture further comprises determining the global term to assign to the data based on the context information. In addition, the method can further comprise, generating an annotation file comprising an assignment of the global term to the data. Further, provided is a computer readable storage medium compri...",
+  "patent_number": "9746932",
+  "abstract": "The subject disclosure relates to annotating data based on gestures. Gestures include user interaction with a client device or client software. Gestures are tracked and associated with data. In an aspect, client context associated with a gesture is also tracked. The gestures are then employed to determine a global term to associate with the data. In an aspect, a look-up table comprising a pre-defined relationship between gestures and a global term can be employed. In another aspect, an inference component employ context information in conjunction with the tracked gestures to determine a global term to assign to data. After a global term is determined for data based on a gesture, an annotation file for the data can be created associating the data with the global term.",
+  "publication_number": "US20160170496A1-20160616",
+  "_processing_info": {
+    "original_size": 131656,
+    "optimized_size": 4190,
+    "reduction_percent": 96.82
+  }
+}

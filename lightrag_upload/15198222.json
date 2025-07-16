@@ -1,0 +1,38 @@
+{
+  "date_produced": "20171219",
+  "publication_number": "US20180005111A1-20180104",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15198222",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chaudhari",
+      "inventor_name_first": "Upendra V.",
+      "inventor_city": "Briarcliff Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Picheny",
+      "inventor_name_first": "Michael A.",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Disclosed herein are systems, methods, and computer-readable media for classifying a set of inputs via a supervised classifier model that utilizes a novel activation function that provides the capability to learn a scale parameter in addition to a bias parameter and other weight parameters.",
+  "filing_date": "20160630",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one or more example embodiments of the disclosure, a method for training a classifier using a neural network is disclosed. The method includes determining, for a current iteration of the training, a set of inputs, a set of weight parameters corresponding to the set of inputs, bias parameters, and scale parameters. The method further includes determining, for the current iteration of the training, a set of combined inputs based at least in part on the set of inputs, the set of weight parameters, and the bias parameters. An activation function is then executed for the current iteration of the training with respect to each combined input in the set of combined inputs. Executing each activation function for the current iteration of the training includes applying the activation function to a particular combined input and a current scale parameter to generate an activation result. The method additionally includes determining whether the current iteration of the training is a final iteration of the training, and outputting, based at least in part on determining whether the current iteration of the training is a final iteration of the training, a set of activation results associated with the final iteration of the training as classifier outputs of the classifier or providing the activation results as input to a next iteration of the training. In one or more other example embodiments of the disclosure, a system for training a classifier is disclosed. The system includes at least one memory storing computer-executable instructions and at least one processor configured to access the at least one memory and execute the computer-executable instructions to perform a set of operations. The operations include determining, for a current iteration of the training, a set of inputs, a set of weight parameters corresponding to the set of inputs, bias parameters, and scale parameters. The operations further include determining, for the current iteration of the train...",
+  "date_published": "20180104",
+  "title": "Generalized Sigmoids and Activation Function Learning",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 77654,
+    "optimized_size": 3013,
+    "reduction_percent": 96.12
+  }
+}

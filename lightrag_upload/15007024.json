@@ -1,0 +1,57 @@
+{
+  "date_produced": "20170713",
+  "publication_number": "US20170213149A1-20170727",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15007024",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MICKS",
+      "inventor_name_first": "ASHLEY ELIZABETH",
+      "inventor_city": "MOUNTAIN VIEW",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "JAIN",
+      "inventor_name_first": "JINESH J.",
+      "inventor_city": "SAN MATEO",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BANVAIT",
+      "inventor_name_first": "HARPREETSINGH",
+      "inventor_city": "SUNNYVALE",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "KYU JEONG",
+      "inventor_city": "PALO ALTO",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A machine learning model is trained by defining a scenario including models of vehicles and a typical driving environment. A model of a subject vehicle is added to the scenario and sensor locations are defined on the subject vehicle. A perception of the scenario by sensors at the sensor locations is simulated. The scenario further includes a model of a lane-splitting vehicle. The location of the lane-splitting vehicle and the simulated outputs of the sensors perceiving the scenario are input to a machine learning algorithm that trains a model to detect the location of a lane-splitting vehicle based on the sensor outputs. A vehicle controller then incorporates the machine learning model and estimates the presence and/or location of a lane-splitting vehicle based on actual sensor outputs input to the machine learning model.",
+  "filing_date": "20160126",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In order that the advantages of the invention will be readily understood, a more particular description of the invention briefly described above will be rendered by reference to specific embodiments illustrated in the appended drawings. Understanding that these drawings depict only typical embodiments of the invention and are not therefore to be considered limiting of its scope, the invention will be described and explained with additional specificity and detail through use of the accompanying drawings, in which: FIGS. 1A and 1B are schematic block diagrams of a system for implementing embodiments of the invention; FIG. 2 is a schematic block diagram of an example computing device suitable for implementing methods in accordance with embodiments of the invention; FIG. 3 is a process flow diagram of a method for training a model to detect a lane-splitting vehicle in accordance with an embodiment of the present invention; FIGS. 4A and 4B are schematic block diagrams of a scenario for training the model in accordance with an embodiment of the present invention; and FIG. 5 is a process flow diagram of a method for detecting lane-splitting vehicles in accordance with an embodiment of the present invention. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170727",
+  "title": "Training Algorithm for Collision Avoidance",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N308",
+    "B60W3009",
+    "G06K966",
+    "H04R2900",
+    "G06F1750",
+    "G06K900"
+  ],
+  "_processing_info": {
+    "original_size": 41468,
+    "optimized_size": 3231,
+    "reduction_percent": 92.21
+  }
+}

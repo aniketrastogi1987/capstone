@@ -1,0 +1,69 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15043656",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "title": "OPERATION OF A MULTI-SLICE PROCESSOR WITH HISTORY BUFFERS STORING TRANSACTION MEMORY STATE INFORMATION",
+  "filing_date": "20160215",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BARRICK",
+      "inventor_name_first": "BRIAN D.",
+      "inventor_city": "PFLUGERVILLE",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "EISEN",
+      "inventor_name_first": "SUSAN E.",
+      "inventor_city": "ROUND ROCK",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FEISTE",
+      "inventor_name_first": "KURT A.",
+      "inventor_city": "AUSTIN",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "NGUYEN",
+      "inventor_name_first": "DUNG Q.",
+      "inventor_city": "AUSTIN",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WARD",
+      "inventor_name_first": "KENNETH L.",
+      "inventor_city": "AUSTIN",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "JING",
+      "inventor_city": "AUSTIN",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1208",
+    "G06F1338",
+    "G06F1342",
+    "G06F946",
+    "G06F1212"
+  ],
+  "main_ipcr_label": "G06F1208",
+  "summary": "<SOH> SUMMARY <EOH>Methods and apparatus for operation of a multi-slice processor are disclosed in this specification. Such a multi-slice processor includes a plurality of execution slices and a plurality of load/store slices, where the load/store slices are coupled to the execution slices via a results bus. Such a multi-slice processor may further include a history buffer, where the history buffer includes a plurality of entries, where at least one of the entries may include transaction memory state data that corresponds to a transactional memory instruction updating a transaction memory state. Operation of such a multi-slice processor includes: propagating a flush signal to the plurality of entries of the history buffer; responsive to the flush signal, generating, from an entry of the history buffer, the transactional memory state data; and restoring to a transactional memory state in dependence upon the transactional memory state data. The foregoing and other objects, features and advantages of the invention will be apparent from the following more particular descriptions of exemplary embodiments of the invention as illustrated in the accompanying drawings wherein like reference numbers generally represent like parts of exemplary embodiments of the invention.",
+  "patent_number": "9971687",
+  "abstract": "A multi-slice processor that includes execution slices, and a history buffer, where the history buffer includes a plurality of entries, where at least one of the entries includes transactional memory state data that corresponds to a transactional memory instruction updating a transaction memory state, and where operation of such a multi-slice processor includes: propagating a flush signal to the plurality of entries of the history buffer; responsive to the flush signal, generating, from an entry of the history buffer, the transactional memory state data; and restoring to a transactional memory state in dependence upon the transactional memory state data.",
+  "publication_number": "US20170235674A1-20170817",
+  "_processing_info": {
+    "original_size": 52465,
+    "optimized_size": 3317,
+    "reduction_percent": 93.68
+  }
+}

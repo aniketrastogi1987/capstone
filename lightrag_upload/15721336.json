@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15721336",
+  "date_published": "20180405",
+  "date_produced": "20180322",
+  "filing_date": "20170929",
+  "main_ipcr_label": "G06N502",
+  "abstract": "An online system stores objects representing potential transactions of an enterprise. The online system uses predictor models to determine an aggregate score based on values of the objects associated with a time interval, for example, a month. Each object is configured to take one of a plurality of states. The online system stores historical data describing activities associated with potential transaction objects and uses the stored data for generating the predictor models. The online system categorizes the objects into bins based on states of the objects. The online system may generate different predictions for each category. The online system may use machine learning based models as predictor models. The online system extracts features describing potential transaction objects and provides these as input to the predictor model.",
+  "publication_number": "US20180096250A1-20180405",
+  "summary": "<SOH> BRIEF DESCRIPTION OF DRAWINGS <EOH>The disclosed embodiments have advantages and features which will be apparent from the detailed description, the appended claims, and the accompanying figures (or drawings). A brief introduction of the figures is below. FIG. 1 shows an overall system environment illustrating an online system for storing and analyzing objects associated with potential transactions, in accordance with an embodiment. FIG. 2 shows the system architecture of an object analyzer for analyzing potential transaction objects, in accordance with an embodiment. FIG. 3 illustrates a process for generating models for determining an aggregate score value for the end of time-interval, according to an embodiment. FIG. 4 shows an example of historical data associated with a potential transaction object stored in the online system, in accordance with an embodiment. FIG. 5 shows the process of modifying the state of a potential transaction object, in accordance with an embodiment. FIG. 6 shows the process of generating predictor models for determining an aggregate value associated with a set of objects, in accordance with an embodiment. FIG. 7 illustrates the preparation of the historical data for generating models, according to an embodiment. FIG. 8 shows the process of determining an aggregate value associated with a set of objects using predictor models illustrated in FIG. 6 , in accordance with an embodiment. FIG. 9 illustrates object data showing two supplementary columns added based on PCA, according to an embodiment of the invention. FIG. 10 shows the process of training a machine learning based predictor model for predicting a value associated with objects representing potential transactions that are not yet in pipeline, in accordance with an embodiment. FIG. 11 shows the process of determining an aggregate value associated with the end of time-interval based on potential transactions not yet created, according to an embodiment of the invention. FIG. 12 ...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rickard, JR.",
+      "inventor_name_first": "Scott Thurston",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Balsam",
+      "inventor_name_first": "Elizabeth Rachel",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Backes",
+      "inventor_name_first": "Tracy Morgan",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Alexander",
+      "inventor_name_first": "Zachary",
+      "inventor_city": "Snoqualmie",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "PREDICTING AGGREGATE VALUE OF OBJECTS REPRESENTING POTENTIAL TRANSACTIONS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 81680,
+    "optimized_size": 3891,
+    "reduction_percent": 95.24
+  }
+}

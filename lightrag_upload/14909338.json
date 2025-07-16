@@ -1,0 +1,31 @@
+{
+  "date_produced": "20160622",
+  "publication_number": "US20160196488A1-20160707",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "14909338",
+  "inventor_list": [
+    {
+      "inventor_name_last": "AHN",
+      "inventor_name_first": "Byungik",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A neural network computing device, system and method that operate with a synchronization circuit in which all components are synchronized with a system clock and include a distributed memory structure for storing artificial neural network data and a calculation structure for time-division processing of all neurons on a pipeline circuit. The neural network computing device may include: a control unit for controlling the neural network computing device; a plurality of memory units for outputting an output value of a front-end neuron of a connection line by using a dual port memory; and a calculation sub-system for calculating an output value of a rear-end neuron of a new connection line by using the output value of the front-end neuron of the connection line input from each of the plurality of memory units and for feeding the output value back to each of the plurality of memory units.",
+  "filing_date": "20160201",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>As described above, the conventional direct implementation method may have fast processing speed, but is problematic in that a neural network model cannot be applied to the direct implementation method in various ways and the direct implementation method cannot be applied to a large-scale neural network. The conventional virtual implementation method may execute various neural network models and large-scale neural networks, but is problematic in that it is difficult to obtain high speed. One of the objects of the present invention is to solve such problems. Embodiments of the present invention provide a neural network computing device and system, wherein all elements operate as a synchronized circuit synchronized with a single system clock and a distributed memory structure for storing artificial neural network data and a calculation structure for processing all neurons in a time-division way in a pipeline circuit are included, and a method therefor. A neural network computing device in accordance with an embodiment of the present invention may include a control unit for controlling the neural network computing device; a plurality of memory units each for outputting an output value of a pre-synaptic neuron using dual port memory; and a single calculation sub-system for calculating an output value of a new post-synaptic neuron using the output values of the pre-synaptic neurons received from the plurality of memory units and feeding the new output value back to each of the plurality of memory units. A neural network computing system in accordance with an embodiment of the present invention may include a control unit for controlling the neural network computing system; a plurality of network sub-systems each including a plurality of memory units each for outputting an output value of a pre-synaptic neuron using dual port memory; and a plurality of calculation sub-systems each for calculating an output value of a new post-synaptic ne...",
+  "date_published": "20160707",
+  "title": "NEURAL NETWORK COMPUTING DEVICE, SYSTEM AND METHOD",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06F306"
+  ],
+  "_processing_info": {
+    "original_size": 133733,
+    "optimized_size": 3439,
+    "reduction_percent": 97.43
+  }
+}

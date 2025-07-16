@@ -1,0 +1,52 @@
+{
+  "date_produced": "20161109",
+  "publication_number": "US20160342888A1-20161124",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15161080",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YANG",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Plainsboro",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LI",
+      "inventor_name_first": "Chao",
+      "inventor_city": "Raleigh",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FENG",
+      "inventor_name_first": "Min",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHAKRADHAR",
+      "inventor_name_first": "Srimat",
+      "inventor_city": "Manalapan",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Aspects of the present disclosure are directed to techniques that improve performance of CNN systems through the effect of improved memory efficiencies for CNNs operating on GPUs. Aspects of the disclosure demonstrate that off-chip memory in such CNN systems is underutilized due to at least three characteristics namely, data layout, data locality and inter-kernel redundancy. Aspects of the disclosure examine the performance impact of different data layouts and then describe a method to produce data layout selection for various layers of the CNN including a fast transformation implementation. Disclosed are improvements to data locality from working set expansion, elimination of inter-kernel redundancy and increase of TLP using kernel reconstruction techniques including kernel fusion and thread injection. Disclosed experimental results show that our optimizations are very effective to boost the performance of CNNs by amounts up to 9.76 times for a single kernel and 2.05 times for a netwo...",
+  "filing_date": "20160520",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An advance in the art is made according to the present disclosure which describes techniques for improving the performance of CNNs operating on GPUs wherein the techniques improve memory usage such that significant performance improvements result. According to aspects of the present disclosure, significant performance enhancements of CNNs operating on a GPU are realized by generating layout transformation for data operated on by the CNN; enabling efficient utilization of on-chip memory resource(s) in the GPU such that data locality in a pooling layer of the CNN is exploited; and reducing any inter-kernel redundancy while increasing a number of threads employed through the effect of kernel fusion and thread injection. Advantageously, and as will be shown and quantified, method(s) according to the present disclosure produce significant performance improvements in CNN operation on GPUs heretofore unknown in the art.",
+  "date_published": "20161124",
+  "title": "MEMORY EFFICIENCY FOR CONVOLUTIONAL NEURAL NETWORKS OPERATING ON GRAPHICS PROCESSING UNITS",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 71099,
+    "optimized_size": 2962,
+    "reduction_percent": 95.83
+  }
+}

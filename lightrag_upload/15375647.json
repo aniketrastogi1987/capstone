@@ -1,0 +1,51 @@
+{
+  "date_produced": "20170316",
+  "publication_number": "US20170091643A1-20170330",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15375647",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Agrawal",
+      "inventor_name_first": "Dakshi",
+      "inventor_city": "Monsey",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ganti",
+      "inventor_name_first": "Raghu K.",
+      "inventor_city": "Elmsford",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Srivatsa",
+      "inventor_name_first": "Mudhakar",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Jingjing",
+      "inventor_city": "Urbana",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The present disclosure relates generally to mechanisms for the estimation of location privacy risk, comprising: building one or more trajectory models from auxiliary information (e.g., one or more maps, one or more routes); capturing common behavioral patterns (e.g., shortest route(s),/fastest route(s)); identifying, given unlinked trajectories for a plurality of users, most likely linkages using the trajectory model(s); eliminating one or more unlikely linkages based on deviation from the shortest route(s) and/or the fastest route(s); measuring privacy as the percentage of linkages correctly identified; and outputting the measured privacy.",
+  "filing_date": "20161212",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure relates generally to the field of privacy risk metrics (e.g., loss of privacy metrics) in location based services. In various embodiments, methodologies may be provided that automatically determine privacy risk metrics in location based services. In one embodiment, a method implemented in a computer system for estimating location privacy risk to a plurality people is provided, the method comprising: building, with the computer, at least one trajectory model; obtaining, with the computer, at least one behavioral pattern associated with the plurality of people; obtaining, with the computer, a plurality of unlinked trajectories associated with the plurality of people, wherein the plurality of unlinked trajectories span across a plurality of mix-zones; identifying with the computer, based upon the plurality of unlinked trajectories, a plurality of linkages by using the trajectory model; indicating, with the computer, as unlikely at least one of the linkages based upon deviation from the behavior pattern; measuring, with the computer, privacy as a percentage of the number of the linkages indicated as unlikely relative to the number of identified linkages; and outputting, with the computer, the measured privacy. In another embodiment, a computer readable storage medium, tangibly embodying a program of instructions executable by the computer for estimating location privacy risk to a plurality people is provided, the program of instructions, when executing, performing the following steps: building at least one trajectory model; obtaining at least one behavioral pattern associated with the plurality of people; obtaining a plurality of unlinked trajectories associated with the plurality of people, wherein the plurality of unlinked trajectories span across a plurality of mix-zones; identifying, based upon the plurality of unlinked trajectories, a plurality of linkages by using the trajectory model; indicating as unlikely at least one o...",
+  "date_published": "20170330",
+  "title": "PRIVACY RISK METRICS IN LOCATION BASED SERVICES",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 51311,
+    "optimized_size": 3627,
+    "reduction_percent": 92.93
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15462784",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "filing_date": "20170317",
+  "main_ipcr_label": "G06N700",
+  "abstract": "A characteristic value estimation device has a sensor data input unit to input sensor data detected by one or more sensors, a model input unit to input a first calculation model, a model learning unit to perform learning on a second calculation model, a model switch to select any one of the first calculation model and the second calculation model, a predictive value calculation unit to calculate an error of the calculation model, a probability distribution correction unit to correct the probability distribution of the uncertain parameter, a virtual sensor value estimation unit to estimate sensor data of a virtual sensor arranged virtually, a characteristic value distribution estimation unit to estimate a detailed distribution of the characteristic value, the sensor data of the virtual sensor, and the sensor data of the sensor, and a reliability calculation unit to calculate a reliability of the precise characteristic value distribution.",
+  "publication_number": "US20180082204A1-20180322",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram showing a schematic structure of a characteristic value estimation device according to a first embodiment. FIG. 2 is a diagram explaining an example of a calculation model used by the characteristic value estimation device of FIG. 1 . FIG. 3 is a flow chart showing an overall processing operation performed by the characteristic value estimation device of FIG. 1 . FIG. 4 is a flow chart showing the processing operation of a predictive value calculation unit of FIG. 1 . FIG. 5 is a graph showing a simulation result about changes in room temperature per day. FIG. 6 is a diagram showing an example of a result obtained by performing MCMC. FIG. 7 is a diagram showing observational data and a simulation result of a calculation model when using the average value of posterior distribution. FIG. 8 is a diagram showing posterior distribution obtained by a Gaussian process in a correlation plot format. FIG. 9 is diagram plotting a model n(x, θ) together with a sampling result of a function based on obtained Gaussian process δ. FIG. 10 is a diagram showing the positions of temperature sensors installed in a room two-dimensionally projected on a map. FIG. 11 is a graph plotting temperature changes in a certain day obtained by 14 installed temperature sensors. FIG. 12 is a diagram showing an example of Gaussian process regression. FIG. 13 is a graph plotting temporal transition of temperature estimated for each room. FIG. 14 is a diagram plotting a calculated sensor value of a virtual sensor arranged on a three-dimensional grid in the room. FIG. 15 is a block diagram showing a schematic structure of a characteristic value estimation device 1 according to a second embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "IWAMASA",
+      "inventor_name_first": "Mikito",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MORIYAMA",
+      "inventor_name_first": "Takuro",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "OTSUKI",
+      "inventor_name_first": "Tomoshi",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "CHARACTERISTIC VALUE ESTIMATION DEVICE AND CHARACTERISTIC VALUE ESTIMATION METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 57977,
+    "optimized_size": 3656,
+    "reduction_percent": 93.69
+  }
+}

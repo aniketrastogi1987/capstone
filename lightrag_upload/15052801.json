@@ -1,0 +1,31 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15052801",
+  "date_published": "20170824",
+  "date_produced": "20170809",
+  "title": "System and Method for Executing an Instruction to Permute a Mask",
+  "filing_date": "20160224",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Baghsorkhi",
+      "inventor_name_first": "Sara",
+      "inventor_city": "Elmira",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F930",
+    "G06F938"
+  ],
+  "main_ipcr_label": "G06F930",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram 300 illustrating processing components for executing an instruction to permute a mask according to one embodiment. FIG. 2 illustrates fields included in an instruction to permute a mask according to one embodiment. FIG. 3 is a block flow diagram illustrating execution of an instruction to permute a mask according to one embodiment. FIG. 4 illustrates a logic circuit used to set one element of a destination operand using a first source operand and a second source operand according to one embodiment. FIG. 5 illustrates a logic circuit used to set one element of a destination operand using a first source operand and a second source operand according to one embodiment. FIG. 6 is pseudocode to illustrate operation of an execution circuit 106 ( FIG. 1 ) according to one embodiment. FIG. 7 is a block flow diagram illustrating operation of an execution circuit 106 ( FIG. 1 ) according to one embodiment. FIG. 8 is a block flow diagram illustrating operation of execution circuit 106 ( FIG. 1 ) according to an alternate embodiment. FIG. 9 is a block flow diagram illustrating operation of execution circuit 106 ( FIG. 1 ) according to an alternate embodiment. FIG. 10 is a block flow diagram illustrating operation of execution circuit 106 ( FIG. 1 ) according to an alternate embodiment. FIG. 11 is a block diagram illustrating a generic vector friendly instruction format and class A instruction templates thereof according to embodiments. FIG. 12 is a block diagram illustrating the generic vector friendly instruction format and class B instruction templates thereof according to embodiments. FIG. 13 illustrates fields included in generic vector friendly instruction format 1100 . FIG. 14 is a block diagram illustrating the fields of the specific vector friendly instruction format 1300 that make up the full opcode field 1174 according to one embodiment. FIG. 15 is a block diagram illustrating the fields of the spec...",
+  "patent_number": "9921841",
+  "abstract": "A processor is described, including a fetch circuit to fetch an instruction, including a first source operand identifier, a second source operand identifier, and a destination operand identifier, a decode circuit to decode the instruction, a data retrieval circuit to retrieve data associated with the first source operand identifier and the second source operand identifier, and an execution circuit. In some embodiments, the execution circuit is configured to determine whether a first element of the data associated with the first source operand identifier is set, if the first element is set, to retrieve a destination index from a corresponding second element of the data associated with the second source operand identifier, and to use the destination index to select and set a destination element of data associated with the destination operand identifier.",
+  "publication_number": "US20170242697A1-20170824",
+  "_processing_info": {
+    "original_size": 109435,
+    "optimized_size": 3430,
+    "reduction_percent": 96.87
+  }
+}

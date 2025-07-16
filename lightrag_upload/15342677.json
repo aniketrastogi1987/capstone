@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170705",
+  "publication_number": "US20170206468A1-20170720",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15342677",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ghosh",
+      "inventor_name_first": "Rumi",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hong",
+      "inventor_name_first": "Charmgil",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Srinivasan",
+      "inventor_name_first": "Soundararajan",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatuses for performing target parameter analysis for an assembly line including a plurality of stations. One method includes receiving, with an electronic processor, training data associated with the assembly line. The training data including a plurality of attributes. The method also includes receiving, with the electronic processor, value addition data for each of the plurality of stations. The value addition data for each of the plurality of stations specifying a non-negative value added by each of the plurality of stations. The method also includes learning, with the electronic processor, a decision tree based on the training data and the value addition data. The method also includes performing the target parameter analysis based on the decision tree.",
+  "filing_date": "20161103",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Data mining techniques, such as decision trees, neural networks, support vector machines, regression, and the like, may be used to evaluate an assembly line, such as by optimizing production in the assembly line or performing root cause analysis. Identifying the non-negative value added by each station of an assembly may improve such evaluations. For example, maintenance and tuning may be focused on those stations providing increased value to the assembly line to provide more cost-effective optimization and analysis. Accordingly, embodiments described herein provide methods, systems, and apparatuses for performing value addition dependent data mining for an assembly line where value is incrementally added by each station of the assembly line. Some embodiments also provide methods, systems, and apparatuses for performing value addition dependent data mining for an assembly line using decision trees. Some embodiments provide methods, systems, and apparatuses for performing target parameter analysis using value addition dependent data mining. An example of a target parameter under consideration may be the test measurement labeling a product produced by the assembly line as “scrap” or a “good” or “passing” product. The importance of a station may be based on the combination of the station's effect on the target parameter and the value associated with the station. In some embodiments, the target parameter analysis may be performed using decision trees. Other embodiments provide methods, systems, and apparatuses for measuring the importance of a station of an assembly line based on a combination of decision theoretic measures and value addition dependent measures. Examples of decision theoretic measures include information gain, Shannon entropy, Renyi entropy, accuracy, and the like. The combined effect of these two measures may be used to determine the decision associated with each node of a decision tree. Additional embodiments provide methods, system...",
+  "date_published": "20170720",
+  "title": "VALUE ADDITION DEPENDENT DATA MINING TECHNIQUES FOR ASSEMBLY LINES",
+  "ipcr_labels": [
+    "G06N9900",
+    "G05B19042",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 65895,
+    "optimized_size": 3710,
+    "reduction_percent": 94.37
+  }
+}

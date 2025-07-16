@@ -1,0 +1,60 @@
+{
+  "decision": "PENDING",
+  "application_number": "15349609",
+  "date_published": "20170608",
+  "date_produced": "20170524",
+  "title": "UNIVERSAL AND ADAPTIVE DE-MOSAICING (CFA) SYSTEM",
+  "filing_date": "20161111",
+  "inventor_list": [
+    {
+      "inventor_name_last": "DABRAL",
+      "inventor_name_first": "Shashank",
+      "inventor_city": "Allen",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MODY",
+      "inventor_name_first": "Mihir Narendra",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "BEAUDOIN",
+      "inventor_name_first": "Denis",
+      "inventor_city": "Rowlett",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "NANDAN",
+      "inventor_name_first": "Niraj",
+      "inventor_city": "Plano",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HUA",
+      "inventor_name_first": "Gang",
+      "inventor_city": "Katy",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T340",
+    "H04N964",
+    "H04N904"
+  ],
+  "main_ipcr_label": "G06T340",
+  "summary": "<SOH> SUMMARY <EOH>The problems noted above are solved in large part by systems and methods of de-mosaicing pixel data from an image sensor. In some embodiments, an image signal processor includes a plurality of finite impulse response (FIR) filters, a first programmable gradient calculation circuit, a first threshold calculation circuit, and a filter determination circuit. The FIR filters are configured to receive a pixel block that includes a plurality of raw input image pixels from an image sensor. The FIR filters are also configured to filter the pixel block to generate a plurality of component images. The first programmable gradient calculation circuit is configured to determine a first image gradient between a first set of pixels of the pixel block and a second image gradient between a second set of pixels of the pixel block. The pixels of the first set of pixels are adjacent to one another. The pixels of the second set of pixels are adjacent to one another. The first threshold calculation circuit is configured to determine a first adaptive threshold value based on intensity of a third set of pixels of the pixel block. The pixels of the third set of pixels are adjacent to one another. The filter determination circuit is configured to determine a type of each of the plurality of FIR filters based on the first and second image gradients and the first adaptive threshold value. Another illustrative embodiment is an image processing system that includes a filter array, an image sensor coupled to the filter array, and an image sub-system. The filter array is configured to filter electromagnetic waves. The image sensor includes a plurality of pixel sensors. Each of the pixel sensors is configured to receive the electromagnetic waves after being filtered by the filter array and convert the received electromagnetic waves into electrical signals based on the intensity of the electromagnetic waves at each pixel sensor to generate a plurality of image pixels. The image su...",
+  "patent_number": "None",
+  "abstract": "A method of de-mosaicing pixel data from an image processor includes generating a pixel block that includes a plurality of image pixels. The method also includes determining a first image gradient between a first set of pixels of the pixel block and a second image gradient between a second set of pixels of the pixel block. The method also includes determining a first adaptive threshold value based on intensity of a third set of pixels of the pixel block. The pixels of the third set of pixels are adjacent to one another. The method also includes filtering the pixel block in a vertical, horizontal, or neutral direction based on the first and second image gradients and the first adaptive threshold value utilizing a plurality of FIR filters to generate a plurality of component images.",
+  "publication_number": "US20170161873A1-20170608",
+  "_processing_info": {
+    "original_size": 53489,
+    "optimized_size": 3924,
+    "reduction_percent": 92.66
+  }
+}

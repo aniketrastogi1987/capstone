@@ -1,0 +1,61 @@
+{
+  "patent_number": "nan",
+  "application_number": "15796881",
+  "date_published": "20180208",
+  "date_produced": "20180124",
+  "filing_date": "20171030",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Aspects relate to a computer implemented method for resolving abnormal contention on a computer system. The method includes detecting, using a processor, abnormal contention of a serially reusable resource caused by a first process, wherein the abnormal contention includes the first process blocking the serially reusable resource from a second process that is waiting to use the serially reusable resource. The method includes collecting, in a computer storage medium, resource data in a serialized resource history database and analyzing the resource data associated with the serially reusable resource and adjusting, using the processor, resource allocation for the first process of the serially reusable resource based on the resource data. The method also includes processing, using the processor and the serially reusable resource, the first process based on the resource allocation and releasing, using the processor, the serially reusable resource by the first process in response to the fir...",
+  "publication_number": "US20180039915A1-20180208",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with an embodiment, a method for resolving abnormal contention is provided. The method includes detecting, using a processor, abnormal contention of a serially reusable resource caused by a first process, wherein the abnormal contention includes the first process blocking the serially reusable resource from a second process that is waiting to use the serially reusable resource and collecting, in a computer storage medium, resource data in a serialized resource history database and analyzing the resource data associated with the serially reusable resource. The method also includes adjusting, using the processor, resource allocation for the first process of the serially reusable resource based on the resource data and processing, using the processor and the serially reusable resource, the first process based on the resource allocation. Further, the method includes releasing, using the processor, the serially reusable resource by the first process in response to the first process completing. In accordance with another embodiment, a computer system for resolving abnormal contention includes a memory having computer readable instructions and one or more processors for executing the computer readable instructions. The computer readable instructions includes detecting, using the one or more processors, abnormal contention of a serially reusable resource caused by a first process, wherein the abnormal contention includes the first process blocking the serially reusable resource from a second process that is waiting to use the serially reusable resource and collecting, in the memory, resource data in a serialized resource history database and analyzing the resource data associated with the serially reusable resource. The system also includes adjusting, using the one or more processors, resource allocation for the first process of the serially reusable resource based on the resource data and processing, using the one or more processors and the...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F950",
+    "G06F954",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "ARNDT",
+      "inventor_name_first": "KARLA K.",
+      "inventor_city": "ROCHESTER",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "GENTILE",
+      "inventor_name_first": "JOSEPH W.",
+      "inventor_city": "NEW PALTZ",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "JONES",
+      "inventor_name_first": "NICHOLAS R.",
+      "inventor_city": "POUGHKEEPSIE",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MATSAKIS",
+      "inventor_name_first": "NICHOLAS C.",
+      "inventor_city": "POUGHKEEPSIE",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SURMAN",
+      "inventor_name_first": "DAVID H.",
+      "inventor_city": "MARLBORO",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR RESOLVING CONTENTION IN A COMPUTER SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 70214,
+    "optimized_size": 4204,
+    "reduction_percent": 94.01
+  }
+}

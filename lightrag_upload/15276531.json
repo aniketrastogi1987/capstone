@@ -1,0 +1,33 @@
+{
+  "date_produced": "20170223",
+  "publication_number": "US20170068907A1-20170309",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15276531",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Prendergast",
+      "inventor_name_first": "David",
+      "inventor_city": "Isle of Wight",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Data processing apparatus operative to generate a classification component is disclosed. The data processing apparatus is configured to provide a template classifier bank comprising a plurality of classifier modules, each classifier module operative to receive training data comprising data elements having one of two or more known class affiliations and to output a class affiliation estimate value for each input data element. The data processing apparatus is farther configured to derive a combination of the class affiliation estimate values providing a highest correlation to the two or more known class affiliations, and to generate a classification component formed of a resultant classifier bank comprising a combination of the plurality of classifier modules corresponding to the combination of estimate values providing the highest correlation.",
+  "filing_date": "20160926",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Viewed from a first aspect there is provided data processing apparatus operative to generate a classification component, said data processing apparatus configured to provide a template classifier bank comprising a plurality of classifier modules, each classifier module operative to receive training data comprising data elements having one of two or more known class affiliations and to output a class affiliation estimate value for each input data element, said data processing apparatus further configured to derive a combination of said class affiliation estimate values providing a highest correlation to said two or more known class affiliations, and to generate a classification component formed of a resultant classifier bank comprising a combination of said plurality of classifier modules corresponding to said combination of estimate values providing said highest correlation. By using such an arrangement, a classification system may be implemented which comprises many different classifiers not all of which are necessary or desirable for a range of classification applications to which the system will be put, but the system can be automatically configured with an optimum combination of classifier modules for a particular type of classification application to which the system is to be put. Thus, a generic classifier template may be used in order to cope with unanticipated classification problems, and a suitable classification bank derived from that generic template for particular classification applications. This saves time, cost and effort in designing classification systems. Particularly, the resultant classifier bank comprises a sub-set of said plurality of classifier modules forming said template classifier bank, so that only those classifiers which provide the greatest contribution to classification accuracy are used for the resultant classifier bank. Suitably, the system can deselect classifier modules from said template classifier bank to gener...",
+  "date_published": "20170309",
+  "title": "DATA PROCESSING APPARATUS AND METHOD FOR AUTOMATICALLY GENERATING A CLASSIFICATION COMPONENT",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06N504",
+    "G06F1716"
+  ],
+  "_processing_info": {
+    "original_size": 92051,
+    "optimized_size": 3477,
+    "reduction_percent": 96.22
+  }
+}

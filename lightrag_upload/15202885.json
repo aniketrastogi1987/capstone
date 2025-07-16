@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15202885",
+  "date_published": "20170907",
+  "date_produced": "20170823",
+  "title": "DATA STORAGE DEVICE AND THE OPERATING METHOD THEREOF",
+  "filing_date": "20160706",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Jin Woong",
+      "inventor_city": "Gyeonggi-do",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "OH",
+      "inventor_name_first": "Ik Sung",
+      "inventor_city": "Gyeonggi-do",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "JUNG",
+      "inventor_name_first": "Seung Wan",
+      "inventor_city": "Gyeonggi-do",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1202",
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F1202",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments are directed to an operating method of a data storage device, capable of optimizing a garbage collection operation according to a valid page distribution characteristic. In an embodiment, a method for operating a data storage device may include: determining a trigger value that is proportional to a minimum number of empty memory blocks which should be secured and is inversely proportional to a valid page distribution characteristic of used memory blocks meaning a state in which valid pages of used memory blocks are distributed; performing a garbage collection operation by a first garbage collection throughput in the case where a number of currently empty memory blocks is larger than the trigger value; and performing a garbage collection operation by a second garbage collection throughput in the case where a number of currently empty memory blocks is equal to or smaller than the trigger value. In an embodiment, a method for operating a data storage device may include: determining a valid page distribution characteristic of used memory blocks; and performing a garbage collection operation based on the valid page distribution characteristic of used memory blocks. In an embodiment, a data storage device may include: a memory device including a plurality of memory blocks; and a controller suitable for determining a valid page distribution characteristic of used memory blocks among the plurality of memory blocks, and performing a garbage collection operation based on the valid page distribution characteristic of used memory blocks. According to the embodiments, the garbage collection operation of a data storage device may be optimized, and hence, the operating speed of the data storage device may be enhanced.",
+  "patent_number": "None",
+  "abstract": "A method for operating a data storage device includes determining a valid page distribution characteristic of used memory blocks; and performing a garbage collection operation based on the valid page distribution characteristic of used memory blocks.",
+  "publication_number": "US20170255550A1-20170907",
+  "_processing_info": {
+    "original_size": 63133,
+    "optimized_size": 2864,
+    "reduction_percent": 95.46
+  }
+}

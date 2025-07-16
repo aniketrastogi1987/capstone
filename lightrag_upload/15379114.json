@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170603",
+  "publication_number": "US20170169327A1-20170615",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15379114",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NESTLER",
+      "inventor_name_first": "Eric G.",
+      "inventor_city": "Long Beach TWP",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "OSQUI",
+      "inventor_name_first": "Mitra M.",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BERNSTEIN",
+      "inventor_name_first": "Jeffrey G.",
+      "inventor_city": "Middleton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods of implementing a more efficient and less resource-intensive CNN are disclosed herein. In particular, applications of CNN in the analog domain using Sampled Analog Technology (SAT) methods are disclosed. Using a CNN design with SAT results in lower power usage and faster operation as compared to a CNN design with digital logic and memory. The lower power usage of a CNN design with SAT can allow for sensor devices that also detect features at very low power for isolated operation.",
+  "filing_date": "20161214",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSURE <EOH>A neural network using sampled analog technology is disclosed. Convolution Neural Networks (CNNs) are algorithms and circuits used for feature detection. In some implementations, detection or analysis of features can be for image data, audio data, or any other complex data that requires a sophisticated analysis to detect some feature of it. According to various implementations, CNNs can be helpful when the input data is in the form of an array with highly correlated local variables and have shift invariance. The CNN algorithm is typically implemented with digital logic and memory. However, implementing the CNN algorithm with digital logic and memory is resource intensive. Systems and methods of implementing a more efficient and less resource-intensive CNN are disclosed herein. In particular, applications of CNN in the analog domain using Sampled Analog Technology (SAT) methods are disclosed. Using a CNN design with SAT results in much lower power usage and faster operation as compared to a CNN design with digital logic and memory. In one example, using a CNN design with SAT uses less than ten times the power that a typical digital CNN design uses. In one example, using a CNN design with SAT results in greater than ten times faster operation. One reason the operation of a CNN using SAT is faster is that an analog version can do in a single clock cycle an operation that takes many clock cycles in a digital version, due to the simultaneous nature of charge sharing. The lower power usage of a CNN design with SAT can allow for sensor devices that also detect features at very low power for isolated operation such as with IOT (Internet of Things) devices. According to one implementation, a convolutional neural network using sampled analog technology includes an input source including first and second analog input data points, a first set of capacitors for analyzing the first analog input data point and outputting a first analog convolut...",
+  "date_published": "20170615",
+  "title": "CONVOLUTIONAL NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N3063",
+    "H03M180"
+  ],
+  "_processing_info": {
+    "original_size": 66036,
+    "optimized_size": 3350,
+    "reduction_percent": 94.93
+  }
+}

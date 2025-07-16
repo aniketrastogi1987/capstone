@@ -1,0 +1,37 @@
+{
+  "date_produced": "20160622",
+  "publication_number": "US20160196502A1-20160707",
+  "main_ipcr_label": "G06N700",
+  "decision": "ACCEPTED",
+  "application_number": "15070004",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Banerjee",
+      "inventor_name_first": "Shayak",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brearley",
+      "inventor_name_first": "William",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method and system is provided for detecting at risk structures due to mask overlay that occur during lithography processes. The method can be implemented in a computer infrastructure having computer executable code tangibly embodied on a computer readable storage medium having programming instructions. The programming instructions are operable to obtain a simulation of a metal layer and a via, and determine a probability that an arbitrary point (x, y) on the metal layer is covered by the via by calculating a statistical coverage area metric followed by mathematical approximations of a summing function.",
+  "filing_date": "20160315",
+  "patent_number": "9607268",
+  "summary": "<SOH> SUMMARY <EOH>In a first aspect of the invention, a method is implemented in a computer infrastructure having computer executable code tangibly embodied on a computer readable storage medium having programming instructions. The programming instructions are operable to obtain a simulation of a metal layer and a via, and determine a probability that an arbitrary point (x, y) on the metal layer is covered by the via by calculating a statistical coverage area metric followed by mathematical approximations of a summing function. In another aspect of the invention, a system is implemented in hardware. The system comprises an overlay aware optical rule checking module configured to determine a probability that an arbitrary point (x, y) on a metal layer is covered by a via by calculating a statistical coverage area followed by a summing factor. In an additional aspect of the invention, a computer program product comprises a computer usable storage medium having readable program code embodied in the storage medium. The computer program product includes at least one component operable to: obtain a simulation of a metal layer and a via; and determine a probability that an arbitrary point (x, y) on the metal layer is covered by the via by: calculating a statistical coverage area metric; and using mathematical approximations of a summing function, computed using a Gaussian distribution for the overlay error of the via. The statistical coverage area metric is based on equi-probability contours of the via which are summed after multiplying each area by its probability of being inside or outside of the coverage area. In a further aspect of the invention, a computer system for at least one of modeling and forecasting technology adoption, the system comprises a CPU, a computer readable memory and a computer readable storage media. The system comprises program instructions which can provide the methods of the present invention. The program instructions are stored on the computer ...",
+  "date_published": "20160707",
+  "title": "OPTICAL RULE CHECKING FOR DETECTING AT RISK STRUCTURES FOR OVERLAY ISSUES",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 48022,
+    "optimized_size": 3329,
+    "reduction_percent": 93.07
+  }
+}

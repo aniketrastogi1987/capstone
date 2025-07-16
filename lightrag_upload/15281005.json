@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180418",
+  "publication_number": "US20180121824A1-20180503",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15281005",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Han",
+      "inventor_name_first": "Shin Hwan",
+      "inventor_city": "Seongnam-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "Park",
+      "inventor_name_first": "Sanghyun",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "JEON",
+      "inventor_name_first": "Jungho",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A computer system access in a database a first linear sequence table including a plurality of entries. A respective entry of the plurality of entries includes sequential state information for a respective user. The sequential state information for the respective entry identifies a respective preceding event associated with a respective preceding time and a respective subsequent event associated with a respective subsequent time that is subsequent to the respective preceding time. The computer system initiates aggregation of data in the first linear sequence table to obtain a quantity that corresponds to a number of entries that are associated with a particular preceding event and a particular subsequent event of preceding events and subsequent events of the plurality of entries.",
+  "filing_date": "20160929",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Accordingly, there is a need for faster and more effective methods and systems for machine learning of human decision making processes. Such methods and systems optionally complement or replace conventional methods for machine learning of human decision making processes. In accordance with some embodiments, a method is performed at a computer system with one or more processors and memory. The method includes crawling a plurality of web pages, a respective web page containing biographical information of a respective person; parsing the crawled information into state events and determining causality between any two of the state events; storing the state events and the causality in a database; and, subsequent to storing the state events and the causality in the database, receiving a first request from a user to determine a path to a target state. The target state includes a target state event. The method also includes, in response to receiving the first request, obtaining a current state of the user. The current state of the user includes one or more state events associated with the user. The method further includes, determining one or more paths from the current state of the user to the target state based on the current state of the user and the state events and the causality stored in the database, including identifying one or more recommended state events, each recommended state event of the one or more recommended state events having a causality value for the target state that satisfies first preselected causality criteria; and providing at least one path from the current state of the user to the target state. In accordance with some embodiments, a method is performed at a computer system with one or more processors and memory. The method includes accessing in a database a first linear sequence table including a plurality of entries. A respective entry of the plurality of entries includes sequential state information for a respective user. The se...",
+  "date_published": "20180503",
+  "title": "Artificial Intelligence for Decision Making Based on Machine Learning of Human Decision Making Process",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 95219,
+    "optimized_size": 3680,
+    "reduction_percent": 96.14
+  }
+}

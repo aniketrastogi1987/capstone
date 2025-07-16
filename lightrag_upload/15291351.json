@@ -1,0 +1,44 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15291351",
+  "date_published": "20170309",
+  "date_produced": "20170223",
+  "title": "OPCODE COUNTING FOR PERFORMANCE MEASUREMENT",
+  "filing_date": "20161012",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gara",
+      "inventor_name_first": "Alan",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Satterfield",
+      "inventor_name_first": "David L.",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Walkup",
+      "inventor_name_first": "Robert E.",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F930"
+  ],
+  "main_ipcr_label": "G06F930",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Embodiments of the invention provide methods, systems and computer program products for measuring a performance of a program running on a processing unit of a processing system. In one embodiment, the method comprises informing a logic unit of each instruction in the program that is executed by the processing unit, assigning a weight to said each instruction, assigning the instructions to a plurality of groups, and analyzing said plurality of groups to measure one or more metrics of the program. In one embodiment, each instruction includes an operating code portion, and the assigning includes assigning the instructions to said groups based on the operating code portions of the instructions. In an embodiment, each instruction is one type of a given number of types, and the assigning includes assigning each type of instruction to a respective one of said plurality of groups. In an embodiment, these groups may be combined into a plurality of sets of the groups. In an embodiment of the invention, to facilitate the counting of instructions, the processor informs an external logic unit of each instruction that is executed by the processor. The external unit then assigns a weight to each instruction, and assigns it to an opcode group. The user can combine opcode groups into a larger group for accumulation into a performance counter. This assignment of instructions to opcode groups makes measurement of key program metrics transparent to the user.",
+  "patent_number": "9921831",
+  "abstract": "Methods, systems and computer program products are disclosed for measuring a performance of a program running on a processing unit of a processing system. In one embodiment, the method comprises informing a logic unit of each instruction in the program that is executed by the processing unit, assigning a weight to each instruction, assigning the instructions to a plurality of groups, and analyzing the plurality of groups to measure one or more metrics. In one embodiment, each instruction includes an operating code portion, and the assigning includes assigning the instructions to the groups based on the operating code portions of the instructions. In an embodiment, each type of instruction is assigned to a respective one of the plurality of groups. These groups may be combined into a plurality of sets of the groups.",
+  "publication_number": "US20170068536A1-20170309",
+  "_processing_info": {
+    "original_size": 36508,
+    "optimized_size": 3160,
+    "reduction_percent": 91.34
+  }
+}

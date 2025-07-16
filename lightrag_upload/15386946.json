@@ -1,0 +1,33 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174020A1-20180621",
+  "main_ipcr_label": "G06N300",
+  "decision": "PENDING",
+  "application_number": "15386946",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wu",
+      "inventor_name_first": "Xianchao",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Systems and methods for emotionally intelligent automated chatting are provided. The systems and method provide emotionally intelligent automated (or artificial intelligence) chatting by determining a context and an emotion of a conversation with a user. Based on these determinations, the systems and methods may select one or more responses from a database of responses to a reply to a user query. Further, the systems and methods are able update or train based on user feedback and/or world feedback.",
+  "filing_date": "20161221",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In summary, the disclosure generally relates to systems and methods for emotionally intelligent automated chatting. The systems and methods as described herein provide emotionally intelligent automated (or artificial intelligence (AI)) chatting by determining a context and an emotion of a conversation with a user. Based on these determinations, the systems and methods as described herein select one or more responses from a database of responses to reply to the user query. Further, systems and methods as described herein are able update or train based on user feedback and/or world feedback. As such, the systems and methods as described herein perform emotionally intelligent automated chatting that is more effective, more engaging, easier to use, and more lifelike than previously utilized chat bots that were not able to select responses based on the conversation context and emotion. One aspect of the disclosure is directed to a system for an emotionally intelligent chat bot. The system includes at least one processor and a memory. The memory encodes computer executable instruction that, when executed by the at least one processor, are operative to: collect a query from a user; determine context sentences for the query utilizing a neural network and a context summary model; assign an emotion label to each sentence in the context sentences utilizing a sentiment analysis model to form labeled sentences; select a result response from a response database utilizing a response prediction model; and provide the result response to the user in reply to the query. The determining of the context sentences comprises: analyzing a collection with a vocabulary index utilizing a machine learning algorithm; determining replaceable elements in the collection based on the analysis of the collection and replace the replaceable elements with a corresponding topic element to form a modified collection; analyzing the modified collection to determine a number of times each ...",
+  "date_published": "20180621",
+  "title": "SYSTEMS AND METHODS FOR AN EMOTIONALLY INTELLIGENT CHAT BOT",
+  "ipcr_labels": [
+    "G06N300",
+    "G06N304",
+    "G06N308",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 99132,
+    "optimized_size": 3077,
+    "reduction_percent": 96.9
+  }
+}

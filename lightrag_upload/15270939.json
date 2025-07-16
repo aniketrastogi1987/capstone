@@ -1,0 +1,58 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15270939",
+  "date_published": "20170112",
+  "date_produced": "20161228",
+  "title": "MEMORY SYSTEM AND CONTROL METHOD THEREOF",
+  "filing_date": "20160920",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KITSUNAI",
+      "inventor_name_first": "Kazuya",
+      "inventor_city": "Kawasaki-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KANNO",
+      "inventor_name_first": "Shinichi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "YANO",
+      "inventor_name_first": "Hirokuni",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "HIDA",
+      "inventor_name_first": "Toshikatsu",
+      "inventor_city": "Kawasaki-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "YANO",
+      "inventor_name_first": "Junji",
+      "inventor_city": "Yokohama-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>According to an aspect of the present invention, there is provided a memory system comprising: a nonvolatile memory including a plurality of blocks as data erase units; measuring unit which measures an erase time at which data of each block is erased; and a block controller which writes data supplied from at least an exterior into a first block which is set in a free state and whose erase time is oldest. According to an aspect of the present invention, there is provided a memory system comprising: a nonvolatile memory including a plurality of blocks as data erase units; measuring unit which measures an erase time at which data of each block is erased; a block controller which counts an erase count of each block, and has a block table indicating a correspondence relation between a status value indicating one of a free state and an in-use state, the erase time and the erase count for each block; and a first selector which selects a first block whose an erase count is minimum among a preset number of blocks set in the free state starting from a block whose an erase time is oldest based on information of the block table, wherein the block controller writes data supplied from at least an exterior into the first block. According to an aspect of the present invention, there is provided a memory system comprising: a nonvolatile memory including a plurality of blocks as data erase units; measuring unit which measures an erase time at which data of each block is erased; a block controller which counts an erase count of each block, and has a block table indicating a correspondence relation between a status value indicating one of a free state and an in-use state, the erase time and the erase count for each block; and a first selector which selects a first block whose an erase count is minimum among a preset ratio of blocks set in the free state starting from a block whose an erase time is oldest based on information of the block table,...",
+  "patent_number": "9933941",
+  "abstract": "A memory system includes a nonvolatile memory including a plurality of blocks as data erase units, a measuring unit which measures an erase time at which data of each block is erased, and a block controller which writes data supplied from at least an exterior into a first block which is set in a free state and whose erase time is oldest.",
+  "publication_number": "US20170010818A1-20170112",
+  "_processing_info": {
+    "original_size": 95572,
+    "optimized_size": 3453,
+    "reduction_percent": 96.39
+  }
+}

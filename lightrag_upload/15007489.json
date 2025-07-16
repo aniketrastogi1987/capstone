@@ -1,0 +1,44 @@
+{
+  "date_produced": "20160525",
+  "publication_number": "US20160162786A1-20160609",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15007489",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Grudic",
+      "inventor_name_first": "Gregory Zlatko",
+      "inventor_city": "Niwot",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Moulton",
+      "inventor_name_first": "Steven Lee",
+      "inventor_city": "Littleton",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mulligan",
+      "inventor_name_first": "Isobel Jane",
+      "inventor_city": "Niwot",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods and systems are disclosed for autonomously building a predictive model of outcomes. A most-predictive set of signals Sk is identified out of a set of signals s1, s2, . . . , sD for each of one or more outcomes ok. A set of probabilistic predictive models ôk=Mk(Sk) is autonomously learned, where ôk is a prediction of outcome ok derived from the model Mk that uses as inputs values obtained from the set of signals Sk. The step of autonomously learning is repeated incrementally from data that contains examples of values of signals s1, s2, . . . , sD and corresponding outcomes o1, o2, . . . , oK. Various embodiments are also disclosed that apply predictive models to various physiological events and to autonomous robotic navigation.",
+  "filing_date": "20160127",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>Embodiments of the invention can be implemented to use high dimensional, complex domains, where large amounts of variable, possibly complex data exist on a continuous, and/or possibly dynamically changing timeline. Various embodiments can be implemented in disparate fields of endeavor. For example, embodiments of the invention can be implemented in the fields of robotics and medicine. In the field of robotics, embodiments of the invention can use real-time image (and information derived from other sensors modalities) analysis, high speed data processing and highly accurate decision-making to enable robot navigation in outdoor, unknown unstructured environments. Embodiments of the invention can also be applied to physiological (vital sign) and clinical data analysis in the field of medicine. In such embodiments, an algorithm can discover and model the natural, complex, physiological and clinical relationships that exist between normal, injured and/or diseased organ systems, to accurately predict the current and future states of a patient. In some embodiments of the invention methods are provided for autonomously building a predictive model of outcomes. A most-predictive set of signals S k can be autonomously identified out of a set of signals s 1 , s 2 , . . . , s D for each of one or more outcomes o k . A set of probabilistic predictive models ô k =M k (S k ) can be autonomously learned, where ô k is a prediction of outcome o k derived from the model M k that uses as inputs values obtained from the set of signals S k . The step of autonomously learning can be repeated incrementally from data that contains examples of values of signals s 1 , s 2 , . . . , s D (possibly dynamically changing) and corresponding outcomes o 1 , o 2 , . . . , o K . In some embodiments autonomously learning can include using a linear model framework to identify predictive variables for each increment of data. The linear model framework may be constr...",
+  "date_published": "20160609",
+  "title": "Long Term Active Learning from Large Continually Changing Data Sets",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 105624,
+    "optimized_size": 3626,
+    "reduction_percent": 96.57
+  }
+}

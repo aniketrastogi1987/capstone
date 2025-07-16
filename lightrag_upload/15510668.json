@@ -1,0 +1,47 @@
+{
+  "patent_number": "None",
+  "application_number": "15510668",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "filing_date": "20170310",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A Probabilistic Quantum Circuit with Fallback (PQFs) is composed as a series of circuit stages that are selected to implement a target unitary. A final stage is conditioned on unsuccessful results of all the preceding stages as indicated by measurement of one or more ancillary qubits. This final stage executes a fallback circuit that enforces deterministic execution of the target unitary at a relatively high cost (mitigated by very low probability of the fallback). Specific instances of general PQF synthesis method and are disclosed with reference to the specific Clifford+T, Clifford+V and Clifford+π/12 bases. The resulting circuits have expected cost in logb(1/ε(log(log(1/ε)))+const wherein b is specific to each basis. The three specific instances of the synthesis have polynomial compilation time guarantees.",
+  "publication_number": "US20170220948A1-20170803",
+  "summary": "<SOH> SUMMARY <EOH>Probabilistic quantum circuits with fallback (PQFs) include a series of multi-qubit stages that are configured to have a probability of producing a target rotation based on an input associated with an output of an unsuccessful previous stage in the series. Each stage may or may not be successful. A deterministic fallback quantum circuit is coupled to a final stage and produces the target rotation based on the output of the final stage. The stages are implemented in the Clifford+T, Clifford+π/12, or the Clifford+V bases. In one example, a computer-implemented method of defining a quantum circuit comprises establishing a first approximation of a target single-qubit unitary to a requested precision. The first approximation is expanded into a first multi-qubit unitary that implements the target single-qubit unitary in a selected basis upon successful measurement. The fallback circuit deterministically implements the target unitary conditional upon unsuccessful measurements in all previous stages. A circuit definition is output that includes a definition of the sequence of multi-qubit unitaries for all intermediate stages and a definition of the fallback circuit. Each intermediate stage is followed by measurement of at least one ancillary qubit, and if the measurement indicates that the stage was unsuccessful, then the next stage is executed, and so on. If measurement of a particular stage indicates success, the additional stages and the fallback circuit are not needed. If measurements of all intermediate stages indicate that all intermediate stages are unsuccessful, the fallback circuit is applied.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1710",
+    "G06F1750",
+    "B82Y1000"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bocharov",
+      "inventor_name_first": "Alexei",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Svore",
+      "inventor_name_first": "Krysta",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Roetteler",
+      "inventor_name_first": "Martin",
+      "inventor_city": "Woodinville",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "EFFICIENT SYNTHESIS OF PROBABILISTIC QUANTUM CIRCUITS WITH FALLBACK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 53288,
+    "optimized_size": 3367,
+    "reduction_percent": 93.68
+  }
+}

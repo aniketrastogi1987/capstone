@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15011022",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "title": "Log Event Summarization for Distributed Server System",
+  "filing_date": "20160129",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhao",
+      "inventor_name_first": "Yuchen",
+      "inventor_city": "Belmont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Iyer",
+      "inventor_name_first": "Arjun",
+      "inventor_city": "San Mateo",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>The present technology, roughly described, identifies clusters of log lines based on log line templates. The log line templates are based on a punctuality pattern for a log line. Clusters of log lines that match each punctuality pattern can be identified based on comparisons between the log lines. The comparison may determine the similarity of the log lines and ultimately identify whether the log lines are close enough to be clustered. The comparison may be based on generated n-grams for the log lines and performing a hash on the n-grams. The resulting cluster information may be communicated to a user in an interface. In some instances, a bubble graph may be provided that shows bubbles for each identified cluster of log lines. The bubbles may be coordinated in size, color, and location to indicate the size of the cluster, the age of the cluster, for example whether the cluster is new, old, or missing, an origin of the log line, and other data. An embodiment may include a method for monitoring a synthetic distributed business transaction. The method may include collecting log event data by one or more agents installed on one or more machines that perform a distributed business transaction. The log event data may be grouped by data format. Clusters for the log event data may be generated within each group. The clusters of log event data may be reported from multiple machines in a user interface. An embodiment may include a system for monitoring log event data. The system may include a plurality of machines, with each machine including a processor and memory, and one or more modules stored in memory and executable by the processor. When executed, the modules may receive log event data from a plurality of agents, wherein the log event data received by a particular machine grouped by data format, generate clusters for the log event data within each group, and report the clusters of log event data to a remote server.",
+  "patent_number": "None",
+  "abstract": "Clusters of log lines are identified based on log line templates. The log line templates are based on a punctuality pattern for a log line. Clusters of log lines that match each punctuality pattern can be identified based on comparisons between the log lines. The comparison may determine the similarity of the log lines and ultimately identify whether the log lines are close enough to be clustered. The comparison may be based on generated n-grams for the log lines and performing a hash on the n-grams. The resulting cluster information may be communicated to a user in an interface.",
+  "publication_number": "US20170220663A1-20170803",
+  "_processing_info": {
+    "original_size": 46644,
+    "optimized_size": 3230,
+    "reduction_percent": 93.08
+  }
+}

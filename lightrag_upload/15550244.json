@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15550244",
+  "date_published": "20180125",
+  "date_produced": "20180109",
+  "filing_date": "20170810",
+  "main_ipcr_label": "G06N502",
+  "abstract": "The invention relates to the field of control and computing technologies. A method is provided for building an inference path in a knowledge base comprising a representation of a model of a subject domain in the form of objects and links arranged in an oriented bipartite graph. The objects contain parameters, and the links contain rules; each rule has an input variable and an output variable, and each parameter linked with a rule is either an input variable or an output variable of the rule. A collection of known parameters is generated, and one or more required parameters are specified. The method comprises performing processing with respect to each known parameter which has not undergone the processing before, in order to find the required parameters. The processing comprises: determining launchable rules in which the known parameter is an input variable, for which all remaining input variables are known, and which have not been launched before; launching the determined launchable ru...",
+  "publication_number": "US20180025277A1-20180125",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>The object of the present invention is to provide methods and systems for automatedly building an inference path in a mivar knowledge base, which would ensure, at least, faster search for a decision. According to one aspect of the invention, the object is attained by a computer-implemented method for automatedly building an inference path in a knowledge base comprising a representation of a model of a subject domain in the form of objects and links organized in an oriented bipartite graph. The objects contain parameters, and the links contain rules, and each rule has at least one input variable and at least one output variable, and each parameter associated with a rule is either an input variable or an output variable of the rule. The method comprises: forming a collection of known parameters and specifying one or more required parameters. Processing is carried out for each known parameter which has not undergone the processing, in order to find the required parameters. The processing comprises: determining launchable rules in which a known parameter is an input variable, for which all remaining input variables are known, and which have not been launched before; then launching the determined launchable rules and adding output variables of the launched rules to the collection of known parameters. If all the required parameters are found, the processing is stopped. A natural alternative criterion for stopping said processing is establishing impossibility of obtaining a decision based on the available known parameters, i.e. if it is determined that it is impossible to reach the required parameters from current known parameters. Then, in accordance with the provided method, a sequence of launched rules is built in an order in which said rules were launched. The sequence of rules built in such a way represents the inference path. According to a preferred embodiment, the present method further comprises filtering the built sequence of rules...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Varlamov",
+      "inventor_name_first": "Oleg Olegovich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "Khadiev",
+      "inventor_name_first": "Andrei Maratovich",
+      "inventor_city": "Surgut",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "Chibirova",
+      "inventor_name_first": "Marina Olegovna",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "Sergushin",
+      "inventor_name_first": "Georgii Sergeevich",
+      "inventor_city": "Krasnogorsk",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "Antonov",
+      "inventor_name_first": "Pavel Dmitrievich",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    }
+  ],
+  "title": "AUTOMATED ACQUISITION OF A LOGICAL DEDUCTION PATH IN A MIVAR KNOWLEDGE BASE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 104904,
+    "optimized_size": 4207,
+    "reduction_percent": 95.99
+  }
+}

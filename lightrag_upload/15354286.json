@@ -1,0 +1,30 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140296A1-20170518",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15354286",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kerman",
+      "inventor_name_first": "Andrew J.",
+      "inventor_city": "Arlington",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Described herein are structures and techniques for highly-connected qubit interaction using a “paramagnetic tree coupling” scheme. In one embodiment, a structure for providing highly-connected qubit interaction includes a plurality of qubits and, for each of the plurality of qubits, a paramagnetic medium connecting the qubit to each other one of the plurality of qubits, where the paramagnetic medium includes a series of inductive couplers.",
+  "filing_date": "20161117",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>It is appreciated herein that the existing logical qubit grouping scheme has several disadvantages. As an example, for general optimization problems, the embedding process itself is an extremely difficult classical optimization problem for which there is no deterministic algorithm, and this difficulty increases exponentially as the physical hardware connectivity is made smaller. As another example, the couplings which enforce agreement between the physical spin constituents (labeled J F for is ferromagnetic) of each logical spin must be kept much larger than the couplings J ij between logical spins (which encode the problem to be solved), to avoid the appearance of unphysical solutions in the form of “kinks” in these spin chains. Given a maximum programmable coupling strength of any physical machine, this amounts to sacrificing a substantial fraction of the dynamic range available for programming the problem. Furthermore, since the number of physical spins required per logical spin tends to grow polynomially with the overall system size, the required ratio between J F and the logical J ij grows as well causing the available dynamic range to decrease as the size of the problem is increased. As yet another example, the quantum driver terms which are engineered in the system to allow quantum tunneling and enhanced optimization are presently associated with single spins only. As the number of physical spins per logical spin grows, these fluctuations become exponentially less efficient at producing tunneling of the logical spin variables. In view of the above, it is further appreciated herein that achieving higher hardware connectivity may have a transformative effect on the performance of quantum annealing technology. Accordingly, described herein are structures and techniques to circumvent existing hardware connectivity limitations using a so-called “paramagnetic tree coupling” scheme. According to one aspect of the disclosure, a structure for provid...",
+  "date_published": "20170518",
+  "title": "PARAMAGNETIC TREE COUPLING OF SPIN QUBITS",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 27346,
+    "optimized_size": 3008,
+    "reduction_percent": 89.0
+  }
+}

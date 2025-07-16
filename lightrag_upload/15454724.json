@@ -1,0 +1,42 @@
+{
+  "patent_number": "None",
+  "application_number": "15454724",
+  "date_published": "20170914",
+  "date_produced": "20170830",
+  "filing_date": "20170309",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A machine learning apparatus includes: a state amount observation unit that observes a state amount of a laser apparatus including output data from an optical output detection unit, an optical output characteristic recording unit that records history of a driving current and optical output characteristics, and a driving condition/state amount recording unit that records history of a LD unit driving condition data and the state amount; an operation result acquisition unit that acquires a prediction result of characteristics and measurement result of optical output characteristics of the LD unit; a learning unit that learns the LD unit driving condition data with the state amount and the results of the LD unit driving condition data; and a decision-making unit that decides, from a learning result, the LD unit driving condition data.",
+  "publication_number": "US20170262772A1-20170914",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>However, in Japanese Unexamined Patent Publication (Kokai) No. 8-279642, it is only determined that the life has reached its end when the driving current for emitting the specific optical output exceeds the deterioration threshold current. There is disclosed no method for deriving a quantitative remaining life. Japanese Unexamined Patent Publication (Kokai) No. 2005-294493 does not disclose any specific method for deriving a remaining life. In Japanese Unexamined Patent Publication (Kokai) No. 2005-294493, “to keep constant the output of each laser oscillator” is described. Thus, the life cannot be accurately predicted when the light source is driven on various optical output conditions, namely, from a low output to a high output and from a continuous laser output to a pulse laser optical output. The technology disclosed in Japanese Unexamined Patent Publication (Kokai) No. 2005-317178 can predict the life only when the optical output is on a constant driving condition. The technology disclosed in Japanese Unexamined Patent Publication (Kokai) No. 2005-317178 cannot predict the life until the generated heat amount increases due to appearance of deterioration of the semiconductor laser. In Japanese Unexamined Patent Publication (Kokai) No. 2006-222411, the operation time is always integrated under a condition where an output is rated. Therefore, when the laser apparatus is operated midway on a different condition, it is difficult to calculate an effective operation time. In Japanese Unexamined Patent Publication (Kokai) No. 2011-86496, the deteriorated current intensity characteristics are used, and thus the remaining life cannot be estimated until deterioration appears. When a deterioration speed changes at an accelerated rate, it is difficult to accurately calculate the remaining life even after the appearance of the deterioration. In the technology disclosed in Japanese Unexamined Patent Publication (Kokai) No. 2012-15440, while...",
+  "ipcr_labels": [
+    "G06N9900",
+    "H01S5042",
+    "H01S5024",
+    "H01S540",
+    "G06N504",
+    "H01S500"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Takigawa",
+      "inventor_name_first": "Hiroshi",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Maeda",
+      "inventor_name_first": "Michinori",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "MACHINE LEARNING APPARATUS, LASER APPARATUS AND MACHINE LEARNING METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 155443,
+    "optimized_size": 3619,
+    "reduction_percent": 97.67
+  }
+}

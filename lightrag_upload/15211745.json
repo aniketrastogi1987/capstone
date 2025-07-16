@@ -1,0 +1,71 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15211745",
+  "date_published": "20161103",
+  "date_produced": "20161019",
+  "title": "CLOUD-BASED SYSTEM FOR READING OF DECODABLE INDICIA",
+  "filing_date": "20160715",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Todeschini",
+      "inventor_name_first": "Erik",
+      "inventor_city": "Camillus",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Deloge",
+      "inventor_name_first": "Stephen Patrick",
+      "inventor_city": "Palmyra",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Meier",
+      "inventor_name_first": "Timothy P.",
+      "inventor_city": "Camillus",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Anderson",
+      "inventor_name_first": "Donald",
+      "inventor_city": "Locke",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hejl",
+      "inventor_name_first": "Benjamin",
+      "inventor_city": "Cherry Hill",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Koziol",
+      "inventor_name_first": "Thomas J.",
+      "inventor_city": "Camillus",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06Q2032",
+    "H04L908",
+    "H04L2906",
+    "H04L932",
+    "G06K714",
+    "G06Q3004"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>In one embodiment, there is provided a data decoding system comprising one or more computers communicatively coupled to a network. The computers can execute at least one client authentication process and at least one decoding process. The authentication process can be configured to authenticate a client. The decoding process can be configured, responsive to receiving from the client a decoding request comprising an image of decodable indicia, to locate the decodable indicia within the image, and to decode the decodable indicia into a decoded message. The decoding process can be further configured, responsive to completing the decoding operation, to transmit to the client the decoded message and/or the decoding operation completion code. In some embodiments, the authentication process and the decoding process can be executed by the same computer. Alternatively, the authentication process and the decoding process can be executed by different computers. In some embodiments, the client authentication process can be configured, responsive to receiving an authentication request comprising a client certificate, to negotiate a common secret with the client. The authentication process can be further configured to create at least one cryptographic key based on the common secret, and to use the cryptographic key to encrypt messages transmitted to the client and/or decrypt messages received from the client. In a further aspect, the computers can be further configured, responsive to receiving an authentication request comprising a client certificate, to validate the client certificate by transmitting a validation request to a certificate authority issuing the client certificate. In another embodiment, there is provided a data decoding system comprising one or more computers communicatively coupled to a network. The computers can execute at least one decoding process and at least one logging process. The decoding process can be configured, responsive to receivi...",
+  "patent_number": "9665655",
+  "abstract": "A data decoding system can comprise one or more computers communicatively coupled to a network. The computers can execute at least one decoding process. The decoding process can be configured, responsive to receiving a decoding request comprising an image of decodable indicia, to locate the decodable indicia within the image, and to decode the decodable indicia into a decoded message. The decoding process can be further configured, responsive to completing a decoding operation, to transmit to the client the decoded message and/or the decoding operation completion code.",
+  "publication_number": "US20160321372A1-20161103",
+  "_processing_info": {
+    "original_size": 59946,
+    "optimized_size": 3937,
+    "reduction_percent": 93.43
+  }
+}

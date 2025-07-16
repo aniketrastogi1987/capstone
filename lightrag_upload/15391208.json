@@ -1,0 +1,88 @@
+{
+  "decision": "PENDING",
+  "application_number": "15391208",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "title": "PROVISIONING KEYS FOR VIRTUAL MACHINE SECURE ENCLAVES",
+  "filing_date": "20161227",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Scarlata",
+      "inventor_name_first": "Vincent R.",
+      "inventor_city": "Beaverton",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rozas",
+      "inventor_name_first": "Carlos V.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Johnson",
+      "inventor_name_first": "Simon P.",
+      "inventor_city": "Beaverton",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McKeen",
+      "inventor_name_first": "Francis X.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vij",
+      "inventor_name_first": "Mona",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chakrabarti",
+      "inventor_name_first": "Somnath",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Baker",
+      "inventor_name_first": "Brandon",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Anati",
+      "inventor_name_first": "Ittai",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Alexandrovich",
+      "inventor_name_first": "Ilya",
+      "inventor_city": "Yokneam Illit",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L908",
+    "H04L932",
+    "G06F948"
+  ],
+  "main_ipcr_label": "H04L908",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a simplified schematic diagram of an example system including a host system to host one or more virtual machines and a registration system to register root keys generated for the virtual machines in accordance with one embodiment; FIG. 2 is a simplified block diagram of an example system including an example host platform to host one or more virtual machines supporting secure enclaves in accordance with one embodiment; FIG. 3 is a simplified block diagram representing application attestation in accordance with one embodiment; FIG. 4 is a simplified block diagram representing an example registration and use of a virtual machine root key in accordance with one embodiment; FIG. 5 is a simplified block diagram representing another example of registration and use of a virtual machine root key in accordance with one embodiment; FIG. 6 is a simplified block diagram representing an example migration of a virtual machine in accordance with one embodiment; FIGS. 7A-7B are simplified flow diagrams illustrating example techniques involving the generation and registration of a virtual machine root keys; FIG. 8 is a block is a block diagram of an exemplary processor in accordance with one embodiment; FIG. 9 is a block diagram of an exemplary mobile device system in accordance with one embodiment; and FIG. 10 is a block diagram of an exemplary computing system in accordance with one embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"? Like reference numbers and designations in the various drawings indicate like elements.",
+  "patent_number": "None",
+  "abstract": "A secure migration enclave is provided to identify a launch of a particular virtual machine on a host computing system, where the particular virtual machine is launched to include a secure quoting enclave to perform an attestation of one or more aspects of the virtual machine. A root key for the particular virtual machine is generated using the secure migration enclave hosted on the host computing system for use in association with provisioning the secure quoting enclave with an attestation key to be used in the attestation. The migration enclave registers the root key with a virtual machine registration service.",
+  "publication_number": "US20180183580A1-20180628",
+  "_processing_info": {
+    "original_size": 99056,
+    "optimized_size": 3985,
+    "reduction_percent": 95.98
+  }
+}

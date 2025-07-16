@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170309",
+  "publication_number": "US20170083828A1-20170323",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15075177",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Baranczyk",
+      "inventor_name_first": "Shawn J.",
+      "inventor_city": "Rochester",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Konik",
+      "inventor_name_first": "Rafal P.",
+      "inventor_city": "Oronoco",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mittelstadt",
+      "inventor_name_first": "Roger A.",
+      "inventor_city": "Byron",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Muras",
+      "inventor_name_first": "Brian R.",
+      "inventor_city": "Otsego",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Disclosed aspects relate to query hint learning in a database management system. A hint in a first query is detected by the database management system. The first query has a first signature. A second query is received by the database management system. The second query has a second signature. A determination is made by the database management system that the second signature correlates with the first signature. A query plan is established by the database management system. The query plan is based on the second query and uses the hint in the first query. In response to receiving the second query, the database management system processes the query plan.",
+  "filing_date": "20160320",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Aspects of the disclosure relate to query hint learning in a database management system. Hints are supported by many databases including those which are key-value store or document-based. Database users/administrators can tailor queries in ways the user/administrator desires by inputting hints into their production environments (e.g., controlled by the user/administrator). Query hint learning, as described herein, may allow a database management system to use what a user/administrator input on an original query to influence operation of the database management system with respect to a later query. As such, query hint learning may provide the optimizer more information to make more efficient query plans for other/future queries based on information provided by the query hints. Accordingly, the input of the administrator/user may be leveraged in other/future queries dynamically (e.g., algorithmically/automatically without another/added input/involvement from the user/administrator). Disclosed aspects relate to query hint learning in a database management system. A hint in a first query is detected by the database management system. The first query has a first signature. A second query is received by the database management system. The second query has a second signature. A determination is made by the database management system that the second signature correlates with the first signature. A query plan is established by the database management system. The query plan is based on the second query and uses the hint in the first query. In response to receiving the second query, the database management system processes the query plan. The above summary is not intended to describe each illustrated embodiment or every implementation of the present disclosure.",
+  "date_published": "20170323",
+  "title": "QUERY HINT LEARNING IN A DATABASE MANAGEMENT SYSTEM",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 58655,
+    "optimized_size": 3455,
+    "reduction_percent": 94.11
+  }
+}

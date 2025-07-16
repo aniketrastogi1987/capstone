@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170830",
+  "publication_number": "US20170262770A1-20170914",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15374765",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Purdy",
+      "inventor_name_first": "David",
+      "inventor_city": "Millbrae",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Li",
+      "inventor_city": "Daly City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sumers",
+      "inventor_name_first": "Theodore Russell",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Cascaded, boosted predictive models trained using distinct sets of exogenous and endogenous features are configured to predict component of performance ratings of entities. From the distinct predicted components, the second entity's rating factor can be determined. A second entity's rating factor represents the specific contribution a second entity makes to his average performance rating, as distinct from the rating that an arbitrary or hypothetical second entity would obtain.",
+  "filing_date": "20161209",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>Examples herein describe a system of predictive models, such as cascaded boosted predictive models, that provide an improved classification and predictive analysis over existing ensemble machine learning methods. According to some examples, a cascaded boosted predictive model uses sets of exogenous and endogenous variables that describe events or objects of interest for modeling purposes, and for which there is a dependent variable for the entity or event. As referred to herein, exogenous variables describe factors that are generally external to the entity or event that is being classified, and are outside of the influence or control of the observed entity or event. Endogenous variables describe factors that internal or a part of the entity or event, and thus under the influence or control of the entity or event. Depending on implementation, the cascaded predictive models can include one or more of an observed exogenous model, an observed endogenous model, an elicited endogenous model, and/or an experimental endogenous model. Each model outputs a predicted component portion of the dependent variable. For example, the observed exogenous model, which receives (as input) a set of exogenous variables (or a subset of them), is useful to predict a component portion that represents the portion that the overall environment contributes to the dependent variable, apart from any of the specific factors controlled by the particular entity or event. The predictive models are cascade boosted in that each model is trained on the residual of the previous model(s) with respect to the dependent variable. For example, a first residual between the output of a first model (e.g., the observed exogenous model) and the value of the dependent variable is then input into a second model (e.g., the observed endogenous model), which then models how the observed endogenous variables contribute to that residual value. A second residual between the output from the s...",
+  "date_published": "20170914",
+  "title": "CASCADED BOOSTED PREDICTIVE MODELS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 127248,
+    "optimized_size": 3327,
+    "reduction_percent": 97.39
+  }
+}

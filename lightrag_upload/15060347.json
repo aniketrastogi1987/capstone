@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170823",
+  "publication_number": "US20170255876A1-20170907",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15060347",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Malatesha",
+      "inventor_name_first": "Rathnakara",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wong",
+      "inventor_name_first": "Lana",
+      "inventor_city": "Randolph",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kitada",
+      "inventor_name_first": "Hiroshi",
+      "inventor_city": "Tuckahoe",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A request classifier service implemented on a server computer receives an input request from a client device. The request classifier service accesses classification data from a knowledge repository. The knowledge repository includes one or more defined input requests mapped to one or more classification types. The request classifier service determines confidence values for the one or more defined input requests. The confidence values represent a relative match score between the input request from the client device and each of the one or more defined input requests. The request classifier service sends classification types to a processing service implemented on the server computer. The processing service determines a process response type for the input request based upon the one or more classification types. The processing logic routes the process response type and the input request to a destination mapped to the process response type.",
+  "filing_date": "20160303",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An apparatus includes one or more processors, one or more memories communicatively coupled to the one or more processors and a request classifier service executing on the apparatus. The request classifier service receives an input request from a client device and in response to receiving an input request, the classifier service accesses classification data from a knowledge repository. The knowledge repository includes classification data from one or more defined input requests mapped to one or more classification types. The request classifier determines confidence values for each of the one or more classification types, where the confidence value represents a relative match score between the input request from the client device and each of the one or more defined input requests. The request classifier sends one or more classification types from the one or more defined input requests mapped to the one or more classification types to a processing service executing on the apparatus. The processing service determines a process response type based on the one or more classification types received from the request classifier service. The processing service routes the process response type and the input request to a destination mapped to the process response type.",
+  "date_published": "20170907",
+  "title": "SYSTEM FOR AUTOMATIC CLASSIFICATION AND ROUTING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 75150,
+    "optimized_size": 3096,
+    "reduction_percent": 95.88
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15602697",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "filing_date": "20170523",
+  "main_ipcr_label": "G06N700",
+  "abstract": "A system and method for predicting remaining lifetime of a component of equipment is provided. The prediction system includes a data module, a feature module, a current data-based prediction module, a historical data-based prediction module, and a confidence module. The data module obtains a test sensor data of the component of equipment. The feature module obtains a historical health indicator and the current-health indicator. The current data-based prediction module obtains a first predicted remaining lifetime and a first prediction confidence according to the current-health indicator. The historical data-based prediction module obtains a second predicted remaining lifetime and a second prediction confidence according to the historical health indicator. The confidence module generates a final predicted remaining lifetime of the component of equipment according to the first predicted remaining lifetime, the second predicted remaining lifetime, the first prediction confidence and the s...",
+  "publication_number": "US20180165592A1-20180614",
+  "summary": "<SOH> SUMMARY <EOH>The disclosure is directed to a system for predicting the remaining lifetime of a component of equipment and the prediction method. The prediction method of the present disclosure uses both the aging trend of the current data and the historical failure data and determines the final predicted remaining lifetime through dynamic allocation, hence effectively increasing the prediction result. The present disclosure can determine the best timing for maintaining or replacing the component of equipment and therefore reduces both unexpected downtime and maintenance frequency of equipment. According to one embodiment, a system for predicting the remaining lifetime of a component of equipment is provided. The system includes a data module, a feature module, a current data-based prediction module, a historical data-based prediction module and a confidence module. The data module obtains a test sensor data of a component of equipment. The feature module obtains a historical health indicator according to historical failure data of the component of equipment, and obtains a current-health indicator according to the test sensor data. The current data-based prediction module obtains a current-health indicator function according to the current-health indicator, obtains a first predicted remaining lifetime according to the current-health indicator function, and obtains a first prediction confidence. The historical data-based prediction module obtains a historical health indicator model, including at least one historical health indicator function, according to the historical health indicator. A second predicted remaining lifetime is obtained according to the historical health indicator model and the current-health indicator function. A second prediction confidence is obtained according to the relationship between the historical health indicator model and the current-health indicator function. The confidence module generates a final predicted remaining lifetime of the...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Po-Yu",
+      "inventor_city": "Tainan City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Chueh",
+      "inventor_name_first": "Chuang-Hua",
+      "inventor_city": "Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Ren",
+      "inventor_name_first": "Jia-Min",
+      "inventor_city": "Hsinchu City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR PREDICTING REMAINING LIFETIME OF A COMPONENT OF EQUIPMENT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 42904,
+    "optimized_size": 3877,
+    "reduction_percent": 90.96
+  }
+}

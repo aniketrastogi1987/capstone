@@ -1,0 +1,31 @@
+{
+  "date_produced": "20161208",
+  "publication_number": "US20160371604A1-20161222",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15182295",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Evans",
+      "inventor_name_first": "Chuck",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods may provide for partitioning a plurality of training samples into a first sequential list of centroids, removing one or more repeating centroids in the first sequential list of centroids to obtain a first reduced list of centroids and generating a set of Hidden Markov Model (HMM) parameters based on the first reduced list of centroids. Additionally, a plurality of detection samples may be partitioned into a second sequential list of centroids, wherein one or more repeating centroids in the second sequential list of centroids may be removed to obtain a second reduced list of centroids. The second reduced list of centroids may be used to determine a match probability for the plurality of detection samples against the set of HMM parameters. In one example, the reduced lists of centroids lack temporal variability.",
+  "filing_date": "20160614",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The various advantages of the embodiments will become apparent to one skilled in the art by reading the following specification and appended claims, and by referencing the following drawings, in which: FIG. 1 is a block diagram of an example of a learning/training sequence according to an embodiment; FIG. 2 is a block diagram of an example of a detection sequence according to an embodiment; FIG. 3 is a flowchart of an example of a method of processing training samples according to an embodiment; FIG. 4 is a flowchart of an example of a method of processing detection samples according to an embodiment; FIG. 5 is a block diagram of an example of a computing device according to an embodiment; FIG. 6 is a block diagram of an example of a processor according to an embodiment; and FIG. 7 is a block diagram of an example of a system according to an embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20161222",
+  "title": "CONTINUOUS INTERACTION LEARNING AND DETECTION IN REAL-TIME",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 50486,
+    "optimized_size": 2378,
+    "reduction_percent": 95.29
+  }
+}

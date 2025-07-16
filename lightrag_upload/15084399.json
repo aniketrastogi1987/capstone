@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15084399",
+  "date_published": "20170302",
+  "date_produced": "20170214",
+  "title": "Structural Data Transfer over a Network",
+  "filing_date": "20160329",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fitzhardinge",
+      "inventor_name_first": "Jeremy",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Udayashankar",
+      "inventor_name_first": "Kishore",
+      "inventor_city": "Milpitas",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2908",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "H04L2908",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. Embodiments disclosed herein are directed to methods and systems for transferring structural data over a network. According to an example embodiment, a method includes providing storage (a source). The storage is operable to store a plurality of objects. Each of the plurality of objects is immutable and includes either a data object or a metadata object. The metadata object includes at least a list of references to at least one further data object or at least one further metadata object. The plurality of objects includes at least one root associated with either a creation or addition of at least one new object to the plurality of objects. The method also includes providing a further storage. The further storage is communicatively coupled to the storage via a network and configured to store at least a copy of the plurality of objects. The method also includes determining whether there is a difference between the plurality of the objects and the copy. In response to the determination, the method can be used to transfer at least one object associated with the difference from the storage to the further storage. In some embodiments, determining whether there is a difference includes determining whether there exists a new root in the plurality of objects that is absent from the copy. In certain embodiments, the difference includes objects present in the storage and absent from the further storage. In some embodiments, the method includes adding the object to the copy. In some embodiments, the method further includes determining that the object refers to a child object prior to transfer of the object. If the resu...",
+  "patent_number": "None",
+  "abstract": "The methods and systems for transferring structural data over a network are provided. An example method includes providing storage operable to store a plurality of objects. The objects of the plurality of objects are immutable and include a data object or a metadata object including a list of references to further objects. The plurality of objects includes at least one root associated with a creation or an addition to the plurality of objects. The method also includes providing a further storage communicatively coupled with the storage via a network and configured to store a copy of the plurality of objects. The method includes determining a presence of a difference between the plurality of the objects and the copy. In response to the determination, the method transfers at least one object associated with the difference from the storage to the further storage.",
+  "publication_number": "US20170063990A1-20170302",
+  "_processing_info": {
+    "original_size": 42675,
+    "optimized_size": 3577,
+    "reduction_percent": 91.62
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "date_produced": "20180124",
+  "publication_number": "US20180039883A1-20180208",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15226478",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kurata",
+      "inventor_name_first": "Gakuto",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Methods and systems for training a neural network include identifying weights in a neural network between a final hidden neuron layer and an output neuron layer that correspond to state matches between a neuron of the final hidden neuron layer and a respective neuron of the output neuron layer. The identified weights are initialized to a predetermined non-zero value and initializing other weights between the final hidden neuron layer and the output neuron layer to zero. The neural network is trained based on a training corpus after initialization.",
+  "filing_date": "20160802",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method for training a neural network include identifying weights in a neural network between a final hidden neuron layer and an output neuron layer that correspond to state matches between a neuron of the final hidden neuron layer and a respective neuron of the output neuron layer. The identified weights are initialized to a predetermined non-zero value and initializing other weights between the final hidden neuron layer and the output neuron layer to zero. The neural network is trained based on a training corpus after initialization. A method for speech recognition includes identifying weights in a neural network between a final hidden neuron layer and an output neuron layer that correspond to state matches between a neuron of the final hidden neuron layer and a respective neuron of the output neuron layer. The identified weights are initialized to a predetermined non-zero value, randomly initializing weights associated with neurons in the final hidden neuron layer that do not match a state of any of the output neurons, and initializing all other weights between the final hidden neuron layer and the output neuron layer to zero. The neural network is trained based on a training corpus after initialization by updating all weights in a weight array between the final hidden neuron layer and the output neuron layer, including the identified weights. Speech recognition is performed using the trained neural network to convert audio voice information into textual information. A system for training a neural network includes an initializing module having a processor configured to identify weights in a neural network between a final hidden neuron layer and an output neuron layer that correspond to state matches between a neuron of the final hidden neuron layer and a respective neuron of the output neuron layer and further configured to initialize the identified weights to a predetermined non-zero value and initializing other weights between the final hidd...",
+  "date_published": "20180208",
+  "title": "NEURAL NETWORK BASED ACOUSTIC MODELS FOR SPEECH RECOGNITION BY GROUPING CONTEXT-DEPENDENT TARGETS",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 49490,
+    "optimized_size": 3133,
+    "reduction_percent": 93.67
+  }
+}

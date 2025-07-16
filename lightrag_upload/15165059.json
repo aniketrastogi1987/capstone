@@ -1,0 +1,51 @@
+{
+  "date_produced": "20170104",
+  "publication_number": "US20170017900A1-20170119",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15165059",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MAOR",
+      "inventor_name_first": "Meir",
+      "inventor_city": "Netanya",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "KARIDI",
+      "inventor_name_first": "Ron",
+      "inventor_city": "Herzliya",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "DAVIDOVICH",
+      "inventor_name_first": "Sagie",
+      "inventor_city": "Zikhron-Yaakov",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "RONEN",
+      "inventor_name_first": "Amir",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "There is provided a method for generating features for use in an automated machine learning process, comprising: receiving a first training dataset comprising unclassified raw data instances each including a set of objects of arbitrary types; applying a function to each data instance to calculate a set of first results; generating a set of classification features each including the function for application to a newly received data instance to calculate a second result, and a condition defined by a respective member of the set of first results applied to the second result; applying each classification feature to each instance of an unclassified second training dataset to generate a set of extracted features; selecting a subset of pivotal classification features from the set of classification features according to a correlation requirement between classification variable(s) and each respective member of the set of extracted features; and documenting the subset of pivotal features.",
+  "filing_date": "20160526",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to an aspect of some embodiments of the present invention there is provided a computer implemented method for generating features for use in an automated machine learning process, comprising: receiving a designation of a first training dataset comprising a plurality of raw data instances, each instance including a set of objects of arbitrary types, each object assigned at least one value, the raw data instances being unclassified; applying a function to each data instance to calculate a set of first results, the function being adapted to process at least one object of the set of objects of each instance, the function being adapted to process objects of arbitrary type; generating a set of classification features for application to a newly received data instance, each classification feature including the function for application to the newly received data instance to calculate a second result, and at least one condition defined by at least one respective member of the set of first results applied to the second result; applying each feature of the generated set of classification features to each instance of a second training dataset of unclassified raw data to generate a set of extracted features; selecting a subset of pivotal classification features from the set of classification features according to a correlation requirement between at least one classification variable and each respective member of the set of extracted features; and documenting the selected subset of pivotal features for use in an automated machine learning process. Optionally, the method further comprises training a statistical classifier for classification of the at least one classification variable based on the selected subset of pivotal features applied to a third training dataset. Optionally, the method further comprises classifying a new data instance to the at least one classification variable by applying each classification feature of the selecte...",
+  "date_published": "20170119",
+  "title": "SYSTEM AND METHOD FOR FEATURE GENERATION OVER ARBITRARY OBJECTS",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 95413,
+    "optimized_size": 3971,
+    "reduction_percent": 95.84
+  }
+}

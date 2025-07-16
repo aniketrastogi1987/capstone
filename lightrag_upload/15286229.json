@@ -1,0 +1,51 @@
+{
+  "date_produced": "20170323",
+  "publication_number": "US20170098157A1-20170406",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15286229",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Noyes",
+      "inventor_name_first": "Harold B",
+      "inventor_city": "Boise",
+      "inventor_state": "ID",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Leventhal",
+      "inventor_name_first": "Michael C.",
+      "inventor_city": "Los Gatos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tanner",
+      "inventor_name_first": "Jeffery M.",
+      "inventor_city": "Boise",
+      "inventor_state": "ID",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bains",
+      "inventor_name_first": "Inderjit Singh",
+      "inventor_city": "Boise",
+      "inventor_state": "ID",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An automaton is implemented in a state machine engine. The automaton is configured to observe data from a beginning of an input data stream until a point when an end of data (EOD) signal is seen. Additionally the automaton is configured to report an event only when one and only one occurrence of a target symbol is seen in the input data stream.",
+  "filing_date": "20161005",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF DRAWINGS <EOH>FIG. 1 illustrates an example of system having a state machine engine, according to various embodiments; FIG. 2 illustrates an example of an FSM lattice of the state machine engine of FIG. 1 , according to various embodiments; FIG. 3 illustrates an example of a block of the FSM lattice of FIG. 2 , according to various embodiments; FIG. 4 illustrates an example of a row of the block of FIG. 3 , according to various embodiments; FIG. 4A illustrates a block as in FIG. 3 having counters in rows of the block, according to various embodiments of the invention; FIG. 5 illustrates an example of a Group of Two of the row of FIG. 4 , according to embodiments; FIG. 6 illustrates an example of a finite state machine graph, according to various embodiments; FIG. 7 illustrates an example of two-level hierarchy implemented with FSM lattices, according to various embodiments; FIG. 7A illustrates a second example of two-level hierarchy implemented with FSM lattices, according to various embodiments; FIG. 8 illustrates an example of a method for a compiler to convert source code into a binary file for programming of the FSM lattice of FIG. 2 , according to various embodiments; FIG. 9 illustrates a state machine engine, according to various embodiments; FIG. 10 illustrates an example of the target symbol as the letter a; FIG. 11 illustrates an example when the trailing # symbol is seen, such an automaton could report if the number of A symbols seen was odd or even; FIG. 12 illustrates an example of one such automaton constructed only with STEs; FIG. 13 illustrates an example of an automaton constructed with STEs, counter and Boolean elements; FIG. 14 illustrates an example when a # symbol is issued, the exemplary automaton reports the current count; FIG. 15 illustrates an example of a four-bit counter; FIG. 16 illustrates an example of an alternative for creating a four-bit (non-contiguous counter); FIG. 17 illustrates an example does not gener...",
+  "date_published": "20170406",
+  "title": "METHODS AND SYSTEMS FOR EVENT REPORTING",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 219700,
+    "optimized_size": 3322,
+    "reduction_percent": 98.49
+  }
+}

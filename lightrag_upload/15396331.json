@@ -1,0 +1,61 @@
+{
+  "date_produced": "20171025",
+  "publication_number": "US20170323201A1-20171109",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15396331",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sutskever",
+      "inventor_name_first": "Ilya",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Danihelka",
+      "inventor_name_first": "Ivo",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Graves",
+      "inventor_name_first": "Alexander Benjamin",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Wayne",
+      "inventor_name_first": "Gregory Duncan",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Zaremba",
+      "inventor_name_first": "Wojciech",
+      "inventor_city": "Kluczbork",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for augmenting neural networks with an external memory using reinforcement learning. One of the methods includes providing an output derived from the system output portion of the neural network output as a system output in the sequence of system outputs; selecting a memory access process from a predetermined set of memory access processes for accessing the external memory from the reinforcement learning portion of the neural network output; writing and reading data from locations in the external memory in accordance with the selected memory access process using the differentiable portion of the neural network output; and combining the data read from the external memory with a next system input in the sequence of system inputs to generate a next neural network input in the sequence of neural network inputs.",
+  "filing_date": "20161230",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to augmented neural network systems. In general, an augmented neural network system includes a neural network configured to receive a neural network input and generate a neural network output, an external memory that stores values derived from portions of the neural network output, and a memory interface subsystem that is configured to receive portions of the neural network output and erase, write, and read from the external memory using the received portions. More specifically, the portions of the neural network output received by the memory interface subsystem include a reinforcement learning output portion and a differentiable output portion. The memory interface subsystem uses the reinforcement learning output portion to select a memory access process and then accesses the external memory using the differentiable output portion in accordance with the selected memory access process. For a system of one or more computers to be configured to perform particular operations or actions means that the system has installed on it software, firmware, hardware, or a combination of them that in operation cause the system to perform the operations or actions. For one or more computer programs to be configured to perform particular operations or actions means that the one or more programs include instructions that, when executed by data processing apparatus, cause the apparatus to perform the operations or actions. The subject matter described in this specification can be implemented in particular embodiments so as to realize one or more of the following advantages. The performance of the augmented neural network system can be improved by training the neural network to select the memory access process to be performed to access the external memory for each input in the sequence of system inputs. In particular, by using reinforcement learning to allow the neural network to generate an output that defines a ...",
+  "date_published": "20171109",
+  "title": "AUGMENTING NEURAL NETWORKS WITH EXTERNAL MEMORY USING REINFORCEMENT LEARNING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F306",
+    "G06F306",
+    "G06F306"
+  ],
+  "_processing_info": {
+    "original_size": 73151,
+    "optimized_size": 4109,
+    "reduction_percent": 94.38
+  }
+}

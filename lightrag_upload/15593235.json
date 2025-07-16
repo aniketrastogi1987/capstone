@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15593235",
+  "date_published": "20171130",
+  "date_produced": "20171115",
+  "filing_date": "20170511",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A new approach is proposed to support efficient convolution for deep learning by vectorizing multi-dimensional input data for multi-dimensional fast Fourier transform (FFT) and direct memory access (DMA) for data transfer. Specifically, a deep learning processor (DLP) includes a plurality of tensor engines each configured to perform convolution operations by applying one or more kernels on multi-dimensional input data for pattern recognition and classification based on a neural network, wherein each tensor engine includes, among other components, one or more vector processing engines each configured to vectorize the multi-dimensional input data at each layer of the neural network to generate a plurality of vectors and to perform multi-dimensional FFT on the generated vectors and/or the kernels to create output for the convolution operations. Each tensor engine further includes a data engine configured to prefetch the multi-dimensional data and/or the kernels to both on-chip and externa...",
+  "publication_number": "US20170344880A1-20171130",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Aspects of the present disclosure are best understood from the following detailed description when read with the accompanying figures. It is noted that, in accordance with the standard practice in the industry, various features are not drawn to scale. In fact, the dimensions of the various features may be arbitrarily increased or reduced for clarity of discussion. FIG. 1 depicts an example of a diagram of a system configured to support hardware-based deep learning processing in accordance with some embodiments. FIG. 2 depicts an example of a convolutional neural network for pattern recognition and classification in accordance with some embodiments. FIG. 3 depicts an example of a butterfly operation for FFT computation in accordance with some embodiments. FIG. 4 depicts an example of a block diagram of key components of each tensor engine in accordance with some embodiments. FIG. 5A depicts an example of column-wise vectorization of the input data in accordance with some embodiments. FIG. 5B depicts an example of a butterfly operation on retrieved vectors from each row in accordance with some embodiments. FIG. 6 depicts an example of FFT on input data having more than two-dimensions in accordance with some embodiments. FIG. 7 depicts an example of row FFT on data having more than two-dimensions stored in row major in accordance with some embodiments. FIG. 8 depicts an example of register level FFT in accordance with some embodiments. FIG. 9 depicts an example of mixed memory and register level FFT in accordance with some embodiments. FIG. 10 depicts a flowchart of an example of a process to support vectorized FFT for multi-dimensional convolution in accordance with some embodiments. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F1716"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nekuii",
+      "inventor_name_first": "Mehran",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR VECTORIZED FFT FOR MULTI-DIMENSIONAL CONVOLUTION OPERATIONS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 40423,
+    "optimized_size": 3421,
+    "reduction_percent": 91.54
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15445687",
+  "date_published": "20170622",
+  "date_produced": "20170607",
+  "filing_date": "20170228",
+  "main_ipcr_label": "G06N502",
+  "abstract": "Techniques for data pattern analysis using deterministic finite automaton are described herein. In one embodiment, a number of transitions from a current node to one or more subsequent nodes representing one or more sequences of data patterns is determined, where each of the current node and subsequent nodes is associated with a deterministic finite automaton (DFA) state. A data structure is dynamically allocated for each of the subsequent nodes for storing information associated with each of the subsequent nodes, where data structures for the subsequent nodes are allocated in an array maintained by a data structure corresponding to the current node if the number of transitions is greater than a predetermined threshold. Other methods and apparatuses are also described.",
+  "publication_number": "US20170178003A1-20170622",
+  "summary": "<SOH> SUMMARY OF THE PRESENTLY CLAIMED INVENTION <EOH>Techniques for data pattern analysis using deterministic finite automaton are described herein. In one embodiment, a number of transitions from a current node to one or more subsequent nodes representing one or more sequences of data patterns is determined, where each of the current node and subsequent nodes is associated with a deterministic finite automaton (DFA) state. A data structure is dynamically allocated for each of the subsequent nodes for storing information associated with each of the subsequent nodes, where data structures for the subsequent nodes are allocated in an array maintained by a data structure corresponding to the current node if the number of transitions is greater than a predetermined threshold. Other features of the present invention will be apparent from the accompanying drawings and from the detailed description which follows.",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Dubrovsky",
+      "inventor_name_first": "Aleksandr",
+      "inventor_city": "San Mateo",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brady",
+      "inventor_name_first": "Justin Michael",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yanovsky",
+      "inventor_name_first": "Roman",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yanovsky",
+      "inventor_name_first": "Boris",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DATA PATTERN ANALYSIS USING OPTIMIZED DETERMINISTIC FINITE AUTOMATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 56575,
+    "optimized_size": 2720,
+    "reduction_percent": 95.19
+  }
+}

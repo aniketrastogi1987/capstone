@@ -1,0 +1,46 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15334440",
+  "date_published": "20180426",
+  "date_produced": "20180411",
+  "title": "AUTHORIZATION TO ACCESS A SERVER IN THE CLOUD WITHOUT OBTAINING AN INITIAL SECRET",
+  "filing_date": "20161026",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sapir",
+      "inventor_name_first": "Boaz",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Keselman",
+      "inventor_name_first": "Gleb",
+      "inventor_city": "Modiin",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Sheffer",
+      "inventor_name_first": "Yaron",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "H04L2908",
+    "G06F2162"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure address some of the shortcomings associated with current storage container security schemes by providing methods and systems that provide efficient and secure access control for data management systems. Embodiments of the present disclosure address some of the drawbacks of typical access control schemes by providing an access control system that can provide an initial access secret, such as an access key, directly to a cloud-based client machine based on the characteristics of the client machine. The access control system defines an access policy including a set of rules that define the properties of an authorized client machine. When the access control system receives access request data from a client machine requesting access to the data management system, the access control system retrieves access policy data related to the access policy. The access policy data includes the set of rules that govern access to the access control system under the access policy. The client machine can provide client characteristics data together with the access request data or as a follow-up to the access request data. The access control system then compares the client characteristics data to the access policy data in order to determine whether the client characteristics data satisfies the rules of the access policy. In obtaining and evaluating the client characteristics, the access control system uses mechanisms that are not directly controlled by the client and that therefore can be trusted more than information provided by the client itself. These mechanisms may include the cloud infrastructure that manages the client's runtime environment. If the client characteristics data satisfies the rules of the access policy, then the access control system provides an initial access secret to the client machine. The client machine can then use the initial access secret to gain access to the data management system. In this way, the acc...",
+  "patent_number": "10027669",
+  "abstract": "A method and system provides access control for sensitive data. An access control system defines a plurality of access policies for gaining access to the sensitive data. Each access policy includes a plurality of rules that indicate whether or not the client machine can gain access to an initial access secret under the policy. When the access control system receives access request data from a client machine requesting access to the access control system under one of the policies, the access control system compares characteristics of the client machine to the rules of the access policy. If the characteristics of the client machine satisfy the rules of the access policy in the access control system provides an initial access secret, such as an application key, to the client machine.",
+  "publication_number": "US20180115550A1-20180426",
+  "_processing_info": {
+    "original_size": 107307,
+    "optimized_size": 3672,
+    "reduction_percent": 96.58
+  }
+}

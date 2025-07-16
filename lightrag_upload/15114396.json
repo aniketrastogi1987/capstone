@@ -1,0 +1,59 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15114396",
+  "date_published": "20161124",
+  "date_produced": "20161109",
+  "title": "GESTURE CONTROL",
+  "filing_date": "20160726",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NOLAN",
+      "inventor_name_first": "JULIAN CHARLES",
+      "inventor_city": "EINDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "LAWRENSON",
+      "inventor_name_first": "JOHN MATTHEW",
+      "inventor_city": "EINDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "VAN EEUWIJK",
+      "inventor_name_first": "ALEXANDER HENRICUS WALTHERUS",
+      "inventor_city": "EINDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "VANDEN WYNGAERT",
+      "inventor_name_first": "HILBRAND",
+      "inventor_city": "EINDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "CHELTON",
+      "inventor_name_first": "WILLIAM NATHAN",
+      "inventor_city": "EINDHOVEN",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    }
+  ],
+  "ipcr_labels": [
+    "H05B3702",
+    "G06F301"
+  ],
+  "main_ipcr_label": "H05B3702",
+  "summary": "<SOH> SUMMARY <EOH>Even if one were to combine gesture control with a particular response such as the lights being dimmed in a distribution around the user, then a given gesture would still always have the same response or function wherever the user went within the space in question. E.g. wherever the user went, the raising or lower of the hand would still always simply perform the same function of raising or lowering the lights in a distribution around the location of the user. It is recognised herein on the other hand, that it would be desirable if not only the lighting itself were controlled based on gesture and position, but also if the way in which gesture controls the lighting could also vary in dependence on the user's position. Accordingly, in the following disclosure, different control policies are applied depending on user position, where each policy defines a different respective response of the lighting to a gesture. I.e. each control policy controls the output of the system as a different function of gesture, and different functions of gesture are provided for different user positions. The term “position” as used herein may refer to location and/or orientation, so for example different responses may be assigned to different zones within a room or other space, and/or the response may depend on the direction the user is facing in. Thus advantageously, a gesture can be interpreted in dependence on the detected position of the user, such as to assign a meaning that is most appropriate to the current position from which the user performs the gesture. For instance a user performing a certain gesture at the entrance of a room may wish to dim all the light sources in the room uniformly, while a user sitting at a desk may wish to dim only the light sources around the desk and/or to dim the light sources according to a brightness distribution around the desk. Or as another example, a user may wish to dim only those light sources within his or her field of view, u...",
+  "patent_number": "9872362",
+  "abstract": "A controller, method and program for controlling one or more sources of a utility to provide the utility into a space occupied by one or more users, e.g. for controlling light sources illuminating an indoor or outdoor space. An input from one or more sensors is processed to detect motions of a user in the space, to detect that the motions correspond to predetermined gestures performed by the user, and to detect a position from which each gesture was performed. Further, each of a plurality of discrete control policies is associated with a respective combination of predetermined gesture and positional demarcation within the space. Each control policy defines a respective response of the utility to the respective associated gesture. For gestures performed from each of a plurality of different positions, a different control policy is selected based on being associated with the detected gesture and detected position.",
+  "publication_number": "US20160345407A1-20161124",
+  "_processing_info": {
+    "original_size": 79768,
+    "optimized_size": 4097,
+    "reduction_percent": 94.86
+  }
+}

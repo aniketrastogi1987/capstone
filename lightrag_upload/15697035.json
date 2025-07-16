@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15697035",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "filing_date": "20170906",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Apparatuses and methods of manufacturing same, systems, and methods for performing network parameter quantization in deep neural networks are described. In one aspect, multi-dimensional vectors representing network parameters are constructed from a trained neural network model. The multi-dimensional vectors are quantized to obtain shared quantized vectors as cluster centers, which are fine-tuned. The fine-tuned and shared quantized vectors/cluster centers are then encoded. Decoding reverses the process.",
+  "publication_number": "US20180107926A1-20180419",
+  "summary": "<SOH> SUMMARY <EOH>Accordingly, the present disclosure has been made to address at least the problems and/or disadvantages described herein and to provide at least the advantages described below. According to an aspect of the present disclosure, a method is provided which determines diagonals of a second-order partial derivative matrix (a Hessian matrix) of a loss function of network parameters of a neural network and uses the determined diagonals to weight (Hessian-weighting) the network parameters as part of quantizing the network parameters. According to an aspect of the present disclosure, a method is provided which trains a neural network using first and second moment estimates of gradients of the network parameters and uses the second moment estimates to weight the network parameters as part of quantizing the network parameters. According to an aspect of the present disclosure, an apparatus is provided in a neural network, including one or more non-transitory computer-readable media and at least one processor which, when executing instructions stored on one or more non transitory computer readable media, performs the steps of: determining diagonals of a second-order partial derivative matrix (a Hessian matrix) of a loss function of network parameters of a neural network; and using the determined diagonals to weight (Hessian-weighting) the network parameters as part of quantizing the network parameters. According to an aspect of the present disclosure, a method for network quantization using multi-dimensional vectors is provided, including constructing multi-dimensional vectors representing network parameters from a trained neural network model; quantizing the multi-dimensional vectors to obtain shared quantized vectors as cluster centers; fine-tuning the shared quantized vectors/cluster centers; and encoding using the shared quantized vectors/cluster centers. According to an aspect of the present disclosure, an apparatus is provided, including one or more non-...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F758"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Yoo Jin",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "El-Khamy",
+      "inventor_name_first": "Mostafa",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LEE",
+      "inventor_name_first": "Jungwon",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR NEURAL NETWORK QUANTIZATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 129283,
+    "optimized_size": 3354,
+    "reduction_percent": 97.41
+  }
+}

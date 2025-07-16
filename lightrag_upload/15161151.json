@@ -1,0 +1,46 @@
+{
+  "date_produced": "20161116",
+  "publication_number": "US20160350672A1-20161201",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15161151",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Snyder",
+      "inventor_name_first": "Kieran",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kolba, JR.",
+      "inventor_name_first": "Robert E.",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Harris",
+      "inventor_name_first": "Jensen",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Evaluations of a document are generated that indicate likelihoods of the document achieving its objectives. The evaluations are based on predictive characteristics of one or more outcomes of the client document that are indicative of whether the document will achieve its objectives. Specifically, a server receives the document from a client device. The server extracts a set of features from the document. The evaluations of the document are generated based on the predictive characteristics for the one or more outcomes of the document. The generated evaluations are provided to the client device such that the document can be optimized to achieve its desired objectives. The optimized document may also be sent to a posting server for posting to a computer network. The known outcomes of the optimized document are collected through reader responses to the document and analyzed to improve evaluations for other documents.",
+  "filing_date": "20160520",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The above and other issues are addressed by a method, computer-readable medium, and analysis server for evaluating an electronic document with respect to an objective. An embodiment of the method comprises receiving the electronic document from a client device via a computer network. The electronic document has content directed toward achieving an objective. The method comprises extracting a set of features from the content of the electronic document. The method also comprises evaluating the features in the set using one or more machine-learned models that indicate directions and degrees of correlation between the features extracted from the content of the electronic document and the objective to which the content of the document is directed to predict an outcome of the electronic document with respect to the objective. The method further comprises providing the predicted outcome to the client device. An embodiment of the medium includes a non-transitory computer-readable medium storing executable computer program instructions for evaluating an electronic document with respect to an objective. The computer program instructions comprise receiving the electronic document from a client device via a computer network. The electronic document has content directed toward achieving an objective. The instructions comprise extracting a set of features from the content of the electronic document. The instructions also comprise evaluating the features in the set using one or more machine-learned models that indicate directions and degrees of correlation between the features extracted from the content of the electronic document and the objective to which the content of the document is directed to predict an outcome of the electronic document with respect to the objective. The instructions further comprise providing the predicted outcome to the client device. An embodiment of the analysis server comprises a non-transitory computer-readable storage medium storin...",
+  "date_published": "20161201",
+  "title": "Using Machine Learning to Predict Outcomes for Documents",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900",
+    "H04L1258"
+  ],
+  "_processing_info": {
+    "original_size": 68528,
+    "optimized_size": 3790,
+    "reduction_percent": 94.47
+  }
+}

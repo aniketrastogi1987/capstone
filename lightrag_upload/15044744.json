@@ -1,0 +1,58 @@
+{
+  "date_produced": "20160824",
+  "publication_number": "US20160260018A1-20160908",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15044744",
+  "inventor_list": [
+    {
+      "inventor_name_last": "OGAWA",
+      "inventor_name_first": "Masatoshi",
+      "inventor_city": "Zama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KASAJIMA",
+      "inventor_name_first": "Takeo",
+      "inventor_city": "Machida",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "ENDO",
+      "inventor_name_first": "Hiroshi",
+      "inventor_city": "Isehara",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "FUKUDA",
+      "inventor_name_first": "Hiroyuki",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KONDO",
+      "inventor_name_first": "Masao",
+      "inventor_city": "Sagamihara",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "An information processing apparatus includes a database configured to store a plurality of physical quantities in time-series, a processor, and a memory storing a program causing the processor to execute acquiring the plurality of physical quantities, selecting first explanatory variates, selecting second explanatory variates, generating past case data by acquiring the physical quantities corresponding to the objective variates and an input variate group of the first explanatory variates and the second explanatory variates, searching for predetermined pieces of past case data in the sequence from the shortest of the inter-vector distances, building up the second model from the input variate group in the predetermined pieces of searched past case data and from the objective variates, and predicting values of objective variates from the second model.",
+  "filing_date": "20160216",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One aspect of the embodiments is exemplified by an information processing apparatus described below. To be specific, the information processing apparatus includes a database configured to store a plurality of physical quantities acquired in time-series together with time. The information processing apparatus further includes a processor and a memory storing a program causing the processor to execute acquiring the plurality of physical quantities in time-series, extracting, as one or more explanatory variates, one or more physical quantities becoming factors for variations of one or more objective variates with respect to the one or more objective variates set from one or more prediction target physical quantities in the plurality of physical quantities, selecting such one or more first explanatory variates as to minimize errors between actual values of the physical quantities set in the one or more objective variates and prediction values of a first model based on the one or more objective variates when presuming the first model from the one or more explanatory variates, selecting such one or more second explanatory variates as to minimize errors between the actual values of the physical quantities set in the one or more objective variates and prediction values of a second model based on one or more objective variates when presuming the second model added to the first model by setting, as the explanatory variates, the physical quantities other than the physical quantities selected as the one or more first explanatory variates in the plurality of physical quantities, generating past case data by acquiring, from the database, the physical quantities corresponding to the one or more objective variates and an input variate group of the first explanatory variates and the second explanatory variates, setting, when the prediction is requested, the current physical quantities corresponding to the input variate group in the input vectors for predicting the...",
+  "date_published": "20160908",
+  "title": "PHYSICAL QUANTITIES PREDICTION APPARATUS AND METHOD",
+  "ipcr_labels": [
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 92736,
+    "optimized_size": 3971,
+    "reduction_percent": 95.72
+  }
+}

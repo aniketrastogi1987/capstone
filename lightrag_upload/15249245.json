@@ -1,0 +1,65 @@
+{
+  "decision": "PENDING",
+  "application_number": "15249245",
+  "date_published": "20180301",
+  "date_produced": "20180213",
+  "title": "HIGH-PERFORMANCE PROCESSOR INSTRUCTION TRACING",
+  "filing_date": "20160826",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Krell",
+      "inventor_name_first": "Jay",
+      "inventor_city": "Renton",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chau",
+      "inventor_name_first": "HoYuen",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Murphy",
+      "inventor_name_first": "Allan James",
+      "inventor_city": "Woodinville",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Danny",
+      "inventor_city": "Woodinville",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pratschner",
+      "inventor_name_first": "Steven",
+      "inventor_city": "Duvall",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vo",
+      "inventor_name_first": "Hoi Huu",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1136"
+  ],
+  "main_ipcr_label": "G06F1136",
+  "summary": "<SOH> SUMMARY <EOH>The Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. The Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. In one embodiment, a method comprises, for an input program comprising executable instructions, transcribing a plurality of the executable instructions into a run buffer, wherein the transcribing generates a transcribed executable instruction based on an original executable instruction of the input program; and executing the run buffer, wherein executing the run buffer comprises extracting execution information for the transcribed executable instruction in the run buffer, recording the execution information for the transcribed execution information for the transcribed executable instruction, and executing the transcribed executable instruction. In another embodiment, a computing system comprises one or more hardware processors; and an instruction tracer receiving an input program and generating an execution log, wherein the instruction tracer comprises a run buffer and transcribes a plurality of executable instructions of the input program into the run buffer, injects an executable address extraction instruction into the run buffer, and executes the run buffer; wherein the executable address extraction instruction extracts an address of a memory access by a transcribed executable instruction when executed, and the address is recorded in the execution log. In another embodiment, one or more computer-readable media comprise computer-executable instructions that when executed cause a computing system to perform a method comprising receiving an input program comprising executable instructions comprising memory access instructions, branch instructions, and other instructions; transcribing a plurality of the executable instructio...",
+  "patent_number": "None",
+  "abstract": "High-performance tracing can be achieved for an input program having a plurality of instructions. Techniques such as executable instruction transcription can enable execution of a plurality of instructions at a time via a run buffer. Execution information can be extracted via run buffer execution. Fidelity of execution can be preserved by executing instructions on the target processor. Other features, such as an executable extraction instruction ensemble, branch interpretation, and relative address compensation can be implemented. High quality instruction tracing can thus be achieved without the usual performance penalties.",
+  "publication_number": "US20180060212A1-20180301",
+  "_processing_info": {
+    "original_size": 67679,
+    "optimized_size": 3896,
+    "reduction_percent": 94.24
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170201",
+  "publication_number": "US20170046629A1-20170216",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15306704",
+  "inventor_list": [
+    {
+      "inventor_name_last": "REINECKE",
+      "inventor_name_first": "Philipp",
+      "inventor_city": "Bristol",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "MONAHAN",
+      "inventor_name_first": "Brian Quentin",
+      "inventor_city": "Bristol",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "GRIFFIN",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "Bristol",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "According to an example, statistics-based data trace classification may include generating sets of training data traces from training data information by assigning a subset of the training data information that has a predetermined property with a first label and assigning another subset of the training data information that does not have the predetermined property with a second label. A trained trace classifier may be generated to detect whether or not a set of input data traces satisfies the predetermined property. The trace classifier may be trained to learn the predetermined property from a statistical data object determined from the sets of the training data traces, and the first and second labels related to the sets of the training data traces.",
+  "filing_date": "20161025",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF DRAWINGS <EOH>Features of the present disclosure are illustrated by way of example and not limited in the following figure(s), in which like numerals indicate like elements, in which: FIG. 1 illustrates an architecture of a statistics-based data trace classification apparatus, according to an example of the present disclosure; FIGS. 2A and 2B illustrate pseudo-code for a genetic process for implementing aspects of the statistics-based data trace classification apparatus, according to an example of the present disclosure; FIG. 3 illustrates a data trace for random variable kbd_evts, according to an example of the present disclosure; FIG. 4 illustrates raw data for a scenario (i.e., a set) containing several data traces, according to an example of the present disclosure; FIG. 5 illustrates supported statistics, according to an example of the present disclosure; FIG. 6 illustrates pseudo-code representing a trace classifier, according to an example of the present disclosure; FIG. 7 illustrates pseudo-code that illustrates computation of a fitness function of a genome, according to an example of the present disclosure; FIG. 8 illustrates training and operation phases of the statistics-based data trace classification apparatus, according to an example of the present disclosure; FIG. 9 illustrates a method for statistics-based data trace classification, according to an example of the present disclosure; FIG. 10 illustrates further details of the method for statistics-based data trace classification, according to an example of the present disclosure; and FIG. 11 illustrates a computer system, according to an example of the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170216",
+  "title": "STATISTICS-BASED DATA TRACE CLASSIFICATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2906",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 67107,
+    "optimized_size": 3370,
+    "reduction_percent": 94.98
+  }
+}

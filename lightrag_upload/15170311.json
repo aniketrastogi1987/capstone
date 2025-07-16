@@ -1,0 +1,37 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15170311",
+  "date_published": "20161215",
+  "date_produced": "20161130",
+  "title": "METHOD FOR SCHEDULING A RELOAD OF SUPPLY MATERIAL IN A PRINTING SYSTEM",
+  "filing_date": "20160601",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HOWARD",
+      "inventor_name_first": "William E.P.P.",
+      "inventor_city": "Venlo",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "VAN BAKEL",
+      "inventor_name_first": "Roel W.A.",
+      "inventor_city": "Venlo",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F312"
+  ],
+  "main_ipcr_label": "G06F312",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to the present invention the objective is achieved by the method as described here-above, wherein the method comprises the steps of a) determining a plurality of moments in time that the supply material input holder is empty, and b) simultaneously scheduling for each determined moment in time of the plurality of moments in time a reload event of reloading the supply material input holder with the supply material in the scheduling scheme, wherein the plurality of moments in time is determined by taking into account the total planned usage of the supply material from the supply material input holder according to print job specifications of the at least one print job scheduled in the print job queue and a capacity of the supply material input holder with respect to the properties of the supply material, and each of the determined moments in time is established on the basis of the settable print velocity of the printing system with respect to the at least one print job in the print job queue. By scheduling the plurality of moments the operator is able to look beyond the first moment in time of the supply material input holder to become empty. With the capacity of the supply material input holder is meant a maximum used capacity for a reload of the supply material input holder. The capacity is usually measured in an amount of pieces of supply material to be loaded, a volume of the supply material loaded or a weight of the supply material to be loaded. According to an embodiment the printing system comprises a plurality of supply material input holders and the method comprises the steps of assigning each supply material input holder of the plurality of supply material input holders to a kind of supply material and applying the steps a)-b) for each supply material input holder of the plurality of supply material input holders. A kind of supply material may be an image recording material, a marking material and/or a finishing ma...",
+  "patent_number": "9798506",
+  "abstract": "A method for scheduling a reload of a supply material in a printing system including a print engine capable of printing at a settable print velocity while using the supply material, a control unit for controlling a print job queue comprising at least one print job scheduled to be printed by means of a scheduling scheme while using the supply material, a supply material input holder for holding the supply material, and a user interface for interacting with a user of the printing system. The method includes determining a plurality of moments in time that the supply material input holder is empty, and simultaneously scheduling for each determined moment in time of the plurality of moments in time a reload event of reloading the supply material input holder with the supply material in the scheduling scheme. The plurality of moments in time is determined by taking into account the total planned usage of the supply material from the supply material input holder according to print job specifi...",
+  "publication_number": "US20160364186A1-20161215",
+  "_processing_info": {
+    "original_size": 70502,
+    "optimized_size": 3715,
+    "reduction_percent": 94.73
+  }
+}

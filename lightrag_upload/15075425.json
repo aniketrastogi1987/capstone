@@ -1,0 +1,51 @@
+{
+  "date_produced": "20160628",
+  "publication_number": "US20160203410A1-20160714",
+  "main_ipcr_label": "G06N700",
+  "decision": "ACCEPTED",
+  "application_number": "15075425",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BAUGHMAN",
+      "inventor_name_first": "AARON K.",
+      "inventor_city": "SILVER SPRING",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "EGGENBERGER",
+      "inventor_name_first": "CHRISTIAN",
+      "inventor_city": "WIL",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "MALKIN",
+      "inventor_name_first": "PETER K.",
+      "inventor_city": "ARDSLEY",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MARZORATI",
+      "inventor_name_first": "MAURO",
+      "inventor_city": "LUTZ",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A forecasting cohort includes a first set of forecasting algorithms and a second set of forecasting algorithms. A half-life of each of the first set of forecasting algorithms and the second set of forecasting algorithms are determined. A half-life weight for each of the first set of forecasting algorithms and the second set of forecasting algorithms at a subsequent time are determined, such that the half-life weights decrease an effect of a forecasting algorithm as time elapses. A confidence level of the forecasting cohort at the subsequent time is determined and used to adjust resource usage.",
+  "filing_date": "20160321",
+  "patent_number": "9536204",
+  "summary": "<SOH> SUMMARY <EOH>A method, system, and/or computer program product implements a forecasting cohort. One or more processors generate a forecasting cohort of forecasting algorithms, where the forecasting cohort includes a first set of forecasting algorithms of a first type of forecasting algorithm and a second set of forecasting algorithms of a second type of forecasting algorithm. Processor(s) determine a half-life of each of the first set of forecasting algorithms and the second set of forecasting algorithms, where the half-life describes a subsequent time at which a forecasting algorithm has reached half of its forecast horizon as measured from an initial time. Processor(s) determine a half-life weight for each of the first set of forecasting algorithms and the second set of forecasting algorithms, where half-life weights decrease an effect of a forecasting algorithm as time elapses. Processor(s) determine a confidence level of the forecasting cohort at the subsequent time, where the confidence level is based on the half-life weight of each of the first set of forecasting algorithms and the second set of forecasting algorithms. Processor(s) utilize the confidence level of the forecasting cohort at the subsequent time to adjust resource usage. Processor(s) receive sensor readings from a device, where the sensor readings describe current conditions of the device, and wherein the device includes resources. Processor(s) predict future usage of the resources in the device based on the confidence level of the forecasting cohort. Processor(s) reallocate the resources used by the device based on the predicted future usage.",
+  "date_published": "20160714",
+  "title": "COHORT HALF LIFE FORECASTING COMBINATION FROM A CONFIDENT JURY",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 51595,
+    "optimized_size": 3243,
+    "reduction_percent": 93.71
+  }
+}

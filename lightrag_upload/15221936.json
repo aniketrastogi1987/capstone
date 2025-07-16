@@ -1,0 +1,37 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15221936",
+  "date_published": "20170202",
+  "date_produced": "20170119",
+  "title": "DEPLOYING SOFTWARE IN A MULTI-INSTANCE NODE",
+  "filing_date": "20160728",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sarkar",
+      "inventor_name_first": "Sanhita",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Morcos",
+      "inventor_name_first": "Raymon",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F950"
+  ],
+  "main_ipcr_label": "G06F950",
+  "summary": "<SOH> SUMMARY <EOH>A technique is provided for deploying big data software in a multi-instance mode on a large, coherent shared memory many-core computing system for high performance and scalability. Most big data software running in a single instance mode has limitations in scalability when running on a many-core and large coherent shared memory system. A configuration and deployment technique using a multi-instance approach maximizes system performance and resource utilization, reducing latency and providing scalability as needed. In an embodiment, a method for deploying big data software in a multi-instance mode may begin with determining a core-memory ratio for a single instance execution. A number of instances may be determined in a multi-instance database. The optimal core-memory ratio may be applied to each instance. In an embodiment, a system may deploy big data software in a multi-instance node. The system may include a processor, memory, and one or more modules stored in memory. The one or more modules may be executable by the processor to determine a core-memory ratio for a single instance execution of a software program, determine a number of instances of the software to deploy in a multi-instance database, and apply the optimal core-memory ratio to each instance by a module stored in memory and executed by a processor.",
+  "patent_number": "9619288",
+  "abstract": "A system for deploying big data software in a multi-instance node. The optimal CPU memory and core configuration for a single instance database is determined. After determining an optimal core-memory ratio for a single instance execution, the software is deployed in multi-instance mode on single machine by applying the optimal core-memory ratio for each of the instances. The multi-instance database may then be deployed and data may be loaded in parallel for the instances.",
+  "publication_number": "US20170031720A1-20170202",
+  "_processing_info": {
+    "original_size": 38054,
+    "optimized_size": 2508,
+    "reduction_percent": 93.41
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "filing_date": "20180115",
+  "publication_number": "US20180150746A1-20180531",
+  "decision": "PENDING",
+  "summary": "<SOH> SUMMARY <EOH>To resolve a prior-art problem of spending much time on feature learning, embodiments of the present disclosure provide a feature set determining method, in which different processing methods are used for different types of data, so that not only feature learning efficiency is improved, but also an optimal feature set including features with higher accuracy rates can be obtained, thereby improving an accuracy rate of a determined feature set. The embodiments of the present disclosure further provide a corresponding apparatus. To achieve the foregoing objective, the following technical solutions are used in the embodiments of the present disclosure. A first aspect of the present disclosure provides a feature set determining method, and the feature set determining method is often applied to a distributed computing platform. The distributed computing platform may include multiple computing nodes, and each computing node may trigger a feature set determining process according to an instruction of a control node or a preconfigured task. The feature set determining method may include obtaining, according to a received feature set determining request, data used for feature learning, where the feature set determining request includes a learning objective of the feature learning, performing type analysis on the obtained data, to divide the data into first-type data and second-type data, where the first-type data is non-numeric-type data, and the second-type data is numeric-type data, performing semi-supervised learning on the first-type data, to extract multiple first-type features, and performing adaptive learning on the second-type data, to extract multiple second-type features, evaluating the multiple first-type features and the multiple second-type features, to obtain an optimal feature set, where the optimal feature set includes multiple features with accuracy rates meeting a preset condition, and the accuracy rate is a degree of closeness between eac...",
+  "title": "Feature Set Determining Method and Apparatus",
+  "ipcr_labels": [
+    "G06N308",
+    "G06K962",
+    "G06F1716"
+  ],
+  "abstract": "A feature set determining method includes obtaining, according to a received feature set determining request, data used for feature learning. The feature set determining request includes a learning objective of the feature learning. The method includes performing type analysis on the data to divide the data into first-type data and second-type data. The method includes performing semi-supervised learning on the first-type data to extract multiple first-type features. The method includes performing adaptive learning on the second-type data to extract multiple second-type features. The method includes evaluating the first-type features and the second-type features to obtain an optimal feature set.",
+  "patent_number": "nan",
+  "application_number": "15871460",
+  "date_published": "20180531",
+  "main_ipcr_label": "G06N308",
+  "date_produced": "20180516",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tu",
+      "inventor_name_first": "Dandan",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Jiajin",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "_processing_info": {
+    "original_size": 84102,
+    "optimized_size": 3395,
+    "reduction_percent": 95.96
+  }
+}

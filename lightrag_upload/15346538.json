@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170419",
+  "publication_number": "US20170124477A1-20170504",
+  "main_ipcr_label": "G06N708",
+  "decision": "PENDING",
+  "application_number": "15346538",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Kang L.",
+      "inventor_city": "Santa Monica",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chang",
+      "inventor_name_first": "Hao-Yuan",
+      "inventor_city": "Folsom",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A circuit that makes use of chaos or self-organized criticality to generate a matrix of bits for computation and information processing. The example embodiment utilizes CMOS circuitry and can solve optimization problems. A plurality of unit cells includes multiple transistors in a lattice formation that set voltages as state variables to other transistor cells. Adjustable bifurcation parameters are utilized to bring the chaotic circuit in and out of the chaotic regime. A processing unit with software are utilized for implanting a problem of interest into the chaotic circuit, while data latches or analog to digital converters provide for reading out the voltages from the chaotic circuit.",
+  "filing_date": "20161108",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A circuit having a matrix of identical elements, or “unit cells”, is disclosed in which each unit cell comprises an oscillator, such as a plurality of inverters connected in series, or other form of oscillator circuit. Each unit cell sets a voltage, referred to as a bit, in the matrix. Each bit is coupled with the neighboring bits with transmission gates. The circuit is capable of generating a matrix of random bits at once. These bits are used to represent a particular solution to the problem of interest. By controlling the bifurcation parameters of the circuit, it is possible to drive the circuit from the Markovian dynamics regime into the chaotic dynamics regime. It should be appreciated that a “bifurcation” occurs when a small change made to a parameter value (bifurcation parameter) of a system results in a sudden ‘qualitative’ or topological change in its behavior. The boundary between the two regimes of Markovian dynamics regime and chaotic dynamics regime is referred to as “self-organized criticality (SOCr).” This boundary can be extended to a phase when noise is present. Any real world dynamic system has noise; therefore, the self-organized critical phase has a finite width, which is proportional to the amount of noise in the system. It has been well studied that self-organized critical systems exhibit a power law probability distribution in which small rearrangements of the system happen more frequently than large rearrangements. At self-organized criticality, the present circuit will constantly reconfigure itself into many different meta-stable states. More specifically, the circuit will constantly generate different arrangements of bits that represent solutions to the problem of interest, thereby allowing the circuit to be utilized for information processing. The circuit can be used to implement chaotic annealing algorithms and to solve optimization problems. In one embodiment, the problem of interest is first implanted into the ci...",
+  "date_published": "20170504",
+  "title": "SELF-ORGANIZED CRITICAL CMOS CIRCUITS AND METHODS FOR COMPUTATION AND INFORMATION PROCESSING",
+  "ipcr_labels": [
+    "G06N708",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 84611,
+    "optimized_size": 3474,
+    "reduction_percent": 95.89
+  }
+}

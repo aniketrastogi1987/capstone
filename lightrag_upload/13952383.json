@@ -1,0 +1,51 @@
+{
+  "title": "View Locking Multi-Monitor Screen Magnifier",
+  "date_published": "20150129",
+  "publication_number": "US20150033183A1-20150129",
+  "date_produced": "20150113",
+  "ipcr_labels": [
+    "G06F30481"
+  ],
+  "decision": "ACCEPTED",
+  "application_number": "13952383",
+  "patent_number": "9626069",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Voorhees",
+      "inventor_name_first": "Garald Lee",
+      "inventor_city": "Tampa",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gordon",
+      "inventor_name_first": "Glen",
+      "inventor_city": "Madison",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Damery",
+      "inventor_name_first": "Eric",
+      "inventor_city": "Odessa",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Simkovitz",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Brookline",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method of locking magnified screen views including the steps of magnifying a portion of a graphic user interface on a first monitor to establish a first magnified view having upper, lower, left and right boundaries, magnifying a portion of the graphic user interface on a second monitor to establish a second magnified view having upper, lower, left and right boundaries, whereby the graphic user interface of the first monitor is extended in the direction of the second monitor, responsive to an end-user selectable setting, restricting pointer indicia movement to an area defined by the boundaries of each view that are not between first and second monitor, and responsive to pointer indicia moving from first monitor towards second monitor displaying pointer indicia within second magnified view responsive to pointer indicia crossing the boundary of first magnified view in the direction of second monitor.",
+  "filing_date": "20161027",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>A view locking feature locks the mouse to the current viewing area in single monitor while keeping the mouse in view, allowing it to be moved freely within the limits of a stationary background. Furthermore, this feature provides additional functionality for moving smoothly between monitors in a multi-monitor setting by allowing the user to move the mouse from an application on one monitor to an application on the other monitor while circumventing the undesired behavior of shifting the view in either monitor. The magnified views will stay stationary and the mouse will go directly from one application view to the other when a keystroke combination is pressed in conjunction with mouse movement. Another feature of the present invention is a view predictor function. The predictor function identifies the first area of interest of a low vision user when the screen is magnified. For example, if a user invokes 4× screen magnification then always moves to a login textbox on a form, then the present invention will recall this. When the low vision user invokes the 4× screen magnification for the same application in the same state it will automatically set the view to the login textbox because it will assume from past low vision user interaction that such a view is the most useful to initiate with. The predictor function may resolve the initial view by identifying the first control object the user engages. Going back to the example, if the low vision user enters in keystrokes into the login textbox then the textbox control itself will be put at the center of the view automatically upon magnification. This method may also be used to set the focus of the control as well. The predictor function may save the state of the document, reference, object, and user interactions by a number of means including, but not limited to session state, cookies, configuration files (e.g., INI, XML or the like), and/or databases. In another example, the low vision user...",
+  "main_ipcr_label": "G06F30481",
+  "_processing_info": {
+    "original_size": 45449,
+    "optimized_size": 3899,
+    "reduction_percent": 91.42
+  }
+}

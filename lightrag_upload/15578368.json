@@ -1,0 +1,46 @@
+{
+  "patent_number": "nan",
+  "application_number": "15578368",
+  "date_published": "20181018",
+  "date_produced": "20181003",
+  "filing_date": "20171130",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method of collaborative filtering in combination with time factor includes: establishing an exponential smoothing model; acquiring a time period proposed for the exponential smoothing model, the time period includes a plurality of time cycles; acquiring a plurality of user identifiers and user preference degree values of the user identifiers over a specified product during the plurality of time cycles; performing iterative calculations of the user preference degree values utilizing the exponential smoothing model, and obtaining smoothing results corresponding to the time cycles; generating a sparse matrix utilizing the user identifiers and the smoothing result corresponding to the time cycles, the sparse matrix includes a plurality of user preference degrees to be predicted; acquiring a collaborative filtering model and inputting the smoothing results corresponding to the time cycles into the collaborative filtering model; and training through the collaborative filtering model, calcu...",
+  "publication_number": "US20180300648A1-20181018",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to various embodiments of the present disclosure, a method, an apparatus, a server and a storage medium in combination with time factor are provided. A method of collaborative filtering in combination with time factor includes: establishing an exponential smoothing model; acquiring a time period proposed for the exponential smoothing model, the time period includes a plurality of time cycles; acquiring a plurality of user identifiers and user preference degree values of the user identifiers over a specified product during the plurality of time cycles; performing iterative calculations of the user preference degree values utilizing the exponential smoothing model, and obtaining smoothing results corresponding to the time cycles; generating a sparse matrix utilizing the user identifiers and the smoothing result corresponding to the time cycles, the sparse matrix includes a plurality of user preference degrees to be predicted; acquiring a collaborative filtering model and inputting the smoothing results corresponding to the time cycles into the collaborative filtering model; and training through the collaborative filtering model, calculating and obtaining predictive values of the plurality of user preference degrees to be predicted in the sparse matrix. An apparatus of collaborative filtering in combination with time factor, which includes: a model establishing module configured to establish an exponential smoothing model; an acquiring module configured to acquire a plurality of user identifiers and user preference degree values of the user identifiers over a specified product during a plurality of time cycles; a smoothing module configured to perform iterative calculations of the user preference degree values utilizing the exponential smoothing model, and obtain smoothing results corresponding to the time cycles; a matrix generating module configured to generate a sparse matrix utilizing the user identifiers and the smooth...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q3002",
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CAO",
+      "inventor_name_first": "Luyang",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Jianming",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "XIAO",
+      "inventor_name_first": "Jing",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "COLLABORATIVE FILTERING METHOD, APPARATUS, SERVER AND STORAGE MEDIUM IN COMBINATION WITH TIME FACTOR",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 62451,
+    "optimized_size": 3894,
+    "reduction_percent": 93.76
+  }
+}

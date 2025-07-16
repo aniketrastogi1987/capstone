@@ -1,0 +1,67 @@
+{
+  "date_produced": "20171018",
+  "publication_number": "US20170316307A1-20171102",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15143293",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Koster",
+      "inventor_name_first": "Urs",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Constable",
+      "inventor_name_first": "William Howard",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hornof",
+      "inventor_name_first": "Luke James",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kloss",
+      "inventor_name_first": "Carey Kevin",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Khosrowshahi",
+      "inventor_name_first": "Amir",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gray",
+      "inventor_name_first": "Scott",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system receives and executes a sequence of tensor instructions, for example, instructions for performing a neural network computation. The system may be implemented as a multiprocessor architecture, for example, hardware for performing a neural network computation. A tensor instruction specifies a tensor computation receiving one or more input tensors for determining an output tensor. The system stores a decimal position associated with a plurality of values of a tensor. The system performs the tensor computation of a tensor instruction to determine a plurality of values of the output tensor. The system collects statistics describing the plurality of values of the output tensor and determines a decimal position for the plurality of values based on the collected statistics.",
+  "filing_date": "20160429",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>An embodiment of the invention includes a computer system comprising one or more processors for performing neural network computations and a storage medium for storing instructions for execution by the one or more processors. The system receives a sequence of tensor instructions for execution. The system may perform multiple iterations that execute the sequence of tensor instructions. A tensor instruction specifies a tensor computation associated with a neural network computation. The tensor computation receives one or more input tensors and determines an output tensor representing the result of the tensor computation. Each tensor comprises a plurality of values stored as numbers. The system stores a decimal position associated with the plurality of values of each tensor. The system determines a plurality of values of the output tensor by performing the tensor computation specified in the tensor instruction. The system collects statistics describing an aggregate measure of sizes of values of the plurality of values of the output tensor and determines a new value of the decimal position for the plurality of values based on the collected statistics. The system stores the new value of the decimal position in association with the output tensor, for example, for processing subsequent iterations of the sequence of tensor instructions. Another embodiment of the invention comprises computer readable storage medium that stores instructions for executing a sequence of tensor instructions. A tensor instruction is identified from the sequence of instructions. The tensor instruction specifies a tensor computation receiving one or more input tensors and determining an output tensor. For each tensor, a decimal position associated with a plurality of values of the input tensor is stored. A plurality of values of the output tensor is determined by performing the tensor computation specified in the tensor instruction. Statistics describing an aggregate measure of s...",
+  "date_published": "20171102",
+  "title": "DYNAMIC MANAGEMENT OF NUMERICAL REPRESENTATION IN A DISTRIBUTED MATRIX PROCESSOR ARCHITECTURE",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "G06F1718"
+  ],
+  "_processing_info": {
+    "original_size": 84828,
+    "optimized_size": 4144,
+    "reduction_percent": 95.11
+  }
+}

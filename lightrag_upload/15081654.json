@@ -1,0 +1,53 @@
+{
+  "date_produced": "20161012",
+  "publication_number": "US20160314392A1-20161027",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15081654",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Honkala",
+      "inventor_name_first": "Mikko",
+      "inventor_city": "Espoo",
+      "inventor_state": "",
+      "inventor_country": "FI"
+    },
+    {
+      "inventor_name_last": "Kärkkäinen",
+      "inventor_name_first": "Leo Mikko Johannes",
+      "inventor_city": "Helsinki",
+      "inventor_state": "",
+      "inventor_country": "FI"
+    },
+    {
+      "inventor_name_last": "Vetek",
+      "inventor_name_first": "Akos",
+      "inventor_city": "Helsinki",
+      "inventor_state": "",
+      "inventor_country": "FI"
+    },
+    {
+      "inventor_name_last": "Berglund",
+      "inventor_name_first": "Mathias",
+      "inventor_city": "Espoo",
+      "inventor_state": "",
+      "inventor_country": "FI"
+    }
+  ],
+  "abstract": "Methods and apparatus, including computer program products, are provided for receiving, at a bidirectional recurrent neural network, a music file preprocessed to include at least one token data inserted within at least one location in the music file in order to enable varying the music file; generating, by the bidirectional recurrent neural network, an output music file, wherein the bidirectional recurrent neural network generates music data to replace the at least one token data; and providing, by the bidirectional recurrent neural network, the output music file representing a varied version of the music file. Related apparatus, systems, methods, and articles are also described.",
+  "filing_date": "20160325",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In some example embodiments, methods and apparatus, including computer program products, are provided for receiving, at a bidirectional recurrent neural network, a music file preprocessed to include at least one token data inserted within at least one location in the music file in order to enable varying the music file; generating, by the bidirectional recurrent neural network, an output music file, wherein the bidirectional recurrent neural network generates music data to replace the at least one token data; and providing, by the bidirectional recurrent neural network, the output music file representing a varied version of the music file. In some example embodiments, one of more variations may be made as well as described in the detailed description below and/or as described in the following features. The at least one location of the at least one data token may be varied. Based on the at least one location of the at least one data token, another output music file may be generated, wherein the other output music file represents another varied version of the music file. The at least one location may be received from a user interface at a user equipment. The output music file may represent the varied amplitude, pitch, timing, rhythm, melody, or timbre of the music file. The bidirectional recurrent neural network may include a first hidden layer configured to process backward states of an input music file, and a second hidden layer configured to process forward states of the input music file. The at least one parameter may be received to configure the bidirectional recurrent neural network, wherein the at least one parameter may be obtained as part of a training phase during which a neural network trains to replace gaps in music with varied music. The at least one token data may include at least one of a value or a character representative of noise in the music file. To control variation, the output music file may be mixed with the music file, wherei...",
+  "date_published": "20161027",
+  "title": "GENERATING USING A BIDIRECTIONAL RNN VARIATIONS TO MUSIC",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1730",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 60492,
+    "optimized_size": 3705,
+    "reduction_percent": 93.88
+  }
+}

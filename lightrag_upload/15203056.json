@@ -1,0 +1,53 @@
+{
+  "decision": "PENDING",
+  "application_number": "15203056",
+  "date_published": "20180111",
+  "date_produced": "20171227",
+  "title": "MASTER CONTENT SUMMARIES FOR VARIANT CONTENT",
+  "filing_date": "20160706",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MODANI",
+      "inventor_name_first": "NATWAR",
+      "inventor_city": "Bengaluru",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Dahl",
+      "inventor_name_first": "Jonas",
+      "inventor_city": "Basel",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Jhamtani",
+      "inventor_name_first": "Harsh",
+      "inventor_city": "Kanpur",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Srinivasan",
+      "inventor_name_first": "Balaji Vasan",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06F1727",
+    "G06F30482"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. The present application provides a technology that can be used to generate summaries of master content for variant content. In some respects, to generate a first summary of a text composition, the text composition is divided into text units, such as sentences. A subset of the text units is selected for inclusion in the first summary based on importance scores from an importance metric that are used to evaluate the importance of including particular text units in the first summary. To generate a second summary of the text composition, the weighting of the importance scores of text units selected for the first summary is modified to reduce the probability that the text units are selected for inclusion in the second summary Thus, the first and second summaries are likely to be diverse from one another. Any number of summaries can be generated and the weighting of each text unit may be adjusted each time a summary includes the text unit. In further respects, to generate a summary of a text composition, the text units are probabilistically selected for inclusion in the summary In one iterative approach to selecting text units, the importance scores of the text units are converted into a probability distribution. In each iteration, a value is sampled from the probability distribution and a text unit corresponding to the sampled value is selected to include in the summary. The probability distribution is updated to reduce the probability that text units similar to the selected text unit are selected in subsequent iterations to include in the summary Probabilistically selecting text units to generate multiple summaries results in summaries that are likely to be diverse from one another. These and other concepts are contemplated as being within the scope of the present disclosure.",
+  "patent_number": "None",
+  "abstract": "A method for generating summaries includes selecting a first subset of text units of a text composition to incorporate into a first summary of the text composition using a weighting of the text units that indicates for each text unit a relative importance of including the text unit in summaries of the text composition. The weighting of the text units is modified to reduce the relative importance of each text unit in the first subset based on the text unit having been selected for the first subset. A second subset of the text units is selected to incorporate into a second summary of the text composition using the modified weighting of the text units. At least one of the first summary and the second summary are provided to a user device.",
+  "publication_number": "US20180011931A1-20180111",
+  "_processing_info": {
+    "original_size": 87844,
+    "optimized_size": 3702,
+    "reduction_percent": 95.79
+  }
+}

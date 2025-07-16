@@ -1,0 +1,37 @@
+{
+  "patent_number": "None",
+  "application_number": "15631548",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170623",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method of reducing quantum leakage in a qubit device is disclosed. The method comprises receiving a set of energy level values for a multi-level system which includes first and second working levels |0>, |1> which provide a qubit and at least one other level |2> and performing an iteration at least once. the iteration comprising determining quantum leakage from at least one of the first and second working levels to the at least one non-working level for a quantum operation A comprising at least one pulse wherein each pulse has a respective pulse duration, determining whether the quantum leakage is greater than or equal to a threshold value; and, in dependence on the quantum leakage being greater than or equal to the threshold value, changing the duration of at least one of the at least one pulse.",
+  "publication_number": "US20170372218A1-20171228",
+  "summary": "<SOH> SUMMARY <EOH>The present invention seeks to reduce quantum leakage in qubit device. According to a first aspect of the present invention there is provided a method comprising receiving a set of energy level values for a multi-level system which includes first and second working levels |0>, |1> which provide a qubit and at least one other level |2> and performing an iteration at least once. The iteration comprises determining quantum leakage from at least one of the first and second working levels to the at least one non-working level for a quantum operation A comprising a set of one or more pulses including a pulse having a given pulse duration, determining whether the quantum leakage is greater than or equal to a threshold value and, in dependence of the quantum leakage being greater than or equal to the threshold value, changing the duration of at least one of the at least one pulse. This can allow high-fidelity quantum operations to be performed without the need for error correction schemes requiring additional qubits. The method may comprise repeating the iteration, each iteration having a different given pulse duration. Determining the quantum leakage may comprise determining: in-line-formulae description=\"In-line Formulae\" end=\"lead\"? α i =Σ j N |C ij | 2 in-line-formulae description=\"In-line Formulae\" end=\"tail\"? where α i is quantum leakage for a working level i, where i=i 1 or i 2 is zero or a positive integer, and j is a non-working level, where j is zero or a positive integer and not equal to i 1 or i 2 , and N is a positive integer greater than or equal to 2. Preferably, i=(0, 1) and j≠(0, 1)≧2. Preferably, N≧10, N≧50 or N≧100. The method may further comprise measuring the set of energy level values. Measuring the set of energy level values may comprise measuring a test multi-level system. The threshold value may be less than or equal to 1×10 −5 or 1×10 −6 . Changing the duration of the at least one of the at least one pulse may comprises increasin...",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "ANDREEV",
+      "inventor_name_first": "Aleksey",
+      "inventor_city": "Cambridge",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "WILLIAMS",
+      "inventor_name_first": "David",
+      "inventor_city": "Cambridge",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "QUANTUM LEAKAGE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 30371,
+    "optimized_size": 3529,
+    "reduction_percent": 88.38
+  }
+}

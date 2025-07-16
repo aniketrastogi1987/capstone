@@ -1,0 +1,51 @@
+{
+  "date_produced": "20161012",
+  "publication_number": "US20160314411A1-20161027",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15137603",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kumar",
+      "inventor_name_first": "Vipin",
+      "inventor_city": "Minneapolis",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mithal",
+      "inventor_name_first": "Varun",
+      "inventor_city": "Minneapolis",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nayak",
+      "inventor_name_first": "Guruprasad",
+      "inventor_city": "Minneapolis",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Khandelwal",
+      "inventor_name_first": "Ankush",
+      "inventor_city": "Minneapolis",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for identifying highly-skewed classes using an imperfect annotation of every instance together with a set of features for all instances. The imperfect annotations designate a plurality of instances as belonging to the target rare class and others to the majority class. First, a classifier is trained on the set of features using the imperfect annotation as supervision, to designate each instance to either the rare class or majority class. A combination of the predictions from the trained classifier and the imperfect annotations is then used to classify each instance to either the rare class or majority class. In particular, an instance is classified to the rare class only when both the trained classifier and the imperfect annotation classify the instance to the rare class. Finally, for each instance assigned as a rare class instance by the combination stage, all instances in its neighborhood are re-classified as either rare class or majority class.",
+  "filing_date": "20160425",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method of identifying which items in a collection of items belong to a rare class includes training a classifier based on annotations of data by a heuristic rule. The annotations designate a plurality of items as being either a rare class or a majority class. A combination of the trained classifier and a second classifier are then used to classify a further plurality of items based on data. An item is classified in the rare class by the combination of the trained classifier and the second classifier only when both the trained classifier and the second classifier classify the item in the rare class. For each item classified in the rare class by the combination of the trained classifier and the second classifier, all items that are connected to the item in the rare class are reclassified as either being in the rare class or the majority class. In accordance with a further embodiment, a method of improving computer-based classification of highly skewed data is provided. The method includes receiving highly skewed data comprising members that are in either a first class or a second class. The data is highly skewed because the ratio of the number of members in the first class to the number of members in the second class is sometimes greater than one hundred. Each member in the highly skewed data is classified using two separate classifiers such that a member is classified in the second class only if both classifiers place the member in the second class. Connections between the members are identified and each member connected to a member classified in the second class is reclassified as either being in the first class or the second class. In a still further embodiment, a computing device includes a memory storing values for a plurality of objects and a processor performing steps. The steps include assigning imperfect labels to at least some of the plurality of objects and training a classifier based on the imperfect labels. Each object is then classif...",
+  "date_published": "20161027",
+  "title": "CLASSIFICATION OF HIGHLY-SKEWED DATA",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 56245,
+    "optimized_size": 3950,
+    "reduction_percent": 92.98
+  }
+}

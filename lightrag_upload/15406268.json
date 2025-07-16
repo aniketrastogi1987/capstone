@@ -1,0 +1,41 @@
+{
+  "patent_number": "None",
+  "application_number": "15406268",
+  "date_published": "20170720",
+  "date_produced": "20170705",
+  "filing_date": "20170113",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "In some aspects, computer-implemented methods of identifying patterns in time-series social-media data. In an embodiment, the method includes applying a deep-learning methodology to the time-series social-media data at a plurality of temporal resolutions to identify patterns that may exist at and across ones of the temporal resolutions. A particular deep-learning methodology that can be used is a recursive convolutional Bayesian model (RCBM) utilizing a special convolutional operator. In some aspects, computer-implemented methods of engineering outcome-dynamics of a dynamic system. In an embodiment, the method includes training a generative model using one or more sets of time-series data and solving an optimization problem composed of a likelihood function of the generative model and a score function reflecting a utility of the dynamic system. A result of the solution is an influence indicator corresponding to intervention dynamics that can be applied to the dynamic system to influenc...",
+  "publication_number": "US20170206470A1-20170720",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSURE <EOH>In one implementation, the present disclosure is directed to a computer-implemented method of determining patterns with a time-series social-media data set. The computer-implemented method includes receiving, by a social-media-data pattern-identification system, the time-series social-media data set; applying, by a social-media-data pattern-identification system, a deep-learning algorithm to the time-series social-media data set, wherein the deep-learning algorithm is designed and configured to analyze the time-series social-media data set for patterns across multiple time scales and to output pattern-identification data containing information on patterns in a plurality of the multiple time scales and across a plurality of the multiple time scales; and providing the output pattern-identification data to an output-interface of the social-media-data pattern-identification system. In another implementation, the present disclosure is directed to a computer-implemented method of engineering outcome dynamics of a dynamic system that includes one or more multi-scale time-series data sets. The computer-implemented method includes training a generative model using each of the one or more multi-scale time-series data sets; providing an optimization problem composed of a likelihood function of the generative model and a score function that reflects a utility of the dynamic system; solving the optimization problem so as to determine an influence indicator indicating an influence scheme for influencing the outcome dynamics; and providing the influence indicator to an outcome-dynamics influencing system.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q3002",
+    "G06Q5000",
+    "H04L2908",
+    "H04L1258"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Marculescu",
+      "inventor_name_first": "Radu",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Peng",
+      "inventor_name_first": "Huan-Kai",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Pattern Identification in Time-Series Social Media Data, and Output-Dynamics Engineering for a Dynamic System Having One or More Multi-Scale Time-Series Data Sets",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 148059,
+    "optimized_size": 3506,
+    "reduction_percent": 97.63
+  }
+}

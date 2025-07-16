@@ -1,0 +1,53 @@
+{
+  "date_produced": "20161019",
+  "publication_number": "US20160321561A1-20161103",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15091417",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Röder",
+      "inventor_name_first": "Heinrich",
+      "inventor_city": "Steamboat Springs",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Röder",
+      "inventor_name_first": "Joanna",
+      "inventor_city": "Steamboat Springs",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Steingrimsson",
+      "inventor_name_first": "Arni",
+      "inventor_city": "Steamboat Springs",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Oliveira",
+      "inventor_name_first": "Carlos",
+      "inventor_city": "Steamboat Springs",
+      "inventor_state": "CO",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Classifier generation methods are described in which features used in classification (e.g., mass spectral peaks) are selected, or deselected using bagged filtering. A development sample set is split into two subsets, one of which is used as a training set the other of which is set aside. We define a classifier (e.g., K-nearest neighbor, decision tree, margin-based classifier or other) using the training subset and at least one of the features (or subsets of two or more features in combination). We apply the classifier to a subset of samples. A filter is applied to the performance of the classifier on the sample subset and the at least one feature is added to a “filtered feature list” if the classifier performance passes the filter. We do this for many different realizations of the separation of the development sample set into two subsets, and, for each realization, different features or sets of features in combination. After all the iterations are performed the filtered feature list is...",
+  "filing_date": "20160405",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>We have discovered that classifier generation methods are improved by selecting, or deselecting, features which are used for classification based on what we have termed “bagged filtering.” In particular, after acquiring a development sample data set (e.g., from performing some physical measurement process on a set of samples), in our method the development sample set is split into two subsets, one of which is used as a training set and the other of which is set aside. We define a classifier (e.g., K-nearest neighbor, decision tree, margin-based classifier or other) and apply the classifier using the training subset and at least one of the features. We apply a filter to the performance of the classifier and add the at least one feature to a “filtered feature list” if the classifier performance passes the filter. We do this for many different iterations or realizations of the separation of the development sample set into two subsets, and, for each realization, for all features or, optionally for combinations of features. After all the iterations are performed we then use the filtered feature list to either select features, or deselect features, for a final classifier generated from the development set of samples. It will be appreciated that the above method is performed in a programmed computer. The resulting programmed computer has an improved ability to function as a classifier, and can be used to classify a new test sample. In more particularity, in a first aspect we have provided a method for improving the functioning of a computer as a classifier by selecting or deselecting one or more features in a data set for generating the classifier. The method includes the steps of: a) obtaining physical measurement data from a development set of samples, e.g., mass spectrometry, genomic or proteomic assay, mRNA expression levels, and a class label for each of the samples in the development set, the physical measurement data comprising a feature value for...",
+  "date_published": "20161103",
+  "title": "Bagged Filtering Method for Selection and Deselection of Features for Classification",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1920",
+    "G06F1924"
+  ],
+  "_processing_info": {
+    "original_size": 115558,
+    "optimized_size": 4122,
+    "reduction_percent": 96.43
+  }
+}

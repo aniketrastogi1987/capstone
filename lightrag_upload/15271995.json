@@ -1,0 +1,40 @@
+{
+  "date_produced": "20180308",
+  "publication_number": "US20180082194A1-20180322",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15271995",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lozano",
+      "inventor_name_first": "Aurelie",
+      "inventor_city": "Scarsdale",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Hongxia",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An apparatus, method and computer program product for generating a recommendation using multi-relational learning comprising receiving first multi-relational data for a first relation, receiving second multi-relational data for a second relation associated with the first relation, unfolding the received first multi-relational data into relational matrices based on a relational graph, obtaining co-clustering, related models of the relational matrices, and generating and displaying the recommendation from the relational matrices and the second multi-relational data. In one aspect, the unfolding is performed using hierarchical nonparametric Bayesian collective matrix factorization. In one aspect, the at least two relational matrices comprise commonly shared object types having the same latent membership across the at least two relational matrices. In one aspect, the unfolding further comprises using matrix factorization on the at least two relational matrices, and performing predictive mo...",
+  "filing_date": "20160921",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A system, method and computer program product to automatically control a machine is presented. The system and method particularly will provide an ability to generate a recommendation by performing multi-relational learning via hierarchical nonparametric Bayesian CMF, abbreviated as MRL-HNBP. The system can also display the recommendation. In one aspect, there is provided a method for generating a recommendation using multi-relational learning comprising receiving at a processing device, first multi-relational data for a first relation, receiving at the processing device, second multi-relational data for a second relation associated with the first relation, unfolding the received first multi-relational data into at least two relational matrices based on a relational graph, obtaining co-clustering, related models of the at least two relational matrices, and generating and displaying the recommendation from the at least two relational matrices and the second multi-relational data. In one aspect, the unfolding is performed using hierarchical nonparametric Bayesian collective matrix factorization. In one aspect, the at least two relational matrices comprise commonly shared object types having the same latent membership across the at least two relational matrices. In one aspect, unfolding comprises using matrix factorization on the at least two relational matrices, and performing predictive modeling of each relation of the at least two relational matrices. In one aspect, obtaining co-clustering further comprises performing cluster analysis and imputing missing values for the at least two relational matrices. In one aspect, the method further comprises performing interference with Gibbs sampling for the at least two relational matrices. In one aspect, the method further comprises performing sparse point estimation for the at least two relational matrices. In a further aspect, there is provided an apparatus for generating a recommendation using multi-rela...",
+  "date_published": "20180322",
+  "title": "COLLECTIVE MATRIX FACTORIZATION FOR MULTI-RELATIONAL LEARNING",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 70020,
+    "optimized_size": 3735,
+    "reduction_percent": 94.67
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date_produced": "20171227",
+  "publication_number": "US20180012124A1-20180111",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15202211",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hara",
+      "inventor_name_first": "Satoshi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Kurata",
+      "inventor_name_first": "Gakuto",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Nakagawa",
+      "inventor_name_first": "Shigeru",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Takeda",
+      "inventor_name_first": "Seiji",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A computer implemented method for training a neural network to capture a structural feature specific to a set of chemical compounds is disclosed. In the method, the computer system reads an expression describing a structure of the chemical compound for each chemical compound in the set and enumerates one or more combinations of a position and a type of a structural element appearing in the expression for each chemical compound in the set. The computer system also generates training data based on the one or more enumerated combinations for each chemical compound in the set. The training data includes one or more values with a length, each of which indicates whether or not a corresponding type of the structural element appears at a corresponding position for each combination. Furthermore, the computer system trains the neural network based on the training data for the set of the chemical compounds.",
+  "filing_date": "20160705",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the present invention, there is provided a computer implemented method for training a neural network to capture a structural feature specific to a set of chemical compounds. The method includes reading an expression that describes a structure of the chemical compound, for each chemical compound in the set. The method also includes enumerating one or more combinations of a position and a type of a structural element appeared in the expression, for each chemical compound in the set. The method further includes generating training data based on the one or more enumerated combinations for each chemical compound in the set. The training data includes one or more values with a size, each of which indicates whether or not a corresponding type of the structural element does appear at a corresponding position for each combination. Furthermore, the method includes training the neural network based on the training data for the set of the chemical compounds. Computer systems and computer program products relating to one or more aspects of the present invention are also described and claimed herein. Additional features and advantages are realized through the techniques of the present invention. Other embodiments and aspects of the invention are described in detail herein and are considered a part of the claimed invention.",
+  "date_published": "20180111",
+  "title": "NEURAL NETWORK FOR CHEMICAL COMPOUNDS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 59585,
+    "optimized_size": 3240,
+    "reduction_percent": 94.56
+  }
+}

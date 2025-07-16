@@ -1,0 +1,51 @@
+{
+  "date_produced": "20160511",
+  "publication_number": "US20160148094A1-20160526",
+  "main_ipcr_label": "G06N502",
+  "decision": "ACCEPTED",
+  "application_number": "15009042",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jayaraman",
+      "inventor_name_first": "Baskar",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chatterjee",
+      "inventor_name_first": "Debashish",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Govindarajan",
+      "inventor_name_first": "Kannan",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rajan",
+      "inventor_name_first": "Ganesh",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The present invention envisages a system and method for automating the generation of business decision analytic models. The system uses a plurality of predictor variables stored in a plurality of data sets, to automatically create a business decision analytic model. The system includes a processor configured to process the data sets and determine the total number of records present in each of the data sets and the number of columns containing only numerical values. The processor selects a column containing only numerical values, from a dataset under consideration, and counts the number of unique numerical values in the selected column, and the total number of records present in the selected column. The two counts are compared and the selected column is transformed using a non-linear transformation to obtain a column of transformed values. The transformed values and corresponding time stamps are utilized for the purpose of model generation.",
+  "filing_date": "20160128",
+  "patent_number": "9582759",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure envisages a computer implemented system for automating the generation of an analytic model. The system comprises a repository configured to store a plurality of data sets, each of the data sets comprising at least predicted variables, the predicted variables utilized for generating, the analytic model. The system further comprises a processor con figured to process the data sets. The processor, in accordance with the present invention includes a determinator configured to determine the total number of records present in each of the data sets, the determinator further configured to determine the columns of the data sets containing only numerical values. The processor further comprises a selector cooperating with the determinator and configured to select a column containing only numerical values, from a dataset under consideration, the selector comprising a counter configured to count the number of unique numerical values in selected column, the counter further configured to count the total number of records present in selected column. The processor further comprises a comparator configured to compare the number of unique values in the selected column and the total number records in the selected column. The processor further comprises a transformation module configured to transform the selected column by applying a non-linear transformation to each of the values in the selected column and generate respective transformed values, in the event that the number of unique values in the selected column is less than the total records in the selected column, the transformation module further configured to replace the unique values with the transformed values. The processor further comprises a time stamping module configured determine whether there exists a time stamp corresponding to each of the rows in the dataset under consideration, the time stamping module further configured to calculate a plurality of time lags corresponding to ea...",
+  "date_published": "20160526",
+  "title": "COMPUTER IMPLEMENTED SYSTEM FOR AUTOMATING THE GENERATION OF A BUSINESS DECISION ANALYTIC MODEL",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 65200,
+    "optimized_size": 3992,
+    "reduction_percent": 93.88
+  }
+}

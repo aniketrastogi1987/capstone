@@ -1,0 +1,40 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15215614",
+  "date_published": "20161110",
+  "date_produced": "20161026",
+  "title": "SECURE DATA MIGRATION IN A DISPERSED STORAGE NETWORK",
+  "filing_date": "20160721",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Resch",
+      "inventor_name_first": "Jason K.",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Leggette",
+      "inventor_name_first": "Wesley",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G06F1110",
+    "G06F1730",
+    "H04L2908"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE SEVERAL VIEWS OF THE DRAWING(S) <EOH>FIG. 1 is a schematic block diagram of an embodiment of a distributed computing system in accordance with the present invention; FIG. 2 is a schematic block diagram of an embodiment of a computing core in accordance with the present invention; FIG. 3 is a diagram of an example of a distributed storage and task processing in accordance with the present invention; FIG. 4 is a schematic block diagram of an embodiment of an outbound distributed storage and/or task (DST) processing in accordance with the present invention; FIG. 5 is a logic diagram of an example of a method for outbound DST processing in accordance with the present invention; FIG. 6 is a schematic block diagram of an embodiment of a dispersed error encoding in accordance with the present invention; FIG. 7 is a diagram of an example of a segment processing of the dispersed error encoding in accordance with the present invention; FIG. 8 is a diagram of an example of error encoding and slicing processing of the dispersed error encoding in accordance with the present invention; FIG. 9 is a diagram of an example of grouping selection processing of the outbound DST processing in accordance with the present invention; FIG. 10 is a diagram of an example of converting data into slice groups in accordance with the present invention; FIG. 11 is a schematic block diagram of an embodiment of a DST execution unit in accordance with the present invention; FIG. 12 is a schematic block diagram of an example of operation of a DST execution unit in accordance with the present invention; FIG. 13 is a schematic block diagram of an embodiment of an inbound distributed storage and/or task (DST) processing in accordance with the present invention; FIG. 14 is a logic diagram of an example of a method for inbound DST processing in accordance with the present invention; FIG. 15 is a diagram of an example of de-grouping selection processing of the inbound DST proce...",
+  "patent_number": "9767109",
+  "abstract": "A method begins by a dispersed storage (DS) processing module identifying a candidate dispersed storage (DS) unit of a dispersed storage network (DSN). In response to a data migration request, the method continues with the DS processing module receiving a migration receptiveness message from the candidate DS unit. In response to a data migration reference message, the method continues with the DS processing module receiving, from another DS unit of a set of DS units, a migration reference response that includes an indication of storage utilized by the other DS unit. The method continues with the DS processing module determining a storage utilization of the candidate DS unit based on the migration reference response and when the determined storage utilization compares favorably to the reported storage utilization, enabling transfer of data from a DS unit of another set of DS units to the candidate DS unit.",
+  "publication_number": "US20160328177A1-20161110",
+  "_processing_info": {
+    "original_size": 298276,
+    "optimized_size": 3645,
+    "reduction_percent": 98.78
+  }
+}

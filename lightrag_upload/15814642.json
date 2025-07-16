@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15814642",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "filing_date": "20171116",
+  "main_ipcr_label": "G06N504",
+  "abstract": "One or more embodiments of a content system provide machine-learned storage location recommendations for storing content items. Specifically, an online content management system can train a machine-learning model to identify a storage pattern from previously stored content items in a plurality of storage locations corresponding to a user account of a user. Training the machine-learning model includes training a plurality of classifiers for the plurality of storage locations. The online content management system uses the classifiers to determine whether a content item is similar to the content items in any of the storage locations, and based on the output of the classifiers, provides graphical elements indicating recommended storage locations within a graphical user interface. The user can select a graphical element to move the content item to the corresponding storage location.",
+  "publication_number": "US20180129950A1-20180510",
+  "summary": "<SOH> SUMMARY <EOH>One or more embodiments described herein provide benefits and/or solve one or more of the foregoing or other problems in the art with systems and methods for digital content storage management. In particular, the systems and methods described herein provide machine-learned storage location suggestions for storing content items. For example, the systems and methods train a machine-learning model to provide storage location suggestions for storing/moving content items. Specifically, the machine-learning model uses a plurality of classifiers based on previously stored content items associated with a user account of a user to determine where to store/move a content item. Thus, when the user selects an option to store a new content item or to move an existing content item (e.g., from a temporary storage location), the machine-learning model identifies one or more storage locations using the classifiers and provides the one or more storage locations as recommendations to the user. The systems and methods train the classifiers for a plurality of storage locations associated with the user account of the user based on characteristics of content items stored in the plurality of locations. For example, the systems and methods use the characteristics of content items in a storage location to determine how the content items in the storage location are similar. Additionally, the systems and methods use the characteristics of the content items in other storage locations to distinguish the content items in the storage location from the content items in the other storage locations. The systems and methods then provide storage location recommendations for a content item by using the trained classifiers to determine which storage location(s) are best based on the characteristics of the content item. Additional features and advantages of the present disclosure will be set forth in the description that follows, and in part will be obvious from the description, or may ...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kumar",
+      "inventor_name_first": "Neeraj",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "PROVIDING INTELLIGENT STORAGE LOCATION SUGGESTIONS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 118256,
+    "optimized_size": 3456,
+    "reduction_percent": 97.08
+  }
+}

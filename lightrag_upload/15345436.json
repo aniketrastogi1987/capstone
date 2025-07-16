@@ -1,0 +1,121 @@
+{
+  "date_produced": "20180228",
+  "publication_number": "US20180075349A1-20180315",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15345436",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhao",
+      "inventor_name_first": "Xuan",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wolff",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Laguna Niguel",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brock",
+      "inventor_name_first": "John",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wallace",
+      "inventor_name_first": "Brian",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wortman",
+      "inventor_name_first": "Andrew",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Luan",
+      "inventor_name_first": "Jian",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Azarafrooz",
+      "inventor_name_first": "Mahdi",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Davis",
+      "inventor_name_first": "Andrew",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wojnowicz",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Soeder",
+      "inventor_name_first": "Derek",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Beveridge",
+      "inventor_name_first": "David",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Petersen",
+      "inventor_name_first": "Eric",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jin",
+      "inventor_name_first": "Ming",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Permeh",
+      "inventor_name_first": "Ryan",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one respect, there is provided a system for training a neural network adapted for classifying one or more instruction sequences. The system may include at least one processor and at least one memory. The memory may include program code which when executed by the at least one processor provides operations including: training, based at least on training data, a machine learning model to detect one or more predetermined interdependencies amongst a plurality of tokens in the training data; and providing the trained machine learning model to enable classification of one or more instruction sequences. Related methods and articles of manufacture, including computer program products, are also provided.",
+  "filing_date": "20161107",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Systems, methods, and articles of manufacture, including computer program products, are provided for detecting malicious instruction sequences. In some example embodiments, there is provided a system that includes at least one processor and at least one memory. The at least one memory may include program code that provides operations when executed by the at least one processor. The operations may include: processing an instruction sequence with a trained machine learning model configured to detect one or more interdependencies amongst a plurality of tokens in the instruction sequence and determine a classification for the instruction sequence based on the one or more interdependencies amongst the plurality of tokens; and providing, as an output, the classification of the instruction sequence. In some variations, one or more features disclosed herein including the following features can optionally be included in any feasible combination. The instruction sequence may be a script that can be executed without compilation. The one or more interdependencies may include a presence, in the instruction sequence, of a first token subsequent to at least a second token. The one or more interdependencies may indicate at least one function and/or behavior associated with the instruction sequence. In some variations, the trained machine learning model may be a trained neural network. The trained neural network may be a trained long short-term memory neural network. The trained long short-term memory neural network may include a first long short-term memory layer. The first long short-term memory layer may include a memory cell having an input gate, an output gate, and a forget gate. The first long short-term memory layer may be configured to receive a first token from the plurality of tokens included in the instruction sequence. The first long-short term memory layer may be associated with a hidden state corresponding to one or more tokens already processed by t...",
+  "date_published": "20180315",
+  "title": "TRAINING A MACHINE LEARNING MODEL FOR ANALYSIS OF INSTRUCTION SEQUENCES",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 89111,
+    "optimized_size": 5138,
+    "reduction_percent": 94.23
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_produced": "20160908",
+  "publication_number": "US20160275417A1-20160922",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15166609",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Welinder",
+      "inventor_name_first": "Peter",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Perona",
+      "inventor_name_first": "Pietro",
+      "inventor_city": "Altadena",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods for the annotation of source data using confidence labels in accordance embodiments of the invention are disclosed. In one embodiment of the invention, a method for determining confidence labels for crowdsourced annotations includes obtaining a set of source data, obtaining a set of training data representative of the set of source data, determining the ground truth for each piece of training data, obtaining a set of training data annotations including a confidence label, measuring annotator accuracy data for at least one piece of training data, and automatically generating a set of confidence labels for the set of unlabeled data based on the measured annotator accuracy data and the set of annotator labels used.",
+  "filing_date": "20160527",
+  "patent_number": "9704106",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Systems and methods for the annotation of source data using confidence labels in accordance embodiments of the invention are disclosed. In one embodiment of the invention, a method for determining confidence labels for crowdsourced annotations includes obtaining a set of source data using a distributed data annotation server system, obtaining a set of training data using the distributed data annotation server system, where the set of training data includes a subset of the source data representative of the set of source data, determining the ground truth for each piece of training data in the set of training data using the distributed data annotation server system, where the ground truth for a piece of data describes the content of the piece of data, obtaining a set of training data annotations from a plurality of data annotation devices using the distributed data annotation server system, where a training data annotation includes a confidence label selected from a set of confidence labels describing an estimation of the content of a piece of training data in the set of training data, measuring annotator accuracy data for at least one piece of training data in the set of training data based on the ground truth for each piece of training source data and the set of training data annotations using the distributed data annotation server system, where annotator accuracy data describes the difficulty of determining the ground truth for a piece of training data, and automatically generating a set of confidence labels for the set of unlabeled data based on the measured annotator accuracy data and the set of annotator labels used using the distributed data annotation server system. In another embodiment of the invention, determining confidence labels for crowdsourced annotations further includes creating an annotation task including the set of confidence labels using the distributed data annotation server system, where the annotation tasks ...",
+  "date_published": "20160922",
+  "title": "Systems and Methods for Labeling Source Data using Confidence Labels",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1724"
+  ],
+  "_processing_info": {
+    "original_size": 85005,
+    "optimized_size": 3463,
+    "reduction_percent": 95.93
+  }
+}

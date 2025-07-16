@@ -1,0 +1,37 @@
+{
+  "date_produced": "20170510",
+  "publication_number": "US20170147948A1-20170525",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15361045",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sullivan",
+      "inventor_name_first": "Joseph",
+      "inventor_city": "Philomath",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dotson",
+      "inventor_name_first": "Luke",
+      "inventor_city": "Newark",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for decision-making by an electronic system comprising a plurality of components is provided herein. The components of the system are given tunable voting authority v=[Vmin . . . Vmax], typically [−1 . . . 1]. A singleton officiating member manages the notification and voting process. A current representation of the entire system is stored in the model. The model is a state storage system that tracks the existence and condition of a group of tracked data items, called Entities. The model is managed by the singleton officiating member but may be queried by any component.",
+  "filing_date": "20161124",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>The present invention provides a method for decision-making by an electronic system comprising a plurality of components. The components of the system, herein referred to as “chips” are given tunable voting authority v=[Vmin . . . Vmax], typically [−1 . . . 1]. The overall system is very similar to a public body such as a governmental House. Many different members may propose conflicting or concurrent resolutions (proposal), each proposal comprising a set of instructions (Action). They vote on each resolution and the winning resolutions are acted upon. A singleton officiating member, herein referred to as the “cortex”, manages the notification and voting process. When the cortex loads, it inventories the chips and spawns new threads as necessary. Each chip functions as an independent intelligence. A current representation of the entire system is stored in the model. The model is a state storage system that tracks the existence and condition of a group of tracked data items, called Entities. The model is managed by the cortex but may be queried by any chip. chips may also ship with optional important constructs, for example: 1. action drivers. Action drivers are programming to enable certain functions or drive specific hardware thereby allowing a chip to not only suggest a particular proposal but also provide for executing relevant actions if the proposal passes vote. Action vocabulary is a set of unique actions “A” generated from all action drivers. 2. Success centers that measure the success or positiveness of a particular situation, and 3. cognitive drivers that augment Entity data. Memory functions within the cortex or a given chip can combine with the Success center to measure the relative success of any given proposal. These memories may be used to modify that chip's vote in the future. Other novel features which are characteristics of the invention, as to organization and method of operation, together with further and ...",
+  "date_published": "20170525",
+  "title": "Component-based decision-making with centralized officiating and the modification of those decisions through success measurements",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 32539,
+    "optimized_size": 3389,
+    "reduction_percent": 89.58
+  }
+}

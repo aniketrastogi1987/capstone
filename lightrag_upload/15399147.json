@@ -1,0 +1,37 @@
+{
+  "patent_number": "None",
+  "application_number": "15399147",
+  "date_published": "20170427",
+  "date_produced": "20170412",
+  "filing_date": "20170105",
+  "main_ipcr_label": "G06N700",
+  "abstract": "A relational event history is determined based on a data set, the relational event history including a set of relational events that occurred in time among a set of actors. Data is populated in a probability model based on the relational event history, where the probability model is formulated as a series of conditional probabilities that correspond to a set of sequential decisions by an actor for each relational event, where the probability model includes one or more statistical parameters and corresponding statistics. A baseline communications behavior for the relational event history is determined based on the populated probability model, and departures within the relational event history from the baseline communications behavior are determined.",
+  "publication_number": "US20170116541A1-20170427",
+  "summary": "<SOH> SUMMARY <EOH>According to one general implementation, a relational event history is determined based on a data set, the relational event history including a set of relational events that occurred in time among a set of actors. Data is populated in a probability model based on the relational event history, where the probability model is formulated as a series of conditional probabilities that correspond to a set of sequential decisions by an actor for each relational event, and where the probability model includes one or more statistical parameters and one or more corresponding statistics. A baseline communications behavior for the relational event history is determined based on the populated probability model, the baseline including a first set of values for the one or more statistical parameters. Departures within the relational event history from the baseline communications behavior are then determined. In one aspect, the one or more corresponding statistics relate to one or more of senders of relational events, modes of relational events, topics of relational events, or recipients of relational events. In another aspect, determining departures from the baseline communications behavior within the relational event history includes determining a second set of values for the statistical parameters based on one or more subsets of the relational events included in the relational event history, and comparing the second set of values for the statistical parameters to the first set of values. In some examples, comparing the second set of values for the statistical parameters to the first set of values includes determining a hypothesis regarding communications behavior within the relational event history and testing the hypothesis using the second set of values. In some examples, testing the hypothesis using the second set of values includes computing a value of a test statistic based on the second set of values and using the test statistic to determine the departure...",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lospinoso",
+      "inventor_name_first": "Josh",
+      "inventor_city": "San Antonio",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Filippelli",
+      "inventor_name_first": "Guy Louis",
+      "inventor_city": "Sparks Glencoe",
+      "inventor_state": "MD",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "ANALYZING BEHAVIOR IN LIGHT OF SOCIAL TIME",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 133002,
+    "optimized_size": 3451,
+    "reduction_percent": 97.41
+  }
+}

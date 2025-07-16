@@ -1,0 +1,60 @@
+{
+  "decision": "PENDING",
+  "application_number": "15197116",
+  "date_published": "20180104",
+  "date_produced": "20171219",
+  "title": "Unified Paging Scheme for Dense and Sparse Translation Tables on Flash Storage Systems",
+  "filing_date": "20160629",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Battaje",
+      "inventor_name_first": "Ajith Kumar",
+      "inventor_city": "Karnataka",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Goel",
+      "inventor_name_first": "Tanay",
+      "inventor_city": "Chhattisgarh",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Sharma",
+      "inventor_name_first": "Sandeep",
+      "inventor_city": "Karnataka",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Manchanda",
+      "inventor_name_first": "Saurabh",
+      "inventor_city": "Delhi",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Medapati",
+      "inventor_name_first": "Arun Kumar",
+      "inventor_city": "Andhra Pradesh",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1202",
+    "G06F121009",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1202",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure relates to systems and methods for a general unified paging method for translation tables. According to one innovative aspect of the subject matter in this disclosure, a system has one or more processors and a memory storing instructions that, when executed, cause the system to: receive a first translation table entry for a logical block; map the first translation table entry to a first dump unit, the first dump unit included in an array of dump units; identify a second translation table entry for the logical block in the first dump unit, the second translation table entry being stored in a storage device; and generate a linked list in the storage device from the second translation table entry associated with the first dump unit, the linked list identifying previous translation table entries associated with the logical block. In general, another innovative aspect of the subject matter described in this disclosure may be implemented in methods that include: receiving a first translation table entry for a logical block; mapping the first translation table entry to a first dump unit, the first dump unit included in an array of dump units; identifying a second translation table entry for the logical block in the first dump unit, the second translation table entry being stored in a storage device; and generating a linked list in the storage device from the second translation table entry associated with the first dump unit, the linked list identifying previous translation table entries associated with the logical block. Other implementations of one or more of these aspects include corresponding systems, apparatus, and computer programs, configured to perform the actions of the methods, encoded on computer storage devices. These and other implementations may each optionally include one or more of the following features. For instance, the features may include that mapping of the first translation table entry is based on a hash funct...",
+  "patent_number": "None",
+  "abstract": "A system comprising a processor and a memory storing instructions that, when executed, cause the system to receive a first translation table entry for a logical block, map the first translation table entry to a first dump unit, the first dump unit included in an array of dump units, identify a second translation table entry for the logical block in the first dump unit, the second translation table entry also being stored in a storage device, and generate a linked list in the storage device from the second translation table entry associated with the first dump unit, the linked list identifying previous translation table entries associated with the logical block.",
+  "publication_number": "US20180004650A1-20180104",
+  "_processing_info": {
+    "original_size": 170835,
+    "optimized_size": 3868,
+    "reduction_percent": 97.74
+  }
+}

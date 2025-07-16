@@ -1,0 +1,46 @@
+{
+  "decision": "PENDING",
+  "application_number": "15193293",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "title": "PRIVACY DETECTION OF A MOBILE APPLICATION PROGRAM",
+  "filing_date": "20160627",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ferrara",
+      "inventor_name_first": "Pietro",
+      "inventor_city": "Mestre-Venice",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "Pistoia",
+      "inventor_name_first": "Marco",
+      "inventor_city": "Amawalk",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tripp",
+      "inventor_name_first": "Omer",
+      "inventor_city": "Bronx",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2162",
+    "H04W1202",
+    "G06N9900"
+  ],
+  "main_ipcr_label": "G06F2162",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>One embodiment of the invention includes a method for privacy violation detection of a mobile application program having a platform specification. The method can include mining regular histories of the mobile application program. The method can also include extracting a plurality of learnable features from the regular histories. The method can further include combining the plurality of learnable features into a single feature vector. The method can also include feeding the single feature vector into a machine-learning-based classification algorithm and determining whether the mobile application program includes one or more permissions for accessing unauthorized privacy data of a mobile application user based on a machine learning classification of the single feature vector. The mining regular histories can include creating a call-graph representation of the mobile application program and collecting sequences of events of interest according to the platform specification. The extracting a plurality of learnable features from the regular histories can includes reducing the collected sequences into a plurality of feature vectors. The method can include determining that there are of loops and recursive calls in the mobile application program and abstracting the collected sequences of the loops and recursive calls as regular expressions over the events of interest. The reducing the collected sequences into feature vectors can include at least one of a happens-before feature and a multiplicity of occurrences feature. The mining regular histories may include statically mining an abstract representation of execution traces as regular expressions over security-relevant operations. Another embodiment can include a system comprising at least one data processor connected to at least one memory that stores software instructions, where execution of the software instructions by the at least one data processor causes the system to detect a privacy...",
+  "patent_number": "None",
+  "abstract": "Privacy violation detection of a mobile application program is disclosed. Regular histories of the mobile application are mined. A call-graph representation of the mobile application program can be created and sequences of events of interest according to the platform specification of the mobile application can be collected. A plurality of learnable features are extracted from the regular histories. The plurality of learnable features are combined into a single feature vector which is fed into a machine-learning-based classification algorithm. Whether the mobile application program includes one or more permissions for accessing unauthorized privacy data of a mobile application user is determined based on a machine learning classification of the single feature vector. The collected sequences can be reduced into a plurality of feature vectors which can include at least one of a happens-before feature and a multiplicity of occurrences feature.",
+  "publication_number": "US20170372095A1-20171228",
+  "_processing_info": {
+    "original_size": 47071,
+    "optimized_size": 3805,
+    "reduction_percent": 91.92
+  }
+}

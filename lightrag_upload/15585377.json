@@ -1,0 +1,35 @@
+{
+  "patent_number": "None",
+  "application_number": "15585377",
+  "date_published": "20180621",
+  "date_produced": "20180608",
+  "filing_date": "20170503",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A recognition method includes: determining a feature vector corresponding to an ensemble model from input data based on the ensemble model, wherein the ensemble model includes a first model and a second model with a same structure as a structure of the first model; and recognizing the input data based on the feature vector.",
+  "publication_number": "US20180174044A1-20180621",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. In one general aspect, a recognition method includes: determining a feature vector corresponding to an ensemble model from input data based on the ensemble model, wherein the ensemble model includes a first model and a second model with a same structure as a structure of the first model; and recognizing the input data based on the feature vector. The determining of the feature vector may include determining a feature vector output from a second layer using first connection weights between a first layer and the second layer in the ensemble model, and a first feature vector output from the first layer based on the input data. The determining of the feature vector may further include determining the feature vector based on a portion of a first operation result obtained based on the first connection weights and the first feature vector. The portion of the first operation result may include: an operation result obtained based on first partial weights corresponding to the first model among the first connection weights, and a first partial vector corresponding to the first model in the first feature vector; and an operation result obtained based on second partial weights corresponding to the second model among the first connection weights, and a second partial vector corresponding to the second model in the first feature vector. The determining of the feature vector may further include using second connection weights of the second layer between a previous time and a current time, and a second feature vector output from the second layer at the previous time, to determine the feature vector output from the second l...",
+  "ipcr_labels": [
+    "G06N308",
+    "G10L2530",
+    "G06K966",
+    "G06K946",
+    "G06F1716",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "NA",
+      "inventor_name_first": "Hwidong",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "RECOGNITION METHOD AND APPARATUS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 62583,
+    "optimized_size": 2897,
+    "reduction_percent": 95.37
+  }
+}

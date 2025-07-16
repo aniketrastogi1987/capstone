@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15391571",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "title": "SYSTEM AND METHOD OF SUPPORTING A POINTING DEVICE",
+  "filing_date": "20161227",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Montero",
+      "inventor_name_first": "Adolfo S.",
+      "inventor_city": "Pflugerville",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Davis",
+      "inventor_name_first": "Louis M.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mathew",
+      "inventor_name_first": "George",
+      "inventor_city": "Round Rock",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F3038",
+    "G06F30354"
+  ],
+  "main_ipcr_label": "G06F3038",
+  "summary": "<SOH> SUMMARY <EOH>In one or more embodiments, an information handling system may include and/or be communicatively coupled to a pointing device (e.g., a touchpad, a mouse, a trackball, a touchscreen, etc.) and an embedded controller that receives, via a first bus (e.g., an inter-integrated circuit (I 2 C) bus, a serial peripheral interconnect (SPI) bus, etc.), interaction data associated with the pointing device, transforms the interaction data from a first data format into a second data format, and provides the interaction data to a second bus (e.g., a low pin count (LPC) bus, an enhanced serial peripheral interconnect (eSPI), etc.) via the second data format. For example, the second data format may be or include a PS/2 format. The information handling system may load at least a portion of an operating system, query at least one resource associated with the pointing device, and provide embedded controller configuration information to the embedded controller, in response to querying the at least one resource associated with the pointing device. The embedded controller may cease to provide the interaction data to the second bus and/or may cease operating as a bus master of the first bus, in response to and/or based on the embedded controller configuration information. In one or more embodiments, the information handling system may provide platform controller hub configuration information to a platform controller hub (PCH) in response to querying the at least one resource associated with the touchpad. The PCH may become a bus master of the first bus in response to and/or based on the platform controller hub configuration information. The PCH may receive, via the first bus, additional interaction data associated with the pointing device and may provide the additional interaction data to a processor of the information handling system. In one or more embodiments, the embedded controller may receive, via the first bus, additional interaction data associated with the poin...",
+  "patent_number": "None",
+  "abstract": "In one or more embodiments, an information handling system may include a pointing device that communicates interaction data via a first bus via a first data format and may include a controller that receives the interaction data via the first bus and transforms the interaction data into a second data format and communicates the interaction data to a second bus via the second data format. If a status of a resource associated with the pointing device is queried, the controller may be instructed to cease transforming the interaction data from the pointing device, permitting another device to receive the interaction data and provide the interaction data to a processor of the information handling system. As the other device receives the interaction data and provides the interaction data to the processor, additional and/or full functionality of the pointing device may be realized and/or accomplished.",
+  "publication_number": "US20180181213A1-20180628",
+  "_processing_info": {
+    "original_size": 52514,
+    "optimized_size": 3759,
+    "reduction_percent": 92.84
+  }
+}

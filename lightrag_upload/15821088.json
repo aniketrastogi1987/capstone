@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15821088",
+  "date_published": "20180524",
+  "date_produced": "20180509",
+  "filing_date": "20171122",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A method, apparatus and program for completing a knowledge graph from a plurality of predicates and associated entities, the predicates each providing information on a relationship between a pair of entities, the method comprising the steps of: receiving an input comprising the plurality of predicates and associated entities; searching an axiom database and identifying predicates among the plurality of predicates that are equivalent to one another, or inverses of one another; identifying further predicates that are related to one another, using the axiom database and identified predicates; and embedding the identified predicates and associated entities into a vector space to complete the knowledge graph.",
+  "publication_number": "US20180144252A1-20180524",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>An aspect of an embodiment of the present invention provides a method for completing a knowledge graph from a plurality of predicates and associated entities, the predicates each providing information on a relationship between a pair of entities, the method comprising the steps of: receiving an input comprising the plurality of predicates and associated entities; searching an axiom database and identifying predicates among the plurality of predicates that are equivalent to one another, or inverses of one another; identifying further predicates that are related to one another, using the axiom database and identified predicates; and embedding the identified predicates and associated entities into a vector space to complete the knowledge graph, wherein the predicates and associated entities are assigned vectors in the embedding such that a penalty function sum, which is the sum of penalty function values for all of the predicates and associated entities, is minimised, the penalty function values being: inversely proportional to the similarity between assigned vectors for two predicates identified as being equivalent to one another; directly proportional to the dissimilarity between assigned vectors for two predicates identified as inverses of one another; and weighted according to the degree of correlation between predicates that are identified as being related. The method provides an accurate and (computing) resource efficient method and apparatus for completing knowledge graphs. A further aspect of an embodiment of the present invention provides a method wherein the plurality of predicates and associated entities are utilized in the form of Resource Description Framework statements, and each Resource Description Framework statement is of the form <subject,predicate,object> the subject and object being entities and the predicate describing the relationship between the subject and object. Research Description Framework statements are a c...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F950"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MINERVINI",
+      "inventor_name_first": "Pasquale",
+      "inventor_city": "Galway",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "COSTABELLO",
+      "inventor_name_first": "Luca",
+      "inventor_city": "Galway",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "MUÑOZ JIMÉNEZ",
+      "inventor_name_first": "Emir Fernando",
+      "inventor_city": "Galway",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "NOVÁCEK",
+      "inventor_name_first": "Vit",
+      "inventor_city": "Galway",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "VANDENBUSSCHE",
+      "inventor_name_first": "Pierre-Yves",
+      "inventor_city": "Galway",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR COMPLETING A KNOWLEDGE GRAPH",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 65576,
+    "optimized_size": 3875,
+    "reduction_percent": 94.09
+  }
+}

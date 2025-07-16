@@ -1,0 +1,47 @@
+{
+  "date_produced": "20180503",
+  "publication_number": "US20180137433A1-20180517",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15353172",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Devarakonda",
+      "inventor_name_first": "Murthy V.",
+      "inventor_city": "Peekskill",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Patwardhan",
+      "inventor_name_first": "Siddharth A.",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Raghavan",
+      "inventor_name_first": "Preethi",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Mechanisms are provided to implement a self-training engine of a question and answer system. The self-training engine pairs an unanswered natural language question with portions of an electronic document to generate an unlabeled data set. The self-training engine trains a model based on a labeled data set comprising a finite number of question and answer pair data structures and applies the model to the unlabeled data set to identify an answer from the portions of the electronic document to the unanswered natural language question. The self-training engine modifies the labeled data set to include the identified answer and corresponding unanswered natural language question as an additional question and answer pair data structure. The self-training engine then trains the model based on the modified labeled data set.",
+  "filing_date": "20161116",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described herein in the Detailed Description. This Summary is not intended to identify key factors or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. In one illustrative embodiment, a method is provided, in a data processing system comprising a processor and a memory, the memory comprising instructions which cause the processor to be configured to implement a self-training engine of a question and answer system. The method comprises pairing, by the self-training engine, an unanswered natural language question with portions of an electronic document to generate an unlabeled data set. The method further comprises training, by the self-training engine, a model based on a labeled data set comprising a finite number of question and answer pair data structures. Moreover, the method comprises applying, by the self-training engine, the model to the unlabeled data set to identify an answer from the portions of the electronic document to the unanswered natural language question. In addition, the method comprises modifying, by the self-training engine, the labeled data set to include the identified answer and corresponding unanswered natural language question as an additional question and answer pair data structure. Furthermore, the method comprises training, by the self-training engine, the model based on the modified labeled data set. In other illustrative embodiments, a computer program product comprising a computer useable or readable medium having a computer readable program is provided. The computer readable program, when executed on a computing device, causes the computing device to perform various ones of, and combinations of, the operations outlined above with regard to the method illustrative embodiment. In yet another illustrative embodiment, a system/apparatus is prov...",
+  "date_published": "20180517",
+  "title": "Self-Training of Question Answering System Using Question Profiles",
+  "ipcr_labels": [
+    "G06N9900",
+    "G09B512",
+    "G06N502",
+    "G06F1900"
+  ],
+  "_processing_info": {
+    "original_size": 136314,
+    "optimized_size": 3738,
+    "reduction_percent": 97.26
+  }
+}

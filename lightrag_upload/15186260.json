@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170614",
+  "publication_number": "US20170185892A1-20170629",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15186260",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Han",
+      "inventor_name_first": "Honggui",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Guo",
+      "inventor_name_first": "Yanan",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Qiao",
+      "inventor_name_first": "Junfei",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Under conventional techniques, wastewater treatment has many problems such as poor production conditions, serious random interference, strong nonlinear behavior, large time-varying, and serious lagging. These problem cause difficult detection of various wastewater treatment parameter such as biochemical oxygen demand (BOD) values that are used to monitor water quality. To solve problems associated with monitoring BOD values in real-time, the present disclosure utilizes a self-organizing recurrent RBF neural network designed for intelligent detecting of BOD values. Implementations of the present disclosure build a computing model of BOD values based on the self-organizing recurrent RBF neural network to achieve real-time and more accurate detection of the BOD values (e.g., a BOD concentration). The implementations herein quickly and accurately obtain BOD concentrations and improve the quality and efficiency of wastewater treatment.",
+  "filing_date": "20160617",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Implementations of the present disclosure relate to an intelligent detection method that is designed for measuring the BOD concentration based on a self-organizing recurrent RBF neural network in this disclosure. For this intelligent detection method, the inputs are variables that are easily measured and the outputs are estimates of the BOD concentration. By constructing the self-organizing recurrent RBF neural network, the implementations obtain the mapping between the auxiliary variables and the BOD concentration. In addition, the implementations can obtain real-time measurements of BOD concentration and solve problems of a long measurement cycle for BOD concentration. This disclosure adopts the following technical schemes and implementations. An intelligent detection method for the BOD concentration based on a self-organizing recurrent RBF neural network, and its characteristic and steps include the following steps: (1) Determining the input and output variables of BOD: For activated sludge system of WWTP, the wastewater treatment variables are analyzed and the input variables of BOD computing model are selected: dissolved oxygen concentration (DO), effluent suspended solids concentration (SS), pH, chemical oxygen demand (COD). The output value of computing model is used to detect the BOD concentration. (2) Computing model of the intelligent detection of BOD: establishing the computing model of BOD based on a self-organizing recurrent RBF neural network. The structure of recurrent RBF neural network includes three layers: input layer, hidden layer and output layer. The recurrent RBF neural network is 4-m-1, named the number of input layer is 4 and hidden neurons is m, Connection weights between input layer and hidden layer are assigned 1, the connection weights between hidden layer and output layer randomly assign values, the assignment interval is [-1, 1]. The number of the training sample is N and the input of self-organizing recurrent RBF ne...",
+  "date_published": "20170629",
+  "title": "Intelligent detection method for Biochemical Oxygen Demand based on a Self-organizing Recurrent RBF Neural Network",
+  "ipcr_labels": [
+    "G06N308",
+    "G05B19406"
+  ],
+  "_processing_info": {
+    "original_size": 64035,
+    "optimized_size": 3834,
+    "reduction_percent": 94.01
+  }
+}

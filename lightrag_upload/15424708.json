@@ -1,0 +1,47 @@
+{
+  "patent_number": "None",
+  "application_number": "15424708",
+  "date_published": "20170810",
+  "date_produced": "20170726",
+  "filing_date": "20170203",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for a neural network system. In one aspect, a neural network system includes a recurrent neural network that is configured to, for each time step of a predetermined number of time steps, receive a set of latent variables for the time step and process the latent variables to update a hidden state of the recurrent neural network; and a generative subsystem that is configured to, for each time step, generate the set of latent variables for the time step and provide the set of latent variables as input to the recurrent neural network; update a hidden canvas using the updated hidden state of the recurrent neural network; and, for a last time step, generate an output image using the updated hidden canvas for the last time step.",
+  "publication_number": "US20170228633A1-20170810",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in a neural network system implemented by one or more computers, the neural network system including: a recurrent neural network that is configured to, for each time step of a predetermined number of time steps, receive a set of latent variables for the time step and process the set of latent variables to update a hidden state of the recurrent neural network; and a generative subsystem that is configured to: for each time step of the predetermined number of time steps: generate the set of latent variables for the time step and provide the set of latent variables as input to the recurrent neural network; update a hidden canvas using the updated hidden state of the recurrent neural network; and for a last time step of the predetermined number of time steps: generate an output image, or other output data item, using the updated hidden canvas for the last time step. Another innovative aspect of the subject matter described in this specification can be embodied in methods including the operations that the generative subsystem of the previous aspect is configured to perform. Another innovative aspect of the subject matter described in this specification can be embodied in one or more computer storage media encoded with instructions that, when executed by one or more computers, cause the one or more computers to implement the system of the above aspect. Another innovative aspect of the subject matter described in this specification can be embodied in methods including the operations that the neural network system of the above aspect is configured to perform. Other embodiments of this aspect include corresponding computer systems, apparatus, and computer programs recorded on one or more computer storage devices, each configured to perform the actions of the methods. A system of one or more computers can be configured to perform particular operations or ...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06K966",
+    "G06K962",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Danihelka",
+      "inventor_name_first": "Ivo",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Rezende",
+      "inventor_name_first": "Danilo Jimenez",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Mohamed",
+      "inventor_name_first": "Shakir",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "GENERATIVE NEURAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 57990,
+    "optimized_size": 3667,
+    "reduction_percent": 93.68
+  }
+}

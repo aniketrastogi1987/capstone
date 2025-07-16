@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180418",
+  "publication_number": "US20180121830A1-20180503",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15342069",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Schmid",
+      "inventor_name_first": "Matthew Logan",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Weinsberg",
+      "inventor_name_first": "Ehud",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and non-transitory computer-readable media according to certain aspects can obtain a comment submitted by a user on a page associated with an entity. A training data set, including a plurality of comments, that indicates whether each of the plurality of comments is actionable can be determined. A machine learning model can be trained based on the training data set. Whether the comment is actionable can be determined based at least in part on the machine learning model.",
+  "filing_date": "20161102",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure can include systems, methods, and non-transitory computer readable media configured to obtain a comment submitted by a user on a page associated with an entity. A training data set, including a plurality of comments, that indicates whether each of the plurality of comments is actionable can be determined. A machine learning model can be trained based on the training data set. Whether the comment is actionable can be determined based at least in part on the machine learning model. In some embodiments, the determining whether the comment is actionable comprises associating the comment with a first classification in response to determining that the comment is actionable, where the first classification is indicative of a comment being actionable. In certain embodiments, the machine learning model provides the first classification and a confidence score associated with the first classification. In an embodiment, the first classification is associated with the comment when the confidence score associated with the first classification satisfies a threshold value. In some embodiments, the first classification is displayed in a user interface associated with the page when the confidence score associated with the first classification satisfies a threshold value. In certain embodiments, user input relating to whether the first classification is correct is received. In an embodiment, a comment that is actionable in the training data set is associated with the first classification. In some embodiments, the determining the training data set comprises performing a pattern search on one or more comments using one or more regular expressions, wherein each of the one or more regular expressions is associated with the first classification, and wherein a comment of the one or more comments that includes text matching at least one of the one or more regular expressions is associated with the first classification and includ...",
+  "date_published": "20180503",
+  "title": "SYSTEMS AND METHODS FOR CLASSIFICATION OF COMMENTS FOR PAGES IN SOCIAL NETWORKING SYSTEMS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q5000"
+  ],
+  "_processing_info": {
+    "original_size": 93939,
+    "optimized_size": 3238,
+    "reduction_percent": 96.55
+  }
+}

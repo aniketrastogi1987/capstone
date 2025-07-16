@@ -1,0 +1,31 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364806A1-20171221",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15188066",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Boyer",
+      "inventor_name_first": "John M.",
+      "inventor_city": "Victoria",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "An answer to a question may selected from answers from a set of answering pipelines. Question answer data can be generated for a question, using a first answering pipeline. Another set of question answer data can be generated for the second question, using the second answering pipeline. The question answer data can include answers and confidence values for each answer. Using a weighting formula and a blending profile for the first answering pipeline, a vote weight can be determined for an answer with the highest confidence value. The same weighting formula and a second blending profile may be used to determine a vote weight for another answer with the highest confidence value. An answer to the question may be selected from the answers, based on the overall highest vote weight.",
+  "filing_date": "20160621",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure may be directed toward a method that begins when a first set of question answer data is generated. The data may be generated using a first answering pipeline, and the question answer data may include a first set of answers and a set of first pipeline confidence values for each answer. A second set of question answer data for the question may be generated using a second answering pipeline. The second set of question answer data may include a second set of answers and a set of second pipeline confidence values for each answer in the second set of answers. Using a weighting formula and a first blending profile, a first vote weight for an answer in the first set of question answer data that was assigned a first pipeline highest confidence value by the first answering pipeline. Using the same weighting formula and a second blending profile, a second vote weight for an answer in the second set of question answer data that was assigned a second pipeline highest confidence value by the second answer pipeline may be determined. The first and second blending profiles may be associated with the first and second answering pipelines, respectively. The answer with an overall highest vote weight may then be selected from among the answers in the first set of question answer data and in the second set of question answer data. The answer selected may be selected as the first answer to the question. Embodiments of the present disclosure may be directed toward a computer readable storage medium with program instructions stored thereon, and one or more processors configured to execute the program instructions to perform a method. The method may begin when a first set of question answer data is generated. The data may be generated using a first answering pipeline, and the question answer data may include a first set of answers and a set of first pipeline confidence values for each answer. A second set of question answer data for t...",
+  "date_published": "20171221",
+  "title": "COGNITIVE QUESTION ANSWERING PIPELINE BLENDING",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 105940,
+    "optimized_size": 3330,
+    "reduction_percent": 96.86
+  }
+}

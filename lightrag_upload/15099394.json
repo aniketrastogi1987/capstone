@@ -1,0 +1,31 @@
+{
+  "date_produced": "20171004",
+  "publication_number": "US20170300812A1-20171019",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15099394",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ohsawa",
+      "inventor_name_first": "Shohei",
+      "inventor_city": "KUNITACHI",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A method comprising calculating output values of a plurality of linear nodes connected to a maxout node in a neural network, calculating a temporary maximum value among the output values during the calculation of the output values, and terminating the calculation of a final output value of a first linear node of the plurality of linear nodes in response to a condition that a difference between the temporary maximum value and a temporary output value of the first linear node exceeds a threshold value during the calculation of the output values.",
+  "filing_date": "20160414",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Therefore, it is an object of an aspect of the innovations herein to provide an apparatus capable of overcoming the above drawbacks accompanying the related art. The above and other objects can be achieved by the combinations recited in the claims. A first aspect of the innovations herein may include a method including calculating output values of a plurality of linear nodes connected to a maxout node in a neural network, determining a temporary maximum value among the output values during the calculation of the output values, and terminating the calculation of a final output value of a first linear node of the plurality of linear nodes in response to a condition that a difference between the temporary maximum value and a temporary output value of the first linear node exceeds a threshold value during the calculation of the output values. Embodiments of the invention that include these features may make it possible to terminate calculation of a part of the plurality of linear nodes that does not influence the output of the maxout node, thereby improving efficiency of the computation of the maxout network. Each linear node of the plurality of linear nodes may be connected to a plurality of inputs, and the calculating output values may include calculating a final output value of each linear node based on the plurality of inputs and a plurality of weight values, the plurality of weight values associated between the plurality of inputs and the linear node. Embodiments of the invention that include these features may improve efficiency of the computation of the maxout network. The calculating the final output value from each linear node may include multiplying each input of the plurality of inputs and corresponding weight value of the plurality of weight values and adding the result of multiplication, and the terminating may include terminating remaining multiplication and accumulation of the calculation of the final output value. Embodiments of the in...",
+  "date_published": "20171019",
+  "title": "EFFICIENT DETERMINATION OF OPTIMIZED LEARNING SETTINGS OF NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 84419,
+    "optimized_size": 3120,
+    "reduction_percent": 96.3
+  }
+}

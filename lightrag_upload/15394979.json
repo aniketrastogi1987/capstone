@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189629A1-20180705",
+  "main_ipcr_label": "G06N300",
+  "decision": "PENDING",
+  "application_number": "15394979",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yatziv",
+      "inventor_name_first": "Liron",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Krepner",
+      "inventor_name_first": "Shlomo",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one example, a method includes generating, responsive to receiving a request for a recommendation for a group of users and based on first privacy level data for users of the group, an original list of recommendations for the group. In this example, the method further includes evaluating, by respective computational assistants associated with the users of the group and based on respective second privacy level data for the users of the group, recommendations from the original list of recommendations for inclusion in a pruned list of recommendations for the group, wherein the second privacy level is more restricted than the first privacy level. In this example, the method further includes, in response to the pruned list of recommendations including at least one recommendation, outputting, for presentation to the users of the group, the pruned list of recommendations.",
+  "filing_date": "20161230",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, techniques of this disclosure may enable virtual, computational assistants (e.g., also referred to as “intelligent assistants” or simply as “assistants”), associated with users of a group, to provide recommendations for the group, based on private information of the users, without revealing an individual user's private information to other users of the group. For instance, a computational assistant may generate an original list of recommendations based on available information for the users (e.g., publicly information for the users, or information that the users have consented to be available for recommendation generation). While the original list of recommendations may be of general interest to the group of users, one or more individual users of the group may have private preferences in favor of, or against, some of the recommendations. As such, the original list of recommendations may be of more interest to the group, if the assistant can access private information for the users that is indicative of the private preferences when generating the recommendations. However, it may be undesirable for an assistant associated with a particular user to access another private information and private preferences of another user. In accordance with one or more techniques of this disclosure, each respective assistant may evaluate, based on respective private information for its associated user, recommendations from the original list for inclusion in a pruned list of recommendations. Each respective assistant may determine not to include (i.e., knock-out) a recommendation in the pruned list if the respective private information for its associated user indicates that the associated user has a negative preference for the recommendation. The assistants may then present (i.e., display or otherwise output) the pruned list to the users. In this way, the respective assistants may provide higher quality group recommendations that take into account the ind...",
+  "date_published": "20180705",
+  "title": "VIRTUAL ASSISTANT GENERATION OF GROUP RECOMMENDATIONS",
+  "ipcr_labels": [
+    "G06N300",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 128381,
+    "optimized_size": 3599,
+    "reduction_percent": 97.2
+  }
+}

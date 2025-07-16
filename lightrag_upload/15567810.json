@@ -1,0 +1,55 @@
+{
+  "patent_number": "None",
+  "application_number": "15567810",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "filing_date": "20171019",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "From each of in-vehicle units in vehicles, a travel behavior data indicating a travel behavior of the vehicle is received and recorded in a travel history database. The travel behavior data of the vehicles are read from the travel history database; an avoidance action arising in each of the vehicles is detected based on the read travel behavior data. From the detected avoidance actions of the vehicles, a related avoidance action group being avoidance actions arising due to an identical object at different positions at different points of times in different target vehicles is extracted based on an occurrence position and an occurrence point of time of each detected avoidance action. Information on position change of the identical object as a cause of the extracted related avoidance action group is recorded as an alert target data.",
+  "publication_number": "US20180107946A1-20180419",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>However, the inventors' study teaches that an alert target that drivers need to pay attention to is not only a fixed spot but also a moving object. It is an object of the present disclosure to record a single moving object as a single alert target object. To achieve the above object, according to an aspect of the present disclosure, an alert output apparatus is provided to include a reception recorder section, an avoidance detector section, an extractor, and a recorder section. The reception recorder section receives, from each of a plurality of in-vehicle units mounted individually in a plurality of vehicles, a travel behavior data indicating a travel behavior of the vehicle in which each of the in-vehicle units is mounted, and record the travel behavior data in a travel history database. The avoidance detector section reads a travel behavior data indicating a travel behavior of each of the vehicles and tries to detect an avoidance action arising in each of the vehicles based on the read travel behavior data. The extractor section extracts, from the avoidance actions of the vehicles detected by the avoidance detector section, a related avoidance action group being a plurality of avoidance actions arising due to an identical object at different positions at different points of times in different target vehicles included in the plurality of vehicles, based on an occurrence position and an occurrence point of time of each of the avoidance actions of the vehicles detected by the avoidance detector section. The recorder section records information on a position change of the identical object that serves as a cause of the related avoidance action group extracted by the extractor section, as an alert target data indicating a position change of an alert target object in an alert target database. As such, an alert output apparatus records a related avoidance action group that are a plurality of avoidance actions arising at different positions...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G07C508",
+    "G08G116",
+    "G06N504",
+    "B60Q900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yamamoto",
+      "inventor_name_first": "Masayuki",
+      "inventor_city": "Kariya-city, Aichi-pref.",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Asami",
+      "inventor_name_first": "Katsushi",
+      "inventor_city": "Kariya-city, Aichi-pref.",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Kaji",
+      "inventor_name_first": "Daisuke",
+      "inventor_city": "Kariya-city, Aichi-pref.",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Hattori",
+      "inventor_name_first": "Yuya",
+      "inventor_city": "Kariya-city, Aichi-pref.",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "ALERT OUTPUT APPARATUS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 49973,
+    "optimized_size": 3894,
+    "reduction_percent": 92.21
+  }
+}

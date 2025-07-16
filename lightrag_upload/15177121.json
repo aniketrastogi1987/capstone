@@ -1,0 +1,59 @@
+{
+  "date_produced": "20171129",
+  "publication_number": "US20170357892A1-20171214",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15177121",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Zhe",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Yufei",
+      "inventor_city": "La Jolla",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mech",
+      "inventor_name_first": "Radomir",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shen",
+      "inventor_name_first": "Xiaohui",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Miller",
+      "inventor_name_first": "Gavin Stuart Peter",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In embodiments of convolutional neural network joint training, a computing system memory maintains different data batches of multiple digital image items, where the digital image items of the different data batches have some common features. A convolutional neural network (CNN) receives input of the digital image items of the different data batches, and classifier layers of the CNN are trained to recognize the common features in the digital image items of the different data batches. The recognized common features are input to fully-connected layers of the CNN that distinguish between the recognized common features of the digital image items of the different data batches. A scoring difference is determined between item pairs of the digital image items in a particular one of the different data batches. A piecewise ranking loss algorithm maintains the scoring difference between the item pairs, and the scoring difference is used to train CNN regression functions.",
+  "filing_date": "20160608",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Convolutional neural network joint training is described. In embodiments, the classifier layers (also referred to herein as the neural layers) of a convolutional neural network are trained simultaneously on different data types. A computing system includes memory to maintain different data batches each including multiple digital image items. The different data batches can be event types of different events, and the multiple digital image items of an event type can be groups of digital images each associated with a type of the event, such as a family vacation, a nature hike, a wedding, a birthday, or other type of gathering. Similarly, the multiple digital image items of an event type can be digital videos each associated with a type of the event. Generally, the multiple digital image items (e.g., the digital images or digital videos) of the different data batches have some common features. A convolutional neural network is implemented by the computing system to receive input of the multiple digital image items of the different data batches. The classifier layers of the convolutional neural network are trained to recognize the common features in the multiple digital image items of the different data batches. The convolutional neural network can receive an input of the multiple digital image items of the different data batches, where the digital image items are interleaved in a sequence of item subsets from different ones of the different data batches. The classifier layers of the convolutional neural network can then be trained based on the input of the sequential interleaved item subsets. Alternatively, the convolutional neural network can receive the input of the multiple digital image items of the different data batches, where the digital image items are interleaved as item subsets from random different ones of the different data batches. The classifier layers of the convolutional neural network can then be trained based on the input of the rand...",
+  "date_published": "20171214",
+  "title": "Convolutional Neural Network Joint Training",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 68341,
+    "optimized_size": 4105,
+    "reduction_percent": 93.99
+  }
+}

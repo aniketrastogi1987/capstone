@@ -1,0 +1,30 @@
+{
+  "patent_number": "None",
+  "application_number": "15726258",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "filing_date": "20171005",
+  "main_ipcr_label": "G06N702",
+  "abstract": "A computer-implemented method of determining an approximated value of a parameter in a first domain is described. The parameter is dependent on one or more variables which vary in a second domain, and the parameter is determined by a function which relates sets of values of the one or more variables in the second domain to corresponding values in the first domain. The method is implemented on a computer system including a processor, and the method comprises: determining a plurality of anchor points in the second domain, wherein each anchor point comprises a set of values of the one or more variables in the second domain; evaluating, at each anchor point, the function to generate corresponding values of the parameter in the first domain; generating an approximation function to the function by fitting a series of orthogonal functions or an approximation to a series of orthogonal functions to the corresponding values of the parameter in the first domain; and using the approximation functi...",
+  "publication_number": "US20180089577A1-20180329",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to the present invention, there is provided a computer-implemented method of determining an approximated value of a parameter in a first domain, the parameter being dependent on one or more variables which vary in a second domain, and the parameter being determined by a function which relates sets of values of the one or more variables in the second domain to corresponding values in the first domain, the method being implemented on a computer system including a processor, and the method comprising: determining a plurality of anchor points in the second domain, wherein each anchor point comprises a set of values of the one or more variables in the second domain; evaluating, at each anchor point, the function to generate corresponding values of the parameter in the first domain; generating an approximation function to the function by fitting a series of orthogonal functions or an approximation to a series of orthogonal functions to the corresponding values of the parameter in the first domain; and using the approximation function to generate the approximated value of the parameter in the first domain. Optionally, the method comprises transforming the function into an intermediary function before the generating step, wherein the intermediary function is a linear transformation of the function, and wherein the generating step comprises approximating the intermediary function. Optionally, the transforming step comprises linearly transforming the function into a predetermined range. Optionally, the series of orthogonal functions is one of the group comprising: sines, cosines, sines and cosines, Bessel functions, Gegenbauer polynomials, Hermite polynomials, Laguerre polynomials, Chebyshev polynomials, Jacobi polynomials, Spherical harmonics, Walsh functions, Legendre polynomials, Zernike polynomials, Wilson polynomials, Meixner-Pollaczek polynomials, continuous Hahn polynomials, continuous dual Hahn polynomials, a classical pol...",
+  "ipcr_labels": [
+    "G06N702"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ruiz",
+      "inventor_name_first": "Ignacio",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "FORECASTING SYSTEMS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 171940,
+    "optimized_size": 3505,
+    "reduction_percent": 97.96
+  }
+}

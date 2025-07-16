@@ -1,0 +1,38 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15211315",
+  "date_published": "20161110",
+  "date_produced": "20161026",
+  "title": "RECONFIGURABLE FETCH PIPELINE",
+  "filing_date": "20160715",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Venkumahanti",
+      "inventor_name_first": "Suresh Kumar",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shannon",
+      "inventor_name_first": "Stephen Robert",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F120855",
+    "G06F120811"
+  ],
+  "main_ipcr_label": "G06F120855",
+  "summary": "<SOH> IV. SUMMARY <EOH>This disclosure presents aspects of a reconfigurable fetch pipeline. The reconfigurable fetch pipeline may dynamically switch between a parallel load operation and a serial load operation based on, for example, a number of instructions stored in an issue queue, a number of active threads of an execution unit, a power saving mode indicator, a static mode input, or a combination thereof. In a particular aspect, when an issue queue stores a particular number of instructions such that the reconfigurable fetch pipeline can provide requested data to the issue queue before an execution unit would request the requested data from the issue queue, the reconfigurable fetch pipeline performs a serial load operation (e.g., to save power). Thus, an electronic device including the reconfigurable fetch pipeline may load data using less power, as compared to a parallel load operation, when the reconfigurable fetch pipeline operates in a serial operating mode. When the issue queue stores a number of instructions such that the reconfigurable fetch pipeline cannot provide the requested data to the issue queue before the execution unit requests the requested data from the issue queue (e.g., if the issue queue is empty and the execution unit is waiting for an instruction or if the issue queue would request the requested data before the serial load operation would provide the requested data to the issue queue), the reconfigurable fetch pipeline performs a parallel load operation (e.g., to fetch data quickly). Thus, an electronic device including the reconfigurable fetch pipeline may load data more quickly, as compared to a serial load operation, when the reconfigurable fetch pipeline operates in a parallel operating mode. Additionally, the reconfigurable fetch pipeline may dynamically switch between the serial operating mode and the parallel operating mode based on a number of instructions in an issue queue, a number of active threads at an execution unit, or other ...",
+  "patent_number": "10007613",
+  "abstract": "An apparatus includes an access mode selection circuit configured to select a cache access mode based on a number of instructions stored at an issue queue, a number of active threads of an execution unit coupled to a cache, or both. The access mode selection circuit is further configured to generate an access mode signal based on the selected cache access mode. The apparatus further includes an address generation circuit configured to perform a cache access based on the access mode signal.",
+  "publication_number": "US20160328325A1-20161110",
+  "_processing_info": {
+    "original_size": 61790,
+    "optimized_size": 3199,
+    "reduction_percent": 94.82
+  }
+}

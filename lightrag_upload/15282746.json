@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15282746",
+  "date_published": "20180405",
+  "date_produced": "20180322",
+  "title": "COMPUTING SYSTEM INCLUDING INDEPENDENT COUPLING FACILITIES MAINTAINING EQUIVALENCY BASED ON SEQUENCE VALUES",
+  "filing_date": "20160930",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Driever",
+      "inventor_name_first": "Peter D.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Goss",
+      "inventor_name_first": "Steven N.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Greenblatt",
+      "inventor_name_first": "Michael L.",
+      "inventor_city": "Jefferson Hills",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Surman",
+      "inventor_name_first": "David H.",
+      "inventor_city": "Milton",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F946"
+  ],
+  "main_ipcr_label": "G06F946",
+  "summary": "<SOH> SUMMARY <EOH>According to a non-limiting embodiment, a computing system is configured to maintain equivalency of independent queues located in different coupling facilities. The computer system includes a first coupling facility and a second coupling facility. The first coupling facility receives a plurality of different commands instructing the first coupling facility to load data into a first structure. The first coupling facility generates a first command data block including first data corresponding to a received first command and a first sequence value indicating a sequence at which the first data was loaded into the first structure with respect to remaining data corresponding to the plurality of commands. A second coupling facility includes a second structure and a second queue. The second coupling facility receives the first command data block from a first queue of the first coupling facility and loads the first data from the second queue into the second structure based on the first sequence value. According to another non-limiting embodiment, a method is provided to maintain equivalency of independent queues in different coupling facilities. The method comprises receiving a plurality of different commands instructing a first coupling facility to load data into a first structure, and generating a first command data block. The first command data block includes first data corresponding to a first command among the plurality of different commands and a first sequence value indicating a sequence at which the first data was loaded into the first structure with respect to remaining data corresponding to the plurality of different commands. The method further includes receiving the first command data block from a first queue included with the first coupling facility. The method further includes loading, by a second coupling facility, the first data from a second queue included with a second coupling facility into a second structure included with the second cou...",
+  "patent_number": "None",
+  "abstract": "A computing system is configured to maintain equivalency of independent queues located in different coupling facilities. The computer system includes a first coupling facility and a second coupling facility. The first coupling facility receives a plurality of different commands instructing the first coupling facility to load data into a first structure. The first coupling facility generates a first command data block including first data corresponding to a received first command and a first sequence value indicating a sequence at which the first data was loaded into the first structure with respect to remaining data corresponding to the plurality of commands. A second coupling facility includes a second structure and a second queue. The second coupling facility receives the first command data block from a first queue of the first coupling facility and loads the first data from the second queue into the second structure based on the first sequence value.",
+  "publication_number": "US20180095782A1-20180405",
+  "_processing_info": {
+    "original_size": 90805,
+    "optimized_size": 4027,
+    "reduction_percent": 95.57
+  }
+}

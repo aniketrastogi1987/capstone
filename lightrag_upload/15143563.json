@@ -1,0 +1,80 @@
+{
+  "decision": "PENDING",
+  "application_number": "15143563",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "title": "Field Extraction Rules from Clustered Data Samples",
+  "filing_date": "20160430",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Li",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Tao",
+      "inventor_name_first": "Gang",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Su",
+      "inventor_name_first": "Yongxin",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Hao",
+      "inventor_name_first": "Junqing",
+      "inventor_city": "Nanjing City",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Ting",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Coates",
+      "inventor_name_first": "John Robert",
+      "inventor_city": "Berkeley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Haddad",
+      "inventor_name_first": "Elias",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Guodong",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "G06F30484"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings: FIG. 1 illustrates a networked computer environment in which an embodiment may be implemented; FIG. 2 illustrates a block diagram of an example data intake and query system in which an embodiment may be implemented; FIG. 3 is a flow diagram that illustrates how indexers process, index, and store data received from forwarders in accordance with the disclosed embodiments; FIG. 4 is a flow diagram that illustrates how a search head and indexers perform a search query in accordance with the disclosed embodiments; FIG. 5 illustrates a scenario where a common customer ID is found among log data received from three disparate sources in accordance with the disclosed embodiments; FIG. 6A illustrates a search screen in accordance with the disclosed embodiments; FIG. 6B illustrates a data summary dialog that enables a user to select various data sources in accordance with the disclosed embodiments; FIGS. 7A-7D illustrate a series of user interface screens for an example data model-driven report generation interface in accordance with the disclosed embodiments; FIG. 8 illustrates an example search query received from a client and executed by search peers in accordance with the disclosed embodiments; FIG. 9A illustrates a key indicators view in accordance with the disclosed embodiments; FIG. 9B illustrates an incident review dashboard in accordance with the disclosed embodiments; FIG. 9C illustrates a proactive monitoring tree in accordance with the disclosed embodiments; FIG. 9D illustrates a user interface screen displaying both log data and performance data in accordance with the disclosed embodiments; FIG. 10 illustrates a block diagram of an example cloud-based data intake and query system in which an embodiment may be implemented; FIG. 11 illustrates a block diagram of an example data intake and query system that performs searches across external data systems in accordance with the disclosed embodiments; FIGS. 1...",
+  "patent_number": "None",
+  "abstract": "The operation of an automatic data input and query system is controlled by well-defined control data. Certain control data may relate to data schemas and direct operations performed by the system to extract fields from machine data. Automatic methods may determine proper field extraction control information by analyzing a sample of data from a source, breaking the sample data into event segments, classifying the segments into groups based on a measure of similarity, determining an operable extraction rule for each group, and storing the resulting extraction model. Data patterns known by the system can be leveraged to perform the event breaking and field identification for the classifying. Embodiments may provide a user interface to view, interact with, and approve the computer-generated extraction model.",
+  "publication_number": "US20170286525A1-20171005",
+  "_processing_info": {
+    "original_size": 234549,
+    "optimized_size": 4368,
+    "reduction_percent": 98.14
+  }
+}

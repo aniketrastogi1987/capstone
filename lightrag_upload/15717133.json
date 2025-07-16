@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15717133",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "filing_date": "20170927",
+  "main_ipcr_label": "G06N304",
+  "abstract": "In certain embodiments, content items may be obtained, where each of the content items may include multiple data types. Machine learning models may be caused to be trained based on the content items to map data in a vector space by providing at least a first portion of each of the content items as input to at least one of the machine learning models and providing at least a second portion of each of the content items as input to at least another one of the machine learning models. A search request for results may be obtained, where the search request includes search parameters. One or more locations within the vector space may be predicted (e.g., by one or more of the machine learning models) based on the search parameters. Information (indicating content items mapped to or proximate the predicted locations) may be provided as a request response.",
+  "publication_number": "US20180089556A1-20180329",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Aspects of the invention relate to methods, apparatuses, and/or systems for facilitating prediction-model-based mapping and/or search using a multi-data-type vector space. In some embodiments, the search and indexing of multiple different data types may be unified into one search space, such as a high dimensional vector space. As an example, the vector space may include 10 or more dimensions, 20 or more dimensions, 30 or more dimensions, 40 or more dimensions, 50 or more dimensions, 100 or more dimensions, 200 or more dimensions, 300 or more dimensions, 400 or more dimensions, 500 or more dimensions, 1000 or more dimensions, 5000 or more dimensions, 10000 or more dimensions, 10000 or more dimensions, or other number of dimensions. In some embodiments, machine learning models (such as neural networks) may be trained to map that data into vectors. The training process may attempt to map through multiple neural networks or other machine learning models (e.g., one per different type of data associated with a given item) to map the data types to the same point in the vector space for the various data types of the given item and map to different points in the vector space for data types of other dissimilar items. In some embodiments, the structure of the neural network (or machine learning model) for each data type may vary greatly depending on the data type. As an example, a convolutional network may be trained and used for mapping for images and videos to the vector space, whereas a convolution or a recurrent neural network may be trained and used for mapping sequence data (e.g., sentences, time series, etc.) to the vector space. As discussed, in some embodiments, an existing vector space may be extended by adding one or more additional dimensions to the vector space (e.g., to enable the vector space to accommodate new types of data by mapping aspects of the new types of data to the additional dimensions of the vector space). In some ...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "ZEILER",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "EIGEN",
+      "inventor_name_first": "David",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "COMPTON",
+      "inventor_name_first": "Ryan",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FOX",
+      "inventor_name_first": "Christopher",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "PREDICTION-MODEL-BASED MAPPING AND/OR SEARCH USING A MULTI-DATA-TYPE VECTOR SPACE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 80798,
+    "optimized_size": 3876,
+    "reduction_percent": 95.2
+  }
+}

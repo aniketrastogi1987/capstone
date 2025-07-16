@@ -1,0 +1,54 @@
+{
+  "decision": "PENDING",
+  "application_number": "15170468",
+  "date_published": "20171207",
+  "date_produced": "20171121",
+  "title": "RISK-BASED CONTROL-TO-RANGE",
+  "filing_date": "20160601",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Duke",
+      "inventor_name_first": "David L.",
+      "inventor_city": "Fishers",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ringemann",
+      "inventor_name_first": "Christian",
+      "inventor_city": "Mannheim",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Manohar",
+      "inventor_name_first": "Chinmay Uday",
+      "inventor_city": "Fishers",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Greenburg",
+      "inventor_name_first": "Alan",
+      "inventor_city": "Indianapolis",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "A61M5172",
+    "A61B5145",
+    "G06F1900",
+    "A61M5142"
+  ],
+  "main_ipcr_label": "A61M5172",
+  "summary": "<SOH> SUMMARY <EOH>In one embodiment, a method of determining a basal rate adjustment of insulin based on risk associated with a glucose state of a person with diabetes is provided. The method includes receiving, by at least one computing device, a signal representative of at least one glucose measurement. The method also includes detecting, by the at least one computing device, a glucose state of the person based on the signal, the detected glucose state including a glucose level of the person and a rate of change of the glucose level. Further, the method includes determining, by the at least one computing device, a current risk metric associated with the detected glucose state based on a target glucose state, the target glucose state being stored in memory accessible by the at least one computing device, the current risk metric indicating a risk of at least one of a hypoglycemic condition and a hyperglycemic condition of the person. A return path is determined based on a transition from the current glucose state to the target glucose state, the return path comprising at least one intermediate glucose value associated with a return to the target glucose state. Further, a cumulative hazard value of the return path is determined, the cumulative hazard value including a sum of the hazard values of the at least one glucose value on the return path, each hazard value being indicative of a hazard associated with the corresponding intermediate glucose value. Additionally, the current risk metric is determined based on a weighted average of cumulative hazard values of return paths generated from a glucose state distribution around the detected glucose state. The method also includes identifying, by the at least one computing device, a reference glucose state and a reference risk metric associated with the reference glucose state; and calculating, by the at least one computing device, an adjustment to a basal rate of a therapy delivery device based on the current risk metri...",
+  "patent_number": "None",
+  "abstract": "Methods and systems are disclosed for determining a basal rate adjustment of insulin based on risk associated with a glucose state of a person with diabetes. A method may include detecting a glucose state of the person based on a received glucose measurement signal and determining a current risk metric associated with the detected glucose state. The method may include determining a current risk metric associated with the detected glucose state based on a weighted average of cumulative hazard values of return paths generated from a glucose state distribution around a detected glucose state. The method may include calculating an adjustment to a basal rate of a therapy delivery device based on the current risk metric associated with the detected glucose state and a reference risk metric associated with a reference glucose level.",
+  "publication_number": "US20170348484A1-20171207",
+  "_processing_info": {
+    "original_size": 83404,
+    "optimized_size": 3842,
+    "reduction_percent": 95.39
+  }
+}

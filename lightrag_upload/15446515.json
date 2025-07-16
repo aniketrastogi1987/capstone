@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15446515",
+  "date_published": "20170914",
+  "date_produced": "20170830",
+  "filing_date": "20170301",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A credibility determining system enabling highly accurate credibility determination of given information includes causal relation knowledge DB 90 and search scope constraint DB 88. Causal relation knowledge each includes a combination of cause and result parts, and time and position constraints associated with the causal relation. The credibility determining system further includes a query generating unit 92 retrieving a causal relation matching the input information and based on the time and position constraints stored in search scope constraint DB 88 in association with the retrieved causal relation, generating a query for retrieving remarks from mini-blog text DB 84, a text search unit 96 searching for related remarks from mini-blog text DB 84 using the query, and a display candidate selecting unit 100 classifying the searched remarks to expressions interpreted as causes or to results, determining credibility of the input information based on the classification result and outputting...",
+  "publication_number": "US20170262754A1-20170914",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In any of the techniques disclosed in Non-Patent Literatures 1, 2 and 3, the determination itself of the information credibility is done by the user, and the systems does no more than offering materials for determining credibility. If a system is capable of highly accurate determination of credibility, for example, if a question-answering system emphasizes answer candidates of high credibility and removes those of low credibility, the user can get more meaningful answers. Further, accuracy of credibility determination should be as high as possible. Though techniques proposed so far have succeeded in providing materials for determination, they could not provide any method to determine the credibility of information with a high accuracy. Therefore, it is preferable to provide a credibility determining system that can determine the credibility of given information with a high accuracy. According to a first aspect, the present invention provides a computer-implemented credibility determining system, for determining credibility of input information based on a set of remarks on a network. The credibility determining system includes; a network interface connected to the network and a non-transitory computer readable storage medium. The non-transitory computer readable storage medium includes a causal relation storage device for storing pieces of causal relation knowledge. Each piece of causal relation knowledge includes a combination of a cause part consisting of a text representing a cause part and a result part consisting of a text representing a result of the cause, and a time constraint and a position constraint associated with the causal relation. The non-transitory computer readable storage medium further includes a remark text storage device for storing a set of texts of the remarks. The credibility determining system further includes a processor connected to the network interface and the storage medium. The processor is configure...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MIZUNO",
+      "inventor_name_first": "Junta",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TORISAWA",
+      "inventor_name_first": "Kentaro",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "OOTAKE",
+      "inventor_name_first": "Kiyonori",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "HASHIMOTO",
+      "inventor_name_first": "Chikara",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR DETERMINING CREDIBILITY OF INFORMATION BASED ON MANY REMARKS ON A NETWORK, AND NON-TRANSITORY COMPUTER READABLE STORAGE MEDIUM HAVING STORED THEREON COMPUTER PROGRAM THEREFOR",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 99541,
+    "optimized_size": 4125,
+    "reduction_percent": 95.86
+  }
+}

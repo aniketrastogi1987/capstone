@@ -1,0 +1,37 @@
+{
+  "date_produced": "20180315",
+  "publication_number": "US20180089576A1-20180329",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15273808",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Markande",
+      "inventor_name_first": "Mukul P.",
+      "inventor_city": "PUNE",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Omanwar",
+      "inventor_name_first": "Anil M.",
+      "inventor_city": "PUNE",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "The present invention provides a computer implemented method, a system, and a computer program product of identifying and analyzing the impact of an event associated with an entity on relationships of the entity. In an exemplary embodiment, the present invention includes storing data that identifies relationships with entities associated with the entity, based on data about the entity and data about the entities from at least one online website, storing data that identifies entity relationships, among the entity relationships identified in an entity relationship data structure, that are determined by the computer system to be affected by events associated with event categories, receiving data about events related to the entity, and outputting data related to a recommendation for a second entity among the entities associated with the entity, wherein the second entity corresponds to a most affected relationship, based on data associated with the second entity.",
+  "filing_date": "20160923",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present invention provides a computer implemented method, a system, and a computer program product of identifying and analyzing the impact of an event associated with an entity on relationships of the entity. In an exemplary embodiment, the computer implemented method, the system, and the computer program product include (1) storing, by a computer system, data that identifies relationships with entities associated with an entity (entity relationships), based on data about the entity and data about the entities from at least one online website, in a first data structure (entity relationship data structure), (2) storing, by the computer system, data that identifies entity relationships, among the entity relationships identified in the entity relationship data structure, that are determined by the computer system to be affected by events associated with event categories, in a second data structure (impact data structure), (3) receiving, by the computer system, data about events related to the entity (entity events), where the data includes types of the entity events (event types), (4) identifying, by the computer system, based on a parsing by the computer system of the received data, impacting events among the entity events, where the impacting events are determined by the computer system to impact the entity relationships identified in the impact data structure, (5) for each impacting event among the impacting events, calculating, by the computer system, an impact score based on at least the event categories, data about sentiment about the impacting event, and an event type of the impacting event, thereby resulting in calculated impact scores, (6) for each impacting event among the impacting events, identifying, by the computer system, likely affected relationships (LARs) among the entity relationships identified in the impact data structure based on the calculated impact scores, (7) for each likely affected relationship (LAR) among the LARs for...",
+  "date_published": "20180329",
+  "title": "IDENTIFYING AND ANALYZING IMPACT OF AN EVENT ON RELATIONSHIPS",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 66848,
+    "optimized_size": 3661,
+    "reduction_percent": 94.52
+  }
+}

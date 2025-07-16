@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15661455",
+  "date_published": "20180201",
+  "date_produced": "20180117",
+  "filing_date": "20170727",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A machine learning method, using a neural network as a model, executed by a computer, the machine learning method including dividing a first batch data into a plurality of pieces of second batch data, the first batch data being a set of sample data to be input into the model in a machine learning, allocating the plurality of pieces of second batch data to a plurality of computers, the model having a specified layered structure and a specified parameter of the neural network being applied to the plurality of computers, making the plurality of computers to execute the machine learning based on the plurality of allocated second batch data, obtaining, from each of the plurality of computers, a plurality of correction amounts of the parameter derived by the executed machine learning, and correcting the model by modifying the specified parameter in accordance with the plurality of correction amounts.",
+  "publication_number": "US20180032869A1-20180201",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the invention, a machine learning method using a neural network as a model, the machine learning method being executed by a computer, the machine learning method including, dividing a first batch data into a plurality of pieces of second batch data, the first batch data being a set of sample data to be input into the model in a machine learning, the first batch data having a specified data size in which a parameter of the model is corrected, allocating the plurality of pieces of second batch data to a plurality of computers, the model having a specified layered structure and a specified parameter of the neural network being applied to the plurality of computers, making each of the plurality of computers to execute the machine learning based on each of the plurality of allocated second batch data, obtaining, from each of the plurality of computers, a plurality of correction amounts of the parameter derived by the executed machine learning, and correcting the model by modifying the specified parameter in accordance with the plurality of correction amounts. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the invention, as claimed.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N3063"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "TABARU",
+      "inventor_name_first": "Tsuguchika",
+      "inventor_city": "Machida",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "YAMAZAKI",
+      "inventor_name_first": "Masafumi",
+      "inventor_city": "Tachikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KASAGI",
+      "inventor_name_first": "Akihiko",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "MACHINE LEARNING METHOD, NON-TRANSITORY COMPUTER-READABLE STORAGE MEDIUM, AND INFORMATION PROCESSING APPARATUS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 50338,
+    "optimized_size": 3269,
+    "reduction_percent": 93.51
+  }
+}

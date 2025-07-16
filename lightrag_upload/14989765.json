@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "14989765",
+  "date_published": "20170706",
+  "date_produced": "20170621",
+  "title": "METHOD OF FILTERING OVERLAY DATA BY FIELD",
+  "filing_date": "20160106",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Liou",
+      "inventor_name_first": "En-Chiuan",
+      "inventor_city": "Tainan City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Che-Yi",
+      "inventor_city": "Kaohsiung City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1750",
+    "G03F136"
+  ],
+  "main_ipcr_label": "G06F1750",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to the claimed invention, a method of filtering overlay data by field is provided. The method includes the following steps. A minimum number of measure points per field on a semiconductor substrate is decided. Field data filtering rules are set. Overlay raw data is inputted. A raw data filtration is performed to the overlay raw data by field according to the field data filtering rules. Modified exposure parameters are generated for each field according to overlay data of remaining measure points per field after the raw data filtration when the number of the remaining measure points per field is larger than or equal to the minimum number of the measure points per field. According to the method of filtering the overlay data by field in the present invention, the raw data filtration is performed to the overlay raw data by field according to the field data filtering rules, and the number of the remaining measure points per field has to be larger than or equal to the minimum number of the measure points per field before the step of generating the modified exposure parameters for each field according to the overlay data of the remaining measure points per field. The overlay data of the measure point with extreme overlay error will be filtered out by the field data filtering rules, and the modified exposure parameters will be more effective in reducing the overlay error accordingly. These and other objectives of the present invention will no doubt become obvious to those of ordinary skill in the art after reading the following detailed description of the preferred embodiment that is illustrated in the various figures and drawings.",
+  "patent_number": "None",
+  "abstract": "A method of filtering overlay data by field is provided in the present invention. The method includes the following steps. A minimum number of measure points per field on a semiconductor substrate is decided. Field data filtering rules are set. Overlay raw data is inputted. A raw data filtration is performed to the overlay raw data by field according to the field data filtering rules. Modified exposure parameters are generated for each field according to overlay data of remaining measure points per field after the raw data filtration when the number of the remaining measure points per field is larger than or equal to the minimum number of the measure points per field. Accordingly, the modified exposure parameters will be more effective in reducing the overlay error because more outliers may be filtered out before generating the modified exposure parameters.",
+  "publication_number": "US20170193153A1-20170706",
+  "_processing_info": {
+    "original_size": 25327,
+    "optimized_size": 3254,
+    "reduction_percent": 87.15
+  }
+}

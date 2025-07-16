@@ -1,0 +1,62 @@
+{
+  "patent_number": "None",
+  "application_number": "15660897",
+  "date_published": "20180201",
+  "date_produced": "20180117",
+  "filing_date": "20170726",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Disclosed is a technique that can be performed by a server computer system. The technique can include executing a machine learning process to generate a machine learning model based on global data collected from one or more electronic devices, wherein the machine learning model is described by model data. The technique can further include encapsulating the model data in a markup language document. The technique can further include sending, over a network, the markup language document to at least one electronic device of the one or more electronic devices to cause the at least one electronic device to update a local device machine learning model.",
+  "publication_number": "US20180032915A1-20180201",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>One or more embodiments of the present disclosure are illustrated by way of example and not limitation in the figures of the accompanying drawings, in which like references indicate similar elements. FIG. 1 is a system diagram illustrating a networked computer system. FIG. 2 is a block diagram illustrating a series of events, including raw edge data. FIG. 3 is a block diagram illustrating components of a data intake and query system. FIG. 4 is a flow diagram illustrating a process performed by a data intake and query system. FIG. 5 is a flow diagram illustrating a process performed by a search head and indexers to perform a search query. FIG. 6 is a block diagram illustrating components of an edge device connected to a server computer system. FIG. 7 is a block diagram illustrating an operation of an embodiment of the system to transmit model data to edge devices via a markup language document, including a server computer system connected to edge devices collectively implementing machine learning. FIG. 8 is a block diagram illustrating an embodiment of a PMML document storing model data. FIG. 9 is a block diagram illustrating an operation of an embodiment of the system to improve analytics for edge devices, including a server computer system connected to edge devices collectively implementing machine learning. FIG. 10 is a block diagram illustrating an operation of an embodiment of the system to improve analytics for edge devices similar to FIG. 7 , but which can implement the binding of schemas at the edge devices or the server computer system. FIG. 11 is a block diagram illustrating an operation of an embodiment of the system to improve analytics for edge devices similar to FIG. 7 , but which can implement machine learning locally at the edge devices. FIG. 12 is an operation flow diagram illustrating an example of an operation flow of an edge device according to an embodiment. FIG. 13 is an operation flow diagram illustr...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N304",
+    "G06N308",
+    "G06F1518",
+    "G06K900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "NAGARAJU",
+      "inventor_name_first": "Pradeep Baliganapalli",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Steve",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Jiahan",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "OLINER",
+      "inventor_name_first": "Adam Jamison",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DEAN",
+      "inventor_name_first": "Erick Anthony",
+      "inventor_city": "Piedmont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "TRANSMITTING MACHINE LEARNING MODELS TO EDGE DEVICES FOR EDGE ANALYTICS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 112174,
+    "optimized_size": 3887,
+    "reduction_percent": 96.53
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15601724",
+  "date_published": "20170907",
+  "date_produced": "20170823",
+  "filing_date": "20170522",
+  "main_ipcr_label": "G06N302",
+  "abstract": "A computer-implemented apparatus for a distributed processing network includes: a processing unit that is configured to perform a primary function; a metadata rules set that is configured to store information related to options for the performance of the primary function; a message receptor that is configured to receive a message from an external source; a message parser that is configured to parse a received message and to translate the received message to a binary form capable of being recognized by the processing unit; a message constructor that is configured to construct an outbound message based at least in part on performance of the primary function by the processing unit; a data structure that is configured to store state information and to permit a value of the state information to be set by the processing unit; and a message transmitter that is configured to transmit the outbound message.",
+  "publication_number": "US20170255858A1-20170907",
+  "summary": "<SOH> SUMMARY <EOH>A computer-implemented apparatus for a distributed processing network is presented. The apparatus includes a processing unit that is configured to perform a primary function. The apparatus includes a metadata rules set that is configured to store information related to options for the performance of the primary function. The apparatus includes a message receptor that is configured to receive a message from an external source. The apparatus includes a message parser that is configured to parse a received message and to translate the received message to a binary form capable of being recognized by the processing unit. The apparatus includes a message constructor that is configured to construct an outbound message based at least in part on performance of the primary function by the processing unit. The apparatus includes a data structure that is configured to store state information and to permit a value of the state information to be set by the processing unit. The apparatus includes a message transmitter that is configured to transmit the outbound message. The apparatus can additionally include an event subscription receiver that is configured to receive an inbound event message from an external source and to make the inbound event message available for parsing by the message parser, and an event broadcast transmitter that is configured to transmit an outbound event message constructed by the message constructor. In the apparatus, outputs of the primary function can be selected from the set consisting of setting a state in the data structure, constructing a message in the message constructor, and transmission of a message from the message transmitter. A distributed processing system is also presented. The distributed processing system includes a first business intelligence object that is hosted on a first computer and is configured to perform a first primary function in accordance with a first set of metadata rules. The distributed processing syste...",
+  "ipcr_labels": [
+    "G06N302",
+    "G06Q1006"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "McGrath",
+      "inventor_name_first": "Christie Patrick",
+      "inventor_city": "Nashua",
+      "inventor_state": "NH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Moss",
+      "inventor_name_first": "Simon Byford",
+      "inventor_city": "Cos Cob",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Elkins",
+      "inventor_name_first": "Elizabeth Winters",
+      "inventor_city": "Pompano Beach",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fountain",
+      "inventor_name_first": "Thomas C.",
+      "inventor_city": "Madison",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Curbelo",
+      "inventor_name_first": "Raul Hugo",
+      "inventor_city": "Sturbridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DISTRIBUTED PROCESSING NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 57356,
+    "optimized_size": 4062,
+    "reduction_percent": 92.92
+  }
+}

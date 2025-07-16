@@ -1,0 +1,58 @@
+{
+  "date_produced": "20160713",
+  "publication_number": "US20160217380A1-20160728",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15087940",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YEDIDIA",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "Burbank",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DERBINSKY",
+      "inventor_name_first": "Nate",
+      "inventor_city": "Burbank",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "PEREIRA",
+      "inventor_name_first": "Jose Bento Ayres",
+      "inventor_city": "Burbank",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SCHMIDT",
+      "inventor_name_first": "Dan",
+      "inventor_city": "Burbank",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MATHY",
+      "inventor_name_first": "Charles",
+      "inventor_city": "Burbank",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method and device determines an optimization solution for an optimization problem. The method includes receiving the optimization problem having cost functions and variables in which each of the cost functions has a predetermined relationship with select ones of the variables. The variables comprise a sub-solution of a spline indicative of a curved path along an estimated trajectory. The method includes generating a first message for each of the cost functions for each corresponding variable based upon the relationship and a second message for each of the variables for each corresponding cost function based upon the relationship. The method includes generating a disagreement variable for each corresponding pair of variables and cost functions measuring a disagreement value between the first and second beliefs. The method includes forming a consensus between the first and second messages until the optimization solution is determined.",
+  "filing_date": "20160331",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 shows a device for generating an optimization solution according to an exemplary embodiment. FIG. 2 shows a graphical model according to an exemplary embodiment. FIG. 3A shows an unsolved puzzle. FIG. 3B shows a solved puzzle using the device of FIG. 1 according to an exemplary embodiment. FIG. 4 shows a packing problem and solution using the device of FIG. 1 according to an exemplary embodiment. FIG. 5A shows a graphical model as applied to a multi-agent trajectory planning problem according to an exemplary embodiment. FIG. 5B shows input and output variables for each minimizer block of the graphical model of FIG. 5A according to an exemplary embodiment. FIG. 6 shows a method of generating an optimization solution according to an exemplary embodiment. FIG. 7 shows a further pictorial representation of a three weight message passing according to an exemplary embodiment. FIGS. 8A-D show a set of conditions and solutions of an optimization problem according to an exemplary embodiment. FIGS. 9A-C show a precise description of generating the optimization solution according to an exemplary embodiment. FIGS. 10A-D show a set of comparisons for generating the optimization solution according to an exemplary embodiment. FIGS. 11A-C show a further set of comparisons for generating the optimization solution according to an exemplary embodiment. FIGS. 12A-D show an application of generating the optimization solution according to an exemplary embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20160728",
+  "title": "METHOD AND DEVICE FOR THREE-WEIGHT MESSAGE-PASSING OPTIMIZATION SCHEME USING SPLINES",
+  "ipcr_labels": [
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 164425,
+    "optimized_size": 3698,
+    "reduction_percent": 97.75
+  }
+}

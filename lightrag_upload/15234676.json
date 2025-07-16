@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046937A1-20180215",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15234676",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ALLEN",
+      "inventor_name_first": "Corville O.",
+      "inventor_city": "Morrisville",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FREED",
+      "inventor_name_first": "Andrew R.",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KOZHAYA",
+      "inventor_name_first": "Joseph N.",
+      "inventor_city": "Morrisville",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MANSJUR",
+      "inventor_name_first": "Dwi Sianto",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for training a question answering system includes providing training questions to a question answering system executing on a computer and to a plurality of subject matter experts. The question answering system generates first answers to each training question. Second answers to the training questions are received from the subject matter experts. Feature scores for each of the first answers and the second answers are generated and compared across the second answers and the first answers. Each of the feature scores is representative of a quality of an answer that is indicative of relevance to a corresponding training question. Based on the comparing, a measure of consistency of the feature scores of the second answers is determined, and a measure of consistency of the feature scores of the second answers to the first answers is determined. The measures of consistency are transmitted to the subject matter experts.",
+  "filing_date": "20160811",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the present invention, a method includes providing training questions to a question answering system executing on a computer. The question answering system generates first answers to each of the training questions. The training questions are also provided to a plurality of subject matter experts. Second answers to the training questions are received from the subject matter experts. The method also includes generating a plurality of feature scores for each of the first answers and the second answers. Each of the feature scores is representative of a quality of an answer that is indicative of relevance to a corresponding training question. For each of the training questions, the method includes comparing feature scores across the second answers and the first answers. Based on results of the comparing, a measure of consistency with respect to the feature scores of the second answers to one another is determined, and a measure of consistency with respect to the feature scores of the second answers to the first answers is determined. Results of the determinations of consistency are transmitted to one or more of the subject matter experts. In an embodiment of a method, the generating may also include evaluating the first answers and the second answers with respect to a plurality of scoring features comprising for example of one or more scoring features selected from a group comprising question type, focus, lexical answer type, sentence structure, grammatical modifiers, and other linguistic and semantic features. An embodiment of the method may also include identifying which of the scoring features are associated with features scores of the second answers that exceed a predetermined threshold across a predetermined number of the subject matter experts. An embodiment of the method may also include configuring the question answering system to rank potential answers to a question based on feature scores corresponding to the sco...",
+  "date_published": "20180215",
+  "title": "SYSTEM AND METHOD FOR GROUND TRUTH EVALUATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 89055,
+    "optimized_size": 3930,
+    "reduction_percent": 95.59
+  }
+}

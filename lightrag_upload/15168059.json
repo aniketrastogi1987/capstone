@@ -1,0 +1,46 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344901A1-20171130",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15168059",
+  "inventor_list": [
+    {
+      "inventor_name_last": "RONEN",
+      "inventor_name_first": "Royi",
+      "inventor_city": "Tel-Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "HU",
+      "inventor_name_first": "Peiheng",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MOHR",
+      "inventor_name_first": "Lars",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computerized method of classifying network accessible storage transactions at network accessible storage. The method comprises obtaining an client predictive security model for anomaly or malfunctioning detection, the client predictive security model is dynamically created by an analysis of a plurality of client transactions made to access target data stored in an client computing device, monitoring a plurality of network accessible storage transactions made to access a replica of the target data when the replica is stored in an network accessible storage, and classifying at least some of the plurality of network accessible storage transactions based on the client predictive security model.",
+  "filing_date": "20160529",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to some examples which are described herein there are provided methods and systems for classifying off-premises transactions monitored at off-premises storage, for instance cloud storage, based on a security model learned from transaction data associated with target data that is stored in on-premises storage of an on-premises device, such as a client terminal. The security model is optionally adapted based on activity (also referred to as a behavior) detected on the off-premises storage and used for detecting anomalies among transactions associated with a replica of the target data which is stored in off-premises storage. Optionally, the security model, referred to herein as an on-premises predictive security model or client predictive security model, is based on baseline(s) for detecting anomaly and/or tags for supervised learning which are determined based on an analysis of on-premises transactions monitored at the on-premises storage. Unless otherwise defined, all technical and/or scientific terms used herein have the same meaning as commonly understood by one of ordinary skill in the art. Although methods and materials similar or equivalent to those described herein can be used in the practice or testing of examples of the disclosure, exemplary methods and/or materials are described below. In case of conflict, the patent specification, including definitions, will control. In addition, the materials, methods, and examples are illustrative only and are not intended to be necessarily limiting.",
+  "date_published": "20171130",
+  "title": "CLASSIFYING TRANSACTIONS AT NETWORK ACCESSIBLE STORAGE",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2906",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 37609,
+    "optimized_size": 3093,
+    "reduction_percent": 91.78
+  }
+}

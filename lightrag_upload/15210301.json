@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180103",
+  "publication_number": "US20180018561A1-20180118",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15210301",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HASSAN",
+      "inventor_name_first": "Md Rafiul",
+      "inventor_city": "Dhahran",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    },
+    {
+      "inventor_name_last": "HOSSAIN",
+      "inventor_name_first": "Muhammad lmtiaz",
+      "inventor_city": "Dhahran",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    },
+    {
+      "inventor_name_last": "ABDULRAHEEM",
+      "inventor_name_first": "Abdulazeez",
+      "inventor_city": "Dhahran",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    }
+  ],
+  "abstract": "Systems, methods, and apparatuses are provided for permeability prediction. The method acquires data associated with one or more geological formations, calculates, using processing circuitry and a trained Hidden Markov model, log-likelihood values to group the data into a plurality of clusters, and trains an artificial neural network for each of the plurality of clusters when the mode of operation is training mode. Further, the method acquires one or more formation properties corresponding to a geological formation, determines using the trained Hidden Markov model, a log-likelihood score associated with the one or more formation properties, identifies a cluster associated with the one or more formation properties as a function of the log-likelihood score, and predicts a permeability based at least in part on the one or more formation properties and a trained artificial neural network associated with the identified cluster when the mode of operation is forecasting mode.",
+  "filing_date": "20160714",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure relates to a method that acquires data associated with one or more geological formations, calculates, using processing circuitry and a trained Hidden Markov model, log-likelihood values to group the data into a plurality of clusters, and trains an artificial neural network for each of the plurality of clusters when the mode of operation is training mode. Further, the method acquires one or more formation properties corresponding to a geological formation, determines using the trained Hidden Markov model, a log-likelihood score associated with the one or more formation properties, identifies a cluster associated with the one or more formation properties as a function of the log-likelihood score, and predicts a permeability based at least in part on the one or more formation properties and a trained artificial neural network associated with the identified cluster when the mode of operation is forecasting mode.",
+  "date_published": "20180118",
+  "title": "APPARATUSES, SYSTEMS, AND METHODOLOGIES FOR PERMEABILITY PREDICTION",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 51670,
+    "optimized_size": 2814,
+    "reduction_percent": 94.55
+  }
+}

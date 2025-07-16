@@ -1,0 +1,38 @@
+{
+  "date_produced": "20171129",
+  "publication_number": "US20170357905A1-20171214",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15179724",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rossi",
+      "inventor_name_first": "Ryan A.",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhou",
+      "inventor_name_first": "Rong",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments of the present invention provide a system for fast, accurate, and scalable unbiased graphlet estimation. The system utilizes neighborhood sampling and combinatorial relations to estimate graphlet counts, statistics, and frequency distributions in a small fraction of the computing time of existing systems. The obtained unbiased estimates are highly accurate, and have applications in the analysis, mining, and predictive modeling of massive real-world networks. During operation, the system obtains data indicating vertices and edges of a graph. The system samples a portion of the graph and counts a number of graph features in the sampled portion of the graph. The system then computes an occurrence frequency of a graphlet pattern and a total number of graphlets associated with the graphlet pattern in the graph.",
+  "filing_date": "20160610",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment of the present invention provides a system and method for graphlet estimation. During operation, the system obtains a data structure indicating vertices and edges of a graph. The system may sample a portion of the graph. The system may count a number of graph features in the sampled portion of the graph. The system may then compute, based on applying a combinatorial relationship to the counted number of graph features, an occurrence frequency of a graphlet pattern in the sampled portion of the graph. The system may then compute, based on the computed occurrence frequency, a total number of graphlets associated with the graphlet pattern in the graph. In a variation on this embodiment, the system may computing a related local or global subgraph statistic, including a connected graphlet frequency distribution (GFD), a disconnected GFD, a GFD with both connected and disconnected graphlets, a univariate statistic, a probability density function (PDF) for the graphlet pattern, a cumulative distribution function (CDF) for the graphlet pattern, or a complementary cumulative distribution function (CCDF) for the graphlet pattern. In a variation on this embodiment, the system may use adaptive graphlet estimation. The system may compute an objective function based on minimizing a loss function. The system may then update an error estimate based on the computed objective function. The system may compare the updated error estimate to a pre-specified error bound. Responsive to determining the error estimate exceeds the pre-specified error bound, the system may adjust the sampled portion of the graph to a minimal portion necessary to satisfy the pre-specified error bound. In a variation on this embodiment, the sampled portion of the graph may comprise an edge neighborhood associated with an edge that connects a first vertex to a second vertex. The number of graph features in the sampled portion of the graph may comprise a number of triangles includ...",
+  "date_published": "20171214",
+  "title": "FAST AND ACCURATE GRAPHLET ESTIMATION",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 60150,
+    "optimized_size": 3513,
+    "reduction_percent": 94.16
+  }
+}

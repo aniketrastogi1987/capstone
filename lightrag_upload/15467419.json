@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15467419",
+  "date_published": "20180208",
+  "date_produced": "20180124",
+  "filing_date": "20170323",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A system and method are described herein for improving content-based (CB) filtering to find other items similar to a particular item. For example, the system and method can operate to (1) collect ground truth from users, experts or non-experts for a subset of items in a library; (2) build similarity model(s) against the collected ground truth and evaluate this/these similarity model(s) for generalizability to all items in the library, and (3) build recommendations for users based on knowledge elicited from the users themselves, combined with the similarity scores in the built similarity model(s).",
+  "publication_number": "US20180039910A1-20180208",
+  "summary": "<SOH> SUMMARY <EOH>A system and method which address the aforementioned problems are described in the independent claims. Advantageous embodiments of the system and method are further described in the dependent claims. In one aspect, the present disclosure provides a system which comprises a processor and a memory that stores processor-executable instructions, wherein the processor interfaces with the memory to execute the processor-executable instructions, whereby the system is operable to perform a first generate operation, a second generate operation, a third generate operation, and a return operation. In the first generate operation, the system generates a similarity matrix that indicates a plurality of similarity values for a plurality of pairs of items, wherein the plurality of similarity values are based on human rankings for a portion of the plurality of pairs of items which were been generalized by at least one model to calculate the similarity values for all of the plurality of pairs of items. In the second generate operation, the system generates a rating model that indicates correlated end-user ratings for multiple pairs of items. In the third generate operation, the system generates a list of personalized recommendations for a user indicating similar items to a single item utilizing (1) a rating for the single item from the user, (2) the similarity matrix and (3) the rating model. In the return operation, the system returns the list of personalized recommendations to the user. Some advantages of the system implementing these operations include: (1) no item-level cold star problem, (2) fast response; (3) re-uses existing information; (4) less computer resources required, and (5) able to leverage knowledge from the crowd to improve perception of similarity, either through experts or non-experts. In another aspect, the present disclosure provides a method in a system where the method comprises a first generating step, a second generating step, a third gene...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1750",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hari Haran",
+      "inventor_name_first": "Alvin Jude",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Forgeat",
+      "inventor_name_first": "Julien",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Tong",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEM AND METHOD FOR RECOMMENDING SEMANTICALLY SIMILAR ITEMS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 75386,
+    "optimized_size": 3479,
+    "reduction_percent": 95.39
+  }
+}

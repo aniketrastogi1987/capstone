@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060752A1-20180301",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15247251",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gross",
+      "inventor_name_first": "Kenny C.",
+      "inventor_city": "Escondido",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vaidyanathan",
+      "inventor_name_first": "Kalyanaraman",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Schelp",
+      "inventor_name_first": "Craig R.",
+      "inventor_city": "Surrey",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Brownsword",
+      "inventor_name_first": "Andrew E.",
+      "inventor_city": "Bowen Island",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "The disclosed embodiments relate to a technique for training a prognostic pattern-recognition system to detect incipient anomalies that arise during execution of a computer system. During operation, the system gathers and stores telemetry data obtained from n sensors in the computer system during operation of the computer system. Next, the system uses the telemetry data gathered from the n sensors to train a baseline model for the prognostic pattern-recognition system. The prognostic pattern-recognition system then uses the baseline model in a surveillance mode to detect incipient anomalies that arise during execution of the computer system. The system also uses the stored telemetry data to train a set of additional models, wherein each additional model is trained to operate with one or more missing sensors. Finally, the system stores the additional models to be used in place of the baseline model when one or more sensors fail in the computer system.",
+  "filing_date": "20160825",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The disclosed embodiments relate to a technique for training a prognostic pattern-recognition system to detect incipient anomalies that arise during execution of a computer system. During operation, the system gathers and stores telemetry data obtained from n sensors in the computer system during operation of the computer system. Next, the system uses the telemetry data gathered from the n sensors to train a baseline model for the prognostic pattern-recognition system. The prognostic pattern-recognition system then uses the baseline model in a surveillance mode to detect incipient anomalies that arise during execution of the computer system. The system also uses the stored telemetry data to train a set of additional models, wherein each additional model is trained to operate with one or more missing sensors. Finally, the system stores the additional models to be used in place of the baseline model when one or more sensors fail in the computer system. In some embodiments, training the set of additional models includes: (1) training additional models to operate with any one of the n sensors missing; (2) training additional models to operate with any combination of two of the n sensors missing; and (3) training additional models to operate with more than two of the n sensors missing. In some embodiments, the set of additional models are trained using background processes while the prognostic pattern-recognition system operates in the surveillance mode. In some embodiments, when one or more of the n sensors in the computer system fails, the system selects a substitute model selected from the set of additional models, wherein the substitute model was trained without using telemetry data from the one or more failed sensors. The system then updates the prognostic pattern-recognition system to use the substitute model while operating in the surveillance mode. In some embodiments, while the prognostic pattern-recognition system is operating using the subst...",
+  "date_published": "20180301",
+  "title": "ROBUST TRAINING TECHNIQUE TO FACILITATE PROGNOSTIC PATTERN RECOGNITION FOR ENTERPRISE COMPUTER SYSTEMS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 44051,
+    "optimized_size": 4027,
+    "reduction_percent": 90.86
+  }
+}

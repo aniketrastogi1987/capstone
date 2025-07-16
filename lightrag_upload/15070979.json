@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170603",
+  "publication_number": "US20170169336A1-20170615",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15070979",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SINGHAL",
+      "inventor_name_first": "Rekha",
+      "inventor_city": "Mumbai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Sangroya",
+      "inventor_name_first": "Amit",
+      "inventor_city": "Gurgaon",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "Systems and methods for generating performance prediction model and estimating execution time for applications is provided. The system executes synthetic benchmarks for a first dataset on a first cluster. Each synthetic benchmark includes a MapReduce (MR) job. The system further extracts sensitive parameters for each sub-phase of the MR job, generates a linear regression prediction model for each sub-phase to obtain one or more linear regression prediction models, based on which the system further generates a performance prediction model to be utilized for predicting, using the sensitive parameters, a Hive query execution time of a DAG of one or more MR jobs executed on a second dataset on a second cluster, wherein the first cluster that includes the first dataset is smaller compared to the second cluster that includes the second dataset.",
+  "filing_date": "20160315",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present disclosure present technological improvements as solutions to one or more of the above-mentioned technical problems recognized by the inventors in conventional systems. For example, in one embodiment, a processor-implemented method is provided. The method includes executing, via one or more hardware processors, one or more synthetic benchmarks on a first dataset on a first cluster comprising a first set of nodes, wherein each of the one or more synthetic benchmarks comprises a MapReduce (MR) job, the MR job comprises a map task and a reduce task; extracting, via the one or more hardware processors, one or more sensitive parameters related to performance of each sub-phase in the MR job, wherein the one or more sensitive parameters comprises at least one of an input size per map task, map selectivity, number of map tasks, number of reduce tasks, record selectivity, concurrent map tasks per node, one or more map waves, and disk resource contention delay; generating, via the one or more hardware processors, a linear regression prediction model using the one or more sensitive parameters to obtain a set of linear regression prediction models; and generating, via the one or more hardware processors, a performance prediction model based on the set of linear regression prediction models generated using the first dataset. In an embodiment, the processor-implemented method may further include processing, via the one or more hardware processors, a Hive query such that the Hive query is translated into Directed Acyclic Graph (DAG) of one or more MR jobs; executing, via the one or more hardware processors, the one or more MR jobs on a second dataset on a second cluster comprising a second set of nodes; extracting, via the one or more hardware processors, the one or more sensitive parameters from a job execution log obtained upon executing the DAG of the one or more MR jobs; and predicting, using the performance prediction model, a Hiv...",
+  "date_published": "20170615",
+  "title": "SYSTEMS AND METHODS FOR GENERATING PERFORMANCE PREDICTION MODEL AND ESTIMATING EXECUTION TIME FOR APPLICATIONS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 72296,
+    "optimized_size": 3599,
+    "reduction_percent": 95.02
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "date_produced": "20160713",
+  "publication_number": "US20160217376A1-20160728",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15025566",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YE",
+      "inventor_name_first": "Mao",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "JIN",
+      "inventor_name_first": "Lifeng",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "LEI",
+      "inventor_name_first": "Chao",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Yuanlong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "TANG",
+      "inventor_name_first": "Zhi",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "XU",
+      "inventor_name_first": "Jianbo",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "In the method and system for knowledge extraction of this invention, knowledge extraction is realized through acquiring an initial sentence group including one or more sentences, and then comparing the length of the initial sentence group with an expected length to determine the initial sentence group to be expanded according to the comparison result. Since the sentence groups are formed by consecutive sentences, it may be guaranteed that the sentence groups themselves have good coherence in logic, so that the final sentence groups obtained through expanding the initial sentence groups have good coherence in logic correspondingly. Thus, this invention may override the drawback of lacking logical coherence in extracted knowledge information in the prior art.",
+  "filing_date": "20160329",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In order to solve a problem in the prior art of lacking logical coherence in extracted knowledge information and inconvenience for understanding, the present invention provides a knowledge extraction method and system capable of guaranteeing logical coherence in extracted knowledge information. In order to solve the above problem, the following technical solutions are provided in this invention. According to an aspect of this invention, a knowledge extraction method is provided, comprising the following steps: acquiring an initial sentence group, the sentence group including one or more sentences; expanding the initial sentence group in which the length of the initial sentence group is compared with an expected length to determine the initial sentence group to be expanded according to the comparison result; extracting knowledge in which the sentence group that is finally obtained after expansion is outputted to realize knowledge extraction. Optionally, the step of expanding the initial sentence group comprises: setting a weight threshold in which a weight threshold is set for the initial sentence group according to the result of comparing the length of the initial sentence group with the expected length; expanding the sentence group in which weights of sentences to be expanded are compared with the weight threshold, and expanding the initial sentence groups according to the comparison result. Optionally, the step of acquiring an initial sentence group comprises: dividing text into sentences; forming an initial sentence group by I consecutive sentences, wherein I is an integer greater than or equal to 1. Optionally, I=3. According to another aspect of this invention, a knowledge extraction system is further provided comprising: an initial sentence group acquisition module for acquiring an initial sentence group, the initial sentence group including one or more sentences; initial sentence group expansion module for comparing the len...",
+  "date_published": "20160728",
+  "title": "KNOWLEDGE EXTRACTION METHOD AND SYSTEM",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1728"
+  ],
+  "_processing_info": {
+    "original_size": 98203,
+    "optimized_size": 3993,
+    "reduction_percent": 95.93
+  }
+}

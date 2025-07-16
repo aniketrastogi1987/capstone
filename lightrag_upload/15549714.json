@@ -1,0 +1,57 @@
+{
+  "patent_number": "None",
+  "application_number": "15549714",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "filing_date": "20170809",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Various embodiments described herein relate to methods and apparatus for robust classification. Many real-world datasets suffer from missing or incomplete data. By assigning weights to certain features of a dataset based on which feature(s) are missing or incomplete, embodiments of the prevention can provide robustness and resilience to missing data.",
+  "publication_number": "US20180046942A1-20180215",
+  "summary": "<SOH> SUMMARY <EOH>This summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description section. This summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. Various embodiments relate to an apparatus for robust classification. The apparatus includes a receiver receiving data, the received data having at least one feature from a feature set; a memory configured to store computer-readable instructions for performing robust classification; and a processor in communication with the memory and receiver, wherein execution of the computer-readable instructions for performing robust classification causes the processor to implement: at least one low-dimensional classifier in communication with the receiver, wherein each of the at least one low-dimensional classifiers is associated with a respective input feature from the feature set and provides an output based on the presence of the input feature in the received data; and a weighted adder in communication with the receiver and each of the at least one low-dimensional classifiers, wherein the weighted adder provides a weighted sum of the outputs of the at least one low-dimensional classifier. In some embodiments of the apparatus, the received data comprises at least one training example. In some embodiments of the apparatus, each of the at least one low-dimensional classifiers is trained using the received at least one training example. In some embodiments of the apparatus, the weighted adder adjusts the weight assigned to the output of each of the at least one low-dimensional classifiers in response to the received at least one training example. In some embodiments of the apparatus, the received data is selected from the group consisting of vital signs and lab measurements. In some embodiments of the apparatus...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1900",
+    "A61B502",
+    "G06F708",
+    "A61B500",
+    "G06N504",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Conroy",
+      "inventor_name_first": "Bryan",
+      "inventor_city": "Garden City South",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Eshelman",
+      "inventor_name_first": "Larry James",
+      "inventor_city": "Ossining",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Potes",
+      "inventor_name_first": "Cristhian",
+      "inventor_city": "Salem",
+      "inventor_state": "NH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Minnan",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "ROBUST CLASSIFIER",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 66529,
+    "optimized_size": 3376,
+    "reduction_percent": 94.93
+  }
+}

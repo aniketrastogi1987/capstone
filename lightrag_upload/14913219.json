@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160628",
+  "publication_number": "US20160203416A1-20160714",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "14913219",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KVERNVIK",
+      "inventor_name_first": "Tor",
+      "inventor_city": "Täby",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "MORITZ",
+      "inventor_name_first": "Simon",
+      "inventor_city": "Stockholm",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "LARSSON",
+      "inventor_name_first": "Tony",
+      "inventor_city": "Upplands Väsby",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    }
+  ],
+  "abstract": "A method is provided for analyzing data storage applied on at least one data storage type. The data to be stored is transmitted in at least one data stream between at least one application instance and the at least one data storage type. The method includes accessing, from the at least one data stream, data selected according to pre-defined rules. Data access patterns are aggregated on the basis of the selected data, where the data access patterns are indicative of the at least one storage type applied. Classifiers are obtained by applying trained classifiers to the aggregated data access patterns. Differences between the obtained classifiers and the trained classifiers are analyzed to determine, that the obtained classifiers are indicative of at least one data storage type other than a presently used data storage type, in case at least one predefined threshold value is exceeded when analyzing the differences.",
+  "filing_date": "20160219",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The object of the present document is to eliminate or at least reduce the problems outlined above. In particular it is an object of the present document to provide a solution for selecting and adapting database technology, or data storage type, to be used for storing data handled by one or more applications. According to one aspect a method for analyzing data storage applied on at least one data storage type is provided, wherein the data to be stored is transmitted in at least one data stream between at least one application instance and the at least one data storage type. The suggested method is executed by accessing, from the at least one data stream, data selected according to pre-defined rules; aggregating data access patterns, on the basis of the selected data, the data access patterns being indicative of the at least one storage type applied; classifying the aggregated data access patterns by applying a trained classifier to the aggregated data access patterns; analyzing differences between the result from said classification and a previous classification settings and determining, that analyzed differences are indicative of a preferred change of data storage type, in case differences exceed at least one predefined threshold value. Typically, the classifying is executed by applying machine learning. The classifier is normally trained by executing an automatic training process, typically by executing machine learning also on this process. Such a process is initiated by a predefined trigger, which may e.g. be identifying a new application instance or data storage type. The determining step may also comprise the further step of executing a trend analysis on the identified difference for verifying if the difference is representing a consistent change and for performing the determining step in case a consistent change is verified by the trend analysis. Thereby a consistent change can be distinguished from temporary fluctuations, and thus, the accu...",
+  "date_published": "20160714",
+  "title": "A METHOD AND SYSTEM FOR ANALYZING ACCESSES TO A DATA STORAGE TYPE AND RECOMMENDING A CHANGE OF STORAGE TYPE",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 69502,
+    "optimized_size": 3827,
+    "reduction_percent": 94.49
+  }
+}

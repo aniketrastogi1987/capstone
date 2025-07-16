@@ -1,0 +1,53 @@
+{
+  "date_produced": "20160727",
+  "publication_number": "US20160232452A1-20160811",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15022604",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YAN",
+      "inventor_name_first": "Chunxia",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "DING",
+      "inventor_name_first": "Yan",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "FENG",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SHAN",
+      "inventor_name_first": "Na",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Provided are a method and device for recognizing spam short messages. In the method, a first feature word set is obtained in a spam short message sample set, and a first conditional probability of each feature word in the first feature word set is obtained; a second feature word set is obtained in a non-spam short message sample set and a second conditional probability of each feature word in the second feature word set is obtained; and a spam short message set is recognized from a short message set according to the number of words contained in each short message in the short message set to be processed, the number of repetition times of each short message in the short message set, the first feature word set, the second feature word set, the first conditional probability and the second conditional probability.",
+  "filing_date": "20160317",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method and device for recognizing spam short messages are provided by embodiments of the disclosure, so as to at least solve the problem that spam short messages cannot be mined accurately due to a large volume of data in the short messages in the related art. A method for recognizing spam short messages is provided according to an embodiment of the disclosure. The spam short messages recognizing method according to the embodiment of the disclosure comprising: obtaining, from a spam short message sample set, a first feature word set and a first conditional probability of each feature word in the first feature word set; obtaining, from a non-spam short message sample set, a second feature word set and a second conditional probability of each feature word in the second feature word set; and recognizing a spam short message set from a short message set to be processed, according to the number of words contained in each short message in the short message set, the number of repetition times of each short message in the short message set, the first feature word set, the second feature word set, the first conditional probability and the second conditional probability. Preferably, recognizing a spam short message set from a short message set to be processed comprises: calculating a typeweight of each short message according to the following formula: typeweight = P  ( C   0 )  ( ∏ t = 1 n   P  ( Wt | C   0 ) ) N P  ( C   1 )  ( ∏ t = 1 n   P  ( Wt | C   1 ) ) N , where P(C0) is a total amount of short message samples in the spam short message sample set, P(C1) is a total amount of short message samples in the non-spam short message sample set, P(Wt|C0) is the first conditional probability, P(Wt|C1) is the second conditional probability, n is the number of words contained in each short message, N is the number of repetition times of each short message in the short message set, and Wt belongs to the first feature word set or the second fe...",
+  "date_published": "20160811",
+  "title": "METHOD AND DEVICE FOR RECOGNIZING SPAM SHORT MESSAGES",
+  "ipcr_labels": [
+    "G06N700",
+    "H04L1258",
+    "G06F1727"
+  ],
+  "_processing_info": {
+    "original_size": 72945,
+    "optimized_size": 3898,
+    "reduction_percent": 94.66
+  }
+}

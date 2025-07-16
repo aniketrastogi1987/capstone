@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170329",
+  "publication_number": "US20170103315A1-20170413",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15389288",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Thorson",
+      "inventor_name_first": "Gregory Michael",
+      "inventor_city": "Waunakee",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Clark",
+      "inventor_name_first": "Christopher Aaron",
+      "inventor_city": "Madison",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Luu",
+      "inventor_name_first": "Dan",
+      "inventor_city": "Madison",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A circuit for performing neural network computations for a neural network comprising a plurality of layers, the circuit comprising: activation circuitry configured to receive a vector of accumulated values and configured to apply a function to each accumulated value to generate a vector of activation values; and normalization circuitry coupled to the activation circuitry and configured to generate a respective normalized value from each activation value.",
+  "filing_date": "20161222",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, this specification describes a special-purpose hardware circuit that computes neural network inferences. In general, one innovative aspect of the subject matter described in this specification can be embodied in a circuit for performing neural network computations for a neural network comprising a plurality of layers, the circuit comprising: activation circuitry configured to receive a vector of accumulated values and configured to apply a function to each accumulated value to generate a vector of activation values; and normalization circuitry coupled to the activation circuitry and configured to generate a respective normalized value for each activation value. Implementations can include one or more of the following features. The activation circuitry receives the vector of accumulated values from a systolic array in the circuit. The normalization circuitry comprises a plurality of normalization register columns, each normalization register column comprising a plurality of normalization registers connected in series, each normalization register column configured to receive a distinct activation value, a respective normalization unit in the normalization register column configured to calculate a respective normalized value. Each normalization unit is configured to pass the distinct activation value to an adjacent normalization unit. Each normalization unit is configured to: receive a respective activation value; generate a respective intermediate normalized value from the respective activation value; and send the respective intermediate normalized value to one or more neighboring normalization units. Generating the respective intermediate normalized value comprises generating a square of the respective activation value. Each normalization unit is further configured to: receive, from one or more neighboring normalization units, one or more intermediate normalized values generated from activation values; sum each intermediate normalized v...",
+  "date_published": "20170413",
+  "title": "VECTOR COMPUTATION UNIT IN A NEURAL NETWORK PROCESSOR",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 60559,
+    "optimized_size": 3314,
+    "reduction_percent": 94.53
+  }
+}

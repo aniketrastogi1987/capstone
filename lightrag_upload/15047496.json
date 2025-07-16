@@ -1,0 +1,39 @@
+{
+  "decision": "PENDING",
+  "application_number": "15047496",
+  "date_published": "20160616",
+  "date_produced": "20160601",
+  "title": "ENABLING ACCESS TO DATA",
+  "filing_date": "20160218",
+  "inventor_list": [
+    {
+      "inventor_name_last": "TARATINE",
+      "inventor_name_first": "Boris",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "LEWIS",
+      "inventor_name_first": "Malcolm",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2160",
+    "H04L932",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F2160",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with at least one embodiment, methods, devices, systems and software are provided for supporting or implementing functionality to transfer data. This is achieved by a combination of features recited in each independent claim. Accordingly, dependent claims prescribe further detailed implementations of various embodiments. According to a first aspect of the invention there is provided a method of enabling access to data by a requesting party, the method comprising: generating a plurality of sets of data; using a one-way function to generate a plurality of keys each associated with a respective one of the plurality of sets, wherein information associated with a said set of data is used as an input to the one-way function when generating a key associated with the set; arranging for the keys to be available for distribution to one or more requesting parties; receiving a data access request comprising a key from a said requesting party; and enabling access, by the requesting party, to data in a said set, based on the received key. By generating the sets, and associating the set with the keys, embodiments are able to efficiently control access to the data. Should a key be compromised—that is the key becomes known to a party which is not authorized to access the data—the only changes which need to be made are to the association between the keys and the sets. For example, a new key may be generated and the compromised key may be revoked. This is more efficient than the encryption system described in the background section as no re-encryption is required. In addition, as a consequence of using a one-way function, a third party will be unable to create valid keys to use to access the data, and thus the only source of a valid key is via distribution from the key generator. This provides improved security to the system as the distribution of the keys can be controlled and used to restrict access to the data and as the key itself provides a means ...",
+  "patent_number": "None",
+  "abstract": "Methods, systems, apparatus and computer programs for enabling access to data by a requesting party. A plurality of sets of data are generated. A one one-way function is then used to generate a plurality of keys each associated with a respective one of the plurality of sets. Information associated with the data in a given set is used as an input to the one-way function when generating the key for that set. The keys are distributed to requesting parties. Subsequently, a requesting party may make a data access request using the received key. Upon receipt of a key, access may be enabled to the data. The requesting party may then generate validation data from information associated with at least a part of the received data and validating the received data by comparing the validation data to data derived from the received key.",
+  "publication_number": "US20160171224A1-20160616",
+  "_processing_info": {
+    "original_size": 79058,
+    "optimized_size": 3518,
+    "reduction_percent": 95.55
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15462062",
+  "date_published": "20170921",
+  "date_produced": "20170906",
+  "filing_date": "20170317",
+  "main_ipcr_label": "G06N308",
+  "abstract": "This invention solves the long-standing problem in Machine Learning of training a neural network on a spike-based neuromorphic computer. The preferred embodiment of the invention describes an algorithm for training a Restricted Boltzmann Machine (RBM) neural network, but the invention applies equally to training neural networks in the general class of Markov Random Fields. The standard CD algorithm for training an RBM on a general-purpose computer is unsuitable for implementation on a neuromorphic computer, as it requires the communication of real-valued parameter values between neurons, and/or shared memory access by neurons to stored parameter values. By employing the invention described, these requirements are eliminated, thus providing a training algorithm which can be implemented efficiently on a spike-based, distributed processor and memory, neuromorphic computer system.",
+  "publication_number": "US20170270410A1-20170921",
+  "summary": "<SOH> SUMMARY <EOH>The invention specifically describes a algorithm for training a Restricted Boltzmann Machine (RBM) neural network on a neuromorphic computer. The algorithm has the following properties: (a) it uses parallel distributed processing on the computer's multiple cores; (b) it only requires access to the distributed memory components which are local to a single core or a group of cores (node); and (c) it uses only messages between cores which consist of “spikes”. The algorithm computes changes to the parameters (weights and biases) of any given neuron in the network locally within the processing core to which the neuron is assigned, and retrieves and stores the neuron's parameters before and after computing the changes, using only the memory local to that core or to its associated node. These properties are essential to the implementation of any training algorithm for a neural network on a neuromorphic computing system, that is, a computing system which is characterised by: a large number of processor cores; a fully distributed memory system; asynchronous, event-based operation; a highly efficient, low latency communication network linking the processor cores which is based on the transmission of spike messages. The claims of the invention relate to those properties of the training algorithm described above, which allow its implementation on a neuromorphic computing system. The exemplary embodiment of the invention relates to the training of a specific type of neural network: a Restricted Boltzmann Machine. However, alternative embodiments allow the invention to be applied to the training of other neural networks which fall into the class of Markov Random Fields.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Denham",
+      "inventor_name_first": "Michael James",
+      "inventor_city": "Ipswich",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "Neuromorphic training algorithm for a Restricted Boltzmann Machine.",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 32147,
+    "optimized_size": 3169,
+    "reduction_percent": 90.14
+  }
+}

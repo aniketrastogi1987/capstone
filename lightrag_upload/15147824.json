@@ -1,0 +1,47 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15147824",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "title": "DETECTING A TOOL USED ON A TOUCH SCREEN",
+  "filing_date": "20160505",
+  "inventor_list": [
+    {
+      "inventor_name_last": "VARJE",
+      "inventor_name_first": "Ilkka",
+      "inventor_city": "Uusimaa",
+      "inventor_state": "",
+      "inventor_country": "FI"
+    },
+    {
+      "inventor_name_last": "ARTAMONOV",
+      "inventor_name_first": "Kirill",
+      "inventor_city": "Uusimaa",
+      "inventor_state": "",
+      "inventor_country": "FI"
+    },
+    {
+      "inventor_name_last": "BARTHOLOMEW",
+      "inventor_name_first": "Aaron",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F3041",
+    "G06F3044",
+    "G06F3041",
+    "G06F30488"
+  ],
+  "main_ipcr_label": "G06F3041",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Therefore, what is needed are systems and methods for detecting a tool used on a touch screen. What is additionally needed are systems and methods for detecting a tool used on a touch screen that reduce system requirements and enable improved system performance. A further need exists for systems and methods for detecting a tool used on a touch screen that may differentiate among a variety of touch tools. A still further need exists for systems and methods for detecting a tool used on a touch screen that are compatible and complementary with existing systems and methods of touch screen, manufacture, test and operation. Embodiments of the present invention provide these advantages. In accordance with a method embodiment of the present invention, a cell value is accessed for each cell of a touch sensing device. The cell value indicates a force applied to the cell. A touch area sample count is determined as a count of how many of the cells have a cell value above a noise floor. A touch area weight is determined as a sum of all cell values for the cells having a cell value above the noise floor. An object touching the touch sensing device is identified based on the touch area sample count and the touch area weight. The object's touch indication may be rejected if the object is not identified. The identity of the object may be reported to a software application. In accordance with an embodiment in accordance with the present invention, an electronic system includes a capacitive touch sensing device, a processor coupled to the capacitive touch sensing device, and a memory coupled to the processor. The electronic system is configured to access a cell value for each cell of the touch sensing device, wherein the cell value indicates a force applied to the cell. In addition, the electronic system is configured to determine a touch area sample count as a count of how many of the cells have a cell value above a noise floor and to determine a t...",
+  "patent_number": "9996189",
+  "abstract": "Detecting a tool used on a touch screen. In accordance with a method embodiment of the present invention, a cell value is accessed for each cell of a touch sensing device. The cell value indicates a force applied to the cell. A touch area sample count is determined as a count of how many of the cells have a cell value above a noise floor. A touch area weight is determined as a sum of all cell values for the cells having a cell value above the noise floor. An object touching the touch sensing device is identified based on the touch area sample count and the touch area weight. The object's touch indication may be rejected if the object is not identified. The identity of the object may be reported to a software application.",
+  "publication_number": "US20170322661A1-20171109",
+  "_processing_info": {
+    "original_size": 48975,
+    "optimized_size": 3591,
+    "reduction_percent": 92.67
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180509",
+  "publication_number": "US20180144242A1-20180524",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15359924",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Simard",
+      "inventor_name_first": "Patrice",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The mirror deep neural networks (DNNs) as described herein recognize patterns in an input signal. Mirror DNNs regularize to a linear function and train very quickly. Mirror DNNs employ a neural network pattern recognizer that receives a set of features extracted from an input signal and inputs the set of features into a multi-layer neural network. The multi-layer neural network has an input layer that receives the set of features, a plurality of intermediate layers, and an output layer that generates a set of output values that are indicative of a recognized pattern exhibited in the input signal. A first and second non-linear equation pair are chosen and applied to intermediate layers of the neural network so as to make the output values that are indicative of a pattern exhibited in the input signal linear.",
+  "filing_date": "20161123",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The mirror deep neural networks (DNNs) as described herein recognize patterns in an input signal. Mirror DNNs regularize to a linear function and train very quickly. Mirror DNNs employ a neural network pattern recognizer that can be used for any or all of pattern recognition, prediction, interpolation, exploration or any function of an input (features, text, image, sequence, etc). The pattern recognizer receives a set of features extracted from an input signal and inputs the set of features into a multi-layer neural network. The multi-layer neural network has an input layer that receives the set of features, a plurality of intermediate layers, and an output layer that generates a set of output values that are indicative of a recognized pattern exhibited in the input signal. In one implementation, one or more of the intermediate layers of the Mirror DNN have input connections from nodes of an immediately preceding layer of the neural network which operate on values received from the immediately preceding layer using a first non-linear equation. The resulting values are duplicated to create a first group of values and a second group of values. The first group of values are operated on using the first non-linear equation to create a modified first group of values and the second group of values are operated on using a second non-linear equation to create a modified second group of values. The first and second non-linear equations are chosen so as to make the values received from the first and second groups of nodes of the mirror level, once summed (or in some cases otherwise operated on), exhibit linearity. A mirror level of the intermediate layer has a first group of nodes that receive the modified first group of values each of which is multiplied by a first half of weight values in a first matrix of weight values. The mirror level also has a second group of nodes which receive the modified second group of values each of which is multiplied by a seco...",
+  "date_published": "20180524",
+  "title": "MIRROR DEEP NEURAL NETWORKS THAT REGULARIZE TO LINEAR NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 112389,
+    "optimized_size": 3380,
+    "reduction_percent": 96.99
+  }
+}

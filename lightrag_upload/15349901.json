@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140272A1-20170518",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15349901",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Goodfellow",
+      "inventor_name_first": "Ian",
+      "inventor_city": "Brisbane",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Tianqi",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shlens",
+      "inventor_name_first": "Jonathon",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for generating a larger neural network from a smaller neural network. In one aspect, a method includes obtaining data specifying an original neural network; generating a larger neural network from the original neural network, wherein the larger neural network has a larger neural network structure including the plurality of original neural network units and a plurality of additional neural network units not in the original neural network structure; initializing values of the parameters of the original neural network units and the additional neural network units so that the larger neural network generates the same outputs from the same inputs as the original neural network; and training the larger neural network to determine trained values of the parameters of the original neural network units and the additional neural network units from the initialized values.",
+  "filing_date": "20161111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in methods for generating a better-performing larger neural network from a smaller neural network that include the actions of obtaining data specifying an original neural network. The original neural network is configured to generate neural network outputs from neural network inputs, the original neural network having an original neural network structure comprising a plurality of original neural network units, each original neural network unit having respective parameters, and each of the parameters of each of the original neural network units having a respective original value. A larger neural network is generated from the original neural network, the larger neural network having a larger neural network structure comprising: (i) the plurality of original neural network units, and (ii) a plurality of additional neural network units not in the original neural network structure, each additional neural network unit having respective parameters. Values of the parameters of the original neural network units and the additional neural network units are initialized so that the larger neural network generates the same neural network outputs from the same neural network inputs as the original neural network. The larger neural network is trained to determine trained values of the parameters of the original neural network units and the additional neural network units from the initialized values. The original neural network may be trained to determine the original values of the parameters of the original neural network. The original neural network structure may comprise a first original neural network layer having a first number of original units. Generating the larger neural network may comprise adding a plurality of additional neural network units to the first original neural network layer to generate a larger neural network layer. Initializing values of t...",
+  "date_published": "20170518",
+  "title": "GENERATING LARGER NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 60884,
+    "optimized_size": 3799,
+    "reduction_percent": 93.76
+  }
+}

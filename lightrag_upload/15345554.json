@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15345554",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "title": "EXTENT MIGRATION IN MULTI-TIER STORAGE SYSTEMS",
+  "filing_date": "20161108",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Karve",
+      "inventor_name_first": "Shrikant V.",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Patel",
+      "inventor_name_first": "Kushal S.",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Patel",
+      "inventor_name_first": "Sarvesh S.",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention disclose a computer-implemented method, system, and computer program product for migrating data in a tiered storage system to improve performance. The tiered storage system includes at least one upper tier and one lower tier, and at least one storage device is assigned to an upper tier and at least one storage device is assigned to a lower tier. Data on a storage device includes one or more extents, and each extent contains one or more grains. I/O activity of grains in extents of storage devices of the tiered storage system is recorded during a predefined time interval. For each extent, a mean heat value over grains in the extent during the predefined time interval is calculated from the recorded I/O activity, where a heat value of a grain is a numerical indication of frequency of access of the grain, and a spike heat indicator, which provides a numerical measure of non-uniformity of heat values of grains in the extent is calculated from the recorded I/O activity. Two extents in a lower tier with mean heat values that differ at most by a predefined threshold are identified, and the extent with a greater spike heat indicator is migrated to an upper tier. Two extents in an upper tier with mean heat values that differ at most by a predefined threshold are identified, and the extent with a lesser spike heat indicator is migrated to a lower tier.",
+  "patent_number": "None",
+  "abstract": "Migrating data in a tiered storage system. The tiered storage system includes an upper tier with at least one storage device and a lower tier with at least one storage device. Data on a storage device includes one or more extents, and each extent contains one or more grains. I/O activity of grains is recorded during a predefined time interval. For each extent, a mean heat value over grains in the extent during the predefined time interval is calculated from the recorded I/O activity, where a heat value is a numerical indication of frequency of access of a grain, and a spike heat indicator, which measures non-uniformity of heat values of grains in the extent is calculated. Two extents with mean heat values that differ at most by a predefined threshold are identified, and the extent with a greater spike heat indicator is migrated to an upper tier.",
+  "publication_number": "US20180129443A1-20180510",
+  "_processing_info": {
+    "original_size": 61827,
+    "optimized_size": 3090,
+    "reduction_percent": 95.0
+  }
+}

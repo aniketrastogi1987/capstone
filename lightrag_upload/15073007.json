@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170906",
+  "publication_number": "US20170270426A1-20170921",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15073007",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LINDNER",
+      "inventor_name_first": "Robert Raymond",
+      "inventor_city": "Fitchburg",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Disclosed herein are system, method, and computer program product embodiments for performing a regression analysis on lawfully collected personal data records. The analysis enables discovery of individuals likely to perform certain actions based on their personal data records and the personal data records and actions of others. The disclosed system, method, and computer program product may process vast quantities of data, including personal data records with thousands of categories and lawfully stored databases with millions of personal data records. Through the regression analysis, the disclosed system, method, and computer program product learn the most relevant categories for predicting an individual's actions based on input data provided by a user. The analysis then analyzes the categories of personal data records stored in a lawfully stored database to predict actions of individuals associated with those records and outputs results to the user.",
+  "filing_date": "20160317",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>The present disclosure provides a method and system operable to predict an action of an individual based on personal data records of a plurality of individuals. The disclosed method and system may utilize knowledge that a certain individual performed an action, as well as the personal data records of the individual who performed the action, to find individuals who are likely to perform the same or similar action. In an embodiment, the present disclosure provides a method for predicting an action of an individual based on a plurality of personal data records. The method operates on a training set and a data set. The training set comprises a plurality of personal data training records, a plurality of categories associated with each personal data training record, and an action taken by an individual corresponding to the associated personal data training record. In an embodiment, the data set comprises a number of personal data records greater than the number of personal data training records in the training set. The method includes accessing the training set stored in memory and determining a subset of categories based on at least one personal data training record in the training set. The method then determines a prediction function that outputs an outcome score of a personal data record based on values of the subset of categories, and tests the accuracy of the prediction function based on at least one personal data training record in the training set. The method continues by accessing the data set and processing a subset of the personal data records in the data set based on the prediction function to determine an outcome score for each personal data record in the subset of personal data records. System and computer program products are also disclosed. Further embodiments, features, and advantages of the invention, as well as the structure and operation of the various embodiments, are described in detail below with reference to accompanying dra...",
+  "date_published": "20170921",
+  "title": "PERFORMING REGRESSION ANALYSIS ON PERSONAL DATA RECORDS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 52411,
+    "optimized_size": 3530,
+    "reduction_percent": 93.26
+  }
+}

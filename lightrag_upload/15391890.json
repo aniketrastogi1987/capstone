@@ -1,0 +1,66 @@
+{
+  "date_produced": "20170405",
+  "publication_number": "US20170109640A1-20170420",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15391890",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Marcu",
+      "inventor_name_first": "Nir",
+      "inventor_city": "Hod HaSharon",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Libeskind Mulyan",
+      "inventor_name_first": "Avichay",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Tauber",
+      "inventor_name_first": "Doron",
+      "inventor_city": "Even Yehuda",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Uziely",
+      "inventor_name_first": "Shir",
+      "inventor_city": "Raanana",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Zhmudyak",
+      "inventor_name_first": "Alexandra",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Dor",
+      "inventor_name_first": "Nurit",
+      "inventor_city": "Raanana",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "Described herein are systems, methods, and computer programs for extracting a seed comprising steps common in executions of a Business Process (BP) and utilizing the seed to identify other executions of the BP. In one embodiment, the seed is extracted from sequences of steps from streams of steps performed during interactions with instances of a software system. The sequences comprise first and second sequences corresponding to executions of the BP, which are associated with first and second organizations, respectively. The seed comprises two or more consecutively performed steps that appear in each of the sequences. Occurrences of the seed are identified in one or more streams of steps performed during interactions with an instance of the software system belonging to a third organization. The occurrences are extended in order to generate candidate sequences that are evaluated to determine whether they correspond to executions of the BP.",
+  "filing_date": "20161228",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Some aspects of this disclosure involve monitoring organizations' interactions with instances of software systems in order to determine what Business Processes (BPs) the organizations execute. In some embodiments, data obtained from monitoring may be represented as streams of steps that are performed as part of the interactions. Identifying BPs in these embodiments involves identifying sequences of steps in the streams that correspond to executions of BPs. However, there may be a certain extent of variability in how BPs are executed. For example, different executions of the same BP by an organization may involve slightly different sequences of steps each time. Additionally, different organizations may perform the same BPs in slightly different ways. Consequently, in some embodiments, sequences corresponding to the executions of the same BP do not necessarily include the same exact series of steps. This fact may make it more difficult to identify executions of BPs in streams of steps. Even though sequences of steps corresponding to executions of a BP may display variability, often the sequences include certain steps that are conserved and performed in a large proportion of the executions, if not in all of them. In some embodiments, such conserved steps, which are often subsequences of two or more consecutively performed steps, are referred to as “seeds”. In some embodiments, even a single step may be considered a “seed”. The existence of seeds may be utilized in order to identify sequences of steps corresponding to executions of BPs among the many steps that are part of streams of steps generated due to monitoring an organizations' activity. Some aspects of this disclosure involve identification of the seeds described above in sequences corresponding to executions of BPs. In one embodiment, a seed extraction module is configured to receive sequences of steps selected from among streams of steps performed during interactions with instances of a soft...",
+  "date_published": "20170420",
+  "title": "Generation of Candidate Sequences Using Crowd-Based Seeds of Commonly-Performed Steps of a Business Process",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 353759,
+    "optimized_size": 4305,
+    "reduction_percent": 98.78
+  }
+}

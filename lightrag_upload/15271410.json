@@ -1,0 +1,42 @@
+{
+  "decision": "PENDING",
+  "application_number": "15271410",
+  "date_published": "20170112",
+  "date_produced": "20161228",
+  "title": "EXCHANGING IDENTIFIERS BETWEEN WIRELESS COMMUNICATION TO DETERMINE FURTHER INFORMATION TO BE EXCHANGED OR FURTHER SERVICES TO BE PROVIDED",
+  "filing_date": "20160921",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Proctor, JR.",
+      "inventor_name_first": "James Arthur",
+      "inventor_city": "Indialantic",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Proctor, III",
+      "inventor_name_first": "James Arthur",
+      "inventor_city": "Indialantic",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q3002",
+    "H04W402",
+    "G06Q3006",
+    "G06Q5000",
+    "H04L2906",
+    "G06Q2032"
+  ],
+  "main_ipcr_label": "G06Q3002",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention is generally concerned with facilitating the exchange of information and transactions between two entities associated with two wireless devices when the devices are in close proximity to each other utilizing both a short range and a long range wireless capability. Preferred embodiments of the present invention are generally concerned with facilitating the exchange of information and transactions between two entities associated with two wireless devices when the devices are in close proximity to each other. In one embodiment, this can be accomplished by a first device using a first short range wireless capability to detect an identifier transmitted from a second device in proximity to the first device, ideally using existing short range radio communication standard capabilities such as Bluetooth (IEEE802.15.1-2002) or Wi-Fi (IEEE802.11). The detected identifier, being associated with the device, is also associated with an entity. Rather than directly exchanging application data flow between the two devices using the short range wireless capability, a second wireless capability then allows for one or more of the devices to communicate with a central server via the internet, and perform an exchange of application data flow. By using a central server to draw on stored information and content associated with the entity or entities, the server can broker the exchange of information between the entities and the devices. In a preferred embodiment, this exchange may be comprised of information stored on the server associated with a detected entity, and it may be comprised of information received from the detected device via the second wireless capability and facilitated by the server. In addition, the server can also allow for a brokering service, ideally independent of the entities, to enable the application of policy based on the identity of the two entities for the disclosure of stored information associated with t...",
+  "patent_number": "None",
+  "abstract": "A server exchanges information between one or more wireless devices to complete a transaction. The server receives second device identifier information from a first wireless device using a wide area network. The second device identifier information was previously provided to the first wireless device using short range wireless communication. The server then uses the second device identifier information to determine additional information concerning an entity or object located in proximity to the second device, and then the server delivers information to the first wireless device based at least in part upon both (a) the second device identifier and (b) a current step in a multiple step process for an ongoing electronic commerce transaction.",
+  "publication_number": "US20170011425A1-20170112",
+  "_processing_info": {
+    "original_size": 110990,
+    "optimized_size": 3611,
+    "reduction_percent": 96.75
+  }
+}

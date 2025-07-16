@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15279535",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "title": "PROTECTED REAL TIME CLOCK WITH HARDWARE INTERCONNECTS",
+  "filing_date": "20160929",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Krithivas",
+      "inventor_name_first": "Ramamurthy",
+      "inventor_city": "Chandler",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bordogna",
+      "inventor_name_first": "Mark A.",
+      "inventor_city": "Andover",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sepko",
+      "inventor_name_first": "James M.",
+      "inventor_city": "Coplay",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F114",
+    "G06F112"
+  ],
+  "main_ipcr_label": "G06F114",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>To provide a more complete understanding of the present disclosure and features and advantages thereof, reference is made to the following description, taken in conjunction with the accompanying figures, wherein like reference numerals represent like parts, in which: FIG. 1A is a simplified block diagram of an exemplary platform for initializing and synchronizing a protected real time clock via a hardware connection, in accordance with various embodiments; FIG. 1B is a more detailed block diagram of exemplary platform in FIG. 1A for initializing a protected real time clock, in accordance with various embodiments; FIG. 2 is a flow diagram of an illustrative method for securely initializing a protected real time clock via a hardware connection, in accordance with various embodiments; FIG. 3 is a simplified block diagram of an exemplary platform for synchronizing a protected real time clock via a hardware connection, in accordance with various embodiments; FIG. 4 is a flow diagram of an illustrative method for synchronizing a protected real time clock via a hardware connection, in accordance with various embodiments; FIG. 5 is a simplified block diagram of an exemplary platform for initializing and synchronizing a discrete device real time clock to a protected real time clock via a hardware connection, in accordance with various embodiments; and FIG. 6 is a flow diagram of an illustrative method for initializing and synchronizing a discrete device real time clock to a protected real time clock via a hardware connection, in accordance with various embodiments. detailed-description description=\"Detailed Description\" end=\"lead\"? The FIGURES of the drawings are not necessarily drawn to scale, as their dimensions can be varied considerably without departing from the scope of the present disclosure. Common elements in different FIGURES may have a common identifier.",
+  "patent_number": "None",
+  "abstract": "Disclosed herein are systems and methods for initializing and synchronizing a protected real time clock via hardware connections. For example, in some embodiments, a protected real time clock on a trusted execution environment may initialize via a hardware connection to a master clock, which is synchronized to a trusted time source via a hardware connection. In some embodiments, a protected real time clock on a trusted execution environment may initialize to a master clock during a system hardware reset sequence. In some embodiments, before a system is running normally, a real time clock on an integrated Intellectual Property agent may initialize and synchronize to a protected real time clock via a hardware connection. In some embodiments, after a system is running normally, a real time clock on a discrete device may initialize and synchronize to a protected real time clock via a hardware connection.",
+  "publication_number": "US20180088625A1-20180329",
+  "_processing_info": {
+    "original_size": 52681,
+    "optimized_size": 3699,
+    "reduction_percent": 92.98
+  }
+}

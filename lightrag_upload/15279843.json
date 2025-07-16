@@ -1,0 +1,66 @@
+{
+  "date_produced": "20170316",
+  "publication_number": "US20170091673A1-20170330",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15279843",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gupta",
+      "inventor_name_first": "Abhishek",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gray",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ball",
+      "inventor_name_first": "Nicholas",
+      "inventor_city": "San Bruno",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mehta",
+      "inventor_name_first": "Sanjay",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gregory",
+      "inventor_name_first": "Terison",
+      "inventor_city": "Dublin",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Caldwell",
+      "inventor_name_first": "Troy",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system and method for exporting a training model for performing a prediction including sending for presentation, to a user, a directed acyclic graph representing a model trained using a transformed source dataset and one or more transformations used to obtain the transformed source dataset; determining the model as an endpoint based on a user selection; determining a transformation as a start point; determining whether one or more intervening transformations exist on a path going from the start point and leading to the endpoint in the directed acyclic graph; and exporting the model and relevant transformations, the relevant transformations including the transformation at the start point and any intervening transformations on the path going from the start point and leading to the model at endpoint in the directed acyclic graph to a production environment.",
+  "filing_date": "20160929",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention overcomes the deficiencies of the prior art by providing a system and method for exporting a training model along with a portion of a transformation chain for performing a real time prediction on a live stream of data or batch prediction on data batches. According to one innovative aspect of the subject matter described in this disclosure, a system comprises one or more processors; and a memory storing instructions that, when executed by the one or more processors, cause the system to: send for presentation, to a user, a directed acyclic graph representing a model trained using a transformed source dataset and one or more transformations used to obtain the transformed source dataset; determine the model as an endpoint based on a user selection; determine a transformation as a start point; determine whether one or more intervening transformations exist on a path going from the start point and leading to the endpoint in the directed acyclic graph; and export the model and relevant transformations, the relevant transformations including the transformation at the start point and any intervening transformations on the path going from the start point and leading to the model at endpoint in the directed acyclic graph to a production environment. In general, another innovative aspect of the subject matter described in this disclosure may be embodied in methods that include sending for presentation, to a user, a directed acyclic graph representing a model trained using a transformed source dataset and one or more transformations used to obtain the transformed source dataset; determining the model as an endpoint based on a user selection; determining a transformation as a start point; determining whether one or more intervening transformations exist on a path going from the start point and leading to the endpoint in the directed acyclic graph; and exporting the model and relevant transformations, the relevant transform...",
+  "date_published": "20170330",
+  "title": "Exporting a Transformation Chain Including Endpoint of Model for Prediction",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 104739,
+    "optimized_size": 4178,
+    "reduction_percent": 96.01
+  }
+}

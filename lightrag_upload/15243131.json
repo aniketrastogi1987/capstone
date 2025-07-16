@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15243131",
+  "date_published": "20180222",
+  "date_produced": "20180207",
+  "title": "SYSTEM AND METHOD TO AUTOMATE VALIDATING MEDIA REDIRECTION IN TESTING PROCESS",
+  "filing_date": "20160822",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Arumugham",
+      "inventor_name_first": "Ramachandran",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Rajaiah",
+      "inventor_name_first": "Arunprasad",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Manickavelu",
+      "inventor_name_first": "Vinothkumar",
+      "inventor_city": "Chennai",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>Certain aspects of the present disclosure direct to a system, which includes a computing device for performing a test of a virtual media redirection process. In certain embodiments, the computing device includes a processor and a storage device storing computer executable code. The computer executable code, when executed at the processor, is configured to: obtain, from a media storage device, a media file to be redirected; calculate a first checksum value for the media file being obtained; perform the virtual media redirection process to redirect the media file to the computing device, and copy the media file to a local path of the computing device; calculate a second checksum value for the media file at the local path of the computing device; and validate the media file by matching the second checksum value with the first checksum value, wherein the media file is validated when the second checksum value matches with the first checksum value. In certain embodiments, the media file is an ISO image file. In certain embodiments, the media file is a specific file in an ISO image file. In certain embodiments, the computer executable code includes: a virtual media redirection module, configured to perform the virtual media redirection process for the computing device by emulating a virtual media at the local path of the computing device, and to copy the media file to the local path; and a validation module configured to: obtain the media file to be redirected; calculate the first checksum value for the media file being obtained; calculate the second checksum value for the media file at the local path of the computing device; and validate the media file by matching the second checksum value with the first checksum value. In certain embodiments, the validation module is an automated script module. In certain embodiments, the virtual media redirection module is a virtual media command line interface (VMCLI) module, configured to emulate the virtual media a...",
+  "patent_number": "None",
+  "abstract": "A system and method to automate validating media redirection in a virtual media redirection testing process. A computing device is provided for performing the test. During the test, the computing device executes an automated script to obtain, from a media storage device, a media file to be redirected, and then calculate a first checksum value for the media file being obtained. The computing device then executes a redirection module to perform the virtual media redirection process for the media file, and copy the media file to a local path of the computing device. Once the media file is redirected, the automated script calculates a second checksum value for the media file at the local path of the computing device. Thus, the media file may be validated by matching the two checksum values, and the redirection process is determined to be successful when the checksum values match.",
+  "publication_number": "US20180052881A1-20180222",
+  "_processing_info": {
+    "original_size": 63904,
+    "optimized_size": 3762,
+    "reduction_percent": 94.11
+  }
+}

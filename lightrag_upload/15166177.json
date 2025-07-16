@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170323",
+  "publication_number": "US20170098153A1-20170406",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15166177",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mao",
+      "inventor_name_first": "Junhua",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Yi",
+      "inventor_city": "SAN JOSE",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Jiang",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Zhiheng",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Presented herein are embodiments of a multimodal Recurrent Neural Network (m-RNN) model for generating novel image captions. In embodiments, it directly models the probability distribution of generating a word given a previous word or words and an image, and image captions are generated according to this distribution. In embodiments, the model comprises two sub-networks: a deep recurrent neural network for sentences and a deep convolutional network for images. In embodiments, these two sub-networks interact with each other in a multimodal layer to form the whole m-RNN model. The effectiveness of an embodiment of model was validated on four benchmark datasets, and it outperformed the state-of-the-art methods. In embodiments, the m-RNN model may also be applied to retrieval tasks for retrieving images or captions.",
+  "filing_date": "20160526",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>References will be made to embodiments of the invention, examples of which may be illustrated in the accompanying figures. These figures are intended to be illustrative, not limiting. Although the invention is generally described in the context of these embodiments, it should be understood that it is not intended to limit the scope of the invention to these particular embodiments. FIG. 1 graphically represents a simple recurrent neural network model. FIG. 2 graphically represents a multimodal neural network model according to embodiments of the present invention. FIG. 3 depicts an example method flow for a multimodal Recurrent Neural Network (m-RNN) according to embodiments of the current disclosure. FIG. 4 depicts a method for training a multimodal Recurrent Neural Network model according to embodiments of the present disclosure. FIG. 5 depicts a method for sentence generation using a trained m-RNN model according to embodiments of the present disclosure. FIG. 6 depicts some examples of generated sentences and the two top-ranked retrieved sentences given the query image from the IAPR TC-12 dataset using a trained m-RNN model according to embodiments of the present disclosure. FIG. 7 depicts a method for image retrieval using a trained m-RNN model according to embodiments of the present disclosure. FIG. 8 depicts a method for image retrieval using a trained m-RNN model according to embodiments of the present disclosure. FIG. 9 shows the original rank of hypotheses and the rank after consensus re-ranking (CIDEr) according to embodiments of the present invention. FIG. 10 graphically represents additional multimodal Recurrent Neural Networks (m-RNN) models according to embodiments of the present invention. FIG. 11 graphically represents yet additional multimodal Recurrent Neural Networks (m-RNN) models according to embodiments of the present invention. FIG. 12 shows the retrieval recall curve for a sentence retrieval task fo...",
+  "date_published": "20170406",
+  "title": "INTELLIGENT IMAGE CAPTIONING",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 77699,
+    "optimized_size": 3922,
+    "reduction_percent": 94.95
+  }
+}

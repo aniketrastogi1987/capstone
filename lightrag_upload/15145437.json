@@ -1,0 +1,60 @@
+{
+  "date_produced": "20171025",
+  "publication_number": "US20170323204A1-20171109",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15145437",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Akbulut",
+      "inventor_name_first": "Muhtar B.",
+      "inventor_city": "Waban",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Byron",
+      "inventor_name_first": "Donna K.",
+      "inventor_city": "Petersham",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Moraes",
+      "inventor_name_first": "Priscilla S.",
+      "inventor_city": "Pflugerville",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Taieb",
+      "inventor_name_first": "David D.",
+      "inventor_city": "Charlestown",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wood",
+      "inventor_name_first": "Steven D.",
+      "inventor_city": "Edinburgh",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "A method, system and computer-usable medium are disclosed for the use of a text simplification in a question answering (QA) system to improve ingestion quality and QA performance. A source corpus is processed to generate a parsed source corpus, which in turn is processed to generate a shadow corpus of simplified text. The parsed source corpus and the shadow corpus are then processed to generate derived data resources. A user query is processed to generate a set of merged candidate answer variants which are in turn processed to generate a corresponding converged feature vector representing each merged candidate answer variant. Feature values associated with each converged feature vector are then used to rank the merged candidate answer variants. A ranked set of merged candidate answer variants is then provided to the user.",
+  "filing_date": "20160503",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A method, system and computer-usable medium are disclosed for the use of a text simplification in a question answering (QA) system to improve ingestion quality and QA performance. In various embodiments, a source corpus is processed to generate a parsed source corpus, which in turn is processed to generate a shadow corpus of simplified text. The parsed source corpus and the shadow corpus are then processed to generate derived data resources. In certain embodiments, the derived data resources may include statistical models, indexes for primary and secondary search, semantic frames, framecuts, fact stores, term occurrence statistics, term frequency-inverse document frequency (tf-idf) scores, sense frequency-inverse document frequency (sf-idf) scores, n-gram statistics, language models, or a combination thereof. In various embodiments, a user query is processed by the QA system to generate a set of merged candidate answer variants. In these embodiments, the parsed source corpus, the shadow corpus, and the derived data resources are used by the QA system in the processing of the user query, which includes performing primary search, answer extraction, and secondary search operations. The resulting set of merged candidate answer variants are then processed to generate a corresponding converged feature vector representing each merged candidate answer variant. Feature values associated with each converged feature vector are then used to rank the merged candidate answer variants. A ranked set of merged candidate answer variants is then provided to the user.",
+  "date_published": "20171109",
+  "title": "Text Simplification for a Question and Answer System",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 70859,
+    "optimized_size": 3605,
+    "reduction_percent": 94.91
+  }
+}

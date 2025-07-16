@@ -1,0 +1,46 @@
+{
+  "patent_number": "nan",
+  "application_number": "15850112",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "filing_date": "20171221",
+  "main_ipcr_label": "G06N312",
+  "abstract": "Methods and systems for encoding digital information in nucleic acid (e.g., deoxyribonucleic acid) molecules without base-by-base synthesis, by encoding bit-value information in the presence or absence of unique nucleic acid sequences within a pool, comprising specifying each bit location in a bit-stream with a unique nucleic sequence and specifying the bit value at that location by the presence or absence of the corresponding unique nucleic acid sequence in the pool But, more generally, specifying unique bytes in a bytestream by unique subsets of nucleic acid sequences. Also disclosed are methods for generating unique nucleic acid sequences without base-by-base synthesis using combinatorial genomic strategies (e.g., assembly of multiple nucleic acid sequences or enzymatic-based editing of nucleic acid sequences).",
+  "publication_number": "US20180137418A1-20180517",
+  "summary": "<SOH> SUMMARY <EOH>Methods and systems for encoding digital information in nucleic acid (e.g., deoxyribonucleic acid, DNA) molecules without base-by-base synthesis, by encoding bit-value information in the presence or absence of unique nucleic acid sequences within a pool, comprising specifying each bit location in a bit-stream with a unique nucleic sequence and specifying the bit value at that location by the presence or absence of the corresponding unique nucleic acid sequence in the pool. But, more generally, specifying unique bytes in a byte stream by unique subsets of nucleic acid sequences. Also disclosed are methods for generating unique nucleic acid sequences without base-to-base synthesis using combinatorial genomic strategies (e.g., assembly of multiple nucleic acid sequences or enzymatic-based editing of nucleic acid sequences). In an aspect, the present disclosure provides a method for writing information into nucleic acid sequence(s), comprising: (a) translating the information into a string of symbols; (b) mapping the string of symbols to a plurality of identifiers, wherein an individual identifier of the plurality of identifiers comprises one or more components, wherein an individual component of the one or more components comprises a nucleic acid sequence, and wherein the individual identifier of the plurality of identifiers corresponds to an individual symbol of the string of symbols; and (c) constructing an identifier library comprising at least a subset of the plurality of identifiers. In some embodiments, each symbol in the string of symbols is one of two possible symbol values. In some embodiments, one symbol value at each position of the string of symbols may be represented by the absence of a distinct identifier in the identifier library. In some embodiments, the two possible symbol values are a bit-value of 0 and 1, wherein the individual symbol with the bit-value of 0 in the string of symbols may be represented by an absence of a distinct id...",
+  "ipcr_labels": [
+    "G06N312",
+    "G06F508",
+    "C12N922"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Roquet",
+      "inventor_name_first": "Nathaniel",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Park",
+      "inventor_name_first": "Hyunjun",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bhatia",
+      "inventor_name_first": "Swapnil P.",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "NUCLEIC ACID-BASED DATA STORAGE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 193225,
+    "optimized_size": 3667,
+    "reduction_percent": 98.1
+  }
+}

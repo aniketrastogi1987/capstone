@@ -1,0 +1,39 @@
+{
+  "filing_date": "20180122",
+  "publication_number": "US20180144259A1-20180524",
+  "decision": "PENDING",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention overcomes the drawbacks of prior art devices and methods; and is directed towards an approach for detecting a transient error in a body fluid sample based on the shape of a response curve of a sensor. According to various embodiments described herein, the present invention describes an application of a new sensor response pattern check during sample measurement for enhancing error detection capabilities. Some examples of the approach are based on fitting sensor response outputs to a logarithmic polynomial function for determining the fit coefficients. Magnitude of the fit coefficients is used as indicator of the sample response shape for detecting transient errors in a body fluid sample. In one aspect, a system for detecting a transient error in a body fluid sample includes memory having computer executable instructions thereupon and at least one interface for receiving an equation representing a response curve of a sensor and for determining a concentration of an analyte in a body fluid sample. The equation includes at least one coefficient describing any one of a curvature of the response curve and a slope of the response curve. The system further includes a transient error detector coupled to the memory and the at least one interface. The transient error detector is configured to execute the instructions and compare the at least one coefficient to a range of coefficients. The range of coefficients includes coefficients of response curves corresponding to known concentrations of the analyte. The transient error detector detects a transient error in the body fluid sample based on the comparison. In other examples of the system, the equation representing the response curve is any one of logarithmic equation and quadratic equation. In some examples of the system, the range of coefficients for a given concentration of analyte includes a mean coefficient determined from a mean of coefficients of response curves ...",
+  "title": "DETECTING A TRANSIENT ERROR IN A BODY FLUID SAMPLE",
+  "ipcr_labels": [
+    "G06N700",
+    "G01N3500",
+    "G06F1718"
+  ],
+  "abstract": "An approach for detecting a transient error in a body fluid sample based on the shape of a response curve of a sensor is provided. The response curve is represented by an equation including at least one coefficient describing a curvature or slope of the response curve. The approach includes comparing the coefficient to a range of coefficients which includes coefficients of response curves corresponding to known analyte concentrations. The approach further includes detecting a transient error based on the comparison. In some examples of the approach, the comparison and detection are performed by a processing transient error detector executing computer readable instructions embodied in a non-transitory computer-readable medium. Other examples of the approach determine a concentration of the analyte based on the equation. Advantageously, various examples of the approach can expedite detection of transient errors at the time of measuring and before reporting sample result.",
+  "patent_number": "nan",
+  "application_number": "15876760",
+  "date_published": "20180524",
+  "main_ipcr_label": "G06N700",
+  "date_produced": "20180509",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mansouri",
+      "inventor_name_first": "Sohrab",
+      "inventor_city": "Sudbury",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cervera",
+      "inventor_name_first": "Jose Maria",
+      "inventor_city": "Arlington",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "_processing_info": {
+    "original_size": 94884,
+    "optimized_size": 3697,
+    "reduction_percent": 96.1
+  }
+}

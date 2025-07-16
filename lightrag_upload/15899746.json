@@ -1,0 +1,60 @@
+{
+  "filing_date": "20180220",
+  "publication_number": "US20180174048A1-20180621",
+  "decision": "PENDING",
+  "summary": "<SOH> SUMMARY <EOH>According to one exemplary embodiment, a processor-implemented method for an adjacent value estimator for a cardinality estimation using an artificial neural network. The method may include receiving a database query comprising one or more predicates, whereby each predicate in the one or more predicates operates on one or more database columns of a database. The method may further include determining the received database query comprises one or more strict operators. The method may further include defining an upper bound neural network for calculating an adjacent upper bound and a lower bound neural network for calculating an adjacent lower bound based on receiving a database query. The method may further include training the defined upper bound neural network and the defined lower bound neural network using a selected value from a plurality of data within a database table associated with the received database query to be executed through the defined upper bound neural network and the defined lower bound neural network. The method may further include adjusting the defined upper bound neural network and the defined lower bound neural network by inputting an expected value using an error found in one or more expressions based on training the defined upper bound neural network and the defined lower bound neural network. The method may further include calculating the adjacent lower bound and the adjacent upper bound for a particular database column based on adjusting the defined upper bound neural network and the defined lower bound neural network. The method may further include inputting the calculated adjacent lower bound and calculated adjacent upper bound into the artificial neural network. The method may further include estimating a selectivity for the one or more database columns in response to inputting the calculated adjacent lower bound and calculated adjacent upper bound into the artificial neural network. The method may further include inpu...",
+  "title": "ESTIMATING CARDINALITY SELECTIVITY UTILIZING ARTIFICIAL NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1730",
+    "G06N304"
+  ],
+  "abstract": "A database query comprising predicates may be received. Each predicate may operate on database columns. The database query may be determined to comprise strict operators. An upper bound neural network may be defined for calculating an adjacent upper bound and a lower bound neural network may be defined for calculating an adjacent lower bound. The upper bound neural network and the lower bound neural network may be trained using a selected value from data of a database table associated with the database query to be executed through the upper bound neural network and the lower bound neural network. The upper bound neural network and the lower bound neural network may be adjusted by passing in an expected value using an error found in expressions. The adjacent lower bound and the adjacent upper bound may be calculated in response to completion of initial training for the database columns.",
+  "patent_number": "nan",
+  "application_number": "15899746",
+  "date_published": "20180621",
+  "main_ipcr_label": "G06N308",
+  "date_produced": "20180608",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Corvinelli",
+      "inventor_name_first": "Vincent",
+      "inventor_city": "Mississauga",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Liu",
+      "inventor_name_first": "Huaxin",
+      "inventor_city": "Delta",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Mingbin",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Ziting",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Zuzarte",
+      "inventor_name_first": "Calisto P.",
+      "inventor_city": "Pickering",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "_processing_info": {
+    "original_size": 87297,
+    "optimized_size": 4052,
+    "reduction_percent": 95.36
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364820A1-20171221",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15186758",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ko",
+      "inventor_name_first": "Bong Jun",
+      "inventor_city": "Harrington Park",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Makaya",
+      "inventor_name_first": "Christian",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ortiz",
+      "inventor_name_first": "Jorge J.",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rallapalli",
+      "inventor_name_first": "Swati",
+      "inventor_city": "Ossining",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Verma",
+      "inventor_name_first": "Dinesh C.",
+      "inventor_city": "New Castle",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Xiping",
+      "inventor_city": "Scarsdale",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A provenance method, system, and non-transitory computer readable medium for a plurality of eidetic systems having logs, include a log-segment clustering circuit configured to crawl the logs of each of the eidetic systems to cluster segments across the logs of temporally correlated events into clustered segments, a probabilistic interleaving circuit configured to analyze the correlated segments to interleave an order of processes in the logs and assign a probability to the order of the processes occurring, and a probabilistic linearization circuit configured to create a probability tree which includes a total probability that a process in the clustered segments causes a next process in the clustered segments until an end of the temporal event of the clustered segments for each of the interleaved order of processes interleaved by the probabilistic interleaving circuit.",
+  "filing_date": "20160620",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In view of the technical problem, the inventors have considered a non-abstract improvement to a computer technology via a technical solution to the technical problem in which a provenance system can be conditioned on an output of a log and through observation update out posterior probability for each set of events, by serializing these sets for traversal, either for replay, rollback, or to play a different timeline altogether such that no log messages are exchanged between machines. The system enables full provenance log inspection across machines and answers probabilistic lineage queries, allowing the users to crawl all possible histories. In an exemplary embodiment, the present invention can provide a provenance system for a plurality of eidetic systems having logs, the system including a log-segment clustering circuit configured to crawl the logs of each of the eidetic systems to cluster segments across the logs of temporally correlated events into clustered segments, a probabilistic interleaving circuit configured to analyze the correlated segments to interleave an order of processes in the logs and assign a probability to the order of the processes occurring, and a probabilistic linearization circuit configured to create a probability tree which includes a total probability that a process in the clustered segments causes a next process in the clustered segments until an end of the temporal event of the clustered segments for each of the interleaved order of processes interleaved by the probabilistic interleaving circuit. Further, in another exemplary embodiment, the present invention can provide a provenance method for a plurality of eidetic systems having logs, the method including clustering segments across the logs of temporally correlated events into clustered segments by crawling the logs of each of the eidetic systems, interleaving an order of processes in the logs to assign a probability of the order of the processes occurring, and cre...",
+  "date_published": "20171221",
+  "title": "SYSTEM, METHOD, AND RECORDING MEDIUM FOR DISTRIBUTED PROBABILISTIC EIDETIC QUERYING, ROLLBACK, AND REPLAY",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 48990,
+    "optimized_size": 4246,
+    "reduction_percent": 91.33
+  }
+}

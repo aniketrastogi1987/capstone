@@ -1,0 +1,52 @@
+{
+  "date_produced": "20160413",
+  "publication_number": "US20160117590A1-20160428",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "14986795",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BYRON",
+      "inventor_name_first": "Donna K.",
+      "inventor_city": "Petersham",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Katahira",
+      "inventor_name_first": "Reinaldo T.",
+      "inventor_city": "Anhagabau",
+      "inventor_state": "",
+      "inventor_country": "BR"
+    },
+    {
+      "inventor_name_last": "Krishnamurthy",
+      "inventor_name_first": "Lakshminarayanan",
+      "inventor_city": "Round Rock",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Trim",
+      "inventor_name_first": "Craig M.",
+      "inventor_city": "Sylmar",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method and associated systems for automatically generating an ontology and a set of axioms from a business-process model that represents the operations of a business. This ontology and set of axioms may be used to create the knowledgebase of an artificially intelligent expert system that emulates the business operations. A processor parses a representation of business processes stored in the business-process model, deriving a set of axioms and a set of entity classes from the parsed data. The processor uses these axioms and classes to identify concept nodes and process nodes, which it organizes into the ontology of the knowledgebase. The processor further identifies information derived from the parsed data to create a set of triple data items, each of which represents the information represented by one or more of the derived axioms. These triples are stored in the knowledgebase a triple store data structure.",
+  "filing_date": "20160104",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A first embodiment of the present invention provides a method for automatically generating an ontology and a set of axioms from a business-process model, wherein the business-process model comprises a representation of a set of business processes, wherein the ontology comprises a set of concept nodes and a set of process nodes, and wherein an axiom of the set of axioms comprises a subject, an object, and a predicate, the method comprising: a processor of a computer system parsing the representation into a set of parsed data; the processor deriving the set of axioms as a function of the set of parsed data; the processor identifying the set of concept nodes as a function of the set of parsed data and identifying the set of process nodes as a further function of the set of parsed data; the processor populating the ontology with the set of process nodes and the set of concept nodes. A second embodiment of the present invention provides a computer program product, comprising a computer-readable hardware storage device having a computer-readable program code stored therein, said program code configured to be executed by a processor of a computer system to implement a method for automatically generating an ontology and a set of axioms from a business-process model, wherein the business-process model comprises a representation of a set of business processes, wherein the ontology comprises a set of concept nodes and a set of process nodes, and wherein an axiom of the set of axioms comprises a subject, an object, and a predicate, the method comprising: the processor parsing the representation into a set of parsed data; the processor deriving the set of axioms as a function of the set of parsed data; the processor identifying the set of concept nodes as a function of the set of parsed data and identifying the set of process nodes as a further function of the set of parsed data; the processor populating the ontology with the set of process nodes and the...",
+  "date_published": "20160428",
+  "title": "AUTOMATICALLY TRANSLATING A LIST OF BUSINESS PROCESSES INTO AN EXPERT-SYSTEM KNOWLEDGEBASE",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 73080,
+    "optimized_size": 3976,
+    "reduction_percent": 94.56
+  }
+}

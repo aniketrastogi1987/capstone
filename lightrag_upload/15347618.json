@@ -1,0 +1,37 @@
+{
+  "date_produced": "20170427",
+  "publication_number": "US20170132513A1-20170511",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15347618",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Yuan",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kudlur Venkatakrishna",
+      "inventor_name_first": "Manjunath",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and Methods for training a neural network represented as a computational graph are disclosed. An example method begins with obtaining data representing a computational graph. The computational graph is then augmented to generate a training computational graph for training the neural network using a machine learning training algorithm that includes computing a gradient of an objective function with respect to each of the parameters of the neural network. Augmenting the computational graph includes inserting a plurality of gradient nodes and training edges into the computational graph to generate a backward path through the computational graph that represents operations for computing the gradients of the objective function with respect to the parameters of the neural network. The neural network is trained using the machine learning training algorithm by executing the training computational graph.",
+  "filing_date": "20161109",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes a system implemented as computer programs on one or more computers in one or more locations that trains a neural network represented by a computational graph. The computational graph includes nodes, connector directed edges, and parameter directed edges. Each node represents a respective operation performed by the neural network as part of determining a neural network output from a neural network input, each connector directed edge connects a respective first node to a respective second node that represents an operation that receives, as input, an output of an operation represented by the respective first node, and each parameter directed edge connects into a respective node and represents a flow of one or more parameters of the neural network as input to the operation represented by the respective node. In general, one innovative aspect of the subject matter described in this specification can be embodied in methods that include the actions of obtaining data representing the computational graph; augmenting the computational graph to generate a training computational graph for training the neural network using a machine learning training algorithm that includes computing a gradient of an objective function with respect to each of the parameters of the neural network, comprising: inserting a plurality of gradient nodes and training edges into the computational graph to generate a backward path through the computational graph that represents operations for computing the gradients of the objective function with respect to parameters flowing along a respective parameter directed edge in the computational graph; and training the neural network using the machine learning training algorithm by executing the training computational graph. The system trains the neural network using the machine learning training algorithm by executing the training computational graph. In particular, the system may, as part of augmenting the compu...",
+  "date_published": "20170511",
+  "title": "TRAINING NEURAL NETWORKS REPRESENTED AS COMPUTATIONAL GRAPHS",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 87876,
+    "optimized_size": 3622,
+    "reduction_percent": 95.88
+  }
+}

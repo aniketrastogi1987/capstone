@@ -1,0 +1,53 @@
+{
+  "date_produced": "20170705",
+  "publication_number": "US20170206466A1-20170720",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15002297",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zoldi",
+      "inventor_name_first": "Scott Michael",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jia",
+      "inventor_name_first": "Yuting",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Kiyoung",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Heming",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The current subject matter describes a method and system of detecting frauds or anomalous behavior. The procedures include extracting characteristics from a dataset to generate words and documents, executing a topic model to obtain the respective probabilities of appearance of a document in each latent archetype, dividing the dataset into a plurality of subsets based upon the archetypes. The formed subsets are further utilized to estimate the quantiles and calculate scores using a self-calibrating outlier model. The score of each new transaction is determined based on a single archetype or based on the sum of weighted scores determined from all the archetypes and associated statistics. Such methods are superior to a simple self-calibration outlier model without an LDA archetype. The detection system with the LDA archetypes and self-calibrating outlier model is implemented with the sliding window technique incorporating new transactions into the topic model and it is capable of operatin...",
+  "filing_date": "20160120",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This document describes a system and method to detect anomalies or outliers in transactions without utilizing tags of transactions. Latent topics (or archetypes) in the dataset are exploited, and then the dataset is divided into subsets in terms of the informative probability of the transaction ingredients in the topics. The subset of data associated with an archetype forms the statistics on which the future transaction variable values are compared. The characteristic variables are computed by computer processors for each transaction and quantiles for self-calibrating model are calculated in each subset of whole population, and scores are subsequently obtained by a self-calibrating model using these scaled variables. In these so-called “self-calibrating models,” outlier values of the variables may be dependent on the real-time estimation of the variable distributions to determine outliers, after which the scores are computed from the scaled variables. In one aspect, a computer-implemented system and method for detecting transaction outliers in a dataset representing a plurality of transactions is disclosed. The system and method include selecting, by one or more data processors, words of documents associated with a plurality of transaction characteristics in the dataset. The method further includes executing a topic model using the words of the documents in the dataset to generate a document-archetype probability matrix comprising a plurality of archetypes, and assigning each document to at least one archetype of the plurality of archetypes based on probability values associated with the topic model. The method further includes dividing the documents of the dataset into different subsets based on the at least one archetype, and computing statistics of the plurality of transactions within each of the different subsets associated with the at least one archetype. The method further includes identifying an archetype of one or more incoming transaction...",
+  "date_published": "20170720",
+  "title": "Real Time Autonomous Archetype Outlier Analytics",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F30485",
+    "G06T1120"
+  ],
+  "_processing_info": {
+    "original_size": 81413,
+    "optimized_size": 4016,
+    "reduction_percent": 95.07
+  }
+}

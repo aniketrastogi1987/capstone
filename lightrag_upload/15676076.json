@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15676076",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "filing_date": "20170814",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "The present disclosure provides systems and methods for communication efficient distributed mean estimation. In particular, aspects of the present disclosure can be implemented by a system in which a number of vectors reside on a number of different clients, and a centralized server device seeks to estimate the mean of such vectors. According to one aspect of the present disclosure, a client computing device can rotate a vector by a random rotation matrix and then subsequently perform probabilistic quantization on the rotated vector. According to another aspect of the present disclosure, subsequent to quantization but prior to transmission, the client computing can encode the quantized vector according to a variable length coding scheme (e.g., by computing variable length codes).",
+  "publication_number": "US20180089587A1-20180329",
+  "summary": "<SOH> SUMMARY <EOH>Aspects and advantages of embodiments of the present disclosure will be set forth in part in the following description, or can be learned from the description, or can be learned through practice of the embodiments. One aspect of the present disclosure is directed to a computing system to facilitate transmission of machine-learned model updates from client devices to a centralized server computing device. The computing system includes one or more client computing devices. Each client computing device includes one or more processors and one or more non-transitory computer-readable media that store instructions that, when executed by the one or more processors cause the client computing device to perform operations. The operations include determining an update to a machine-learned model based at least in part on a local dataset stored at the client computing device. The operations include rotating the update by a random rotation matrix to obtain a rotated update. The operations include performing probabilistic quantization of the rotated update to obtain a quantized rotated update. The operations include transmitting the quantized rotated update to the centralized server computing device. Another aspect of the present disclosure is directed to a computing system. The computing system includes one or more client computing devices. Each client computing device includes one or more processors and one or more non-transitory computer-readable media that store instructions that, when executed by the one or more processors cause the client computing device to perform operations. The operations include obtaining a vector. The operations include rotating the vector by a random rotation matrix to obtain a rotated vector. The operations include performing probabilistic quantization of the rotated vector to obtain a quantized rotated vector. The operations include transmitting the quantized rotated vector. Another aspect of the present disclosure is directed to ...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Suresh",
+      "inventor_name_first": "Ananda Theertha",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kumar",
+      "inventor_name_first": "Sanjiv",
+      "inventor_city": "Jericho",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McMahan",
+      "inventor_name_first": "Hugh Brendan",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Xinnan",
+      "inventor_city": "Forest Hills",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Systems and Methods for Communication Efficient Distributed Mean Estimation",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 90805,
+    "optimized_size": 3817,
+    "reduction_percent": 95.8
+  }
+}

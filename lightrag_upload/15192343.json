@@ -1,0 +1,72 @@
+{
+  "decision": "PENDING",
+  "application_number": "15192343",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "title": "MULTIPLE VERSIONS OF TRIGGERS IN A DATABASE SYSTEM",
+  "filing_date": "20160624",
+  "inventor_list": [
+    {
+      "inventor_name_last": "DANG",
+      "inventor_name_first": "Tammie",
+      "inventor_city": "Morgan Hill",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HUANG",
+      "inventor_name_first": "Illong A.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KUANG",
+      "inventor_name_first": "David J.",
+      "inventor_city": "Elk Grove",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LIN",
+      "inventor_name_first": "Fen-Ling",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MCFEELY",
+      "inventor_name_first": "Claire W.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WEIHRAUCH",
+      "inventor_name_first": "Maryela E.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ZHONG",
+      "inventor_name_first": "Binghui",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed herein is a method for multiple versions of triggers in a database system and a computer program product as specified in the independent claims. Embodiments of the present invention are given in the dependent claims. Embodiments of the present invention can be freely combined with each other if they are not mutually exclusive. According to an embodiment of the present invention, in a method for managing multiple versions of triggers in a database system, the database system receives a first command to create a first version of a trigger to apply a first set of actions in response to a first triggering event. Based on the first command, the database system creates the first version of the trigger to apply the first set of actions in response to the first triggering event. In creating the first version, the database system creates a first package for the first version of the trigger, where the first package includes the first set of actions, links the first package to the database object, and sets the first package as a current version of the trigger. The database system further receives a second command to create a second version of the trigger to apply a second set of actions in response to a second triggering event. Based on the second command, the database system creates the second version of the trigger to apply the second set of actions in response to the second triggering event. In creating the second version, the database system creates a second package for the second version of the trigger, where the second package includes the second set of actions, and links the second package to the database object. The database system receives a third command to set the current version of the trigger to the second version, and in response, sets the second package as the current version of the trigger.",
+  "patent_number": "None",
+  "abstract": "In managing multiple versions of triggers, a database system creates a first version of a trigger to apply a first set of actions in response to a first triggering event, which includes: creating a first package for the first version of the trigger to include the first set of actions; linking the first package to the database object; and setting the first package as a current version of the trigger. The database system creates a second version of the trigger to apply a second set of actions to the database object in response to a second triggering event, which includes: creating a second package for the second version of the trigger to include the second set of actions; and linking the second package to the database object. In response to a command, the database system sets the current version of the trigger to the second package.",
+  "publication_number": "US20170371905A1-20171228",
+  "_processing_info": {
+    "original_size": 46088,
+    "optimized_size": 4125,
+    "reduction_percent": 91.05
+  }
+}

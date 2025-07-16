@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15133118",
+  "date_published": "20171019",
+  "date_produced": "20171004",
+  "title": "TECHNIQUES FOR GENERATING DYNAMIC ILLUSTRATIONS USING PRINCIPLES OF ANIMATION",
+  "filing_date": "20160419",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Habib",
+      "inventor_name_first": "Rubiait",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Grossman",
+      "inventor_name_first": "Tovi",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Umetani",
+      "inventor_name_first": "Nobuyuki",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Fitzmaurice",
+      "inventor_name_first": "George",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T1380",
+    "G06T1340"
+  ],
+  "main_ipcr_label": "G06T1380",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Various embodiments of the present invention set forth a non-transitory computer-readable medium storing instructions that, when executed by a processor, cause the processor to generate an animation, by performing the steps of generating a sketch grid comprising a plurality of grid cells, projecting a first sketch onto the sketch grid, where each grid cell in the plurality of grid cells includes a different portion of the first sketch, deforming the sketch grid based on one or more other sketches to generate a deformed sketch grid, and interpolating the first sketch, based on the deformed sketch grid, to generate a plurality of frames that animate the first sketch. At least one advantage of this approach is that cartoon-style animations can be created without reliance on complex physical simulations.",
+  "patent_number": "None",
+  "abstract": "An animation engine is configured to apply motion amplifiers to sketches received from an end-user in order to create exaggerated, cartoon-style animation. The animation engine receives a sketch input from the end-user as well as a selection of one or more motion amplifiers. The animation engine also receives one or more control sketches that indicate how the selected motion amplifiers are applied to the sketch input. The animation engine projects the sketch input onto a sketch grid to create a sketch element, and then animates the sketch element by deforming the underlying sketch grid based on the control sketches. The animation engine then interpolates the sketch input, based on the deformations of the sketch grid, to animate the sketch. In this manner, the animation engine exposes an intuitive set of tools that allows end-users to easily apply the well-known Principles of Animation.",
+  "publication_number": "US20170301127A1-20171019",
+  "_processing_info": {
+    "original_size": 55624,
+    "optimized_size": 2755,
+    "reduction_percent": 95.05
+  }
+}

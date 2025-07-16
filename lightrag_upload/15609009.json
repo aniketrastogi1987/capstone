@@ -1,0 +1,38 @@
+{
+  "patent_number": "nan",
+  "application_number": "15609009",
+  "date_published": "20171207",
+  "date_produced": "20171121",
+  "filing_date": "20170531",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Methods and systems for training a neural network are provided. One system includes one or more components executed by one or more computer subsystems. The one or more components include a neural network configured for determining inverted features of input images in a training set for a specimen input to the neural network, a forward physical model configured for reconstructing the input images from the inverted features thereby generating a set of output images corresponding to the input images in the training set, and a residue layer configured for determining differences between the input images in the training set and their corresponding output images in the set. The one or more computer subsystems are configured for altering one or more parameters of the neural network based on the determined differences thereby training the neural network.",
+  "publication_number": "US20170351952A1-20171207",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The following description of various embodiments is not to be construed in any way as limiting the subject matter of the appended claims. One embodiment relates to a system configured to train a neural network. The system includes one or more computer subsystems and one or more components executed by the one or more computer subsystems. The one or more components include a neural network configured for determining inverted features of input images in a training set for a specimen input to the neural network. The one or more components also include a forward physical model configured for reconstructing the input images from the inverted features thereby generating a set of output images corresponding to the input images in the training set. In addition, the one or more components include a residue layer configured for determining differences between the input images in the training set and their corresponding output images in the set. The one or more computer subsystems are configured for altering one or more parameters of the neural network based on the determined differences thereby training the neural network. The system may be further configured as described herein. An additional embodiment relates to another system configured to train a neural network. This system is configured as described above. This system also includes an imaging subsystem configured for generating images of a specimen. The computer subsystem(s) are, in this embodiment, configured for acquiring the images and generating a training set of input images from the acquired images. This embodiment of the system may be further configured as described herein. Another embodiment relates to a computer-implemented method for training a neural network. The method includes determining inverted features of input images in a training set for a specimen by inputting the training set of input images to a neural network. The method also includes reconstructing the input ima...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Jing",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bhaskar",
+      "inventor_name_first": "Kris",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS INCORPORATING A NEURAL NETWORK AND A FORWARD PHYSICAL MODEL FOR SEMICONDUCTOR APPLICATIONS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 121560,
+    "optimized_size": 3611,
+    "reduction_percent": 97.03
+  }
+}

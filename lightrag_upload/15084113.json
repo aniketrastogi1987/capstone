@@ -1,0 +1,72 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286860A1-20171005",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15084113",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Jianshu",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Deng",
+      "inventor_name_first": "Li",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gao",
+      "inventor_name_first": "Jianfeng",
+      "inventor_city": "Woodinville",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "He",
+      "inventor_name_first": "Xiadong",
+      "inventor_city": "Sammamish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Lihong",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "He",
+      "inventor_name_first": "Ji",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ostendorf",
+      "inventor_name_first": "Mari",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A processing unit can determine a first feature value corresponding to a session by operating a first network computational model (NCM) based part on information of the session. The processing unit can determine respective second feature values corresponding to individual actions of a plurality of actions by operating a second NCM. The second NCM can use a common set of parameters in determining the second feature values. The processing unit can determine respective expectation values of some of the actions of the plurality of actions based on the first feature value and the respective second feature values. The processing unit can select a first action of the plurality of actions based on at least one of the expectation values. In some examples, the processing unit can operate an NCM to determine expectation values based on information of a session and information of respective actions.",
+  "filing_date": "20160329",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This disclosure describes systems, methods, and computer-readable media for training computational models, such as neural networks (NNs), via reinforcement learning (RL), and for using the trained computational models in, e.g., determining actions to take during a session, e.g., a communication session with an entity, e.g., a user of a computing service. In some examples, a computing device operates a first network computational model (NCM) based at least in part on information of a session to provide a first feature value corresponding to the session, and operates a second NCM to provide respective second feature values corresponding to individual actions of a plurality of actions. The computing device determines respective expectation values of at least some of the actions of the plurality of actions based at least in part on the first feature value and the respective second feature values, and selects a first action of the plurality of actions based at least in part on at least one of the expectation values. The computing device provides an indication of the first action via a communications interface. The computing devices determines result information and determines a result value based at least in part on the result information. The computing device trains the first NCM based at least in part on the first action and the result value to provide a third NCM, and trains the second NCM based at least in part on the first action and the result value to provide a fourth NCM. According to example techniques herein, the computing device can operate a network computational model (NCM) to separately determine respective expectation values for actions of a plurality of actions, individual expectation values determined based at least in part on information of a state of a session, common parameters of the NCM, and information of the respective action of the plurality of actions. This Summary is provided to introduce a selection of concepts in a simplifi...",
+  "date_published": "20171005",
+  "title": "MULTIPLE-ACTION COMPUTATIONAL MODEL TRAINING AND OPERATION",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 210869,
+    "optimized_size": 4301,
+    "reduction_percent": 97.96
+  }
+}

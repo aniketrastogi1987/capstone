@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15665824",
+  "date_published": "20171116",
+  "date_produced": "20171103",
+  "filing_date": "20170801",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A healthcare information processing device is provided. The healthcare information processing device includes an acquisition circuit configured to acquire time series data; a conversion circuit configured to generate a reduced autoregressive model based on the acquired time series data; a creation circuit configured to create a network structure based on the reduced autoregressive model; and a prediction circuit configured to predict a future of an event using the reduced autoregressive model, the event being currently in progress.",
+  "publication_number": "US20170330085A1-20171116",
+  "summary": "<SOH> SUMMARY <EOH>In order to perform future prediction using time series data, it is necessary to analyze a huge amount of time series data in the past, and extract and classify the structures of time delay included in the time series data. In order to achieve this, a method for creating a time structure from time series data is required. However, it has been difficult to extract the structure of time series data using conventional techniques. The present technique has been made in view of such a situation, and makes it possible to extract the structure of time series data. One aspect of the present technique is an information processing device that includes an acquisition unit which acquires time series data, a conversion unit which converts the obtained time series data into an RAR model, and a prediction unit which predicts the future of an event, the event being currently in progress, using the RAR model. The information processing device may further include a creation unit which creates a network structure from the RAR model. The creation unit may determine time delay terms of the RAR model as nodes of the network structure, and connect the nodes to a term at the current time of the RAR model to create the network structure. A direct distance between two of the nodes of the RAR model may be defined by a ratio of a parameter of one of the two nodes to the square root of the sum of the squares of all parameters of the RAR model. When two of the nodes are connected to each other via another one or more of the nodes, the creation unit may determine the sum of direct distances between the respective connected nodes as an indirect distance. The creation unit may create the network structure by nodes connected to each other with a path having a shortest distance between the direct distance and the indirect distance. The information processing device may further include a retrieval unit which retrieves the homology between different time series data from the characte...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06Q1004",
+    "G06F1718"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "NAKAMURA",
+      "inventor_name_first": "Tomomichi",
+      "inventor_city": "Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SAKURADA",
+      "inventor_name_first": "Kazuhiro",
+      "inventor_city": "Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TANIZAWA",
+      "inventor_name_first": "Toshihiro",
+      "inventor_city": "Kochi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION PROCESSING DEVICE, INFORMATION PROCESSING METHOD, RECORDING MEDIUM, AND PROGRAM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 64115,
+    "optimized_size": 3437,
+    "reduction_percent": 94.64
+  }
+}

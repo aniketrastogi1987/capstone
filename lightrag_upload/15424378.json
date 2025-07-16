@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15424378",
+  "date_published": "20170824",
+  "date_produced": "20170809",
+  "filing_date": "20170203",
+  "main_ipcr_label": "G06N502",
+  "abstract": "First question information includes questions about a predetermined subject, and each piece of first answer information, associated with a piece of the first question information, indicates an answer that is responsive to the question indicated by the piece of the first question information. The apparatus updates conversion parameters including correlation values each indicating a degree of a correlation between keywords included in the first question information and the first answer information, by adjusting the correlation values so that the keywords enable a predetermined degree of predicted reliability to search for the first answer information. Upon receiving a new question not included in the first question information, the apparatus determines, based on the updated conversion parameters and first keywords extracted from the new question, second keywords enabling the predetermined degree of predicted reliability, and searches for an answer that is responsive to the new question b...",
+  "publication_number": "US20170243116A1-20170824",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the invention, an apparatus is provided with answer information including information on answers to questions about a predetermined subject, and first question information and first answer information, where the first answer information is included in the answer information, each piece of the first question information indicates a question about the predetermined subject, and each piece of the first answer information is associated with a piece of the first question information and indicates an answer that is responsive to the question indicated by the piece of the first question information. The apparatus updates conversion parameters that include correlation values each indicating a degree of a correlation between keywords included in the first question information and the first answer information, by calculating, for each keyword included in the first question information and the first answer information, a correlation score indicating a degree of predicted reliability of the each keyword to search for a corresponding piece of the answer information, based on the updated conversion parameters, and by adjusting the correlation values so that the calculated correlation score indicates a predetermined range of values for keywords included in the first question information and the first answer information. Upon receiving a new question about the predetermined subject which is not included in the first question information, the apparatus converts, based on the updated conversion parameters, first keywords extracted from the new question to second keywords whose correlation scores are within the predetermined range of values, and searches the answer information for an answer that is responsive to the new question by using the second keywords. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that bo...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Takagi",
+      "inventor_name_first": "Ryuichi",
+      "inventor_city": "Nakano",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "APPARATUS AND METHOD TO DETERMINE KEYWORDS ENABLING RELIABLE SEARCH FOR AN ANSWER TO QUESTION INFORMATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 66912,
+    "optimized_size": 3605,
+    "reduction_percent": 94.61
+  }
+}

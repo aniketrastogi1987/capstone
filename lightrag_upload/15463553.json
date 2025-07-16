@@ -1,0 +1,54 @@
+{
+  "patent_number": "None",
+  "application_number": "15463553",
+  "date_published": "20180308",
+  "date_produced": "20180222",
+  "filing_date": "20170320",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A neural network recognition method includes obtaining a first neural network that includes layers and a second neural network that includes a layer connected to the first neural network, actuating a processor to compute a first feature map from input data based on a layer of the first neural network, compute a second feature map from the input data based on the layer connected to the first neural network in the second neural network, and generate a recognition result based on the first neural network from an intermediate feature map computed by applying an element-wise operation to the first feature map and the second feature map.",
+  "publication_number": "US20180068218A1-20180308",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. In one general aspect, there is provided a neural network recognition method including obtaining a first neural network that includes a plurality of layers and a second neural network that includes a layer connected to the first neural network, actuating a processor to compute a first feature map from input data based on a layer of the first neural network, compute a second feature map from the input data based on the layer connected to the first neural network in the second neural network, and generate a recognition result based on the first neural network from an intermediate feature map computed by applying an element-wise operation to the first feature map and the second feature map. The computing of the first feature map may include computing the first feature map corresponding to the input data based on a previous layer of a target layer included in the first neural network. The generating may include computing the recognition result from the intermediate feature map based on a next layer of the target layer included in the first neural network. The computing of the second feature map may include computing the second feature map corresponding to the input data based on a layer connected to a target layer included in the first neural network, among a plurality of layers included in the second neural network, and transmitting the second feature map to the first neural network. The complex recognition method may further include preprocessing the second feature map and transmitting the preprocessed second feature map to the first neural network. The complex recognition method may further include generati...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06K946",
+    "G06K962",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "YOO",
+      "inventor_name_first": "Byungin",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Youngsung",
+      "inventor_city": "Suwon-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KWAK",
+      "inventor_name_first": "Youngjun",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Chang Kyu",
+      "inventor_city": "Seongnam-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "NEURAL NETWORK BASED RECOGNITION APPARATUS AND METHOD OF TRAINING NEURAL NETWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 84458,
+    "optimized_size": 3666,
+    "reduction_percent": 95.66
+  }
+}

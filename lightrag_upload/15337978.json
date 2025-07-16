@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180418",
+  "publication_number": "US20180121827A1-20180503",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15337978",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Green",
+      "inventor_name_first": "Bradley Ray",
+      "inventor_city": "Snohomish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one embodiment, an embedding is determined for each entity in a set of entities that is selected from a plurality of entities. Each embedding corresponds to a point in an embedding space, which includes points corresponding to embeddings of entities. The embeddings of the entities are determined using a deep-learning model. Embeddings are determined for each entity attribute in a set of entity attributes. Each of the entity attributes in the set is of an entity-attribute type and is associated with at least one entity. The entity-attribute embeddings are refined using the deep-learning model. The embeddings of the entities in the set of entities are modified based on the entity-attribute embeddings that are associated with the respective entity to obtain updated embeddings for each entity in the set. The updated embeddings include information regarding the entity attributes that are associated with the respective entities.",
+  "filing_date": "20161028",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF PARTICULAR EMBODIMENTS <EOH>In particular embodiments, a system may use a deep-learning model to identify one or more content items that are similar to an inputted content item. The deep-learning model may be trained to map entities to embeddings in a multi-dimensional embedding space. Each embedding may correspond to coordinates of a point in the embedding space. The deep-learning model may be trained to generate embeddings of entities that incorporate attributes of the entities. Thus, differing variables (i.e., entity attributes of different types) may be represented in the same embedding space via the embeddings of entities. Embeddings of entities that incorporate entity attributes may be used to accomplish any number of suitable tasks. The embedded entities may include entities of attributes that are meaningfully compressed such that vector arithmetic (i.e., vector addition and subtraction) may be performed on the corresponding vector representations of the entities. A system may employ a search algorithm to identify one or more embeddings of entities as proximate to a point in the embedding space, where the point is determined using vector algebra. As an example and not by way of limitation, the system may identify embeddings of entities in response to a received search query that is inputted by a user at a client system. The user may input a question, and the system may translate the question to vector arithmetic. The vector arithmetic may be applied to the embedding space, and one or more entities may be identified in response to the question. The identified entities may be displayed to the user as suggestions on an interface of an application running on the client system (e.g., a messaging platform, an application associated with a social-networking system, or any other suitable application). As another example and not by way of limitation, a system may identify embeddings of entities that are complements to particular entities in the embedd...",
+  "date_published": "20180503",
+  "title": "Generating Recommendations Using a Deep-Learning Model",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06Q5000"
+  ],
+  "_processing_info": {
+    "original_size": 104878,
+    "optimized_size": 3500,
+    "reduction_percent": 96.66
+  }
+}

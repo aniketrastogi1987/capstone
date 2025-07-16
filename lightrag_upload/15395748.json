@@ -1,0 +1,60 @@
+{
+  "decision": "PENDING",
+  "application_number": "15395748",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "title": "METHOD AND SYSTEM FOR CROP RECOGNITION AND BOUNDARY DELINEATION",
+  "filing_date": "20161230",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Albrecht",
+      "inventor_name_first": "Conrad M.",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hamann",
+      "inventor_name_first": "Hendrik F.",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Klein",
+      "inventor_name_first": "Levente",
+      "inventor_city": "Tuckahoe",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lu",
+      "inventor_name_first": "Siyuan",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Marianno",
+      "inventor_name_first": "Fernando J.",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T713",
+    "G06T700",
+    "G06K946"
+  ],
+  "main_ipcr_label": "G06T713",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with an embodiment of the present invention, a computer-implemented method for determining farm boundary delineations within a target geographic area is provided. The method includes extracting data from pixels of at least one satellite image of the target geographic area, evaluating the data using a classification algorithm to generate one or more line segments between adjacent pixels, the one or more line segments being representative of a portion of a boundary delineation, connecting the one or more line segments to an adjacent line segment to form a boundary delineation defining at least one parcel of land within the target geographic area, and generating a boundary delineation map including the boundary delineation. In accordance with an embodiment of the present invention, a system for determining farm boundary delineations within a target geographic area is provided. The system includes one or more processors including memory, and one or more inputs through which data for the target geographic area is received by the system, wherein the data is extracted from pixels of at least one satellite image of the target geographic area, an analyzer to evaluate the data using a classification algorithm to generate one or more line segments between adjacent pixels, the one or more line segments being representative of a portion of a boundary delineation, and a boundary identifier to connect the one or more line segments to an adjacent line segment to form a boundary delineation defining at least one parcel of land within the target geographic area, and generate a boundary delineation map including the boundary delineation. In accordance with an embodiment of the present invention, a computer program product for determining farm boundary delineations within a target geographic area is provided. The computer program product includes a non-transitory computer readable storage medium having program instructions embodied therewith, the progra...",
+  "patent_number": "None",
+  "abstract": "A computer-implemented method for determining farm boundary delineations within a target geographic area, comprising extracting data from pixels of a satellite image of the target geographic area, evaluating the data using a classification algorithm to generate one or more line segments between adjacent pixels, the one or more line segments being representative of a portion of a boundary delineation, connecting the one or more line segments to an adjacent line segment to form a boundary delineation defining at least one parcel of land within the target geographic area, and generating a boundary delineation map including the boundary delineation.",
+  "publication_number": "US20180189954A1-20180705",
+  "_processing_info": {
+    "original_size": 80855,
+    "optimized_size": 3842,
+    "reduction_percent": 95.25
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "patent_number": "None",
+  "application_number": "15672261",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "filing_date": "20170808",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A depth detection apparatus is described which has a memory storing raw time-of-flight sensor data received from a time-of-flight sensor. The depth detection apparatus also has a trained machine learning component having been trained using training data pairs. A training data pair comprises at least one simulated raw time-of-flight sensor data value and a corresponding simulated ground truth depth value. The trained machine learning component is configured to compute in a single stage, for an item of the stored raw time-of-flight sensor data, a depth value of a surface depicted by the item, by pushing the item through the trained machine learning component.",
+  "publication_number": "US20180129973A1-20180510",
+  "summary": "<SOH> SUMMARY <EOH>The following presents a simplified summary of the disclosure in order to provide a basic understanding to the reader. This summary is not intended to identify key features or essential features of the claimed subject matter nor is it intended to be used to limit the scope of the claimed subject matter. Its sole purpose is to present a selection of concepts disclosed herein in a simplified form as a prelude to the more detailed description that is presented later. A depth detection apparatus is described which has a memory storing raw time-of-flight sensor data received from a time-of-flight sensor. The depth detection apparatus also has a trained machine learning component having been trained using training data pairs. A training data pair comprises at least one simulated raw time-of-flight sensor data value and a corresponding simulated ground truth depth value. The trained machine learning component is configured to compute in a single stage, for an item of the stored raw time-of-flight sensor data, a depth value of a surface depicted by the item, by pushing the item through the trained machine learning component. Many of the attendant features will be more readily appreciated as the same becomes better understood by reference to the following detailed description considered in connection with the accompanying drawings.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06K962",
+    "G06K920",
+    "G06T750",
+    "G01S1789"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "NOWOZIN",
+      "inventor_name_first": "Sebastian",
+      "inventor_city": "Cambridge",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "ADAM",
+      "inventor_name_first": "Amit",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "MAZOR",
+      "inventor_name_first": "Shai",
+      "inventor_city": "Binyamina",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "YAIR",
+      "inventor_name_first": "Omer",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "title": "DEPTH FROM TIME-OF-FLIGHT USING MACHINE LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 71966,
+    "optimized_size": 3027,
+    "reduction_percent": 95.79
+  }
+}

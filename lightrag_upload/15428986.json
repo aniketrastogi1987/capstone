@@ -1,0 +1,73 @@
+{
+  "patent_number": "None",
+  "application_number": "15428986",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "filing_date": "20170209",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Disclosed are a method and apparatus for monitoring a system. The method comprises: acquiring historical status index data series of a monitored system during at least one data collection period; introducing the historical status index data series into a pre-trained recommended feature extraction model to perform a matching operation, to obtain a feature extraction algorithm matched with the historical status index data series as a recommended feature extraction algorithm; determining a maximum value and a minimum value of feature values obtained by performing feature extraction on the historical status index data series according to the recommended feature extraction algorithm; determining, based on the determined maximum value and minimum value, a normal value range of feature values obtained by performing feature extraction on status index data series of the monitored system according to the recommended feature extraction algorithm; monitoring the monitored system according to the r...",
+  "publication_number": "US20180075356A1-20180315",
+  "summary": "<SOH> SUMMARY <EOH>An objective of the present application is to provide an improved method and appratus for monitoring a system, in order to solve the technical problem mentioned in the Background section. In a first aspect, the present application provides a method for monitoring a system comprising: acquiring status index data series of a monitored system during at least one data collection period, as historical status index data series; introducing the historical status index data series into a pre-trained recommended feature extraction model to perform a matching operation, to obtain a feature extraction algorithm matched with the historical status index data series as a recommended feature extraction algorithm, wherein the recommended feature extraction model characterizes a corresponding relationship between the status index data series and the obtained feature extraction algorithm; determining a maximum value and a minimum value of feature values obtained by performing feature extraction on the historical status index data series according to the recommended feature extraction algorithm; determining, based on the determined maximum value and minimum value, a normal value range of feature values obtained by performing feature extraction on status index data series of the monitored system according to the recommended feature extraction algorithm; and monitoring the monitored system according to the recommended feature extraction algorithm and the normal value range. In a second aspect, the present application provides an apparatus for monitoring a system comprising: an acquisition unit, configured to acquire status index data series, of a monitored system during at least one data collection period, as historical status index data series; a matching unit, configured to introduce the historical status index data series into a pre-trained recommended feature extraction model to perform a matching operation, to obtain a feature extraction algorithm matched with th...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Yun",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Bo",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Dong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Qu",
+      "inventor_name_first": "Xianping",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Guo",
+      "inventor_name_first": "Xuanyou",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Sun",
+      "inventor_name_first": "Yongqian",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Wan",
+      "inventor_name_first": "Yangsha",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "METHOD AND APPARATUS FOR MONITORING SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 75088,
+    "optimized_size": 4378,
+    "reduction_percent": 94.17
+  }
+}

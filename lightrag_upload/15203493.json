@@ -1,0 +1,62 @@
+{
+  "date_produced": "20171227",
+  "publication_number": "US20180012139A1-20180111",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15203493",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Schmid",
+      "inventor_name_first": "Matthew Logan",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nambiar",
+      "inventor_name_first": "Akhil",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Weinsberg",
+      "inventor_name_first": "Ehud",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xie",
+      "inventor_name_first": "Tianyu",
+      "inventor_city": "Jersey City",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Shuyang",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and non-transitory computer-readable media according to certain aspects can receive at least one message sent by a user of a social networking system to a page provided by the social networking system, where the page is associated with an entity. A training data set including a plurality of messages can be determined, and the training data set can indicate an intent classification for each of the plurality of messages. The intent classification can be indicative of an intent associated with a particular message. A machine learning model may be trained based at least in part on the training data set. A first intent classification for the at least one message can be determined, based at least in part on the machine learning model.",
+  "filing_date": "20160706",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure can include systems, methods, and non-transitory computer readable media configured to receive at least one message sent by a user of a social networking system to a page provided by the social networking system, where the page is associated with an entity. A training data set including a plurality of messages can be determined, and the training data set can indicate an intent classification for each of the plurality of messages. The intent classification can be indicative of an intent associated with a particular message. A machine learning model may be trained based at least in part on the training data set. A first intent classification for the at least one message can be determined, based at least in part on the machine learning model. In an embodiment, the machine learning model provides the first intent classification and a confidence score associated with the first intent classification. In some embodiments, the first intent classification is displayed in a user interface associated with the page when the confidence score associated with the first intent classification is greater than or equal to a threshold value. In certain embodiments, the first intent classification is associated with the at least one message when the confidence score associated with the first intent classification is greater than or equal to a threshold value. In other embodiments, the machine learning model provides one or more intent classifications for the at least one message and a confidence score associated with each of the intent classifications. In an embodiment, the first intent classification is selected from intent classifications associated with the plurality of messages included in the training data set. In some embodiments, the determining the training data set comprises performing a pattern search on one or more messages using one or more regular expressions. Each of the one or more regular expressions may be...",
+  "date_published": "20180111",
+  "title": "SYSTEMS AND METHODS FOR INTENT CLASSIFICATION OF MESSAGES IN SOCIAL NETWORKING SYSTEMS",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L1258",
+    "G06N700",
+    "H04L2908",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 90777,
+    "optimized_size": 3978,
+    "reduction_percent": 95.62
+  }
+}

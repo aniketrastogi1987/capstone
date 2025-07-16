@@ -1,0 +1,66 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15220018",
+  "date_published": "20170202",
+  "date_produced": "20170119",
+  "title": "DATA BLOCK MIGRATION",
+  "filing_date": "20160726",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jayaraman",
+      "inventor_name_first": "Vinod",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dinkar",
+      "inventor_name_first": "Abhijit",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Taylor",
+      "inventor_name_first": "Mark",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rao",
+      "inventor_name_first": "Goutham",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Root",
+      "inventor_name_first": "Michael E.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bashyam",
+      "inventor_name_first": "Murali",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The disclosure may best be understood by reference to the following description taken in conjunction with the accompanying drawings, which illustrate particular embodiments of the present invention. FIG. 1 illustrates a particular example of a system that can use the techniques and mechanisms of the present invention. FIG. 2 illustrates one example of a locker. FIG. 3A illustrates one example of adding a node. FIG. 3B illustrates one example of performing data access. FIG. 4A illustrates a particular example of a filemap. FIG. 4B illustrates a particular example of a datastore suitcase. FIG. 5 illustrates a particular example of a deduplication dictionary. FIG. 6A illustrates a particular example of a file having a single data segment. FIG. 6B illustrates a particular example of a file having multiple data segments and components. FIG. 7 illustrates a particular example of a computer system. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "9996264",
+  "abstract": "Techniques and mechanisms are provided for migrating data blocks around a cluster during node addition and node deletion. Migration requires no downtime, as a newly added node is immediately operational while the data blocks are being moved. Blockmap files and deduplication dictionaries need not be updated.",
+  "publication_number": "US20170031598A1-20170202",
+  "_processing_info": {
+    "original_size": 38936,
+    "optimized_size": 2587,
+    "reduction_percent": 93.36
+  }
+}

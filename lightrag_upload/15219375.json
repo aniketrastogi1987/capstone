@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15219375",
+  "date_published": "20170209",
+  "date_produced": "20170125",
+  "title": "INFORMATION PROCESSING METHOD, INFORMATION PROCESSING APPARATUS, AND NON-TRANSITORY COMPUTER-READABLE STORAGE MEDIUM",
+  "filing_date": "20160726",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yamamoto",
+      "inventor_name_first": "Tatsuya",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Goto",
+      "inventor_name_first": "Fumitaka",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Kunieda",
+      "inventor_name_first": "Hiroyasu",
+      "inventor_city": "Yokohama-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Chan",
+      "inventor_name_first": "Sammy",
+      "inventor_city": "Beecroft",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K900"
+  ],
+  "main_ipcr_label": "G06K900",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention has been made in consideration of the above-described problem, and enables more correct selection of an image including an important person from some image groups by considering an appearance count in the image group of a plurality of events and appearance counts in image groups of events that are some of the plurality of events. According to one aspect of the present invention, there is provided an information processing method comprising: determining an importance degree of each person who appears in an image group using an appearance count of a person who appears in the image group; and selecting an image of an output target from the image group based on the importance degree determined in the determining, wherein in the determining, the importance degree of each person who appears in a first image group and the importance degree of each person who appears in a second image group containing the first image group are determined, and in the selecting, when selecting the image of the output target from the first image group, in a case in which the importance degree of a candidate image of the output target included in the first image group, which is determined from the appearance count in the first image group, exceeds a first threshold and in a case in which the importance degree of the candidate image of the output target, which is determined from the appearance count in the second image group, exceeds a second threshold, the candidate image is selected as the output target. According to another aspect of the present invention, there is provided an information processing apparatus comprising: a determination unit configured to determine an importance degree of each person who appears in an image group using an appearance count of a person who appears in the image group; and a selection unit configured to select an image of an output target from the image group based on the importance degree determined by th...",
+  "patent_number": "None",
+  "abstract": "In an information processing method, the importance degree of each person who appears in a first image group and the importance degree of each person who appears in a second image group containing the first image group are determined, and when selecting the image of the output target from the first image group, in a case in which the importance degree of a candidate image of the output target included in the first image group, which is determined from the appearance count in the first image group, exceeds a first threshold and in a case in which the importance degree of the candidate image of the output target, which is determined from the appearance count in the second image group, exceeds a second threshold, the candidate image is selected as the output target.",
+  "publication_number": "US20170039427A1-20170209",
+  "_processing_info": {
+    "original_size": 61311,
+    "optimized_size": 3808,
+    "reduction_percent": 93.79
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170214",
+  "publication_number": "US20170061305A1-20170302",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15174389",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Xiong",
+      "inventor_name_first": "Weili",
+      "inventor_city": "Wuxi",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Yanjun",
+      "inventor_city": "Wuxi",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Xue",
+      "inventor_name_first": "Mingchen",
+      "inventor_city": "Wuxi",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The invention provides a fuzzy curve analysis based soft sensor modeling method using time difference Gaussian process regression, it is suitable for application in chemical process with time delay characteristics. This method can extract stable delay information from the historical database of process and introduce more relevant modeling data sequence to the dominant variable sequence. First of all, the method of fuzzy curve analysis (FCA) can intuitively judge the importance of the input sequence to the output sequence, estimate the time-delay parameters of process, and such offline time-delay parameter set can be utilized to restructure the modeling data. For the new input data, based on the historical variable value before a certain time, the current dominant value can be predicted by time difference Gaussian Process Regression (TDGPR) model. This method does not encounter the problem of model updating and can effectively track the drift between input and output data. Compared with...",
+  "filing_date": "20160606",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF DRAWINGS <EOH>FIG. 1 is a flow chart of online soft sensor method based on FCA-TDGPR; FIG. 2 is a schematic diagram of debutanizer process; FIG. 3 is a schematic diagram of TDGPR modeling approach; FIG. 4 contains fuzzy curve distribution diagrams of the original variables and optimal time delay variables; FIG. 5 contains scatterplots of butane concentration predictions with different j values. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170302",
+  "title": "Fuzzy curve analysis based soft sensor modeling method using time difference Gaussian process regression",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 30409,
+    "optimized_size": 2366,
+    "reduction_percent": 92.22
+  }
+}

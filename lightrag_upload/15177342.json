@@ -1,0 +1,65 @@
+{
+  "decision": "PENDING",
+  "application_number": "15177342",
+  "date_published": "20170202",
+  "date_produced": "20170119",
+  "title": "System and Methods for Storage Data Deduplication",
+  "filing_date": "20160609",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PATTERSON, III",
+      "inventor_name_first": "R. Hugo",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "REDDY",
+      "inventor_name_first": "Sazzala",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "PRABHAKARAN",
+      "inventor_name_first": "Vijayan",
+      "inventor_city": "Los Gatos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SMITH",
+      "inventor_name_first": "Garrett",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BAIRAVASUNDARAM",
+      "inventor_name_first": "Lakshmi Narayanan",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "VENKITACHALAM",
+      "inventor_name_first": "Ganesh",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "",
+  "patent_number": "None",
+  "abstract": "Data in a storage system is deduplicated after receiving from at least one writing entity requests for a plurality of write operations for a corresponding plurality of data blocks in a storage object. The received blocks are buffered and sorted in order and a sequence of clumps is created from the buffered blocks, where each clump comprises a grouping of at least one of the sorted, buffered blocks. A boundary is determined between at least one pair of clumps based at least in part on the content of at least one of the buffered blocks, and it is then determined whether at least one of the clumps is a duplicate of a previously stored clump.",
+  "publication_number": "US20170031994A1-20170202",
+  "_processing_info": {
+    "original_size": 62715,
+    "optimized_size": 1963,
+    "reduction_percent": 96.87
+  }
+}

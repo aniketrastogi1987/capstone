@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193393A1-20170706",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "14987067",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Contractor",
+      "inventor_name_first": "Danish",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Mohania",
+      "inventor_name_first": "Mukesh K.",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Rajput",
+      "inventor_name_first": "Nitendra",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Sindhgatta",
+      "inventor_name_first": "Renuka R.",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "Methods, systems, and computer program products for automated knowledge graph creation are provided herein. A computer-implemented method includes generating an initial knowledge graph based on analysis of a learning curriculum, wherein each node in the graph represents a concept to be learned by a user, and each edge in the graph represents a pre-requisite relationship between two or more of the concepts; labelling multiple documents related to the learning curriculum by annotating learning instructions and learning concepts within the documents; augmenting the graph with one or more additional edges based on the labelled documents, thereby creating an augmented knowledge graph with (i) augmented pre-requisite relationships between the concepts represented in the initial knowledge graph and (ii) one or more additional pre-requisite relationships between two or more of the concepts not represented in the initial knowledge graph; and outputting the augmented knowledge graph for implemen...",
+  "filing_date": "20160104",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one embodiment of the present invention, techniques for automated knowledge graph creation are provided. An exemplary computer-implemented method can include steps of generating an initial knowledge graph based on analysis of at least one input learning curriculum, wherein each node in the initial knowledge graph represents a concept to be learned by a user, and wherein each edge in the initial knowledge graph represents a pre-requisite relationship between two or more of the concepts. The method also includes labelling multiple documents related to the at least one input learning curriculum, wherein said labelling comprises annotating one or more learning instructions and one or more learning concepts within the multiple documents. Further, the method also includes augmenting the initial knowledge graph with one or more additional edges based on the labelled documents, thereby creating an augmented knowledge graph with (i) augmented pre-requisite relationships between the two or more concepts represented in the initial knowledge graph and (ii) one or more additional pre-requisite relationships between two or more of the concepts not represented in the initial knowledge graph. Additionally, the method includes outputting the augmented knowledge graph to at least one of (i) a display, (ii) a user interface, and (iii) a user for implementation in a learning context. In another embodiment of the invention, an exemplary computer-implemented method can include capturing multiple learning instructions that are (i) derived from the at least one input learning curriculum and (ii) pertaining to the concepts in the initial knowledge graph, and extracting one or more keywords from each of the multiple learning instructions. Such a method can also include leveraging multiple knowledge sources to generate one or more expansions of each of the one or more extracted keywords, and adding one or more additional edges representing one or more additional pre-requ...",
+  "date_published": "20170706",
+  "title": "Automated Knowledge Graph Creation",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 56971,
+    "optimized_size": 3989,
+    "reduction_percent": 93.0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "date_produced": "20170214",
+  "publication_number": "US20170061331A1-20170302",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15350061",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Steinberg",
+      "inventor_name_first": "Dan",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cardell",
+      "inventor_name_first": "Nicholas Scott",
+      "inventor_city": "Pullman",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods and systems for automatically identifying and selecting preferred classification and regression trees are disclosed. Embodiments of the disclosed invention may be used to identify a specific decision tree or group of preferred trees that are predictively consistent across train and test samples evaluated against at least one node-specific constraint imposed by the decision-maker, while also having high predictive performance accuracy. Specifically, for a tree to be identified as preferred by embodiments of the disclosed invention, the train and test samples when evaluated node-by-node must agree on at least one key measure of predictive consistency. In addition to this node-by-node criterion, the decision-maker may adjust selection constraints to permit selection of a tree having a small number of node-by-node consistency disagreements, but with high overall tree predictive performance accuracy.",
+  "filing_date": "20161113",
+  "patent_number": "9760656",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The following presents a simplified summary of methods, apparatus and systems associated with automatic selection of preferential-sized trees in accordance with the present application. This summary is not an extensive overview and is not intended to identify key or critical elements of the methods, apparatus and/or systems or to delineate the scope of the methods, apparatus and systems. It conceptually identifies the methods, apparatus and systems in a simplified form as a prelude to the more detailed description that is presented later. According to one aspect of the present application, a computer-implemented method is disclosed for automatically selecting a preferred tree among a plurality of trees. The method includes the steps of accessing a stored data table comprising a plurality of records and a plurality of columns and then identifying a training set of records and a test set of records within the data table records. The method also includes the step of analyzing the training set to obtain a collection of at least one fitted tree. Each tree is made up of at least one node, and at least one node of each tree is a terminal node. The method further includes the steps of determining the training set records associated with each node of each tree; determining the test set records associated with each node of each tree; and determining an agreement statistic and a rank match statistic associated with each node of each tree. In addition, the method includes the steps of analyzing the agreement statistic and the rank match statistic for each node of each tree and identifying at least one preferred tree based on the step of analyzing. According to a second aspect of the present application, a system is disclosed for implementing the aforementioned method steps. For optimal tree selection, prior art methods either focus on overall tree performance, whether measured by internal or test-based methods, or on node classification accur...",
+  "date_published": "20170302",
+  "title": "Methods and systems for automatic selection of classification and regression trees having preferred consistency and accuracy",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502",
+    "G06Q2040",
+    "G06F1730",
+    "G06Q3002"
+  ],
+  "_processing_info": {
+    "original_size": 79881,
+    "optimized_size": 3736,
+    "reduction_percent": 95.32
+  }
+}

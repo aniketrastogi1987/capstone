@@ -1,0 +1,52 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "14987002",
+  "date_published": "20170706",
+  "date_produced": "20170621",
+  "title": "SECURE, TARGETED, CUSTOMIZABLE DATA REMOVAL",
+  "filing_date": "20160104",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rabasco",
+      "inventor_name_first": "Ralph A.",
+      "inventor_city": "LaGrange",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mullin",
+      "inventor_name_first": "John P.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Trapani",
+      "inventor_name_first": "Neil A.",
+      "inventor_city": "Highland",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Meaney",
+      "inventor_name_first": "Patrick J.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2160",
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F2160",
+  "summary": "<SOH> SUMMARY <EOH>The invention has been developed in response to the present state of the art and, in particular, in response to the problems and needs in the art that have not yet been fully solved by currently available systems and methods. Accordingly, the invention has been developed to provide systems and methods to securely remove data from storage systems. The features and advantages of the invention will become more fully apparent from the following description and appended claims, or may be learned by practice of the invention as set forth hereinafter. Consistent with the foregoing, a method for securely removing data from a storage system is disclosed herein. In one embodiment, such a method includes receiving, by a storage system, instructions to erase logical units from the storage system. In response to receiving the instructions, the storage system maps the logical units to physical extents on the storage system. The storage system then initiates, using at least one of hardware and software embedded in the storage system, a secure data removal process that securely erases data from the physical extents by overwriting the data thereon, while leaving intact data stored on other physical extents of the storage system. The storage system is configured to process I/O to the other physical extents during execution of the secure data removal process. A corresponding system and computer program product are also disclosed and claimed herein.",
+  "patent_number": "9971899",
+  "abstract": "A method for securely removing data from a storage system is disclosed. In one embodiment, such a method includes receiving, by a storage system, instructions to erase logical units from the storage system. In response to receiving the instructions, the storage system maps the logical units to physical extents on the storage system. The storage system then initiates, using at least one of hardware and software embedded in the storage system, a secure data removal process that securely erases data from the physical extents by overwriting the data thereon, while leaving intact data stored on other physical extents of the storage system. The storage system is configured to process I/O to the other physical extents during execution of the secure data removal process. A corresponding system and computer program product are also disclosed.",
+  "publication_number": "US20170193232A1-20170706",
+  "_processing_info": {
+    "original_size": 43622,
+    "optimized_size": 3318,
+    "reduction_percent": 92.39
+  }
+}

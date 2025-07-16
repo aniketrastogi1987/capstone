@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170412",
+  "publication_number": "US20170116540A1-20170427",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15332931",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KERKHOVE",
+      "inventor_name_first": "Colas",
+      "inventor_city": "Paris",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "DUREAU",
+      "inventor_name_first": "Joseph",
+      "inventor_city": "Clichy",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "Provided is a method for triggering an action on a mobile device of a user. In one aspect, the method includes determining a current sub-period using the current time and determining at least one sub-region of destination amongst sub-regions of the geographical classification according to probabilities of departure of the user, from the current sub-region, to each sub-region of the geographical classification, for each sub-period of the time classification, and according to the current sub-period. The method may also involve obtaining a list of activities related to the user, determining at least one predicted activity according to probabilities, for each activity of the list of activities, that the user will engage in said activity, in the at least one sub-region of destination, for the sub-period corresponding to a starting time of said activity and triggering at least one action according to the at least one predicted activity.",
+  "filing_date": "20161024",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF CERTAIN INVENTIVE ASPECTS <EOH>It is therefore still desirable to provide a capability for predicting activities of a user of a mobile device, in real time, based notably on current and past geolocalization data, and triggering actions according to said predicted activities. To that end, according to a first aspect, the described technology concerns a method for triggering an action, according to a current time and a current geographical location of a mobile device of a user. The method comprises the following steps: obtaining a geographical classification defining geographical regions; each geographical region being further subdivided into sub-regions; determining a current sub-region, amongst the sub-regions of the geographical classification, using the current geographical position; obtaining a time classification defining time periods; each time period being further subdivided into sub-periods; determining a current sub-period, amongst the sub-periods of the time classification, using the current time; determining at least one sub-region of destination amongst sub-regions of the geographical classification according to probabilities of departure of the user, from the current sub-region, to each sub-region of the geographical classification, for each sub-period of the time classification, and according to the current sub-period; obtaining a list of activities related to the user; determining at least one predicted activity according to probabilities, for each activity of the list of activities, that the user will engaged in said activity, in the at least one sub-region of destination, for each sub-period of the time classification, and according to the current sub-period; triggering at least one action according to the at least one predicted activity. The sub-periods can be defined according to information about activities related to the user over a past time interval. The sub-periods can be defined according to information about locations and mo...",
+  "date_published": "20170427",
+  "title": "METHOD FOR TRIGGERING AN ACTION ON A MOBILE DEVICE OF A USER",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730",
+    "G01C2134"
+  ],
+  "_processing_info": {
+    "original_size": 69666,
+    "optimized_size": 3654,
+    "reduction_percent": 94.75
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15579580",
+  "date_published": "20180621",
+  "date_produced": "20180608",
+  "filing_date": "20171204",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A dynamical physical system of particles represented by input data representing the phase space state of the particles over time is characterised by deriving a feature vector in respect of each particle comprising plural metrics that each describe a change in the phase space state of the particle over time. A classification of particles into plural classes is performed by applying a machine learning technique that operates on the feature vectors of the particles, and outputting classification data representing the classification.",
+  "publication_number": "US20180174073A1-20180621",
+  "summary": "<SOH> SUMMARY <EOH>The present invention is concerned with methods that allow such characterisation of a dynamical physical system in a useful manner. According to the present invention, there is provided a method of characterising a dynamical physical system of particles represented by input data representing the phase space state of the particles over time, the method comprising: deriving from the input data a feature vector in respect of each particle comprising plural metrics that each describe a change in the phase space state of the particle over time; and performing classification of particles into plural classes by applying a machine learning technique that operates on the feature vectors of the particles, and outputting classification data representing the classification. Thus, the present invention makes use of classification using a machine learning technique. Specifically, this is done on a particle basis, that is to classify the particles into plural classes. This effectively uses the particles as a proxy, or a conduit, for characterising the dynamical physical system. The classes into which the particles are classified may correspond to different types of dynamical process acting in the dynamical physical system. In that case, the method provides characterisation of the dynamical processes acting in the dynamical physical system, which may provide more information than trying to investigate the dynamical processes per se. Further power is given to the classification by the design of the feature vector on which the machine learning technique operates. In particular, feature vectors in respect of each particle are derived from input data representing the phase space state of the particles over time, and comprises plural metrics that each describe a change in the phase space state of the particle over time. Various different metrics may be used, as described in more detail below, but they may for example, be metrics that describe motion of the particle, m...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06K962"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Levy",
+      "inventor_name_first": "Matthew Chase",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "CHARACTERISATION OF DYNAMICAL PHYSICAL SYSTEMS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 51607,
+    "optimized_size": 3092,
+    "reduction_percent": 94.01
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286828A1-20171005",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15083683",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Smith",
+      "inventor_name_first": "James Edward",
+      "inventor_city": "Missoula",
+      "inventor_state": "MT",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A spiking neural network in which communication and computation is performed on data represented as points in actual time. Such neural networks provide new ways of performing computation in human-engineered computing systems that employ the same basic paradigm as the mammalian neocortex. Information is encoded based on the relative timing of individual voltage spikes produced, consumed, and computed upon by groups of neurons. Component and interconnection delays are an integral part of the computation process. Multi-connection paths between pairs of neurons are modeled as a single compound path. Multi-layer networks are trained from the input layer proceeding one layer at a time to the output layer. Training involves a computation that is local to each synapse, and synaptic weights are determined by an averaging method. The action of inhibitory neurons is modeled as a bulk process, rather than with individual neurons.",
+  "filing_date": "20160329",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In the claimed invention, it is assumed that information is encoded based on the relative timing of individual voltage spikes produced, consumed, and computed upon by groups of model neurons. Such a group of neurons acting in concert is referred to as a column. Information is encoded as spike timing using a model of actual time, measured as small, discrete time divisions. The use of actual time departs significantly from the way that traditional neural networks operate, and it departs significantly from virtually every human-engineered method of performing computation. These conventional human-engineered computing methods use simple time abstractions (clock cycles and algorithmic steps, for example) in such a way that the results are independent of timing delays of the physical components and interconnections that actually implement the computational method. In the spiking neural networks that are the subject of the claimed invention, component and interconnection delays are an integral part of the computation process. The results of a computation, in whole or in part, are determined by the time and delays required to perform a computation; this is the complete opposite of conventional computing methods, both in conventional artificial neural networks and other types of computing methods, wherein the results are independent of timing delays in performing the computation. Conventional artificial neural networks, which contain multiple layers of model neurons, and which form the basis for most machine learning methods, are typically trained by a very time-consuming method involving gradient descent and back propagation (from output(s) to inputs). The same training set is applied many times, with the weights gradually converging to their final values. The multi-layer spiking neural networks that are the subject of the claimed invention are trained from the input layer proceeding one layer at a time to the output layer. Training invol...",
+  "date_published": "20171005",
+  "title": "Cognitive Neural Architecture and Associated Neural Network Implementations",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 106122,
+    "optimized_size": 3510,
+    "reduction_percent": 96.69
+  }
+}

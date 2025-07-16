@@ -1,0 +1,61 @@
+{
+  "patent_number": "None",
+  "application_number": "15590677",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "filing_date": "20170509",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A method and a system are disclosed for determining a weight allocation in a group comprising a large plurality of items using an optimization oracle, the method comprising obtaining an indication of a plurality of data for each item of a large plurality of items; generating a covariance matrix for the plurality of data; generating a hierarchical tree structure having a plurality of clusters, each cluster having a corresponding item associated therewith, the generating comprising until there is one item associated per cluster of the hierarchical tree structure, recursively formulating an optimization problem to divide a given set of items into two different clusters, translating the formulated optimization problem into an unconstrained binary optimization problem, providing an indication of the unconstrained binary optimization problem to an optimization oracle, receiving an indication of at least one solution from the optimization oracle, assigning a cluster to each item of the given ...",
+  "publication_number": "US20170323206A1-20171109",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>According to a broad aspect, there is disclosed a method for determining a weight allocation in a group comprising a large plurality of items using an optimization oracle, the method comprising obtaining using a processor an indication of a plurality of data for each item of a large plurality of items; generating using the processor a covariance matrix for the plurality of data; generating a hierarchical tree structure having a plurality of clusters, each cluster having a corresponding item associated therewith, the generating comprising until there is one item associated per cluster of the hierarchical tree structure, recursively formulating an optimization problem to divide a given set of items into two different clusters using the processor, translating using the processor the formulated optimization problem into an unconstrained binary optimization problem, providing using the processor an indication of the unconstrained binary optimization problem to an optimization oracle, receiving an indication of at least one solution from the optimization oracle using the processor, using the processor assigning a cluster to each item of the given set of items using the at least one solution; using the processor, recursively determining a weight allocation for each item of the plurality of items using the covariance matrix and the generated hierarchical tree structure; and providing using the processor an indication of the determined weight allocation for each item in the group comprising a plurality of items. According to an embodiment, the indication of a plurality of data for each item of a large plurality of items is obtained from a user interacting with the processor. According to an embodiment, the indication of a plurality of data for each item of a large plurality of items is obtained from a memory unit comprised in the processor. According to an embodiment, the indication of a plurality of data for each item of a large plu...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730",
+    "G06F1730",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "ALIPOUR KHAYER",
+      "inventor_name_first": "Elham",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "ZARIBAFIYAN",
+      "inventor_name_first": "Arman",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "ROUNDS",
+      "inventor_name_first": "Maxwell",
+      "inventor_city": "Edmonds",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LOPEZ DE PRADO",
+      "inventor_name_first": "Marcos",
+      "inventor_city": "Harrison",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ADOLPHS",
+      "inventor_name_first": "Clemens",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR DETERMINING A WEIGHT ALLOCATION IN A GROUP COMPRISING A LARGE PLURALITY OF ITEMS USING AN OPTIMIZATION ORACLE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 73517,
+    "optimized_size": 4260,
+    "reduction_percent": 94.21
+  }
+}

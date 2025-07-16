@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15001560",
+  "date_published": "20160818",
+  "date_produced": "20160803",
+  "title": "INFORMATION PROCESSING APPARATUS AND INSTALLATION METHOD",
+  "filing_date": "20160120",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tanaka",
+      "inventor_name_first": "Hiroyuki",
+      "inventor_city": "Fukuoka",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F9445",
+    "H04L2908"
+  ],
+  "main_ipcr_label": "G06F9445",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In view of such problems of the related art, one aspect of the present invention is directed to enabling determination of whether a program can be installed. According to one embodiment of the present invention, an information processing apparatus is provided that includes a first acquisition unit configured to acquire a data size of a program to be installed; a second acquisition unit configured to acquire an available storage capacity of a storage medium corresponding to an install location of the program; a determination unit configured to determine whether the program can be installed in the storage medium by calculating a consumption amount of storage capacity of the storage medium for storing the data size acquired by the first acquisition unit based on a smallest consumption unit of storage capacity of the storage medium, and comparing the calculated consumption amount with the available storage capacity; and an execution unit configured to install the program in the storage medium if the determination unit determines that the program can be installed in the storage medium.",
+  "patent_number": "None",
+  "abstract": "An information processing apparatus is provided that includes a first acquisition unit configured to acquire a data size of a program to be installed; a second acquisition unit configured to acquire an available storage capacity of a storage medium corresponding to an install location of the program; a determination unit configured to determine whether the program can be installed in the storage medium by calculating a consumption amount of storage capacity of the storage medium for storing the data size acquired by the first acquisition unit based on a smallest consumption unit of storage capacity of the storage medium, and comparing the calculated consumption amount with the available storage capacity; and an execution unit configured to install the program in the storage medium if the determination unit determines that the program can be installed in the storage medium.",
+  "publication_number": "US20160239286A1-20160818",
+  "_processing_info": {
+    "original_size": 49514,
+    "optimized_size": 2572,
+    "reduction_percent": 94.81
+  }
+}

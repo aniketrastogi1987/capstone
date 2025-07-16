@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15415159",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20170125",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Provided is a method of detecting an abnormal event based on statistics, the method including determining types of events occurring in event occurrence devices based on event information received from the event occurrence devices, grouping events in unverifiable types into at least one event group based on a similarity between the event, and detecting an abnormal event based on an occurring frequency of the event group or an occurring frequency of events corresponding to the same type.",
+  "publication_number": "US20180181871A1-20180628",
+  "summary": "<SOH> SUMMARY <EOH>An aspect provides a method and apparatus for grouping events in unverifiable types into an event group based on a similarity between items of event information, measuring an occurring frequency of the event group, and detecting an occurrence of an abnormal event related to the corresponding events. According to an aspect, there is provided a method of detecting an abnormal event, the method including determining types of events occurring in event occurrence devices based on event information received from the event occurrence devices, grouping events in unverifiable types into at least one event group based on a similarity between the event, and detecting an abnormal event based on an occurring frequency of the event group or an occurring frequency of events corresponding to the same type. The determining may include separating the event information in a character string type into a plurality of terms configuring the event information, searching the separated terms for a term related to an event information type, and determining a type of an event based on the found term. The determining may include verifying that the type of the event corresponding to the event information is not to be determined when the term related to the event information type is not found. The grouping may include determining a similarity between terms separated from each item of the event information, and grouping event information corresponding to a similarity between the terms greater than a threshold. The method may further include measuring an event occurring frequency of each of the event occurrence devices based on the event information received from the event occurrence devices, and detecting the abnormal event based on the event occurring frequency of each of the event occurrence devices. The detecting may include determining a first confidence interval using a plurality of items of event information receives most recently based on the event information and determi...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chae",
+      "inventor_name_first": "Moon Chang",
+      "inventor_city": "Gunpo-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "APPARATUS AND METHOD FOR DETECTING ABNORMAL EVENT USING STATISTICS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 52949,
+    "optimized_size": 3055,
+    "reduction_percent": 94.23
+  }
+}

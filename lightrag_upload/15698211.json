@@ -1,0 +1,58 @@
+{
+  "patent_number": "None",
+  "application_number": "15698211",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170907",
+  "main_ipcr_label": "G06N304",
+  "abstract": "The present invention discloses a system for finding shortest pathways between neurons in a neural network, including a neural space generating module for establishing a three dimensional or higher dimensional neural space database (which may be neuron image database), wherein the three dimensional or higher dimensional neural space database includes a plurality of neurons distributed therein. A neurons connection determining module is used for determined whether there is a connection between each of the plurality of neurons in the three dimensional or higher dimensional neural space database and the others of the plurality of neurons in the three dimensional or higher dimensional neural space database. A neural shortest pathway tables generating module is used for calculating a shortest pathway table of all of a plurality of connected neurons and then stored in a storage device.",
+  "publication_number": "US20170372195A1-20171228",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>One object of the present invention is to solve the problem of how to find the shortest pathway between every two neurons from the neuron images in three dimensional or higher dimensional neural networks. To achieve the aforementioned object, the present invention provides a method for finding shortest pathways between neurons, with irregular shapes and complicated terminal branches, in a neural network. The method includes the following steps: establishing a neuron image database from three dimensional or higher dimensional neuron images by a processing device in a storage device, where the neuron images include a plurality of neurons stored within. Then, whether there is a connection between each of neurons and the other neurons in the three dimensional or higher dimensional neuron image database is determined by the processing device. Subsequently a shortest pathway table of all of the connected neurons is calculated via an All-pairs Shortest Paths algorithm and is temporarily or permanently stored in the storage device. Therefore, as long as any two connected neurons are selected from the three dimensional or higher dimensional neuron image database, the shortest pathway between the two neurons can be obtained in real-time by looking up the aforementioned shortest pathway table in the storage device. In some embodiments of the present invention, the method described above may be performed by a local processing device. Alternatively, in other some embodiments of the present invention, the method described above may be performed by a processing device in a remote server which is connected to network. In the aforementioned embodiments, the three dimensional or higher dimensional neural space database may be constructed from a plurality of unit voxels in the multi-dimensional neuron image space. Furthermore, the determining step mentioned above includes establishing a connection matrix (CM) between the plurality of neurons from th...",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chiang",
+      "inventor_name_first": "Ann-Shyn",
+      "inventor_city": "Hsin Chu",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Ching-Yao",
+      "inventor_city": "Hsin Chu",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Chang",
+      "inventor_name_first": "Hsiu-Ming",
+      "inventor_city": "Hsin Chu",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Tsai",
+      "inventor_name_first": "Kuen-Long",
+      "inventor_city": "Hsin Chu",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Hsieh",
+      "inventor_name_first": "Chang-Huain",
+      "inventor_city": "Hsin Chu",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "title": "System for Finding Shortest Pathway between Neurons in A Neural Network",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 54533,
+    "optimized_size": 4034,
+    "reduction_percent": 92.6
+  }
+}

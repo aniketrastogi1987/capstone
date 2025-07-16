@@ -1,0 +1,39 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344890A1-20171130",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15166233",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Parayatham",
+      "inventor_name_first": "Arun Kumar",
+      "inventor_city": "Hyderabad",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Meduri",
+      "inventor_name_first": "Ravi Kumar",
+      "inventor_city": "Secunderabad",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "System pre-processes and computes class distribution of decision attribute and statistics for discretization of continuous attributes through use of compute buckets. System computes the variability of each of the attributes and considers only the non-zero variability attributes. System computes the discernibility strength of each attribute. The software system generates size 1 patterns using compute bucket and calculates if each pattern of size 1 is a reliable pattern for any class. The system calculates if reliable pattern of size 1 is a significant pattern for any class. The system generates size k patterns from size k−1 patterns checking for significance of size k patterns and refinability. The system readjusts pattern statistics for only significant patterns for size k−1 patterns. The system computes a cumulative coverage of the sorted relevant patterns of up to size k by finding out the union of records of that particular class.",
+  "filing_date": "20160526",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The software system processes through the following high level steps in order to extract reliable, significant and relevant patterns in a large dataset using a distributed algorithm across multiple systems. The system pre-processes and computes class distribution of decision attribute and statistics for discretization of continuous attributes through use of compute buckets. The system then computes the minimum class probability and minimum class frequency such that patterns should be reliable and significant based on user input and the system keeps these in shared memory. The software system discretizes the continuous attributes. The system computes the variability of each attribute and removes attributes of zero variability. The system computes the discernibility strength of each attribute. The system sorts the attributes based on descending order based on discernibility strength. The software system makes row based partitions of the data based on the number of computing buckets available and generates size 1 patterns from each record using compute bucket. The system sorts the size 1 patterns obtained from all the records and sends them to different computing buckets so that each pattern is processed at one available computing bucket. The system computes the pattern statistics for the size 1 patterns and calculates if each pattern of size 1 is a reliable pattern for any class based on the minimum class frequency and probability through the computing bucket. The system calculates if reliable pattern of size 1 is a significant pattern for any class if class probability is higher than class probability of that class in said dataset. The system calculates if patterns of size 1 is a refinable pattern for any class where at least one class has a required minimum frequency and does not have 1 as the upper end of the estimated population probability confidence interval through the computing bucket. The system calculates required minimum ...",
+  "date_published": "20171130",
+  "title": "Distributed algorithm to find reliable, significant and relevant patterns in large data sets",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 110431,
+    "optimized_size": 3719,
+    "reduction_percent": 96.63
+  }
+}

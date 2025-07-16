@@ -1,0 +1,47 @@
+{
+  "date_produced": "20161208",
+  "publication_number": "US20160371600A1-20161222",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15181876",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Svensen",
+      "inventor_name_first": "Johan Fredrik Markus",
+      "inventor_city": "Southampton",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Hardwick",
+      "inventor_name_first": "David Stephen",
+      "inventor_city": "Fareham",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Powrie",
+      "inventor_name_first": "Honor Elisabeth Georgette",
+      "inventor_city": "Southampton",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "The present disclosure relates to systems and methods for monitoring data recorded from systems over time. The techniques described herein include the ability to detect and classify system events, and to provide indicators of normal system operation and anomaly detection. The systems and methods of the present disclosure can represent events occurring in the system being monitored in such a way that the temporal characteristics of the events can be captured and utilized for detection, classification and/or anomaly detection, which can be particularly useful when dealing with complex systems and/or events.",
+  "filing_date": "20160614",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE INVENTION <EOH>Aspects and advantages of embodiments of the present disclosure will be set forth in part in the following description, or may be learned from the description, or may be learned through practice of the embodiments. One example aspect of the present disclosure is directed to a condition monitoring system to monitor conditions at an oil and gas exploration or extraction system that includes one or more blowout preventers. The condition monitoring system includes one or more hydrophones that receive acoustic signals caused by operation of the one or more blowout preventers and generate a set of acoustic data indicative of operational conditions at the one or more blowout preventers based on the acoustic signals. The condition monitoring system includes a verification and anomaly detection component implemented by one or more processors. The verification and anomaly detection component uses a Mixture of Hidden Markov Models to at least one of: verify the operation of the one or more blowout preventers based on the acoustic data; and determine that an anomaly has occurred at the one or more blowout preventers based on the acoustic data. Another example aspect of the present disclosure is directed to a computer-implemented method to perform condition monitoring for a system. The method includes obtaining, by one or more computing devices, a set of system data indicative of operational conditions at one or more components of the system. The method includes inputting, by the one or more computing devices, at least a portion of the set of system data into a Mixture of Hidden Markov Models. The method includes receiving, by the one or more computing devices, at least one classification and at least one fitness score as an output of the Mixture of Hidden Markov Models. The method includes determining, by the one or more computing devices based at least in part on the at least one classification and the at least one fitness score, a...",
+  "date_published": "20161222",
+  "title": "SYSTEMS AND METHODS FOR VERIFICATION AND ANOMALY DETECTION USING A MIXTURE OF HIDDEN MARKOV MODELS",
+  "ipcr_labels": [
+    "G06N700",
+    "E21B3306",
+    "E21B4700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 67616,
+    "optimized_size": 3568,
+    "reduction_percent": 94.72
+  }
+}

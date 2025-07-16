@@ -1,0 +1,51 @@
+{
+  "date_produced": "20170823",
+  "publication_number": "US20170255878A1-20170907",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15214188",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fu",
+      "inventor_name_first": "Yao",
+      "inventor_city": "Castro Valley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Glendenning",
+      "inventor_name_first": "Paul",
+      "inventor_city": "Woodside",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tracy, II",
+      "inventor_name_first": "Tommy",
+      "inventor_city": "Charlottesville",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jonas",
+      "inventor_name_first": "Eric",
+      "inventor_city": "San Franciso",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An apparatus includes a processing resource configured to receive a feature vector of a data stream. The feature vector includes a set of feature values. The processing resource is further configured to calculate a set of feature labels based at least in part on the set of feature values to generate a label vector, provide the label vector to another processing resource, and to receive a plurality of classifications corresponding to each feature label of the label vector from the other processing resource. The plurality of classifications are generated based at least in part on a respective range of feature values of the set of feature values. The processing resource is configured to then combine the plurality of classifications to generate a final classification of the data stream.",
+  "filing_date": "20160719",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF DRAWINGS <EOH>FIG. 1 illustrates a block diagram of a system including an automata processor, in accordance with an embodiment; FIG. 2 illustrates a block diagram of the automata processor of FIG. 1 , in accordance with an embodiment; FIG. 3 illustrates a block diagram of an automata processor including a memory array and a routing matrix structure, in accordance with an embodiment; FIG. 4 illustrates a block diagram of state transition elements (STEs) that may be included as part of the automata processing structure, in accordance with an embodiment; FIGS. 5-8 illustrate block diagrams of STEs and examples of identifying sequential data patterns, in accordance with an embodiment; FIG. 9 illustrates a block diagram of a three-stage execution pipeline used to classify input data for computing Random Forests, in accordance with an embodiment; FIG. 10 illustrates a diagram of a three-stage execution pipeline including feature vectors and an automata processor used for classifying the feature vectors, in accordance with an embodiment; FIG. 11 illustrates another diagram of a chain of feature vectors and classifications using one or more decision trees in a Random Forest, in accordance with an embodiment; FIG. 12 illustrates a diagram of a reordered chain of feature vectors and classifications using one or more decision trees in a Random Forest, in accordance with an embodiment; FIG. 13 illustrates a diagram of a complete chain of feature vectors and classifications using one or more decision trees in a Random Forest, in accordance with an embodiment; FIG. 14 illustrates a diagram of STEs of the automata processor used to implement a Random Forest model, in accordance with an embodiment; and FIG. 15 illustrates a diagram of a space-efficient implementation of the Random Forest model of FIG. 14 , in accordance with an embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170907",
+  "title": "SPACE EFFICIENT RANDOM FORESTS IMPLEMENTATION UTILIZING AUTOMATA PROCESSORS",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 64038,
+    "optimized_size": 3758,
+    "reduction_percent": 94.13
+  }
+}

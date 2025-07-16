@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170201",
+  "publication_number": "US20170046615A1-20170216",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15237048",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Schupp-Omid",
+      "inventor_name_first": "Daniel Riley",
+      "inventor_city": "Iowa City",
+      "inventor_state": "IA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ratner",
+      "inventor_name_first": "Edward",
+      "inventor_city": "Iowa City",
+      "inventor_state": "IA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gritsenko",
+      "inventor_name_first": "Andrey",
+      "inventor_city": "Stavropol",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    }
+  ],
+  "abstract": "Systems and method for object characterization include generating a classifier that defines a decision hyperplane separating a first classification region of a virtual feature space from a second classification region of the virtual feature space. Input information is provided to the classifier, and a number of classifications are received from the classifier. A distribution of the classifications is determined and used to generate a prediction.",
+  "filing_date": "20160815",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the invention involve characterizing the output of a classifier using a histogram, and applying classical Bayesian decision theory on the result to build a statistically-backed prediction. Embodiments of this approach may facilitate improved accuracy and/or computational efficiency. For example, embodiments of the technique may be implemented in a modular manner, in that models may be trained independently, and added to the boosting stage ad-hoc, thereby potentially improving accuracy on the fly. As another example, by implementing a model that automatically provides a statistical model of a number of classifier outputs, computational efficiencies may be realized due, at least in part, to avoiding complex schemes for using cascaded classifiers to combine together the decisions from disparate features sets. Embodiments of the techniques and systems described herein may be applicable to any number of different situations in which classifiers are used, and although pattern recognition is one example, and any other situation in which one or more classifiers are utilized is contemplated herein. In an Example 1, a method of object categorization comprises: generating at least one classifier, the at least one classifier defining at least one decision hyperplane that separates a first classification region of a virtual feature space from a second classification region of the virtual feature space; providing input information to the at least one classifier; receiving, from the at least one classifier, a plurality classifications corresponding to the input information; determining a distribution of the plurality of classifications; and generating a prediction based on the distribution. In an Example 2, the method of Example 1, wherein determining a distribution of the plurality of classifications comprises characterizing the plurality of classifications using a histogram. In an Example 3, the method of Example 2, wherein characterizing the pl...",
+  "date_published": "20170216",
+  "title": "OBJECT CATEGORIZATION USING STATISTICALLY-MODELED CLASSIFIER OUTPUTS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 60303,
+    "optimized_size": 3323,
+    "reduction_percent": 94.49
+  }
+}

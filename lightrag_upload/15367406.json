@@ -1,0 +1,67 @@
+{
+  "date_produced": "20180523",
+  "publication_number": "US20180157978A1-20180607",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15367406",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Buda",
+      "inventor_name_first": "Teodora S.",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Delaney",
+      "inventor_name_first": "John V.",
+      "inventor_city": "Kildalkey",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Lerko",
+      "inventor_name_first": "Dmitri",
+      "inventor_city": "Balbriggan",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Mariani",
+      "inventor_name_first": "Francesco",
+      "inventor_city": "Mulhuddart",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "O'Grady",
+      "inventor_name_first": "David",
+      "inventor_city": "Maynooth",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Zolotow",
+      "inventor_name_first": "Clea A.",
+      "inventor_city": "Key West",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A mechanism is provided for determining a predicted performance of a database com. A first model for a database is determined using machine learning and training data based on monitoring the database operating in a production environment. A second model for the database is determined by combining the first model and a knee of curve formula for the database. The second model is stored for use in determining the predicted performance of the database in response to a database query.",
+  "filing_date": "20161202",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the present disclosure, a method is provided. The method determines a first model for a database. The first model is determined using machine learning and training data based on monitoring the database operating in a production environment. The method further determines a second model for the database. The second model combines the first model and a knee of curve formula for the database. The method stores the second model for use in determining a predicted performance of the database in response to a database query. Thus, the method determines a model for the database, based on database statistics and performance in the production environment, which can be used to predict performance issues that may arise with new queries. By combining machine learning modeling with forecasting using the knee of curve formula, CPU saturation may be more accurately and/or reliably predicted. According to example implementations of the method of the present disclosure, the training data comprises values of predefined model input features and model output features. The values of the model input and output features may be determined by monitoring the database when executing database queries in the production environment. Example model input features include one or more of: cardinality; selectivity; column indexing; column count for columns accessed; row count for rows returned; table density; subquery count; selection predicates count; where clause predicates count; join predicates count; sort columns count, and aggregation columns count. Example model output features include one or more of: CPU utilization, and whether CPU saturation is reached. By using model input features that impact on CPU utilization, such as the selectivity of a column index and the number of rows accessed, for a database query and by providing monitored values of the input features to the first model, it is possible to more accurately and/or reliably predict database...",
+  "date_published": "20180607",
+  "title": "Predicting Performance of Database Queries",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 87950,
+    "optimized_size": 3770,
+    "reduction_percent": 95.71
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "date_produced": "20171219",
+  "publication_number": "US20180005123A1-20180104",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15200665",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lagos",
+      "inventor_name_first": "Nikolaos",
+      "inventor_city": "Grenoble",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Vion-Dury",
+      "inventor_name_first": "Jean-Yves",
+      "inventor_city": "Biviers",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Mos",
+      "inventor_name_first": "Adrian Corneliu",
+      "inventor_city": "Meylan",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "abstract": "A method for semantic representation supporting multiple formalisms includes providing a business modeling space (BMS) and a corresponding semantic modeling space (SMS). An inter-layer connection bridge (ILCB) automatically performs transformations between at least one domain specific layer (DSL) and a BPMN layer within the BMS and stores a respective link generated from each transformation in a connect layer of an ILCB layer. A semantically compatible mapping is defined between the BMS and the SMS for each of the at least one DSL, BPMN layer, ILCB layer, and connect layer. Each of the at least one DSL, BPMN layer, and ILCB layer are transformed from the BMS into a corresponding context in the SMS based on the semantically compatible mappings. The connect layer is encoded as at least one explicit bridge rule which connects the corresponding contexts within the SMS.",
+  "filing_date": "20160701",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION <EOH>In accordance with one aspect of the exemplary embodiment, a method for semantic representation supporting multiple formalisms includes providing, in memory, a business modeling space (BMS) and a corresponding semantic modeling space (SMS). Within the BMS, data is automatically transformed between at least one domain specific layer (DSL) and a Business Process Model and Notation (BPMN) layer with an inter-layer connection bridge (ILCB). A respective link generated from each transformation is stored in a connect layer of an ILCB layer. A semantically compatible mapping is defined between the BMS and the SMS for each of the at least one DSL, BPMN layer, ILCB layer, and connect layer. Each of the at least one DSL, BPMN layer, and ILCB layer is transformed from the BMS into a corresponding context in the SMS based on the semantically compatible mappings. Within the SMS, the connect layer is encoded as at least one explicit bridge rule which connects the corresponding contexts of the at least one DSL, BPMN layer, and ILCB layer. At least one of the automatic transforming between the at least one DSL and the BPMN layer, transforming into the corresponding context in the SMS, and encoding the connect layer may be performed with a processor. In accordance with another aspect of the exemplary embodiment, a system for semantic representation supporting multiple formalisms is provided. The system includes a business modeling space (BMS) and a corresponding semantic modeling space (SMS). Within the BMS are at least one domain specific layer (DSL), a Business Process Model and Notation (BPMN) layer, and an inter-layer connection bridge (ILCB) having an associated ILCB layer which automatically transforms at least one of: the at least one DSL to the BPMN layer, and the BPMN layer to the at least one DSL and stores a set of links generated from each transformation in a connect layer of the ILCB layer. A semantic representation component (a) receives a ...",
+  "date_published": "20180104",
+  "title": "COMBINING SEMANTIC AND BUSINESS PROCESS MODELING IN A MULTI-LAYER FRAMEWORK",
+  "ipcr_labels": [
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 96618,
+    "optimized_size": 3736,
+    "reduction_percent": 96.13
+  }
+}

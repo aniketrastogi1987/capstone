@@ -1,0 +1,70 @@
+{
+  "patent_number": "None",
+  "application_number": "15631950",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170623",
+  "main_ipcr_label": "G06N700",
+  "abstract": "In some examples, a system includes an article of personal protective equipment (PPE) comprising one or more sensors, the one or more sensors configured to generate usage data that is indicative of an operation of the article of PPE; and at least one computing device comprising a memory and one or more computer processors that: receive the usage data that is indicative of the operation of the article of PPE; apply the usage data to a safety learning model that predicts a likelihood of an occurrence of a safety event associated with the article of PPE based at least in part on previously generated usage data that corresponds to the safety event; and perform, based at least in part on predicting the likelihood of the occurrence of the safety event, at least one operation.",
+  "publication_number": "US20170372216A1-20171228",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure provides a system for capturing usage data from PPE that is indicative of the operation of such PPE. Using the usage data, the system may apply such data to a safety learning model that predicts a likelihood of an occurrence of a safety event associated with the article of PPE based at least in part on previously generated usage data that corresponds to the safety event. For instance, a worker may wear or otherwise be equipped with one or more articles of PPE that generate usage data. Examples of such usage data may include hazards detected by the PPE, operating metrics of the PPE (e.g., filter use, blower rate, fall-protection self-retracting line extension and retraction, sound hazards, and the like), worker metrics (e.g., worker motion, worker temperature, worker hear rate, and the like), and work environment metrics, to name only a few examples. The system of this disclosure may collect usage data and apply such data to a safety learning model. The safety learning model may provide a likelihood of a safety event based on a set of usage data. In some examples, the safety learning model is trained with a training set of training instances, where in each training instance sets of usage data are associated with certain safety events. The safety learning model may be modified based on the training instances to more accurately predict a likelihood for a particular safety event in response to subsequent usage data applied to the safety learning model. In this way, as the system receives usage data from articles of PPE in use by workers in a worker environment, the system may more quickly and accurately identify safety events that may affect the worker's safety, the operation of the articles of PPE, and/or the condition of the work environment to name only a few examples. Rather than evaluating the cause of a safety event after the safety event has occurred (and potential harm to the worker has occurred), the safety learning mod...",
+  "ipcr_labels": [
+    "G06N700",
+    "A61F1114",
+    "A41D1312",
+    "A61F906",
+    "G06N9900",
+    "A62B700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "AWISZUS",
+      "inventor_name_first": "Steven T.",
+      "inventor_city": "Woodbury",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KANUKURTHY",
+      "inventor_name_first": "Kiran S.",
+      "inventor_city": "Cottage Grove",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LOBNER",
+      "inventor_name_first": "Eric C.",
+      "inventor_city": "Woodbury",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "QUINTERO",
+      "inventor_name_first": "Robert J.",
+      "inventor_city": "St. Paul",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "JOHNSON",
+      "inventor_name_first": "Micayla A.",
+      "inventor_city": "Farmington",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FILLOUX",
+      "inventor_name_first": "Madeleine",
+      "inventor_city": "St. Paul",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "PERSONAL PROTECTIVE EQUIPMENT SYSTEM HAVING ANALYTICS ENGINE WITH INTEGRATED MONITORING, ALERTING, AND PREDICTIVE SAFETY EVENT AVOIDANCE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 236712,
+    "optimized_size": 4224,
+    "reduction_percent": 98.22
+  }
+}

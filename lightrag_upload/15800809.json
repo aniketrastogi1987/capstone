@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15800809",
+  "date_published": "20180510",
+  "date_produced": "20180425",
+  "filing_date": "20171101",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "In a host device, a method for performing an anomaly analysis of a computer environment includes applying a learned behavior function to a data training set and to a set of data elements received from at least one computer environment resource to define at least one learned behavior boundary relative to at least one cluster of data elements of the data training set; applying a sensitivity function to the at least one cluster to define a sensitivity boundary relative to at least one learned behavior boundary, the sensitivity boundary related to a variance associated with the at least one cluster and to a mean value of the at least one cluster; and identifying a data element of the set of data elements as an anomalous data element when the data element of the set of data falls outside of the sensitivity boundary.",
+  "publication_number": "US20180129975A1-20180510",
+  "summary": "<SOH> SUMMARY <EOH>As provided above, using semi-supervised machine learning techniques, a host device can learn of acceptable behavior values for the various components of the computer infrastructure over time. Further, during an anomaly identification process, the host device can identify anomalous behavior of components of the computer infrastructure as behavior which falls outside of the set of acceptable behavior values. In certain cases, in order to limit or prevent the reporting of insignificant anomalies (e.g., certain identified anomalous behavior which falls outside of the set of behavior values), the host device can be configured to apply a calculated buffer to the set of behavior values during an anomaly detection process. The calculated buffer effectively adjusts the boundaries associated with the set of learned behavioral values. For example, in the case where the host device detects a behavior value as falling outside of the set of acceptable behavior values but within an extended buffer range boundary, the host device can identify the detected behavioral value as being a non-anomalous value. While the host device can be configured to distinguish meaningful (e.g., actual or outlier) anomalies from relatively insignificant anomalies using a static, calculated buffer, the application of conventional buffers do not allow for user input to adjust the buffer. As such, the end user, such as a systems administrator, cannot adjust the buffer value to account for variations within particular computer infrastructures. Further, a preconfigured buffer value may not be applicable to all types of behavior data identified by the host device. For example, latency data associated with a computer environment is substantially static, with minimal variance over time, while CPU utilization data can be dynamic, with relatively larger variance over time. By contrast to conventional anomalous behavior detection, embodiments of the present innovation relate to an apparatus an...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Razin",
+      "inventor_name_first": "Sergey A.",
+      "inventor_city": "Columbia",
+      "inventor_state": "SC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "To",
+      "inventor_name_first": "Yokuki",
+      "inventor_city": "Columbia",
+      "inventor_state": "SC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Marlatt",
+      "inventor_name_first": "Tracy L.",
+      "inventor_city": "Lexington",
+      "inventor_state": "SC",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "APPARATUS AND METHOD OF ADJUSTING A SENSITIVITY BUFFER OF SEMI-SUPERVISED MACHINE LEARNING PRINCIPALS FOR REMEDIATION OF ISSUES IN A COMPUTER ENVIRONMENT",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 66813,
+    "optimized_size": 3770,
+    "reduction_percent": 94.36
+  }
+}

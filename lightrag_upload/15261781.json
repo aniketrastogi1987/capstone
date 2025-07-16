@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "15261781",
+  "date_published": "20170504",
+  "date_produced": "20170419",
+  "title": "Methods And Systems For Providing Security For Page Framing",
+  "filing_date": "20160909",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gluck",
+      "inventor_name_first": "Yoel",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the following drawings like reference numbers are used to refer to like elements. Although the following figures depict various examples of the invention, the invention is not limited to the examples depicted in the figures. FIG. 1 is an illustration of a configuration to attempt clickjacking. FIG. 2 provides a conceptual illustration of framed pages. FIG. 3 is a conceptual illustration of framed pages within a browser window (or tab). FIG. 4 is a flow diagram of one embodiment of a technique to analyze framing and to employ safe frame busting utilizing a challenge request/response functionality. FIG. 5 is a flow diagram of one embodiment of a technique to analyze framing and to employ safe frame busting. FIG. 6 is a block diagram of a frame analyzing agent that may provide safe frame busting. FIG. 7 is a block diagram of one embodiment of a computing system. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "Techniques for analyzing a page to be presented by a browser running on a computing platform. The page is disabled. The page is tested to determine if the page is framed by a second page. The page is enabled if the testing indicates that the page is not framed by a second page. Each level of a hierarchy of framed pages is inspected to determine whether each level is authorized. The page is enabled if the inspecting indicates that each level of the hierarchy of framed pages is authorized.",
+  "publication_number": "US20170126722A1-20170504",
+  "_processing_info": {
+    "original_size": 42588,
+    "optimized_size": 2043,
+    "reduction_percent": 95.2
+  }
+}

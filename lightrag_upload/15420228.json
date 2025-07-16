@@ -1,0 +1,44 @@
+{
+  "patent_number": "None",
+  "application_number": "15420228",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Mechanisms are provided for generating an answer to an input question. An input question is received and a set of candidate answers is generated along with, for each candidate answer in the set of candidate answers, a corresponding selection of one or more selected evidence portions from a corpus of information providing evidence in support of the candidate answer being a correct answer for the input question. The candidate answers are ranked based on an application of a justifying passage model (JPM) to the selected evidence portions for each of the candidate answers in the set of candidate answers. The JPM identifies whether a candidate answer is justified by a selected evidence passage corresponding to the candidate answer. A candidate answer is output as the correct answer for the input question based on the ranking of the candidate answers.",
+  "publication_number": "US20170140304A1-20170518",
+  "summary": "<SOH> SUMMARY <EOH>In one illustrative embodiment, a method, in a data processing system comprising a processor and a memory configured to implement a question and answer system (QA), for generating answers to an input question is provided. The method comprises receiving, in the data processing system, the input question and generating, by the data processing system, a set of candidate answers for the input question and, for each candidate answer in the set of candidate answers, a corresponding selection of one or more selected evidence portions from a corpus of information providing evidence in support of the candidate answer being a correct answer for the input question. The method further comprises ranking, by the data processing system, the candidate answers based on an application of a justifying passage model (JPM) to the selected evidence portions for each of the candidate answers in the set of candidate answers. The JPM identifies whether a candidate answer is justified by a selected evidence passage corresponding to the candidate answer. Moreover, the method comprises outputting, by the data processing system, a candidate answer in the set of candidate answers as the correct answer for the input question based on the ranking of the candidate answers. In another illustrative embodiment, a method, in a data processing system comprising a processor and a memory configured to implement a question and answer system (QA), for generating answers to an input question is again provided. This method comprises receiving, in the data processing system, the input question and generating, by the data processing system, a set of candidate answers for the input question and, for each candidate answer in the set of candidate answers, a corresponding selection of one or more selected evidence portions from a corpus of information providing evidence in support of the candidate answer being a correct answer for the input question. In addition, the method comprises, for each ca...",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Beamon",
+      "inventor_name_first": "Bridget B.",
+      "inventor_city": "Cedar Park",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Whitley",
+      "inventor_name_first": "Michael D.",
+      "inventor_city": "Durham",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yates",
+      "inventor_name_first": "Robert L.",
+      "inventor_city": "Arlington",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Justifying Passage Machine Learning for Question and Answer Systems",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 168053,
+    "optimized_size": 3718,
+    "reduction_percent": 97.79
+  }
+}

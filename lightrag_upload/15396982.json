@@ -1,0 +1,53 @@
+{
+  "patent_number": "None",
+  "application_number": "15396982",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "filing_date": "20170103",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A knowledge graph is traversed by receiving a knowledge graph at a deep neural network, the knowledge graph including a plurality of nodes connected by a plurality of edges, each respective edge of the plurality of edges being associated with a corresponding distance representing embedded semantic information. The deep neural network is trained to capture the embedded semantic information. A path query is received at the deep neural network. A context is determined for the received path query at the deep neural network. The deep neural network performs the traversing of the knowledge graph in response to the received path query, based upon the determined context and the embedded semantic information.",
+  "publication_number": "US20180189634A1-20180705",
+  "summary": "<SOH> SUMMARY <EOH>The following summary is merely intended to be exemplary. The summary is not intended to limit the scope of the claims. One embodiment of the present invention is a computer-implemented method for traversing a knowledge graph that including a plurality of nodes connected by a plurality of edges, each edge of the plurality of edges representing embedded semantic information. The method comprises receiving the knowledge graph at a deep neural network (DNN), capturing the embedded semantic information by the DNN, receiving a path query at the DNN specifying a starting node of the knowledge graph and a termination node of the knowledge graph, determining a context for the received path query, and traversing the knowledge graph, based on the context and the embedded semantic information, in response to said receiving the path query at the DNN. Other embodiments include a computer program product and a system.",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1730",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Abdelaziz",
+      "inventor_name_first": "Ibrahim",
+      "inventor_city": "Thuwal",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    },
+    {
+      "inventor_name_last": "Fokoue-Nkoutche",
+      "inventor_name_first": "Achille B.",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hamedani",
+      "inventor_name_first": "Mohammad S.",
+      "inventor_city": "Chappaqua",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sellmann",
+      "inventor_name_first": "Meinolf",
+      "inventor_city": "Cortland Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "DETERMINING CONTEXT-AWARE DISTANCES USING DEEP NEURAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 48465,
+    "optimized_size": 2687,
+    "reduction_percent": 94.46
+  }
+}

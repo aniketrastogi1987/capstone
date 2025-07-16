@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344894A1-20171130",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15164329",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Edouard",
+      "inventor_name_first": "Paul",
+      "inventor_city": "Malakoff",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Yang",
+      "inventor_name_first": "Riu-Yi",
+      "inventor_city": "Coignieres",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Hutchings",
+      "inventor_name_first": "Cedric",
+      "inventor_city": "Brookline",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The present invention relates to a method of associating at least one state in a plurality of states to a new value output by a drifting sensor, the method comprising: /a/ receiving a signal from the sensor, said signal comprising a plurality of values; /b/clustering the values of said signal into a number of clusters equal to the number of the plurality of states, each cluster being associated with a respective state in the plurality of states; /c/ for the new value of the signal, associating at least one state in said plurality of states or a probability rating representing the probability to be associated with one state in said plurality of states for said new value of the signal, the associated state or the associated probability rating being determined based on at least distances (dH, dL) of said new value of the signal to respective clusters.",
+  "filing_date": "20160525",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSURE <EOH>The invention relates to a method of associating at least one state in a plurality of states to a new value output by a drifting sensor, the method comprising: /a/ receiving a signal from the sensor, said signal comprising a plurality of values; /b/ clustering the values of said signal into a number of clusters equal to the number of the plurality of states, each cluster being associated with a respective state in the plurality of states; /c/ for the new value of the signal, associating at least one state in said plurality of states or a probability rating representing the probability to be associated with one state in said plurality of states for said new value of the signal, the associated state or the associated probability rating being determined based on at least distances of said new value of the signal to respective clusters. The received signal may be a part of a more global signal. For instance, the received signal may be the last x seconds of a longer signal (sliding window). Thanks to this method, it is possible to set dynamically the values of the states of the signal (e.g. the person is sleeping, the person is walking, the person is running), even if the sensor outputting the signal is drifting. By clustering the signal, it is possible to avoid assuming any state of the signal before processing it (e.g. no need to associate to a new value a state so that an average value of the state is computed for this state). The distance of step /c/ may be a mathematical difference (absolute value) of the new value and the barycenter value of each cluster. In addition, prior to step /b/, the signal may be compressed into a compressed signal having values, the values of the compressed signal being used as the values of the signal in step /b/. The compressing may be an approximation of said signal by a piecewise constant function or staircase function. The compressing may also comprise: /d/ initializing an average value to a first ...",
+  "date_published": "20171130",
+  "title": "Method and Device for Associating a State to a New Value Output by a Drifting Sensor",
+  "ipcr_labels": [
+    "G06N700",
+    "G01L126"
+  ],
+  "_processing_info": {
+    "original_size": 45499,
+    "optimized_size": 3734,
+    "reduction_percent": 91.79
+  }
+}

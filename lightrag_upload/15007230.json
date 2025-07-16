@@ -1,0 +1,46 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15007230",
+  "date_published": "20161103",
+  "date_produced": "20161019",
+  "title": "CONTINUOUS BARCODE TAPE BASED INVENTORY LOCATION TRACKING USING GLOBALLY UNIQUE IDENTIFIERS AND SERIES OF DISCRETE BARCODES",
+  "filing_date": "20160127",
+  "inventor_list": [
+    {
+      "inventor_name_last": "WILLIAMS",
+      "inventor_name_first": "JEFF",
+      "inventor_city": "EL CERRITO",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BHASKARAN",
+      "inventor_name_first": "RAVI",
+      "inventor_city": "SAN FRANCISCO",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MARTIN",
+      "inventor_name_first": "CHARLIE",
+      "inventor_city": "WALNUT CREEK",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q1008",
+    "G06Q3006",
+    "G06Q2026"
+  ],
+  "main_ipcr_label": "G06Q1008",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed are a method, system and/or device of continuous bar code tape based inventory location tracking using globally unique identifiers and series of discrete barcodes. In one aspect, a method includes analyzing a layout diagram of a distribution center. The method further includes determining that the layout diagram includes a shelf. A number of segments associated with the shelf based on a forecasted allocation of an inventory on the shelf are calculated. A bar code tape having a globally unique identifier (GUID) associated with each segment of the number of shelves is automatically generated using a processor and a memory of a central inventory tracking system. The number of segments associated with the shelf may be calculated based on a size, a position, an availability, a demand, and/or a supply of an item of the inventory may be placed on the shelf. The bar code tape may be a continuous bar code tape where a reader device to read any GUID along with a length of the shelf of the distribution center. The bar code tape may include a series of discrete bar codes placed adjacent to each other. Each GUID may be unique to each of the number of segments. Each GUID may be 48 bits in length. Each item in each of the series of discrete bar codes may be a distance of that barcode from a left edge of the bar code tape in centimeters encoded by Base-36 into 32 bits. Every barcode of the series of discrete bar codes may have a preamble to make it recognizable to the central inventory tracking system. The method may determine that the item of inventory is scanned associated with the GUID during a fulfillment process associated with an ecommerce order using the processor and the memory of the central inventory tracking system. A financial account of the distribution center may be automatically debited when the bar code tape is utilized during the fulfillment process associated with the ecommerce order using the central inventory tracking system. A locat...",
+  "patent_number": "None",
+  "abstract": "Disclosed are a method, system and/or device of continuous barcode tape based inventory location tracking. In one aspect, a method includes analyzing a layout diagram of a distribution center. The method further includes determining that the layout diagram includes a shelf. A number of segments associated with the shelf based on a forecasted allocation of an inventory on the shelf are calculated. A bar code tape having a globally unique identifier (GUID) associated with each segment of the number of shelves is automatically generated using a processor and a memory of a central inventory tracking system.",
+  "publication_number": "US20160321603A1-20161103",
+  "_processing_info": {
+    "original_size": 73262,
+    "optimized_size": 3553,
+    "reduction_percent": 95.15
+  }
+}

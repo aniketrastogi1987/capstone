@@ -1,0 +1,59 @@
+{
+  "patent_number": "None",
+  "application_number": "15700496",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "filing_date": "20170911",
+  "main_ipcr_label": "G06N700",
+  "abstract": "With reference to information storing a co-occurrence probability of each of plural words in association with each of distribution-destinations, the apparatus extracts, from a message to be distributed, an unknown-word that is not included in the plural words, where the co-occurrence probability indicates a probability that each word is included in a message to be distributed to each distribution-destination. When the unknown-word is present in the message at a predetermined ratio or greater, the apparatus extracts first-words included in all of a first-group of messages each including the unknown-word, calculates the co-occurrence probability of the unknown-word for each distribution-destination, based on the information regarding the distribution-destinations to which a message including the first-words and a second-word, which is included in all of a second-group of messages each including the first-words and not including the unknown-word, is to be distributed, and registers the ca...",
+  "publication_number": "US20180082205A1-20180322",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the invention, with reference to co-occurrence probability information that stores a first co-occurrence probability of each of a plurality of words in association with each of a plurality of distribution destinations, an apparatus extracts, from words included in a message to be distributed, an unknown word that is not included in the plurality of words, where the first co-occurrence probability indicates a probability that each word is included in a message distributed to the each distribution destination associated therewith. When the unknown word is present in words included in the message to be distributed at a predetermined ratio or greater, the apparatus extracts first words which are included in all of a first group of messages each including the unknown word. Then the apparatus calculates the first co-occurrence probability of the unknown word for each distribution destination, based on the co-occurrence probability information regarding the plurality of distribution destinations to which a message including a second word, which is included in all of a second group of messages each including the first words and not including the unknown word, is to be distributed, and registers the calculated first co-occurrence probability of the unknown word for each distribution destination, in the co-occurrence probability information. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the invention, as claimed.",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1721"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "WATANABE",
+      "inventor_name_first": "Yukihiro",
+      "inventor_city": "Kawasaki-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "YOKOYAMA",
+      "inventor_name_first": "Ken",
+      "inventor_city": "Kawasaki-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "ASAOKA",
+      "inventor_name_first": "Masahiro",
+      "inventor_city": "Kawasaki-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "OTSUKA",
+      "inventor_name_first": "Hiroshi",
+      "inventor_city": "Kawasaki-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KONDO",
+      "inventor_name_first": "Reiko",
+      "inventor_city": "Yamato",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "APPARATUS AND METHOD TO DETERMINE A DISTRIBUTION DESTINATION OF A MESSAGE BASED ON A PROBABILITY OF CO-OCCURRENCE OF WORDS INCLUDED IN DISTRIBUTED MESSAGES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 122109,
+    "optimized_size": 3990,
+    "reduction_percent": 96.73
+  }
+}

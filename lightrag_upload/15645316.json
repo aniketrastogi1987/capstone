@@ -1,0 +1,33 @@
+{
+  "patent_number": "None",
+  "application_number": "15645316",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "filing_date": "20170710",
+  "main_ipcr_label": "G06N308",
+  "abstract": "The semiconductor device comprises a controller, a frame memory, and a register. The controller comprises a control circuit and a prediction circuit. The frame memory comprises a memory device and a monitor circuit. The register comprises a first memory circuit and a second memory circuit. The second memory circuit comprises a transistor which includes a metal oxide in a channel formation region. The prediction circuit is configured to predict the necessity of power supply to the register using a neural network and outputting a first signal corresponding to a result of the prediction to the control circuit. The control circuit is configured to save data stored in the first memory circuit to the second memory circuit on the basis of the first signal. The monitor circuit is configured to output a second signal containing information on power consumption of the memory device to the prediction circuit.",
+  "publication_number": "US20180018565A1-20180118",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>An object of one embodiment of the present invention is to provide a novel semiconductor device. Another object of one embodiment of the present invention is to provide a semiconductor device with low power consumption. Another object of one embodiment of the present invention is to provide a semiconductor device capable of high-speed operation. One embodiment of the present invention does not necessarily achieve all the objects listed above and only needs to achieve at least one of the objects. The description of the above objects does not preclude the existence of other objects. Other objects will be apparent from and can be derived from the description of the specification, the drawings, the claims, and the like. A semiconductor device according to one embodiment of the present invention comprises a controller, a frame memory, and a register. The controller comprises a control circuit and a prediction circuit. The frame memory comprises a memory device and a monitor circuit. The register comprises a first memory circuit and a second memory circuit. The second memory circuit comprises a transistor which includes a metal oxide in a channel formation region. The prediction circuit is configured to predict the necessity of power supply to the register using a neural network and to output a first signal corresponding to a result of the prediction to the control circuit. The control circuit is configured to save data stored in the first memory circuit to the second memory circuit on the basis of the first signal. The monitor circuit is configured to output a second signal containing information on power consumption of the memory device to the prediction circuit. The prediction is performed using the second signal as input data. In the semiconductor device according to one embodiment of the present invention, the neural network may be configured to perform learning with use of a learning signal and a teacher signal. The learning signa...",
+  "ipcr_labels": [
+    "G06N308",
+    "G09G320",
+    "G09G336",
+    "H01L2712"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KUROKAWA",
+      "inventor_name_first": "Yoshiyuki",
+      "inventor_city": "Sagamihara",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "SEMICONDUCTOR DEVICE, DISPLAY SYSTEM, AND ELECTRONIC DEVICE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 224193,
+    "optimized_size": 3497,
+    "reduction_percent": 98.44
+  }
+}

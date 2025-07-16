@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171011",
+  "publication_number": "US20170308790A1-20171026",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15134719",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nogueira dos Santos",
+      "inventor_name_first": "Cicero",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xiang",
+      "inventor_name_first": "Bing",
+      "inventor_city": "Mount Kisco",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhou",
+      "inventor_name_first": "Bowen",
+      "inventor_city": "Somers",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "According to an aspect a method includes configuring a convolutional neural network (CNN) for classifying text based on word embedding features into a predefined set of classes identified by class labels. The predefined set of classes includes a class labeled none-of-the-above for text that does not fit into any of the other classes in the predefined set of classes. The CNN is trained based on a set of training data. The training includes learning parameters of class distributed vector representations (DVRs) of each of the predefined set of classes. The learning includes minimizing a pair-wise ranking loss function over the set of training data. A class embedding matrix of the class DVRs of the predefined set of classes that excludes a class embedding for the none-of-the-above class is generated. Each column in the class embedding matrix corresponds to one of the predefined classes.",
+  "filing_date": "20160421",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments include a method, system, and computer program product for test classification by ranking with convolutional neural networks (CNNs). The method includes configuring a CNN for classifying text based on word embedding features into a predefined set of classes identified by class labels. The predefined set of classes includes a class labeled none-of-the-above for text that does not fit into any of the other classes in the predefined set of classes. The configuring includes receiving a set of training data that includes for each training round: training text, a correct class label that correctly classifies the training text, and an incorrect class label that incorrectly classifies the training text. The correct class label and the incorrect class label are selected from the class labels that identify the predefined set of classes. The CNN is trained based on the set of training data. The training includes learning parameters of class distributed vector representations (DVRs) of each of the predefined set of classes. The learning includes minimizing a pair-wise ranking loss function over the set of training data and causing the CNN to generate: a score of less than zero in response to a correct class label of none-of-the-above, and a score of greater than zero in response to a correct class label having any other value; and a score of less than zero in response to an incorrect class label. A class embedding matrix of the class DVRs of the predefined set of classes that excludes a class embedding for the none-of-the-above class is generated. Each column in the class embedding matrix corresponds to one of the predefined classes. This can provide for building a CNN that reduces the impact of an artificial, or none-of-the-above class, on text classification. In an embodiment, the score that is greater than zero is greater than zero by a first specified margin magnified by a scaling margin and the score that is less than zero is less than zero b...",
+  "date_published": "20171026",
+  "title": "TEXT CLASSIFICATION BY RANKING WITH CONVOLUTIONAL NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 54742,
+    "optimized_size": 3764,
+    "reduction_percent": 93.12
+  }
+}

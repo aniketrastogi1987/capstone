@@ -1,0 +1,60 @@
+{
+  "date_produced": "20180117",
+  "publication_number": "US20180032890A1-20180201",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15220677",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Podgorny",
+      "inventor_name_first": "Igor A.",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Indyk",
+      "inventor_name_first": "Benjamin",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cannon",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Guidry",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ma",
+      "inventor_name_first": "Irene F.",
+      "inventor_city": "Carlsbad",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method and system improves content searching in a question and answer customer support system by using a crowd-machine learning hybrid predictive model, according to one embodiment. The question and answer customer support system determines which customer support content to provide to users by using the hybrid predictive model, according to one embodiment. The question and answer customer support system receives a search query from a user and applies the search query (or a representation of the search query) to the hybrid predictive model, according to one embodiment. The hybrid predictive model generates a likelihood that particular customer support content is relevant to a user's search query, according to one embodiment. The question and answer customer support system acquires user feedback from users and updates/trains the hybrid predictive model based on the user feedback, according to one embodiment.",
+  "filing_date": "20160727",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Machines still lack the ability to replicate human insights, and humans fail to recognize many of the patterns that are readily detectible by machines. In question and answer customer support systems, machine learning can be used to identify customer support content that will satisfy a user's search query (e.g., question). In addition to identifying which customer support content is most relevant to a search query, machine learning can also be used to determine which features and/or attributes of the customer support content to use to determine the relevance of the customer support content. Such an approach will identify some relevant content while misidentifying other content as relevant. Instead of relying solely on machine learning (e.g., data mining and/or feature selection) to identify features and/or attributes of the customer support content to use when determining the relevance of customer support content, embodiments of the present disclosure identify additional features and/or attributes of the customer support content from user feedback, according to one embodiment. The question and answer customer support system solicits user feedback from users who receive customer support content, in response to their query submissions, according to one embodiment. The attributes and/or features that correspond with relevance and/or quality of customer support content are extracted from the user feedback, according to one embodiment. Significant quantities of user feedback is obtained from significant numbers of users to identify crowd-nominated features and/or attributes of the customer support content, according to one embodiment. In other words, crowdsourced user feedback is used to extract the crowd-nominated features and/or attributes of the customer support content. A predictive model is then trained to identify relevant and/or quality customer support content using the attributes and/or features of the customer support content that is identifi...",
+  "date_published": "20180201",
+  "title": "METHOD AND SYSTEM FOR IMPROVING CONTENT SEARCHING IN A QUESTION AND ANSWER CUSTOMER SUPPORT SYSTEM BY USING A CROWD-MACHINE LEARNING HYBRID PREDICTIVE MODEL",
+  "ipcr_labels": [
+    "G06N700",
+    "G06Q3000",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 160826,
+    "optimized_size": 4182,
+    "reduction_percent": 97.4
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140271A1-20170518",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15349966",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Reed",
+      "inventor_name_first": "Scott Ellison",
+      "inventor_city": "Ann Arbor",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gomes de Freitas",
+      "inventor_name_first": "Joao Ferdinando",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for neural programming. One of the methods includes processing a current neural network input using a core recurrent neural network to generate a neural network output; determining, from the neural network output, whether or not to end a currently invoked program and to return to a calling program from the set of programs; determining, from the neural network output, a next program to be called; determining, from the neural network output, contents of arguments to the next program to be called; receiving a representation of a current state of the environment; and generating a next neural network input from an embedding for the next program to be called and the representation of the current state of the environment.",
+  "filing_date": "20161111",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to performing machine learning tasks by invoking a sequence of programs to interact with an environment. For a system of one or more computers to be configured to perform particular operations or actions means that the system has installed on it software, firmware, hardware, or a combination of them that in operation cause the system to perform the operations or actions. For one or more computer programs to be configured to perform particular operations or actions means that the one or more programs include instructions that, when executed by data processing apparatus, cause the apparatus to perform the operations or actions. The subject matter described in this specification can be implemented in particular embodiments so as to realize one or more of the following advantages. By learning to compose lower-level programs to express higher-level programs, the neural network system described in this specification reduces sample complexity and increases generalization ability. The neural network system can harness the environment, i.e., by modifying the environment during execution of the machine learning task, to cache intermediate results of computation, lessening the long-term memory burden on recurrent hidden units of the core recurrent neural network. The neural network system can learn, i.e., can be trained to, effectively model compositional programs using an initial set of programs. By implementing a program memory that stores learnable program embeddings, programs can be re-used, i.e., across different machine learning tasks, in a continual manner. The details of one or more embodiments of the subject matter of this specification are set forth in the accompanying drawings and the description below. Other features, aspects, and advantages of the subject matter will become apparent from the description, the drawings, and the claims.",
+  "date_published": "20170518",
+  "title": "NEURAL PROGRAMMING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 42550,
+    "optimized_size": 3441,
+    "reduction_percent": 91.91
+  }
+}

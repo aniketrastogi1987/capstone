@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046896A1-20180215",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15252220",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YU",
+      "inventor_name_first": "Jincheng",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "YAO",
+      "inventor_name_first": "Song",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present invention relates to artificial neural network, for example, convolutional neural network. In particular, the present invention relates to how to accelerate a complex neural network by fixed-point data quantization.",
+  "filing_date": "20160831",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present invention proposes a solution to quantize a complex neural network. In addition to achieving each layer's optimal quantization, it also considers how to maintain consistency when different layers are merged or concatenated. According to one aspect of the application, it proposes a method for optimizing an Artificial Neural Network (ANN), said method comprising: (a) fixed-point data quantizing step, for converting output of each layer of said ANN into fixed-point numbers, (b) sub-network identifying step, for identifying at least one sub-network from said ANN, wherein each sub-network has a concatenation layer as its output, wherein said concatenation layer receives at least two outputs of previous-level layers as its inputs and concatenates said inputs into one output; (c) fixed-point modifying step, for each sub-network, modifying the fixed-point range of each output of the previous-level layers of said concatenation layer on the basis of the fixed-point range of said concatenation layer. According to one aspect of the application, it proposes a method for optimizing an Artificial Neural Network (ANN), said ANN has branches and at least comprises convolutional layers CONV 1 , CONV 2 , . . . CONV n, and fully connected layers FC 1 , FC 2 , . . . , FC m, concatenation layers CONCAT 1 , CONCAT 2 , . . . , CONCAT 1 , wherein n, m and 1 are positive integers, said method comprising: (a) fixed-point data quantizing step, for converting output of each of said CONV, FC and CONCAT layers into fixed-point numbers, (b) CONCAT layer identifying step, for identifying at least one sub-network from said ANN, wherein each sub-network has a CONCAT layer as its output, wherein said CONCAT layer receives at least two outputs of previous-level layers as its inputs and concatenates said inputs into one output; (c) fixed-point modifying step, for each sub-network, modifying the fixed-point range of each output of the previous-level layers of said CONCAT la...",
+  "date_published": "20180215",
+  "title": "METHOD AND DEVICE FOR QUANTIZING COMPLEX ARTIFICIAL NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "G06N3063"
+  ],
+  "_processing_info": {
+    "original_size": 44750,
+    "optimized_size": 2937,
+    "reduction_percent": 93.44
+  }
+}

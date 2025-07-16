@@ -1,0 +1,47 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15253023",
+  "date_published": "20180301",
+  "date_produced": "20180213",
+  "title": "INTEGRATED CIRCUITS AND METHODS FOR DYNAMIC ALLOCATION OF ONE-TIME PROGRAMMABLE MEMORY",
+  "filing_date": "20160831",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PANDEY",
+      "inventor_name_first": "Rakesh",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ARORA",
+      "inventor_name_first": "Mohit",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "XIE",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1110",
+    "G11C1716",
+    "G11C2952",
+    "G06F1210"
+  ],
+  "main_ipcr_label": "G06F1110",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The present disclosure is illustrated by way of example and is not limited by the accompanying figures, in which like references indicate similar elements. Elements in the figures are illustrated for simplicity and clarity and have not necessarily been drawn to scale. FIG. 1 is a block diagram of an integrated circuit system in accordance with selected embodiments of the invention. FIG. 2 is a block diagram of an embodiment of a one-time programmable (OTP) controller and memory that may be used in the integrated circuit system of FIG. 1 . FIG. 3 is a diagram of OTP memory usage for different error correction techniques that may be used in the OTP memory of FIG. 2 . FIGS. 4-6 illustrate tables showing examples of memory usage for different combinations of error correction techniques for the OTP memory of FIG. 2 . detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "10020067",
+  "abstract": "An integrated circuit includes a one-time programmable (OTP) memory having a plurality of pages and address translation circuitry. A first line of each page is configured to store error policy bits. When a first bit of the first line has a first value, the page is configured to store data with error correction code (ECC) bits, and when the first bit has a second value, at least a portion of the page is configured to store data with redundancy. The address translation circuitry is configured to, in response to receiving an access address, use the first line of an accessed page of the plurality of pages accessed by the access address to determine a physical address in the accessed page which corresponds to the access address.",
+  "publication_number": "US20180060164A1-20180301",
+  "_processing_info": {
+    "original_size": 38612,
+    "optimized_size": 2565,
+    "reduction_percent": 93.36
+  }
+}

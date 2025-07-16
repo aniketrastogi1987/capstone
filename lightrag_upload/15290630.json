@@ -1,0 +1,59 @@
+{
+  "date_produced": "20180328",
+  "publication_number": "US20180101790A1-20180412",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15290630",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hack",
+      "inventor_name_first": "Michel H.T.",
+      "inventor_city": "Cortlandt Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ren",
+      "inventor_name_first": "Yufei",
+      "inventor_city": "Somers",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Yangdong",
+      "inventor_city": "Elmsford",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Li",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Elmsford",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method includes storing parameter versions utilized by learner instances in each of two or more epochs in a parameter receiving buffer of a parameter server, the learner instances performing distributed execution of workload computations of a machine learning algorithm. The method also includes creating a parameter roster in the parameter server comprising parameter version vectors specifying the parameter versions used by each of the learner instances during each of the two or more epochs. The method further includes generating one or more aggregated parameter sets for storage in an aggregated parameters buffer by aggregating parameter versions from the parameter receiving buffer based on the parameter version vectors in the parameter roster and providing aggregated parameter sets from the aggregated parameters buffer to the learner instances for deterministic replay of the distributed execution of the workload computations of the machine learning algorithm.",
+  "filing_date": "20161011",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the invention provide techniques for deterministic replay of distributed executions of workload computations utilizing parameter version vectors. For example, in one embodiment, a computer-implemented method comprises storing parameter versions utilized by two or more learner instances in each of two or more epochs in a parameter receiving buffer of a parameter server, the two or more learner instances performing distributed execution of workload computations of a machine learning algorithm. The method also comprises creating a parameter roster in the parameter server comprising parameter version vectors specifying the parameter versions used by each of the two or more learner instances during each of the two or more epochs. The method further comprises generating one or more aggregated parameter sets for storage in an aggregated parameters buffer by aggregating parameter versions from the parameter receiving buffer based on the parameter version vectors in the parameter roster and providing aggregated parameter sets from the aggregated parameters buffer to the two or more learner instances for deterministic replay of the distributed execution of the workload computations of the machine learning algorithm. In another embodiment, a computer-implemented method comprises instantiating a learner instance with a given learner identifier, obtaining an epoch execution history, for the given learner identifier, of a distributed execution of workload computations of a machine learning algorithm for two or more epochs, and performing deterministic replay of the distributed execution of workload computations of the machine learning algorithm for the given learner identifier using the learner instance. Performing the deterministic replay comprises, in each epoch of the epoch execution history, obtaining one or more aggregated parameter sets for the given learner identifier for that epoch from one or more parameter servers, performing workload c...",
+  "date_published": "20180412",
+  "title": "PARAMETER VERSION VECTORS USED FOR DETERMINISTIC REPLAY OF DISTRIBUTED EXECUTION OF WORKLOAD COMPUTATIONS",
+  "ipcr_labels": [
+    "G06N9900",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 79426,
+    "optimized_size": 4169,
+    "reduction_percent": 94.75
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "patent_number": "10032114",
+  "application_number": "15485303",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "filing_date": "20170412",
+  "main_ipcr_label": "G06N504",
+  "abstract": "Predicting program performance on hardware devices, in one aspect, may comprise obtaining a set of existing applications and observed performance on a target hardware device. The set of existing applications are run on one or more general purpose computer processors and application features are extracted from the existing application. A machine learning technique is employed to train a predictive model based on the extracted application features and the observed performance for predicting application performance on the target hardware device.",
+  "publication_number": "US20170220942A1-20170803",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A method of predicting program performance on hardware devices, in one aspect, may comprise obtaining a set of existing applications and observed performance (e.g., performance metric or speedup) on a target hardware device, The method may also comprise running the set of existing applications on one or more general purpose computer processors and extracting application features from the existing application. The method may further comprise inputting the application features and the observed performance on a target hardware device to a machine learning technique. The method may also comprise executing the machine learning technique. The method may further comprise training a predictive model by the machine learning technique for predicting application performance on the target hardware device. In another aspect, a method of predicting a hardware device for best program performance may be provided. The method may comprise obtaining a plurality of existing applications and observed performance on a plurality of target hardware devices. Each of the plurality of existing applications may be labeled with one of the plurality of target hardware devices. The method may also comprise running the plurality of existing applications on one or more general purpose computer processors and extracting application features from the existing application. The method may further comprise inputting the application features, labels associated with the existing applications, and the observed performance on the plurality of target hardware device to a machine learning technique. The method may also comprise executing the machine learning technique. The method may further comprise training a predictive model by the machine learning technique for predicting a target hardware device out of the plurality of target hardware devices for running a given application. A system for predicting program performance on hardware devices, in one aspect, may comprise a set of exis...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Baldini Soares",
+      "inventor_name_first": "Ioana M.",
+      "inventor_city": "Irvington",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fink",
+      "inventor_name_first": "Stephen J.",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "PREDICTING APPLICATION PERFORMANCE ON HARDWARE ACCELERATORS",
+  "decision": "ACCEPTED",
+  "_processing_info": {
+    "original_size": 70020,
+    "optimized_size": 3279,
+    "reduction_percent": 95.32
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "patent_number": "9864954",
+  "application_number": "15434867",
+  "date_published": "20171228",
+  "date_produced": "20171213",
+  "filing_date": "20170216",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A method and associated systems for using wreath products and invariance groups to test a partially symmetric quantum-logic circuits. A test system receives information that describes the architecture of a quantum-logic circuit to be tested. The system uses this information to hierarchically organize the circuit's inputs into non-overlapping blocks. The system creates set of groups associated with the blocks, and then generates an invariance group that contains one or more invariant permutations of the inputs by computing a wreath product of the set of groups. These invariant permutations identify a minimal number of tests required to verify the circuit for all possible input vectors. The system then directs a test apparatus to perform the resulting optimized test sequence upon the circuit.",
+  "publication_number": "US20170372217A1-20171228",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A first embodiment of the present invention provides a quantum-logic test-development system comprising a processor, a memory coupled to the processor, and a computer-readable hardware storage device coupled to the processor, the storage device containing program code configured to be run by the processor via the memory to implement a method for optimizing testing of a partially symmetric quantum-logic circuit by using wreath products and invariance groups, the method comprising: the system receiving architectural information about a quantum-logic circuit that has at least eight inputs and at least one output, where the quantum-logic circuit performs operations capable of being represented by a function f( ); the system, as a function of the architectural information, evenly dividing all the at least eight inputs into at least four non-intersecting first-level blocks, where every first-level block contains a same number of inputs; the system, as a function of the architectural information, evenly partitioning all the at least four first-level blocks into at least two non-intersecting second-level blocks, where every second-level block contains a same number of first-level blocks; the system creating a first-level group G1 that comprises a set of first-level indices and a set of one or more first-level permutation operations capable of being performed upon the set of first-level indices, where a number of the set of first-level indices equals the number of inputs in each first-level block; the system defining a second-level group G2 that comprises a set of second-level indices and a set of one or more second-level permutation operations capable of being performed upon the set of second-level indices, where a number of the set of second-level indices equals the number of first-level blocks in each second-level block; and the system generating a first wreath product G1 G2 as a function of the evenly dividing and the evenly partitioning, where i...",
+  "ipcr_labels": [
+    "G06N9900",
+    "H03K19195"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jasionowski",
+      "inventor_name_first": "Pawel",
+      "inventor_city": "Wroclaw",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    }
+  ],
+  "title": "OPTIMIZED TESTING OF A PARTIALLY SYMMETRIC QUANTUM-LOGIC CIRCUIT",
+  "decision": "ACCEPTED",
+  "_processing_info": {
+    "original_size": 82372,
+    "optimized_size": 3373,
+    "reduction_percent": 95.91
+  }
+}

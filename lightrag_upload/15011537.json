@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15011537",
+  "date_published": "20160804",
+  "date_produced": "20160720",
+  "title": "REWRITING FLASH MEMORIES BY MESSAGE PASSING",
+  "filing_date": "20160130",
+  "inventor_list": [
+    {
+      "inventor_name_last": "En Gad",
+      "inventor_name_first": "Eyal",
+      "inventor_city": "Pasadena",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Wentao",
+      "inventor_city": "Pasadena",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Yue",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bruck",
+      "inventor_name_first": "Jehoshua",
+      "inventor_city": "Pasadena",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1107",
+    "G06F1110"
+  ],
+  "main_ipcr_label": "G06F1107",
+  "summary": "<SOH> SUMMARY <EOH>The techniques described herein can be used to construct write-once memory (WOM) codes that combine rewriting and error correction for mitigating the reliability and the endurance problems generally experienced with flash memory. In the discussion, a rewriting model is considered that is of practical interest to flash memory applications where only the second write uses WOM codes. The disclosed WOM code construction is based on binary erasure quantization (BEQ) with low-density-generator-matrix (LDGM) codes, where the rewriting uses message passing and has the potential to share the efficient hardware implementations with low-density-parity-check (LDPC) codes in practice. The coding scheme achieves the capacity of the rewriting model. Extensive simulations show that the rewriting performance of the scheme compares favorably with that of polar WOM code in the rate region where high rewriting success probability is desired. The coding schemes may be augmented with error correction capability. By drawing a connection to the conjugate code pairs studied in the context of quantum error correction, a general framework for constructing error-correction WOM codes is developed. In this discussion herein, disclosed is an explicit construction of WOM codes whose codewords are contained in so-called BCH codes (from code developers Bose, Chaudhuri, Hocquenghem).",
+  "patent_number": "None",
+  "abstract": "Disclosed are constructions of WOM codes that combine rewriting and error correction for mitigating the reliability and the endurance problems typically experienced with flash memory. A rewriting model is considered that is of practical interest to flash memory applications where only the second write uses WOM codes. The disclosed WOM code construction is based on binary erasure quantization with LDGM codes, where the rewriting uses message passing and has potential to share the efficient hardware implementations with LDPC codes in practice. The coding scheme achieves the capacity of the rewriting model.",
+  "publication_number": "US20160224408A1-20160804",
+  "_processing_info": {
+    "original_size": 73401,
+    "optimized_size": 2971,
+    "reduction_percent": 95.95
+  }
+}

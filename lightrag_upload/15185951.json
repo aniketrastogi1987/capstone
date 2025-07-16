@@ -1,0 +1,59 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364818A1-20171221",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15185951",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wu",
+      "inventor_name_first": "Ying",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Kaufmann",
+      "inventor_name_first": "Malte Christian",
+      "inventor_city": "Walldorf",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "McGrath",
+      "inventor_name_first": "Robert",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Schlueter",
+      "inventor_name_first": "Ulrich",
+      "inventor_city": "Schriesheim",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Sitt",
+      "inventor_name_first": "Simon",
+      "inventor_city": "Gaiberg",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "For a plurality of sensors, a particular sensor is indicated as a target sensor and the other sensors as input sensors. A regression model is trained using historical data from the plurality of related sensors. The trained regression model is applied to the target sensor to generate a predicted target sensor value. A difference between an actual target sensor value and the predicted target sensor value is calculated. A probability of difference for the calculated difference between the actual target sensor value and the predicted target sensor value is compared against a threshold value.",
+  "filing_date": "20160617",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure describes methods and systems, including computer-implemented methods, computer program products, and computer systems for automatic anomaly detection for predictive maintenance. In an implementation, for a plurality of sensors, a particular sensor is indicated as a target sensor and the other sensors as input sensors. A regression model is trained using historical data from the plurality of related sensors. The trained regression model is applied to the target sensor to generate a predicted target sensor value. A difference between an actual target sensor value and the predicted target sensor value is calculated. A probability of difference for the calculated difference between the actual target sensor value and the predicted target sensor value is compared against a threshold value. The above-described implementation is implementable using a computer-implemented method; a non-transitory, computer-readable medium storing computer-readable instructions to perform the computer-implemented method; and a computer system comprising a computer memory interoperably coupled with a hardware processor configured to perform the computer-implemented method/the instructions stored on the non-transitory, computer-readable medium. The subject matter described in this specification can be implemented in particular implementations so as to realize one or more of the following advantages. First, automatic predictive maintenance can be performed without the collection, validation and labelling of equipment states. Second, automatic predictive maintenance can reduce maintenance costs, prevent equipment breakdowns, prevent risk of collateral damage, reduce secondary failures, and prolong equipment life. Third, automatic predictive maintenance can be performed in real time without human intervention. Fourth, underlying relationships between sensors in a sensor network can be identified. Fifth, automatic predictive maintenance can be performed in...",
+  "date_published": "20171221",
+  "title": "AUTOMATIC CONDITION MONITORING AND ANOMALY DETECTION FOR PREDICTIVE MAINTENANCE",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 63512,
+    "optimized_size": 3751,
+    "reduction_percent": 94.09
+  }
+}

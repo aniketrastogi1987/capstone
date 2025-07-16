@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15274757",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "title": "METHODS AND APPARATUS TO CONFIGURE REFERENCE VOLTAGES",
+  "filing_date": "20160923",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Becerra Perez",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "Zapopan",
+      "inventor_state": "",
+      "inventor_country": "MX"
+    }
+  ],
+  "ipcr_labels": [
+    "G11C114099",
+    "G11C114096",
+    "G06F306"
+  ],
+  "main_ipcr_label": "G11C114099",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1A depicts factors that contribute to signal degradation between a memory controller transmitter and a memory device receiver. FIG. 1B depicts example binary logic values in association with data line reference voltage (V REF DQ) training increments used during a V REF DQ margining process of a memory device. FIG. 1C depicts an example eye diagram showing voltage margins defining limits of V REF DQ values useable by a memory device to detect the binary logic levels of FIG. 1A via data lines of the memory device. FIG. 1D is an example table showing the same non-optimal V REF DQ value set for a number of memory devices. FIG. 1E is an example table showing different per-device V REF DQ values set for a number of memory devices. FIG. 2 illustrates an example memory module including a number of dynamic random access memory devices configured in accordance with teachings of this disclosure to configure V REF DQ values. FIG. 3 is an example memory controller implemented in accordance with teachings of this disclosure to configure V REF DQ values for use by the memory devices of FIG. 2 . FIG. 4 is the example V REF DQ mode register of FIG. 2 that may be used with the example memory devices of FIGS. 2 and 3 to implement example techniques disclosed herein to configure V REF DQ values for the memory devices during a V REF DQ margining process. FIG. 5A depicts an example V REF DQ selection circuit that may be used to implement an example MRS qualify V REF DQ multiple-set technique for setting different V REF DQ values for the memory devices of FIGS. 2 and 3 during a V REF DQ margining process. FIG. 5B depicts an alternative example V REF DQ selection circuit that may be used to implement an example MRS qualify V REF DQ single-set technique for setting different V REF DQ values for the memory devices of FIGS. 2 and 3 during a V REF DQ margining process. FIG. 6 is an example timing diagram for issuing MRS commands to memory devic...",
+  "patent_number": "None",
+  "abstract": "A disclosed example includes setting a first reference voltage value in a memory device for use during operation of the memory device in a per-device addressability (PDA) mode, the first reference voltage value for use by the memory device to determine a first logic value at a data line of the memory device during the PDA mode, the PDA mode to enable access to the memory device exclusive of other memory devices in circuit with the memory device; and setting a second reference voltage value in the memory device for use during operation of the memory device in a non-PDA mode, the non-PDA mode to enable writing data to the memory device, the second reference voltage value for use by the memory device to determine a second logic value at the data line of the memory device during a write operation.",
+  "publication_number": "US20180090198A1-20180329",
+  "_processing_info": {
+    "original_size": 147912,
+    "optimized_size": 3380,
+    "reduction_percent": 97.71
+  }
+}

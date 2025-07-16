@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170201",
+  "publication_number": "US20170046616A1-20170216",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15237575",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Socher",
+      "inventor_name_first": "Richard",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xiong",
+      "inventor_name_first": "Caiming",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tai",
+      "inventor_name_first": "Kai Sheng",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The technology disclosed uses a 3D deep convolutional neural network architecture (DCNNA) equipped with so-called subnetwork modules which perform dimensionality reduction operations on 3D radiological volume before the 3D radiological volume is subjected to computationally expensive operations. Also, the subnetworks convolve 3D data at multiple scales by subjecting the 3D data to parallel processing by different 3D convolutional layer paths. Such multi-scale operations are computationally cheaper than the traditional CNNs that perform serial convolutions. In addition, performance of the subnetworks is further improved through 3D batch normalization (BN) that normalizes the 3D input fed to the subnetworks, which in turn increases learning rates of the 3D DCNNA. After several layers of 3D convolution and 3D sub-sampling with 3D across a series of subnetwork modules, a feature map with reduced vertical dimensionality is generated from the 3D radiological volume and fed into one or more f...",
+  "filing_date": "20160815",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings, like reference characters generally refer to like parts throughout the different views. Also, the drawings are not necessarily to scale, with an emphasis instead generally being placed upon illustrating the principles of the technology disclosed. In the following description, various implementations of the technology disclosed are described with reference to the following drawings, in which: FIG. 1 illustrates an architectural level schematic of a system in accordance with an implementation. FIG. 2 illustrates a block diagram of a subnetwork within a 3D DCNNA in one implementation of the technology disclosed, showing in detail multi-scaled 3D convolution layer paths and 3D pooling operations. FIG. 3 is an exemplary 3D DCNNA with a plurality of subnetworks and pre- and post-processing layers. FIG. 4A illustrates one implementation of a 3D batch normalization (BN) operation applied to 3D input from a preceding subnetwork to generate normalized 3D input. FIG. 4B shows one implementation of a 3D batch normalization (BN) operation that applies a separate learned nonlinearity activation to the normalized 3D input to scaled and shifted 3D output for processing by a subsequent subnetwork. FIG. 5 illustrates a block diagram of a 3D DCNNA that uses a combination of a plurality of subnetworks and 3D batch normalization layers. FIG. 6 depicts one implementation of an exemplary 3D DCNNA. FIG. 7 shows an example of grey-scaled 3D input data used by the 3D DCNNA in the form of 3D radiological volume of medical scans of a human brain. FIG. 8 illustrates an example of colored 3D input data used by the 3D DCNNA in the form of 3D radiological volume of medical scans of a human brain. FIG. 9 is one implementation of a use case in which the 3D DCNNA is used to detect intracranial hemorrhaging (IH) structures in a human brain based on 3D radiological volumes generated from medical scans of the human brain. FIG. 10 depicts one ...",
+  "date_published": "20170216",
+  "title": "THREE-DIMENSIONAL (3D) CONVOLUTION WITH 3D BATCH NORMALIZATION",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1750",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 99269,
+    "optimized_size": 3877,
+    "reduction_percent": 96.09
+  }
+}

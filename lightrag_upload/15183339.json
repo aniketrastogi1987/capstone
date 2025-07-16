@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15183339",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "title": "DATA MINING USING CATEGORICAL ATTRIBUTES",
+  "filing_date": "20160615",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ofer",
+      "inventor_name_first": "Roy B.",
+      "inventor_city": "Tel-Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Eldar",
+      "inventor_name_first": "Adi",
+      "inventor_city": "Kiryat-Ono",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Resheff",
+      "inventor_name_first": "Yehezkel S.",
+      "inventor_city": "Jerusalem",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1107",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1107",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. Embodiments disclosed herein are related to systems, methods, and computer readable medium for determining patterns of related attributes in failure data that are indicative of an underlying cause of a computing operation failure. In one embodiment, a system includes a processor and a system memory. The system instantiates in the system memory an aggregation module that groups accessed data, which may be failure data, into subsets. The data is associated with attributes, which may be categorical attributes, that describe information related to the accessed data. The subsets include data having matching combinations of the attributes. The system also instantiates in the system memory an expand module that iteratively removes, for the subsets, attributes of the combination of attributes associated with each subset to increase the amount of data included in the subsets. The system also instantiates in the system memory a score module that scores each subset, after iteratively removing attributes, to determine patterns related to the combination of attributes. In another embodiment, recorded data is received. The data is associated with attributes that describe information corresponding to the data. The data and the associated attributes are organized into a table having rows corresponding to the received data and columns corresponding to the one or more attributes. The table is reorganized into subsets of data based on a count representing an amount of the data having matching combinations of the attributes. For each of the subsets, attributes of the combination of attributes associated with each subset...",
+  "patent_number": "None",
+  "abstract": "Embodiments disclosed herein are related to determining patterns of related attributes in accessed or received data. Data that is associated with attributes that describe information corresponding to the data is accessed or received. The data is grouped into one or more subsets that include data having matching combinations of the attributes. For each of the subsets, attributes of the combination of attributes associated with the subset are iteratively removed to thereby increase the amount of data included in each subset. After iteratively removing the attributes, each subset is scored to determine one or more patterns related to the combination of attributes.",
+  "publication_number": "US20170235625A1-20170817",
+  "_processing_info": {
+    "original_size": 65497,
+    "optimized_size": 3500,
+    "reduction_percent": 94.66
+  }
+}

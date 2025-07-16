@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15049060",
+  "date_published": "20160616",
+  "date_produced": "20160601",
+  "title": "Biometric Personal Data Key (PDK) Authentication",
+  "filing_date": "20160220",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Giobbi",
+      "inventor_name_first": "John J.",
+      "inventor_city": "Bend",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2132",
+    "H04L932",
+    "G06F2135"
+  ],
+  "main_ipcr_label": "G06F2132",
+  "summary": "<SOH> SUMMARY <EOH>The present invention addresses the above needs by providing systems and methods for authentication responsive to biometric verification of a user being authenticated. In one embodiment, an integrated device includes a persistent storage to persistently stores a code such as a device identifier (ID) and biometric data for a user in a tamper-resistant format, and a verification module, in communication with the persistent storage, to receive scan data from a biometric scan for comparison against the biometric data, and if the scan data matches the biometric data, wirelessly sending a code for authentication. In one embodiment, a method for verifying a user during authentication of an integrated device, includes persistently storing biometric data for the user in a tamper-resistant format; responsive to receiving a request for biometric verification of the user, receiving scan data from a biometric scan; comparing the scan data to the biometric data to determine whether the data match; and responsive to a determination that the scan data matches the biometric data, wirelessly sending a code for authentication. Other embodiments include corresponding systems, apparatus, and computer programming products, configured to perform the actions of the methods, encoded on computer storage devices. These and other embodiments may each optionally include one or more of the following features. For instance the operations further include registering an age verification for the user in association with the code. For instance the operations further include establishing a secure communication channel prior to sending the code for authentication. For instance the operations further include receiving a request for the code without a request for biometric verification, and responsive to receiving the request for the code without a request for biometric verification, sending the code without requesting the scan data. For instance, the features include: the code is regi...",
+  "patent_number": "None",
+  "abstract": "Systems and methods verifying a user during authentication of an integrated device. In one embodiment, the system includes an integrated device and an authentication unit. The integrated device stores biometric data of a user and a plurality of codes and other data values comprising a device ID code uniquely identifying the integrated device and a secret decryption value in a tamper proof format, and when scan data is verified by comparing the scan data to the biometric data, wirelessly sends one or more codes and other data values including the device ID code. The authentication unit receives and sends the one or more codes and the other data values to an agent for authentication, and receives an access message from the agent indicating that the agent successfully authenticated the one or more codes and other data values and allows the user to access an application.",
+  "publication_number": "US20160171200A1-20160616",
+  "_processing_info": {
+    "original_size": 44532,
+    "optimized_size": 3437,
+    "reduction_percent": 92.28
+  }
+}

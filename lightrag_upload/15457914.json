@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15457914",
+  "date_published": "20171116",
+  "date_produced": "20171103",
+  "filing_date": "20170313",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Among the embodiments disclosed herein are variants of the quantum approximate optimization algorithm with different parametrization. In particular embodiments, a different objective is used: rather than looking for a state which approximately solves an optimization problem, embodiments of the disclosed technology find a quantum algorithm that will produce a state with high overlap with the optimal state (given an instance, for example, of MAX-2-SAT). In certain embodiments, a machine learning approach is used in which a “training set” of problems is selected and the parameters optimized to produce large overlap for this training set. The problem was then tested on a larger problem set. When tested on the full set, the parameters that were found produced significantly larger overlap than optimized annealing times. Testing on other random instances (e.g., from 20 to 28 bits) continued to show improvement over annealing, with the improvement being most notable on the hardest problems. Em...",
+  "publication_number": "US20170330101A1-20171116",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed herein are innovations in generating and applying schedules to control quantum computing devices during operation. Such techniques can be used in a quantum computing system, for example, to solve a target optimization problem. Such systems are therefore sometimes referred to as “quantum optimizers”. The innovations can be implemented as part of a method or system for actually performing (or otherwise implementing) quantum operations in a physical implementation of a quantum computer. Any of the various innovations can be used alone in any combination or subcombination with one another or with other related techniques. Certain embodiments disclosed herein are methods of operating a quantum computing device. More specifically, the example methods comprise causing a quantum computing device to evolve from a first state to a second state according to a schedule, the first state corresponding to a first Hamiltonian, the second state corresponding to a second Hamiltonian. The schedule includes an X schedule for Hamiltonian terms in the X basis, and a Z schedule for Hamiltonian terms in the Z basis. Further, the schedule is nonlinear or piecewise linear in one or both of the X schedule or the Z schedule. In some implementations, the schedule includes one or more sequences where the X schedule and the Z schedule converge toward one another and one or more sequences where the X schedule and the Z schedule diverge from one another. In further implementations, the X schedule and the Z schedule intersect only in a latter half of the respective schedules. In some implementations, one or both of the X schedule or the Z schedule has terms that vary, and the variation in terms is greater in a latter half of the respective schedule than in a front half of the respective schedule. In some embodiments, the example methods further comprise generating the schedule by performing a schedule-training process beginning from an initial schedule. The initial sched...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hastings",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wecker",
+      "inventor_name_first": "David",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "TRAINING A QUANTUM OPTIMIZER",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 102490,
+    "optimized_size": 3699,
+    "reduction_percent": 96.39
+  }
+}

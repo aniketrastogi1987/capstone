@@ -1,0 +1,44 @@
+{
+  "date_produced": "20161220",
+  "publication_number": "US20170004417A1-20170105",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15268313",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bruillard",
+      "inventor_name_first": "Paul J.",
+      "inventor_city": "West Richland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gosink",
+      "inventor_name_first": "Luke J.",
+      "inventor_city": "Richland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jarman",
+      "inventor_name_first": "Kenneth D.",
+      "inventor_city": "Richland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method of generating features optimal to a particular dataset and classifier is disclosed. A dataset of messages is inputted and a classifier is selected. An algebra of features is encoded. Computable features that are capable of describing the dataset from the algebra of features are selected. Irredundant features that are optimal for the classifier and the dataset are selected.",
+  "filing_date": "20160916",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention is directed to methods of generating features optimal to a particular dataset and classifier. In one embodiment, the method includes inputting a dataset of messages; inputting a classifier; encoding an algebra of computable features capable of describing the data set; selecting computable irredundant features from the algebra of features which are optimal for the classifier and the dataset. In one embodiment, the method further comprises randomly selecting a first subset of the computable features and inputting them into the classifier. In one embodiment, the method further comprises determining accuracy of the classifier using a validation set and each feature independently. In one embodiment, the method further comprises randomly selecting a second subset of features from the first subset of computable features. In one embodiment, the method further comprises mutating the second subset of features. In one embodiment, the method further comprises randomly selecting pairs of features from the first subset of computable features. In one embodiment, the method further comprises applying crossing to each selected pair of features from the first subset of computable features. In one embodiment, the method further comprises combining the first subset of computable features, the mutated features, and the crossed features to generate a third subset of features. In one embodiment, the method further comprises selecting a fourth subset of features from the algebra of features and adding to the third subset of features. In one embodiment, the method further comprises removing duplicate features from the third subset of features. In one embodiment, the method further comprises inputting the features from the third subset into the classifier and computing accuracy of the classifier for each feature using a validation set. In one embodiment, the method further comprises ranking the features of the third subset by their co...",
+  "date_published": "20170105",
+  "title": "METHOD OF GENERATING FEATURES OPTIMAL TO A DATASET AND CLASSIFIER",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 28081,
+    "optimized_size": 3245,
+    "reduction_percent": 88.44
+  }
+}

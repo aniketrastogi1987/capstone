@@ -1,0 +1,54 @@
+{
+  "date_produced": "20161019",
+  "publication_number": "US20160321548A1-20161103",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15141780",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ziskind",
+      "inventor_name_first": "Benjamin Harry",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bass",
+      "inventor_name_first": "Joshua David",
+      "inventor_city": "Carlsbad",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sahadi",
+      "inventor_name_first": "Scott Sebastian",
+      "inventor_city": "Solana Beach",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mathews",
+      "inventor_name_first": "Benjamin Keeling",
+      "inventor_city": "Orlando",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An estimate is provided for how long a guest will have to wait to enter a ride, restaurant, restroom, or other point of interest at a venue. Wait times are computed using one or more algorithms (e.g., Bayesian) that can combine direct measurements around the point of interest, historical measurements around the point of interest, and measurements taken from other systems not directly connected to the point of interest. Supporting systems will vary by venue and may include entry ticketing systems, network traffic, point of sale registers, event schedules, and proximity detectors in other parts of the venue. By comparing probabilities generated from this disparate data, current and future wait times can be estimated and provided to front-end devices corresponding to guests or staff.",
+  "filing_date": "20160428",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE PRESENTLY CLAIMED INVENTION <EOH>A first claimed embodiment of the present invention involves a method for queue wait time estimation, and includes receiving mobile device location data associated with a plurality of guest mobile devices corresponding to a plurality of venue guests within a venue. The method also includes receiving event schedule data corresponding to schedules associated with a plurality of points of interest located within the venue. The method also includes generating an estimated wait time based at least on the received mobile device location data and the received event schedule data, the estimated wait time corresponding to a first point of interest of the plurality of points of interest. The method also includes transmitting a wait time dataset identifying the estimated wait time to a front-end device, thereby displaying the estimated wait time via the front-end device. A second claimed embodiment of the present invention concerns a system for queue wait time estimation that includes a communication transceiver receiving mobile device location data and event schedule data. The mobile device location data is associated with a plurality of guest mobile devices corresponding to a plurality of venue guests within a venue. The event schedule data corresponds to schedules associated with a plurality of points of interest located within the venue. The system also includes a memory. The system also includes a processor coupled to the memory and to the communication transceiver. Execution of instructions stored in the memory by the processor performs system operations. The system operations include generating an estimated wait time based at least on the received mobile device location data and the received event schedule data, the estimated wait time corresponding to a first point of interest of the plurality of points of interest. The system operations also include triggering transmission of a wait time dataset to a front-end devi...",
+  "date_published": "20161103",
+  "title": "INTELLIGENT PREDICTION OF QUEUE WAIT TIMES",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700",
+    "G06Q3002",
+    "H04W402"
+  ],
+  "_processing_info": {
+    "original_size": 60539,
+    "optimized_size": 3830,
+    "reduction_percent": 93.67
+  }
+}

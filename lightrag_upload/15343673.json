@@ -1,0 +1,81 @@
+{
+  "date_produced": "20170301",
+  "publication_number": "US20170076194A1-20170316",
+  "main_ipcr_label": "G06N300",
+  "decision": "PENDING",
+  "application_number": "15343673",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Versace",
+      "inventor_name_first": "Massimiliano",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Matus",
+      "inventor_name_first": "Roger",
+      "inventor_city": "Waltham",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Defreitas",
+      "inventor_name_first": "Alexandrea",
+      "inventor_city": "Warwick",
+      "inventor_state": "RI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Amadeo",
+      "inventor_name_first": "John Michael",
+      "inventor_city": "Mont Vernon",
+      "inventor_state": "NH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Seemann",
+      "inventor_name_first": "Tim",
+      "inventor_city": "Brookline",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Marsh",
+      "inventor_name_first": "Ethan",
+      "inventor_city": "Allston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ames",
+      "inventor_name_first": "Heather Marie",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "GORCHETCHNIKOV",
+      "inventor_name_first": "Anatoli",
+      "inventor_city": "Newton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Conventionally, robots are typically either programmed to complete tasks using a programming language (either text or graphical), shown what to do for repetitive tasks, or operated remotely by a user. The present technology replaces or augments conventional robot programming and control by enabling a user to define a hardware-agnostic brain that uses Artificial Intelligence (AI) systems, machine vision systems, and neural networks to control a robot based on sensory input acquired by the robot's sensors. The interface for defining the brain allows the user to create behaviors from combinations of sensor stimuli and robot actions, or responses, and to group these behaviors to form brains. An Application Program Interface (API) underneath the interface translates the behaviors' inputs and outputs into API calls and commands specific to particular robots. This allows the user to port brains among different types of robot to robot without knowing specifics of the robot commands.",
+  "filing_date": "20161104",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The apparatuses, methods, and systems described herein include a new robot/platform agnostic graphical user interface and underlying software engine to allow users to create autonomous behaviors in robots and robot workflow regardless of the robot's underlying hardware and/or software/operating system. The methods are based on a stimulus-response paradigm, where multiple stimuli, e.g., input from robot sensors and/or a change in a robot's state, such as but not limited to detection of a certain color or a face/object in the robot camera input image, the internal clock of the robot processor—e.g., an iPhone or Android phone—reaching a given time of the day, the movement of the phone as sampled by the robot accelerometer and gyro, the robot's position—e.g., being within particular range of a given GPS coordinate, or on a location of the robot internal map, and/or similar inputs —, can trigger a response,—e.g., an alert to the user, a pre-recorded set of movements, navigation towards a location in the robot internal map, a reaching/grasping of the robot, a synthetic speech output, and/or other actions by the robot. A special case of stimuli/responses is represented by those applications where artificial intelligence (AI) and machine vision algorithms (e.g., algorithms commonly available in software packages such as OpenCV—Open Computer Vision), such as but not limited to artificial neural networks (ANN) and their subclass Deep Neural Networks (DNN) are used to provide stimuli (e.g., visual/auditory/other sensory objects identification and classification, speech classification, spatial learning) and responses (e.g., reaching/grasping/navigation). In certain applications, a system may be comprised of several specialized systems or networks, each dedicated to a specific aspects of perception/robot control, or can be constituted by an integrated system, namely one system/network. An example network can include the following hardware and devices, each pot...",
+  "date_published": "20170316",
+  "title": "APPARATUSES, METHODS AND SYSTEMS FOR DEFINING HARDWARE-AGNOSTIC BRAINS FOR AUTONOMOUS ROBOTS",
+  "ipcr_labels": [
+    "G06N300",
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 122083,
+    "optimized_size": 4666,
+    "reduction_percent": 96.18
+  }
+}

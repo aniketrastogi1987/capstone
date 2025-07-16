@@ -1,0 +1,38 @@
+{
+  "date_produced": "20160706",
+  "publication_number": "US20160210556A1-20160721",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15002260",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BEN SIMHON",
+      "inventor_name_first": "Yoni Yom Tov",
+      "inventor_city": "Natanya",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "COHEN",
+      "inventor_name_first": "Ira",
+      "inventor_city": "Reut",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "A system includes a windowing module that divides time series data for each metric into portions. Each portion corresponds to a respective window of time. A hash module calculates a hash value for each of the portions for each of the metrics. An identification module compares the hash values for each pair of metrics and, for a selected pair of metrics, counts how many windows of time in which the hash values of the selected pair of metrics are equal. A pair is identified as a candidate pair in response to the count exceeding a threshold. A metric graph module creates a first edge in a graph based on the candidate pair of metrics. Each of the metrics is a node in the graph and direct relationships between each pair of the metrics are edges in the graph. An anomaly combination module analyzes an anomaly condition based on the graph.",
+  "filing_date": "20160120",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A system includes a windowing module configured to divide, for each metric of a plurality of metrics, time series data for values of the metric into a plurality of time series portions, each corresponding to a respective window of time. The system includes a hash module configured to calculate a hash value for each of the time series portions for each of the plurality of metrics. The system includes a candidate identification module configured to (i) compare the hash values for each pair of metrics from the plurality of metrics, (ii) for a selected pair of metrics, count for how many windows of time the hash values of the selected pair of metrics are equal to each other, and (iii) identify the pair of metrics as a candidate pair in response to the count exceeding a threshold. The system includes a metric relationship graph creation module configured to selectively create a first edge in a graph based on the candidate pair of metrics. Each of the plurality of metrics is a node in the graph and direct relationships between each pair of the plurality of metrics are edges in the graph. The system includes an anomaly combination module configured to analyze an anomaly condition based on the graph. In other features, the system includes a correlation module configured to compute a similarity value between the candidate pair of metrics. In other features, the similarity value is one of a Euclidean distance, a hamming distance, a cosine distance, and a correlation coefficient. In other features, the metric relationship graph creation module is configured to only create the first edge in the graph in response to the similarity value exceeding a threshold. In other features, the windows of time are equal in length. In other features, the hash module computes hash values using locality-sensitive hashing. In other features, the system includes a conditioning module logically positioned prior to the windowing module and configured to apply a low-pass filter to...",
+  "date_published": "20160721",
+  "title": "Heuristic Inference of Topological Representation of Metric Relationships",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N312"
+  ],
+  "_processing_info": {
+    "original_size": 99219,
+    "optimized_size": 3557,
+    "reduction_percent": 96.42
+  }
+}

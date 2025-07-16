@@ -1,0 +1,41 @@
+{
+  "patent_number": "None",
+  "application_number": "15792872",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "filing_date": "20171025",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for computing a layer output for a convolutional neural network layer, the method comprising: receiving a plurality of activation inputs; forming a plurality of vector inputs from the plurality of activation inputs, each vector input comprising values from a distinct region within the multi-dimensional matrix; sending the plurality of vector inputs to one or more cells along a first dimension of the systolic array; generating a plurality of rotated kernel structures from each of the plurality of kernel; sending each kernel structure and each rotated kernel structure to one or more cells along a second dimension of the systolic array; causing the systolic array to generate an accumulated output based on the plurality of value inputs and the plurality of kernels; and generating the layer output from the accumulated output.",
+  "publication_number": "US20180107921A1-20180419",
+  "summary": "<SOH> SUMMARY <EOH>In general, this specification describes a special-purpose hardware circuit that computes neural network inferences. In general, one innovative aspect of the subject matter described in this specification can be embodied in methods that include the actions of computing a layer output for a convolutional neural network layer from a layer input for the convolutional neural network layer using a two-dimensional systolic array, the convolutional neural network layer having a plurality of kernels, each kernel having a respective matrix structure of weights, the method comprising: receiving a plurality of activation inputs, the plurality of activation inputs represented as a multi-dimensional matrix; forming a plurality of vector inputs from the plurality of activation inputs, each vector input comprising values from a distinct region within the multi-dimensional matrix; sending the plurality of vector inputs to one or more cells along a first dimension of the systolic array; generating a plurality of rotated kernel structures from each of the plurality of kernels, where generating a particular rotated kernel structure comprises shifting elements in the respective matrix structure for the kernel along one dimension; sending each kernel structure and each rotated kernel structure to one or more cells along a second dimension of the systolic array; causing the systolic array to generate an accumulated output based on the plurality of value inputs and the plurality of kernels; and generating the layer output from the accumulated output. Implementations can include one or more of the following features. The first dimension of the systolic array corresponds to rows of the systolic array, and where the second dimension of the systolic array corresponds to columns of the systolic array. Sending the plurality of vector inputs to one or more cells comprises: sending, for a particular row of the systolic array, a respective element from each vector input to the p...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304",
+    "G06F1580",
+    "G06N308",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ross",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Thorson",
+      "inventor_name_first": "Gregory Michael",
+      "inventor_city": "Waunakee",
+      "inventor_state": "WI",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "ROTATING DATA FOR NEURAL NETWORK COMPUTATIONS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 73889,
+    "optimized_size": 3669,
+    "reduction_percent": 95.03
+  }
+}

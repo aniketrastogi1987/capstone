@@ -1,0 +1,44 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15296139",
+  "date_published": "20170209",
+  "date_produced": "20170125",
+  "title": "THRESHOLD FILTERING OF COMPRESSED DOMAIN DATA USING STEERING VECTOR",
+  "filing_date": "20161018",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SATPATHY",
+      "inventor_name_first": "SUDHIR K.",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MATHEW",
+      "inventor_name_first": "SANU K.",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KRISHNAMURTHY",
+      "inventor_name_first": "RAM K.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F7533"
+  ],
+  "main_ipcr_label": "G06F7533",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1A is a block diagram of an example processor in accordance with one or more embodiments. FIG. 1B is a schematic of the compressed domain threshold filter 110 in accordance with one or more embodiments. FIG. 1C is an example of a sample vector in accordance with one or more embodiments. FIG. 1D is an example of a steering vector in accordance with one or more embodiments. FIG. 1E is a sequence in accordance with one or more embodiments. FIG. 1F is a sequence in accordance with one or more embodiments. FIG. 2A is a block diagram of an example filtering accelerator in accordance with one or more embodiments. FIG. 2B is a block diagram of an example processor engine in accordance with one or more embodiments. FIG. 2C is a block diagram of an example filtering accelerator in accordance with one or more embodiments. FIG. 3A is a block diagram of a portion of a system in accordance with one or more embodiments. FIG. 3B is a block diagram of a multi-domain processor in accordance with one or more embodiments. FIG. 3C is a block diagram of a processor in accordance with one or more embodiments. FIG. 4 is a block diagram of a processor including multiple cores in accordance with one or more embodiments. FIG. 5 is a block diagram of a micro-architecture of a processor core in accordance with one or more embodiments. FIG. 6 is a block diagram of a micro-architecture of a processor core in accordance with one or more embodiments. FIG. 7 is a block diagram of a micro-architecture of a processor core in accordance with one or more embodiments. FIG. 8 is a block diagram of a micro-architecture of a processor core in accordance with one or more embodiments. FIG. 9 is a block diagram of a processor in accordance with one or more embodiments. FIG. 10 is a block diagram of a representative SoC in accordance with one or more embodiments. FIG. 11 is a block diagram of another example SoC in accordance with one or more embodiments. FIG. 1...",
+  "patent_number": "9965248",
+  "abstract": "In an embodiment, a processor includes a compression domain threshold filter coupled to a plurality of cores. The compression domain threshold filter is to: receive a sample vector of compressed data to be filtered; calculate, based at least on a first subset of the elements of the sample vector, an estimated upper bound value of a dot product of the sample vector and a steering vector; determine whether the estimated upper bound value of the dot product satisfies a filter threshold value; and in response to a determination that the estimated upper bound value of the dot product does not satisfy the filter threshold value, discard the sample vector without completion of a calculation of the dot product of the sample vector and the steering vector. Other embodiments are described and claimed.",
+  "publication_number": "US20170039034A1-20170209",
+  "_processing_info": {
+    "original_size": 135878,
+    "optimized_size": 3670,
+    "reduction_percent": 97.3
+  }
+}

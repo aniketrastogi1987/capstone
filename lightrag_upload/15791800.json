@@ -1,0 +1,44 @@
+{
+  "patent_number": "None",
+  "application_number": "15791800",
+  "date_published": "20180426",
+  "date_produced": "20180411",
+  "filing_date": "20171024",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A method and apparatus for generating optimized rules by comparing result data obtained using an existing rule set and result data obtained using a rule set learned through deep learning is provided. A rule generation method of a rule generation apparatus comprises obtaining first result data by executing a rule engine on input data based on a predetermined first rule set, generating a training rule set by analyzing the input data using a deep learning module, obtaining second result data by executing the rule engine on the input data based on the generated training rule set comparing the first result data and the second result data and based on a result of the comparison, updating the predetermined first rule set to a second rule set using the training rule set.",
+  "publication_number": "US20180114123A1-20180426",
+  "summary": "<SOH> SUMMARY <EOH>Exemplary embodiments of the present disclosure provide a rule generation method and apparatus using a deep learning technique. Specifically, exemplary embodiments of the present disclosure provide a method and apparatus for generating optimized rules by comparing result data obtained using an existing rule set and result data obtained using a rule set learned through deep learning. Exemplary embodiments of the present disclosure also provide a method and apparatus for converting multidimensional result data to one dimension for comparing result data obtained using an existing rule set and result data obtained using a rule set learned through deep learning. Specifically, exemplary embodiments of the present disclosure also provide a method and apparatus for determining the reliability of a rule set by plotting a one-dimensional graph based on result data obtained using the existing rule set and result data obtained using a rule set learned through deep learning. Exemplary embodiments of the present disclosure also provide a method and apparatus for generating optimized rules by reflecting analysis results obtained using various analytic functions in existing rules. However, exemplary embodiments of the present disclosure are not restricted to those set forth herein. The above and other exemplary embodiments of the present disclosure will become more apparent to one of ordinary skill in the art to which the present disclosure pertains by referencing the detailed description of the present disclosure given below. According to an exemplary embodiment of the present disclosure, According to the aforementioned and other exemplary embodiments of the present disclosure, a determination can be automatically made as to whether various complicated rule sets are erroneous by using deep learning. Also, a rule set can be optimized by deleting unnecessary rules therefrom according to changes in the business environment. Also, new rules can be learned by analyzi...",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "KIM",
+      "inventor_name_first": "Myung Soo",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "JEONG",
+      "inventor_name_first": "Tae Hwan",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHO",
+      "inventor_name_first": "Gyeong Seon",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "RULE GENERATION METHOD AND APPARATUS USING DEEP LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 60026,
+    "optimized_size": 3597,
+    "reduction_percent": 94.01
+  }
+}

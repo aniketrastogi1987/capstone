@@ -1,0 +1,30 @@
+{
+  "decision": "PENDING",
+  "application_number": "15158285",
+  "date_published": "20170629",
+  "date_produced": "20170614",
+  "title": "MEMORY SYSTEM AND OPERATING METHOD OF MEMORY SYSTEM",
+  "filing_date": "20160518",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BYUN",
+      "inventor_name_first": "Eu-Joon",
+      "inventor_city": "Gyeonggi-do",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments are directed to the provision of a memory system capable of minimizing the complexity of the memory system and a reduction of performance of the memory system and of stably processing data by maximizing the use efficiency of a memory device and an operating method of the memory system. In an embodiment, a memory system, may include: a memory device comprising a plurality of memory blocks; and a controller suitable for performing a command operation to the memory blocks, updating update parameters and erase cycles (ECs) of the memory blocks, selecting at least one source memory block based on the update parameters, selecting at least one target memory block based on the ECs, and performing at least one swap operation between the selected at least one or more source memory block and the selected at least one target memory block. The controller may select first and second source memory blocks having highest and lowest update parameter values among the memory blocks, respectively; and may select first and second target memory blocks having highest and lowest EC values among the memory blocks, respectively. The controller may further perform a first swap operation between the first source memory block and the second target memory block, and a second swap operation between the second source memory block and the first target memory block. The command operation may be at least one of an update read operation and an update program operation to the memory blocks, and the controller may update the update parameters of the memory blocks in an update list as a result of the command operation. The command operation may be an erase operation to the memory blocks, and the controller may update the ECs of the memory blocks in an erase list as a result of the command operation. The controller may store the update list and the erase list in a memory included therein. In an embodiment, an operating method of a memory system including a plurality o...",
+  "patent_number": "None",
+  "abstract": "The memory system, may include: a memory device comprising a plurality of memory blocks; and a controller suitable for performing a command operation to the memory blocks, updating update parameters and erase cycles (ECs) of the memory blocks, selecting at least one source memory block based on the update parameters, selecting at least one target memory block based on the ECs, and performing at least one swap operation between the selected at least one or more source memory block and the selected at least one target memory block.",
+  "publication_number": "US20170185295A1-20170629",
+  "_processing_info": {
+    "original_size": 80038,
+    "optimized_size": 3074,
+    "reduction_percent": 96.16
+  }
+}

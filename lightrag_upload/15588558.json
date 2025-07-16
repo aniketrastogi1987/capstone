@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15588558",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "filing_date": "20170505",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "An architecture and associated techniques of an apparatus for hardware accelerated machine learning are disclosed. The architecture features multiple memory banks storing tensor data. The tensor data may be concurrently fetched by a number of execution units working in parallel. Each operational unit supports an instruction set specific to certain primitive operations for machine learning. An instruction decoder is employed to decode a machine learning instruction and reveal one or more of the primitive operations to be performed by the execution units, as well as the memory addresses of the operands of the primitive operations as stored in the memory banks. The primitive operations, upon performed or executed by the execution units, may generate some output that can be saved into the memory banks. The fetching of the operands and the saving of the output may involve permutation and duplication of the data elements involved.",
+  "publication_number": "US20170323224A1-20171109",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The Detailed Description is set forth with reference to the accompanying figures. FIG. 1 is a top-level context diagram for Hardware Accelerated Machine Learning according to the present disclosure. FIG. 2 is a context diagram for a Machine Learning Acceleration Hardware according to the present disclosure. FIG. 3 is a block diagram of an example architecture of an apparatus for Hardware Accelerated Machine Learning according to the present disclosure. FIG. 4 is a block diagram of an example multicast network as coupled to memory banks and execution units according to the present disclosure. FIG. 5 is a flow chart for an exemplary operation of an indexing module according to the present disclosure. FIG. 6 is a block diagram of an example forward modulo permutation network according to the present disclosure. FIG. 7 is a block diagram of an example reverse modulo permutation network according to the present disclosure. FIG. 8 is a block diagram of an example dynamic random access memory (DRAM) bank read unit according to the present disclosure. FIG. 9 is a block diagram of an example dynamic random access memory (DRAM) tile read unit according to the present disclosure. FIG. 10 is a block diagram of an example DRAM bank write unit according to the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F758",
+    "G06F501"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bruestle",
+      "inventor_name_first": "Jeremy",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ng",
+      "inventor_name_first": "Choong",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "APPARATUS FOR HARDWARE ACCELERATED MACHINE LEARNING",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 105728,
+    "optimized_size": 3043,
+    "reduction_percent": 97.12
+  }
+}

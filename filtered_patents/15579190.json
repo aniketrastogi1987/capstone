@@ -1,0 +1,53 @@
+{
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wiebe",
+      "inventor_name_first": "Nathan",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kapoor",
+      "inventor_name_first": "Ashish",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Svore",
+      "inventor_name_first": "Krysta",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Granade",
+      "inventor_name_first": "Christopher",
+      "inventor_city": "Sydney",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    }
+  ],
+  "filing_date": "20171201",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700",
+    "G06N9900"
+  ],
+  "main_ipcr_label": "G06N502",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "publication_number": "US20180137422A1-20180517",
+  "title": "FAST LOW-MEMORY METHODS FOR BAYESIAN INFERENCE, GIBBS SAMPLING AND DEEP LEARNING",
+  "summary": "<SOH> SUMMARY <EOH>Methods of Bayes inference, training Boltzmann machines, and Gibbs sampling, and methods for other applications use rejection sampling in which a set of N samples is obtained from an initial distribution that is typically chosen so as to approximate a final distribution and be readily sampled. A corresponding set of N samples based on a model distribution is obtained, wherein N is a positive integer. A likelihood ratio of an approximation to the model distribution over the initial distribution is compared to a random variable, and samples are selected from the set of samples based on the comparison. In a representative application, a definition of a Boltzmann machine that includes a visible layer and at least one hidden layer with associated weights and biases is stored. At least one of the Boltzmann machine weights and biases is updated based on the selected samples and a set of training vectors. These and other features of the disclosure are set forth below with reference to the accompanying drawings.",
+  "application_number": "15579190",
+  "abstract": "Methods of training Boltzmann machines include rejection sampling to approximate a Gibbs distribution associated with layers of the Boltzmann machine. Accepted sample values obtained using a set of training vectors and a set of model values associate with a model distribution are processed to obtain gradients of an objective function so that the Boltzmann machine specification can be updated. In other examples, a Gibbs distribution is estimated or a quantum circuit is specified so at to produce eigenphases of a unitary.",
+  "decision": "PENDING",
+  "patent_number": "None",
+  "_processing_info": {
+    "original_size": 53782,
+    "optimized_size": 2586,
+    "reduction_percent": 95.19
+  }
+}

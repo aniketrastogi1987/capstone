@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15587803",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "filing_date": "20170505",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A recognition apparatus based on a deep neural network, a training apparatus and methods thereof. The deep neural network is obtained by inputting training samples comprising positive samples and negative samples into an input layer of the deep neural network and training. The apparatus includes: a judging unit configured to judge that a sample to be recognized is a suspected abnormal sample when confidences of positive sample classes in a classification result outputted by an output layer of the deep neural network are all less than a predefined threshold value. Hence, reliability of a confidence of a classification result outputted by the deep neural network may be efficiently improved.",
+  "publication_number": "US20170323202A1-20171109",
+  "summary": "<SOH> SUMMARY <EOH>Additional aspects and/or advantages will be set forth in part in the description which follows and, in part, will be apparent from the description, or may be learned by practice of the embodiments. When a DNN trained by using an existing training method is used to recognize, in a case where an input to-be-recognized sample is an abnormal sample, a confidence (such as 90% in FIG. 3 ) of a positive sample class in an output classification result is still very high, thereby resulting in the classification result being unreliable. Embodiments of this disclosure provide a recognition apparatus based on a deep neural network, a training apparatus and methods thereof, in which by inputting training samples including positive samples and negative samples into an input layer of the deep neural network and training and judging that a sample to be recognized is a suspected abnormal sample when confidences of outputted positive sample classes are all less than a predefined threshold value, reliability of a confidence of a classification result outputted by the deep neural network may be efficiently improved. According to a first aspect of the embodiments of this disclosure, there is provided a recognition apparatus based on a deep neural network, the deep neural network being obtained by inputting training samples including positive samples and negative samples into an input layer of the deep neural network and training, the apparatus including: a judging unit configured to judge that a sample to be recognized is a suspected abnormal sample when confidences of positive sample classes in a classification result outputted by an output layer of the deep neural network are all less than a predefined threshold value. According to a second aspect of the embodiments of this disclosure, there is provided a training apparatus for a deep neural network, including: an inputting unit configured to input training samples including positive samples and negative samples in...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Song",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Fan",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Sun",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "RECOGNITION APPARATUS BASED ON DEEP NEURAL NETWORK, TRAINING APPARATUS AND METHODS THEREOF",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 43950,
+    "optimized_size": 3553,
+    "reduction_percent": 91.92
+  }
+}

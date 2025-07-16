@@ -1,0 +1,32 @@
+{
+  "date_produced": "20160914",
+  "publication_number": "US20160283842A1-20160929",
+  "main_ipcr_label": "G06N308",
+  "decision": "ACCEPTED",
+  "application_number": "15178137",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Pescianschi",
+      "inventor_name_first": "Dmitri",
+      "inventor_city": "Darmstadt",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "A neural network includes a plurality of inputs for receiving input signals, and synapses connected to the inputs and having corrective weights established by a memory element that retains a respective weight value. The network additionally includes distributors. Each distributor is connected to one of the inputs for receiving the respective input signal and selects one or more corrective weights in correlation with the input value. The network also includes neurons. Each neuron has an output connected with at least one of the inputs via one synapse and generates a neuron sum by summing corrective weights selected from each synapse connected to the respective neuron. The output of each neuron provides the respective neuron sum to establish operational output signal of the network. A method of operating a neural network includes processing data thereby and using modified corrective weight values established by a separate analogous neural network during training thereof.",
+  "filing_date": "20160609",
+  "patent_number": "9619749",
+  "summary": "<SOH> SUMMARY <EOH>A neural network includes a plurality of network inputs, such that each input is configured to receive an input signal having an input value. The neural network also includes a plurality of synapses, wherein each synapse is connected to one of the plurality of inputs and includes a plurality of corrective weights, wherein each corrective weight is established by a memory element that retains a respective weight value. The neural network additionally includes a set of distributors. Each distributor is operatively connected to one of the plurality of inputs for receiving the respective input signal and is configured to select one or more corrective weights from the plurality of corrective weights in correlation with the input value. The neural network also includes a set of neurons. Each neuron has at least one output and is connected with at least one of the plurality of inputs via one of the plurality of synapses synapse and is configured to add up the weight values of the corrective weights selected from each synapse connected to the respective neuron and thereby generate a neuron sum. The output of each neuron provides the respective neuron sum to establish an operational output signal of the neural network. The neural network may also include a weight correction calculator configured to receive a desired output signal having a value, determine a deviation of the neuron sum from the desired output signal value, and modify respective corrective weight values established by the corresponding memory elements using the determined deviation. In such a case, adding up the modified corrective weight values to determine the neuron sum is intended to minimize the deviation of the neuron sum from the desired output signal value to thereby generate a trained neural network. The trained neural network can be configured to receive supplementary training using solely a supplementary input signal having a value and a corresponding supplementary desired output ...",
+  "date_published": "20160929",
+  "title": "NEURAL NETWORK AND METHOD OF NEURAL NETWORK TRAINING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N3063",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 139715,
+    "optimized_size": 3554,
+    "reduction_percent": 97.46
+  }
+}

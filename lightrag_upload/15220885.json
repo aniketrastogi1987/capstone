@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170119",
+  "publication_number": "US20170032246A1-20170202",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15220885",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KNITTEL",
+      "inventor_name_first": "ANTHONY",
+      "inventor_city": "Maroubra",
+      "inventor_state": "",
+      "inventor_country": "AU"
+    },
+    {
+      "inventor_name_last": "THI",
+      "inventor_name_first": "TUAN HUE",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method of training an artificial neural network. The method comprises: accessing the artificial neural network, the artificial neural network comprising a plurality of connections connecting nodes arranged in at least an initial and a subsequent layer, and receiving a training example for the artificial neural network, the training example having input values, a target, and an associated training salience value indicating an importance of the input values to determining the target of the artificial neural network. The method further comprises determining salience values for nodes of the initial layer from the training salience value of the received training example; determining an activation value for at least one node of the subsequent layer by propagating the input values using a subset of the connections, the subset of the connections being selected based on the determined salience values for the nodes of the initial layer; and training the artificial neural network using the dete...",
+  "filing_date": "20160727",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>It is an object of the present disclosure to substantially overcome, or at least ameliorate, at least one disadvantage of present arrangements. A first aspect of the present disclosure provides a method of training an artificial neural network, the method comprising: accessing the artificial neural network, the artificial neural network comprising a plurality of connections connecting nodes arranged in at least an initial and a subsequent layer; receiving a training example for the artificial neural network, the training example having input values, a target, and an associated training salience value indicating an importance of the input values to determining the target of the artificial neural network; determining salience values for nodes of the initial layer from the training salience value of the received training example; determining an activation value for at least one node of the subsequent layer by propagating the input values using a subset of the connections, the subset of the connections being selected based on the determined salience values for the nodes of the initial layer; and training the artificial neural network using the determined activation value, wherein the trained artificial neural network is configured to determine a relationship between the input data values and the target. In some arrangements, the artificial neural network comprises an input layer, and the determined salience values for the nodes in the initial layer are determined by propagating the received salience value using connections from the input layer to the initial layer. In some arrangements, the artificial neural network comprises an input layer, and the determined salience values for the nodes in the initial layer are determined by propagating the received salience value using connections from the input layer to the initial layer. In some arrangements, the artificial neural network has more than one subsequent layer. In some implementations, the method fu...",
+  "date_published": "20170202",
+  "title": "METHOD FOR TRAINING AN ARTIFICIAL NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 85408,
+    "optimized_size": 3696,
+    "reduction_percent": 95.67
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15614815",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "filing_date": "20170606",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Provided is a classification method based on a support vector machine, which is effective for a small amount of training data. The classification method based on a support vector machine includes building a first classification model by applying a weight value based on a geometrical distribution of an input feature vector, building a second classification model, based on a classification uncertainty of the input feature vector, and merging the first classification model and the second classification model to perform dual optimization.",
+  "publication_number": "US20180150766A1-20180531",
+  "summary": "<SOH> SUMMARY <EOH>Accordingly, the present invention provides an SVM-based classification method effective for a small amount of training data. The present invention also provides an SVM-based classification method which assigns a weight value based on a geometrical distribution of each of feature vectors and configures a final hyperplane by using a classification uncertainty of each feature vector, thereby enabling efficient classification by using a small amount of data. In one general aspect, a classification method based on a support vector machine includes building a first classification model by applying a weight value based on a geometrical distribution of an input feature vector, building a second classification model, based on a classification uncertainty of the input feature vector, and merging the first classification model and the second classification model to perform dual optimization. Other features and aspects will be apparent from the following detailed description, the drawings, and the claims.",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Min Kook",
+      "inventor_city": "Daegu",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KWON",
+      "inventor_name_first": "Soon",
+      "inventor_city": "Daegu",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "JUNG",
+      "inventor_name_first": "Woo Young",
+      "inventor_city": "Daegu",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "JUNG",
+      "inventor_name_first": "Hee Chul",
+      "inventor_city": "Daegu",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "CLASSIFICATION METHOD BASED ON SUPPORT VECTOR MACHINE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 21872,
+    "optimized_size": 2534,
+    "reduction_percent": 88.41
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "patent_number": "None",
+  "application_number": "15707064",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "filing_date": "20170918",
+  "main_ipcr_label": "G06N304",
+  "abstract": "The present disclosure provides systems and methods to reduce computational costs associated with convolutional neural networks. In addition, the present disclosure provides a class of efficient models termed “MobileNets” for mobile and embedded vision applications. MobileNets are based on a straight-forward architecture that uses depthwise separable convolutions to build light weight deep neural networks. The present disclosure further provides two global hyper-parameters that efficiently trade-off between latency and accuracy. These hyper-parameters allow the entity building the model to select the appropriately sized model for the particular application based on the constraints of the problem. MobileNets and associated computational cost reduction techniques are effective across a wide range of applications and use cases.",
+  "publication_number": "US20180137406A1-20180517",
+  "summary": "<SOH> SUMMARY <EOH>Aspects and advantages of embodiments of the present disclosure will be set forth in part in the following description, or can be learned from the description, or can be learned through practice of the embodiments. One example aspect of the present disclosure is directed to a computer-implemented method to reduce computational costs associated with convolutional neural networks. The method includes obtaining, by one or more computing devices, an existing convolutional neural network structure. The existing convolutional neural network structure includes one or more convolutional layers. Each of the one or more convolutional layers has a respective existing number of filters. The method includes receiving, by the one or more computing devices, a width multiplier value. The method includes determining, by the one or more computing devices, a respective reduced number of filters for each of the one or more convolutional layers based at least in part on the width multiplier value. The reduced number of filters for each convolutional layers is less than the existing number of filters for such convolutional layer. The method includes generating, by the one or more computing devices, a reduced convolutional neural network structure that has the existing convolutional neural network structure except that each of the one or more convolutional layers in the reduced convolutional neural network has the respective reduced number of filters determined for such convolutional layer. Another example aspect of the present disclosure is directed to a computer-implemented method to reduce computational cost associated with a convolutional neural network. The method includes obtaining, by the one or more computing devices, an input image that has an existing resolution. The method includes receiving, by the one or more computing devices, a resolution multiplier value. The method includes determining, by the one or more computing devices, a reduced resolution for the ...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "G06T732"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Howard",
+      "inventor_name_first": "Andrew Gerald",
+      "inventor_city": "Culver City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Bo",
+      "inventor_city": "Pasadena",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kalenichenko",
+      "inventor_name_first": "Dmitry",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Weyand",
+      "inventor_name_first": "Tobias Christoph",
+      "inventor_city": "Venice",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhu",
+      "inventor_name_first": "Menglong",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Andreetto",
+      "inventor_name_first": "Marco",
+      "inventor_city": "Pasadena",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Weijun",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Efficient Convolutional Neural Networks and Techniques to Reduce Associated Computational Costs",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 84357,
+    "optimized_size": 4353,
+    "reduction_percent": 94.84
+  }
+}

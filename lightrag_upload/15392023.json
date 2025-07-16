@@ -1,0 +1,51 @@
+{
+  "decision": "PENDING",
+  "application_number": "15392023",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "title": "METHODS AND SYSTEMS FOR SEARCHING",
+  "filing_date": "20161228",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Di",
+      "inventor_city": "Abu Dhabi",
+      "inventor_state": "",
+      "inventor_country": "AE"
+    },
+    {
+      "inventor_name_last": "Boyd",
+      "inventor_name_first": "Ivan",
+      "inventor_city": "Abu Dhabi",
+      "inventor_state": "",
+      "inventor_country": "AE"
+    },
+    {
+      "inventor_name_last": "Al-Rubaie",
+      "inventor_name_first": "Ahmad",
+      "inventor_city": "Abu Dhabi",
+      "inventor_state": "",
+      "inventor_country": "AE"
+    },
+    {
+      "inventor_name_last": "Ng",
+      "inventor_name_first": "Jason",
+      "inventor_city": "Abu Dhabi",
+      "inventor_state": "",
+      "inventor_country": "AE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>An exemplary embodiment of the invention provides a computer-implemented method of determining a compatible grouping within a plurality of items, the grouping meeting one or more objective criteria, wherein the inter-compatibility of said items is defined by a set of compatibility rules stored in a memory, the method including the steps of: applying the compatibility rules to the plurality of items to produce either: a) a relational matrix which sets out the compatibility or incompatibility between each item, or b) a relational graph, the vertices of which are the items and the edges of which represent compatibility between the items represented by the vertices at either end; storing the relational matrix or relational graph in a memory; and searching either said relational matrix or said relational graph to either: find a valid grouping of said items which meets said objective criteria and wherein all items within the grouping are compatible with each other according to said compatibility rules; or determine that no grouping exists which meets said objective criteria. A further exemplary embodiment of the invention provides a computer system for determining a compatible grouping within a plurality of items, the groupings meeting one or more objective criteria, wherein the inter-compatibility of said items is defined by a set of compatibility rules, the system including: a memory storing information about said plurality of items and said set of compatibility rules; and a processor which is arranged to process said information and said rules by: applying the compatibility rules to the plurality of items to produce either: a) a relational matrix which sets out the compatibility or incompatibility between each item, or b) a relational graph, the vertices of which are the items and the edges of which represent compatibility between the items represented by the vertices at either end and storing said matrix or said graph in a memory, s...",
+  "patent_number": "None",
+  "abstract": "This invention relates to methods and systems for searching. It is particularly applicable to methods of searching which enable efficient identification of compatible portfolios. Embodiments of the invention propose methods of searching which address the huge search space issue associated with identifying compatible portfolios. In particular, embodiments of the invention start their search operations simultaneously from both sides by both trying to form valid portfolios from candidate products until a valid solution is found and trying to find conflicts from the defined compatibility rules until a conflict is found which leads to the conclusion that no valid solution exists. A conclusion from either process will stop the whole searching process which can significantly reduce blind and unnecessary searching in the whole search space. In embodiments of the invention, the two sides of the search process are also connected in a way which permits two-way communications between the processes...",
+  "publication_number": "US20180181640A1-20180628",
+  "_processing_info": {
+    "original_size": 81880,
+    "optimized_size": 3947,
+    "reduction_percent": 95.18
+  }
+}

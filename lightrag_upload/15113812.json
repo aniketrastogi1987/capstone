@@ -1,0 +1,58 @@
+{
+  "decision": "PENDING",
+  "application_number": "15113812",
+  "date_published": "20161124",
+  "date_produced": "20161109",
+  "title": "METHOD OF FILE SYSTEM DESIGN AND FAILURE RECOVERY WITH NON-VOLATILE MEMORY",
+  "filing_date": "20160722",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Cheng",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "WEI",
+      "inventor_name_first": "Qingsong",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "YANG",
+      "inventor_name_first": "Jun",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Chundong",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    },
+    {
+      "inventor_name_last": "XUE",
+      "inventor_name_first": "Mingdi",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1114"
+  ],
+  "main_ipcr_label": "G06F1114",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>According to the Detailed Description, a method of rebooting a file system using a non-volatile memory is provided. The method comprises persistently storing critical information in the non-volatile memory, the critical information indicating a status of the file system; in response to a predetermined event, obtaining critical information of the file system stored in the non-volatile memory; determining if the file system has crashed based on the critical information; and rebooting from metadata in the non-volatile memory if it is determined that the file system has crashed. Additionally, in accordance with the detailed description, a non-transitory computer readable storage medium is provided. The a non-transitory computer readable storage medium includes a set of instructions executable by a processor, the non-transitory computer readable storage medium for rebooting a file system using a non-volatile memory, the set of instructions operable to: persistently store critical information in the non-volatile memory, the critical information indicating a status of the file system; in response to a predetermined event, obtain critical information of the file system stored in the non-volatile memory, determine if the file system has crashed based on the critical information; and reboot from metadata in the non-volatile memory if it is determined that the file system has crashed. Additionally, in accordance with the detailed description, a system for rebooting a file system is provided. The system comprises a non-volatile memory configured to persistently store critical information, the critical information indicating a status of the file system; a processor configured to obtain critical information of the file system stored in the non-volatile memory in response to a predetermined event; determine if the file system has crashed based on the critical information; and reboot from metadata in the non-volatile memory if it is determined that t...",
+  "patent_number": "None",
+  "abstract": "A method of rebooting a file system using a non-volatile memory is provided. The method comprising persistently storing critical information in the non-volatile memory, the critical information indicating a status of the file system; in response to a predetermined event, obtaining critical information of the file system stored in the non-volatile memory; determining if the file system has crashed based on the critical information; and rebooting from metadata in the non-volatile memory if it is determined that the file system has crashed.",
+  "publication_number": "US20160342479A1-20161124",
+  "_processing_info": {
+    "original_size": 56216,
+    "optimized_size": 3674,
+    "reduction_percent": 93.46
+  }
+}

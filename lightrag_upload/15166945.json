@@ -1,0 +1,30 @@
+{
+  "decision": "PENDING",
+  "application_number": "15166945",
+  "date_published": "20161208",
+  "date_produced": "20161122",
+  "title": "DATA CLASSIFICATION APPARATUS, NON-TRANSITORY COMPUTER-READABLE RECORDING MEDIUM STORING PROGRAM FOR DATA CLASSIFICATION, AND DATA CLASSIFICATION METHOD",
+  "filing_date": "20160527",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MARUHASHI",
+      "inventor_name_first": "Koji",
+      "inventor_city": "Hachioji",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>According to an aspect of the invention, a data classification apparatus includes a memory that stores a plurality of records, and a processor configured to acquire data including the plurality of records, each of the plurality of records including a plurality of types of variable values, generate a plurality of groups in which each of the plurality of records included in the acquired data is arranged, calculate a first evaluation value and a second evaluation value, the first evaluation value being calculated based on an arrangement status of the plurality of records when a first record arranged in a first group included in the plurality of groups is rearranged into a second group which is a new group that is not included in the plurality of groups, and the second evaluation value being calculated based on an arrangement status of the plurality of records when each record that is arranged in the first group is rearranged into either the first group or the second group, determine whether or not to rearrange the first record based on the first evaluation value and the second evaluation value, and rearrange the first record in a case in which it is determined that the first record is to be rearranged. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the invention, as claimed.",
+  "patent_number": "None",
+  "abstract": "A data classification apparatus includes an acquisition section for acquiring data including records; a classification section for classifying the records, wherein the classification section generates groups in which each of the records is arranged, calculates a first and a second evaluation values, determines whether or not to rearrange the first record based on the first and the second evaluation values, and performs rearrangement of the first record when it is determined that the first record is to be rearranged, the first evaluation value being based on an arrangement status of the records when a first record arranged in a first group in the groups is rearranged into a second group not included in the groups and the second evaluation value based on an arrangement status of the records when each record arranged in the first group is rearranged into either the first group or the second group.",
+  "publication_number": "US20160357846A1-20161208",
+  "_processing_info": {
+    "original_size": 158501,
+    "optimized_size": 3127,
+    "reduction_percent": 98.03
+  }
+}

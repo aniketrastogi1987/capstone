@@ -1,0 +1,45 @@
+{
+  "date_produced": "20160628",
+  "publication_number": "US20160203406A1-20160714",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15075351",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Attaluri",
+      "inventor_name_first": "Prabhakar",
+      "inventor_city": "Aurora",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Iqbal",
+      "inventor_name_first": "Mickey",
+      "inventor_city": "Tucker",
+      "inventor_state": "GA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lawrence",
+      "inventor_name_first": "Calvin D.",
+      "inventor_city": "Lithonia",
+      "inventor_state": "GA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A truth maintenance method and system. The method includes receiving by a computer processor from RFID tags embedded in sensors, event data associated with events detected by said sensors. The computer processor associates portions of the event data with associated RFID tags and derives assumption data associated with each portion of the portions. The computer processor retrieves previous assumption data derived from and associated with previous portions of previous event data retrieved from the RFID tags and executes non monotonic logic with respect to the assumption data and the previous assumption data. In response, the computer processor generates and stores updated assumption data associated with the assumption data and the previous assumption data.",
+  "filing_date": "20160321",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present invention provides a method comprising: receiving, by a computer processor of a computing device from RFID tags embedded in sensors, first event data associated with a first plurality of events detected by the sensors, the computer processor controlling a cloud hosted mediation system comprising an inference engine software application, a truth maintenance system database, and non monotonic logic; associating, by the computer processor, first portions of the first event data with associated RFID tags of the RFID tags; deriving, by the computer processor executing the inference engine software application, first assumption data associated with each portion of the first portions of the first event data; retrieving, by the computer processor from the truth maintenance system database, previous assumption data derived from and associated with previous portions of previous event data retrieved from the RFID tags embedded in the sensors, the previous assumption data derived at a time differing from a time of the deriving, the previous event data associated with previous events occurring at a different time from the first plurality of events; executing, by the computer processor, the non monotonic logic with respect to the first assumption data and the previous assumption data; generating, by the computer processor executing the non monotonic logic and the inference engine software application, first updated assumption data associated with the first assumption data and the previous assumption data; and storing, by the computer processor in the truth maintenance system database, the first assumption data and the first updated assumption data. The present invention provides a computer program product, comprising a computer readable storage medium having a computer readable program code embodied therein, the computer readable program code comprising an algorithm adapted to implement a method within a computing device, the method comprising: rece...",
+  "date_published": "20160714",
+  "title": "SENSOR BASED TRUTH MAINTENANCE",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 53704,
+    "optimized_size": 3590,
+    "reduction_percent": 93.32
+  }
+}

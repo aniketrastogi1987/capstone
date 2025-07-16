@@ -1,0 +1,52 @@
+{
+  "patent_number": "nan",
+  "application_number": "15848298",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20171220",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A convolutional neural network (CNN) processing method includes selecting a survival network in a precision convolutional network based on a result of performing a high speed convolution operation between an input and a kernel using a high speed convolutional network, and performing a precision convolution operation between the input and the kernel using the survival network.",
+  "publication_number": "US20180181858A1-20180628",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. In one general aspect, a processor-implemented convolutional neural network (CNN) processing method includes selecting a survival network in a precision convolutional network based on a result of performing a high speed convolution operation between an input and a kernel using a high speed convolutional network; and performing a precision convolution operation between the input and the kernel using the survival network. The selecting may include obtaining an index of an input element and an index of a kernel element based on the result of the high speed convolution operation, the input element and the kernel element each contributing to the precision convolution operation; and selecting the survival network based on the index of the input element and the index of the kernel element. The selecting may include obtaining an approximate output by performing the high speed convolution operation; selecting an output element contributing to the precision convolution operation from output elements of the approximate output; and backwardly selecting a survival network associated with the selected output element in the precision convolutional network. The selecting of the output element may include performing a rectified linear unit (ReLU) operation on the output elements of the approximate output using an ReLU layer; and selecting an output element having a non-zero value from output elements of a result of the ReLU operation. The selecting of the output element may include performing a comparison operation to determine whether the output elements of the approximate output exceed a threshold; and selecting an outpu...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SON",
+      "inventor_name_first": "Changyong",
+      "inventor_city": "Anyang-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "SON",
+      "inventor_name_first": "Jinwoo",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Chang Kyu",
+      "inventor_city": "Seongnam-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Jaejoon",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "CONVOLUTIONAL NEURAL NETWORK (CNN) PROCESSING METHOD AND APPARATUS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 119862,
+    "optimized_size": 3366,
+    "reduction_percent": 97.19
+  }
+}

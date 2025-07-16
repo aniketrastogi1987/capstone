@@ -1,0 +1,59 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344906A1-20171130",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15310330",
+  "inventor_list": [
+    {
+      "inventor_name_last": "WANG",
+      "inventor_name_first": "Shuqiang",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZENG",
+      "inventor_name_first": "Dewei",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SHEN",
+      "inventor_name_first": "Yanyan",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SHI",
+      "inventor_name_first": "Changhong",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "LU",
+      "inventor_name_first": "Zhe",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Optimization method and system for supervised learning under tensor mode is provided; wherein the method includes: receiving an input training tensor data set; introducing a within class scatter matrix into an objective function such that between class distance is maximized, at the same time, within class distance is minimized by the objective function; constructing an optimal frame of the objective function of an optimal projection tensor machine OPSTM subproblem; constructing an optimal frame of an objective function of an OPSTM problem; solving the revised dual problem and outputting alagrangian optimal combination and an offset scalar b; calculating a projection tensor W*; calculating a optimal projection tensor W; by the W together with the b, constructing a decision function; inputting to-be-predicted tensor data which has been rank-one decomposed into the decision function for prediction. This overcomes issues such as curse of dimensionality, over learning and small sample occur...",
+  "filing_date": "20161110",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>",
+  "date_published": "20171130",
+  "title": "OPTIMIZATION METHOD AND SYSTEM FOR SUPERVISED LEARNING UNDER TENSOR MODE",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1716"
+  ],
+  "_processing_info": {
+    "original_size": 62387,
+    "optimized_size": 2172,
+    "reduction_percent": 96.52
+  }
+}

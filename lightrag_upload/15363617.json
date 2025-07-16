@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180516",
+  "publication_number": "US20180150765A1-20180531",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15363617",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ahuja",
+      "inventor_name_first": "Shilpi",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bastidas",
+      "inventor_name_first": "Rafael J.Z.",
+      "inventor_city": "Caracas",
+      "inventor_state": "",
+      "inventor_country": "VE"
+    },
+    {
+      "inventor_name_last": "Gangadharaiah",
+      "inventor_name_first": "Rashmi",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Roth",
+      "inventor_name_first": "Mary A.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method of identifying location data in a data set comprises generating a data sample from the data set, training a plurality of models with the data sample to identify the location data in the data set, and applying the data set to the trained models to determine the location data within the data set. The plurality of models includes one or more first models to identify primary attributes of the location data indicating a geographical area and one or more second models to identify secondary attributes of the location data used to determine corresponding primary attributes.",
+  "filing_date": "20161129",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to one embodiment of the present invention, a method of identifying location data in a data set comprises generating a data sample from the data set, training a plurality of models with the data sample to identify the location data in the data set, wherein the plurality of models includes one or more first models to identify primary attributes of the location data indicating a geographical area and one or more second models to identify secondary attributes of the location data used to determine corresponding primary attributes, and applying the data set to the trained models to determine the location data within the data set. An advantage of this embodiment is that location data may be extracted from large data sets even if the data is not formatted in a normalized manner. Moreover, the method need not be domain specific, so models can be added, deleted, or updated as needed to support new attributes as well as new formats. According to another embodiment of the present invention, a system for identifying location data in a data set comprising at least one processor configured to generate a data sample from the data set, train a plurality of models with the data sample to identify the location data in the data set, wherein the plurality of models includes one or more first models to identify primary attributes of the location data indicating a geographical area and one or more second models to identify secondary attributes of the location data used to determine corresponding primary attributes, and apply the data set to the trained models to determine the location data within the data set. An advantage of this embodiment is that location data may be extracted from large data sets even if the data is not formatted in a normalized manner. Moreover, the system need not be domain specific, so models can be added, deleted, or updated as needed to support new attributes as well as new formats. According to yet another embodiment of the present...",
+  "date_published": "20180531",
+  "title": "METHOD TO DETERMINE COLUMNS THAT CONTAIN LOCATION DATA IN A DATA SET",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 71518,
+    "optimized_size": 3598,
+    "reduction_percent": 94.97
+  }
+}

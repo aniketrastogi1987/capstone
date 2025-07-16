@@ -1,0 +1,60 @@
+{
+  "patent_number": "None",
+  "application_number": "15713326",
+  "date_published": "20180329",
+  "date_produced": "20180315",
+  "filing_date": "20170922",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A behavior planner for a vehicle generates a plurality of conditional action sequences of the vehicle using a tree search algorithm and heuristics obtained from one or more machine learning models. Each sequence corresponds to a sequence of anticipated states of the vehicle. At least some of the action sequences are provided to a motion selector of the vehicle. The motion selector generates motion-control directives based on the received conditional action sequences and on data received from one or more sensors of the vehicle, and transmits the directives to control subsystems of the vehicle.",
+  "publication_number": "US20180089563A1-20180329",
+  "summary": "<SOH> SUMMARY OF EMBODIMENTS <EOH>Various embodiments of methods and apparatus for decision making to manage the trajectories or motions of an autonomous vehicle are described. According to one embodiment, the decision making components associated with an autonomous vehicle may comprise at least a behavior planner and a motion selector. One or both of the behavior planner and the motion selector may comprise respective sets of computing devices. The behavior planner may be configured to generate candidate sequences of conditional actions and associated anticipated state changes for the vehicle for some selected time horizons (e.g., on the order of tens of seconds, or a few minutes) in an iterative fashion, and provide at least some of the sequences generated during various planning iterations to the motion selector. The sequences may also be referred to as policies. An action may comprise, for example, an acceleration to a particular speed, a lane change, a deceleration to a particular speed, and so on, and may be associated with a brief time period of a few seconds. A given state may represent the positions, velocities, and/or other attributes of the autonomous vehicle being controlled, information about the road topology including lane lines, stop signs, road surface etc., as well as other vehicles and other entities in the external environment of the autonomous vehicle. A transition from one state to another, caused by a particular action taken in the first state of the two, may be associated with a conditional probability (as the action may potentially lead to several other next-states). In at least some embodiments, the behavior planner may be configured to utilize a decision tree-based technique, such as a variant of a Monte Carlo Tree Search algorithm, to generate the policies. In one embodiment, heuristics obtained from one or more machine learning models, such as deep neural network models, may be used to optimize execution of the decision-tree algorithms—e...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1730",
+    "G06N500"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Redding",
+      "inventor_name_first": "Joshua D.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Johnson",
+      "inventor_name_first": "Luke B.",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Levihn",
+      "inventor_name_first": "Martin",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Meuleau",
+      "inventor_name_first": "Nicolas F.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brechtel",
+      "inventor_name_first": "Sebastian",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "title": "DECISION MAKING FOR AUTONOMOUS VEHICLE MOTION CONTROL",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 106593,
+    "optimized_size": 3770,
+    "reduction_percent": 96.46
+  }
+}

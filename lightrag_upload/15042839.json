@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170316",
+  "publication_number": "US20170091667A1-20170330",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15042839",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YUKAWA",
+      "inventor_name_first": "Fumito",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A machine learning device and a machine learning method for optimizing timing at which a tool is to be compensated in a machine tool, and a machine tool including the machine learning device. The machine learning device includes a state observation unit for observing a time interval for compensating the tool, a processing error amount of a workpiece processed by the machine tool, and a machine working ratio of the machine tool as state variables, and a learning unit for learning an action value with respect to a change of a tool compensation interval based on the tool compensation interval, the processing error amount of a workpiece, and the machine working ratio that are observed by the state observation unit.",
+  "filing_date": "20160212",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Thus, an object of the present invention is to provide a machine learning device and a machine learning method that can optimize the frequency of a tool compensation of a machine tool, and a machine tool including the machine learning device. To achieve the above object, one aspect of the present invention provides a machine learning device for learning an action value with respect to a change of a tool compensation interval that is a time interval for compensating a tool in a machine tool, the device including: a state observation unit for observing the tool compensation interval of the machine tool, a processing error amount of a workpiece processed by the machine tool, and a machine working ratio of the machine tool as state variables; and a learning unit for learning by associating the tool compensation interval, the processing error amount, and the machine working ratio that are observed by the state observation unit with a change amount of the tool compensation interval. In a preferred embodiment, the learning unit includes a reward calculation unit for calculating a reward based on the tool compensation interval, the processing error amount of a workpiece, and the machine working ratio, and a function update unit for creating or updating an action value table based on the tool compensation interval, the processing error amount, the machine working ratio, and the reward. In a preferred embodiment, the machine learning device further includes a decision making unit for determining a change amount of the tool compensation interval based on the action value table. In a preferred embodiment, the reward calculation unit provides a negative reward when the processing error amount of a workpiece increases or the machine working ratio decreases, and provides a positive reward when the processing error amount of a workpiece decreases or the machine working ratio increases. In a preferred embodiment, the learning unit computes state v...",
+  "date_published": "20170330",
+  "title": "MACHINE LEARNING DEVICE AND METHOD FOR OPTIMIZING FREQUENCY OF TOOL COMPENSATION OF MACHINE TOOL, AND MACHINE TOOL HAVING THE MACHINE LEARNING DEVICE",
+  "ipcr_labels": [
+    "G06N9900",
+    "G05B19404"
+  ],
+  "_processing_info": {
+    "original_size": 48470,
+    "optimized_size": 3371,
+    "reduction_percent": 93.05
+  }
+}

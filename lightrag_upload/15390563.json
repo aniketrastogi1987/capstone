@@ -1,0 +1,47 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046897A1-20180215",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15390563",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KANG",
+      "inventor_name_first": "Junlong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Song",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Shan",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present invention relates to recurrent neural network. In particular, the present invention relates to how to implement and accelerate a recurrent neural network based on an embedded FPGA. Specifically, it proposes an overall design processing method of matrix decoding, matrix-vector multiplication, vector accumulation and activation function. In another aspect, the present invention proposes an overall hardware design to implement and accelerate the above process.",
+  "filing_date": "20161226",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In the present invention, we propose a method for implementing a Recurrent Neural Network (RNN), wherein the weight matrices of said RNN comprises W hh , where W hh is the weight matrix in hidden layers, and W hx , where W hx is the weigh matrix connecting the inputs to the hidden layer, the input sequence is x=(x 1 , x 2 , . . . , x T ), said method comprising: Initial Step: initialize the data, namely, read all the necessary data for computing W hx x into FPGA on-chip memory, including input vector x and all the information about W hx , which is the corresponding weight matrix of input vector x; Step 1: Processing elements (PE) start to compute W hx x, meanwhile the system reads all the necessary data for computing W hh x into FPGA on-chip memory; Step 2: PEs starts to compute W hh h t−1 , where h t−1 is the hidden layer activation of the preceding input vector, meanwhile system reads all the necessary data for computing the next W hx x into FPGA on-chip memory; Process the above Step 1 and Step 2 iteratively. Further, said Step 1 and Step 2 comprises: when computing the matrix-vector multiplication on the present input vector, system computes the activation and RNN output of the preceding input vector. According to another aspect of the invention, we propose a method for implementing compressed RNN based on FPGA, the method comprising the following steps: a) receiving data from off-chip memory and storing the data into on-chip memory of FPGA, wherein said data are related to RNN computation, including input vector, bias vector and weight matrices data; b) decoding the data received in Step a) using FPGA on-chip processor to obtain the real weights, and storing the real weight into FPGA on-chip memory; c) matrix computation, namely, performing matrix-vector multiplication using FPGA on-chip processor and storing the result into FPGA on-chip memory; d) vector accumulation, namely, performing vector accumulation using FPGA on-chip processor and st...",
+  "date_published": "20180215",
+  "title": "HARDWARE ACCELERATOR FOR COMPRESSED RNN ON FPGA",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F7523",
+    "G06F7501",
+    "G06F1716"
+  ],
+  "_processing_info": {
+    "original_size": 57098,
+    "optimized_size": 3325,
+    "reduction_percent": 94.18
+  }
+}

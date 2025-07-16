@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15785413",
+  "date_published": "20180208",
+  "date_produced": "20180124",
+  "filing_date": "20171016",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A processing system that processes parameters of a plurality of artificial neurons and artificial synapses constituting a neural network, the processing system including: a storing unit storing definition information defining a state of a control target for each artificial neuron of the plurality of artificial neurons; a processing unit processing parameter values of each artificial neuron of the plurality of artificial neurons and parameter values of one or more artificial synapses connected to inputs of each artificial neuron using a data access structure accessible data unit by data unit, the data unit being collective for each artificial neuron; and an operation determining unit determining operation of the control target based on: an activation state of at least some artificial neurons of the plurality of artificial neurons specified by parameter values of the at least some artificial neurons; and a state defined by the at least some artificial neurons.",
+  "publication_number": "US20180039880A1-20180208",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 schematically shows one example of a system 20 according to the present embodiment. FIG. 2 schematically shows a block configuration of a server 200 , a user terminal 100 and a robot 40 . FIG. 3 schematically shows a neural network 300 . FIG. 4 schematically shows a parameter edit screen displayed on the user terminal 100 . FIG. 5 schematically shows an operation flow of the server 200 performed when the robot 40 is activated or reset. FIG. 6 is a figure for schematically explaining calculation of a coefficient of connection of an artificial synapse. FIG. 7 schematically shows time evolution of a coefficient of connection in a case where a function h t ij is defined as an increase-decrease parameter of the coefficient of connection. FIG. 8 schematically shows time evolution of a coefficient of connection observed when simultaneous firing occurs further at a clock time t 2 . FIG. 9 schematically shows another example of an increase-decrease function of a coefficient of connection. FIG. 10 schematically shows influence definition information defining chemical influence on a parameter. FIG. 11 shows a flowchart about calculation of an output and status. FIG. 12 is a figure for schematically explaining an example about calculation of an output in a case where an artificial neuron does not fire. FIG. 13 is a figure for schematically explaining an example about calculation of an output in a case where an artificial neuron fires. FIG. 14 schematically shows time evolution of a coefficient of connection in a case where a function is defined as an increase-decrease parameter of an artificial neuron. FIG. 15 schematically shows another example of a function as an increase-decrease parameter. FIG. 16 schematically shows an example of a screen of a parameter viewer displayed on the user terminal 100 . FIG. 17 schematically shows a screen presented if a neural network is to be edited graphically. FIG. 18 is one example of an ed...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N3063"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "TSUTSUI",
+      "inventor_name_first": "Takashi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TOMONAGA",
+      "inventor_name_first": "Kosuke",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MIHIRA",
+      "inventor_name_first": "Yuma",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "PROCESSING SYSTEM AND COMPUTER-READABLE MEDIUM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 99134,
+    "optimized_size": 3797,
+    "reduction_percent": 96.17
+  }
+}

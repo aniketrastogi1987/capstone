@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15556375",
+  "date_published": "20180208",
+  "date_produced": "20180124",
+  "filing_date": "20170907",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "There is provided a method for implementing an algorithm for forming, or synthesizing, quantum circuits on a system capable of performing the quantum circuit synthesis by using a deterministic walk (i.e. a pseudo-random walk with a random or pseudo-random starting point). In one implementation, the deterministic walk is performed using a parallel search algorithm. In an implementation of the parallel search algorithm, a user utilizes a programming language to write instructions for a compiler. Then, a meet in the middle approach is utilized to separate the circuit into two halves. Next, the parallel search technique is used to find a claw, or a pair, which satisfies the circuit analysis. Subsequently there is the production of a result and/or a synthesis of the circuit if the pair is found.",
+  "publication_number": "US20180039903A1-20180208",
+  "summary": "<SOH> SUMMARY <EOH>A method is provided that permits an accurate and efficient synthesis of quantum circuits in a manner that is also applicable to more than one qubit, and can minimize the use of expensive quantum resources. Accordingly, there is provided a method for implementing an algorithm for forming, or synthesizing, quantum circuits on a system capable of performing the quantum circuit synthesis by using a deterministic walk (i.e. a pseudo-random walk with a random or pseudo-random starting point). In one implementation, the deterministic walk is performed using a parallel search algorithm. In an implementation of the parallel search algorithm, a user utilizes a programming language to write instructions for a compiler. Then, a meet in the middle approach is utilized to separate the circuit into two halves. Next, the parallel search technique is used to find a claw, or a pair, which satisfies the circuit analysis. Subsequently there is the production of a result and/or a synthesis of the circuit if the pair is found. In one aspect, there is provided a method for implementing an algorithm for synthesizing quantum circuits, the method comprising: performing one or more deterministic walks on a search space; and performing a circuit synthesis according to results of the one or more deterministic walks. The method can include determining a smaller search space or a collection of search spaces. In another aspect, there is provided a method for synthesizing quantum circuits, the method comprising the steps of: generating a starting point; mapping the starting point to a candidate matrix; applying a hash function to the candidate matrix to generate a new point; determining if the new point is a distinguished point; creating a distinguished point structure; storing the distinguished point structure; and finding a merging of trails with matrices of two different types. In other aspects, there are provided systems and computer readable medium for implementing these me...",
+  "ipcr_labels": [
+    "G06N9900",
+    "B82Y1000"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MOSCA",
+      "inventor_name_first": "Michele",
+      "inventor_city": "Kitchener",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "DI MATTEO",
+      "inventor_name_first": "Olivia Nicole",
+      "inventor_city": "Waterloo",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "Quantum Circuit Synthesis Using Deterministic Walks",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 55060,
+    "optimized_size": 3507,
+    "reduction_percent": 93.63
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "decision": "PENDING",
+  "application_number": "15014627",
+  "date_published": "20170803",
+  "date_produced": "20170719",
+  "title": "INTERPRETING USER EXPRESSION BASED ON CAPTURED BIOMETRIC DATA AND PROVIDING SERVICES BASED THEREON",
+  "filing_date": "20160203",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kohli",
+      "inventor_name_first": "Manoneet",
+      "inventor_city": "O'Fallon",
+      "inventor_state": "MO",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06Q2040",
+    "H04W1206"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Features and advantages of some embodiments, and the manner in which the same are accomplished, will become more readily apparent with reference to the following detailed description taken in conjunction with the accompanying drawings, which illustrate exemplary embodiments, wherein: FIG. 1 is a block diagram of an example of a transaction system operable for interpreting biometric data captured during a transaction to determine user expression and for determining whether or not to authenticate the user and/or to provide targeted and/or value added services in accordance with an embodiment of the disclosure; FIG. 2 is a block diagram of an embodiment of a user mobile device illustrating some hardware aspects utilized to authenticate users and/or to provide additional processing in accordance with some embodiments of the disclosure; FIG. 3 illustrates a user enrollment process in accordance with some embodiments of the disclosure; FIG. 4 is a flowchart illustrating an entity enrollment process according to some embodiments of the disclosure; FIGS. 5A and 5B form a flowchart illustrating a user expression authentication and services process in accordance with some embodiments of the disclosure; and FIGS. 6A and 6B form a flowchart illustrating another user expression authentication process in accordance with some embodiments of the disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "Methods and systems for authenticating a user based on user expression. In some embodiments, an authentication service computer receives a user authentication request during a transaction, determines that the user is enrolled in a user expression authentication service, and transmits a prompt message for biometric data to a user device of the user. The authentication service computer then determines that received biometric data matches stored biometric data associated with the user indicating at least one type of user expression, generates a risk score when the user expression is fear and stress, and transmits a positive user authentication response to an entity computer when the risk score is less than a predetermined threshold value (or when the user expression indicates happiness or confidence). However, a transaction decline message is transmitted to the entity computer when the risk score exceeds the predetermined threshold value.",
+  "publication_number": "US20170223017A1-20170803",
+  "_processing_info": {
+    "original_size": 75985,
+    "optimized_size": 3039,
+    "reduction_percent": 96.0
+  }
+}

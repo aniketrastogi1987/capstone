@@ -1,0 +1,54 @@
+{
+  "date_produced": "20171213",
+  "publication_number": "US20170372190A1-20171228",
+  "main_ipcr_label": "G06N300",
+  "decision": "PENDING",
+  "application_number": "15194758",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bishop",
+      "inventor_name_first": "Timothy A.",
+      "inventor_city": "Minneapolis",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Boxwell",
+      "inventor_name_first": "Stephen A.",
+      "inventor_city": "Columbus",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Brumfield",
+      "inventor_name_first": "Benjamin L.",
+      "inventor_city": "Cedar Park",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vernier",
+      "inventor_name_first": "Stanley J.",
+      "inventor_city": "Grove City",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Mechanisms are provided for implementing a proximity based candidate answer pre-processor engine that outputs a sub-set of candidate answers to a question and answer (QA) system. The mechanisms receive a lexical answer type (LAT) and an entity specified in an input natural language question as well as an ontology data structure representing a corpus of natural language content. The mechanisms identify a set of candidate answers having associated nodes in the ontology data structure that are within a predetermined proximity of a node corresponding to the entity, and a sub-set of candidate answers in the set of candidate answers having an entity type corresponding to the LAT. The mechanisms output, to the QA system, the sub-set of candidate answers as candidate answers to the input natural language question for evaluation and selection of a final answer to the input natural language question.",
+  "filing_date": "20160628",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one illustrative embodiment, a method is provided, in a data processing system comprising at least one processor and at least one memory, wherein the at least one memory comprises instructions that are executed by the at least one processor to configure the data processing system to implement a proximity based candidate answer pre-processor engine that outputs a sub-set of candidate answers to a question and answer (QA) system. The method comprises receiving, by the proximity based candidate answer pre-processor engine of the data processing system, a lexical answer type (LAT) and an entity specified in an input natural language question. The method also comprises receiving, by the proximity based candidate answer pre-processor engine, an ontology data structure representing a corpus of natural language content. In addition, the method comprises identifying, by the proximity based candidate answer pre-processor engine, a set of candidate answers having associated nodes in the ontology data structure that are within a predetermined proximity of a node corresponding to the entity. Furthermore, the method comprises identifying, by the proximity based candidate answer pre-processor engine, a sub-set of candidate answers in the set of candidate answers having an entity type corresponding to the LAT. Moreover, the method comprises outputting, by the proximity based candidate answer pre-processor engine, to the QA system, the sub-set of candidate answers as candidate answers to the input natural language question for evaluation and selection of a final answer to the input natural language question. As a result, the illustrative embodiment reduces the time and resources required to evaluate an input question by focusing candidate answer evaluation to a sub-set of candidate answers that have nodes in an ontology that are within a proximity of a node corresponding to an entity in the input question, which is indicative of a close relationship with the en...",
+  "date_published": "20171228",
+  "title": "LAT Based Answer Generation Using Anchor Entities and Proximity",
+  "ipcr_labels": [
+    "G06N300",
+    "G06F1727",
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 125961,
+    "optimized_size": 3956,
+    "reduction_percent": 96.86
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "date_produced": "20170125",
+  "publication_number": "US20170039486A1-20170209",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15209163",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SIMARD",
+      "inventor_name_first": "Patrice Y.",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHICKERING",
+      "inventor_name_first": "David Max",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "GRANGIER",
+      "inventor_name_first": "David G.",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LAKSHMIRATAN",
+      "inventor_name_first": "Aparna",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "AMERSHI",
+      "inventor_name_first": "Saleema A.",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A collection of data that is extremely large can be difficult to search and/or analyze. Relevance may be dramatically improved by automatically classifying queries and web pages in useful categories, and using these classification scores as relevance features. A thorough approach may require building a large number of classifiers, corresponding to the various types of information, activities, and products. Creation of classifiers and schematizers is provided on large data sets. Exercising the classifiers and schematizers on hundreds of millions of items may expose value that is inherent to the data by adding usable meta-data. Some aspects include active labeling exploration, automatic regularization and cold start, scaling with the number of items and the number of classifiers, active featuring, and segmentation and schematization.",
+  "filing_date": "20160713",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Relevance of search results may be dramatically improved if queries and web pages could be automatically classified in useful categories, such as stock quotes or restaurants, and if these classification scores were used as relevance features. A thorough approach might require building a large number of classifiers, corresponding to the various types of information, activities, and products. The number of classifiers might be further multiplied by the number of language and the number of context (queries, web pages, ad snippets, product feeds, etc). It is desirable to bring computer accuracy in classification and schematization tasks to human levels, and to make it easy for ordinary people to create computer clones of themselves to perform such tasks at scale. As one example, a tool could be provided that is optimized to allow the creation of classifiers and schematizers on large data sets in a matter of hours. When the classifiers and schematizers are exercised on hundreds of millions of items, they may expose the value that is inherent to the data by adding usable metadata. Some applications of such a tool include search, advertising, and commerce. The term schematization as used herein refers to the action of identifying and filling the fields of a Schema. For example, the schema of a recipe could be made of four fields: Title, Description, Ingredients, and Directions. The schematization of a web page for the recipe schema is the action of segmenting the page into one or more instances of the recipe schema and filling the fields accordingly. Internet search engines have built hundreds of classifiers and entity extractors in an attempt to understand queries, web pages, and ads. Unfortunately, the efficacy of the current approaches is limited by the number of machine-learning experts, the number of programmers, and the complexity of the tasks. Humans are excellent at extracting semantic meaning from data. This is especially true when the data was ...",
+  "date_published": "20170209",
+  "title": "ACTIVE FEATURING IN COMPUTER-HUMAN INTERACTIVE LEARNING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06F1730",
+    "G06F30482"
+  ],
+  "_processing_info": {
+    "original_size": 197896,
+    "optimized_size": 4033,
+    "reduction_percent": 97.96
+  }
+}

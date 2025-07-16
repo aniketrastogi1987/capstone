@@ -1,0 +1,37 @@
+{
+  "date_produced": "20180608",
+  "publication_number": "US20180174050A1-20180621",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15380399",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Holt",
+      "inventor_name_first": "Jason E.",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Herreshoff",
+      "inventor_name_first": "Marcello",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The present disclosure provides systems and methods that enable adaptive training of a channel coding model including an encoder model, a channel model positioned structurally after the encoder model, and a decoder model positioned structurally after the channel model. The channel model can have been trained to emulate a communication channel, for example, by training the channel model on example data that has been transmitted via the communication channel. The channel coding model can be trained on a loss function that describes a difference between input data input into the encoder model and output data received from the decoder model. In particular, such a loss function can be backpropagated through the decoder model while modifying the decoder model, backpropagated through the channel model while the channel model is held constant, and then backpropagated through the encoder model while modifying the encoder model.",
+  "filing_date": "20161215",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Aspects and advantages of embodiments of the present disclosure will be set forth in part in the following description, or can be learned from the description, or can be learned through practice of the embodiments. One example aspect of the present disclosure is directed to a computing system to perform machine learning. The computing system includes at least one processor and at least one tangible, non-transitory computer-readable medium that stores instructions that, when executed by the at least one processor, cause the computing system to obtain data descriptive of a model that comprises an encoder model, a channel model and a decoder model. The encoder model is configured to receive a first set of inputs and, in response to receipt of the first set of inputs, generate a first set of outputs. The channel model is configured to receive the first set of outputs and, in response to receipt of the first set of outputs, generate a second set of outputs. The decoder model is configured to receive the second set of outputs and, in response to receipt of the second set of outputs, generate a third set of outputs. The instructions further cause the computing system to determine a first loss function that describes a difference between the first set of inputs and the third set of outputs. The instructions further cause the computing system to backpropagate the first loss function through the decoder model while modifying the decoder model to train the decoder model. The instructions further cause the computing system to after backpropagating the first loss function through the decoder model, continue to backpropagate the first loss function through the channel model without modifying the channel model. The instructions further cause the computing system to after backpropagating the first loss function through the channel model, continue to backpropagate the first loss function through the encoder model while modifying the encoder model to train the enco...",
+  "date_published": "20180621",
+  "title": "Adaptive Channel Coding Using Machine-Learned Models",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 99444,
+    "optimized_size": 3634,
+    "reduction_percent": 96.35
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344893A1-20171130",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15163701",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Adi",
+      "inventor_name_first": "Asaf",
+      "inventor_city": "Qiryat Ata",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Limonad",
+      "inventor_name_first": "Lior",
+      "inventor_city": "Nesher",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Mashkif",
+      "inventor_name_first": "Nir",
+      "inventor_city": "Ein Carmel",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Wasserkrug",
+      "inventor_name_first": "Segev E.",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Zadorojniy",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Zeltyn",
+      "inventor_name_first": "Sergey",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "Embodiments of the present invention may provide the capability to detect complex events while providing improved detection and performance. In an embodiment of the present invention, a method for detecting an event may comprise receiving data representing measurement or detection of physical parameters, conditions, or actions, quantizing the received data and selecting a number of samples from the quantized data, generating a hidden Markov model representing events to be detected using initial model values based on ideal conditions, wherein a desired output is defined as a sequence of states, and wherein a number of states of the hidden Markov model is less than or equal to the number of samples of the quantized data, adjusting the quantized data and the initial model values to improve accuracy of the model, determining a state sequence of the hidden Markov model, and outputting an indication of a detected event.",
+  "filing_date": "20160525",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention may provide the capability to detect complex events while providing improved detection and performance. Such techniques may include detecting complex events using hidden Markov models (HMM). In an embodiment of the present invention, a method for detecting an event may comprise receiving data representing measurement or detection of physical parameters, conditions, or actions, quantizing the received data and selecting a number of samples from the quantized data, generating an HMM representing events to be detected using, wherein a desired event is represented by a sequence of states, wherein a number of states of the hidden Markov model is less than or equal to the number of samples of the quantized data, and wherein the model is generated using initial model values, states, and connections based on ideal conditions so as to reduce the impact of uncertainty in state identification in the model, adjusting the quantized data and the initial model values to improve accuracy of the model, determining a state sequence of the HMM, and outputting an indication of a detected event. The initial model values may be determined for a transition probability matrix and an emissions matrix of the HMM. The initial model values may be adjusted by adjusting values of the transition probability matrix and the emissions probability matrix. The values of the transition probability matrix and the emissions probability matrix may be adjusted using a Baum-Welch algorithm. The state sequence of the HMM may be determined by determining a most likely sequence of states. The most likely sequence of states may be determined using a Viterbi algorithm. The defined sequence of states may comprise both a sequence of distinct states and states including repetitions. The number of states of the HMM may be less than the number of samples of the quantized data. The model may be generated so as to be fully observable. In an embodiment of the prese...",
+  "date_published": "20171130",
+  "title": "Method for Complex Events Detection using Hidden Markov Models",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 46752,
+    "optimized_size": 4193,
+    "reduction_percent": 91.03
+  }
+}

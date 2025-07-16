@@ -1,0 +1,59 @@
+{
+  "date_produced": "20170927",
+  "publication_number": "US20170293839A1-20171012",
+  "main_ipcr_label": "G06N312",
+  "decision": "PENDING",
+  "application_number": "15094521",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Thompson",
+      "inventor_name_first": "Timothy Guy",
+      "inventor_city": "Purcellville",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ferringer",
+      "inventor_name_first": "Matthew Phillip",
+      "inventor_city": "Round Hill",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Clifton",
+      "inventor_name_first": "Ronald Scott",
+      "inventor_city": "Leesburg",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Horan",
+      "inventor_name_first": "Catherine F.",
+      "inventor_city": "Clifton",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Hanifen",
+      "inventor_name_first": "Kyle D.",
+      "inventor_city": "Vienna",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems and methods are provided to engage in multi-objective optimization where there may be potential solutions for evaluation (e.g., chromosomes) that each have one or more conditional genes. The value of each of the conditional genes in each of the chromosomes may be equivalent to one of a plurality of hidden genes in each of the chromosomes. The value of each of the conditional genes may be evaluated prior to determining objective values of each of the chromosomes. The objective values of each of the chromosomes may be used to evaluate the potential solutions embodied in the chromosomes and further drive to more optimized solutions. The use of the conditional genes in the chromosomes may reduce the amount of constraint violation checks that may need to be performed.",
+  "filing_date": "20160408",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Reference will now be made to the accompanying drawings, which are not necessarily drawn to scale, and wherein: FIG. 1 is a schematic diagram that illustrates an example environment with input parameters and optimized solutions based on one or more objective models and/or constraint models of a multi-objective heuristic system in the form of an evolutionary algorithm (MOEA) system using conditional genes, in accordance with example embodiments of the disclosure. FIG. 2A is a flow diagram that illustrates an example method of determining a value of a conditional gene by selecting a hidden gene, in accordance with example embodiments of the disclosure. FIG. 2B is a table that illustrates a conditional gene that depends on an independent gene, in accordance with example embodiments of the disclosure. FIG. 2C is a table that illustrates a two different conditional genes that depends on a single independent gene, in accordance with example embodiments of the disclosure. FIG. 2D is a table that illustrates a conditional gene that depends on two different independent genes, in accordance with example embodiments of the disclosure. FIG. 2E is a table that illustrates a conditional gene that depend on an independent gene and a nested conditional gene that depends on the conditional gene, in accordance with example embodiments of the disclosure. FIG. 3 is a block diagram that illustrates an example objective optimization engine of the example MOEA system using conditional genes of FIG. 1 , in accordance with example embodiments of the disclosure. FIGS. 4A and 4B are charts illustrating an example pareto-optimized solution to a multi-objective problem, in accordance with example embodiments of the disclosure. FIG. 5 is a flow diagram that illustrates an example method for performing a function evaluation of a chromosome having conditional genes, in accordance with example embodiments of the disclosure. FIG. 6 is a flow diagram that ...",
+  "date_published": "20171012",
+  "title": "Systems and Methods for Multi-Objective Heuristics with Conditional Genes",
+  "ipcr_labels": [
+    "G06N312",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 126742,
+    "optimized_size": 3974,
+    "reduction_percent": 96.86
+  }
+}

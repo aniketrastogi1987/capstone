@@ -1,0 +1,31 @@
+{
+  "date_produced": "20161005",
+  "publication_number": "US20160307115A1-20161020",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "15187571",
+  "inventor_list": [
+    {
+      "inventor_name_last": "WU",
+      "inventor_name_first": "Xiaoping",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "Method and device of selecting training parameters for training a model are disclosed. The method includes: (1) setting a precision requirement for the model, and a first parameter value interval defined by an upper limit and a lower limit; (2) obtaining a first value point and a second value point within the first parameter value interval; (3) obtaining and comparing respective first and second error rates by respectively setting the training parameter at the first and second value points for the model; (4) updating three values out of the upper limit, the lower limit, the first value point and the second value point; (5) repeating steps (3) and (4), until the precision requirement is net by the respective first and second value points; and (6) obtaining the optimal value of the training parameter.",
+  "filing_date": "20160620",
+  "patent_number": "9892368",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with some implementations of the disclosed technology, a method of selecting training parameters for training a model is disclosed. The method comprises: (1) setting a precision requirement for the model, and a first parameter value interval defined by an upper limit and a lower limit, the first parameter value interval being set wide enough to include an optimal value of a training parameter; (2) obtaining a first value point and a second value point within the first parameter value interval in accordance with a first predetermined formula, wherein the first value point is smaller than the second value point; (3) obtaining and comparing respective first and second error rates of the model by respectively setting the training parameter at the first and second value points for the model; (4) in accordance with a respective comparison result of comparing the respective first and second error rates, updating three values out of the upper limit, the lower limit, the first value point and the second value point, resulting in decreasing the first parameter value interval and a distance between the first value point and the second value point, wherein a relative order of the lower limit, the first value point, the second value point and the upper limit remains unchanged by the updating; (5) repeating steps (3) and (4), until the precision requirement is met by the respective first and second value points; and (6) when the precision requirement is met by the respective first and second error rates, obtaining the optimal value of the training parameter from between the first value point and the second value point in accordance with a second predetermined formula. In another aspect, a device comprises one or more processors, memory, and one or more program modules stored in the memory and configured for execution by the one or more processors. The one or more program modules include instructions for performing the method described above. In an...",
+  "date_published": "20161020",
+  "title": "METHOD AND APPARATUS FOR ACQUIRING TRAINING PARAMETERS FOR A MODEL",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1711"
+  ],
+  "_processing_info": {
+    "original_size": 66549,
+    "optimized_size": 3378,
+    "reduction_percent": 94.92
+  }
+}

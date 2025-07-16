@@ -1,0 +1,66 @@
+{
+  "patent_number": "None",
+  "application_number": "15619786",
+  "date_published": "20180531",
+  "date_produced": "20180516",
+  "filing_date": "20170612",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "In general, embodiments of the present invention provide systems, methods and computer readable media for automated dynamic data quality assessment. One aspect of the subject matter described in this specification includes the actions of receiving a data quality job including a new data sample; and, if the new data sample is determined to be added to a reservoir of data samples, sending a quality verification request to an oracle; receiving a new data sample quality estimate from the oracle; and adding the new data sample and estimate to the reservoir. A second aspect of the subject matter includes the actions of receiving, from a predictive model, a judgment associated with a new data sample; analyzing the new data sample based in part on the judgment to determine whether to send a new data sample quality verification request to an oracle; and, if a new data sample quality estimate is received from the oracle, determining whether to add the new data sample and the judgment to the rese...",
+  "publication_number": "US20180150767A1-20180531",
+  "summary": "<SOH> SUMMARY <EOH>In general, embodiments of the present invention provide herein systems, methods and computer readable media for automated dynamic data quality assessment. In general, one aspect of the subject matter described in this specification can be embodied in systems, methods, and computer program products that include the actions of receiving a data quality job, the data quality job including configuration data and a new data sample having a particular data type, wherein the configuration data comprises an oracle identifier; determining whether to add the new data sample to a reservoir of data samples identified based at least in part on the particular data type; and, in an instance in which the new data sample is to be added to the reservoir of data samples, performing actions including sending, to an oracle selected based on the oracle identifier, a quality verification request including the new data sample; receiving a data quality estimate associated with the new data sample from the oracle in response to the quality verification request; and adding the new data sample and the associated data quality estimate to the reservoir of data samples in response to receiving the data quality estimate. These and other embodiments can optionally include one or more of the following features. The actions may further include updating the reservoir summary statistics. Updating the reservoir summary statistics may include calculating an overall data quality estimate for the reservoir using data quality estimates respectively associated with each of the data samples; and calculating a statistical variance for the data samples. Updating the reservoir summary statistics may further include logging the updated reservoir summary statistics in persistent storage. The actions may further include receiving corpus summary statistics calculated for a corpus of previously collected data samples; and generating an analysis comparing the updated reservoir summary statistics wit...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Daly",
+      "inventor_name_first": "Mark Thomas",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jeffery",
+      "inventor_name_first": "Shawn Ryan",
+      "inventor_city": "Burlingame",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DeLand",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pendar",
+      "inventor_name_first": "Nick",
+      "inventor_city": "San Ramon",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "James",
+      "inventor_name_first": "Andrew",
+      "inventor_city": "Los Altos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Johnston",
+      "inventor_name_first": "David",
+      "inventor_city": "Portola Valley",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Automated Dynamic Data Quality Assessment",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 68349,
+    "optimized_size": 4303,
+    "reduction_percent": 93.7
+  }
+}

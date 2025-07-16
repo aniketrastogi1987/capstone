@@ -1,0 +1,35 @@
+{
+  "decision": "PENDING",
+  "application_number": "15350428",
+  "date_published": "20180517",
+  "date_produced": "20180503",
+  "title": "METHOD TO CONSISTENTLY STORE LARGE AMOUNTS OF DATA AT VERY HIGH SPEED IN PERSISTENT MEMORY SYSTEMS",
+  "filing_date": "20161114",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Boyle",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F120804",
+    "G06F120811",
+    "G06F12084",
+    "G06F120842",
+    "G06F120875",
+    "G06F120897"
+  ],
+  "main_ipcr_label": "G06F120804",
+  "summary": "<SOH> SUMMARY <EOH>A method includes writing, by a primary thread running on a processor core, file data for a file into a persistent memory save area; flushing, by the primary thread running on the processor core, the file data from a data cache for the processor core to memory while retaining the file data in the data cache; and copying, by the primary thread running on the processor core, the file data from the data cache for the processor core into a persistent copy of the file that is stored in persistent memory. A device includes a non-transitory memory storage comprising instructions and a processor core in communications with the memory storage. The processor core executes the instructions to write, by a primary thread running on the processor core, file data for a file into a persistent memory save area; flush the file data from a data cache for the processor core to memory while retaining the file data in the data cache; and copy the file data from the data cache for the processor core into a persistent copy of the file that is stored in persistent memory. Described is a non-transitory computer-readable media storing computer instructions, that when executed by a processor core, cause the processor core to perform the steps of writing, by a primary thread running on the processor core, file data for a file into a persistent memory save area; flushing the file data from a data cache for the processor core to memory while retaining the file data in the data cache; and copying the file data from the data cache for the processor core into a persistent copy of the file that is stored in persistent memory. In example 1, a device comprises: a non-transitory memory storage comprising one or more instructions; a persistent memory that stores a file; a processor core in communication with the non-transitory memory storage and the persistent memory; and a cache associated with the processor core; wherein a thread running on the processor core is configured by the one...",
+  "patent_number": "None",
+  "abstract": "A thread on a processor core executes one or more instructions to write file data for a file into a persistent memory save area. The instructions to write the file data have the effect of storing the file data for the file in the cache associated with the processor core. The thread running on the processor core flushes the file data from the cache to the persistent memory save area while retaining the file data in the cache. The thread running on the processor core copies the file data from the cache for the processor core into a persistent copy of the file that is stored in persistent memory.",
+  "publication_number": "US20180137052A1-20180517",
+  "_processing_info": {
+    "original_size": 59317,
+    "optimized_size": 3263,
+    "reduction_percent": 94.5
+  }
+}

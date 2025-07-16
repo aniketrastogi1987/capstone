@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15423900",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20170203",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A system and method provides efficient parallel training of a neural network model on multiple graphics processing units. A training module reduces the time and communication overhead of gradient accumulation and parameter updating of the network model in a neural network by overlapping processes in an advantageous way. In a described embodiment, a training module overlaps backpropagation, gradient transfer and accumulation in a Synchronous Stochastic Gradient Decent algorithm on a convolution neural network. The training module collects gradients of multiple layers during backpropagation of training from a plurality of graphics processing units (GPUs), accumulates the gradients on at least one processor and then delivers the gradients of the layers to the plurality of GPUs during the backpropagation of the training. The whole model parameters can then be updated on the GPUs after receipt of the gradient of the last layer.",
+  "publication_number": "US20180121806A1-20180503",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>A system and method provides efficient parallel training of a neural network model on multiple graphics processing units. A training module reduces the time and communication overhead of gradient accumulation and parameter updating of the network model in a neural network by overlapping backpropagation and communication processes. In a described embodiment, a training module overlaps backpropagation, gradient transfer and accumulation in a Synchronous Stochastic Gradient Descent algorithm on a convolution neural network. The training module collects gradients of multiple layers during backpropagation of training from a plurality of graphics processing units (GPUs), accumulates the gradients on at least one processor and then delivers the gradients of the layers to the plurality of GPUs during the backpropagation of the training. The whole model parameters can then be updated on the GPUs after receipt of the gradient of the last layer. The foregoing and other features and advantages will be apparent from the following more particular description, as illustrated in the accompanying drawings.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Haruki",
+      "inventor_name_first": "Imai",
+      "inventor_city": "Yokohama-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Le",
+      "inventor_name_first": "Tung Duc",
+      "inventor_city": "Ichikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Negishi",
+      "inventor_name_first": "Yasushi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "EFFICIENT PARALLEL TRAINING OF A NETWORK MODEL ON MULTIPLE GRAPHICS PROCESSING UNITS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 43173,
+    "optimized_size": 2932,
+    "reduction_percent": 93.21
+  }
+}

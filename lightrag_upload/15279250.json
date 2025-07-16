@@ -1,0 +1,59 @@
+{
+  "date_produced": "20180315",
+  "publication_number": "US20180089584A1-20180329",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15279250",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bakis",
+      "inventor_name_first": "Raimo",
+      "inventor_city": "Briarcliff Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kunc",
+      "inventor_name_first": "Ladislav",
+      "inventor_city": "Hlusice",
+      "inventor_state": "",
+      "inventor_country": "CZ"
+    },
+    {
+      "inventor_name_last": "Nahamoo",
+      "inventor_name_first": "David",
+      "inventor_city": "Great Neck",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Polymenakos",
+      "inventor_name_first": "Lazaros",
+      "inventor_city": "West Harrison",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zakos",
+      "inventor_name_first": "John",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments provide a computer implemented method, in a data processing system comprising a processor and a memory comprising instructions which are executed by the processor to cause the processor to train an enhanced chatflow system, the method comprising: ingesting, using a rule-based module, a corpus of information comprising at least one user input node corresponding to a user question and at least one expert-designed variation for each user input node; matching, using the rule-based module, one or more user inputs to one or more corresponding dialog nodes using regular expressions and delimiters; ingesting, using a statistical matching module, one or more usage logs from a deployed dialog system, each usage log comprising at least one user input node; for each user input node: designating the node as a class; storing the node in a dialog node repository; designating each of the at least one variations as training examples for the designated class; converting the classes and the t...",
+  "filing_date": "20160928",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments can provide a computer implemented method, in a data processing system comprising a processor and a memory comprising instructions which are executed by the processor to cause the processor to train an enhanced chatflow system, the method comprising: ingesting, using a rule-based module, a corpus of information comprising at least one user input node corresponding to a user question and at least one expert-designed variation for each user input node; matching, using the rule-based module, one or more user inputs to one or more corresponding dialog nodes using regular expressions and delimiters; ingesting, using a statistical matching module, one or more usage logs from a deployed dialog system, each usage log comprising at least one user input node; for each user input node: designating the node as a class; storing the node in a dialog node repository; designating each of the at least one variations as training examples for the designated class; converting the classes and the training examples into feature vector representations; training one or more classifiers using the one or more feature vector representations of the classes; training classification objectives using the one or more feature vector representations of the training examples; and incorporating the training of the classifiers and the classification objectives into enhanced chatflow system. Embodiments can further provide a method further comprising ingesting, using the statistical matching module, the expert-designed variations in addition to the usage logs. Embodiments can further provide a method further comprising expanding, using the rule-based module, the regular expressions and delimiters using synonyms harvested through one or more external data sources. Embodiments can further provide a method further comprising fixing the rule-based module such that no further alteration to the regular expressions or delimiters is allowed; ingesting, using the statistical matchi...",
+  "date_published": "20180329",
+  "title": "SYSTEM AND METHOD FOR ENHANCED CHATFLOW APPLICATION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 63434,
+    "optimized_size": 4160,
+    "reduction_percent": 93.44
+  }
+}

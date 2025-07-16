@@ -1,0 +1,44 @@
+{
+  "date_produced": "20160615",
+  "publication_number": "US20160189044A1-20160630",
+  "main_ipcr_label": "G06N504",
+  "decision": "ACCEPTED",
+  "application_number": "15065756",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Pan",
+      "inventor_name_first": "Bei",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Demiryurek",
+      "inventor_name_first": "Ugur",
+      "inventor_city": "Redondo Beach",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shahabi",
+      "inventor_name_first": "Cyrus",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Real-time high-fidelity spatiotemporal data on transportation networks can be used to learn about traffic behavior at different times and locations, potentially resulting in major savings in time and fuel. Real-world data collected from transportation networks can be used to incorporate the data's intrinsic behavior into a time-series mining technique to enhance its accuracy for traffic prediction. For example, the spatiotemporal behaviors of rush hours and events can be used to perform a more accurate prediction of both short-term and long-term average speed on road-segments, even in the presence of infrequent events (e.g., accidents). Taking historical rush-hour behavior into account can improve the accuracy of traditional predictors by up to 67% and 78% in short-term and long-term predictions, respectively. Moreover, the impact of an accident can be incorporated to improve the prediction accuracy by up to 91%.",
+  "filing_date": "20160309",
+  "patent_number": "9996798",
+  "summary": "<SOH> SUMMARY <EOH>In the past, several statistics, machine learning and data mining approaches have been applied to traffic data for prediction purposes, such as auto-regression, neural net and smoothing techniques (see S. Lee et al., “Application of subset autoregressive integrated moving average model for short-term freeway traffic volume forecasting”, J. van Lint et al., “Freeway travel time prediction with State-Space neural networks”, and B. Williams et al., “Urban freeway traffic flow prediction: Application of seasonal autoregressive integrated moving average and exponential smoothing models”). However, in this paper, a very pragmatic approach is described to evaluate and then enhance these techniques by intensely studying a very large-scale and high-resolution spatiotemporal transportation data from the Los Angeles County road network. This dataset includes traffic flows recorded by under-pavement loop detectors as well as police reports on accidents and events. In some implementations, a system acquires these datasets in real time from various agencies such as Caltrans, City of Los Angeles Department of Transportation (LADOT), California Highway Patrol (CHP), Long Beach Transit (LBT), Foothill Transit (FHT) and LA Metro. In some implementations, a main source can include approximately 8000 traffic loop-detectors located on the highways and arterial streets of Los Angeles County (covering 3420 miles, cumulatively) collecting several main traffic parameters such as occupancy, volume, and speed at the rate of 1 reading per 30 secs. However, even though this paper focuses on the sensor data collected from loop detectors, the systems and techniques described can be applied to other data collection approaches. For example, GPS data between regions can be aggregate (see J. Yuan ete al., “Driving with knowledge from the physical world”), and the links between regions can be considered as sensors in some implementations. Working with real-world data, we have identi...",
+  "date_published": "20160630",
+  "title": "Traffic Prediction Using Real-World Transportation Data",
+  "ipcr_labels": [
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 78168,
+    "optimized_size": 3807,
+    "reduction_percent": 95.13
+  }
+}

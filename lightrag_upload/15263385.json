@@ -1,0 +1,31 @@
+{
+  "date_produced": "20180228",
+  "publication_number": "US20180075353A1-20180315",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15263385",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ROY",
+      "inventor_name_first": "Sujoy",
+      "inventor_city": "Singapore",
+      "inventor_state": "",
+      "inventor_country": "SG"
+    }
+  ],
+  "abstract": "Recommending items that have rarely/never been viewed by users is a bottleneck for collaborative filtering (CF) based recommendation algorithms. Previously, item content representation (mostly in textual form) has been used as auxiliary information for learning latent factor representations. Embodiments learn latent factor representation for content items based on modelling an emotional connection between user and content item and based on implicit user feedback regarding the content item.",
+  "filing_date": "20160913",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Described is a system, method, and computer-implemented apparatus for recommending items, such as audio, video, documents, web pages, profiles, or other types of media or content. Embodiments are inspired by the observation that users enjoy content because of an emotional connection with it. As such, in one embodiment, emotions evoked by experiencing content are used in combination with implicit user feedback to produce a rank ordering of items. For example, for a set of users and a set of videos, a matrix indicating which users have ‘liked’ which videos and a vector of emotions evoked by each video is used to generate a list of ranked recommendations for one or more of the set of users. In another embodiment, emotions evoked by experiencing content in combination with implicit user feedback may be used to predict user emotional response to a different piece of content. In yet another embodiment, implicit feedback received from users (e.g., ‘likes’) are a supervisory signal used to improve emotion recognition models. These models can in turn create better recommendations by more accurately identifying emotions contained in content. These embodiments and more are based on the intuition that latent factors learned from factorizing user-item interaction data carries information that captures the emotive factors of content that makes a user ‘like’ the item. With these and other advantages and features that will become hereinafter apparent, further information may be obtained by reference to the following detailed description and appended claims, and to the figures attached hereto.",
+  "date_published": "20180315",
+  "title": "METHOD AND SYSTEM FOR COLD START VIDEO RECOMMENDATION",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 27967,
+    "optimized_size": 2691,
+    "reduction_percent": 90.38
+  }
+}

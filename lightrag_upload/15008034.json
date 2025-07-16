@@ -1,0 +1,51 @@
+{
+  "date_produced": "20160518",
+  "publication_number": "US20160155053A1-20160602",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15008034",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Deleris",
+      "inventor_name_first": "Lea A.",
+      "inventor_city": "Paris",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Marinescu",
+      "inventor_name_first": "Radu",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Razak",
+      "inventor_name_first": "Abdul",
+      "inventor_city": "Cork",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Wilson",
+      "inventor_name_first": "Peter Nicholas",
+      "inventor_city": "County Tipperary",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "abstract": "There is provided a method, a system and a computer program product for supporting a decision making process. The system receives a decision model from a decision maker, the decision model used for determining a solution to a decision problem based on attributes and uncertainties of the decision problem. The decision problem includes information about a plurality of outcome vectors that represent all possible outcomes and the uncertainties associated with the decision problem. The system determines whether the received decision model can be solved without receiving any preference information from the decision maker. The system receives partially specified preference information from the decision maker if the received decision model cannot be solved without any preference information. The system solves the decision model with the partially specified preference information. The system recommends, based on the solution, one or more decisions to the decision maker.",
+  "filing_date": "20160127",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>There is provided a method, a system and a computer program product for supporting a decision making process. The system receives a decision model from a decision maker. The decision model is used for determining a solution to a decision problem based on attributes and uncertainties of the decision problem. The decision problem includes information about a plurality of outcome vectors that represents all possible outcomes and the uncertainties associated with the decision problem. The decision model does not include any preference information of the attributes and the outcome vectors. The system determines whether the received decision model can be solved without receiving any preference information from the decision maker. The system receives partially specified preference information from the decision maker if the received decision model cannot be solved without any preference information. The system solves the decision model with the partially specified preference information. The system recommends, based on the solution, one or more decisions to the decision maker. In order to receive the partially specified preference information from the decision maker, the system identifies N pairs of outcome vectors to present to the decision maker for preference assessment. The system presents N elicitation questions, based on the identified N pairs of outcome vectors, to the decision maker. An elicitation question asks the decision maker which outcome vector the decision maker prefers between two outcome vectors. The decision maker provides answers to the N elicitation questions. The decision maker's answers to the N elicitation questions represent the partially specified preference information.",
+  "date_published": "20160602",
+  "title": "INTERACTIVE METHOD TO REDUCE THE AMOUNT OF TRADEOFF INFORMATION REQUIRED FROM DECISION MAKERS IN MULTI-ATTRIBUTE DECISION MAKING UNDER UNCERTAINTY",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 49121,
+    "optimized_size": 3779,
+    "reduction_percent": 92.31
+  }
+}

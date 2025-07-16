@@ -1,0 +1,68 @@
+{
+  "date_produced": "20171207",
+  "publication_number": "US20170364822A1-20171221",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15183335",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Davis",
+      "inventor_name_first": "Scott Tadashi",
+      "inventor_city": "Santa Monica",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Kai",
+      "inventor_city": "Manhattan Beach",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wang",
+      "inventor_name_first": "Michael Jee-Kai",
+      "inventor_city": "Playa Vista",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jiang",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tavafi",
+      "inventor_name_first": "Maryam",
+      "inventor_city": "Marine del Rey",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tipton",
+      "inventor_name_first": "Peter Zaimis",
+      "inventor_city": "Marine del Rey",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for optimizing content presentation. In one aspect, a system includes a training database that stores training data including attribute information about users and corresponding proxy metrics quantifying behavior by the users following content presentation; a content database; a model generator that accesses the training data and trains a model for content distribution; and a content distribution server that receives a content request, uses the model to select content, transmits data identifying the selected content, wherein the model: obtains a set of attributes for a user associated with the request, receives information about a given content, predicts a proxy metric based on the set of attributes and the information about the content, the predicted proxy metric providing information about subject retention or awareness; and identifies the given content for distribution if the predicted...",
+  "filing_date": "20160615",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In general, one innovative aspect of the subject matter described in this specification can be embodied in a system comprising: a training database that stores training data including attribute information about a plurality of users and corresponding proxy metrics that quantify online behavior by the plurality of users following content presentation; a content database that stores third party content received from various third party content providers; a model generator that accesses the training data in the training database and trains a model for third party content distribution based on the training data; and a content distribution server that receives a request for third party content to be presented with another portion of content at a client device, wherein the content distribution server uses the model to select third party content to be distributed to the client device in response to the request and transmits data identifying the selected third party content to the client device, wherein the model: obtains a set of attributes from the request, wherein the set of attributes relate to information about a user associated with the request, receives information about a given third party content stored in the content database, predicts, for the given third party content, a proxy metric based on the set of attributes and the information about the third party content, wherein the predicted proxy metric provides information about at least one of subject retention or subject awareness that will result from presentation of the given third party content; and identifies, using the predicted proxy metrics and for the content distribution server, the given third party content for distribution based on the predicted proxy metrics meeting a threshold. Other embodiments of this aspect include corresponding methods, apparatus, and computer programs, configured to perform the actions of the methods, encoded on computer storage devices. These and other embodim...",
+  "date_published": "20171221",
+  "title": "OPTIMIZING CONTENT DISTRIBUTION USING A MODEL",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "H04L2908",
+    "H04L2906"
+  ],
+  "_processing_info": {
+    "original_size": 78856,
+    "optimized_size": 4343,
+    "reduction_percent": 94.49
+  }
+}

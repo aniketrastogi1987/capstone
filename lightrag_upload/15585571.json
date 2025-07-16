@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15585571",
+  "date_published": "20171109",
+  "date_produced": "20171025",
+  "filing_date": "20170503",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "A method in a hardware implementation of a Convolutional Neural Network (CNN), includes receiving a first subset of data having at least a portion of weight data and at least a portion of input data for a CNN layer and performing, using at least one convolution engine, a convolution of the first subset of data to generate a first partial result; receiving a second subset of data comprising at least a portion of weight data and at least a portion of input data for the CNN layer and performing, using the at least one convolution engine, a convolution of the second subset of data to generate a second partial result; and combining the first partial result and the second partial result to generate at least a portion of convolved data for a layer of the CNN.",
+  "publication_number": "US20170323196A1-20171109",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. There is provided a method in a hardware implementation of a Convolutional Neural Network (CNN), the method comprising: receiving a first subset of data comprising at least a portion of weight data and at least a portion of input data for a CNN layer and performing, using at least one convolution engine, a convolution of the first subset of data to generate a first partial result; receiving a second subset of data comprising at least a portion of weight data and at least a portion of input data for the CNN layer and performing, using the at least one convolution engine, a convolution of the second subset of data to generate a second partial result; and combining the first partial result and the second partial result to generate at least a portion of convolved data for a layer of the CNN. The first subset of data may comprise a first portion of the input data and weight data; and the second subset of data may comprise a second portion of the input data and weight data. The second portion of the input data may comprise a subset of the first portion of the input data and the size of the subset of the first portion of the input data may be based upon a size of a convolution kernel. The first subset of data and the second subset of data may each comprise all of the weight data for a particular layer. The first subset of data may comprise a first portion of the weight data and input data; and the second subset of data may comprise a second portion of the weight data and input data. The first subset of data and the second subset of data may each comprise all of the input data for a particular layer. The first portion of the weig...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gibson",
+      "inventor_name_first": "Clifford",
+      "inventor_city": "St. Albans",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Imber",
+      "inventor_name_first": "James",
+      "inventor_city": "Hemel Hempstead",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "Hardware Implementation of a Convolutional Neural Network",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 107526,
+    "optimized_size": 3471,
+    "reduction_percent": 96.77
+  }
+}

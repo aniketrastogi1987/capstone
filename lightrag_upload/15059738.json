@@ -1,0 +1,37 @@
+{
+  "date_produced": "20170823",
+  "publication_number": "US20170255860A1-20170907",
+  "main_ipcr_label": "G06N306",
+  "decision": "PENDING",
+  "application_number": "15059738",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ritter",
+      "inventor_name_first": "Mark B.",
+      "inventor_city": "Sherman",
+      "inventor_state": "CT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yasuda",
+      "inventor_name_first": "Takeo",
+      "inventor_city": "Nara-shi Nara-ken",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "Embodiments include methods and systems of neuron leaky integrate and fire circuit (NLIFC). Aspects include: receiving an input current having both AC component and DC component at an input terminal of the NLIFC, extracting AC component of input current, generating a number of swing voltages at a swing node using extracted AC component of the input current, transferring charge from a pull-up node to a neuron membrane potential (NP) node through an integration diode and a pull-up diode to raise a voltage at NP node over an integration capacitor gradually and the voltage at NP node shows integration value of AC component of input current, implementing leaky decay function of the neuron leaky integrate and fire circuit, detecting a timing of neuron fire using an analog comparator, resetting a neuron membrane potential level for a refractory period after neuron fire, and generating fire output signal of the NLIFC.",
+  "filing_date": "20160303",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, the present invention relates to a neuron leaky integrate and fire circuit. In certain embodiments, the neuron leaky integrate and fire circuit may include: an integration circuit, a pull-up circuit, a leak control circuit, an analog comparator, a reset circuit, and a rise edge detector. The integration circuit may include an input capacitor, an integration diode, and an integration capacitor electrically coupled in serial. A first terminal of the input capacitor is electrically coupled to an input voltage at an input terminal of the neuron leaky integrate and fire circuit. A second terminal of the input capacitor is electrically coupled to the anode of the integration diode to form a swing node. The cathode of the integration diode is electrically coupled to a first terminal of the integration capacitor to form a neuron membrane potential node, and a second terminal of the integration capacitor is electrically coupled to a ground. In certain embodiments, a leak current of a leak control FET of a leak control circuit implements leaky decay function of the neuron leaky integrate and fire circuit. In certain embodiments, the input capacitor is configured to cut off DC component of an input current from the input terminal and extract AC component of the input current such that a leaky decay function by a leaky current through the leak control FET is implemented on the neuron membrane potential node without the effect of large DC component and fluctuation of the input current at the input terminal of the neuron leaky integrate and fire circuit. In certain embodiments, the integration circuit is configured to receive the extracted AC component of the input current and generate a number of voltage swings at the swing node. The voltage swings at the swing node transfer charge from a pull-up node to the neuron membrane potential node through the serially connected integration diode and the pull-up diode, and raise the voltage at the neuron ...",
+  "date_published": "20170907",
+  "title": "METHODS AND SYSTEMS OF NEURON LEAKY INTEGRATE AND FIRE CIRCUITS",
+  "ipcr_labels": [
+    "G06N306"
+  ],
+  "_processing_info": {
+    "original_size": 53305,
+    "optimized_size": 3626,
+    "reduction_percent": 93.2
+  }
+}

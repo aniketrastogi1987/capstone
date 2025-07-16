@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15812118",
+  "date_published": "20180628",
+  "date_produced": "20180613",
+  "filing_date": "20171114",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A technique for stable and fast computation of a variance representing a confidence interval for an estimation result in an estimation apparatus using a neural network including an integrated layer that combines a dropout layer for dropping out part of input data and an FC layer for computing a weight is provided. When input data having a multivariate distribution is supplied to the integrated layer, a data analysis unit 30 determines, based on a numerical distribution of terms formed by respective products of each vector element of the input data and the weight, a data type of each vector element of output data from the integrated layer. An estimated confidence interval computation unit 20 applies an approximate computation method associated with the data type, to analytically compute a variance of each vector element of the output data from the integrated layer based on the input data to the integrated layer.",
+  "publication_number": "US20180181865A1-20180628",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>However, to obtain the variance for one observation target, the computation subsequent to the dropout layer in the neural network needs to be repeatedly performed many times, as mentioned above. For example, the computation needs to be performed MC (about 200 or less) times. In the case where the number of computations is reduced, the obtained probability density distribution of the output value does not have a smooth distribution profile, making it difficult to accurately estimate the variance. In the case where the number of computations is increased, on the other hand, more accurate variance estimation is possible, but a vast number of computations require time and labor in the computation process. This causes a heavy computational burden in actual use. To solve the above-mentioned problem, the present invention has an object of providing an information estimation apparatus and information estimation method for performing an estimation process using a neural network, with which a variance as a confidence interval for an estimation result can be computed stably and fast without a vast number of computations. To achieve the object stated above, the present invention also provides an information estimation apparatus for performing an estimation process using a neural network including an integrated layer that combines a dropout layer for dropping out a part of input data and an FC layer for computing a weight, the information estimation apparatus including: a data analysis unit configured to determine, based on a numerical distribution of terms formed by respective products of each vector element of input data to the integrated layer having a multivariate distribution and the weight, a data type of each vector element of output data from the integrated layer having a multivariate distribution; and an estimated confidence interval computation unit configured to apply an approximate computation method associated with the data type d...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "ADACHI",
+      "inventor_name_first": "Jingo",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION ESTIMATION APPARATUS AND INFORMATION ESTIMATION METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 101970,
+    "optimized_size": 3483,
+    "reduction_percent": 96.58
+  }
+}

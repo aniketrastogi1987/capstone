@@ -1,0 +1,59 @@
+{
+  "date_produced": "20171018",
+  "publication_number": "US20170316339A1-20171102",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15142457",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Chang Sheng",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Qi Cheng",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Li",
+      "inventor_name_first": "Shao Chun",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Sarkar",
+      "inventor_name_first": "Soumitra",
+      "inventor_city": "Cary",
+      "inventor_state": "NC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhou",
+      "inventor_name_first": "Xin",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The methods, systems, and computer program products described herein provide optimized provisioning of replacement parts for service calls through the use of machine learning. In some aspects, historical hardware maintenance tickets may be processed to generate symptoms vectors identifying sets of symptoms associated with the hardware maintenance tickets. The symptoms vectors and corresponding parts usage records of the historical hardware maintenance tickets may be used train a decision model to predict a probability that a particular part will be used to fulfill the new hardware maintenance ticket. The predicted probability may be used by the system when generating a parts provisioning plan for the new hardware maintenance ticket.",
+  "filing_date": "20160429",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>The methods, systems, and computer program products described herein provide optimized provisioning of replacement parts for service calls through the use of machine learning. In some aspects, historical hardware maintenance tickets may be processed to generate symptoms vectors identifying sets of symptoms associated with the hardware maintenance tickets. The symptoms vectors and corresponding parts usage records of the historical hardware maintenance tickets may be used train a decision model to predict a probability that a particular part will be used to fulfill the new hardware maintenance ticket. The predicted probability may be used by the system when generating a parts provisioning plan for the new hardware maintenance ticket. In an aspect of the present disclosure, a method is disclosed including receiving a historical maintenance ticket associated with a type of hardware device, processing the historical maintenance ticket to identify one or more symptoms of the historical maintenance ticket, constructing a symptoms vector for the historical maintenance ticket based at least in part on the identified one or more symptoms of the historical maintenance ticket, receiving parts usage and provisioning records associated with the type of hardware device, determining based at least in part on the parts usage and provisioning records whether a part associated with the type of hardware device was provisioned or not provisioned for the historical maintenance ticket, determining based at least in part on the parts usage and provisioning records whether the part was used or not used for the historical maintenance ticket and training a decision model based at least in part on the symptoms vector for the historical maintenance ticket, the determination of whether the part was provisioned or not provisioned for the historical maintenance ticket, and the determination of whether the part was used or not used for the historical maintenance ticket. Th...",
+  "date_published": "20171102",
+  "title": "METHOD AND APPARATUS TO ANALYTICALLY SUPPORT PARTS PROVISION FOR HARDWARE MAINTENANCE SERVICE",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 75772,
+    "optimized_size": 3899,
+    "reduction_percent": 94.85
+  }
+}

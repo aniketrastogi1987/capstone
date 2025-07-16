@@ -1,0 +1,56 @@
+{
+  "date_produced": "20180322",
+  "publication_number": "US20180096259A1-20180405",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15283036",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Andrews",
+      "inventor_name_first": "Sheldon",
+      "inventor_city": "Ottawa",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Huerta Casado",
+      "inventor_name_first": "Ivan",
+      "inventor_city": "Edinburgh",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Mitchell",
+      "inventor_name_first": "Kenneth J.",
+      "inventor_city": "Earlston",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Sigal",
+      "inventor_name_first": "Leonid",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Training data from multiple types of sensors and captured in previous capture sessions can be fused within a physics-based tracking framework to train motion priors using different deep learning techniques, such as convolutional neural networks (CNN) and Recurrent Temporal Restricted Boltzmann Machines (RTRBMs). In embodiments employing one or more CNNs, two streams of filters can be used. In those embodiments, one stream of the filters can be used to learn the temporal information and the other stream of the filters can be used to learn spatial information. In embodiments employing one or more RTRBMs, all visible nodes of the RTRBMs can be clamped with values obtained from the training data or data synthesized from the training data. In cases where sensor data is unavailable, the input nodes may be unclamped and the one or more RTRBMs can generate the missing sensor data.",
+  "filing_date": "20160930",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>Embodiments can improve motion estimation by using deep learning techniques with motion priors. Motion capture can be improved using deep motion priors with inverse dynamics, in particular when sparse sensor configuration is used. The advantage to use deep motion priors in conjunction with inverse dynamics is that inverse dynamics is used to solve for orientation and position constraints introduced by the sensors during the capture, while motion priors can be used to constrain the pose for each frame. Using various deep learning techniques, the deep motion priors can be trained to generalize a broad range of motion classes through one or more motion models. During real-time motion capture, the one or more motion models can be used to obtain an improved reconstruction of actor's motion even when the motion capture system employs a configuration with a sparse set of sensors or when there are sensor dropouts. This can avoid tedious post processing tasks for motion data cleanup in conventional motion capture methods. This can address problems due to missing and mislabeled markers, and/or broken denoise trajectories during the motion capture. Furthermore, the motion learning techniques in accordance with the disclosure can also be used to reconstruct the actor's motion even when there are missing data points in the motion data with respect to both space and time. In various embodiments, training data from multiple types of sensors and captured in previous capture sessions are fused within a physics-based tracking framework to train motion priors using different deep learning techniques, such as convolutional neural networks (CNN) and Recurrent Temporal Restricted Boltzmann Machines (RTRBMs). The training data can include temporal and spatial information provided for the sensors. In embodiments employing one or more CNNs, two streams of filters can be used. In those embodiments, one stream of the filters can be used to learn the t...",
+  "date_published": "20180405",
+  "title": "DEEP-LEARNING MOTION PRIORS FOR FULL-BODY PERFORMANCE CAPTURE IN REAL-TIME",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N308",
+    "G06T720",
+    "G06K900",
+    "G06K966",
+    "G06K962"
+  ],
+  "_processing_info": {
+    "original_size": 83478,
+    "optimized_size": 3949,
+    "reduction_percent": 95.27
+  }
+}

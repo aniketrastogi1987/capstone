@@ -1,0 +1,31 @@
+{
+  "patent_number": "None",
+  "application_number": "15593210",
+  "date_published": "20171130",
+  "date_produced": "20171115",
+  "filing_date": "20170511",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A system and a corresponding method are configured to generate a plurality of output feature maps from an input feature map. The system includes a first input data path (IDP), a request assembly unit (RAU), and a multiply accumulate array (MAA). The IDP transforms a first input feature map to a Winograd domain and generates a first plurality of requests in which each request is for a first plurality of non-zero weights of transformed weight kernels with corresponding elements. The RAU receives the first plurality of requests. The MAA generates a plurality of output matrices in parallel for a first output feature map based on applying the first plurality of non-zero weights to corresponding elements for each input matrix.",
+  "publication_number": "US20170344876A1-20171130",
+  "summary": "<SOH> SUMMARY <EOH>One example embodiment provides a method that may include transforming, by a first input data path (IDP) unit, a first input feature map to a Winograd domain, wherein the transformed first input feature map may include a first plurality of input patches, and wherein each input patch of the first plurality of input patches may include a plurality of elements; providing, by the first IDP unit, a first plurality of requests, each for a first plurality of non-zero weights of transformed weight kernels with corresponding elements to a request assembly unit (RAU); and generating, by a first multiply accumulate array (MAA), a plurality of output matrices in parallel for a first output feature map based on applying the first plurality of non-zero weights to corresponding elements for each input matrix. In one embodiment, the method may further include determining, by a position determiner within the first IDP unit a position of at least one non-zero-value weight within the first transformed weight kernel; and wherein providing, by the first IDP unit, the first plurality of requests may further include providing, by the first IDP unit, the first plurality of requests, each for the first plurality of non-zero weights of transformed weight kernels with corresponding elements to the RAU and skipping a request corresponding to the position of the at least one zero-value weight within the first transformed weight kernel. One example embodiment provides a system to generate a plurality of output feature maps from an input feature map in which the system may include an IDP, an RAU and a MAA. The IDP may transform a first input feature map to a Winograd domain in which the transformed first input feature map may include a first plurality of input matrices, and each input matrix of the first plurality of input matrices may include a plurality of elements, in which the first IDP may further generate a first plurality of requests, each for a first plurality of non-ze...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1715"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "BROTHERS",
+      "inventor_name_first": "John W.",
+      "inventor_city": "Calistoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "EFFICIENT SPARSE PARALLEL WINOGRAD-BASED CONVOLUTION SCHEME",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 65664,
+    "optimized_size": 3293,
+    "reduction_percent": 94.99
+  }
+}

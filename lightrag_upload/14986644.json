@@ -1,0 +1,66 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "14986644",
+  "date_published": "20170706",
+  "date_produced": "20170621",
+  "title": "GENERATING AND APPLYING OUTGOING COMMUNICATION TEMPLATES",
+  "filing_date": "20160101",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Miklos",
+      "inventor_name_first": "Balint",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Proskurnia",
+      "inventor_name_first": "Julia",
+      "inventor_city": "Lausanne",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Pueyo",
+      "inventor_name_first": "Luis Garcia",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cartright",
+      "inventor_name_first": "Marc-Allen",
+      "inventor_city": "Stanford",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kaufmann",
+      "inventor_name_first": "Tobias",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Krka",
+      "inventor_name_first": "Ivo",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1724",
+    "G06F1727"
+  ],
+  "main_ipcr_label": "G06F1724",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure is generally directed to methods, apparatus and computer-readable media (transitory and non-transitory) for analyzing a corpus of outgoing communications such as emails, transcribed voicemails, letters, etc., to generate one or more templates that are usable to automatically populate at least a portion of one or more subsequent outgoing communications. A corpus of outgoing communications may first be grouped into clusters of communications that share various shared contextual, syntactic, and/or semantic attributes, such as a user context at the times they were drafted/sent. Then, a template may be generated for each cluster. Confidential information (e.g., information that could be used to identify someone) such as a recipient's name, address, credit card number, and so forth, may be ignored, discarded, scrambled or otherwise concealed. Generated outgoing communication templates may be usable to automatically populate at least portions of subsequent outgoing communications before and/or as those subsequent outgoing communications are being drafted or otherwise prepared. For example, as a user drafts an outgoing email, the text she types may be continuously and/or periodically compared to one or more outgoing communication templates to determine a best match. The outgoing communication template considered to best match the thus-far typed text may be used to autocomplete at least some of the user's email, to suggest possible autocompletions (e.g., as a pulldown and/or pop-up menu), to provide “fillable fields,” and so forth. In some implementations, subsequent outgoing communications may be analyzed using the same technique as was used to initially group the corpus of outgoing communications into clusters. The cluster to which a subsequent outgoing communication is matched may dictate which outgoing communication template that is used to attempt to autocomplete that outgoing communication. In some implementations, a computer i...",
+  "patent_number": "9940318",
+  "abstract": "Methods, apparatus, systems, and computer-readable media are provided for generating and applying outgoing communication templates. In various implementations a corpus of outgoing communications sent by a user may be grouped into a plurality of clusters based on one or more attributes of a context of the user. One or more segments of each outgoing communication of a particular cluster may be classified as fixed in response to a determination that a count of occurrences of the one or more segments across the particular cluster satisfies a criterion. One or more remaining segments of each communication of the particular cluster may or may not be classified as transient. Based on sequences of classified segments associated with each communication of the particular cluster, an outgoing communication template may be generated to automatically populate at least a portion of a draft outgoing communication being prepared by the user.",
+  "publication_number": "US20170192953A1-20170706",
+  "_processing_info": {
+    "original_size": 59309,
+    "optimized_size": 4238,
+    "reduction_percent": 92.85
+  }
+}

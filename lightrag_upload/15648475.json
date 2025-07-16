@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15648475",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "filing_date": "20170713",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method includes determining a set of k extreme values of a dataset of elements in a constant time irrespective of the size of the dataset. A method creates a set of k indicators, each indicator associated with one multi-bit binary number in a large dataset of multi-bit binary numbers. The method includes arranging the multi-bit binary numbers such that each bit n of each said multi-bit binary number is located in a different row n of an associative memory array, starting from a row storing a most significant bit (MSB), adding an indicator to the set for each multi-bit binary number having a bit with an extreme value in the row and continuing the adding until said set contains k indicators.",
+  "publication_number": "US20180018566A1-20180118",
+  "summary": "<SOH> SUMMARY OF THE PRESENT INVENTION <EOH>There is provided, in accordance with a preferred embodiment of the present invention, a method including determining a set of k extreme values of a dataset of elements in a constant time irrespective of the size of the dataset. Moreover, in accordance with a preferred embodiment of the present invention, the method also includes reviewing the values bit-by-bit, where bit n from each element of the dataset is reviewed at the same time and the reviewing begins with the most significant bit (MSB). Moreover, in accordance with a preferred embodiment of the present invention, the method also includes adding an indicator to an indicator set for each element having bit n with an extreme value. There is provided, in accordance with a preferred embodiment of the present invention, a method to create a set of k indicators, each indicator associated with one multi-bit binary number in a large dataset of multi-bit binary numbers. The method includes arranging the multi-bit binary numbers such that each bit n of each multi-bit binary number is located in a different row n of an associative memory array. The method also includes starting from a row storing a most significant bit (MSB), adding an indicator to the set for each multi-bit binary number having a bit with an extreme value in the row and continuing the adding until the set contains k indicators. Additionally, in accordance with a preferred embodiment of the present invention, the extreme value is either a maximum or a minimum. Moreover, in accordance with a preferred embodiment of the present invention, an index of the multi-bit binary numbers is used as additional least significant bits of each of the multi-bit binary numbers. Still further, in accordance with a preferred embodiment of the present invention, the indicators are bits in a marker vector where a size of the vector is identical to a size of the large dataset, and an indication is a bit set in a column in the vect...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "EHRMAN",
+      "inventor_name_first": "Eli",
+      "inventor_city": "Beit Shemesh",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "AKERIB",
+      "inventor_name_first": "Avidan",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "LAZER",
+      "inventor_name_first": "Moshe",
+      "inventor_city": "Binyamina",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "title": "FINDING K EXTREME VALUES IN CONSTANT PROCESSING TIME",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 60529,
+    "optimized_size": 3549,
+    "reduction_percent": 94.14
+  }
+}

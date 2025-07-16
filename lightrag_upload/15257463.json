@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170301",
+  "publication_number": "US20170076200A1-20170316",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15257463",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NASU",
+      "inventor_name_first": "Yu",
+      "inventor_city": "Meguro",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "According to an embodiment, a training device trains a neural network that outputs a posterior probability that an input signal belongs to a particular class. An output layer of the neural network includes N units respectively corresponding to classes and one additional unit. The training device includes a propagator, a probability calculator, and an updater. The propagator supplies a sample signal to the neural network and acquires (N+1) input values for each unit at the output layer. The probability calculator supplies the input values to a function to generate a probability vector including (N+1) probability values respectively corresponding to the units at the output layer. The updater updates a parameter included in the neural network in such a manner to reduce an error between a teacher vector including (N+1) target values and the probability vector. A target value corresponding to the additional unit is a predetermined constant value.",
+  "filing_date": "20160906",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a configuration diagram of a speech detection device according to an embodiment; FIG. 2 is a diagram for explaining layers of a neural network; FIG. 3 is a diagram illustrating a functional configuration of a training device; FIG. 4 is a diagram illustrating a processing procedure of the training device; and FIG. 5 is a diagram illustrating a hardware configuration of the training device. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170316",
+  "title": "TRAINING DEVICE, SPEECH DETECTION DEVICE, TRAINING METHOD, AND COMPUTER PROGRAM PRODUCT",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 50320,
+    "optimized_size": 2046,
+    "reduction_percent": 95.93
+  }
+}

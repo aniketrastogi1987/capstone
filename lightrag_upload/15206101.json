@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170713",
+  "publication_number": "US20170213150A1-20170727",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15206101",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Arel",
+      "inventor_name_first": "Itamar",
+      "inventor_city": "Knoxville",
+      "inventor_state": "TN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kahane",
+      "inventor_name_first": "Michael",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rohanimanesh",
+      "inventor_name_first": "Khashayar",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for reinforcement learning using a partitioned reinforcement learning input state space (RL input state space). One of the methods includes maintaining data defining a plurality of partitions of a space of reinforcement learning (RL) input states, each partition corresponding to a respective supervised learning model; obtaining a current state representation that represents a current state of the environment; for the current state representation and for each action in the set of actions, identifying a respective partition and processing the action and the current state representation using the supervised learning model that corresponds to the respective partition to generate a respective current value function estimate; and selecting an action to be performed by the computer-implemented agent in response to the current state representation using the respective current value function estimate...",
+  "filing_date": "20160708",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to partitioning a reinforcement learning input state (RL input state) space and selecting actions to be performed by an agent interacting with the environment using the partitioned RL input state space. In general, one innovative aspect of the subject matter described in this specification can be embodied in methods of selecting an action to be performed by a computer-implemented agent that interacts with an environment by performing actions selected from a set of actions. One of the methods includes maintaining data defining a plurality of partitions of a space of reinforcement learning (RL) input states, each partition corresponding to a respective supervised learning model that is configured to receive a state representation and an action from the set of actions and to process the received state representation and the received action to generate a respective value function estimate that is an estimate of a return resulting from the computer-implemented agent performing the received action in response to the received state representation; obtaining a current state representation that represents a current state of the environment; for the current state representation and for each action in the set of actions, identifying a respective partition and processing the action and the current state representation using the supervised learning model that corresponds to the respective partition to generate a respective current value function estimate; and selecting an action to be performed by the computer-implemented agent in response to the current state representation using the respective current value function estimates. In general, another innovative aspect of the subject matter described in this specification can be embodied in methods of determining a final partitioning of a space of reinforcement learning (RL) input states, each partition in the final partitioning corresponding to a respective s...",
+  "date_published": "20170727",
+  "title": "REINFORCEMENT LEARNING USING A PARTITIONED INPUT STATE SPACE",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 72048,
+    "optimized_size": 3875,
+    "reduction_percent": 94.62
+  }
+}

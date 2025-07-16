@@ -1,0 +1,69 @@
+{
+  "patent_number": "None",
+  "application_number": "15697407",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "filing_date": "20170906",
+  "main_ipcr_label": "G06N304",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for processing sequences using convolutional neural networks. One of the methods includes, for each of the time steps: providing a current sequence of audio data as input to a convolutional subnetwork, wherein the current sequence comprises the respective audio sample at each time step that precedes the time step in the output sequence, and wherein the convolutional subnetwork is configured to process the current sequence of audio data to generate an alternative representation for the time step; and providing the alternative representation for the time step as input to an output layer, wherein the output layer is configured to: process the alternative representation to generate an output that defines a score distribution over a plurality of possible audio samples for the time step.",
+  "publication_number": "US20180075343A1-20180315",
+  "summary": "<SOH> SUMMARY <EOH>Some of the aspects of this specification describe how a system implemented as computer programs on one or more computers in one or more locations can generate a sequence of audio data that includes a respective audio sample at each of multiple time steps. For example, the sequence of audio data can represent speech in a particular natural language or a piece of music. In one innovative aspect of these aspects a neural network system implemented by one or more computers is configured to generate an output sequence of audio data that comprises a respective audio sample at each of a plurality of time steps. The neural network system may comprise a convolutional subnetwork comprising one or more audio-processing convolutional neural network layers; and an output layer. The convolutional subnetwork may be configured to, for each of the plurality of time steps: receive a current sequence of audio data that comprises the respective audio sample at each time step that precedes the (current) time step in the output sequence. The convolutional subnetwork may further be configured to process the current sequence of audio data to generate an alternative representation for the time (current) step. This alternative representation may thus comprise a numeric representation, i.e., an ordered collection of numeric values, in which the current sequence of audio data has been encoded by the convolutional subnetwork, for example encoding features of the current sequence. The output layer may be configured to, for each of the plurality of time steps: receive the alternative representation for the time step, and process the alternative representation for the time step to generate an output that defines a score distribution over a plurality of possible audio samples for the time step. Some of the many advantages of such a system are described later. The system can use the score distribution to select a sample for the current time step, by sampling from the distribution...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1727",
+    "G10L2530",
+    "G10L1516",
+    "G10L1308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "van den Oord",
+      "inventor_name_first": "Aaron Gerard Antonius",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Dieleman",
+      "inventor_name_first": "Sander Etienne Lea",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Kalchbrenner",
+      "inventor_name_first": "Nal Emmerich",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Simonyan",
+      "inventor_name_first": "Karen",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Vinyals",
+      "inventor_name_first": "Oriol",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Espeholt",
+      "inventor_name_first": "Lasse",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "title": "PROCESSING SEQUENCES USING CONVOLUTIONAL NEURAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 135010,
+    "optimized_size": 4235,
+    "reduction_percent": 96.86
+  }
+}

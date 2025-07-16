@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060726A1-20180301",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15251278",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gokmen",
+      "inventor_name_first": "Tayfun",
+      "inventor_city": "Briarcliff Manor",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vlasov",
+      "inventor_name_first": "Yurii A.",
+      "inventor_city": "Katonah",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A device, system, product and method of controlling resistive processing units (RPUs), includes applying an input voltage signal to each node of an array of resistive processing units, and controlling a learning rate of the array of resistive processing units by varying an amplitude of the input voltage signal to the array of resistive processing units. A conductance state of the array of resistive processing units is varied according to the amplitude received at each of the resistive processing units of the array of resistive processing units. The controlling of the amplitude of input voltage signal is according to a processor of a control device.",
+  "filing_date": "20160830",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>In view of the foregoing and other problems, disadvantages, and drawbacks of the aforementioned background art, an exemplary aspect of the present invention provides a system, apparatus, and method of providing a method, system, and apparatus for voltage control of learning rate for RPU devices for deep neural network training. One example aspect of the present invention provides a method of controlling resistive processing units (RPUs), including applying an input voltage signal to each node of an array of resistive processing units, and controlling a learning rate of the array of resistive processing units by varying an amplitude of the input voltage signal to the array of resistive processing units. A conductance state of the array of resistive processing units is varied according to the amplitude received at each of the resistive processing units of the array of resistive processing units, and the controlling of the amplitude of input voltage signal is according to a processor of a control device. A voltage pulse height is controlled to vary the learning rate of a training on a resistive processing unit hardware including at least a two dimensional array of the resistive processing units. The array of resistive processing units is implemented in a neural network. The array of resistive processing units form at least a two dimensional array. The amplitude of a pulse of the input voltage signal is controlled for each node of the array of the resistive processing units. Each node of the array of resistive processing units includes a first terminal, a second terminal, and an active region having a conduction state. The conduction state identifies a weight of a training methodology applied to the resistive processing unit. The active region is configured to locally perform a data storage operation of the training methodology. The active region is further configured to locally perform a data processing operation of the training methodol...",
+  "date_published": "20180301",
+  "title": "VOLTAGE CONTROL OF LEARNING RATE FOR RPU DEVICES FOR DEEP NEURAL NETWORK TRAINING",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N3063"
+  ],
+  "_processing_info": {
+    "original_size": 65265,
+    "optimized_size": 3392,
+    "reduction_percent": 94.8
+  }
+}

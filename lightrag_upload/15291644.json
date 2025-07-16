@@ -1,0 +1,30 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15291644",
+  "date_published": "20170202",
+  "date_produced": "20170119",
+  "title": "GeoRadio",
+  "filing_date": "20161012",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Nissen",
+      "inventor_name_first": "Peter Neal",
+      "inventor_city": "Arlington",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>The present invention creates the impression of a well-organized and continuous radio program, by responding to location signals, whether via GPS or other method, selecting and sequencing location-relevant audio or visual assets according to a set of rules, and playing them through the existing audio or video system of the device. From the user's direction and speed, the application creates a forecast of assumed motion, plans the media program accordingly, and changes the program if the motion changes. The application filters and prioritizes assets of various lengths and with various degrees of geographic specificity, ranging from very specific such as announcement about Points of Interest (POIs) to very broad such as songs about states. POIs are announced with a notation that identifies the distance to the POI and an indication whether it is on the left or right. The audio describing relative location (prefix) is grafted to the audio describing the location (suffix) in a way that creates the impression that the narrator says it as one sentence. The assets reside on a central server and cached locally and are transmitted when needed to the vehicle as required by the user's location.",
+  "patent_number": "9830322",
+  "abstract": "Systems, methods, and computer-program products are described for determining current location information which includes determining whether an object is moving by comparing the current location information with previous location information. Future location information is calculated and a point of interest is filtered using the future location information. A media asset is then matched to the filtered point of interest and a current score is determined for the matched media asset. Determining a current score includes determining a window in which the matched media asset is geographically relevant to the future location information, and updating the matched media asset score when the future location information changes. An ordered playlist is dynamically generated according to the future location information by repeatedly prioritizing and sequencing matched media assets according to the current score for each matched media asset, and matched media assets are played or displayed in the...",
+  "publication_number": "US20170031922A1-20170202",
+  "_processing_info": {
+    "original_size": 41078,
+    "optimized_size": 2750,
+    "reduction_percent": 93.31
+  }
+}

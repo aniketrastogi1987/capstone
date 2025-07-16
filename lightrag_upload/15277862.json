@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180315",
+  "publication_number": "US20180089580A1-20180329",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15277862",
+  "inventor_list": [
+    {
+      "inventor_name_last": "FU",
+      "inventor_name_first": "Yanwei",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SIGAL",
+      "inventor_name_first": "Leonid",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Techniques are disclosed for identifying and filtering outliers from a sample set of data prior to training a classifier on an object using the sample set. A data set including a plurality of samples used to train a classification model is retrieved. The samples in the data set have a feature dimensionality. A graph of the data set is built. Each node in the graph corresponds to a sample in the data set and edges connecting the nodes correspond to a measure of similarity between the nodes. The feature dimensionality of the sample data set is reduced based on a topology of the graph. One or more outliers in the data set are identified based on the reduced feature dimensionality.",
+  "filing_date": "20160927",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment presented herein discloses a method. This method generally includes retrieving a data set including a plurality of samples used to train a classification model. The samples in the data set have a feature dimensionality. The method also generally includes building, by operation of a processor executing one or more applications, a graph data structure of the data set. Each node in the graph data structure corresponds to a sample in the data set. An edge connecting a first and second node in the graph data structure corresponds to a measure of similarity between the first and second node. The feature dimensionality of the sample data set is reduced based on a topology of the graph data structure. One or more outliers in the plurality of samples are identified based on the reduced feature dimensionality. Another embodiment presented herein discloses a non-transitory computer-readable storage medium storing instructions. The instructions, when executed on a processor, perform an operation. The operation itself generally includes retrieving a data set including a plurality of samples used to train a classification model. The samples in the data set have a feature dimensionality. The operation also generally includes building, by operation of a processor executing one or more applications, a graph data structure of the data set. Each node in the graph data structure corresponds to a sample in the data set. An edge connecting a first and second node in the graph data structure corresponds to a measure of similarity between the first and second node. The feature dimensionality of the sample data set is reduced based on a topology of the graph data structure. One or more outliers in the plurality of samples are identified based on the reduced feature dimensionality. Yet another embodiment presented herein discloses a system having a processor and a memory. The memory stores program code, which, when executed on a processor, performs an operat...",
+  "date_published": "20180329",
+  "title": "ROBUST CLASSIFICATION BY PRE-CONDITIONED LASSO AND TRANSDUCTIVE DIFFUSION COMPONENT ANALYSIS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 40670,
+    "optimized_size": 3436,
+    "reduction_percent": 91.55
+  }
+}

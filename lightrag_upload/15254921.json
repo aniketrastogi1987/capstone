@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060736A1-20180301",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15254921",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Brewer",
+      "inventor_name_first": "Jason Eric",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Green",
+      "inventor_name_first": "Bradley Ray",
+      "inventor_city": "Snohomish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Systems, methods, and non-transitory computer-readable media can determine a respective latent representation for each entity in a set of entities that are accessible through the social networking system, wherein a latent representation for an entity is determined based at least in part on a topic model associated with the entity, each latent representation for an entity having a lower dimensionality than a topic model of the entity. One or more candidate entities that are related to a first entity can be determined based at least in part on the respective latent representations for the candidate entities and the first entity. At least a first candidate entity from the one or more candidate entities can be provided as a recommendation to a user that formed a connection with the first entity.",
+  "filing_date": "20160901",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure can include systems, methods, and non-transitory computer readable media configured to determine a respective latent representation for each entity in a set of entities that are accessible through the social networking system, wherein a latent representation for an entity is determined based at least in part on a topic model associated with the entity, each latent representation for an entity having a lower dimensionality than a topic model of the entity. One or more candidate entities that are related to a first entity can be determined based at least in part on the respective latent representations for the candidate entities and the first entity. At least a first candidate entity from the one or more candidate entities can be provided as a recommendation to a user that formed a connection with the first entity. In an embodiment, the systems, methods, and non-transitory computer readable media are configured to obtain a respective topic model for each entity in the set of entities and train at least one model using the topic models to output a respective latent representation that corresponds to a topic model. In an embodiment, at least one model is implemented as a restricted Boltzmann machine. In an embodiment, the model includes at least a set of input nodes and a set of hidden nodes, each input node corresponding to a topic and being configured to receive a value indicating whether the topic was identified in an entity, and each hidden node being configured to output a value determined based at least in part on values provided to one or more of the input nodes. In an embodiment, the systems, methods, and non-transitory computer readable media are configured to determine that a distance between a respective latent representation for the candidate entity and a latent representation for the first entity satisfies a threshold distance. In an embodiment, the systems, methods, and non-transitory compute...",
+  "date_published": "20180301",
+  "title": "SYSTEMS AND METHODS FOR RECOMMENDING CONTENT ITEMS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 91940,
+    "optimized_size": 3507,
+    "reduction_percent": 96.19
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "date_produced": "20180509",
+  "publication_number": "US20180144251A1-20180524",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15372348",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHOU",
+      "inventor_name_first": "Jerry Chi-Yuan",
+      "inventor_city": "Hsinchu City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "LU",
+      "inventor_name_first": "Shih-Yu",
+      "inventor_city": "Nantou County",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Chen-Chun",
+      "inventor_city": "Taoyuan City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "LIN",
+      "inventor_name_first": "Chan-Yi",
+      "inventor_city": "Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "LU",
+      "inventor_name_first": "Hsin-Tse",
+      "inventor_city": "Taipei City",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "abstract": "A server and a cloud computing resource optimization method thereof for cloud big data computing architecture are provided. The server runs a dynamic scaling system to perform the following operations: receiving a task message; executing a profiling procedure to generate a profile based on an to-be-executed task recorded in the task message; executing a classifying procedure to determine a task classification of the to-be-executed task; executing a prediction procedure to obtain a plurality of predicted execution times corresponding to a plurality of computing node numbers, a computing node type and a system parameter of the to-be-executed task; executing an optimization procedure to determine a practical computing node number of the to-be-executed task; and transmitting an optimization output message to a management server to make the management server allocate at least one data computing system to execute a program file of the to-be-executed task.",
+  "filing_date": "20161207",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The disclosure includes a cloud computing resource optimization mechanism, which runs a dynamic scaling system in a cloud big data computing architecture to perform profile analysis on a to-be-executed task recorded in a task message. Then, the dynamic scaling system classifies the to-be-executed task according to the profile analysis result, and assigns a computing node type and a system parameter of the to-be-executed task and predict a plurality of predicted execution times of the to-be-executed task corresponding to a plurality of computing node numbers according to the classification result. Then the dynamic scaling system determines a practical computing node number of the to-be-executed task according to a user-defined attribute and the predicted execution times of the to-be-executed task, an additional user-defined attribute and a plurality of additional predicted execution times of each of at least one additional task and the maximum computing resource of the cloud big data computing architecture. Afterwards, the dynamic scaling system provides the practical computing node number, the computing node type and the system parameter of the to-be-executed task to a management server of the cloud big data computing architecture so that appropriate computing resources are allocated to the to-be-executed task. Accordingly, the cloud computing resource optimization mechanism can be applied to cloud big data computing architectures adopting various cloud computing frameworks (e.g., the Hadoop computing framework and the Spark computing framework) so as to optimize use of the limited computing resources by automatically allocating computing resources and adding or deleting virtual hosts under conditions of limited computing resources. Thereby, unfairness in allocation of the limited resources or degradation in overall efficiency of the computing system due to adjustment or setting of the number of virtual hosts and system parameters thereof by the u...",
+  "date_published": "20180524",
+  "title": "SERVER AND CLOUD COMPUTING RESOURCE OPTIMIZATION METHOD THEREOF FOR CLOUD BIG DATA COMPUTING ARCHITECTURE",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 80156,
+    "optimized_size": 4172,
+    "reduction_percent": 94.8
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "decision": "PENDING",
+  "application_number": "15293045",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "title": "PAGE TABLE ENTRY CACHING FOR VIRTUAL DEVICE EMULATION",
+  "filing_date": "20161013",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tsirkin",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Yokneam Yillit",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Bonzini",
+      "inventor_name_first": "Paolo",
+      "inventor_city": "Turate",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1214",
+    "G06F121009",
+    "G06F121045",
+    "G06F306",
+    "G06F9455"
+  ],
+  "main_ipcr_label": "G06F1214",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The present disclosure is illustrated by way of example, and not by way of limitation, and can be more fully understood with reference to the following detailed description when considered in connection with the figures in which: FIG. 1 depicts a high-level component diagram of an example computer system architecture, in accordance with one or more aspects of the present disclosure. FIG. 2 depicts a block diagram illustrating an example of an MMIO page table manager for facilitating page table entry caching for virtual device emulation, in accordance with one or more aspects of the present disclosure. FIG. 3 depicts a flow diagram of a method for page table entry caching for virtual device emulation, in accordance with one or more aspects of the present disclosure. FIG. 4 depicts a flow diagram of a method for configuring an entry in a host page table as a hypervisor exit entry, in accordance with one or more aspects of the present disclosure. FIG. 5 depicts a block diagram of an illustrative computer system operating in accordance with one or more aspects of the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A hypervisor configures a page table entry in a host page table to map an address associated with memory-mapped input-output (MMIO) for a virtual device of a guest of the hypervisor to an input/output (I/O) instruction. The address is marked in the page table entry as a hypervisor exit entry, and the page table entry to cause an exit to the hypervisor responsive to the guest attempting to access the address. Responsive to detecting an exit to the hypervisor caused by the guest attempting to access the address, the hypervisor receives the I/O instruction mapped to the address that caused the exit. The hypervisor then executes the I/O instruction on behalf of the guest.",
+  "publication_number": "US20180107607A1-20180419",
+  "_processing_info": {
+    "original_size": 47492,
+    "optimized_size": 2631,
+    "reduction_percent": 94.46
+  }
+}

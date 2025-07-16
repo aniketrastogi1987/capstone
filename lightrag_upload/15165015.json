@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170104",
+  "publication_number": "US20170017899A1-20170119",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15165015",
+  "inventor_list": [
+    {
+      "inventor_name_last": "MAOR",
+      "inventor_name_first": "Meir",
+      "inventor_city": "Netanya",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "KARIDI",
+      "inventor_name_first": "Ron",
+      "inventor_city": "Herzliya",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "DAVIDOVICH",
+      "inventor_name_first": "Sagie",
+      "inventor_city": "Zikhron-Yaakov",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "RONEN",
+      "inventor_name_first": "Amir",
+      "inventor_city": "Haifa",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "abstract": "There is provided a method for combining datasets, comprising: receiving a primary training dataset; receiving unclassified secondary dataset(s) comprising secondary data instances including secondary fields; identifying, for a first set of values of primary field(s) of training dataset, a second set of secondary fields of the secondary datasets according to the first set of values matched to corresponding values in respective secondary field(s) of secondary dataset(s) according to a matching requirement; linking each respective matched values to other secondary fields of the respective matched secondary field; generating a set of classification features based at least on the linked secondary fields; selecting a subset of pivotal classification features according to a correlation requirement; identifying a subset of pivotal secondary fields based on the secondary fields associated with each pivotal classification feature; and documenting the selected subset of pivotal features for use ...",
+  "filing_date": "20160526",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to an aspect of some embodiments of the present invention there is provided a computer implemented method for combining datasets for use in an automated machine learning process, comprising: receiving a designation of a primary training dataset comprising a plurality of primary data instances, each primary data instance including a plurality of primary fields each assigned at least one value, each primary data instance associated with a classification label; receiving a designation of at least one secondary dataset each comprising a plurality of secondary data instances, each secondary data instance including a plurality of secondary fields, each secondary data being unclassified; identifying, for a first set of values of at least one primary field of the plurality of primary fields, a second set of secondary fields of the at least one secondary datasets according to the first set of values matched to corresponding values in at least one respective secondary field of at least one secondary dataset according to a matching requirement; linking each respective matched value of the first set of values, to other secondary fields of at least one respective secondary data instance of the respective matched secondary field; generating a set of classification features based at least on the linked second set of secondary fields, each classification feature for application to at least one field from the linked second set of secondary data fields; applying each classification feature of the generated set of classification features to each linked second set of secondary fields to generate a set of extracted features; selecting a subset of pivotal classification features from the set of classification features according to a correlation requirement between the classification label of the primary data instance corresponding to the linked secondary field used in the respective classification feature, and each respective member of the se...",
+  "date_published": "20170119",
+  "title": "SYSTEMS AND METHODS FOR SECONDARY KNOWLEDGE UTILIZATION IN MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 130342,
+    "optimized_size": 4005,
+    "reduction_percent": 96.93
+  }
+}

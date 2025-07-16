@@ -1,0 +1,39 @@
+{
+  "date_produced": "20171108",
+  "publication_number": "US20170337481A1-20171123",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15156849",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Trouillon",
+      "inventor_name_first": "Théo Philippe",
+      "inventor_city": "Echirolles",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Bouchard",
+      "inventor_name_first": "Guillaume M.",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "A method for link prediction includes providing training samples for at least one relation. The training samples include positive training samples in which a first of a set of entities is a subject in the relation and a second of the set of entities is an object in the relation. An input matrix is generated for each of the at least one relation, based on the training samples. Parameters of a scoring function which minimize an error between a reconstructed matrix and the input matrix are learned, the parameters including a set of latent factors for each entity, each of the latent factors being a complex number. The parameters of the scoring function may be output for performing link prediction and/or used for predicting an entity for a relation from a part of the reconstructed matrix.",
+  "filing_date": "20160517",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION <EOH>In accordance with one aspect of the exemplary embodiment, a method for link prediction includes providing training samples for at least one relation, the training samples comprising positive training samples in which a first of a set of entities is a subject in the relation and a second of the set of entities is an object in the relation. An input matrix is generated for each of the at least one relation, based on the training samples. Parameters of a scoring function are learnt which minimize an error between a reconstructed matrix and the input matrix. The parameters include a set of latent factors for each entity. Each of the latent factors is a complex number. The parameters of the scoring function may be output for performing link prediction or an entity for a relation may be predicted based on the parameters. The reconstructed matrix may be output for performing link prediction and/or an entity for a relation may be predicted from the reconstructed matrix. One or more steps of the method may be performed with a processor. In accordance with another aspect of the exemplary embodiment, a link prediction system includes memory which stores values for training samples for at least one relation. The training samples include positive training samples in which a first of a set of entities is a subject in the relation and a second of the set of entities is an object in the relation. A generation component generates an input matrix for each of the at least one relation, based on the training samples. A completion component learns parameters of a scoring function which minimize an error between a reconstructed matrix and the input matrix. The parameters include a set of latent factors for each entity. Each of the latent factors is a complex number. A processor implements the generation component and the completion component. In accordance with one aspect of the exemplary embodiment, a method for link prediction includes providing an input m...",
+  "date_published": "20171123",
+  "title": "COMPLEX EMBEDDINGS FOR SIMPLE LINK PREDICTION",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1100",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 78999,
+    "optimized_size": 3516,
+    "reduction_percent": 95.55
+  }
+}

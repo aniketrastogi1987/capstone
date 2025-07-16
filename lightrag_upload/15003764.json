@@ -1,0 +1,65 @@
+{
+  "date_produced": "20160518",
+  "publication_number": "US20160155048A1-20160602",
+  "main_ipcr_label": "G06N304",
+  "decision": "ACCEPTED",
+  "application_number": "15003764",
+  "inventor_list": [
+    {
+      "inventor_name_last": "McCormick",
+      "inventor_name_first": "Bruce Kent",
+      "inventor_city": "Granite Bay",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nagel",
+      "inventor_name_first": "William Harry",
+      "inventor_city": "Roseville",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McCormick",
+      "inventor_name_first": "Christopher John",
+      "inventor_city": "Santa Barbara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fandrich",
+      "inventor_name_first": "Mickey Lee",
+      "inventor_city": "Oregon City",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Movsisyan",
+      "inventor_name_first": "Vardan",
+      "inventor_city": "Yerevan",
+      "inventor_state": "",
+      "inventor_country": "AM"
+    },
+    {
+      "inventor_name_last": "McCormick",
+      "inventor_name_first": "Matthew",
+      "inventor_city": "Folsom",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A nonlinear neuron classifier comprising a neuron array including a plurality of neuron chips each including a plurality of neurons of variable length and variable depth, the chips processing input vectors of variable length and variable depth that are input into the classifier for comparison against vectors stored in the classifier, wherein an NSP flag is set for a plurality of the neurons to indicate that only that plurality of neurons is to participate in the vector calculations. A virtual content addressable memory flag is set for certain of the neuron chips to enable functions including fast readout of data from the chips. Results of vector calculations are aggregated for fast readout for a host computer interfacing with the classifier.",
+  "filing_date": "20160121",
+  "patent_number": "9747547",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments are illustrated by way of example and not as a limitation in the figures of the accompanying drawings, wherein the same components in the various figures bear the same reference numerals. FIG. 1 is a diagram of an integrated circuit, according to an embodiment. FIG. 2 is a diagram of the integrated circuit of FIG. 1 that provides a feature wherein any of the components in the input vector, stored vectors, or both, have zero (0) value are excluded from the calculation in the neuron array, according to an embodiment. FIG. 2A is a diagram showing an example of excluding components or parts of the components from the distance calculation in FIG. 2 , according to an embodiment. FIG. 3 is a diagram of the integrated circuit of FIG. 1 showing an externally accessible configuration table that may be included on hardware based nonlinear classifier that gives fixed (read only) information about the chip configuration and capabilities. Also shown is an externally accessible status register that provides variable (rewritten in real time) information about the chip status, according to an embodiment. FIG. 4 is a diagram of the integrated circuit of FIG. 1 depicting neurons, which may be contiguous or non-contiguous, that may be associated with a particular context and subset categories that may be able to be cleared and reused as a partial clearing of the chip, according to an embodiment. FIG. 5 is a diagram of the integrated circuit of FIG. 1 illustrating individual neurons comprising a set of two registers that stores the distance results, according to an embodiment. FIG. 6 is a diagram of the integrated circuit of FIG. 1 illustrating preprocessing and/or post processing logic blocks either on the input vector prior to being submitted to the neuron array for calculations or storage or output results after the neuron array calculations or retrieval, according to an embodiment. FIG. 7 is a diagram of the integrated ci...",
+  "date_published": "20160602",
+  "title": "HARDWARE ENHANCEMENTS TO RADIAL BASIS FUNCTION WITH RESTRICTED COULOMB ENERGY LEARNING AND/OR K-NEAREST NEIGHBOR BASED NEURAL NETWORK CLASSIFIERS",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 87413,
+    "optimized_size": 4164,
+    "reduction_percent": 95.24
+  }
+}

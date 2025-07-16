@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15419517",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "filing_date": "20170130",
+  "main_ipcr_label": "G06N304",
+  "abstract": "In selected embodiments a recommendation generator builds a network of interrelationships between venues, reviewers and users based on attributes and reviewer and user reviews of the venues. Each interrelationship or link may be positive or negative and may accumulate with other links (or anti-links) to provide nodal links the strength of which are based on commonality of attributes among the linked nodes and/or common preferences that one node, such as a reviewer, expresses for other nodes, such as venues. The links may be first order (based on a direct relationship between, for instance, a reviewer and a venue) or higher order (based on, for instance, the fact that two venue are both liked by a given reviewer). The recommendation engine in certain embodiments determines recommended venues based on user attributes and venue preferences by aggregating the link matrices and determining the venues which are most strongly coupled to the user.",
+  "publication_number": "US20170140262A1-20170518",
+  "summary": "<SOH> SUMMARY <EOH>In selected embodiments a recommendation generator builds a network of interrelationships among venues, reviewers and users based on their attributes and reviewer and user reviews of the venues. Each interrelationship or link may be positive or negative and may accumulate with other links (or anti-links) to provide nodal links the strength of which are based on commonality of attributes among the linked nodes and/or common preferences that one node, such as a reviewer, expresses for other nodes, such as venues. The links may be first order (based on a direct relationship between, for instance, a reviewer and a venue) or higher order (based on, for instance, the fact that two venue are both liked by a given reviewer). The recommendation engine in certain embodiments determines recommended venues based on user attributes and venue preferences by aggregating the link matrices and determining the venues which are most strongly coupled to the user. The system architecture in various embodiments may permit efficient, localized updating of the neural network in response to alteration of the attributes of various nodes. The details of one or more implementations are set forth in the accompanying drawing and description below. Other features, objects, and advantages will be apparent from the description and drawings, and from the claims.",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1730",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "WILSON",
+      "inventor_name_first": "Nathan R.",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HUESKE",
+      "inventor_name_first": "Emily A.",
+      "inventor_city": "Cambridge",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "COPEMAN",
+      "inventor_name_first": "Thomas C.",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR PROVIDING RECOMMENDATIONS BASED ON COLLABORATIVE AND/OR CONTENT-BASED NODAL INTERRELATIONSHIPS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 177594,
+    "optimized_size": 3249,
+    "reduction_percent": 98.17
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "date_produced": "20170705",
+  "publication_number": "US20170206463A1-20170720",
+  "main_ipcr_label": "G06N9900",
+  "decision": "ACCEPTED",
+  "application_number": "14995266",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Arndt",
+      "inventor_name_first": "Karla K.",
+      "inventor_city": "Rochester",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gentile",
+      "inventor_name_first": "Joseph W.",
+      "inventor_city": "New Paltz",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Jones",
+      "inventor_name_first": "Nicholas R.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Matsakis",
+      "inventor_name_first": "Nicholas C.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Surman",
+      "inventor_name_first": "David H.",
+      "inventor_city": "Marlboro",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Aspects relate to a computer implemented method for resolving abnormal contention on a computer system. The method includes detecting, using a processor, abnormal contention of a serially reusable resource caused by a first process, wherein the abnormal contention includes the first process blocking the serially reusable resource from a second process that is waiting to use the serially reusable resource. The method includes collecting, in a computer storage medium, resource data in a serialized resource history database and analyzing the resource data associated with the serially reusable resource and adjusting, using the processor, resource allocation for the first process of the serially reusable resource based on the resource data. The method also includes processing, using the processor and the serially reusable resource, the first process based on the resource allocation and releasing, using the processor, the serially reusable resource by the first process in response to the fir...",
+  "filing_date": "20160114",
+  "patent_number": "9965727",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with an embodiment, a method for resolving abnormal contention is provided. The method includes detecting, using a processor, abnormal contention of a serially reusable resource caused by a first process, wherein the abnormal contention includes the first process blocking the serially reusable resource from a second process that is waiting to use the serially reusable resource and collecting, in a computer storage medium, resource data in a serialized resource history database and analyzing the resource data associated with the serially reusable resource. The method also includes adjusting, using the processor, resource allocation for the first process of the serially reusable resource based on the resource data and processing, using the processor and the serially reusable resource, the first process based on the resource allocation. Further, the method includes releasing, using the processor, the serially reusable resource by the first process in response to the first process completing. In accordance with another embodiment, a computer system for resolving abnormal contention includes a memory having computer readable instructions and one or more processors for executing the computer readable instructions. The computer readable instructions includes detecting, using the one or more processors, abnormal contention of a serially reusable resource caused by a first process, wherein the abnormal contention includes the first process blocking the serially reusable resource from a second process that is waiting to use the serially reusable resource and collecting, in the memory, resource data in a serialized resource history database and analyzing the resource data associated with the serially reusable resource. The system also includes adjusting, using the one or more processors, resource allocation for the first process of the serially reusable resource based on the resource data and processing, using the one or more processors and the...",
+  "date_published": "20170720",
+  "title": "METHOD AND APPARATUS FOR RESOLVING CONTENTION IN A COMPUTER SYSTEM",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F954",
+    "G06F1730",
+    "G06F950"
+  ],
+  "_processing_info": {
+    "original_size": 79155,
+    "optimized_size": 4209,
+    "reduction_percent": 94.68
+  }
+}

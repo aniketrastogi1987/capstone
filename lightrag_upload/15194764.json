@@ -1,0 +1,59 @@
+{
+  "date_produced": "20161005",
+  "publication_number": "US20160307099A1-20161020",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15194764",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Wei-Hao",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Green",
+      "inventor_name_first": "Travis H. K.",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kaplow",
+      "inventor_name_first": "Robert",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fu",
+      "inventor_name_first": "Gang",
+      "inventor_city": "Kearny",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mann",
+      "inventor_name_first": "Gideon S.",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for score normalization. One of the methods includes receiving initial training data, the initial training data comprising initial training records, each initial training record identifying input data as input and a category as output. The method includes generating a first trained predictive model using the initial training data and a training function. The method includes generating intermediate training records by inputting input data of the initial training records to a second trained predictive model, the second trained predictive model generated using the training function, each intermediate training record having a score. The method also includes generating a score normalization model using a score normalization training function and the intermediate training records.",
+  "filing_date": "20160628",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This document describes techniques for score normalization. In general, one innovative aspect of the subject matter described in this specification can be embodied in methods that include the actions of receiving initial training data, the initial training data comprising initial training records, each initial training record identifying input data as input and a category as output. The methods also include the actions of generating a first trained predictive model using the initial training data and a training function. The methods also include the actions of generating intermediate training records by inputting input data of the initial training records to a second trained predictive model, the second trained predictive model generated using the training function, each intermediate training record having a score. The methods also include the actions of generating a score normalization model using a score normalization training function and the intermediate training records. Other embodiments of this aspect include corresponding computer systems, apparatus, and computer programs recorded on one or more computer storage devices, each configured to perform the actions of the methods. A system of one or more computers can be configured to perform particular actions by virtue of having software, firmware, hardware, or a combination of them installed on the system that in operation causes or cause the system to perform the actions. One or more computer programs can be configured to perform particular actions by virtue of including instructions that, when executed by data processing apparatus, cause the apparatus to perform the actions. The foregoing and other embodiments can each optionally include one or more of the following features, alone or in combination generating intermediate training records may include dividing the initial training records into sets of training records, the sets of training records including a first set of training records, ...",
+  "date_published": "20161020",
+  "title": "NORMALIZATION OF PREDICTIVE MODEL SCORES",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 75542,
+    "optimized_size": 4001,
+    "reduction_percent": 94.7
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "patent_number": "None",
+  "application_number": "15601925",
+  "date_published": "20170907",
+  "date_produced": "20170823",
+  "filing_date": "20170522",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Techniques described herein may be used to solve a stochastic problem by dividing the stochastic problem into multiple fragments. In some cases, each fragment may be related to a random variable that forms a part of the problem, such that each fragment may produce samples from a probability distribution for that variable. Each fragment of the stochastic problem may then be assigned to a configurable circuit to solve the stochastic fragment. Configurable circuits may be implemented using any suitable combination of hardware and/or software, including using stochastic circuitry. In some embodiments, stochastic circuitry may include a stochastic tile and/or a stochastic memory.",
+  "publication_number": "US20170255870A1-20170907",
+  "summary": "<SOH> SUMMARY <EOH>Applicants have recognized and appreciated that there are many disadvantages to current techniques used for computationally solving stochastic problems. Described herein are various principles and techniques that may be used, independently or in combination, to solve stochastic problems using configurable circuits that can be configured to produce samples from probability distributions. More particularly, some of the principles and techniques described herein may be used to solve a stochastic problem by dividing the stochastic problem into multiple fragments. In some cases, each fragment may be related to a random variable that forms a part of the problem, such that each fragment may produce samples from a probability distribution for that variable. In other cases, each fragment may be assigned to a cluster of a clustering technique and/or a property of a cluster. Each fragment of the stochastic problem may then be assigned to a configurable circuit to solve the stochastic fragment. Each configurable circuit may be configured to solve the stochastic fragment, such as by providing to the configurable circuit information about a random variable, previous and/or possible values of the random variable, a probability distribution related to the random variable, other variables upon which the value of the random variable may be conditioned, or other information. In some cases, multiple stochastic fragments of a stochastic problem may be assigned to one configurable circuit and the configurable circuit may be periodically reconfigured to solve each fragment of the stochastic problem. Configurable circuits may be implemented using any suitable combination of hardware and/or software. Configurable circuits and examples of configurable circuits that may be used to solve stochastic problems are discussed below. One type of configurable circuit, a stochastic tile, is also described in detail below. A stochastic tile may be a configurable circuit that is confi...",
+  "ipcr_labels": [
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jonas",
+      "inventor_name_first": "Eric M.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mansinghka",
+      "inventor_name_first": "Vikash K.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS, METHODS, AND APPARATUSES FOR SOLVING STOCHASTIC PROBLEMS USING PROBABILITY DISTRIBUTION SAMPLES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 162957,
+    "optimized_size": 3438,
+    "reduction_percent": 97.89
+  }
+}

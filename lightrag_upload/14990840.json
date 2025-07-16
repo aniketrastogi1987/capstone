@@ -1,0 +1,55 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "14990840",
+  "date_published": "20170713",
+  "date_produced": "20170627",
+  "title": "APPARATUS AND METHOD FOR DEPLOYING SENSORS",
+  "filing_date": "20160108",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ALBAGHAJATI",
+      "inventor_name_first": "Anas Mohammed",
+      "inventor_city": "Dhahran",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    },
+    {
+      "inventor_name_last": "NASIR",
+      "inventor_name_first": "Mohammad Tariq",
+      "inventor_city": "Dhahran",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    },
+    {
+      "inventor_name_last": "GHOUTI",
+      "inventor_name_first": "Lahouari",
+      "inventor_city": "Dhahran",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    },
+    {
+      "inventor_name_last": "EL FERIK",
+      "inventor_name_first": "Sami",
+      "inventor_city": "Dhahran",
+      "inventor_state": "",
+      "inventor_country": "SA"
+    }
+  ],
+  "ipcr_labels": [
+    "G05D102",
+    "G06T1120",
+    "H04W402",
+    "H04N5225",
+    "H04B7185"
+  ],
+  "main_ipcr_label": "G05D102",
+  "summary": "<SOH> SUMMARY <EOH>According to an embodiment of the present disclosure is provided a robot for automated deployment of a seismic sensor in a geographic region. The robot includes a satellite receiver and a plurality of inertial sensors configured to determine at least one of a location and an orientation of the robot; an imager configured to capture images; and circuitry. The circuitry is configured to generate a map of the geographic region, wherein the map includes a plurality of grid cells, a first grid cell including an initial starting point of the robot and a second grid cell including a target point corresponding to a location for deploying the seismic sensor, assign each grid cell a reward value based on at least one of a surface elevation of the geographic region in the grid cell and a soil hardness factor of the geographic region in the grid cell, determine an action for each grid cell of the plurality of grid cells, wherein the action corresponds to an expected direction of movement of the robot in the grid cell, the expected direction of movement in the grid cell maximizing a discounted sum of reward values of the grid cells, compute a global path as a concatenation of actions starting from the first grid cell and terminating at the second grid cell, monitor a current location of the robot based on at least one of the satellite receiver and the plurality of inertial sensors, to determine whether a deviation of the robot from the first path exceeds a predetermined threshold deviation, and compute a second path for the robot based on at least one of the monitored location of the robot and an obstacle being detected in the global path by the imager. By one embodiment of the present disclosure is provided a method of automated deployment of a seismic sensor in a geographic region by a robot. The method includes: determining, by a satellite receiver and a plurality of inertial sensors, at least one of a location and an orientation of the robot; capturing by ...",
+  "patent_number": "9798327",
+  "abstract": "Described herein a robot assisted method of deploying sensors in a geographic region. The method of deploying sensors is posed as a Markovian decision process. The robot assigns each grid cell in a map of the geographic region a reward value based on a surface elevation of the geographic region and a soil hardness factor. Further, the robot determines an action for each grid cell of the plurality of grid cells, wherein the action corresponds to an expected direction of movement of the robot in the grid cell. The robot computes a global path as a concatenation of actions starting from a first grid cell and terminating at a second grid cell. The method monitors the movement of the robot on the computed global path and computes a second path based on a deviation of the robot from the global path.",
+  "publication_number": "US20170199525A1-20170713",
+  "_processing_info": {
+    "original_size": 106572,
+    "optimized_size": 3832,
+    "reduction_percent": 96.4
+  }
+}

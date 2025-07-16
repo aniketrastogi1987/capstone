@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15473285",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "filing_date": "20170329",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A method and/or system for heterogeneous predictive models generation based on sampling of big data is disclosed. The method involves receiving a dataset and a target column associated with the dataset at a data processing engine from a distributed data warehouse. One or more columns associated with the dataset are classified at the data processing engine as a categorical column or a continuous column. One or more parameters in the dataset are identified to extract a sample data from the dataset. The sample data from the dataset is extracted based on the identified one or more parameters. One or more rank ordered machine learning algorithms are recommended to one or more users, to generate one or more predictive models from the sample data. One or more heterogeneous predictive models are generated based on the rank ordered algorithm through one or more iterations.",
+  "publication_number": "US20180075357A1-20180315",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed are a method, a system and/or a non-transitory computer-readable storage medium for automated development and deployment of predictive/machine learning models for larger datasets. In one aspect, a computer-implemented method for heterogeneous predictive models generation based on sampling of big data is disclosed. The method involves receiving a dataset and a target column associated with the dataset at a data processing engine, from one or more distributed data warehouses located in multiple geographic regions. The one or more distributed data warehouses are communicatively coupled to the data processing engine through a high throughput distributed messaging system over a cluster computing network. One or more columns associated with the dataset are classified at the data processing engine as a categorical column or a continuous column, based on at least one of a type of data or a distribution of data in the dataset. One or more parameters in the dataset are identified to extract a sample data from the dataset. The one or more parameters may be one or more of selected categorical columns, a target column or one or more decile columns. The one or more decile columns may be a decile level representation of values of each of the selected continuous columns. The sample data from the dataset is extracted based on the identified one or more parameters. One or more rank ordered machine learning algorithms are recommended to one or more users, to generate one or more predictive models based on the sample data. The recommendation may be based on characteristics of the dataset. One or more heterogeneous predictive models are generated based on the rank ordered algorithm through one or more iterations. Further, the generated one or more heterogeneous predictive models are deployed automatically by dividing the dataset into smaller chunks based on the size of the dataset, predicting the outcome of the target column, and persisting the outcome in th...",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Subramanian",
+      "inventor_name_first": "Ganapathy",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Dasgupta",
+      "inventor_name_first": "Sudipto Shankar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Kaipa",
+      "inventor_name_first": "Kiran Kumar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Teli",
+      "inventor_name_first": "Prasanna Nagesh",
+      "inventor_city": "Kolhapur",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "AUTOMATED SYSTEM FOR DEVELOPMENT AND DEPLOYMENT OF HETEROGENEOUS PREDICTIVE MODELS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 75979,
+    "optimized_size": 3921,
+    "reduction_percent": 94.84
+  }
+}

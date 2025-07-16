@@ -1,0 +1,116 @@
+{
+  "patent_number": "None",
+  "application_number": "15478772",
+  "date_published": "20171005",
+  "date_produced": "20170920",
+  "filing_date": "20170404",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Systems, technologies and techniques for generating a customized classification model are disclosed. The system and technologies, such as THOMSON REUTERS SELF-SERVICE CLASSIFICATION™, employ part machine learning and part an user interactive approach to generate a customized classification model. The system combines a novel approach for text classification using a smaller initial set of data to initiate training, with a unique workflow and user interaction for customization.",
+  "publication_number": "US20170286869A1-20171005",
+  "summary": "<SOH> SUMMARY <EOH>Systems, technologies and techniques for generating a customized classification model are disclosed. The system and technologies, such as THOMSON REUTERS SELF-SERVICE CLASSIFICATION™, employ part machine learning and part an user interactive approach to generate a customized classification model. The system combines a novel approach for text classification using a smaller initial set of data to initiate training, with a unique workflow and user interaction for customization. Various aspects of the system relate to generating a customized classification model. For example, according to one aspect, a computer-implemented method includes receiving a set of documents comprising a set of positive labeled documents and a set of unlabeled documents, processing the set of documents to remove duplicate documents and noise within the documents, generating a preliminary model for each topic of a set of topics, training the preliminary model to determine an additional set of positive and negative documents based on the set of documents, wherein training comprises in part identifying negative documents from the set of document, generating a customized classification model using the trained preliminary model and the additional set of positive and negative documents, and providing the customized classification model along with at least a precision or recall value for the model. Positive labeled documents are documents that are known to contain or discuss a desired topic. As used herein, a labeled document refers to a document that contains an identifier relating to the topic of the document. It may also be referred to as a tagged document. When a document is determined to be positive in discussing a topic or negative in discussing a topic, it may be called a positive labeled document or a negative labeled document respectively. When a determination has not been made on the document, it may be described as an unlabeled document. In one implementation, training th...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1727",
+    "G06F1750"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zarosim",
+      "inventor_name_first": "Hila",
+      "inventor_city": "Bat Yam",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Hazai",
+      "inventor_name_first": "Oren",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Rom",
+      "inventor_name_first": "Ofri",
+      "inventor_city": "Ganey Tikva",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Azikri",
+      "inventor_name_first": "Ehud",
+      "inventor_city": "Herzliya",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Weintraub",
+      "inventor_name_first": "Lior",
+      "inventor_city": "Petach Tikva",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Lindman",
+      "inventor_name_first": "Yael",
+      "inventor_city": "Shoham",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Weinreb",
+      "inventor_name_first": "Enav",
+      "inventor_city": "Petach Tikva",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Khalaman",
+      "inventor_name_first": "Savva",
+      "inventor_city": "Givat Shmuel",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Ben-Shlomo",
+      "inventor_name_first": "Yossi",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Levinson",
+      "inventor_name_first": "Dmitry",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Sharabi",
+      "inventor_name_first": "Evyatar",
+      "inventor_city": "Kfar Hess",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Goldshlager",
+      "inventor_name_first": "Alexandra Rabinovich",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Hertz",
+      "inventor_name_first": "Shai",
+      "inventor_city": "Tel Aviv",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "title": "Self-Service Classification System",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 67819,
+    "optimized_size": 4788,
+    "reduction_percent": 92.94
+  }
+}

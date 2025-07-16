@@ -1,0 +1,44 @@
+{
+  "date_produced": "20170906",
+  "publication_number": "US20170270420A1-20170921",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15075180",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Harder",
+      "inventor_name_first": "Nathalie",
+      "inventor_city": "Munich",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Athelogou",
+      "inventor_name_first": "Maria",
+      "inventor_city": "Munich",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "A system predicts the recurrence of cancer. A first slice of a prostate tissue sample is stained so that luminal epithelial cells and basal epithelial cells are stained different colors. A first digital image is taken of the first slice. The second slice of the sample is stained so that M1 type macrophages and M2 type macrophages are differentially stained. A second digital image is taken of the second slice. The system analyzes the first digital image and defines regions of non-intact glands. Intact gland regions are then determined, and regions of stroma are identified. The system defines influence zones between non-intact regions and stroma regions. Using information from the second image, macrophages in the tissue corresponding to the influence zones are identified and counted. Based at least in part on this count, the system determines a score. The score is indicative of whether the patient will experience PSA recurrence.",
+  "filing_date": "20160320",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In one novel aspect, a system outputs a score. The score is indicative of whether a cancer patient who has just undergone a radical prostatectomy will nonetheless likely suffer a recurrence of cancer. A tissue sample of the patient's prostate is taken. This sample may, for example, be obtained from the prostate tissue that was removed during the radical prostatectomy. The tissue sample is sliced into several very thin tissue slices. A first slice is duplex stained with a first pair of biomarkers, thereby obtaining a first stained tissue slice. In one example, the first stain of this duplex staining is a cytokeratin 18 (CK18) antibody stain that stains luminal epithelial cells of prostate glands a first color, and the second stain of the duplex staining is a transcription factor p63 antibody stain that stains basal epithelial cells of prostate glands a second color. A first high resolution color digital image is then taken of the first stained tissue slice. A second slice that was adjacent to the first slice in the tissue sample is duplex stained with a second pair of biomarkers, thereby obtaining a second stained tissue slice. In one example, the first stain of this duplex staining is a CD68 stain, and the second stain of the duplex staining is a CD163 stain. Due to this double staining, individual M1 type macrophages are stained a first color, and individual M2 type macrophages are stained a second color. A second high resolution color digital image is then taken of the second stained tissue slice. The first and second digital images are supplied to the system. The system analyzes the first digital image and generates non-intact gland objects. Each non-intact gland object corresponds to a non-intact gland in the first tissue slice. From the non-intact gland objects, the system defines regions of non-intact glands. The aggregation of the pixel areas of these non-intact regions is a non-intact region mask. The system also analyzes the first digital...",
+  "date_published": "20170921",
+  "title": "System for Predicting the Recurrence of Cancer in a Cancer Patient",
+  "ipcr_labels": [
+    "G06N700",
+    "G06T740",
+    "G06K966",
+    "G06T760",
+    "G06K952",
+    "G06K962",
+    "G06T700",
+    "G06K946"
+  ],
+  "_processing_info": {
+    "original_size": 87590,
+    "optimized_size": 3713,
+    "reduction_percent": 95.76
+  }
+}

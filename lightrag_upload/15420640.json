@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15420640",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A bias estimation apparatus according to an embodiment estimates a bias included in a measured values by each sensor. The bias estimation apparatus includes a reference model builder, a temporary bias generator, a corrected measured value calculator, a similarity calculator, a similarity selector, a score calculator, and an estimated bias determiner. The reference model builder builds a reference model of the measured value packs. The temporary bias generator generates a temporary bias pack. The corrected measured value calculator calculates corrected measured value packs. The similarity calculator calculates a similarity of each corrected measured value pack. The similarity selector selects a part of the similarities according to their values from among the similarities. The score calculator calculates a score based on the selected similarities. The estimated bias determiner determines an estimated bias which is an estimated value of the bias based on the score.",
+  "publication_number": "US20170140287A1-20170518",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram of a function configuration of a bias estimation apparatus according to a first embodiment; FIG. 2 is a diagram of an exemplary measurement data group; FIG. 3 is a block diagram of a hardware configuration of the bias estimation apparatus in FIG. 1 ; FIG. 4 is a flowchart of an operation of the bias estimation apparatus in FIG. 1 ; FIG. 5 is a diagram of an unstable part and stable part of measured values; FIG. 6 is a diagram of an exemplary estimation result of biases; FIG. 7 is a diagram of a schematic configuration of a neural network according to a second embodiment; FIG. 8 is a block diagram of a function configuration of a bias estimation apparatus according to a fourth embodiment; FIG. 9 is a diagram of an exemplary measurement data including a qualitative variable; FIG. 10 is a flowchart of a data conversion method; FIG. 11 is a block diagram of a function configuration of a failure diagnosis apparatus according to a fifth embodiment; FIG. 12 is a diagram of an exemplary threshold data group; FIG. 13 is a diagram of another example of the threshold data group; FIG. 14 is a flowchart of an operation of the failure diagnosis apparatus; FIG. 15 is a diagram of an exemplary diagnosis result of bias failures; and FIG. 16 is a block diagram of a function configuration of a failure diagnosis apparatus according to a sixth embodiment. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N504",
+    "G05B2302"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "MORIYAMA",
+      "inventor_name_first": "Takuro",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "AISU",
+      "inventor_name_first": "Hideyuki",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "HATANO",
+      "inventor_name_first": "Hisaaki",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "FUJIWARA",
+      "inventor_name_first": "Kenichi",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "BIAS ESTIMATION APPARATUS AND METHOD AND FAILURE DIAGNOSIS APPARATUS AND METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 70244,
+    "optimized_size": 3488,
+    "reduction_percent": 95.03
+  }
+}

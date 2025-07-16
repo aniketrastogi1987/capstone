@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170329",
+  "publication_number": "US20170103331A1-20170413",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15386608",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BILAL",
+      "inventor_name_first": "Erhan",
+      "inventor_city": "Astoria",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "STOLOVITZKY",
+      "inventor_name_first": "Gustavo",
+      "inventor_city": "Riverdale",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Disclosed is a novel system, and method to evaluate a prediction of a possibly unknown outcome out of a plurality of predictions of that outcome. The method begins with accessing a particular prediction of an outcome out of a plurality of predictions of that outcome in which the outcome may be unknown. Next, a subsample of the plurality of predictions of the outcome is accessed. The subsample can possibly include the particular prediction. A consensus prediction of the outcome based on the subsample of the plurality of predictions is determined. A proximity of the particular prediction to the consensus prediction is determined Each prediction is ranked out of the plurality of predictions in an order of a closest in proximity to the consensus prediction to a farthest in proximity to the consensus prediction.",
+  "filing_date": "20161221",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Disclosed is a novel system and method to measure the performance of binary classifiers without the need of a real gold standard. This is achieved by generating a simulated gold standard from the aggregation of all the predictions. At the heart of this is the principle of the “wisdom of crowds,” that establishes that under the right conditions, the aggregate of many predictions is a better approximation to the ground truth than any of individual prediction. However, the purpose of this invention is not necessarily to find a good approximation of the ground truth, but to accurately rank the performance of binary classifiers when the ground truth is unavailable. In one example, a novel system, and method to evaluate a prediction of a possibly unknown outcome out of a plurality of predictions of that outcome is disclosed. The method begins with accessing a particular prediction of an outcome out of a plurality of predictions of that outcome in which the outcome may be unknown. Next, a subsample of the plurality of predictions of the outcome is accessed. The subsample can possibly include the particular prediction. A consensus prediction of the outcome based on the subsample of the plurality of predictions is determined. A proximity of the particular prediction to the consensus prediction is determined Each prediction is ranked out of the plurality of predictions in an order of a closest in proximity to the consensus prediction to a farthest in proximity to the consensus prediction. In one example, the consensus prediction is calculated using a plurality of beta distribution and/or normal distributions. In another example, the proximity of the particular prediction to the consensus prediction is determined using at least one of binary vectors, a Jaccard distance, a Hamming distance, and a Mathew's correlation coefficient.",
+  "date_published": "20170413",
+  "title": "EVALUATION OF PREDICTIONS IN  THE ABSENCE OF A KNOWN GROUND TRUTH",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 42436,
+    "optimized_size": 3413,
+    "reduction_percent": 91.96
+  }
+}

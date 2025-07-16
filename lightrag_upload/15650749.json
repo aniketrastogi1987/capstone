@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15650749",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "filing_date": "20170714",
+  "main_ipcr_label": "G06N304",
+  "abstract": "A hardware implementation of a temporal memory system is disclosed. One aspect includes at least one array of memory cells logically organized in rows and columns, wherein each of the memory cells is adapted for storing a scalar value and adapted for changing the stored scalar value. The hardware implementation additionally includes an input system adapted for receiving an input frame as input and for creating a representation for the input, where the input comprises information for addressing the memory cells in the at least one array. The hardware implantation additionally includes at least one addressing unit for identifying a memory cell in the at least one array with a row address and a column address. The at least one addressing unit includes a column addressing unit for receiving the representation or a derivative thereof as input and applying the representation or the derivative as a column address to the array of memory cells, and a row addressing unit for receiving a delayed ...",
+  "publication_number": "US20180046899A1-20180215",
+  "summary": "<SOH> SUMMARY OF CERTAIN INVENTIVE ASPECTS <EOH>It is an object of embodiments of the disclosed technology to provide a more efficient way of implementation of a temporal memory system. The above objective is accomplished by a device and a method according to the disclosed technology directed to temporal memory systems which enable pattern identification and prediction based on a streaming input that is fed to them in a continuous way. In particular embodiments, the disclosed technology relates to learning algorithms that can be used to train a temporal memory with a continuous stream of input data. In particular embodiments, non-volatile memory (NVM) elements may be used as building blocks of such temporal memory systems. In comparison to the above samples of prior art, the current disclosure describes a device and system that uses memory cells, for instance, but not limited thereto, NVM memory cells, each memory cell comprising at least one memory cell element, to enable pattern identification and prediction, based on a sequence of input frames that have been fed to the system. As such: 1) it differentiates from a traditional branch predictor, possibly in the use of NVM elements, but also in the storage of temporal patterns of arbitrary input data in said elements; and 2) it differentiates from the HTM concept and its implementations (be that software or hardware), since a future input prediction is not conditional to the spatial or temporal pooling of input data but is solely based on the mimicking of synaptic connections between input symbols at different temporal contexts. In a first aspect, the disclosed technology provides a hardware implementation of a temporal memory system. The hardware implementation comprises: at least one array of memory cells logically organized in rows and columns, each memory cell being adapted for storing a scalar value and adapted for changing, e.g. for incrementing or decrementing, the stored scalar value, an input system adapted ...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "G06F1202"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Degraeve",
+      "inventor_name_first": "Robin",
+      "inventor_city": "De Pinte",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "Rodopoulos",
+      "inventor_name_first": "Dimitrios",
+      "inventor_city": "Leuven",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    }
+  ],
+  "title": "HARDWARE IMPLEMENTATION OF A TEMPORAL MEMORY SYSTEM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 80921,
+    "optimized_size": 3713,
+    "reduction_percent": 95.41
+  }
+}

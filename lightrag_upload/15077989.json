@@ -1,0 +1,32 @@
+{
+  "date_produced": "20170809",
+  "publication_number": "US20170243121A1-20170824",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15077989",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lai",
+      "inventor_name_first": "Ching-Hao",
+      "inventor_city": "TAICHUNG CITY",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "abstract": "A traffic forecasting system configured to forecast a travel time of a route is disclosed. The traffic forecasting system includes a model-training module, a model-selecting module and a forecasting module. The model-training module builds multiple candidate models. Each of the candidate models corresponds to one of a plurality of road section and one of a plurality of mathematical models. The model-selecting module selects an estimated model corresponding to the road section from the candidate models matching the road sections of the route. The forecasting module calculates estimated vehicle speeds of each road section according to the estimated models of each road section of the route. The model-selecting module selects one of the candidate models corresponding to the road section with the smallest error as the estimated model of the road section.",
+  "filing_date": "20160323",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>To solve the problem stated above, one aspect of the present disclosure is a traffic forecasting system. The traffic forecasting system is configured to forecast a traffic time of a route. The traffic forecasting system includes a model-training module, a model-selecting module and a forecasting module. The model-training module builds multiple candidate models. Each of the candidate models corresponds to one of a plurality of road section and one of a plurality of mathematical models. The model-selecting module selects an estimated model corresponding to the road section from the candidate models matching the road sections of the route. The forecasting module calculates estimated vehicle speeds of each road section according to the estimated models of each road section of the route. The model-selecting module selects one of the candidate models corresponding to the road section with the smallest error as the estimated model of the road section. Another aspect of the present disclosure is a traffic forecasting method performed by a processor. The traffic forecasting method includes following steps: (a) receiving, by the processor, at least one real-time data; (b) selecting, by the processor, one of a plurality of candidate models corresponding to a route for each road sections of the route as the estimated model of the road section; (c) calculating, by the processor, a traffic time according to the corresponding estimated model of the road sections of the route. The estimated model of each road section are selected according to the real-time data and a historical data in a database such that the candidate model corresponding to the road section with the smallest error is selected as the estimated model of the road section. Another aspect of the present disclosure is a traffic model establishing method performed by a processor. The traffic model establishing method includes following steps: (a) receiving, by the processor, at least one real-time da...",
+  "date_published": "20170824",
+  "title": "TRAFFIC FORECASTING SYSTEM, TRAFFIC FORECASTING METHOD AND TRAFFIC MODEL ESTABLISHING METHOD",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1711",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 57431,
+    "optimized_size": 3468,
+    "reduction_percent": 93.96
+  }
+}

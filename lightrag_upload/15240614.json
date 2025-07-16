@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180207",
+  "publication_number": "US20180053105A1-20180222",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15240614",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Paul",
+      "inventor_name_first": "Saurabh",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Munavalli",
+      "inventor_name_first": "Rajesh",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Various systems, mediums, and methods to process requests involve retrieving a first pattern detection model that is configured to detect a plurality of first patterns based on features of the first patterns. Processing the requests also includes retrieving a plurality of second patterns and selecting a plurality of second features for detecting the plurality of second patterns. Processing the requests further includes generating a second pattern detection model by incorporating one or more of the second feature into the first pattern detection model to create an interim pattern detection model and to train the interim model by second patterns. Then a request having a request pattern is received and based on the second detection model a pattern detection score is generated for the received request. The request is processed based on the detection score. In some embodiments, the user activity patterns are associated with the requests.",
+  "filing_date": "20160818",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE FIGURES <EOH>FIG. 1 is a block diagram of an exemplary system for detecting request patterns, according to some embodiments. FIG. 2 is a block diagram of an exemplary system for detecting request patterns, according to some embodiments. FIG. 3 is a block diagram of an exemplary networked system of processing requests based on request patterns, according to some embodiments. FIG. 4 is a block diagram of an exemplary system having modules for updating features, according to some embodiments. FIG. 5 is a block diagram of an exemplary system for incrementally updating the pattern detection model, according to some embodiments. FIG. 6 illustrates an exemplary method of updating a pattern detection model, according to some embodiments. FIG. 7 illustrates an exemplary method of processing requests based on request patterns, according to some embodiments. FIG. 8 is a block diagram of an exemplary network system, according to some embodiments. detailed-description description=\"Detailed Description\" end=\"lead\"? Embodiments of the present disclosure and their advantages may be understood by referring to the detailed description provided herein. It should be appreciated that reference numerals may be used to illustrate various elements and/or features provided in the figures. Further, the figures may illustrate various examples for purposes of illustration and explanation related to the embodiments of the present disclosure and not for purposes of any limitation.",
+  "date_published": "20180222",
+  "title": "Model Training for Multiple Data Spaces for Pattern Classification and Detection",
+  "ipcr_labels": [
+    "G06N504",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 82829,
+    "optimized_size": 3181,
+    "reduction_percent": 96.16
+  }
+}

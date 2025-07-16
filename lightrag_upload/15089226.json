@@ -1,0 +1,38 @@
+{
+  "date_produced": "20160921",
+  "publication_number": "US20160292592A1-20161006",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15089226",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PATTHAK",
+      "inventor_name_first": "Anindya Chandra",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "FERRAR",
+      "inventor_name_first": "Gregory Michael",
+      "inventor_city": "Santa Cruz",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Disclosed is a system, method, and computer program product for implementing a log analytics method and system that can configure, collect, and analyze log records in an efficient manner. Machine learning-based classification can be performed to classify logs. This approach is used to group logs automatically using a machine learning infrastructure.",
+  "filing_date": "20160401",
+  "patent_number": "None",
+  "summary": "<SOH> BACKGROUND AND SUMMARY <EOH>Many types of computing systems and applications generate vast amounts of data pertaining to or resulting from the operation of that computing system or application. These vast amounts of data are stored into collected locations, such as log files/records, which can then be reviewed at a later time period if there is a need to analyze the behavior or operation of the system or application. Server administrators and application administrators can benefit by learning about and analyzing the contents of the system log records. However, it can be a very challenging task to collect and analyze these records. There are many reasons for these challenges. One significant issue pertains to the fact that many modern organizations possess a very large number of computing systems, each having numerous applications that run on those computing systems. It can be very difficult in a large system to configure, collect, and analyze log records given the large number of disparate systems and applications that run on those computing devices. Furthermore, some of those applications may actually run on and across multiple computing systems, making the task of coordinating log configuration and collection even more problematic. Conventional log analytics tools provide rudimentary abilities to collect and analyze log records. However, conventional systems cannot efficiently scale when posed with the problem of massive systems involving large numbers of computing systems having large numbers of applications running on those systems. This is because conventional systems often work on a per-host basis, where set-up and configuration activities need to be performed each and every time a new host is added or newly configured in the system, or even where new log collection/configuration activities need to be performed for existing hosts. This approach is highly inefficient given the extensive number of hosts that exist in modern systems. Furthermore, the conven...",
+  "date_published": "20161006",
+  "title": "METHOD AND SYSTEM FOR IMPLEMENTING MACHINE LEARNING CLASSIFICATIONS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1750"
+  ],
+  "_processing_info": {
+    "original_size": 142453,
+    "optimized_size": 3087,
+    "reduction_percent": 97.83
+  }
+}

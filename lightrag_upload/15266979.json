@@ -1,0 +1,51 @@
+{
+  "date_produced": "20170816",
+  "publication_number": "US20170249564A1-20170831",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15266979",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Garvey",
+      "inventor_name_first": "Dustin",
+      "inventor_city": "Oakland",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shaft",
+      "inventor_name_first": "Uri",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Salunke",
+      "inventor_name_first": "Sampanna Shahaji",
+      "inventor_city": "Dublin",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wong",
+      "inventor_name_first": "Lik",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Techniques are described for automatically detecting and accommodating state changes in a computer-generated forecast. In one or more embodiments, a representation of a time-series signal is generated within volatile and/or non-volatile storage of a computing device. The representation may be generated in such a way as to approximate the behavior of the time-series signal across one or more seasonal periods. Once generated, a set of one or more state changes within the representation of the time-series signal is identified. Based at least in part on at least one state change in the set of one or more state changes, a subset of values from the sequence of values is selected to train a model. An analytical output is then generated, within volatile and/or non-volatile storage of the computing device, using the trained model.",
+  "filing_date": "20160915",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments are illustrated by way of example and not by way of limitation in the figures of the accompanying drawings. It should be noted that references to “an” or “one” embodiment in this disclosure are not necessarily to the same embodiment, and they mean at least one. In the drawings: FIG. 1 illustrates a system in accordance with one or more embodiments; FIG. 2 illustrates an analytic for detecting and accommodating state changes in accordance with one or more embodiments; FIG. 3 illustrates an example set of operations for detecting and accommodating state changes in accordance with one or more embodiments; FIG. 4A illustrates an example set of operations for generating a representation of a time-series signal in accordance with one or more embodiments; FIG. 4B illustrate an example representation of a time-series signal in accordance with one or more embodiments; FIG. 5 illustrates an example set of operations for extracting a set of changes from a time-series signal in accordance with one or more embodiments; FIG. 6 illustrates an example set of operations for classifying a set of changes in accordance with one or more embodiments; FIG. 7 illustrates an example set of operations for generating a forecast that accommodates state changes in accordance with one or more embodiments; FIG. 8A illustrates an example forecast visualization that is generated in a manner that accounts for detected state changes; FIG. 8B illustrates an example forecast visualization that is generated when detected changes are classified as normal; FIG. 8C illustrates an example forecast visualization that is generated when a quality of a time-series representation does not satisfy a threshold; FIG. 9 illustrates an example computer system on which one or more embodiments may be implemented. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170831",
+  "title": "SYSTEMS AND METHODS FOR DETECTING AND ACCOMMODATING STATE CHANGES IN MODELLING",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 89093,
+    "optimized_size": 3778,
+    "reduction_percent": 95.76
+  }
+}

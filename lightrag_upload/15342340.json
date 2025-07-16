@@ -1,0 +1,47 @@
+{
+  "date_produced": "20180418",
+  "publication_number": "US20180121808A1-20180503",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15342340",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ramakrishna",
+      "inventor_name_first": "Rahul",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Udupi",
+      "inventor_name_first": "Yathiraj",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dutta",
+      "inventor_name_first": "Debojyoti",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one embodiment, a server in a network reports one or more symptoms of a monitored device that is malfunctioning to a user interface via a particular chatbot session. The server receives, via the particular chatbot session, a triage request to enter a triage mode regarding the one or more reported symptoms. The server predicts a corrective action using the one or more reported symptoms as input to a machine learning model. The machine learning model is trained using a history of observed symptoms in the network, a history of corrective actions initiated via chatbot sessions and associated with the observed symptoms, and a history of feedback regarding the corrective actions received via the chatbot sessions. The server provides the predicted corrective action to the user interface via the particular chatbot session as a suggested corrective action, in response to the received triage request.",
+  "filing_date": "20161103",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments herein may be better understood by referring to the following description in conjunction with the accompanying drawings in which like reference numerals indicate identically or functionally similar elements, of which: FIGS. 1A-1B illustrate an example communication network; FIG. 2 illustrates an example network device/node; FIG. 3 illustrates an example architecture for a smart triaging chatbot; FIGS. 4A-4F illustrate examples of a triaging chatbot session; FIGS. 5A-5B illustrate examples of a triaging rule; FIG. 6 illustrates examples of the sharing of triaging session data; and FIG. 7 illustrates an example simplified procedure for suggesting a corrective action via a chatbot session. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20180503",
+  "title": "STAB: SMART TRIAGING ASSISTANT BOT FOR INTELLIGENT TROUBLESHOOTING",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N9900",
+    "H04L1258",
+    "G06F1107"
+  ],
+  "_processing_info": {
+    "original_size": 56916,
+    "optimized_size": 2623,
+    "reduction_percent": 95.39
+  }
+}

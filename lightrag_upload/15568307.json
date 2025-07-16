@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15568307",
+  "date_published": "20180426",
+  "date_produced": "20180411",
+  "filing_date": "20171020",
+  "main_ipcr_label": "G06N504",
+  "abstract": "A technique includes performing graph inference in a graph inference engine that includes multiple processing nodes to determine assignments for vertices of a graph. Performing the graph inference includes controlling remote memory accesses within the engine, including storing first data in a local memory of the first processing node, where the first data represents at least assignments for a plurality of vertices of the graph; in the first processing node, determining updates for the assignments for a subset of the plurality of vertices of a partition of the graph assigned to the first processing node and modifying the first data based on the updates; and communicating the updates to at least one other processing node of the multiple processing nodes, where at least one other partition of the graph is assigned to the other processing node(s).",
+  "publication_number": "US20180114132A1-20180426",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a schematic diagram of a system that performs graph inference-based processing according to an example implementation. FIG. 2 is a schematic diagram of a multiple node graph inference engine of FIG. 1 according to an example implementation. FIGS. 3 and 4 are flow diagrams depicting techniques to perform graph inference in a multiple processing node system according to example implementations. FIG. 5 is an illustration of a worker communicating graph inference updates according to an example implementation. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Fei",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gonzalez Diaz",
+      "inventor_name_first": "Maria Teresa",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kimura",
+      "inventor_name_first": "Hideaki",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Viswanathan",
+      "inventor_name_first": "Krishnamurthy",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "CONTROLLING REMOTE MEMORY ACCESSES IN A MULTIPLE PROCESSING NODE GRAPH INFERENCE ENGINE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 38967,
+    "optimized_size": 2548,
+    "reduction_percent": 93.46
+  }
+}

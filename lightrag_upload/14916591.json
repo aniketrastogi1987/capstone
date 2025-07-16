@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "14916591",
+  "date_published": "20171019",
+  "date_produced": "20171004",
+  "title": "Priority Trainer For Many Core Processing System",
+  "filing_date": "20160304",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Åberg",
+      "inventor_name_first": "Patrik",
+      "inventor_city": "Södra Sandby",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    },
+    {
+      "inventor_name_last": "Templing",
+      "inventor_name_first": "Magnus",
+      "inventor_city": "Lund",
+      "inventor_state": "",
+      "inventor_country": "SE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F948"
+  ],
+  "main_ipcr_label": "G06F948",
+  "summary": "<SOH> SUMMARY <EOH>It should be emphasized that the term “comprises/comprising” when used in this specification is taken to specify the presence of stated features, integers, steps, or components, but does not preclude the presence or addition of one or more other features, integers, steps, components, or groups thereof. It is an object of some of the embodiments to solve or mitigate at least some of the problems described above or other problems by providing methods of a priority trainer of a many core processing system, a priority trainer of a many core processing system and a computer program product in order to enable enhanced or at least an alternative way of prioritizing computer jobs in order to efficiently utilize available resources. According to a first aspect, this is achieved by a method of a priority trainer of a many core processing system comprising a plurality of cores. The many core processing system is configured to execute one or more computer jobs, and the priority trainer comprises a controller. The method comprises: receiving, from a slack meter, a set of probes comprising a worst case probe, wherein the probes indicates a respective system slack of the many core processing system. The worst case probe indicates the least system slack among the set of probes, and the system slack is indicative of available system idle time; adding a synthetic variable load to the beginning of each of the one or more computer jobs to be executed by the many core processing system, wherein the synthetic variable load determines a time delay of the execution of the one or more computer jobs; placing the worst case probe by at least one location within each of the one or more computer jobs for measuring a real time slack of the one or more computer jobs during a current measurement cycle; determining a priority for each of the one lo e computer jobs based on the measured real time slack; and ranking ( 106 ) the one or more computer jobs in a priority list based on ...",
+  "patent_number": "None",
+  "abstract": "A method of a priority trainer of a many core processing system comprising a plurality of cores is disclosed. The many core processing system is configured to execute one or more computer jobs, and wherein the priority trainer comprises a controller, the method comprising: receiving (201), from a slack meter, a set of probes comprising a worst case probe, wherein each of the probes indicates a respective system slack of the many core processing system, wherein the worst case probe indicates a least system slack among the set of probes, and wherein the system slack is indicative of available system idle time; adding (202) a synthetic variable load to the beginning of each of the one or more computer jobs to be executed by the many core processing system, wherein the synthetic variable load indicates a time delay of the execution of the one or more computer jobs; placing (203) the worst case probe in at least one location within each of the one or more computer jobs for measuring a real ...",
+  "publication_number": "US20170300357A1-20171019",
+  "_processing_info": {
+    "original_size": 80712,
+    "optimized_size": 3702,
+    "reduction_percent": 95.41
+  }
+}

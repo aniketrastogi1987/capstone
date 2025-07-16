@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15423284",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "filing_date": "20170202",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "Embodiments are directed towards a configurable accelerator framework device that includes a stream switch and a plurality of convolution accelerators. The stream switch has a plurality of input ports and a plurality of output ports. Each of the input ports is configurable at run time to unidirectionally pass data to any one or more of the output ports via a stream link. Each one of the plurality of convolution accelerators is configurable at run time to unidirectionally receive input data via at least two of the plurality of stream switch output ports, and each one of the plurality of convolution accelerators is further configurable at run time to unidirectionally communicate output data via an input port of the stream switch.",
+  "publication_number": "US20180189642A1-20180705",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In an exemplary architecture, two or more (e.g., eight) digital signal processor (DSP) clusters are formed in a system on chip (SoC). Each DSP cluster may include two or more DSP's, one or more multi-way (e.g., 4-way) multi-byte (e.g., 16 kB) instruction caches, one or more multi-byte (e.g., 64 KB) local dedicated memory (e.g., random access memory (RAM)), one or more multi-byte shared memory (e.g., 64 kB shared ram), one or more direct memory access (DMA) controllers, and other features. A reconfigurable dataflow accelerator fabric may be included in the exemplary architecture to connect large data producing devices (e.g., high-speed cameras, audio capture devices, radar or other electromagnetic capture or generation devices, and the like) with complementary electronic devices such as sensor processing pipelines, croppers, color converters, feature detectors, video encoders, multi-channel (e.g., 8-channel) digital microphone interfaces, streaming DMAs, and one or more (e.g., eight) convolution accelerators. The exemplary architecture may include, in the SoC, one or more (e.g., four) static random access memory (SRAM) banks or some other architecture memory with multi-byte (e.g., 1 Mbyte) memory, one or more dedicated bus ports, and coarse-grained, fine-grained, or coarse- and fine-grained power gating logic. The exemplary architecture is arranged to sustain, without the need to access external memory, acceptably high throughput for convolutional stages fitting DCNN topologies such as AlexNet without pruning or larger topologies, and in some cases, particularly larger topologies if fewer bits are used for activations and/or weights. Power is saved in the absence of a need for such external memory accesses. When state-of-the-art DCNNs are implemented on conventional, non-mobile hardware platforms, it is known that such DCNNs produce excellent results. Such DCNNs, however, require deeper topologies with many layers, millions of parameters, and...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304",
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "BOESCH",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Rovio",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "DESOLI",
+      "inventor_name_first": "Giuseppe",
+      "inventor_city": "San Fermo Della Battaglia",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    }
+  ],
+  "title": "CONFIGURABLE ACCELERATOR FRAMEWORK",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 222479,
+    "optimized_size": 3441,
+    "reduction_percent": 98.45
+  }
+}

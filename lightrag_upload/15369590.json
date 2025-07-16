@@ -1,0 +1,33 @@
+{
+  "date_produced": "20180523",
+  "publication_number": "US20180157971A1-20180607",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15369590",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Fusi",
+      "inventor_name_first": "Nicolo",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In embodiments of probabilistic matrix factorization for automated machine learning, a computing system memory maintains different workflows that each include preprocessing steps for a machine learning model, the machine learning model, and one or more parameters for the machine learning model. The computing system memory additionally maintains different data sets, upon which the different workflows can be trained and tested. A matrix is generated from the different workflows and different data sets, where cells of the matrix are populated with performance metrics that each indicate a measure of performance for a workflow applied to a data set. A low-rank decomposition of the matrix with populated performance metrics is then determined. Based on the low-rank decomposition, an optimum workflow for a new data set can be determined. The optimum workflow can be one of the different workflows or a hybrid of at least two of the different workflows.",
+  "filing_date": "20161205",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary introduces features and concepts of probabilistic matrix factorization for automated machine learning, which is further described below in the Detailed Description and/or shown in the Figures. This Summary should not be considered to describe essential features of the claimed subject matter, nor used to determine or limit the scope of the claimed subject matter. Probabilistic matrix factorization for automated machine learning is described. In embodiments, multiple data sets and multiple workflows are received. A computing system includes a memory to maintain different workflows and data sets for use in automated machine learning. The received data sets can be diverse and vary with respect to one another, such that data of one received data set is not generally comparable to or congruent with data of another received data set. Similarly, the different workflows can represent a wide range of approaches to applying machine learning to a real-world problem. In order to determine how different workflows perform when they are applied to different data sets, the computing system generates a matrix using the multiple workflows and multiple data sets, where each row of the matrix represents a different workflow and each column of the matrix represents a different data set. After generating the matrix, at least one of the multiple workflows is selected to be trained and tested on a data set. Each selected workflow is then applied to the data set, and a performance metric of the workflow applied to the data set is determined and recorded in a cell of the generated matrix. The workflow performance metric may be any suitable measure of the workflow's performance, such as an accuracy, a measure of accuracy stated as an area under a receiver operating characteristic curve (AUROC or AUCROC), a measure of runtime to complete stated as seconds or minutes, a root mean squared error (RMSE), and the like. This selection of at least one workflow and appli...",
+  "date_published": "20180607",
+  "title": "Probabilistic Matrix Factorization for Automated Machine Learning",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06N700",
+    "G06F1716"
+  ],
+  "_processing_info": {
+    "original_size": 81136,
+    "optimized_size": 3539,
+    "reduction_percent": 95.64
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "patent_number": "None",
+  "application_number": "15710455",
+  "date_published": "20180118",
+  "date_produced": "20180103",
+  "filing_date": "20170920",
+  "main_ipcr_label": "G06N302",
+  "abstract": "The task of relevance score assignment to a set of items onto which an artificial neural network is applied is obtained by redistributing an initial relevance score derived from the network output, onto the set of items by reversely propagating the initial relevance score through the artificial neural network so as to obtain a relevance score for each item. In particular, this reverse propagation is applicable to a broader set of artificial neural networks and/or at lower computational efforts by performing same in a manner so that for each neuron, preliminarily redistributed relevance scores of a set of downstream neighbor neurons of the respective neuron are distributed on a set of upstream neighbor neurons of the respective neuron according to a distribution function.",
+  "publication_number": "US20180018553A1-20180118",
+  "summary": "<SOH> SUMMARY <EOH>An embodiment may have an apparatus for assigning a relevance score to a set of items, the relevance score indicating a relevance with respect to an application of an artificial neural network composed of neurons onto the set of items so as to map the set of items onto a network output, the apparatus being configured to redistribute an initial relevance score derived from the network output onto the set of items by reversely propagating the initial relevance score through the artificial neural network so as to obtain a relevance score for each item, wherein the apparatus is configured to perform the reverse propagation in a manner so that for each neuron, preliminarily redistributed relevance scores of a set of downstream neighbor neurons of the respective neuron are distributed to a set of upstream neighbor neurons of the respective neuron using a distribution function. According to another embodiment, a system for data processing may have: an apparatus for assigning a relevance score to a set of items as mentioned above, and an apparatus for processing of the set of items or data to be processed and derived from the set of items with adapting the processing depending on the relevance scores. According to another embodiment, a system for highlighting a region of interest may have: an apparatus for assigning a relevance score to a set of items as mentioned above, and an apparatus for generating a relevance graph depending on the relevance scores. According to still another embodiment, a system for optimizing a neural network may have: an apparatus for assigning a relevance score to a set of items as mentioned above; an apparatus for applying the apparatus for assigning onto a plurality of different sets of items; and an apparatus for detecting a portion of increased relevance within the neural network by accumulating relevances assigned to the neurons of the network during the application of the apparatus for assigning onto the plurality of differ...",
+  "ipcr_labels": [
+    "G06N302",
+    "G06F1727",
+    "G06K946",
+    "G10L2530"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "BACH",
+      "inventor_name_first": "Sebastian",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "SAMEK",
+      "inventor_name_first": "Wojciech",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "MUELLER",
+      "inventor_name_first": "Klaus-Robert",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "BINDER",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "MONTAVON",
+      "inventor_name_first": "Grégoire",
+      "inventor_city": "Berlin",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "RELEVANCE SCORE ASSIGNMENT FOR ARTIFICIAL NEURAL NETWORKS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 193472,
+    "optimized_size": 3946,
+    "reduction_percent": 97.96
+  }
+}

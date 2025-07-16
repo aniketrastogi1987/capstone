@@ -1,0 +1,54 @@
+{
+  "patent_number": "None",
+  "application_number": "15722490",
+  "date_published": "20180405",
+  "date_produced": "20180322",
+  "filing_date": "20171002",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method for secure learning of parameters of a convolution neural network, CNN, for data classification includes the implementation, by data processing of a first server, including receiving from a second server a base of already classified learning data, the learning data being homomorphically encrypted; learning in the encrypted domain, from the learning database, the parameters of a reference CNN including a non-linear layer (POLYNOMIAL) operating an at least two-degree polynomial function approximating an activation function; a batch normalization layer before each non-linear layer (POLYNOMIAL); and transmitting the learnt parameters to the second server, for decryption and use for classification.",
+  "publication_number": "US20180096248A1-20180405",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In a first aspect, the present invention concerns a method for secure learning of the parameters of a convolution neural network CNN, for data classification; the method comprising the implementation, by data processing means of a first server, of steps of: (a0) Receiving from a second server a base of already classified learning data, said learning data being homomorphically encrypted; (a1) Learning in the encrypted domain, from said learning database, the parameters of a reference CNN comprising at least: a non-linear layer operating an at least two-degree polynomial function approximating an activation function; a batch normalization layer before each non-linear layer; (a2) Transmitting the learnt parameters to said second server, for decryption and use for classification. According to a first variant of a second aspect, the present invention concerns a method for secure input data classification, characterized in that it comprises the implementation of steps of: (a) Learning, by data processing means of a first server from a base of already classified learning data, the parameters of a reference convolution neural network CNN comprising at least: a non-linear layer operating an at least two-degree polynomial function approximating an activation function; a batch normalization layer before each non-linear layer; (b) Receiving said input, homomorphically encrypted, by data processing means of a second server, from client equipment; (c) Classifying said encrypted input in the encrypted domain, by data processing means of the second server, by means of the reference CNN; (d) Transmitting the encryption of the classification obtained to said client equipment, for decryption. According to other advantageous, non-limiting characteristics: step (a) is implemented in accordance with the secure learning method of the first aspect; said polynomial function approximating an activation function is determined before learning via polynomial ...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "H04L900",
+    "G06F1718"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHABANNE",
+      "inventor_name_first": "Herve",
+      "inventor_city": "Issy-Les-Moulineaux",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "MILGRAM",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "Issy-Les-Moulineaux",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "MOREL",
+      "inventor_name_first": "Constance",
+      "inventor_city": "Issy-Les-Moulineaux",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "PROUFF",
+      "inventor_name_first": "Emmanuel",
+      "inventor_city": "Issy-Les-Moulineaux",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "title": "METHODS FOR SECURE LEARNING OF PARAMETERS OF A CONVOLUTION NEURAL NETWORK, AND FOR SECURE INPUT DATA CLASSIFICATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 42328,
+    "optimized_size": 3830,
+    "reduction_percent": 90.95
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15820239",
+  "date_published": "20180524",
+  "date_produced": "20180509",
+  "filing_date": "20171121",
+  "main_ipcr_label": "G06N3063",
+  "abstract": "The disclosed technology generally relates to machine learning, and more particularly to integration of basic machine learning kernels in a semiconductor device. In an aspect, a semiconductor cell is configured to perform one or more logic operations such as one or both of an XNOR and an XOR operation. The semiconductor cell includes a memory unit configured to store a first operand, an input port unit configured to receive a second operand and a switch unit configured to implement one or more logic operations on the stored first operand and the received second operand. The semiconductor cell additionally includes a readout port configured to provide an output of one or more logic operations. A plurality of cells may be organized in an array, and one or more of such arrays may be used to implement a neural network.",
+  "publication_number": "US20180144240A1-20180524",
+  "summary": "<SOH> SUMMARY OF CERTAIN INVENTIVE ASPECTS <EOH>It is an object of the disclosed technology to reduce energy requirements of classification operations. The above objective is accomplished by a semiconductor cell, an array of semiconductor cells and a method of using at least one array of semiconductor cells, according to embodiments of the disclosed technology. In a first aspect, the disclosed technology provides a semiconductor cell for performing a logic XNOR or XOR operation. the semiconductor cell comprises: a memory unit for storing a first operand, an input port unit for receiving a second operand, a switch unit configured for implementing the logic XNOR or XOR operation on the stored first operand and the received second operand, and a readout port ( 104 , 404 ) for providing an output of the logic operation. In a semiconductor cell according to embodiments of the disclosed technology, the switching unit may be arranged for being provided with both the stored first operand and a complement of the stored first operand and further with the received second operand and a complement of the received second operand to perform the logic operation. In such embodiments, the memory unit may comprise a first memory element and a second memory element, for storing the first operand and for storing the complement of the first operand, respectively. In a semiconductor cell according to embodiments of the disclosed technology, the switching unit may comprise a first switch and a second switch for being controlled by the received second operand and the complement of the received second operand, respectively. Furthermore, each of the stored first operand and the complement of the stored first operand may be switchably connected through one of the first or second switch to a common node that is coupled to the readout port. In a semiconductor cell according to embodiments of the disclosed technology, the memory unit may be a non-volatile memory unit. In particular embodiments, t...",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Garbin",
+      "inventor_name_first": "Daniele",
+      "inventor_city": "Heverlee",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "Rodopoulos",
+      "inventor_name_first": "Dimitrios",
+      "inventor_city": "Leuven",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "Debacker",
+      "inventor_name_first": "Peter",
+      "inventor_city": "Heverlee",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    },
+    {
+      "inventor_name_last": "Raghavan",
+      "inventor_name_first": "Praveen",
+      "inventor_city": "Leefdaal",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    }
+  ],
+  "title": "SEMICONDUCTOR CELL CONFIGURED TO PERFORM LOGIC OPERATIONS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 70428,
+    "optimized_size": 3824,
+    "reduction_percent": 94.57
+  }
+}

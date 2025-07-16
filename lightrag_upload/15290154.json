@@ -1,0 +1,44 @@
+{
+  "date_produced": "20180328",
+  "publication_number": "US20180101766A1-20180412",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15290154",
+  "inventor_list": [
+    {
+      "inventor_name_last": "He",
+      "inventor_name_first": "Xi",
+      "inventor_city": "Allentown",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Akrotirianakis",
+      "inventor_name_first": "Ioannis",
+      "inventor_city": "Princeton",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chakraborty",
+      "inventor_name_first": "Amit",
+      "inventor_city": "East Windsor",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for training a deep learning network includes defining a loss function corresponding to the network. Training samples are received and current parameter values are set to initial parameter values. Then, a computing platform is used to perform an optimization method which iteratively minimizes the loss function. Each iteration comprises the following steps. An eigCG solver is applied to determine a descent direction by minimizing a local approximated quadratic model of the loss function with respect to current parameter values and the training dataset. An approximate leftmost eigenvector and eigenvalue is determined while solving the Newton system. The approximate leftmost eigenvector is used as negative curvature direction to prevent the optimization method from converging to saddle points. Curvilinear and adaptive line-searches are used to guide the optimization method to a local minimum. At the end of the iteration, the current parameter values are updated based on the desce...",
+  "filing_date": "20161011",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention address and overcome one or more of the above shortcomings and drawbacks, by providing methods, systems, and apparatuses related to an efficient calculation of negative curvature in a hessian free deep learning framework. The optimization problems encountered in deep learning are highly non-convex. As a result it is important to use optimization algorithms that are able to exploit the local non-convexity of the models and converge to local optima efficiently and robustly. In order to characterize the local non-convexity the leftmost eigenpairs of the Hessian matrix of the loss function must be approximated. The techniques described herein may be applied to determine the leftmost eigenpairs of the Hessian matrix while solving the second order optimality conditions. The leftmost eigenvector is used as a direction of negative curvature allowing the algorithm to converge to a local minimum. According to some embodiments, a computer-implemented method for training a deep learning network includes defining a loss function corresponding to the deep learning network. A training dataset comprising a plurality of training samples is received and current parameter values are set to initial parameter values. Then, a computing platform is used to perform an optimization method which iteratively minimizes the loss function over a plurality of iterations. Each iteration comprises the following steps. An eigCG solver is applied to determine a descent direction by minimizing a local approximated quadratic model of the loss function with respect to current parameter values and the training dataset. The descent direction may be derived, for example, based on a test on a rate of decrease of the local approximated quadratic model of the loss function. In some embodiments, the descent direction is derived based on a curvilinear direction algorithm. Once the descent direction is determined, the approximate leftmost eigenvector and ei...",
+  "date_published": "20180412",
+  "title": "EFFICIENT CALCULATIONS OF NEGATIVE CURVATURE IN A HESSIAN FREE DEEP LEARNING FRAMEWORK",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 56058,
+    "optimized_size": 3879,
+    "reduction_percent": 93.08
+  }
+}

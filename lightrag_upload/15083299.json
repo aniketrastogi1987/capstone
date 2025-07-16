@@ -1,0 +1,46 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15083299",
+  "date_published": "20170601",
+  "date_produced": "20170517",
+  "title": "METHOD FOR TESTING A COMPUTER SYSTEM WITH A BASIC INPUT/OUTPUT SYSTEM INTERFACE PROGRAM",
+  "filing_date": "20160329",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lin",
+      "inventor_name_first": "Ta-Hua",
+      "inventor_city": "Taipei",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Ching-Chun",
+      "inventor_city": "Taipei",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    },
+    {
+      "inventor_name_last": "Tseng",
+      "inventor_name_first": "Shih-Keng",
+      "inventor_city": "Taipei",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1122",
+    "G06F1127",
+    "G06F944"
+  ],
+  "main_ipcr_label": "G06F1122",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>One embodiment of the present invention discloses a method for testing a computer system. The method comprises activating an operation system of the computer system, selecting all model-specific functions of the computer system by a basic input/output system interface program in the operation system, rebooting the computer system so as to enable all of the model-specific functions of the computer system and activate the operation system, recording values stored in model-specific registers (MSRs) corresponding to their respective model-specific functions, selecting a first model-specific function of all of the model-specific functions of the computer system by the basic input/output system interface program, and rebooting the computer system so as to disable the first model-specific function and activate the operation system. After the first model-specific function is disabled, if a value stored in a first model-specific register corresponding to the first model-specific function has been updated, but a second model-specific function of the model-specific functions has not been checked, select the second model-specific function by the basic input/output system interface program and reboot the computer system so as to disable the second model-specific function and activate the operation system. After the second model-specific function is disabled, if a value stored in a second model-specific register corresponding to the second model-specific function has been updated, and all of the model-specific functions have been checked, determines that the computer system has passed the test. Another embodiment of the present invention discloses a method for testing a computer system. The method comprises activating an operation system of the computer system, and selecting a first selectable number by a basic input/output system interface program in the operation system. After selecting the first selectable number, reboot the computer system ...",
+  "patent_number": "None",
+  "abstract": "A method for testing a computer system includes activating an operation system of the computer system and selecting a first selectable number by a basic input/output system interface program. After selecting the first selectable number and rebooting the computer system, if a first enabled number of cores of the computer system is consistent with the first selectable number, but a second selectable number has not been selected, then select the second selectable number by the basic input/output system interface program. After selecting the second selectable number, if a second enabled number of cores of the computer system is consistent with the second selectable number, and no more number is selectable, then determine that the computer system has passed the test.",
+  "publication_number": "US20170153957A1-20170601",
+  "_processing_info": {
+    "original_size": 39002,
+    "optimized_size": 3655,
+    "reduction_percent": 90.63
+  }
+}

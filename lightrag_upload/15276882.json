@@ -1,0 +1,33 @@
+{
+  "date_produced": "20170316",
+  "publication_number": "US20170091672A1-20170330",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15276882",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sasaki",
+      "inventor_name_first": "Taku",
+      "inventor_city": "Yamanashi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A motor drive apparatus equipped with a machine learning device comprises a fan motor and an alarm output unit which provides an indication that it is time to replace the fan motor, wherein the machine learning device comprises a state observing unit which observes the number of revolutions of the fan motor, a reward calculating unit which calculates a reward based on the time that the alarm output unit output an alarm and the time that the fan motor actually failed, an artificial intelligence which judges action value based on an observation result supplied from the state observing unit and on the reward calculated by the reward calculating unit, and a decision making unit which, based on the result of the judgment made by the artificial intelligence, determines whether or not to output an alarm from the alarm output unit.",
+  "filing_date": "20160927",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is an object of the present invention to provide a motor drive apparatus that predicts failure of a fan motor and outputs a warning by monitoring the variation in the number of revolutions of the fan motor over time. A motor drive apparatus according to one embodiment of the present invention is a motor drive apparatus equipped with a machine learning device. The motor drive apparatus comprises a fan motor and an alarm output unit which provides an indication that it is time to replace the fan motor. The machine learning device comprises a state observing unit, a reward calculating unit, an artificial intelligence, and a decision making unit. The state observing unit observes the number of revolutions of the fan motor. The reward calculating unit calculates a reward based on the time that the alarm output unit output an alarm and the time that the fan motor actually failed. The artificial intelligence may determine an action value based on an observation result supplied from the state observing unit and on the reward calculated by the reward calculating unit. The decision making unit determines whether or not to output an alarm from the alarm output unit based on the result of the judgment made by the artificial intelligence.",
+  "date_published": "20170330",
+  "title": "MOTOR DRIVE APPARATUS EQUIPPED WITH FAN MOTOR PREVENTIVE MAINTENANCE FUNCTION",
+  "ipcr_labels": [
+    "G06N9900",
+    "H02P2940",
+    "H02P2300",
+    "H02P2968"
+  ],
+  "_processing_info": {
+    "original_size": 35760,
+    "optimized_size": 2716,
+    "reduction_percent": 92.4
+  }
+}

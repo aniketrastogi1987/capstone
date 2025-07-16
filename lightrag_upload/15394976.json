@@ -1,0 +1,59 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189648A1-20180705",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15394976",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Sengupta",
+      "inventor_name_first": "Abhronil",
+      "inventor_city": "West Lafayette",
+      "inventor_state": "IN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Gregory K.",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kumar",
+      "inventor_name_first": "Raghavan",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sumbul",
+      "inventor_name_first": "Huseyin Ekin",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Knag",
+      "inventor_name_first": "Phil",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In one embodiment, a processor is to store a membrane potential of a neural unit of a neural network; and calculate, at a particular time-step of the neural network, a change to the membrane potential of the neural unit occurring over multiple time-steps that have elapsed since the last time-step at which the membrane potential was updated, wherein each of the multiple time-steps that have elapsed since the last time-step is associated with at least one input to the neural unit that affects the membrane potential of the neural unit.",
+  "filing_date": "20161230",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 illustrates a block diagram for an example computing system including a multicore processor that may implement a neural network in accordance with certain embodiments. FIG. 2 illustrates a block diagram of a processor comprising a network on a chip (NoC) system that may implement a neural network in accordance with certain embodiments. FIG. 3 illustrates an example portion of a neural network in accordance with certain embodiments. FIG. 4A illustrates an example progression of a membrane potential of a neural unit in accordance with certain embodiments. FIG. 4B illustrates an example progression of a membrane potential of a neural unit of an event driven and time hopping neural network in accordance with certain embodiments. FIG. 5A illustrates an example progression of a membrane potential of an integrate and fire neural unit in accordance with certain embodiments. FIG. 5B illustrates an example progression of a membrane potential of a leaky-integrate and fire neural unit in accordance with certain embodiments. FIG. 6 illustrates an example pipeline of an event driven and time hopping neural network in accordance with certain embodiments. FIG. 7 illustrates example logic blocks of an event driven and time hopping neural network in accordance with certain embodiments. FIG. 8 illustrates an example flow for performing event driven and time hopping updates to neural units of a neural network in accordance with certain embodiments. FIG. 9 illustrates a block diagram for an example computing system that may implement a neural network in accordance with certain embodiments. detailed-description description=\"Detailed Description\" end=\"lead\"? Like reference numbers and designations in the various drawings indicate like elements.",
+  "date_published": "20180705",
+  "title": "EVENT DRIVEN AND TIME HOPPING NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 105968,
+    "optimized_size": 3485,
+    "reduction_percent": 96.71
+  }
+}

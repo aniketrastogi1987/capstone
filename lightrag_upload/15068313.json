@@ -1,0 +1,37 @@
+{
+  "date_produced": "20160831",
+  "publication_number": "US20160267377A1-20160915",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15068313",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Pan",
+      "inventor_name_first": "Jing",
+      "inventor_city": "Foster City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kumara",
+      "inventor_name_first": "Karthik",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Technology for semantically processing user-submitted text and determining probabilities using computer learning model(s) is described. In an embodiment, a method, implemented using a computing device, may include receiving data including user-submitted product review(s) for a product. A product review includes review text and the method determines attributes of the product review text and feed the attributes of the product review text into a first hidden layer of an artificial neural network based on attribute type, feeding the first output of the first hidden layer of the neural network into a second hidden layer of the artificial neural network based on an association of the attributes of the product review with one or more of a story, a function, and a sentiment, and determining a predicted probability of recommendation of the review based on the second output of the second layer.",
+  "filing_date": "20160311",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The technology discussed herein addresses the problems with existing solutions discussed in the background section by providing systems, methods, and other aspects to, among other things, determine and rank product reviews according to product purchase recommendation probabilities of those reviews; present product reviews for a product from highly recommended to lowly recommended or vice versa; select a most highly recommended product review for a product; increase purchase probability of a product based on the sentiment-based highlighting (i.e., putting the most highly recommended product review at the top) or ordering of the reviews; interpret emoticons included in a review (which existing solutions ignore) as semantic parsers and sentiment indicators to improve characterization of the sentiment of the review; use predicted probabilities of recommendation of reviews to predict purchase probability and increase profit by offering personalized price offers and marketing content; using predicted probabilities of recommendation to recommend certain products and/or product categories to users; and more reliably forecast stock levels and product demand to improve inventory controls. By way of example, the technology discussed herein may use purchase probability derived from reviews to personalize pricing offers to customers (the term “customer” is used synonymously as “user” herein) based on stored customer attributes. The personalized pricing model incorporating product-review-based probabilities has the potential to provide millions of dollars in positive revenue lift as compared to conventional pricing models. In a further example, during the last holiday season, approximately 60% of search results were routinely out of stock on a popular e-commerce website. The innovative technology described herein provides improved inventory planning and stocking tools that reduce out-of-stock incidents during periods of high demand, such as the Christmas holida...",
+  "date_published": "20160915",
+  "title": "Review Sentiment Analysis",
+  "ipcr_labels": [
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 97594,
+    "optimized_size": 3578,
+    "reduction_percent": 96.33
+  }
+}

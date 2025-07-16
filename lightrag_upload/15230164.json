@@ -1,0 +1,38 @@
+{
+  "date_produced": "20180124",
+  "publication_number": "US20180039886A1-20180208",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15230164",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Umuroglu",
+      "inventor_name_first": "Yaman",
+      "inventor_city": "Dublin",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    },
+    {
+      "inventor_name_last": "Blott",
+      "inventor_name_first": "Michaela",
+      "inventor_city": "Malahide",
+      "inventor_state": "",
+      "inventor_country": "IE"
+    }
+  ],
+  "abstract": "In an example, a circuit of a neural network implemented in an integrated circuit (IC) includes a layer of hardware neurons, the layer including a plurality of inputs, a plurality of outputs, a plurality of weights, and a plurality of threshold values, each of the hardware neurons including: a logic circuit having inputs that receive first logic signals from at least a portion of the plurality of inputs and outputs that supply second logic signals corresponding to an exclusive NOR (XNOR) of the first logic signals and at least a portion of the plurality of weights; a counter circuit having inputs that receive the second logic signals and an output that supplies a count signal indicative of the number of the second logic signals having a predefined logic state; and a compare circuit having an input that receives the count signal and an output that supplies a logic signal having a logic state indicative of a comparison between the count signal and a threshold value of the plurality of th...",
+  "filing_date": "20160805",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Techniques for implementing binary neural networks on programmable integrated circuits (ICs) are described. In an example, a circuit of a neural network implemented in an integrated circuit (IC) includes a layer of hardware neurons, the layer including a plurality of inputs, a plurality of outputs, a plurality of weights, and a plurality of threshold values, each of the hardware neurons including: a logic circuit having inputs that receive first logic signals from at least a portion of the plurality of inputs and outputs that supply second logic signals corresponding to an exclusive NOR (XNOR) of the first logic signals and at least a portion of the plurality of weights; a counter circuit having inputs that receive the second logic signals and an output that supplies a count signal indicative of the number of the second logic signals having a predefined logic state; and a compare circuit having an input that receives the count signal and an output that supplies a logic signal having a logic state indicative of a comparison between the count signal and a threshold value of the plurality of threshold values; wherein the logic signal output by the compare circuit of each of the hardware neurons is provided as a respective one of the plurality of outputs. In another example, a method of implementing a neural network in an integrated circuit (IC) includes implementing a layer of hardware neurons in the IC, the layer including a plurality of inputs, a plurality of outputs, a plurality of weights, and a plurality of threshold values; and at each of the plurality of neurons: receiving first logic signals from at least a portion of the plurality of inputs and supplying second logic signals corresponding to an exclusive NOR (XNOR) of the first logic signals and at least a portion of the plurality of weights; receiving the second logic signals and supplying a count signal indicative of the number of the second logic signals having a predefined logic state; a...",
+  "date_published": "20180208",
+  "title": "BINARY NEURAL NETWORKS ON PROGAMMABLE INTEGRATED CIRCUITS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 43276,
+    "optimized_size": 3701,
+    "reduction_percent": 91.45
+  }
+}

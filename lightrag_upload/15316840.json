@@ -1,0 +1,54 @@
+{
+  "date_produced": "20170412",
+  "publication_number": "US20170116523A1-20170427",
+  "main_ipcr_label": "G06N312",
+  "decision": "PENDING",
+  "application_number": "15316840",
+  "inventor_list": [
+    {
+      "inventor_name_last": "He",
+      "inventor_name_first": "Yigang",
+      "inventor_city": "Hefei, Anhui",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Xiang",
+      "inventor_name_first": "Sheng",
+      "inventor_city": "Hefei, Anhui",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Zuo",
+      "inventor_name_first": "Lei",
+      "inventor_city": "Hefei, Anhui",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Yin",
+      "inventor_name_first": "Baiqiang",
+      "inventor_city": "Hefei, Anhui",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "A quantum evolution method includes steps of: according to the quantum evolution method, initializing a generation number t=0, and initializing a population Q(t)={q1t, q2t, . . . , qnt}; observing Q(t) and generating P(t)={x 1t, x2t, . . . , xnt}, wherein represents strings comprising 0 or 1 with a length of m; evaluating each xit with an evaluation function, and inputting evaluating results into a fitness function F(t), F(t)={f1t, f2t. . . , fnt}, wherein fit represents a fitness of each individual; selecting an elite group E(t) from P(t) according to the fitness; evolving Q(t) through U(Δθijt); inputting an optimal solution b of P(t) into B(t), wherein if the optimal solution is better than an original optimal solution in B(t), then replacing the original optimal solution; otherwise remaining the original optimal solution; and judging a shutdown condition, if satisfied, outputting the optimal solution; otherwise returning to the step (2) for further evolution. The method can effectiv...",
+  "filing_date": "20161207",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE PRESENT INVENTION <EOH>An object of the present invention is to overcome the above technical defects, and provide a quantum evolution method which effectively controls a convergence direction, wherein an elite group and a state preference are introduced for controlling the convergence direction, so as to improve method stability. Accordingly, in order to accomplish the above object, the present invention provides: a quantum evolution method, comprising steps of: (1) according to the quantum evolution method, initializing a generation number t=0, and initializing a population Q(t)={q 1 t , q 2 t , . . . , q n t }, wherein n is a population size, t is the generation number, q i t is a No. i individual in a No. t generation, and i ∈[1,n]; defining q i t = [ α i   1 t β i   1 t | α i   2 t β i   2 t | ⋯ ⋯ α im t β im t | ] , wherein q i t , comprises m quantum bits, α represents a probability of each of the quantum bits that a state thereof is 0, β represents a probability of each of the quantum bits that the state thereof is 1, and |α| 2 +|β| 2 =1; wherein the quantum bits are randomly generated, and satisfy an equation: in-line-formulae description=\"In-line Formulae\" end=\"lead\"? (α ij t , β ij t )=(sign(rand[0,1]−0.5)*/√{square root over (2)}, sign(ramd[0,1]−0.5)*/√{square root over (2)}), in-line-formulae description=\"In-line Formulae\" end=\"tail\"? wherein α ij t represents a probability of a No. j quantum bit of the No. i individual in the No. t generation that a state thereof is 0, and β ij t represents a probability of the No. j quantum bit of the No. i individual in the No. t generation that a state thereof is 1; initializing an optimal solution collection B(t), and inputting a string b, which comprises m 0-characters, into B(t) as an initial optimal solution; (2) observing Q(t), and observing all individuals in the No. t generation, wherein for q i t , the m quantum bits are all observed for generating a string x i t with a length of ...",
+  "date_published": "20170427",
+  "title": "Quantum evolution method",
+  "ipcr_labels": [
+    "G06N312",
+    "G06F1716",
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 44588,
+    "optimized_size": 4146,
+    "reduction_percent": 90.7
+  }
+}

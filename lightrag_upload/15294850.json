@@ -1,0 +1,52 @@
+{
+  "decision": "PENDING",
+  "application_number": "15294850",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "title": "MATRIX FACTORIZATION WITH TWO-STAGE DATA BLOCK DISPATCH ASSOCIATED WITH GRAPHICS PROCESSING UNITS",
+  "filing_date": "20161017",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Duesterwald",
+      "inventor_name_first": "Evelyn",
+      "inventor_city": "Millwood",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fong",
+      "inventor_name_first": "Liana Liyow",
+      "inventor_city": "Irvington",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tan",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Elmsford",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Xie",
+      "inventor_name_first": "Xiaolong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T120",
+    "G06K966"
+  ],
+  "main_ipcr_label": "G06T120",
+  "summary": "<SOH> SUMMARY <EOH>The following presents a summary to provide a basic understanding of one or more embodiments of the invention. This summary is not intended to identify key or critical elements, or delineate any scope of the particular embodiments or any scope of the claims. Its sole purpose is to present concepts in a simplified form as a prelude to the more detailed description that is presented later. In one or more embodiments described herein, devices, systems, computer-implemented methods, apparatus and/or computer program products that facilitate matrix factorization associated with graphics processing units are described. According to an embodiment, a system can comprise a first graphics processing unit, a second graphics processing unit, and a central processing unit. The first graphics processing unit can process a first data block of a data matrix associated with a matrix factorization system to generate first information for the matrix factorization system. The second graphics processing unit can process a first portion of a second data block of the data matrix separate from a second portion of the second data block to generate second information for the matrix factorization system. The second data block can comprise disjoint features as compared to the first data block. Also, the first data block and the second data block can comprise a corresponding size. The central processing unit can process a machine learning model for the matrix factorization system based on at least the first information provided by the first graphics processing unit and the second information provided by the second graphics processing unit. According to another embodiment, a computer-implemented method is provided. The computer-implemented method can comprise processing, by a first graphics processing unit, a first data block from a set of data blocks based on a first policy to generate first information for a matrix factorization system. The computer-implemented method can al...",
+  "patent_number": "None",
+  "abstract": "Techniques that facilitate matrix factorization associated with graphics processing units are provided. In one example, a system includes a first graphics processing unit, a second graphics processing unit and a central processing unit. The first graphics processing unit processes a first data block of a data matrix associated with a matrix factorization system to generate first information for the matrix factorization system. The second graphics processing unit processes a first portion of a second data block of the data matrix separate from a second portion of the second data block to generate second information for the matrix factorization system. The central processing unit processes a machine learning model for the matrix factorization system based on at least the first information provided by the first graphics processing unit and the second information provided by the second graphics processing unit.",
+  "publication_number": "US20180108105A1-20180419",
+  "_processing_info": {
+    "original_size": 139617,
+    "optimized_size": 3953,
+    "reduction_percent": 97.17
+  }
+}

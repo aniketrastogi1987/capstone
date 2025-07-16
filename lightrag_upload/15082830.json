@@ -1,0 +1,45 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15082830",
+  "date_published": "20170622",
+  "date_produced": "20170607",
+  "title": "TRANSLATION ENTRY INVALIDATION IN A MULTITHREADED DATA PROCESSING SYSTEM",
+  "filing_date": "20160328",
+  "inventor_list": [
+    {
+      "inventor_name_last": "GUTHRIE",
+      "inventor_name_first": "Guy L.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SHEN",
+      "inventor_name_first": "Hugh",
+      "inventor_city": "Round Rock",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WILLIAMS",
+      "inventor_name_first": "Derek E.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F952",
+    "G06F938"
+  ],
+  "main_ipcr_label": "G06F952",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>According to one embodiment of a multithreaded data processing system including a plurality of processor cores, storage-modifying requests of a plurality of concurrently executing hardware threads are received in a shared queue. The storage-modifying requests include a translation invalidation request of an initiating hardware thread. The translation invalidation request is removed from the shared queue and buffered in sidecar logic in one of a plurality of sidecars each associated with a respective one of the plurality of hardware threads. While the translation invalidation request is buffered in the sidecar, the sidecar logic broadcasts the translation invalidation request so that it is received and processed by the plurality of processor cores. In response to confirmation of completion of processing of the translation invalidation request by the initiating processor core, the sidecar logic removes the translation invalidation request from the sidecar. Completion of processing of the translation invalidation request at all of the plurality of processor cores is ensured by a broadcast synchronization request. In one embodiment, the subsequent memory referent instruction are ordered with reference to the broadcast synchronization request by execution of an additional synchronization instruction (e.g., HWSYNC).",
+  "patent_number": "9928119",
+  "abstract": "In a multithreaded data processing system including a plurality of processor cores, storage-modifying requests of a plurality of concurrently executing hardware threads are received in a shared queue. The storage-modifying requests include a translation invalidation request of an initiating hardware thread. The translation invalidation request is removed from the shared queue and buffered in sidecar logic in one of a plurality of sidecars each associated with a respective one of the plurality of hardware threads. While the translation invalidation request is buffered in the sidecar, the sidecar logic broadcasts the translation invalidation request so that it is received and processed by the plurality of processor cores. In response to confirmation of completion of processing of the translation invalidation request by the initiating processor core, the sidecar logic removes the translation invalidation request from the sidecar. Completion of processing of the translation invalidation re...",
+  "publication_number": "US20170177422A1-20170622",
+  "_processing_info": {
+    "original_size": 87042,
+    "optimized_size": 3222,
+    "reduction_percent": 96.3
+  }
+}

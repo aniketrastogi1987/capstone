@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170927",
+  "publication_number": "US20170293858A1-20171012",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15277769",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Larsen",
+      "inventor_name_first": "Loren",
+      "inventor_city": "Lindon",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Taylor",
+      "inventor_name_first": "Benjamin",
+      "inventor_city": "Lehi",
+      "inventor_state": "UT",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Technology for training a predictive model is described. A processing device collects digital interview data including features identified from candidate interviews. A model training tool selects a data set of the digital interview data. The data set includes a predicted performance outcome and an actual performance outcome for each of a plurality of candidates. The model training tool determines an error metric for each of the plurality of candidates. The error metric includes a relationship between the predicted performance outcome and the actual performance outcome for each candidate. The model training tool determines a number of candidates whose digital interview data includes a feature corresponding to a protected class. The model training tool normalizes an effect of each candidate on the error metric based on the corresponding protected class and applies the normalized error metric to reduce bias in the predictive model with respect to the protected class.",
+  "filing_date": "20160927",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The present invention is illustrated by way of example, and not by way of limitation, in the figures of the accompanying drawings in which like references indicate similar elements. It should be noted that different references to “an” or “one” embodiment in this disclosure are not necessarily to the same embodiment, and such references mean at least one. FIG. 1 is a block diagram of an exemplary network architecture in which embodiments of a model training tool may operate. FIG. 2 is a block diagram of a model training tool according to one embodiment. FIG. 3 illustrates a training phase of a model training tool to build a prediction model according to one embodiment. FIG. 4 is a flow diagram of a method for training a predictive model according to one embodiment. FIG. 5 illustrates a diagrammatic representation of a machine in the example form of a computing system for training a predictive model. FIG. 6 illustrates a diagrammatic representation of a network architecture in which embodiments of training a predictive model may operate. FIG. 7 illustrates a diagrammatic representation of another network architecture in which embodiments of training a predictive model may operate. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20171012",
+  "title": "PERFORMANCE MODEL ADVERSE IMPACT CORRECTION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 60472,
+    "optimized_size": 2994,
+    "reduction_percent": 95.05
+  }
+}

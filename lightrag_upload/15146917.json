@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170323",
+  "publication_number": "US20170098171A1-20170406",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15146917",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kumar",
+      "inventor_name_first": "Sameer",
+      "inventor_city": "BANGALORE",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "SARASWAT",
+      "inventor_name_first": "VIJAY A.",
+      "inventor_city": "MAHOPAC",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The example computer-implemented method may comprise computing, by a generator processor on each of a plurality of learners, a gradient for a mini-batch using a current weight at each of the plurality of learners. The method may also comprise generating, by the generator processor on each of the plurality of learners, a plurality of triples, wherein each of the triples comprises the gradient, the weight index of the current weights used to compute the gradient, and a mass of the gradient. The method may further comprise performing, by a reconciler processor on each of the plurality of learners, an allreduce operation on the plurality of triples to obtain an allreduced triple sequence. Additionally, the method may comprise updating, by the reconciler processor on each of the plurality of learners, the current weight at each of the plurality of learners to a new current weight using the allreduced triple sequence.",
+  "filing_date": "20160505",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In accordance with aspects of the present disclosure, a computer-implemented method for asynchronous stochastic gradient descent. The method may comprise computing, by a generator processor on each of a plurality of learners, a gradient for a mini-batch using a current weight at each of the plurality of learners, the current weight being uniquely identified by a weight index of each of the plurality of learners. The method may also comprise generating, by the generator processor on each of the plurality of learners, a plurality of triples, wherein each of the triples comprises the gradient, the weight index of the current weights used to compute the gradient, and a mass of the gradient, the mass equaling the number of mini-batches used to generate the gradient times a number of observations in the mini-batch. The method may further comprise performing, by a reconciler processor on each of the plurality of learners, an allreduce operation on the plurality of triples to obtain an allreduced triple sequence. Additionally, the method may comprise updating, by the reconciler processor on each of the plurality of learners, the current weight at each of the plurality of learners to a new current weight using the allreduced triple sequence, wherein the new current weight becomes the current weight for a next processing batch to be computed by the generator processor. In accordance with additional aspects of the present disclosure, systems and computer program products for asynchronous stochastic gradient descent are also provided.",
+  "date_published": "20170406",
+  "title": "ASYNCHRONOUS STOCHASTIC GRADIENT DESCENT",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N708"
+  ],
+  "_processing_info": {
+    "original_size": 54152,
+    "optimized_size": 3177,
+    "reduction_percent": 94.13
+  }
+}

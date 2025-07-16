@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15168449",
+  "date_published": "20171130",
+  "date_produced": "20171115",
+  "title": "THROUGHPUT IN OPENFABRICS ENVIRONMENTS",
+  "filing_date": "20160531",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Joshi",
+      "inventor_name_first": "Adhiraj",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Toley",
+      "inventor_name_first": "Abhijit",
+      "inventor_city": "Pune",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2908",
+    "G06F306"
+  ],
+  "main_ipcr_label": "H04L2908",
+  "summary": "<SOH> SUMMARY OF THE DISCLOSURE <EOH>Disclosed herein are methods, systems, and processes to improve throughput in OpenFabrics computing environments. One such method involves receiving data and a header, and identifying buffers in which the data and the header are to be written. Placement information for the data and the header is determined based, at least in part, on a size of each buffer, a page-boundary-alignment of the data, and a header alignment of the header. The data and the header are then written to the buffer(s) using the placement information. In this example, data is written on page boundaries and the header is written on a header boundary. In certain embodiments, using the placement information results in the utilization of a minimum number of buffers and the data being page-boundary-aligned when written to the minimum number of buffers, as well as minimal (or zero) on-wire wastage. The placement information includes instructions to write the data and the header to a second to last buffer. In some embodiments, the header and the data is coalesced (combined) into a Remote Direct Memory Access (RDMA) write by mapping the header and the data contained in multiple source buffers to one (or more) destination buffers based on the placement information. The RDMA write, which includes and is accompanied by a 32-bit data space containing metadata, is sent or transmitted to a destination along with the placement information. In other embodiments, if the data cannot be page boundary aligned in the minimum number of buffers, one or more additional buffers can be selected. In this example, the buffers include multiple destination buffers, and the minimum number of buffers include one or more destination buffers. The foregoing is a summary and thus contains, by necessity, simplifications, generalizations and omissions of detail; consequently those skilled in the art will appreciate that the summary is illustrative only and is not intended to be in any way limiting...",
+  "patent_number": "None",
+  "abstract": "Disclosed herein are systems, methods, and processes to improve throughput in OpenFabrics and Remote Direct Memory Access (RDMA) computing environments. Data and a header is received. Buffers in which the data and the header are to be written are identified. Placement information for the data and the header is determined based on a size of each buffer, a page-boundary-alignment of the data, and a header alignment of the header. The data and the header are written to the buffer(s) using the placement information. In such computing environments, throughout can be improved by writing data on page boundaries and the header on a header boundary in a second to last buffer.",
+  "publication_number": "US20170346899A1-20171130",
+  "_processing_info": {
+    "original_size": 61794,
+    "optimized_size": 3348,
+    "reduction_percent": 94.58
+  }
+}

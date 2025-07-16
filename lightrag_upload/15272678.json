@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170309",
+  "publication_number": "US20170083817A1-20170323",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15272678",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Di Sciullo",
+      "inventor_name_first": "Anna Maria",
+      "inventor_city": "Montreal",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Sastri",
+      "inventor_name_first": "Gautham",
+      "inventor_city": "Miami Beach",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computer-implemented system for real time topic detection in a social media message includes a knowledge base of keywords used to ingest the social media message and a partial parser deriving a syntax-semantic parse tree. The system also includes a topic calculator compositionally deriving the topic of the social media message by computing a topic value for given entities in the event described by the social media message. The topic value is derived from a first set of rules assigning Restrictor R-value to prominent R-expressions compositionally in the syntax-semantic parse tree and a second set of rules assigning a numeric Strength S-value to the R-expressions according to whether or not they are part of anaphoric chains in the social media message, and whether or not the R-expressions include name entities that are part of the knowledge base of keywords.",
+  "filing_date": "20160922",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>It is, therefore, an object of the present invention to provide a computer-implemented system for real time topic detection in a social media message, wherein information structure of the social media message includes a topic and a comment, and wherein the topic is an R-expression (Referential expression) that restricts the information structure of an event described by the social media message. The system includes a knowledge base of keywords used to ingest the social media message and a partial parser deriving a syntax-semantic parse tree. The system also includes a topic calculator compositionally deriving the topic of the social media message by computing a topic value for given entities in the event described by the social media message. The topic value is derived from a first set of rules assigning a numeric value to prominent R-expressions compositionally in the syntax-semantic parse tree and a second set of rules assigning a numeric value to the R-expressions according to whether or not they are part of anaphoric chains in the social media message, and whether or not the R-expressions include name entities that are part of the knowledge base of keywords. It is also an object of the present invention to provide a computer-implemented system for real time topic detection in a social media message including an inference engine reducing uncertainty in results of the topic calculator. It is another object of the present invention to provide a computer-implemented system for real time topic detection in a social media message wherein the inference engine includes a data structure and a set of inference rules. It is a further object of the present invention to provide a computer-implemented system for real time topic detection in a social media message wherein the topic value of the social media message is associated with a strength value 1 to 3, where 1 is the lowest strength and 3 is the highest strength. It is also an object o...",
+  "date_published": "20170323",
+  "title": "TOPIC DETECTION IN A SOCIAL MEDIA SENTIMENT EXTRACTION SYSTEM",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1727",
+    "G06N504"
+  ],
+  "_processing_info": {
+    "original_size": 130122,
+    "optimized_size": 3598,
+    "reduction_percent": 97.23
+  }
+}

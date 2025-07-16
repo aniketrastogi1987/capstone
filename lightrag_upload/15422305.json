@@ -1,0 +1,33 @@
+{
+  "patent_number": "None",
+  "application_number": "15422305",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "filing_date": "20170201",
+  "main_ipcr_label": "G06N700",
+  "abstract": "The present disclosure is directed to associating computing devices with each other based on computer network activity for selection of content items as part of an online content item placement campaign. A first linking factor is identified based on a connection between a first device and the computer network via a first IP address during a first time period, and based on a connection between a second device and the computer network via the first IP address during the first time period. A number of devices that connect with the computer network via the first IP address is determined. A positive match probability is generated. A second and third linking factors are monitored. A negative match probability is determined based on the second and third linking factors. The first device is linked with the second device based on the positive and negative match probabilities.",
+  "publication_number": "US20170140294A1-20170518",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure is generally directed to selecting content items based on linked computing devices. An entity may use multiple desktop or mobile devices to access a network, which may result in network activities of the entity being split across multiple devices. However, it may be challenging for a data processing system to select content for display on a device of the entity based on partial network activity only associated with the device. The systems and methods described herein can link two or more computing devices using an anonymous identifier. The systems and methods described herein can determine a probability that indicates whether the two devices are or should be linked together, and can generate the link when the probability satisfies a threshold. At least one aspect is directed to a method of associating computing devices with each other based on computer network activity for selection of content items as part of an online content item placement campaign. The method can include a data processing system identifying a first linking factor based on a connection between a first computing device and the computer network via a first IP address during a first time period, and based on a connection between a second computing device and the computer network via the first IP address during the first time period. The method can include the data processing system determining a number of computing devices other than the first computing device that connect with the computer network via the first IP address during the first time period. The method can include the data processing system generating a positive match probability based on the first linking factor and based on the number of computing devices. The method can include the data processing system monitoring for a second linking factor based on input activity at the first computing device during a second time period, and based on input activity at the second computing device during the s...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900",
+    "G06Q3002",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Qiu",
+      "inventor_name_first": "Jianjun",
+      "inventor_city": "Chicago",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR SELECTING CONTENT BASED ON LINKED DEVICES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 115058,
+    "optimized_size": 3465,
+    "reduction_percent": 96.99
+  }
+}

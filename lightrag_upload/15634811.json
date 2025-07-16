@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15634811",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "filing_date": "20170627",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "Aspects provided herein are relevant to machine learning techniques, including decomposing single-agent reinforcement learning problems into simpler problems addressed by multiple agents. Actions proposed by the multiple agents are then aggregated using an aggregator, which selects an action to take with respect to an environment. Aspects provided herein are also relevant to a hybrid reward model.",
+  "publication_number": "US20180165602A1-20180614",
+  "summary": "<SOH> SUMMARY <EOH>A framework for solving a single-agent task by using multiple agents, each focusing on different aspects of the task, is provided. This approach has at least the following advantages: 1) it allows for specialized agents for different parts of the task, and 2) it provides a new way to transfer knowledge, by transferring trained agents. The framework generalizes the traditional hierarchical decomposition, in which, at any moment in time, a single agent has control until it has solved its particular subtask. In an aspect, a framework is provided for communicating agents that aims to generalize the traditional hierarchical decomposition and allow for more flexible task decompositions. For example, decompositions where multiple subtasks have to be solved in parallel, or in cases where a subtask does not have a well-defined end but rather is a continuing process that needs constant adjustment (e.g., walking through a crowded street). This framework can be referred to as a separation-of-concerns framework. To enable cooperation of the agents, a reward function for a specific agent is provided that not only has a component depending on the environment state, but also a component depending on the communication actions of the other agents. Depending on the specific mixture of these components, agents have different degrees of independence. In addition, because the reward in general is state-specific, an agent can show different levels of dependence in different parts of the state-space. Typically, in areas with high environment-reward, an agent will act independent of the communication actions of other agents; while in areas with low environment-reward, an agent's policy will depend strongly on the communication actions of other agents. The framework can be seen as a sequential multi-agent decision making system with non-cooperative agents. This is a challenging setting, because from the perspective of one agent, the environment is non-stationary due to the...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "VAN SEIJEN",
+      "inventor_name_first": "Harm Hendrik",
+      "inventor_city": "Montreal",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "FATEMI BOOSHEHRI",
+      "inventor_name_first": "Seyed Mehdi",
+      "inventor_city": "Montreal",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "LAROCHE",
+      "inventor_name_first": "Romain Michel Henri",
+      "inventor_city": "Verdun",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "ROMOFF",
+      "inventor_name_first": "Joshua Samuel",
+      "inventor_city": "Montreal",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "SCALABILITY OF REINFORCEMENT LEARNING BY SEPARATION OF CONCERNS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 189406,
+    "optimized_size": 3438,
+    "reduction_percent": 98.18
+  }
+}

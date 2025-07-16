@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15383059",
+  "date_published": "20180621",
+  "date_produced": "20180608",
+  "title": "PREDICTIVE DATABASE FOR COMPUTER PROCESSES",
+  "filing_date": "20161219",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Troisvallets",
+      "inventor_name_first": "Fabien",
+      "inventor_city": "Mougins",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Orlinski",
+      "inventor_name_first": "Anael",
+      "inventor_city": "Golfe Juan",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY <EOH>In one exemplary embodiment, a method for implementing a predictive database for a computer process includes receiving, at one or more processors, historic input data that includes data objects entered for each of several successful computer processes requested by users. Thereafter, the method includes determining relationships based on the historic input data. Each of the relationships include a first one of the data objects entered for one of the successful computer processes linked to a second one of the data objects entered for the one successful computer process. The method further includes generating a decision tree based on the relationships, and filtering the decision tree based on an optimization threshold to reduce the decision tree. In addition, the method includes generating rules based on the filtered decision tree. Each of the rules includes a third data object linked to fourth data object, where for each rule, the third data object of the respective rule includes at least a portion of the first data object of one of the relationships, and the fourth data object of the respective rule includes the second data object of the one relationship. The method also includes storing the rules in the predictive database. In addition, the method may include receiving partial input data entered by a user in relation to a request for the computer process. The partial input data may include the third data object of one of the rules. In response to the partial input data being received, the method may include retrieving the rules from the predictive database, determining the one rule from the retrieved rules based on the partial input data, and supplying the fourth data object of the one rule to the requested computer process. Furthermore, the decision tree may include several paths, where each of the paths corresponds to one or more of the relationships. To this end, filtering the decision tree based on an optimization threshold to reduce the decis...",
+  "patent_number": "None",
+  "abstract": "Systems, methods, and computer program products for implementing a predictive database that improves the success rate of computer processes. Historic input data including user-entered data objects for each of several computer processes is received. Several relationships are determined based on the historic input data, where each of the relationships includes a data object entered for one of the success computer processes linked to another data object entered for the successful computer process. A decision tree is generated and filtered based on the relationships and an optimization threshold. Several rules are generated based on the filtered decision tree and are stored in the predictive database. Thereafter, in response to receiving partial input data entered by a user in relation to a requested computer process, additional input data is determined and supplied to the requested computer process based on the rules and the partial input data.",
+  "publication_number": "US20180173768A1-20180621",
+  "_processing_info": {
+    "original_size": 91300,
+    "optimized_size": 3637,
+    "reduction_percent": 96.02
+  }
+}

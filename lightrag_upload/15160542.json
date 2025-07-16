@@ -1,0 +1,53 @@
+{
+  "date_produced": "20161109",
+  "publication_number": "US20160342887A1-20161124",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15160542",
+  "inventor_list": [
+    {
+      "inventor_name_last": "TIELEMAN",
+      "inventor_name_first": "Tijmen",
+      "inventor_city": "Bilthoven",
+      "inventor_state": "",
+      "inventor_country": "NL"
+    },
+    {
+      "inventor_name_last": "SANYAL",
+      "inventor_name_first": "Sumit",
+      "inventor_city": "Santa Cruz",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MERRILL",
+      "inventor_name_first": "Theodore",
+      "inventor_city": "Santa Cruz",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HEBBAR",
+      "inventor_name_first": "Anil",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "A scalable neural network system may include a root processor and a plurality of neural network processors with a tree of synchronizing sub-systems connecting them together. Each synchronization sub-system may connect one parent to a plurality of children. Furthermore, each of the synchronizing sub-systems may simultaneously distribute weight updates from the root processor to the plurality of neural network processors, while statistically combining corresponding weight gradients from its children into single statistical weight gradients. A generalized network of sensor-controllers may have a similar structure.",
+  "filing_date": "20160520",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF VARIOUS ASPECTS OF THE DISCLOSURE <EOH>Various aspects of the present disclosure may include scalable structures for communicating neural network weight gradients and updates between a root processor and a large plurality of neural network workers (NNWs), each of which may contain one or more processors performing one or more pattern recognitions (or other tasks for which neural networks may be appropriate; the discussion here refers to “pattern recognitions,” but it is contemplated that the invention is not thus limited) and corresponding back-propagations on the same neural network, in a scalable neural network system (SNNS). In one aspect, the communication structure may consist of a plurality of synchronizing sub-systems (SSS), which may each be connected to one parent and a plurality of children in a multi-level tree structure connecting the NNWs to the root processor of the SNNS. In another aspect, each of the SSS units may broadcast packets from a single source to a plurality of targets, and may combine the contents of a packet from each of the plurality of targets into a single resulting equivalent-sized packet to send to the source. Other aspects may include sending and receiving data between the parent and children of each SSS unit on either bidirectional buses or pairs of unidirectional buses, compressing and decompressing the packet data in the SSS unit, using buffer memory in the SSS unit to synchronize the flow of data, and/or managing the number of children being used by controlling the flow of data through the SSS units. The NNWs may be either atomic workers (AWs) performing a single pattern recognition and corresponding back-propagation on a single neural network or may be composite workers (CWs) performing many pattern recognitions on a single neural network in a batch fashion. These composite workers may consist of batch neural network processors (BNNPs) or any combination of SSS units and AWs or BNNPs. The compression may, like p...",
+  "date_published": "20161124",
+  "title": "SCALABLE NEURAL NETWORK SYSTEM",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N9900",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 32195,
+    "optimized_size": 3611,
+    "reduction_percent": 88.78
+  }
+}

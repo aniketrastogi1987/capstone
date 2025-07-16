@@ -1,0 +1,60 @@
+{
+  "decision": "PENDING",
+  "application_number": "15353584",
+  "date_published": "20170518",
+  "date_produced": "20170503",
+  "title": "SYSTEM FOR IDENTITY VERIFICATION",
+  "filing_date": "20161116",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yan",
+      "inventor_name_first": "Samuel",
+      "inventor_city": "San Ramon",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Muma",
+      "inventor_name_first": "S. Keith",
+      "inventor_city": "Bainbridge Island",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Richard",
+      "inventor_city": "San Ramon",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Preston",
+      "inventor_name_first": "Dan Alan",
+      "inventor_city": "Bainbridge Island",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Vance",
+      "inventor_name_first": "Trinitie Marie",
+      "inventor_city": "Tahuya",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2132",
+    "G06F2131",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F2132",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>A more complete understanding of the systems, methods, processes, and/or apparatuses disclosed herein may be derived by referring to the detailed description when considered in connection with the following illustrative figures. In the figures, like-reference numbers refer to like-elements or acts throughout the figures. FIG. 1 a block diagram of an Interacting Multiple Model (IMM) estimator with only two models (for simplicity). FIG. 2 depicts standard deviation. FIG. 3 depicts covariance terms and an embodiment with three distinct Trust Levels. FIG. 4 depicts a system where covariance begins to degrade into lower Trust Levels over time when measurements stop being input to the system. FIG. 5 depicts an example of when measurements are initially within a high Trust Level and then begin to diverge into lower Trust Levels. FIG. 6 depicts a system with three state models operating simultaneously. FIG. 7 depicts a crossover between models in the system. FIG. 8 depicts confidence as a vector in space-time or a scalar in discrete time. FIG. 9 depicts an example scalar region. FIG. 10 depicts an example topological manifold. FIG. 11 depicts a NEST™ thermostat system and server. FIG. 12 depicts exemplary smart phone system architecture prior to abstraction. FIG. 13 depicts smart phone system architecture of FIG. 12 with the processing capabilities abstracted to the cloud. FIG. 14 depicts smart phone system architecture of FIG. 12 with processing capabilities and the Persona Credential Engine abstracted to the cloud. FIG. 15 depicts the architecture that was abstracted from the smart phone of FIG. 12 moved to a remote server. FIG. 16 depicts final evolution of the software of FIG. 12 with architecture remaining on the smart phone and the architecture on the remote server, both in communication with the cloud. FIG. 17 depicts the abstracted PCE in use with HTML5, mobile devices, subscribers, and the server. FIG. 18 depicts an over...",
+  "patent_number": "None",
+  "abstract": "A system for a dynamically evolving cognitive architecture for the development of a secure key and confidence level based data derived from biometric sensors and a user's behavioral activities. The system comprises one or more processors, one or more sensors, one or more databases, and non-transitory computer readable memory. The non-transitory computer readable memory comprises a plurality of executable instructions wherein the instructions, when executed by the one or more processors, cause the one or more processors to process operations comprising creating a set of policies based on user data sets and inputs, creating a faceted classification, establishing a Trust Level, processing sensor data, comparing data to one or more databases, correlating data, updating Trust Levels, updating security keys, and storing the keys in memory. In certain embodiments, the stored data is used to create a usage schema independent from a user's actual identity.",
+  "publication_number": "US20170140141A1-20170518",
+  "_processing_info": {
+    "original_size": 176295,
+    "optimized_size": 4121,
+    "reduction_percent": 97.66
+  }
+}

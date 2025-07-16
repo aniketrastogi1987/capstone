@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15183769",
+  "date_published": "20171221",
+  "date_produced": "20171207",
+  "title": "On-Device Maliciousness Categorization of Application Programs for Mobile Devices",
+  "filing_date": "20160615",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Liang",
+      "inventor_city": "Pleasanton",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhai",
+      "inventor_name_first": "Jinjian",
+      "inventor_city": "Union City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06N9900"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>An on-device security vulnerability detection method performs dynamic analysis of application programs on a mobile device. In one aspect, an operating system of a mobile device is configured to include instrumentations and an analysis application program package is configured for installation on the mobile device to interact with the instrumentations. When an application program executes on the mobile device, the instrumentations enables recording of information related to execution of the application program. The analysis application interfaces with the instrumented operating system to analyze the behaviors of the application program using the recorded information. The application program is categorized (e.g., as benign or malicious) based on its behaviors, for example by using machine learning models. This approach can be used at different layers of the hardware/software stack of the mobile device, including the application layer, operating system layer (framework layer and kernel layer), and/or hardware layer. The information collected will differ by layer, as will the behaviors and machine learning models. Other aspects include components, devices, systems, improvements, methods, processes, applications, computer readable mediums, and other technologies related to any of the above.",
+  "patent_number": "None",
+  "abstract": "An on-device security vulnerability detection method performs dynamic analysis of application programs on a mobile device. In one aspect, an operating system of a mobile device is configured to include instrumentations and an analysis application program package is configured for installation on the mobile device to interact with the instrumentations. When an application program executes on the mobile device, the instrumentations enables recording of information related to execution of the application program. The analysis application interfaces with the instrumented operating system to analyze the behaviors of the application program using the recorded information. The application program is categorized (e.g., as benign or malicious) based on its behaviors, for example by using machine learning models.",
+  "publication_number": "US20170366562A1-20171221",
+  "_processing_info": {
+    "original_size": 77990,
+    "optimized_size": 2866,
+    "reduction_percent": 96.33
+  }
+}

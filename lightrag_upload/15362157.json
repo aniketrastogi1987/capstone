@@ -1,0 +1,39 @@
+{
+  "date_produced": "20170517",
+  "publication_number": "US20170154265A1-20170601",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15362157",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Clothier",
+      "inventor_name_first": "Matthew P.",
+      "inventor_city": "Somerset",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "A'Court",
+      "inventor_name_first": "Robert",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "A method for creating a cache by predicting database requests by an application and storing responses to the database requests is disclosed. In an embodiment, the method involves identifying a networked application having a client portion and a server portion coupled to the client portion over a network characterized by a first latency, identifying a database used to store activity related to the networked application is identified, identifying a request-response context of the networked application, using the request-response context to predict requests the networked application is likely to make using the database, using the request-response context to predict responses to the requests, creating a cache having the requests and/or the responses stored therein, and providing the cache to a predictive cache engine coupled to the client portion of the networked application by a computer-readable medium that has a second latency less than the first latency.",
+  "filing_date": "20161128",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 shows a block diagram of an example of a predictive caching environment. FIG. 2 shows a block diagram of an example of a predictive cache management system. FIG. 3 shows a block diagram of an example of a request prediction coordination engine. FIG. 4 shows a block diagram of an example of a request-response context evaluation engine. FIG. 5 shows a block diagram of a flowchart of an example of a method for creating a cache by predicting database requests by an application and storing responses to the database requests. FIG. 6 shows a block diagram of a flowchart of an example of a method for identifying a request-response context of a networked application. FIG. 7 shows a block diagram of a flowchart of an example of a method for modifying a request-response context of a networked application. FIG. 8 shows a block diagram of an example of a computer system. FIG. 9 is a time diagram of transaction timing in a client server transaction that takes place of a wide area connection and over a local area connection. FIG. 10 is a timing diagram of an example of how predictive caching works for a single branch stream of a client-server application. FIG. 11 is a timing diagram of an example of how predictive caching works for a single branch stream of a client-server application. detailed-description description=\"Detailed Description\" end=\"lead\"? Throughout the description, similar reference numbers may be used to identify similar elements.",
+  "date_published": "20170601",
+  "title": "OPTIMIZING PREDICTIVELY CACHING REQUESTS TO REDUCE EFFECTS OF LATENCY IN NETWORKED APPLICATIONS",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700",
+    "H04L2908"
+  ],
+  "_processing_info": {
+    "original_size": 86845,
+    "optimized_size": 3229,
+    "reduction_percent": 96.28
+  }
+}

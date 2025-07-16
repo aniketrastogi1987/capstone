@@ -1,0 +1,69 @@
+{
+  "patent_number": "None",
+  "application_number": "15610200",
+  "date_published": "20180426",
+  "date_produced": "20180411",
+  "filing_date": "20170531",
+  "main_ipcr_label": "G06N504",
+  "abstract": "The present disclosure relates to identifying process flows from log sources (e.g., log files), and generating visual representations (e.g., flow diagrams, Sankey diagrams, etc.) of the identified process flows. In addition, the present disclosure relates to clustering of tree structures based on the shape of the tree structure using one or more hashing algorithms. The present disclosure also relates to a user interface that presents a query builder for efficiently querying a log analytics system for tree structures that satisfy a user-defined range.",
+  "publication_number": "US20180114126A1-20180426",
+  "summary": "<SOH> SUMMARY <EOH>Certain aspects and features of the present disclosure relate to systems and methods for identifying process flows (e.g., a workflow including one or more stages) and displaying a visual representation of the identified process flows. In one embodiment, an interface can be provided that presents a visual representation (e.g., a flow diagram, a Sankey diagram, and other suitable diagrams) of a process flow. The interface can be configured to receive user input corresponding to a selection of a flow key for grouping two or more log records in different log files. For example, a flow key can be a unique identifier that identifies a particular transaction in the process flow. Further, the interface can facilitate the grouping of log records in various log files using the selected flow key. One or more log files can be generated during a process flow. The interface can display a visual representation of the grouped log records over one or more time intervals between a defined start time and a defined end time. The interface enables a user to select a time interval and presents the visual representation of the process flow for the selected time interval. In some instances, all of the log records from the one or more log files involved in the process flow during a particular time interval can be obtained. For example, if the value of a flow key (e.g., a transaction ID, a user ID and a session ID, etc.) of a first log record in a first log file is the same as the value of a flow key of a second log record in a second log file, then the first log record can be connected to the second log record. Further, once the connections between various log files using the flow key is completed, the connections are ordered in time to generate the process flow. In another embodiment, log messages (used interchangeably with log records) can be automatically tracked through a workflow in a user-defined time period. Log messages are identified that correspond to a given ti...",
+  "ipcr_labels": [
+    "G06N504",
+    "H04L1226",
+    "G06N9900",
+    "G06F1730",
+    "G06F30481"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Das",
+      "inventor_name_first": "Sreeji",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yoon",
+      "inventor_name_first": "Jae Young",
+      "inventor_city": "San Mateo",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kumaresan",
+      "inventor_name_first": "Dhileeban",
+      "inventor_city": "Hyderabad",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Alvenkar",
+      "inventor_name_first": "Venktesh",
+      "inventor_city": "Hyderabad",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Akali",
+      "inventor_name_first": "Harish",
+      "inventor_city": "Acton",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Galla",
+      "inventor_name_first": "Hari Krishna",
+      "inventor_city": "Hyderabad",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "title": "SYSTEMS AND METHODS FOR IDENTIFYING PROCESS FLOWS FROM LOG FILES AND VISUALIZING THE FLOW",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 160059,
+    "optimized_size": 3918,
+    "reduction_percent": 97.55
+  }
+}

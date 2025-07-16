@@ -1,0 +1,45 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15139391",
+  "date_published": "20160818",
+  "date_produced": "20160803",
+  "title": "HIERARCHICAL PRE-FETCH PIPELINING IN A HYBRID MEMORY SERVER",
+  "filing_date": "20160427",
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHAN",
+      "inventor_name_first": "Yuk Lung",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "KRISHNAMURTHY",
+      "inventor_name_first": "Rajaram B.",
+      "inventor_city": "Wappingers Falls",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "PARRIS",
+      "inventor_name_first": "Carl Joseph",
+      "inventor_city": "Rhinebeck",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1208",
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F1208",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In one embodiment, a method, with a server system in an out-of-core processing environment, for prefetching data is disclosed. The method comprises a set of prefetch requests associated with one or more given datasets residing on the server system are received from a set of accelerator systems. A set of data is prefetched from a memory system residing at the server system for at least one prefetch request in the set of prefetch requests. The set of data satisfies the at least one prefetch request. The set of data that has been prefetched is sent to at least one accelerator system, in the set of accelerator systems, associated with the at least one prefetch request. In another embodiment, hybrid server system in an out-of-core processing environment is disclosed. The hybrid server system comprises a server and a set of accelerator systems that is communicatively coupled to the server. The server comprises a memory system and at least a first prefetcher communicatively coupled to the memory system. Each accelerator system in the set of accelerator systems comprises at least one processing core and at least a second prefetcher. The first prefetcher is configured to receive a set of prefetch requests from the second prefetcher of at least one accelerator system in the set of accelerator systems. The set of prefetch requests is associated with one or more given datasets residing on the server system. The first prefetcher is further configured to prefetch, for at least one prefetch request in the set of prefetch requests, a set of data from the memory system residing at the server system. The set of data satisfies the at least one prefetch request. The first prefetcher is also configured to send the set of data that has been prefetched to at least one accelerator system, in the set of accelerator systems, associated with the at least one prefetch request. In yet another embodiment, a computer program product for managing data access in ...",
+  "patent_number": "9952774",
+  "abstract": "A method, hybrid server system, and computer program product, prefetch data. A set of prefetch requests associated with one or more given datasets residing on the server system are received from a set of accelerator systems. A set of data is prefetched from a memory system residing at the server system for at least one prefetch request in the set of prefetch requests. The set of data satisfies the at least one prefetch request. The set of data that has been prefetched is sent to at least one accelerator system, in the set of accelerator systems, associated with the at least one prefetch request.",
+  "publication_number": "US20160239424A1-20160818",
+  "_processing_info": {
+    "original_size": 105400,
+    "optimized_size": 3487,
+    "reduction_percent": 96.69
+  }
+}

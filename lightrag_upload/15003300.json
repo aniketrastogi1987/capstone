@@ -1,0 +1,38 @@
+{
+  "date_produced": "20160504",
+  "publication_number": "US20160140441A1-20160519",
+  "main_ipcr_label": "G06N502",
+  "decision": "ACCEPTED",
+  "application_number": "15003300",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Cantin",
+      "inventor_name_first": "Jason F.",
+      "inventor_city": "Round Rock",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Cracraft",
+      "inventor_name_first": "Michael A.",
+      "inventor_city": "Poughkeepsie",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Figures of merit by actual design parameters are tracked over iterations for candidate solutions that include both actual design parameters and actual context parameters. Instead of returning a current iteration figure of merit, a worst observed figure of merit for a set of actual design parameters is returned as the figure of merit for a candidate solution. Since the candidate solution includes both actual design parameters and actual context parameters and the worst observed figures of merit are tracked by actual design parameters, the figure of merit for a set of design parameters will be the worst of the observed worst case scenarios as defined by the actual context parameters over a run of a metaheuristic optimizer.",
+  "filing_date": "20160121",
+  "patent_number": "9747549",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the inventive subject matter relate to guiding a population-based metaheuristic to search for a best of worst cases for an optimization problem. For each candidate solution in a current iteration of a population-based metaheuristic instance, it is determined whether a figure of merit generated from a fitness function of the population-based metaheuristic instance for the candidate solution is worse than a figure of merit associated with actual design parameters of the candidate solution in a structure used to track worst observed figures of merit by actual design parameters over iterations. The actual design parameters are a subset of actual parameters of the candidate solution. The structure is updated to associate the figure of merit with the actual design parameters when the figure of merit generated for the candidate solution in the current iteration is worse than a previously observed worst figure of merit for the actual design parameters in the structure. The worst between the figure of merit generated for the candidate solution in the current iteration and the previously observed worst figure of merit for the actual design parameters is supplied as a figure of merit to be used for the candidate solution in advancing the population-based metaheuristic instance.",
+  "date_published": "20160519",
+  "title": "GUIDING METAHEURISTIC TO SEARCH FOR BEST OF WORST",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 66178,
+    "optimized_size": 2761,
+    "reduction_percent": 95.83
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060754A1-20180301",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15253394",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Guo",
+      "inventor_name_first": "Fei",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Huang",
+      "inventor_name_first": "Shiyun",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wei",
+      "inventor_name_first": "Dajiang",
+      "inventor_city": "Burlingame",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A server of a transportation network determines characteristics of trips provided to users, as well as the usage of the services by users. Using the determined characteristics, the server trains a model that, for a given set of trips for a user, estimates a degree of likely user dissatisfaction with the trips. Based on the estimated degree of user dissatisfaction, the system can estimate user dissatisfaction in real time, directly after completion of a trip, and can take remedial actions should the user be estimated to be likely dissatisfied.",
+  "filing_date": "20160831",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Examples provided herein describe a system to identify users who may be likely to cease use of the system or its network service. In some examples, the system can correspond to or be a part of a service arrangement system that provides a platform or network service to enable users to request location-based services using their respective computing devices and to select service providers to provide the requested services. In order to be able to more precisely predict users that are likely to cease use of the system, and in order to eliminate the need for system analysts to spend time and significant resources manually examining user data to make such predictions, examples described herein provide a system that automatically computes scores or values for users based on trained models, and that trains the models without the need for manual creation of training sets. A system can use historical data of location-based services that were previously completed as well as other data, such as whether or not users that received such location-based services continued to use the network service after a duration of time, to develop and train the model using a machine learning algorithm. For example, the system can determine which users ceased using the network service for a duration of time after the last respective completed trips, and identify training sets of trip sequences of those trips. Depending on implementation, examples of the training sets can include a positive training set of trip sequences of one or more trips associated with the user that preceded the user ceasing to use the transportation services, and a negative training set of trip sequences of one or more trips associated with the user that did not precede the user ceasing to use the transportation services. For an individual user, the system can determine, using the trained model and trip features of a set of previously completed trips (and/or their respective satisfaction scores) for that u...",
+  "date_published": "20180301",
+  "title": "ANTICIPATING USER DISSATISFACTION VIA MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 47986,
+    "optimized_size": 3383,
+    "reduction_percent": 92.95
+  }
+}

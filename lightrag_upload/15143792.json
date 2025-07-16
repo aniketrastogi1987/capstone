@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171018",
+  "publication_number": "US20170316342A1-20171102",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15143792",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Franc",
+      "inventor_name_first": "Vojtech",
+      "inventor_city": "Roudnice Nad Labem",
+      "inventor_state": "",
+      "inventor_country": "CZ"
+    },
+    {
+      "inventor_name_last": "Bartos",
+      "inventor_name_first": "Karel",
+      "inventor_city": "Prague",
+      "inventor_state": "",
+      "inventor_country": "CZ"
+    },
+    {
+      "inventor_name_last": "Sofka",
+      "inventor_name_first": "Michal",
+      "inventor_city": "Prague",
+      "inventor_state": "",
+      "inventor_country": "CZ"
+    }
+  ],
+  "abstract": "In one embodiment, a learning machine device initializes thresholds of a data representation of one or more data features, the thresholds specifying a first number of pre-defined bins (e.g., uniform and equidistant bins). Next, adjacent bins of the pre-defined bins having substantially similar weights may be reciprocally merged, the merging resulting in a second number of refined bins that is less than the first number. Notably, while merging, the device also learns weights of a linear decision rule associated with the one or more data features. Accordingly, a data-driven representation for a data-driven classifier may be established based on the refined bins and learned weights.",
+  "filing_date": "20160502",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The embodiments herein may be better understood by referring to the following description in conjunction with the accompanying drawings in which like reference numerals indicate identically or functionally similar elements, of which: FIG. 1A illustrates an example computer network; FIG. 1B illustrates an example alternative view of the computer network; FIG. 2 illustrates an example computing device; FIG. 3 illustrates an example of using statistical moments or a predefined number of equidistant bins of a histogram to represent feature distributions; FIG. 4 illustrates an example of refined learning data representation for classifiers, illustrating that there is no need to pre-specify the final number of bins; FIGS. 5A-5B illustrate the architecture of a typical system using a data-driven classifier, and the architecture of the proposed full-data-driven classification architecture, respectively; FIGS. 6A-6M illustrate the effect of a γ parameter on a resulting representation and a decision boundary of a classifier; FIG. 7 illustrates the effect of the γ parameter on the training and testing error, where higher values of γ achieve better generalization; FIG. 8 illustrates an example precision-recall curve to compare the efficacy results of classifiers based on a predefined number of bins per feature and based on the refined learning data representation for classifiers in accordance with one or more embodiments described herein; and FIG. 9 illustrates an example simplified procedure for refined learning data representation for classifiers in accordance with one or more embodiments described herein. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20171102",
+  "title": "REFINED LEARNING DATA REPRESENTATION FOR CLASSIFIERS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1711"
+  ],
+  "_processing_info": {
+    "original_size": 58063,
+    "optimized_size": 3284,
+    "reduction_percent": 94.34
+  }
+}

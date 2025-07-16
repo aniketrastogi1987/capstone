@@ -1,0 +1,53 @@
+{
+  "date_produced": "20161208",
+  "publication_number": "US20160371603A1-20161222",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15077563",
+  "inventor_list": [
+    {
+      "inventor_name_last": "A V",
+      "inventor_name_first": "Arun Kumar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "RATH",
+      "inventor_name_first": "Hemant Kumar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "NADAF",
+      "inventor_name_first": "Shameemraj M.",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "SIMHA",
+      "inventor_name_first": "Anantha",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "Methods and Systems for automatic information extraction by performing self-learning crawling and rule-based data mining is provided. The method determines existence of crawl policy within input information and performs at least one of front-end crawling, assisted crawling and recursive crawling. Downloaded data set is pre-processed to remove noisy data and subjected to classification rules and decision tree based data mining to extract meaningful information. Performing crawling techniques leads to smaller relevant datasets pertaining to a specific domain from multi-dimensional datasets available in online and offline sources.",
+  "filing_date": "20160322",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Methods and systems are described that enable automatic information retrieval through self-learning based crawling and rule based data mining. Learning the differences in documentation standards and reducing the complexity of automatic updating of repositories are some of the challenges addressed by the systems and methods of present disclosure with applicability to other domains without posing any difficulty. In an aspect, there is provided a method for automatic information retrieval that may include receiving a request for information extraction and retrieving input information from the request; determining the existence of a crawl policy wherein such determination is performed on the input information; performing assisted crawling in case the input information contains the crawl policy; performing recursive crawling in case the input information does not contain the crawl policy and computing valid paths and links for building up a crawl policy wherein recursive crawling is performed until destination files or web-page is reached; pre-processing dataset obtained after one of the assisted crawling and recursive crawling to remove noisy data to obtain pre-processed relevant dataset; and subjecting the pre-processed dataset to classification rules and decision tree based data mining to extract meaningful information. In accordance with an embodiment, the method of automatic information extraction may include determining whether valid paths and links computed during recursive crawling need to be saved for future attempts of assisted crawling. In accordance with an embodiment, the method of automatic information extraction may further include intimating non-existence of crawl policy. In accordance with an embodiment, the method of automatic information extraction may further include intimating the user of any conflict caused due to one or more classification rules and extracting meaningful information irrespective of type of file formats. In accord...",
+  "date_published": "20161222",
+  "title": "SELF-LEARNING BASED CRAWLING AND RULE-BASED DATA MINING FOR AUTOMATIC INFORMATION EXTRACTION",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N504",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 52753,
+    "optimized_size": 3685,
+    "reduction_percent": 93.01
+  }
+}

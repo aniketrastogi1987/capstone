@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15498144",
+  "date_published": "20171102",
+  "date_produced": "20171018",
+  "filing_date": "20170426",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Systems, methods and apparatus may be configured to implement automatic semantic classification of a detected object(s) disposed in a region of an environment external to an autonomous vehicle. The automatic semantic classification may include analyzing over a time period, patterns in a predicted behavior of the detected object(s) to infer a semantic classification of the detected object(s). Analysis may include processing of sensor data from the autonomous vehicle to generate heat maps indicative of a location of the detected object(s) in the region during the time period. Probabilistic statistical analysis may be applied to the sensor data to determine a confidence level in the inferred semantic classification. The inferred semantic classification may be applied to the detected object(s) when the confidence level exceeds a predetermined threshold value (e.g., greater than 50%).",
+  "publication_number": "US20170316333A1-20171102",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Various embodiments or examples (“examples”) of the invention are disclosed in the following detailed description and the accompanying drawings: FIG. 1 is a diagram depicting implementation of a fleet of autonomous vehicles that are communicatively networked to an autonomous vehicle service platform, according to some embodiments; FIG. 2 is an example of a flow diagram to monitor a fleet of autonomous vehicles, according to some embodiments; FIG. 3A is a diagram depicting examples of sensors and other autonomous vehicle components, according to some examples; FIGS. 3B to 3E are diagrams depicting examples of sensor field redundancy and autonomous vehicle adaption to a loss of a sensor field, according to some examples; FIG. 4 is a functional block diagram depicting a system including an autonomous vehicle service platform that is communicatively coupled via a communication layer to an autonomous vehicle controller, according to some examples; FIG. 5 is an example of a flow diagram to control an autonomous vehicle, according to some embodiments; FIG. 6 is a diagram depicting an example of an architecture for an autonomous vehicle controller, according to some embodiments; FIG. 7 is a diagram depicting an example of an autonomous vehicle service platform implementing redundant communication channels to maintain reliable communications with a fleet of autonomous vehicles, according to some embodiments; FIG. 8 is a diagram depicting an example of a messaging application configured to exchange data among various applications, according to some embodiment; FIG. 9 is a diagram depicting types of data for facilitating teleoperations using a communications protocol described in FIG. 8 , according to some examples; FIG. 10 is a diagram illustrating an example of a teleoperator interface with which a teleoperator may influence path planning, according to some embodiments; FIG. 11 is a diagram depicting an example of a planner config...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900",
+    "G05D100"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Levinson",
+      "inventor_name_first": "Jesse Sol",
+      "inventor_city": "Redwood City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sibley",
+      "inventor_name_first": "Gabriel Thurston",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rege",
+      "inventor_name_first": "Ashutosh Gajanan",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "AUTOMATED EXTRACTION OF SEMANTIC INFORMATION TO ENHANCE INCREMENTAL MAPPING MODIFICATIONS FOR ROBOTIC VEHICLES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 179188,
+    "optimized_size": 3844,
+    "reduction_percent": 97.85
+  }
+}

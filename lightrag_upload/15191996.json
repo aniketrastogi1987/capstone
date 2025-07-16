@@ -1,0 +1,66 @@
+{
+  "decision": "PENDING",
+  "application_number": "15191996",
+  "date_published": "20161020",
+  "date_produced": "20161005",
+  "title": "THREAD CREATION METHOD, SERVICE REQUEST PROCESSING METHOD, AND RELATED DEVICE",
+  "filing_date": "20160624",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SHEN",
+      "inventor_name_first": "Qingni",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "LI",
+      "inventor_name_first": "Cai",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "GUO",
+      "inventor_name_first": "Mingyu",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Tian",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Keping",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CAI",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Hangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F950",
+    "G06F948"
+  ],
+  "main_ipcr_label": "G06F950",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments of the present invention provide a thread creation method, a service request processing method, and a related device, to resolve a problem of improper creation of a thread and an incurred problem of relatively low efficiency of parallel processing of service requests by a server in the prior art. According to a first aspect, a thread creation method is provided, which is applied to a server that has a multi-queue network interface card, where a network interface card queue of the multi-queue network interface card stores a service request from a client, and the method includes: acquiring a quantity of network interface card queues of the multi-queue network interface card of the server; creating processes whose quantity is equal to the quantity of network interface card queues; creating one listener thread and multiple worker threads in each process; and binding each created listener thread to a different network interface card queue. With reference to the first aspect, in a first possible implementation manner, the server has a multi-core processor; and the binding each created listener thread to a different network interface card queue includes: binding each created listener thread to a different target core in the multi-core processor, and binding each network interface card queue in the multi-queue network interface card to a different core in the target cores, so as to implement that each created listener thread is bound to a different network interface card queue, where the target cores are all cores in the multi-core processor that are used to bind the listener threads and the network interface card queues, and the quantity of network interface card queues is equal to a quantity of target cores. With reference to the first possible implementation manner of the first aspect, in a second possible implementation manner, the method further includes: binding each worker thread created in each process to one core. With reference to th...",
+  "patent_number": "None",
+  "abstract": "The present invention discloses a thread creation method, a service request processing method, and a related device, where the method includes: acquiring a quantity of network interface card queues of a multi-queue network interface card of a server; creating processes whose quantity is equal to the quantity of network interface card queues; creating one listener thread and multiple worker threads in each process; and binding each created listener thread to a different network interface card queue. Solutions provided in embodiments of the present invention are used to make creation of a process and a thread more proper, and improve efficiency of processing parallel service requests by a server.",
+  "publication_number": "US20160306680A1-20161020",
+  "_processing_info": {
+    "original_size": 141796,
+    "optimized_size": 3969,
+    "reduction_percent": 97.2
+  }
+}

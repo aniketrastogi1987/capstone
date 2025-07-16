@@ -1,0 +1,46 @@
+{
+  "decision": "PENDING",
+  "application_number": "15259711",
+  "date_published": "20180308",
+  "date_produced": "20180222",
+  "title": "Authorization Techniques for Fund Sharing Between Accounts",
+  "filing_date": "20160908",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gupta",
+      "inventor_name_first": "Alok",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Agarwal",
+      "inventor_name_first": "Gaurav",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Dhavalikar",
+      "inventor_name_first": "Rahul Gurudas",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2040",
+    "G06Q2010",
+    "H04W402"
+  ],
+  "main_ipcr_label": "G06Q2040",
+  "summary": "<SOH> SUMMARY <EOH>Techniques are disclosed relating to authorization of asset sharing between user accounts. In some embodiments, a server-side method includes storing account information for a first user account and receiving a first request to share funds from the first user account with a second user account. In some embodiments, the first request includes one or more constraints on the shared funds. For example, the first user may specify an expiration time for the sharing, restrictions on location(s) in which shared funds can be used, restrictions on the number of allowed transactions, etc. In some embodiments, the method further includes authenticating that the first request was received from a user authorized to share funds from the first user account. In some embodiments, the method further includes receiving a second request that is an authorization request for a payment transaction initiated by the second user account. In some embodiments, the method further includes authorizing, based on determining that the second request meets the one or more constraints, the second user account to access the shared funds for the payment transaction. In some embodiments, the shared funds are not transferred from the first user account until after receiving the second request. In some embodiments a device for the first user is configured to display a user interface and receive user input that specifies sharing of funds and constraints on the sharing. In some embodiments, a device for the second user is configured to notify the second user than the funds have been shared and receive user input requesting to use shared funds for a transaction. In some embodiments, fund sharing is performed between user devices that have installed an application and setup accounts on the same centralized payment system. In various embodiments, disclosed techniques may facilitate sharing funds by allowing senders to share funds without actually sending funds until they are used, as well as ...",
+  "patent_number": "None",
+  "abstract": "Techniques are disclosed relating to authorization of asset sharing between user accounts. In some embodiments, a server-side method includes storing account information for a first user account and receiving a first request to share funds from the first user account with a second user account. In some embodiments, the first request includes one or more constraints on the shared funds. In some embodiments, the method further includes authenticating that the first request was received from a user authorized to share funds from the first user account, receiving a second request that is an authorization request for a payment transaction initiated by the second user account, and authorizing, in response to determining that the second request meets the one or more constraints, the second user account to access the shared funds for the payment transaction. In some embodiments, the shared funds are not transferred from the first user account until after receiving the second request.",
+  "publication_number": "US20180068308A1-20180308",
+  "_processing_info": {
+    "original_size": 50775,
+    "optimized_size": 3859,
+    "reduction_percent": 92.4
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "decision": "PENDING",
+  "application_number": "15111747",
+  "date_published": "20161117",
+  "date_produced": "20161102",
+  "title": "SEARCHABLE ENCRYPTION PROCESSING SYSTEM AND SEARCHABLE ENCRYPTION PROCESSING METHOD",
+  "filing_date": "20160714",
+  "inventor_list": [
+    {
+      "inventor_name_last": "YOSHINO",
+      "inventor_name_first": "Masayuki",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SATO",
+      "inventor_name_first": "Hisayoshi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NAGANUMA",
+      "inventor_name_first": "Ken",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "SATO",
+      "inventor_name_first": "Yoshinori",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F2162",
+    "H04L908",
+    "G06F1730",
+    "H04L900"
+  ],
+  "main_ipcr_label": "G06F2162",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>",
+  "patent_number": "None",
+  "abstract": "A searchable encryption processing system includes a server including: a communication device to communicate with another device; a storage device configured to store as search target data, secret data obtained by concealing plaintext data, and a secret index obtained by concealing a plaintext index to classify the plaintext data; and an arithmetic device to execute a process including receiving, from a search client, a secret data query obtained by concealing a plaintext query, and a secret index query obtained by concealing a plaintext index, searching the storage device for a secret index matching the secret index query based on a predetermined searchable encryption technique, searching a secret data group classified by the matching secret index for secret data matching the secret data query, and returning the searched secret data to the search client.",
+  "publication_number": "US20160335450A1-20161117",
+  "_processing_info": {
+    "original_size": 85095,
+    "optimized_size": 1925,
+    "reduction_percent": 97.74
+  }
+}

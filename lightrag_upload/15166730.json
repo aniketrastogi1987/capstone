@@ -1,0 +1,32 @@
+{
+  "date_produced": "20170621",
+  "publication_number": "US20170193385A1-20170706",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15166730",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Beaufort",
+      "inventor_name_first": "Richard",
+      "inventor_city": "Corbais",
+      "inventor_state": "",
+      "inventor_country": "BE"
+    }
+  ],
+  "abstract": "Various implementations described herein are directed to a method for generating an instance of a finite state machine. The method may receive a configuration comprising a value for each of one or more configuration points of a finite state machine. The method may determine a configuration point of the finite state machine that is not defined with a value in the configuration. The method may determine a default value for the determined configuration point of the finite state machine that is not defined with a value in the configuration. The method may also generate, based on the configuration and the default value, an instance of the finite state machine. The instance of the finite state machine collects data using a dialog system.",
+  "filing_date": "20160527",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>The following presents a simplified summary of various aspects described herein. This summary is not an extensive overview, and is not intended to identify key or critical elements or to delineate the scope of the claims. The following summary merely presents some concepts in a simplified form as an introductory prelude to the more detailed description provided below. To overcome limitations in the prior art described above, and to overcome other limitations that will be apparent upon reading and understanding the present specification, aspects described herein are directed to a configurable dialog system. Rather than programming a dialog system separately for each piece of data to be collected, a configuration may be provided and used to generate an instance of a dialog system. The configurable dialog system may use a finite state machine (FSM) to collect and process data. The configurable dialog system may have configuration points for which code may be provided to customize each generated instance of the dialog system. By using the configurable dialog system, an application may provide a consistent dialog interface for collecting information from a user. The configurable dialog system may allow users to input information in any order. A configuration file describing one or more instances of the FSM may be provided in the resources of a software application. When the software application is opened, instances of the FSM may be automatically generated based on the configuration file. The software application may then collect data via a dialog input provided by the generated instances of the FSM.",
+  "date_published": "20170706",
+  "title": "Configurable Dialog System",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1728",
+    "G06F1730"
+  ],
+  "_processing_info": {
+    "original_size": 55071,
+    "optimized_size": 2923,
+    "reduction_percent": 94.69
+  }
+}

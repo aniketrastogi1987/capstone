@@ -1,0 +1,46 @@
+{
+  "patent_number": "None",
+  "application_number": "15721040",
+  "date_published": "20180322",
+  "date_produced": "20180308",
+  "filing_date": "20170929",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A plant asset failure prediction system and associated method. The method includes receiving user input identifying a first target set of equipment including a first plurality of units of equipment. A set of time series waveforms from sensors associated with the first plurality of units of equipment are received, the time series waveforms including sensor data values. A processor is configured to process the time series waveforms to generate a plurality of derived inputs wherein the derived inputs and the sensor data values collectively comprise sensor data. The method further includes determining whether a first machine learning agent may be configured to discriminate between first normal baseline data for the first target set of equipment and first failure signature information for the first target set of equipment. The first normal baseline data of the first target set of equipment may be derived from a first portion of the sensor data associated with operation of the first pluralit...",
+  "publication_number": "US20180082217A1-20180322",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect the disclosure relates to a method for using failure signature information to monitor operation of one or more monitored units of equipment configured with one or more monitoring sensors. The method includes receiving, through a user interface, user input identifying a first target set of equipment including a first plurality of units of equipment, wherein each equipment unit of the first plurality of units of equipment is characterized by a first plurality of matching target parameters. The method further includes receiving a set of time series waveforms from sensors associated with the first plurality of units of equipment, the time series waveforms including sensor data values. A processor is configured to process the time series waveforms to generate a plurality of derived inputs wherein the derived inputs and the sensor data values collectively comprise sensor data. The method further includes determining whether a first machine learning agent may be configured to discriminate between first normal baseline data for the first target set of equipment and first failure signature information for the first target set of equipment. The first normal baseline data of the first target set of equipment may be derived from a first portion of the sensor data associated with operation of the first plurality of units of equipment in a first normal mode and the first failure signature information may be derived from a second portion of the sensor data associated with operation of the first plurality of units of equipment in a first failure mode. The method further includes receiving monitored sensor signals produced by the one or more monitoring sensors and activating, based upon the determining, the first machine learning agent to monitor data included within the monitored sensor signals. The method may also involve identifying a second target set of equipment including a second plurality of units of equipment. In this case each equipment uni...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G05B2302",
+    "G05B19418"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bates",
+      "inventor_name_first": "Alexander B.",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kim",
+      "inventor_name_first": "Caroline",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rahilly",
+      "inventor_name_first": "Paul",
+      "inventor_city": "San Diego",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Population-Based Learning With Deep Belief Networks",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 83598,
+    "optimized_size": 3871,
+    "reduction_percent": 95.37
+  }
+}

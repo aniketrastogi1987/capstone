@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170301",
+  "publication_number": "US20170076220A1-20170316",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15263240",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Walters",
+      "inventor_name_first": "Zachary B.",
+      "inventor_city": "Lake Quivira",
+      "inventor_state": "KS",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method for solving the NP complete problem 3SAT and other computational problems which can be reduced to it. Quantum mechanical operations are performed on a finite number of quantum mechanical bits, or “qubits,” in such a way as to concentrate probability in states which solve a given 3SAT problem, provided they exist. Concentration of probability is achieved by generalizing the traditional, reversible model of quantum computation to include irreversible operations mapping one density matrix to another.",
+  "filing_date": "20160912",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>This invention comprises a new type of quantum computer which causes irreversible physical changes to occur in a quantum mechanical system, a set of physical transformations, or “gates” which change the state of the system in a logically meaningful way, and an algorithm which transfers quantum probability from physical states which fail to solve some 3SAT problem of interest to a state or set of states which does. Provided that at least one solution state exists, the algorithm causes the total nonsolution probability to decay exponentially, so that the probability of occupying a solution state becomes arbitrarily close to 1. The new type of quantum computer, the quantum gates which it makes use of, and the algorithm for concentrating probability in solution states, all depart from a traditional tenet of quantum computation, which holds that any operation performed by the computer must be reversible in the sense of having a well defined inverse operation which recovers the original wavefunction. For clarity, the new type of computer will be referred to as an “irreversible” quantum computer. Rather than mapping one wavefunction to another as in a traditional quantum computer, an irreversible quantum computer maps one density matrix to another. As indicated by the name, this mapping may have no well defined inverse. The general approach for achieving this goal is to incoherently transfer population from an arbitrary initial state to a state or set of states which satisfy some 3SAT problem of interest. This is accomplished by constructing decimation gates—essentially, error correction loops—which transfer population from states which fail individual logical clauses to states which satisfy those clauses. In pseudocode, the algorithm can be described as for each clause in the problem do Encode the satisfaction of the clause in a temporary scratch bit if the clause is not satisfied then Use the scratch bit to perform a controlled rotatio...",
+  "date_published": "20170316",
+  "title": "SYSTEM AND METHOD FOR SOLVING 3SAT USING A QUANTUM COMPUTER",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 84590,
+    "optimized_size": 3120,
+    "reduction_percent": 96.31
+  }
+}

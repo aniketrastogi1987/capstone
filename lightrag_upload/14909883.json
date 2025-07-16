@@ -1,0 +1,31 @@
+{
+  "date_produced": "20160615",
+  "publication_number": "US20160189059A1-20160630",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "14909883",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ISHII",
+      "inventor_name_first": "Masato",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "abstract": "A feature transformation learning device includes an approximation unit, a loss calculation unit, an approximation control unit, and a loss control unit. The approximation unit takes a feature value that is extracted from a sample pattern and then weighted by a training parameter, assigns that weighted feature value to a variable of a continuous approximation function approximating a step function, and, by doing so, computes an approximated feature value. The loss calculation unit calculates a loss with respect to the task on the basis of the approximated feature value. The approximation control unit controls an approximation precision of the approximation function with respect to the step function such that the approximation function used with the approximation unit approaches the step function according to a decrease in the loss. The loss control unit updates the training parameter such that the loss decreases.",
+  "filing_date": "20160203",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF INVENTION <EOH>",
+  "date_published": "20160630",
+  "title": "FEATURE TRANSFORMATION LEARNING DEVICE, FEATURE TRANSFORMATION LEARNING METHOD, AND PROGRAM STORAGE MEDIUM",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F948"
+  ],
+  "_processing_info": {
+    "original_size": 43919,
+    "optimized_size": 1556,
+    "reduction_percent": 96.46
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170110",
+  "publication_number": "US20170024651A1-20170126",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15219172",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mishra",
+      "inventor_name_first": "Anshuman",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An example method includes receiving a data set, generating a topological representation using topological data analysis, at least one metric-lens combination, and the data set, the representation including a plurality of nodes, each of the nodes having one or more data points as members, receiving a new data point, determining distances between the new data point and at least some of the one or more data points, locating the new data point in a location relative to one or more of the nodes using the distances, identifying a subset of the data points closest to the location of the new data point, comparing the subset of the data points to at least some information regarding the new data point to identify a regime, and generating a report indicating a model associating factors associated with the subset of the data points with the new data point for predicting future outcomes.",
+  "filing_date": "20160725",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION(S) <EOH>In various embodiments, a method comprises receiving a data set, generating a topological representation using the received data set and topological data analysis, the topological representation being generated using at least one metric-lens combination of a subset of metric-lens combinations, the topological representation including a plurality of nodes, each of the nodes having one or more data points from the data set as members, at least two nodes of the plurality of nodes being connected by an edge if the at least two nodes share at least one data point from the data set as members, receiving a new data point, determining distances between the new data point and at least some of the one or more data points from the data set, locating the new data point in a location relative to one or more of the nodes in the topological representation using the distances between the new data point and the at least some of the one or more data points from the data set, identifying a subset of the data points closest to the location of the new data point, comparing the subset of the data points to at least some information regarding the new data point to identify a regime associated with the new data point, and generating a report indicating a model associating factors associated with the subset of the data points with the new data point for predicting future outcomes. In some embodiments, the topological representation is a visualization depicting the plurality of nodes and the edge. Each of the one or more data points from the data set may be identified by a date indicating a plurality of conditions associated with that date. The new data point may be associated with a new date and the subset of the data points closest to the location of the new data point include at least one similar condition of the plurality of conditions. The model may predict an outcome associated with information regarding the new data point when the least one simil...",
+  "date_published": "20170126",
+  "title": "TOPOLOGICAL DATA ANALYSIS FOR IDENTIFICATION OF MARKET REGIMES FOR PREDICTION",
+  "ipcr_labels": [
+    "G06N504",
+    "G06Q3002"
+  ],
+  "_processing_info": {
+    "original_size": 166873,
+    "optimized_size": 3472,
+    "reduction_percent": 97.92
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "date_produced": "20170920",
+  "publication_number": "US20170286852A1-20171005",
+  "main_ipcr_label": "G06N504",
+  "decision": "PENDING",
+  "application_number": "15085651",
+  "inventor_list": [
+    {
+      "inventor_name_last": "REZAIE",
+      "inventor_name_first": "Seyed Saeed Changiz",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "WOODS",
+      "inventor_name_first": "Brad",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "RONAGH",
+      "inventor_name_first": "Pooya",
+      "inventor_city": "Vancouver",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "A method is disclosed for determining a minimum connected dominating set in a graph, the method comprising obtaining an indication of an input graph, the input graph comprising a plurality of nodes and a plurality of edges; generating a distance table comprising for each node of the input graph, an indication of a distance between the given node and each of the other node of the plurality of nodes; generating a corresponding constrained binary quadratic programming problem using the generated distance table; providing the corresponding constrained binary quadratic programming problem to a quantum annealing solver; obtaining at least one approximate solution from the quantum annealing solver; post-processing the at least one approximate solution and providing the post-processed at least one approximate solution.",
+  "filing_date": "20160330",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY OF THE INVENTION <EOH>According to a broad aspect, there is disclosed a method for determining a minimum connected dominating set in a graph, the method comprising obtaining an indication of an input graph, the input graph comprising a plurality of nodes and a plurality of edges; generating a distance table comprising for each node of the input graph, an indication of a distance between the given node and each of the other node of the plurality of nodes; generating a corresponding constrained binary quadratic programming problem using the distance generated distance table; providing the corresponding constrained binary quadratic programming problem to a quantum annealing solver; obtaining at least one approximate solution from the quantum annealing solver; post-processing the at least one approximate solution and providing the post-processed at least one approximate solution. According to one embodiment, the quantum annealing solver is an unconstrained quantum annealing solver; the providing of the corresponding constrained binary quadratic programming problem comprises generating an unconstrained binary quadratic programming problem using the generated constrained binary quadratic programming problem; and providing the generated unconstrained binary quadratic programming problem to the unconstrained quantum annealing solver; and the at least one approximate solution is obtained from the unconstrained quantum annealing solver. According to one embodiment, the quantum annealing solver is a constrained quantum annealing solver; the providing of the corresponding constrained binary quadratic programming problem comprises obtaining a corresponding solver subroutine and solving the generated constrained binary quadratic programming problem using the solver subroutine, and the at least one approximate solution is obtained from the solver subroutine. According to a broad aspect, there is disclosed a method for determining a minimum connected dominating ...",
+  "date_published": "20171005",
+  "title": "METHOD AND SYSTEM FOR SOLVING A MINIMUM CONNECTED DOMINATING SET PROBLEM USING QUANTUM ANNEALING FOR DISTANCE OPTIMIZATION",
+  "ipcr_labels": [
+    "G06N504",
+    "H04L2908",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 70143,
+    "optimized_size": 3754,
+    "reduction_percent": 94.65
+  }
+}

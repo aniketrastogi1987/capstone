@@ -1,0 +1,31 @@
+{
+  "decision": "PENDING",
+  "application_number": "14993411",
+  "date_published": "20160721",
+  "date_produced": "20160706",
+  "title": "IMAGE FORMING APPARATUS THAT EXECUTES JOB RECEIVED FROM MOBILE DEVICE,  CONTROL METHOD FOR THE IMAGE FORMING APPARATUS, AND STORAGE MEDIUM",
+  "filing_date": "20160112",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Yamada",
+      "inventor_name_first": "Tetsuya",
+      "inventor_city": "Matsudo-shi",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "H04N144",
+    "G06F312"
+  ],
+  "main_ipcr_label": "H04N144",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention provides an image forming apparatus which is able to reliably execute a job received from a mobile device, a control method for the image forming apparatus, and a storage medium. Accordingly, the present invention provides an image forming apparatus that receives a job having user information from an information processing apparatus connected to the image forming apparatus via a network, comprising a determination unit configured to determine whether the received job is a registration job that requires registration of the user information as authentication information, an obtaining unit configured to obtain the user information from the registration job when it is determined that the received job is the registration job, and a registration unit configured to register the obtained user information as the authentication information. According to the present invention, a job received from a mobile device is reliably executed. Further features of the present invention will become apparent from the following description of exemplary embodiments (with reference to the attached drawings).",
+  "patent_number": "None",
+  "abstract": "An image forming apparatus which is able to reliably execute a job received from a mobile device. When a job with user information is received from the mobile device connected to the image forming apparatus via a network, it is determined whether or not the received job is a registration job that requires registration of the user information as authentication information. When it is determined that the received job is the registration job, the user information is obtained from the registration job and registered as the authentication information.",
+  "publication_number": "US20160212300A1-20160721",
+  "_processing_info": {
+    "original_size": 39308,
+    "optimized_size": 2344,
+    "reduction_percent": 94.04
+  }
+}

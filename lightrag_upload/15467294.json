@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15467294",
+  "date_published": "20180614",
+  "date_produced": "20180530",
+  "filing_date": "20170323",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Methods and systems for receiving a request to implement a neural network comprising an average pooling layer on a hardware circuit, and in response, generating instructions that when executed by the hardware circuit, cause the hardware circuit to, during processing of a network input by the neural network, generate a layer output tensor that is equivalent to an output of the average pooling neural network layer by performing a convolution of an input tensor to the average pooling neural network layer and a kernel with a size equal to a window of the average pooling neural network layer and composed of elements that are each an identity matrix to generate a first tensor, and performing operations to cause each element of the first tensor to be divided by a number of elements in the window of the average pooling neural network layer to generate an initial output tensor.",
+  "publication_number": "US20180165577A1-20180614",
+  "summary": "<SOH> SUMMARY <EOH>In general, this specification describes a special-purpose hardware circuit that computes neural network inferences. In general, one innovative aspect of the subject matter described in this specification includes systems and methods for receiving a request to process a neural network on a hardware circuit, the neural network comprising an average pooling neural network layer, and in response, generating instructions that when executed by the hardware circuit, cause the hardware circuit to, during processing of a network input by the neural network, generate a layer output tensor that is equivalent to an output of the average pooling neural network layer by performing operations comprising: performing a convolution of an input tensor to the average pooling neural network layer and a kernel with a size equal to a window of the average pooling neural network layer and composed of elements that are each an identity matrix to generate a first tensor, and performing operations to cause each element of the first tensor to be divided by a number of elements in the window of the average pooling neural network layer to generate an initial output tensor. Implementations can include one or more of the following features. In some implementations, innovative aspects of the subject matter include rescaling edge elements of the initial output tensor by a first scaling factor and rescaling corner elements of the initial output tensor by a second scaling factor to generate an output tensor. The first scaling factor is based on a number of elements of the input tensor that are multiplied with elements of the kernel in performing the convolution to generate an edge element of the first tensor, and the second scaling factor is based on a number of elements of the input tensor that are multiplied with elements of the kernel in performing the convolution to generate a corner element of the first tensor. In some implementations, innovative aspects include rescaling edge...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Young",
+      "inventor_name_first": "Reginald Clifford",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gulland",
+      "inventor_name_first": "William John",
+      "inventor_city": "Novato",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "PERFORMING AVERAGE POOLING IN HARDWARE",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 112664,
+    "optimized_size": 3580,
+    "reduction_percent": 96.82
+  }
+}

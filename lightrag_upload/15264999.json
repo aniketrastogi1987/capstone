@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170719",
+  "publication_number": "US20170220923A1-20170803",
+  "main_ipcr_label": "G06N302",
+  "decision": "PENDING",
+  "application_number": "15264999",
+  "inventor_list": [
+    {
+      "inventor_name_last": "BAE",
+      "inventor_name_first": "Chisung",
+      "inventor_city": "Yongin-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "SHIN",
+      "inventor_name_first": "Jin Woo",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "JIN",
+      "inventor_name_first": "Kwi Hyuk",
+      "inventor_city": "Daejeon",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "KWON",
+      "inventor_name_first": "Ui Kun",
+      "inventor_city": "Hwaseong-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "abstract": "A gesture classification apparatus and method is disclosed. The apparatus may include a feature extractor configured to extract a plurality of features using a electromyogram (EMG) data group obtained from an EMG signal sensor including a plurality of channels, an artificial neural network including an input layer to which the EMG data group corresponding to the plurality of features is input and an output layer configured to output a preset gesture corresponding to the plurality of features, and a gesture recognizer configured to recognize a gesture performed by a user and corresponding to the extracted features.",
+  "filing_date": "20160914",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. In one general aspect, a gesture classification apparatus includes an electromyogram (EMG) signal sensor including a plurality of channels, the EMG signal sensor outputting an EMG data group, and at least one processor. The processor including instructions for executing a feature extractor, an artificial neural network, and a gesture recognizer. The feature extractor is configured to extract a plurality of features using the EMG data group. The artificial neural network includes an input layer to which the EMG data group corresponding to the plurality of features is input, and an output layer configured to output a preset gesture corresponding to the plurality of features. The gesture recognizer is configured to recognize a gesture performed by a user and corresponding to the extracted features using the artificial neural network. The gesture classification apparatus may further include a preprocessor configured to remove noise from data obtained from the EMG signal sensor and perform normalization on the data. The preprocessor may additionally remove a minimum or floor value of each channel from data obtained from each channel. The preprocessor may extract an EMG data group based on a location of a channel having a maximum value among the plurality of channels. The feature extractor may extract a preset number of features by generating an EMG data map of a dimension corresponding to the number of the channels and calculating a performance based on a ratio between a within-cluster variance of each gesture and a between-cluster variance associated with another gesture. The artificial neural network may incl...",
+  "date_published": "20170803",
+  "title": "GESTURE CLASSIFICATION APPARATUS AND METHOD USING EMG SIGNAL",
+  "ipcr_labels": [
+    "G06N302",
+    "G06F301"
+  ],
+  "_processing_info": {
+    "original_size": 58768,
+    "optimized_size": 3606,
+    "reduction_percent": 93.86
+  }
+}

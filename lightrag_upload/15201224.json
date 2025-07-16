@@ -1,0 +1,45 @@
+{
+  "date_produced": "20171219",
+  "publication_number": "US20180005136A1-20180104",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15201224",
+  "inventor_list": [
+    {
+      "inventor_name_last": "GAI",
+      "inventor_name_first": "YI",
+      "inventor_city": "Hillsboro",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "YANG",
+      "inventor_name_first": "CHIH-YUAN",
+      "inventor_city": "Portland",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SAHITA",
+      "inventor_name_first": "RAVI L.",
+      "inventor_city": "Beaverton",
+      "inventor_state": "OR",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "An adversarial environment classifier training system includes feature extraction circuitry to identify a number of features associated with each sample included in an initial data set that includes a plurality of samples. The system further includes sample allocation circuitry to allocate at least a portion of the samples included in the initial data set to at least a training data set; machine-learning circuitry communicably coupled to the sample allocation circuitry, the machine-learning circuitry to: identify at least one set of compromiseable features for at least a portion of the initial data set; define a classifier loss function [l(xi, yi, w)] that includes: a feature vector (xi) for each sample included in the initial data set; a label (yi) for each sample included in the initial data set; and a weight vector (w) associated with the classifier; and determine the minmax of the classifier loss function (minwmaxi l(xi, yi, w)).",
+  "filing_date": "20160701",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Features and advantages of various embodiments of the claimed subject matter will become apparent as the following Detailed Description proceeds, and upon reference to the Drawings, wherein like numerals designate like parts, and in which: FIG. 1 depicts an illustrative machine-learning system that includes feature hashing circuitry, sample allocation circuitry, and machine learning circuitry, in accordance with at least one embodiment of the present disclosure; FIG. 2 provides a block diagram of an illustrative system on which the machine learning circuitry and the adversarial-resistant classifier may be implemented, in accordance with at least one embodiment of the present disclosure; and FIG. 3 provides a high level logic flow diagram of an illustrative method for training an adversarial environment classifier using machine learning in a potentially adversarial environment, in accordance with at least one embodiment of the present disclosure. detailed-description description=\"Detailed Description\" end=\"lead\"? Although the following Detailed Description will proceed with reference being made to illustrative embodiments, many alternatives, modifications and variations thereof will be apparent to those skilled in the art.",
+  "date_published": "20180104",
+  "title": "MACHINE LEARNING IN ADVERSARIAL ENVIRONMENTS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F2155"
+  ],
+  "_processing_info": {
+    "original_size": 69798,
+    "optimized_size": 3069,
+    "reduction_percent": 95.6
+  }
+}

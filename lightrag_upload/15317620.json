@@ -1,0 +1,37 @@
+{
+  "date_produced": "20170503",
+  "publication_number": "US20170140298A1-20170518",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15317620",
+  "inventor_list": [
+    {
+      "inventor_name_last": "WABNIG",
+      "inventor_name_first": "Joachim",
+      "inventor_city": "Cambridge",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "NISKANEN",
+      "inventor_name_first": "Antti",
+      "inventor_city": "Cambridge",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "A data processing system is disclosed for machine learning. The system comprises a sampling module (13) and a computational module (15) interconnected by a data communications link (17). The computational module is configured to store a parameter vector representing an energy function of a network having a plurality of visible units connected using links to a plurality of hidden units, each link being a relationship between two units. The sampling module is configured to receive the parameter vector from the first processing module and to sample from the probability distribution defined by the parameter vector to produce state vectors for the network. The computational module is further configured to receive the state vectors from the second processing module and to apply an algorithm to produce new data. The sampling and computational modules are configured to operate independently from one another.",
+  "filing_date": "20161209",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>A first aspect of the invention provides a method comprising: storing in a first processing module a parameter vector representing an energy function of a network having a plurality of visible units connected using links to a plurality of hidden units, each link being a relationship between two units; in a separate, second processing module, receiving the parameter vector from the first processing module and sampling from the probability distribution defined by the parameter vector to produce state vectors for the network; and in the first processing module, receiving the state vectors from the second processing module and applying an algorithm to produce new data, the method comprising performing the sampling independently from the producing the new data. The method may comprise sampling and producing the new data at least partially in parallel. The method may comprise sampling and producing the new data asynchronously to each other. The method may comprise sampling and/or producing the new data until a predetermined condition is reached, at which time data is exchanged from one processing module to the other processing module. Applying the algorithm may comprise applying a learning algorithm to produce an updated parameter vector that is subsequently sent to the second processing module for re-sampling when the predetermined condition is reached. The method may comprise sending the updated parameter vector to the second processing module for re-sampling when a predetermined plural number of iterations of the learning algorithm have been performed. The learning algorithm may be a gradient-based learning algorithm that iterates over plural learning steps to produce an estimated optimized result with respect to reference data. The learning algorithm may be the Kullback-Leibler (KL)-divergence algorithm. Sampling may comprise sampling until a predetermined number of samples have been obtained, at which time sending the state vectors...",
+  "date_published": "20170518",
+  "title": "Data Processing",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 51410,
+    "optimized_size": 3564,
+    "reduction_percent": 93.07
+  }
+}

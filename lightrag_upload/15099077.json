@@ -1,0 +1,38 @@
+{
+  "date_produced": "20171004",
+  "publication_number": "US20170300811A1-20171019",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15099077",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Merhav",
+      "inventor_name_first": "Uri",
+      "inventor_city": "Rehovot",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "Shacham",
+      "inventor_name_first": "Dan",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "In an example embodiment, an a loss layer of a deep convolutional neural network is modified to include a dynamically changing function that adjusts based on statistical analysis of the samples, and specifically an analysis of which sample images showed the most deviation between their assigned professionalism score and an expected professionalism score. This allows outliers in training data to be automatically handled.",
+  "filing_date": "20160414",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Some embodiments of the technology are illustrated, by way of example and not limitation, in the figures of the accompanying drawings. FIG. 1 is a block diagram illustrating a client-server system, in accordance with an example embodiment. FIG. 2 is a block diagram showing the functional components of a social networking service, including a data processing module referred to herein as a search engine ; for use in generating and providing search results for a search query, consistent with some embodiments of the present disclosure. FIG. 3 is a block diagram illustrating application server module of FIG. 2 in more detail. FIG. 4 is a diagram illustrating a Deep Convolutional Neural Network (DCNN), in accordance with an example embodiment. FIG. 5 is a flow diagram illustrating a method of training a DCNN, in accordance with an example embodiment. FIG. 6 is a flow diagram illustrating a method of assigning a professionalism score to an image, in accordance with an example embodiment. FIG. 7 is a block diagram illustrating an image transformation component in greater detail. FIG. 8 is a diagram illustrating an example original image that has been scored for professionalism by the DCNN, in accordance with an example embodiment. FIG. 9 is a diagram illustrating various different possible croppings attempted by the cropping transformation component, as instructed by the optimization problem solving component. FIG. 10 is a diagram illustrating a selected optimal cropping, in accordance with an example embodiment. FIG. 11 is a diagram illustrating various different possible rotations attempted by the rotation transformation component, as instructed by the optimization problem solving component. FIG. 12 is a diagram illustrating a selected optimal rotation in accordance with an example embodiment. FIG. 13 is a flow diagram illustrating a method for automatically cropping a digital image to improve perceived professionalism of a sub...",
+  "date_published": "20171019",
+  "title": "DYNAMIC LOSS FUNCTION BASED ON STATISTICS IN LOSS LAYER OF DEEP CONVOLUTIONAL NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 107723,
+    "optimized_size": 3154,
+    "reduction_percent": 97.07
+  }
+}

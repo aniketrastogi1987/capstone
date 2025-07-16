@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170823",
+  "publication_number": "US20170255875A1-20170907",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15059929",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chien",
+      "inventor_name_first": "Yueh-Mei",
+      "inventor_city": "Iowa City",
+      "inventor_state": "IA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fultz",
+      "inventor_name_first": "Seth Daniel",
+      "inventor_city": "Cedar Rapids",
+      "inventor_state": "IA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shin",
+      "inventor_name_first": "Chingwei David",
+      "inventor_city": "Iowa City",
+      "inventor_state": "IA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yan",
+      "inventor_name_first": "Ning",
+      "inventor_city": "Taipei",
+      "inventor_state": "",
+      "inventor_country": "TW"
+    }
+  ],
+  "abstract": "The present technology relates to systems and methods for termination rules of an assessment or validation based on a history of the validation and a probability that the validation has achieved a valid result. More specifically, the present technology relates to using bootstrap sampling to determine whether a termination rule for an validation is terminating the validation at an appropriate time. Conditions or criteria for termination may include a variety of different parameters, rules or thresholds, such as a termination or cut threshold. The bootstrap termination rule can be one or several values associated with the participant's validation and that can be used to determine when to terminate a validation apart from determining that the participant has passed the validation.",
+  "filing_date": "20160303",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>Embodiments of the present technology are directed to a computer-implemented method. The method may include transmitting, by a server computer, one or more queries to a user, wherein the queries are associated with a validation or assessment of the user; receiving, at the server computer, a data set including data packets associated with a set of user responses to the queries; determining an initial posterior probability based on the data set; determining that the initial posterior probability exceeds a predetermined threshold posterior probability; determining a current length of the assessment based on the one or more queries transmitted to the user; determining that the current length of the assessment exceeds a minimum assessment length; based on determining that the initial posterior probability exceeds a predetermined threshold posterior probability and that the current length of the assessment exceeds a minimum assessment length, determining a first sample of the data set, wherein the first sample of the data set includes data packets associated with the user responses to the queries after a first one of the user responses is removed from the set of user responses; determining a first posterior probability of the first sample of the data set; determining a second sample of the data set, wherein the second sample of the data set includes data packets associated with the user responses to the queries after a second one of the user responses is removed from the set of user responses; determining a second posterior probability of the second sample of the data set; determining a standard error of estimates for the data set based on the first posterior probability of the first sample and the second posterior probability of the second sample; determining that the determined standard error of estimates is less than a predetermined standard error of estimates threshold, wherein the standard error of estimates indicates a confidence in the init...",
+  "date_published": "20170907",
+  "title": "VALIDATION TERMINATION SYSTEM AND METHODS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 167846,
+    "optimized_size": 3776,
+    "reduction_percent": 97.75
+  }
+}

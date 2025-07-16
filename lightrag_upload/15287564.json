@@ -1,0 +1,51 @@
+{
+  "date_produced": "20170323",
+  "publication_number": "US20170098161A1-20170406",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15287564",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Ellenbogen",
+      "inventor_name_first": "Michael",
+      "inventor_city": "Wayland",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McCord",
+      "inventor_name_first": "M. Brendan",
+      "inventor_city": "Boston",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Knoth",
+      "inventor_name_first": "Brian",
+      "inventor_city": "East Walpole",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wolfe",
+      "inventor_name_first": "Brandon",
+      "inventor_city": "Tyngsboro",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Sensor data is received. The sensor data is classified into one of two or more classes by at least requesting processing of a machine computational component, receiving a result of the machine computation component, requesting processing of an agent computation component, and receiving a result of the agent computation component. The agent computation component includes a platform to query an agent. The result from the agent computation component or the result from the machine computation component is provided. Related apparatus, systems, techniques, and articles are also described.",
+  "filing_date": "20161006",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>In an aspect, sensor data is received. The sensor data is classified into one of two or more classes by at least requesting processing of a machine computational component, receiving a result of the machine computation component, requesting processing of an agent computation component, and receiving a result of the agent computation component. The agent computation component includes a platform to query an agent. The result from the agent computation component or the result from the machine computation component is provided. In another aspect, sensor data of a security system asset is received. A predefined modality associated with the security system asset is accessed. The modality defining a computational task for analyzing the received sensor data. A solution state machine object having a plurality of states and rules for transitioning between the plurality of state is instantiated. The plurality of states includes an initial state, a first intermediate state, a second intermediate state, and a terminal state. The task is executed using the solution state machine object. The executing includes requesting processing of the task by, and receiving a result of, a machine computation component when a current state of the solution state machine object is the first intermediate state. The result received from the machine computation component includes a first confidence measure. The executing includes requesting processing of the task by, and receiving a result of, an agent computation component when the current state of the solution state machine object is the second intermediate state. The result received from the agent computation component including a second confidence measure. The executing includes transitioning the current state of the solution state machine object according to the transition rules and at least one of: the first confidence measure and the second confidence measure. A characterization of the terminal state is provided when the c...",
+  "date_published": "20170406",
+  "title": "Augmented Machine Decision Making",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 128235,
+    "optimized_size": 3557,
+    "reduction_percent": 97.23
+  }
+}

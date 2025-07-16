@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15610718",
+  "date_published": "20180104",
+  "date_produced": "20171219",
+  "filing_date": "20170601",
+  "main_ipcr_label": "G06N308",
+  "abstract": "In an information processing apparatus, a calculation circuit calculates energy values representing total energies of Ising devices that are set up with different noise widths, where the Ising devices have equal conditions about neuron-to-neuron connections. An exchange control circuit exchanges output values of neurons or noise widths, between first and second Ising devices having adjacent noise widths. This exchange takes place with an exchange probability based on a difference in the energy values between the first Ising device and the second Ising device.",
+  "publication_number": "US20180005114A1-20180104",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, there is provided an information processing apparatus including: a plurality of Ising devices each including a neuron circuit block that calculates as many first energy values as a number of neurons, based on weight values representing strengths of neuron-to-neuron connections and output values of the neurons, and determines and outputs new output values, based on comparison results between a threshold and each of the first energy values plus a noise value, the plurality of Ising devices having equal conditions about neuron-to-neuron connections represented by the weight values, the plurality of Ising devices being set up with different noise widths each representing a difference between a lower limit and an upper limit of noise values; a calculation circuit that calculates second energy values respectively representing total energies of the plurality of Ising devices, based on the first energy values and the output values; an exchange control circuit that exchanges output values or noise widths between a first Ising device and a second Ising device among the plurality of Ising devices, with an exchange probability based on a difference in the second energy values between the first Ising device and the second Ising device, the first and second Ising devices respectively having first and second noise widths, the second noise width being adjacent to the first noise width; and a controller device that sets the different noise widths to the plurality of Ising devices. The object and advantages of the invention will be realized and attained by means of the elements and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are exemplary and explanatory and are not restrictive of the invention.",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304",
+    "G06F128"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "TOMITA",
+      "inventor_name_first": "YASUMOTO",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "TAMURA",
+      "inventor_name_first": "Hirotaka",
+      "inventor_city": "Yokohama",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION PROCESSING APPARATUS, ISING DEVICE, AND METHOD FOR CONTROLLING INFORMATION PROCESSING APPARATUS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 78356,
+    "optimized_size": 3180,
+    "reduction_percent": 95.94
+  }
+}

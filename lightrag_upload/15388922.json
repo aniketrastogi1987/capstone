@@ -1,0 +1,37 @@
+{
+  "date_produced": "20180613",
+  "publication_number": "US20180181869A1-20180628",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15388922",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Wei",
+      "inventor_city": "Great Falls",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tomko",
+      "inventor_name_first": "Scott",
+      "inventor_city": "Lansdowne",
+      "inventor_state": "VA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The present disclosure includes methods and systems for generating digital predictive models by progressively sampling a repository of data samples. In particular, one or more embodiments of the disclosed systems and methods identify initial attributes for predicting a target attribute and utilize the initial attributes to identify a coarse sample set. Moreover, the disclosed systems and methods can utilize the coarse sample set to identify focused attributes pertinent to predicting the target attribute. Utilizing the focused attributes, the disclosed systems and methods can identify refined data samples and utilize the refined data samples to identify final attributes and generate a digital predictive model.",
+  "filing_date": "20161222",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>One or more embodiments of the present disclosure provide benefits and/or solve one or more of the foregoing or other problems in the art with systems and methods that refine attributes for generating a predictive model by progressively sampling a repository of data samples. In particular, the disclosed systems and methods narrow a set of initial attributes to a focused subset of the initial attributes that are more significant in predicting a target attribute (e.g., a particular result). Specifically, the disclosed systems and methods conduct a coarse sampling of a repository of data samples and utilize the coarse sampling to identify focused attributes (relevant attributes) from the initial attributes. The systems and methods then identify a refined sample set based on the focused attributes and utilize the refined sample set to generate an accurate digital predictive model. For example, in one or more embodiments, the disclosed systems and methods determine initial attributes for building a digital predictive model to predict a target attribute. Moreover, the disclosed systems and methods identify a coarse sample set from a repository of data samples by querying the repository of data samples for a coarse number of data samples, where each data sample in the coarse sample set includes the initial attributes. In addition, the systems and methods analyze the initial attributes within each data samples of the course sample set to determine a focused subset of the initial attributes that are most relevant for predicting a target attribute within the coarse sample set. Further, the systems and methods identify a refined sample set from the repository of data samples by querying the repository of data samples for a refined number of data samples that include the focused subset of attributes, where the refined number of data samples is larger than the coarse number of data samples. Moreover, the disclosed systems and methods generate a digital p...",
+  "date_published": "20180628",
+  "title": "SELECTING ATTRIBUTES BY PROGRESSIVE SAMPLING TO GENERATE DIGITAL PREDICTIVE MODELS",
+  "ipcr_labels": [
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 124500,
+    "optimized_size": 3432,
+    "reduction_percent": 97.24
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date_produced": "20180425",
+  "publication_number": "US20180129959A1-20180510",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15347844",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gustafson",
+      "inventor_name_first": "Steven Matt",
+      "inventor_city": "Niskayuna",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Aggour",
+      "inventor_name_first": "Kareem Sherif",
+      "inventor_city": "Niskayuna",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Gabaldon Royval",
+      "inventor_name_first": "Alfredo",
+      "inventor_city": "Clifton Park",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mulwad",
+      "inventor_name_first": "Varish Vyankatesh",
+      "inventor_city": "Glenville",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Examples relate to systems for authoring and executing predictive models. A computer system includes a model development context analyzer configured to store a set of derived modeling knowledge generated at least in part from a plurality of modeling operations performed using at least a first predictive model authoring tool. The system is configured to, receive a modeling context indicating at least a modeling operation being performed, determine, from the modeling context, at least one element of an ontology, the ontology defining at least one attribute of a plurality of modeling operations, query the set of derived modeling knowledge using the at least one element of the ontology to identify at least one record of the set of derived modeling knowledge associated with the at least one element of the ontology, identify at least one suggested model parameter associated with the modeling context, and provide the at least one suggested model parameter.",
+  "filing_date": "20161110",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Some embodiments generally relate to methods and systems for providing improved capture and usage of knowledge during predictive model authoring operations. Embodiments include authoring tools that capture information related to the type of asset being modeled, components and subcomponents of that asset, features of the sensor data, particular data analysis and modeling techniques applied to those features, and other aspects of a predictive model authoring process. This captured information is mapped to particular tasks of a predictive model authoring process such that knowledge about the authoring of that predictive model is captured. This knowledge is indexed in a manner so as to facilitate further predictive modeling authoring operations. An embodiment provides a computer system implementing a development environment for generating predictive models using model parameters provided by a predictive model authoring tool. The system includes the predictive model authoring tool. The predictive model authoring tool is configured to perform a modeling operation based on one or more user inputs provided to interface controls of the predictive model authoring tool, determine a modeling context for the modeling operation, log the one or more user inputs, generate a predictive model based on one or more model parameters defined during the modeling operation, link the predictive model to an asset, such that one or more sets of data received from the asset are provided to the predictive model during execution of the predictive model, cause the predictive model to be executed such that the predictive model receives data from the asset, provide the modeling context, the one or more user inputs, and the one or more model parameters to a model development context analyzer, receiving, from the model development context analyzer, derived modeling knowledge, the derived modeling knowledge based at least in part on the provided modeling context, the one or more use...",
+  "date_published": "20180510",
+  "title": "METHODS AND SYSTEMS FOR PROGRAMMATICALLY SELECTING PREDICTIVE MODEL PARAMETERS",
+  "ipcr_labels": [
+    "G06N700",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 134989,
+    "optimized_size": 4022,
+    "reduction_percent": 97.02
+  }
+}

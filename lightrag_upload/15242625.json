@@ -1,0 +1,45 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046895A1-20180215",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15242625",
+  "inventor_list": [
+    {
+      "inventor_name_last": "XIE",
+      "inventor_name_first": "Dongliang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "KANG",
+      "inventor_name_first": "Junlong",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Song",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present invention proposes a highly parallel solution for implementing ANN by sharing both weights matrix of ANN and input activation vectors. It significantly reduces the memory access operations, the on-chip buffers. In addition, the present invention considers how to achieve a load balance among a plurality of on-chip processing units being operated in parallel. It also considers a balance between the I/O bandwidth and calculation capabilities of the processing units.",
+  "filing_date": "20160822",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect of the present invention, it proposes a device for implementing a neural network, comprising: an receiving unit for receiving a plurality of input vectors a 1 , a 1 , . . . ; a sparse matrix reading unit, for reading a sparse weight matrix W of said neural network, said matrix W represents weights of a layer of said neural network; a plurality of processing elements PE xy , wherein x=0,1, . . . M-1, y=0,1, . . . N-1, such that said plurality of PE are divided into M groups of PE, and each group has N PE, x represents the x th group of PE, y represents the y th PE of the group PE; a control unit being configured to input a number of M input vectors a i to said M groups of PE, and input a fraction W p of said matrix W to the j th PE of each group of PE, wherein j=0,1, . . . N-1; each of said PE perform calculations on the received input vector and the received fraction W p of the matrix W, and an outputting unit for outputting the sum of said calculation results to output a plurality of output vectors b 0 , b 1 , . . . . According to one aspect of the present invention, said control unit is configured to input a number of M input vectors a i to said M groups of PE, wherein i is chosen as follows: i (MOD M)=0,1, . . . M-1. According to one aspect of the present invention, said control unit is configured to input a fraction W p of said matrix W to the j th PE of each group of PE, wherein j=0,1, . . . N-1, wherein W p is chosen from p th rows of W in the following manner: p (MOD N)=j, wherein p=0,1, . . . P-1, j=0,1, . . . N-1, said matrix W is of the size P*Q. According to another aspect of the present invention, it proposes a method for implementing a neural network, comprising: receiving a plurality of input vectors a 0 , a 1 , . . . ; reading a sparse weight matrix W of said neural network, said matrix W represents weights of a layer of said neural network; inputting said input vectors and matrix W to a plurality of processi...",
+  "date_published": "20180215",
+  "title": "DEVICE AND METHOD FOR IMPLEMENTING A SPARSE NEURAL NETWORK",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 49431,
+    "optimized_size": 3313,
+    "reduction_percent": 93.3
+  }
+}

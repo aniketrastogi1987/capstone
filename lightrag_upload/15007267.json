@@ -1,0 +1,44 @@
+{
+  "decision": "PENDING",
+  "application_number": "15007267",
+  "date_published": "20160804",
+  "date_produced": "20160720",
+  "title": "Filter File System With Inode Number As Primary Database Key",
+  "filing_date": "20160127",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wideman",
+      "inventor_name_first": "Roderick",
+      "inventor_city": "Shakopee",
+      "inventor_state": "MN",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Doerner",
+      "inventor_name_first": "Don",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zeis",
+      "inventor_name_first": "Michael",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The accompanying drawings illustrate various example apparatus, methods, and other embodiments described herein. It will be appreciated that the illustrated element boundaries (e.g., boxes, groups of boxes, or other shapes) in the figures represent one example of the boundaries. In some examples, one element may be designed as multiple elements or multiple elements may be designed as one element. In some examples, an element shown as an internal component of another element may be implemented as an external component and vice versa. Furthermore, elements may not be drawn to scale. FIG. 1 illustrates an example shared disk file system. FIG. 2 illustrates an example data flow associated with a filter file system with an inode number configured as a primary database key. FIG. 3 illustrates an example data flow associated with a filter file system with an inode number configured as a primary database key. FIG. 4 illustrates example inode numbers. FIG. 5 illustrates an example method associated with a filter file system with an inode number configured as a primary database key. FIG. 6 illustrates an example method associated with a filter file system with an inode number configured as a primary database key. FIG. 7 illustrates an example filter file system that uses an inode number configured as a primary database key. FIG. 8 illustrates an example apparatus associated with a filter file system with an inode number configured as a primary database key. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "Example apparatus and methods identify files that are so small or so large that they compromise the efficient operation of a file system that uses re-assignable one-to-one inodes and inode numbers. Small files are aggregated into collections of files and large files are subdivided into collections of smaller files. Information for locating multiple related files with fewer lookups is generated and stored in a folder. An inode having a new type of inode number is then created. The new type of inode number encodes information for finding the folder. The encoded information may include a folder identifier that acts as a primary key into a database that is configured to locate a member of the aggregated or subdivided files with a single lookup. A filter file system may be updated with the new inode. The new inode number is unique within the filter file system and may not be re-assigned.",
+  "publication_number": "US20160224578A1-20160804",
+  "_processing_info": {
+    "original_size": 55509,
+    "optimized_size": 3322,
+    "reduction_percent": 94.02
+  }
+}

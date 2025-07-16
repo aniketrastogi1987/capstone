@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15405041",
+  "date_published": "20170504",
+  "date_produced": "20170419",
+  "filing_date": "20170112",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A computer implemented system for automating the generation of an analytic model includes a processor configured to process a plurality of data sets. Each data set includes values for a plurality of variables. A time-stamping module is configured to derive values for a plurality of elapsed-time variables for each data set, and the plurality of variables and plurality of elapsed-time variables are included in a plurality of model variables. A model generator is configured to create a plurality of comparison analytic models each based on a different subset of model variables. Each comparison analytic model is configured to operate on new data sets associated with current opportunities, and to output a likelihood of successfully closing each current opportunity. A model testing module is configured to select an operational analytic model from among the comparison analytic models based on a quality metric.",
+  "publication_number": "US20170124458A1-20170504",
+  "summary": "<SOH> SUMMARY <EOH>In one aspect, a computer implemented system for automating the generation of an analytic model is provided. The system includes a processor communicatively coupled to a database. The database is configured to store a plurality of data sets. Each of the data sets includes values for a plurality of variables. The processor is configured to process the data sets. The processor includes a time-stamping module configured to derive values for a plurality of elapsed-time variables for each data set. Each elapsed-time variable represents an elapsed time between a respective pair of dated events associated with the respective data set. The plurality of variables and the plurality of elapsed-time variables are included in a plurality of model variables. The processor also includes a model generator configured to create a plurality of comparison analytic models. Each comparison analytic model is based on a different subset of the plurality of model variables. Each comparison analytic model is configured to operate on new data sets associated with current opportunities, and to output a representation of a likelihood of successfully closing each current opportunity. The processor further includes a model testing module configured to select an operational analytic model from among the plurality of comparison analytic models based on a quality metric applied to each of the plurality of comparison analytic models. In another aspect, a method for automating generation of an analytic model is provided. The method includes the computer-implemented step of accessing a plurality of data sets. Each of the data sets includes values for a plurality of variables. The method also includes the computer-implemented step of deriving values for a plurality of elapsed-time variables for each data set. Each elapsed-time variable represents an elapsed time between a respective pair of dated events associated with the respective data set. The plurality of variables and the plural...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Jayaraman",
+      "inventor_name_first": "Baskar",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chatterjee",
+      "inventor_name_first": "Debashish",
+      "inventor_city": "Fremont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Govindarajan",
+      "inventor_name_first": "Kannan",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rajan",
+      "inventor_name_first": "Ganesh",
+      "inventor_city": "Saratoga",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR GENERATING PREDICTIVE MODELS FOR SCORING AND PRIORITIZING OPPORTUNITIES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 86387,
+    "optimized_size": 3960,
+    "reduction_percent": 95.42
+  }
+}

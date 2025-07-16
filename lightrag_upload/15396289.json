@@ -1,0 +1,60 @@
+{
+  "date_produced": "20170726",
+  "publication_number": "US20170228637A1-20170810",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15396289",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Santoro",
+      "inventor_name_first": "Adam Anthony",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Wierstra",
+      "inventor_name_first": "Daniel Pieter",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Lillicrap",
+      "inventor_name_first": "Timothy Paul",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Bartunov",
+      "inventor_name_first": "Sergey",
+      "inventor_city": "Moscow",
+      "inventor_state": "",
+      "inventor_country": "RU"
+    },
+    {
+      "inventor_name_last": "Danihelka",
+      "inventor_name_first": "Ivo",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for augmenting neural networks with an external memory. One of the systems includes a controller neural network that includes a Least Recently Used Access (LRUA) subsystem configured to: maintain a respective usage weight for each of a plurality of locations in the external memory, and for each of the plurality of time steps: generate a respective reading weight for each location using a read key, read data from the locations in accordance with the reading weights, generate a respective writing weight for each of the locations from a respective reading weight from a preceding time step and the respective usage weight for the location, write a write vector to the locations in accordance with the writing weights, and update the respective usage weight from the respective reading weight and the respective writing weight.",
+  "filing_date": "20161230",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to augmented neural network systems. In general, an augmented neural network system includes a neural network configured to receive a neural network input and generate a neural network output, an external memory that stores values derived from portions of the neural network output, and a memory access subsystem that is configured to receive the neural network output and read and write from/to the external memory based on the neural network output and a number of weighted values corresponding to locations in the external memory. For a system of one or more computers to be configured to perform particular operations or actions means that the system has installed on it software, firmware, hardware, or a combination of them that in operation cause the system to perform the operations or actions. For one or more computer programs to be configured to perform particular operations or actions means that the one or more programs include instructions that, when executed by data processing apparatus, cause the apparatus to perform the operations or actions. The subject matter described in this specification can be implemented in particular embodiments so as to realize one or more of the following advantages. By augmenting a neural network with an external memory, the augmented neural network can more accurately generate outputs from received inputs for a variety of machine learning tasks. Such augmented neural networks may store and access new information flexibly by providing a mechanism in which inferences may be drawn from new data based on longer-term experience i.e., inductive transfer. Given their combination of flexible memory storage and the rich capacity of deep architectures for representation learning, augmented neural networks allow for gradual, incremental learnings to encode background knowledge that spans tasks. Moreover, a more flexible memory resource binds information particular to newly...",
+  "date_published": "20170810",
+  "title": "Augmenting Neural Networks with External Memory",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 56236,
+    "optimized_size": 4075,
+    "reduction_percent": 92.75
+  }
+}

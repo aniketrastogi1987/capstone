@@ -1,0 +1,45 @@
+{
+  "decision": "PENDING",
+  "application_number": "15243473",
+  "date_published": "20171019",
+  "date_produced": "20171004",
+  "title": "SYSTEM AND METHOD FOR MANAGING TRANSACTIONS IN DYNAMIC DIGITAL DOCUMENTS",
+  "filing_date": "20160822",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Brown",
+      "inventor_name_first": "Richard Gendal",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Hearn",
+      "inventor_name_first": "Michael Christopher",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    },
+    {
+      "inventor_name_last": "Carlyle",
+      "inventor_name_first": "James William George",
+      "inventor_city": "Winchester",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q5018",
+    "H04L932"
+  ],
+  "main_ipcr_label": "G06Q5018",
+  "summary": "<SOH> SUMMARY <EOH>Embodiments disclosed herein address the above stated needs by providing systems and methods that allow parties to an agreement to maintain a shared understanding as to the state of that agreement. In an example embodiment of the present invention an electronic agreement between two parties to a shared distributed ledger, comprises: a database comprising a contract code file, wherein the contract code includes machine readable instructions defining permissible actions to which the electronic agreement may be associated with and a hash identifying the contract code. A database comprising a legal prose document, wherein the legal prose document includes human readable text describing obligations of each party and a hash identifying the legal prose document. Parameters specific to the electronic agreement defining a state of the agreement. And a verified acknowledgement of the electronic agreement by the two or more parties that confirms the parties' understanding of the state of the electronic agreement. In another example embodiment of the present invention, a method of creating a state object describing an electronic agreement between two parties to a distributed ledger, comprises: establishing, by a processor at first node of a distributed ledger network, a database for storing state objects; storing, by the processor, a legal prose document comprising human readable text describing rights and/or obligations of each party and a hash identifying the legal prose document, wherein the legal prose document includes one or more fields of undefined value, said value to be defined by a parameters document; storing, by the processor, a contract code comprising machine readable instructions defining permissible actions to which the electronic agreement may be associated with and a hash identifying the contract code, wherein said permissible actions are defined in the legal prose document; storing, by the processor, parameters specific to the electronic ag...",
+  "patent_number": "None",
+  "abstract": "System and methods for managing dynamic electronic documents on a private distributed ledger comprise establishing a dynamic electronic document comprising a first state object, wherein the state object references a prior approved first transaction; proposing a second transaction comprising as an input the first state object and as an output a transaction command to alter the state object as well as what parameters are required to validate the second transaction; validating the proposed second transaction; and updating the state object on a private distributed ledger to reference the second transaction.",
+  "publication_number": "US20170301047A1-20171019",
+  "_processing_info": {
+    "original_size": 115884,
+    "optimized_size": 3501,
+    "reduction_percent": 96.98
+  }
+}

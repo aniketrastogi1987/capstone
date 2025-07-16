@@ -1,0 +1,63 @@
+{
+  "date_produced": "20180503",
+  "publication_number": "US20180137401A1-20180517",
+  "main_ipcr_label": "G06N300",
+  "decision": "PENDING",
+  "application_number": "15353298",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KUMAR",
+      "inventor_name_first": "Ram Shankar Siva",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SMITH",
+      "inventor_name_first": "Bryan Jeffrey",
+      "inventor_city": "Snoqualmie",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "WICKER",
+      "inventor_name_first": "Andrew White",
+      "inventor_city": "Snoqualmie",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "MACE",
+      "inventor_name_first": "Daniel Lee",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LADD",
+      "inventor_name_first": "David Charles",
+      "inventor_city": "Snohomish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A computing system for generating automated responses to improve response times for diagnosing security alerts includes a processor and a memory. An application is stored in the memory and executed by the processor. The application includes instructions for receiving a text phrase relating to a security alert; using a natural language interface with a natural language model to select one of a plurality of intents corresponding to the text phrase; and mapping the selected intent to one of a plurality of actions. Each of the plurality of actions includes at least one of a static response, a dynamic response, and a task. The application includes instructions for sending a response based on the at least one of the static response, the dynamic response, and the task.",
+  "filing_date": "20161116",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A computing system for generating automated responses to improve response times for diagnosing security alerts includes a processor and a memory. An application is stored in the memory and executed by the processor. The application includes instructions for receiving a text phrase relating to a security alert; using a natural language interface with a natural language model to select one of a plurality of intents corresponding to the text phrase; and mapping the selected intent to one of a plurality of actions. Each of the plurality of actions includes at least one of a static response, a dynamic response, and a task. The application includes instructions for sending a response based on the at least one of the static response, the dynamic response, and the task. In other features, the application receives the text phrase from one of an e-mail application or a chat application. The application sends the response using the e-mail application or the chat application. The natural language model is configured to generate one or more probabilities that the text phrase corresponds to one or more of the plurality of intents, respectively; select one of the plurality of intents corresponding to a highest one of the probabilities as a selected intent; compare the probability of the selected intent to a predetermined threshold; output the selected intent if the probability of the selected intent is greater than the predetermined threshold; and not output the selected intent if the probability of the selected intent is less than or equal to the predetermined threshold. In other features, the action includes the task, and the application includes instructions to perform the task including instructions for generating a query based on the text phrase; sending a request including the query to a security server; and including a result of the query from the security server in the response. In other features, the action includes the task, and the application include...",
+  "date_published": "20180517",
+  "title": "SECURITY SYSTEMS AND METHODS USING AN AUTOMATED BOT WITH A NATURAL LANGUAGE INTERFACE FOR IMPROVING RESPONSE TIMES FOR SECURITY ALERT RESPONSE AND MEDIATION",
+  "ipcr_labels": [
+    "G06N300",
+    "H04L2906",
+    "G06N9900",
+    "G06N700",
+    "G06F1730",
+    "G06F1727"
+  ],
+  "_processing_info": {
+    "original_size": 66983,
+    "optimized_size": 4092,
+    "reduction_percent": 93.89
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15218972",
+  "date_published": "20170202",
+  "date_produced": "20170119",
+  "title": "APPARATUS AND METHOD FOR VISUALIZING DIGITAL BREAST TOMOSYNTHESIS  AND OTHER VOLUMETRIC IMAGES",
+  "filing_date": "20160725",
+  "inventor_list": [
+    {
+      "inventor_name_last": "WESTERHOFF",
+      "inventor_name_first": "MALTE",
+      "inventor_city": "BERLIN",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "STALLING",
+      "inventor_name_first": "DETLEV",
+      "inventor_city": "BERLIN",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T1100",
+    "G06T160",
+    "G06T700",
+    "G06T120"
+  ],
+  "main_ipcr_label": "G06T1100",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>In an embodiment of the present invention, a method for displaying volumetric images comprises computing a projection image using a viewing direction, displaying the projection image and then varying the projection image by varying the viewing direction. In an embodiment of the present invention, the viewing direction can be varied based on a periodic continuous mathematical function. In an embodiment of the present invention, a graphics processing unit (GPU) can be used to compute the projection image and bricking can be used to accelerate the computation of the projection images. In another embodiment of the present invention, a sequence of projections covering one period can be rendered, cached and then played back one or more times, where the rendering is carried out on a server and the caching and play back is carried out on a client computer. A render server program is described in U.S. application Ser. No. 13/831,967, entitled “Multi-User Mult-GPU Render Server Apparatus and Methods”, which was filed Mar. 15, 2013 is herein expressly incorporated by reference in its entirety. A rule based render server program is described in “Method and System for Rule-Based Display of Sets of Images” which issued as U.S. Pat. No. 8,976,190 on Mar. 10, 2015, and is herein expressly incorporated by reference in its entirety. In an alternative embodiment of the present invention, the viewing direction can be varied based on user input. In a different embodiment of the present invention, a system that displays two or more volumetric images by computing a projection image of each of the volumetric images, using the same viewing direction v for each volumetric image, displaying each projection images, and varying the projection image by varying the viewing direction, where the varied viewing direction is changed in the same way for each of the projections. In an embodiment of the present invention, the volumetric images are computed from a numb...",
+  "patent_number": "9984478",
+  "abstract": "Digital Breast Tomosynthesis allows for the acquisition of volumetric mammography images. The present invention allows for novel ways of viewing such images to detect microcalcifications and obstructions. In an embodiment a method for displaying volumetric images comprises computing a projection image using a viewing direction, displaying the projection image and then varying the projection image by varying the viewing direction. The viewing direction can be varied based on a periodic continuous mathematical function. A graphics processing unit can be used to compute the projection image and bricking can be used to accelerate the computation of the projection images.",
+  "publication_number": "US20170032546A1-20170202",
+  "_processing_info": {
+    "original_size": 108677,
+    "optimized_size": 3459,
+    "reduction_percent": 96.82
+  }
+}

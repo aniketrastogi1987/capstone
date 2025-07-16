@@ -1,0 +1,58 @@
+{
+  "date_produced": "20170524",
+  "publication_number": "US20170161606A1-20170608",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15018656",
+  "inventor_list": [
+    {
+      "inventor_name_last": "DUAN",
+      "inventor_name_first": "Lijuan",
+      "inventor_city": "BEIJING",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "YUAN",
+      "inventor_name_first": "Bin",
+      "inventor_city": "BEIJING",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CUI",
+      "inventor_name_first": "Song",
+      "inventor_city": "BEIJING",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "MIAO",
+      "inventor_name_first": "Jun",
+      "inventor_city": "BEIJING",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "LIU",
+      "inventor_name_first": "Junfa",
+      "inventor_city": "BEIJING",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "The present invention relates to a clustering method based on iterations of neural networks, which comprises the following steps: step 1, initializing parameters of an extreme learning machine; step 2, randomly choosing samples of which number is equal to the number of clusters, each sample representing one cluster, forming an initial exemplar set and training the extreme learning machine; step 3, using current extreme learning machine to cluster samples, which generates a clustering result; step 4, choosing multiple samples from each cluster as exemplars for the cluster according to a rule; step 5, retraining the extreme learning machine by using the exemplars for each cluster obtained from step 4; and step 6, going back to step 3 to do iteration, otherwise obtaining and outputting clustering result until clustering result is steady or a maximal limit of the number of iterations is reached. The present invention resolves problems that how to realize clustering of high dimensional and ...",
+  "filing_date": "20160208",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present invention is to provide a clustering method based on iterations of neural networks. The present invention is based on a framework of traditional clustering algorithm, uses neural networks on similarity measurement and optimizes network structure continuously to get a more accurate similarity measurement. The present invention may be implemented by: a clustering method based on iterations of neural networks comprising the following steps: step 1, initializing parameters of an extreme learning machine; step 2, randomly choosing samples of which number is equal to the number of clusters, each sample representing one cluster; and training the extreme learning machine to obtain an initial output weights between hidden-layer and output-layer; step 3, using current extreme learning machine to cluster samples; step 4, choosing multiple samples from each cluster as exemplars for the cluster according to a rule; step 5, retraining the extreme learning machine by using the exemplars for each cluster obtained from previous step; and step 6, outputting clustering result if termination condition is met, otherwise going back to step 3. Preferably, step 1 comprises two substeps: substep 1.1, setting a number of hidden-layer neurons L, an activation function of hidden-layer g(θ), and a regularization factor γ of the extreme learning machine, wherein the number of hidden-layer neurons L is greater than a feature dimension d of sample, the activation function of hidden-layer g(θ) usually adopts Sigmoid function, and value range of the regularization factor γ is generally [10 −5 , 10 10 ]; and substep 1.2, randomly initializing weights between input-layer and hidden-layer W and a bias b of the extreme learning machine, wherein the weights between input-layer and hidden-layer W is a random matrix with d rows and L columns whose random range is [−1,1], and the bias b is a random matrix with 1 row and L columns whose random range is [−1,1], one of columns of...",
+  "date_published": "20170608",
+  "title": "CLUSTERING METHOD BASED ON ITERATIONS OF NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "_processing_info": {
+    "original_size": 44977,
+    "optimized_size": 4130,
+    "reduction_percent": 90.82
+  }
+}

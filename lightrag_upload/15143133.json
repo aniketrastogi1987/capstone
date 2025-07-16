@@ -1,0 +1,48 @@
+{
+  "decision": "PENDING",
+  "application_number": "15143133",
+  "date_published": "20171102",
+  "date_produced": "20171018",
+  "title": "NAMESPACE POLICY BASED DEDUPLICATION INDEXES",
+  "filing_date": "20160429",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tirupati Nagaraj",
+      "inventor_name_first": "Sudhindra Prasad",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pisupati",
+      "inventor_name_first": "Pramodh",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Taleck",
+      "inventor_name_first": "Gregory Thomas",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1114",
+    "G06F1114",
+    "G06F1114",
+    "G06F1730",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06F1114",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Aspects of the disclosure may be better understood by referencing the accompanying drawings. FIG. 1 provides a conceptual block diagram depicting a cloud storage gateway device deduplicating with multiple fingerprint indexes to comply with different SLOs of different namespaces. FIG. 2 provides a flowchart diagram illustrating example operations for deduplicating data received at a cloud storage gateway device against one or more of multiple deduplication indexes in accordance with one or more SLOs associated with a namespace of the dataset. FIG. 3 provides a flowchart diagram illustrating example operations for evicting deduplication index entries. FIG. 4 depicts an example gateway device with a namespace policy based data deduplicator detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "None",
+  "abstract": "A cloud storage gateway device can be used to deduplicate data across different namespaces while complying with SLOs that govern data of the different namespaces. A cloud storage gateway device can use multiple fingerprint indexes to comply with different SLOs. Each fingerprint index corresponds to a different SLO. Thus, the cloud storage gateway device deduplicates data against other data governed by a same SLO. Assuming an SLO aligns or indicates a cloud storage target, the cloud storage gateway device will deduplicate data against other data that will eventually migrate from the device to a same cloud storage target. The cloud storage gateway device ensures satisfaction of the governing SLO(s) from receipt of data, through deduplication, to the migration of the data to a cloud storage target.",
+  "publication_number": "US20170315875A1-20171102",
+  "_processing_info": {
+    "original_size": 50139,
+    "optimized_size": 2573,
+    "reduction_percent": 94.87
+  }
+}

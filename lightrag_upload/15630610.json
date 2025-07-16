@@ -1,0 +1,61 @@
+{
+  "patent_number": "None",
+  "application_number": "15630610",
+  "date_published": "20180201",
+  "date_produced": "20180117",
+  "filing_date": "20170622",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A lightened neural network method and apparatus. The neural network apparatus includes a processor configured to generate a neural network with a plurality of layers including plural nodes by applying lightened weighted connections between neighboring nodes in neighboring layers of the neural network to interpret input data applied to the neural network, wherein lightened weighted connections of at least one of the plurality of layers includes weighted connections that have values equal to zero for respective non-zero values whose absolute values are less than an absolute value of a non-zero value. The lightened weighted connections also include weighted connections that have values whose absolute values are no greater than an absolute value of another non-zero value, the lightened weighted connections being lightened weighted connections of trained final weighted connections of a trained neural network whose absolute maximum values are greater than the absolute value of the other non-...",
+  "publication_number": "US20180032866A1-20180201",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is the Summary intended to be used as an aid in determining the scope of the claimed subject matter. In one general aspect, a neural network apparatus includes a processor configured to generate a neural network with a plurality of layers including plural nodes by applying lightened weighted connections between neighboring nodes in neighboring layers of the neural network to interpret input data applied to the neural network, wherein lightened weighted connections of at least one of the plurality of layers includes weighted connections that have values equal to zero for respective non-zero values whose absolute values are less than an absolute value of a first non-zero value. The lightened weighted connections of the at least one layer may be lightened weighted connections resulting from a lightening of trained final weighted connections of a corresponding at least one layer, of a trained neural network, that include weighted connections that have at least some non-zero values for respective values less than a positive variant of the first non-zero value and/or for respective values greater than a negative variant of the first non-zero value, the generated neural network representing a lightened neural network corresponding to the trained neural network trained for the interpreting of input data. The processor may be further configured to obtain the trained final weighted connections and generate the neural network with the lightened weighted connections by performing the lightening of the obtained trained final weighted connections of the corresponding at least one layer by setting to zero at least some of the trained final weighted connections, of the corresponding at least one layer, whose val...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F7523",
+    "G06F501",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SON",
+      "inventor_name_first": "Changyong",
+      "inventor_city": "Anyang-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "SON",
+      "inventor_name_first": "Jinwoo",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "YOO",
+      "inventor_name_first": "Byungin",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "CHOI",
+      "inventor_name_first": "Chang Kyu",
+      "inventor_city": "Seongnam-si",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    },
+    {
+      "inventor_name_last": "HAN",
+      "inventor_name_first": "Jae-Joon",
+      "inventor_city": "Seoul",
+      "inventor_state": "",
+      "inventor_country": "KR"
+    }
+  ],
+  "title": "NEURAL NETWORK METHOD AND APPARATUS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 181059,
+    "optimized_size": 4124,
+    "reduction_percent": 97.72
+  }
+}

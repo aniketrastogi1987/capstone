@@ -1,0 +1,42 @@
+{
+  "filing_date": "20180205",
+  "publication_number": "US20180225581A1-20180809",
+  "decision": "PENDING",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>",
+  "title": "PREDICTION SYSTEM, METHOD, AND PROGRAM",
+  "ipcr_labels": [
+    "G06N504",
+    "G06F1730",
+    "G06F1711",
+    "G06N700",
+    "G06N9900",
+    "G06Q1006"
+  ],
+  "abstract": "A prediction system capable of predicting an unknown value of an attribute with high accuracy is provided. Based on first master data, second master data, and fact data indicating a relation between a first ID which is an ID of a record in the first master data and a second ID which is an ID of a record in the second master data, the co-clustering means 81 co-clusters the first IDs and the second IDs. The prediction model generation means 82 generates a prediction model for each cluster of the first ID output from the co-clustering means 81. When the first ID and the objective variable which is one of the attributes included in the first master data are specified, the prediction means 83 predicts the value of the objective variable corresponding to the first ID based on the prediction model and the belonging probability that the first ID belongs to each cluster.",
+  "patent_number": "nan",
+  "application_number": "15750335",
+  "date_published": "20180809",
+  "main_ipcr_label": "G06N504",
+  "date_produced": "20180725",
+  "inventor_list": [
+    {
+      "inventor_name_last": "OYAMADA",
+      "inventor_name_first": "Masafumi",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NAKADAI",
+      "inventor_name_first": "Shinji",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "_processing_info": {
+    "original_size": 118999,
+    "optimized_size": 1631,
+    "reduction_percent": 98.63
+  }
+}

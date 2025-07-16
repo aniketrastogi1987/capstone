@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15449939",
+  "date_published": "20170907",
+  "date_produced": "20170823",
+  "filing_date": "20170304",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A system and method for optimizing management of a network by transforming the network into some or all of the elements of a sequential decision problem, then composing a sequential decision problem; error and convergence checking the sequential decision problem; and solving the sequential decision problem. The solution to the sequential decision problem is provided to a user as decision advice or automatically implemented. The network may be a website designed for access by users of mobile or other devices, or a logistics network for the distribution of goods, or a utility network for communications, energy, roads or other services. The decision advice allows the user to optimize the network to improve an aspect of the network, such as the amount of time spent traveling through the network (for roads) or the total-value derived from visitors (for a website selling products).",
+  "publication_number": "US20170255863A1-20170907",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present invention relates to a system and method for optimizing a network by a computer-aided network control system with an input device, an output device and a processor. The input device allows input of information to the processor, the output device allows output of information from the processor and the network has nodes and edges. The nodes have at least one characteristic and at least one edge. The characteristics represent information about the corresponding node and the edges represent relationships between nodes. The processor evaluates a decision problem concerning the network to provide decision making advice using information from the input device and the processor using the output device to output the decision making advice. The processor evaluates the decision problem by facilitating input from the input device of information defining the decision problem including: (i) An action set, the action set having elements representing actions relevant to the network, each element in the action set having a corresponding cost. (ii) At least one state dimension, each state dimension having elements representing conditions relevant to the network and each state dimension having a corresponding reward vector representing rewards associated with the corresponding elements of the state dimension. Furthermore, each state dimension having a corresponding transition matrix representing the probability of moving from each state in the state dimension to each state, for each action in the action set. (iii) A time index and discount factor, the time index containing decision points, each decision point representing a point in time when one of the actions from the action set is performed, and the discount factor representing the preferential weighting of rewards relative to time. (iv) Optionally, elements of the action set representing actions that change at least one of the nodes, edges, state dimensions, reward vectors, transitio...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06N700"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Anderson",
+      "inventor_name_first": "Patrick L.",
+      "inventor_city": "East Lansing",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Anderson",
+      "inventor_name_first": "Neal P.",
+      "inventor_city": "East Lansing",
+      "inventor_state": "MI",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEM AND METHOD OF NETWORK OPTIMIZATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 67261,
+    "optimized_size": 3591,
+    "reduction_percent": 94.66
+  }
+}

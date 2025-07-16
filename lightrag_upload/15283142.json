@@ -1,0 +1,33 @@
+{
+  "date_produced": "20171103",
+  "publication_number": "US20170330099A1-20171116",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15283142",
+  "inventor_list": [
+    {
+      "inventor_name_last": "de Vial",
+      "inventor_name_first": "Eleonore",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Various embodiments of the present disclosure can include systems, methods, and non-transitory computer readable media configured to receive historical transaction information associated with one or more historical transactions. A machine learning model is trained based on the historical transaction information. Transaction information associated with a transaction to be analyzed for potential data input errors is received. A potential data input error is detected in the transaction information based on the machine learning model. A visual indication is provided on a graphical user interface based on the detecting the potential data input error.",
+  "filing_date": "20160930",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Various embodiments of the present disclosure can include systems, methods, and non-transitory computer readable media configured to receive historical transaction information associated with one or more historical transactions. A machine learning model is trained based on the historical transaction information. Transaction information associated with a transaction to be analyzed for potential data input errors is received. A potential data input error is detected in the transaction information based on the machine learning model. A visual indication is provided on a graphical user interface based on the detecting the potential data input error. In an embodiment, the detecting the potential data input error comprises determining a likelihood of error for a data field based on the machine learning model and determining that the likelihood of error exceeds a threshold likelihood value. In an embodiment, the historical transaction information comprises initial transaction information and audited transaction information associated with the initial transaction information. In an embodiment, the training the machine learning model based on the historical transaction information comprises: determining historical errors based on differences between the initial transaction information and the audited transaction information. In an embodiment, the training the machine learning model based on the historical transaction information further comprises: receiving a second set of initial transaction information and a second set of audited transaction information associated with the second set of initial transaction information; testing the machine learning model based on the second set of initial transaction information and the second set of audited transaction information; and re-training the machine learning model based on the testing the machine learning model. In an embodiment, the training the machine learning model comprises selecting a first machine learni...",
+  "date_published": "20171116",
+  "title": "SYSTEMS AND METHODS FOR AUTOMATED DATA INPUT ERROR DETECTION",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1107",
+    "G06F1107",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 65108,
+    "optimized_size": 3236,
+    "reduction_percent": 95.03
+  }
+}

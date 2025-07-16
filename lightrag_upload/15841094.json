@@ -1,0 +1,32 @@
+{
+  "patent_number": "None",
+  "application_number": "15841094",
+  "date_published": "20180419",
+  "date_produced": "20180404",
+  "filing_date": "20171213",
+  "main_ipcr_label": "G06N308",
+  "abstract": "The present disclosure provides methods and systems that can ascertain how genetic variants impact molecular phenotypes. Such methods and systems may use additional conservation information. In an aspect, the present disclosure provides a method for training a molecular phenotype neural network (MPNN), comprising: (a) providing a molecular phenotype neural network (MPNN) comprising one or more parameters; (b) providing a training data set comprising (i) a set of one or more inputs comprising biological sequences and (ii) for each input in the set of one or more inputs, a set of one or more molecular phenotypes corresponding to the input; (c) configuring the one or more parameters of the MPNN based on the training data set to minimize a total loss of the training data set, thereby training the MPNN; and (d) outputting the one or more parameters of the MPNN.",
+  "publication_number": "US20180107927A1-20180419",
+  "summary": "<SOH> SUMMARY <EOH>As recognized herein, a key unmet need in precision medicine is the ability to automatically or semi-automatically analyze biological sequence variants by examining their impact on molecular phenotypes, such as, for example, determining associations between genetic variants and gross phenotypes, such as disease, using the molecular phenotypes induced by the genetic variants. To do this, it may be beneficial to develop methods and systems that can ascertain how genetic variants impact molecular phenotypes, which are intermediate biochemical attributes within cells that impact gross phenotype. The present disclosure provides methods and systems that may advantageously use such additional conservation information to increase performance and accuracy. In one aspect, a system for linking two or more biologically related variants derived from biological sequences is provided, the system comprising: one or more molecular phenotype neural networks (MPNNs), each MPNN comprising: an input layer configured to obtain one or more values digitally representing a variant in the two or more biologically related variants; one or more feature detectors, each configured to obtain input from at least one of: (i) one or more of the values in the input layer and (ii) an output of a previous feature detector; and an output layer comprising values representing a molecular phenotype for the variant, comprising one or more numerical elements obtained from one or more of the feature detectors; and a comparator linked to the output layer of each of the one or more MPNNs, the comparator configured to compare the molecular phenotypes for pairs of variants in the biologically related variants to determine a numerical link distance for the pairs of variants. In another aspect, a method for linking two or more biologically related variants derived from biological sequences is provided, the method comprising: obtaining at an input layer of a molecular phenotype neural network (MPN...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06F1918",
+    "G06F1924"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Frey",
+      "inventor_name_first": "Brendan",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "title": "ARCHITECTURES FOR TRAINING NEURAL NETWORKS USING BIOLOGICAL SEQUENCES, CONSERVATION, AND MOLECULAR PHENOTYPES",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 135698,
+    "optimized_size": 3485,
+    "reduction_percent": 97.43
+  }
+}

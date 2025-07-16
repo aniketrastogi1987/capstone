@@ -1,0 +1,89 @@
+{
+  "decision": "PENDING",
+  "application_number": "15236461",
+  "date_published": "20170112",
+  "date_produced": "20161228",
+  "title": "SMART WEARABLE DEVICES AND METHODS WITH POWER CONSUMPTION AND NETWORK LOAD OPTIMIZATION",
+  "filing_date": "20160814",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Tanaka",
+      "inventor_name_first": "Nobuo",
+      "inventor_city": "Glen Rock",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Elgort",
+      "inventor_name_first": "Vladimir",
+      "inventor_city": "Staten Island",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Danielson",
+      "inventor_name_first": "Jacelyn",
+      "inventor_city": "San Mateo",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kalachev",
+      "inventor_name_first": "Anton",
+      "inventor_city": "Burlingame",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Wong",
+      "inventor_name_first": "John",
+      "inventor_city": "Morristown",
+      "inventor_state": "NJ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DaCosta",
+      "inventor_name_first": "Behram",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Bhat",
+      "inventor_name_first": "Udupi Ramanath",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Copere",
+      "inventor_name_first": "Ludovic",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kataoka",
+      "inventor_name_first": "Masaki",
+      "inventor_city": "Port Washington",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F132",
+    "G06F301",
+    "H04L2906",
+    "G06F116"
+  ],
+  "main_ipcr_label": "G06F132",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>This disclosure describes smart wearable devices and methods for dynamic power management of multiple wearable devices and the optimization of the network sensor data load through network control of the sensors in each wearable device. In one embodiment, the overall system apparatus has at least one base wearable device, multiple satellite devices and optional non-wearable or remote computation devices. Multiple satellite wearable sensor devices communicate with a base wearable device and are controlled by the base device. The base and satellite wearable devices generally comprise one or more sensors, a communications link and a computer processor with memory and programming. A control hierarchy between wearable devices is created with a control classification so that control over one device by another is authorized and permitted based on the assigned classification. In this embodiment, new satellite or base wearable devices can be introduced and automatically integrated into the system. The base wearable apparatus detects any satellite wearable devices that are within range of the communications link of the apparatus and then communicates with the detected devices. The control classifications of each of the detected satellite devices are identified and control is established based on the classifications of the satellite devices. Programming of the base also determines the sensors that are present in each detected device to determine redundancies. The control of the actuation and data flow of all of the sensors of all of the devices is consolidated to one base apparatus. The sensor data may be processed either at the satellite device, the base device or may be communicated to a remote computer or non-wearable device for processing and evaluation. For instance, when queried, wearable device A would inform wearable device B that it can read a specific body parameter, with a certain sampling rate and with a certain accuracy. Wearable Device B c...",
+  "patent_number": "None",
+  "abstract": "Networked smart wearable devices and methods for dynamic power management of multiple wearable devices and the optimization of the network sensor data load through network control of the sensors in each wearable device is provided.",
+  "publication_number": "US20170010658A1-20170112",
+  "_processing_info": {
+    "original_size": 62744,
+    "optimized_size": 4042,
+    "reduction_percent": 93.56
+  }
+}

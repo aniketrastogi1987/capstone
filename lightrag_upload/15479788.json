@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15479788",
+  "date_published": "20171012",
+  "date_produced": "20170927",
+  "filing_date": "20170405",
+  "main_ipcr_label": "G06N502",
+  "abstract": "A system and method for classifying unstructured text documents, without the need for pre-classified training examples. In general, the system and method provides for blending statistical, syntactic and semantic considerations to learn classifiers from an organization's unclassified internal and external unstructured text documents, as well as unclassified documents available via the Internet. In one form, for each class in a taxonomy the class name is expanded into semantically related words and phrases to build approximate classifiers. Each approximate classifier will almost certainly be erroneous but it can be used to identify an approximately correct set of documents. The process is recursive; e.g. the approximate classifier with the strongest evidence, is fed back into the system until a stale set of the strongest terms for each classifier has been selected.",
+  "publication_number": "US20170293842A1-20171012",
+  "summary": "<SOH> SUMMARY <EOH>The problems outlined above for classifying unstructured text documents are addressed by the systems and methods described herein for blending statistical, syntactic, and semantic considerations to learn classifiers from an organization's unclassified internal and external unstructured documents, as well as unclassified documents available via the Internet. Generally, the present system and methods hereof include a computational procedure for learning rules for classifying text documents, without the need for pre-classified training examples. In one embodiment, for each class in a taxonomic hierarchy, the class name is expanded into a set of semantically related terms; e.g., words and phrases. These related words and phrases are used as keywords in a straightforward keyword search to identify documents constituting an approximate ground truth (“AGT”) set of documents that are likely—but not guaranteed—to be included among examples of the class. Terms that are statistically, syntactically, and semantically prominent in this approximate set of documents are identified and put into rules to build approximate classifiers. A recursive procedure is then followed to apply the approximate classifiers, evaluate their performance, and refine the terms used until a stable set of the strongest terms has been selected. After the procedure is complete, each approximate classifier is a set of rules in which a small number of errors will be discounted by the preponderance of evidence for the correct classifications. When a justification for a classification is requested, the rules learned by the present system are used to highlight and list the relevant facts in the text of the document. Questions about the appropriateness of any classification are thus reduced to questions of whether specific rules do, indeed, provide evidence for a class assignment in specific factual contexts. In one embodiment, a method of classifying a set of unstructured text documents for ...",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Buchanan",
+      "inventor_name_first": "Bruce G.",
+      "inventor_city": "Orcas",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Smith",
+      "inventor_name_first": "Reid G.",
+      "inventor_city": "Missouri City",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Schoen",
+      "inventor_name_first": "Eric J.",
+      "inventor_city": "Bellaire",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Eckroth",
+      "inventor_name_first": "Joshua R.",
+      "inventor_city": "Deland",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Method And System For Unsupervised Learning Of Document Classifiers",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 55818,
+    "optimized_size": 3909,
+    "reduction_percent": 93.0
+  }
+}

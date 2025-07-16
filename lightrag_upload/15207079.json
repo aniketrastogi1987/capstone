@@ -1,0 +1,38 @@
+{
+  "date_produced": "20171227",
+  "publication_number": "US20180012141A1-20180111",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15207079",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Chehreghani",
+      "inventor_name_first": "Morteza Haghir",
+      "inventor_city": "Meylan",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Yuxin",
+      "inventor_city": "Zurich",
+      "inventor_state": "",
+      "inventor_country": "CH"
+    }
+  ],
+  "abstract": "A method for generating a trip prediction specific to a given user includes acquiring a first dataset of trip histories taken in a given transportation network; dividing a trip history of a given user at a specific time point into user training and validation datasets; acquiring training datasets each associated with candidate neighboring users; identifying useful neighbors from the training and validation datasets; combining the user trip history and the trip history of each useful neighbor; applying a similarity function to the combined dataset, wherein a sum of similarities between a given trip and all other trips in the combined dataset is computed; associating a trip having the highest weighted similarity (weighted by frequency) with a prediction for a future trip; and outputting the prediction to an associated user device.",
+  "filing_date": "20160711",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION <EOH>One embodiment of the disclosure relates to a method for predicting trips specific to a given user. The method includes acquiring a first dataset of trip histories taken in a given transportation network. The method includes dividing a trip history of a given user at a specific time (entity <u,t>) into a training dataset and a validation dataset. The method includes acquiring training datasets each associated with candidate neighboring users. The method includes identifying useful neighbors from the training and validation datasets. The method includes combining the user trip history and the trip history of each useful neighbor. The method includes applying a similarity function to the combined dataset, wherein a sum of weighted similarities between a given trip and all other trips in the combined dataset is computed. The method includes associating a trip having the highest similarity (related to a lowest distance) with a prediction for a future trip. The method includes outputting the prediction to an associated user device. Another embodiment of the disclosure relates to a system for predicting trips specific to a given user. The system includes a computer programmed to perform a method for a classification of candidate object associations. The computer is programmed to perform the operations of acquiring a first dataset of trip histories taken in a given transportation network; dividing a trip history of a given user into a training dataset and a validation dataset; acquiring training datasets each associated with candidate neighboring users; identifying useful neighbors from the training and validation datasets; combining the user trip history and the trip history of each useful neighbor; applying a similarity function to the combined dataset, wherein a sum of weighted similarities between a given trip and all other trips in the combined dataset is computed; associating a trip having the highest weighted similarity with a prediction...",
+  "date_published": "20180111",
+  "title": "METHOD OF TRIP PREDICTION BY LEVERAGING TRIP HISTORIES FROM NEIGHBORING USERS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 57486,
+    "optimized_size": 3566,
+    "reduction_percent": 93.8
+  }
+}

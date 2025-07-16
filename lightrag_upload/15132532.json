@@ -1,0 +1,41 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15132532",
+  "date_published": "20160811",
+  "date_produced": "20160727",
+  "title": "ON-DIE TERMINATION CONTROL",
+  "filing_date": "20160419",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Oh",
+      "inventor_name_first": "Kyung Suk",
+      "inventor_city": "Cupertino",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Shaeffer",
+      "inventor_name_first": "Ian P.",
+      "inventor_city": "Los Gatos",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "H03K1900",
+    "G06F306",
+    "G11C1632",
+    "G11C114093",
+    "G11C11417"
+  ],
+  "main_ipcr_label": "H03K1900",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The present invention is illustrated by way of example, and not by way of limitation, in the figures of the accompanying drawings and in which like reference numerals refer to similar elements and in which: FIG. 1 illustrates a prior-art memory system that employs an on-die termination scheme; FIG. 2 illustrates an embodiment of a memory system having multiple, graduated on-die terminations per high-speed signaling line; FIG. 3 illustrates an exemplary approach for achieving graduated termination within a memory system without adding additional termination structures within the constituent memory devices; FIG. 4 illustrates an alternative embodiment of a memory system having graduated on-die terminations; FIG. 5 illustrates another embodiment of a memory system having graduated on-die terminations; and FIG. 6 illustrates an exemplary state diagram of a finite state machine that may be applied within a memory device in combination with explicit or implicit termination control detection circuitry to effect a desired one of multiple, graduated terminations. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "9660648",
+  "abstract": "A memory control component outputs a memory write command to a memory IC and also outputs write data to be received via data inputs of the memory IC. Prior to reception of the write data within the memory IC, the memory control component asserts a termination control signal that causes the memory IC to apply to the data inputs a first on-die termination impedance during reception of the write data followed by a second on-die termination impedance after the write data has been received. The memory control component deasserts the termination control signal to cause the memory IC to apply no termination impedance to the data inputs.",
+  "publication_number": "US20160233863A1-20160811",
+  "_processing_info": {
+    "original_size": 64189,
+    "optimized_size": 2540,
+    "reduction_percent": 96.04
+  }
+}

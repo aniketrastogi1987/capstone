@@ -1,0 +1,42 @@
+{
+  "decision": "PENDING",
+  "application_number": "15218071",
+  "date_published": "20170126",
+  "date_produced": "20170110",
+  "title": "Performance Enhancement For Two-Dimensional Array Processor",
+  "filing_date": "20160724",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Johnson",
+      "inventor_name_first": "William M.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Nagata",
+      "inventor_name_first": "Toshio",
+      "inventor_city": "Lake Elsinore",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K962",
+    "G06K900",
+    "G06F938",
+    "G06F306",
+    "G06F1715",
+    "G06F1580"
+  ],
+  "main_ipcr_label": "G06K962",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The following detailed description of various disclosed embodiments makes reference to the accompanying drawings in which: FIG. 1 is a simplified block diagram illustrating certain aspects of an exemplary convolutional neural network; FIG. 2 is a diagram illustrating a convolution operation in a convolutional neural network; FIG. 3 is a diagram illustrating the number of image, signal, weight and bias elements that a detection output associated with a single pixel depends upon; FIG. 4 is a simplified block diagram illustrating certain aspects of a tile processor dataflow implementation; FIG. 5 is a histogram showing latency for data requests performed during operation of an exemplary CNN detection process; FIG. 6 is a simplified block diagram illustrating certain aspects of an embodiment of an instruction generation unit used in some embodiments with the tile processor described herein; FIG. 7 is a diagram illustrating an exemplary subsampling operation in a convolutional neural network; FIG. 8 is a diagram illustrating data vector widths resulting from subsampling operations in an exemplary convolutional neural network; FIG. 9 is a diagram illustrating tile processor data memory storage during execution of an exemplary convolutional neural network with subsampling; FIG. 10 is a diagram illustrating a data reorganization scheme providing improved parallelism and faster execution of an exemplary convolutional neural network; FIG. 11 is a diagram illustrating tile processor data memory storage during execution of an exemplary convolutional neural network with subsampling and vector concatenation; FIG. 12 is a diagram illustrating row and column inputs to an exemplary convolution operation in the absence of a data reorganization scheme; FIG. 13 is a diagram illustrating row and column inputs to an exemplary convolution operation using a data reorganization scheme; FIG. 14 is a diagram illustrating input shuffling of data as ...",
+  "patent_number": "None",
+  "abstract": "Methods and systems are disclosed for increased speed of processing operations on data in two-dimensional arrays, and for detecting a feature in an image. A method for detecting a feature in an image comprises storing, in a set of data memories within a parallel processing system, first image data representing pixels of a first image. The method further comprises storing, in a memory of a host processor coupled to the parallel processing system, feature kernel data representing a set of weight matrices. A method for increased speed of processing operations on data in two-dimensional arrays comprises storing, in a set of data memories within a parallel processing system, first array data representing elements of a first array. The method further comprises, for each of multiple selected elements within the first array, performing a processing operation on the selected element to produce an output element corresponding to the selected element.",
+  "publication_number": "US20170024632A1-20170126",
+  "_processing_info": {
+    "original_size": 91576,
+    "optimized_size": 3712,
+    "reduction_percent": 95.95
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date_produced": "20180315",
+  "publication_number": "US20180089553A1-20180329",
+  "main_ipcr_label": "G06N300",
+  "decision": "PENDING",
+  "application_number": "15277872",
+  "inventor_list": [
+    {
+      "inventor_name_last": "LIU",
+      "inventor_name_first": "Libin",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HODGINS",
+      "inventor_name_first": "Jessica Kate",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "The disclosure provides an approach for learning to schedule control fragments for physics-based virtual character simulations and physical robot control. Given precomputed tracking controllers, a simulation application segments the controllers into control fragments and learns a scheduler that selects control fragments at runtime to accomplish a task. In one embodiment, each scheduler may be modeled with a Q-network that maps a high-level representation of the state of the simulation to a control fragment for execution. In such a case, the deep Q-learning algorithm applied to learn the Q-network schedulers may be adapted to use a reward function that prefers the original controller sequence and an exploration strategy that gives more chance to in-sequence control fragments than to out-of-sequence control fragments. Such a modified Q-learning algorithm learns schedulers that are capable of following the original controller sequence most of the time while selecting out-of-sequence contr...",
+  "filing_date": "20160927",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>One embodiment of this disclosure provides a computer-implemented method for controlling motion. The method generally includes receiving one or more tracking controllers, and training a neural network for scheduling the received controllers or portions thereof based on a state of simulation and a task. The method further includes performing a simulation of a virtual character or controlling motion of a physical robot using the trained neural network. Further embodiments include a non-transitory computer-readable storage medium storing instructions that when executed by a computer system cause the computer system to perform the methods set forth above, and a computer system programmed to carry out the methods set forth above.",
+  "date_published": "20180329",
+  "title": "LEARNING TO SCHEDULE CONTROL FRAGMENTS FOR PHYSICS-BASED CHARACTER SIMULATION AND ROBOTS USING DEEP Q-LEARNING",
+  "ipcr_labels": [
+    "G06N300",
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 71683,
+    "optimized_size": 2526,
+    "reduction_percent": 96.48
+  }
+}

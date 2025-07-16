@@ -1,0 +1,47 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15067077",
+  "date_published": "20160707",
+  "date_produced": "20160622",
+  "title": "PHOTOGRAPH LOCALIZATION IN A THREE-DIMENSIONAL MODEL",
+  "filing_date": "20160310",
+  "inventor_list": [
+    {
+      "inventor_name_last": "SCHMIDT",
+      "inventor_name_first": "Ryan",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "ATTAR",
+      "inventor_name_first": "Ramtin",
+      "inventor_city": "Toronto",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "KHAN",
+      "inventor_name_first": "Azam",
+      "inventor_city": "Aurora",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T700",
+    "G06K946",
+    "G06K900",
+    "G06K962"
+  ],
+  "main_ipcr_label": "G06T700",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>One embodiment of the invention includes a computer-implemented method for determining the location that an image depicts relative to a three-dimensional (3D) representation of a structure. The method includes identifying features in the image, identifying features in the 3D representation that match the features identified in the image, and estimating the location depicted by the image based upon the locations associated with the features identified in the 3D representation. One advantage of the disclosed technique is that the user is able to match a image to a location within a structure. With the location, the user can better understand and communicate information captured by the image.",
+  "patent_number": "9741121",
+  "abstract": "A photo localization application is configured to determine the location that an image depicts relative to a 3D representation of a structure. The 3D representation may be a 3D model, color range scan, or gray scale range scan of the structure. The image depicts a particular section of the structure. The photo localization application extracts and stores features from the 3D representation in a database. The photo localization application then extracts features from the image and compares those features against the database to identify matching features. The matching features form a location fingerprint, from which the photo localization application determines the location that the image depicts, relative to the 3D representation. The location allows the user to better understand and communicate information captured by the image.",
+  "publication_number": "US20160196655A1-20160707",
+  "_processing_info": {
+    "original_size": 48664,
+    "optimized_size": 2425,
+    "reduction_percent": 95.02
+  }
+}

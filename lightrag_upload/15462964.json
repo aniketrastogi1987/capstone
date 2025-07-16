@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15462964",
+  "date_published": "20170928",
+  "date_produced": "20170915",
+  "filing_date": "20170320",
+  "main_ipcr_label": "G06N702",
+  "abstract": "A system and method of determining an output of an n-input fuzzy logic system are provided. A plurality of membership functions associated with a corresponding plurality of inputs is determined along with a list of fuzzy rules for the n-input fuzzy logic system. An input of the plurality of inputs is selected. Two active rules and their corresponding output values are selected from the list of rules. Membership values of two active membership functions are determined. An output of the n-input fuzzy system is calculated by multiplying the two membership values with the output of the two active rules and is saved. Recursively repeating, for each additional input, the determining and calculating steps and multiplying the output with the saved output, then saving the new output.",
+  "publication_number": "US20170278008A1-20170928",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Fuzzy logic controllers have demonstrated excellent performance in real world applications where a precise knowledge of the system being controlled is not completely known and their behavior is generally nonlinear. One of the drawbacks of fuzzy logic controllers, however, is the computation time it takes to combine all the membership values of every input to form firing value for each rule. For a given number of membership functions in each input fuzzy set, the number of fuzzy rules increase geometrically with the number of inputs. This geometric progression of the number of rules becomes an obstacle for practical application of multi-input fuzzy system because of the time it takes to implement these systems. To overcome this geometric progression, embodiments of the invention provide a novel recursive algorithm to implement multi-input fuzzy systems. In this method each input is fuzzy partitioned into membership functions for which only two membership functions are active and a sum of their membership values is equal to one for any crisp input. This reduces the firing rules resulting in significantly reduced implementation time. A system and method of determining an output of an n-input fuzzy logic system are provided. A plurality of membership functions associated with a corresponding plurality of inputs to the n-input fuzzy logic system are defined along with a list of fuzzy rules. For a first input of the fuzzy system, two active rules and their corresponding output values are selected from the list of rules. The membership values of the two active membership functions are determined and the output of the fuzzy system is calculated by multiplying the two membership values with the output of the two active rules. This output is then saved. If the fuzzy system has additional inputs, the steps of selecting an input, determining the outputs of the two active rules, and calculating the output by multiplying the outputs of the two a...",
+  "ipcr_labels": [
+    "G06N702",
+    "G06N504",
+    "G06F7523"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Clark",
+      "inventor_name_first": "Matthew A.",
+      "inventor_city": "Springfield",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rattan",
+      "inventor_name_first": "Kuldip S.",
+      "inventor_city": "Beavercreek",
+      "inventor_state": "OH",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "KM-Logic: Computationally Efficient Real-Time MIMO Fuzzy Inference System",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 58889,
+    "optimized_size": 3527,
+    "reduction_percent": 94.01
+  }
+}

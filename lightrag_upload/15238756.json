@@ -1,0 +1,75 @@
+{
+  "decision": "PENDING",
+  "application_number": "15238756",
+  "date_published": "20170302",
+  "date_produced": "20170214",
+  "title": "SYSTEMS AND METHODS FOR DETECTION OF CONTENT OF A PREDEFINED CONTENT CATEGORY IN A NETWORK DOCUMENT",
+  "filing_date": "20160817",
+  "inventor_list": [
+    {
+      "inventor_name_last": "IDESES",
+      "inventor_name_first": "Ianir",
+      "inventor_city": "RaAnana",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "NEUBERGER",
+      "inventor_name_first": "Assaf",
+      "inventor_city": "RaAnana",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "PORAT",
+      "inventor_name_first": "Ron",
+      "inventor_city": "RaAnana",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "FARAGE",
+      "inventor_name_first": "Oren",
+      "inventor_city": "Ramat-Gan",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "KATZ",
+      "inventor_name_first": "Itay",
+      "inventor_city": "Kfar-Saba",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "SHAMIA SADEH",
+      "inventor_name_first": "Doron",
+      "inventor_city": "Pardes-Hana-Karkur",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    },
+    {
+      "inventor_name_last": "BLAYER-GAT",
+      "inventor_name_first": "Alon",
+      "inventor_city": "Ramat-HaSharon",
+      "inventor_state": "",
+      "inventor_country": "IL"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1730",
+    "H04L2908",
+    "G06Q3002",
+    "G06F1721"
+  ],
+  "main_ipcr_label": "G06F1730",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to an aspect of some embodiments of the present invention there is provided a computer-implemented method of identifying at least one data object of a predefined content category within a network document for presentation at a client terminal, comprising: receiving, at a network node at an internet service provider (ISP) level of a network, web resource elements of a network document for rendering and presentation on a display associated with a client terminal; identifying a plurality of data objects within the network document; extracting a plurality of classification features from each data object; classifying at least one of the data objects into a predefined content category; generating reformatting instructions for adapting the presentation of the network document to reduce visibility of the data objects classified into the predefined content category upon rendering of the network document; creating a formatted network document by injecting the reformatting instructions into the network document for implementation by a rendering process executing on the client terminal; and transmitting the formatted network document to the client terminal. Optionally, the predefined content category is ad-related content or user accessed content. Optionally, at least some extracted classification features are at least one of: common to different ad-related content objects, and common to ad-related content and user-accessed content. Optionally, the extracted classification features include classification features that are statistically insignificantly correlated with ad-related content and user-accessed related content. Optionally, wherein the extracted classification features common to different ad-related content objects comprises extracted classification features common to different ad-related content objects originating from different ad server sources. Optionally, the classifying is performed on at least one new data object rep...",
+  "patent_number": "None",
+  "abstract": "There is provided a method of identifying data object(s) of a predefined content category within a network document for presentation at a client terminal, comprising: receiving, at a network node at an internet service provider level of a network, web resource elements of a network document for rendering and presentation on a display associated with a client terminal; identifying data objects within the network document; extracting classification features from each data object; classifying at least one of the data objects into a predefined content category; generating reformatting instructions for adapting the presentation of the network document to reduce visibility of the data objects classified into the predefined content category upon rendering of the network document; creating a formatted network document by injecting the reformatting instructions into the network document for implementation by a rendering process executing on the client terminal; and transmitting the formatted ne...",
+  "publication_number": "US20170060986A1-20170302",
+  "_processing_info": {
+    "original_size": 99545,
+    "optimized_size": 4503,
+    "reduction_percent": 95.48
+  }
+}

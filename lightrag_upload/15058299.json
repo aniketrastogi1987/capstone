@@ -1,0 +1,30 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15058299",
+  "date_published": "20161103",
+  "date_produced": "20161019",
+  "title": "LOW POWER STORAGE ARRAY WITH METADATA ACCESS",
+  "filing_date": "20160302",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Boden",
+      "inventor_name_first": "Ian",
+      "inventor_city": "Southampton",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>According to a first aspect of the present invention there is provided a method for low power storage array with metadata access, comprising: sequentially writing data to a currently active disk drive in a storage array; storing metadata relating to the writes in a preallocated portion of the currently active disk drive; determining when the currently active disk drive is nearing full capacity; activating a next disk drive and cloning the stored metadata from the preallocated portion of the currently active disk drive to a preallocated portion of the next disk drive; and, when the currently active disk drive is full, sequentially writing data to the next disk drive. According to a second aspect of the present invention there is provided a system for low power storage array with metadata access, comprising: a sequential write component for sequentially writing data to a currently active disk drive in a storage array; a metadata component for storing metadata relating to the writes in a preallocated portion of the currently active disk drive; a near capacity determining component for determining when the currently active disk drive is nearing full capacity; a disk activator component for activating a next disk drive and a metadata cloning component for cloning the stored metadata from the preallocated portion of the currently active disk drive to a preallocated portion of the next disk drive; and, when the currently active disk drive is full, the sequential write component sequentially writing data to the next disk drive. According to a third aspect of the present invention there is provided a computer program product for low power storage array with metadata access, the computer program product comprising a computer readable storage medium having program instructions embodied therewith, the program instructions executable by a processor to cause the processor to: sequentially write data to a currently active disk drive in a storage array; store met...",
+  "patent_number": "9471238",
+  "abstract": "A method for low power storage array with metadata access includes sequentially writing data to a currently active disk drive in a storage array and storing metadata relating to the writes in a preallocated portion of the currently active disk drive, determining when the currently active disk drive is nearing full capacity, activating a next disk drive and cloning the stored metadata from the preallocated portion of the currently active disk drive to a preallocated portion of the next disk drive. When the currently active disk drive is full, sequentially writing data to the next disk drive.",
+  "publication_number": "US20160320997A1-20161103",
+  "_processing_info": {
+    "original_size": 31063,
+    "optimized_size": 3130,
+    "reduction_percent": 89.92
+  }
+}

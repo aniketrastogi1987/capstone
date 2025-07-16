@@ -1,0 +1,39 @@
+{
+  "decision": "PENDING",
+  "application_number": "15118970",
+  "date_published": "20170223",
+  "date_produced": "20170208",
+  "title": "REGISTRATION METHOD, DEVICE AND SYSTEM FOR THIRD-PARTY PAYMENT PLATFORM",
+  "filing_date": "20160815",
+  "inventor_list": [
+    {
+      "inventor_name_last": "GAO",
+      "inventor_name_first": "Yang",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZHANG",
+      "inventor_name_first": "Lu",
+      "inventor_city": "Shenzhen",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q4002",
+    "H04L2906",
+    "G06Q2008"
+  ],
+  "main_ipcr_label": "G06Q4002",
+  "summary": "<SOH> SUMMARY <EOH>For at least solving the problem in the related art that there is not an effective technical solution for eliminating potential security issues in the process of quick payment, the disclosure provides a registration method, device and system for a third-party payment platform. To this end, according to an embodiment of the disclosure, a registration method for a third-party payment platform is provided, which includes that: the third-party payment platform sends registration information of a user to a banking system for verification; when the registration information carries first identification information, after the verification of the registration information is passed, a verification code is sent to a user corresponding to the first identification information, wherein the first identification information is user identification information stored by the banking system when the user registers in the banking system; when the registration information does not carry the first identification information, after the verification of the registration information is passed, a query instruction for querying the first identification information is sent to the banking system; the first identification information fed back by the banking system according to the query instruction is received; and the verification code is sent to the user indicated by the first identification information. Preferably, the registration information further includes at least one of the followings: information of a name of the user, information of an identity card of the user, and information of a bank card number that the user registers in the banking system. Preferably, the first identification information includes at least one of the followings: a user terminal identifier of the user, an e-mail address of the user. Preferably, after the third-party payment platform sends the verification code to the user, the method further includes that: the third-party payment platform receives...",
+  "patent_number": "None",
+  "abstract": "A registration method, device and system for a third-party payment platform are provided. The method includes: a third-party payment platform sends registration information of a user to a banking system for verification; when the registration information carries first identification information, after the verification of the registration information is passed, a verification code is sent to a user corresponding to the first identification information; when the registration information does not carry the first identification information, after the verification of the registration information is passed, a query instruction for querying the first identification information is sent to the banking system; the first identification information fed back by the banking system according to the query instruction is received; and the verification code is sent to the user indicated by the first identification information.",
+  "publication_number": "US20170053346A1-20170223",
+  "_processing_info": {
+    "original_size": 68085,
+    "optimized_size": 3639,
+    "reduction_percent": 94.66
+  }
+}

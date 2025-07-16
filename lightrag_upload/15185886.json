@@ -1,0 +1,32 @@
+{
+  "decision": "REJECTED",
+  "application_number": "15185886",
+  "date_published": "20170126",
+  "date_produced": "20170110",
+  "title": "GANG MIGRATION OF VIRTUAL MACHINES USING CLUSTER-WIDE DEDUPLICATION",
+  "filing_date": "20160617",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gopalan",
+      "inventor_name_first": "Kartik",
+      "inventor_city": "Vestal",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F948",
+    "G06F121009",
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F948",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The present technology provides, for example, live gang migration of multiple VMs that run on multiple physical machines, which may be in a cluster or separated by a local area network or wide area network. A cluster is assumed to have a high-bandwidth low-delay interconnect such has Gigabit Ethernet [10], 10 GigE [ 9 ], or Infiniband [15]. Wide Area Networks tend to have lower throughput, lower communications reliability, and higher latency than communications within a cluster. One approach to reducing the network traffic due to gang migration uses the following observation. VMs within a cluster often have similar memory content, given that they may execute the same operating system, libraries, and applications. Hence, a significant number of their memory pages may be identical Waldspurger [25]. Similarly, VMs communicating over less constrained networks may also share memory content. One can reduce the network overhead of gang migration using deduplication, i.e. by avoiding the transmission of duplicate copies of identical pages. One approach is called gang migration using global deduplication (GMGD), which performs deduplication during the migration of VMs that run on different physical machines. In contrast, gang migration using local deduplication (GMLD) refers to deduplicating the migration of VMs running within a single host[8]. Various aspects which may be used include: A technique to identify and track identical memory content across VMs running on different physical machines in a cluster, including non-migrating VMs running on the target machines; and a technique to deduplicate this identical memory content during the simultaneous live migration of multiple VMs, while keeping the coordination overhead low. For example, an implementation of GMGD may be provided on the QEMU/KVM[18] platform. A quantitative evaluation of GMGD on a 30-node cluster test bed having 10 GigE core links and 1 Gbps edge links was performed, compar...",
+  "patent_number": "None",
+  "abstract": "Datacenter clusters often employ live virtual machine (VM) migration to efficiently utilize cluster-wide resources. Gang migration refers to the simultaneous live migration of multiple VMs from one set of physical machines to another in response to events such as load spikes and imminent failures. Gang migration generates a large volume of network traffic and can overload the core network links and switches in a data center. The present technology reduces the network overhead of gang migration using global deduplication (GMGD). GMGD identifies and eliminates the retransmission of duplicate memory pages among VMs running on multiple physical machines in the cluster. A prototype GMGD reduces the network traffic on core links by up to 51% and the total migration time of VMs by up to 39% when compared to the default migration technique in QEMU/KVM, with reduced adverse performance impact on network-bound applications.",
+  "publication_number": "US20170024246A1-20170126",
+  "_processing_info": {
+    "original_size": 95000,
+    "optimized_size": 3507,
+    "reduction_percent": 96.31
+  }
+}

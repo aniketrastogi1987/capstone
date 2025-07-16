@@ -1,0 +1,73 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15336754",
+  "date_published": "20170216",
+  "date_produced": "20170201",
+  "title": "FAST RECOGNITION ALGORITHM PROCESSING, SYSTEMS AND METHODS",
+  "filing_date": "20161027",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Wnuk",
+      "inventor_name_first": "Kamil",
+      "inventor_city": "Playa Del Rey",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Song",
+      "inventor_name_first": "Bing",
+      "inventor_city": "La Canada",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Siddiqui",
+      "inventor_name_first": "Matheen",
+      "inventor_city": "Culver City",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "McKinnon",
+      "inventor_name_first": "David",
+      "inventor_city": "Venice",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sudol",
+      "inventor_name_first": "Jeremi",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Soon-Shiong",
+      "inventor_name_first": "Patrick",
+      "inventor_city": "Los Angeles",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Dialameh",
+      "inventor_name_first": "Orang",
+      "inventor_city": "Santa Monica",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06K900",
+    "G06T1160"
+  ],
+  "main_ipcr_label": "G06K900",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The inventive subject matter provides apparatus, systems and methods in which a device can leverage multiple types of digital processing algorithms to identify or recognize many different objects at the same time from a digital representation of a scene. One aspect of the inventive subject matter includes an apparatus (e.g., a cell phone, a game console, an appliance, a vehicle, etc.) capable of quickly recognizing or differentiating objects represented within a digital representation of a scene; a digital video, a video frame, or image for example. A mobile or portable version of an apparatus could optionally include a sensor configured to obtain sensor data in the form of the digital representation of the scene having a plurality of objects where the digital representation can include image data, video data, audio data, biometric data, or other types of digital data modalities. The apparatus further includes a recognition engine (i.e., a combination of software and hardware) coupled with the sensor and configured to recognize the objects based on information derived from the digital representation. The recognition engine can obtain access to an object model database that stores recognition models of known object models. The recognition models have object information indexed according to features derived from key frames (i.e., specific images) of known object models. The object model database can be remote to the apparatus or could be local to the apparatus, possibly even automatically constructed based on the received key frames. The recognition models represent a schema by which an object can be recognized. Thus, the recognition engine is able to recognize objects based on the recognition models within the object model database. The recognition engine can further determine a recognition strategy based on a captured digital representation of a scene where the strategy includes one or more rules that govern how the digital repres...",
+  "patent_number": "9690991",
+  "abstract": "Systems and methods of quickly recognizing or differentiating many objects are presented. Contemplated systems include an object model database storing recognition models associated with known modeled objects. The object identifiers can be indexed in the object model database based on recognition features derived from key frames of the modeled object. Such objects are recognized by a recognition engine at a later time. The recognition engine can construct a recognition strategy based on a current context where the recognition strategy includes rules for executing one or more recognition algorithms on a digital representation of a scene. The recognition engine can recognize an object from the object model database, and then attempt to identify key frame bundles that are contextually relevant, which can then be used to track the object or to query a content database for content information.",
+  "publication_number": "US20170046571A1-20170216",
+  "_processing_info": {
+    "original_size": 136613,
+    "optimized_size": 4359,
+    "reduction_percent": 96.81
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15062367",
+  "date_published": "20160908",
+  "date_produced": "20160824",
+  "title": "SYSTEMS AND METHODS FOR DISTRIBUTED SCALABLE RAY PROCESSING",
+  "filing_date": "20160307",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Richards",
+      "inventor_name_first": "Joseph M.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Peterson",
+      "inventor_name_first": "Luke T.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Clohset",
+      "inventor_name_first": "Steven J.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T160"
+  ],
+  "main_ipcr_label": "G06T160",
+  "summary": "<SOH> SUMMARY <EOH>Several architecture examples are described to provide for scalable and modularized processing of discretized compute portions. These examples primarily relate to the discretized compute portions being ray tracing rendering computation. These examples also provide for economizing memory accesses according to disclosed techniques. Some examples described herein provide fully centralized decision of testing of rays against nodes and allocation of micropacket IDs, but distributed ray packet storage (e.g., a central packet unit has packets of micropackets, and assigns micro packets to testers). The description may use the term “micropacket” to refer a packet being managed by a single computation unit, and “packet” to refer to an aggregation of micropackets by a central element. However, in some instances the term “packet” may be used to refer to either “micropackets” or “packets”, but the context disambiguates. There is provided a machine-implemented method of processing rays, comprising: at each of a plurality of computation units, processing rays for intersection with nodes of an acceleration structure, wherein each node of the acceleration structure is associated with a respective node identifier, and each of the computation units comprises a respective ray definition memory that stores definition data for rays, outputting a node identifier and a number of rays; at a central collector coupled with each of the plurality of computation units, receiving the node identifier and the number of rays, allocating one or more ray packet identifiers based on the number of rays, returning the allocated one or more ray packet identifiers to the computation unit that outputted the node identifier and the number of rays, updating or creating, in a packet memory, a collection of ray packet identifiers indexed by a node identifier determined from the received node identifier to include the allocated one or more ray packet identifiers, thereby associating the node i...",
+  "patent_number": "9830734",
+  "abstract": "Ray tracing systems have computation units (“RACs”) adapted to perform ray tracing operations (e.g. intersection testing). There are multiple RACs. A centralized packet unit controls the allocation and testing of rays by the RACs. This allows RACs to be implemented without Content Addressable Memories (CAMs) which are expensive to implement, but the functionality of CAMs can still be achieved by implemented them in the centralized controller.",
+  "publication_number": "US20160260193A1-20160908",
+  "_processing_info": {
+    "original_size": 104770,
+    "optimized_size": 3376,
+    "reduction_percent": 96.78
+  }
+}

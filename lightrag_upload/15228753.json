@@ -1,0 +1,61 @@
+{
+  "date_produced": "20180124",
+  "publication_number": "US20180039885A1-20180208",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15228753",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Albrecht",
+      "inventor_name_first": "Conrad M.",
+      "inventor_city": "White Plains",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chang",
+      "inventor_name_first": "Josephine B.",
+      "inventor_city": "Bedford Hills",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Klein",
+      "inventor_name_first": "Levente",
+      "inventor_city": "Tuckahoe",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lu",
+      "inventor_name_first": "Siyuan",
+      "inventor_city": "Yorktown Heights",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Marianno",
+      "inventor_name_first": "Fernando J.",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods and systems for detecting emission sites include identifying a set of known emitters having visible features and a spectroscopic signature that correspond to sites that emit a substance to form a training set. A classifier is generated based on the training set. New emitters are identified based on the classifier, a spectroscopic signature map, and a map of visible features. An alert is provided responsive to the identification of a new emitter.",
+  "filing_date": "20160804",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>A method for detecting emission sites includes identifying a set of known emitters having visible features and a spectroscopic signature that correspond to sites that emit a substance to form a training set. A classifier is generated based on the training set. New emitters are identified based on the classifier, a spectroscopic signature map, and a map of visible features, using a processor. An alert is provided responsive to the identification of a new emitter. A method for detecting emission sites includes identifying a set of known methane emitters having visible features and a spectroscopic signature that is significantly above an average spectroscopic signature of methane at about 1.65 μm to form a training set. A classifier is generated based on the training set using machine learning. New emitters are identified based on the classifier, a spectroscopic signature map, and a map of visible features by applying the classifier in regions indicated by the spectroscopic signature map as having a higher than average spectroscopic signature of methane at about 1.65 μm, using a processor. An alert is provided responsive to the identification of a new emitter. A system for detecting emission sites includes a training module configured to identify a set of known emitters having visible features and a spectroscopic signature that correspond to sites that emit a substance to form a training set. A machine learning module includes a processor is configured to generate a classifier based on the training set and to identify new emitters based on the classifier, a spectroscopic signature map, and a map of visible features. An alert module is configured to provide an alert responsive to the identification of a new emitter. These and other features and advantages will become apparent from the following detailed description of illustrative embodiments thereof, which is to be read in connection with the accompanying drawings.",
+  "date_published": "20180208",
+  "title": "SATELLITE-BASED LOCATION IDENTIFICATION OF METHANE-EMITTING SITES",
+  "ipcr_labels": [
+    "G06N308",
+    "G01N3322",
+    "G01N3300",
+    "G01N2169"
+  ],
+  "_processing_info": {
+    "original_size": 45566,
+    "optimized_size": 3631,
+    "reduction_percent": 92.03
+  }
+}

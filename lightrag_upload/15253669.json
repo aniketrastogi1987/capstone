@@ -1,0 +1,59 @@
+{
+  "date_produced": "20180213",
+  "publication_number": "US20180060728A1-20180301",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15253669",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shan",
+      "inventor_name_first": "Ying",
+      "inventor_city": "Sammamish",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Mao",
+      "inventor_name_first": "Jianchang",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Yu",
+      "inventor_name_first": "Dong",
+      "inventor_city": "Bothell",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rahmanian",
+      "inventor_name_first": "Holakou",
+      "inventor_city": "Santa Cruz",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Yi",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A deep embedding forest-based (DEF) model for improving on-line serving time for classification learning methods and other tasks such as, for example, predicting user selection of search results provided in response to a query or for image, speech or text recognition. Initially, a deep neural network (DNN) model is trained to determine parameters of an embedding layer, a stacking layer, deep layers and a scoring layer thereby reducing high dimensional features. After training the DNN model, the parameters of the deep layers and the scoring layer of the DNN model and discarded and the parameters of the embedding layer and the stacking layer are extracted. The extracted parameters from the DNN model then initialize parameters of an embedding layer and a stacking layer of the DEF model such that only a forest layer of the DEF model is then required to be trained. Output from the DEF model is stored in computer memory.",
+  "filing_date": "20160831",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used as an aid in determining the scope of the claimed subject matter. According to one aspect disclosed herein, a method is presented which includes, in response to received input, accessing a DNN model via a model manager wherein the DNN model includes an embedding layer, stacking layer, deep layers and a scoring layer. The method also includes training the DNN model, initiated by the model manager, to determine parameters of the embedding layer, stacking layer, the deep layers and the scoring layer. After training the DNN model, the parameters of the deep layers and the scoring layer of the DNN model may be discarded. The method then includes initializing parameters of an embedding layer of a Deep Embedding Forest (DEF) model with the remaining parameters extracted from the deep layers of the trained DNN model and initializing parameters of a stacking layer of the DEF model with the remaining parameters extracted from the stacking layer of the trained DNN model. The method may also include replacing the deep layers and the scoring layer of the DNN model with a forest layer to thereby define the DEF model, initializing the forest layer of the DEF model utilizing a gradient boosting machine, such as XEBoost, and jointly optimizing the parameters of both the embedding layer and the forest layer of the DEF model after fully initializing the DEF model as a result of initializing the embedding and stacking layers of the DEF model and initializing the forest layer of the DEF model utilizing the gradient boosting machine. According to another aspect disclosed herein, a system is presented that includes at least one processor and an operating environment executing using the at leas...",
+  "date_published": "20180301",
+  "title": "Deep Embedding Forest:  Forest-based Serving with Deep Embedding Features",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 65738,
+    "optimized_size": 4074,
+    "reduction_percent": 93.8
+  }
+}

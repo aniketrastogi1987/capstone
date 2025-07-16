@@ -1,0 +1,30 @@
+{
+  "decision": "PENDING",
+  "application_number": "15262011",
+  "date_published": "20180315",
+  "date_produced": "20180228",
+  "title": "NON-CONVERTING PUBLISHER ATTRIBUTION WEIGHTING AND ANALYTICS SERVER AND METHOD",
+  "filing_date": "20160912",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gierach",
+      "inventor_name_first": "Karl",
+      "inventor_city": "Irvine",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q3002"
+  ],
+  "main_ipcr_label": "G06Q3002",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed are a method, a device and/or a system of non-converting publisher attribution weighting and analytics server. In one aspect, a method, a device and/or a system of a non-converting publisher attribution weighting and analytics server includes determining ‘P’ number of publishing channels for advertisements in a first marketing campaign for a set of purchasable items using a processor and a memory communicatively coupled with the processor. Further, the method the device and/or the system monitors a marketing effectiveness of the P publishing channels in generating converted users each with a desirable action and/or a purchase from the set of purchasable items in the first marketing campaign. The marketing effectiveness of the P publishing channels is analyzed using the processor and the memory based on a set of marketing data from a data collection server in a cloud. The set of marketing data includes ‘N1’ number of first data points of a set of first marketing data collected in a first marketing condition in the first marketing campaign up to a time T1 and ‘N2’ number of second data points of a set of second marketing data collected in at least one auxiliary marketing campaign in a second marketing condition related to the first marketing condition. The set of first marketing data and the set of second marketing data are subsets of the set of marketing data. Further, the method determines whether a particular data point among the N1 first data points is associated with a user. The particular data point is a set including a conversion value associated with the user. The conversion value is based on the desirable action, a first related action related to the desirable action, a second related action related to the purchase, an amount of the purchase, and/or an amount of gained units of the purchase and/or a profit of the purchase. In addition, the conversion value is non-negative and/or the conversion value is zero if the user is a non-co...",
+  "patent_number": "None",
+  "abstract": "A method of an attribution server. The method determines publishing channels for advertisements in a marketing campaign to analyze their marketing effectiveness for purchasable items using a processor and a memory of the attribution server. Data points are associated with users. A K-th order attribution model is constructed. Independent and dependent variables of the attribution model are associated with various types of marketing data. An observation matrix and a conversion vector are determined. A regression analysis is performed with refining steps. Insignificant second order cross terms of the attribution model are identified and removed. A modified K-th order attribution model is constructed. Another regression analysis is performed to find optimal model parameters. The attribution server computes attribution scores associated with the publishing channels based on the attribution models and the optimal model parameters from regressions, and communicates the attribution scores to a...",
+  "publication_number": "US20180075482A1-20180315",
+  "_processing_info": {
+    "original_size": 324702,
+    "optimized_size": 3598,
+    "reduction_percent": 98.89
+  }
+}

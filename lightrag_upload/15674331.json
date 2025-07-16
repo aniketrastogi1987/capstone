@@ -1,0 +1,37 @@
+{
+  "patent_number": "None",
+  "application_number": "15674331",
+  "date_published": "20180215",
+  "date_produced": "20180131",
+  "filing_date": "20170810",
+  "main_ipcr_label": "G06N308",
+  "abstract": "Improved identification of a process anomaly in a technical facility includes training a self-organizing map using the historical process data as good states of the facility. The good states are used to determine a temporal sequence or a path of node hits and the tolerances of neuron hits. Threshold values are determined and stored for a Euclidean distance for the good states. The Euclidean distance of a current state vector to the neuron hit is checked as to whether the threshold value has been exceeded. The path determined is used to determine the neuron to be hit as long as the threshold value was not already exceeded in the check on the relevant neuron. A symptom vector from the current state vector and either the neuron hit or the neuron that is to be hit is determined.",
+  "publication_number": "US20180046917A1-20180215",
+  "summary": "<SOH> SUMMARY AND DESCRIPTION <EOH>The scope of the present invention is defined solely by the appended claims and is not affected to any degree by the statements within this summary. The present embodiments may obviate one or more of the drawbacks or limitations in the related art. For example, a method for improved identification of process anomalies in a technical facility and a corresponding diagnostic system with which the above discussed drawbacks may be minimized are provided. One or more of the present embodiments relate to a method and a diagnostic system for improved identification of a process anomaly in a technical facility with which initially a self-organizing map is trained using historical process data as good states of the facility. Good states are used to determine a temporal sequence or a path of node hits and tolerances for neuron hits. Threshold values for the Euclidean distance for the good states are determined and stored. The current process data in the facility is evaluated, with the threshold values, in the form of a state vector with the aid of the trained self-organizing map. The Euclidean distance of the current state vector to the neuron hit is checked as to whether the threshold value is exceeded. The determined path is used to determine a neuron that is to be hit as long as the threshold value was not already exceeded in the check with the neuron hit. A symptom vector from the current state vector and either the neuron hit or the neuron that is to be hit is determined. If, optionally together with the paths, the number of hits for a node is also stored, it is possible to determine temporal deviations from the good state. The advantages include the early and reliable identification of deviations from the normal state and the correct determination of a symptom vector for better identification of the cause of the error.",
+  "ipcr_labels": [
+    "G06N308"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Bierweiler",
+      "inventor_name_first": "Thomas",
+      "inventor_city": "Karlsruhe",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    },
+    {
+      "inventor_name_last": "Lenz",
+      "inventor_name_first": "Henning",
+      "inventor_city": "Karlsruhe",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "title": "IDENTIFICATION OF PROCESS ANOMALIES IN A TECHNICAL FACILITY",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 28084,
+    "optimized_size": 3356,
+    "reduction_percent": 88.05
+  }
+}

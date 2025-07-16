@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170802",
+  "publication_number": "US20170236062A1-20170817",
+  "main_ipcr_label": "G06N502",
+  "decision": "PENDING",
+  "application_number": "15044913",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Proctor",
+      "inventor_name_first": "Mark",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Fusco",
+      "inventor_name_first": "Mario",
+      "inventor_city": "Milan",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    }
+  ],
+  "abstract": "A processing device executes a multi-threaded rule engine having multiple threads. A first thread is associated with user interactions. A second thread is associated with timing events. A third thread is associated with asynchronous execution of the rule engine. A rule engine core is accessible to the second and third threads. The processing device receives user input and generates a first command to perform a first action in view of the user input while executing the first thread. The processing device stores the first command in a queue where the first command is one of multiple commands stored in the queue. The processing device retrieves the multiple commands from the queue and processes the multiple commands using the rule engine core while executing the third thread. The rule engine core is inaccessible to the second thread while in use by the third thread.",
+  "filing_date": "20160216",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>The present invention is illustrated by way of example, and not by way of limitation, in the figures of the accompanying drawings and in which: FIG. 1 illustrates an example system that implements a multi-threaded rule engine. FIG. 2A illustrates an exemplary state diagram of a state machine, in accordance with one embodiment of the present invention. FIGS. 2B-2O illustrate flow charts of various methods used by the state machine to transition between states, in accordance with embodiments of the present invention. FIG. 3 illustrates one embodiment of a method to execute a multi-threaded rule engine. FIG. 4 illustrates one embodiment of a method to place a state machine into a passive state. FIG. 5 illustrates one embodiment of a method to execute a second thread while a timer is initiated. FIG. 6 illustrates one embodiment of a method to determine when to issue a notification to wake up an engine thread while a state machine is in a reactive state. FIG. 7 illustrates a block diagram of an exemplary computing device. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "date_published": "20170817",
+  "title": "THREAD COORDINATION IN A RULE ENGINE USING A STATE MACHINE",
+  "ipcr_labels": [
+    "G06N502",
+    "G06F948"
+  ],
+  "_processing_info": {
+    "original_size": 111821,
+    "optimized_size": 2712,
+    "reduction_percent": 97.57
+  }
+}

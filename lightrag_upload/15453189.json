@@ -1,0 +1,40 @@
+{
+  "patent_number": "None",
+  "application_number": "15453189",
+  "date_published": "20171130",
+  "date_produced": "20171115",
+  "filing_date": "20170308",
+  "main_ipcr_label": "G06N504",
+  "abstract": "An information processing apparatus according to one embodiment includes a memory having computer executable components stored therein; and processing circuitry communicatively coupled to the memory. The processing circuitry is configured to: acquire, for each of a plurality of sensors installed in a vehicle, positional information of an object present around the vehicle measured by the sensor; calculate a probability that the object is present for each of a plurality of areas obtained by dividing surroundings of the vehicle based on the positional information measured by the sensors; record non-measurement information indicating that the positional information was not obtained for an area corresponding to a direction in which the positional information was not obtained for each of the sensors; and determine a final probability that the object is present based on the probability calculated for each of the sensors and the non-measurement information.",
+  "publication_number": "US20170344888A1-20171130",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a diagram illustrating a configuration of an information processing apparatus of a first embodiment; FIG. 2 is a diagram illustrating an area around a subject vehicle of the first embodiment; FIG. 3 is a diagram illustrating a method for calculating an obstacle presence probability of the first embodiment; FIG. 4 is a diagram illustrating the method for calculating an obstacle presence probability of the first embodiment; FIG. 5 is a diagram illustrating the method for calculating an obstacle presence probability of the first embodiment; FIG. 6 is a diagram illustrating the method for calculating an obstacle presence probability of the first embodiment; FIG. 7 is diagram illustrating time-series integration of the obstacle presence probability of the first embodiment; FIG. 8 is a diagram illustrating a method for recording non-measurement information of the first embodiment; FIGS. 9A and 9B are diagrams illustrating the method for recording non-measurement information of the first embodiment; FIGS. 10A, 10B, and 10C are diagrams illustrating a method for calculating a final probability of the first embodiment; FIG. 11 is a diagram illustrating an operational example of the information processing apparatus of the first embodiment; FIG. 12 is a diagram illustrating a configuration of an information processing apparatus of a second embodiment; FIG. 13 is a diagram illustrating an example of a taken image of the second embodiment; FIG. 14 is a diagram illustrating an example of attribute information of the second embodiment; FIG. 15 is a diagram illustrating a method of transformation into a top-face image of the second embodiment; FIGS. 16A and 16B are diagrams illustrating the calculation of a second obstacle presence probability of the second embodiment; FIG. 17 is a diagram illustrating a configuration of an information processing apparatus of a third embodiment; and FIGS. 18A and 18B are diagrams illustrating a...",
+  "ipcr_labels": [
+    "G06N504",
+    "G05D102",
+    "B60W3016",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "SANO",
+      "inventor_name_first": "Yuma",
+      "inventor_city": "Kawasaki",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "NISHIYAMA",
+      "inventor_name_first": "Manabu",
+      "inventor_city": "Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "title": "INFORMATION PROCESSING APPARATUS AND INFORMATION PROCESSING METHOD",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 78005,
+    "optimized_size": 3690,
+    "reduction_percent": 95.27
+  }
+}

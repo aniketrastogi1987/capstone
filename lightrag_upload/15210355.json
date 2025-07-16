@@ -1,0 +1,38 @@
+{
+  "date_produced": "20170104",
+  "publication_number": "US20170017902A1-20170119",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15210355",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Razin",
+      "inventor_name_first": "Sergey A.",
+      "inventor_city": "Columbia",
+      "inventor_state": "SC",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "To",
+      "inventor_name_first": "Yokuki",
+      "inventor_city": "Columbia",
+      "inventor_state": "SC",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Embodiments of the present innovation relate to a host device that includes a configured to receive a set of data elements from a computer infrastructure, the set of data elements relating to at least one attribute of at least one computer environment resource of the computer infrastructure. The controller is configured to assign each data element of the set of data elements to a data retention location based upon a time statistic identifier associated with each data element of the set of data elements and to compare a training data set and the data elements associated with a selected data retention location to detect a data anomaly associated with the set of data elements. In response to detecting the data anomaly associated with the data elements associated with the selected data retention location, the controller is configured to generate a data anomaly notification.",
+  "filing_date": "20160714",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>Conventional host devices used with computer infrastructures can suffer from a variety of deficiencies. For example, as provided above, the host device is configured to receive real time data from a computer infrastructure and to store and/or process the data. However, enterprises typically generate large amounts of data over a period of time. With the receipt of the data in real time, the host device retains the data in a central storage location, which can be difficult to manage as the data set grows over time. Further, transformation and processing of the data is typically very restricted, inflexible, and, in many cases, hard coded into the host device. Accordingly, any changes to the processing requires a substantial investment in time and engineering to address different transformation (e.g., use) cases. By contrast to conventional computer infrastructure data management techniques, embodiments of the present innovation relate to a distributed machine learning analytics framework for the analysis of streaming data sets from a computer environment. Embodiments of the present innovation relate to a distributed machine learning analytics framework for the analysis of streaming data sets from a computer environment. In one arrangement, a host device executes a machine learning engine which is configured to automate the movement and analysis of data elements received from a computer or enterprise system over time. For example, the machine learning engine can include a data retention function which is configured to ingest, categorize, and store large numeric data sets associated with the computer environment. The data retention function is also configured to address the reduced precision of aging data elements by identifying and re-categorizing aging data elements maintained by the host device. In another example, the machine learning engine is also configured to transform and analyze data elements, as retained by the host device in retention locat...",
+  "date_published": "20170119",
+  "title": "DISTRIBUTED MACHINE LEARNING ANALYTICS FRAMEWORK FOR THE ANALYSIS OF STREAMING DATA SETS FROM A COMPUTER ENVIRONMENT",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F9455"
+  ],
+  "_processing_info": {
+    "original_size": 58618,
+    "optimized_size": 3644,
+    "reduction_percent": 93.78
+  }
+}

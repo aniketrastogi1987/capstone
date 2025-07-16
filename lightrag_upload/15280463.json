@@ -1,0 +1,41 @@
+{
+  "date_produced": "20180315",
+  "publication_number": "US20180089586A1-20180329",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15280463",
+  "inventor_list": [
+    {
+      "inventor_name_last": "PAU",
+      "inventor_name_first": "Danilo Pietro",
+      "inventor_city": "Sesto San Giovanni",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    },
+    {
+      "inventor_name_last": "PLEBANI",
+      "inventor_name_first": "Emanuele",
+      "inventor_city": "Sotto il Monte Giovanni XXIII",
+      "inventor_state": "",
+      "inventor_country": "IT"
+    }
+  ],
+  "abstract": "Human activities are classified based on activity-related data and an activity-classification model trained using a classification-equalized training data set. A classification signal is generated based on the classifications. The classification-equalized training data set, may, for example, includes a first class having a first sequence length and a number of samples N, and one or more additional classes each having a respective sequence length tj and a respective number of samples Nj determined based on the number of samples N of the first class. For example, a respective sequence length tj and a respective number of samples Nj which satisfy: (i) Nj>N, for sequence length tj; and (ii) Nj<N, for tj−1. The activity-related data may include one or more of acceleration data, orientation data, position data, and physiological data.",
+  "filing_date": "20160929",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF SUMMARY <EOH>In an embodiment, a method comprises: receiving activity-related data; determining activity classifications based on the received activity-related data and an activity-classification model trained using a classification-equalized training data set; and generating a classification signal based on the determined classifications. In an embodiment, for each class c j other than a determined class c i , a sequence length t j such that the total number of samples N j for the class c j , assuming the sequences of the class c j are truncated at sequence length t j , equals or just exceeds the number N of samples in the class c i . In other words, N j <N for length t j −1. Thus, in an embodiment, t j for each class other than the determined class is determined based on the number of samples N in the determined class. In an embodiment, the classification-equalized training data set comprises a first class having a first sequence length and a number of samples N, and one or more additional classes each having a respective sequence length t j and a respective number of samples N j which satisfy: in-line-formulae description=\"In-line Formulae\" end=\"lead\"? N j >N, for sequence length t j ; and in-line-formulae description=\"In-line Formulae\" end=\"tail\"? in-line-formulae description=\"In-line Formulae\" end=\"lead\"? N j <N, for sequence length t j −1. in-line-formulae description=\"In-line Formulae\" end=\"tail\"? In an embodiment, the method comprises: generating the classification-equalized training data set; and training the activity-classification model. In an embodiment, the determining activity classifications comprises extracting feature data based on the received activity-related data. In an embodiment, the determining comprises using an artificial neural network having a feed-forward architecture. In an embodiment, the artificial neural network comprises a layered architecture including one or more of: one or more convolutional layers; one or more pooling...",
+  "date_published": "20180329",
+  "title": "ARTIFICIAL NEURAL NETWORKS FOR HUMAN ACTIVITY RECOGNITION",
+  "ipcr_labels": [
+    "G06N9900",
+    "A61B50205",
+    "A61B511",
+    "A61B500",
+    "G06N304"
+  ],
+  "_processing_info": {
+    "original_size": 68521,
+    "optimized_size": 3644,
+    "reduction_percent": 94.68
+  }
+}

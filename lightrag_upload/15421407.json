@@ -1,0 +1,45 @@
+{
+  "patent_number": "None",
+  "application_number": "15421407",
+  "date_published": "20180503",
+  "date_produced": "20180418",
+  "filing_date": "20170131",
+  "main_ipcr_label": "G06N304",
+  "abstract": "The technology disclosed provides a so-called “joint many-task neural network model” to solve a variety of increasingly complex natural language processing (NLP) tasks using growing depth of layers in a single end-to-end model. The model is successively trained by considering linguistic hierarchies, directly connecting word representations to all model layers, explicitly using predictions in lower tasks, and applying a so-called “successive regularization” technique to prevent catastrophic forgetting. Three examples of lower level model layers are part-of-speech (POS) tagging layer, chunking layer, and dependency parsing layer. Two examples of higher level model layers are semantic relatedness layer and textual entailment layer. The model achieves the state-of-the-art results on chunking, dependency parsing, semantic relatedness and textual entailment.",
+  "publication_number": "US20180121787A1-20180503",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>In the drawings, like reference characters generally refer to like parts throughout the different views. Also, the drawings are not necessarily to scale, with an emphasis instead generally being placed upon illustrating the principles of the technology disclosed. In the following description, various implementations of the technology disclosed are described with reference to the following drawings, in which: FIG. 1 illustrates aspects of a joint-many task neural network model that performs increasingly complex NLP tasks at successive layers. FIG. 2A depicts a joint-embedding technique that is herein used to robustly encode the input words, especially unknown words. FIG. 2B illustrates various tables that demonstrate that the use of the character n-gram embeddings results in improved processing of unknown words. FIG. 3 shows one implementation of dimensionality projection. FIG. 4A shows one implementation of operation of a POS layer of the joint many-task neural network model. FIG. 4B includes a table that shows the results of POS tagging of the joint many-task neural network model. FIG. 5A shows one implementation of operation of a chunking layer of the joint many-task neural network model. FIG. 5B includes a table that shows the results of POS tagging of the joint many-task neural network model. FIG. 6A shows one implementation of operation of a dependency parsing layer. FIGS. 6B, 6C, 6D, 6E, and 6F show one implementation of operation of an attention encoder of the dependency parsing layer. FIG. 6G shows one implementation of operation of a dependency relationship label classifier of the dependency parsing layer. FIG. 6H shows two example sentences on which model applies dependency parsing. FIG. 6I includes a table that shows the results of the dependency parsing layer of the model. FIG. 7A shows one implementation of the semantic relatedness layer. FIG. 7B includes a table that shows the results of the semantic related...",
+  "ipcr_labels": [
+    "G06N304",
+    "G06F1727"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "HASHIMOTO",
+      "inventor_name_first": "Kazuma",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "XIONG",
+      "inventor_name_first": "Caiming",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SOCHER",
+      "inventor_name_first": "Richard",
+      "inventor_city": "Menlo Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Joint Many-Task Neural Network Model for Multiple Natural Language Processing (NLP) Tasks",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 161982,
+    "optimized_size": 3777,
+    "reduction_percent": 97.67
+  }
+}

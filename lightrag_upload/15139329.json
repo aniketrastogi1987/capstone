@@ -1,0 +1,61 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15139329",
+  "date_published": "20160901",
+  "date_produced": "20160817",
+  "title": "IMAGE QUALITY ENHANCING APPARATUS, IMAGE DISPLAY APPARATUS, IMAGE QUALITY ENHANCING METHOD, AND COMPUTER READABLE STORAGE MEDIUM",
+  "filing_date": "20160427",
+  "inventor_list": [
+    {
+      "inventor_name_last": "AOKI",
+      "inventor_name_first": "Reo",
+      "inventor_city": "Ishikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Haifeng",
+      "inventor_city": "Ishikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "HIGASHI",
+      "inventor_name_first": "Masafumi",
+      "inventor_city": "Ishikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "MATSUZAKI",
+      "inventor_name_first": "Hiroki",
+      "inventor_city": "Ishikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "KATAGIRI",
+      "inventor_name_first": "Tadayoshi",
+      "inventor_city": "Ishikawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06T340",
+    "G06T520",
+    "G06T540",
+    "G06T500"
+  ],
+  "main_ipcr_label": "G06T340",
+  "summary": "<SOH> SUMMARY <EOH>An image quality enhancing apparatus according to the present invention comprises a section which stores a plurality of first feature quantities which can express feature quantities which are high frequency components in any image with a linear sum thereof, a section which stores a plurality of second feature quantities indicating a high-image-quality high frequency component corresponding to the first feature quantities, a coefficient calculating section which calculates, from a feature quantity of an image targeted for image quality enhancement, a coefficient for expressing the feature quantity with a linear sum of the plurality of first feature quantities, and a section which generates a high frequency component of an image that is the image with the image quality enhanced, by replacing each of the first feature quantities included in the linear sum that has used a coefficient calculated by the coefficient calculating section with corresponding second feature quantities, the image quality enhancing apparatus characterized in that the coefficient calculating section comprises a selecting section which selects fewer first feature quantities than the total number of the plurality of first feature quantities and a calculating section which calculates a coefficient to be multiplied by the first feature quantities selected by the selecting section. The image quality enhancing apparatus according to the present invention is characterized in that the calculating section is configured to make a sum of squares of differences between the linear sum and the feature quantities of the image targeted for image quality enhancement as small as possible, and furthermore to calculate a coefficient in order to make a sum of squares of coefficients used in the linear sum as small as possible. The image quality enhancing apparatus according to the present invention is characterized in that the calculating section is configured to calculate an analytic solution of a ...",
+  "patent_number": "9824425",
+  "abstract": "An image quality enhancing apparatus, an image display apparatus, an image quality enhancing method, and a computer readable storage medium which make a learning-type image quality enhancing method utilizing a sparse expression practical are provided. The image quality enhancing apparatus calculates, from the feature quantity of an image, coefficients of low-image-quality base vectors expressing a feature quantity with a linear sum and generates the image with the enhanced image quality by calculating a linear sum of high-image-quality base vectors using the calculated coefficient. When calculating the coefficient, T base vectors highly influential on the feature quantity are selected from among a plurality of base vectors and an analytic solution making L2 norm of a coefficient matrix α as small as possible is calculated. A sparse solution of the coefficients can be obtained without using the iteration method and a practical image quality enhancing apparatus can be realized.",
+  "publication_number": "US20160253782A1-20160901",
+  "_processing_info": {
+    "original_size": 120589,
+    "optimized_size": 4227,
+    "reduction_percent": 96.49
+  }
+}

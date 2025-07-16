@@ -1,0 +1,38 @@
+{
+  "decision": "PENDING",
+  "application_number": "15206983",
+  "date_published": "20170119",
+  "date_produced": "20170104",
+  "title": "CHECK-OUT APPARATUS AND CONTROL PROGRAM THEREOF",
+  "filing_date": "20160711",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NIMIYA",
+      "inventor_name_first": "Shigeki",
+      "inventor_city": "Yokohama Kanagawa",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    },
+    {
+      "inventor_name_last": "Nambu",
+      "inventor_name_first": "Kazuya",
+      "inventor_city": "Nakano Tokyo",
+      "inventor_state": "",
+      "inventor_country": "JP"
+    }
+  ],
+  "ipcr_labels": [
+    "G06Q2020",
+    "G06Q2018"
+  ],
+  "main_ipcr_label": "G06Q2020",
+  "summary": "",
+  "patent_number": "None",
+  "abstract": "A check-out apparatus is disclosed in an embodiment. The apparatus generates payment information including a payment amount required for a transaction based on one or more received merchandise codes. The apparatus acquires a user code corresponding to a user of an electronic receipt service. The apparatus performs a payment process based on the payment information and input received from a customer, and generates receipt information including a list of the merchandise purchased in the transaction and information regarding the payment process. If the user code is not acquired, the printer prints a receipt sheet based on the receipt information. If the user code is acquired, the apparatus transmits the user code and the receipt information to the electronic receipt management server which stores the receipt information in association with the user code.",
+  "publication_number": "US20170017945A1-20170119",
+  "_processing_info": {
+    "original_size": 50591,
+    "optimized_size": 1564,
+    "reduction_percent": 96.91
+  }
+}

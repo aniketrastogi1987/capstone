@@ -1,0 +1,49 @@
+{
+  "patent_number": "None",
+  "application_number": "15600545",
+  "date_published": "20171123",
+  "date_produced": "20171108",
+  "filing_date": "20170519",
+  "main_ipcr_label": "G06N308",
+  "abstract": "A method for generating inputs for a neural network based on an image includes receiving the image, identifying a position within the image, and identifying a subset of the image at the position. The subset of the image is defined by a first set of corners. The method also includes perturbing at least one of the first set of corners to form a second set of corners. The second set of corners defines a modified subset of the image. The method further includes determining a homography based on a comparison between the subset of the image and the modified subset of the image, generating a transformed image by applying the homography to the image, and identifying a subset of the transformed image at the position.",
+  "publication_number": "US20170337470A1-20171123",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to an embodiment of the present invention, a method for generating inputs for a neural network based on an image are provided. The method includes receiving the image, identifying a position within the image, and identifying a subset of the image at the position. The subset of the image is defined by a first set of corners. The method also includes perturbing at least one of the first set of corners to form a second set of corners. The second set of corners defines a modified subset of the image. The method further includes determining a homography based on a comparison between the subset of the image and the modified subset of the image. The method also includes generating a transformed image by applying the homography to the image and identifying a subset of the transformed image at the position. According to another embodiment of the present invention, a method for training a neural network is provided. The method includes receiving a plurality of images. For each individual image of the plurality of images, the method includes generating a training triplet including a subset of the individual image, a subset of a transformed image, and a homography based on the subset of the individual image and the subset of the transformed image and generating, by the neural network, an estimated homography based on the subset of the individual image and the subset of the transformed image. The method also includes comparing the estimated homography to the homography and modifying the neural network based on the comparison. According to a specific embodiment of the present invention, a method for generating an estimated homography based on two images is provided. The method includes receiving a first image based on a first camera pose and receiving a second image based on a second camera pose. The method also includes inputting the first image and the second image into a neural network and generating, by the neural network, an esti...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06K946",
+    "G06F1716",
+    "G06T712",
+    "G06T340",
+    "G06T7174"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "DeTone",
+      "inventor_name_first": "Daniel",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Malisiewicz",
+      "inventor_name_first": "Tomasz",
+      "inventor_city": "Mountain View",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Rabinovich",
+      "inventor_name_first": "Andrew",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "METHOD AND SYSTEM FOR PERFORMING CONVOLUTIONAL IMAGE TRANSFORMATION ESTIMATION",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 77258,
+    "optimized_size": 3656,
+    "reduction_percent": 95.27
+  }
+}

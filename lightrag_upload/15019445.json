@@ -1,0 +1,46 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15019445",
+  "date_published": "20160602",
+  "date_produced": "20160518",
+  "title": "Finite Impulse Response Filter For Producing Outputs Having Different Phases",
+  "filing_date": "20160209",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Mallinson",
+      "inventor_name_first": "A. Martin",
+      "inventor_city": "Kelowna",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Yao",
+      "inventor_name_first": "Hu Jing",
+      "inventor_city": "Kelowna",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    },
+    {
+      "inventor_name_last": "Forman",
+      "inventor_name_first": "Dustin",
+      "inventor_city": "Kelowna",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F1750",
+    "H03K51536",
+    "H03K515"
+  ],
+  "main_ipcr_label": "G06F1750",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Systems and methods are disclosed for using a finite impulse response (FIR) filter to create a plurality of output signals, each output signal having the same frequency response but at a different phase from the other output(s). One embodiment describes a method of designing a finite impulse response filter having a delay line containing a plurality of delay elements, the method comprising: selecting a desired frequency response for the filter; selecting a plurality of sets of elements having impedances, one element from each set to be coupled to the delay line after each delay element, the values of the elements selected to determine their impedances so that for each set of elements the sum of the outputs of the elements is a signal of the same frequency response as, but a different phase from, the sum of the outputs of another set of elements; and, for each set of elements, providing an output connected to all of the elements in the set that is separate from the outputs connected to the other sets of elements. Another embodiment describes an apparatus comprising: an input configured to receive an input signal; a delay line comprising a plurality of delay elements in series and connected to the input for propagating the input signal; a first plurality of buffers, each buffer in the first plurality of buffers receiving the delayed input signal after the input signal has passed through a separate one of the plurality of delay elements; a first plurality of elements having impedance values, each of the first plurality of elements connected to a separate one of the first plurality of buffers and chosen to determine their impedances so that the sum of the outputs of the first plurality of elements produces a desired frequency response to the input signal; a first output connected to the first plurality of resistor values to produce a first output signal having the desired frequency response; a second plurality of buffers, each buffer ...",
+  "patent_number": "9940415",
+  "abstract": "A method and system for designing and implementing a finite impulse response (FIR) filter to create a plurality of output signals, each output signal having the same frequency but at a different phase shift from the other output(s), is described. Values are determined for the resistors, or other elements having impedance values, in a FIR filter having a plurality of outputs, such that each output has the same frequency response but a different phase than the other output(s). This is accomplished by the inclusion of a phase factor in the time domain calculation of the resistor values that does not change the response in the frequency domain. The phase shift is constant and independent of the frequency of the output signal.",
+  "publication_number": "US20160154914A1-20160602",
+  "_processing_info": {
+    "original_size": 69024,
+    "optimized_size": 3612,
+    "reduction_percent": 94.77
+  }
+}

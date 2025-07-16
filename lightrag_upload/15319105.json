@@ -1,0 +1,37 @@
+{
+  "decision": "PENDING",
+  "application_number": "15319105",
+  "date_published": "20170511",
+  "date_produced": "20170427",
+  "title": "STORAGE DEVICE, PROGRAM, AND INFORMATION PROCESSING METHOD",
+  "filing_date": "20161215",
+  "inventor_list": [
+    {
+      "inventor_name_last": "KACZMARCZYK",
+      "inventor_name_first": "Michal",
+      "inventor_city": "Warsaw",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    },
+    {
+      "inventor_name_last": "DUBNICKI",
+      "inventor_name_first": "Cezary",
+      "inventor_city": "Warsaw",
+      "inventor_state": "",
+      "inventor_country": "PL"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> SUMMARY <EOH>Accordingly, an object of the present invention is to provide a storage device which can solve the abovementioned problem that it is difficult to inhibit decrease of retrieval performance in a storage device which has a function of eliminating duplicated storage. In order to achieve the object, a storage device as an aspect of the present invention includes: a data storage part storing deduplicated block data; a temporary data storage part temporarily storing block data acquired from the data storage part; a data retrieval control part retrieving the block data stored by the data storage part, storing the block data into the temporary data storage part, and retrieving the block data from the temporary data storage part; and a temporary data control part controlling a storage state of the block data stored by the temporary data storage part. The storage device also includes a retrieval turn information storage part storing retrieval turn information which is information about a turn to be retrieved of the block data. The data retrieval control part causes the temporary data storage part to store the block data acquired from the data storage part on a basis of the retrieval turn information acquired from the retrieval turn information storage part. The temporary data control part controls the storage state of the block data in the temporary data storage part on the basis of the retrieval turn information. Further, a computer program as another aspect of the present invention includes instructions for causing an information processing device, which includes a data storage part storing deduplicated block data, a temporary data storage part temporarily storing block data acquired from the data storage part, and a retrieval turn information storage part storing retrieval turn information which is information about a turn to be retrieved of the block data, to realize: a data retrieval control means for retrieving the block data stored by the data storage...",
+  "patent_number": "None",
+  "abstract": "A storage device has: a data storage part storing deduplicated block data; a temporary data storage part temporarily storing block data acquired from the data storage part; a data retrieval control part retrieving the block data stored by the data storage part, storing the block data into the temporary data storage part, and retrieving the block data from the temporary data storage part; and a temporary data control part controlling the storage state of the block data stored by the temporary data storage part. The storage device also has a retrieval turn information storage part storing retrieval turn information which is information about a turn to be retrieved of the block data. The data retrieval control part causes the temporary data storage part to store the block data acquired from the data storage part on the basis of the retrieval turn information acquired from the retrieval turn information storage part, and the temporary data control part controls the storage state of the blo...",
+  "publication_number": "US20170131934A1-20170511",
+  "_processing_info": {
+    "original_size": 303077,
+    "optimized_size": 3694,
+    "reduction_percent": 98.78
+  }
+}

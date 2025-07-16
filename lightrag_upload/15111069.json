@@ -1,0 +1,33 @@
+{
+  "decision": "PENDING",
+  "application_number": "15111069",
+  "date_published": "20161229",
+  "date_produced": "20161214",
+  "title": "METHOD FOR TRANSMITTING ENCRYPTED DATA, METHOD FOR RECEIVING, CORRESPONDING DEVICES AND COMPUTER PROGRAMS",
+  "filing_date": "20160712",
+  "inventor_list": [
+    {
+      "inventor_name_last": "NACCACHE",
+      "inventor_name_first": "David",
+      "inventor_city": "Paris",
+      "inventor_state": "",
+      "inventor_country": "FR"
+    }
+  ],
+  "ipcr_labels": [
+    "H04L2906",
+    "G06Q2032",
+    "H04W1204",
+    "H04L914"
+  ],
+  "main_ipcr_label": "H04L2906",
+  "summary": "<SOH> SUMMARY <EOH>The proposed technique does not have these drawbacks of the prior art. More particularly, the proposed technique can be used to avoid a replay of preliminarily transmitted data while at the same time not requiring any preliminary exchange of keys. The proposed technique takes the form of a method for transmitting data from a first terminal, called a sender terminal, to a second terminal, called a receiver terminal. Such a method comprises: a step for obtaining a piece of current time data; a step for determining a piece of transmission time data as a function of the piece of current time data and at least one predetermined parameter; a step for obtaining a piece of data to be encrypted from at least one piece of data to be transmitted and said at least one piece of current time data; a step for encrypting, by means of an encryption key, said preliminarily obtained piece of data to be encrypted, this step delivering a piece of encrypted data; a step for transmitting said encrypted data as a function of said piece of transmission time data. Thus, the integration of a piece of transmission time data within the data to be encrypted enables the introduction of an anti-replay element that is difficult enough to counteract, thus significantly increasing the security level of the transmission. According to one particular characteristic, the step for determining the piece of transmission time data comprises a step for adding a duration defined by the predetermined parameter to the piece of current time data. Thus, by adding a duration which may be variable and which depends on the transmission parameter, it is ensured that, even in the event of interception, the encrypted data cannot be replayed because it will be necessarily replayed after the date and time at which the piece of data was sent. According to one particular characteristic, the step for obtaining the piece of data to be encrypted comprises a step of concatenation of said at least one piece of...",
+  "patent_number": "None",
+  "abstract": "The invention relates to a method for transmitting data from a first terminal, called a sender terminal (TermE), to a second terminal, called a receiver terminal (TermR), the method being characterized in that it comprises: a step (100) for obtaining a piece of current time data (DTC); a step (110) for determining a piece of transmission time data (DTC) as a function of the piece of current time data (DTC) and at least one predetermined parameter; a step (120) for obtaining a piece of data to be encrypted (DaCh) from at least one piece of data to be transmitted (DaTr) and from at least one piece of current time data (DTC); a step (130) for encrypting, by means of an encryption key (KeyC), said preliminarily obtained piece of data to be encrypted (DaCh), this step delivering a piece of encrypted data (DCh); a step for transmitting said piece of encrypted data (DCh) as a function of said piece of transmission time data (DTT).",
+  "publication_number": "US20160380980A1-20161229",
+  "_processing_info": {
+    "original_size": 48159,
+    "optimized_size": 3563,
+    "reduction_percent": 92.6
+  }
+}

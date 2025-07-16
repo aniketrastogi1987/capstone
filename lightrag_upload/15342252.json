@@ -1,0 +1,45 @@
+{
+  "date_produced": "20170208",
+  "publication_number": "US20170053203A1-20170223",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15342252",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Hershey",
+      "inventor_name_first": "John",
+      "inventor_city": "Winchester",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Le Roux",
+      "inventor_name_first": "Jonathan",
+      "inventor_city": "Somerville",
+      "inventor_state": "MA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Weninger",
+      "inventor_name_first": "Felix",
+      "inventor_city": "Munich",
+      "inventor_state": "",
+      "inventor_country": "DE"
+    }
+  ],
+  "abstract": "A method for transforms input signals, by first defining a model for transforming the input signals, wherein the model is specified by constraints and a set of model parameters. An iterative inference procedure is derived from the model and the set of model parameters and unfolded into a set of layers, wherein there is one layer for each iteration of the procedure, and wherein a same set of network parameters is used by all layers. A neural network is formed by untying the set of network parameters such that there is one set of network parameters for each layer and each set of network parameters is separately maintainable and separately applicable to the corresponding layer. The neural network is trained to obtain a trained neural network, and then input signals are transformed using the trained neural network to obtain output signals.",
+  "filing_date": "20161103",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Model-based methods and neural networks have both been used for transforming real world signals, e.g., transforming a speech signal to text, transforming a noisy speech signal to an enhanced speech signal, transforming a noisy image to a clean image, transforming a set of input images from different view points into a depth map, etc. The transformations can be more complex, for example, the transforming can produce a class characterizing the input signals, or recognize a pattern inherent in video signals. In model-based methods, the knowledge about the problem domain can be expressed in the model formulae, the model parameters and variables, and the constraints on the model parameters and variables. However, inference in such methods can be difficult. Typically, the inference is performed by an iterative inference procedure that uses the model constraints, the model parameters and procedure parameters. In contrast, deterministic neural networks are constructed in such a way that the inference is straightforward, but at the expense of difficulties in incorporating the knowledge about the problem domain. Therefore, the embodiments of the invention provide a method for processing input signals that has the advantages of model-based methods and neural networks, while avoiding many of their disadvantages. The general idea of the invention can be summarized as follows. Given a model-based approach that requires an iterative inference procedure, the iterations are unfolded into a layer-wise structure analogous to a neural network, where all layers are associated with the same set of parameters. Then, the parameters are untied by associating a different set of parameters to each layer and allowing them to be different from each other. This leads to novel neural-network-like architectures with novel activation functions, that can easily be trained discriminatively using gradient-based methods. The resulting method combines the expressive p...",
+  "date_published": "20170223",
+  "title": "Neural Networks for Transforming Signals",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 40700,
+    "optimized_size": 3682,
+    "reduction_percent": 90.95
+  }
+}

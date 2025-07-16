@@ -1,0 +1,66 @@
+{
+  "patent_number": "None",
+  "application_number": "15504093",
+  "date_published": "20170928",
+  "date_produced": "20170915",
+  "filing_date": "20170215",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "A clustering coefficient-based adaptive clustering method, according to the categories of extracted data point pairs and the magnitude of association relations between data points extracted each time, determining to which category the data points belong, and the number of the categories, and establishing association relations between the data points and association relations between the categories; pre-segmenting each category and calculating the intra-category similarities of two sub-categories and inter-category similarities of the two sub-categories, judging whether the two pre-segmented sub-categories satisfy a segmentation condition, if so, then accepting the pre-segmentation; if not, then canceling the pre-segmentation; calculating the intra-category similarities and inter-category similarities of two categories having an association relation, judging whether the two categories satisfy a merging condition, if so, then merging the two categories to generate a new category; if not,...",
+  "publication_number": "US20170278016A1-20170928",
+  "summary": "<SOH> SUMMARY OF THE PRESENT INVENTION <EOH>In view of the disadvantages of the prior art, the purpose of the present invention is to provide a clustering coefficient-based adaptive clustering method and system, so as to solve the problems that there are clustering methods which only takes similarities between other elements and a core element in a category or consider similarities between adjacent elements in data clustering processes into consideration in the prior art, there are no clustering methods which takes similarities between elements in the category into consideration and data cannot be clustered more accurately. In order to realize the above-mentioned purpose and other related purposes, in one aspect, the present invention provides a clustering coefficient-based adaptive clustering method, used for a set of elements to be clustered in a computer network system constructed by a plurality of servers and clients, the set comprises data points in a plurality of clustering object sets, the clustering coefficient-based adaptive clustering method comprises: a preliminary clustering step, i.e., acquiring association relations between the data points in the plurality of clustering object sets, acquiring the number of neighbor points in a nearest-neighbor algorithm applicable for searching of the number of the neighbor points, and acquiring a distribution curve convergence rate of the data points through a curve fitting technique; sequentially extracting data point pairs according to a magnitude of the association relations between the data points, determining to which category the data points belongs and the number of the categories according to the category of the extracted data point pairs and the magnitude of the association relation between the data points extracted each time, and establishing a association relation between the data points and a association relation between the categories till all data points are processed to acquire preliminary clustering re...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1730"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "JIANG",
+      "inventor_name_first": "CHANGJUN",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "HONGZHONG",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "YAN",
+      "inventor_name_first": "CHUNGANG",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "DING",
+      "inventor_name_first": "ZHIJUN",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "ZHONG",
+      "inventor_name_first": "MINGJIE",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "SUN",
+      "inventor_name_first": "HAICHUN",
+      "inventor_city": "SHANGHAI",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "title": "Clustering Coefficient-based Adaptive Clustering Method and System",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 93420,
+    "optimized_size": 4286,
+    "reduction_percent": 95.41
+  }
+}

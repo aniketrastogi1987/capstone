@@ -1,0 +1,81 @@
+{
+  "date_produced": "20171108",
+  "publication_number": "US20170337464A1-20171123",
+  "main_ipcr_label": "G06N304",
+  "decision": "PENDING",
+  "application_number": "15396319",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rabinowitz",
+      "inventor_name_first": "Neil Charles",
+      "inventor_city": "St. Albans",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Desjardins",
+      "inventor_name_first": "Guillaume",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Rusu",
+      "inventor_name_first": "Andrei-Alexandru",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Kavukcuoglu",
+      "inventor_name_first": "Koray",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Hadsell",
+      "inventor_name_first": "Raia Thais",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Pascanu",
+      "inventor_name_first": "Razvan",
+      "inventor_city": "Letchworth Garden City",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Kirkpatrick",
+      "inventor_name_first": "James",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Soyer",
+      "inventor_name_first": "Hubert Josef",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Methods and systems for performing a sequence of machine learning tasks. One system includes a sequence of deep neural networks (DNNs), including: a first DNN corresponding to a first machine learning task, wherein the first DNN comprises a first plurality of indexed layers, and each layer in the first plurality of indexed layers is configured to receive a respective layer input and process the layer input to generate a respective layer output; and one or more subsequent DNNs corresponding to one or more respective machine learning tasks, wherein each subsequent DNN comprises a respective plurality of indexed layers, and each layer in a respective plurality of indexed layers with index greater than one receives input from a preceding layer of the respective subsequent DNN, and one or more preceding layers of respective preceding DNNs, wherein a preceding layer is a layer whose index is one less than the current index.",
+  "filing_date": "20161230",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes how a system implemented as computer programs on one or more computers in one or more locations can learn multiple machine learning tasks in sequence, where task features are preserved so that new tasks can benefit from all previously learnt features. In general, one innovative aspect of the subject matter described in this specification can be embodied in a neural network system implemented by one or more computers, the neural network system comprising a sequence of deep neural networks (DNNs), wherein each DNN in the sequence of DNNs has been trained to perform a respective machine learning task, and wherein the sequence of DNN comprises: a first DNN that corresponds to a first machine learning task, wherein (i) the first DNN comprises a first plurality of indexed layers, and (ii) each layer in the first plurality of indexed layers is configured to receive a respective layer input and process the layer input to generate a respective layer output; and one or more subsequent DNNs corresponding to one or more respective machine learning tasks, wherein (i) each subsequent DNN comprises a respective plurality of indexed layers, and (ii) each layer in a respective plurality of indexed layers with index greater than one receives input from (i) a preceding layer of the respective subsequent DNN, and (ii) one or more preceding layers of respective preceding DNNs, wherein a preceding layer is a layer whose index is one less than the current index. The foregoing and other embodiments can each optionally include one or more of the following features, alone or in combination. In some implementations each layer with index equal to one in a respective plurality of indexed layers receives a respective subsequent DNN input. In some implementations (i) the first plurality of indexed layers comprises L hidden layers, and (ii) each respective plurality of indexed layers s comprises M s hidden layers. In some implementations L is not equ...",
+  "date_published": "20171123",
+  "title": "PROGRESSIVE NEURAL NETWORKS",
+  "ipcr_labels": [
+    "G06N304",
+    "G06N308",
+    "G06F1716"
+  ],
+  "_processing_info": {
+    "original_size": 70153,
+    "optimized_size": 4523,
+    "reduction_percent": 93.55
+  }
+}

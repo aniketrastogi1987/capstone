@@ -1,0 +1,51 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15045151",
+  "date_published": "20170817",
+  "date_produced": "20170802",
+  "title": "AVOIDING DATA LOSS IN A COPY-FREE TRANSITION OF STORAGE OBJECTS",
+  "filing_date": "20160216",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Reddy CH",
+      "inventor_name_first": "Vijaya Bhaskar",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Arunachalam",
+      "inventor_name_first": "Sivasubramaniam",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Somasundaram",
+      "inventor_name_first": "Sathish",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Lele",
+      "inventor_name_first": "Satyen",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F306"
+  ],
+  "main_ipcr_label": "G06F306",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1A illustrates an example arrangement of a storage environment in which aspects of a copy-free transition of storage objects can be applied. FIG. 1B illustrates an example arrangement of a storage environment after copy-free transition of storage objects is performed, in accordance with some aspects. FIG. 2 illustrates an example system for the copy-free transition of storage objects, in accordance with some aspects. FIG. 3 illustrates phases that may be performed for the copy-free transition of storage objects, in accordance with some aspects. FIG. 4 illustrates a method for avoiding data loss in a copy-free transition, in accordance with some aspects. FIG. 5 is a block diagram that illustrates a computer system upon which aspects described herein may be implemented. detailed-description description=\"Detailed Description\" end=\"lead\"?",
+  "patent_number": "9983810",
+  "abstract": "A transition tool creates a reversion snapshot of storage objects and data in a copy-free transition method. The storage objects are transitioned from the formats that the source storage system uses to the formats that the destination storage system uses. During this transition, the transition tool can prevent automatic functions of the source and destination storage systems from deleting the reversion snapshots until a request to commit the transition is received. The transition tool can also monitor the amount of storage space available to each of the storage objects. Upon detecting that the amount of storage space is below a threshold, the transition tool can take the storage objects offline so that they are unavailable to client access. In response to receiving a rollback request, the transition tool can perform operations to restore the reversion snapshot of the storage objects and data on the source storage system.",
+  "publication_number": "US20170235505A1-20170817",
+  "_processing_info": {
+    "original_size": 61753,
+    "optimized_size": 2851,
+    "reduction_percent": 95.38
+  }
+}

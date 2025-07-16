@@ -1,0 +1,52 @@
+{
+  "date_produced": "20160921",
+  "publication_number": "US20160292568A1-20161006",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "15091840",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Schaul",
+      "inventor_name_first": "Tom",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Horgan",
+      "inventor_name_first": "Daniel George",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Gregor",
+      "inventor_name_first": "Karol",
+      "inventor_city": "London",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    },
+    {
+      "inventor_name_last": "Silver",
+      "inventor_name_first": "David",
+      "inventor_city": "Hitchin",
+      "inventor_state": "",
+      "inventor_country": "GB"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for reinforcement learning using goals and observations. One of the methods includes receiving an observation characterizing a current state of the environment; receiving a goal characterizing a target state from a set of target states of the environment; processing the observation using an observation neural network to generate a numeric representation of the observation; processing the goal using a goal neural network to generate a numeric representation of the goal; combining the numeric representation of the observation and the numeric representation of the goal to generate a combined representation; processing the combined representation using an action score neural network to generate a respective score for each action in the predetermined set of actions; and selecting the action to be performed using the respective scores for the actions in the predetermined set of actions.",
+  "filing_date": "20160406",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This specification describes technologies that relate to reinforcement learning. For a system of one or more computers to be configured to perform particular operations or actions means that the system has installed on it software, firmware, hardware, or a combination of them that in operation cause the system to perform the operations or actions. For one or more computer programs to be configured to perform particular operations or actions means that the one or more programs include instructions that, when executed by data processing apparatus, cause the apparatus to perform the operations or actions. The subject matter described in this specification can be implemented in particular embodiments so as to realize one or more of the following advantages. A reinforcement learning system can effectively and directly consider target states that a reinforcement agent is attempting to reach in selecting actions to be performed by the agent in response to received observations. Additionally, the reinforcement learning system can effectively select actions for goals that were not encountered during learning. In selecting actions, the reinforcement learning system can take advantage of a shared structure between the space of goals and the space of observations. The details of one or more embodiments of the subject matter of this specification are set forth in the accompanying drawings and the description below. Other features, aspects, and advantages of the subject matter will become apparent from the description, the drawings, and the claims.",
+  "date_published": "20161006",
+  "title": "SELECTING REINFORCEMENT LEARNING ACTIONS USING GOALS AND OBSERVATIONS",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 39628,
+    "optimized_size": 3559,
+    "reduction_percent": 91.02
+  }
+}

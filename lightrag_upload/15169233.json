@@ -1,0 +1,66 @@
+{
+  "date_produced": "20171115",
+  "publication_number": "US20170344897A1-20171130",
+  "main_ipcr_label": "G06N700",
+  "decision": "PENDING",
+  "application_number": "15169233",
+  "inventor_list": [
+    {
+      "inventor_name_last": "ALAM",
+      "inventor_name_first": "Shahriar",
+      "inventor_city": "Chandler",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "JIANG",
+      "inventor_name_first": "Qin",
+      "inventor_city": "Oak Park",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "BETZ",
+      "inventor_name_first": "Franz D.",
+      "inventor_city": "Renton",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LU",
+      "inventor_name_first": "Tsai-Ching",
+      "inventor_city": "Thousand Oaks",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HARRISON",
+      "inventor_name_first": "John E.",
+      "inventor_city": "Bellevue",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "ROSS",
+      "inventor_name_first": "John L.",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A method, system, and computer program product for predicting abnormal operation of at least one component of a machine is provided. Real time monitoring data from an operating machine is received and monitoring features that are informative of likely abnormal operation are extracted and/or calculated. The monitoring features are applied to a prediction matrix that outputs probabilities of abnormal operation within one or more prediction time horizons. If the output probabilities exceed a threshold probability, then an alert can be output. Maintenance can be automatically scheduled in response to the alert.",
+  "filing_date": "20160531",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to one aspect, a computer-implemented method of predicting component abnormal operation in a machine includes receiving monitoring data from the machine during operation of the machine. The method also includes computing at least one monitoring feature from the received monitoring data. The method also includes extracting a probability of a component operating abnormally from a prediction matrix based on the computed at least one monitoring feature. The method also includes scheduling maintenance for the component of the machine upon the extracted probability exceeding a first threshold value. According to one aspect, a system includes a computer processor and a computer memory. The computer memory stores a prediction matrix for abnormal operation of a component of a machine. The computer memory also stores an abnormal operation prediction application. The abnormal operation prediction application is executable by the computer processor to receive monitoring data from the machine during operation of the machine. The abnormal operation prediction application is also executable to compute at least one monitoring feature from the received monitoring data. The abnormal operation prediction application is also executable to extract a probability of a component operating abnormally from the prediction matrix based on the computed at least one monitoring feature. The abnormal operation prediction application is also executable to schedule maintenance for the component of the machine upon the extracted probability exceeding a first threshold value. According to one aspect, a computer program product for calculating a predicted abnormal operation of a machine includes a computer-readable storage medium having computer-readable program code embodied therewith. The computer-readable program code is executable by one or more computer processors to receive monitoring data from the machine during operation of the machine. The computer-readable program...",
+  "date_published": "20171130",
+  "title": "MONITORED MACHINE PERFORMANCE AS A MAINTENANCE PREDICTOR",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1711"
+  ],
+  "_processing_info": {
+    "original_size": 78777,
+    "optimized_size": 3901,
+    "reduction_percent": 95.05
+  }
+}

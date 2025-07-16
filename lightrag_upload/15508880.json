@@ -1,0 +1,38 @@
+{
+  "patent_number": "None",
+  "application_number": "15508880",
+  "date_published": "20170720",
+  "date_produced": "20170705",
+  "filing_date": "20170303",
+  "main_ipcr_label": "G06N700",
+  "abstract": "Systems and method for perturbing a system include obtaining directed acyclic/cyclic graph candidates {GI, . . . , GN} for the system. Each Gi in {Gj, . . . GN} includes a causal relationship between a parent and child node. {GI, GN} demonstrate Markov equivalence. Observed data D is obtained for the nodes. For each respective Gi, the marginal probability of a parent node xi in Gi is clamped by D while computing a distribution of marginal probabilities for a child node yi, by Bayesian network or Dynamic Bayesian network belief propagation using an interaction function. The observed distribution for the child node yi, in D and the computed distribution of marginal probabilities for the child node yi are scored using a nonparametric function, and such scores inform the selection of a directed/cyclic graph from {GI, . . . , GN}. The system is perturbed using a perturbation that relies upon a causal relationship in the selected directed acyclic/cyclic graph.",
+  "publication_number": "US20170206460A1-20170720",
+  "summary": "<SOH> SUMMARY <EOH>Disclosed implementations address the above deficiencies and other problems associated with inferring causal relationships. The instant disclosure provides systems and methods for inferring causal relationships in multivariate data (e.g., among molecular and higher order phenotypes). This is an important step, for example, in elucidating the complexity of pathways in living organisms. The disclosed systems and methods infer causality in a way that is no longer constrained by the conditional dependency arguments that limit the ability of statistical causal inference methods to resolve causal relationships within sets of graphical models that are Markov equivalent. As an example, the disclosed systems and methods utilize Bayesian belief propagation to infer the responses of perturbation events on molecular traits given a hypothesized graph structure. A distance measure between the inferred response distribution and the observed data is defined to assess the ‘fitness’ of the hypothesized causal relationships. To test the systems and methods of the present disclosure, causal relationships are inferred within equivalence classes of gene networks in which the form of the functional interactions that are possible are assumed to be known. One aspect of the present disclosure provides a method of perturbing a system. The method comprises obtaining a set of directed acyclic/cyclic graph candidates {G 1 , . . . , G N } for the system, wherein N is a positive integer greater than 1 (e.g., two or more, three or more, four or more, five or more etc.) and each respective directed acyclic/cyclic graph candidate G i in at least a subset of {G 1 , . . . , G N } includes one or more causal relationships among nodes in a first plurality of nodes. Each causal relationship includes a parent node that is causal for a child node. Two or more nodes in each respective directed acyclic/cyclic graph candidate G i in at least a subset of {G 1 , . . . , G N } are Markov equiva...",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1924"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "CHANG",
+      "inventor_name_first": "Rui R.",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SCHADT",
+      "inventor_name_first": "Eric E.",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "Systems and Methods for Causal Inference in Network Structures Using Belief Propagation",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 131290,
+    "optimized_size": 3711,
+    "reduction_percent": 97.17
+  }
+}

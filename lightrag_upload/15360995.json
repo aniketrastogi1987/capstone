@@ -1,0 +1,31 @@
+{
+  "date_produced": "20170510",
+  "publication_number": "US20170147922A1-20170525",
+  "main_ipcr_label": "G06N312",
+  "decision": "PENDING",
+  "application_number": "15360995",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Lee",
+      "inventor_name_first": "Daniel Chonghwan",
+      "inventor_city": "Burnaby",
+      "inventor_state": "",
+      "inventor_country": "CA"
+    }
+  ],
+  "abstract": "This document presents methods by which system parameters are tracked online. For adjusting the values of the system parameters, the presented methods take advantage of the data that become available during the system's operation. The values of the parameters can be used for estimating the system state and controlling the system. This document includes methods comprising constructing a cost function based on the data collected during the system operation as a function system parameters and running a memetic algorithm that reduces the cost function value. A memetic algorithm combines an evolutionary or a population-based algorithm with a procedure for local improvement (local search, refinements) of candidate solutions. This document includes methods by which the rotor speed, the rotor flux, and the stator currents of the induction motor can be estimated from electrical measurements while covariance matrices of noise are adjusted online.",
+  "filing_date": "20161123",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>This document presents methods by which system parameters can be estimated and tracked online so that the estimated parameter values can be used for good performance of the physical system operation. The presented methods take advantage of the data that become available during the system's operation for adjusting the values of the system parameters. The values of the parameters can be used for estimating the system state and controlling the system. The described methods can be used to decide the values of system parameters such as covariance matrices of measurement (observation) noise and of process noise, etc., of the system. This document includes computationally efficient methods that construct a cost function based on the data collected during the system operation as a function of one or more system parameters and running a memetic algorithm [8,9,10] that reduced the cost function value. A memetic algorithm combines an evolutionary or a population-based algorithm with a procedure for local improvement (local search, refinements) of candidate solutions. This document includes methods by which the rotor speed, rotor flux, and the stator currents of the induction motor can be estimated from stator electrical measurements, while covariance matrices of process noise and of measurement noise are adjusted online during system operation. The estimated rotor speed, rotor flux, and the stator currents can be used for controlling the rotor speed.",
+  "date_published": "20170525",
+  "title": "FILTERING, SMOOTHING, MEMETIC ALGORITHMS, AND FEASIBLE DIRECTION METHODS FOR ESTIMATING SYSTEM STATE AND UNKNOWN PARAMETERS OF ELECTROMECHANICAL MOTION DEVICES",
+  "ipcr_labels": [
+    "G06N312",
+    "G06F1716"
+  ],
+  "_processing_info": {
+    "original_size": 174693,
+    "optimized_size": 3092,
+    "reduction_percent": 98.23
+  }
+}

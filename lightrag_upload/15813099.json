@@ -1,0 +1,51 @@
+{
+  "patent_number": "None",
+  "application_number": "15813099",
+  "date_published": "20180308",
+  "date_produced": "20180222",
+  "filing_date": "20171114",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "The subject disclosure is directed towards processing evidence, which may include high-dimensional streaming evidence, into a future belief state. The existing evidence is used to project a belief about a future state. The future belief state may be used to determine whether to wait for additional evidence, or to act now without waiting for additional evidence, e.g., based on a cost of the delay. For example, an autonomous assistant may decide based upon the belief whether to engage a person or not, or to wait for more information before the engagement decision is made.",
+  "publication_number": "US20180068234A1-20180308",
+  "summary": "<SOH> SUMMARY <EOH>This Summary is provided to introduce a selection of representative concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key features or essential features of the claimed subject matter, nor is it intended to be used in any way that would limit the scope of the claimed subject matter. Briefly, various aspects of the subject matter described herein are directed towards constructing one or more state inference projection models from existing evidence, including streaming evidence, to predict a future belief of a state at a future time. The future belief that is predicted is used to determine whether to act or wait for additional evidence. In one aspect, processing logic is coupled to a sensor set comprising one or more sensors, and is coupled to an output mechanism set comprising one or more output mechanisms. The processing logic is configured to process evidence received via the sensor set, including streaming evidence, into one or more state inference projection models, and to construct one or more probability distributions based upon the state inference projection models to predict a future belief of a state at a future time using the received evidence. The processing logic uses the future belief to determine whether to act via the output mechanism set or wait for additional evidence to be received. In one aspect there is described receiving sensory evidence, including high-dimensional streaming evidence, and processing the sensory evidence to project a future state belief. The future state belief is used to make a decision, e.g., to wait for additional evidence to be received, or to take an action without waiting for additional evidence. Other advantages may become apparent from the following detailed description when taken in conjunction with the drawings.",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "BOHUS",
+      "inventor_name_first": "Dan",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HORVITZ",
+      "inventor_name_first": "Eric J.",
+      "inventor_city": "Kirkland",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "POMERANTZ",
+      "inventor_name_first": "Stephanie Rosenthal",
+      "inventor_city": "Pittsburgh",
+      "inventor_state": "PA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "EDEN",
+      "inventor_name_first": "Semiha E. KAMAR",
+      "inventor_city": "Redmond",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "VALUE OF INFORMATION WITH STREAMING EVIDENCE BASED ON A PREDICTION OF A FUTURE BELIEF AT A FUTURE TIME",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 63947,
+    "optimized_size": 3513,
+    "reduction_percent": 94.51
+  }
+}

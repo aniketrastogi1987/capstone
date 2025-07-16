@@ -1,0 +1,66 @@
+{
+  "inventor_list": [
+    {
+      "inventor_name_last": "Zhang",
+      "inventor_name_first": "Hanrui",
+      "inventor_city": "Hangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Shao",
+      "inventor_name_first": "Mingxu",
+      "inventor_city": "Hangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Qian",
+      "inventor_name_first": "Shaoli",
+      "inventor_city": "Hangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Pan",
+      "inventor_name_first": "Haoyuan",
+      "inventor_city": "Hangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Haijun",
+      "inventor_city": "Hangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Xu",
+      "inventor_name_first": "Di",
+      "inventor_city": "Hangzhou",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "filing_date": "20180301",
+  "ipcr_labels": [
+    "G06N700",
+    "G06F1730"
+  ],
+  "main_ipcr_label": "G06N700",
+  "date_published": "20180705",
+  "date_produced": "20180620",
+  "publication_number": "US20180189665A1-20180705",
+  "title": "DETERMINING DEPLOYMENT NEED FOR POINT OF INTEREST",
+  "summary": "<SOH> SUMMARY <EOH>Implementations of the present disclosure include computer-implemented methods for determining deployment needs for one or more points of interest over a geographic area. In some implementations, deployment need for a point of interest (POI) is determined by: receiving one or more geographic locations of one or more users; determining one or more target users covered by an area to be inspected, the one or more target users being determined based on the one or more geographic locations; determining one or more POI deployment need indexes of the one or more target users, the POI having a preset function and a POI deployment need index of a target user being determined based on a number of POIs that have the preset function and were deployed within a set distance from the target user; and, providing a total deployment need index for the area to be inspected, the total deployment need index being determined based on the one or more POI deployment need indexes. Other implementations include corresponding systems, apparatus, and computer programs, configured to perform the actions of the methods, encoded on computer storage devices. These and other implementations may each optionally include one or more of the following features. For instance, determining the area to be inspected by dividing a target geographic area into a plurality of grid areas of the same size, and providing at least one grid area from the plurality of the grid areas as the area to be inspected; providing, one or more total deployment need indexes of one or more grid areas of the plurality of grid areas to a POI server of a set service provider to determine one or more addresses for deploying to the target geographic area one or more POIs that have the preset function; determining the POI deployment need index of the target user by k1/(N+k2), where k1 and k2 are two positive real numbers and N is the number of POIs that have the preset function and were deployed within the set distan...",
+  "application_number": "15909640",
+  "abstract": "Implementations for determining deployment need for a point of interest (POI) are disclosed. In one implementation, the deployment need for a POI is determined by: receiving geographical locations of one or more users, determining, based on the geographical locations, one or more target users covered by an area to be inspected, determining one or more POI deployment need indexes of the one or more target users, a POI deployment need index of a target user being determined based on a number of POIs that have the preset function of the POI and were deployed within a set distance from the target user, and providing a total deployment need index for the area to be inspected, the total deployment need index being determined based on the one or more POI deployment need indexes.",
+  "decision": "PENDING",
+  "patent_number": "nan",
+  "_processing_info": {
+    "original_size": 55123,
+    "optimized_size": 4029,
+    "reduction_percent": 92.69
+  }
+}

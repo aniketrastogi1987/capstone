@@ -1,0 +1,48 @@
+{
+  "date_produced": "20180620",
+  "publication_number": "US20180189640A1-20180705",
+  "main_ipcr_label": "G06N3063",
+  "decision": "PENDING",
+  "application_number": "15396571",
+  "inventor_list": [
+    {
+      "inventor_name_last": "HENRY",
+      "inventor_name_first": "G. GLENN",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "HOUCK",
+      "inventor_name_first": "KIM C.",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "PALANGPOUR",
+      "inventor_name_first": "PARVIZ",
+      "inventor_city": "Austin",
+      "inventor_state": "TX",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "First/second memories hold rows of N weight/data words. Each of N processing units (PU) of index J have a register, an accumulator having an output, an arithmetic unit that performs an operation thereon to accumulate a result, the first input receives the output of the accumulator, the second input receives a respective first memory weight word, the third input receives a respective data word output by the register, and multiplexing logic receives a respective second memory data word and a data word output by the register of PU J−1 and outputs a selected data word to the register. PU J−1 for PU 0 is PU N−1. The multiplexing logic of PU 0 also receives the data word output by the register of PU (N/2)−1. The multiplexing logic of PU N/2 also receives the data word output by the register of PU N−1.",
+  "filing_date": "20161231",
+  "patent_number": "None",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>FIG. 1 is a block diagram illustrating a processor that includes a neural network unit (NNU). FIG. 2 is a block diagram illustrating a NPU of FIG. 1 . FIG. 3 is a block diagram illustrating an embodiment of the arrangement of the N mux-regs of the N NPUs of the NNU of FIG. 1 to illustrate their operation as an N-word rotater, or circular shifter, for a row of data words received from the data RAM of FIG. 1 . FIG. 4 is a table illustrating a program for storage in the program memory of and execution by the NNU of FIG. 1 . FIG. 5 is a timing diagram illustrating the execution of the program of FIG. 4 by the NNU. FIG. 6A is a block diagram illustrating the NNU of FIG. 1 to execute the program of FIG. 4 . FIG. 6B is a flowchart illustrating operation of the processor of FIG. 1 to perform an architectural program that uses the NNU to perform multiply-accumulate-activation function computations classically associated with neurons of hidden layers of an artificial neural network such as performed by the program of FIG. 4 . FIG. 7 is a block diagram illustrating a NPU of FIG. 1 according to an alternate embodiment. FIG. 8 is a block diagram illustrating a NPU of FIG. 1 according to an alternate embodiment. FIG. 9 is a table illustrating a program for storage in the program memory of and execution by the NNU of FIG. 1 . FIG. 10 is a timing diagram illustrating the execution of the program of FIG. 9 by the NNU. FIG. 11 is a block diagram illustrating an embodiment of the NNU of FIG. 1 is shown. In the embodiment of FIG. 11 , a neuron is split into two portions, the activation function unit portion and the ALU portion (which also includes the shift register portion), and each activation function unit portion is shared by multiple ALU portions. FIG. 12 is a timing diagram illustrating the execution of the program of FIG. 4 by the NNU of FIG. 11 . FIG. 13 is a timing diagram illustrating the execution of the program of FIG. 4 by the N...",
+  "date_published": "20180705",
+  "title": "NEURAL NETWORK UNIT WITH SEGMENTABLE ARRAY WIDTH ROTATOR",
+  "ipcr_labels": [
+    "G06N3063",
+    "G06N304",
+    "G06F120875",
+    "G06F120862",
+    "G06F930"
+  ],
+  "_processing_info": {
+    "original_size": 605779,
+    "optimized_size": 3717,
+    "reduction_percent": 99.39
+  }
+}

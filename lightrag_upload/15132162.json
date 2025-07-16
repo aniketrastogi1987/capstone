@@ -1,0 +1,52 @@
+{
+  "decision": "ACCEPTED",
+  "application_number": "15132162",
+  "date_published": "20171019",
+  "date_produced": "20171004",
+  "title": "TECHNIQUE FOR REORDERING HARD DRIVE ACTIVATION REPORTS TO ACHIEVE SEQUENTIAL HARD DRIVE ORDERING",
+  "filing_date": "20160418",
+  "inventor_list": [
+    {
+      "inventor_name_last": "TSENG",
+      "inventor_name_first": "Kelvin",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "SHIH",
+      "inventor_name_first": "Trina",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LIANG",
+      "inventor_name_first": "Lawrence H.",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "CHEN",
+      "inventor_name_first": "Richard",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "ipcr_labels": [
+    "G06F944",
+    "G06F944"
+  ],
+  "main_ipcr_label": "G06F944",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>Various embodiments of the present invention sets forth a storage enclosure, including a first hard drive configured to transmit a first activation report to an operating system upon activation and a second hard drive configured to transmit a second activation report to the operating system upon activation, and a logic device configured to receive the first activation report, receive the second activation report, and transmit the first activation report and the second activation report to the operating system according to a first ordering according to which activation reports are to be transmitted. At least one advantage of the disclosed approach is that the operating system can indicate a particular hard drive using a specific logical ID, and that logical ID can then be used to quickly locate the hard drive within the corresponding bay. Thus, if a hard drive needs to be repaired or replaced, a technician can very quickly identify that hard drive based on data received from the OS.",
+  "patent_number": "9971606",
+  "abstract": "A storage enclosure includes a plurality of hard drives coupled to a logic device that, in turn communicates with an operating system (OS) executing on a host computer system. When the storage enclosure is powered on, the hard drives become active at different times and transmit activation reports to the logic device in a random order. The logic device receives these activation reports, and then reorders then to align with the bay numbers where the hard drives are mounted. The logic device then transmits the reordered activation reports, and the OS assigns logical IDs to the hard drives that match the bay numbers.",
+  "publication_number": "US20170300339A1-20171019",
+  "_processing_info": {
+    "original_size": 31802,
+    "optimized_size": 2691,
+    "reduction_percent": 91.54
+  }
+}

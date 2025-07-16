@@ -1,0 +1,52 @@
+{
+  "patent_number": "None",
+  "application_number": "15619299",
+  "date_published": "20171214",
+  "date_produced": "20171129",
+  "filing_date": "20170609",
+  "main_ipcr_label": "G06N308",
+  "abstract": "The technology disclosed introduces a concept of training a neural network to create an embedding space. The neural network is trained by providing a set of K+2 training documents, each training document being represented by a training vector x, the set including a target document represented by a vector xt, a favored document represented by a vector xs, and K>1 unfavored documents represented by vectors xiu, each of the vectors including input vector elements, passing the vector representing each document set through the neural network to derive an output vectors yt, ys and yiu, each output vector including output vector elements, the neural network including adjustable parameters which dictate an amount of influence imposed on each input vector element to derive each output vector element, adjusting the parameters of the neural network to reduce a loss, which is an average over all of the output vectors yiu of [D(yt,ys)−D(yt,yiu)].",
+  "publication_number": "US20170357896A1-20171214",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>The methods described herein address these challenges by providing novel ways to train neural networks for developing models and by providing novel ways to develop training data for training the neural networks for eventually developing the models. Described herein is a method of training a neural network to create an embedding space including a catalog of documents, the method including providing a plurality of training sets of K+2 training documents to a computer system, each training document being represented by a corresponding training vector x, each set of training documents including a target document represented by a vector x t , a favored document represented by a vector x s , and K>1 unfavored documents represented respectively by vectors x i u , where i is an integer from 1 to K, and each of the vectors including a plurality of input vector elements, for each given one of the training sets, passing, by the computer system, the vector representing each document of the training set through a neural network to derive a corresponding output vector y t , a corresponding output vector y s , and corresponding output vectors y i u , each of the output vectors including a plurality of output vector elements, the neural network including a set of adjustable parameters which dictate an amount of influence that is imposed on each input vector element of an input vector to derive each output vector element of the output vector, adjusting the parameters of the neural network so as to reduce a loss L, which is an average over all of the output vectors y i u of [D(y t ,y s )−D(y t ,y i u )], where D is a distance between two vectors, and for each given one of the training sets, passing the vector representing each document of the training set through the neural network having the adjusted parameters to derive the output vectors. Further described herein is a method of training a neural network to create an embedding space including a c...",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N304"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "TSATSIN",
+      "inventor_name_first": "Petr",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LONG",
+      "inventor_name_first": "Philip M.",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "LEGRAND",
+      "inventor_name_first": "Diego Guy M.",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "DUFFY",
+      "inventor_name_first": "Nigel",
+      "inventor_city": "San Francisco",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "CONTENT EMBEDDING USING DEEP METRIC LEARNING ALGORITHMS",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 154288,
+    "optimized_size": 3970,
+    "reduction_percent": 97.43
+  }
+}

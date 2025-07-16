@@ -1,0 +1,39 @@
+{
+  "patent_number": "None",
+  "application_number": "15407147",
+  "date_published": "20170504",
+  "date_produced": "20170419",
+  "filing_date": "20170116",
+  "main_ipcr_label": "G06N9900",
+  "abstract": "In accordance with disclosed embodiments, there are provided systems, methods, and apparatuses for implementing machine learning model training and deployment with a rollback mechanism within a computing environment. For example, an exemplary machine learning platform includes means for receiving training data as input at the machine learning platform, in which the training data includes a multiple transactions, each of the transactions specifying a plurality of features upon which to make a prediction and a label representing a correct answer for the plurality of features according to each respective transaction; specifying a model to be trained by the machine learning platform using the training data, in which the model includes a plurality of algorithms and source code; generating a new predictive engine variant by training the model to algorithmically arrive upon the label representing the correct answer as provided with the training data based on the plurality of features for each...",
+  "publication_number": "US20170124487A1-20170504",
+  "summary": "<SOH> BRIEF DESCRIPTION OF THE DRAWINGS <EOH>Embodiments are illustrated by way of example, and not by way of limitation, and will be more fully understood with reference to the following detailed description when considered in connection with the figures in which: FIG. 1A depicts an exemplary stack integration diagram in accordance with described embodiments; FIG. 1B depicts an exemplary machine learning deployment scenario using PredictionIO Lambda in accordance with described embodiments; FIG. 1C depicts an exemplary network configuration diagram in accordance with described embodiments; FIG. 2A depicts a machine learning framework based on a single predictive engine in accordance with described embodiments; FIG. 2B depicts a machine learning framework based on multiple predictive engines in accordance with described embodiments; FIG. 3A depicts a machine learning framework and the components of a predictive engine involved in training predictive models in accordance with described embodiments; FIG. 3B depicts a machine learning framework and the components of a predictive engine involved in responding to dynamic queries to the predictive engine in accordance with described embodiments; FIG. 4 depicts the structure of a predictive engine in accordance with described embodiments; FIG. 5A depicts a method for automatically tuning parameters of a predictive engine by evaluating a generated list of parameters sets in accordance with described embodiments; FIG. 5B depicts a method for automatically tuning parameters of a predictive engine by evaluating a generated list of parameters sets in accordance with described embodiments; FIG. 6A depicts a method for automatically tuning parameters of a predictive engine by evaluating iteratively generated parameter sets in accordance with described embodiments; FIG. 6B depicts a method for automatically tuning parameters of a predictive engine by evaluating iteratively generated parameter sets in accordance with described embo...",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F1114",
+    "G06N504"
+  ],
+  "inventor_list": [
+    {
+      "inventor_name_last": "Szeto",
+      "inventor_name_first": "Kit Pang",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Chan",
+      "inventor_name_first": "Simon",
+      "inventor_city": "Belmont",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "title": "SYSTEMS, METHODS, AND APPARATUSES FOR IMPLEMENTING MACHINE LEARNING MODEL TRAINING AND DEPLOYMENT WITH A ROLLBACK MECHANISM",
+  "decision": "PENDING",
+  "_processing_info": {
+    "original_size": 246984,
+    "optimized_size": 3783,
+    "reduction_percent": 98.47
+  }
+}

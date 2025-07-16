@@ -1,0 +1,37 @@
+{
+  "date_produced": "20160831",
+  "publication_number": "US20160267396A1-20160915",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15065534",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Gray",
+      "inventor_name_first": "Alexander",
+      "inventor_city": "Santa Clara",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Kirshner",
+      "inventor_name_first": "Sergey",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "A system and method for using machine learning to generate a model from audited data includes a plurality of data sources, a training server having a machine learning unit, and a prediction/scoring server having a machine learning model and a data repository. The training server is coupled to receive and process information from the plurality of the resources and store it in the data repository. The training server, in particular, the machine learning unit fuses the input data and ground truth data. The machine learning unit applies machine learning to the fused input data and ground truth data to create a model. The machine learning unit then provides the model to the prediction/scoring server for use in processing new data. The prediction/scoring server uses the model to process new data and provide or take actions prescribed by the model.",
+  "filing_date": "20160309",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The present disclosure overcomes the deficiencies of the prior art by providing a system and method for generating a model from audited data and systems and methods for using the model generated from the audited data to process new data. In one embodiment, the system of the present disclosure includes: a plurality of data sources, a training server having a machine learning unit, a prediction/scoring server having a machine learning predictor, and a data repository. The training server is coupled to receive and process information from the plurality of the resources. The training server processes the information received from the plurality of the resources and stores it in the data repository. The training server, in particular, the machine learning unit fuses the input data and ground truth data. The machine learning unit applies machine learning to the fused input data and ground truth data to create a model. The machine learning unit then provides the model to the prediction/scoring server for use in processing new data. The prediction/scoring server uses the model to process new data and provide or take actions prescribed by the model. In general, another innovative aspect of the present disclosure described in this disclosure may be embodied in a method for generating a model from audited data comprising: receiving input data; receiving ground truth data; fusing the input data and the ground truth data to create fused data; applying machine learning to create a model from the fused data. Other aspects include corresponding methods, systems, apparatus, and computer program products for these and other innovative aspects. These and other embodiments may each optionally include one or more of the following features. For instance, the operations further include receiving unprocessed data, processing the unprocessed data with the model created from the fused data to identify an action, and one or more of providing the action and performing the act...",
+  "date_published": "20160915",
+  "title": "System and Method for Using Machine Learning to Generate a Model from Audited Data",
+  "ipcr_labels": [
+    "G06N9900"
+  ],
+  "_processing_info": {
+    "original_size": 96431,
+    "optimized_size": 3578,
+    "reduction_percent": 96.29
+  }
+}

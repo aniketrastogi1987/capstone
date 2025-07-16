@@ -1,0 +1,40 @@
+{
+  "date_produced": "20170301",
+  "publication_number": "US20170076212A1-20170316",
+  "main_ipcr_label": "G06N504",
+  "decision": "ACCEPTED",
+  "application_number": "15360444",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Shams",
+      "inventor_name_first": "Nima Lahijani",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Maheshaiah",
+      "inventor_name_first": "Suhas",
+      "inventor_city": "San Jose",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Audio sensors collaborate for geo-location and tracking of multiple users. Different users can be independently geo-located and tracked within the AI environment. Location is determined from two or more AI clients of known locations that detect an event such as a human voice command to connect a call with a specific user. Responsive to classification of the event in view of the estimated location, a command for an AI action, such as connecting a call between users, is received for a response to the event at the AI clients that detected the event, or others.",
+  "filing_date": "20161123",
+  "patent_number": "9830554",
+  "summary": "<SOH> SUMMARY <EOH>To meet the above-described needs, methods, computer program products, and systems for collaboration of audio sensors for geo-location and tracking of multiple users in a device-independent artificial intelligence (AI) environment, such as home, office, outdoor area, or business. In one embodiment, location information is stored for each of the plurality of geographically-dispersed AI clients. Each of the AI clients can include an audio sensor, a network controller, and a feedback mechanism (e.g., a speaker or an LED) within a common enclosure. Responsive to detection of an event (e.g., involving a human, machine, or ambient condition) at two or more of the plurality of geographically-dispersed AI clients, audio event data is centrally received from audio sensors of the two or more of the plurality of geographically-dispersed AI sensors. For example, a user can speak a command for turning on lights while walking down a flight of stairs that is detected by one AI client at the top of the stairs and one at the bottom of the stairs. Different users can be independently geo-located and tracked within the AI environment. Identification data can be applied to events to distinguish one user from another, including voice prints, habits, walking patters, and the like. As users move around an AI environment, new events are detected at new AI clients, which are processed to update location. A location of users involved in a call is estimated based on the location information and the audio event data (e.g., triangulation). Responsive to classification of the event in view of the estimated location, a command for an AI action, such as connecting a call between users, is received for a response to the event at the AI clients that detected the event, or others. Advantageously, the user experience with AI is more natural because the AI is not dependent on users carrying around a device for location-based AI interactions, such as calls between users.",
+  "date_published": "20170316",
+  "title": "ESTABLISHING AUDIO CONNECTIONS BETWEEN USERS BEING CONTINUOUSLY TRACKED BY COLLABORATIVE SENSORS",
+  "ipcr_labels": [
+    "G06N504",
+    "H04L2908",
+    "G06F316",
+    "H04L2906"
+  ],
+  "_processing_info": {
+    "original_size": 59837,
+    "optimized_size": 3324,
+    "reduction_percent": 94.44
+  }
+}

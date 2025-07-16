@@ -1,0 +1,54 @@
+{
+  "date_produced": "20180131",
+  "publication_number": "US20180046934A1-20180215",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15232244",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Aravkin",
+      "inventor_name_first": "Aleksandr Y.",
+      "inventor_city": "Seattle",
+      "inventor_state": "WA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Guarnieri",
+      "inventor_name_first": "Salvatore Angelo",
+      "inventor_city": "New York",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Pistoia",
+      "inventor_name_first": "Marco",
+      "inventor_city": "Amawalk",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Tripp",
+      "inventor_name_first": "Omer",
+      "inventor_city": "Bronx",
+      "inventor_state": "NY",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Techniques for generating a warning filter to filter the warnings output from a static program analysis tool are provided. In one example, a computer-implemented method comprises determining feature vector data for a set of warnings, wherein the set of warnings is generated in response to static analysis of a computer program, and wherein the feature vector data comprises a feature vector indicative of an attribute of a warning of the set of warnings. The computer-implemented method also comprises determining a warning filter that identifies a first subset of the set of warnings as representing true positives based on the feature vector data and classified warning data, and wherein the classified warning data represents a second subset of the set of warnings that have been classified to indicate whether respective members of the second subset are indicative of true positives.",
+  "filing_date": "20160809",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>The following presents a summary to provide a basic understanding of one or more embodiments of the invention. This summary is not intended to identify key or critical elements, or delineate any scope of the particular embodiments or any scope of the claims. Its sole purpose is to present concepts in a simplified form as a prelude to the more detailed description that is presented later. In one or more embodiments described herein, systems, computer-implemented methods, apparatus and/or computer program products that facilitate synchronization of processing components for parallel deep learning are described. According to an embodiment of the present invention, a system can comprise a memory that stores computer executable components and a processor that executes computer executable components stored in the memory. The computer executable components can comprise a feature mapping component that can receive warning data. The warning data can represent a set of warnings generated in response to a static program analysis of computer program data. The feature mapping component can generate feature vector data representing attributes of the set of warnings. The system can further comprise a statistical learning component that can receive classified warning data. The classified warning data can represent a first subset of the set of warnings. A first warning of the first subset can be classified to indicate whether the first warning represents a false positive. The statistical learning component can further generate a warning filter. The warning filter can identify a second subset of the set of warnings as representing false positives based on the classified warning data and the feature vector data. In some embodiments, elements described in connection with the system can be embodied in different forms such as a computer-implemented method, a computer program product, or another form.",
+  "date_published": "20180215",
+  "title": "WARNING FILTER BASED ON MACHINE LEARNING",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06F2156",
+    "G06F2157",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 78479,
+    "optimized_size": 3830,
+    "reduction_percent": 95.12
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "date_produced": "20170915",
+  "publication_number": "US20170278009A1-20170928",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15077049",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Rajan",
+      "inventor_name_first": "Vaibhav",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Bhattacharya",
+      "inventor_name_first": "Sakyajit",
+      "inventor_city": "Bangalore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Huddar",
+      "inventor_name_first": "Vijay",
+      "inventor_city": "Bijapur",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Sengupta",
+      "inventor_name_first": "Abhishek",
+      "inventor_city": "Kolkata",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Kirkendall",
+      "inventor_name_first": "James D.",
+      "inventor_city": "Tucson",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Fullerton",
+      "inventor_name_first": "Stephen",
+      "inventor_city": "Jacksonville Beach",
+      "inventor_state": "FL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Sinclair",
+      "inventor_name_first": "Katerina",
+      "inventor_city": "Tucson",
+      "inventor_state": "AZ",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Solanki",
+      "inventor_name_first": "Bhupendra Singh",
+      "inventor_city": "Indore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    },
+    {
+      "inventor_name_last": "Prasad",
+      "inventor_name_first": "Prathosh Aragulla",
+      "inventor_city": "Mysore",
+      "inventor_state": "",
+      "inventor_country": "IN"
+    }
+  ],
+  "abstract": "A method and a system for predicting admission of a human subject to a first ward in a medical center are disclosed. A patient dataset is generated based on at least a measure of one or more physiological parameters associated with one or more first human subjects and a first information pertaining to the admission of each of the one or more first human subjects to the first ward. For a first human subject of the one or more first human subjects, a first score at each of the one or more first time instants is determined. Further, one or more second time instants from the one or more first time instants are identified. Further, a second score at each of the one or more second time instants is determined. In an embodiment, the first classifier is trained based on at least the second score, and the first information.",
+  "filing_date": "20160322",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>According to embodiments illustrated herein, there is provided a method for training a first classifier capable to predict an admission of a human subject to a first ward in a medical center. The method includes generating, by one or more processors, a patient dataset based on at least a measure of one or more physiological parameters associated with one or more first human subjects, received from one or more first sensors at one or more first time instants, and a first information pertaining to the admission of each of the one or more first human subjects to the first ward. Further, for a first human subject of the one or more first human subjects, the method includes determining, by the one or more processors, a first score at each of the one or more first time instants based on the measure of the one or more physiological parameters associated with the first human subject. The method further includes identifying, by the one or more processors, one or more second time instants from the one or more first time instants based on the first score and a predetermined threshold value. The method further includes determining, by the one or more processors, a second score for each of the one or more physiological parameters associated with the first human subject at each of the one or more second time instants, based on the measure of each of the one or more physiological parameters at each of the one or more second time instants. The method further includes training, by the one or more processors, the first classifier based on at least the second score, and the first information pertaining to the admission of each of the one or more first human subjects to the first ward. According to embodiments illustrated herein, there is provided another method for training a first classifier capable to predict an admission of a human subject to a first ward in a medical center. The method include generating, by one or more processors, a patient dataset based on at ...",
+  "date_published": "20170928",
+  "title": "METHOD AND SYSTEM FOR PREDICTING ADMISSION OF A HUMAN SUBJECT TO A WARD IN A MEDICAL CENTER",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N700",
+    "G06F1730",
+    "H04W400"
+  ],
+  "_processing_info": {
+    "original_size": 144449,
+    "optimized_size": 4644,
+    "reduction_percent": 96.79
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date_produced": "20170705",
+  "publication_number": "US20170206469A1-20170720",
+  "main_ipcr_label": "G06N9900",
+  "decision": "PENDING",
+  "application_number": "15346707",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Das",
+      "inventor_name_first": "Subhro",
+      "inventor_city": "Broadview",
+      "inventor_state": "IL",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Lade",
+      "inventor_name_first": "Prasanth",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Srinivasan",
+      "inventor_name_first": "Soundar",
+      "inventor_city": "Sunnyvale",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    },
+    {
+      "inventor_name_last": "Ghosh",
+      "inventor_name_first": "Rumi",
+      "inventor_city": "Palo Alto",
+      "inventor_state": "CA",
+      "inventor_country": "US"
+    }
+  ],
+  "abstract": "Methods, systems, and apparatuses for adapting a predictive model for a manufacturing process. One method includes receiving, with an electronic processor, a plurality of data points for a plurality of manufactured parts and the predictive model. The predictive model outputs a label for a manufactured part provided by the manufacturing process indicating whether the manufactured part is accepted or rejected. The method also includes estimating, with the electronic processor, a drift for each of the plurality of data points and generating, with the electronic processor, an adapted version of the predictive model based on the predictive model and the drift for each of the plurality of data points. In addition, the method includes outputting, with the electronic processor, a label for each of the plurality of manufactured parts using the adapted version of the predictive model.",
+  "filing_date": "20161108",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY <EOH>As one example, a number of test measurements may be generated along a manufacturing line. Some of these test measurements can be used to determine whether a particular part (e.g., an assembled product) should be accepted or rejected (e.g., and designated as scrap). A predictive model may be used to make this determination based on the test measurements. Such a predictive model may be trained using historical data for the manufacturing line (e.g., test measurements and corresponding labels indicating whether a particular part was accepted or rejected). However, over time the predictive model may become out-of-date and provide inaccurate determinations of whether a particular part should be accepted or rejected. Accordingly, embodiments of the invention relate to methods and systems for performing automatic model adaptation and online learning in unstable environments. In some embodiments, adapted predictive models may relate to manufacturing lines. To adaptively tune such a predictive model, test measurements generated along the manufacturing line may be fed to an adaptive tuning system (e.g., computer hardware executing a set of instructions) that uses the test measurements to adapt or tune the predictive model and keep the model updated. One embodiment provides a method of adapting a predictive model for a manufacturing process. The method includes receiving, with an electronic processor, the predictive model. The predictive model outputs a label for a manufactured part provided by the manufacturing process, wherein the label indicates whether the manufactured part is accepted or rejected. The method also includes receiving, with the electronic processor, a plurality of data points associated with a plurality of manufactured parts and estimating a drift for each of the plurality of data points. The method also includes generating, with the electronic processor, an adapted version of the predictive model based on the predictive model and the drif...",
+  "date_published": "20170720",
+  "title": "MODEL ADAPTION AND ONLINE LEARNING FOR UNSTABLE ENVIRONMENTS",
+  "ipcr_labels": [
+    "G06N9900",
+    "G06N502"
+  ],
+  "_processing_info": {
+    "original_size": 60796,
+    "optimized_size": 3889,
+    "reduction_percent": 93.6
+  }
+}

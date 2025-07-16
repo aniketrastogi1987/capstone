@@ -1,0 +1,52 @@
+{
+  "date_produced": "20160706",
+  "publication_number": "US20160210552A1-20160721",
+  "main_ipcr_label": "G06N308",
+  "decision": "PENDING",
+  "application_number": "14914326",
+  "inventor_list": [
+    {
+      "inventor_name_last": "Kasabov",
+      "inventor_name_first": "Nikola Kirilov",
+      "inventor_city": "Auckland",
+      "inventor_state": "",
+      "inventor_country": "NZ"
+    },
+    {
+      "inventor_name_last": "Hou",
+      "inventor_name_first": "Zeng-Guang",
+      "inventor_city": "Beijing",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    },
+    {
+      "inventor_name_last": "Feigin",
+      "inventor_name_first": "Valery",
+      "inventor_city": "Auckland",
+      "inventor_state": "",
+      "inventor_country": "NZ"
+    },
+    {
+      "inventor_name_last": "Chen",
+      "inventor_name_first": "Yixiong",
+      "inventor_city": "Shanghai",
+      "inventor_state": "",
+      "inventor_country": "CN"
+    }
+  ],
+  "abstract": "This invention involves use of temporal or spatio/spector-temporal data (SSTD) for early classification of outputs that are results of spatio-temporal patterns of data. Classification models are based on spiking neural networks (SNN) suitable to learn and classify SSTD. The invention may predict early events in many applications, i.e. engineering, bioinformatics, neuroinformatics, predicting response to treatment of neurological and brain disease, ecology, environment, medicine, and economics, among others. The invention involves a method and system for personalized modelling of SSTD and early prediction of events based on evolving spiking neural network reservoir architecture (eSNNr). The system includes a spike-time encoding module to encode continuous value input information into spike trains, a recurrent 3D SNNr and an eSSN as an output classification module.",
+  "filing_date": "20160225",
+  "patent_number": "None",
+  "summary": "<SOH> SUMMARY OF THE INVENTION <EOH>According to a first aspect of the invention there is provided a computer-implemented method of creating an evolving spiking neural network personalized model Mx for use in determining a prognostic outcome specific to a subject x represented as input data SSTDx, wherein the input data of x comprises a number of static and dynamic variables in relation to a scenario of interest and wherein the model Mx comprises a spiking neural network reservoir and a spiking neural network classifier, the method comprising: extracting from a global dataset D of samples also having the same static and dynamic variable features relating to the scenario as the data of x, and for which an outcome is known, a subset Kx having static variable features that most closely accord to the static variable features of the subject x, and wherein the method further comprises: encoding the data into spike sequences, wherein the spike sequences represent individual input patterns; constructing the spiking neural network reservoir; mapping the input variables into reservoir input neurons located according to the spatial location of the input variables in the data, or according to the temporal similarity of the input variables; training the spiking neural network reservoir to learn the spike sequences; constructing the spiking neural network classifier; and training the spiking neural network classifier to recognise and classify similar input spike sequences related to a future event at an earlier time point of prediction. Preferably, the spiking neural network reservoir is a three dimensional spiking neural network reservoir. Preferably, the step of mapping the input variables into the reservoir comprises mapping the temporal input variables into spatially located input neurons in the reservoir. Preferably, the step of mapping input variables into the reservoir comprises mapping spatio-temporal brain data, including EEG, fMRI and other brain data, using a standard ...",
+  "date_published": "20160721",
+  "title": "Improved Method And System For Predicting Outcomes Based On Spatio/Spectro-Temporal Data",
+  "ipcr_labels": [
+    "G06N308",
+    "G06N700"
+  ],
+  "_processing_info": {
+    "original_size": 151921,
+    "optimized_size": 3900,
+    "reduction_percent": 97.43
+  }
+}
