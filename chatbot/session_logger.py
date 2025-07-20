@@ -27,6 +27,14 @@ except ImportError:
     MONITORING_AVAILABLE = False
     print("⚠️ Monitoring system not available")
 
+# Import session database
+try:
+    from monitoring.session_database import session_db
+    SESSION_DB_AVAILABLE = True
+except ImportError:
+    SESSION_DB_AVAILABLE = False
+    print("⚠️ Session database not available")
+
 logger = logging.getLogger(__name__)
 
 @dataclass
@@ -49,6 +57,18 @@ class SessionMetrics:
     # Evaluation summary
     avg_relevance_score: float = 0.0
     avg_coherence_score: float = 0.0
+    
+    # Enhanced evaluation metrics
+    avg_factual_accuracy: float = 0.0
+    avg_completeness: float = 0.0
+    avg_logical_flow: float = 0.0
+    avg_contextual_consistency: float = 0.0
+    avg_topical_relevance_unity: float = 0.0
+    avg_reference_resolution: float = 0.0
+    avg_discourse_structure_cohesion: float = 0.0
+    avg_faithfulness_retrieval_chain: float = 0.0
+    avg_temporal_causal_coherence: float = 0.0
+    avg_semantic_coherence: float = 0.0
     
     # System health
     lightrag_available: bool = True
@@ -83,6 +103,14 @@ class SessionLogger:
         # Create sessions directory
         self.sessions_dir = Path("sessions")
         self.sessions_dir.mkdir(exist_ok=True)
+        
+        # Create session in database if available
+        if SESSION_DB_AVAILABLE:
+            try:
+                session_db.create_session(self.session_id)
+                logger.info(f"Session created in database: {self.session_id}")
+            except Exception as e:
+                logger.error(f"Failed to create session in database: {e}")
         
         logger.info(f"Session logger initialized: {self.session_id}")
     
@@ -168,6 +196,27 @@ class SessionLogger:
             except Exception as e:
                 logger.error(f"Failed to record metrics to monitoring system: {e}")
         
+        # Record to session database if available
+        if SESSION_DB_AVAILABLE:
+            try:
+                # Record interaction to session database
+                session_db.record_interaction(
+                    session_id=self.session_id,
+                    query=user_query,
+                    response=assistant_response,
+                    data_source=data_source,
+                    response_time_ms=int(response_time * 1000),
+                    guardrail_scores=guardrail_scores,
+                    evaluation_scores=evaluation_scores,
+                    interaction_type="llm_rag" if evaluation_scores else "menu_selection"
+                )
+                
+                # Check for session closure
+                session_db.detect_session_closure(self.session_id)
+                
+            except Exception as e:
+                logger.error(f"Failed to record to session database: {e}")
+        
         logger.debug(f"Logged conversation entry: {len(self.conversation_history)} total")
     
     def log_query(self, query: str):
@@ -205,13 +254,26 @@ class SessionLogger:
         """Update running averages for evaluation scores"""
         current_count = self.metrics.total_responses
         
-        # Update relevance and coherence scores
+        # Update basic evaluation scores
         self.metrics.avg_relevance_score = (
             (self.metrics.avg_relevance_score * (current_count - 1) + scores.get('relevance_score', 0.0)) / current_count
         )
         self.metrics.avg_coherence_score = (
             (self.metrics.avg_coherence_score * (current_count - 1) + scores.get('coherence_score', 0.0)) / current_count
         )
+        
+        # Update enhanced evaluation metrics
+        enhanced_metrics = [
+            'factual_accuracy', 'completeness', 'logical_flow', 'contextual_consistency',
+            'topical_relevance_unity', 'reference_resolution', 'discourse_structure_cohesion',
+            'faithfulness_retrieval_chain', 'temporal_causal_coherence', 'semantic_coherence'
+        ]
+        
+        for metric in enhanced_metrics:
+            current_avg = getattr(self.metrics, f'avg_{metric}', 0.0)
+            new_value = scores.get(metric, 0.0)
+            setattr(self.metrics, f'avg_{metric}', 
+                   (current_avg * (current_count - 1) + new_value) / current_count)
     
     def update_system_status(self, lightrag_available: bool = True):
         """Update system availability status"""
@@ -253,7 +315,6 @@ class SessionLogger:
             "metrics": asdict(self.metrics),
             "conversation_summary": {
                 "total_entries": len(self.conversation_history),
-                "data_source_breakdown": self._get_data_source_breakdown(),
                 "error_summary": self._get_error_summary()
             }
         }
@@ -264,6 +325,14 @@ class SessionLogger:
         detailed_file = session_dir / "detailed_metrics.json"
         with open(detailed_file, 'w') as f:
             json.dump(detailed_metrics, f, indent=2, default=str)
+        
+        # Close session in database if available
+        if SESSION_DB_AVAILABLE:
+            try:
+                session_db.close_session_with_evaluation(self.session_id)
+                logger.info(f"Session closed in database: {self.session_id}")
+            except Exception as e:
+                logger.error(f"Failed to close session in database: {e}")
         
         logger.info(f"Session saved to: {session_dir}")
         return session_dir
@@ -312,7 +381,17 @@ class SessionLogger:
             },
             "evaluation_summary": {
                 "avg_relevance": self.metrics.avg_relevance_score,
-                "avg_coherence": self.metrics.avg_coherence_score
+                "avg_coherence": self.metrics.avg_coherence_score,
+                "avg_factual_accuracy": self.metrics.avg_factual_accuracy,
+                "avg_completeness": self.metrics.avg_completeness,
+                "avg_logical_flow": self.metrics.avg_logical_flow,
+                "avg_contextual_consistency": self.metrics.avg_contextual_consistency,
+                "avg_topical_relevance_unity": self.metrics.avg_topical_relevance_unity,
+                "avg_reference_resolution": self.metrics.avg_reference_resolution,
+                "avg_discourse_structure_cohesion": self.metrics.avg_discourse_structure_cohesion,
+                "avg_faithfulness_retrieval_chain": self.metrics.avg_faithfulness_retrieval_chain,
+                "avg_temporal_causal_coherence": self.metrics.avg_temporal_causal_coherence,
+                "avg_semantic_coherence": self.metrics.avg_semantic_coherence
             },
             "system_usage": {
                 "lightrag_available": self.metrics.lightrag_available,

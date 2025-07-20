@@ -4,6 +4,9 @@ transformers>=4.30.0
 accelerate>=0.20.0
 sentencepiece>=0.1.99
 beautifulsoup4
+numpy 
+sentence-transformers 
+rouge-score
 
 # Neo4j
 neo4j>=5.0.0
@@ -62,3 +65,6 @@ prometheus-api-client
 prometheus-client-utils
 prometheus-client-utils
 psutil
+
+# File system monitoring
+watchdog>=3.0.0

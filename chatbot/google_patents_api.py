@@ -78,9 +78,21 @@ class GooglePatentsAPI:
                 chrome_options.add_argument('--disable-dev-shm-usage')
                 chrome_options.add_argument('--disable-gpu')
                 chrome_options.add_argument('--window-size=1920,1080')
+                chrome_options.add_argument('--disable-extensions')
+                chrome_options.add_argument('--disable-plugins')
+                chrome_options.add_argument('--disable-images')
+                chrome_options.add_argument('--disable-javascript')  # Disable JS for faster loading
+                chrome_options.add_argument('--disable-web-security')
+                chrome_options.add_argument('--allow-running-insecure-content')
+                chrome_options.add_argument('--disable-background-timer-throttling')
+                chrome_options.add_argument('--disable-backgrounding-occluded-windows')
+                chrome_options.add_argument('--disable-renderer-backgrounding')
+                chrome_options.add_argument('--disable-features=TranslateUI')
+                chrome_options.add_argument('--disable-ipc-flooding-protection')
                 
                 self.driver = webdriver.Chrome(options=chrome_options)
                 self.driver.set_page_load_timeout(30)
+                self.driver.implicitly_wait(10)
                 logger.info("✅ Selenium WebDriver initialized successfully")
             except Exception as e:
                 logger.error(f"❌ Failed to initialize Selenium: {e}")
@@ -121,10 +133,13 @@ class GooglePatentsAPI:
             # Navigate to page
             self.driver.get(search_url)
             
-            # Wait for results to load
-            WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "article"))
-            )
+            # Wait for results to load with better error handling
+            try:
+                WebDriverWait(self.driver, 10).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "article"))
+                )
+            except Exception as e:
+                logger.warning(f"Timeout waiting for results, continuing anyway: {e}")
             
             # Give extra time for all results to load
             time.sleep(3)
@@ -141,6 +156,13 @@ class GooglePatentsAPI:
         except Exception as e:
             logger.error(f"Selenium search failed: {e}")
             return []
+        finally:
+            # Always cleanup after search
+            try:
+                if self.driver:
+                    self.driver.delete_all_cookies()
+            except Exception as e:
+                logger.warning(f"Error cleaning up Selenium session: {e}")
     
     def _search_with_requests(self, query: str, max_results: int) -> List[PatentResult]:
         """Search using requests (fallback method)"""
@@ -181,11 +203,22 @@ class GooglePatentsAPI:
             # Rate limiting
             self._rate_limit()
             
+            # Validate patent number format
+            if not self._is_valid_patent_number(patent_number):
+                logger.warning(f"Invalid patent number format: {patent_number}")
+                return None
+            
             # Build patent URL
             patent_url = f"{self.base_url}/patent/{patent_number}"
             
             # Make request
             response = self.session.get(patent_url, timeout=self.timeout)
+            
+            # Handle 404 errors gracefully
+            if response.status_code == 404:
+                logger.warning(f"Patent not found in Google Patents: {patent_number}")
+                return None
+            
             response.raise_for_status()
             
             # Parse patent details
@@ -198,11 +231,15 @@ class GooglePatentsAPI:
             
             return patent
             
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Request failed for patent '{patent_number}': {e}")
-            return None
+        except requests.exceptions.HTTPError as e:
+            if e.response.status_code == 404:
+                logger.warning(f"Patent not found in Google Patents: {patent_number}")
+                return None
+            else:
+                logger.error(f"HTTP error getting patent details: {e}")
+                return None
         except Exception as e:
-            logger.error(f"Error getting patent details for '{patent_number}': {e}")
+            logger.error(f"Error getting patent details: {e}")
             return None
     
     def _build_search_url(self, query: str) -> str:
@@ -276,13 +313,50 @@ class GooglePatentsAPI:
             if not patent_number:
                 return None
             
-            # Extract title
-            title_element = element.find('span', itemprop='title')
-            title = title_element.get_text(strip=True) if title_element else "Unknown Title"
+            # Extract title - try multiple selectors
+            title = "Unknown Title"
+            title_selectors = [
+                'span[itemprop="title"]',
+                'h3',
+                'h2', 
+                'h1',
+                '.title',
+                '.patent-title'
+            ]
             
-            # Extract abstract
-            abstract_element = element.find('span', itemprop='abstract')
-            abstract = abstract_element.get_text(strip=True) if abstract_element else None
+            for selector in title_selectors:
+                title_element = element.select_one(selector)
+                if title_element:
+                    title_text = title_element.get_text(strip=True)
+                    if title_text and title_text != patent_number:
+                        title = title_text
+                        break
+            
+            # If no title found, use a generic one
+            if title == "Unknown Title":
+                title = f"Patent {patent_number}"
+            
+            # Extract abstract - try multiple selectors
+            abstract = None
+            abstract_selectors = [
+                'span[itemprop="abstract"]',
+                '.abstract',
+                '.patent-abstract',
+                'p',
+                '.description'
+            ]
+            
+            for selector in abstract_selectors:
+                abstract_element = element.select_one(selector)
+                if abstract_element:
+                    abstract_text = abstract_element.get_text(strip=True)
+                    if abstract_text and len(abstract_text) > 20 and abstract_text != patent_number:
+                        abstract = abstract_text
+                        break
+            
+            # If no abstract found, create a generic one
+            if not abstract:
+                abstract = f"Patent {patent_number} - {title}"
             
             # Extract inventors
             inventors = []
@@ -524,10 +598,32 @@ class GooglePatentsAPI:
         """Clean up resources"""
         if self.driver:
             try:
+                # Close all windows
+                self.driver.close()
+                # Quit the driver
                 self.driver.quit()
                 logger.info("✅ Selenium WebDriver closed")
             except Exception as e:
                 logger.error(f"Error closing WebDriver: {e}")
+            finally:
+                self.driver = None
+
+    def _is_valid_patent_number(self, patent_number: str) -> bool:
+        """Validate patent number format"""
+        import re
+        
+        # Common patent number patterns
+        patterns = [
+            r'^[A-Z]{2}\d+[A-Z]?\d*$',  # US10438354B2, EP1234567A1
+            r'^[A-Z]{1,2}\d+[A-Z]?\d*$',  # US12345678, CN123456789
+            r'^[A-Z]{2,3}\d+[A-Z]?\d*$',  # WO123456789, JP123456789
+        ]
+        
+        for pattern in patterns:
+            if re.match(pattern, patent_number):
+                return True
+        
+        return False
 
 # Convenience functions for easy integration
 def search_google_patents(query: str, max_results: int = 10, use_selenium: bool = False) -> List[Dict]:

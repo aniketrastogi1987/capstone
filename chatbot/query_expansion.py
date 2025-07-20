@@ -18,75 +18,81 @@ class QueryExpansion:
     """
     
     def __init__(self):
-        # Comprehensive technology synonym mappings
+        # Comprehensive technology synonym mappings for G06N/G06V computer technology
         self.TECHNOLOGY_SYNONYMS = {
-            # Internet of Things
-            "iot": ["internet of things", "connected devices", "smart devices", "wireless sensors", 
-                   "smart home", "industrial iot", "iiot", "edge computing", "sensor networks"],
-            
-            # Machine Learning & AI
+            # Machine Learning & AI (G06N)
             "machine learning": ["ml", "ai", "artificial intelligence", "deep learning", "neural networks",
                                "predictive analytics", "data science", "statistical learning"],
             "ai": ["artificial intelligence", "machine learning", "ml", "deep learning", "neural networks"],
             "ml": ["machine learning", "artificial intelligence", "ai", "deep learning"],
+            "artificial intelligence": ["ai", "machine learning", "ml", "deep learning", "neural networks"],
+            "deep learning": ["neural networks", "machine learning", "ai", "artificial intelligence"],
+            "neural networks": ["deep learning", "machine learning", "ai", "artificial intelligence"],
             
-            # Blockchain & Cryptocurrency
-            "blockchain": ["distributed ledger", "dlt", "cryptocurrency", "bitcoin technology", 
-                          "smart contracts", "decentralized", "web3", "defi"],
-            "cryptocurrency": ["bitcoin", "ethereum", "blockchain", "digital currency", "crypto"],
+            # Computer Vision & Image Processing (G06V)
+            "computer vision": ["image processing", "visual recognition", "image analysis", "pattern recognition"],
+            "image processing": ["computer vision", "visual recognition", "image analysis"],
+            "pattern recognition": ["classification", "machine learning", "neural networks"],
+            "classification": ["pattern recognition", "machine learning", "neural networks"],
             
-            # Wireless & Communications
-            "5g": ["fifth generation", "5th generation", "next generation wireless", "5g network",
-                   "mobile broadband", "wireless communication"],
-            "wifi": ["wireless fidelity", "wireless networking", "802.11", "wireless lan"],
-            
-            # Cloud Computing
-            "cloud computing": ["cloud", "saas", "software as a service", "virtualization", 
-                              "distributed computing", "edge computing", "fog computing"],
-            "saas": ["software as a service", "cloud computing", "web applications"],
-            
-            # Data & Analytics
-            "big data": ["data analytics", "data mining", "business intelligence", "analytics",
-                        "data science", "predictive analytics", "data warehouse"],
+            # Data Mining & Analytics (G06N)
+            "data mining": ["data analytics", "business intelligence", "predictive analytics", "data science"],
             "data analytics": ["analytics", "business intelligence", "data mining", "big data"],
+            "big data": ["data analytics", "data mining", "business intelligence", "analytics",
+                        "data science", "predictive analytics"],
             
-            # Security
+            # Natural Language Processing (G06N)
+            "nlp": ["natural language processing", "text analysis", "language understanding"],
+            "natural language processing": ["nlp", "text analysis", "language understanding"],
+            "text analysis": ["natural language processing", "nlp", "language understanding"],
+            
+            # Robotics & Automation (G06N - control systems)
+            "robotics": ["automation", "control systems", "automated systems", "mechatronics"],
+            "automation": ["robotics", "control systems", "automated systems"],
+            "robot": ["robotics", "automation", "automated systems"],
+            "robotic": ["robotics", "automation", "automated systems"],
+            
+            # Signal Processing (G06N)
+            "signal processing": ["audio processing", "digital signal processing", "dsp"],
+            "audio processing": ["signal processing", "digital signal processing"],
+            "dsp": ["digital signal processing", "signal processing"],
+            
+            # Internet of Things (G06N - connected systems)
+            "iot": ["internet of things", "connected devices", "smart devices", "wireless sensors"],
+            "internet of things": ["iot", "connected devices", "smart devices"],
+            "connected devices": ["iot", "internet of things", "smart devices"],
+            
+            # Blockchain & Distributed Systems (G06N)
+            "blockchain": ["distributed ledger", "dlt", "smart contracts", "decentralized systems"],
+            "distributed ledger": ["blockchain", "dlt", "smart contracts"],
+            "smart contracts": ["blockchain", "distributed ledger", "dlt"],
+            
+            # Cloud Computing (G06N)
+            "cloud computing": ["cloud", "distributed computing", "virtualization", "web services"],
+            "cloud": ["cloud computing", "distributed computing", "virtualization"],
+            
+            # Cybersecurity (G06N)
             "cybersecurity": ["security", "information security", "network security", "cyber security",
-                            "data protection", "privacy", "encryption", "authentication"],
+                            "data protection", "encryption", "authentication"],
+            "security": ["cybersecurity", "information security", "network security"],
             
-            # Quantum Computing
-            "quantum computing": ["quantum", "quantum algorithms", "quantum cryptography", 
-                                "quantum mechanics", "qubits", "quantum gates"],
+            # Quantum Computing (G06N)
+            "quantum computing": ["quantum", "quantum algorithms", "quantum cryptography", "qubits"],
+            "quantum": ["quantum computing", "quantum algorithms", "qubits"],
             
-            # Augmented/Virtual Reality
-            "augmented reality": ["ar", "mixed reality", "virtual reality", "vr", "extended reality", "xr"],
-            "virtual reality": ["vr", "augmented reality", "ar", "mixed reality", "extended reality"],
+            # Augmented/Virtual Reality (G06N)
+            "augmented reality": ["ar", "mixed reality", "virtual reality", "vr", "extended reality"],
+            "virtual reality": ["vr", "augmented reality", "ar", "mixed reality"],
             "ar": ["augmented reality", "mixed reality", "virtual reality"],
             "vr": ["virtual reality", "augmented reality", "mixed reality"],
             
-            # Autonomous Vehicles
-            "autonomous vehicles": ["self-driving", "driverless", "autonomous cars", "tesla technology",
-                                  "autonomous driving", "adas", "advanced driver assistance"],
-            "self-driving": ["autonomous vehicles", "driverless", "autonomous cars", "autonomous driving"],
+            # Autonomous Systems (G06N)
+            "autonomous": ["self-driving", "autonomous systems", "automated decision making"],
+            "autonomous systems": ["autonomous", "automated systems", "control systems"],
             
-            # Robotics
-            "robotics": ["automation", "industrial robots", "service robots", "automated systems",
-                        "mechatronics", "control systems"],
-            
-            # Biotechnology
-            "biotechnology": ["bio", "genetic engineering", "dna", "genomics", "proteomics",
-                            "bioinformatics", "synthetic biology"],
-            
-            # Renewable Energy
-            "solar energy": ["photovoltaic", "solar panels", "renewable energy", "clean energy"],
-            "wind energy": ["wind power", "wind turbines", "renewable energy", "clean energy"],
-            
-            # Electric Vehicles
-            "electric vehicles": ["ev", "electric cars", "battery electric", "hybrid vehicles"],
-            "ev": ["electric vehicles", "electric cars", "battery electric"],
-            
-            # Internet & Web
-            "web3": ["blockchain", "decentralized web", "cryptocurrency", "defi", "nft"],
+            # Software & Applications (G06N)
+            "software": ["application", "program", "system", "platform"],
+            "application": ["software", "program", "system", "platform"],
             "api": ["application programming interface", "web services", "integration"],
         }
         
@@ -246,7 +252,7 @@ class QueryExpansion:
     
     def smart_search_terms(self, query: str) -> List[str]:
         """
-        Generate comprehensive search terms for a query
+        Generate comprehensive search terms for a query using flexible combinations
         
         Args:
             query: Original search query
@@ -254,28 +260,183 @@ class QueryExpansion:
         Returns:
             List of search terms to try
         """
-        # Preprocess the query
-        processed_query = self.preprocess_query(query)
+        # Extract key terms from the query
+        key_terms = self._extract_key_terms(query)
         
-        # Expand with synonyms
-        expanded_terms = self.expand_query(processed_query)
+        # Start with the original query
+        search_terms = [query]
         
-        # Add related terms
-        related_terms = self.get_related_terms(processed_query)
+        # Add individual key terms
+        search_terms.extend(key_terms)
+        
+        # Generate combinations of key terms (2-3 terms max to avoid too many combinations)
+        if len(key_terms) >= 2:
+            # Add 2-term combinations
+            for i in range(len(key_terms)):
+                for j in range(i + 1, len(key_terms)):
+                    combination = f"{key_terms[i]} {key_terms[j]}"
+                    search_terms.append(combination)
+        
+        # Add broader category searches
+        broader_terms = self._get_broader_search_terms(key_terms)
+        search_terms.extend(broader_terms)
+        
+        # Add expanded synonyms for key terms
+        for term in key_terms:
+            expanded = self.expand_query(term)
+            search_terms.extend(expanded)
+        
+        # Add related terms for key concepts
+        related_terms = []
+        for term in key_terms:
+            related = self.get_related_terms(term)
+            related_terms.extend(related)
         
         # Combine all terms
-        all_terms = [processed_query] + expanded_terms + related_terms
+        all_terms = search_terms + related_terms
         
         # Remove duplicates and limit to reasonable number
         seen = set()
         unique_terms = []
         for term in all_terms:
-            if term.lower() not in seen and len(unique_terms) < 10:  # Limit to 10 terms
+            if term.lower() not in seen and len(unique_terms) < 15:  # Increased limit for better coverage
                 seen.add(term.lower())
                 unique_terms.append(term)
         
         logger.info(f"Smart search terms for '{query}': {unique_terms}")
         return unique_terms
+    
+    def _extract_key_terms(self, query: str) -> List[str]:
+        """
+        Extract key technology terms from a query
+        
+        Args:
+            query: Original search query
+            
+        Returns:
+            List of key technology terms
+        """
+        query_lower = query.lower()
+        key_terms = []
+        
+        # Define technology keywords to look for
+        tech_keywords = [
+            # Robotics and Automation
+            "robot", "robotic", "automation", "automated", "autonomous",
+            
+            # AI and ML
+            "ai", "artificial intelligence", "machine learning", "ml", "deep learning", "neural network",
+            
+            # IoT and Connected Systems
+            "iot", "internet of things", "connected", "smart", "wireless", "sensor",
+            
+            # Blockchain
+            "blockchain", "cryptocurrency", "bitcoin", "ethereum", "smart contract",
+            
+            # Wireless and Communications
+            "5g", "4g", "wifi", "bluetooth", "wireless", "communication",
+            
+            # Cloud and Computing
+            "cloud", "computing", "saas", "api", "software", "application",
+            
+            # Data and Analytics
+            "data", "analytics", "big data", "predictive", "analysis",
+            
+            # Security
+            "security", "cybersecurity", "encryption", "authentication",
+            
+            # Quantum
+            "quantum", "quantum computing", "qubit",
+            
+            # AR/VR
+            "ar", "augmented reality", "vr", "virtual reality", "mixed reality",
+            
+            # Autonomous Vehicles
+            "autonomous", "self-driving", "driverless", "tesla",
+            
+            # Biotechnology
+            "bio", "biotechnology", "dna", "genetic", "crispr",
+            
+            # Renewable Energy
+            "solar", "wind", "renewable", "clean energy", "green",
+            
+            # Electric Vehicles
+            "electric", "ev", "battery", "hybrid",
+            
+            # Web3
+            "web3", "defi", "nft", "decentralized"
+        ]
+        
+        # Find matching keywords in the query
+        for keyword in tech_keywords:
+            if keyword in query_lower:
+                key_terms.append(keyword)
+        
+        # If no specific tech keywords found, try to extract meaningful terms
+        if not key_terms:
+            # Split query into words and look for meaningful terms
+            words = query_lower.split()
+            for word in words:
+                if len(word) > 3 and word not in ['tell', 'me', 'about', 'patents', 'on', 'using', 'with', 'the', 'and', 'or', 'for']:
+                    key_terms.append(word)
+        
+        # Remove duplicates
+        key_terms = list(set(key_terms))
+        
+        logger.info(f"Extracted key terms from '{query}': {key_terms}")
+        return key_terms
+
+    def _get_broader_search_terms(self, key_terms: List[str]) -> List[str]:
+        """
+        Generate broader search terms based on key terms
+        
+        Args:
+            key_terms: List of extracted key terms
+            
+        Returns:
+            List of broader search terms
+        """
+        broader_terms = []
+        
+        # Map key terms to broader categories
+        for term in key_terms:
+            if term in ["robot", "robotic", "automation", "automated"]:
+                broader_terms.extend([
+                    "industrial automation",
+                    "manufacturing automation", 
+                    "process automation",
+                    "control systems",
+                    "mechatronics"
+                ])
+            elif term in ["ai", "artificial intelligence", "machine learning", "ml"]:
+                broader_terms.extend([
+                    "intelligent systems",
+                    "smart technology",
+                    "automated decision making",
+                    "predictive systems",
+                    "cognitive computing"
+                ])
+            elif term in ["iot", "internet of things", "connected", "smart"]:
+                broader_terms.extend([
+                    "connected devices",
+                    "smart systems",
+                    "wireless sensors",
+                    "edge computing"
+                ])
+            elif term in ["blockchain", "cryptocurrency"]:
+                broader_terms.extend([
+                    "distributed systems",
+                    "digital ledger",
+                    "smart contracts"
+                ])
+            elif term in ["5g", "wireless", "communication"]:
+                broader_terms.extend([
+                    "mobile technology",
+                    "wireless communication",
+                    "network infrastructure"
+                ])
+        
+        return broader_terms
 
 # Global instance for easy access
 query_expander = QueryExpansion() 
