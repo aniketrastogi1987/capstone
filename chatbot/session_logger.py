@@ -54,21 +54,20 @@ class SessionMetrics:
     avg_topic_relevance_score: float = 0.0
     avg_politeness_score: float = 0.0
     
-    # Evaluation summary
+    # Evaluation summary (combined metrics)
     avg_relevance_score: float = 0.0
     avg_coherence_score: float = 0.0
     
-    # Enhanced evaluation metrics
+    # Additional evaluation metrics
     avg_factual_accuracy: float = 0.0
     avg_completeness: float = 0.0
-    avg_logical_flow: float = 0.0
-    avg_contextual_consistency: float = 0.0
-    avg_topical_relevance_unity: float = 0.0
-    avg_reference_resolution: float = 0.0
-    avg_discourse_structure_cohesion: float = 0.0
-    avg_faithfulness_retrieval_chain: float = 0.0
-    avg_temporal_causal_coherence: float = 0.0
-    avg_semantic_coherence: float = 0.0
+    
+    # OpenAI validation metrics
+    avg_openai_validation_score: float = 0.0
+    total_openai_validations: int = 0
+    total_openai_hallucinations: int = 0
+    total_openai_corrections: int = 0
+    avg_openai_validation_time: float = 0.0
     
     # System health
     lightrag_available: bool = True
@@ -121,7 +120,13 @@ class SessionLogger:
                         guardrail_scores: Dict[str, float],
                         evaluation_scores: Optional[Dict[str, float]] = None,
                         data_source: str = "lightrag",
-                        error_message: Optional[str] = None):
+                        error_message: Optional[str] = None,
+                        openai_validation_score: float = 0.0,
+                        openai_hallucination_detected: bool = False,
+                        openai_validation_time: float = 0.0,
+                        openai_corrections_applied: bool = False,
+                        openai_validation_success: bool = False,
+                        openai_validation_details: Dict = None):
         """Log a single conversation entry"""
         
         entry = ConversationEntry(
@@ -149,6 +154,15 @@ class SessionLogger:
         if evaluation_scores:
             self._update_evaluation_averages(evaluation_scores)
         
+        # Update OpenAI validation averages
+        if openai_validation_score > 0:
+            self._update_openai_averages(
+                openai_validation_score=openai_validation_score,
+                openai_hallucination_detected=openai_hallucination_detected,
+                openai_validation_time=openai_validation_time,
+                openai_corrections_applied=openai_corrections_applied
+            )
+        
         # Track data source usage
         if data_source == "neo4j":
             self.metrics.neo4j_fallback_used += 1
@@ -175,7 +189,13 @@ class SessionLogger:
                     guardrail_scores=guardrail_scores,
                     evaluation_scores=evaluation_scores,
                     session_id=self.session_id,
-                    user_id="web_user"  # Default for web interface
+                    user_id="web_user",  # Default for web interface
+                    openai_validation_score=openai_validation_score,
+                    openai_hallucination_detected=openai_hallucination_detected,
+                    openai_validation_time=openai_validation_time,
+                    openai_corrections_applied=openai_corrections_applied,
+                    openai_validation_success=openai_validation_success,
+                    openai_validation_details=openai_validation_details
                 )
                 
                 # Record performance metric
@@ -208,7 +228,13 @@ class SessionLogger:
                     response_time_ms=int(response_time * 1000),
                     guardrail_scores=guardrail_scores,
                     evaluation_scores=evaluation_scores,
-                    interaction_type="llm_rag" if evaluation_scores else "menu_selection"
+                    interaction_type="llm_rag" if evaluation_scores else "menu_selection",
+                    openai_validation_score=openai_validation_score,
+                    openai_hallucination_detected=openai_hallucination_detected,
+                    openai_validation_time=openai_validation_time,
+                    openai_corrections_applied=openai_corrections_applied,
+                    openai_validation_success=openai_validation_success,
+                    openai_validation_details=openai_validation_details
                 )
                 
                 # Check for session closure
@@ -251,29 +277,59 @@ class SessionLogger:
         )
     
     def _update_evaluation_averages(self, scores: Dict[str, float]):
-        """Update running averages for evaluation scores"""
+        """Update running averages for evaluation scores with NULL value filtering"""
         current_count = self.metrics.total_responses
         
-        # Update basic evaluation scores
-        self.metrics.avg_relevance_score = (
-            (self.metrics.avg_relevance_score * (current_count - 1) + scores.get('relevance_score', 0.0)) / current_count
-        )
-        self.metrics.avg_coherence_score = (
-            (self.metrics.avg_coherence_score * (current_count - 1) + scores.get('coherence_score', 0.0)) / current_count
-        )
+        # Helper function to filter NULL values (values below 0.1)
+        def filter_null_value(value: float) -> float:
+            return value if value > 0.1 else None
         
-        # Update enhanced evaluation metrics
-        enhanced_metrics = [
-            'factual_accuracy', 'completeness', 'logical_flow', 'contextual_consistency',
-            'topical_relevance_unity', 'reference_resolution', 'discourse_structure_cohesion',
-            'faithfulness_retrieval_chain', 'temporal_causal_coherence', 'semantic_coherence'
-        ]
+        # Update basic evaluation scores with NULL filtering
+        new_relevance = filter_null_value(scores.get('relevance_score', 0.0))
+        if new_relevance is not None:
+            self.metrics.avg_relevance_score = (
+                (self.metrics.avg_relevance_score * (current_count - 1) + new_relevance) / current_count
+            )
         
-        for metric in enhanced_metrics:
+        new_coherence = filter_null_value(scores.get('coherence_score', 0.0))
+        if new_coherence is not None:
+            self.metrics.avg_coherence_score = (
+                (self.metrics.avg_coherence_score * (current_count - 1) + new_coherence) / current_count
+            )
+        
+        # Update additional evaluation metrics with NULL filtering
+        additional_metrics = ['factual_accuracy', 'completeness']
+        
+        for metric in additional_metrics:
             current_avg = getattr(self.metrics, f'avg_{metric}', 0.0)
-            new_value = scores.get(metric, 0.0)
-            setattr(self.metrics, f'avg_{metric}', 
-                   (current_avg * (current_count - 1) + new_value) / current_count)
+            new_value = filter_null_value(scores.get(metric, 0.0))
+            
+            if new_value is not None:
+                setattr(self.metrics, f'avg_{metric}', 
+                       (current_avg * (current_count - 1) + new_value) / current_count)
+    
+    def _update_openai_averages(self, openai_validation_score: float, openai_hallucination_detected: bool, 
+                               openai_validation_time: float, openai_corrections_applied: bool):
+        """Update running averages for OpenAI validation metrics"""
+        current_count = self.metrics.total_responses
+        
+        # Update OpenAI validation score average
+        self.metrics.avg_openai_validation_score = (
+            (self.metrics.avg_openai_validation_score * (current_count - 1) + openai_validation_score) / current_count
+        )
+        
+        # Update OpenAI validation time average
+        if openai_validation_time > 0:
+            self.metrics.avg_openai_validation_time = (
+                (self.metrics.avg_openai_validation_time * (current_count - 1) + openai_validation_time) / current_count
+            )
+        
+        # Update counters
+        self.metrics.total_openai_validations += 1
+        if openai_hallucination_detected:
+            self.metrics.total_openai_hallucinations += 1
+        if openai_corrections_applied:
+            self.metrics.total_openai_corrections += 1
     
     def update_system_status(self, lightrag_available: bool = True):
         """Update system availability status"""
@@ -383,15 +439,14 @@ class SessionLogger:
                 "avg_relevance": self.metrics.avg_relevance_score,
                 "avg_coherence": self.metrics.avg_coherence_score,
                 "avg_factual_accuracy": self.metrics.avg_factual_accuracy,
-                "avg_completeness": self.metrics.avg_completeness,
-                "avg_logical_flow": self.metrics.avg_logical_flow,
-                "avg_contextual_consistency": self.metrics.avg_contextual_consistency,
-                "avg_topical_relevance_unity": self.metrics.avg_topical_relevance_unity,
-                "avg_reference_resolution": self.metrics.avg_reference_resolution,
-                "avg_discourse_structure_cohesion": self.metrics.avg_discourse_structure_cohesion,
-                "avg_faithfulness_retrieval_chain": self.metrics.avg_faithfulness_retrieval_chain,
-                "avg_temporal_causal_coherence": self.metrics.avg_temporal_causal_coherence,
-                "avg_semantic_coherence": self.metrics.avg_semantic_coherence
+                "avg_completeness": self.metrics.avg_completeness
+            },
+            "openai_validation_summary": {
+                "avg_validation_score": self.metrics.avg_openai_validation_score,
+                "total_validations": self.metrics.total_openai_validations,
+                "total_hallucinations": self.metrics.total_openai_hallucinations,
+                "total_corrections": self.metrics.total_openai_corrections,
+                "avg_validation_time": self.metrics.avg_openai_validation_time
             },
             "system_usage": {
                 "lightrag_available": self.metrics.lightrag_available,

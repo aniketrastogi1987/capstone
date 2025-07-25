@@ -11,13 +11,20 @@ import json
 import logging
 from datetime import datetime
 from typing import Dict, List, Optional
+from pathlib import Path
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class DataSync:
-    def __init__(self, sqlite_path: str = "sessions.db", postgres_config: Dict = None):
-        self.sqlite_path = sqlite_path
+    def __init__(self, sqlite_path: str = None, postgres_config: Dict = None):
+        # Use absolute path for SQLite database
+        if sqlite_path is None:
+            current_dir = Path(__file__).parent
+            project_root = current_dir.parent
+            sqlite_path = project_root / "sessions.db"
+        
+        self.sqlite_path = str(sqlite_path)
         self.postgres_config = postgres_config or {
             'host': 'localhost',
             'port': 5432,

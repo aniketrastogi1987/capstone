@@ -52,6 +52,13 @@ class EvaluationScores:
     factual_accuracy: float = 0.0
     completeness: float = 0.0
     
+    # OpenAI Validation Metrics
+    openai_validation_score: float = 0.0
+    openai_hallucination_detected: bool = False
+    openai_validation_time: float = 0.0
+    openai_corrections_applied: bool = False
+    openai_validation_success: bool = False
+    
     def to_dict(self) -> Dict[str, float]:
         return {
             'relevance_score': self.relevance_score,
@@ -68,7 +75,12 @@ class EvaluationScores:
             'temporal_causal_coherence': self.temporal_causal_coherence,
             'semantic_coherence': self.semantic_coherence,
             'factual_accuracy': self.factual_accuracy,
-            'completeness': self.completeness
+            'completeness': self.completeness,
+            'openai_validation_score': self.openai_validation_score,
+            'openai_hallucination_detected': float(self.openai_hallucination_detected),
+            'openai_validation_time': self.openai_validation_time,
+            'openai_corrections_applied': float(self.openai_corrections_applied),
+            'openai_validation_success': float(self.openai_validation_success)
         }
     
     def get_overall_score(self) -> float:
@@ -79,7 +91,8 @@ class EvaluationScores:
             self.logical_flow, self.contextual_consistency, self.topical_relevance_unity,
             self.reference_resolution, self.discourse_structure_cohesion,
             self.faithfulness_retrieval_chain, self.temporal_causal_coherence,
-            self.semantic_coherence, self.factual_accuracy, self.completeness
+            self.semantic_coherence, self.factual_accuracy, self.completeness,
+            self.openai_validation_score
         ]
         return sum(scores) / len(scores) if scores else 0.0
 
@@ -185,31 +198,44 @@ class ResponseEvaluator:
             return 0.3  # Minimum threshold instead of 0.0
     
     def calculate_coherence_score(self, text: str) -> float:
-        """Calculate coherence score using weighted combination of temporal, semantic, and contextual coherence"""
+        """Calculate coherence score using weighted combination of all coherence components"""
         try:
             if not text or len(text.strip()) < 10:
                 self.logger.warning("Text too short for coherence calculation")
                 return 0.4  # Minimum threshold instead of 0.0
             
-            # Calculate the three coherence components
+            # Calculate all coherence components
             temporal_coherence = self.calculate_temporal_causal_coherence("", text)
             semantic_coherence = self.calculate_semantic_coherence("", text)
             contextual_coherence = self.calculate_contextual_consistency("", text)
+            discourse_cohesion = self.calculate_discourse_structure_cohesion(text)
+            logical_flow = self.calculate_logical_flow("", text)
             
-            # Weighted combination (as discussed yesterday)
-            # Weights: Temporal (0.3), Semantic (0.4), Contextual (0.3)
-            weighted_coherence = (
-                temporal_coherence * 0.3 +
-                semantic_coherence * 0.4 +
-                contextual_coherence * 0.3
-            )
+            # Filter out NULL/zero values (values below 0.1 are considered NULL)
+            coherence_components = []
+            if temporal_coherence > 0.1:
+                coherence_components.append(temporal_coherence)
+            if semantic_coherence > 0.1:
+                coherence_components.append(semantic_coherence)
+            if contextual_coherence > 0.1:
+                coherence_components.append(contextual_coherence)
+            if discourse_cohesion > 0.1:
+                coherence_components.append(discourse_cohesion)
+            if logical_flow > 0.1:
+                coherence_components.append(logical_flow)
             
-            # If weighted approach fails, fallback to basic coherence
-            if weighted_coherence < 0.3:
-                self.logger.warning("Weighted coherence too low, falling back to basic coherence")
+            # If we have valid components, calculate weighted average
+            if coherence_components:
+                # Weights: Temporal (0.2), Semantic (0.3), Contextual (0.2), Discourse (0.15), Logical (0.15)
+                weights = [0.2, 0.3, 0.2, 0.15, 0.15]
+                weighted_coherence = sum(comp * weight for comp, weight in zip(coherence_components, weights[:len(coherence_components)]))
+                weighted_coherence /= sum(weights[:len(coherence_components)])
+                
+                return max(0.4, min(1.0, weighted_coherence))
+            else:
+                # Fallback to basic coherence if all components are NULL
+                self.logger.warning("All coherence components are NULL, using basic coherence")
                 return self._calculate_basic_coherence(text)
-            
-            return max(0.4, min(1.0, weighted_coherence))
             
         except Exception as e:
             self.logger.error(f"Error calculating enhanced coherence score: {e}")

@@ -14,6 +14,7 @@ from typing import Dict, List, Optional, Any
 from pathlib import Path
 import threading
 import time
+import os
 
 logger = logging.getLogger(__name__)
 
@@ -62,7 +63,13 @@ class SessionDatabase:
                     guardrail_scores TEXT,
                     evaluation_scores TEXT,
                     interaction_type VARCHAR(50) DEFAULT 'llm_rag',
-                    session_phase VARCHAR(50) DEFAULT 'active'
+                    session_phase VARCHAR(50) DEFAULT 'active',
+                    openai_validation_score REAL DEFAULT 0.0,
+                    openai_hallucination_detected BOOLEAN DEFAULT FALSE,
+                    openai_validation_time REAL DEFAULT 0.0,
+                    openai_corrections_applied BOOLEAN DEFAULT FALSE,
+                    openai_validation_success BOOLEAN DEFAULT FALSE,
+                    openai_validation_details TEXT
                 )
             """)
             
@@ -117,7 +124,10 @@ class SessionDatabase:
     def record_interaction(self, session_id: str, query: str, response: str, 
                           data_source: str = "llm_rag", response_time_ms: int = 0,
                           guardrail_scores: Dict = None, evaluation_scores: Dict = None,
-                          interaction_type: str = "llm_rag") -> bool:
+                          interaction_type: str = "llm_rag", openai_validation_score: float = 0.0,
+                          openai_hallucination_detected: bool = False, openai_validation_time: float = 0.0,
+                          openai_corrections_applied: bool = False, openai_validation_success: bool = False,
+                          openai_validation_details: Dict = None) -> bool:
         """Record an interaction in the session interactions table"""
         try:
             conn = self._get_connection()
@@ -126,15 +136,20 @@ class SessionDatabase:
             # Prepare data
             guardrail_json = json.dumps(guardrail_scores) if guardrail_scores else None
             evaluation_json = json.dumps(evaluation_scores) if evaluation_scores else None
+            openai_details_json = json.dumps(openai_validation_details) if openai_validation_details else None
             
             # Record in session interactions table
             cursor.execute("""
                 INSERT INTO session_interactions 
                 (session_id, query_text, response_text, data_source, response_time_ms, 
-                 guardrail_scores, evaluation_scores, interaction_type)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                 guardrail_scores, evaluation_scores, interaction_type, openai_validation_score,
+                 openai_hallucination_detected, openai_validation_time, openai_corrections_applied,
+                 openai_validation_success, openai_validation_details)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (session_id, query, response, data_source, response_time_ms,
-                 guardrail_json, evaluation_json, interaction_type))
+                 guardrail_json, evaluation_json, interaction_type, openai_validation_score,
+                 openai_hallucination_detected, openai_validation_time, openai_corrections_applied,
+                 openai_validation_success, openai_details_json))
             
             # Update session metadata
             cursor.execute("""
@@ -595,4 +610,9 @@ class SessionDatabase:
             return {'error': str(e)}
 
 # Global instance
-session_db = SessionDatabase() 
+# Get the project root directory (parent of monitoring directory)
+current_dir = Path(__file__).parent
+project_root = current_dir.parent
+db_path = project_root / "sessions.db"
+
+session_db = SessionDatabase(str(db_path)) 

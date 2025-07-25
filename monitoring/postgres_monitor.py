@@ -52,7 +52,13 @@ class PostgresMonitor:
                     guardrail_scores JSONB,
                     evaluation_scores JSONB,
                     session_id VARCHAR(100),
-                    user_id VARCHAR(100)
+                    user_id VARCHAR(100),
+                    openai_validation_score REAL DEFAULT 0.0,
+                    openai_hallucination_detected BOOLEAN DEFAULT FALSE,
+                    openai_validation_time REAL DEFAULT 0.0,
+                    openai_corrections_applied BOOLEAN DEFAULT FALSE,
+                    openai_validation_success BOOLEAN DEFAULT FALSE,
+                    openai_validation_details JSONB
                 )
             """)
             
@@ -93,7 +99,10 @@ class PostgresMonitor:
     def record_chat_metric(self, query_text: str, response_text: str, response_time_ms: int,
                           tokens_used: int, model_name: str, source_count: int = 0,
                           guardrail_scores: Dict = None, evaluation_scores: Dict = None,
-                          session_id: str = None, user_id: str = None):
+                          session_id: str = None, user_id: str = None,
+                          openai_validation_score: float = 0.0, openai_hallucination_detected: bool = False,
+                          openai_validation_time: float = 0.0, openai_corrections_applied: bool = False,
+                          openai_validation_success: bool = False, openai_validation_details: Dict = None):
         """Record a chat interaction metric"""
         try:
             with self.lock:
@@ -103,13 +112,17 @@ class PostgresMonitor:
                 cursor.execute("""
                     INSERT INTO chat_metrics 
                     (query_text, response_text, response_time_ms, tokens_used, model_name, 
-                     source_count, guardrail_scores, evaluation_scores, session_id, user_id)
-                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                     source_count, guardrail_scores, evaluation_scores, session_id, user_id,
+                     openai_validation_score, openai_hallucination_detected, openai_validation_time,
+                     openai_corrections_applied, openai_validation_success, openai_validation_details)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 """, (
                     query_text, response_text, response_time_ms, tokens_used, model_name,
                     source_count, json.dumps(guardrail_scores) if guardrail_scores else None,
                     json.dumps(evaluation_scores) if evaluation_scores else None,
-                    session_id, user_id
+                    session_id, user_id, openai_validation_score, openai_hallucination_detected,
+                    openai_validation_time, openai_corrections_applied, openai_validation_success,
+                    json.dumps(openai_validation_details) if openai_validation_details else None
                 ))
                 
                 conn.commit()
